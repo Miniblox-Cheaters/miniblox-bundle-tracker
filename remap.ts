@@ -9,15 +9,20 @@
  * although that was probably way after Vape for Miniblox was discontinued or last updated.
  * Note that this isn't perfect, so it still can break.
  * I've added multiple more regexes, I probably should add those to Vape for Miniblox.
+ * @module
 */
 
+/**
+ * Some regexes used to remap the bundle.
+ * The 1st match is the name used.
+ */
 const REGEXES = {
-	moveStrafe: /player\.serverMoveStrafe *= *player\.([a-zA-Z]+)/gm,
-	moveForward: /player\.serverMoveForward *= *player\.([a-zA-Z]+)/gm,
-	keyPressedPlayer: /function ([a-zA-Z]*)\(([a-zA-Z]*)\) \{\n\t*return keyPressed/m,
+	moveStrafe: /this\.([a-zA-Z]+)\s*=\s*\([a-zA-Z]+\.right/,
+	moveForward: /this\.([a-zA-Z]+)\s*=\s*\([a-zA-Z]+\.(up|down)/,
+	keyPressedPlayer: /function ([a-zA-Z]*)\(([a-zA-Z]*)\)\s*\{\n*\t*return keyPressed/m,
 	// World#getLivingEntityCount
-	entities: /this\.([a-zA-Z]*)\.values\(\)\) [a-zA-Z]* instanceof EntityLiving/m,
-	isInvisible: /[a-zA-Z]+\.([a-zA-Z]*)\(\)\) &&\n\t*\([a-zA-Z]* = new [a-zA-Z]*\(/m,
+	entities: /this\.([a-zA-Z]*)\.values\(\)\)\s*[a-zA-Z]* instanceof EntityLiving/m,
+	isInvisible: /[a-zA-Z]+\.([a-zA-Z]*)\(\)\)\s*&&\n*\t*\([a-zA-Z]*\s*=\s*new\s+[a-zA-Z]*\(/m,
 	attackTargetEntityWithCurrentItem: /hitVec.z,\n\t*\}\),\n\t*\}\),\n\t*\),\n\t*player.([a-zA-Z]*)\(/m,
 	lastReportedYaw: /this\.([a-zA-Z]*) *= *this\.yaw\),\n*\t*\(this\.last/m,
 	windowClick: /([a-zA-Z]*)\(this\.inventorySlots\.windowId/m,
@@ -25,15 +30,14 @@ const REGEXES = {
 	playerController: /const ([a-zA-Z]*) = new PlayerController\(/,
 	boxGeometry: /w = new Mesh\(\n\t*new ([a-zA-Z]*)\(1, 1, 1\),/m,
 	// playerControllerMP
-	syncItem: /([a-zA-Z]*)\(\),\n\t*ClientSocket\.sendPacket/m,
+	syncItem: /([a-zA-Z]*)\(\),\n*\t*ClientSocket\.sendPacket/m,
 	// GLTF manager
-	gltfManager: /([a-zA-Z]*)("|'|`), new GLTFManager/,
-	AxisAlignedBoundingBox: /this\.boundingBox = new ([a-zA-Z]*)/m,
-	loadModels: /loadTextures\(\),*\n\t*this\.[a-zA-Z]*\.([a-zA-Z]*)\(\)/m,
+	gltfManager: /([a-zA-Z]*)("|'|`),\s*new GLTFManager/,
+	AxisAlignedBoundingBox: /this\.boundingBox\s*=\s*new ([a-zA-Z]*)/m,
+	loadModels: /loadTextures\(\),*\n*\t*this\.[a-zA-Z]*\.([a-zA-Z]*)\(\)/m,
 	// Shader Manager
 	addShaderToMaterialWorld: /ShaderManager\.([a-zA-Z]*)\(this\.materialWorld/,
-	materialTransparentWorld: /this\.([a-zA-Z]*) = this\.materialTransparent\.clone\(/,
-	
+	materialTransparentWorld: /this\.([a-zA-Z]*)\s*=\s*this\.materialTransparent\.clone\(/
 };
 
 // pasted from Llama 3.3 70B on DuckDuckGo
