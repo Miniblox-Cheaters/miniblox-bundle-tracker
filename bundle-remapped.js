@@ -50139,7 +50139,7 @@ const INTRP_ALPHA = 0.1,
 	},
 	MSPT = 50,
 	MB = 1024 * 1024,
-	VERSION$1 = "3.41.60",
+	VERSION$1 = "3.41.61",
 	MODE = "production";
 if (["development", "local", "staging", "production"].indexOf(MODE) === -1)
 	throw new Error(`Unknown mode: ${MODE}`);
@@ -50933,7 +50933,7 @@ const BASE_DOMAIN = "coolmathblox.ca",
 		clone() {
 			return new Jn(this.x, this.y, this.z);
 		}
-		static WAtxESylEU(u, h) {
+		static MRoxGQfEpt(u, h) {
 			return { [Symbol.iterator]: () => blockPosIterator(u, h) };
 		}
 	};
@@ -67307,19 +67307,19 @@ const language$2 = {
 			return this.inLava;
 		}
 		isEating() {
-			return this.IWenGZCpTO(4);
+			return this.XdmXvBHabQ(4);
 		}
 		setEating(u) {
-			this.lcDFQNrHhD(4, u);
+			this.YmZmvfcxIW(4, u);
 		}
 		entityInit() {}
 		getDataWatcher() {
 			return this.dataWatcher;
 		}
-		IWenGZCpTO(u) {
+		XdmXvBHabQ(u) {
 			return (this.dataWatcher.getWatchableObjectByte(0) & (1 << u)) != 0;
 		}
-		lcDFQNrHhD(u, h) {
+		YmZmvfcxIW(u, h) {
 			const p = this.dataWatcher.getWatchableObjectByte(0);
 			h
 				? this.dataWatcher.updateObject(0, p | (1 << u))
@@ -67528,7 +67528,7 @@ const language$2 = {
 		setCurrentItemOrArmor(u, h) {}
 		isBurning() {
 			const u = this.world != null && this.world.isClient;
-			return this.fire > 0 || (u && this.IWenGZCpTO(0));
+			return this.fire > 0 || (u && this.XdmXvBHabQ(0));
 		}
 		getInventory() {
 			return null;
@@ -68026,19 +68026,19 @@ const language$2 = {
 			return this.pos.distanceToSquared(u.pos);
 		}
 		setSprinting(u) {
-			this.lcDFQNrHhD(3, u);
+			this.YmZmvfcxIW(3, u);
 		}
 		isSprinting() {
 			return !1;
 		}
 		isInvisible() {
-			return this.IWenGZCpTO(5);
+			return this.XdmXvBHabQ(5);
 		}
-		SOKWTjLuAW(u) {
+		MUZDBTHhXp(u) {
 			return this.isInvisible();
 		}
 		setInvisible(u) {
-			this.lcDFQNrHhD(5, u);
+			this.YmZmvfcxIW(5, u);
 		}
 		entityDropItem(u, h) {
 			if (u.stackSize != 0 && u.getItem() != null) {
@@ -69184,7 +69184,7 @@ const ga = class ga {
 					let x = ga.parsePotionEffects(y, 0, y.length, u);
 					if (x > 0) {
 						let S = 0;
-						const b = ga.GZWchDwCHS.get(g.getId());
+						const b = ga.hSWRsXaCej.get(g.getId());
 						b != null &&
 							((S = ga.parsePotionEffects(b, 0, b.length, u)),
 							S < 0 && (S = 0)),
@@ -69221,7 +69221,7 @@ I(ga, "field_77924_a", null),
 	I(ga, "pufferfishEffect", "+0-1+2+3+13&4-4"),
 	I(ga, "rabbitFootEffect", "+0+1-2+3&4-4+13"),
 	I(ga, "potionRequirements", new Map()),
-	I(ga, "GZWchDwCHS", new Map()),
+	I(ga, "hSWRsXaCej", new Map()),
 	I(ga, "DATAVALUE_COLORS", new Map()),
 	I(ga, "potionPrefixes", [
 		"potion.prefix.mundane",
@@ -69502,15 +69502,15 @@ PotionHelper.potionRequirements.set(
 	Potions.jump.getId(),
 	"0 & 1 & !2 & 3 & 3+6",
 );
-PotionHelper.GZWchDwCHS.set(Potions.moveSpeed.getId(), "5");
-PotionHelper.GZWchDwCHS.set(Potions.digSpeed.getId(), "5");
-PotionHelper.GZWchDwCHS.set(Potions.damageBoost.getId(), "5");
-PotionHelper.GZWchDwCHS.set(Potions.regeneration.getId(), "5");
-PotionHelper.GZWchDwCHS.set(Potions.harm.getId(), "5");
-PotionHelper.GZWchDwCHS.set(Potions.heal.getId(), "5");
-PotionHelper.GZWchDwCHS.set(Potions.resistance.getId(), "5");
-PotionHelper.GZWchDwCHS.set(Potions.poison.getId(), "5");
-PotionHelper.GZWchDwCHS.set(Potions.jump.getId(), "5");
+PotionHelper.hSWRsXaCej.set(Potions.moveSpeed.getId(), "5");
+PotionHelper.hSWRsXaCej.set(Potions.digSpeed.getId(), "5");
+PotionHelper.hSWRsXaCej.set(Potions.damageBoost.getId(), "5");
+PotionHelper.hSWRsXaCej.set(Potions.regeneration.getId(), "5");
+PotionHelper.hSWRsXaCej.set(Potions.harm.getId(), "5");
+PotionHelper.hSWRsXaCej.set(Potions.heal.getId(), "5");
+PotionHelper.hSWRsXaCej.set(Potions.resistance.getId(), "5");
+PotionHelper.hSWRsXaCej.set(Potions.poison.getId(), "5");
+PotionHelper.hSWRsXaCej.set(Potions.jump.getId(), "5");
 const Zo = class Zo extends Entity {
 	constructor(h) {
 		super(h);
@@ -69519,8 +69519,8 @@ const Zo = class Zo extends Entity {
 		I(this, "jumpTicks", 0);
 		I(this, "initialJumpVelocity", 0.42);
 		I(this, "jumpMovementFactor");
-		I(this, "KbSFMNOhvB", 0);
-		I(this, "uBBZmpSvyB", 0);
+		I(this, "cjbPRmlOYN", 0);
+		I(this, "qIxbufwMYG", 0);
 		I(this, "prevLimbSwingAmount", 0);
 		I(this, "limbSwingAmount", 0);
 		I(this, "limbSwing", 0);
@@ -69891,7 +69891,7 @@ const Zo = class Zo extends Entity {
 			Math.abs(this.motion.y) < 0.005 && (this.motion.y = 0),
 			Math.abs(this.motion.z) < 0.005 && (this.motion.z = 0),
 			this.isMovementBlocked()
-				? ((this.jumping = !1), (this.KbSFMNOhvB = 0), (this.uBBZmpSvyB = 0))
+				? ((this.jumping = !1), (this.cjbPRmlOYN = 0), (this.qIxbufwMYG = 0))
 				: this.isServerWorld() && this.updateEntityActionState(),
 			this.jumping
 				? this.inWater
@@ -69902,9 +69902,9 @@ const Zo = class Zo extends Entity {
 							this.jumpTicks == 0 &&
 							(this.jump(), (this.jumpTicks = 10))
 				: (this.jumpTicks = 0),
-			(this.KbSFMNOhvB *= 0.98),
-			(this.uBBZmpSvyB *= 0.98),
-			this.moveEntityWithHeading(this.KbSFMNOhvB, this.uBBZmpSvyB),
+			(this.cjbPRmlOYN *= 0.98),
+			(this.qIxbufwMYG *= 0.98),
+			this.moveEntityWithHeading(this.cjbPRmlOYN, this.qIxbufwMYG),
 			this.world.isServer &&
 				this.doEntityCollision &&
 				this.collideWithNearbyEntities();
@@ -113818,7 +113818,7 @@ class PathNavigateGround extends PathNavigate {
 		} else return !1;
 	}
 	isPositionClear(h, p, g, y, x, S, b, v, w) {
-		for (const k of BlockPos.WAtxESylEU(
+		for (const k of BlockPos.MRoxGQfEpt(
 			new BlockPos(h, p, g),
 			new BlockPos(h + y - 1, p + x - 1, g + S - 1),
 		)) {
@@ -114326,7 +114326,7 @@ class EntityLiving extends EntityLivingBase {
 		}
 	}
 	setMoveForward(h) {
-		this.uBBZmpSvyB = h;
+		this.qIxbufwMYG = h;
 	}
 	setAIMoveSpeed(h) {
 		super.setAIMoveSpeed(h), this.setMoveForward(h);
@@ -115120,7 +115120,7 @@ const Oi = class Oi {
 		return this.getBlock(u).isAir();
 	}
 	areaPassesCheck(u, h, p) {
-		for (const g of BlockPos.WAtxESylEU(u, h))
+		for (const g of BlockPos.MRoxGQfEpt(u, h))
 			if (!p(this.getBlock(g))) return !1;
 		return !0;
 	}
@@ -118314,7 +118314,7 @@ class EntityPlayer extends EntityLivingBase {
 				: (this.motion.x = this.motion.z = 0);
 	}
 	isSprinting() {
-		return this.IWenGZCpTO(3);
+		return this.XdmXvBHabQ(3);
 	}
 	attackTargetEntityWithCurrentItem(h) {
 		var x;
@@ -118436,12 +118436,12 @@ class EntityPlayer extends EntityLivingBase {
 			g.dead || (g.id != this.id && g.onCollideWithPlayer(this));
 	}
 	applyInput(h, p = !1) {
-		(this.KbSFMNOhvB = (h.right ? 1 : 0) + (h.left ? -1 : 0)),
-			(this.uBBZmpSvyB = (h.up ? -1 : 0) + (h.down ? 1 : 0)),
+		(this.cjbPRmlOYN = (h.right ? 1 : 0) + (h.left ? -1 : 0)),
+			(this.qIxbufwMYG = (h.up ? -1 : 0) + (h.down ? 1 : 0)),
 			(this.yaw = h.yaw),
 			(this.pitch = h.pitch),
 			(this.jumping = h.jump),
-			h.sneak && ((this.KbSFMNOhvB *= 0.3), (this.uBBZmpSvyB *= 0.3)),
+			h.sneak && ((this.cjbPRmlOYN *= 0.3), (this.qIxbufwMYG *= 0.3)),
 			this.onPlayerUpdate(),
 			this.setPositionAndRotation(
 				this.pos.x,
@@ -121925,7 +121925,7 @@ const Dl = class Dl extends Item {
 };
 I(Dl, "SUB_ITEMS_CACHE", new Map());
 let ItemPotion = Dl;
-function CrsaIlvQfP(m) {
+function iXOnrACpUr(m) {
 	return (
 		(m = m % (2 * Math.PI)),
 		m >= Math.PI && (m -= 2 * Math.PI),
@@ -122141,11 +122141,11 @@ class EntityBoat extends Entity {
 		const y = this.riddenByEntity;
 		if (this.riddenByEntity instanceof EntityLivingBase) {
 			const k =
-				this.riddenByEntity.yaw - Math.PI / 2 + (-y.KbSFMNOhvB * Math.PI) / 2;
+				this.riddenByEntity.yaw - Math.PI / 2 + (-y.cjbPRmlOYN * Math.PI) / 2;
 			(this.motion.x +=
-				Math.cos(k) * this.speedMultiplier * y.uBBZmpSvyB * 0.1),
+				Math.cos(k) * this.speedMultiplier * y.qIxbufwMYG * 0.1),
 				(this.motion.z +=
-					-Math.sin(k) * this.speedMultiplier * y.uBBZmpSvyB * 0.1);
+					-Math.sin(k) * this.speedMultiplier * y.qIxbufwMYG * 0.1);
 		}
 		for (let k = 0; k < 4; ++k) {
 			const E = Math.floor(this.pos.x + ((k % 2) - 0.5) * 0.8),
@@ -122169,7 +122169,7 @@ class EntityBoat extends Entity {
 		const S = this.prevPos.x - this.pos.x,
 			b = this.prevPos.z - this.pos.z;
 		S * S + b * b > 0.001 && (x = Math.atan2(S, b) - Math.PI / 2);
-		let v = CrsaIlvQfP(x - this.yaw);
+		let v = iXOnrACpUr(x - this.yaw);
 		const w = degToRad(20);
 		v > w && (v = w),
 			v < -w && (v = -w),
@@ -127847,7 +127847,7 @@ class BlockHellPortal extends Block {
 				if (F) continue;
 				const U = { x: "z", z: "x", y: "y" },
 					H = Blocks.hell_portal.defaultState.withState("axis", U[y.name]);
-				for (const j of BlockPos.WAtxESylEU(C, A)) h.setBlockState(j, H, 2);
+				for (const j of BlockPos.MRoxGQfEpt(C, A)) h.setBlockState(j, H, 2);
 			}
 	}
 	onEntityCollidedWithBlock(h, p, g) {
@@ -163366,8 +163366,8 @@ const ql = class ql extends Message$2 {
 		I(this, "sneak");
 		I(this, "sprinting");
 		I(this, "punching");
-		I(this, "KbSFMNOhvB");
-		I(this, "uBBZmpSvyB");
+		I(this, "cjbPRmlOYN");
+		I(this, "qIxbufwMYG");
 		I(this, "fire");
 		I(this, "stopSleeping");
 		proto2.util.initPartial(h, this);
@@ -163395,8 +163395,8 @@ I(ql, "runtime", proto2),
 			{ no: 2, name: "sneak", kind: "scalar", T: 8, opt: !0 },
 			{ no: 3, name: "sprinting", kind: "scalar", T: 8, opt: !0 },
 			{ no: 4, name: "punching", kind: "scalar", T: 8, opt: !0 },
-			{ no: 5, name: "KbSFMNOhvB", kind: "scalar", T: 2, opt: !0 },
-			{ no: 6, name: "uBBZmpSvyB", kind: "scalar", T: 2, opt: !0 },
+			{ no: 5, name: "cjbPRmlOYN", kind: "scalar", T: 2, opt: !0 },
+			{ no: 6, name: "qIxbufwMYG", kind: "scalar", T: 2, opt: !0 },
 			{ no: 20, name: "fire", kind: "scalar", T: 5, opt: !0 },
 			{ no: 21, name: "stopSleeping", kind: "scalar", T: 8, opt: !0 },
 		]),
@@ -186156,7 +186156,7 @@ class PointerLockControls {
 	get camera() {
 		return this.yawObject;
 	}
-	get basAbZgXYW() {
+	get IXdbOkGhCr() {
 		return this.camera.position;
 	}
 }
@@ -189573,7 +189573,7 @@ class SlimeMoveHelper extends EntityMoveHelper {
 											this.slime.getSoundVolume(),
 											((Math.random() - Math.random()) * 0.2 + 1) * 0.8,
 										))
-								: ((this.slime.KbSFMNOhvB = this.slime.uBBZmpSvyB = 0),
+								: ((this.slime.cjbPRmlOYN = this.slime.qIxbufwMYG = 0),
 									this.entity.setAIMoveSpeed(0)))
 						: this.entity.setAIMoveSpeed(
 								this.speed *
@@ -192674,7 +192674,7 @@ class EntityManager {
 		if (
 			this.hidePlayers ||
 			!u.world.isBlockLoaded(BlockPos.fromVector(u.pos)) ||
-			u.SOKWTjLuAW(player) ||
+			u.MUZDBTHhXp(player) ||
 			(u instanceof EntityPlayer && u.isSpectator() && !player.isSpectator())
 		)
 			return !1;
@@ -193799,7 +193799,7 @@ class PlayerMovement extends EntityPlayer {
 		(this.inputSequenceNumber = 0), (this.pendingInputs = []);
 	}
 	updatePlayerMoveState() {
-		(this.KbSFMNOhvB = 0), (this.uBBZmpSvyB = 0);
+		(this.cjbPRmlOYN = 0), (this.qIxbufwMYG = 0);
 		const h =
 				keyPressedPlayer("d") || keyPressedPlayer("right") || touchcontrols.direction.x > 0,
 			p =
@@ -193855,12 +193855,12 @@ class PlayerMovement extends EntityPlayer {
 		const h = this.jumping,
 			p = this.sneak,
 			g = -0.8,
-			y = this.uBBZmpSvyB <= g;
+			y = this.qIxbufwMYG <= g;
 		this.updatePlayerMoveState(),
 			this.isUsingItem() &&
 				!this.isRiding() &&
-				((this.KbSFMNOhvB *= 0.2),
-				(this.uBBZmpSvyB *= 0.2),
+				((this.cjbPRmlOYN *= 0.2),
+				(this.qIxbufwMYG *= 0.2),
 				(this.sprintToggleTimer = 0));
 		const x = this.width * 0.35;
 		this.pushOutOfBlocks(
@@ -193888,7 +193888,7 @@ class PlayerMovement extends EntityPlayer {
 		this.onGround &&
 			!p &&
 			!y &&
-			this.uBBZmpSvyB <= g &&
+			this.qIxbufwMYG <= g &&
 			!this.isSprinting() &&
 			S &&
 			!this.isUsingItem() &&
@@ -193896,13 +193896,13 @@ class PlayerMovement extends EntityPlayer {
 				? (this.sprintToggleTimer = 7)
 				: this.setSprinting(!0)),
 			!this.isSprinting() &&
-				this.uBBZmpSvyB <= g &&
+				this.qIxbufwMYG <= g &&
 				S &&
 				!this.isUsingItem() &&
 				b &&
 				this.setSprinting(!0),
 			this.isSprinting() &&
-				(this.uBBZmpSvyB > g || this.isCollidedHorizontally || !S) &&
+				(this.qIxbufwMYG > g || this.isCollidedHorizontally || !S) &&
 				this.setSprinting(!1),
 			this.flyToggleTimer > 0 && this.flyToggleTimer--,
 			this.abilities.mayFly &&
@@ -193938,7 +193938,7 @@ class PlayerMovement extends EntityPlayer {
 						.translate(new Vector3$1(0, 1, 0))
 						.expandByVector(new Vector3$1(0.15, -0.1, 0.15)),
 				);
-			w.length > 0 && k.length <= 0 && this.uBBZmpSvyB < 0
+			w.length > 0 && k.length <= 0 && this.qIxbufwMYG < 0
 				? (this.jumping = !0)
 				: (this.jumping = !1);
 		}
@@ -193965,7 +193965,7 @@ class PlayerMovement extends EntityPlayer {
 	}
 	checkHeadInBlock() {
 		player.headInBlock = null;
-		const h = BlockPos.fromVector(controls.basAbZgXYW),
+		const h = BlockPos.fromVector(controls.IXdbOkGhCr),
 			p = game.world.getBlockState(h),
 			g = p.getBlock();
 		g.setBlockBoundsBasedOnState(game.world, h),
@@ -194196,8 +194196,8 @@ const Cm = class Cm extends PlayerMovement {
 			this.game.gameScene.camera.getWorldPosition(x);
 			const S = new Vector3$1();
 			this.game.gameScene.camera.getWorldDirection(S), S.negate();
-			const b = controls.basAbZgXYW,
-				v = controls.basAbZgXYW.clone().add(S.multiplyScalar(y)),
+			const b = controls.IXdbOkGhCr,
+				v = controls.IXdbOkGhCr.clone().add(S.multiplyScalar(y)),
 				w = rayTraceBlocks(b, v, !1, !0, !0, this.game.world);
 			if (w) {
 				const k = b.distanceTo(w.hitVec);
@@ -194273,13 +194273,13 @@ const Cm = class Cm extends PlayerMovement {
 				((player.serverPunchState = player.punching),
 				(h.punching = player.punching),
 				(p = !0)),
-			player.KbSFMNOhvB !== player.serverMoveStrafe &&
-				((player.serverMoveStrafe = player.KbSFMNOhvB),
-				(h.KbSFMNOhvB = player.KbSFMNOhvB),
+			player.cjbPRmlOYN !== player.serverMoveStrafe &&
+				((player.serverMoveStrafe = player.cjbPRmlOYN),
+				(h.cjbPRmlOYN = player.cjbPRmlOYN),
 				(p = !0)),
-			player.uBBZmpSvyB !== player.serverMoveForward &&
-				((player.serverMoveForward = player.uBBZmpSvyB),
-				(h.uBBZmpSvyB = player.uBBZmpSvyB),
+			player.qIxbufwMYG !== player.serverMoveForward &&
+				((player.serverMoveForward = player.qIxbufwMYG),
+				(h.qIxbufwMYG = player.qIxbufwMYG),
 				(p = !0)),
 			p && ClientSocket.sendPacket(new SPacketEntityAction(h));
 	}
@@ -194316,8 +194316,8 @@ const Cm = class Cm extends PlayerMovement {
 			: (this.timeInPortal = Math.max(0, this.timeInPortal - 8));
 	}
 	getMoveDirection(h) {
-		let p = this.KbSFMNOhvB,
-			g = this.uBBZmpSvyB,
+		let p = this.cjbPRmlOYN,
+			g = this.qIxbufwMYG,
 			y = p * p + g * g;
 		if (y >= 1e-4) {
 			(y = Math.sqrt(y)),
@@ -194359,7 +194359,7 @@ const Cm = class Cm extends PlayerMovement {
 			);
 	}
 	getEyePos() {
-		return controls.basAbZgXYW;
+		return controls.IXdbOkGhCr;
 	}
 	attackEntityFrom(h, p) {
 		return !1;
@@ -214327,4 +214327,4 @@ async function startGame() {
 		await game.init();
 }
 document.addEventListener("DOMContentLoaded", startGame, !1);
-//# sourceMappingURL=index-Djt4R3pQ.js.map
+//# sourceMappingURL=index-CsYOgaJP.js.map
