@@ -50139,7 +50139,7 @@ const INTRP_ALPHA = 0.1,
 	},
 	MSPT = 50,
 	MB = 1024 * 1024,
-	VERSION$1 = "3.41.63",
+	VERSION$1 = "3.41.64",
 	MODE = "production";
 if (["development", "local", "staging", "production"].indexOf(MODE) === -1)
 	throw new Error(`Unknown mode: ${MODE}`);
@@ -214313,7 +214313,9 @@ function inIframe() {
 		return !0;
 	}
 }
-inIframe() && Game.isCrazyGames;
+inIframe() &&
+	!Game.isCrazyGames &&
+	(window.location.href = "https://www.crazygames.com/embed/miniblox");
 async function startGame() {
 	Game.isCrazyGames &&
 		((document.body.style.overflow = "hidden"),
@@ -214327,4 +214329,4 @@ async function startGame() {
 		await game.init();
 }
 document.addEventListener("DOMContentLoaded", startGame, !1);
-//# sourceMappingURL=index-CADlvjcO.js.map
+//# sourceMappingURL=index-CPJ4mcrw.js.map
