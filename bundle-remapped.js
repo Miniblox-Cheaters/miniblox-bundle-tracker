@@ -50139,7 +50139,7 @@ const INTRP_ALPHA = 0.1,
 	},
 	MSPT = 50,
 	MB = 1024 * 1024,
-	VERSION$1 = "3.41.64",
+	VERSION$1 = "3.41.66",
 	MODE = "production";
 if (["development", "local", "staging", "production"].indexOf(MODE) === -1)
 	throw new Error(`Unknown mode: ${MODE}`);
@@ -214329,4 +214329,4 @@ async function startGame() {
 		await game.init();
 }
 document.addEventListener("DOMContentLoaded", startGame, !1);
-//# sourceMappingURL=index-CPJ4mcrw.js.map
+//# sourceMappingURL=index-BFKRa1mM.js.map
