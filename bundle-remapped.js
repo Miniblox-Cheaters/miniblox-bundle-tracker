@@ -50139,7 +50139,7 @@ const INTRP_ALPHA = 0.1,
 	},
 	MSPT = 50,
 	MB = 1024 * 1024,
-	VERSION$1 = "3.41.67",
+	VERSION$1 = "3.41.68",
 	MODE = "production";
 if (["development", "local", "staging", "production"].indexOf(MODE) === -1)
 	throw new Error(`Unknown mode: ${MODE}`);
@@ -193824,18 +193824,31 @@ class PlayerMovement extends EntityPlayer {
 					pos: new PBVector3({ x: this.pos.x, y: this.pos.y, z: this.pos.z }),
 				})),
 				this.pendingInputs.push(this.currentInput),
+				this.pendingInputs.length > 200 && this.pendingInputs.shift(),
 				ClientSocket.sendPacket(this.currentInput),
 				this.applyInput(this.currentInput));
 	}
 	reconcileServerPosition(h) {
 		if (h.reset) {
-			this.setPosition(h.x, h.y, h.z), this.reset();
+			this.setPosition(h.x, h.y, h.z),
+				this.setRotation(h.yaw, h.pitch),
+				this.motion.set(0, 0, 0),
+				this.reset();
 			return;
 		}
-		const p = new Vector3$1(h.x, h.y, h.z),
-			g = new Vector3$1(this.pos.x, this.pos.y, this.pos.z),
-			y = p.distanceTo(g);
-		this.serverDistance = y;
+		const p = h.lastProcessedInput;
+		for (
+			;
+			this.pendingInputs.length > 0 &&
+			this.pendingInputs[0].sequenceNumber <= p;
+		)
+			this.pendingInputs.shift();
+		const g = new Vector3$1(h.x, h.y, h.z),
+			y = new Vector3$1(this.pos.x, this.pos.y, this.pos.z),
+			x = g.distanceTo(y);
+		(this.serverDistance = x),
+			this.setPositionAndRotation(h.x, h.y, h.z, h.yaw, h.pitch);
+		for (const S of this.pendingInputs) this.applyInput(S, !0);
 	}
 	setSprinting(h) {
 		super.setSprinting(h), (this.sprintingTicksLeft = h ? 600 : 0);
@@ -214329,4 +214342,4 @@ async function startGame() {
 		await game.init();
 }
 document.addEventListener("DOMContentLoaded", startGame, !1);
-//# sourceMappingURL=index-Bw7IIVaL.js.map
+//# sourceMappingURL=index-BqwNlA2-.js.map
