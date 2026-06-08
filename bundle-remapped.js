@@ -50139,7 +50139,7 @@ const INTRP_ALPHA = 0.1,
 	},
 	MSPT = 50,
 	MB = 1024 * 1024,
-	VERSION$1 = "3.41.74",
+	VERSION$1 = "3.41.77",
 	MODE = "production";
 if (["development", "local", "staging", "production"].indexOf(MODE) === -1)
 	throw new Error(`Unknown mode: ${MODE}`);
@@ -193802,16 +193802,16 @@ bindKeysWithDefaults("i", (m) => {
 bindKeys(
 	"tab",
 	(m) => {
-		Game.isActive() && (game.info.displayPlayerTab = !0);
+		Game.isActive() && (m.preventDefault(), (game.info.displayPlayerTab = !0));
 	},
-	{ handler: "keydown", preventDefault: !0 },
+	{ handler: "keydown", preventDefault: !1 },
 );
 bindKeys(
 	"tab",
 	(m) => {
-		Game.isActive() && (game.info.displayPlayerTab = !1);
+		Game.isActive() && (m.preventDefault(), (game.info.displayPlayerTab = !1));
 	},
-	{ handler: "keyup", preventDefault: !0 },
+	{ handler: "keyup", preventDefault: !1 },
 );
 bindKeys(
 	"f1",
@@ -193902,9 +193902,38 @@ class PlayerMovement extends EntityPlayer {
 		I(this, "inputSequenceNumber", 0);
 		I(this, "pendingInputs", []);
 		I(this, "serverDistance", 0);
+		I(this, "positionCorrection", new Vector3$1());
+		I(this, "velocityChangeInputSeq", -1);
 	}
 	reset() {
-		(this.inputSequenceNumber = 0), (this.pendingInputs = []);
+		(this.inputSequenceNumber = 0),
+			(this.pendingInputs = []),
+			this.positionCorrection.set(0, 0, 0),
+			(this.velocityChangeInputSeq = -1);
+	}
+	handleServerVelocity(h, p, g, y) {
+		const x = this.pendingInputs.length;
+		if (x > 0) {
+			let v, w;
+			this.onGround && x >= 2
+				? ((v = 0.546 * Math.pow(0.91, x - 1)),
+					(w = 1 + 0.546 * ((1 - Math.pow(0.91, x - 1)) / (1 - 0.91))))
+				: ((v = Math.pow(0.91, x)), (w = (1 - v) / (1 - 0.91))),
+				y
+					? this.setVelocity(h * v, p, g * v)
+					: ((this.motion.x += h * v),
+						(this.motion.y += p),
+						(this.motion.z += g * v)),
+				(this.pos.x += h * w),
+				(this.pos.z += g * w),
+				this.setPosition(this.pos);
+		} else
+			y
+				? this.setVelocity(h, p, g)
+				: ((this.motion.x += h), (this.motion.y += p), (this.motion.z += g));
+		this.positionCorrection.set(0, 0, 0),
+			(this.velocityChangeInputSeq = this.inputSequenceNumber),
+			(this.pendingInputs = []);
 	}
 	updatePlayerMoveState() {
 		(this.moveStrafe = 0), (this.moveForward = 0);
@@ -193931,26 +193960,57 @@ class PlayerMovement extends EntityPlayer {
 					sprint: this.isSprinting(),
 					pos: new PBVector3({ x: this.pos.x, y: this.pos.y, z: this.pos.z }),
 				})),
-				this.pendingInputs.push(this.currentInput),
 				ClientSocket.sendPacket(this.currentInput),
-				this.applyInput(this.currentInput));
+				this.applyInput(this.currentInput),
+				this.pendingInputs.push({
+					sequenceNumber: this.inputSequenceNumber,
+					predictedPos: this.pos.clone(),
+					predictedMotion: this.motion.clone(),
+					pendingCorrection: this.positionCorrection.clone(),
+				}));
 	}
 	reconcileServerPosition(h) {
 		if (h.reset) {
 			this.setPosition(h.x, h.y, h.z), this.reset();
 			return;
 		}
-		const p = new Vector3$1(h.x, h.y, h.z),
-			g = new Vector3$1(this.pos.x, this.pos.y, this.pos.z),
-			y = p.distanceTo(g);
-		this.serverDistance = y;
+		const p = h.lastProcessedInput;
+		let g = null;
+		for (
+			;
+			this.pendingInputs.length > 0 &&
+			this.pendingInputs[0].sequenceNumber <= p;
+		) {
+			const T = this.pendingInputs.shift();
+			T.sequenceNumber === p && (g = T);
+		}
+		if (!g || p <= this.velocityChangeInputSeq) return;
+		const y = h.x - g.predictedPos.x,
+			x = h.y - g.predictedPos.y,
+			S = h.z - g.predictedPos.z,
+			b = y - g.pendingCorrection.x,
+			v = x - g.pendingCorrection.y,
+			w = S - g.pendingCorrection.z;
+		this.serverDistance = Math.sqrt(b * b + v * v + w * w);
+		const E = p - this.velocityChangeInputSeq < 20 ? 0.4 : 0.1;
+		if (this.serverDistance > E) {
+			(this.positionCorrection.x += b),
+				(this.positionCorrection.y += v),
+				(this.positionCorrection.z += w);
+			for (const T of this.pendingInputs)
+				(T.predictedPos.x += b),
+					(T.predictedPos.y += v),
+					(T.predictedPos.z += w);
+		}
 	}
 	setSprinting(h) {
 		super.setSprinting(h), (this.sprintingTicksLeft = h ? 600 : 0);
 	}
 	onLivingUpdate() {
+		const h = this.pos.x >> 4,
+			p = this.pos.z >> 4;
 		(game.info.inLoadedChunk =
-			this.world.isBlockLoaded(BlockPos.fromVector(this.pos)) ||
+			this.world.chunkProvider.isLoaded(h, p) ||
 			this.pos.y < 0 ||
 			this.pos.y >= 256),
 			(this.noPhysics = this.mode.isSpectator()),
@@ -193960,62 +194020,62 @@ class PlayerMovement extends EntityPlayer {
 				(--this.sprintingTicksLeft,
 				this.sprintingTicksLeft == 0 && this.setSprinting(!1)),
 			this.sprintToggleTimer > 0 && --this.sprintToggleTimer;
-		const h = this.jumping,
-			p = this.sneak,
-			g = -0.8,
-			y = this.moveForward <= g;
+		const g = this.jumping,
+			y = this.sneak,
+			x = -0.8,
+			S = this.moveForward <= x;
 		this.updatePlayerMoveState(),
 			this.isUsingItem() &&
 				!this.isRiding() &&
 				((this.moveStrafe *= 0.2),
 				(this.moveForward *= 0.2),
 				(this.sprintToggleTimer = 0));
-		const x = this.width * 0.35;
+		const b = this.width * 0.35;
 		this.pushOutOfBlocks(
-			this.pos.x - x,
+			this.pos.x - b,
 			this.getEntityBoundingBox().min.y + 0.5,
-			this.pos.z + x,
+			this.pos.z + b,
 		),
 			this.pushOutOfBlocks(
-				this.pos.x - x,
+				this.pos.x - b,
 				this.getEntityBoundingBox().min.y + 0.5,
-				this.pos.z - x,
+				this.pos.z - b,
 			),
 			this.pushOutOfBlocks(
-				this.pos.x + x,
+				this.pos.x + b,
 				this.getEntityBoundingBox().min.y + 0.5,
-				this.pos.z - x,
+				this.pos.z - b,
 			),
 			this.pushOutOfBlocks(
-				this.pos.x + x,
+				this.pos.x + b,
 				this.getEntityBoundingBox().min.y + 0.5,
-				this.pos.z + x,
+				this.pos.z + b,
 			);
-		const S = this.getFoodStats().getFoodLevel() > 6 || this.abilities.mayFly,
-			b = keyPressedPlayer("shift") || touchcontrols.sprinting;
+		const v = this.getFoodStats().getFoodLevel() > 6 || this.abilities.mayFly,
+			w = keyPressedPlayer("shift") || touchcontrols.sprinting;
 		this.onGround &&
-			!p &&
 			!y &&
-			this.moveForward <= g &&
+			!S &&
+			this.moveForward <= x &&
 			!this.isSprinting() &&
-			S &&
+			v &&
 			!this.isUsingItem() &&
-			(this.sprintToggleTimer <= 0 && !b
+			(this.sprintToggleTimer <= 0 && !w
 				? (this.sprintToggleTimer = 7)
 				: this.setSprinting(!0)),
 			!this.isSprinting() &&
-				this.moveForward <= g &&
-				S &&
+				this.moveForward <= x &&
+				v &&
 				!this.isUsingItem() &&
-				b &&
+				w &&
 				this.setSprinting(!0),
 			this.isSprinting() &&
-				(this.moveForward > g || this.isCollidedHorizontally || !S) &&
+				(this.moveForward > x || this.isCollidedHorizontally || !v) &&
 				this.setSprinting(!1),
 			this.flyToggleTimer > 0 && this.flyToggleTimer--,
 			this.abilities.mayFly &&
 				!this.mode.isSpectator() &&
-				!h &&
+				!g &&
 				this.jumping &&
 				(this.flyToggleTimer == 0
 					? (this.flyToggleTimer = 7)
@@ -194025,28 +194085,28 @@ class PlayerMovement extends EntityPlayer {
 				((keyPressedPlayer("space") || touchcontrols.jumping) &&
 					(this.motion.y += this.flySpeed * 3),
 				this.sneak && (this.motion.y -= this.flySpeed * 3));
-		const v = this.jumping;
+		const k = this.jumping;
 		if (
 			!this.abilities.flying &&
 			this.onGround &&
-			!h &&
+			!g &&
 			Options$1.autoJump.value &&
 			Game.isMobile
 		) {
-			const w = this.world.getCollidingBoundingBoxes(
+			const E = this.world.getCollidingBoundingBoxes(
 					this,
 					this.getEntityBoundingBox()
 						.clone()
 						.expandByVector(new Vector3$1(0.15, -0.1, 0.15)),
 				),
-				k = this.world.getCollidingBoundingBoxes(
+				T = this.world.getCollidingBoundingBoxes(
 					this,
 					this.getEntityBoundingBox()
 						.clone()
 						.translate(new Vector3$1(0, 1, 0))
 						.expandByVector(new Vector3$1(0.15, -0.1, 0.15)),
 				);
-			w.length > 0 && k.length <= 0 && this.moveForward < 0
+			E.length > 0 && T.length <= 0 && this.moveForward < 0
 				? (this.jumping = !0)
 				: (this.jumping = !1);
 		}
@@ -194056,7 +194116,7 @@ class PlayerMovement extends EntityPlayer {
 				Game.isMobile &&
 				touchcontrols.initialLoad &&
 				touchcontrols.onJoinGame(),
-			(this.jumping = v),
+			(this.jumping = k),
 			this.abilities.flying &&
 				this.onGround &&
 				!this.mode.isSpectator() &&
@@ -194101,11 +194161,43 @@ class PlayerMovement extends EntityPlayer {
 		}
 		return Math.min(h, 2);
 	}
+	applyCorrectionAxis(h, p) {
+		if (p === 0) return !1;
+		const g = this.pos[h];
+		return (
+			(this.pos[h] += p),
+			this.setPosition(this.pos),
+			this.world.getCollidingBoundingBoxes(this, this.getEntityBoundingBox())
+				.length > 0
+				? ((this.pos[h] = g),
+					this.setPosition(this.pos),
+					(this.positionCorrection[h] = 0),
+					!1)
+				: ((this.positionCorrection[h] -= p), !0)
+		);
+	}
+	applyPositionCorrection() {
+		if (this.positionCorrection.lengthSq() < 1e-4) return;
+		const h = 0.25;
+		let p = this.positionCorrection.x * h,
+			g = this.positionCorrection.y * h,
+			y = this.positionCorrection.z * h;
+		const x = 0.15,
+			S = Math.sqrt(p * p + g * g + y * y);
+		if (S > x) {
+			const b = x / S;
+			(p *= b), (g *= b), (y *= b);
+		}
+		this.applyCorrectionAxis("x", p),
+			this.applyCorrectionAxis("y", g),
+			this.applyCorrectionAxis("z", y);
+	}
 	fixedUpdate() {
 		var h;
 		!game.inGame() ||
 			this.getHealth() <= 0 ||
-			(playerControllerMP.syncItem(),
+			(this.applyPositionCorrection(),
+			playerControllerMP.syncItem(),
 			this.onEntityUpdate(),
 			this.onLivingUpdate(),
 			this.checkHeadInBlock(),
@@ -214437,4 +214529,4 @@ async function startGame() {
 		await game.init();
 }
 document.addEventListener("DOMContentLoaded", startGame, !1);
-//# sourceMappingURL=index-DhtKfytE.js.map
+//# sourceMappingURL=index-suL3oGSn.js.map
