@@ -50139,7 +50139,7 @@ const INTRP_ALPHA = 0.1,
 	},
 	MSPT = 50,
 	MB = 1024 * 1024,
-	VERSION$1 = "3.41.77",
+	VERSION$1 = "3.41.78",
 	MODE = "production";
 if (["development", "local", "staging", "production"].indexOf(MODE) === -1)
 	throw new Error(`Unknown mode: ${MODE}`);
@@ -193902,38 +193902,9 @@ class PlayerMovement extends EntityPlayer {
 		I(this, "inputSequenceNumber", 0);
 		I(this, "pendingInputs", []);
 		I(this, "serverDistance", 0);
-		I(this, "positionCorrection", new Vector3$1());
-		I(this, "velocityChangeInputSeq", -1);
 	}
 	reset() {
-		(this.inputSequenceNumber = 0),
-			(this.pendingInputs = []),
-			this.positionCorrection.set(0, 0, 0),
-			(this.velocityChangeInputSeq = -1);
-	}
-	handleServerVelocity(h, p, g, y) {
-		const x = this.pendingInputs.length;
-		if (x > 0) {
-			let v, w;
-			this.onGround && x >= 2
-				? ((v = 0.546 * Math.pow(0.91, x - 1)),
-					(w = 1 + 0.546 * ((1 - Math.pow(0.91, x - 1)) / (1 - 0.91))))
-				: ((v = Math.pow(0.91, x)), (w = (1 - v) / (1 - 0.91))),
-				y
-					? this.setVelocity(h * v, p, g * v)
-					: ((this.motion.x += h * v),
-						(this.motion.y += p),
-						(this.motion.z += g * v)),
-				(this.pos.x += h * w),
-				(this.pos.z += g * w),
-				this.setPosition(this.pos);
-		} else
-			y
-				? this.setVelocity(h, p, g)
-				: ((this.motion.x += h), (this.motion.y += p), (this.motion.z += g));
-		this.positionCorrection.set(0, 0, 0),
-			(this.velocityChangeInputSeq = this.inputSequenceNumber),
-			(this.pendingInputs = []);
+		(this.inputSequenceNumber = 0), (this.pendingInputs = []);
 	}
 	updatePlayerMoveState() {
 		(this.moveStrafe = 0), (this.moveForward = 0);
@@ -193960,48 +193931,19 @@ class PlayerMovement extends EntityPlayer {
 					sprint: this.isSprinting(),
 					pos: new PBVector3({ x: this.pos.x, y: this.pos.y, z: this.pos.z }),
 				})),
+				this.pendingInputs.push(this.currentInput),
 				ClientSocket.sendPacket(this.currentInput),
-				this.applyInput(this.currentInput),
-				this.pendingInputs.push({
-					sequenceNumber: this.inputSequenceNumber,
-					predictedPos: this.pos.clone(),
-					predictedMotion: this.motion.clone(),
-					pendingCorrection: this.positionCorrection.clone(),
-				}));
+				this.applyInput(this.currentInput));
 	}
 	reconcileServerPosition(h) {
 		if (h.reset) {
 			this.setPosition(h.x, h.y, h.z), this.reset();
 			return;
 		}
-		const p = h.lastProcessedInput;
-		let g = null;
-		for (
-			;
-			this.pendingInputs.length > 0 &&
-			this.pendingInputs[0].sequenceNumber <= p;
-		) {
-			const T = this.pendingInputs.shift();
-			T.sequenceNumber === p && (g = T);
-		}
-		if (!g || p <= this.velocityChangeInputSeq) return;
-		const y = h.x - g.predictedPos.x,
-			x = h.y - g.predictedPos.y,
-			S = h.z - g.predictedPos.z,
-			b = y - g.pendingCorrection.x,
-			v = x - g.pendingCorrection.y,
-			w = S - g.pendingCorrection.z;
-		this.serverDistance = Math.sqrt(b * b + v * v + w * w);
-		const E = p - this.velocityChangeInputSeq < 20 ? 0.4 : 0.1;
-		if (this.serverDistance > E) {
-			(this.positionCorrection.x += b),
-				(this.positionCorrection.y += v),
-				(this.positionCorrection.z += w);
-			for (const T of this.pendingInputs)
-				(T.predictedPos.x += b),
-					(T.predictedPos.y += v),
-					(T.predictedPos.z += w);
-		}
+		const p = new Vector3$1(h.x, h.y, h.z),
+			g = new Vector3$1(this.pos.x, this.pos.y, this.pos.z),
+			y = p.distanceTo(g);
+		this.serverDistance = y;
 	}
 	setSprinting(h) {
 		super.setSprinting(h), (this.sprintingTicksLeft = h ? 600 : 0);
@@ -194161,43 +194103,11 @@ class PlayerMovement extends EntityPlayer {
 		}
 		return Math.min(h, 2);
 	}
-	applyCorrectionAxis(h, p) {
-		if (p === 0) return !1;
-		const g = this.pos[h];
-		return (
-			(this.pos[h] += p),
-			this.setPosition(this.pos),
-			this.world.getCollidingBoundingBoxes(this, this.getEntityBoundingBox())
-				.length > 0
-				? ((this.pos[h] = g),
-					this.setPosition(this.pos),
-					(this.positionCorrection[h] = 0),
-					!1)
-				: ((this.positionCorrection[h] -= p), !0)
-		);
-	}
-	applyPositionCorrection() {
-		if (this.positionCorrection.lengthSq() < 1e-4) return;
-		const h = 0.25;
-		let p = this.positionCorrection.x * h,
-			g = this.positionCorrection.y * h,
-			y = this.positionCorrection.z * h;
-		const x = 0.15,
-			S = Math.sqrt(p * p + g * g + y * y);
-		if (S > x) {
-			const b = x / S;
-			(p *= b), (g *= b), (y *= b);
-		}
-		this.applyCorrectionAxis("x", p),
-			this.applyCorrectionAxis("y", g),
-			this.applyCorrectionAxis("z", y);
-	}
 	fixedUpdate() {
 		var h;
 		!game.inGame() ||
 			this.getHealth() <= 0 ||
-			(this.applyPositionCorrection(),
-			playerControllerMP.syncItem(),
+			(playerControllerMP.syncItem(),
 			this.onEntityUpdate(),
 			this.onLivingUpdate(),
 			this.checkHeadInBlock(),
@@ -214529,4 +214439,4 @@ async function startGame() {
 		await game.init();
 }
 document.addEventListener("DOMContentLoaded", startGame, !1);
-//# sourceMappingURL=index-suL3oGSn.js.map
+//# sourceMappingURL=index-VJBOhvuq.js.map
