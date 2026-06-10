@@ -10304,7 +10304,7 @@ function requireReactDom_production_min() {
 		} catch {
 			Ea = !1;
 		}
-	function un(B, N, V, K, oe, fe, We, ft, Tt) {
+	function cn(B, N, V, K, oe, fe, We, ft, Tt) {
 		var Xt = Array.prototype.slice.call(arguments, 3);
 		try {
 			N.apply(V, Xt);
@@ -10322,7 +10322,7 @@ function requireReactDom_production_min() {
 			},
 		};
 	function Cr(B, N, V, K, oe, fe, We, ft, Tt) {
-		(gt = !1), (ot = null), un.apply($t, arguments);
+		(gt = !1), (ot = null), cn.apply($t, arguments);
 	}
 	function Tr(B, N, V, K, oe, fe, We, ft, Tt) {
 		if ((Cr.apply(this, arguments), gt)) {
@@ -10447,11 +10447,11 @@ function requireReactDom_production_min() {
 				Nr.onCommitFiberRoot(Qr, B, void 0, (B.current.flags & 128) === 128);
 			} catch {}
 	}
-	var nn = Math.clz32 ? Math.clz32 : jn,
+	var sn = Math.clz32 ? Math.clz32 : jn,
 		Na = Math.log,
-		cn = Math.LN2;
+		dn = Math.LN2;
 	function jn(B) {
-		return (B >>>= 0), B === 0 ? 32 : (31 - ((Na(B) / cn) | 0)) | 0;
+		return (B >>>= 0), B === 0 ? 32 : (31 - ((Na(B) / dn) | 0)) | 0;
 	}
 	var Ga = 64,
 		Sn = 4194304;
@@ -10527,7 +10527,7 @@ function requireReactDom_production_min() {
 			return N;
 		if ((K & 4 && (K |= V & 16), (N = B.entangledLanes), N !== 0))
 			for (B = B.entanglements, N &= K; 0 < N; )
-				(V = 31 - nn(N)), (oe = 1 << V), (K |= B[V]), (N &= ~oe);
+				(V = 31 - sn(N)), (oe = 1 << V), (K |= B[V]), (N &= ~oe);
 		return K;
 	}
 	function Qa(B, N) {
@@ -10579,7 +10579,7 @@ function requireReactDom_production_min() {
 				fe = B.pendingLanes;
 			0 < fe;
 		) {
-			var We = 31 - nn(fe),
+			var We = 31 - sn(fe),
 				ft = 1 << We,
 				Tt = oe[We];
 			Tt === -1
@@ -10606,7 +10606,7 @@ function requireReactDom_production_min() {
 		(B.pendingLanes |= N),
 			N !== 536870912 && ((B.suspendedLanes = 0), (B.pingedLanes = 0)),
 			(B = B.eventTimes),
-			(N = 31 - nn(N)),
+			(N = 31 - sn(N)),
 			(B[N] = V);
 	}
 	function si(B, N) {
@@ -10620,7 +10620,7 @@ function requireReactDom_production_min() {
 			(N = B.entanglements);
 		var K = B.eventTimes;
 		for (B = B.expirationTimes; 0 < V; ) {
-			var oe = 31 - nn(V),
+			var oe = 31 - sn(V),
 				fe = 1 << oe;
 			(N[oe] = 0), (K[oe] = -1), (B[oe] = -1), (V &= ~fe);
 		}
@@ -10628,7 +10628,7 @@ function requireReactDom_production_min() {
 	function Bi(B, N) {
 		var V = (B.entangledLanes |= N);
 		for (B = B.entanglements; V; ) {
-			var K = 31 - nn(V),
+			var K = 31 - sn(V),
 				oe = 1 << K;
 			(oe & N) | (B[K] & N) && (B[K] |= N), (V &= ~oe);
 		}
@@ -10652,7 +10652,7 @@ function requireReactDom_production_min() {
 		Nn = new Map(),
 		Fi = new Map(),
 		en = [],
-		gn =
+		yn =
 			"mousedown mouseup touchcancel touchend touchstart auxclick dblclick pointercancel pointerdown pointerup dragend dragstart drop compositionend compositionstart keydown keypress keyup input textInput copy cut paste click change contextmenu reset submit".split(
 				" ",
 			);
@@ -10819,7 +10819,7 @@ function requireReactDom_production_min() {
 			var oe = ha(B, N, V, K);
 			if (oe === null) Ip(B, N, K, Zr, V), ci(B, K);
 			else if (di(oe, B, N, V, K)) K.stopPropagation();
-			else if ((ci(B, K), N & 4 && -1 < gn.indexOf(B))) {
+			else if ((ci(B, K), N & 4 && -1 < yn.indexOf(B))) {
 				for (; oe !== null; ) {
 					var fe = mi(oe);
 					if (
@@ -11047,7 +11047,7 @@ function requireReactDom_production_min() {
 			shiftKey: 0,
 			altKey: 0,
 			metaKey: 0,
-			getModifierState: yn,
+			getModifierState: _n,
 			button: 0,
 			buttons: 0,
 			relatedTarget: function (B) {
@@ -11152,7 +11152,7 @@ function requireReactDom_production_min() {
 				? !!N[B]
 				: !1;
 	}
-	function yn() {
+	function _n() {
 		return Ka;
 	}
 	var An = Ee({}, Nt, {
@@ -11175,7 +11175,7 @@ function requireReactDom_production_min() {
 			metaKey: 0,
 			repeat: 0,
 			locale: 0,
-			getModifierState: yn,
+			getModifierState: _n,
 			charCode: function (B) {
 				return B.type === "keypress" ? he(B) : 0;
 			},
@@ -11190,7 +11190,7 @@ function requireReactDom_production_min() {
 						: 0;
 			},
 		}),
-		dn = Ge(An),
+		hn = Ge(An),
 		ps = Ee({}, Qe, {
 			pointerId: 0,
 			width: 0,
@@ -11212,7 +11212,7 @@ function requireReactDom_production_min() {
 			metaKey: 0,
 			ctrlKey: 0,
 			shiftKey: 0,
-			getModifierState: yn,
+			getModifierState: _n,
 		}),
 		gd = Ge(Ds),
 		Fa = Ee({}, St, { propertyName: 0, elapsedTime: 0, pseudoElement: 0 }),
@@ -11680,7 +11680,7 @@ function requireReactDom_production_min() {
 		}
 		if (bt) throw ((B = Ft), (bt = !1), (Ft = null), B);
 	}
-	function hn(B, N) {
+	function pn(B, N) {
 		var V = N[uh];
 		V === void 0 && (V = N[uh] = new Set());
 		var K = B + "__bubble";
@@ -11770,7 +11770,7 @@ function requireReactDom_production_min() {
 							if (he(V) === 0) break e;
 						case "keydown":
 						case "keyup":
-							Lr = dn;
+							Lr = hn;
 							break;
 						case "focusin":
 							($r = "focus"), (Lr = wr);
@@ -12203,10 +12203,10 @@ function requireReactDom_production_min() {
 	function ji(B) {
 		return { current: B };
 	}
-	function pn(B) {
+	function mn(B) {
 		0 > Vc || ((B.current = Cp[Vc]), (Cp[Vc] = null), Vc--);
 	}
-	function sn(B, N) {
+	function un(B, N) {
 		Vc++, (Cp[Vc] = B.current), (B.current = N);
 	}
 	var Mo = {},
@@ -12234,11 +12234,11 @@ function requireReactDom_production_min() {
 		return (B = B.childContextTypes), B != null;
 	}
 	function dh() {
-		pn(qi), pn(fi);
+		mn(qi), mn(fi);
 	}
 	function zm(B, N, V) {
 		if (fi.current !== Mo) throw Error(h(168));
-		sn(fi, N), sn(qi, V);
+		un(fi, N), un(qi, V);
 	}
 	function Rm(B, N, V) {
 		var K = B.stateNode;
@@ -12255,8 +12255,8 @@ function requireReactDom_production_min() {
 				((B = B.stateNode) && B.__reactInternalMemoizedMergedChildContext) ||
 				Mo),
 			(Pi = fi.current),
-			sn(fi, B),
-			sn(qi, qi.current),
+			un(fi, B),
+			un(qi, qi.current),
 			!0
 		);
 	}
@@ -12266,11 +12266,11 @@ function requireReactDom_production_min() {
 		V
 			? ((B = Rm(B, N, Pi)),
 				(K.__reactInternalMemoizedMergedChildContext = B),
-				pn(qi),
-				pn(fi),
-				sn(fi, B))
-			: pn(qi),
-			sn(qi, V);
+				mn(qi),
+				mn(fi),
+				un(fi, B))
+			: mn(qi),
+			un(qi, V);
 	}
 	var io = null,
 		hh = !1,
@@ -12318,15 +12318,15 @@ function requireReactDom_production_min() {
 		(fs[gs++] = Us), (fs[gs++] = Hs), (fs[gs++] = ll), (ll = B);
 		var K = Us;
 		B = Hs;
-		var oe = 32 - nn(K) - 1;
+		var oe = 32 - sn(K) - 1;
 		(K &= ~(1 << oe)), (V += 1);
-		var fe = 32 - nn(N) + oe;
+		var fe = 32 - sn(N) + oe;
 		if (30 < fe) {
 			var We = oe - (oe % 5);
 			(fe = (K & ((1 << We) - 1)).toString(32)),
 				(K >>= We),
 				(oe -= We),
-				(Us = (1 << (32 - nn(N) + oe)) | (V << oe) | K),
+				(Us = (1 << (32 - sn(N) + oe)) | (V << oe) | K),
 				(Hs = fe + B);
 		} else (Us = (1 << fe) | (V << oe) | K), (Hs = B);
 	}
@@ -12346,7 +12346,7 @@ function requireReactDom_production_min() {
 	}
 	var yi = null,
 		rs = null,
-		mn = !1,
+		fn = !1,
 		Ts = null;
 	function Vs(B, N) {
 		var V = os(5, null, null, 0);
@@ -12401,7 +12401,7 @@ function requireReactDom_production_min() {
 		return (B.mode & 1) !== 0 && (B.flags & 128) === 0;
 	}
 	function Hi(B) {
-		if (mn) {
+		if (fn) {
 			var N = rs;
 			if (N) {
 				var V = N;
@@ -12411,11 +12411,11 @@ function requireReactDom_production_min() {
 					var K = yi;
 					N && fh(B, N)
 						? Vs(K, V)
-						: ((B.flags = (B.flags & -4097) | 2), (mn = !1), (yi = B));
+						: ((B.flags = (B.flags & -4097) | 2), (fn = !1), (yi = B));
 				}
 			} else {
 				if (so(B)) throw Error(h(418));
-				(B.flags = (B.flags & -4097) | 2), (mn = !1), (yi = B);
+				(B.flags = (B.flags & -4097) | 2), (fn = !1), (yi = B);
 			}
 		}
 	}
@@ -12429,7 +12429,7 @@ function requireReactDom_production_min() {
 	}
 	function Cd(B) {
 		if (B !== yi) return !1;
-		if (!mn) return Dm(B), (mn = !0), !1;
+		if (!fn) return Dm(B), (fn = !0), !1;
 		var N;
 		if (
 			((N = B.tag !== 3) &&
@@ -12467,7 +12467,7 @@ function requireReactDom_production_min() {
 		for (var B = rs; B; ) B = Bo(B.nextSibling);
 	}
 	function Ws() {
-		(rs = yi = null), (mn = !1);
+		(rs = yi = null), (fn = !1);
 	}
 	function Gs(B) {
 		Ts === null ? (Ts = [B]) : Ts.push(B);
@@ -12490,7 +12490,7 @@ function requireReactDom_production_min() {
 	}
 	function yh(B) {
 		var N = dl.current;
-		pn(dl), (B._currentValue = N);
+		mn(dl), (B._currentValue = N);
 	}
 	function ys(B, N, V) {
 		for (; B !== null; ) {
@@ -13065,7 +13065,7 @@ function requireReactDom_production_min() {
 					(ta = Wa),
 					(aa = ai);
 			}
-			if (da === Ht.length) return V(Ut, aa), mn && ul(Ut, da), Vr;
+			if (da === Ht.length) return V(Ut, aa), fn && ul(Ut, da), Vr;
 			if (aa === null) {
 				for (; da < Ht.length; da++)
 					(aa = yr(Ut, Ht[da], xr)),
@@ -13073,7 +13073,7 @@ function requireReactDom_production_min() {
 							((Pt = fe(aa, Pt, da)),
 							ta === null ? (Vr = aa) : (ta.sibling = aa),
 							(ta = aa));
-				return mn && ul(Ut, da), Vr;
+				return fn && ul(Ut, da), Vr;
 			}
 			for (aa = K(Ut, aa); da < Ht.length; da++)
 				(ai = Lr(aa, Ut, da, Ht[da], xr)),
@@ -13089,7 +13089,7 @@ function requireReactDom_production_min() {
 					aa.forEach(function (Yo) {
 						return N(Ut, Yo);
 					}),
-				mn && ul(Ut, da),
+				fn && ul(Ut, da),
 				Vr
 			);
 		}
@@ -13114,7 +13114,7 @@ function requireReactDom_production_min() {
 					(ta = Yo),
 					(aa = ai);
 			}
-			if (Wa.done) return V(Ut, aa), mn && ul(Ut, da), Vr;
+			if (Wa.done) return V(Ut, aa), fn && ul(Ut, da), Vr;
 			if (aa === null) {
 				for (; !Wa.done; da++, Wa = Ht.next())
 					(Wa = yr(Ut, Wa.value, xr)),
@@ -13122,7 +13122,7 @@ function requireReactDom_production_min() {
 							((Pt = fe(Wa, Pt, da)),
 							ta === null ? (Vr = Wa) : (ta.sibling = Wa),
 							(ta = Wa));
-				return mn && ul(Ut, da), Vr;
+				return fn && ul(Ut, da), Vr;
 			}
 			for (aa = K(Ut, aa); !Wa.done; da++, Wa = Ht.next())
 				(Wa = Lr(aa, Ut, da, Wa.value, xr)),
@@ -13138,7 +13138,7 @@ function requireReactDom_production_min() {
 					aa.forEach(function (pg) {
 						return N(Ut, pg);
 					}),
-				mn && ul(Ut, da),
+				fn && ul(Ut, da),
 				Vr
 			);
 		}
@@ -13251,7 +13251,7 @@ function requireReactDom_production_min() {
 		return B;
 	}
 	function Eh(B, N) {
-		switch ((sn(Pd, N), sn(Do, B), sn(Ms, Yc), (B = N.nodeType), B)) {
+		switch ((un(Pd, N), un(Do, B), un(Ms, Yc), (B = N.nodeType), B)) {
 			case 9:
 			case 11:
 				N = (N = N.documentElement) ? N.namespaceURI : ae(null, "");
@@ -13262,21 +13262,21 @@ function requireReactDom_production_min() {
 					(B = B.tagName),
 					(N = ae(N, B));
 		}
-		pn(Ms), sn(Ms, N);
+		mn(Ms), un(Ms, N);
 	}
 	function Zc() {
-		pn(Ms), pn(Do), pn(Pd);
+		mn(Ms), mn(Do), mn(Pd);
 	}
 	function Op(B) {
 		Fo(Pd.current);
 		var N = Fo(Ms.current),
 			V = ae(N, B.type);
-		N !== V && (sn(Do, B), sn(Ms, V));
+		N !== V && (un(Do, B), un(Ms, V));
 	}
 	function Dp(B) {
-		Do.current === B && (pn(Ms), pn(Do));
+		Do.current === B && (mn(Ms), mn(Do));
 	}
-	var fn = ji(0);
+	var gn = ji(0);
 	function zd(B) {
 		for (var N = B; N !== null; ) {
 			if (N.tag === 13) {
@@ -13811,7 +13811,7 @@ function requireReactDom_production_min() {
 			useSyncExternalStore: function (B, N, V) {
 				var K = wn,
 					oe = Tn();
-				if (mn) {
+				if (fn) {
 					if (V === void 0) throw Error(h(407));
 					V = V();
 				} else {
@@ -13831,10 +13831,10 @@ function requireReactDom_production_min() {
 			useId: function () {
 				var B = Tn(),
 					N = ri.identifierPrefix;
-				if (mn) {
+				if (fn) {
 					var V = Hs,
 						K = Us;
-					(V = (K & ~(1 << (32 - nn(K) - 1))).toString(32) + V),
+					(V = (K & ~(1 << (32 - sn(K) - 1))).toString(32) + V),
 						(N = ":" + N + "R" + V),
 						(V = xi++),
 						0 < V && (N += "H" + V.toString(32)),
@@ -14026,7 +14026,7 @@ Error generating stack: ` +
 					(N.flags &= -2053),
 					(B.lanes &= ~oe),
 					Zs(B, N, oe))
-				: (mn && V && Td(N), (N.flags |= 1), Li(B, N, K, oe), N.child)
+				: (fn && V && Td(N), (N.flags |= 1), Li(B, N, K, oe), N.child)
 		);
 	}
 	function Ks(B, N, V, K, oe) {
@@ -14081,7 +14081,7 @@ Error generating stack: ` +
 					cachePool: null,
 					transitions: null,
 				}),
-					sn(ld, ss),
+					un(ld, ss),
 					(ss |= V);
 			else {
 				if (!(V & 1073741824))
@@ -14094,7 +14094,7 @@ Error generating stack: ` +
 							transitions: null,
 						}),
 						(N.updateQueue = null),
-						sn(ld, ss),
+						un(ld, ss),
 						(ss |= B),
 						null
 					);
@@ -14104,14 +14104,14 @@ Error generating stack: ` +
 					transitions: null,
 				}),
 					(K = fe !== null ? fe.baseLanes : V),
-					sn(ld, ss),
+					un(ld, ss),
 					(ss |= K);
 			}
 		else
 			fe !== null
 				? ((K = fe.baseLanes | V), (N.memoizedState = null))
 				: (K = V),
-				sn(ld, ss),
+				un(ld, ss),
 				(ss |= K);
 		return Li(B, N, oe, V), N.child;
 	}
@@ -14132,7 +14132,7 @@ Error generating stack: ` +
 					(N.flags &= -2053),
 					(B.lanes &= ~oe),
 					Zs(B, N, oe))
-				: (mn && K && Td(N), (N.flags |= 1), Li(B, N, V, oe), N.child)
+				: (fn && K && Td(N), (N.flags |= 1), Li(B, N, V, oe), N.child)
 		);
 	}
 	function ef(B, N, V, K, oe) {
@@ -14280,7 +14280,7 @@ Error generating stack: ` +
 	}
 	function Ud(B, N, V) {
 		var K = N.pendingProps,
-			oe = fn.current,
+			oe = gn.current,
 			fe = !1,
 			We = (N.flags & 128) !== 0,
 			ft;
@@ -14290,7 +14290,7 @@ Error generating stack: ` +
 			ft
 				? ((fe = !0), (N.flags &= -129))
 				: (B === null || B.memoizedState !== null) && (oe |= 1),
-			sn(fn, oe & 1),
+			un(gn, oe & 1),
 			B === null)
 		)
 			return (
@@ -14473,7 +14473,7 @@ Error generating stack: ` +
 			: ((B = fe.treeContext),
 				(rs = Bo(oe.nextSibling)),
 				(yi = N),
-				(mn = !0),
+				(fn = !0),
 				(Ts = null),
 				B !== null &&
 					((fs[gs++] = Us),
@@ -14513,7 +14513,7 @@ Error generating stack: ` +
 		var K = N.pendingProps,
 			oe = K.revealOrder,
 			fe = K.tail;
-		if ((Li(B, N, K.children, V), (K = fn.current), K & 2))
+		if ((Li(B, N, K.children, V), (K = gn.current), K & 2))
 			(K = (K & 1) | 2), (N.flags |= 128);
 		else {
 			if (B !== null && B.flags & 128)
@@ -14533,7 +14533,7 @@ Error generating stack: ` +
 				}
 			K &= 1;
 		}
-		if ((sn(fn, K), !(N.mode & 1))) N.memoizedState = null;
+		if ((un(gn, K), !(N.mode & 1))) N.memoizedState = null;
 		else
 			switch (oe) {
 				case "forwards":
@@ -14607,18 +14607,18 @@ Error generating stack: ` +
 			case 10:
 				var K = N.type._context,
 					oe = N.memoizedProps.value;
-				sn(dl, K._currentValue), (K._currentValue = oe);
+				un(dl, K._currentValue), (K._currentValue = oe);
 				break;
 			case 13:
 				if (((K = N.memoizedState), K !== null))
 					return K.dehydrated !== null
-						? (sn(fn, fn.current & 1), (N.flags |= 128), null)
+						? (un(gn, gn.current & 1), (N.flags |= 128), null)
 						: V & N.child.childLanes
 							? Ud(B, N, V)
-							: (sn(fn, fn.current & 1),
+							: (un(gn, gn.current & 1),
 								(B = Zs(B, N, V)),
 								B !== null ? B.sibling : null);
-				sn(fn, fn.current & 1);
+				un(gn, gn.current & 1);
 				break;
 			case 19:
 				if (((K = (V & N.childLanes) !== 0), B.flags & 128)) {
@@ -14629,7 +14629,7 @@ Error generating stack: ` +
 					((oe = N.memoizedState),
 					oe !== null &&
 						((oe.rendering = null), (oe.tail = null), (oe.lastEffect = null)),
-					sn(fn, fn.current),
+					un(gn, gn.current),
 					K)
 				)
 					break;
@@ -14725,7 +14725,7 @@ Error generating stack: ` +
 									: Xt !== "suppressContentEditableWarning" &&
 										Xt !== "suppressHydrationWarning" &&
 										(g.hasOwnProperty(Xt)
-											? (Tt != null && Xt === "onScroll" && hn("scroll", B),
+											? (Tt != null && Xt === "onScroll" && pn("scroll", B),
 												fe || ft === Tt || (fe = []))
 											: (fe = fe || []).push(Xt, Tt));
 				}
@@ -14738,7 +14738,7 @@ Error generating stack: ` +
 			V !== K && (N.flags |= 4);
 		});
 	function nd(B, N) {
-		if (!mn)
+		if (!fn)
 			switch (B.tailMode) {
 				case "hidden":
 					N = B.tail;
@@ -14797,8 +14797,8 @@ Error generating stack: ` +
 				return (
 					(K = N.stateNode),
 					Zc(),
-					pn(qi),
-					pn(fi),
+					mn(qi),
+					mn(fi),
 					Fp(),
 					K.pendingContext &&
 						((K.context = K.pendingContext), (K.pendingContext = null)),
@@ -14828,37 +14828,37 @@ Error generating stack: ` +
 						var fe = N.memoizedProps;
 						switch (((K[js] = N), (K[Ao] = fe), (B = (N.mode & 1) !== 0), V)) {
 							case "dialog":
-								hn("cancel", K), hn("close", K);
+								pn("cancel", K), pn("close", K);
 								break;
 							case "iframe":
 							case "object":
 							case "embed":
-								hn("load", K);
+								pn("load", K);
 								break;
 							case "video":
 							case "audio":
-								for (oe = 0; oe < vn.length; oe++) hn(vn[oe], K);
+								for (oe = 0; oe < vn.length; oe++) pn(vn[oe], K);
 								break;
 							case "source":
-								hn("error", K);
+								pn("error", K);
 								break;
 							case "img":
 							case "image":
 							case "link":
-								hn("error", K), hn("load", K);
+								pn("error", K), pn("load", K);
 								break;
 							case "details":
-								hn("toggle", K);
+								pn("toggle", K);
 								break;
 							case "input":
-								Pe(K, fe), hn("invalid", K);
+								Pe(K, fe), pn("invalid", K);
 								break;
 							case "select":
 								(K._wrapperState = { wasMultiple: !!fe.multiple }),
-									hn("invalid", K);
+									pn("invalid", K);
 								break;
 							case "textarea":
-								je(K, fe), hn("invalid", K);
+								je(K, fe), pn("invalid", K);
 						}
 						At(V, fe), (oe = null);
 						for (var We in fe)
@@ -14878,7 +14878,7 @@ Error generating stack: ` +
 									: g.hasOwnProperty(We) &&
 										ft != null &&
 										We === "onScroll" &&
-										hn("scroll", K);
+										pn("scroll", K);
 							}
 						switch (V) {
 							case "input":
@@ -14918,31 +14918,31 @@ Error generating stack: ` +
 						e: {
 							switch (((We = rt(V, K)), V)) {
 								case "dialog":
-									hn("cancel", B), hn("close", B), (oe = K);
+									pn("cancel", B), pn("close", B), (oe = K);
 									break;
 								case "iframe":
 								case "object":
 								case "embed":
-									hn("load", B), (oe = K);
+									pn("load", B), (oe = K);
 									break;
 								case "video":
 								case "audio":
-									for (oe = 0; oe < vn.length; oe++) hn(vn[oe], B);
+									for (oe = 0; oe < vn.length; oe++) pn(vn[oe], B);
 									oe = K;
 									break;
 								case "source":
-									hn("error", B), (oe = K);
+									pn("error", B), (oe = K);
 									break;
 								case "img":
 								case "image":
 								case "link":
-									hn("error", B), hn("load", B), (oe = K);
+									pn("error", B), pn("load", B), (oe = K);
 									break;
 								case "details":
-									hn("toggle", B), (oe = K);
+									pn("toggle", B), (oe = K);
 									break;
 								case "input":
-									Pe(B, K), (oe = Ue(B, K)), hn("invalid", B);
+									Pe(B, K), (oe = Ue(B, K)), pn("invalid", B);
 									break;
 								case "option":
 									oe = K;
@@ -14950,10 +14950,10 @@ Error generating stack: ` +
 								case "select":
 									(B._wrapperState = { wasMultiple: !!K.multiple }),
 										(oe = Ee({}, K, { value: void 0 })),
-										hn("invalid", B);
+										pn("invalid", B);
 									break;
 								case "textarea":
-									je(B, K), (oe = Et(B, K)), hn("invalid", B);
+									je(B, K), (oe = Et(B, K)), pn("invalid", B);
 									break;
 								default:
 									oe = K;
@@ -14975,7 +14975,7 @@ Error generating stack: ` +
 													fe !== "suppressHydrationWarning" &&
 													fe !== "autoFocus" &&
 													(g.hasOwnProperty(fe)
-														? Tt != null && fe === "onScroll" && hn("scroll", B)
+														? Tt != null && fe === "onScroll" && pn("scroll", B)
 														: Tt != null && F(B, fe, Tt, We));
 								}
 							switch (V) {
@@ -15046,12 +15046,12 @@ Error generating stack: ` +
 				return vi(N), null;
 			case 13:
 				if (
-					(pn(fn),
+					(mn(gn),
 					(K = N.memoizedState),
 					B === null ||
 						(B.memoizedState !== null && B.memoizedState.dehydrated !== null))
 				) {
-					if (mn && rs !== null && N.mode & 1 && !(N.flags & 128))
+					if (fn && rs !== null && N.mode & 1 && !(N.flags & 128))
 						Ap(), Ws(), (N.flags |= 98560), (fe = !1);
 					else if (((fe = Cd(N)), K !== null && K.dehydrated !== null)) {
 						if (B === null) {
@@ -15078,7 +15078,7 @@ Error generating stack: ` +
 							K &&
 							((N.child.flags |= 8192),
 							N.mode & 1 &&
-								(B === null || fn.current & 1 ? Kn === 0 && (Kn = 3) : fm())),
+								(B === null || gn.current & 1 ? Kn === 0 && (Kn = 3) : fm())),
 						N.updateQueue !== null && (N.flags |= 4),
 						vi(N),
 						null);
@@ -15095,7 +15095,7 @@ Error generating stack: ` +
 			case 17:
 				return Ui(N.type) && dh(), vi(N), null;
 			case 19:
-				if ((pn(fn), (fe = N.memoizedState), fe === null)) return vi(N), null;
+				if ((mn(gn), (fe = N.memoizedState), fe === null)) return vi(N), null;
 				if (((K = (N.flags & 128) !== 0), (We = fe.rendering), We === null))
 					if (K) nd(fe, !1);
 					else {
@@ -15144,7 +15144,7 @@ Error generating stack: ` +
 																	firstContext: B.firstContext,
 																})),
 											(V = V.sibling);
-									return sn(fn, (fn.current & 1) | 2), N.child;
+									return un(gn, (gn.current & 1) | 2), N.child;
 								}
 								B = B.sibling;
 							}
@@ -15164,7 +15164,7 @@ Error generating stack: ` +
 								fe.tail === null &&
 									fe.tailMode === "hidden" &&
 									!We.alternate &&
-									!mn)
+									!fn)
 							)
 								return vi(N), null;
 						} else
@@ -15183,8 +15183,8 @@ Error generating stack: ` +
 						(fe.tail = N.sibling),
 						(fe.renderingStartTime = rr()),
 						(N.sibling = null),
-						(V = fn.current),
-						sn(fn, K ? (V & 1) | 2 : V & 1),
+						(V = gn.current),
+						un(gn, K ? (V & 1) | 2 : V & 1),
 						N)
 					: (vi(N), null);
 			case 22:
@@ -15217,8 +15217,8 @@ Error generating stack: ` +
 			case 3:
 				return (
 					Zc(),
-					pn(qi),
-					pn(fi),
+					mn(qi),
+					mn(fi),
 					Fp(),
 					(B = N.flags),
 					B & 65536 && !(B & 128) ? ((N.flags = (B & -65537) | 128), N) : null
@@ -15227,7 +15227,7 @@ Error generating stack: ` +
 				return Dp(N), null;
 			case 13:
 				if (
-					(pn(fn), (B = N.memoizedState), B !== null && B.dehydrated !== null)
+					(mn(gn), (B = N.memoizedState), B !== null && B.dehydrated !== null)
 				) {
 					if (N.alternate === null) throw Error(h(340));
 					Ws();
@@ -15236,7 +15236,7 @@ Error generating stack: ` +
 					(B = N.flags), B & 65536 ? ((N.flags = (B & -65537) | 128), N) : null
 				);
 			case 19:
-				return pn(fn), null;
+				return mn(gn), null;
 			case 4:
 				return Zc(), null;
 			case 10:
@@ -16266,7 +16266,7 @@ Error generating stack: ` +
 					case 4:
 						if ((Wo(B, K), (K & 4194240) === K)) break;
 						for (N = B.eventTimes, oe = -1; 0 < K; ) {
-							var We = 31 - nn(K);
+							var We = 31 - sn(K);
 							(fe = 1 << We), (We = N[We]), We > oe && (oe = We), (K &= ~fe);
 						}
 						if (
@@ -16353,7 +16353,7 @@ Error generating stack: ` +
 				B = B.expirationTimes;
 			0 < N;
 		) {
-			var V = 31 - nn(N),
+			var V = 31 - sn(N),
 				K = 1 << V;
 			(B[V] = -1), (N &= ~K);
 		}
@@ -16400,7 +16400,7 @@ Error generating stack: ` +
 		}
 	}
 	function mm() {
-		(ss = ld.current), pn(ld);
+		(ss = ld.current), mn(ld);
 	}
 	function yl(B, N) {
 		(B.finishedWork = null), (B.finishedLanes = 0);
@@ -16413,7 +16413,7 @@ Error generating stack: ` +
 						(K = K.type.childContextTypes), K != null && dh();
 						break;
 					case 3:
-						Zc(), pn(qi), pn(fi), Fp();
+						Zc(), mn(qi), mn(fi), Fp();
 						break;
 					case 5:
 						Dp(K);
@@ -16422,10 +16422,10 @@ Error generating stack: ` +
 						Zc();
 						break;
 					case 13:
-						pn(fn);
+						mn(gn);
 						break;
 					case 19:
-						pn(fn);
+						mn(gn);
 						break;
 					case 10:
 						yh(K.type._context);
@@ -16526,7 +16526,7 @@ Error generating stack: ` +
 							}
 							Tt = Error(h(426));
 						}
-					} else if (mn && ft.mode & 1) {
+					} else if (fn && ft.mode & 1) {
 						var Mn = Yp(We);
 						if (Mn !== null) {
 							!(Mn.flags & 65536) && (Mn.flags |= 256),
@@ -16916,7 +16916,7 @@ Error generating stack: ` +
 				if (!(B.lanes & V) && !(N.flags & 128)) return (Si = !1), bi(B, N, V);
 				Si = !!(B.flags & 131072);
 			}
-		else (Si = !1), mn && N.flags & 1048576 && Om(N, mh, N.index);
+		else (Si = !1), fn && N.flags & 1048576 && Om(N, mh, N.index);
 		switch (((N.lanes = 0), N.tag)) {
 			case 2:
 				var K = N.type;
@@ -16943,7 +16943,7 @@ Error generating stack: ` +
 							Lp(N, K, B, V),
 							(N = Qp(null, N, K, !0, fe, V)))
 						: ((N.tag = 0),
-							mn && fe && Td(N),
+							fn && fe && Td(N),
 							Li(null, N, oe, V),
 							(N = N.child)),
 					N
@@ -17022,7 +17022,7 @@ Error generating stack: ` +
 							for (
 								rs = Bo(N.stateNode.containerInfo.firstChild),
 									yi = N,
-									mn = !0,
+									fn = !0,
 									Ts = null,
 									V = Np(N, null, K, V),
 									N.child = V;
@@ -17083,7 +17083,7 @@ Error generating stack: ` +
 						(oe = N.pendingProps),
 						(fe = N.memoizedProps),
 						(We = oe.value),
-						sn(dl, K._currentValue),
+						un(dl, K._currentValue),
 						(K._currentValue = We),
 						fe !== null)
 					)
@@ -18146,7 +18146,7 @@ function requireLodash() {
 							/[^.[\]]+|\[(?:(-?\d+(?:\.\d+)?)|(["'])((?:(?!\2)[^\\]|\\.)*?)\2)\]|(?=(?:\.|\[\])(?:\.|\[\]|$))/g,
 						Ea = /[\\^$.*+?()[\]{}|]/g,
 						La = RegExp(Ea.source),
-						un = /^\s+/,
+						cn = /^\s+/,
 						gt = /\s/,
 						ot = /\{(?:\n\/\* \[wrapped with .+\] \*\/)?\n?/,
 						bt = /\{\n\/\* \[wrapped with (.+)\] \*/,
@@ -18174,11 +18174,11 @@ function requireLodash() {
 						Qr = "\\xac\\xb1\\xd7\\xf7",
 						Nr = "\\x00-\\x2f\\x3a-\\x40\\x5b-\\x60\\x7b-\\xbf",
 						Hr = "\\u2000-\\u206f",
-						nn =
+						sn =
 							" \\t\\x0b\\f\\xa0\\ufeff\\n\\r\\u2028\\u2029\\u1680\\u180e\\u2000\\u2001\\u2002\\u2003\\u2004\\u2005\\u2006\\u2007\\u2008\\u2009\\u200a\\u202f\\u205f\\u3000",
 						Na = "A-Z\\xc0-\\xd6\\xd8-\\xde",
-						cn = "\\ufe0e\\ufe0f",
-						jn = Qr + Nr + Hr + nn,
+						dn = "\\ufe0e\\ufe0f",
+						jn = Qr + Nr + Hr + sn,
 						Ga = "['’]",
 						Sn = "[" + rr + "]",
 						$a = "[" + jn + "]",
@@ -18199,7 +18199,7 @@ function requireLodash() {
 						Zi = "(?:" + Ga + "(?:d|ll|m|re|s|t|ve))?",
 						ds = "(?:" + Ga + "(?:D|LL|M|RE|S|T|VE))?",
 						Di = Un + "?",
-						ui = "[" + cn + "]?",
+						ui = "[" + dn + "]?",
 						Rn =
 							"(?:" +
 							cs +
@@ -18214,7 +18214,7 @@ function requireLodash() {
 						Nn = ui + Di + Rn,
 						Fi = "(?:" + [an, Bi, Ia].join("|") + ")" + Nn,
 						en = "(?:" + [si + Xa + "?", Xa, Bi, Ia, Sn].join("|") + ")",
-						gn = RegExp(Ga, "g"),
+						yn = RegExp(Ga, "g"),
 						ci = RegExp(Xa, "g"),
 						Bn = RegExp(qn + "(?=" + qn + ")|" + en + Nn, "g"),
 						di = RegExp(
@@ -18237,7 +18237,7 @@ function requireLodash() {
 							].join("|"),
 							"g",
 						),
-						Xi = RegExp("[" + cs + rr + Yr + cn + "]"),
+						Xi = RegExp("[" + cs + rr + Yr + dn + "]"),
 						Ji =
 							/[a-z][A-Z]|[A-Z]{2}[a-z]|[0-9][a-zA-Z]|[a-zA-Z][0-9]|[^a-zA-Z0-9 ]/,
 						Qi = [
@@ -18681,7 +18681,7 @@ function requireLodash() {
 					function Ka(Lt, er, Vt) {
 						return er === er ? al(Lt, er, Vt) : Va(Lt, An, Vt);
 					}
-					function yn(Lt, er, Vt, Br) {
+					function _n(Lt, er, Vt, Br) {
 						for (var sa = Vt - 1, Ma = Lt.length; ++sa < Ma; )
 							if (Br(Lt[sa], er)) return sa;
 						return -1;
@@ -18689,7 +18689,7 @@ function requireLodash() {
 					function An(Lt) {
 						return Lt !== Lt;
 					}
-					function dn(Lt, er) {
+					function hn(Lt, er) {
 						var Vt = Lt == null ? 0 : Lt.length;
 						return Vt ? Fa(Lt, er) / Vt : Ee;
 					}
@@ -18733,7 +18733,7 @@ function requireLodash() {
 						});
 					}
 					function Oc(Lt) {
-						return Lt && Lt.slice(0, hi(Lt) + 1).replace(un, "");
+						return Lt && Lt.slice(0, hi(Lt) + 1).replace(cn, "");
 					}
 					function Ai(Lt) {
 						return function (er) {
@@ -18909,7 +18909,7 @@ function requireLodash() {
 									} catch {}
 								})(),
 								Am = er.clearTimeout !== jr.clearTimeout && er.clearTimeout,
-								hn = Br && Br.now !== jr.Date.now && Br.now,
+								pn = Br && Br.now !== jr.Date.now && Br.now,
 								Ep = er.setTimeout !== jr.setTimeout && er.setTimeout,
 								il = In.ceil,
 								To = In.floor,
@@ -19049,10 +19049,10 @@ function requireLodash() {
 									this.set(ge[0], ge[1]);
 								}
 							}
-							function pn() {
+							function mn() {
 								(this.__data__ = jc ? jc(null) : {}), (this.size = 0);
 							}
-							function sn(O) {
+							function un(O) {
 								var q = this.has(O) && delete this.__data__[O];
 								return (this.size -= q ? 1 : 0), q;
 							}
@@ -19076,8 +19076,8 @@ function requireLodash() {
 									this
 								);
 							}
-							(ji.prototype.clear = pn),
-								(ji.prototype.delete = sn),
+							(ji.prototype.clear = mn),
+								(ji.prototype.delete = un),
 								(ji.prototype.get = Mo),
 								(ji.prototype.has = fi),
 								(ji.prototype.set = qi);
@@ -19255,7 +19255,7 @@ function requireLodash() {
 									ge
 								);
 							}
-							function mn(O, q) {
+							function fn(O, q) {
 								return O && Ps(q, ki(q), O);
 							}
 							function Ts(O, q) {
@@ -19304,7 +19304,7 @@ function requireLodash() {
 									if (dd(O)) return qp(O, Bt);
 									if (gr == Se || gr == kt || (zr && !qe)) {
 										if (((yt = Dt || zr ? {} : nd(O)), !Bt))
-											return Dt ? Yf(O, Ts(yt, O)) : Gm(O, mn(yt, O));
+											return Dt ? Yf(O, Ts(yt, O)) : Gm(O, fn(yt, O));
 									} else {
 										if (!ba[gr]) return qe ? O : {};
 										yt = vi(O, gr, Bt);
@@ -19771,8 +19771,8 @@ function requireLodash() {
 									return as(q, O);
 								};
 							}
-							function fn(O, q, Z, ge) {
-								var qe = ge ? yn : Ka,
+							function gn(O, q, Z, ge) {
+								var qe = ge ? _n : Ka,
 									nt = -1,
 									yt = q.length,
 									Bt = O;
@@ -20248,7 +20248,7 @@ function requireLodash() {
 							}
 							function uo(O) {
 								return function (q) {
-									return Er($g(Fg(q).replace(gn, "")), O, "");
+									return Er($g(Fg(q).replace(yn, "")), O, "");
 								};
 							}
 							function Dd(O) {
@@ -21318,13 +21318,13 @@ function requireLodash() {
 							}
 							var cm = wa(Yd);
 							function Yd(O, q) {
-								return O && O.length && q && q.length ? fn(O, q) : O;
+								return O && O.length && q && q.length ? gn(O, q) : O;
 							}
 							function Zh(O, q, Z) {
-								return O && O.length && q && q.length ? fn(O, q, ea(Z, 2)) : O;
+								return O && O.length && q && q.length ? gn(O, q, ea(Z, 2)) : O;
 							}
 							function Ni(O, q, Z) {
-								return O && O.length && q && q.length ? fn(O, q, h, Z) : O;
+								return O && O.length && q && q.length ? gn(O, q, h, Z) : O;
 							}
 							var Vo = Ys(function (O, q) {
 								var Z = O == null ? 0 : O.length,
@@ -21693,7 +21693,7 @@ function requireLodash() {
 									);
 								}),
 								We =
-									hn ||
+									pn ||
 									function () {
 										return jr.Date.now();
 									};
@@ -22153,7 +22153,7 @@ function requireLodash() {
 								E1 = Ys(fh);
 							function I1(O, q) {
 								var Z = Hc(O);
-								return q == null ? Z : mn(Z, q);
+								return q == null ? Z : fn(Z, q);
 							}
 							var T1 = wa(function (O, q) {
 									O = ja(O);
@@ -22431,7 +22431,7 @@ function requireLodash() {
 							function y0(O, q, Z) {
 								return (
 									Z || q == null ? (q = 0) : q && (q = +q),
-									Mm(rn(O).replace(un, ""), q || 0)
+									Mm(rn(O).replace(cn, ""), q || 0)
 								);
 							}
 							function _0(O, q, Z) {
@@ -22601,7 +22601,7 @@ function print() { __p += __j.call(arguments, '') }
 							}
 							function B0(O, q, Z) {
 								if (((O = rn(O)), O && (Z || q === h)))
-									return O.replace(un, "");
+									return O.replace(cn, "");
 								if (!O || !(q = Tn(q))) return O;
 								var ge = ei(O),
 									qe = yd(ge, ei(q));
@@ -22830,10 +22830,10 @@ function print() { __p += __j.call(arguments, '') }
 								return O && O.length ? dl(O, ea(q, 2), Bs) : h;
 							}
 							function uy(O) {
-								return dn(O, ws);
+								return hn(O, ws);
 							}
 							function cy(O, q) {
-								return dn(O, ea(q, 2));
+								return hn(O, ea(q, 2));
 							}
 							function dy(O) {
 								return O && O.length ? dl(O, ws, Oo) : h;
@@ -43348,8 +43348,8 @@ class WebGLRenderer {
 			else if (Mt.isInstancedBufferGeometry) {
 				const Hr =
 						Mt._maxInstanceCount !== void 0 ? Mt._maxInstanceCount : 1 / 0,
-					nn = Math.min(Mt.instanceCount, Hr);
-				Nr.renderInstances(Yr, ya, nn);
+					sn = Math.min(Mt.instanceCount, Hr);
+				Nr.renderInstances(Yr, ya, sn);
 			} else Nr.render(Yr, ya);
 		};
 		function Ar(Je, wt, Mt) {
@@ -43483,9 +43483,9 @@ class WebGLRenderer {
 					const It = wt.cameras;
 					for (let lt = 0, tr = It.length; lt < tr; lt++) {
 						const cr = It[lt];
-						un(A, Je, cr, cr.viewport);
+						cn(A, Je, cr, cr.viewport);
 					}
-				} else un(A, Je, wt);
+				} else cn(A, Je, wt);
 				G !== null &&
 					(Ye.updateMultisampleRenderTarget(G), Ye.updateRenderTargetMipmap(G)),
 					Je.isScene === !0 && Je.onAfterRender(F, Je, wt),
@@ -43538,7 +43538,7 @@ class WebGLRenderer {
 			const tr = Je.children;
 			for (let cr = 0, dr = tr.length; cr < dr; cr++) La(tr[cr], wt, Mt, It);
 		}
-		function un(Je, wt, Mt, It) {
+		function cn(Je, wt, Mt, It) {
 			const lt = Je.opaque,
 				tr = Je.transmissive,
 				cr = Je.transparent;
@@ -43750,14 +43750,14 @@ class WebGLRenderer {
 					Mt.morphAttributes.color,
 				Nr = Qr !== void 0 ? Qr.length : 0,
 				Hr = Fe.get(It),
-				nn = R.state.lights;
+				sn = R.state.lights;
 			if (ut === !0 && (kt === !0 || Je !== J)) {
 				const an = Je === J && It.id === ee;
 				ne.setState(It, Je, an);
 			}
 			let Na = !1;
 			It.version === Hr.__version
-				? ((Hr.needsLights && Hr.lightsStateVersion !== nn.state.version) ||
+				? ((Hr.needsLights && Hr.lightsStateVersion !== sn.state.version) ||
 						Hr.outputColorSpace !== dr ||
 						(lt.isInstancedMesh && Hr.instancing === !1) ||
 						(!lt.isInstancedMesh && Hr.instancing === !0) ||
@@ -43783,15 +43783,15 @@ class WebGLRenderer {
 						(Pe.isWebGL2 === !0 && Hr.morphTargetsCount !== Nr)) &&
 					(Na = !0)
 				: ((Na = !0), (Hr.__version = It.version));
-			let cn = Hr.currentProgram;
-			Na === !0 && (cn = Ft(It, wt, lt));
+			let dn = Hr.currentProgram;
+			Na === !0 && (dn = Ft(It, wt, lt));
 			let jn = !1,
 				Ga = !1,
 				Sn = !1;
-			const $a = cn.getUniforms(),
+			const $a = dn.getUniforms(),
 				Xa = Hr.uniforms;
 			if (
-				(se.useProgram(cn.program) && ((jn = !0), (Ga = !0), (Sn = !0)),
+				(se.useProgram(dn.program) && ((jn = !0), (Ga = !0), (Sn = !0)),
 				It.id !== ee && ((ee = It.id), (Ga = !0)),
 				jn || J !== Je)
 			) {
@@ -43833,7 +43833,7 @@ class WebGLRenderer {
 				((Qa.position !== void 0 ||
 					Qa.normal !== void 0 ||
 					(Qa.color !== void 0 && Pe.isWebGL2 === !0)) &&
-					He.update(lt, Mt, cn),
+					He.update(lt, Mt, dn),
 				(Ga || Hr.receiveShadow !== lt.receiveShadow) &&
 					((Hr.receiveShadow = lt.receiveShadow),
 					$a.setValue(ce, "receiveShadow", lt.receiveShadow)),
@@ -43862,13 +43862,13 @@ class WebGLRenderer {
 				for (let zn = 0, Ci = an.length; zn < Ci; zn++)
 					if (Pe.isWebGL2) {
 						const qn = an[zn];
-						rt.update(qn, cn), rt.bind(qn, cn);
+						rt.update(qn, dn), rt.bind(qn, dn);
 					} else
 						console.warn(
 							"THREE.WebGLRenderer: Uniform Buffer Objects can only be used with WebGL 2.",
 						);
 			}
-			return cn;
+			return dn;
 		}
 		function Pr(Je, wt) {
 			(Je.ambientLightColor.needsUpdate = wt),
@@ -50139,7 +50139,7 @@ const INTRP_ALPHA = 0.1,
 	},
 	MSPT = 50,
 	MB = 1024 * 1024,
-	VERSION$1 = "3.41.78",
+	VERSION$1 = "3.41.79",
 	MODE = "production";
 if (["development", "local", "staging", "production"].indexOf(MODE) === -1)
 	throw new Error(`Unknown mode: ${MODE}`);
@@ -50933,7 +50933,7 @@ const BASE_DOMAIN = "coolmathblox.ca",
 		clone() {
 			return new Jn(this.x, this.y, this.z);
 		}
-		static yyroHYflhA(u, h) {
+		static qPbKTqpwcZ(u, h) {
 			return { [Symbol.iterator]: () => blockPosIterator(u, h) };
 		}
 	};
@@ -51678,7 +51678,7 @@ function requireLodash_reduce() {
 					ia = dt(Kt),
 					Ea = dt(hr),
 					La = dt(Ar),
-					un = dt(Ur),
+					cn = dt(Ur),
 					gt = pt ? pt.prototype : void 0,
 					ot = gt ? gt.valueOf : void 0,
 					bt = gt ? gt.toString : void 0;
@@ -51806,13 +51806,13 @@ function requireLodash_reduce() {
 				function Hr(Q) {
 					return this.__data__.delete(Q);
 				}
-				function nn(Q) {
+				function sn(Q) {
 					return this.__data__.get(Q);
 				}
 				function Na(Q) {
 					return this.__data__.has(Q);
 				}
-				function cn(Q, me) {
+				function dn(Q, me) {
 					var Qe = this.__data__;
 					if (Qe instanceof Je) {
 						var vt = Qe.__data__;
@@ -51823,9 +51823,9 @@ function requireLodash_reduce() {
 				}
 				(Qr.prototype.clear = Nr),
 					(Qr.prototype.delete = Hr),
-					(Qr.prototype.get = nn),
+					(Qr.prototype.get = sn),
 					(Qr.prototype.has = Na),
-					(Qr.prototype.set = cn);
+					(Qr.prototype.set = dn);
 				function jn(Q, me) {
 					var Qe = ha(Q) || Zr(Q) ? Et(Q.length, String) : [],
 						vt = Qe.length,
@@ -51869,8 +51869,8 @@ function requireLodash_reduce() {
 						wr = ha(me),
 						kr = w,
 						Er = w;
-					pr || ((kr = gn(Q)), (kr = kr == v ? D : kr)),
-						wr || ((Er = gn(me)), (Er = Er == v ? D : Er));
+					pr || ((kr = yn(Q)), (kr = kr == v ? D : kr)),
+						wr || ((Er = yn(me)), (Er = Er == v ? D : Er));
 					var pa = kr == D && !ht(Q),
 						Or = Er == D && !ht(me),
 						Gr = kr == Er;
@@ -52092,10 +52092,10 @@ function requireLodash_reduce() {
 						var Va = Q[Gr],
 							Ka = me[Gr];
 						if (vt)
-							var yn = pr
+							var _n = pr
 								? vt(Ka, Va, Gr, me, Q, Gt)
 								: vt(Va, Ka, Gr, Q, me, Gt);
-						if (!(yn === void 0 ? Va === Ka || Qe(Va, Ka, vt, qt, Gt) : yn)) {
+						if (!(_n === void 0 ? Va === Ka || Qe(Va, Ka, vt, qt, Gt) : _n)) {
 							Ha = !1;
 							break;
 						}
@@ -52103,15 +52103,15 @@ function requireLodash_reduce() {
 					}
 					if (Ha && !Da) {
 						var An = Q.constructor,
-							dn = me.constructor;
-						An != dn &&
+							hn = me.constructor;
+						An != hn &&
 							"constructor" in Q &&
 							"constructor" in me &&
 							!(
 								typeof An == "function" &&
 								An instanceof An &&
-								typeof dn == "function" &&
-								dn instanceof dn
+								typeof hn == "function" &&
+								hn instanceof hn
 							) &&
 							(Ha = !1);
 					}
@@ -52135,13 +52135,13 @@ function requireLodash_reduce() {
 					var Qe = Te(Q, me);
 					return si(Qe) ? Qe : void 0;
 				}
-				var gn = an;
-				((nr && gn(new nr(new ArrayBuffer(1))) != ie) ||
-					(Kt && gn(new Kt()) != R) ||
-					(hr && gn(hr.resolve()) != F) ||
-					(Ar && gn(new Ar()) != H) ||
-					(Ur && gn(new Ur()) != ee)) &&
-					(gn = function (Q) {
+				var yn = an;
+				((nr && yn(new nr(new ArrayBuffer(1))) != ie) ||
+					(Kt && yn(new Kt()) != R) ||
+					(hr && yn(hr.resolve()) != F) ||
+					(Ar && yn(new Ar()) != H) ||
+					(Ur && yn(new Ur()) != ee)) &&
+					(yn = function (Q) {
 						var me = At.call(Q),
 							Qe = me == D ? Q.constructor : void 0,
 							vt = Qe ? dt(Qe) : void 0;
@@ -52155,7 +52155,7 @@ function requireLodash_reduce() {
 									return F;
 								case La:
 									return H;
-								case un:
+								case cn:
 									return ee;
 							}
 						return me;
@@ -52971,20 +52971,20 @@ function requireUri_all() {
 									Nr = void 0;
 								try {
 									for (
-										var Hr = ot[Symbol.iterator](), nn;
-										!(ya = (nn = Hr.next()).done);
+										var Hr = ot[Symbol.iterator](), sn;
+										!(ya = (sn = Hr.next()).done);
 										ya = !0
 									) {
-										var Na = nn.value;
+										var Na = sn.value;
 										if ((Na < $t && ++Cr > C && de("overflow"), Na == $t)) {
-											for (var cn = Cr, jn = A; ; jn += A) {
+											for (var dn = Cr, jn = A; ; jn += A) {
 												var Ga = jn <= Tr ? R : jn >= Tr + L ? L : jn - Tr;
-												if (cn < Ga) break;
-												var Sn = cn - Ga,
+												if (dn < Ga) break;
+												var Sn = dn - Ga,
 													$a = A - Ga;
-												bt.push(ye(Ee(Ga + (Sn % $a), 0))), (cn = Ne(Sn / $a));
+												bt.push(ye(Ee(Ga + (Sn % $a), 0))), (dn = Ne(Sn / $a));
 											}
-											bt.push(ye(Ee(cn, 0))),
+											bt.push(ye(Ee(dn, 0))),
 												(Tr = Be(Cr, la, tr == lt)),
 												(Cr = 0),
 												++tr;
@@ -53637,7 +53637,7 @@ function requireUri_all() {
 							},
 						},
 						La = /^[0-9A-Fa-f]{8}(?:\-[0-9A-Fa-f]{4}){3}\-[0-9A-Fa-f]{12}$/,
-						un = {
+						cn = {
 							scheme: "urn:uuid",
 							parse: function (ot, bt) {
 								var Ft = ot;
@@ -53661,7 +53661,7 @@ function requireUri_all() {
 						(Ae[et.scheme] = et),
 						(Ae[fa.scheme] = fa),
 						(Ae[Ea.scheme] = Ea),
-						(Ae[un.scheme] = un),
+						(Ae[cn.scheme] = cn),
 						(h.SCHEMES = Ae),
 						(h.pctEncChar = Ie),
 						(h.pctDecChars = $e),
@@ -67307,19 +67307,19 @@ const language$2 = {
 			return this.inLava;
 		}
 		isEating() {
-			return this.ucwSrYmywD(4);
+			return this.HxFfAAMbdS(4);
 		}
 		setEating(u) {
-			this.uuRxfAElrD(4, u);
+			this.ndMzmzLfiC(4, u);
 		}
 		entityInit() {}
 		getDataWatcher() {
 			return this.dataWatcher;
 		}
-		ucwSrYmywD(u) {
+		HxFfAAMbdS(u) {
 			return (this.dataWatcher.getWatchableObjectByte(0) & (1 << u)) != 0;
 		}
-		uuRxfAElrD(u, h) {
+		ndMzmzLfiC(u, h) {
 			const p = this.dataWatcher.getWatchableObjectByte(0);
 			h
 				? this.dataWatcher.updateObject(0, p | (1 << u))
@@ -67528,7 +67528,7 @@ const language$2 = {
 		setCurrentItemOrArmor(u, h) {}
 		isBurning() {
 			const u = this.world != null && this.world.isClient;
-			return this.fire > 0 || (u && this.ucwSrYmywD(0));
+			return this.fire > 0 || (u && this.HxFfAAMbdS(0));
 		}
 		getInventory() {
 			return null;
@@ -68026,19 +68026,19 @@ const language$2 = {
 			return this.pos.distanceToSquared(u.pos);
 		}
 		setSprinting(u) {
-			this.uuRxfAElrD(3, u);
+			this.ndMzmzLfiC(3, u);
 		}
 		isSprinting() {
 			return !1;
 		}
 		isInvisible() {
-			return this.ucwSrYmywD(5);
+			return this.HxFfAAMbdS(5);
 		}
-		RuTYpKTjFl(u) {
+		LROtGTuxaU(u) {
 			return this.isInvisible();
 		}
 		setInvisible(u) {
-			this.uuRxfAElrD(5, u);
+			this.ndMzmzLfiC(5, u);
 		}
 		entityDropItem(u, h) {
 			if (u.stackSize != 0 && u.getItem() != null) {
@@ -69184,7 +69184,7 @@ const ga = class ga {
 					let x = ga.parsePotionEffects(y, 0, y.length, u);
 					if (x > 0) {
 						let S = 0;
-						const b = ga.PNYSNJDDvM.get(g.getId());
+						const b = ga.PbSCREIuGC.get(g.getId());
 						b != null &&
 							((S = ga.parsePotionEffects(b, 0, b.length, u)),
 							S < 0 && (S = 0)),
@@ -69221,7 +69221,7 @@ I(ga, "field_77924_a", null),
 	I(ga, "pufferfishEffect", "+0-1+2+3+13&4-4"),
 	I(ga, "rabbitFootEffect", "+0+1-2+3&4-4+13"),
 	I(ga, "potionRequirements", new Map()),
-	I(ga, "PNYSNJDDvM", new Map()),
+	I(ga, "PbSCREIuGC", new Map()),
 	I(ga, "DATAVALUE_COLORS", new Map()),
 	I(ga, "potionPrefixes", [
 		"potion.prefix.mundane",
@@ -69502,15 +69502,15 @@ PotionHelper.potionRequirements.set(
 	Potions.jump.getId(),
 	"0 & 1 & !2 & 3 & 3+6",
 );
-PotionHelper.PNYSNJDDvM.set(Potions.moveSpeed.getId(), "5");
-PotionHelper.PNYSNJDDvM.set(Potions.digSpeed.getId(), "5");
-PotionHelper.PNYSNJDDvM.set(Potions.damageBoost.getId(), "5");
-PotionHelper.PNYSNJDDvM.set(Potions.regeneration.getId(), "5");
-PotionHelper.PNYSNJDDvM.set(Potions.harm.getId(), "5");
-PotionHelper.PNYSNJDDvM.set(Potions.heal.getId(), "5");
-PotionHelper.PNYSNJDDvM.set(Potions.resistance.getId(), "5");
-PotionHelper.PNYSNJDDvM.set(Potions.poison.getId(), "5");
-PotionHelper.PNYSNJDDvM.set(Potions.jump.getId(), "5");
+PotionHelper.PbSCREIuGC.set(Potions.moveSpeed.getId(), "5");
+PotionHelper.PbSCREIuGC.set(Potions.digSpeed.getId(), "5");
+PotionHelper.PbSCREIuGC.set(Potions.damageBoost.getId(), "5");
+PotionHelper.PbSCREIuGC.set(Potions.regeneration.getId(), "5");
+PotionHelper.PbSCREIuGC.set(Potions.harm.getId(), "5");
+PotionHelper.PbSCREIuGC.set(Potions.heal.getId(), "5");
+PotionHelper.PbSCREIuGC.set(Potions.resistance.getId(), "5");
+PotionHelper.PbSCREIuGC.set(Potions.poison.getId(), "5");
+PotionHelper.PbSCREIuGC.set(Potions.jump.getId(), "5");
 const Zo = class Zo extends Entity {
 	constructor(h) {
 		super(h);
@@ -69519,8 +69519,8 @@ const Zo = class Zo extends Entity {
 		I(this, "jumpTicks", 0);
 		I(this, "initialJumpVelocity", 0.42);
 		I(this, "jumpMovementFactor");
-		I(this, "TMzFRKfKXD", 0);
-		I(this, "LFzeLOHDfQ", 0);
+		I(this, "algxaYNegS", 0);
+		I(this, "QZoFiiAqcN", 0);
 		I(this, "prevLimbSwingAmount", 0);
 		I(this, "limbSwingAmount", 0);
 		I(this, "limbSwing", 0);
@@ -69891,7 +69891,7 @@ const Zo = class Zo extends Entity {
 			Math.abs(this.motion.y) < 0.005 && (this.motion.y = 0),
 			Math.abs(this.motion.z) < 0.005 && (this.motion.z = 0),
 			this.isMovementBlocked()
-				? ((this.jumping = !1), (this.TMzFRKfKXD = 0), (this.LFzeLOHDfQ = 0))
+				? ((this.jumping = !1), (this.algxaYNegS = 0), (this.QZoFiiAqcN = 0))
 				: this.isServerWorld() && this.updateEntityActionState(),
 			this.jumping
 				? this.inWater
@@ -69902,9 +69902,9 @@ const Zo = class Zo extends Entity {
 							this.jumpTicks == 0 &&
 							(this.jump(), (this.jumpTicks = 10))
 				: (this.jumpTicks = 0),
-			(this.TMzFRKfKXD *= 0.98),
-			(this.LFzeLOHDfQ *= 0.98),
-			this.moveEntityWithHeading(this.TMzFRKfKXD, this.LFzeLOHDfQ),
+			(this.algxaYNegS *= 0.98),
+			(this.QZoFiiAqcN *= 0.98),
+			this.moveEntityWithHeading(this.algxaYNegS, this.QZoFiiAqcN),
 			this.world.isServer &&
 				this.doEntityCollision &&
 				this.collideWithNearbyEntities();
@@ -113818,7 +113818,7 @@ class PathNavigateGround extends PathNavigate {
 		} else return !1;
 	}
 	isPositionClear(h, p, g, y, x, S, b, v, w) {
-		for (const k of BlockPos.yyroHYflhA(
+		for (const k of BlockPos.qPbKTqpwcZ(
 			new BlockPos(h, p, g),
 			new BlockPos(h + y - 1, p + x - 1, g + S - 1),
 		)) {
@@ -114326,7 +114326,7 @@ class EntityLiving extends EntityLivingBase {
 		}
 	}
 	setMoveForward(h) {
-		this.LFzeLOHDfQ = h;
+		this.QZoFiiAqcN = h;
 	}
 	setAIMoveSpeed(h) {
 		super.setAIMoveSpeed(h), this.setMoveForward(h);
@@ -115120,7 +115120,7 @@ const Oi = class Oi {
 		return this.getBlock(u).isAir();
 	}
 	areaPassesCheck(u, h, p) {
-		for (const g of BlockPos.yyroHYflhA(u, h))
+		for (const g of BlockPos.qPbKTqpwcZ(u, h))
 			if (!p(this.getBlock(g))) return !1;
 		return !0;
 	}
@@ -118314,7 +118314,7 @@ class EntityPlayer extends EntityLivingBase {
 				: (this.motion.x = this.motion.z = 0);
 	}
 	isSprinting() {
-		return this.ucwSrYmywD(3);
+		return this.HxFfAAMbdS(3);
 	}
 	attackTargetEntityWithCurrentItem(h) {
 		var x;
@@ -118436,12 +118436,12 @@ class EntityPlayer extends EntityLivingBase {
 			g.dead || (g.id != this.id && g.onCollideWithPlayer(this));
 	}
 	applyInput(h, p = !1) {
-		(this.TMzFRKfKXD = (h.right ? 1 : 0) + (h.left ? -1 : 0)),
-			(this.LFzeLOHDfQ = (h.up ? -1 : 0) + (h.down ? 1 : 0)),
+		(this.algxaYNegS = (h.right ? 1 : 0) + (h.left ? -1 : 0)),
+			(this.QZoFiiAqcN = (h.up ? -1 : 0) + (h.down ? 1 : 0)),
 			(this.yaw = h.yaw),
 			(this.pitch = h.pitch),
 			(this.jumping = h.jump),
-			h.sneak && ((this.TMzFRKfKXD *= 0.3), (this.LFzeLOHDfQ *= 0.3)),
+			h.sneak && ((this.algxaYNegS *= 0.3), (this.QZoFiiAqcN *= 0.3)),
 			this.onPlayerUpdate(),
 			this.setPositionAndRotation(
 				this.pos.x,
@@ -121925,7 +121925,7 @@ const Dl = class Dl extends Item {
 };
 I(Dl, "SUB_ITEMS_CACHE", new Map());
 let ItemPotion = Dl;
-function LwgxtVoRBN(m) {
+function EhzkVfTAYo(m) {
 	return (
 		(m = m % (2 * Math.PI)),
 		m >= Math.PI && (m -= 2 * Math.PI),
@@ -122141,11 +122141,11 @@ class EntityBoat extends Entity {
 		const y = this.riddenByEntity;
 		if (this.riddenByEntity instanceof EntityLivingBase) {
 			const k =
-				this.riddenByEntity.yaw - Math.PI / 2 + (-y.TMzFRKfKXD * Math.PI) / 2;
+				this.riddenByEntity.yaw - Math.PI / 2 + (-y.algxaYNegS * Math.PI) / 2;
 			(this.motion.x +=
-				Math.cos(k) * this.speedMultiplier * y.LFzeLOHDfQ * 0.1),
+				Math.cos(k) * this.speedMultiplier * y.QZoFiiAqcN * 0.1),
 				(this.motion.z +=
-					-Math.sin(k) * this.speedMultiplier * y.LFzeLOHDfQ * 0.1);
+					-Math.sin(k) * this.speedMultiplier * y.QZoFiiAqcN * 0.1);
 		}
 		for (let k = 0; k < 4; ++k) {
 			const E = Math.floor(this.pos.x + ((k % 2) - 0.5) * 0.8),
@@ -122169,7 +122169,7 @@ class EntityBoat extends Entity {
 		const S = this.prevPos.x - this.pos.x,
 			b = this.prevPos.z - this.pos.z;
 		S * S + b * b > 0.001 && (x = Math.atan2(S, b) - Math.PI / 2);
-		let v = LwgxtVoRBN(x - this.yaw);
+		let v = EhzkVfTAYo(x - this.yaw);
 		const w = degToRad(20);
 		v > w && (v = w),
 			v < -w && (v = -w),
@@ -127847,7 +127847,7 @@ class BlockHellPortal extends Block {
 				if (F) continue;
 				const U = { x: "z", z: "x", y: "y" },
 					H = Blocks.hell_portal.defaultState.withState("axis", U[y.name]);
-				for (const j of BlockPos.yyroHYflhA(C, A)) h.setBlockState(j, H, 2);
+				for (const j of BlockPos.qPbKTqpwcZ(C, A)) h.setBlockState(j, H, 2);
 			}
 	}
 	onEntityCollidedWithBlock(h, p, g) {
@@ -135770,7 +135770,7 @@ function requireLodash_mergewith() {
 						Wt = dr(zt, dt);
 					return Wt < 0 ? void 0 : zt[Wt][1];
 				}
-				function un(dt) {
+				function cn(dt) {
 					return dr(this.__data__, dt) > -1;
 				}
 				function gt(dt, zt) {
@@ -135783,7 +135783,7 @@ function requireLodash_mergewith() {
 				(fa.prototype.clear = ia),
 					(fa.prototype.delete = Ea),
 					(fa.prototype.get = La),
-					(fa.prototype.has = un),
+					(fa.prototype.has = cn),
 					(fa.prototype.set = gt);
 				function ot(dt) {
 					var zt = -1,
@@ -135916,7 +135916,7 @@ function requireLodash_mergewith() {
 					return zt.test(Di(dt));
 				}
 				function la(dt) {
-					return Bn(dt) && gn(dt.length) && !!st[Sr(dt)];
+					return Bn(dt) && yn(dt.length) && !!st[Sr(dt)];
 				}
 				function ya(dt) {
 					if (!ci(dt)) return oi(dt);
@@ -135981,7 +135981,7 @@ function requireLodash_mergewith() {
 				function Hr(dt, zt) {
 					return Zi(li(dt, zt, ba), dt + "");
 				}
-				var nn = At
+				var sn = At
 					? function (dt, zt) {
 							return At(dt, "toString", {
 								configurable: !0,
@@ -135994,12 +135994,12 @@ function requireLodash_mergewith() {
 				function Na(dt, zt) {
 					return dt.slice();
 				}
-				function cn(dt) {
+				function dn(dt) {
 					var zt = new dt.constructor(dt.byteLength);
 					return new ke(zt).set(new ke(dt)), zt;
 				}
 				function jn(dt, zt) {
-					var Wt = cn(dt.buffer);
+					var Wt = dn(dt.buffer);
 					return new dt.constructor(Wt, dt.byteOffset, dt.length);
 				}
 				function Ga(dt, zt) {
@@ -136148,7 +136148,7 @@ function requireLodash_mergewith() {
 					)
 						return dt[zt];
 				}
-				var Zi = ds(nn);
+				var Zi = ds(sn);
 				function ds(dt) {
 					var zt = 0,
 						Wt = 0;
@@ -136188,7 +136188,7 @@ function requireLodash_mergewith() {
 							},
 					Ln = Array.isArray;
 				function Qn(dt) {
-					return dt != null && gn(dt.length) && !en(dt);
+					return dt != null && yn(dt.length) && !en(dt);
 				}
 				function Nn(dt) {
 					return Bn(dt) && Qn(dt);
@@ -136199,7 +136199,7 @@ function requireLodash_mergewith() {
 					var zt = Sr(dt);
 					return zt == T || zt == C || zt == v || zt == F;
 				}
-				function gn(dt) {
+				function yn(dt) {
 					return typeof dt == "number" && dt > -1 && dt % 1 == 0 && dt <= x;
 				}
 				function ci(dt) {
@@ -159661,9 +159661,9 @@ class SoundOptions {
 			this.blocks.reset();
 	}
 }
-var _n;
+var nn;
 let Options$1 =
-	((_n = class {
+	((nn = class {
 		static reset() {
 			this.resetVideo(), this.resetControls(), this.sound.reset();
 		}
@@ -159676,7 +159676,10 @@ let Options$1 =
 				this.dynamicFOV.reset(),
 				this.textureMaterial.reset(),
 				this.fastRender.reset(),
-				this.autoFullscreen.reset();
+				this.autoFullscreen.reset(),
+				this.godRays.reset(),
+				this.waterShaders.reset(),
+				this.waterLightRefraction.reset();
 		}
 		static resetControls() {
 			this.mouseSensitivity.reset(),
@@ -159685,29 +159688,32 @@ let Options$1 =
 				this.invertScroll.reset();
 		}
 	}),
-	I(_n, "debug", new Option("Debug", !1)),
-	I(_n, "fov", new SliderOption("FOV", 50, 150, 85)),
-	I(_n, "mouseSensitivity", new SliderOption("Mouse Sensitivity", 1, 300, 100)),
+	I(nn, "debug", new Option("Debug", !1)),
+	I(nn, "fov", new SliderOption("FOV", 50, 150, 85)),
+	I(nn, "mouseSensitivity", new SliderOption("Mouse Sensitivity", 1, 300, 100)),
 	I(
-		_n,
+		nn,
 		"scrollSensitivity",
 		new SliderOption("Scroll Sensitivity", 1, 300, 200),
 	),
-	I(_n, "touchSensitivity", new SliderOption("Touch Sensitivity", 1, 300, 100)),
-	I(_n, "renderDistance", new SliderOption("Render Distance ", 2, 8, 3)),
-	I(_n, "particles", new SliderOption("Particles", 0, 100, 20)),
-	I(_n, "resolution", new SliderOption("Resolution Scale", 10, 200, 100)),
-	I(_n, "invertScroll", new Option("Invert Scroll", !1)),
-	I(_n, "autoJump", new Option("Auto Jump", !0)),
-	I(_n, "fastRender", new Option("Fast Render", !0)),
-	I(_n, "fastEntities", new Option("Fast Entities", !1)),
-	I(_n, "dynamicFOV", new Option("Dynamic FOV", !0)),
-	I(_n, "autoFullscreen", new Option("Auto Fullscreen ", !1)),
-	I(_n, "stars", new Option("Stars", !0)),
-	I(_n, "fog", new Option("Fog", !0)),
-	I(_n, "bobbing", new Option("Bobbing", !0)),
+	I(nn, "touchSensitivity", new SliderOption("Touch Sensitivity", 1, 300, 100)),
+	I(nn, "renderDistance", new SliderOption("Render Distance ", 2, 8, 3)),
+	I(nn, "particles", new SliderOption("Particles", 0, 100, 20)),
+	I(nn, "resolution", new SliderOption("Resolution Scale", 10, 200, 100)),
+	I(nn, "invertScroll", new Option("Invert Scroll", !1)),
+	I(nn, "autoJump", new Option("Auto Jump", !0)),
+	I(nn, "fastRender", new Option("Fast Render", !0)),
+	I(nn, "fastEntities", new Option("Fast Entities", !1)),
+	I(nn, "dynamicFOV", new Option("Dynamic FOV", !0)),
+	I(nn, "autoFullscreen", new Option("Auto Fullscreen ", !1)),
+	I(nn, "stars", new Option("Stars", !0)),
+	I(nn, "fog", new Option("Fog", !0)),
+	I(nn, "godRays", new Option("God Rays", !1)),
+	I(nn, "waterShaders", new Option("Water Shaders", !1)),
+	I(nn, "waterLightRefraction", new Option("Water Light Refraction", !1)),
+	I(nn, "bobbing", new Option("Bobbing", !0)),
 	I(
-		_n,
+		nn,
 		"textureMaterial",
 		new SelectOption$1(
 			"Material Texture",
@@ -159715,13 +159721,13 @@ let Options$1 =
 			"Lambert",
 		),
 	),
-	I(_n, "sound", new SoundOptions()),
-	I(_n, "cinematicMode", !1),
-	I(_n, "streamerMode", new Option("Streamer Mode", !1, !1)),
-	I(_n, "enableZoom", new Option("Enable Zoom", !1, !1)),
-	I(_n, "zoomLevel", new SliderOption("Zoom Level", 1, 15, 3, 1, !1)),
-	I(_n, "f1Mode", new Option("F1 Mode", !1, !1)),
-	_n);
+	I(nn, "sound", new SoundOptions()),
+	I(nn, "cinematicMode", !1),
+	I(nn, "streamerMode", new Option("Streamer Mode", !1, !1)),
+	I(nn, "enableZoom", new Option("Enable Zoom", !1, !1)),
+	I(nn, "zoomLevel", new SliderOption("Zoom Level", 1, 15, 3, 1, !1)),
+	I(nn, "f1Mode", new Option("F1 Mode", !1, !1)),
+	nn);
 const DEFAULT_TEXT_SHADOW = "0.1em 0.1em #222",
 	breakpoints = {
 		base: "0px",
@@ -163366,8 +163372,8 @@ const ql = class ql extends Message$2 {
 		I(this, "sneak");
 		I(this, "sprinting");
 		I(this, "punching");
-		I(this, "TMzFRKfKXD");
-		I(this, "LFzeLOHDfQ");
+		I(this, "algxaYNegS");
+		I(this, "QZoFiiAqcN");
 		I(this, "fire");
 		I(this, "stopSleeping");
 		proto2.util.initPartial(h, this);
@@ -163395,8 +163401,8 @@ I(ql, "runtime", proto2),
 			{ no: 2, name: "sneak", kind: "scalar", T: 8, opt: !0 },
 			{ no: 3, name: "sprinting", kind: "scalar", T: 8, opt: !0 },
 			{ no: 4, name: "punching", kind: "scalar", T: 8, opt: !0 },
-			{ no: 5, name: "TMzFRKfKXD", kind: "scalar", T: 2, opt: !0 },
-			{ no: 6, name: "LFzeLOHDfQ", kind: "scalar", T: 2, opt: !0 },
+			{ no: 5, name: "algxaYNegS", kind: "scalar", T: 2, opt: !0 },
+			{ no: 6, name: "QZoFiiAqcN", kind: "scalar", T: 2, opt: !0 },
 			{ no: 20, name: "fire", kind: "scalar", T: 5, opt: !0 },
 			{ no: 21, name: "stopSleeping", kind: "scalar", T: 8, opt: !0 },
 		]),
@@ -167088,6 +167094,578 @@ class ShaderManager {
 					));
 			});
 	}
+	static addWaterShader(u, h) {
+		(u.customProgramCacheKey = () => "water_shader_v46"),
+			(u.userData = {
+				time: { value: 0 },
+				sunDirection: { value: new Vector3$1(0, 1, 0) },
+				cameraSubmerged: { value: 0 },
+				waterShadersEnabled: { value: 1 },
+				waterLightRefractionEnabled: { value: 1 },
+				waterTileOrigin: { value: new Vector2() },
+				tileSize: {
+					value: new Vector2(
+						TILE_SIZE / SPRITE_WIDTH,
+						TILE_SIZE / SPRITE_HEIGHT,
+					),
+				},
+				murkVisibility: { value: 8.5 },
+				murkHaze: { value: 0.09 },
+				murkOpacityDepth: { value: 7.5 },
+				underwaterTint: { value: new Color$1(3034466) },
+				cameraDepthBelowSurface: { value: 0 },
+				tSceneColor: { value: null },
+				tSceneDepth: { value: null },
+				tLinearViewZ: { value: null },
+				reflectionNear: { value: 0.01 },
+				reflectionFar: { value: 256 },
+				reflectionResolution: { value: new Vector2(1, 1) },
+				reflectionProjectionMatrix: { value: new Matrix4() },
+				reflectionViewMatrix: { value: new Matrix4() },
+				reflectionViewMatrixInverse: { value: new Matrix4() },
+				reflectionProjectionMatrixInverse: { value: new Matrix4() },
+				reflectionEnabled: { value: 0 },
+				...(h ?? {}),
+			}),
+			(u.onBeforeCompile = (p) => {
+				(p.uniforms.time = u.userData.time),
+					(p.uniforms.sunDirection = u.userData.sunDirection),
+					(p.uniforms.cameraSubmerged = u.userData.cameraSubmerged),
+					(p.uniforms.waterShadersEnabled = u.userData.waterShadersEnabled),
+					(p.uniforms.waterLightRefractionEnabled =
+						u.userData.waterLightRefractionEnabled),
+					(p.uniforms.waterTileOrigin = u.userData.waterTileOrigin),
+					(p.uniforms.tileSize = u.userData.tileSize),
+					(p.uniforms.murkVisibility = u.userData.murkVisibility),
+					(p.uniforms.murkHaze = u.userData.murkHaze),
+					(p.uniforms.murkOpacityDepth = u.userData.murkOpacityDepth),
+					(p.uniforms.underwaterTint = u.userData.underwaterTint),
+					(p.uniforms.cameraDepthBelowSurface =
+						u.userData.cameraDepthBelowSurface);
+				for (const g of [
+					"tSceneColor",
+					"tSceneDepth",
+					"tLinearViewZ",
+					"reflectionNear",
+					"reflectionFar",
+					"reflectionResolution",
+					"reflectionProjectionMatrix",
+					"reflectionViewMatrix",
+					"reflectionViewMatrixInverse",
+					"reflectionProjectionMatrixInverse",
+					"reflectionEnabled",
+				])
+					u.userData[g] && (p.uniforms[g] = u.userData[g]);
+				(p.vertexShader =
+					`
+        attribute vec2 animation;
+        attribute float fluidKind;
+        attribute float waveBlend;
+        uniform float time;
+        uniform float waterShadersEnabled;
+        uniform float waterLightRefractionEnabled;
+        varying vec2 vAnimation;
+        varying float vFluidKind;
+        varying float vWaveBlend;
+        varying vec3 vWorldPosition;
+        varying vec3 vWorldNormal;
+        varying vec2 vScreenUv;
+
+        float waterWaveHeight(vec2 p, float t, float kind) {
+          float amp = kind < 0.5 ? 0.01 : (kind < 1.5 ? 0.045 : 0.03);
+          float w = sin(p.x * 1.4 + p.y * 1.1 + t);
+          w += sin(p.x * 2.3 - p.y * 1.6 + t * 1.15) * 0.5;
+          w += cos(p.x * 0.8 + p.y * 2.0 + t * 0.9) * 0.35;
+          return w * amp;
+        }
+
+        vec3 waterWaveNormal(vec2 p, float t, float kind) {
+          float eps = 0.08;
+          float h = waterWaveHeight(p, t, kind);
+          float dhdx = (waterWaveHeight(p + vec2(eps, 0.0), t, kind) - h) / eps;
+          float dhdz = (waterWaveHeight(p + vec2(0.0, eps), t, kind) - h) / eps;
+          return normalize(vec3(-dhdx, 1.0, -dhdz));
+        }
+        ` + p.vertexShader),
+					(p.vertexShader = p.vertexShader.replace(
+						"#include <begin_vertex>",
+						`#include <begin_vertex>
+        vAnimation = animation;
+        vFluidKind = fluidKind;
+        vWaveBlend = waveBlend;
+
+        vec3 displacedNormal = objectNormal;
+        vec4 worldPos4 = modelMatrix * vec4(transformed, 1.0);
+        vec2 worldXZ = worldPos4.xz;
+
+        #ifdef USE_COLOR
+        if (vColor.r < 0.5 && waterShadersEnabled > 0.5 && abs(fluidKind - 1.0) < 0.1 && waveBlend > 0.001) {
+          float waveT = time * 0.12;
+          float wave = waterWaveHeight(worldXZ, waveT, fluidKind) * waveBlend;
+          transformed += objectNormal * wave;
+
+          vec3 waveNormal = waterWaveNormal(worldXZ, waveT, fluidKind);
+          displacedNormal = normalize(mix(objectNormal, waveNormal, abs(objectNormal.y) * 0.65 * waveBlend));
+        }
+        #endif
+
+        vWorldPosition = (modelMatrix * vec4(transformed, 1.0)).xyz;
+        vWorldNormal = normalize(mat3(modelMatrix) * displacedNormal);
+        vec4 waterClipPos = projectionMatrix * viewMatrix * vec4(vWorldPosition, 1.0);
+        vScreenUv = waterClipPos.xy / waterClipPos.w * 0.5 + 0.5;
+        `,
+					)),
+					(p.fragmentShader =
+						`
+        uniform float time;
+        uniform vec3 sunDirection;
+        uniform float cameraSubmerged;
+        uniform float waterShadersEnabled;
+        uniform float waterLightRefractionEnabled;
+        uniform vec2 waterTileOrigin;
+        uniform vec2 tileSize;
+        uniform sampler2D tSceneColor;
+        uniform sampler2D tSceneDepth;
+        uniform sampler2D tLinearViewZ;
+        uniform float reflectionNear;
+        uniform float reflectionFar;
+        uniform vec2 reflectionResolution;
+        uniform mat4 reflectionProjectionMatrix;
+        uniform mat4 reflectionViewMatrix;
+        uniform mat4 reflectionViewMatrixInverse;
+        uniform mat4 reflectionProjectionMatrixInverse;
+        uniform float reflectionEnabled;
+        uniform float murkVisibility;
+        uniform float murkHaze;
+        uniform float murkOpacityDepth;
+        uniform vec3 underwaterTint;
+        uniform float cameraDepthBelowSurface;
+        varying vec2 vAnimation;
+        varying float vFluidKind;
+        varying vec3 vWorldPosition;
+        varying vec3 vWorldNormal;
+        varying vec2 vScreenUv;
+
+        vec2 clampSceneUv(vec2 uv) {
+          vec2 halfTexel = 0.5 / reflectionResolution;
+          return clamp(uv, halfTexel, vec2(1.0) - halfTexel);
+        }
+
+        float reflectionViewZ(vec2 uv) {
+          vec2 safeUv = clampSceneUv(uv);
+          float linearDist = texture2D(tLinearViewZ, safeUv).r;
+          if (linearDist < reflectionFar - 1.0) {
+            return -linearDist;
+          }
+          float d = texture2D(tSceneDepth, safeUv).r;
+          return (reflectionNear * reflectionFar) / ((reflectionFar - reflectionNear) * d - reflectionFar);
+        }
+
+        vec3 worldPosFromDepth(vec2 uv) {
+          vec2 safeUv = clampSceneUv(uv);
+          float depth = texture2D(tSceneDepth, safeUv).r;
+          vec4 clip = vec4(safeUv * 2.0 - 1.0, depth * 2.0 - 1.0, 1.0);
+          vec4 viewPos = reflectionProjectionMatrixInverse * clip;
+          viewPos /= viewPos.w;
+          vec4 worldPos = reflectionViewMatrixInverse * viewPos;
+          return worldPos.xyz;
+        }
+
+        float sampleBottomY(vec2 uv, float surfaceY) {
+          vec2 centerUv = clampSceneUv(uv);
+          float farthestDist = -1.0;
+          float floorY = surfaceY - 24.0;
+          vec2 texel = 1.0 / reflectionResolution;
+
+          for (int x = -2; x <= 2; x++) {
+            for (int y = -2; y <= 2; y++) {
+              vec2 s = clampSceneUv(centerUv + vec2(float(x), float(y)) * texel);
+              float sampleDist = texture2D(tLinearViewZ, s).r;
+              if (sampleDist >= reflectionFar - 2.0) {
+                continue;
+              }
+              if (sampleDist > farthestDist) {
+                farthestDist = sampleDist;
+                floorY = worldPosFromDepth(s).y;
+              }
+            }
+          }
+
+          return floorY;
+        }
+
+        vec3 traceScreenSpaceReflection(vec3 worldPos, vec3 worldNormal, vec3 viewDir) {
+          vec3 reflectDir = normalize(reflect(-viewDir, worldNormal));
+          vec3 rayPos = worldPos + worldNormal * 0.05;
+          float stepLen = 0.35;
+
+          for (int i = 0; i < 20; i++) {
+            rayPos += reflectDir * stepLen;
+            stepLen *= 1.12;
+
+            vec4 clipPos = reflectionProjectionMatrix * reflectionViewMatrix * vec4(rayPos, 1.0);
+            vec3 ndc = clipPos.xyz / clipPos.w;
+
+            if (ndc.x < -1.0 || ndc.x > 1.0 || ndc.y < -1.0 || ndc.y > 1.0 || ndc.z < -1.0 || ndc.z > 1.0) {
+              break;
+            }
+
+            vec2 sampleUv = ndc.xy * 0.5 + 0.5;
+            float sceneViewZ = reflectionViewZ(sampleUv);
+            float rayViewZ = (reflectionViewMatrix * vec4(rayPos, 1.0)).z;
+
+            if (rayViewZ < sceneViewZ && sceneViewZ - rayViewZ < 2.0) {
+              return texture2D(tSceneColor, clampSceneUv(sampleUv)).rgb;
+            }
+          }
+
+          return vec3(-1.0);
+        }
+
+        float reflectionViewFade(float NdotV) {
+          return smoothstep(0.02, 0.22, NdotV);
+        }
+
+        vec2 worldToScreenUv(vec3 worldPos) {
+          vec4 clip = reflectionProjectionMatrix * reflectionViewMatrix * vec4(worldPos, 1.0);
+          return clip.xy / clip.w * 0.5 + 0.5;
+        }
+
+        float traceSunVisibility(vec3 worldPos, vec3 lightDir, vec3 normal) {
+          if (lightDir.y <= 0.001) {
+            return 0.0;
+          }
+
+          vec3 rayOrigin = worldPos + normal * 0.08;
+          float traveled = 2.0;
+          float stepLen = 1.5;
+
+          for (int i = 0; i < 20; i++) {
+            vec3 rayPos = rayOrigin + lightDir * traveled;
+            traveled += stepLen;
+            stepLen = min(stepLen * 1.12, 8.0);
+
+            vec4 clipPos = reflectionProjectionMatrix * reflectionViewMatrix * vec4(rayPos, 1.0);
+            if (clipPos.w <= 0.0) {
+              continue;
+            }
+
+            vec3 ndc = clipPos.xyz / clipPos.w;
+            if (abs(ndc.x) > 1.02 || abs(ndc.y) > 1.02) {
+              if (traveled > 12.0) {
+                break;
+              }
+              continue;
+            }
+
+            vec2 sampleUv = clampSceneUv(ndc.xy * 0.5 + 0.5);
+            float sceneViewZ = reflectionViewZ(sampleUv);
+            float rayViewZ = (reflectionViewMatrix * vec4(rayPos, 1.0)).z;
+
+            if (rayViewZ < sceneViewZ && sceneViewZ - rayViewZ < 3.0) {
+              vec3 occluderWorld = worldPosFromDepth(sampleUv);
+              vec3 offset = occluderWorld - worldPos;
+              float projected = dot(offset, lightDir);
+
+              if (projected > 1.0 && projected < traveled + 2.0) {
+                float lateralSq = dot(offset, offset) - projected * projected;
+                if (lateralSq < 16.0) {
+                  return 0.0;
+                }
+              }
+            }
+          }
+
+          return 1.0;
+        }
+
+        float waterLightCaustics(vec2 worldXZ, vec3 normal, float t) {
+          vec2 p = worldXZ * 1.2 + normal.xz * 5.0;
+          float a = sin(p.x * 9.0 + t) * sin(p.y * 8.0 - t * 0.85);
+          float b = sin(p.x * 6.5 - p.y * 7.0 + t * 0.7);
+          float c = sin((p.x - p.y) * 5.5 + t * 1.05);
+          return pow(max(a * b + c * 0.45, 0.0), 2.0);
+        }
+
+        vec2 refractedLightUv(vec3 surfacePos, vec3 normal, vec3 viewDir, float NdotV) {
+          vec2 surfaceUv = worldToScreenUv(surfacePos);
+          vec3 intoWater = refract(-viewDir, normal, 1.0 / 1.33);
+          if (dot(intoWater, intoWater) < 0.001) {
+            return surfaceUv;
+          }
+
+          vec3 viewNormal = normalize((reflectionViewMatrix * vec4(normal, 0.0)).xyz);
+          vec2 offset = viewNormal.xy * mix(0.1, 0.28, 1.0 - NdotV);
+          vec2 worldRefractUv = worldToScreenUv(surfacePos + intoWater * 6.0);
+          offset += (worldRefractUv - surfaceUv) * 1.35;
+
+          float maxOffset = mix(0.1, 0.3, 1.0 - NdotV);
+          float offsetLen = length(offset);
+          if (offsetLen > maxOffset) {
+            offset *= maxOffset / offsetLen;
+          }
+
+          vec2 sampleUv = surfaceUv + offset;
+          if (sampleUv.x < 0.0 || sampleUv.x > 1.0 || sampleUv.y < 0.0 || sampleUv.y > 1.0) {
+            return clampSceneUv(surfaceUv);
+          }
+          return sampleUv;
+        }
+
+        vec2 submergedRefractionUv(vec3 surfacePos, vec3 normal, vec3 viewDir, float NdotV) {
+          vec2 surfaceUv = worldToScreenUv(surfacePos);
+          vec3 intoWater = refract(-viewDir, normal, 1.0 / 1.33);
+          if (dot(intoWater, intoWater) < 0.001) {
+            return surfaceUv;
+          }
+
+          vec3 viewNormal = normalize((reflectionViewMatrix * vec4(normal, 0.0)).xyz);
+          vec2 offset = viewNormal.xy * mix(0.12, 0.3, 1.0 - NdotV);
+          vec2 worldRefractUv = worldToScreenUv(surfacePos + intoWater * 7.0);
+          offset += (worldRefractUv - surfaceUv) * 1.4;
+
+          float maxOffset = mix(0.12, 0.36, 1.0 - NdotV);
+          float offsetLen = length(offset);
+          if (offsetLen > maxOffset) {
+            offset *= maxOffset / offsetLen;
+          }
+
+          vec2 sampleUv = surfaceUv + offset;
+          if (sampleUv.x < 0.0 || sampleUv.x > 1.0 || sampleUv.y < 0.0 || sampleUv.y > 1.0) {
+            return clampSceneUv(surfaceUv);
+          }
+          return sampleUv;
+        }
+
+        vec3 sampleSubmergedRefraction(vec2 sampleUv) {
+          return texture2D(tSceneColor, clamp(sampleUv, 0.0, 1.0)).rgb;
+        }
+
+        float waterFogDistance(vec3 surfacePos, vec2 surfaceUv) {
+          vec2 sampleUv = clamp(surfaceUv, 0.0, 1.0);
+          vec2 safeUv = clampSceneUv(sampleUv);
+          vec4 surfaceView = reflectionViewMatrix * vec4(surfacePos, 1.0);
+          float surfaceDist = max(-surfaceView.z, 0.0);
+
+          float linearDist = texture2D(tLinearViewZ, safeUv).r;
+          float rayDepth = 0.0;
+          if (linearDist > 0.001 && linearDist < reflectionFar * 0.999) {
+            rayDepth = max(linearDist - surfaceDist, 0.0);
+          }
+
+          float bottomY = sampleBottomY(sampleUv, surfacePos.y);
+          float verticalDepth = max(surfacePos.y - bottomY, 0.0);
+
+          return clamp(max(rayDepth, verticalDepth), 0.0, 48.0);
+        }
+
+        float estimateWaterColumnDepth(vec3 surfacePos, vec2 surfaceUv) {
+          return waterFogDistance(surfacePos, surfaceUv);
+        }
+
+        float waterMurkAmount(float fogDist) {
+          float haze = 1.0 - exp(-fogDist * murkHaze);
+          float murk = 1.0 - exp(-fogDist / murkOpacityDepth);
+          return clamp(max(haze, murk), 0.0, 0.99);
+        }
+
+        vec3 applyWaterMurk(vec3 sceneRgb, float fogDist) {
+          vec3 shallowMurk = vec3(0.20, 0.38, 0.48);
+          vec3 deepMurk = vec3(0.04, 0.10, 0.26);
+          float visibility = exp(-fogDist / murkVisibility);
+          float murkAmount = waterMurkAmount(fogDist);
+          vec3 murkColor = mix(shallowMurk, deepMurk, murkAmount);
+          vec3 result = sceneRgb * visibility;
+          result = mix(result, murkColor, murkAmount);
+          result *= mix(1.0, 0.62, murkAmount);
+          return mix(result, result * underwaterTint, 0.08 + murkAmount * 0.2);
+        }
+
+        float submergedViewDistance(vec2 sampleUv, vec3 surfacePos) {
+          float depth = texture2D(tSceneDepth, sampleUv).r;
+          if (depth >= 0.9999) {
+            return 0.0;
+          }
+          vec4 clip = vec4(sampleUv * 2.0 - 1.0, depth * 2.0 - 1.0, 1.0);
+          vec4 viewPos = reflectionProjectionMatrixInverse * clip;
+          viewPos /= viewPos.w;
+          vec4 surfaceView = reflectionViewMatrix * vec4(surfacePos, 1.0);
+          return max(length(viewPos.xyz) - length(surfaceView.xyz), 0.0);
+        }
+
+        vec4 applyWaterAbsorption(vec3 color, float columnDepth) {
+          vec3 shallowTint = vec3(0.30, 0.52, 0.64);
+          vec3 deepTint = vec3(0.05, 0.12, 0.30);
+          float deepMix = smoothstep(5.0, 22.0, columnDepth);
+          vec3 waterTint = mix(shallowTint, deepTint, deepMix);
+
+          float shallowFactor = 1.0 - smoothstep(0.0, 8.5, columnDepth);
+          vec3 absorbed = mix(color, waterTint, shallowFactor * 0.58 + deepMix * 0.3);
+
+          if (columnDepth > 3.5) {
+            vec3 absorptionCoeff = vec3(0.085, 0.038, 0.017);
+            vec3 absorbAmount = absorptionCoeff * max(columnDepth - 3.0, 0.0);
+            vec3 transmittance = vec3(exp(-absorbAmount.x), exp(-absorbAmount.y), exp(-absorbAmount.z));
+            absorbed = mix(absorbed, absorbed * transmittance, deepMix);
+          }
+
+          float opacity = mix(0.72, 0.94, smoothstep(2.0, 20.0, columnDepth));
+          return vec4(absorbed, opacity);
+        }
+
+        // Extra sky/sun glints on top of the refracted submerged view.
+        vec3 sampleRefractedSceneLight(vec2 sampleUv, vec2 surfaceUv) {
+          vec3 scene = texture2D(tSceneColor, sampleUv).rgb;
+          float lum = dot(scene, vec3(0.299, 0.587, 0.114));
+
+          float uvDist = length(sampleUv - surfaceUv);
+          float duplicateReject = 1.0 - smoothstep(0.0, 0.02, uvDist);
+
+          float brightOnly = smoothstep(0.42, 0.78, lum);
+          float skyPass = smoothstep(0.65, 0.92, lum);
+          float lightMask = max(brightOnly, skyPass) * (1.0 - duplicateReject * smoothstep(0.4, 0.8, lum));
+
+          return scene * lightMask;
+        }
+
+        vec4 renderWaterColor(vec4 baseColor) {
+          vec2 shimmerUv = vWorldPosition.xz;
+          if (abs(vWorldNormal.y) < 0.5) {
+            shimmerUv = abs(vWorldNormal.x) > abs(vWorldNormal.z) ? vWorldPosition.zy : vWorldPosition.xy;
+          }
+          float shimmer = sin(shimmerUv.x * 2.5 + shimmerUv.y * 2.5 + time * 0.08)
+                        * cos(shimmerUv.x * 1.5 - shimmerUv.y * 2.0 + time * 0.06);
+          baseColor.rgb *= 1.0 + shimmer * 0.04;
+
+          vec3 viewDir = normalize(cameraPosition - vWorldPosition);
+          vec3 normal = normalize(vWorldNormal);
+          float NdotV = clamp(dot(normal, viewDir), 0.0, 1.0);
+          float F0 = 0.028;
+          float fresnel = F0 + (1.0 - F0) * pow(1.0 - NdotV, 4.0);
+          fresnel = mix(fresnel, pow(1.0 - NdotV, 1.6), smoothstep(0.5, 1.0, normal.y));
+
+          vec3 lightDir = normalize(sunDirection);
+          vec3 halfDir = normalize(lightDir + viewDir);
+          float specular = pow(max(dot(normal, halfDir), 0.0), 72.0);
+
+          vec3 deepColor = baseColor.rgb * vec3(0.22, 0.42, 0.58);
+          vec3 shallowColor = baseColor.rgb * vec3(0.35, 0.58, 0.72);
+          vec3 skyReflect = vec3(0.55, 0.75, 0.95);
+          float distToCamera = clamp(length(cameraPosition - vWorldPosition) / 48.0, 0.0, 1.0);
+          vec3 waterBody = mix(shallowColor, deepColor, distToCamera);
+
+          vec2 screenUv = clamp(vScreenUv, 0.0, 1.0);
+          float screenEdgeMargin = min(screenUv.x, 1.0 - screenUv.x);
+          float reflectionMask = reflectionViewFade(NdotV);
+          float aboveWater = 1.0 - step(0.5, cameraSubmerged);
+          float lightRefraction = waterLightRefractionEnabled;
+          float sunVisible = 1.0;
+          if (reflectionEnabled > 0.5 && aboveWater > 0.5 && lightDir.y > 0.001) {
+            sunVisible = traceSunVisibility(vWorldPosition, lightDir, normal);
+          }
+          float seeThrough = smoothstep(0.05, 0.92, NdotV);
+          float lightStrength = smoothstep(0.05, 0.9, NdotV) * mix(0.55, 1.0, smoothstep(0.35, 0.9, normal.y)) * aboveWater * lightRefraction;
+
+          float fogDist = waterFogDistance(vWorldPosition, screenUv);
+          float columnDepth = fogDist;
+          float shallowLightBoost = mix(1.45, 0.92, smoothstep(3.2, 18.0, columnDepth)) * lightRefraction;
+
+          vec3 transmitted = waterBody * mix(1.0, 0.28, aboveWater);
+          if (reflectionEnabled > 0.5 && aboveWater > 0.5) {
+            vec2 refractUv = submergedRefractionUv(vWorldPosition, normal, viewDir, NdotV);
+            vec3 submerged = sampleSubmergedRefraction(refractUv);
+            vec3 waterTint = mix(vec3(0.92, 0.97, 1.0), vec3(0.72, 0.88, 0.98), distToCamera * 0.35);
+            float submergedLum = dot(submerged, vec3(0.299, 0.587, 0.114));
+            vec3 submergedLight = submerged * smoothstep(0.38, 0.82, submergedLum);
+            vec3 refractedScene = mix(submerged * waterTint, submergedLight, lightRefraction > 0.5 ? 0.72 : 0.0);
+            float refractMix = seeThrough * mix(0.65, 0.88, smoothstep(0.2, 0.85, normal.y));
+            refractMix *= smoothstep(0.0, 0.08, screenEdgeMargin);
+            transmitted = mix(transmitted, refractedScene, refractMix);
+          }
+
+          vec3 refractedLight = vec3(0.0);
+          if (reflectionEnabled > 0.5 && aboveWater > 0.5 && lightRefraction > 0.5) {
+            vec2 lightUv = refractedLightUv(vWorldPosition, normal, viewDir, NdotV);
+            refractedLight += sampleRefractedSceneLight(lightUv, screenUv) * 1.6 * sunVisible;
+          }
+
+          if (lightRefraction > 0.5) {
+            float caustics = waterLightCaustics(vWorldPosition.xz, normal, time * 0.15);
+            float sunGate = max(lightDir.y, 0.0) * max(dot(normal, lightDir), 0.0);
+            refractedLight += vec3(1.0, 0.96, 0.84) * caustics * sunGate * sunVisible * mix(0.25, 0.9, aboveWater);
+          }
+
+          float depthLightFade = 1.0 - smoothstep(4.0, 20.0, columnDepth) * 0.92;
+          vec3 waterColor = transmitted + refractedLight * lightStrength * mix(1.0, 1.75, aboveWater) * shallowLightBoost * depthLightFade;
+          vec3 reflected = skyReflect;
+          float sunReflect = pow(max(dot(reflect(-viewDir, normal), lightDir), 0.0), 64.0) * max(lightDir.y, 0.0);
+          if (reflectionEnabled > 0.5) {
+            vec3 ssr = traceScreenSpaceReflection(vWorldPosition, normal, viewDir);
+            if (ssr.x >= 0.0) {
+              float ssrWeight = reflectionMask;
+              reflected = mix(skyReflect, ssr, ssrWeight);
+              reflected += vec3(1.0, 0.97, 0.88) * sunReflect * 4.2 * sunVisible;
+            } else {
+              reflected += vec3(1.0, 0.97, 0.88) * sunReflect * 10.5 * sunVisible;
+            }
+          } else {
+            reflected += vec3(1.0, 0.97, 0.88) * sunReflect * 10.5 * sunVisible;
+          }
+
+          float depthOcclusion = smoothstep(4.0, 20.0, columnDepth);
+          waterColor = mix(waterColor, reflected, fresnel * 0.55 * reflectionMask * (1.0 - depthOcclusion * 0.9));
+          float surfaceSpec = max(dot(normal, vec3(0.0, 1.0, 0.0)), 0.0);
+          waterColor += vec3(1.0, 0.97, 0.9) * specular * (5.4 + fresnel * 1.8) * surfaceSpec * sunVisible * max(lightDir.y, 0.0);
+          waterColor += vec3(0.7, 0.9, 1.0) * pow(1.0 - NdotV, 3.0) * 0.08 * aboveWater * lightRefraction;
+
+          if (aboveWater > 0.5) {
+            vec4 absorbed = applyWaterAbsorption(waterColor, columnDepth);
+            absorbed.rgb = applyWaterMurk(absorbed.rgb, columnDepth);
+            float murkAmount = waterMurkAmount(columnDepth);
+            float surfaceAlpha = mix(0.68, 0.94, smoothstep(1.5, 20.0, columnDepth));
+            surfaceAlpha = max(surfaceAlpha, murkAmount * 0.88);
+            float shallowFactor = 1.0 - smoothstep(0.0, 5.5, columnDepth);
+            return vec4(absorbed.rgb, mix(surfaceAlpha, min(surfaceAlpha + 0.03, 0.99), fresnel * (1.0 - shallowFactor * 0.5)));
+          }
+
+          return vec4(waterColor, mix(0.06, 0.14, smoothstep(0.25, 0.85, normal.y)));
+        }
+        ` + p.fragmentShader),
+					(p.fragmentShader = p.fragmentShader.replace(
+						"#include <map_fragment>",
+						`
+        #ifdef USE_MAP
+        float frame = mod(floor(time / vAnimation.y), vAnimation.x);
+        vec2 frameOffset = vec2(0.0, ${-TILE_SIZE / SPRITE_HEIGHT} * frame);
+
+        vec2 waveUv = vMapUv + frameOffset;
+
+        vec4 texColor = texture2D(map, waveUv);
+        diffuseColor *= texColor;
+        #endif
+        `,
+					)),
+					(p.fragmentShader = p.fragmentShader.replace(
+						"#include <opaque_fragment>",
+						`
+        float isWater = step(vColor.r, 0.49) * step(0.5, waterShadersEnabled);
+        if (isWater > 0.5) {
+          gl_FragColor = renderWaterColor(diffuseColor);
+        } else {
+          #ifdef OPAQUE
+          diffuseColor.a = 1.0;
+          #endif
+
+          #ifdef USE_TRANSMISSION
+          diffuseColor.a *= material.transmissionAlpha;
+          #endif
+
+          gl_FragColor = vec4( outgoingLight, diffuseColor.a );
+        }
+        `,
+					));
+			});
+	}
 }
 class SkinManager {
 	constructor() {
@@ -167393,6 +167971,40 @@ class SkinManager {
 		}
 	}
 }
+const frameTimeLookup = {
+		water_still: 2,
+		lava_flow: 3,
+		lava_still: 2,
+		aquastone: 300,
+		sea_lantern: 5,
+	},
+	spriteMap = new Map();
+globalThis.SpriteData = SpriteData;
+globalThis.spriteMap = spriteMap;
+const filenames = Object.keys(SpriteData.frames);
+filenames.forEach((m) => {
+	const u = SpriteData.frames[m],
+		h = m.replace(".png", "");
+	spriteMap.set(h, {
+		x: u.frame.x / TILE_SIZE,
+		y: u.frame.y / TILE_SIZE,
+		animation: u.sourceSize.h / u.sourceSize.w,
+		frameTime: frameTimeLookup[h] ?? 1,
+		size: u.sourceSize.w,
+	});
+});
+const EMPTY_TEXTURE = {
+	x: -TILE_SIZE,
+	y: -TILE_SIZE,
+	animation: 0,
+	frameTime: 1,
+	size: 0,
+};
+function getTextureUVPos(m) {
+	m === "book" && (m = "written_book"), m === "glass_bottle" && (m = "potion");
+	const u = spriteMap.get(m);
+	return u ?? (Ulog.error(`texture ${m} not found`), EMPTY_TEXTURE);
+}
 class TextureManager {
 	constructor() {
 		I(this, "loader", new TextureLoader());
@@ -167402,6 +168014,7 @@ class TextureManager {
 		I(this, "atlas");
 		I(this, "materialWorld");
 		I(this, "materialTransparentWorld");
+		I(this, "materialFluidWorld");
 		I(this, "material");
 		I(this, "materialEnchanted");
 		I(this, "materialTransparent");
@@ -167412,6 +168025,15 @@ class TextureManager {
 		I(this, "glintTexture");
 		I(this, "skinManager", new SkinManager());
 		I(this, "gltfManager", new GLTFManager());
+		I(this, "reflectionBuffer", null);
+	}
+	setReflectionBuffer(u) {
+		var h;
+		(this.reflectionBuffer = u),
+			(h = this.materialFluidWorld) != null &&
+				h.userData &&
+				(Object.assign(this.materialFluidWorld.userData, u.uniforms),
+				(this.materialFluidWorld.needsUpdate = !0));
 	}
 	async loadTextures(u = !0) {
 		try {
@@ -167474,6 +168096,7 @@ class TextureManager {
 			));
 	}
 	async loadSpritesheet() {
+		var w;
 		const u = await this.loader.loadAsync("textures/spritesheet.png"),
 			h = document.createElement("canvas");
 		(h.width = SPRITE_WIDTH), (h.height = SPRITE_HEIGHT);
@@ -167514,7 +168137,45 @@ class TextureManager {
 			(this.materialWorld = this.material.clone()),
 			ShaderManager.addShaderToMaterialWorld(this.materialWorld),
 			(this.materialTransparentWorld = this.materialTransparent.clone()),
-			ShaderManager.addShaderToMaterialWorld(this.materialTransparentWorld);
+			ShaderManager.addShaderToMaterialWorld(this.materialTransparentWorld),
+			(this.materialFluidWorld = new MeshLambertMaterial({
+				map: u,
+				side: FrontSide,
+				transparent: !0,
+				depthWrite: !1,
+				alphaTest: 0.1,
+				vertexColors: !0,
+			})),
+			ShaderManager.addWaterShader(
+				this.materialFluidWorld,
+				(w = this.reflectionBuffer) == null ? void 0 : w.uniforms,
+			),
+			(this.materialFluidWorld.needsUpdate = !0),
+			(this.materialFluidWorld.userData.waterShadersEnabled.value = Options$1
+				.waterShaders.value
+				? 1
+				: 0),
+			(this.materialFluidWorld.userData.waterLightRefractionEnabled.value =
+				Options$1.waterLightRefraction.value ? 1 : 0),
+			Options$1.waterShaders.onChange((k) => {
+				(this.materialFluidWorld.userData.waterShadersEnabled.value = k
+					? 1
+					: 0),
+					(this.materialFluidWorld.depthWrite = !1),
+					(this.materialFluidWorld.needsUpdate = !0);
+			}),
+			Options$1.waterLightRefraction.onChange((k) => {
+				this.materialFluidWorld.userData.waterLightRefractionEnabled.value = k
+					? 1
+					: 0;
+			});
+		const S = getTextureUVPos("water_still"),
+			b = TILE_SIZE / SPRITE_WIDTH,
+			v = TILE_SIZE / SPRITE_HEIGHT;
+		this.materialFluidWorld.userData.waterTileOrigin.value.set(
+			S.x * b,
+			1 - S.y * v,
+		);
 	}
 	loadSprite(u) {
 		const h = this.loader.load(`textures/${u}`),
@@ -167523,6 +168184,7 @@ class TextureManager {
 		return g.scale.set(4e3, 4e3, 1), g;
 	}
 	fixedUpdate() {
+		var u;
 		this.materialTransparent &&
 			this.materialTransparentWorld.userData &&
 			this.materialTransparentWorld.userData.time.value++,
@@ -167532,44 +168194,19 @@ class TextureManager {
 			this.materialEnchanted &&
 				this.materialEnchanted.userData &&
 				(this.materialEnchanted.userData.time.value += 0.1),
+			(u = this.materialFluidWorld) != null &&
+				u.userData &&
+				this.materialFluidWorld.userData.time.value++,
 			this.skinManager.fixedUpdate();
 	}
+	updateSunDirection(u) {
+		var h;
+		(h = this.materialFluidWorld) != null &&
+			h.userData &&
+			this.materialFluidWorld.userData.sunDirection.value.copy(u);
+	}
 }
-const textureManager = new TextureManager(),
-	frameTimeLookup = {
-		water_still: 2,
-		lava_flow: 3,
-		lava_still: 2,
-		aquastone: 300,
-		sea_lantern: 5,
-	},
-	spriteMap = new Map();
-globalThis.SpriteData = SpriteData;
-globalThis.spriteMap = spriteMap;
-const filenames = Object.keys(SpriteData.frames);
-filenames.forEach((m) => {
-	const u = SpriteData.frames[m],
-		h = m.replace(".png", "");
-	spriteMap.set(h, {
-		x: u.frame.x / TILE_SIZE,
-		y: u.frame.y / TILE_SIZE,
-		animation: u.sourceSize.h / u.sourceSize.w,
-		frameTime: frameTimeLookup[h] ?? 1,
-		size: u.sourceSize.w,
-	});
-});
-const EMPTY_TEXTURE = {
-	x: -TILE_SIZE,
-	y: -TILE_SIZE,
-	animation: 0,
-	frameTime: 1,
-	size: 0,
-};
-function getTextureUVPos(m) {
-	m === "book" && (m = "written_book"), m === "glass_bottle" && (m = "potion");
-	const u = spriteMap.get(m);
-	return u ?? (Ulog.error(`texture ${m} not found`), EMPTY_TEXTURE);
-}
+const textureManager = new TextureManager();
 class Model extends Group {
 	constructor() {
 		super();
@@ -169640,11 +170277,11 @@ function requireJquery() {
 								return tt === _t && (ar = !0), 0;
 							},
 							Ka = {}.hasOwnProperty,
-							yn = [],
-							An = yn.pop,
-							dn = yn.push,
-							ps = yn.push,
-							el = yn.slice,
+							_n = [],
+							An = _n.pop,
+							hn = _n.push,
+							ps = _n.push,
+							el = _n.slice,
 							Ds = function (tt, _t) {
 								for (var Ct = 0, Qt = tt.length; Ct < Qt; Ct++)
 									if (tt[Ct] === _t) return Ct;
@@ -169763,13 +170400,13 @@ function requireJquery() {
 								{ dir: "parentNode", next: "legend" },
 							);
 						try {
-							ps.apply((yn = el.call(Er.childNodes)), Er.childNodes),
-								yn[Er.childNodes.length].nodeType;
+							ps.apply((_n = el.call(Er.childNodes)), Er.childNodes),
+								_n[Er.childNodes.length].nodeType;
 						} catch {
 							ps = {
-								apply: yn.length
+								apply: _n.length
 									? function (_t, Ct) {
-											dn.apply(_t, el.call(Ct));
+											hn.apply(_t, el.call(Ct));
 										}
 									: function (_t, Ct) {
 											for (var Qt = _t.length, Ot = 0; (_t[Qt++] = Ct[Ot++]); );
@@ -172683,7 +173320,7 @@ function requireJquery() {
 							(W.type = (W.getAttribute("type") !== null) + "/" + W.type), W
 						);
 					}
-					function un(W) {
+					function cn(W) {
 						return (
 							(W.type || "").slice(0, 5) === "true/"
 								? (W.type = W.type.slice(5))
@@ -172751,7 +173388,7 @@ function requireJquery() {
 									le.call(W[Zt], mt, Zt);
 							if (St)
 								for (
-									Nt = Ge[Ge.length - 1].ownerDocument, j.map(Ge, un), Zt = 0;
+									Nt = Ge[Ge.length - 1].ownerDocument, j.map(Ge, cn), Zt = 0;
 									Zt < St;
 									Zt++
 								)
@@ -173467,13 +174104,13 @@ function requireJquery() {
 						(j.fx.step = {});
 					var Nr,
 						Hr,
-						nn = /^(?:toggle|show|hide)$/,
+						sn = /^(?:toggle|show|hide)$/,
 						Na = /queueHooks$/;
-					function cn() {
+					function dn() {
 						Hr &&
 							(L.hidden === !1 && u.requestAnimationFrame
-								? u.requestAnimationFrame(cn)
-								: u.setTimeout(cn, j.fx.interval),
+								? u.requestAnimationFrame(dn)
+								: u.setTimeout(dn, j.fx.interval),
 							j.fx.tick());
 					}
 					function jn() {
@@ -173533,7 +174170,7 @@ function requireJquery() {
 								});
 							}));
 						for (he in X)
-							if (((Le = X[he]), nn.test(Le))) {
+							if (((Le = X[he]), sn.test(Le))) {
 								if (
 									(delete X[he],
 									(De = De || Le === "toggle"),
@@ -173853,7 +174490,7 @@ function requireJquery() {
 						}),
 						(j.fx.interval = 13),
 						(j.fx.start = function () {
-							Hr || ((Hr = !0), cn());
+							Hr || ((Hr = !0), dn());
 						}),
 						(j.fx.stop = function () {
 							Hr = null;
@@ -174500,7 +175137,7 @@ function requireJquery() {
 						Nn = /#.*$/,
 						Fi = /([?&])_=[^&]*/,
 						en = /^(.*?):[ \t]*([^\r\n]*)$/gm,
-						gn = /^(?:about|app|app-storage|.+-extension|file|res|widget):$/,
+						yn = /^(?:about|app|app-storage|.+-extension|file|res|widget):$/,
 						ci = /^(?:GET|HEAD)$/,
 						Bn = /^\/\//,
 						di = {},
@@ -174633,7 +175270,7 @@ function requireJquery() {
 						ajaxSettings: {
 							url: li.href,
 							type: "GET",
-							isLocal: gn.test(li.protocol),
+							isLocal: yn.test(li.protocol),
 							global: !0,
 							processData: !0,
 							async: !0,
@@ -174832,9 +175469,9 @@ function requireJquery() {
 								var Da,
 									Va,
 									Ka,
-									yn,
+									_n,
 									An,
-									dn = Gr;
+									hn = Gr;
 								mt ||
 									((mt = !0),
 									Ge && u.clearTimeout(Ge),
@@ -174842,12 +175479,12 @@ function requireJquery() {
 									(Le = Ha || ""),
 									(Er.readyState = Or > 0 ? 4 : 0),
 									(Da = (Or >= 200 && Or < 300) || Or === 304),
-									Oa && (yn = On(Q, Er, Oa)),
+									Oa && (_n = On(Q, Er, Oa)),
 									!Da &&
 										j.inArray("script", Q.dataTypes) > -1 &&
 										j.inArray("json", Q.dataTypes) < 0 &&
 										(Q.converters["text script"] = function () {}),
-									(yn = dt(Q, yn, Er, Da)),
+									(_n = dt(Q, _n, Er, Da)),
 									Da
 										? (Q.ifModified &&
 												((An = Er.getResponseHeader("Last-Modified")),
@@ -174855,20 +175492,20 @@ function requireJquery() {
 												(An = Er.getResponseHeader("etag")),
 												An && (j.etag[he] = An)),
 											Or === 204 || Q.type === "HEAD"
-												? (dn = "nocontent")
+												? (hn = "nocontent")
 												: Or === 304
-													? (dn = "notmodified")
-													: ((dn = yn.state),
-														(Va = yn.data),
-														(Ka = yn.error),
+													? (hn = "notmodified")
+													: ((hn = _n.state),
+														(Va = _n.data),
+														(Ka = _n.error),
 														(Da = !Ka)))
-										: ((Ka = dn),
-											(Or || !dn) && ((dn = "error"), Or < 0 && (Or = 0))),
+										: ((Ka = hn),
+											(Or || !hn) && ((hn = "error"), Or < 0 && (Or = 0))),
 									(Er.status = Or),
-									(Er.statusText = (Gr || dn) + ""),
+									(Er.statusText = (Gr || hn) + ""),
 									Da
-										? vt.resolveWith(me, [Va, dn, Er])
-										: vt.rejectWith(me, [Er, dn, Ka]),
+										? vt.resolveWith(me, [Va, hn, Er])
+										: vt.rejectWith(me, [Er, hn, Ka]),
 									Er.statusCode(Gt),
 									(Gt = void 0),
 									Nt &&
@@ -174877,7 +175514,7 @@ function requireJquery() {
 											Q,
 											Da ? Va : Ka,
 										]),
-									qt.fireWith(me, [Er, dn]),
+									qt.fireWith(me, [Er, hn]),
 									Nt &&
 										(Qe.trigger("ajaxComplete", [Er, Q]),
 										--j.active || j.event.trigger("ajaxStop")));
@@ -182297,7 +182934,7 @@ function requireDecode() {
 				ia = null,
 				Ea = 0,
 				La = 0,
-				un = 0,
+				cn = 0,
 				gt,
 				ot;
 			for (Ze = 0; Ze < 3; ++Ze) (Te[Ze].codes = null), (Te[Ze].htrees = null);
@@ -182356,7 +182993,7 @@ function requireDecode() {
 						ia = 0,
 						gt = or[at[0]],
 						La = x.lookupOffsets[gt],
-						un = x.lookupOffsets[gt + 1],
+						cn = x.lookupOffsets[gt + 1],
 						ot = Te[1].htrees[0];
 					ke > 0;
 				) {
@@ -182393,8 +183030,8 @@ function requireDecode() {
 								(Ur = Ar),
 								(gt = or[at[0]]),
 								(La = x.lookupOffsets[gt]),
-								(un = x.lookupOffsets[gt + 1])),
-							(tr = x.lookup[La + Et] | x.lookup[un + je]),
+								(cn = x.lookupOffsets[gt + 1])),
+							(tr = x.lookup[La + Et] | x.lookup[cn + je]),
 							(oa = xt[Ur + tr]),
 							--He[0],
 							(je = Et),
@@ -184799,10 +185436,14 @@ class ClientDecoder extends Decoder$1 {
 					const S = g >> 2,
 						b = g & 2,
 						v = ID_TO_PACKET[S];
-					b &&
-						(Game.isDiscordActivity
-							? (x = decompress(Buffer.from(x)))
-							: (x = (await brotliPromise).decompress(x)));
+					if (b)
+						if (Game.isDiscordActivity) x = decompress(Buffer.from(x));
+						else
+							try {
+								x = (await brotliPromise).decompress(x);
+							} catch {
+								x = decompress(Buffer.from(x));
+							}
 					const w = v.fromBinary(x);
 					if (v.typeName === "ClientBoundCombined")
 						w.packets.forEach((k) => {
@@ -186264,7 +186905,7 @@ class PointerLockControls {
 	get camera() {
 		return this.yawObject;
 	}
-	get XdGhSoMIuN() {
+	get YgrHcdLHBv() {
 		return this.camera.position;
 	}
 }
@@ -187289,29 +187930,347 @@ class RenderPass extends Pass {
 			(u.autoClear = g);
 	}
 }
+const GOD_RAYS_SHADER = {
+	uniforms: {
+		tDiffuse: { value: null },
+		tSceneDepth: { value: null },
+		sunScreenPos: { value: new Vector2(-1, -1) },
+		sunIntensity: { value: 1 },
+		depthNear: { value: 0.01 },
+		depthFar: { value: 256 },
+		depthEnabled: { value: 0 },
+		enabled: { value: 0 },
+	},
+	vertexShader: `
+    varying vec2 vUv;
+    void main() {
+      vUv = uv;
+      gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0);
+    }
+  `,
+	fragmentShader: `
+    uniform sampler2D tDiffuse;
+    uniform sampler2D tSceneDepth;
+    uniform vec2 sunScreenPos;
+    uniform float sunIntensity;
+    uniform float depthNear;
+    uniform float depthFar;
+    uniform float depthEnabled;
+    uniform float enabled;
+    varying vec2 vUv;
+
+    float rayHash(vec2 p) {
+      return fract(sin(dot(p, vec2(127.1, 311.7))) * 43758.5453);
+    }
+
+    float sampleViewZ(vec2 uv) {
+      float d = texture2D(tSceneDepth, uv).r;
+      return (depthNear * depthFar) / ((depthFar - depthNear) * d - depthFar);
+    }
+
+    bool depthOccludes(vec2 uv, float startViewZ) {
+      float d = texture2D(tSceneDepth, uv).r;
+      if (d >= 0.9999) {
+        return false;
+      }
+      return sampleViewZ(uv) > startViewZ + 0.55;
+    }
+
+    float sunPathVisible(vec2 startUv, float startViewZ, vec2 sunUv) {
+      if (depthEnabled < 0.5) {
+        return 1.0;
+      }
+
+      vec2 toSun = sunUv - startUv;
+      if (dot(toSun, toSun) < 0.000001) {
+        return 1.0;
+      }
+
+      vec2 delta = toSun / 40.0;
+      vec2 marchUv = startUv;
+
+      for (int i = 0; i < 40; i++) {
+        marchUv += delta;
+        if (marchUv.x < 0.0 || marchUv.x > 1.0 || marchUv.y < 0.0 || marchUv.y > 1.0) {
+          return 1.0;
+        }
+
+        if (depthOccludes(marchUv, startViewZ)) {
+          return 0.0;
+        }
+      }
+
+      return 1.0;
+    }
+
+    void main() {
+      vec4 sceneColor = texture2D(tDiffuse, vUv);
+
+      if (enabled < 0.5) {
+        gl_FragColor = sceneColor;
+        return;
+      }
+
+      float startViewZ = depthEnabled > 0.5 ? sampleViewZ(vUv) : 0.0;
+      float pathVisible = sunPathVisible(vUv, startViewZ, sunScreenPos);
+
+      vec2 rayUv = vUv;
+      vec2 delta = (rayUv - sunScreenPos) / 40.0;
+      float illumination = 1.0;
+      vec3 godRays = vec3(0.0);
+
+      for (int i = 0; i < 40; i++) {
+        rayUv -= delta;
+        if (rayUv.x < 0.0 || rayUv.x > 1.0 || rayUv.y < 0.0 || rayUv.y > 1.0) {
+          break;
+        }
+
+        if (depthEnabled > 0.5 && depthOccludes(rayUv, startViewZ)) {
+          break;
+        }
+
+        vec3 sampleColor = texture2D(tDiffuse, rayUv).rgb;
+        float lum = dot(sampleColor, vec3(0.299, 0.587, 0.114));
+        float passage = smoothstep(0.32, 0.78, lum);
+        godRays += sampleColor * passage * illumination;
+        illumination *= 0.94;
+      }
+
+      godRays *= 0.058 * sunIntensity * pathVisible;
+      vec3 sunTint = vec3(1.0, 0.95, 0.85);
+      float distFalloff = 1.0 - smoothstep(0.0, 0.75, length(vUv - sunScreenPos));
+      godRays *= distFalloff * distFalloff;
+
+      float dither = (rayHash(vUv * 1024.0) - 0.5) * 0.018;
+      godRays *= 1.0 + dither;
+
+      gl_FragColor = vec4(sceneColor.rgb + godRays * sunTint, sceneColor.a);
+    }
+  `,
+};
+class GodRaysPass extends ShaderPass {
+	constructor() {
+		super(GOD_RAYS_SHADER);
+		I(this, "_sunScreen", new Vector3$1());
+	}
+	setDepth(h, p, g) {
+		(this.uniforms.tSceneDepth.value = h),
+			(this.uniforms.depthNear.value = p),
+			(this.uniforms.depthFar.value = g),
+			(this.uniforms.depthEnabled.value = h ? 1 : 0);
+	}
+	update(h, p, g, y, x) {
+		if (!x || g <= 0) {
+			this.uniforms.enabled.value = 0;
+			return;
+		}
+		if ((this._sunScreen.copy(p.position).project(h), this._sunScreen.z > 1)) {
+			this.uniforms.enabled.value = 0;
+			return;
+		}
+		(this.uniforms.enabled.value = 1),
+			this.uniforms.sunScreenPos.value.set(
+				this._sunScreen.x * 0.5 + 0.5,
+				this._sunScreen.y * 0.5 + 0.5,
+			),
+			(this.uniforms.sunIntensity.value = MathUtils.clamp(y, 0, 1));
+	}
+}
+const LINEAR_DEPTH_VERTEX = `
+  varying vec2 vUv;
+  void main() {
+    vUv = uv;
+    gl_Position = vec4(position.xy, 0.0, 1.0);
+  }
+`,
+	LINEAR_DEPTH_FRAGMENT = `
+  uniform sampler2D tDepth;
+  uniform float near;
+  uniform float far;
+  varying vec2 vUv;
+
+  void main() {
+    float d = texture2D(tDepth, vUv).r;
+    if (d >= 1.0) {
+      gl_FragColor = vec4(far, 0.0, 0.0, 1.0);
+      return;
+    }
+    float viewZ = (near * far) / ((far - near) * d - far);
+    gl_FragColor = vec4(-viewZ, 0.0, 0.0, 1.0);
+  }
+`;
+class SceneReflectionBuffer {
+	constructor() {
+		I(this, "target");
+		I(this, "depthTexture");
+		I(this, "linearViewZTarget");
+		I(this, "uniforms", {
+			tSceneColor: { value: null },
+			tSceneDepth: { value: null },
+			tLinearViewZ: { value: null },
+			reflectionNear: { value: 0.01 },
+			reflectionFar: { value: 256 },
+			reflectionResolution: { value: new Vector2(1, 1) },
+			reflectionProjectionMatrix: { value: new Matrix4() },
+			reflectionViewMatrix: { value: new Matrix4() },
+			reflectionViewMatrixInverse: { value: new Matrix4() },
+			reflectionProjectionMatrixInverse: { value: new Matrix4() },
+			reflectionEnabled: { value: 0 },
+		});
+		I(this, "_projInverse", new Matrix4());
+		I(this, "_fluidVisibility", new Map());
+		I(this, "_ambientWasVisible", !0);
+		I(this, "_entityWasVisible", !0);
+		I(this, "_linearDepthScene");
+		I(this, "_linearDepthCamera");
+		I(this, "_linearDepthMaterial");
+		const u = new DepthTexture(1, 1);
+		(u.type = UnsignedIntType),
+			(this.depthTexture = u),
+			(u.wrapS = ClampToEdgeWrapping),
+			(u.wrapT = ClampToEdgeWrapping),
+			(this.target = new WebGLRenderTarget(1, 1, {
+				minFilter: LinearFilter,
+				magFilter: LinearFilter,
+				depthTexture: u,
+				depthBuffer: !0,
+			})),
+			(this.target.texture.colorSpace = LinearSRGBColorSpace),
+			(this.target.texture.wrapS = ClampToEdgeWrapping),
+			(this.target.texture.wrapT = ClampToEdgeWrapping),
+			(this.linearViewZTarget = new WebGLRenderTarget(1, 1, {
+				minFilter: NearestFilter,
+				magFilter: NearestFilter,
+				type: FloatType,
+				format: RedFormat,
+				depthBuffer: !1,
+			})),
+			(this.linearViewZTarget.texture.wrapS = ClampToEdgeWrapping),
+			(this.linearViewZTarget.texture.wrapT = ClampToEdgeWrapping),
+			(this._linearDepthMaterial = new ShaderMaterial({
+				uniforms: {
+					tDepth: { value: u },
+					near: { value: 0.01 },
+					far: { value: 256 },
+				},
+				vertexShader: LINEAR_DEPTH_VERTEX,
+				fragmentShader: LINEAR_DEPTH_FRAGMENT,
+				depthTest: !1,
+				depthWrite: !1,
+			})),
+			(this._linearDepthScene = new Scene()),
+			this._linearDepthScene.add(
+				new Mesh(new PlaneGeometry(2, 2), this._linearDepthMaterial),
+			),
+			(this._linearDepthCamera = new OrthographicCamera(-1, 1, 1, -1, 0, 1));
+	}
+	configureDepthPrecision(u) {
+		u.capabilities.isWebGL2 &&
+			((this.depthTexture.type = FloatType),
+			(this.depthTexture.needsUpdate = !0));
+	}
+	resize(u, h) {
+		this.target.setSize(u, h),
+			this.linearViewZTarget.setSize(u, h),
+			this.uniforms.reflectionResolution.value.set(u, h);
+	}
+	capture(u, h, p, g, y, x, S) {
+		const b = u.getRenderTarget(),
+			v = u.autoClear;
+		this.setFluidMeshesVisible(g, y, !1),
+			x && ((this._ambientWasVisible = x.visible), (x.visible = !1)),
+			S && ((this._entityWasVisible = S.visible), (S.visible = !1)),
+			(this.uniforms.reflectionNear.value = p.near),
+			(this.uniforms.reflectionFar.value = p.far),
+			this.uniforms.reflectionProjectionMatrix.value.copy(p.projectionMatrix),
+			this.uniforms.reflectionViewMatrix.value.copy(p.matrixWorldInverse),
+			this.uniforms.reflectionViewMatrixInverse.value.copy(p.matrixWorld),
+			this._projInverse.copy(p.projectionMatrix).invert(),
+			this.uniforms.reflectionProjectionMatrixInverse.value.copy(
+				this._projInverse,
+			),
+			u.setRenderTarget(this.target),
+			(u.autoClear = !0),
+			u.clear(),
+			u.render(h, p),
+			(this._linearDepthMaterial.uniforms.tDepth.value = this.depthTexture),
+			(this._linearDepthMaterial.uniforms.near.value = p.near),
+			(this._linearDepthMaterial.uniforms.far.value = p.far),
+			u.setRenderTarget(this.linearViewZTarget),
+			u.clear(),
+			u.render(this._linearDepthScene, this._linearDepthCamera),
+			this.setFluidMeshesVisible(g, y, !0),
+			x && (x.visible = this._ambientWasVisible),
+			S && (S.visible = this._entityWasVisible),
+			u.setRenderTarget(b),
+			(u.autoClear = v),
+			(this.uniforms.tSceneColor.value = this.target.texture),
+			(this.uniforms.tSceneDepth.value = this.depthTexture),
+			(this.uniforms.tLinearViewZ.value = this.linearViewZTarget.texture),
+			(this.uniforms.reflectionEnabled.value = 1);
+	}
+	setFluidMeshesVisible(u, h, p) {
+		if (!p) {
+			this._fluidVisibility.clear();
+			for (const g of u.children)
+				g instanceof Mesh &&
+					g.material === h &&
+					(this._fluidVisibility.set(g, g.visible), (g.visible = !1));
+			return;
+		}
+		for (const [g, y] of this._fluidVisibility) g.visible = y;
+		this._fluidVisibility.clear();
+	}
+}
+const waterCameraState = { submerged: !1, depthBelowSurface: 0 };
+function setWaterCameraState(m, u = 0) {
+	(waterCameraState.submerged = m), (waterCameraState.depthBelowSurface = u);
+}
 class MasterRenderer {
 	static set renderUnderWater(u) {
-		this.colorPass.enabled = u;
+		(waterCameraState.submerged = u),
+			u || (waterCameraState.depthBelowSurface = 0);
 	}
 	static get renderUnderWater() {
-		return this.colorPass.enabled;
+		return waterCameraState.submerged;
 	}
 	static init(u) {
 		(this.game = u),
 			(this.renderer = new WebGLRenderer({ antialias: !1 })),
-			Options$1.resolution.onChange(() => this.updateResolution()),
-			this.updateResolution(),
 			(this.renderer.autoClear = !1),
 			(this.renderer.info.autoReset = !1),
 			(this.renderer.outputColorSpace = LinearSRGBColorSpace),
+			(this.reflectionBuffer = new SceneReflectionBuffer()),
+			this.reflectionBuffer.configureDepthPrecision(this.renderer),
+			textureManager.setReflectionBuffer(this.reflectionBuffer),
+			Options$1.resolution.onChange(() => this.updateResolution()),
+			this.updateResolution(),
 			(this.composer = new EffectComposer(this.renderer)),
 			this.composer.addPass(
 				new RenderPass(u.gameScene.scene, u.gameScene.camera),
 			),
+			(this.godRaysPass = new GodRaysPass()),
+			(this.godRaysPass.enabled = Options$1.godRays.value),
+			Options$1.godRays.onChange((h) => {
+				this.godRaysPass.enabled = h;
+			}),
+			this.composer.addPass(this.godRaysPass),
 			(this.colorPass = new ShaderPass({
 				uniforms: {
 					tDiffuse: { value: null },
-					color: { value: new Color$1(3031540) },
+					tSceneDepth: { value: null },
+					underwaterTint: { value: new Color$1(3034466) },
+					time: { value: 0 },
+					useWaterAbsorption: { value: 0 },
+					useLightRefraction: { value: 0 },
+					reflectionNear: { value: 0.01 },
+					reflectionFar: { value: 256 },
+					reflectionProjectionMatrixInverse: { value: new Matrix4() },
+					reflectionViewMatrixInverse: { value: new Matrix4() },
+					murkVisibility: { value: 12.5 },
+					murkHaze: { value: 0.09 },
+					murkOpacityDepth: { value: 7.5 },
+					cameraDepthBelowSurface: { value: 0 },
 				},
 				vertexShader: `
             varying vec2 vUv;
@@ -187321,14 +188280,70 @@ class MasterRenderer {
             }
           `,
 				fragmentShader: `
-            uniform vec3 color;
+            uniform vec3 underwaterTint;
             uniform sampler2D tDiffuse;
+            uniform sampler2D tSceneDepth;
+            uniform float time;
+            uniform float useWaterAbsorption;
+            uniform float useLightRefraction;
+            uniform float reflectionNear;
+            uniform float reflectionFar;
+            uniform float murkVisibility;
+            uniform float murkHaze;
+            uniform float murkOpacityDepth;
+            uniform float cameraDepthBelowSurface;
+            uniform mat4 reflectionProjectionMatrixInverse;
+            uniform mat4 reflectionViewMatrixInverse;
             varying vec2 vUv;
+
+            float viewDistanceFromDepth(vec2 sampleUv) {
+              float depth = texture2D(tSceneDepth, sampleUv).r;
+              vec4 clip = vec4(sampleUv * 2.0 - 1.0, depth * 2.0 - 1.0, 1.0);
+              vec4 viewPos = reflectionProjectionMatrixInverse * clip;
+              viewPos /= viewPos.w;
+              return length(viewPos.xyz);
+            }
+
+            float submergedMurkAmount(float fogDist) {
+              float haze = 1.0 - exp(-fogDist * murkHaze);
+              float murk = 1.0 - exp(-fogDist / murkOpacityDepth);
+              return clamp(max(haze, murk), 0.0, 0.99);
+            }
+
+            vec3 applyUnderwaterVisibility(vec3 sceneRgb, float viewDist) {
+              vec3 shallowMurk = vec3(0.20, 0.38, 0.48);
+              vec3 deepMurk = vec3(0.04, 0.10, 0.26);
+              float fogDist = viewDist * 1.0001;
+              float visibility = exp(-fogDist / murkVisibility);
+              float murkAmount = submergedMurkAmount(fogDist);
+              vec3 murkColor = mix(shallowMurk, deepMurk, murkAmount);
+
+              vec3 result = sceneRgb * visibility;
+              result = mix(result, murkColor, murkAmount);
+              result *= mix(1.0, 0.62, murkAmount);
+              return mix(result, result * underwaterTint, 0.08 + murkAmount * 0.2);
+            }
+
             void main() {
-              vec4 previousPassColor = texture2D(tDiffuse, vUv);
-              gl_FragColor = vec4(
-                  previousPassColor.rgb * color,
-                  previousPassColor.a);
+              vec2 uv = vUv;
+              uv.x += sin(uv.y * 40.0 + time * 0.05) * 0.002;
+              uv.y += cos(uv.x * 30.0 + time * 0.04) * 0.002;
+
+              vec4 sceneColor = texture2D(tDiffuse, uv);
+              vec3 tinted;
+
+              if (useWaterAbsorption > 0.5) {
+                float viewDist = viewDistanceFromDepth(vUv);
+                float fogDist = viewDist;
+                tinted = applyUnderwaterVisibility(sceneColor.rgb, fogDist);
+              } else {
+                tinted = mix(sceneColor.rgb, sceneColor.rgb * underwaterTint, 0.22);
+              }
+
+              float caustic = sin(vUv.x * 80.0 + time * 0.1) * sin(vUv.y * 60.0 + time * 0.08) * 0.03;
+              tinted += vec3(0.08, 0.14, 0.18) * caustic * useLightRefraction;
+
+              gl_FragColor = vec4(tinted, sceneColor.a);
             }
           `,
 			})),
@@ -187340,6 +188355,91 @@ class MasterRenderer {
 				.appendChild(this.renderer.domElement);
 	}
 	static render() {
+		const u = waterCameraState.submerged,
+			h = Options$1.waterShaders.value,
+			p = this.game.gameScene.camera,
+			g = Options$1.godRays.value && player.isOverworld() && !u,
+			y = u || (h && player.isOverworld()) || g;
+		(this.colorPass.enabled = u),
+			u &&
+				((this.colorPass.uniforms.time.value += 0.05),
+				(this.colorPass.uniforms.useWaterAbsorption.value = h ? 1 : 0),
+				(this.colorPass.uniforms.useLightRefraction.value =
+					h && Options$1.waterLightRefraction.value ? 1 : 0),
+				(this.colorPass.uniforms.cameraDepthBelowSurface.value =
+					waterCameraState.depthBelowSurface));
+		const { sun: x } = this.game.gameScene;
+		if (
+			(this.godRaysPass.update(p, x.sun, x.offset.y, x.sunIntensity.value, g),
+			textureManager.materialFluidWorld)
+		)
+			if (
+				((textureManager.materialFluidWorld.userData.cameraSubmerged.value = u
+					? 1
+					: 0),
+				(textureManager.materialFluidWorld.userData.murkVisibility.value =
+					this.colorPass.uniforms.murkVisibility.value),
+				(textureManager.materialFluidWorld.userData.murkHaze.value =
+					this.colorPass.uniforms.murkHaze.value),
+				(textureManager.materialFluidWorld.userData.murkOpacityDepth.value =
+					this.colorPass.uniforms.murkOpacityDepth.value),
+				textureManager.materialFluidWorld.userData.underwaterTint.value.copy(
+					this.colorPass.uniforms.underwaterTint.value,
+				),
+				(textureManager.materialFluidWorld.userData.cameraDepthBelowSurface.value =
+					waterCameraState.depthBelowSurface),
+				(textureManager.materialFluidWorld.depthWrite = !1),
+				y)
+			) {
+				this.reflectionBuffer.capture(
+					this.renderer,
+					this.game.gameScene.scene,
+					p,
+					this.game.gameScene.chunkMeshes,
+					textureManager.materialFluidWorld,
+					this.game.gameScene.ambientMeshes,
+					this.game.gameScene.entityMeshes,
+				);
+				const { uniforms: S } = this.reflectionBuffer;
+				u &&
+					((this.colorPass.uniforms.tSceneDepth.value =
+						this.reflectionBuffer.depthTexture),
+					(this.colorPass.uniforms.reflectionNear.value =
+						S.reflectionNear.value),
+					(this.colorPass.uniforms.reflectionFar.value = S.reflectionFar.value),
+					this.colorPass.uniforms.reflectionProjectionMatrixInverse.value.copy(
+						S.reflectionProjectionMatrixInverse.value,
+					),
+					this.colorPass.uniforms.reflectionViewMatrixInverse.value.copy(
+						S.reflectionViewMatrixInverse.value,
+					)),
+					this.godRaysPass.setDepth(
+						this.reflectionBuffer.depthTexture,
+						S.reflectionNear.value,
+						S.reflectionFar.value,
+					);
+				const b = textureManager.materialFluidWorld.userData;
+				(b.reflectionEnabled.value = S.reflectionEnabled.value),
+					(b.tSceneColor.value = S.tSceneColor.value),
+					(b.tSceneDepth.value = S.tSceneDepth.value),
+					(b.tLinearViewZ.value = S.tLinearViewZ.value),
+					(b.reflectionNear.value = S.reflectionNear.value),
+					(b.reflectionFar.value = S.reflectionFar.value),
+					b.reflectionResolution.value.copy(S.reflectionResolution.value),
+					b.reflectionProjectionMatrix.value.copy(
+						S.reflectionProjectionMatrix.value,
+					),
+					b.reflectionViewMatrix.value.copy(S.reflectionViewMatrix.value),
+					b.reflectionViewMatrixInverse.value.copy(
+						S.reflectionViewMatrixInverse.value,
+					),
+					b.reflectionProjectionMatrixInverse.value.copy(
+						S.reflectionProjectionMatrixInverse.value,
+					);
+			} else
+				(this.reflectionBuffer.uniforms.reflectionEnabled.value = 0),
+					this.godRaysPass.setDepth(null, 0.01, 256);
+		else this.godRaysPass.setDepth(null, 0.01, 256);
 		this.renderer.info.reset(),
 			this.renderer.clear(),
 			this.composer.render(),
@@ -187347,24 +188447,43 @@ class MasterRenderer {
 			this.renderer.render(hud3DScene.scene, hud3DScene.camera);
 	}
 	static resize() {
-		this.renderer.setSize(window.innerWidth, window.innerHeight),
-			this.composer.setSize(window.innerWidth, window.innerHeight),
-			(this.game.gameScene.camera.aspect =
-				window.innerWidth / window.innerHeight),
-			this.game.gameScene.camera.updateProjectionMatrix(),
-			(hud3DScene.camera.aspect = window.innerWidth / window.innerHeight),
-			hud3DScene.camera.updateProjectionMatrix();
+		var u;
+		this.renderer &&
+			(this.renderer.setSize(window.innerWidth, window.innerHeight),
+			(u = this.composer) == null ||
+				u.setSize(window.innerWidth, window.innerHeight),
+			this.updateReflectionBufferSize(),
+			this.game &&
+				((this.game.gameScene.camera.aspect =
+					window.innerWidth / window.innerHeight),
+				this.game.gameScene.camera.updateProjectionMatrix(),
+				(hud3DScene.camera.aspect = window.innerWidth / window.innerHeight),
+				hud3DScene.camera.updateProjectionMatrix()));
 	}
 	static updateResolution() {
-		this.renderer.setPixelRatio(
-			window.devicePixelRatio * (Options$1.resolution.value / 100),
-		);
+		this.renderer &&
+			(this.renderer.setPixelRatio(
+				window.devicePixelRatio * (Options$1.resolution.value / 100),
+			),
+			this.updateReflectionBufferSize());
+	}
+	static updateReflectionBufferSize() {
+		!this.renderer ||
+			!this.reflectionBuffer ||
+			(this.renderer.getDrawingBufferSize(this.drawingBufferSize),
+			this.reflectionBuffer.resize(
+				this.drawingBufferSize.x,
+				this.drawingBufferSize.y,
+			));
 	}
 }
 I(MasterRenderer, "colorPass"),
+	I(MasterRenderer, "godRaysPass"),
 	I(MasterRenderer, "renderer"),
 	I(MasterRenderer, "composer"),
-	I(MasterRenderer, "game");
+	I(MasterRenderer, "game"),
+	I(MasterRenderer, "reflectionBuffer"),
+	I(MasterRenderer, "drawingBufferSize", new Vector2());
 class PointerLock {
 	static confirmExit(u) {
 		return "You have attempted to leave this page. Are you sure?";
@@ -189681,7 +190800,7 @@ class SlimeMoveHelper extends EntityMoveHelper {
 											this.slime.getSoundVolume(),
 											((Math.random() - Math.random()) * 0.2 + 1) * 0.8,
 										))
-								: ((this.slime.TMzFRKfKXD = this.slime.LFzeLOHDfQ = 0),
+								: ((this.slime.algxaYNegS = this.slime.QZoFiiAqcN = 0),
 									this.entity.setAIMoveSpeed(0)))
 						: this.entity.setAIMoveSpeed(
 								this.speed *
@@ -192782,7 +193901,7 @@ class EntityManager {
 		if (
 			this.hidePlayers ||
 			!u.world.isBlockLoaded(BlockPos.fromVector(u.pos)) ||
-			u.RuTYpKTjFl(player) ||
+			u.LROtGTuxaU(player) ||
 			(u instanceof EntityPlayer && u.isSpectator() && !player.isSpectator())
 		)
 			return !1;
@@ -193907,7 +195026,7 @@ class PlayerMovement extends EntityPlayer {
 		(this.inputSequenceNumber = 0), (this.pendingInputs = []);
 	}
 	updatePlayerMoveState() {
-		(this.TMzFRKfKXD = 0), (this.LFzeLOHDfQ = 0);
+		(this.algxaYNegS = 0), (this.QZoFiiAqcN = 0);
 		const h =
 				keyPressedPlayer("d") || keyPressedPlayer("right") || touchcontrols.direction.x > 0,
 			p =
@@ -193965,12 +195084,12 @@ class PlayerMovement extends EntityPlayer {
 		const g = this.jumping,
 			y = this.sneak,
 			x = -0.8,
-			S = this.LFzeLOHDfQ <= x;
+			S = this.QZoFiiAqcN <= x;
 		this.updatePlayerMoveState(),
 			this.isUsingItem() &&
 				!this.isRiding() &&
-				((this.TMzFRKfKXD *= 0.2),
-				(this.LFzeLOHDfQ *= 0.2),
+				((this.algxaYNegS *= 0.2),
+				(this.QZoFiiAqcN *= 0.2),
 				(this.sprintToggleTimer = 0));
 		const b = this.width * 0.35;
 		this.pushOutOfBlocks(
@@ -193998,7 +195117,7 @@ class PlayerMovement extends EntityPlayer {
 		this.onGround &&
 			!y &&
 			!S &&
-			this.LFzeLOHDfQ <= x &&
+			this.QZoFiiAqcN <= x &&
 			!this.isSprinting() &&
 			v &&
 			!this.isUsingItem() &&
@@ -194006,13 +195125,13 @@ class PlayerMovement extends EntityPlayer {
 				? (this.sprintToggleTimer = 7)
 				: this.setSprinting(!0)),
 			!this.isSprinting() &&
-				this.LFzeLOHDfQ <= x &&
+				this.QZoFiiAqcN <= x &&
 				v &&
 				!this.isUsingItem() &&
 				w &&
 				this.setSprinting(!0),
 			this.isSprinting() &&
-				(this.LFzeLOHDfQ > x || this.isCollidedHorizontally || !v) &&
+				(this.QZoFiiAqcN > x || this.isCollidedHorizontally || !v) &&
 				this.setSprinting(!1),
 			this.flyToggleTimer > 0 && this.flyToggleTimer--,
 			this.abilities.mayFly &&
@@ -194048,7 +195167,7 @@ class PlayerMovement extends EntityPlayer {
 						.translate(new Vector3$1(0, 1, 0))
 						.expandByVector(new Vector3$1(0.15, -0.1, 0.15)),
 				);
-			E.length > 0 && T.length <= 0 && this.LFzeLOHDfQ < 0
+			E.length > 0 && T.length <= 0 && this.QZoFiiAqcN < 0
 				? (this.jumping = !0)
 				: (this.jumping = !1);
 		}
@@ -194073,13 +195192,23 @@ class PlayerMovement extends EntityPlayer {
 		this.inWater || this.handleWaterMovement(),
 			super.updateFallState(h, p, g, y);
 	}
+	getDepthBelowWaterSurface(h) {
+		let p = h.up();
+		for (; p.y < 256; ) {
+			if (!game.world.getBlockState(p).getBlock().equals(Blocks.water))
+				return p.y - controls.YgrHcdLHBv.y;
+			p = p.up();
+		}
+		return 256 - controls.YgrHcdLHBv.y;
+	}
 	checkHeadInBlock() {
 		player.headInBlock = null;
-		const h = BlockPos.fromVector(controls.XdGhSoMIuN),
+		const h = BlockPos.fromVector(controls.YgrHcdLHBv),
 			p = game.world.getBlockState(h),
 			g = p.getBlock();
-		g.setBlockBoundsBasedOnState(game.world, h),
-			(MasterRenderer.renderUnderWater = g.equals(Blocks.water)),
+		g.setBlockBoundsBasedOnState(game.world, h);
+		const y = g.equals(Blocks.water);
+		setWaterCameraState(y, y ? this.getDepthBelowWaterSurface(h) : 0),
 			g.isFullCube(p) &&
 				(g.blocksMovement() &&
 					g
@@ -194306,8 +195435,8 @@ const Cm = class Cm extends PlayerMovement {
 			this.game.gameScene.camera.getWorldPosition(x);
 			const S = new Vector3$1();
 			this.game.gameScene.camera.getWorldDirection(S), S.negate();
-			const b = controls.XdGhSoMIuN,
-				v = controls.XdGhSoMIuN.clone().add(S.multiplyScalar(y)),
+			const b = controls.YgrHcdLHBv,
+				v = controls.YgrHcdLHBv.clone().add(S.multiplyScalar(y)),
 				w = rayTraceBlocks(b, v, !1, !0, !0, this.game.world);
 			if (w) {
 				const k = b.distanceTo(w.hitVec);
@@ -194383,13 +195512,13 @@ const Cm = class Cm extends PlayerMovement {
 				((player.serverPunchState = player.punching),
 				(h.punching = player.punching),
 				(p = !0)),
-			player.TMzFRKfKXD !== player.serverMoveStrafe &&
-				((player.serverMoveStrafe = player.TMzFRKfKXD),
-				(h.TMzFRKfKXD = player.TMzFRKfKXD),
+			player.algxaYNegS !== player.serverMoveStrafe &&
+				((player.serverMoveStrafe = player.algxaYNegS),
+				(h.algxaYNegS = player.algxaYNegS),
 				(p = !0)),
-			player.LFzeLOHDfQ !== player.serverMoveForward &&
-				((player.serverMoveForward = player.LFzeLOHDfQ),
-				(h.LFzeLOHDfQ = player.LFzeLOHDfQ),
+			player.QZoFiiAqcN !== player.serverMoveForward &&
+				((player.serverMoveForward = player.QZoFiiAqcN),
+				(h.QZoFiiAqcN = player.QZoFiiAqcN),
 				(p = !0)),
 			p && ClientSocket.sendPacket(new SPacketEntityAction(h));
 	}
@@ -194426,8 +195555,8 @@ const Cm = class Cm extends PlayerMovement {
 			: (this.timeInPortal = Math.max(0, this.timeInPortal - 8));
 	}
 	getMoveDirection(h) {
-		let p = this.TMzFRKfKXD,
-			g = this.LFzeLOHDfQ,
+		let p = this.algxaYNegS,
+			g = this.QZoFiiAqcN,
 			y = p * p + g * g;
 		if (y >= 1e-4) {
 			(y = Math.sqrt(y)),
@@ -194469,7 +195598,7 @@ const Cm = class Cm extends PlayerMovement {
 			);
 	}
 	getEyePos() {
-		return controls.XdGhSoMIuN;
+		return controls.YgrHcdLHBv;
 	}
 	attackEntityFrom(h, p) {
 		return !1;
@@ -205740,7 +206869,7 @@ function requireLodash_transform() {
 					ia = dt(Kt),
 					Ea = dt(hr),
 					La = dt(Ar),
-					un = dt(Ur),
+					cn = dt(Ur),
 					gt = dt(oa),
 					ot = rt ? rt.prototype : void 0,
 					bt = ot ? ot.valueOf : void 0,
@@ -205866,13 +206995,13 @@ function requireLodash_transform() {
 				function Hr() {
 					this.__data__ = new wt();
 				}
-				function nn(Q) {
+				function sn(Q) {
 					return this.__data__.delete(Q);
 				}
 				function Na(Q) {
 					return this.__data__.get(Q);
 				}
-				function cn(Q) {
+				function dn(Q) {
 					return this.__data__.has(Q);
 				}
 				function jn(Q, me) {
@@ -205885,9 +207014,9 @@ function requireLodash_transform() {
 					return Qe.set(Q, me), this;
 				}
 				(Nr.prototype.clear = Hr),
-					(Nr.prototype.delete = nn),
+					(Nr.prototype.delete = sn),
 					(Nr.prototype.get = Na),
-					(Nr.prototype.has = cn),
+					(Nr.prototype.has = dn),
 					(Nr.prototype.set = jn);
 				function Ga(Q, me) {
 					var Qe = Zr(Q) || Mr(Q) ? ct(Q.length, String) : [],
@@ -205934,8 +207063,8 @@ function requireLodash_transform() {
 						wr = Zr(me),
 						kr = w,
 						Er = w;
-					pr || ((kr = gn(Q)), (kr = kr == v ? D : kr)),
-						wr || ((Er = gn(me)), (Er = Er == v ? D : Er));
+					pr || ((kr = yn(Q)), (kr = kr == v ? D : kr)),
+						wr || ((Er = yn(me)), (Er = Er == v ? D : Er));
 					var pa = kr == D && !Te(Q),
 						Or = Er == D && !Te(me),
 						Gr = kr == Er;
@@ -206146,10 +207275,10 @@ function requireLodash_transform() {
 						var Va = Q[Gr],
 							Ka = me[Gr];
 						if (vt)
-							var yn = pr
+							var _n = pr
 								? vt(Ka, Va, Gr, me, Q, Gt)
 								: vt(Va, Ka, Gr, Q, me, Gt);
-						if (!(yn === void 0 ? Va === Ka || Qe(Va, Ka, vt, qt, Gt) : yn)) {
+						if (!(_n === void 0 ? Va === Ka || Qe(Va, Ka, vt, qt, Gt) : _n)) {
 							Ha = !1;
 							break;
 						}
@@ -206157,15 +207286,15 @@ function requireLodash_transform() {
 					}
 					if (Ha && !Da) {
 						var An = Q.constructor,
-							dn = me.constructor;
-						An != dn &&
+							hn = me.constructor;
+						An != hn &&
 							"constructor" in Q &&
 							"constructor" in me &&
 							!(
 								typeof An == "function" &&
 								An instanceof An &&
-								typeof dn == "function" &&
-								dn instanceof dn
+								typeof hn == "function" &&
+								hn instanceof hn
 							) &&
 							(Ha = !1);
 					}
@@ -206189,13 +207318,13 @@ function requireLodash_transform() {
 					var Qe = je(Q, me);
 					return Bi(Qe) ? Qe : void 0;
 				}
-				var gn = zn;
-				((Kt && gn(new Kt(new ArrayBuffer(1))) != ie) ||
-					(hr && gn(new hr()) != R) ||
-					(Ar && gn(Ar.resolve()) != F) ||
-					(Ur && gn(new Ur()) != H) ||
-					(oa && gn(new oa()) != ee)) &&
-					(gn = function (Q) {
+				var yn = zn;
+				((Kt && yn(new Kt(new ArrayBuffer(1))) != ie) ||
+					(hr && yn(new hr()) != R) ||
+					(Ar && yn(Ar.resolve()) != F) ||
+					(Ur && yn(new Ur()) != H) ||
+					(oa && yn(new oa()) != ee)) &&
+					(yn = function (Q) {
 						var me = Rt.call(Q),
 							Qe = me == D ? Q.constructor : void 0,
 							vt = Qe ? dt(Qe) : void 0;
@@ -206207,7 +207336,7 @@ function requireLodash_transform() {
 									return R;
 								case La:
 									return F;
-								case un:
+								case cn:
 									return H;
 								case gt:
 									return ee;
@@ -213350,6 +214479,9 @@ class Sun {
 		(h.y = 0),
 			h.add(this.offset.clone()),
 			this.sunlight.position.set(h.x, h.y, h.z),
+			textureManager.updateSunDirection(
+				new Vector3$1(h.x - player.pos.x, h.y, h.z - player.pos.z).normalize(),
+			),
 			this.sun.position.set(h.x, h.y, h.z),
 			this.sun.lookAt(this.sun.position);
 		const p = player.pos.clone();
@@ -214439,4 +215571,4 @@ async function startGame() {
 		await game.init();
 }
 document.addEventListener("DOMContentLoaded", startGame, !1);
-//# sourceMappingURL=index-VJBOhvuq.js.map
+//# sourceMappingURL=index-W-rBtWdm.js.map
