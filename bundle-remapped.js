@@ -50139,7 +50139,7 @@ const INTRP_ALPHA = 0.1,
 	},
 	MSPT = 50,
 	MB = 1024 * 1024,
-	VERSION$1 = "3.42.1",
+	VERSION$1 = "3.42.2",
 	MODE = "production";
 if (["development", "local", "staging", "production"].indexOf(MODE) === -1)
 	throw new Error(`Unknown mode: ${MODE}`);
@@ -118442,6 +118442,9 @@ class EntityPlayer extends EntityLivingBase {
 			(this.pitch = h.pitch),
 			(this.jumping = h.jump),
 			h.sneak && ((this.moveStrafe *= 0.3), (this.moveForward *= 0.3)),
+			h.usingItem &&
+				!this.isRiding() &&
+				((this.moveStrafe *= 0.2), (this.moveForward *= 0.2)),
 			this.onPlayerUpdate(),
 			this.setPositionAndRotation(
 				this.pos.x,
@@ -179023,6 +179026,7 @@ const Mu = class Mu extends Message$2 {
 		I(this, "lastProcessedInput");
 		I(this, "reset");
 		I(this, "ackId");
+		I(this, "onGround");
 		proto2.util.initPartial(h, this);
 	}
 	static fromBinary(h, p) {
@@ -179052,6 +179056,7 @@ I(Mu, "runtime", proto2),
 			{ no: 6, name: "lastProcessedInput", kind: "scalar", T: 13 },
 			{ no: 7, name: "reset", kind: "scalar", T: 8, opt: !0 },
 			{ no: 8, name: "ackId", kind: "scalar", T: 13, opt: !0 },
+			{ no: 9, name: "onGround", kind: "scalar", T: 8, opt: !0 },
 		]),
 	);
 let CPacketPlayerReconciliation = Mu;
@@ -195073,7 +195078,12 @@ class PlayerMovement extends EntityPlayer {
 				(this.lastServerAckId = h.ackId),
 			h.reset)
 		) {
-			this.setPosition(h.x, h.y, h.z), this.motion.set(0, 0, 0), this.reset();
+			this.setPosition(h.x, h.y, h.z),
+				this.motion.set(0, 0, 0),
+				h.onGround != null && (this.onGround = h.onGround),
+				(this.jumpTicks = 0),
+				(this.fallDistance = 0),
+				this.reset();
 			return;
 		}
 		const p = new Vector3$1(h.x, h.y, h.z),
@@ -195103,11 +195113,7 @@ class PlayerMovement extends EntityPlayer {
 			x = -0.8,
 			S = this.moveForward <= x;
 		this.updatePlayerMoveState(),
-			this.isUsingItem() &&
-				!this.isRiding() &&
-				((this.moveStrafe *= 0.2),
-				(this.moveForward *= 0.2),
-				(this.sprintToggleTimer = 0));
+			this.isUsingItem() && !this.isRiding() && (this.sprintToggleTimer = 0);
 		const b = this.width * 0.35;
 		this.pushOutOfBlocks(
 			this.pos.x - b,
@@ -215588,4 +215594,4 @@ async function startGame() {
 		await game.init();
 }
 document.addEventListener("DOMContentLoaded", startGame, !1);
-//# sourceMappingURL=index-DxH7e58z.js.map
+//# sourceMappingURL=index-BEErp14z.js.map
