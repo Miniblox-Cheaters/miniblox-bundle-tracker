@@ -50139,7 +50139,7 @@ const INTRP_ALPHA = 0.1,
 	},
 	MSPT = 50,
 	MB = 1024 * 1024,
-	VERSION$1 = "3.42.2",
+	VERSION$1 = "3.42.3",
 	MODE = "production";
 if (["development", "local", "staging", "production"].indexOf(MODE) === -1)
 	throw new Error(`Unknown mode: ${MODE}`);
@@ -118316,7 +118316,7 @@ class EntityPlayer extends EntityLivingBase {
 	isSprinting() {
 		return this.getFlag(3);
 	}
-	attackTargetEntityWithCurrentItem(h) {
+	NCMPmkHzyz(h) {
 		var x;
 		if (
 			(h instanceof EntityPlayer &&
@@ -169756,6 +169756,9 @@ const Ql = class Ql extends Message$2 {
 		I(this, "id");
 		I(this, "action");
 		I(this, "hitVec");
+		I(this, "yaw");
+		I(this, "pitch");
+		I(this, "sequence");
 		proto2.util.initPartial(h, this);
 	}
 	static fromBinary(h, p) {
@@ -169785,6 +169788,9 @@ I(Ql, "runtime", proto2),
 				T: proto2.getEnumType(SPacketUseEntity_Action),
 			},
 			{ no: 3, name: "hitVec", kind: "message", T: PBFloatVector3, opt: !0 },
+			{ no: 4, name: "yaw", kind: "scalar", T: 2, opt: !0 },
+			{ no: 5, name: "pitch", kind: "scalar", T: 2, opt: !0 },
+			{ no: 6, name: "sequence", kind: "scalar", T: 13, opt: !0 },
 		]),
 	);
 let SPacketUseEntity = Ql;
@@ -187372,9 +187378,12 @@ class PlayerController {
 						y: this.objectMouseOver.hitVec.y,
 						z: this.objectMouseOver.hitVec.z,
 					}),
+					yaw: player.yaw,
+					pitch: player.pitch,
+					sequence: player.inputSequenceNumber,
 				}),
 			),
-			player.attackTargetEntityWithCurrentItem(u);
+			player.NCMPmkHzyz(u);
 	}
 	interactWithEntitySendPacket(u, h) {
 		return h
@@ -215594,4 +215603,4 @@ async function startGame() {
 		await game.init();
 }
 document.addEventListener("DOMContentLoaded", startGame, !1);
-//# sourceMappingURL=index-BEErp14z.js.map
+//# sourceMappingURL=index-CAwBlSGh.js.map
