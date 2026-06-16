@@ -3,9 +3,9 @@ const __vite__mapDeps = (
 	m = __vite__mapDeps,
 	d = m.f ||
 		(m.f = [
-			"assets/GuiHud-CR7SM8VZ.js",
-			"assets/ChoiceRow-CmLALUe2.js",
-			"assets/index-C1WSHTO_.js",
+			"assets/index-CzgpBjaa.js",
+			"assets/ChoiceRow-B83DaWuX.js",
+			"assets/GuiHud-BIStAx64.js",
 		]),
 ) => i.map((i) => d[i]);
 var Oy = Object.defineProperty;
@@ -28756,7 +28756,7 @@ class Triangle {
 		return o.a.equals(this.a) && o.b.equals(this.b) && o.c.equals(this.c);
 	}
 }
-class cHWOVzubXp {
+class axRDnZLOyQ {
 	constructor(
 		o = new Vector3$1(1 / 0, 1 / 0, 1 / 0),
 		l = new Vector3$1(-1 / 0, -1 / 0, -1 / 0),
@@ -29021,7 +29021,7 @@ const _points = [
 		new Vector3$1(),
 	],
 	_vector$b = new Vector3$1(),
-	_box$4 = new cHWOVzubXp(),
+	_box$4 = new axRDnZLOyQ(),
 	_v0$1 = new Vector3$1(),
 	_v1$4 = new Vector3$1(),
 	_v2$3 = new Vector3$1(),
@@ -29274,7 +29274,7 @@ class Float32BufferAttribute extends BufferAttribute {
 		super(new Float32Array(o), l, u);
 	}
 }
-const _box$3 = new cHWOVzubXp(),
+const _box$3 = new axRDnZLOyQ(),
 	_v1$3 = new Vector3$1(),
 	_v2$2 = new Vector3$1();
 class Sphere {
@@ -29382,8 +29382,8 @@ let _id$1 = 0;
 const _m1$3 = new Matrix4(),
 	_obj = new Object3D(),
 	_offset = new Vector3$1(),
-	_box$2 = new cHWOVzubXp(),
-	_boxMorphTargets = new cHWOVzubXp(),
+	_box$2 = new axRDnZLOyQ(),
+	_boxMorphTargets = new axRDnZLOyQ(),
 	_vector$9 = new Vector3$1();
 class BufferGeometry extends EventDispatcher {
 	constructor() {
@@ -29516,7 +29516,7 @@ class BufferGeometry extends EventDispatcher {
 		return this;
 	}
 	computeBoundingBox() {
-		this.boundingBox === null && (this.boundingBox = new cHWOVzubXp());
+		this.boundingBox === null && (this.boundingBox = new axRDnZLOyQ());
 		const o = this.attributes.position,
 			l = this.morphAttributes.position;
 		if (o && o.isGLBufferAttribute) {
@@ -31212,7 +31212,7 @@ class SkinnedMesh extends Mesh {
 	}
 	computeBoundingBox() {
 		const o = this.geometry;
-		this.boundingBox === null && (this.boundingBox = new cHWOVzubXp()),
+		this.boundingBox === null && (this.boundingBox = new axRDnZLOyQ()),
 			this.boundingBox.makeEmpty();
 		const l = o.getAttribute("position");
 		for (let u = 0; u < l.count; u++)
@@ -31484,7 +31484,7 @@ class InstancedBufferAttribute extends BufferAttribute {
 const _instanceLocalMatrix = new Matrix4(),
 	_instanceWorldMatrix = new Matrix4(),
 	_instanceIntersects = [],
-	_box3 = new cHWOVzubXp(),
+	_box3 = new axRDnZLOyQ(),
 	_identity = new Matrix4(),
 	_mesh$1 = new Mesh(),
 	_sphere$4 = new Sphere();
@@ -31507,7 +31507,7 @@ class InstancedMesh extends Mesh {
 	computeBoundingBox() {
 		const o = this.geometry,
 			l = this.count;
-		this.boundingBox === null && (this.boundingBox = new cHWOVzubXp()),
+		this.boundingBox === null && (this.boundingBox = new axRDnZLOyQ()),
 			o.boundingBox === null && o.computeBoundingBox(),
 			this.boundingBox.makeEmpty();
 		for (let u = 0; u < l; u++)
@@ -32232,10 +32232,10 @@ class ExternalTexture extends Texture {
 		return super.copy(o), (this.sourceTexture = o.sourceTexture), this;
 	}
 }
-class RrznBwxvxC extends BufferGeometry {
+class jkwMPUxpEh extends BufferGeometry {
 	constructor(o = 1, l = 1, u = 1, d = 1, p = 1, m = 1) {
 		super(),
-			(this.type = "RrznBwxvxC"),
+			(this.type = "jkwMPUxpEh"),
 			(this.parameters = {
 				width: o,
 				height: l,
@@ -32307,7 +32307,7 @@ class RrznBwxvxC extends BufferGeometry {
 		);
 	}
 	static fromJSON(o) {
-		return new RrznBwxvxC(
+		return new jkwMPUxpEh(
 			o.width,
 			o.height,
 			o.depth,
@@ -41778,7 +41778,7 @@ function WebGLBackground(h, o, l, u, d, p) {
 		N && (N.isCubeTexture || N.mapping === CubeUVReflectionMapping)
 			? (x === void 0 &&
 					((x = new Mesh(
-						new RrznBwxvxC(1, 1, 1),
+						new jkwMPUxpEh(1, 1, 1),
 						new ShaderMaterial({
 							name: "BackgroundCubeMaterial",
 							uniforms: cloneUniforms(ShaderLib.backgroundCube.uniforms),
@@ -42515,7 +42515,7 @@ class PMREMGenerator {
 				(v.setRenderTarget(d), v.clearDepth(), v.setRenderTarget(null)),
 			this._backgroundBox === null &&
 				(this._backgroundBox = new Mesh(
-					new RrznBwxvxC(),
+					new jkwMPUxpEh(),
 					new MeshBasicMaterial({
 						name: "PMREM.Background",
 						side: BackSide,
@@ -43114,7 +43114,7 @@ class WebGLCubeRenderTarget extends WebGLRenderTarget {
 				}
 			`,
 			},
-			d = new RrznBwxvxC(5, 5, 5),
+			d = new jkwMPUxpEh(5, 5, 5),
 			p = new ShaderMaterial({
 				name: "CubemapFromEquirect",
 				uniforms: cloneUniforms(u.uniforms),
@@ -52029,7 +52029,7 @@ const INTRP_ALPHA = 0.1,
 	},
 	MSPT = 50,
 	MB$1 = 1024 * 1024,
-	VERSION$1 = "3.43.33",
+	VERSION$1 = "3.43.34",
 	MODE = "production";
 if (["development", "local", "staging", "production"].indexOf(MODE) === -1)
 	throw new Error(`Unknown mode: ${MODE}`);
@@ -52753,7 +52753,7 @@ const SESSION_SERVER_ENDPOINT = resolveSessionServerEndpoint(),
 			return new Yi(o.pos.x, o.pos.y, o.pos.z);
 		}
 		toAABB() {
-			return new cHWOVzubXp().setFromCenterAndSize(
+			return new axRDnZLOyQ().setFromCenterAndSize(
 				new Vector3$1(this.x + 0.5, this.y + 0.5, this.z + 0.5),
 				new Vector3$1(0.5, 0.5, 0.5),
 			);
@@ -52827,7 +52827,7 @@ const SESSION_SERVER_ENDPOINT = resolveSessionServerEndpoint(),
 		clone() {
 			return new Yi(this.x, this.y, this.z);
 		}
-		static WiVQDaAVmw(o, l) {
+		static XWEnppcwGn(o, l) {
 			return { [Symbol.iterator]: () => blockPosIterator(o, l) };
 		}
 	};
@@ -53180,7 +53180,7 @@ function addCoord(h, o, l, u) {
 		o,
 		l,
 		u,
-		new cHWOVzubXp(new Vector3$1(), new Vector3$1()),
+		new axRDnZLOyQ(new Vector3$1(), new Vector3$1()),
 	);
 }
 function translateBox3(h, o, l, u) {
@@ -70522,14 +70522,14 @@ class ItemArmor extends Item {
 	constructor(l, u, d, p) {
 		super(l);
 		b(this, "armorType");
-		b(this, "qrjuyLuShc");
+		b(this, "NgEFidAdis");
 		b(this, "renderIndex");
 		b(this, "material");
 		b(this, "toughness");
 		(this.material = u),
 			(this.armorType = p),
 			(this.renderIndex = d),
-			(this.qrjuyLuShc = u.damageReductionAmount[p]),
+			(this.NgEFidAdis = u.damageReductionAmount[p]),
 			(this.toughness = u.toughness[p]);
 	}
 	getArmorMaterial() {
@@ -71950,7 +71950,7 @@ const language$2 = {
 	},
 	oa = class oa {
 		constructor(o, l) {
-			b(this, "_queryBox", new cHWOVzubXp(new Vector3$1(), new Vector3$1()));
+			b(this, "_queryBox", new axRDnZLOyQ(new Vector3$1(), new Vector3$1()));
 			b(this, "id", oa.nextEntityID++);
 			b(this, "world");
 			b(this, "mesh");
@@ -71967,7 +71967,7 @@ const language$2 = {
 			b(this, "dead", !1);
 			b(this, "width");
 			b(this, "height");
-			b(this, "boundingBox", new cHWOVzubXp(new Vector3$1(), new Vector3$1()));
+			b(this, "boundingBox", new axRDnZLOyQ(new Vector3$1(), new Vector3$1()));
 			b(this, "dataWatcher");
 			b(this, "isAirborne");
 			b(this, "inWeb");
@@ -72038,19 +72038,19 @@ const language$2 = {
 			return this.inLava;
 		}
 		isEating() {
-			return this.OOdBmgHRzj(4);
+			return this.nDbxjJSHsY(4);
 		}
 		setEating(o) {
-			this.qqAYdnJOmd(4, o);
+			this.oHGYGfTEJR(4, o);
 		}
 		entityInit() {}
 		getDataWatcher() {
 			return this.dataWatcher;
 		}
-		OOdBmgHRzj(o) {
+		nDbxjJSHsY(o) {
 			return (this.dataWatcher.getWatchableObjectByte(0) & (1 << o)) != 0;
 		}
-		qqAYdnJOmd(o, l) {
+		oHGYGfTEJR(o, l) {
 			const u = this.dataWatcher.getWatchableObjectByte(0);
 			l
 				? this.dataWatcher.updateObject(0, u | (1 << o))
@@ -72084,7 +72084,7 @@ const language$2 = {
 			const u = this.getEntityBoundingBox(),
 				d = u.min,
 				p = u.min.clone().add(new Vector3$1(o, l, o));
-			this.setEntityBoundingBox(new cHWOVzubXp(d, p));
+			this.setEntityBoundingBox(new axRDnZLOyQ(d, p));
 		}
 		setVelocity(o, l, u) {
 			this.motion.set(o, l, u);
@@ -72103,7 +72103,7 @@ const language$2 = {
 					this.pos.y + this.height,
 					this.pos.z + d,
 				);
-			this.setEntityBoundingBox(new cHWOVzubXp(p, m));
+			this.setEntityBoundingBox(new axRDnZLOyQ(p, m));
 		}
 		setPositionAndRotation(o, l, u, d, p) {
 			this.prevPos.set(o, l, u),
@@ -72267,7 +72267,7 @@ const language$2 = {
 		setCurrentItemOrArmor(o, l) {}
 		isBurning() {
 			const o = this.world != null && this.world.isClient;
-			return this.fire > 0 || (o && this.OOdBmgHRzj(0));
+			return this.fire > 0 || (o && this.nDbxjJSHsY(0));
 		}
 		getInventory() {
 			return null;
@@ -72773,19 +72773,19 @@ const language$2 = {
 			return this.pos.distanceToSquared(o.pos);
 		}
 		setSprinting(o) {
-			this.qqAYdnJOmd(3, o);
+			this.oHGYGfTEJR(3, o);
 		}
 		isSprinting() {
 			return !1;
 		}
-		rsorAWLtOe() {
-			return this.OOdBmgHRzj(5);
+		PiHcHBlOQn() {
+			return this.nDbxjJSHsY(5);
 		}
-		fwiYDeXpRb(o) {
-			return this.rsorAWLtOe();
+		WiiMTifOmf(o) {
+			return this.PiHcHBlOQn();
 		}
 		setInvisible(o) {
-			this.qqAYdnJOmd(5, o);
+			this.oHGYGfTEJR(5, o);
 		}
 		entityDropItem(o, l) {
 			if (o.stackSize != 0 && o.getItem() != null) {
@@ -73009,7 +73009,7 @@ b(oa, "nextEntityID", 0),
 	b(oa, "positionOffset", new Vector3$1(-0.03125, 0, -0.03125)),
 	b(oa, "waterPadding", new Vector3$1(0.001, 0.001, 0.001).multiplyScalar(-1)),
 	b(oa, "waterOffsetv", new Vector3$1(0, -0.4, 0)),
-	b(oa, "waterScratchBox", new cHWOVzubXp());
+	b(oa, "waterScratchBox", new axRDnZLOyQ());
 let Entity = oa;
 var EnumCreatureAttribute = ((h) => (
 	(h[(h.UNDEFINED = 0)] = "UNDEFINED"),
@@ -73934,7 +73934,7 @@ const Sn = class Sn {
 					let m = Sn.parsePotionEffects(p, 0, p.length, o);
 					if (m > 0) {
 						let g = 0;
-						const y = Sn.etwoqNSmTt.get(d.getId());
+						const y = Sn.ciEVRtOOtd.get(d.getId());
 						y != null &&
 							((g = Sn.parsePotionEffects(y, 0, y.length, o)),
 							g < 0 && (g = 0)),
@@ -73971,7 +73971,7 @@ b(Sn, "field_77924_a", null),
 	b(Sn, "pufferfishEffect", "+0-1+2+3+13&4-4"),
 	b(Sn, "rabbitFootEffect", "+0+1-2+3&4-4+13"),
 	b(Sn, "potionRequirements", new Map()),
-	b(Sn, "etwoqNSmTt", new Map()),
+	b(Sn, "ciEVRtOOtd", new Map()),
 	b(Sn, "DATAVALUE_COLORS", new Map()),
 	b(Sn, "potionPrefixes", [
 		"potion.prefix.mundane",
@@ -74252,15 +74252,15 @@ PotionHelper.potionRequirements.set(
 	Potions.jump.getId(),
 	"0 & 1 & !2 & 3 & 3+6",
 );
-PotionHelper.etwoqNSmTt.set(Potions.moveSpeed.getId(), "5");
-PotionHelper.etwoqNSmTt.set(Potions.digSpeed.getId(), "5");
-PotionHelper.etwoqNSmTt.set(Potions.damageBoost.getId(), "5");
-PotionHelper.etwoqNSmTt.set(Potions.regeneration.getId(), "5");
-PotionHelper.etwoqNSmTt.set(Potions.harm.getId(), "5");
-PotionHelper.etwoqNSmTt.set(Potions.heal.getId(), "5");
-PotionHelper.etwoqNSmTt.set(Potions.resistance.getId(), "5");
-PotionHelper.etwoqNSmTt.set(Potions.poison.getId(), "5");
-PotionHelper.etwoqNSmTt.set(Potions.jump.getId(), "5");
+PotionHelper.ciEVRtOOtd.set(Potions.moveSpeed.getId(), "5");
+PotionHelper.ciEVRtOOtd.set(Potions.digSpeed.getId(), "5");
+PotionHelper.ciEVRtOOtd.set(Potions.damageBoost.getId(), "5");
+PotionHelper.ciEVRtOOtd.set(Potions.regeneration.getId(), "5");
+PotionHelper.ciEVRtOOtd.set(Potions.harm.getId(), "5");
+PotionHelper.ciEVRtOOtd.set(Potions.heal.getId(), "5");
+PotionHelper.ciEVRtOOtd.set(Potions.resistance.getId(), "5");
+PotionHelper.ciEVRtOOtd.set(Potions.poison.getId(), "5");
+PotionHelper.ciEVRtOOtd.set(Potions.jump.getId(), "5");
 const js = class js extends Entity {
 	constructor(l) {
 		super(l);
@@ -74269,8 +74269,8 @@ const js = class js extends Entity {
 		b(this, "jumpTicks", 0);
 		b(this, "initialJumpVelocity", 0.42);
 		b(this, "jumpMovementFactor");
-		b(this, "YvpFmJXDuv", 0);
-		b(this, "WMViDmmavH", 0);
+		b(this, "XKyQLZlbBV", 0);
+		b(this, "KlqaaAGUxZ", 0);
 		b(this, "prevLimbSwingAmount", 0);
 		b(this, "limbSwingAmount", 0);
 		b(this, "limbSwing", 0);
@@ -74641,7 +74641,7 @@ const js = class js extends Entity {
 			Math.abs(this.motion.y) < 0.005 && (this.motion.y = 0),
 			Math.abs(this.motion.z) < 0.005 && (this.motion.z = 0),
 			this.isMovementBlocked()
-				? ((this.jumping = !1), (this.YvpFmJXDuv = 0), (this.WMViDmmavH = 0))
+				? ((this.jumping = !1), (this.XKyQLZlbBV = 0), (this.KlqaaAGUxZ = 0))
 				: this.isServerWorld() && this.updateEntityActionState(),
 			this.jumping
 				? this.inWater
@@ -74652,8 +74652,8 @@ const js = class js extends Entity {
 							this.jumpTicks == 0 &&
 							(this.jump(), (this.jumpTicks = 10))
 				: (this.jumpTicks = 0),
-			this.isRiding() || ((this.YvpFmJXDuv *= 0.98), (this.WMViDmmavH *= 0.98)),
-			this.moveEntityWithHeading(this.YvpFmJXDuv, this.WMViDmmavH),
+			this.isRiding() || ((this.XKyQLZlbBV *= 0.98), (this.KlqaaAGUxZ *= 0.98)),
+			this.moveEntityWithHeading(this.XKyQLZlbBV, this.KlqaaAGUxZ),
 			this.world.isServer &&
 				this.doEntityCollision &&
 				this.collideWithNearbyEntities();
@@ -74754,7 +74754,7 @@ const js = class js extends Entity {
 		for (const u of this.getInventory()) {
 			const d = u.getItem();
 			if (u != null && d instanceof ItemArmor) {
-				const p = d.qrjuyLuShc;
+				const p = d.NgEFidAdis;
 				l += p;
 			}
 		}
@@ -74772,7 +74772,7 @@ const js = class js extends Entity {
 				if (!m) continue;
 				const g = m.item;
 				g instanceof ItemArmor &&
-					((d += g.qrjuyLuShc), (p += g.toughness || 0));
+					((d += g.NgEFidAdis), (p += g.toughness || 0));
 			}
 			u = u * (1 - Math.min(20, Math.max(d / 5, d - (4 * u) / (p + 8))) / 25);
 		}
@@ -75118,7 +75118,7 @@ const js = class js extends Entity {
 		if (u > 0) {
 			let p = !1;
 			if (
-				(this.rsorAWLtOe()
+				(this.PiHcHBlOQn()
 					? (p = randomInt(15) == 0)
 					: (p = Math.random() > 0.5),
 				p && u > 0)
@@ -75257,7 +75257,7 @@ b(
 	new AttributeModifier("sprint", "Sprinting speed boost", 0.3, 2).setSaved(!1),
 ),
 	b(js, "collidePadding", new Vector3$1(0.2, 0, 0.2)),
-	b(js, "collideScratchBox", new cHWOVzubXp());
+	b(js, "collideScratchBox", new axRDnZLOyQ());
 let EntityLivingBase = js;
 const qm = class qm extends ItemTool {
 	constructor(l, u) {
@@ -111783,14 +111783,14 @@ class Block {
 		return null;
 	}
 	setBlockBounds(o, l, u, d, p, m) {
-		this.bbox = new cHWOVzubXp(new Vector3$1(o, l, u), new Vector3$1(d, p, m));
+		this.bbox = new axRDnZLOyQ(new Vector3$1(o, l, u), new Vector3$1(d, p, m));
 	}
 	getBoundingBox(o, l, u) {
 		return this.bbox;
 	}
 	setBlockBoundsBasedOnState(o, l) {}
 	getSelectedBoundingBox(o, l) {
-		return new cHWOVzubXp(
+		return new axRDnZLOyQ(
 			new Vector3$1(
 				l.x + this.bbox.min.x,
 				l.y + this.bbox.min.y,
@@ -111808,7 +111808,7 @@ class Block {
 		g != null && d.intersectsBox(g) && p.push(g);
 	}
 	getCollisionBoundingBox(o, l, u) {
-		return new cHWOVzubXp(
+		return new axRDnZLOyQ(
 			new Vector3$1(
 				l.x + this.bbox.min.x,
 				l.y + this.bbox.min.y,
@@ -119021,11 +119021,11 @@ class BlockFenceGate extends Block {
 		return u.getProp("open")
 			? null
 			: u.getProp("facing").getAxis() == Axis.Z
-				? new cHWOVzubXp(
+				? new axRDnZLOyQ(
 						new Vector3$1(l.x, l.y, l.z + 0.375),
 						new Vector3$1(l.x + 1, l.y + 1.5, l.z + 0.625),
 					)
-				: new cHWOVzubXp(
+				: new axRDnZLOyQ(
 						new Vector3$1(l.x + 0.375, l.y, l.z),
 						new Vector3$1(l.x + 0.625, l.y + 1.5, l.z + 1),
 					);
@@ -119999,7 +119999,7 @@ class PathNavigate {
 		if (this.noPath()) return;
 		const o = this.currentPath.getPosition(this.theEntity);
 		if (!o) return;
-		let l = new cHWOVzubXp(
+		let l = new axRDnZLOyQ(
 			new Vector3$1(o.x, o.y, o.z),
 			new Vector3$1(o.x, o.y, o.z),
 		).expandByScalar(0.5);
@@ -120206,7 +120206,7 @@ class PathNavigateGround extends PathNavigate {
 		} else return !1;
 	}
 	isPositionClear(l, u, d, p, m, g, y, x, S) {
-		for (const v of BlockPos.WiVQDaAVmw(
+		for (const v of BlockPos.XWEnppcwGn(
 			new BlockPos(l, u, d),
 			new BlockPos(l + p - 1, u + m - 1, d + g - 1),
 		)) {
@@ -120714,7 +120714,7 @@ class EntityLiving extends EntityLivingBase {
 		}
 	}
 	setMoveForward(l) {
-		this.WMViDmmavH = l;
+		this.KlqaaAGUxZ = l;
 	}
 	setAIMoveSpeed(l) {
 		super.setAIMoveSpeed(l), this.setMoveForward(l);
@@ -121386,7 +121386,7 @@ class Explosion {
 			y = Math.floor(this.explosionZ + l + 1),
 			x = this.worldObj.getEntitiesWithinAABB(
 				null,
-				new cHWOVzubXp(new Vector3$1(u, p, g), new Vector3$1(d, m, y)),
+				new axRDnZLOyQ(new Vector3$1(u, p, g), new Vector3$1(d, m, y)),
 			),
 			S = new Vector3$1(this.explosionX, this.explosionY, this.explosionZ);
 		for (let v = 0; v < x.length; ++v) {
@@ -121681,7 +121681,7 @@ const oi = class oi {
 		return this.getBlock(o).isAir();
 	}
 	areaPassesCheck(o, l, u) {
-		for (const d of BlockPos.WiVQDaAVmw(o, l))
+		for (const d of BlockPos.XWEnppcwGn(o, l))
 			if (!u(this.getBlock(d))) return !1;
 		return !0;
 	}
@@ -121858,7 +121858,7 @@ const oi = class oi {
 								l.max.z >= k &&
 								l.min.z <= I &&
 								d.push(
-									new cHWOVzubXp(
+									new axRDnZLOyQ(
 										new Vector3$1(v, w, k),
 										new Vector3$1(E, C, I),
 									),
@@ -124930,9 +124930,9 @@ const Sd = class Sd extends EntityLivingBase {
 				: (this.motion.x = this.motion.z = 0);
 	}
 	isSprinting() {
-		return this.OOdBmgHRzj(3);
+		return this.nDbxjJSHsY(3);
 	}
-	KMiqzFcHzI(l) {
+	UswLBLDpvB(l) {
 		var m, g;
 		if (
 			(l instanceof Sd && this.team && !this.team.canAttack(l.team)) ||
@@ -125051,15 +125051,15 @@ const Sd = class Sd extends EntityLivingBase {
 			d.dead || (d.id != this.id && d.onCollideWithPlayer(this));
 	}
 	applyInput(l, u = !1) {
-		(this.YvpFmJXDuv = (l.right ? 1 : 0) + (l.left ? -1 : 0)),
-			(this.WMViDmmavH = (l.up ? -1 : 0) + (l.down ? 1 : 0)),
+		(this.XKyQLZlbBV = (l.right ? 1 : 0) + (l.left ? -1 : 0)),
+			(this.KlqaaAGUxZ = (l.up ? -1 : 0) + (l.down ? 1 : 0)),
 			(this.yaw = l.yaw),
 			(this.pitch = l.pitch),
 			(this.jumping = l.jump),
-			l.sneak && ((this.YvpFmJXDuv *= 0.3), (this.WMViDmmavH *= 0.3)),
+			l.sneak && ((this.XKyQLZlbBV *= 0.3), (this.KlqaaAGUxZ *= 0.3)),
 			l.usingItem &&
 				!this.isRiding() &&
-				((this.YvpFmJXDuv *= 0.2), (this.WMViDmmavH *= 0.2)),
+				((this.XKyQLZlbBV *= 0.2), (this.KlqaaAGUxZ *= 0.2)),
 			this.onPlayerUpdate(),
 			this.setPositionAndRotation(
 				this.pos.x,
@@ -125522,7 +125522,7 @@ const Sd = class Sd extends EntityLivingBase {
 			if (
 				this.world.getEntitiesWithinAABB(
 					"zombie",
-					new cHWOVzubXp(
+					new axRDnZLOyQ(
 						new Vector3$1(l.x - u, l.y - d, l.z - u),
 						new Vector3$1(l.x + u, l.y + d, l.z + u),
 					),
@@ -128653,7 +128653,7 @@ const Rl = class Rl extends Item {
 };
 b(Rl, "SUB_ITEMS_CACHE", new Map());
 let ItemPotion = Rl;
-function wcrteTJjrD(h) {
+function ovfwgUkjwR(h) {
 	return (
 		(h = h % (2 * Math.PI)),
 		h >= Math.PI && (h -= 2 * Math.PI),
@@ -128837,7 +128837,7 @@ class EntityBoat extends Entity {
 					k =
 						this.pos.z +
 						(this.boatZ - this.pos.z) / this.boatPosRotationIncrements,
-					E = wcrteTJjrD(this.boatYaw - this.yaw);
+					E = ovfwgUkjwR(this.boatYaw - this.yaw);
 				(this.yaw += E / this.boatPosRotationIncrements),
 					(this.pitch +=
 						(this.boatPitch - this.pitch) / this.boatPosRotationIncrements),
@@ -128856,7 +128856,7 @@ class EntityBoat extends Entity {
 			const w = this.getEntityBoundingBox(),
 				k = w.min.y + ((w.max.y - w.min.y) * (v + 0)) / u - 0.125,
 				E = w.min.y + ((w.max.y - w.min.y) * (v + 1)) / u - 0.125,
-				C = new cHWOVzubXp(
+				C = new axRDnZLOyQ(
 					new Vector3$1(w.min.x, k, w.min.z),
 					new Vector3$1(w.max.x, E, w.max.z),
 				);
@@ -128868,11 +128868,11 @@ class EntityBoat extends Entity {
 		} else this.motion.y < 0 && (this.motion.y /= 2), (this.motion.y += 0.007);
 		if (this.riddenByEntity instanceof EntityLivingBase) {
 			const v = this.riddenByEntity,
-				w = v.yaw - Math.PI / 2 + (-v.YvpFmJXDuv * Math.PI) / 2;
+				w = v.yaw - Math.PI / 2 + (-v.XKyQLZlbBV * Math.PI) / 2;
 			(this.motion.x +=
-				Math.cos(w) * this.speedMultiplier * v.WMViDmmavH * 0.05),
+				Math.cos(w) * this.speedMultiplier * v.KlqaaAGUxZ * 0.05),
 				(this.motion.z +=
-					-Math.sin(w) * this.speedMultiplier * v.WMViDmmavH * 0.05);
+					-Math.sin(w) * this.speedMultiplier * v.KlqaaAGUxZ * 0.05);
 		}
 		let p = Math.sqrt(
 			this.motion.x * this.motion.x + this.motion.z * this.motion.z,
@@ -128910,7 +128910,7 @@ class EntityBoat extends Entity {
 		const g = this.prevPos.x - this.pos.x,
 			y = this.prevPos.z - this.pos.z;
 		g * g + y * y > 0.001 && (m = Math.atan2(g, y) - Math.PI / 2);
-		let x = wcrteTJjrD(m - this.yaw);
+		let x = ovfwgUkjwR(m - this.yaw);
 		const S = degToRad(20);
 		x > S && (x = S),
 			x < -S && (x = -S),
@@ -129313,9 +129313,9 @@ class EntityMinecart extends Entity {
 	}
 	applyRiderInput(l, u) {
 		const d = this.riddenByEntity;
-		if (!(d instanceof EntityLivingBase) || d.WMViDmmavH === 0) return;
+		if (!(d instanceof EntityLivingBase) || d.KlqaaAGUxZ === 0) return;
 		const p = d.getLook(),
-			m = -Math.sign(d.WMViDmmavH),
+			m = -Math.sign(d.KlqaaAGUxZ),
 			g = p.x * l + p.z * u >= 0 ? 1 : -1,
 			y = m * g,
 			x = this.motion.x * l + this.motion.z * u;
@@ -130608,7 +130608,7 @@ const Go = class Go extends Block {
 		const m =
 				l.getEntitiesWithinAABB(
 					"EntityArrow",
-					new cHWOVzubXp(
+					new axRDnZLOyQ(
 						new Vector3$1(
 							u.x + this.bbox.min.x,
 							u.y + this.bbox.min.y,
@@ -130753,7 +130753,7 @@ class BlockCake extends Block {
 	getCollisionBoundingBox(o, l, u) {
 		const p = (1 + u.getProp("bites") * 2) / 16,
 			m = 0.5;
-		return new cHWOVzubXp(
+		return new axRDnZLOyQ(
 			new Vector3$1(l.x + p, l.y, l.z + 0.0625),
 			new Vector3$1(l.x + 1 - 0.0625, l.y + m, l.z + 1 - 0.0625),
 		);
@@ -131469,7 +131469,7 @@ class TileEntityChest extends TileEntity {
 			const m = 5;
 			for (const g of this.world.getEntitiesInAABBexcluding(
 				null,
-				new cHWOVzubXp(
+				new axRDnZLOyQ(
 					new Vector3$1(l - m, u - m, d - m),
 					new Vector3$1(l + 1 + m, u + 1 + m, d + 1 + m),
 				),
@@ -134006,7 +134006,7 @@ class BlockFarmland extends Block {
 			: new ModelBlock("farmland");
 	}
 	getCollisionBoundingBox(l, u, d) {
-		return new cHWOVzubXp(
+		return new axRDnZLOyQ(
 			new Vector3$1(u.x, u.y, u.z),
 			new Vector3$1(u.x + 1, u.y + 1, u.z + 1),
 		);
@@ -135049,7 +135049,7 @@ class BlockHellPortal extends Block {
 				if (L) continue;
 				const N = { x: "z", z: "x", y: "y" },
 					O = Blocks.hell_portal.defaultState.withState("axis", N[p.name]);
-				for (const B of BlockPos.WiVQDaAVmw(E, C)) l.setBlockState(B, O, 2);
+				for (const B of BlockPos.XWEnppcwGn(E, C)) l.setBlockState(B, O, 2);
 			}
 	}
 	onEntityCollidedWithBlock(l, u, d) {
@@ -135583,7 +135583,7 @@ class BlockLilyPad extends BlockShrub {
 			super.addCollisionBoxesToList(o, l, u, d, p, m);
 	}
 	getCollisionBoundingBox(o, l, u) {
-		return new cHWOVzubXp(
+		return new axRDnZLOyQ(
 			new Vector3$1(
 				l.x + this.bbox.min.x,
 				l.y + this.bbox.min.y,
@@ -136061,7 +136061,7 @@ class BlockPistonMoving extends BlockContainer {
 					p.getFrontOffsetZ() < 0
 						? (x -= p.getFrontOffsetZ() * d)
 						: (w -= p.getFrontOffsetZ() * d),
-					new cHWOVzubXp(new Vector3$1(g, y, x), new Vector3$1(S, v, w))
+					new axRDnZLOyQ(new Vector3$1(g, y, x), new Vector3$1(S, v, w))
 				);
 			}
 		} else return null;
@@ -136212,7 +136212,7 @@ class BlockBasePressurePlate extends Block {
 			g && o.scheduleUpdate(l, this, this.tickRate(o));
 	}
 	getSensitiveAABB(o) {
-		return new cHWOVzubXp(
+		return new axRDnZLOyQ(
 			new Vector3$1(o.x + 0.125, o.y, o.z + 0.125),
 			new Vector3$1(o.x + 1 - 0.125, o.y + 0.25, o.z + 1 - 0.125),
 		);
@@ -139064,7 +139064,7 @@ class BlockSnow extends Block {
 		);
 	}
 	getCollisionBoundingBox(l, u, d) {
-		return new cHWOVzubXp(
+		return new axRDnZLOyQ(
 			new Vector3$1(
 				u.x + this.bbox.min.x,
 				u.y + this.bbox.min.y,
@@ -139096,13 +139096,13 @@ class BlockSoulSand extends Block {
 		(u.motion.x *= 0.4), (u.motion.z *= 0.4);
 	}
 	getCollisionBoundingBox(o, l, u) {
-		return new cHWOVzubXp(
+		return new axRDnZLOyQ(
 			new Vector3$1(l.x, l.y, l.z),
 			new Vector3$1(l.x + 1, l.y + 1 - 0.125, l.z + 1),
 		);
 	}
 	getBoundingBox(o) {
-		return new cHWOVzubXp(
+		return new axRDnZLOyQ(
 			new Vector3$1(0, 0, 0),
 			new Vector3$1(1, 1 - 0.125, 1),
 		);
@@ -171500,8 +171500,8 @@ const Ll = class Ll extends Message {
 		b(this, "sneak");
 		b(this, "sprinting");
 		b(this, "punching");
-		b(this, "YvpFmJXDuv");
-		b(this, "WMViDmmavH");
+		b(this, "XKyQLZlbBV");
+		b(this, "KlqaaAGUxZ");
 		b(this, "fire");
 		b(this, "stopSleeping");
 		proto2.util.initPartial(l, this);
@@ -171529,8 +171529,8 @@ b(Ll, "runtime", proto2),
 			{ no: 2, name: "sneak", kind: "scalar", T: 8, opt: !0 },
 			{ no: 3, name: "sprinting", kind: "scalar", T: 8, opt: !0 },
 			{ no: 4, name: "punching", kind: "scalar", T: 8, opt: !0 },
-			{ no: 5, name: "YvpFmJXDuv", kind: "scalar", T: 2, opt: !0 },
-			{ no: 6, name: "WMViDmmavH", kind: "scalar", T: 2, opt: !0 },
+			{ no: 5, name: "XKyQLZlbBV", kind: "scalar", T: 2, opt: !0 },
+			{ no: 6, name: "KlqaaAGUxZ", kind: "scalar", T: 2, opt: !0 },
 			{ no: 20, name: "fire", kind: "scalar", T: 5, opt: !0 },
 			{ no: 21, name: "stopSleeping", kind: "scalar", T: 8, opt: !0 },
 		]),
@@ -174953,7 +174953,7 @@ class GLTFParser {
 }
 function computeBounds(h, o, l) {
 	const u = o.attributes,
-		d = new cHWOVzubXp();
+		d = new axRDnZLOyQ();
 	if (u.POSITION !== void 0) {
 		const g = l.json.accessors[u.POSITION],
 			y = g.min,
@@ -175064,7 +175064,7 @@ class GLTFManager {
 		b(this, "loader", new GLTFLoader());
 		b(this, "models", {});
 	}
-	async DeXoOEhkyL() {
+	async tXxfzoHJcm() {
 		const o = [];
 		for (const l of Object.values(HATS)) o.push(this.loadHat(l));
 		await Promise.all(o);
@@ -175087,9 +175087,19 @@ class GLTFManager {
 	}
 }
 const CUSTOM_SKIN_PREFIX = "custom:",
-	MAX_CUSTOM_SKIN_BYTES = 64 * 1024,
-	CUSTOM_SKIN_WIDTH = 64,
-	CUSTOM_SKIN_HEIGHTS = [64, 32];
+	MAX_CUSTOM_SKIN_BYTES = 1024 * 1024,
+	CUSTOM_SKIN_BASE_WIDTH = 64,
+	MAX_CUSTOM_SKIN_WIDTH = 512,
+	CUSTOM_SKIN_WIDTHS = (() => {
+		const h = [];
+		for (let o = CUSTOM_SKIN_BASE_WIDTH; o <= MAX_CUSTOM_SKIN_WIDTH; o *= 2)
+			h.push(o);
+		return h;
+	})();
+function isValidCustomSkinResolution(h, o) {
+	return CUSTOM_SKIN_WIDTHS.includes(h) ? o === h || o === h / 2 : !1;
+}
+const CUSTOM_SKIN_DIMENSIONS_LABEL = `${CUSTOM_SKIN_BASE_WIDTH}x${CUSTOM_SKIN_BASE_WIDTH} up to ${MAX_CUSTOM_SKIN_WIDTH}x${MAX_CUSTOM_SKIN_WIDTH} (square, or the 2:1 legacy ratio like ${CUSTOM_SKIN_BASE_WIDTH}x${CUSTOM_SKIN_BASE_WIDTH / 2})`;
 function isCustomSkinId(h) {
 	return typeof h == "string" && h.startsWith(CUSTOM_SKIN_PREFIX);
 }
@@ -175291,7 +175301,7 @@ class ShaderManager {
 			grass: Options.grassWave.value,
 		};
 	}
-	static FKSvHciGuz(o) {
+	static XLhwkxWqQV(o) {
 		(o.userData = {
 			time: { value: 2 },
 			uSunLight: { value: 1 },
@@ -176469,7 +176479,7 @@ class TextureManager {
 		b(this, "old_miniblox_font");
 		b(this, "atlas");
 		b(this, "materialWorld");
-		b(this, "wknDeFPnMM");
+		b(this, "OqjPDtlzwb");
 		b(this, "materialFluidWorld");
 		b(this, "material");
 		b(this, "materialEnchanted");
@@ -176482,7 +176492,7 @@ class TextureManager {
 		b(this, "particleAtlasRects", new Map());
 		b(this, "glintTexture");
 		b(this, "skinManager", new SkinManager());
-		b(this, "YOSJHpHzUk", new GLTFManager());
+		b(this, "maIddxiVlk", new GLTFManager());
 		b(this, "reflectionBuffer", null);
 		b(this, "sunDirection", new Vector3$1(0, 1, 0));
 		b(this, "sunLight", 1);
@@ -176512,7 +176522,7 @@ class TextureManager {
 				this.loadSpritesheet(),
 				this.loadFonts(),
 				this.skinManager.loadTextures(),
-				this.YOSJHpHzUk.DeXoOEhkyL(),
+				this.maIddxiVlk.tXxfzoHJcm(),
 			];
 			PARTICLE_TEXTURES.forEach((u) => {
 				l.push(
@@ -176641,12 +176651,12 @@ class TextureManager {
 			(this.materialTransparent.alphaTest = 0.1),
 			(this.atlas = o.image),
 			(this.materialWorld = this.material.clone()),
-			ShaderManager.FKSvHciGuz(this.materialWorld),
-			(this.wknDeFPnMM = this.materialTransparent.clone()),
-			ShaderManager.FKSvHciGuz(this.wknDeFPnMM),
-			(this.wknDeFPnMM.depthWrite = !1);
+			ShaderManager.XLhwkxWqQV(this.materialWorld),
+			(this.OqjPDtlzwb = this.materialTransparent.clone()),
+			ShaderManager.XLhwkxWqQV(this.OqjPDtlzwb),
+			(this.OqjPDtlzwb.depthWrite = !1);
 		const g = () => {
-			(this.materialWorld.needsUpdate = !0), (this.wknDeFPnMM.needsUpdate = !0);
+			(this.materialWorld.needsUpdate = !0), (this.OqjPDtlzwb.needsUpdate = !0);
 		};
 		Options.grassWave.onChange(g),
 			Options.dynamicLighting.onChange(g),
@@ -176699,8 +176709,8 @@ class TextureManager {
 	fixedUpdate() {
 		var o;
 		this.materialTransparent &&
-			this.wknDeFPnMM.userData &&
-			this.wknDeFPnMM.userData.time.value++,
+			this.OqjPDtlzwb.userData &&
+			this.OqjPDtlzwb.userData.time.value++,
 			this.materialWorld &&
 				this.materialWorld.userData &&
 				this.materialWorld.userData.time.value++,
@@ -176736,9 +176746,9 @@ class TextureManager {
 			(u = (l = this.materialWorld) == null ? void 0 : l.userData) != null &&
 				u.uSunLight &&
 				(this.materialWorld.userData.uSunLight.value = o),
-			(p = (d = this.wknDeFPnMM) == null ? void 0 : d.userData) != null &&
+			(p = (d = this.OqjPDtlzwb) == null ? void 0 : d.userData) != null &&
 				p.uSunLight &&
-				(this.wknDeFPnMM.userData.uSunLight.value = o),
+				(this.OqjPDtlzwb.userData.uSunLight.value = o),
 			(g = (m = this.materialFluidWorld) == null ? void 0 : m.userData) !=
 				null &&
 				g.uSunLight &&
@@ -176750,9 +176760,9 @@ class TextureManager {
 			(u = (l = this.materialWorld) == null ? void 0 : l.userData) != null &&
 				u.uAmbientLight &&
 				(this.materialWorld.userData.uAmbientLight.value = o),
-			(p = (d = this.wknDeFPnMM) == null ? void 0 : d.userData) != null &&
+			(p = (d = this.OqjPDtlzwb) == null ? void 0 : d.userData) != null &&
 				p.uAmbientLight &&
-				(this.wknDeFPnMM.userData.uAmbientLight.value = o),
+				(this.OqjPDtlzwb.userData.uAmbientLight.value = o),
 			(g = (m = this.materialFluidWorld) == null ? void 0 : m.userData) !=
 				null &&
 				g.uAmbientLight &&
@@ -176763,7 +176773,7 @@ class TextureManager {
 		(this.heldLightLevel = u), o && this.heldLightPos.copy(o);
 		for (const d of [
 			this.materialWorld,
-			this.wknDeFPnMM,
+			this.OqjPDtlzwb,
 			this.materialFluidWorld,
 		]) {
 			const p = d == null ? void 0 : d.userData;
@@ -176780,7 +176790,7 @@ class TextureManager {
 			(l.originZ = o.originZ),
 			(l.invExtent = o.invExtent),
 			(this.giState = l);
-		for (const u of [this.materialWorld, this.wknDeFPnMM]) {
+		for (const u of [this.materialWorld, this.OqjPDtlzwb]) {
 			const d = u == null ? void 0 : u.userData;
 			d != null &&
 				d.uGITex &&
@@ -176796,13 +176806,13 @@ class TextureManager {
 	}
 	setGIEnabled(o) {
 		o || (this.giState = null);
-		for (const l of [this.materialWorld, this.wknDeFPnMM]) {
+		for (const l of [this.materialWorld, this.OqjPDtlzwb]) {
 			const u = l == null ? void 0 : l.userData;
 			u != null && u.uGIEnabled && (u.uGIEnabled.value = o ? 1 : 0);
 		}
 	}
 	setGIDebug(o) {
-		for (const l of [this.materialWorld, this.wknDeFPnMM]) {
+		for (const l of [this.materialWorld, this.OqjPDtlzwb]) {
 			const u = l == null ? void 0 : l.userData;
 			u != null && u.uGIDebugView && (u.uGIDebugView.value = o ? 1 : 0);
 		}
@@ -176813,9 +176823,9 @@ class TextureManager {
 		(d = (u = this.materialWorld) == null ? void 0 : u.userData) != null &&
 			d.uHasDamage &&
 			(this.materialWorld.userData.uHasDamage.value = l),
-			(m = (p = this.wknDeFPnMM) == null ? void 0 : p.userData) != null &&
+			(m = (p = this.OqjPDtlzwb) == null ? void 0 : p.userData) != null &&
 				m.uHasDamage &&
-				(this.wknDeFPnMM.userData.uHasDamage.value = l);
+				(this.OqjPDtlzwb.userData.uHasDamage.value = l);
 	}
 }
 const textureManager = new TextureManager();
@@ -195362,7 +195372,7 @@ class ClientDecoder extends Decoder$1 {
 		if (!!ClientSocket.useDecodeWorker)
 			try {
 				(this.worker = new Worker(
-					new URL("/assets/NetworkDecodeWorker-Dm0duURD.js", import.meta.url),
+					new URL("/assets/NetworkDecodeWorker-DpLhsCFG.js", import.meta.url),
 					{ type: "module" },
 				)),
 					(this.worker.onmessage = (l) => {
@@ -195562,15 +195572,15 @@ document.addEventListener("mousedown", (h) => {
 	if ((autoClickerDectectOnClick(game), !(!Game.isActive() || Game.isMobile))) {
 		switch (h.which) {
 			case 1:
-				IBOAZbMlte.leftClick(), (mouseLerp.event = 0);
+				rJHNssnVSR.leftClick(), (mouseLerp.event = 0);
 				break;
 			case 2:
-				h.preventDefault(), IBOAZbMlte.middleClick(), (mouseLerp.event = 2);
+				h.preventDefault(), rJHNssnVSR.middleClick(), (mouseLerp.event = 2);
 				break;
 			case 3:
 				(mouseLerp.event = 1),
-					(IBOAZbMlte.rightClick = !0),
-					IBOAZbMlte.rightClickMouse();
+					(rJHNssnVSR.rightClick = !0),
+					rJHNssnVSR.rightClickMouse();
 				break;
 		}
 		(o = gui$1.currentScreen) == null || o.handleMouseInput();
@@ -195581,14 +195591,14 @@ document.addEventListener("mouseup", (h) => {
 	if (game.inGame() && !Game.isMobile) {
 		switch (h.which) {
 			case 1:
-				IBOAZbMlte.leftClick(!0);
+				rJHNssnVSR.leftClick(!0);
 				break;
 			case 2:
-				IBOAZbMlte.middleClick(!0);
+				rJHNssnVSR.middleClick(!0);
 				break;
 			case 3:
-				(IBOAZbMlte.rightClick = !1),
-					player.isUsingItem() && IBOAZbMlte.onStoppedUsingItem(player);
+				(rJHNssnVSR.rightClick = !1),
+					player.isUsingItem() && rJHNssnVSR.onStoppedUsingItem(player);
 				break;
 		}
 		(o = gui$1.currentScreen) == null || o.handleMouseInput(!1, !0),
@@ -195680,7 +195690,7 @@ class PointerLockControls {
 	get camera() {
 		return this.yawObject;
 	}
-	get RTaPpSnJgR() {
+	get BGIDYTHQeX() {
 		return this.camera.position;
 	}
 }
@@ -196939,11 +196949,11 @@ class TouchControls {
 					(this.lookId = u.identifier),
 					(mouse.x = u.clientX),
 					(mouse.y = u.clientY),
-					IBOAZbMlte.updateMouseOver(),
-					IBOAZbMlte.objectMouseOver.block
+					rJHNssnVSR.updateMouseOver(),
+					rJHNssnVSR.objectMouseOver.block
 						? (this.prevTouchPos.set(u.clientX, u.clientY),
 							(this.startLook = Date.now()))
-						: IBOAZbMlte.objectMouseOver.entity && IBOAZbMlte.leftClick());
+						: rJHNssnVSR.objectMouseOver.entity && rJHNssnVSR.leftClick());
 		this.checkForDisconnectedTouch(l);
 	}
 	touchEnd(o, l) {
@@ -196951,11 +196961,11 @@ class TouchControls {
 			u.identifier === this.moveId &&
 				((this.moveId = null), this.direction.setScalar(0)),
 				u.identifier === this.lookId &&
-					(Date.now() - this.startLook < 200 && IBOAZbMlte.rightClickMouse(),
+					(Date.now() - this.startLook < 200 && rJHNssnVSR.rightClickMouse(),
 					(this.lookId = null),
 					(this.lastLook = Date.now()),
 					(this.startLook = 0),
-					IBOAZbMlte.leftClick(!0));
+					rJHNssnVSR.leftClick(!0));
 		this.checkForDisconnectedTouch(l);
 	}
 	updateDirection(o) {
@@ -197009,7 +197019,7 @@ class TouchControls {
 			this.startLook &&
 				Date.now() - this.startLook > 300 &&
 				o < l &&
-				(IBOAZbMlte.leftClick(), (this.startLook = 0));
+				(rJHNssnVSR.leftClick(), (this.startLook = 0));
 	}
 	render() {
 		if (
@@ -197055,7 +197065,7 @@ class PlayerControllerMP {
 		b(this, "lastSentSlot", -1);
 		b(this, "isHittingBlock", !1);
 	}
-	xgDXqHgnKY() {
+	EEvxvfcqDi() {
 		const o = player.inventory.currentItem;
 		o !== this.lastSentSlot &&
 			((this.lastSentSlot = o),
@@ -197069,10 +197079,10 @@ class PlayerControllerMP {
 	}
 }
 const playerControllerMP = new PlayerControllerMP(),
-	_prevBbox = new cHWOVzubXp(),
+	_prevBbox = new axRDnZLOyQ(),
 	_prevPos = new Vector3$1(),
-	_aabb = new cHWOVzubXp(),
-	EMPTY_BOX = new cHWOVzubXp(new Vector3$1(0, 0, 0), new Vector3$1(0, 0, 0)),
+	_aabb = new axRDnZLOyQ(),
+	EMPTY_BOX = new axRDnZLOyQ(new Vector3$1(0, 0, 0), new Vector3$1(0, 0, 0)),
 	_cameraRight = new Vector3$1(),
 	_cameraUp = new Vector3$1(0, 1, 0),
 	_cameraUpAdjusted = new Vector3$1();
@@ -197150,7 +197160,7 @@ class PlayerController {
 		this.sendUseItem(player, game.world, o) && o != null && hud3D.swingArm();
 	}
 	onPlayerRightClick(o, l, u, d, p, m) {
-		playerControllerMP.xgDXqHgnKY();
+		playerControllerMP.EEvxvfcqDi();
 		const g = m.x - d.x,
 			y = m.y - d.y,
 			x = m.z - d.z;
@@ -197182,7 +197192,7 @@ class PlayerController {
 	sendUseItem(o, l, u) {
 		if (
 			o.mode.isSpectator() ||
-			(playerControllerMP.xgDXqHgnKY(),
+			(playerControllerMP.EEvxvfcqDi(),
 			ClientSocket.sendPacket(new SPacketUseItem()),
 			u == null)
 		)
@@ -197195,7 +197205,7 @@ class PlayerController {
 				? !1
 				: ((o.inventory.main[o.inventory.currentItem] = p), !0);
 	}
-	jJpBCztmIr(o, l, u, d, p) {
+	pKSCJZphmS(o, l, u, d, p) {
 		const m = p.openContainer.getNextTransactionID(p.inventory),
 			g = p.openContainer.slotClick(l, u, d, p);
 		return (
@@ -197213,7 +197223,7 @@ class PlayerController {
 		);
 	}
 	onStoppedUsingItem(o) {
-		playerControllerMP.xgDXqHgnKY(),
+		playerControllerMP.EEvxvfcqDi(),
 			ClientSocket.sendPacket(
 				new SPacketPlayerAction({
 					position: BlockPos.ORIGIN.toProto(),
@@ -197282,7 +197292,7 @@ class PlayerController {
 		}
 	}
 	attackEntity(o) {
-		playerControllerMP.xgDXqHgnKY(),
+		playerControllerMP.EEvxvfcqDi(),
 			ClientSocket.sendPacket(
 				new SPacketUseEntity({
 					id: o.id,
@@ -197297,11 +197307,11 @@ class PlayerController {
 					sequence: player.inputSequenceNumber,
 				}),
 			),
-			player.KMiqzFcHzI(o);
+			player.UswLBLDpvB(o);
 	}
 	interactWithEntitySendPacket(o, l) {
 		return l
-			? (playerControllerMP.xgDXqHgnKY(),
+			? (playerControllerMP.EEvxvfcqDi(),
 				ClientSocket.sendPacket(
 					new SPacketUseEntity({
 						id: l.id,
@@ -197547,7 +197557,7 @@ class PlayerController {
 		this.updateMouseOver(), this.select(), this.mine();
 	}
 }
-const IBOAZbMlte = new PlayerController(),
+const rJHNssnVSR = new PlayerController(),
 	CopyShader = {
 		name: "CopyShader",
 		uniforms: { tDiffuse: { value: null }, opacity: { value: 1 } },
@@ -200286,7 +200296,7 @@ ${new Error().stack ?? ""}`);
 				(ie.receiveShadow = Q), m.add(ie);
 			};
 		g(textureManager.materialWorld, !1, !0),
-			g(textureManager.wknDeFPnMM, !1, !0),
+			g(textureManager.OqjPDtlzwb, !1, !0),
 			g(textureManager.materialFluidWorld, !0, !1);
 		const y = [],
 			x = (W) => {
@@ -200984,7 +200994,7 @@ class GuiManager {
 		(game.info.showInventory =
 			((o = this.currentScreen) == null ? void 0 : o.id) || "inventory"),
 			(mouseLerp.event = -1),
-			(IBOAZbMlte.rightClick = !1),
+			(rJHNssnVSR.rightClick = !1),
 			exitPointerLock();
 	}
 	update() {
@@ -201546,7 +201556,7 @@ class GuiContainer extends GuiScreen {
 	}
 	handleMouseClick(l, u, d, p) {
 		l != null && (u = l.slotNumber),
-			IBOAZbMlte.jJpBCztmIr(this.inventorySlots.windowId, u, d, p, player);
+			rJHNssnVSR.pKSCJZphmS(this.inventorySlots.windowId, u, d, p, player);
 	}
 	onGuiClosed() {
 		player != null && this.inventorySlots.onContainerClosed(player);
@@ -201782,7 +201792,7 @@ class EntityHanging extends Entity {
 				(x = x / 32),
 				(S = S / 32),
 				this.setEntityBoundingBox(
-					new cHWOVzubXp(
+					new axRDnZLOyQ(
 						new Vector3$1(l - y, u - x, d - S),
 						new Vector3$1(l + y, u + x, d + S),
 					),
@@ -202119,7 +202129,7 @@ class EntityAIHurtByTarget extends EntityAITarget {
 			const l = this.getTargetDistance(),
 				u = this.taskOwner.world.getEntitiesWithinAABB(
 					this.taskOwner.type,
-					new cHWOVzubXp(
+					new axRDnZLOyQ(
 						new Vector3$1(
 							this.taskOwner.pos.x,
 							this.taskOwner.pos.y,
@@ -202945,7 +202955,7 @@ class SlimeMoveHelper extends EntityMoveHelper {
 											this.slime.getSoundVolume(),
 											((Math.random() - Math.random()) * 0.2 + 1) * 0.8,
 										))
-								: ((this.slime.YvpFmJXDuv = this.slime.WMViDmmavH = 0),
+								: ((this.slime.XKyQLZlbBV = this.slime.KlqaaAGUxZ = 0),
 									this.entity.setAIMoveSpeed(0)))
 						: this.entity.setAIMoveSpeed(
 								this.speed *
@@ -203802,14 +203812,14 @@ class RenderEntity extends Group {
 	setDebugSize(l, u) {
 		if (!this.debugMesh) return;
 		const d = l / 2,
-			p = new cHWOVzubXp(new Vector3$1(-d, 0, -d), new Vector3$1(d, u, d));
+			p = new axRDnZLOyQ(new Vector3$1(-d, 0, -d), new Vector3$1(d, u, d));
 		this.debugMesh.box = p;
 	}
 	set debug(l) {
 		if (this.entity)
 			if (l && !this.debugMesh) {
 				const u = this.entity.width / 2,
-					d = new cHWOVzubXp(
+					d = new axRDnZLOyQ(
 						new Vector3$1(-u, 0, -u),
 						new Vector3$1(u, this.entity.height, u),
 					);
@@ -206079,7 +206089,7 @@ class ModelPlayer extends ModelBiped {
 	async addHat(o) {
 		const l = o.entity.profile.cosmetics.hat;
 		if (!l || l === "none") return;
-		const u = await textureManager.YOSJHpHzUk.getModel(l);
+		const u = await textureManager.maIddxiVlk.getModel(l);
 		if (!u) return;
 		const d = u.clone();
 		(d.position.y = 8 / 16),
@@ -206327,7 +206337,7 @@ class EntityManager {
 		for (const l of game.world.playersIterator()) {
 			if (l.id == player.id) continue;
 			const u = this.shouldRenderEntity(l, !0),
-				d = u && l.fwiYDeXpRb(player);
+				d = u && l.WiiMTifOmf(player);
 			(l.mesh.visible = u), l.mesh.setRenderArmorOnly(d);
 			const p = !d && !o && !l.mesh.usesFastLOD();
 			l.mesh.hatMesh && (l.mesh.hatMesh.visible = p),
@@ -206340,7 +206350,7 @@ class EntityManager {
 			this.hidePlayers ||
 			(_blockPos.set(o.pos.x, o.pos.y, o.pos.z),
 			!o.world.isBlockLoaded(_blockPos)) ||
-			(!l && o.fwiYDeXpRb(player)) ||
+			(!l && o.WiiMTifOmf(player)) ||
 			(o instanceof EntityPlayer && o.isSpectator() && !player.isSpectator())
 		)
 			return !1;
@@ -206650,7 +206660,7 @@ class GuiInventory extends GuiContainer {
 	drawGuiContainerBackgroundLayer(l, u) {}
 	drawGuiContainerForegroundLayer(l, u) {}
 }
-function rWjyEzTZwD(h) {
+function yCbCaocDQC(h) {
 	return keyPressed(h) && Game.isActive(!1);
 }
 function bindKeysWithDefaults(h, o) {
@@ -206732,7 +206742,7 @@ bindKeys(
 	{ preventDefault: !1, handler: "keyup" },
 );
 bindKeysWithDefaults("q", (h) => {
-	Game.isActive() && IBOAZbMlte.dropItem(h.shiftKey);
+	Game.isActive() && rJHNssnVSR.dropItem(h.shiftKey);
 });
 bindKeysWithDefaults("slash", (h) => {
 	h.repeat ||
@@ -206876,15 +206886,15 @@ class PlayerMovement extends EntityPlayer {
 		(this.inputSequenceNumber = 0), (this.pendingInputs = []);
 	}
 	updatePlayerMoveState() {
-		(this.YvpFmJXDuv = 0), (this.WMViDmmavH = 0);
+		(this.XKyQLZlbBV = 0), (this.KlqaaAGUxZ = 0);
 		const l =
-				rWjyEzTZwD("d") || rWjyEzTZwD("right") || touchcontrols.direction.x > 0,
+				yCbCaocDQC("d") || yCbCaocDQC("right") || touchcontrols.direction.x > 0,
 			u =
-				rWjyEzTZwD("a") || rWjyEzTZwD("left") || touchcontrols.direction.x < 0,
-			d = rWjyEzTZwD("w") || rWjyEzTZwD("up") || touchcontrols.direction.y > 0,
+				yCbCaocDQC("a") || yCbCaocDQC("left") || touchcontrols.direction.x < 0,
+			d = yCbCaocDQC("w") || yCbCaocDQC("up") || touchcontrols.direction.y > 0,
 			p =
-				rWjyEzTZwD("s") || rWjyEzTZwD("down") || touchcontrols.direction.y < 0;
-		(this.jumping = touchcontrols.jumping || rWjyEzTZwD("space")),
+				yCbCaocDQC("s") || yCbCaocDQC("down") || touchcontrols.direction.y < 0;
+		(this.jumping = touchcontrols.jumping || yCbCaocDQC("space")),
 			game.info.inLoadedChunk &&
 				(this.inputSequenceNumber++,
 				(this.currentInput = new SPacketPlayerInput({
@@ -206947,7 +206957,7 @@ class PlayerMovement extends EntityPlayer {
 		const d = this.jumping,
 			p = this.sneak,
 			m = -0.8,
-			g = this.WMViDmmavH <= m;
+			g = this.KlqaaAGUxZ <= m;
 		this.isUsingItem() &&
 			!this.isRiding() &&
 			this.isSprinting() &&
@@ -206976,11 +206986,11 @@ class PlayerMovement extends EntityPlayer {
 				this.pos.z + y,
 			);
 		const x = this.getFoodStats().getFoodLevel() > 6 || this.abilities.mayFly,
-			S = rWjyEzTZwD("shift") || touchcontrols.sprinting;
+			S = yCbCaocDQC("shift") || touchcontrols.sprinting;
 		this.onGround &&
 			!p &&
 			!g &&
-			this.WMViDmmavH <= m &&
+			this.KlqaaAGUxZ <= m &&
 			!this.isSprinting() &&
 			x &&
 			!this.isUsingItem() &&
@@ -206988,13 +206998,13 @@ class PlayerMovement extends EntityPlayer {
 				? (this.sprintToggleTimer = 7)
 				: this.setSprinting(!0)),
 			!this.isSprinting() &&
-				this.WMViDmmavH <= m &&
+				this.KlqaaAGUxZ <= m &&
 				x &&
 				!this.isUsingItem() &&
 				S &&
 				this.setSprinting(!0),
 			this.isSprinting() &&
-				(this.WMViDmmavH > m || this.isCollidedHorizontally || !x) &&
+				(this.KlqaaAGUxZ > m || this.isCollidedHorizontally || !x) &&
 				this.setSprinting(!1),
 			this.flyToggleTimer > 0 && this.flyToggleTimer--,
 			this.abilities.mayFly &&
@@ -207006,7 +207016,7 @@ class PlayerMovement extends EntityPlayer {
 					: ((this.abilities.flying = !this.abilities.flying),
 						(this.flyToggleTimer = 0))),
 			this.abilities.flying &&
-				((rWjyEzTZwD("space") || touchcontrols.jumping) &&
+				((yCbCaocDQC("space") || touchcontrols.jumping) &&
 					(this.motion.y += this.flySpeed * 3),
 				this.sneak && (this.motion.y -= this.flySpeed * 3));
 		const v = this.jumping;
@@ -207030,7 +207040,7 @@ class PlayerMovement extends EntityPlayer {
 						.translate(new Vector3$1(0, 1, 0))
 						.expandByVector(new Vector3$1(0.15, -0.1, 0.15)),
 				);
-			w.length > 0 && k.length <= 0 && this.WMViDmmavH < 0
+			w.length > 0 && k.length <= 0 && this.KlqaaAGUxZ < 0
 				? (this.jumping = !0)
 				: (this.jumping = !1);
 		}
@@ -207059,14 +207069,14 @@ class PlayerMovement extends EntityPlayer {
 		let u = l.up();
 		for (; u.y < 256; ) {
 			if (!game.world.getBlockState(u).getBlock().equals(Blocks.water))
-				return u.y - controls.RTaPpSnJgR.y;
+				return u.y - controls.BGIDYTHQeX.y;
 			u = u.up();
 		}
-		return 256 - controls.RTaPpSnJgR.y;
+		return 256 - controls.BGIDYTHQeX.y;
 	}
 	checkHeadInBlock() {
 		player.headInBlock = null;
-		const l = BlockPos.fromVector(controls.RTaPpSnJgR),
+		const l = BlockPos.fromVector(controls.BGIDYTHQeX),
 			u = game.world.getBlockState(l),
 			d = u.getBlock();
 		d.setBlockBoundsBasedOnState(game.world, l);
@@ -207100,7 +207110,7 @@ class PlayerMovement extends EntityPlayer {
 		var l;
 		!game.inGame() ||
 			this.getHealth() <= 0 ||
-			(playerControllerMP.xgDXqHgnKY(),
+			(playerControllerMP.EEvxvfcqDi(),
 			this.onEntityUpdate(),
 			this.onLivingUpdate(),
 			this.checkHeadInBlock(),
@@ -207140,7 +207150,7 @@ const _camPos = new Vector3$1(),
 			b(this, "lastHeadInBlock");
 			b(this, "biome", "WIP");
 			b(this, "lastReportedPos", new Vector3$1());
-			b(this, "gbcTDeHrJP");
+			b(this, "dcOXIqEARb");
 			b(this, "lastReportedPitch");
 			b(this, "serverSneakState");
 			b(this, "serverSprintState");
@@ -207200,7 +207210,7 @@ const _camPos = new Vector3$1(),
 			}
 			let u = 0;
 			for (const p of player.inventory.armor)
-				p && p.item instanceof ItemArmor && (u += p.item.qrjuyLuShc || 0);
+				p && p.item instanceof ItemArmor && (u += p.item.NgEFidAdis || 0);
 			const d = this.world.getPlayerById(this.id);
 			u !== this.prevDefencePoints &&
 				((this.prevDefencePoints = u),
@@ -207246,7 +207256,7 @@ const _camPos = new Vector3$1(),
 		}
 		addSelectBox() {
 			if (this.selectBox) return;
-			const l = new cHWOVzubXp(new Vector3$1(), new Vector3$1(1, 1, 1));
+			const l = new axRDnZLOyQ(new Vector3$1(), new Vector3$1(1, 1, 1));
 			(this.selectBox = new Box3Helper(l, new Color$1("white"))),
 				(this.selectBox.name = "wireframe"),
 				this.game.gameScene.scene.add(this.selectBox);
@@ -207305,8 +207315,8 @@ const _camPos = new Vector3$1(),
 					this.game.gameScene.camera.getWorldPosition(_camPos);
 				const m = _camDir;
 				this.game.gameScene.camera.getWorldDirection(m), m.negate();
-				const g = controls.RTaPpSnJgR,
-					y = _camEnd.copy(controls.RTaPpSnJgR).add(m.multiplyScalar(p)),
+				const g = controls.BGIDYTHQeX,
+					y = _camEnd.copy(controls.BGIDYTHQeX).add(m.multiplyScalar(p)),
 					x = rayTraceBlocks(g, y, !1, !0, !0, this.game.world);
 				if (x) {
 					const S = g.distanceTo(x.hitVec);
@@ -207403,13 +207413,13 @@ const _camPos = new Vector3$1(),
 				(this.yaw = controls.yaw),
 				(this.pitch = controls.pitch);
 			const l =
-				rWjyEzTZwD("ctrl") &&
+				yCbCaocDQC("ctrl") &&
 				keyMap.ControlLeft === "ctrl" &&
 				Game.isFullscreen();
 			this.sneak =
-				rWjyEzTZwD("alt") ||
+				yCbCaocDQC("alt") ||
 				l ||
-				(rWjyEzTZwD("ctrl") && keyMap.ControlLeft != "ctrl") ||
+				(yCbCaocDQC("ctrl") && keyMap.ControlLeft != "ctrl") ||
 				touchcontrols.sneaking;
 		}
 		sendPositionAndRotation() {
@@ -207428,11 +207438,11 @@ const _camPos = new Vector3$1(),
 				(this.lastReportedPos.y = this.getEntityBoundingBox().min.y),
 				(this.lastReportedPos.z = this.pos.z),
 				(this.positionUpdateTicks = 0)),
-				(this.yaw - this.gbcTDeHrJP !== 0 ||
+				(this.yaw - this.dcOXIqEARb !== 0 ||
 					this.pitch - this.lastReportedPitch !== 0) &&
 					((m.yaw = player.yaw),
 					(m.pitch = player.pitch),
-					(this.gbcTDeHrJP = this.yaw),
+					(this.dcOXIqEARb = this.yaw),
 					(this.lastReportedPitch = this.pitch)),
 				ClientSocket.sendPacket(new SPacketPlayerPosLook(m)),
 				++this.positionUpdateTicks;
@@ -207452,13 +207462,13 @@ const _camPos = new Vector3$1(),
 					((player.serverPunchState = player.punching),
 					(l.punching = player.punching),
 					(u = !0)),
-				player.YvpFmJXDuv !== player.serverMoveStrafe &&
-					((player.serverMoveStrafe = player.YvpFmJXDuv),
-					(l.YvpFmJXDuv = player.YvpFmJXDuv),
+				player.XKyQLZlbBV !== player.serverMoveStrafe &&
+					((player.serverMoveStrafe = player.XKyQLZlbBV),
+					(l.XKyQLZlbBV = player.XKyQLZlbBV),
 					(u = !0)),
-				player.WMViDmmavH !== player.serverMoveForward &&
-					((player.serverMoveForward = player.WMViDmmavH),
-					(l.WMViDmmavH = player.WMViDmmavH),
+				player.KlqaaAGUxZ !== player.serverMoveForward &&
+					((player.serverMoveForward = player.KlqaaAGUxZ),
+					(l.KlqaaAGUxZ = player.KlqaaAGUxZ),
 					(u = !0)),
 				u && ClientSocket.sendPacket(new SPacketEntityAction(l));
 		}
@@ -207475,7 +207485,7 @@ const _camPos = new Vector3$1(),
 		}
 		fixedUpdate() {
 			super.fixedUpdate(),
-				IBOAZbMlte.update(),
+				rJHNssnVSR.update(),
 				this.updateItemInUse(),
 				this.isRiding()
 					? ClientSocket.sendPacket(
@@ -207514,8 +207524,8 @@ const _camPos = new Vector3$1(),
 					));
 		}
 		getMoveDirection(l) {
-			let u = this.YvpFmJXDuv,
-				d = this.WMViDmmavH,
+			let u = this.XKyQLZlbBV,
+				d = this.KlqaaAGUxZ,
 				p = u * u + d * d;
 			if (p >= 1e-4) {
 				(p = Math.sqrt(p)),
@@ -207531,7 +207541,7 @@ const _camPos = new Vector3$1(),
 		}
 		updateClient(l) {
 			this.getHealth() <= 0 ||
-				(IBOAZbMlte.render(),
+				(rJHNssnVSR.render(),
 				hud3D.update(),
 				this.updateViewModelLighting(),
 				this.updateHeldLight(),
@@ -207542,7 +207552,7 @@ const _camPos = new Vector3$1(),
 				this.updateSelfShadow());
 		}
 		updateSoundOrientation() {
-			const l = controls.RTaPpSnJgR;
+			const l = controls.BGIDYTHQeX;
 			isFinite(l.x) &&
 				isFinite(l.y) &&
 				isFinite(l.z) &&
@@ -207557,7 +207567,7 @@ const _camPos = new Vector3$1(),
 				);
 		}
 		getEyePos() {
-			return controls.RTaPpSnJgR;
+			return controls.BGIDYTHQeX;
 		}
 		attackEntityFrom(l, u) {
 			return !1;
@@ -219620,7 +219630,7 @@ class ChunkRenderQueue {
 	}
 }
 function WorkerWrapper(h) {
-	return new Worker("/assets/ChunkRenderWorker-Bkt3E3h8.js", {
+	return new Worker("/assets/ChunkRenderWorker-BkRRyxjn.js", {
 		type: "module",
 		name: h == null ? void 0 : h.name,
 	});
@@ -219889,7 +219899,7 @@ class ChunkRenderManager {
 		await textureManager.loadSpritesheet();
 		for (const o of this.meshes.values())
 			(o.opaque.material = textureManager.materialWorld),
-				(o.transparent.material = textureManager.wknDeFPnMM),
+				(o.transparent.material = textureManager.OqjPDtlzwb),
 				(o.fluid.material = textureManager.materialFluidWorld);
 	}
 	updateChunkMesh(o) {
@@ -219907,7 +219917,7 @@ class ChunkRenderManager {
 		if (!y) {
 			y = {
 				opaque: new Mesh(new BufferGeometry(), textureManager.materialWorld),
-				transparent: new Mesh(new BufferGeometry(), textureManager.wknDeFPnMM),
+				transparent: new Mesh(new BufferGeometry(), textureManager.OqjPDtlzwb),
 				fluid: new Mesh(
 					new BufferGeometry(),
 					textureManager.materialFluidWorld,
@@ -221370,9 +221380,9 @@ Reason: ${l}`)),
 				}));
 		}),
 		ClientSocket.on("CPacketOpenShop", (l) => {
-			IBOAZbMlte.onStoppedUsingItem(player),
+			rJHNssnVSR.onStoppedUsingItem(player),
 				(mouseLerp.event = -1),
-				(IBOAZbMlte.rightClick = !1),
+				(rJHNssnVSR.rightClick = !1),
 				l.type
 					? (h.info.showInventory = l.type)
 					: (h.info.showInventory = null),
@@ -222900,23 +222910,25 @@ class GuiPlayerRenderer {
 		(this.guiPlayer.fakePlayer.profile = this.defaultProfile.copy()),
 			this.guiPlayer.updateModel();
 	}
-	useRenderToCanvas(o) {
-		const l = reactExports.useRef(null),
-			u = () => {
-				this.accountRenderer == null &&
-					o.current != null &&
-					this.setCanvas(o.current),
-					this.render(),
-					(l.current = requestAnimationFrame(u));
-			};
+	useRenderToCanvas(o, l = !1) {
+		const u = reactExports.useRef(null),
+			d = reactExports.useRef(l);
+		d.current = l;
+		const p = () => {
+			this.accountRenderer == null &&
+				o.current != null &&
+				this.setCanvas(o.current),
+				d.current || this.render(),
+				(u.current = requestAnimationFrame(p));
+		};
 		reactExports.useEffect(
 			() => (
-				(l.current = requestAnimationFrame(u)),
+				(u.current = requestAnimationFrame(p)),
 				() => {
-					var d, p;
-					l.current && cancelAnimationFrame(l.current),
-						(d = this.accountRenderer) == null || d.dispose(),
-						(p = this.accountRenderer) == null || p.forceContextLoss();
+					var m, g;
+					u.current && cancelAnimationFrame(u.current),
+						(m = this.accountRenderer) == null || m.dispose(),
+						(g = this.accountRenderer) == null || g.forceContextLoss();
 				}
 			),
 			[],
@@ -222938,17 +222950,17 @@ class GuiPlayerRenderer {
 		this.effectRenderer.updateEffects();
 	}
 }
-const GuiPlayer = () => {
-		const { profile: h } = reactExports.useContext(AccountContext),
-			o = reactExports.useRef(new GuiPlayerRenderer(h)),
-			l = reactExports.useRef(null);
+const GuiPlayer = ({ paused: h = !1 }) => {
+		const { profile: o } = reactExports.useContext(AccountContext),
+			l = reactExports.useRef(new GuiPlayerRenderer(o)),
+			u = reactExports.useRef(null);
 		return (
-			o.current.useRenderToCanvas(l),
+			l.current.useRenderToCanvas(u, h),
 			reactExports.useEffect(() => {
-				h != null && o.current.updateProfile(h);
-			}, [h]),
+				o != null && l.current.updateProfile(o);
+			}, [o]),
 			jsxRuntimeExports.jsx("canvas", {
-				ref: l,
+				ref: u,
 				style: { width: "10em", height: "17em" },
 			})
 		);
@@ -225140,30 +225152,30 @@ const Input = ({
 		2: "quicklaunch.button.play",
 		3: "quicklaunch.button.reconnect",
 	},
-	QuickLaunchButton = observer(() => {
-		const { t: h } = useTranslation(),
-			o = useNavigate(),
+	QuickLaunchButton = observer(({ onQuickLaunch: h }) => {
+		const { t: o } = useTranslation(),
+			l = useNavigate(),
 			{
-				refreshServers: l,
-				profile: u,
-				loadingServers: d,
+				refreshServers: u,
+				profile: d,
+				loadingServers: p,
 			} = reactExports.useContext(AccountContext),
-			p = reactExports.useContext(GameContext);
-		let m = 2;
-		p.info.altDown &&
-			getRankLevel(u == null ? void 0 : u.rank) >= 100 &&
-			(m = 1),
-			p.party.serverId && !p.party.isLeader && (m = 3);
-		const g = h(BUTTON_ACTION_TO_KEY[m]),
-			y = { animation: "moveIn 2s infinite" },
-			x = !p.party.inParty || p.party.isLeader || p.party.serverId;
+			m = reactExports.useContext(GameContext);
+		let g = 2;
+		m.info.altDown &&
+			getRankLevel(d == null ? void 0 : d.rank) >= 100 &&
+			(g = 1),
+			m.party.serverId && !m.party.isLeader && (g = 3);
+		const y = o(BUTTON_ACTION_TO_KEY[g]),
+			x = { animation: "moveIn 2s infinite" },
+			S = !m.party.inParty || m.party.isLeader || m.party.serverId;
 		return jsxRuntimeExports.jsxs(Box, {
 			pos: "fixed",
 			bottom: "1.5em",
 			left: "50%",
 			transform: "translate(-50%, 0)",
 			children: [
-				x &&
+				S &&
 					jsxRuntimeExports.jsx("style", {
 						children: `@keyframes moveIn {
           0%, 100% {
@@ -225175,30 +225187,30 @@ const Input = ({
         }`,
 					}),
 				jsxRuntimeExports.jsx(Tooltip, {
-					label: x ? "" : h("quicklaunch.button.waitingLeader"),
+					label: S ? "" : o("quicklaunch.button.waitingLeader"),
 					placement: "top",
 					children: jsxRuntimeExports.jsx(Button$1, {
-						disabled: !x,
-						loading: d,
+						disabled: !S,
+						loading: p,
 						onClick: async () => {
 							switch (
 								(document.fullscreenEnabled &&
 									!Game.isCrazyGames &&
 									Options.autoFullscreen.value &&
 									Game.enterFullscreen(),
-								m)
+								g)
 							) {
 								case 2:
-									l(), o("/quicklaunch");
+									u(), h();
 									break;
 								case 0:
-									p.connect(LOCALHOST_ADDRESS, !0);
+									m.connect(LOCALHOST_ADDRESS, !0);
 									break;
 								case 1:
-									o("/direct_connect");
+									l("/direct_connect");
 									break;
 								case 3:
-									p.connect(p.party.serverId);
+									m.connect(m.party.serverId);
 									break;
 							}
 						},
@@ -225206,27 +225218,27 @@ const Input = ({
 						h: "5em",
 						fontSize: ["xl", "2xl", "3xl"],
 						children:
-							m === 2
+							g === 2
 								? jsxRuntimeExports.jsxs(jsxRuntimeExports.Fragment, {
 										children: [
 											jsxRuntimeExports.jsx(Text, {
 												as: "span",
-												style: y,
+												style: x,
 												children: ">>",
 											}),
 											jsxRuntimeExports.jsx(Text, {
 												as: "span",
 												style: { margin: "0 1em" },
-												children: g,
+												children: y,
 											}),
 											jsxRuntimeExports.jsx(Text, {
 												as: "span",
-												style: y,
+												style: x,
 												children: "<<",
 											}),
 										],
 									})
-								: g,
+								: y,
 					}),
 				}),
 			],
@@ -228934,7 +228946,6 @@ const PresetSwitch = () => {
 			};
 		return jsxRuntimeExports.jsxs(Box, {
 			w: "full",
-			px: ["0.75em", "1em", "1.25em"],
 			children: [
 				jsxRuntimeExports.jsx(Text, {
 					fontSize: ["xs", "sm"],
@@ -236333,13 +236344,13 @@ class HatThumbnailRenderer {
 		if (!o || o === "none") return null;
 		if (this.cache[o]) return this.cache[o];
 		try {
-			const l = await textureManager.YOSJHpHzUk.getModel(o);
+			const l = await textureManager.maIddxiVlk.getModel(o);
 			if (!l) return null;
 			this.init();
 			const u = this.renderer;
 			if (!u) return null;
 			const d = l.clone(!0),
-				p = new cHWOVzubXp().setFromObject(d),
+				p = new axRDnZLOyQ().setFromObject(d),
 				m = new Vector3$1();
 			p.getCenter(m), d.position.sub(m);
 			const g = new Sphere();
@@ -236527,7 +236538,7 @@ const CosmeticThumbnail = ({ type: h, cosmeticId: o }) => {
 		});
 	},
 	PREVIEW_SKIN_ID = "__custom_skin_preview__",
-	DIMENSIONS_LABEL = `${CUSTOM_SKIN_WIDTH}x${CUSTOM_SKIN_HEIGHTS.join(" or ")}`;
+	DIMENSIONS_LABEL = CUSTOM_SKIN_DIMENSIONS_LABEL;
 function readSkinFile(h) {
 	return new Promise((o, l) => {
 		if (h.type !== "image/png" && !h.name.toLowerCase().endsWith(".png"))
@@ -236540,12 +236551,9 @@ function readSkinFile(h) {
 					p = new Image();
 				(p.onerror = () => l("That file isn't a valid image")),
 					(p.onload = () => {
-						if (
-							p.naturalWidth !== CUSTOM_SKIN_WIDTH ||
-							!CUSTOM_SKIN_HEIGHTS.includes(p.naturalHeight)
-						)
+						if (!isValidCustomSkinResolution(p.naturalWidth, p.naturalHeight))
 							return l(
-								`Skin must be ${DIMENSIONS_LABEL} pixels (got ${p.naturalWidth}x${p.naturalHeight})`,
+								`Skin must be ${DIMENSIONS_LABEL} (got ${p.naturalWidth}x${p.naturalHeight})`,
 							);
 						o({ dataUrl: d, base64: d.split(",")[1] ?? "" });
 					}),
@@ -237211,9 +237219,207 @@ const DressingRoom = ({
 			],
 		});
 	},
+	GRACE_PERIOD_DAYS = 30,
+	RESEND_COOLDOWN_SECONDS$1 = 30,
+	DeleteAccountModal = (h) => {
+		const { profile: o, signout: l } = reactExports.useContext(AccountContext),
+			u = useNavigate(),
+			d = Options.fastRender.value ? "none" : "scale",
+			[p, m] = reactExports.useState("confirm"),
+			[g, y] = reactExports.useState(""),
+			[x, S] = reactExports.useState(""),
+			[v, w] = reactExports.useState(!1),
+			[k, E] = reactExports.useState(""),
+			[C, I] = reactExports.useState(0),
+			A = o != null && g === o.username,
+			P = /^[0-9]{6}$/.test(x);
+		reactExports.useEffect(() => {
+			if (C <= 0) return;
+			const B = setTimeout(() => I(C - 1), 1e3);
+			return () => clearTimeout(B);
+		}, [C]);
+		const L = () => {
+				m("confirm"), y(""), S(""), w(!1), E(""), I(0), h.onClose();
+			},
+			N = async () => {
+				E("");
+				try {
+					await ClientAxios.userRequest("/accounts/delete/request", {}, w),
+						m("verify"),
+						I(RESEND_COOLDOWN_SECONDS$1);
+				} catch (B) {
+					E(B);
+				}
+			},
+			O = async () => {
+				E("");
+				try {
+					await ClientAxios.userRequest(
+						"/accounts/delete/confirm",
+						{ username: g, code: x },
+						w,
+					),
+						L(),
+						l(u);
+				} catch (B) {
+					E(B);
+				}
+			};
+		return jsxRuntimeExports.jsxs(Modal, {
+			isOpen: h.isOpen,
+			onClose: L,
+			isCentered: !0,
+			size: "lg",
+			motionPreset: d,
+			children: [
+				jsxRuntimeExports.jsx(ModalOverlay, {}),
+				jsxRuntimeExports.jsxs(ModalContent, {
+					children: [
+						jsxRuntimeExports.jsx(ModalHeader, {
+							fontSize: "2xl",
+							children: "Delete Account",
+						}),
+						jsxRuntimeExports.jsx(ModalCloseButton, {}),
+						jsxRuntimeExports.jsx(ModalBody, {
+							children: jsxRuntimeExports.jsx("form", {
+								style: { width: "100%" },
+								onSubmit: (B) => {
+									B.preventDefault(),
+										p === "confirm" ? A && !v && N() : P && !v && O();
+								},
+								children: jsxRuntimeExports.jsx(VStack, {
+									gap: 3,
+									mb: 4,
+									alignItems: "start",
+									children:
+										p === "confirm"
+											? jsxRuntimeExports.jsxs(jsxRuntimeExports.Fragment, {
+													children: [
+														jsxRuntimeExports.jsxs(Text, {
+															fontSize: "md",
+															children: [
+																"Deleting your account removes your progress, cosmetics, and stats. Your account can still be",
+																" ",
+																jsxRuntimeExports.jsxs(Text, {
+																	as: "span",
+																	fontWeight: "bold",
+																	children: [
+																		"restored within ",
+																		GRACE_PERIOD_DAYS,
+																		" days",
+																	],
+																}),
+																" ",
+																"just by logging back in. After ",
+																GRACE_PERIOD_DAYS,
+																" days it is permanently deleted.",
+															],
+														}),
+														jsxRuntimeExports.jsx(InputLabel, {
+															text: "Type your username to confirm",
+															children: jsxRuntimeExports.jsx(Input, {
+																value: g,
+																onChange: (B) => y(B.target.value),
+																placeholder: o == null ? void 0 : o.username,
+																autoFocus: !0,
+																width: "100%",
+																inputProps: { maxLength: 20 },
+															}),
+														}),
+														jsxRuntimeExports.jsx(Text, {
+															color: "red",
+															w: "full",
+															children: k,
+														}),
+														jsxRuntimeExports.jsx(Button$1, {
+															type: "submit",
+															disabled: !A || v,
+															loading: v,
+															backgroundColor: "red.800",
+															mt: 2,
+															children: "Send Verification Code",
+														}),
+													],
+												})
+											: jsxRuntimeExports.jsxs(jsxRuntimeExports.Fragment, {
+													children: [
+														jsxRuntimeExports.jsxs(Text, {
+															fontSize: "md",
+															children: [
+																"Enter the 6-digit code we sent to",
+																" ",
+																jsxRuntimeExports.jsx(Text, {
+																	as: "span",
+																	fontWeight: "bold",
+																	children: o == null ? void 0 : o.email,
+																}),
+																" ",
+																"to permanently schedule your account for deletion. You can restore it within ",
+																GRACE_PERIOD_DAYS,
+																" days by logging back in.",
+															],
+														}),
+														jsxRuntimeExports.jsx(InputLabel, {
+															text: "Verification code",
+															children: jsxRuntimeExports.jsx(Input, {
+																value: x,
+																onChange: (B) =>
+																	S(B.target.value.replace(/[^0-9]/g, "")),
+																placeholder: "000000",
+																autoFocus: !0,
+																width: "100%",
+																inputProps: {
+																	maxLength: 6,
+																	inputMode: "numeric",
+																},
+															}),
+														}),
+														jsxRuntimeExports.jsx(Text, {
+															as: "span",
+															fontSize: "sm",
+															opacity: C > 0 ? 0.6 : 1,
+															cursor: C > 0 || v ? "default" : "pointer",
+															_hover:
+																C > 0 || v
+																	? void 0
+																	: { textDecoration: "underline" },
+															onClick: () => {
+																C <= 0 && !v && N();
+															},
+															children:
+																C > 0 ? `Resend code in ${C}s` : "Resend code",
+														}),
+														jsxRuntimeExports.jsx(Text, {
+															color: "red",
+															w: "full",
+															children: k,
+														}),
+														jsxRuntimeExports.jsx(Button$1, {
+															type: "submit",
+															disabled: !P || v,
+															loading: v,
+															backgroundColor: "red.800",
+															mt: 2,
+															children: "Delete Account",
+														}),
+														jsxRuntimeExports.jsx(Button$1, {
+															onClick: () => m("confirm"),
+															disabled: v,
+															children: "Back",
+														}),
+													],
+												}),
+								}),
+							}),
+						}),
+					],
+				}),
+			],
+		});
+	},
 	Profile = ({ onClose: h }) => {
 		const o = useNavigate(),
-			l = (k) => () => o(k),
+			l = (C) => () => o(C),
 			{
 				profile: u,
 				loading: d,
@@ -237222,8 +237428,9 @@ const DressingRoom = ({
 			[m] = reactExports.useState(""),
 			[g, y] = reactExports.useState(!1),
 			[x, S] = reactExports.useState(!1),
-			v = !d && (u == null ? void 0 : u.hasPassword),
-			w = Game.isCrazyGames;
+			[v, w] = reactExports.useState(!1),
+			k = !d && (u == null ? void 0 : u.hasPassword),
+			E = Game.isCrazyGames;
 		return jsxRuntimeExports.jsxs(Box, {
 			children: [
 				jsxRuntimeExports.jsxs(VStack, {
@@ -237236,13 +237443,17 @@ const DressingRoom = ({
 						jsxRuntimeExports.jsx(ChangePasswordModal, {
 							isOpen: g,
 							onClose: () => y(!1),
-							hasPassword: !!v,
+							hasPassword: !!k,
 						}),
 						jsxRuntimeExports.jsx(ChangeUsernameModal, {
 							isOpen: x,
 							onClose: () => S(!1),
 						}),
-						!w &&
+						jsxRuntimeExports.jsx(DeleteAccountModal, {
+							isOpen: v,
+							onClose: () => w(!1),
+						}),
+						!E &&
 							jsxRuntimeExports.jsx(HStack, {
 								w: "full",
 								children: jsxRuntimeExports.jsx(InputLabel, {
@@ -237292,21 +237503,21 @@ const DressingRoom = ({
 								children: jsxRuntimeExports.jsxs(HStack, {
 									children: [
 										jsxRuntimeExports.jsx(Input, {
-											inputProps: { type: v ? "password" : "text" },
-											value: v ? "trolololol" : "<none>",
+											inputProps: { type: k ? "password" : "text" },
+											value: k ? "trolololol" : "<none>",
 											disabled: !0,
 										}),
 										jsxRuntimeExports.jsx(Button$1, {
 											onClick: () => y(!0),
 											w: "7em",
-											children: v ? "Change" : "Set",
+											children: k ? "Change" : "Set",
 										}),
 									],
 								}),
 							}),
 						}),
-						w &&
-							!v &&
+						E &&
+							!k &&
 							!d &&
 							jsxRuntimeExports.jsx(Text, {
 								color: "gray.300",
@@ -237326,17 +237537,25 @@ const DressingRoom = ({
 					],
 				}),
 				!Game.isCrazyGames &&
-					jsxRuntimeExports.jsx(HStack, {
+					jsxRuntimeExports.jsxs(HStack, {
 						mt: "1em",
 						w: "full",
-						children: jsxRuntimeExports.jsx(Button$1, {
-							onClick: () => {
-								p(o), h == null || h();
-							},
-							loading: d,
-							backgroundColor: "red.800",
-							children: "Sign Out",
-						}),
+						children: [
+							jsxRuntimeExports.jsx(Button$1, {
+								onClick: () => {
+									p(o), h == null || h();
+								},
+								loading: d,
+								backgroundColor: "red.800",
+								children: "Sign Out",
+							}),
+							jsxRuntimeExports.jsx(Button$1, {
+								onClick: () => w(!0),
+								disabled: d,
+								backgroundColor: "red.900",
+								children: "Delete Account",
+							}),
+						],
 					}),
 			],
 		});
@@ -238171,12 +238390,15 @@ const AccountModal = ({ isOpen: h, onClose: o, initialTab: l }) => {
 			],
 		});
 	},
+	QuickLaunchModal = reactExports.lazy(() =>
+		__vitePreload(() => import("./index-CzgpBjaa.js"), __vite__mapDeps([0, 1])),
+	),
 	titles = [title],
 	randomTitle = [title][Math.floor(Math.random() * titles.length)],
 	Title = observer(() => {
 		const { t: h } = useTranslation(),
 			o = useNavigate(),
-			l = (L) => () => o(L),
+			l = (N) => () => o(N),
 			{ hasAccount: u, profile: d } = reactExports.useContext(AccountContext),
 			p = useCustomTitleScreen(),
 			[m, g] = useLocalStorage("showUpdatePopupV2", !0),
@@ -238184,12 +238406,13 @@ const AccountModal = ({ isOpen: h, onClose: o, initialTab: l }) => {
 			[S, v] = React.useState(!1),
 			w = useDisclosure$1(),
 			[k, E] = React.useState("profile"),
-			C = (L) => {
-				E(L), w.onOpen();
+			C = (N) => {
+				E(N), w.onOpen();
 			},
-			{ info: I } = reactExports.useContext(GameContext),
-			A = I.connectionState >= 6,
-			P = index_browserExports.useFlag("referral");
+			I = useDisclosure$1(),
+			{ info: A } = reactExports.useContext(GameContext),
+			P = A.connectionState >= 6,
+			L = index_browserExports.useFlag("referral");
 		return (
 			reactExports.useEffect(() => {
 				CubicBezier.showCrazyGamesBanner();
@@ -238212,6 +238435,14 @@ const AccountModal = ({ isOpen: h, onClose: o, initialTab: l }) => {
 							onClose: w.onClose,
 							initialTab: k,
 						}),
+					I.isOpen &&
+						jsxRuntimeExports.jsx(reactExports.Suspense, {
+							fallback: null,
+							children: jsxRuntimeExports.jsx(QuickLaunchModal, {
+								isOpen: I.isOpen,
+								onClose: I.onClose,
+							}),
+						}),
 					jsxRuntimeExports.jsx(DiscordSignupModal, {}),
 					jsxRuntimeExports.jsx(StatusModal, {}),
 					jsxRuntimeExports.jsx(Image2, {
@@ -238231,7 +238462,7 @@ const AccountModal = ({ isOpen: h, onClose: o, initialTab: l }) => {
 						width: "100vw",
 						height: "100vh",
 						objectFit: "cover",
-						display: A ? "none" : "block",
+						display: P ? "none" : "block",
 					}),
 					m && jsxRuntimeExports.jsx(InfoPopup, { setShowUpdatePopup: g }),
 					jsxRuntimeExports.jsx(TitleMaintenance, {}),
@@ -238254,7 +238485,7 @@ const AccountModal = ({ isOpen: h, onClose: o, initialTab: l }) => {
 							jsxRuntimeExports.jsx(FreeCoins, {}),
 						],
 					}),
-					!Game.isCrazyGames && P
+					!Game.isCrazyGames && L
 						? jsxRuntimeExports.jsx(Box, {
 								pos: "fixed",
 								top: "1em",
@@ -238291,7 +238522,7 @@ const AccountModal = ({ isOpen: h, onClose: o, initialTab: l }) => {
 									style: { width: "320px", height: "50px" },
 								}),
 							}),
-					jsxRuntimeExports.jsx(QuickLaunchButton, {}),
+					jsxRuntimeExports.jsx(QuickLaunchButton, { onQuickLaunch: I.onOpen }),
 					u &&
 						!Game.isMobile &&
 						jsxRuntimeExports.jsxs(Box, {
@@ -238301,7 +238532,9 @@ const AccountModal = ({ isOpen: h, onClose: o, initialTab: l }) => {
 							padding: 0,
 							width: "auto",
 							children: [
-								jsxRuntimeExports.jsx(GuiPlayer, {}),
+								jsxRuntimeExports.jsx(GuiPlayer, {
+									paused: I.isOpen || w.isOpen || y || S,
+								}),
 								jsxRuntimeExports.jsx(Button$1, {
 									onClick: () => C("dressing"),
 									w: "150px",
@@ -246452,6 +246685,13 @@ const TODOemptyValidator = (h) => !0,
 		},
 		"/accounts/stats/username": { username: TODOemptyValidator },
 		"/accounts/username/update": { new_username: TODOemptyValidator },
+		"/accounts/delete/request": {},
+		"/accounts/delete/confirm": {
+			username: (h) => validatorExports.isLength(h, { min: 3, max: 20 }),
+			code: (h) =>
+				validatorExports.isLength(h, { min: 6, max: 6 }) &&
+				validatorExports.isNumeric(h),
+		},
 		"/daily_bonus": { ad: TODOemptyValidator },
 		"/friends/accept": { friendId: TODOemptyValidator },
 		"/friends/add": { target: TODOemptyValidator },
@@ -247360,39 +247600,36 @@ const TODOemptyValidator = (h) => !0,
 	},
 	GuiHud = reactExports.lazy(() =>
 		__vitePreload(
-			() => import("./GuiHud-CR7SM8VZ.js"),
-			__vite__mapDeps([0, 1]),
+			() => import("./GuiHud-BIStAx64.js"),
+			__vite__mapDeps([2, 1]),
 		),
 	),
-	QuickLaunch = reactExports.lazy(() =>
-		__vitePreload(() => import("./index-C1WSHTO_.js"), __vite__mapDeps([2, 1])),
-	),
 	ReferralInvite = reactExports.lazy(() =>
-		__vitePreload(() => import("./ReferralInvite-BMX-Y-pQ.js"), []),
+		__vitePreload(() => import("./ReferralInvite-CZtCltkE.js"), []),
 	),
 	InfoScreen = reactExports.lazy(() =>
 		__vitePreload(() => Promise.resolve().then(() => InfoScreen$2), void 0),
 	),
 	DirectConnect = reactExports.lazy(() =>
-		__vitePreload(() => import("./DirectConnect-GWaG8inG.js"), []),
+		__vitePreload(() => import("./DirectConnect-D35dnG8R.js"), []),
 	),
 	EULA = reactExports.lazy(() =>
-		__vitePreload(() => import("./EULA-VNqCp5MU.js"), []),
+		__vitePreload(() => import("./EULA-BWPmfRIs.js"), []),
 	),
 	Privacy = reactExports.lazy(() =>
-		__vitePreload(() => import("./Privacy-CvrMLmZg.js"), []),
+		__vitePreload(() => import("./Privacy-DXX1Avxe.js"), []),
 	),
 	Referral = reactExports.lazy(() =>
 		__vitePreload(() => Promise.resolve().then(() => index), void 0),
 	),
 	ReportPlayer = reactExports.lazy(() =>
-		__vitePreload(() => import("./ReportPlayer-C4t6lhgJ.js"), []),
+		__vitePreload(() => import("./ReportPlayer-DiILVs2J.js"), []),
 	),
 	Rules = reactExports.lazy(() =>
-		__vitePreload(() => import("./Rules-KzQgKYam.js"), []),
+		__vitePreload(() => import("./Rules-DY2YiJx6.js"), []),
 	),
 	Tutorial = reactExports.lazy(() =>
-		__vitePreload(() => import("./Tutorial-DrvCSs4o.js"), []),
+		__vitePreload(() => import("./Tutorial-Bmc0QeNL.js"), []),
 	),
 	HookIntoReactRender = () => (
 		ReactInterface.useMountHooks(), jsxRuntimeExports.jsx(Outlet, {})
@@ -247542,13 +247779,6 @@ const TODOemptyValidator = (h) => !0,
 																		path: "/rotatescreen",
 																		element: jsxRuntimeExports.jsx(
 																			RotateScreen,
-																			{},
-																		),
-																	}),
-																	jsxRuntimeExports.jsx(Route, {
-																		path: "/quicklaunch",
-																		element: jsxRuntimeExports.jsx(
-																			QuickLaunch,
 																			{},
 																		),
 																	}),
@@ -248135,7 +248365,7 @@ const Ta = class Ta {
 			controls.setCamera(this.gameScene.camera),
 			(player.game = this),
 			(this.player = player),
-			(this.controller = IBOAZbMlte),
+			(this.controller = rJHNssnVSR),
 			player.addSelectBox();
 	}
 	static get isCrazyGames() {
@@ -248547,7 +248777,7 @@ const Ta = class Ta {
 			(window.onbeforeunload = null),
 			exitPointerLock(),
 			this.fpsOptimizer.stop(),
-			IBOAZbMlte.reset(),
+			rJHNssnVSR.reset(),
 			player.reset(),
 			player.activePotionsMap.clear(),
 			player.mountEntity(null),
@@ -249172,14 +249402,14 @@ export {
 	Tooltip as ay,
 	toast as az,
 	useEventListener as b,
-	Icon as b$,
+	ClientAxios as b$,
 	GuiInventory as b0,
 	FaTable as b1,
 	MdLeaderboard as b2,
 	FaVideo as b3,
 	MdFullscreenExit as b4,
 	MdFullscreen as b5,
-	IBOAZbMlte as b6,
+	rJHNssnVSR as b6,
 	touchcontrols as b7,
 	FaArrowCircleUp as b8,
 	reactDomExports as b9,
@@ -249201,15 +249431,15 @@ export {
 	ToastContainer as bP,
 	GuiPlayerList as bQ,
 	Outlet as bR,
-	useDebounce as bS,
-	stripCrazyGamesSuffix as bT,
-	getRankLevel as bU,
-	GameModeId as bV,
-	WorldGenerationType as bW,
-	EnumDifficulty as bX,
-	ClientAxios as bY,
-	REQUESTED_UUID_KEY as bZ,
-	GuiToast as b_,
+	useParams as bS,
+	useAuthModal as bT,
+	useFormControlContext as bU,
+	trackFocusVisible as bV,
+	layoutPropNames as bW,
+	useStyleConfig as bX,
+	useFormControl as bY,
+	InputLabel as bZ,
+	REPORT_CATEGORY_MAP as b_,
 	nameTagManager as ba,
 	game as bb,
 	Vector3$1 as bc,
@@ -249237,16 +249467,16 @@ export {
 	Potions as by,
 	Blocks as bz,
 	getOwnerWindow as c,
-	FaInfoCircle as c0,
-	Trans as c1,
-	dayjs as c2,
-	FaUsers as c3,
-	FaStop as c4,
-	FaCog as c5,
-	useOutsideClick as c6,
-	List as c7,
-	ListItem as c8,
-	Spinner as c9,
+	stripCrazyGamesSuffix as c0,
+	useDebounce as c1,
+	getRankLevel as c2,
+	GameModeId as c3,
+	WorldGenerationType as c4,
+	EnumDifficulty as c5,
+	REQUESTED_UUID_KEY as c6,
+	GuiToast as c7,
+	Icon as c8,
+	FaInfoCircle as c9,
 	Potion as cA,
 	Spacer as cB,
 	InputGroup as cC,
@@ -249256,32 +249486,32 @@ export {
 	MdSave as cG,
 	MdDelete as cH,
 	ModalFooter as cI,
-	FaCrown$1 as ca,
-	Username as cb,
-	FaTrash as cc,
-	canKeepPlanetsAlwaysOn as cd,
-	MdChevronLeft as ce,
-	MdChevronRight as cf,
-	FormControl as cg,
-	SERVERS as ch,
-	SimpleGrid as ci,
-	survivalImage as cj,
-	creativeImage as ck,
-	css as cl,
-	LuMail as cm,
-	sandboxServers as cn,
-	LuSwords as co,
-	minigameServers as cp,
-	SelectArrow as cq,
-	useParams as cr,
-	useAuthModal as cs,
-	useFormControlContext as ct,
-	trackFocusVisible as cu,
-	layoutPropNames as cv,
-	useStyleConfig as cw,
-	useFormControl as cx,
-	InputLabel as cy,
-	REPORT_CATEGORY_MAP as cz,
+	Trans as ca,
+	dayjs as cb,
+	FaUsers as cc,
+	FaStop as cd,
+	FaCog as ce,
+	useOutsideClick as cf,
+	List as cg,
+	ListItem as ch,
+	Spinner as ci,
+	FaCrown$1 as cj,
+	Username as ck,
+	FaTrash as cl,
+	canKeepPlanetsAlwaysOn as cm,
+	MdChevronLeft as cn,
+	MdChevronRight as co,
+	FormControl as cp,
+	SERVERS as cq,
+	SimpleGrid as cr,
+	survivalImage as cs,
+	creativeImage as ct,
+	css as cu,
+	LuMail as cv,
+	sandboxServers as cw,
+	LuSwords as cx,
+	minigameServers as cy,
+	SelectArrow as cz,
 	createContext as d,
 	useMultiStyleConfig as e,
 	useTheme as f,
@@ -249306,4 +249536,4 @@ export {
 	Text as y,
 	HStack as z,
 };
-//# sourceMappingURL=index-9DBVy7gl.js.map
+//# sourceMappingURL=index-C4btfmc9.js.map
