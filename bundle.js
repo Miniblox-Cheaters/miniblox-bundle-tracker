@@ -3,17 +3,17 @@ const __vite__mapDeps = (
 	m = __vite__mapDeps,
 	d = m.f ||
 		(m.f = [
-			"assets/index-DTdgdvDe.js",
-			"assets/ChoiceRow-BYFqzBNU.js",
-			"assets/GuiHud-CjzBNDx8.js",
+			"assets/index-CG802wy-.js",
+			"assets/ChoiceRow-6klgA-td.js",
+			"assets/GuiHud-X9Pz5NFY.js",
 		]),
 ) => i.map((i) => d[i]);
-var Oy = Object.defineProperty;
-var Dy = (h, o, l) =>
+var zy = Object.defineProperty;
+var Fy = (h, o, l) =>
 	o in h
-		? Oy(h, o, { enumerable: !0, configurable: !0, writable: !0, value: l })
+		? zy(h, o, { enumerable: !0, configurable: !0, writable: !0, value: l })
 		: (h[o] = l);
-var b = (h, o, l) => Dy(h, typeof o != "symbol" ? o + "" : o, l);
+var b = (h, o, l) => Fy(h, typeof o != "symbol" ? o + "" : o, l);
 function _mergeNamespaces(h, o) {
 	for (var l = 0; l < o.length; l++) {
 		const u = o[l];
@@ -10210,7 +10210,7 @@ function requireReactDom_production_min() {
 		if ((T = ha(T))) {
 			if (typeof ir != "function") throw Error(l(280));
 			var M = T.stateNode;
-			M && ((M = Sh(M)), ir(T.stateNode, T.type, M));
+			M && ((M = wh(M)), ir(T.stateNode, T.type, M));
 		}
 	}
 	function $t(T) {
@@ -10240,7 +10240,7 @@ function requireReactDom_production_min() {
 	function vn(T, M) {
 		var z = T.stateNode;
 		if (z === null) return null;
-		var V = Sh(z);
+		var V = wh(z);
 		if (V === null) return null;
 		z = V[M];
 		e: switch (M) {
@@ -10580,7 +10580,7 @@ function requireReactDom_production_min() {
 		var T = Dr;
 		return (Dr <<= 1), !(Dr & 4194240) && (Dr = 64), T;
 	}
-	function li(T) {
+	function ui(T) {
 		for (var M = [], z = 0; 31 > z; z++) M.push(T);
 		return M;
 	}
@@ -10591,7 +10591,7 @@ function requireReactDom_production_min() {
 			(M = 31 - lr(M)),
 			(T[M] = z);
 	}
-	function si(T, M) {
+	function oi(T, M) {
 		var z = T.pendingLanes & ~M;
 		(T.pendingLanes = M),
 			(T.suspendedLanes = 0),
@@ -10799,7 +10799,7 @@ function requireReactDom_production_min() {
 	function Ar(T, M, z, V) {
 		if (et) {
 			var Z = En(T, M, z, V);
-			if (Z === null) Ff(T, M, V, yn, z), Da(T, V);
+			if (Z === null) Uf(T, M, V, yn, z), Da(T, V);
 			else if (ps(Z, T, M, z, V)) V.stopPropagation();
 			else if ((Da(T, V), M & 4 && -1 < Ia.indexOf(T))) {
 				for (; Z !== null; ) {
@@ -10807,14 +10807,14 @@ function requireReactDom_production_min() {
 					if (
 						(ue !== null && Nn(ue),
 						(ue = En(T, M, z, V)),
-						ue === null && Ff(T, M, V, yn, z),
+						ue === null && Uf(T, M, V, yn, z),
 						ue === Z)
 					)
 						break;
 					Z = ue;
 				}
 				Z !== null && V.stopPropagation();
-			} else Ff(T, M, V, null, z);
+			} else Uf(T, M, V, null, z);
 		}
 	}
 	var yn = null;
@@ -11065,7 +11065,7 @@ function requireReactDom_production_min() {
 				return "clipboardData" in T ? T.clipboardData : window.clipboardData;
 			},
 		}),
-		nn = ze(ei),
+		an = ze(ei),
 		In = xe({}, dt, { data: 0 }),
 		Mi = ze(In),
 		Ui = {
@@ -11196,10 +11196,10 @@ function requireReactDom_production_min() {
 			shiftKey: 0,
 			getModifierState: Ri,
 		}),
-		Cd = ze(Ps),
+		Ad = ze(Ps),
 		Vn = xe({}, dt, { propertyName: 0, elapsedTime: 0, pseudoElement: 0 }),
 		_s = ze(Vn),
-		uh = xe({}, _t, {
+		dh = xe({}, _t, {
 			deltaX: function (T) {
 				return "deltaX" in T
 					? T.deltaX
@@ -11219,15 +11219,15 @@ function requireReactDom_production_min() {
 			deltaZ: 0,
 			deltaMode: 0,
 		}),
-		Hc = ze(uh),
+		jc = ze(dh),
 		Ma = [9, 13, 27, 32],
 		Bs = g && "CompositionEvent" in window,
 		xs = null;
 	g && "documentMode" in document && (xs = document.documentMode);
-	var Id = g && "TextEvent" in window && !xs,
-		Ad = g && (!Bs || (xs && 8 < xs && 11 >= xs)),
-		ch = " ",
-		dh = !1;
+	var Md = g && "TextEvent" in window && !xs,
+		Rd = g && (!Bs || (xs && 8 < xs && 11 >= xs)),
+		hh = " ",
+		fh = !1;
 	function Ko(T, M) {
 		switch (T) {
 			case "keyup":
@@ -11242,18 +11242,18 @@ function requireReactDom_production_min() {
 				return !1;
 		}
 	}
-	function hh(T) {
+	function ph(T) {
 		return (T = T.detail), typeof T == "object" && "data" in T ? T.data : null;
 	}
 	var yo = !1;
 	function _o(T, M) {
 		switch (T) {
 			case "compositionend":
-				return hh(M);
+				return ph(M);
 			case "keypress":
-				return M.which !== 32 ? null : ((dh = !0), ch);
+				return M.which !== 32 ? null : ((fh = !0), hh);
 			case "textInput":
-				return (T = M.data), T === ch && dh ? null : T;
+				return (T = M.data), T === hh && fh ? null : T;
 			default:
 				return null;
 		}
@@ -11273,12 +11273,12 @@ function requireReactDom_production_min() {
 				}
 				return null;
 			case "compositionend":
-				return Ad && M.locale !== "ko" ? null : M.data;
+				return Rd && M.locale !== "ko" ? null : M.data;
 			default:
 				return null;
 		}
 	}
-	var Lf = {
+	var Of = {
 		color: !0,
 		date: !0,
 		datetime: !0,
@@ -11297,25 +11297,25 @@ function requireReactDom_production_min() {
 	};
 	function xo(T) {
 		var M = T && T.nodeName && T.nodeName.toLowerCase();
-		return M === "input" ? !!Lf[T.type] : M === "textarea";
+		return M === "input" ? !!Of[T.type] : M === "textarea";
 	}
 	function Ga(T, M, z, V) {
 		$t(V),
-			(M = mh(M, "onChange")),
+			(M = yh(M, "onChange")),
 			0 < M.length &&
 				((z = new at("onChange", "change", null, z, V)),
 				T.push({ event: z, listeners: M }));
 	}
 	var ki = null,
 		Ss = null;
-	function fh(T) {
-		Hp(T, 0);
+	function mh(T) {
+		jp(T, 0);
 	}
 	function Xo(T) {
 		var M = An(T);
 		if (be(M)) return T;
 	}
-	function Nf(T, M) {
+	function Df(T, M) {
 		if (T === "change") return M;
 	}
 	var qn = !1;
@@ -11332,21 +11332,21 @@ function requireReactDom_production_min() {
 		} else ea = !1;
 		qn = ea && (!document.documentMode || 9 < document.documentMode);
 	}
-	function Vc() {
-		ki && (ki.detachEvent("onpropertychange", Md), (Ss = ki = null));
+	function Gc() {
+		ki && (ki.detachEvent("onpropertychange", Pd), (Ss = ki = null));
 	}
-	function Md(T) {
+	function Pd(T) {
 		if (T.propertyName === "value" && Xo(Ss)) {
 			var M = [];
-			Ga(M, Ss, T, jt(T)), Pr(fh, M);
+			Ga(M, Ss, T, jt(T)), Pr(mh, M);
 		}
 	}
-	function Of(T, M, z) {
+	function zf(T, M, z) {
 		T === "focusin"
-			? (Vc(), (ki = M), (Ss = z), ki.attachEvent("onpropertychange", Md))
-			: T === "focusout" && Vc();
+			? (Gc(), (ki = M), (Ss = z), ki.attachEvent("onpropertychange", Pd))
+			: T === "focusout" && Gc();
 	}
-	function Df(T) {
+	function Ff(T) {
 		if (T === "selectionchange" || T === "keyup" || T === "keydown")
 			return Xo(Ss);
 	}
@@ -11446,7 +11446,7 @@ function requireReactDom_production_min() {
 				T.contentEditable === "true")
 		);
 	}
-	function Rd(T) {
+	function Bd(T) {
 		var M = Gn(),
 			z = T.focusedElem,
 			V = T.selectionRange;
@@ -11526,7 +11526,7 @@ function requireReactDom_production_min() {
 					})),
 			(gt && kr(gt, V)) ||
 				((gt = V),
-				(V = mh(ut, "onSelect")),
+				(V = yh(ut, "onSelect")),
 				0 < V.length &&
 					((M = new at("onSelect", "select", null, M, z)),
 					T.push({ event: M, listeners: V }),
@@ -11625,11 +11625,11 @@ function requireReactDom_production_min() {
 		Zo = new Set(
 			"cancel close invalid load scroll toggle".split(" ").concat(xi),
 		);
-	function Pd(T, M, z) {
+	function Ld(T, M, z) {
 		var V = T.type || "unknown-event";
 		(T.currentTarget = z), vr(V, M, void 0, T), (T.currentTarget = null);
 	}
-	function Hp(T, M) {
+	function jp(T, M) {
 		M = (M & 4) !== 0;
 		for (var z = 0; z < T.length; z++) {
 			var V = T[z],
@@ -11644,7 +11644,7 @@ function requireReactDom_production_min() {
 							Ut = it.currentTarget;
 						if (((it = it.listener), mt !== ue && Z.isPropagationStopped()))
 							break e;
-						Pd(Z, it, Ut), (ue = mt);
+						Ld(Z, it, Ut), (ue = mt);
 					}
 				else
 					for (Le = 0; Le < V.length; Le++) {
@@ -11656,34 +11656,34 @@ function requireReactDom_production_min() {
 							mt !== ue && Z.isPropagationStopped())
 						)
 							break e;
-						Pd(Z, it, Ut), (ue = mt);
+						Ld(Z, it, Ut), (ue = mt);
 					}
 			}
 		}
 		if (ht) throw ((T = Rt), (ht = !1), (Rt = null), T);
 	}
 	function hi(T, M) {
-		var z = M[xh];
-		z === void 0 && (z = M[xh] = new Set());
+		var z = M[bh];
+		z === void 0 && (z = M[bh] = new Set());
 		var V = T + "__bubble";
-		z.has(V) || (ph(M, T, 2, !1), z.add(V));
+		z.has(V) || (gh(M, T, 2, !1), z.add(V));
 	}
-	function zf(T, M, z) {
+	function $f(T, M, z) {
 		var V = 0;
-		M && (V |= 4), ph(z, T, V, M);
+		M && (V |= 4), gh(z, T, V, M);
 	}
 	var Jo = "_reactListening" + Math.random().toString(36).slice(2);
 	function vo(T) {
 		if (!T[Jo]) {
 			(T[Jo] = !0),
 				u.forEach(function (z) {
-					z !== "selectionchange" && (Zo.has(z) || zf(z, !1, T), zf(z, !0, T));
+					z !== "selectionchange" && (Zo.has(z) || $f(z, !1, T), $f(z, !0, T));
 				});
 			var M = T.nodeType === 9 ? T : T.ownerDocument;
-			M === null || M[Jo] || ((M[Jo] = !0), zf("selectionchange", !1, M));
+			M === null || M[Jo] || ((M[Jo] = !0), $f("selectionchange", !1, M));
 		}
 	}
-	function ph(T, M, z, V) {
+	function gh(T, M, z, V) {
 		switch (jn(M)) {
 			case 1:
 				var Z = bt;
@@ -11707,7 +11707,7 @@ function requireReactDom_production_min() {
 					? T.addEventListener(M, z, { passive: Z })
 					: T.addEventListener(M, z, !1);
 	}
-	function Ff(T, M, z, V, Z) {
+	function Uf(T, M, z, V, Z) {
 		var ue = V;
 		if (!(M & 1) && !(M & 2) && V !== null)
 			e: for (;;) {
@@ -11790,7 +11790,7 @@ function requireReactDom_production_min() {
 						case "touchend":
 						case "touchmove":
 						case "touchstart":
-							Rr = Cd;
+							Rr = Ad;
 							break;
 						case Xr:
 						case tn:
@@ -11804,12 +11804,12 @@ function requireReactDom_production_min() {
 							Rr = qt;
 							break;
 						case "wheel":
-							Rr = Hc;
+							Rr = jc;
 							break;
 						case "copy":
 						case "cut":
 						case "paste":
-							Rr = nn;
+							Rr = an;
 							break;
 						case "gotpointercapture":
 						case "lostpointercapture":
@@ -11833,7 +11833,7 @@ function requireReactDom_production_min() {
 								hr !== null &&
 								((Nt = hr),
 								Lt !== null &&
-									((hr = vn(vt, Lt)), hr != null && $r.push(jc(vt, hr, Nt)))),
+									((hr = vn(vt, Lt)), hr != null && $r.push(Wc(vt, hr, Nt)))),
 							Pi)
 						)
 							break;
@@ -11899,14 +11899,14 @@ function requireReactDom_production_min() {
 							Rr && Or)
 						)
 							t: {
-								for ($r = Rr, Lt = Or, vt = 0, Nt = $r; Nt; Nt = Gc(Nt)) vt++;
-								for (Nt = 0, hr = Lt; hr; hr = Gc(hr)) Nt++;
-								for (; 0 < vt - Nt; ) ($r = Gc($r)), vt--;
-								for (; 0 < Nt - vt; ) (Lt = Gc(Lt)), Nt--;
+								for ($r = Rr, Lt = Or, vt = 0, Nt = $r; Nt; Nt = Kc(Nt)) vt++;
+								for (Nt = 0, hr = Lt; hr; hr = Kc(hr)) Nt++;
+								for (; 0 < vt - Nt; ) ($r = Kc($r)), vt--;
+								for (; 0 < Nt - vt; ) (Lt = Kc(Lt)), Nt--;
 								for (; vt--; ) {
 									if ($r === Lt || (Lt !== null && $r === Lt.alternate))
 										break t;
-									($r = Gc($r)), (Lt = Gc(Lt));
+									($r = Kc($r)), (Lt = Kc(Lt));
 								}
 								$r = null;
 							}
@@ -11921,12 +11921,12 @@ function requireReactDom_production_min() {
 						(Rr = nr.nodeName && nr.nodeName.toLowerCase()),
 						Rr === "select" || (Rr === "input" && nr.type === "file"))
 					)
-						var Hr = Nf;
+						var Hr = Df;
 					else if (xo(nr))
 						if (qn) Hr = wt;
 						else {
-							Hr = Df;
-							var Jr = Of;
+							Hr = Ff;
+							var Jr = zf;
 						}
 					else
 						(Rr = nr.nodeName) &&
@@ -11989,34 +11989,34 @@ function requireReactDom_production_min() {
 							z.keyCode === 229 &&
 							(gn = "onCompositionStart");
 				gn &&
-					(Ad &&
+					(Rd &&
 						z.locale !== "ko" &&
 						(yo || gn !== "onCompositionStart"
 							? gn === "onCompositionEnd" && yo && (rn = J())
 							: ((Ur = ar),
 								(F = "value" in Ur ? Ur.value : Ur.textContent),
 								(yo = !0))),
-					(Jr = mh(Ut, gn)),
+					(Jr = yh(Ut, gn)),
 					0 < Jr.length &&
 						((gn = new Mi(gn, T, null, z, ar)),
 						or.push({ event: gn, listeners: Jr }),
 						rn
 							? (gn.data = rn)
-							: ((rn = hh(z)), rn !== null && (gn.data = rn)))),
-					(rn = Id ? _o(T, z) : Yo(T, z)) &&
-						((Ut = mh(Ut, "onBeforeInput")),
+							: ((rn = ph(z)), rn !== null && (gn.data = rn)))),
+					(rn = Md ? _o(T, z) : Yo(T, z)) &&
+						((Ut = yh(Ut, "onBeforeInput")),
 						0 < Ut.length &&
 							((ar = new Mi("onBeforeInput", "beforeinput", null, z, ar)),
 							or.push({ event: ar, listeners: Ut }),
 							(ar.data = rn)));
 			}
-			Hp(or, M);
+			jp(or, M);
 		});
 	}
-	function jc(T, M, z) {
+	function Wc(T, M, z) {
 		return { instance: T, listener: M, currentTarget: z };
 	}
-	function mh(T, M) {
+	function yh(T, M) {
 		for (var z = M + "Capture", V = []; T !== null; ) {
 			var Z = T,
 				ue = Z.stateNode;
@@ -12024,14 +12024,14 @@ function requireReactDom_production_min() {
 				ue !== null &&
 				((Z = ue),
 				(ue = vn(T, z)),
-				ue != null && V.unshift(jc(T, ue, Z)),
+				ue != null && V.unshift(Wc(T, ue, Z)),
 				(ue = vn(T, M)),
-				ue != null && V.push(jc(T, ue, Z))),
+				ue != null && V.push(Wc(T, ue, Z))),
 				(T = T.return);
 		}
 		return V;
 	}
-	function Gc(T) {
+	function Kc(T) {
 		if (T === null) return null;
 		do T = T.return;
 		while (T && T.tag !== 5);
@@ -12047,30 +12047,30 @@ function requireReactDom_production_min() {
 				Ut !== null &&
 				((it = Ut),
 				Z
-					? ((mt = vn(z, ue)), mt != null && Le.unshift(jc(z, mt, it)))
-					: Z || ((mt = vn(z, ue)), mt != null && Le.push(jc(z, mt, it)))),
+					? ((mt = vn(z, ue)), mt != null && Le.unshift(Wc(z, mt, it)))
+					: Z || ((mt = vn(z, ue)), mt != null && Le.push(Wc(z, mt, it)))),
 				(z = z.return);
 		}
 		Le.length !== 0 && T.push({ event: M, listeners: Le });
 	}
 	var da = /\r\n?/g,
-		og = /\u0000|\uFFFD/g;
-	function Vp(T) {
+		ug = /\u0000|\uFFFD/g;
+	function Gp(T) {
 		return (typeof T == "string" ? T : "" + T)
 			.replace(
 				da,
 				`
 `,
 			)
-			.replace(og, "");
+			.replace(ug, "");
 	}
-	function Bd(T, M, z) {
-		if (((M = Vp(M)), Vp(T) !== M && z)) throw Error(l(425));
+	function Nd(T, M, z) {
+		if (((M = Gp(M)), Gp(T) !== M && z)) throw Error(l(425));
 	}
-	function gh() {}
-	var Ld = null,
+	function xh() {}
+	var Od = null,
 		Qo = null;
-	function Nd(T, M) {
+	function Dd(T, M) {
 		return (
 			T === "textarea" ||
 			T === "noscript" ||
@@ -12082,22 +12082,22 @@ function requireReactDom_production_min() {
 		);
 	}
 	var bo = typeof setTimeout == "function" ? setTimeout : void 0,
-		Od = typeof clearTimeout == "function" ? clearTimeout : void 0,
-		Wc = typeof Promise == "function" ? Promise : void 0,
-		yh =
+		zd = typeof clearTimeout == "function" ? clearTimeout : void 0,
+		Yc = typeof Promise == "function" ? Promise : void 0,
+		Sh =
 			typeof queueMicrotask == "function"
 				? queueMicrotask
-				: typeof Wc < "u"
+				: typeof Yc < "u"
 					? function (T) {
-							return Wc.resolve(null).then(T).catch(Kc);
+							return Yc.resolve(null).then(T).catch(Xc);
 						}
 					: bo;
-	function Kc(T) {
+	function Xc(T) {
 		setTimeout(function () {
 			throw T;
 		});
 	}
-	function $f(T, M) {
+	function qf(T, M) {
 		var z = M,
 			V = 0;
 		do {
@@ -12125,7 +12125,7 @@ function requireReactDom_production_min() {
 		}
 		return T;
 	}
-	function jp(T) {
+	function Wp(T) {
 		T = T.previousSibling;
 		for (var M = 0; T; ) {
 			if (T.nodeType === 8) {
@@ -12139,13 +12139,13 @@ function requireReactDom_production_min() {
 		}
 		return null;
 	}
-	var Yc = Math.random().toString(36).slice(2),
-		Ns = "__reactFiber$" + Yc,
-		ko = "__reactProps$" + Yc,
-		Wa = "__reactContainer$" + Yc,
-		xh = "__reactEvents$" + Yc,
-		Ve = "__reactListeners$" + Yc,
-		Xc = "__reactHandles$" + Yc;
+	var Zc = Math.random().toString(36).slice(2),
+		Ns = "__reactFiber$" + Zc,
+		ko = "__reactProps$" + Zc,
+		Wa = "__reactContainer$" + Zc,
+		bh = "__reactEvents$" + Zc,
+		Ve = "__reactListeners$" + Zc,
+		Jc = "__reactHandles$" + Zc;
 	function Os(T) {
 		var M = T[Ns];
 		if (M) return M;
@@ -12155,9 +12155,9 @@ function requireReactDom_production_min() {
 					((z = M.alternate),
 					M.child !== null || (z !== null && z.child !== null))
 				)
-					for (T = jp(T); T !== null; ) {
+					for (T = Wp(T); T !== null; ) {
 						if ((z = T[Ns])) return z;
-						T = jp(T);
+						T = Wp(T);
 					}
 				return M;
 			}
@@ -12177,25 +12177,25 @@ function requireReactDom_production_min() {
 		if (T.tag === 5 || T.tag === 6) return T.stateNode;
 		throw Error(l(33));
 	}
-	function Sh(T) {
+	function wh(T) {
 		return T[ko] || null;
 	}
-	var Uf = [],
-		Zc = -1;
+	var Hf = [],
+		Qc = -1;
 	function Fa(T) {
 		return { current: T };
 	}
 	function fi(T) {
-		0 > Zc || ((T.current = Uf[Zc]), (Uf[Zc] = null), Zc--);
+		0 > Qc || ((T.current = Hf[Qc]), (Hf[Qc] = null), Qc--);
 	}
-	function ui(T, M) {
-		Zc++, (Uf[Zc] = T.current), (T.current = M);
+	function ci(T, M) {
+		Qc++, (Hf[Qc] = T.current), (T.current = M);
 	}
 	var Eo = {},
 		fa = Fa(Eo),
 		$a = Fa(!1),
 		Pa = Eo;
-	function Jc(T, M) {
+	function ed(T, M) {
 		var z = T.type.contextTypes;
 		if (!z) return Eo;
 		var V = T.stateNode;
@@ -12215,14 +12215,14 @@ function requireReactDom_production_min() {
 	function Ua(T) {
 		return (T = T.childContextTypes), T != null;
 	}
-	function bh() {
+	function kh() {
 		fi($a), fi(fa);
 	}
-	function Gp(T, M, z) {
+	function Kp(T, M, z) {
 		if (fa.current !== Eo) throw Error(l(168));
-		ui(fa, M), ui($a, z);
+		ci(fa, M), ci($a, z);
 	}
-	function Wp(T, M, z) {
+	function Yp(T, M, z) {
 		var V = T.stateNode;
 		if (((M = M.childContextTypes), typeof V.getChildContext != "function"))
 			return z;
@@ -12236,35 +12236,35 @@ function requireReactDom_production_min() {
 				((T = T.stateNode) && T.__reactInternalMemoizedMergedChildContext) ||
 				Eo),
 			(Pa = fa.current),
-			ui(fa, T),
-			ui($a, $a.current),
+			ci(fa, T),
+			ci($a, $a.current),
 			!0
 		);
 	}
-	function Kp(T, M, z) {
+	function Xp(T, M, z) {
 		var V = T.stateNode;
 		if (!V) throw Error(l(169));
 		z
-			? ((T = Wp(T, M, Pa)),
+			? ((T = Yp(T, M, Pa)),
 				(V.__reactInternalMemoizedMergedChildContext = T),
 				fi($a),
 				fi(fa),
-				ui(fa, T))
+				ci(fa, T))
 			: fi($a),
-			ui($a, z);
+			ci($a, z);
 	}
 	var eo = null,
-		wh = !1,
-		qf = !1;
-	function Yp(T) {
+		Eh = !1,
+		Vf = !1;
+	function Zp(T) {
 		eo === null ? (eo = [T]) : eo.push(T);
 	}
 	function el(T) {
-		(wh = !0), Yp(T);
+		(Eh = !0), Zp(T);
 	}
 	function To() {
-		if (!qf && eo !== null) {
-			qf = !0;
+		if (!Vf && eo !== null) {
+			Vf = !0;
 			var T = 0,
 				M = mn;
 			try {
@@ -12274,28 +12274,28 @@ function requireReactDom_production_min() {
 					do V = V(!0);
 					while (V !== null);
 				}
-				(eo = null), (wh = !1);
+				(eo = null), (Eh = !1);
 			} catch (Z) {
 				throw (eo !== null && (eo = eo.slice(T + 1)), Bt(bn, To), Z);
 			} finally {
-				(mn = M), (qf = !1);
+				(mn = M), (Vf = !1);
 			}
 		}
 		return null;
 	}
-	var Qc = [],
+	var td = [],
 		pa = 0,
-		kh = null,
-		Eh = 0,
+		Th = null,
+		Ch = 0,
 		as = [],
 		ss = 0,
 		tl = null,
 		Ds = 1,
 		zs = "";
 	function rl(T, M) {
-		(Qc[pa++] = Eh), (Qc[pa++] = kh), (kh = T), (Eh = M);
+		(td[pa++] = Ch), (td[pa++] = Th), (Th = T), (Ch = M);
 	}
-	function Xp(T, M, z) {
+	function Jp(T, M, z) {
 		(as[ss++] = Ds), (as[ss++] = zs), (as[ss++] = tl), (tl = T);
 		var V = Ds;
 		T = zs;
@@ -12311,12 +12311,12 @@ function requireReactDom_production_min() {
 				(zs = ue + T);
 		} else (Ds = (1 << ue) | (z << Z) | V), (zs = T);
 	}
-	function Dd(T) {
-		T.return !== null && (rl(T, 1), Xp(T, 1, 0));
+	function Fd(T) {
+		T.return !== null && (rl(T, 1), Jp(T, 1, 0));
 	}
 	function nl(T) {
-		for (; T === kh; )
-			(kh = Qc[--pa]), (Qc[pa] = null), (Eh = Qc[--pa]), (Qc[pa] = null);
+		for (; T === Th; )
+			(Th = td[--pa]), (td[pa] = null), (Ch = td[--pa]), (td[pa] = null);
 		for (; T === tl; )
 			(tl = as[--ss]),
 				(as[ss] = null),
@@ -12337,7 +12337,7 @@ function requireReactDom_production_min() {
 			(M = T.deletions),
 			M === null ? ((T.deletions = [z]), (T.flags |= 16)) : M.push(z);
 	}
-	function Th(T, M) {
+	function Ih(T, M) {
 		switch (T.tag) {
 			case 5:
 				var z = T.type;
@@ -12386,11 +12386,11 @@ function requireReactDom_production_min() {
 			var M = Ka;
 			if (M) {
 				var z = M;
-				if (!Th(T, M)) {
+				if (!Ih(T, M)) {
 					if (to(T)) throw Error(l(418));
 					M = wo(z.nextSibling);
 					var V = ma;
-					M && Th(T, M)
+					M && Ih(T, M)
 						? Fs(V, z)
 						: ((T.flags = (T.flags & -4097) | 2), (pi = !1), (ma = T));
 				}
@@ -12400,7 +12400,7 @@ function requireReactDom_production_min() {
 			}
 		}
 	}
-	function Zp(T) {
+	function Qp(T) {
 		for (
 			T = T.return;
 			T !== null && T.tag !== 5 && T.tag !== 3 && T.tag !== 13;
@@ -12408,21 +12408,21 @@ function requireReactDom_production_min() {
 			T = T.return;
 		ma = T;
 	}
-	function zd(T) {
+	function $d(T) {
 		if (T !== ma) return !1;
-		if (!pi) return Zp(T), (pi = !0), !1;
+		if (!pi) return Qp(T), (pi = !0), !1;
 		var M;
 		if (
 			((M = T.tag !== 3) &&
 				!(M = T.tag !== 5) &&
 				((M = T.type),
-				(M = M !== "head" && M !== "body" && !Nd(T.type, T.memoizedProps))),
+				(M = M !== "head" && M !== "body" && !Dd(T.type, T.memoizedProps))),
 			M && (M = Ka))
 		) {
-			if (to(T)) throw (Hf(), Error(l(418)));
+			if (to(T)) throw (jf(), Error(l(418)));
 			for (; M; ) Fs(T, M), (M = wo(M.nextSibling));
 		}
-		if ((Zp(T), T.tag === 13)) {
+		if ((Qp(T), T.tag === 13)) {
 			if (((T = T.memoizedState), (T = T !== null ? T.dehydrated : null), !T))
 				throw Error(l(317));
 			e: {
@@ -12444,7 +12444,7 @@ function requireReactDom_production_min() {
 		} else Ka = ma ? wo(T.stateNode.nextSibling) : null;
 		return !0;
 	}
-	function Hf() {
+	function jf() {
 		for (var T = Ka; T; ) T = wo(T.nextSibling);
 	}
 	function $s() {
@@ -12453,7 +12453,7 @@ function requireReactDom_production_min() {
 	function Us(T) {
 		vs === null ? (vs = [T]) : vs.push(T);
 	}
-	var Jp = N.ReactCurrentBatchConfig;
+	var em = N.ReactCurrentBatchConfig;
 	function bs(T, M) {
 		if (T && T.defaultProps) {
 			(M = xe({}, M)), (T = T.defaultProps);
@@ -12463,13 +12463,13 @@ function requireReactDom_production_min() {
 		return M;
 	}
 	var il = Fa(null),
-		Ch = null,
+		Ah = null,
 		al = null,
 		qi = null;
-	function Fd() {
-		qi = al = Ch = null;
+	function Ud() {
+		qi = al = Ah = null;
 	}
-	function Ih(T) {
+	function Mh(T) {
 		var M = il.current;
 		fi(il), (T._currentValue = M);
 	}
@@ -12487,7 +12487,7 @@ function requireReactDom_production_min() {
 		}
 	}
 	function Co(T, M) {
-		(Ch = T),
+		(Ah = T),
 			(qi = al = null),
 			(T = T.dependencies),
 			T !== null &&
@@ -12498,19 +12498,19 @@ function requireReactDom_production_min() {
 		var M = T._currentValue;
 		if (qi !== T)
 			if (((T = { context: T, memoizedValue: M, next: null }), al === null)) {
-				if (Ch === null) throw Error(l(308));
-				(al = T), (Ch.dependencies = { lanes: 0, firstContext: T });
+				if (Ah === null) throw Error(l(308));
+				(al = T), (Ah.dependencies = { lanes: 0, firstContext: T });
 			} else al = al.next = T;
 		return M;
 	}
 	var Ya = null;
-	function Ah(T) {
+	function Rh(T) {
 		Ya === null ? (Ya = [T]) : Ya.push(T);
 	}
 	function ga(T, M, z, V) {
 		var Z = M.interleaved;
 		return (
-			Z === null ? ((z.next = z), Ah(M)) : ((z.next = Z.next), (Z.next = z)),
+			Z === null ? ((z.next = z), Rh(M)) : ((z.next = Z.next), (Z.next = z)),
 			(M.interleaved = z),
 			ws(T, V)
 		);
@@ -12527,7 +12527,7 @@ function requireReactDom_production_min() {
 		return z.tag === 3 ? z.stateNode : null;
 	}
 	var Io = !1;
-	function Vf(T) {
+	function Gf(T) {
 		T.updateQueue = {
 			baseState: T.memoizedState,
 			firstBaseUpdate: null,
@@ -12536,7 +12536,7 @@ function requireReactDom_production_min() {
 			effects: null,
 		};
 	}
-	function Qp(T, M) {
+	function tm(T, M) {
 		(T = T.updateQueue),
 			M.updateQueue === T &&
 				(M.updateQueue = {
@@ -12570,7 +12570,7 @@ function requireReactDom_production_min() {
 		}
 		return (
 			(Z = V.interleaved),
-			Z === null ? ((M.next = M), Ah(V)) : ((M.next = Z.next), (Z.next = M)),
+			Z === null ? ((M.next = M), Rh(V)) : ((M.next = Z.next), (Z.next = M)),
 			(V.interleaved = M),
 			ws(T, z)
 		);
@@ -12583,7 +12583,7 @@ function requireReactDom_production_min() {
 			(V &= T.pendingLanes), (z |= V), (M.lanes = z), gi(T, z);
 		}
 	}
-	function jf(T, M) {
+	function Wf(T, M) {
 		var z = T.updateQueue,
 			V = T.alternate;
 		if (V !== null && ((V = V.updateQueue), z === V)) {
@@ -12617,7 +12617,7 @@ function requireReactDom_production_min() {
 			T === null ? (z.firstBaseUpdate = M) : (T.next = M),
 			(z.lastBaseUpdate = M);
 	}
-	function Mh(T, M, z, V) {
+	function Ph(T, M, z, V) {
 		var Z = T.updateQueue;
 		Io = !1;
 		var ue = Z.firstBaseUpdate,
@@ -12719,7 +12719,7 @@ function requireReactDom_production_min() {
 			(Do |= Le), (T.lanes = Le), (T.memoizedState = or);
 		}
 	}
-	function em(T, M, z) {
+	function rm(T, M, z) {
 		if (((T = M.effects), (M.effects = null), T !== null))
 			for (M = 0; M < T.length; M++) {
 				var V = T[M],
@@ -12731,15 +12731,15 @@ function requireReactDom_production_min() {
 				}
 			}
 	}
-	var ed = new h.Component().refs;
-	function Gf(T, M, z, V) {
+	var rd = new h.Component().refs;
+	function Kf(T, M, z, V) {
 		(M = T.memoizedState),
 			(z = z(V, M)),
 			(z = z == null ? M : xe({}, M, z)),
 			(T.memoizedState = z),
 			T.lanes === 0 && (T.updateQueue.baseState = z);
 	}
-	var Rh = {
+	var Bh = {
 		isMounted: function (T) {
 			return (T = T._reactInternals) ? Cr(T) === T : !1;
 		},
@@ -12775,7 +12775,7 @@ function requireReactDom_production_min() {
 				M !== null && (Is(M, T, V, z), Mo(M, T, V));
 		},
 	};
-	function Ph(T, M, z, V, Z, ue, Le) {
+	function Lh(T, M, z, V, Z, ue, Le) {
 		return (
 			(T = T.stateNode),
 			typeof T.shouldComponentUpdate == "function"
@@ -12785,7 +12785,7 @@ function requireReactDom_production_min() {
 					: !0
 		);
 	}
-	function Wf(T, M, z) {
+	function Yf(T, M, z) {
 		var V = !1,
 			Z = Eo,
 			ue = M.contextType;
@@ -12794,11 +12794,11 @@ function requireReactDom_production_min() {
 				? (ue = Ba(ue))
 				: ((Z = Ua(M) ? Pa : fa.current),
 					(V = M.contextTypes),
-					(ue = (V = V != null) ? Jc(T, Z) : Eo)),
+					(ue = (V = V != null) ? ed(T, Z) : Eo)),
 			(M = new M(z, ue)),
 			(T.memoizedState =
 				M.state !== null && M.state !== void 0 ? M.state : null),
-			(M.updater = Rh),
+			(M.updater = Bh),
 			(T.stateNode = M),
 			(M._reactInternals = T),
 			V &&
@@ -12808,24 +12808,24 @@ function requireReactDom_production_min() {
 			M
 		);
 	}
-	function tm(T, M, z, V) {
+	function nm(T, M, z, V) {
 		(T = M.state),
 			typeof M.componentWillReceiveProps == "function" &&
 				M.componentWillReceiveProps(z, V),
 			typeof M.UNSAFE_componentWillReceiveProps == "function" &&
 				M.UNSAFE_componentWillReceiveProps(z, V),
-			M.state !== T && Rh.enqueueReplaceState(M, M.state, null);
+			M.state !== T && Bh.enqueueReplaceState(M, M.state, null);
 	}
-	function Kf(T, M, z, V) {
+	function Xf(T, M, z, V) {
 		var Z = T.stateNode;
-		(Z.props = z), (Z.state = T.memoizedState), (Z.refs = ed), Vf(T);
+		(Z.props = z), (Z.state = T.memoizedState), (Z.refs = rd), Gf(T);
 		var ue = M.contextType;
 		typeof ue == "object" && ue !== null
 			? (Z.context = Ba(ue))
-			: ((ue = Ua(M) ? Pa : fa.current), (Z.context = Jc(T, ue))),
+			: ((ue = Ua(M) ? Pa : fa.current), (Z.context = ed(T, ue))),
 			(Z.state = T.memoizedState),
 			(ue = M.getDerivedStateFromProps),
-			typeof ue == "function" && (Gf(T, M, ue, z), (Z.state = T.memoizedState)),
+			typeof ue == "function" && (Kf(T, M, ue, z), (Z.state = T.memoizedState)),
 			typeof M.getDerivedStateFromProps == "function" ||
 				typeof Z.getSnapshotBeforeUpdate == "function" ||
 				(typeof Z.UNSAFE_componentWillMount != "function" &&
@@ -12834,12 +12834,12 @@ function requireReactDom_production_min() {
 				typeof Z.componentWillMount == "function" && Z.componentWillMount(),
 				typeof Z.UNSAFE_componentWillMount == "function" &&
 					Z.UNSAFE_componentWillMount(),
-				M !== Z.state && Rh.enqueueReplaceState(Z, Z.state, null),
-				Mh(T, z, Z, V),
+				M !== Z.state && Bh.enqueueReplaceState(Z, Z.state, null),
+				Ph(T, z, Z, V),
 				(Z.state = T.memoizedState)),
 			typeof Z.componentDidMount == "function" && (T.flags |= 4194308);
 	}
-	function $d(T, M, z) {
+	function qd(T, M, z) {
 		if (
 			((T = z.ref),
 			T !== null && typeof T != "function" && typeof T != "object")
@@ -12859,7 +12859,7 @@ function requireReactDom_production_min() {
 					? M.ref
 					: ((M = function (Le) {
 							var it = Z.refs;
-							it === ed && (it = Z.refs = {}),
+							it === rd && (it = Z.refs = {}),
 								Le === null ? delete it[ue] : (it[ue] = Le);
 						}),
 						(M._stringRef = ue),
@@ -12870,7 +12870,7 @@ function requireReactDom_production_min() {
 		}
 		return T;
 	}
-	function Ud(T, M) {
+	function Hd(T, M) {
 		throw (
 			((T = Object.prototype.toString.call(M)),
 			Error(
@@ -12883,11 +12883,11 @@ function requireReactDom_production_min() {
 			))
 		);
 	}
-	function Bh(T) {
+	function Nh(T) {
 		var M = T._init;
 		return M(T._payload);
 	}
-	function rm(T) {
+	function im(T) {
 		function M(Lt, vt) {
 			if (T) {
 				var Nt = Lt.deletions;
@@ -12924,7 +12924,7 @@ function requireReactDom_production_min() {
 		}
 		function it(Lt, vt, Nt, hr) {
 			return vt === null || vt.tag !== 6
-				? ((vt = Rp(Nt, Lt.mode, hr)), (vt.return = Lt), vt)
+				? ((vt = Bp(Nt, Lt.mode, hr)), (vt.return = Lt), vt)
 				: ((vt = Z(vt, Nt)), (vt.return = Lt), vt);
 		}
 		function mt(Lt, vt, Nt, hr) {
@@ -12936,13 +12936,13 @@ function requireReactDom_production_min() {
 							(typeof Hr == "object" &&
 								Hr !== null &&
 								Hr.$$typeof === ye &&
-								Bh(Hr) === vt.type))
+								Nh(Hr) === vt.type))
 					? ((hr = Z(vt, Nt.props)),
-						(hr.ref = $d(Lt, vt, Nt)),
+						(hr.ref = qd(Lt, vt, Nt)),
 						(hr.return = Lt),
 						hr)
-					: ((hr = uf(Nt.type, Nt.key, Nt.props, null, Lt.mode, hr)),
-						(hr.ref = $d(Lt, vt, Nt)),
+					: ((hr = df(Nt.type, Nt.key, Nt.props, null, Lt.mode, hr)),
+						(hr.ref = qd(Lt, vt, Nt)),
 						(hr.return = Lt),
 						hr);
 		}
@@ -12951,7 +12951,7 @@ function requireReactDom_production_min() {
 				vt.tag !== 4 ||
 				vt.stateNode.containerInfo !== Nt.containerInfo ||
 				vt.stateNode.implementation !== Nt.implementation
-				? ((vt = Pp(Nt, Lt.mode, hr)), (vt.return = Lt), vt)
+				? ((vt = Lp(Nt, Lt.mode, hr)), (vt.return = Lt), vt)
 				: ((vt = Z(vt, Nt.children || [])), (vt.return = Lt), vt);
 		}
 		function ar(Lt, vt, Nt, hr, Hr) {
@@ -12961,25 +12961,25 @@ function requireReactDom_production_min() {
 		}
 		function or(Lt, vt, Nt) {
 			if ((typeof vt == "string" && vt !== "") || typeof vt == "number")
-				return (vt = Rp("" + vt, Lt.mode, Nt)), (vt.return = Lt), vt;
+				return (vt = Bp("" + vt, Lt.mode, Nt)), (vt.return = Lt), vt;
 			if (typeof vt == "object" && vt !== null) {
 				switch (vt.$$typeof) {
 					case O:
 						return (
-							(Nt = uf(vt.type, vt.key, vt.props, null, Lt.mode, Nt)),
-							(Nt.ref = $d(Lt, null, vt)),
+							(Nt = df(vt.type, vt.key, vt.props, null, Lt.mode, Nt)),
+							(Nt.ref = qd(Lt, null, vt)),
 							(Nt.return = Lt),
 							Nt
 						);
 					case B:
-						return (vt = Pp(vt, Lt.mode, Nt)), (vt.return = Lt), vt;
+						return (vt = Lp(vt, Lt.mode, Nt)), (vt.return = Lt), vt;
 					case ye:
 						var hr = vt._init;
 						return or(Lt, hr(vt._payload), Nt);
 				}
 				if (Ee(vt) || Ce(vt))
 					return (vt = hl(vt, Lt.mode, Nt, null)), (vt.return = Lt), vt;
-				Ud(Lt, vt);
+				Hd(Lt, vt);
 			}
 			return null;
 		}
@@ -12998,7 +12998,7 @@ function requireReactDom_production_min() {
 				}
 				if (Ee(Nt) || Ce(Nt))
 					return Hr !== null ? null : ar(Lt, vt, Nt, hr, null);
-				Ud(Lt, Nt);
+				Hd(Lt, Nt);
 			}
 			return null;
 		}
@@ -13023,7 +13023,7 @@ function requireReactDom_production_min() {
 				}
 				if (Ee(hr) || Ce(hr))
 					return (Lt = Lt.get(Nt) || null), ar(vt, Lt, hr, Hr, null);
-				Ud(vt, hr);
+				Hd(vt, hr);
 			}
 			return null;
 		}
@@ -13115,8 +13115,8 @@ function requireReactDom_production_min() {
 						(Jr = Xn));
 			return (
 				T &&
-					rn.forEach(function (Ig) {
-						return M(Lt, Ig);
+					rn.forEach(function (Mg) {
+						return M(Lt, Mg);
 					}),
 				pi && rl(Lt, gn),
 				Hr
@@ -13149,11 +13149,11 @@ function requireReactDom_production_min() {
 										(typeof Hr == "object" &&
 											Hr !== null &&
 											Hr.$$typeof === ye &&
-											Bh(Hr) === Jr.type)
+											Nh(Hr) === Jr.type)
 									) {
 										z(Lt, Jr.sibling),
 											(vt = Z(Jr, Nt.props)),
-											(vt.ref = $d(Lt, Jr, Nt)),
+											(vt.ref = qd(Lt, Jr, Nt)),
 											(vt.return = Lt),
 											(Lt = vt);
 										break e;
@@ -13167,8 +13167,8 @@ function requireReactDom_production_min() {
 								? ((vt = hl(Nt.props.children, Lt.mode, hr, Nt.key)),
 									(vt.return = Lt),
 									(Lt = vt))
-								: ((hr = uf(Nt.type, Nt.key, Nt.props, null, Lt.mode, hr)),
-									(hr.ref = $d(Lt, vt, Nt)),
+								: ((hr = df(Nt.type, Nt.key, Nt.props, null, Lt.mode, hr)),
+									(hr.ref = qd(Lt, vt, Nt)),
 									(hr.return = Lt),
 									(Lt = hr));
 						}
@@ -13194,7 +13194,7 @@ function requireReactDom_production_min() {
 								else M(Lt, vt);
 								vt = vt.sibling;
 							}
-							(vt = Pp(Nt, Lt.mode, hr)), (vt.return = Lt), (Lt = vt);
+							(vt = Lp(Nt, Lt.mode, hr)), (vt.return = Lt), (Lt = vt);
 						}
 						return Le(Lt);
 					case ye:
@@ -13202,14 +13202,14 @@ function requireReactDom_production_min() {
 				}
 				if (Ee(Nt)) return Or(Lt, vt, Nt, hr);
 				if (Ce(Nt)) return $r(Lt, vt, Nt, hr);
-				Ud(Lt, Nt);
+				Hd(Lt, Nt);
 			}
 			return (typeof Nt == "string" && Nt !== "") || typeof Nt == "number"
 				? ((Nt = "" + Nt),
 					vt !== null && vt.tag === 6
 						? (z(Lt, vt.sibling), (vt = Z(vt, Nt)), (vt.return = Lt), (Lt = vt))
 						: (z(Lt, vt),
-							(vt = Rp(Nt, Lt.mode, hr)),
+							(vt = Bp(Nt, Lt.mode, hr)),
 							(vt.return = Lt),
 							(Lt = vt)),
 					Le(Lt))
@@ -13217,18 +13217,18 @@ function requireReactDom_production_min() {
 		}
 		return Pi;
 	}
-	var Ro = rm(!0),
-		Yf = rm(!1),
-		td = {},
-		Es = Fa(td),
-		Po = Fa(td),
-		qd = Fa(td);
+	var Ro = im(!0),
+		Zf = im(!1),
+		nd = {},
+		Es = Fa(nd),
+		Po = Fa(nd),
+		Vd = Fa(nd);
 	function Bo(T) {
-		if (T === td) throw Error(l(174));
+		if (T === nd) throw Error(l(174));
 		return T;
 	}
-	function Lh(T, M) {
-		switch ((ui(qd, M), ui(Po, T), ui(Es, td), (T = M.nodeType), T)) {
+	function Oh(T, M) {
+		switch ((ci(Vd, M), ci(Po, T), ci(Es, nd), (T = M.nodeType), T)) {
 			case 9:
 			case 11:
 				M = (M = M.documentElement) ? M.namespaceURI : K(null, "");
@@ -13239,22 +13239,22 @@ function requireReactDom_production_min() {
 					(T = T.tagName),
 					(M = K(M, T));
 		}
-		fi(Es), ui(Es, M);
+		fi(Es), ci(Es, M);
 	}
-	function rd() {
-		fi(Es), fi(Po), fi(qd);
+	function ad() {
+		fi(Es), fi(Po), fi(Vd);
 	}
-	function Xf(T) {
-		Bo(qd.current);
+	function Jf(T) {
+		Bo(Vd.current);
 		var M = Bo(Es.current),
 			z = K(M, T.type);
-		M !== z && (ui(Po, T), ui(Es, z));
+		M !== z && (ci(Po, T), ci(Es, z));
 	}
-	function Zf(T) {
+	function Qf(T) {
 		Po.current === T && (fi(Es), fi(Po));
 	}
 	var mi = Fa(0);
-	function Hd(T) {
+	function jd(T) {
 		for (var M = T; M !== null; ) {
 			if (M.tag === 13) {
 				var z = M.memoizedState;
@@ -13278,64 +13278,64 @@ function requireReactDom_production_min() {
 		}
 		return null;
 	}
-	var Vd = [];
-	function Jf() {
-		for (var T = 0; T < Vd.length; T++)
-			Vd[T]._workInProgressVersionPrimary = null;
-		Vd.length = 0;
+	var Gd = [];
+	function ep() {
+		for (var T = 0; T < Gd.length; T++)
+			Gd[T]._workInProgressVersionPrimary = null;
+		Gd.length = 0;
 	}
-	var nd = N.ReactCurrentDispatcher,
+	var sd = N.ReactCurrentDispatcher,
 		Mn = N.ReactCurrentBatchConfig,
 		sl = 0,
 		Si = null,
 		vi = null,
 		Hi = null,
-		Nh = !1,
-		jd = !1,
+		Dh = !1,
+		Wd = !1,
 		ya = 0,
-		lg = 0;
+		cg = 0;
 	function Vi() {
 		throw Error(l(321));
 	}
-	function Gd(T, M) {
+	function Kd(T, M) {
 		if (M === null) return !1;
 		for (var z = 0; z < M.length && z < T.length; z++)
 			if (!Ot(T[z], M[z])) return !1;
 		return !0;
 	}
-	function Oh(T, M, z, V, Z, ue) {
+	function zh(T, M, z, V, Z, ue) {
 		if (
 			((sl = ue),
 			(Si = M),
 			(M.memoizedState = null),
 			(M.updateQueue = null),
 			(M.lanes = 0),
-			(nd.current = T === null || T.memoizedState === null ? Kd : cg),
+			(sd.current = T === null || T.memoizedState === null ? Xd : hg),
 			(T = z(V, Z)),
-			jd)
+			Wd)
 		) {
 			ue = 0;
 			do {
-				if (((jd = !1), (ya = 0), 25 <= ue)) throw Error(l(301));
+				if (((Wd = !1), (ya = 0), 25 <= ue)) throw Error(l(301));
 				(ue += 1),
 					(Hi = vi = null),
 					(M.updateQueue = null),
-					(nd.current = um),
+					(sd.current = dm),
 					(T = z(V, Z));
-			} while (jd);
+			} while (Wd);
 		}
 		if (
-			((nd.current = io),
+			((sd.current = io),
 			(M = vi !== null && vi.next !== null),
 			(sl = 0),
 			(Hi = vi = Si = null),
-			(Nh = !1),
+			(Dh = !1),
 			M)
 		)
 			throw Error(l(300));
 		return T;
 	}
-	function Dh() {
+	function Fh() {
 		var T = ya !== 0;
 		return (ya = 0), T;
 	}
@@ -13373,7 +13373,7 @@ function requireReactDom_production_min() {
 	function ol(T, M) {
 		return typeof M == "function" ? M(T) : M;
 	}
-	function zh(T) {
+	function $h(T) {
 		var M = ji(),
 			z = M.queue;
 		if (z === null) throw Error(l(311));
@@ -13434,7 +13434,7 @@ function requireReactDom_production_min() {
 		} else Z === null && (z.lanes = 0);
 		return [M.memoizedState, z.dispatch];
 	}
-	function ad(T) {
+	function od(T) {
 		var M = ji(),
 			z = M.queue;
 		if (z === null) throw Error(l(311));
@@ -13454,8 +13454,8 @@ function requireReactDom_production_min() {
 		}
 		return [ue, V];
 	}
-	function Qf() {}
-	function Fh(T, M) {
+	function tp() {}
+	function Uh(T, M) {
 		var z = Si,
 			V = ji(),
 			Z = M(),
@@ -13463,20 +13463,20 @@ function requireReactDom_production_min() {
 		if (
 			(ue && ((V.memoizedState = Z), (xa = !0)),
 			(V = V.queue),
-			rp(Uh.bind(null, z, V, T), [T]),
+			ip(Hh.bind(null, z, V, T), [T]),
 			V.getSnapshot !== M || ue || (Hi !== null && Hi.memoizedState.tag & 1))
 		) {
 			if (
 				((z.flags |= 2048),
-				sd(9, $h.bind(null, z, V, Z, M), void 0, null),
+				ld(9, qh.bind(null, z, V, Z, M), void 0, null),
 				ra === null)
 			)
 				throw Error(l(349));
-			sl & 30 || ep(z, M, Z);
+			sl & 30 || rp(z, M, Z);
 		}
 		return Z;
 	}
-	function ep(T, M, z) {
+	function rp(T, M, z) {
 		(T.flags |= 16384),
 			(T = { getSnapshot: M, value: z }),
 			(M = Si.updateQueue),
@@ -13486,12 +13486,12 @@ function requireReactDom_production_min() {
 					(M.stores = [T]))
 				: ((z = M.stores), z === null ? (M.stores = [T]) : z.push(T));
 	}
-	function $h(T, M, z, V) {
-		(M.value = z), (M.getSnapshot = V), ro(M) && nm(T);
+	function qh(T, M, z, V) {
+		(M.value = z), (M.getSnapshot = V), ro(M) && am(T);
 	}
-	function Uh(T, M, z) {
+	function Hh(T, M, z) {
 		return z(function () {
-			ro(M) && nm(T);
+			ro(M) && am(T);
 		});
 	}
 	function ro(T) {
@@ -13504,7 +13504,7 @@ function requireReactDom_production_min() {
 			return !0;
 		}
 	}
-	function nm(T) {
+	function am(T) {
 		var M = ws(T, 1);
 		M !== null && Is(M, T, 1, -1);
 	}
@@ -13522,11 +13522,11 @@ function requireReactDom_production_min() {
 				lastRenderedState: T,
 			}),
 			(M.queue = T),
-			(T = T.dispatch = om.bind(null, Si, T)),
+			(T = T.dispatch = um.bind(null, Si, T)),
 			[M.memoizedState, T]
 		);
 	}
-	function sd(T, M, z, V) {
+	function ld(T, M, z, V) {
 		return (
 			(T = { tag: T, create: M, destroy: z, deps: V, next: null }),
 			(M = Si.updateQueue),
@@ -13541,40 +13541,40 @@ function requireReactDom_production_min() {
 			T
 		);
 	}
-	function tp() {
+	function np() {
 		return ji().memoizedState;
 	}
-	function od(T, M, z, V) {
+	function ud(T, M, z, V) {
 		var Z = Ti();
 		(Si.flags |= T),
-			(Z.memoizedState = sd(1 | M, z, void 0, V === void 0 ? null : V));
+			(Z.memoizedState = ld(1 | M, z, void 0, V === void 0 ? null : V));
 	}
-	function qh(T, M, z, V) {
+	function Vh(T, M, z, V) {
 		var Z = ji();
 		V = V === void 0 ? null : V;
 		var ue = void 0;
 		if (vi !== null) {
 			var Le = vi.memoizedState;
-			if (((ue = Le.destroy), V !== null && Gd(V, Le.deps))) {
-				Z.memoizedState = sd(M, z, ue, V);
+			if (((ue = Le.destroy), V !== null && Kd(V, Le.deps))) {
+				Z.memoizedState = ld(M, z, ue, V);
 				return;
 			}
 		}
-		(Si.flags |= T), (Z.memoizedState = sd(1 | M, z, ue, V));
+		(Si.flags |= T), (Z.memoizedState = ld(1 | M, z, ue, V));
 	}
-	function im(T, M) {
-		return od(8390656, 8, T, M);
-	}
-	function rp(T, M) {
-		return qh(2048, 8, T, M);
-	}
-	function np(T, M) {
-		return qh(4, 2, T, M);
+	function sm(T, M) {
+		return ud(8390656, 8, T, M);
 	}
 	function ip(T, M) {
-		return qh(4, 4, T, M);
+		return Vh(2048, 8, T, M);
 	}
-	function am(T, M) {
+	function ap(T, M) {
+		return Vh(4, 2, T, M);
+	}
+	function sp(T, M) {
+		return Vh(4, 4, T, M);
+	}
+	function om(T, M) {
 		if (typeof M == "function")
 			return (
 				(T = T()),
@@ -13592,17 +13592,17 @@ function requireReactDom_production_min() {
 				}
 			);
 	}
-	function ap(T, M, z) {
+	function op(T, M, z) {
 		return (
-			(z = z != null ? z.concat([T]) : null), qh(4, 4, am.bind(null, M, T), z)
+			(z = z != null ? z.concat([T]) : null), Vh(4, 4, om.bind(null, M, T), z)
 		);
 	}
-	function Hh() {}
+	function jh() {}
 	function La(T, M) {
 		var z = ji();
 		M = M === void 0 ? null : M;
 		var V = z.memoizedState;
-		return V !== null && M !== null && Gd(M, V[1])
+		return V !== null && M !== null && Kd(M, V[1])
 			? V[0]
 			: ((z.memoizedState = [T, M]), T);
 	}
@@ -13610,18 +13610,18 @@ function requireReactDom_production_min() {
 		var z = ji();
 		M = M === void 0 ? null : M;
 		var V = z.memoizedState;
-		return V !== null && M !== null && Gd(M, V[1])
+		return V !== null && M !== null && Kd(M, V[1])
 			? V[0]
 			: ((T = T()), (z.memoizedState = [T, M]), T);
 	}
-	function sm(T, M, z) {
+	function lm(T, M, z) {
 		return sl & 21
 			? (Ot(z, M) ||
 					((z = Sr()), (Si.lanes |= z), (Do |= z), (T.baseState = !0)),
 				M)
 			: (T.baseState && ((T.baseState = !1), (xa = !0)), (T.memoizedState = z));
 	}
-	function ug(T, M) {
+	function dg(T, M) {
 		var z = mn;
 		(mn = z !== 0 && 4 > z ? z : 4), T(!0);
 		var V = Mn.transition;
@@ -13632,10 +13632,10 @@ function requireReactDom_production_min() {
 			(mn = z), (Mn.transition = V);
 		}
 	}
-	function Wd() {
+	function Yd() {
 		return ji().memoizedState;
 	}
-	function ld(T, M, z) {
+	function cd(T, M, z) {
 		var V = Fo(T);
 		if (
 			((z = {
@@ -13645,15 +13645,15 @@ function requireReactDom_production_min() {
 				eagerState: null,
 				next: null,
 			}),
-			sp(T))
+			lp(T))
 		)
-			lm(M, z);
+			cm(M, z);
 		else if (((z = ga(T, M, z, V)), z !== null)) {
 			var Z = Oa();
-			Is(z, T, V, Z), op(z, M, V);
+			Is(z, T, V, Z), up(z, M, V);
 		}
 	}
-	function om(T, M, z) {
+	function um(T, M, z) {
 		var V = Fo(T),
 			Z = {
 				lane: V,
@@ -13662,7 +13662,7 @@ function requireReactDom_production_min() {
 				eagerState: null,
 				next: null,
 			};
-		if (sp(T)) lm(M, Z);
+		if (lp(T)) cm(M, Z);
 		else {
 			var ue = T.alternate;
 			if (
@@ -13676,7 +13676,7 @@ function requireReactDom_production_min() {
 					if (((Z.hasEagerState = !0), (Z.eagerState = it), Ot(it, Le))) {
 						var mt = M.interleaved;
 						mt === null
-							? ((Z.next = Z), Ah(M))
+							? ((Z.next = Z), Rh(M))
 							: ((Z.next = mt.next), (mt.next = Z)),
 							(M.interleaved = Z);
 						return;
@@ -13685,20 +13685,20 @@ function requireReactDom_production_min() {
 				} finally {
 				}
 			(z = ga(T, M, Z, V)),
-				z !== null && ((Z = Oa()), Is(z, T, V, Z), op(z, M, V));
+				z !== null && ((Z = Oa()), Is(z, T, V, Z), up(z, M, V));
 		}
 	}
-	function sp(T) {
+	function lp(T) {
 		var M = T.alternate;
 		return T === Si || (M !== null && M === Si);
 	}
-	function lm(T, M) {
-		jd = Nh = !0;
+	function cm(T, M) {
+		Wd = Dh = !0;
 		var z = T.pending;
 		z === null ? (M.next = M) : ((M.next = z.next), (z.next = M)),
 			(T.pending = M);
 	}
-	function op(T, M, z) {
+	function up(T, M, z) {
 		if (z & 4194240) {
 			var V = M.lanes;
 			(V &= T.pendingLanes), (z |= V), (M.lanes = z), gi(T, z);
@@ -13724,24 +13724,24 @@ function requireReactDom_production_min() {
 			useId: Vi,
 			unstable_isNewReconciler: !1,
 		},
-		Kd = {
+		Xd = {
 			readContext: Ba,
 			useCallback: function (T, M) {
 				return (Ti().memoizedState = [T, M === void 0 ? null : M]), T;
 			},
 			useContext: Ba,
-			useEffect: im,
+			useEffect: sm,
 			useImperativeHandle: function (T, M, z) {
 				return (
 					(z = z != null ? z.concat([T]) : null),
-					od(4194308, 4, am.bind(null, M, T), z)
+					ud(4194308, 4, om.bind(null, M, T), z)
 				);
 			},
 			useLayoutEffect: function (T, M) {
-				return od(4194308, 4, T, M);
+				return ud(4194308, 4, T, M);
 			},
 			useInsertionEffect: function (T, M) {
-				return od(4, 2, T, M);
+				return ud(4, 2, T, M);
 			},
 			useMemo: function (T, M) {
 				var z = Ti();
@@ -13766,7 +13766,7 @@ function requireReactDom_production_min() {
 						lastRenderedState: M,
 					}),
 					(V.queue = T),
-					(T = T.dispatch = ld.bind(null, Si, T)),
+					(T = T.dispatch = cd.bind(null, Si, T)),
 					[V.memoizedState, T]
 				);
 			},
@@ -13775,14 +13775,14 @@ function requireReactDom_production_min() {
 				return (T = { current: T }), (M.memoizedState = T);
 			},
 			useState: no,
-			useDebugValue: Hh,
+			useDebugValue: jh,
 			useDeferredValue: function (T) {
 				return (Ti().memoizedState = T);
 			},
 			useTransition: function () {
 				var T = no(!1),
 					M = T[0];
-				return (T = ug.bind(null, T[1])), (Ti().memoizedState = T), [M, T];
+				return (T = dg.bind(null, T[1])), (Ti().memoizedState = T), [M, T];
 			},
 			useMutableSource: function () {},
 			useSyncExternalStore: function (T, M, z) {
@@ -13793,15 +13793,15 @@ function requireReactDom_production_min() {
 					z = z();
 				} else {
 					if (((z = M()), ra === null)) throw Error(l(349));
-					sl & 30 || ep(V, M, z);
+					sl & 30 || rp(V, M, z);
 				}
 				Z.memoizedState = z;
 				var ue = { value: z, getSnapshot: M };
 				return (
 					(Z.queue = ue),
-					im(Uh.bind(null, V, ue, T), [T]),
+					sm(Hh.bind(null, V, ue, T), [T]),
 					(V.flags |= 2048),
-					sd(9, $h.bind(null, V, ue, z, M), void 0, null),
+					ld(9, qh.bind(null, V, ue, z, M), void 0, null),
 					z
 				);
 			},
@@ -13816,67 +13816,67 @@ function requireReactDom_production_min() {
 						(z = ya++),
 						0 < z && (M += "H" + z.toString(32)),
 						(M += ":");
-				} else (z = lg++), (M = ":" + M + "r" + z.toString(32) + ":");
+				} else (z = cg++), (M = ":" + M + "r" + z.toString(32) + ":");
 				return (T.memoizedState = M);
 			},
 			unstable_isNewReconciler: !1,
 		},
-		cg = {
+		hg = {
 			readContext: Ba,
 			useCallback: La,
 			useContext: Ba,
-			useEffect: rp,
-			useImperativeHandle: ap,
-			useInsertionEffect: np,
-			useLayoutEffect: ip,
+			useEffect: ip,
+			useImperativeHandle: op,
+			useInsertionEffect: ap,
+			useLayoutEffect: sp,
 			useMemo: Ts,
-			useReducer: zh,
-			useRef: tp,
+			useReducer: $h,
+			useRef: np,
 			useState: function () {
-				return zh(ol);
+				return $h(ol);
 			},
-			useDebugValue: Hh,
+			useDebugValue: jh,
 			useDeferredValue: function (T) {
 				var M = ji();
-				return sm(M, vi.memoizedState, T);
+				return lm(M, vi.memoizedState, T);
 			},
 			useTransition: function () {
-				var T = zh(ol)[0],
+				var T = $h(ol)[0],
 					M = ji().memoizedState;
 				return [T, M];
 			},
-			useMutableSource: Qf,
-			useSyncExternalStore: Fh,
-			useId: Wd,
+			useMutableSource: tp,
+			useSyncExternalStore: Uh,
+			useId: Yd,
 			unstable_isNewReconciler: !1,
 		},
-		um = {
+		dm = {
 			readContext: Ba,
 			useCallback: La,
 			useContext: Ba,
-			useEffect: rp,
-			useImperativeHandle: ap,
-			useInsertionEffect: np,
-			useLayoutEffect: ip,
+			useEffect: ip,
+			useImperativeHandle: op,
+			useInsertionEffect: ap,
+			useLayoutEffect: sp,
 			useMemo: Ts,
-			useReducer: ad,
-			useRef: tp,
+			useReducer: od,
+			useRef: np,
 			useState: function () {
-				return ad(ol);
+				return od(ol);
 			},
-			useDebugValue: Hh,
+			useDebugValue: jh,
 			useDeferredValue: function (T) {
 				var M = ji();
-				return vi === null ? (M.memoizedState = T) : sm(M, vi.memoizedState, T);
+				return vi === null ? (M.memoizedState = T) : lm(M, vi.memoizedState, T);
 			},
 			useTransition: function () {
-				var T = ad(ol)[0],
+				var T = od(ol)[0],
 					M = ji().memoizedState;
 				return [T, M];
 			},
-			useMutableSource: Qf,
-			useSyncExternalStore: Fh,
-			useId: Wd,
+			useMutableSource: tp,
+			useSyncExternalStore: Uh,
+			useId: Yd,
 			unstable_isNewReconciler: !1,
 		};
 	function ll(T, M) {
@@ -13897,10 +13897,10 @@ Error generating stack: ` +
 		}
 		return { value: T, source: M, stack: Z, digest: null };
 	}
-	function ud(T, M, z) {
+	function dd(T, M, z) {
 		return { value: T, source: null, stack: z ?? null, digest: M ?? null };
 	}
-	function Vh(T, M) {
+	function Gh(T, M) {
 		try {
 			console.error(M.value);
 		} catch (z) {
@@ -13909,18 +13909,18 @@ Error generating stack: ` +
 			});
 		}
 	}
-	var jh = typeof WeakMap == "function" ? WeakMap : Map;
-	function Gh(T, M, z) {
+	var Wh = typeof WeakMap == "function" ? WeakMap : Map;
+	function Kh(T, M, z) {
 		(z = ks(-1, z)), (z.tag = 3), (z.payload = { element: null });
 		var V = M.value;
 		return (
 			(z.callback = function () {
-				rf || ((rf = !0), (bp = V)), Vh(T, M);
+				af || ((af = !0), (kp = V)), Gh(T, M);
 			}),
 			z
 		);
 	}
-	function Yd(T, M, z) {
+	function Zd(T, M, z) {
 		(z = ks(-1, z)), (z.tag = 3);
 		var V = T.type.getDerivedStateFromError;
 		if (typeof V == "function") {
@@ -13929,7 +13929,7 @@ Error generating stack: ` +
 				return V(Z);
 			}),
 				(z.callback = function () {
-					Vh(T, M);
+					Gh(T, M);
 				});
 		}
 		var ue = T.stateNode;
@@ -13937,7 +13937,7 @@ Error generating stack: ` +
 			ue !== null &&
 				typeof ue.componentDidCatch == "function" &&
 				(z.callback = function () {
-					Vh(T, M),
+					Gh(T, M),
 						typeof V != "function" &&
 							(zo === null ? (zo = new Set([this])) : zo.add(this));
 					var Le = M.stack;
@@ -13948,16 +13948,16 @@ Error generating stack: ` +
 			z
 		);
 	}
-	function cm(T, M, z) {
+	function hm(T, M, z) {
 		var V = T.pingCache;
 		if (V === null) {
-			V = T.pingCache = new jh();
+			V = T.pingCache = new Wh();
 			var Z = new Set();
 			V.set(M, Z);
 		} else (Z = V.get(M)), Z === void 0 && ((Z = new Set()), V.set(M, Z));
-		Z.has(z) || (Z.add(z), (T = xg.bind(null, T, M, z)), M.then(T, T));
+		Z.has(z) || (Z.add(z), (T = vg.bind(null, T, M, z)), M.then(T, T));
 	}
-	function lp(T) {
+	function cp(T) {
 		do {
 			var M;
 			if (
@@ -13971,7 +13971,7 @@ Error generating stack: ` +
 		} while (T !== null);
 		return null;
 	}
-	function Xd(T, M, z, V, Z) {
+	function Jd(T, M, z, V, Z) {
 		return T.mode & 1
 			? ((T.flags |= 65536), (T.lanes = Z), T)
 			: (T === M
@@ -13986,36 +13986,36 @@ Error generating stack: ` +
 						(z.lanes |= 1)),
 				T);
 	}
-	var dm = N.ReactCurrentOwner,
+	var fm = N.ReactCurrentOwner,
 		xa = !1;
 	function Na(T, M, z, V) {
-		M.child = T === null ? Yf(M, null, z, V) : Ro(M, T.child, z, V);
+		M.child = T === null ? Zf(M, null, z, V) : Ro(M, T.child, z, V);
 	}
-	function up(T, M, z, V, Z) {
+	function dp(T, M, z, V, Z) {
 		z = z.render;
 		var ue = M.ref;
 		return (
 			Co(M, Z),
-			(V = Oh(T, M, z, V, ue, Z)),
-			(z = Dh()),
+			(V = zh(T, M, z, V, ue, Z)),
+			(z = Fh()),
 			T !== null && !xa
 				? ((M.updateQueue = T.updateQueue),
 					(M.flags &= -2053),
 					(T.lanes &= ~Z),
 					Vs(T, M, Z))
-				: (pi && z && Dd(M), (M.flags |= 1), Na(T, M, V, Z), M.child)
+				: (pi && z && Fd(M), (M.flags |= 1), Na(T, M, V, Z), M.child)
 		);
 	}
 	function qs(T, M, z, V, Z) {
 		if (T === null) {
 			var ue = z.type;
 			return typeof ue == "function" &&
-				!Mp(ue) &&
+				!Pp(ue) &&
 				ue.defaultProps === void 0 &&
 				z.compare === null &&
 				z.defaultProps === void 0
-				? ((M.tag = 15), (M.type = ue), cp(T, M, ue, V, Z))
-				: ((T = uf(z.type, null, V, M, M.mode, Z)),
+				? ((M.tag = 15), (M.type = ue), hp(T, M, ue, V, Z))
+				: ((T = df(z.type, null, V, M, M.mode, Z)),
 					(T.ref = M.ref),
 					(T.return = M),
 					(M.child = T));
@@ -14037,7 +14037,7 @@ Error generating stack: ` +
 			(M.child = T)
 		);
 	}
-	function cp(T, M, z, V, Z) {
+	function hp(T, M, z, V, Z) {
 		if (T !== null) {
 			var ue = T.memoizedProps;
 			if (kr(ue, V) && T.ref === M.ref)
@@ -14045,9 +14045,9 @@ Error generating stack: ` +
 					T.flags & 131072 && (xa = !0);
 				else return (M.lanes = T.lanes), Vs(T, M, Z);
 		}
-		return Wh(T, M, z, V, Z);
+		return Yh(T, M, z, V, Z);
 	}
-	function dp(T, M, z) {
+	function fp(T, M, z) {
 		var V = M.pendingProps,
 			Z = V.children,
 			ue = T !== null ? T.memoizedState : null;
@@ -14058,7 +14058,7 @@ Error generating stack: ` +
 					cachePool: null,
 					transitions: null,
 				}),
-					ui(pd, Ja),
+					ci(gd, Ja),
 					(Ja |= z);
 			else {
 				if (!(z & 1073741824))
@@ -14071,7 +14071,7 @@ Error generating stack: ` +
 							transitions: null,
 						}),
 						(M.updateQueue = null),
-						ui(pd, Ja),
+						ci(gd, Ja),
 						(Ja |= T),
 						null
 					);
@@ -14081,44 +14081,44 @@ Error generating stack: ` +
 					transitions: null,
 				}),
 					(V = ue !== null ? ue.baseLanes : z),
-					ui(pd, Ja),
+					ci(gd, Ja),
 					(Ja |= V);
 			}
 		else
 			ue !== null
 				? ((V = ue.baseLanes | z), (M.memoizedState = null))
 				: (V = z),
-				ui(pd, Ja),
+				ci(gd, Ja),
 				(Ja |= V);
 		return Na(T, M, Z, z), M.child;
 	}
-	function hm(T, M) {
+	function pm(T, M) {
 		var z = M.ref;
 		((T === null && z !== null) || (T !== null && T.ref !== z)) &&
 			((M.flags |= 512), (M.flags |= 2097152));
 	}
-	function Wh(T, M, z, V, Z) {
+	function Yh(T, M, z, V, Z) {
 		var ue = Ua(z) ? Pa : fa.current;
 		return (
-			(ue = Jc(M, ue)),
+			(ue = ed(M, ue)),
 			Co(M, Z),
-			(z = Oh(T, M, z, V, ue, Z)),
-			(V = Dh()),
+			(z = zh(T, M, z, V, ue, Z)),
+			(V = Fh()),
 			T !== null && !xa
 				? ((M.updateQueue = T.updateQueue),
 					(M.flags &= -2053),
 					(T.lanes &= ~Z),
 					Vs(T, M, Z))
-				: (pi && V && Dd(M), (M.flags |= 1), Na(T, M, z, Z), M.child)
+				: (pi && V && Fd(M), (M.flags |= 1), Na(T, M, z, Z), M.child)
 		);
 	}
-	function fm(T, M, z, V, Z) {
+	function mm(T, M, z, V, Z) {
 		if (Ua(z)) {
 			var ue = !0;
 			is(M);
 		} else ue = !1;
 		if ((Co(M, Z), M.stateNode === null))
-			cd(T, M), Wf(M, z, V), Kf(M, z, V, Z), (V = !0);
+			hd(T, M), Yf(M, z, V), Xf(M, z, V, Z), (V = !0);
 		else if (T === null) {
 			var Le = M.stateNode,
 				it = M.memoizedProps;
@@ -14127,7 +14127,7 @@ Error generating stack: ` +
 				Ut = z.contextType;
 			typeof Ut == "object" && Ut !== null
 				? (Ut = Ba(Ut))
-				: ((Ut = Ua(z) ? Pa : fa.current), (Ut = Jc(M, Ut)));
+				: ((Ut = Ua(z) ? Pa : fa.current), (Ut = ed(M, Ut)));
 			var ar = z.getDerivedStateFromProps,
 				or =
 					typeof ar == "function" ||
@@ -14135,16 +14135,16 @@ Error generating stack: ` +
 			or ||
 				(typeof Le.UNSAFE_componentWillReceiveProps != "function" &&
 					typeof Le.componentWillReceiveProps != "function") ||
-				((it !== V || mt !== Ut) && tm(M, Le, V, Ut)),
+				((it !== V || mt !== Ut) && nm(M, Le, V, Ut)),
 				(Io = !1);
 			var nr = M.memoizedState;
 			(Le.state = nr),
-				Mh(M, V, Le, Z),
+				Ph(M, V, Le, Z),
 				(mt = M.memoizedState),
 				it !== V || nr !== mt || $a.current || Io
 					? (typeof ar == "function" &&
-							(Gf(M, z, ar, V), (mt = M.memoizedState)),
-						(it = Io || Ph(M, z, it, V, nr, mt, Ut))
+							(Kf(M, z, ar, V), (mt = M.memoizedState)),
+						(it = Io || Lh(M, z, it, V, nr, mt, Ut))
 							? (or ||
 									(typeof Le.UNSAFE_componentWillMount != "function" &&
 										typeof Le.componentWillMount != "function") ||
@@ -14166,7 +14166,7 @@ Error generating stack: ` +
 						(V = !1));
 		} else {
 			(Le = M.stateNode),
-				Qp(T, M),
+				tm(T, M),
 				(it = M.memoizedProps),
 				(Ut = M.type === M.elementType ? it : bs(M.type, it)),
 				(Le.props = Ut),
@@ -14175,22 +14175,22 @@ Error generating stack: ` +
 				(mt = z.contextType),
 				typeof mt == "object" && mt !== null
 					? (mt = Ba(mt))
-					: ((mt = Ua(z) ? Pa : fa.current), (mt = Jc(M, mt)));
+					: ((mt = Ua(z) ? Pa : fa.current), (mt = ed(M, mt)));
 			var Rr = z.getDerivedStateFromProps;
 			(ar =
 				typeof Rr == "function" ||
 				typeof Le.getSnapshotBeforeUpdate == "function") ||
 				(typeof Le.UNSAFE_componentWillReceiveProps != "function" &&
 					typeof Le.componentWillReceiveProps != "function") ||
-				((it !== or || nr !== mt) && tm(M, Le, V, mt)),
+				((it !== or || nr !== mt) && nm(M, Le, V, mt)),
 				(Io = !1),
 				(nr = M.memoizedState),
 				(Le.state = nr),
-				Mh(M, V, Le, Z);
+				Ph(M, V, Le, Z);
 			var Or = M.memoizedState;
 			it !== or || nr !== Or || $a.current || Io
-				? (typeof Rr == "function" && (Gf(M, z, Rr, V), (Or = M.memoizedState)),
-					(Ut = Io || Ph(M, z, Ut, V, nr, Or, mt) || !1)
+				? (typeof Rr == "function" && (Kf(M, z, Rr, V), (Or = M.memoizedState)),
+					(Ut = Io || Lh(M, z, Ut, V, nr, Or, mt) || !1)
 						? (ar ||
 								(typeof Le.UNSAFE_componentWillUpdate != "function" &&
 									typeof Le.componentWillUpdate != "function") ||
@@ -14221,13 +14221,13 @@ Error generating stack: ` +
 						(M.flags |= 1024),
 					(V = !1));
 		}
-		return hp(T, M, z, V, ue, Z);
+		return pp(T, M, z, V, ue, Z);
 	}
-	function hp(T, M, z, V, Z, ue) {
-		hm(T, M);
+	function pp(T, M, z, V, Z, ue) {
+		pm(T, M);
 		var Le = (M.flags & 128) !== 0;
-		if (!V && !Le) return Z && Kp(M, z, !1), Vs(T, M, ue);
-		(V = M.stateNode), (dm.current = M);
+		if (!V && !Le) return Z && Xp(M, z, !1), Vs(T, M, ue);
+		(V = M.stateNode), (fm.current = M);
 		var it =
 			Le && typeof z.getDerivedStateFromError != "function" ? null : V.render();
 		return (
@@ -14237,25 +14237,25 @@ Error generating stack: ` +
 					(M.child = Ro(M, null, it, ue)))
 				: Na(T, M, it, ue),
 			(M.memoizedState = V.state),
-			Z && Kp(M, z, !0),
+			Z && Xp(M, z, !0),
 			M.child
 		);
 	}
 	function Hs(T) {
 		var M = T.stateNode;
 		M.pendingContext
-			? Gp(T, M.pendingContext, M.pendingContext !== M.context)
-			: M.context && Gp(T, M.context, !1),
-			Lh(T, M.containerInfo);
+			? Kp(T, M.pendingContext, M.pendingContext !== M.context)
+			: M.context && Kp(T, M.context, !1),
+			Oh(T, M.containerInfo);
 	}
-	function Kh(T, M, z, V, Z) {
+	function Xh(T, M, z, V, Z) {
 		return $s(), Us(Z), (M.flags |= 256), Na(T, M, z, V), M.child;
 	}
-	var Zd = { dehydrated: null, treeContext: null, retryLane: 0 };
-	function Jd(T) {
+	var Qd = { dehydrated: null, treeContext: null, retryLane: 0 };
+	function eh(T) {
 		return { baseLanes: T, cachePool: null, transitions: null };
 	}
-	function Qd(T, M, z) {
+	function th(T, M, z) {
 		var V = M.pendingProps,
 			Z = mi.current,
 			ue = !1,
@@ -14267,7 +14267,7 @@ Error generating stack: ` +
 			it
 				? ((ue = !0), (M.flags &= -129))
 				: (T === null || T.memoizedState !== null) && (Z |= 1),
-			ui(mi, Z & 1),
+			ci(mi, Z & 1),
 			T === null)
 		)
 			return (
@@ -14288,21 +14288,21 @@ Error generating stack: ` +
 								(Le = { mode: "hidden", children: Le }),
 								!(V & 1) && ue !== null
 									? ((ue.childLanes = 0), (ue.pendingProps = Le))
-									: (ue = cf(Le, V, 0, null)),
+									: (ue = hf(Le, V, 0, null)),
 								(T = hl(T, V, z, null)),
 								(ue.return = M),
 								(T.return = M),
 								(ue.sibling = T),
 								(M.child = ue),
-								(M.child.memoizedState = Jd(z)),
-								(M.memoizedState = Zd),
+								(M.child.memoizedState = eh(z)),
+								(M.memoizedState = Qd),
 								T)
 							: Lo(M, Le))
 			);
 		if (
 			((Z = T.memoizedState), Z !== null && ((it = Z.dehydrated), it !== null))
 		)
-			return Yh(T, M, Le, V, it, Z, z);
+			return Zh(T, M, Le, V, it, Z, z);
 		if (ue) {
 			(ue = V.fallback), (Le = M.mode), (Z = T.child), (it = Z.sibling);
 			var mt = { mode: "hidden", children: V.children };
@@ -14325,7 +14325,7 @@ Error generating stack: ` +
 				(Le = T.child.memoizedState),
 				(Le =
 					Le === null
-						? Jd(z)
+						? eh(z)
 						: {
 								baseLanes: Le.baseLanes | z,
 								cachePool: null,
@@ -14333,7 +14333,7 @@ Error generating stack: ` +
 							}),
 				(ue.memoizedState = Le),
 				(ue.childLanes = T.childLanes & ~z),
-				(M.memoizedState = Zd),
+				(M.memoizedState = Qd),
 				V
 			);
 		}
@@ -14354,7 +14354,7 @@ Error generating stack: ` +
 	}
 	function Lo(T, M) {
 		return (
-			(M = cf({ mode: "visible", children: M }, T.mode, 0, null)),
+			(M = hf({ mode: "visible", children: M }, T.mode, 0, null)),
 			(M.return = T),
 			(T.child = M)
 		);
@@ -14369,15 +14369,15 @@ Error generating stack: ` +
 			T
 		);
 	}
-	function Yh(T, M, z, V, Z, ue, Le) {
+	function Zh(T, M, z, V, Z, ue, Le) {
 		if (z)
 			return M.flags & 256
-				? ((M.flags &= -257), (V = ud(Error(l(422)))), Zr(T, M, Le, V))
+				? ((M.flags &= -257), (V = dd(Error(l(422)))), Zr(T, M, Le, V))
 				: M.memoizedState !== null
 					? ((M.child = T.child), (M.flags |= 128), null)
 					: ((ue = V.fallback),
 						(Z = M.mode),
-						(V = cf({ mode: "visible", children: V.children }, Z, 0, null)),
+						(V = hf({ mode: "visible", children: V.children }, Z, 0, null)),
 						(ue = hl(ue, Z, Le, null)),
 						(ue.flags |= 2),
 						(V.return = M),
@@ -14385,14 +14385,14 @@ Error generating stack: ` +
 						(V.sibling = ue),
 						(M.child = V),
 						M.mode & 1 && Ro(M, T.child, null, Le),
-						(M.child.memoizedState = Jd(Le)),
-						(M.memoizedState = Zd),
+						(M.child.memoizedState = eh(Le)),
+						(M.memoizedState = Qd),
 						ue);
 		if (!(M.mode & 1)) return Zr(T, M, Le, null);
 		if (Z.data === "$!") {
 			if (((V = Z.nextSibling && Z.nextSibling.dataset), V)) var it = V.dgst;
 			return (
-				(V = it), (ue = Error(l(419))), (V = ud(ue, V, void 0)), Zr(T, M, Le, V)
+				(V = it), (ue = Error(l(419))), (V = dd(ue, V, void 0)), Zr(T, M, Le, V)
 			);
 		}
 		if (((it = (Le & T.childLanes) !== 0), xa || it)) {
@@ -14438,12 +14438,12 @@ Error generating stack: ` +
 						Z !== ue.retryLane &&
 						((ue.retryLane = Z), ws(T, Z), Is(V, T, Z, -1));
 			}
-			return Ip(), (V = ud(Error(l(421)))), Zr(T, M, Le, V);
+			return Mp(), (V = dd(Error(l(421)))), Zr(T, M, Le, V);
 		}
 		return Z.data === "$?"
 			? ((M.flags |= 128),
 				(M.child = T.child),
-				(M = Sg.bind(null, T)),
+				(M = bg.bind(null, T)),
 				(Z._reactRetry = M),
 				null)
 			: ((T = ue.treeContext),
@@ -14462,7 +14462,7 @@ Error generating stack: ` +
 				(M.flags |= 4096),
 				M);
 	}
-	function Xh(T, M, z) {
+	function Jh(T, M, z) {
 		T.lanes |= M;
 		var V = T.alternate;
 		V !== null && (V.lanes |= M), os(T.return, M, z);
@@ -14485,7 +14485,7 @@ Error generating stack: ` +
 				(ue.tail = z),
 				(ue.tailMode = Z));
 	}
-	function pm(T, M, z) {
+	function gm(T, M, z) {
 		var V = M.pendingProps,
 			Z = V.revealOrder,
 			ue = V.tail;
@@ -14494,8 +14494,8 @@ Error generating stack: ` +
 		else {
 			if (T !== null && T.flags & 128)
 				e: for (T = M.child; T !== null; ) {
-					if (T.tag === 13) T.memoizedState !== null && Xh(T, z, M);
-					else if (T.tag === 19) Xh(T, z, M);
+					if (T.tag === 13) T.memoizedState !== null && Jh(T, z, M);
+					else if (T.tag === 19) Jh(T, z, M);
 					else if (T.child !== null) {
 						(T.child.return = T), (T = T.child);
 						continue;
@@ -14509,13 +14509,13 @@ Error generating stack: ` +
 				}
 			V &= 1;
 		}
-		if ((ui(mi, V), !(M.mode & 1))) M.memoizedState = null;
+		if ((ci(mi, V), !(M.mode & 1))) M.memoizedState = null;
 		else
 			switch (Z) {
 				case "forwards":
 					for (z = M.child, Z = null; z !== null; )
 						(T = z.alternate),
-							T !== null && Hd(T) === null && (Z = z),
+							T !== null && jd(T) === null && (Z = z),
 							(z = z.sibling);
 					(z = Z),
 						z === null
@@ -14525,7 +14525,7 @@ Error generating stack: ` +
 					break;
 				case "backwards":
 					for (z = null, Z = M.child, M.child = null; Z !== null; ) {
-						if (((T = Z.alternate), T !== null && Hd(T) === null)) {
+						if (((T = Z.alternate), T !== null && jd(T) === null)) {
 							M.child = Z;
 							break;
 						}
@@ -14541,7 +14541,7 @@ Error generating stack: ` +
 			}
 		return M.child;
 	}
-	function cd(T, M) {
+	function hd(T, M) {
 		!(M.mode & 1) &&
 			T !== null &&
 			((T.alternate = null), (M.alternate = null), (M.flags |= 2));
@@ -14572,52 +14572,52 @@ Error generating stack: ` +
 				Hs(M), $s();
 				break;
 			case 5:
-				Xf(M);
+				Jf(M);
 				break;
 			case 1:
 				Ua(M.type) && is(M);
 				break;
 			case 4:
-				Lh(M, M.stateNode.containerInfo);
+				Oh(M, M.stateNode.containerInfo);
 				break;
 			case 10:
 				var V = M.type._context,
 					Z = M.memoizedProps.value;
-				ui(il, V._currentValue), (V._currentValue = Z);
+				ci(il, V._currentValue), (V._currentValue = Z);
 				break;
 			case 13:
 				if (((V = M.memoizedState), V !== null))
 					return V.dehydrated !== null
-						? (ui(mi, mi.current & 1), (M.flags |= 128), null)
+						? (ci(mi, mi.current & 1), (M.flags |= 128), null)
 						: z & M.child.childLanes
-							? Qd(T, M, z)
-							: (ui(mi, mi.current & 1),
+							? th(T, M, z)
+							: (ci(mi, mi.current & 1),
 								(T = Vs(T, M, z)),
 								T !== null ? T.sibling : null);
-				ui(mi, mi.current & 1);
+				ci(mi, mi.current & 1);
 				break;
 			case 19:
 				if (((V = (z & M.childLanes) !== 0), T.flags & 128)) {
-					if (V) return pm(T, M, z);
+					if (V) return gm(T, M, z);
 					M.flags |= 128;
 				}
 				if (
 					((Z = M.memoizedState),
 					Z !== null &&
 						((Z.rendering = null), (Z.tail = null), (Z.lastEffect = null)),
-					ui(mi, mi.current),
+					ci(mi, mi.current),
 					V)
 				)
 					break;
 				return null;
 			case 22:
 			case 23:
-				return (M.lanes = 0), dp(T, M, z);
+				return (M.lanes = 0), fp(T, M, z);
 		}
 		return Vs(T, M, z);
 	}
-	var mm, fp, pp, gm;
-	(mm = function (T, M) {
+	var ym, mp, gp, xm;
+	(ym = function (T, M) {
 		for (var z = M.child; z !== null; ) {
 			if (z.tag === 5 || z.tag === 6) T.appendChild(z.stateNode);
 			else if (z.tag !== 4 && z.child !== null) {
@@ -14632,8 +14632,8 @@ Error generating stack: ` +
 			(z.sibling.return = z.return), (z = z.sibling);
 		}
 	}),
-		(fp = function () {}),
-		(pp = function (T, M, z, V) {
+		(mp = function () {}),
+		(gp = function (T, M, z, V) {
 			var Z = T.memoizedProps;
 			if (Z !== V) {
 				(T = M.stateNode), Bo(Es.current);
@@ -14653,7 +14653,7 @@ Error generating stack: ` +
 					default:
 						typeof Z.onClick != "function" &&
 							typeof V.onClick == "function" &&
-							(T.onclick = gh);
+							(T.onclick = xh);
 				}
 				kt(z, V);
 				var Le;
@@ -14710,10 +14710,10 @@ Error generating stack: ` +
 				(M.updateQueue = Ut) && (M.flags |= 4);
 			}
 		}),
-		(gm = function (T, M, z, V) {
+		(xm = function (T, M, z, V) {
 			z !== V && (M.flags |= 4);
 		});
-	function dd(T, M) {
+	function fd(T, M) {
 		if (!pi)
 			switch (T.tailMode) {
 				case "hidden":
@@ -14753,7 +14753,7 @@ Error generating stack: ` +
 					(Z = Z.sibling);
 		return (T.subtreeFlags |= V), (T.childLanes = z), M;
 	}
-	function dg(T, M, z) {
+	function fg(T, M, z) {
 		var V = M.pendingProps;
 		switch ((nl(M), M.tag)) {
 			case 2:
@@ -14768,38 +14768,38 @@ Error generating stack: ` +
 			case 14:
 				return va(M), null;
 			case 1:
-				return Ua(M.type) && bh(), va(M), null;
+				return Ua(M.type) && kh(), va(M), null;
 			case 3:
 				return (
 					(V = M.stateNode),
-					rd(),
+					ad(),
 					fi($a),
 					fi(fa),
-					Jf(),
+					ep(),
 					V.pendingContext &&
 						((V.context = V.pendingContext), (V.pendingContext = null)),
 					(T === null || T.child === null) &&
-						(zd(M)
+						($d(M)
 							? (M.flags |= 4)
 							: T === null ||
 								(T.memoizedState.isDehydrated && !(M.flags & 256)) ||
-								((M.flags |= 1024), vs !== null && (Ep(vs), (vs = null)))),
-					fp(T, M),
+								((M.flags |= 1024), vs !== null && (Cp(vs), (vs = null)))),
+					mp(T, M),
 					va(M),
 					null
 				);
 			case 5:
-				Zf(M);
-				var Z = Bo(qd.current);
+				Qf(M);
+				var Z = Bo(Vd.current);
 				if (((z = M.type), T !== null && M.stateNode != null))
-					pp(T, M, z, V, Z),
+					gp(T, M, z, V, Z),
 						T.ref !== M.ref && ((M.flags |= 512), (M.flags |= 2097152));
 				else {
 					if (!V) {
 						if (M.stateNode === null) throw Error(l(166));
 						return va(M), null;
 					}
-					if (((T = Bo(Es.current)), zd(M))) {
+					if (((T = Bo(Es.current)), $d(M))) {
 						(V = M.stateNode), (z = M.type);
 						var ue = M.memoizedProps;
 						switch (((V[Ns] = M), (V[ko] = ue), (T = (M.mode & 1) !== 0), z)) {
@@ -14844,12 +14844,12 @@ Error generating stack: ` +
 									? typeof it == "string"
 										? V.textContent !== it &&
 											(ue.suppressHydrationWarning !== !0 &&
-												Bd(V.textContent, it, T),
+												Nd(V.textContent, it, T),
 											(Z = ["children", it]))
 										: typeof it == "number" &&
 											V.textContent !== "" + it &&
 											(ue.suppressHydrationWarning !== !0 &&
-												Bd(V.textContent, it, T),
+												Nd(V.textContent, it, T),
 											(Z = ["children", "" + it]))
 									: d.hasOwnProperty(Le) &&
 										it != null &&
@@ -14867,7 +14867,7 @@ Error generating stack: ` +
 							case "option":
 								break;
 							default:
-								typeof ue.onClick == "function" && (V.onclick = gh);
+								typeof ue.onClick == "function" && (V.onclick = xh);
 						}
 						(V = Z), (M.updateQueue = V), V !== null && (M.flags |= 4);
 					} else {
@@ -14889,7 +14889,7 @@ Error generating stack: ` +
 								: (T = Le.createElementNS(T, z)),
 							(T[Ns] = M),
 							(T[ko] = V),
-							mm(T, M, !1, !1),
+							ym(T, M, !1, !1),
 							(M.stateNode = T);
 						e: {
 							switch (((Le = We(z, V)), z)) {
@@ -14973,7 +14973,7 @@ Error generating stack: ` +
 												tt(T, !!V.multiple, V.defaultValue, !0);
 									break;
 								default:
-									typeof Z.onClick == "function" && (T.onclick = gh);
+									typeof Z.onClick == "function" && (T.onclick = xh);
 							}
 							switch (z) {
 								case "button":
@@ -14995,10 +14995,10 @@ Error generating stack: ` +
 				}
 				return va(M), null;
 			case 6:
-				if (T && M.stateNode != null) gm(T, M, T.memoizedProps, V);
+				if (T && M.stateNode != null) xm(T, M, T.memoizedProps, V);
 				else {
 					if (typeof V != "string" && M.stateNode === null) throw Error(l(166));
-					if (((z = Bo(qd.current)), Bo(Es.current), zd(M))) {
+					if (((z = Bo(Vd.current)), Bo(Es.current), $d(M))) {
 						if (
 							((V = M.stateNode),
 							(z = M.memoizedProps),
@@ -15007,11 +15007,11 @@ Error generating stack: ` +
 						)
 							switch (T.tag) {
 								case 3:
-									Bd(V.nodeValue, z, (T.mode & 1) !== 0);
+									Nd(V.nodeValue, z, (T.mode & 1) !== 0);
 									break;
 								case 5:
 									T.memoizedProps.suppressHydrationWarning !== !0 &&
-										Bd(V.nodeValue, z, (T.mode & 1) !== 0);
+										Nd(V.nodeValue, z, (T.mode & 1) !== 0);
 							}
 						ue && (M.flags |= 4);
 					} else
@@ -15028,8 +15028,8 @@ Error generating stack: ` +
 						(T.memoizedState !== null && T.memoizedState.dehydrated !== null))
 				) {
 					if (pi && Ka !== null && M.mode & 1 && !(M.flags & 128))
-						Hf(), $s(), (M.flags |= 98560), (ue = !1);
-					else if (((ue = zd(M)), V !== null && V.dehydrated !== null)) {
+						jf(), $s(), (M.flags |= 98560), (ue = !1);
+					else if (((ue = $d(M)), V !== null && V.dehydrated !== null)) {
 						if (T === null) {
 							if (!ue) throw Error(l(318));
 							if (
@@ -15044,7 +15044,7 @@ Error generating stack: ` +
 								!(M.flags & 128) && (M.memoizedState = null),
 								(M.flags |= 4);
 						va(M), (ue = !1);
-					} else vs !== null && (Ep(vs), (vs = null)), (ue = !0);
+					} else vs !== null && (Cp(vs), (vs = null)), (ue = !0);
 					if (!ue) return M.flags & 65536 ? M : null;
 				}
 				return M.flags & 128
@@ -15054,33 +15054,33 @@ Error generating stack: ` +
 							V &&
 							((M.child.flags |= 8192),
 							M.mode & 1 &&
-								(T === null || mi.current & 1 ? Gi === 0 && (Gi = 3) : Ip())),
+								(T === null || mi.current & 1 ? Gi === 0 && (Gi = 3) : Mp())),
 						M.updateQueue !== null && (M.flags |= 4),
 						va(M),
 						null);
 			case 4:
 				return (
-					rd(),
-					fp(T, M),
+					ad(),
+					mp(T, M),
 					T === null && vo(M.stateNode.containerInfo),
 					va(M),
 					null
 				);
 			case 10:
-				return Ih(M.type._context), va(M), null;
+				return Mh(M.type._context), va(M), null;
 			case 17:
-				return Ua(M.type) && bh(), va(M), null;
+				return Ua(M.type) && kh(), va(M), null;
 			case 19:
 				if ((fi(mi), (ue = M.memoizedState), ue === null)) return va(M), null;
 				if (((V = (M.flags & 128) !== 0), (Le = ue.rendering), Le === null))
-					if (V) dd(ue, !1);
+					if (V) fd(ue, !1);
 					else {
 						if (Gi !== 0 || (T !== null && T.flags & 128))
 							for (T = M.child; T !== null; ) {
-								if (((Le = Hd(T)), Le !== null)) {
+								if (((Le = jd(T)), Le !== null)) {
 									for (
 										M.flags |= 128,
-											dd(ue, !1),
+											fd(ue, !1),
 											V = Le.updateQueue,
 											V !== null && ((M.updateQueue = V), (M.flags |= 4)),
 											M.subtreeFlags = 0,
@@ -15120,23 +15120,23 @@ Error generating stack: ` +
 																	firstContext: T.firstContext,
 																})),
 											(z = z.sibling);
-									return ui(mi, (mi.current & 1) | 2), M.child;
+									return ci(mi, (mi.current & 1) | 2), M.child;
 								}
 								T = T.sibling;
 							}
 						ue.tail !== null &&
-							_r() > gd &&
-							((M.flags |= 128), (V = !0), dd(ue, !1), (M.lanes = 4194304));
+							_r() > xd &&
+							((M.flags |= 128), (V = !0), fd(ue, !1), (M.lanes = 4194304));
 					}
 				else {
 					if (!V)
-						if (((T = Hd(Le)), T !== null)) {
+						if (((T = jd(Le)), T !== null)) {
 							if (
 								((M.flags |= 128),
 								(V = !0),
 								(z = T.updateQueue),
 								z !== null && ((M.updateQueue = z), (M.flags |= 4)),
-								dd(ue, !0),
+								fd(ue, !0),
 								ue.tail === null &&
 									ue.tailMode === "hidden" &&
 									!Le.alternate &&
@@ -15144,9 +15144,9 @@ Error generating stack: ` +
 							)
 								return va(M), null;
 						} else
-							2 * _r() - ue.renderingStartTime > gd &&
+							2 * _r() - ue.renderingStartTime > xd &&
 								z !== 1073741824 &&
-								((M.flags |= 128), (V = !0), dd(ue, !1), (M.lanes = 4194304));
+								((M.flags |= 128), (V = !0), fd(ue, !1), (M.lanes = 4194304));
 					ue.isBackwards
 						? ((Le.sibling = M.child), (M.child = Le))
 						: ((z = ue.last),
@@ -15160,13 +15160,13 @@ Error generating stack: ` +
 						(ue.renderingStartTime = _r()),
 						(M.sibling = null),
 						(z = mi.current),
-						ui(mi, V ? (z & 1) | 2 : z & 1),
+						ci(mi, V ? (z & 1) | 2 : z & 1),
 						M)
 					: (va(M), null);
 			case 22:
 			case 23:
 				return (
-					Cp(),
+					Ap(),
 					(V = M.memoizedState !== null),
 					T !== null && (T.memoizedState !== null) !== V && (M.flags |= 8192),
 					V && M.mode & 1
@@ -15182,25 +15182,25 @@ Error generating stack: ` +
 		}
 		throw Error(l(156, M.tag));
 	}
-	function hg(T, M) {
+	function pg(T, M) {
 		switch ((nl(M), M.tag)) {
 			case 1:
 				return (
-					Ua(M.type) && bh(),
+					Ua(M.type) && kh(),
 					(T = M.flags),
 					T & 65536 ? ((M.flags = (T & -65537) | 128), M) : null
 				);
 			case 3:
 				return (
-					rd(),
+					ad(),
 					fi($a),
 					fi(fa),
-					Jf(),
+					ep(),
 					(T = M.flags),
 					T & 65536 && !(T & 128) ? ((M.flags = (T & -65537) | 128), M) : null
 				);
 			case 5:
-				return Zf(M), null;
+				return Qf(M), null;
 			case 13:
 				if (
 					(fi(mi), (T = M.memoizedState), T !== null && T.dehydrated !== null)
@@ -15214,12 +15214,12 @@ Error generating stack: ` +
 			case 19:
 				return fi(mi), null;
 			case 4:
-				return rd(), null;
+				return ad(), null;
 			case 10:
-				return Ih(M.type._context), null;
+				return Mh(M.type._context), null;
 			case 22:
 			case 23:
-				return Cp(), null;
+				return Ap(), null;
 			case 24:
 				return null;
 			default:
@@ -15228,7 +15228,7 @@ Error generating stack: ` +
 	}
 	var ls = !1,
 		ti = !1,
-		mp = typeof WeakSet == "function" ? WeakSet : Set,
+		yp = typeof WeakSet == "function" ? WeakSet : Set,
 		Nr = null;
 	function No(T, M) {
 		var z = T.ref;
@@ -15241,16 +15241,16 @@ Error generating stack: ` +
 				}
 			else z.current = null;
 	}
-	function gp(T, M, z) {
+	function _p(T, M, z) {
 		try {
 			z();
 		} catch (V) {
 			Ci(T, M, V);
 		}
 	}
-	var ym = !1;
-	function eh(T, M) {
-		if (((Ld = et), (T = Gn()), Qs(T))) {
+	var Sm = !1;
+	function rh(T, M) {
+		if (((Od = et), (T = Gn()), Qs(T))) {
 			if ("selectionStart" in T)
 				var z = { start: T.selectionStart, end: T.selectionEnd };
 			else
@@ -15357,22 +15357,22 @@ Error generating stack: ` +
 					}
 					Nr = M.return;
 				}
-		return (Or = ym), (ym = !1), Or;
+		return (Or = Sm), (Sm = !1), Or;
 	}
-	function hd(T, M, z) {
+	function pd(T, M, z) {
 		var V = M.updateQueue;
 		if (((V = V !== null ? V.lastEffect : null), V !== null)) {
 			var Z = (V = V.next);
 			do {
 				if ((Z.tag & T) === T) {
 					var ue = Z.destroy;
-					(Z.destroy = void 0), ue !== void 0 && gp(M, z, ue);
+					(Z.destroy = void 0), ue !== void 0 && _p(M, z, ue);
 				}
 				Z = Z.next;
 			} while (Z !== V);
 		}
 	}
-	function th(T, M) {
+	function nh(T, M) {
 		if (
 			((M = M.updateQueue), (M = M !== null ? M.lastEffect : null), M !== null)
 		) {
@@ -15386,7 +15386,7 @@ Error generating stack: ` +
 			} while (z !== M);
 		}
 	}
-	function yp(T) {
+	function xp(T) {
 		var M = T.ref;
 		if (M !== null) {
 			var z = T.stateNode;
@@ -15400,9 +15400,9 @@ Error generating stack: ` +
 			typeof M == "function" ? M(T) : (M.current = T);
 		}
 	}
-	function xm(T) {
+	function vm(T) {
 		var M = T.alternate;
-		M !== null && ((T.alternate = null), xm(M)),
+		M !== null && ((T.alternate = null), vm(M)),
 			(T.child = null),
 			(T.deletions = null),
 			(T.sibling = null),
@@ -15411,9 +15411,9 @@ Error generating stack: ` +
 				M !== null &&
 					(delete M[Ns],
 					delete M[ko],
-					delete M[xh],
+					delete M[bh],
 					delete M[Ve],
-					delete M[Xc])),
+					delete M[Jc])),
 			(T.stateNode = null),
 			(T.return = null),
 			(T.dependencies = null),
@@ -15423,13 +15423,13 @@ Error generating stack: ` +
 			(T.stateNode = null),
 			(T.updateQueue = null);
 	}
-	function Sm(T) {
+	function bm(T) {
 		return T.tag === 5 || T.tag === 3 || T.tag === 4;
 	}
-	function vm(T) {
+	function wm(T) {
 		e: for (;;) {
 			for (; T.sibling === null; ) {
-				if (T.return === null || Sm(T.return)) return null;
+				if (T.return === null || bm(T.return)) return null;
 				T = T.return;
 			}
 			for (
@@ -15442,7 +15442,7 @@ Error generating stack: ` +
 			if (!(T.flags & 2)) return T.stateNode;
 		}
 	}
-	function Zh(T, M, z) {
+	function Qh(T, M, z) {
 		var V = T.tag;
 		if (V === 5 || V === 6)
 			(T = T.stateNode),
@@ -15454,25 +15454,25 @@ Error generating stack: ` +
 							? ((M = z.parentNode), M.insertBefore(T, z))
 							: ((M = z), M.appendChild(T)),
 						(z = z._reactRootContainer),
-						z != null || M.onclick !== null || (M.onclick = gh));
+						z != null || M.onclick !== null || (M.onclick = xh));
 		else if (V !== 4 && ((T = T.child), T !== null))
-			for (Zh(T, M, z), T = T.sibling; T !== null; )
-				Zh(T, M, z), (T = T.sibling);
+			for (Qh(T, M, z), T = T.sibling; T !== null; )
+				Qh(T, M, z), (T = T.sibling);
 	}
-	function Jh(T, M, z) {
+	function ef(T, M, z) {
 		var V = T.tag;
 		if (V === 5 || V === 6)
 			(T = T.stateNode), M ? z.insertBefore(T, M) : z.appendChild(T);
 		else if (V !== 4 && ((T = T.child), T !== null))
-			for (Jh(T, M, z), T = T.sibling; T !== null; )
-				Jh(T, M, z), (T = T.sibling);
+			for (ef(T, M, z), T = T.sibling; T !== null; )
+				ef(T, M, z), (T = T.sibling);
 	}
 	var sa = null,
 		Xa = !1;
 	function so(T, M, z) {
-		for (z = z.child; z !== null; ) fd(T, M, z), (z = z.sibling);
+		for (z = z.child; z !== null; ) md(T, M, z), (z = z.sibling);
 	}
-	function fd(T, M, z) {
+	function md(T, M, z) {
 		if (tr && typeof tr.onCommitFiberUnmount == "function")
 			try {
 				tr.onCommitFiberUnmount(xt, z);
@@ -15502,10 +15502,10 @@ Error generating stack: ` +
 						? ((T = sa),
 							(z = z.stateNode),
 							T.nodeType === 8
-								? $f(T.parentNode, z)
-								: T.nodeType === 1 && $f(T, z),
+								? qf(T.parentNode, z)
+								: T.nodeType === 1 && qf(T, z),
 							Pn(T))
-						: $f(sa, z.stateNode));
+						: qf(sa, z.stateNode));
 				break;
 			case 4:
 				(V = sa),
@@ -15529,7 +15529,7 @@ Error generating stack: ` +
 						var ue = Z,
 							Le = ue.destroy;
 						(ue = ue.tag),
-							Le !== void 0 && (ue & 2 || ue & 4) && gp(z, M, Le),
+							Le !== void 0 && (ue & 2 || ue & 4) && _p(z, M, Le),
 							(Z = Z.next);
 					} while (Z !== V);
 				}
@@ -15563,14 +15563,14 @@ Error generating stack: ` +
 				so(T, M, z);
 		}
 	}
-	function Qh(T) {
+	function tf(T) {
 		var M = T.updateQueue;
 		if (M !== null) {
 			T.updateQueue = null;
 			var z = T.stateNode;
-			z === null && (z = T.stateNode = new mp()),
+			z === null && (z = T.stateNode = new yp()),
 				M.forEach(function (V) {
-					var Z = vg.bind(null, T, V);
+					var Z = wg.bind(null, T, V);
 					z.has(V) || (z.add(V), V.then(Z, Z));
 				});
 		}
@@ -15599,7 +15599,7 @@ Error generating stack: ` +
 						it = it.return;
 					}
 					if (sa === null) throw Error(l(160));
-					fd(ue, Le, Z), (sa = null), (Xa = !1);
+					md(ue, Le, Z), (sa = null), (Xa = !1);
 					var mt = Z.alternate;
 					mt !== null && (mt.return = null), (Z.return = null);
 				} catch (Ut) {
@@ -15607,9 +15607,9 @@ Error generating stack: ` +
 				}
 			}
 		if (M.subtreeFlags & 12854)
-			for (M = M.child; M !== null; ) _p(M, T), (M = M.sibling);
+			for (M = M.child; M !== null; ) Sp(M, T), (M = M.sibling);
 	}
-	function _p(T, M) {
+	function Sp(T, M) {
 		var z = T.alternate,
 			V = T.flags;
 		switch (T.tag) {
@@ -15619,12 +15619,12 @@ Error generating stack: ` +
 			case 15:
 				if ((us(M, T), Za(T), V & 4)) {
 					try {
-						hd(3, T, T.return), th(3, T);
+						pd(3, T, T.return), nh(3, T);
 					} catch ($r) {
 						Ci(T, T.return, $r);
 					}
 					try {
-						hd(5, T, T.return);
+						pd(5, T, T.return);
 					} catch ($r) {
 						Ci(T, T.return, $r);
 					}
@@ -15728,8 +15728,8 @@ Error generating stack: ` +
 						(Z.stateNode.isHidden = ue),
 						!ue ||
 							(Z.alternate !== null && Z.alternate.memoizedState !== null) ||
-							(tf = _r())),
-					V & 4 && Qh(T);
+							(nf = _r())),
+					V & 4 && tf(T);
 				break;
 			case 22:
 				if (
@@ -15749,7 +15749,7 @@ Error generating stack: ` +
 									case 11:
 									case 14:
 									case 15:
-										hd(4, nr, nr.return);
+										pd(4, nr, nr.return);
 										break;
 									case 1:
 										No(nr, nr.return);
@@ -15771,11 +15771,11 @@ Error generating stack: ` +
 										break;
 									case 22:
 										if (nr.memoizedState !== null) {
-											wm(or);
+											Em(or);
 											continue;
 										}
 								}
-								Rr !== null ? ((Rr.return = nr), (Nr = Rr)) : wm(or);
+								Rr !== null ? ((Rr.return = nr), (Nr = Rr)) : Em(or);
 							}
 							ar = ar.sibling;
 						}
@@ -15829,7 +15829,7 @@ Error generating stack: ` +
 				}
 				break;
 			case 19:
-				us(M, T), Za(T), V & 4 && Qh(T);
+				us(M, T), Za(T), V & 4 && tf(T);
 				break;
 			case 21:
 				break;
@@ -15843,7 +15843,7 @@ Error generating stack: ` +
 			try {
 				e: {
 					for (var z = T.return; z !== null; ) {
-						if (Sm(z)) {
+						if (bm(z)) {
 							var V = z;
 							break e;
 						}
@@ -15855,14 +15855,14 @@ Error generating stack: ` +
 					case 5:
 						var Z = V.stateNode;
 						V.flags & 32 && (Ae(Z, ""), (V.flags &= -33));
-						var ue = vm(T);
-						Jh(T, ue, Z);
+						var ue = wm(T);
+						ef(T, ue, Z);
 						break;
 					case 3:
 					case 4:
 						var Le = V.stateNode.containerInfo,
-							it = vm(T);
-						Zh(T, it, Le);
+							it = wm(T);
+						Qh(T, it, Le);
 						break;
 					default:
 						throw Error(l(161));
@@ -15874,7 +15874,7 @@ Error generating stack: ` +
 		}
 		M & 4096 && (T.flags &= -4097);
 	}
-	function bm(T, M, z) {
+	function km(T, M, z) {
 		(Nr = T), Cs(T);
 	}
 	function Cs(T, M, z) {
@@ -15893,10 +15893,10 @@ Error generating stack: ` +
 							(Le = Nr),
 								(mt = Le.child),
 								Le.tag === 22 && Le.memoizedState !== null
-									? xp(Z)
+									? vp(Z)
 									: mt !== null
 										? ((mt.return = Le), (Nr = mt))
-										: xp(Z);
+										: vp(Z);
 					for (; ue !== null; ) (Nr = ue), Cs(ue), (ue = ue.sibling);
 					(Nr = Z), (ls = it), (ti = Ut);
 				}
@@ -15918,7 +15918,7 @@ Error generating stack: ` +
 							case 0:
 							case 11:
 							case 15:
-								ti || th(5, M);
+								ti || nh(5, M);
 								break;
 							case 1:
 								var V = M.stateNode;
@@ -15936,7 +15936,7 @@ Error generating stack: ` +
 										);
 									}
 								var ue = M.updateQueue;
-								ue !== null && em(M, ue, V);
+								ue !== null && rm(M, ue, V);
 								break;
 							case 3:
 								var Le = M.updateQueue;
@@ -15949,7 +15949,7 @@ Error generating stack: ` +
 											case 1:
 												z = M.child.stateNode;
 										}
-									em(M, Le, z);
+									rm(M, Le, z);
 								}
 								break;
 							case 5:
@@ -15997,7 +15997,7 @@ Error generating stack: ` +
 							default:
 								throw Error(l(163));
 						}
-					ti || (M.flags & 512 && yp(M));
+					ti || (M.flags & 512 && xp(M));
 				} catch (nr) {
 					Ci(M, M.return, nr);
 				}
@@ -16013,7 +16013,7 @@ Error generating stack: ` +
 			Nr = M.return;
 		}
 	}
-	function wm(T) {
+	function Em(T) {
 		for (; Nr !== null; ) {
 			var M = Nr;
 			if (M === T) {
@@ -16028,7 +16028,7 @@ Error generating stack: ` +
 			Nr = M.return;
 		}
 	}
-	function xp(T) {
+	function vp(T) {
 		for (; Nr !== null; ) {
 			var M = Nr;
 			try {
@@ -16038,7 +16038,7 @@ Error generating stack: ` +
 					case 15:
 						var z = M.return;
 						try {
-							th(4, M);
+							nh(4, M);
 						} catch (mt) {
 							Ci(M, z, mt);
 						}
@@ -16055,7 +16055,7 @@ Error generating stack: ` +
 						}
 						var ue = M.return;
 						try {
-							yp(M);
+							xp(M);
 						} catch (mt) {
 							Ci(M, ue, mt);
 						}
@@ -16063,7 +16063,7 @@ Error generating stack: ` +
 					case 5:
 						var Le = M.return;
 						try {
-							yp(M);
+							xp(M);
 						} catch (mt) {
 							Ci(M, Le, mt);
 						}
@@ -16083,45 +16083,45 @@ Error generating stack: ` +
 			Nr = M.return;
 		}
 	}
-	var fg = Math.ceil,
-		ef = N.ReactCurrentDispatcher,
-		Sp = N.ReactCurrentOwner,
+	var mg = Math.ceil,
+		rf = N.ReactCurrentDispatcher,
+		bp = N.ReactCurrentOwner,
 		cs = N.ReactCurrentBatchConfig,
 		Wn = 0,
 		ra = null,
 		Di = null,
 		oa = 0,
 		Ja = 0,
-		pd = Fa(0),
+		gd = Fa(0),
 		Gi = 0,
-		md = null,
+		yd = null,
 		Do = 0,
-		rh = 0,
-		vp = 0,
-		nh = null,
-		Ha = null,
-		tf = 0,
-		gd = 1 / 0,
-		oo = null,
-		rf = !1,
-		bp = null,
-		zo = null,
-		nf = !1,
-		Wi = null,
-		af = 0,
 		ih = 0,
-		wp = null,
-		ah = -1,
-		sf = 0;
+		wp = 0,
+		ah = null,
+		Ha = null,
+		nf = 0,
+		xd = 1 / 0,
+		oo = null,
+		af = !1,
+		kp = null,
+		zo = null,
+		sf = !1,
+		Wi = null,
+		of = 0,
+		sh = 0,
+		Ep = null,
+		oh = -1,
+		lf = 0;
 	function Oa() {
-		return Wn & 6 ? _r() : ah !== -1 ? ah : (ah = _r());
+		return Wn & 6 ? _r() : oh !== -1 ? oh : (oh = _r());
 	}
 	function Fo(T) {
 		return T.mode & 1
 			? Wn & 2 && oa !== 0
 				? oa & -oa
-				: Jp.transition !== null
-					? (sf === 0 && (sf = Sr()), sf)
+				: em.transition !== null
+					? (lf === 0 && (lf = Sr()), lf)
 					: ((T = mn),
 						T !== 0 ||
 							((T = window.event), (T = T === void 0 ? 16 : jn(T.type))),
@@ -16129,15 +16129,15 @@ Error generating stack: ` +
 			: 1;
 	}
 	function Is(T, M, z, V) {
-		if (50 < ih) throw ((ih = 0), (wp = null), Error(l(185)));
+		if (50 < sh) throw ((sh = 0), (Ep = null), Error(l(185)));
 		cn(T, z, V),
 			(!(Wn & 2) || T !== ra) &&
-				(T === ra && (!(Wn & 2) && (rh |= z), Gi === 4 && $o(T, oa)),
+				(T === ra && (!(Wn & 2) && (ih |= z), Gi === 4 && $o(T, oa)),
 				ba(T, V),
 				z === 1 &&
 					Wn === 0 &&
 					!(M.mode & 1) &&
-					((gd = _r() + 500), wh && To()));
+					((xd = _r() + 500), Eh && To()));
 	}
 	function ba(T, M) {
 		var z = T.callbackNode;
@@ -16147,8 +16147,8 @@ Error generating stack: ` +
 			z !== null && Vr(z), (T.callbackNode = null), (T.callbackPriority = 0);
 		else if (((M = V & -V), T.callbackPriority !== M)) {
 			if ((z != null && Vr(z), M === 1))
-				T.tag === 0 ? el(Em.bind(null, T)) : Yp(Em.bind(null, T)),
-					yh(function () {
+				T.tag === 0 ? el(Cm.bind(null, T)) : Zp(Cm.bind(null, T)),
+					Sh(function () {
 						!(Wn & 6) && To();
 					}),
 					(z = null);
@@ -16169,54 +16169,54 @@ Error generating stack: ` +
 					default:
 						z = pt;
 				}
-				z = Pm(z, km.bind(null, T));
+				z = Lm(z, Tm.bind(null, T));
 			}
 			(T.callbackPriority = M), (T.callbackNode = z);
 		}
 	}
-	function km(T, M) {
-		if (((ah = -1), (sf = 0), Wn & 6)) throw Error(l(327));
+	function Tm(T, M) {
+		if (((oh = -1), (lf = 0), Wn & 6)) throw Error(l(327));
 		var z = T.callbackNode;
 		if (Uo() && T.callbackNode !== z) return null;
 		var V = Cn(T, T === ra ? oa : 0);
 		if (V === 0) return null;
-		if (V & 30 || V & T.expiredLanes || M) M = of(T, V);
+		if (V & 30 || V & T.expiredLanes || M) M = uf(T, V);
 		else {
 			M = V;
 			var Z = Wn;
 			Wn |= 2;
-			var ue = Cm();
-			(ra !== T || oa !== M) && ((oo = null), (gd = _r() + 500), cl(T, M));
+			var ue = Am();
+			(ra !== T || oa !== M) && ((oo = null), (xd = _r() + 500), cl(T, M));
 			do
 				try {
-					gg();
+					xg();
 					break;
 				} catch (it) {
-					Tm(T, it);
+					Im(T, it);
 				}
 			while (!0);
-			Fd(),
-				(ef.current = ue),
+			Ud(),
+				(rf.current = ue),
 				(Wn = Z),
 				Di !== null ? (M = 0) : ((ra = null), (oa = 0), (M = Gi));
 		}
 		if (M !== 0) {
 			if (
-				(M === 2 && ((Z = Qn(T)), Z !== 0 && ((V = Z), (M = kp(T, Z)))),
+				(M === 2 && ((Z = Qn(T)), Z !== 0 && ((V = Z), (M = Tp(T, Z)))),
 				M === 1)
 			)
-				throw ((z = md), cl(T, 0), $o(T, V), ba(T, _r()), z);
+				throw ((z = yd), cl(T, 0), $o(T, V), ba(T, _r()), z);
 			if (M === 6) $o(T, V);
 			else {
 				if (
 					((Z = T.current.alternate),
 					!(V & 30) &&
-						!pg(Z) &&
-						((M = of(T, V)),
-						M === 2 && ((ue = Qn(T)), ue !== 0 && ((V = ue), (M = kp(T, ue)))),
+						!gg(Z) &&
+						((M = uf(T, V)),
+						M === 2 && ((ue = Qn(T)), ue !== 0 && ((V = ue), (M = Tp(T, ue)))),
 						M === 1))
 				)
-					throw ((z = md), cl(T, 0), $o(T, V), ba(T, _r()), z);
+					throw ((z = yd), cl(T, 0), $o(T, V), ba(T, _r()), z);
 				switch (((T.finishedWork = Z), (T.finishedLanes = V), M)) {
 					case 0:
 					case 1:
@@ -16227,7 +16227,7 @@ Error generating stack: ` +
 					case 3:
 						if (
 							($o(T, V),
-							(V & 130023424) === V && ((M = tf + 500 - _r()), 10 < M))
+							(V & 130023424) === V && ((M = nf + 500 - _r()), 10 < M))
 						) {
 							if (Cn(T, 0) !== 0) break;
 							if (((Z = T.suspendedLanes), (Z & V) !== V)) {
@@ -16261,7 +16261,7 @@ Error generating stack: ` +
 													? 3e3
 													: 4320 > V
 														? 4320
-														: 1960 * fg(V / 1960)) - V),
+														: 1960 * mg(V / 1960)) - V),
 							10 < V)
 						) {
 							T.timeoutHandle = bo(dl.bind(null, T, Ha, oo), V);
@@ -16277,21 +16277,21 @@ Error generating stack: ` +
 				}
 			}
 		}
-		return ba(T, _r()), T.callbackNode === z ? km.bind(null, T) : null;
+		return ba(T, _r()), T.callbackNode === z ? Tm.bind(null, T) : null;
 	}
-	function kp(T, M) {
-		var z = nh;
+	function Tp(T, M) {
+		var z = ah;
 		return (
 			T.current.memoizedState.isDehydrated && (cl(T, M).flags |= 256),
-			(T = of(T, M)),
-			T !== 2 && ((M = Ha), (Ha = z), M !== null && Ep(M)),
+			(T = uf(T, M)),
+			T !== 2 && ((M = Ha), (Ha = z), M !== null && Cp(M)),
 			T
 		);
 	}
-	function Ep(T) {
+	function Cp(T) {
 		Ha === null ? (Ha = T) : Ha.push.apply(Ha, T);
 	}
-	function pg(T) {
+	function gg(T) {
 		for (var M = T; ; ) {
 			if (M.flags & 16384) {
 				var z = M.updateQueue;
@@ -16322,8 +16322,8 @@ Error generating stack: ` +
 	}
 	function $o(T, M) {
 		for (
-			M &= ~vp,
-				M &= ~rh,
+			M &= ~wp,
+				M &= ~ih,
 				T.suspendedLanes |= M,
 				T.pingedLanes &= ~M,
 				T = T.expirationTimes;
@@ -16334,17 +16334,17 @@ Error generating stack: ` +
 			(T[z] = -1), (M &= ~V);
 		}
 	}
-	function Em(T) {
+	function Cm(T) {
 		if (Wn & 6) throw Error(l(327));
 		Uo();
 		var M = Cn(T, 0);
 		if (!(M & 1)) return ba(T, _r()), null;
-		var z = of(T, M);
+		var z = uf(T, M);
 		if (T.tag !== 0 && z === 2) {
 			var V = Qn(T);
-			V !== 0 && ((M = V), (z = kp(T, V)));
+			V !== 0 && ((M = V), (z = Tp(T, V)));
 		}
-		if (z === 1) throw ((z = md), cl(T, 0), $o(T, M), ba(T, _r()), z);
+		if (z === 1) throw ((z = yd), cl(T, 0), $o(T, M), ba(T, _r()), z);
 		if (z === 6) throw Error(l(345));
 		return (
 			(T.finishedWork = T.current.alternate),
@@ -16354,13 +16354,13 @@ Error generating stack: ` +
 			null
 		);
 	}
-	function Tp(T, M) {
+	function Ip(T, M) {
 		var z = Wn;
 		Wn |= 1;
 		try {
 			return T(M);
 		} finally {
-			(Wn = z), Wn === 0 && ((gd = _r() + 500), wh && To());
+			(Wn = z), Wn === 0 && ((xd = _r() + 500), Eh && To());
 		}
 	}
 	function ul(T) {
@@ -16375,27 +16375,27 @@ Error generating stack: ` +
 			(mn = V), (cs.transition = z), (Wn = M), !(Wn & 6) && To();
 		}
 	}
-	function Cp() {
-		(Ja = pd.current), fi(pd);
+	function Ap() {
+		(Ja = gd.current), fi(gd);
 	}
 	function cl(T, M) {
 		(T.finishedWork = null), (T.finishedLanes = 0);
 		var z = T.timeoutHandle;
-		if ((z !== -1 && ((T.timeoutHandle = -1), Od(z)), Di !== null))
+		if ((z !== -1 && ((T.timeoutHandle = -1), zd(z)), Di !== null))
 			for (z = Di.return; z !== null; ) {
 				var V = z;
 				switch ((nl(V), V.tag)) {
 					case 1:
-						(V = V.type.childContextTypes), V != null && bh();
+						(V = V.type.childContextTypes), V != null && kh();
 						break;
 					case 3:
-						rd(), fi($a), fi(fa), Jf();
+						ad(), fi($a), fi(fa), ep();
 						break;
 					case 5:
-						Zf(V);
+						Qf(V);
 						break;
 					case 4:
-						rd();
+						ad();
 						break;
 					case 13:
 						fi(mi);
@@ -16404,11 +16404,11 @@ Error generating stack: ` +
 						fi(mi);
 						break;
 					case 10:
-						Ih(V.type._context);
+						Mh(V.type._context);
 						break;
 					case 22:
 					case 23:
-						Cp();
+						Ap();
 				}
 				z = z.return;
 			}
@@ -16417,9 +16417,9 @@ Error generating stack: ` +
 			(Di = T = qo(T.current, null)),
 			(oa = Ja = M),
 			(Gi = 0),
-			(md = null),
-			(vp = rh = Do = 0),
-			(Ha = nh = null),
+			(yd = null),
+			(wp = ih = Do = 0),
+			(Ha = ah = null),
 			Ya !== null)
 		) {
 			for (M = 0; M < Ya.length; M++)
@@ -16437,26 +16437,26 @@ Error generating stack: ` +
 		}
 		return T;
 	}
-	function Tm(T, M) {
+	function Im(T, M) {
 		do {
 			var z = Di;
 			try {
-				if ((Fd(), (nd.current = io), Nh)) {
+				if ((Ud(), (sd.current = io), Dh)) {
 					for (var V = Si.memoizedState; V !== null; ) {
 						var Z = V.queue;
 						Z !== null && (Z.pending = null), (V = V.next);
 					}
-					Nh = !1;
+					Dh = !1;
 				}
 				if (
 					((sl = 0),
 					(Hi = vi = Si = null),
-					(jd = !1),
+					(Wd = !1),
 					(ya = 0),
-					(Sp.current = null),
+					(bp.current = null),
 					z === null || z.return === null)
 				) {
-					(Gi = 1), (md = M), (Di = null);
+					(Gi = 1), (yd = M), (Di = null);
 					break;
 				}
 				e: {
@@ -16482,11 +16482,11 @@ Error generating stack: ` +
 									(ar.lanes = nr.lanes))
 								: ((ar.updateQueue = null), (ar.memoizedState = null));
 						}
-						var Rr = lp(Le);
+						var Rr = cp(Le);
 						if (Rr !== null) {
 							(Rr.flags &= -257),
-								Xd(Rr, Le, it, ue, M),
-								Rr.mode & 1 && cm(ue, Ut, M),
+								Jd(Rr, Le, it, ue, M),
+								Rr.mode & 1 && hm(ue, Ut, M),
 								(M = Rr),
 								(mt = Ut);
 							var Or = M.updateQueue;
@@ -16497,30 +16497,30 @@ Error generating stack: ` +
 							break e;
 						} else {
 							if (!(M & 1)) {
-								cm(ue, Ut, M), Ip();
+								hm(ue, Ut, M), Mp();
 								break e;
 							}
 							mt = Error(l(426));
 						}
 					} else if (pi && it.mode & 1) {
-						var Pi = lp(Le);
+						var Pi = cp(Le);
 						if (Pi !== null) {
 							!(Pi.flags & 65536) && (Pi.flags |= 256),
-								Xd(Pi, Le, it, ue, M),
+								Jd(Pi, Le, it, ue, M),
 								Us(ll(mt, it));
 							break e;
 						}
 					}
 					(ue = mt = ll(mt, it)),
 						Gi !== 4 && (Gi = 2),
-						nh === null ? (nh = [ue]) : nh.push(ue),
+						ah === null ? (ah = [ue]) : ah.push(ue),
 						(ue = Le);
 					do {
 						switch (ue.tag) {
 							case 3:
 								(ue.flags |= 65536), (M &= -M), (ue.lanes |= M);
-								var Lt = Gh(ue, mt, M);
-								jf(ue, Lt);
+								var Lt = Kh(ue, mt, M);
+								Wf(ue, Lt);
 								break e;
 							case 1:
 								it = mt;
@@ -16534,15 +16534,15 @@ Error generating stack: ` +
 											(zo === null || !zo.has(Nt))))
 								) {
 									(ue.flags |= 65536), (M &= -M), (ue.lanes |= M);
-									var hr = Yd(ue, it, M);
-									jf(ue, hr);
+									var hr = Zd(ue, it, M);
+									Wf(ue, hr);
 									break e;
 								}
 						}
 						ue = ue.return;
 					} while (ue !== null);
 				}
-				Am(z);
+				Rm(z);
 			} catch (Hr) {
 				(M = Hr), Di === z && z !== null && (Di = z = z.return);
 				continue;
@@ -16550,48 +16550,48 @@ Error generating stack: ` +
 			break;
 		} while (!0);
 	}
-	function Cm() {
-		var T = ef.current;
-		return (ef.current = io), T === null ? io : T;
+	function Am() {
+		var T = rf.current;
+		return (rf.current = io), T === null ? io : T;
 	}
-	function Ip() {
+	function Mp() {
 		(Gi === 0 || Gi === 3 || Gi === 2) && (Gi = 4),
-			ra === null || (!(Do & 268435455) && !(rh & 268435455)) || $o(ra, oa);
+			ra === null || (!(Do & 268435455) && !(ih & 268435455)) || $o(ra, oa);
 	}
-	function of(T, M) {
+	function uf(T, M) {
 		var z = Wn;
 		Wn |= 2;
-		var V = Cm();
+		var V = Am();
 		(ra !== T || oa !== M) && ((oo = null), cl(T, M));
 		do
 			try {
-				mg();
+				yg();
 				break;
 			} catch (Z) {
-				Tm(T, Z);
+				Im(T, Z);
 			}
 		while (!0);
-		if ((Fd(), (Wn = z), (ef.current = V), Di !== null)) throw Error(l(261));
+		if ((Ud(), (Wn = z), (rf.current = V), Di !== null)) throw Error(l(261));
 		return (ra = null), (oa = 0), Gi;
 	}
-	function mg() {
-		for (; Di !== null; ) Im(Di);
+	function yg() {
+		for (; Di !== null; ) Mm(Di);
 	}
-	function gg() {
-		for (; Di !== null && !Qr(); ) Im(Di);
+	function xg() {
+		for (; Di !== null && !Qr(); ) Mm(Di);
 	}
-	function Im(T) {
-		var M = Rm(T.alternate, T, Ja);
+	function Mm(T) {
+		var M = Bm(T.alternate, T, Ja);
 		(T.memoizedProps = T.pendingProps),
-			M === null ? Am(T) : (Di = M),
-			(Sp.current = null);
+			M === null ? Rm(T) : (Di = M),
+			(bp.current = null);
 	}
-	function Am(T) {
+	function Rm(T) {
 		var M = T;
 		do {
 			var z = M.alternate;
 			if (((T = M.return), M.flags & 32768)) {
-				if (((z = hg(z, M)), z !== null)) {
+				if (((z = pg(z, M)), z !== null)) {
 					(z.flags &= 32767), (Di = z);
 					return;
 				}
@@ -16601,7 +16601,7 @@ Error generating stack: ` +
 					(Gi = 6), (Di = null);
 					return;
 				}
-			} else if (((z = dg(z, M, Ja)), z !== null)) {
+			} else if (((z = fg(z, M, Ja)), z !== null)) {
 				Di = z;
 				return;
 			}
@@ -16617,13 +16617,13 @@ Error generating stack: ` +
 		var V = mn,
 			Z = cs.transition;
 		try {
-			(cs.transition = null), (mn = 1), yg(T, M, z, V);
+			(cs.transition = null), (mn = 1), Sg(T, M, z, V);
 		} finally {
 			(cs.transition = Z), (mn = V);
 		}
 		return null;
 	}
-	function yg(T, M, z, V) {
+	function Sg(T, M, z, V) {
 		do Uo();
 		while (Wi !== null);
 		if (Wn & 6) throw Error(l(327));
@@ -16635,12 +16635,12 @@ Error generating stack: ` +
 		(T.callbackNode = null), (T.callbackPriority = 0);
 		var ue = z.lanes | z.childLanes;
 		if (
-			(si(T, ue),
+			(oi(T, ue),
 			T === ra && ((Di = ra = null), (oa = 0)),
 			(!(z.subtreeFlags & 2064) && !(z.flags & 2064)) ||
-				nf ||
-				((nf = !0),
-				Pm(pt, function () {
+				sf ||
+				((sf = !0),
+				Lm(pt, function () {
 					return Uo(), null;
 				})),
 			(ue = (z.flags & 15990) !== 0),
@@ -16651,21 +16651,21 @@ Error generating stack: ` +
 			mn = 1;
 			var it = Wn;
 			(Wn |= 4),
-				(Sp.current = null),
-				eh(T, z),
-				_p(z, T),
-				Rd(Qo),
-				(et = !!Ld),
-				(Qo = Ld = null),
+				(bp.current = null),
+				rh(T, z),
+				Sp(z, T),
+				Bd(Qo),
+				(et = !!Od),
+				(Qo = Od = null),
 				(T.current = z),
-				bm(z),
+				km(z),
 				un(),
 				(Wn = it),
 				(mn = Le),
 				(cs.transition = ue);
 		} else T.current = z;
 		if (
-			(nf && ((nf = !1), (Wi = T), (af = Z)),
+			(sf && ((sf = !1), (Wi = T), (of = Z)),
 			(ue = T.pendingLanes),
 			ue === 0 && (zo = null),
 			fr(z.stateNode),
@@ -16674,25 +16674,25 @@ Error generating stack: ` +
 		)
 			for (V = T.onRecoverableError, z = 0; z < M.length; z++)
 				(Z = M[z]), V(Z.value, { componentStack: Z.stack, digest: Z.digest });
-		if (rf) throw ((rf = !1), (T = bp), (bp = null), T);
+		if (af) throw ((af = !1), (T = kp), (kp = null), T);
 		return (
-			af & 1 && T.tag !== 0 && Uo(),
+			of & 1 && T.tag !== 0 && Uo(),
 			(ue = T.pendingLanes),
-			ue & 1 ? (T === wp ? ih++ : ((ih = 0), (wp = T))) : (ih = 0),
+			ue & 1 ? (T === Ep ? sh++ : ((sh = 0), (Ep = T))) : (sh = 0),
 			To(),
 			null
 		);
 	}
 	function Uo() {
 		if (Wi !== null) {
-			var T = Ii(af),
+			var T = Ii(of),
 				M = cs.transition,
 				z = mn;
 			try {
 				if (((cs.transition = null), (mn = 16 > T ? 16 : T), Wi === null))
 					var V = !1;
 				else {
-					if (((T = Wi), (Wi = null), (af = 0), Wn & 6)) throw Error(l(331));
+					if (((T = Wi), (Wi = null), (of = 0), Wn & 6)) throw Error(l(331));
 					var Z = Wn;
 					for (Wn |= 4, Nr = T.current; Nr !== null; ) {
 						var ue = Nr,
@@ -16708,7 +16708,7 @@ Error generating stack: ` +
 											case 0:
 											case 11:
 											case 15:
-												hd(8, ar, ue);
+												pd(8, ar, ue);
 										}
 										var or = ar.child;
 										if (or !== null) (or.return = ar), (Nr = or);
@@ -16717,7 +16717,7 @@ Error generating stack: ` +
 												ar = Nr;
 												var nr = ar.sibling,
 													Rr = ar.return;
-												if ((xm(ar), ar === Ut)) {
+												if ((vm(ar), ar === Ut)) {
 													Nr = null;
 													break;
 												}
@@ -16752,7 +16752,7 @@ Error generating stack: ` +
 										case 0:
 										case 11:
 										case 15:
-											hd(9, ue, ue.return);
+											pd(9, ue, ue.return);
 									}
 								var Lt = ue.sibling;
 								if (Lt !== null) {
@@ -16776,7 +16776,7 @@ Error generating stack: ` +
 											case 0:
 											case 11:
 											case 15:
-												th(9, it);
+												nh(9, it);
 										}
 									} catch (Hr) {
 										Ci(it, it.return, Hr);
@@ -16810,19 +16810,19 @@ Error generating stack: ` +
 		}
 		return !1;
 	}
-	function Ap(T, M, z) {
+	function Rp(T, M, z) {
 		(M = ll(z, M)),
-			(M = Gh(T, M, 1)),
+			(M = Kh(T, M, 1)),
 			(T = Ao(T, M, 1)),
 			(M = Oa()),
 			T !== null && (cn(T, 1, M), ba(T, M));
 	}
 	function Ci(T, M, z) {
-		if (T.tag === 3) Ap(T, T, z);
+		if (T.tag === 3) Rp(T, T, z);
 		else
 			for (; M !== null; ) {
 				if (M.tag === 3) {
-					Ap(M, T, z);
+					Rp(M, T, z);
 					break;
 				} else if (M.tag === 1) {
 					var V = M.stateNode;
@@ -16832,7 +16832,7 @@ Error generating stack: ` +
 							(zo === null || !zo.has(V)))
 					) {
 						(T = ll(z, T)),
-							(T = Yd(M, T, 1)),
+							(T = Zd(M, T, 1)),
 							(M = Ao(M, T, 1)),
 							(T = Oa()),
 							M !== null && (cn(M, 1, T), ba(M, T));
@@ -16842,19 +16842,19 @@ Error generating stack: ` +
 				M = M.return;
 			}
 	}
-	function xg(T, M, z) {
+	function vg(T, M, z) {
 		var V = T.pingCache;
 		V !== null && V.delete(M),
 			(M = Oa()),
 			(T.pingedLanes |= T.suspendedLanes & z),
 			ra === T &&
 				(oa & z) === z &&
-				(Gi === 4 || (Gi === 3 && (oa & 130023424) === oa && 500 > _r() - tf)
+				(Gi === 4 || (Gi === 3 && (oa & 130023424) === oa && 500 > _r() - nf)
 					? cl(T, 0)
-					: (vp |= z)),
+					: (wp |= z)),
 			ba(T, M);
 	}
-	function Mm(T, M) {
+	function Pm(T, M) {
 		M === 0 &&
 			(T.mode & 1
 				? ((M = Mr), (Mr <<= 1), !(Mr & 130023424) && (Mr = 4194304))
@@ -16862,12 +16862,12 @@ Error generating stack: ` +
 		var z = Oa();
 		(T = ws(T, M)), T !== null && (cn(T, M, z), ba(T, z));
 	}
-	function Sg(T) {
+	function bg(T) {
 		var M = T.memoizedState,
 			z = 0;
-		M !== null && (z = M.retryLane), Mm(T, z);
+		M !== null && (z = M.retryLane), Pm(T, z);
 	}
-	function vg(T, M) {
+	function wg(T, M) {
 		var z = 0;
 		switch (T.tag) {
 			case 13:
@@ -16881,24 +16881,24 @@ Error generating stack: ` +
 			default:
 				throw Error(l(314));
 		}
-		V !== null && V.delete(M), Mm(T, z);
+		V !== null && V.delete(M), Pm(T, z);
 	}
-	var Rm;
-	Rm = function (T, M, z) {
+	var Bm;
+	Bm = function (T, M, z) {
 		if (T !== null)
 			if (T.memoizedProps !== M.pendingProps || $a.current) xa = !0;
 			else {
 				if (!(T.lanes & z) && !(M.flags & 128)) return (xa = !1), Sa(T, M, z);
 				xa = !!(T.flags & 131072);
 			}
-		else (xa = !1), pi && M.flags & 1048576 && Xp(M, Eh, M.index);
+		else (xa = !1), pi && M.flags & 1048576 && Jp(M, Ch, M.index);
 		switch (((M.lanes = 0), M.tag)) {
 			case 2:
 				var V = M.type;
-				cd(T, M), (T = M.pendingProps);
-				var Z = Jc(M, fa.current);
-				Co(M, z), (Z = Oh(null, M, V, T, Z, z));
-				var ue = Dh();
+				hd(T, M), (T = M.pendingProps);
+				var Z = ed(M, fa.current);
+				Co(M, z), (Z = zh(null, M, V, T, Z, z));
+				var ue = Fh();
 				return (
 					(M.flags |= 1),
 					typeof Z == "object" &&
@@ -16911,14 +16911,14 @@ Error generating stack: ` +
 							Ua(V) ? ((ue = !0), is(M)) : (ue = !1),
 							(M.memoizedState =
 								Z.state !== null && Z.state !== void 0 ? Z.state : null),
-							Vf(M),
-							(Z.updater = Rh),
+							Gf(M),
+							(Z.updater = Bh),
 							(M.stateNode = Z),
 							(Z._reactInternals = M),
-							Kf(M, V, T, z),
-							(M = hp(null, M, V, !0, ue, z)))
+							Xf(M, V, T, z),
+							(M = pp(null, M, V, !0, ue, z)))
 						: ((M.tag = 0),
-							pi && ue && Dd(M),
+							pi && ue && Fd(M),
 							Na(null, M, Z, z),
 							(M = M.child)),
 					M
@@ -16927,23 +16927,23 @@ Error generating stack: ` +
 				V = M.elementType;
 				e: {
 					switch (
-						(cd(T, M),
+						(hd(T, M),
 						(T = M.pendingProps),
 						(Z = V._init),
 						(V = Z(V._payload)),
 						(M.type = V),
-						(Z = M.tag = lf(V)),
+						(Z = M.tag = cf(V)),
 						(T = bs(V, T)),
 						Z)
 					) {
 						case 0:
-							M = Wh(null, M, V, T, z);
+							M = Yh(null, M, V, T, z);
 							break e;
 						case 1:
-							M = fm(null, M, V, T, z);
+							M = mm(null, M, V, T, z);
 							break e;
 						case 11:
-							M = up(null, M, V, T, z);
+							M = dp(null, M, V, T, z);
 							break e;
 						case 14:
 							M = qs(null, M, V, bs(V.type, T), z);
@@ -16957,14 +16957,14 @@ Error generating stack: ` +
 					(V = M.type),
 					(Z = M.pendingProps),
 					(Z = M.elementType === V ? Z : bs(V, Z)),
-					Wh(T, M, V, Z, z)
+					Yh(T, M, V, Z, z)
 				);
 			case 1:
 				return (
 					(V = M.type),
 					(Z = M.pendingProps),
 					(Z = M.elementType === V ? Z : bs(V, Z)),
-					fm(T, M, V, Z, z)
+					mm(T, M, V, Z, z)
 				);
 			case 3:
 				e: {
@@ -16972,8 +16972,8 @@ Error generating stack: ` +
 					(V = M.pendingProps),
 						(ue = M.memoizedState),
 						(Z = ue.element),
-						Qp(T, M),
-						Mh(M, V, null, z);
+						tm(T, M),
+						Ph(M, V, null, z);
 					var Le = M.memoizedState;
 					if (((V = Le.element), ue.isDehydrated))
 						if (
@@ -16988,10 +16988,10 @@ Error generating stack: ` +
 							(M.memoizedState = ue),
 							M.flags & 256)
 						) {
-							(Z = ll(Error(l(423)), M)), (M = Kh(T, M, V, z, Z));
+							(Z = ll(Error(l(423)), M)), (M = Xh(T, M, V, z, Z));
 							break e;
 						} else if (V !== Z) {
-							(Z = ll(Error(l(424)), M)), (M = Kh(T, M, V, z, Z));
+							(Z = ll(Error(l(424)), M)), (M = Xh(T, M, V, z, Z));
 							break e;
 						} else
 							for (
@@ -16999,7 +16999,7 @@ Error generating stack: ` +
 									ma = M,
 									pi = !0,
 									vs = null,
-									z = Yf(M, null, V, z),
+									z = Zf(M, null, V, z),
 									M.child = z;
 								z;
 							)
@@ -17016,24 +17016,24 @@ Error generating stack: ` +
 				return M;
 			case 5:
 				return (
-					Xf(M),
+					Jf(M),
 					T === null && qa(M),
 					(V = M.type),
 					(Z = M.pendingProps),
 					(ue = T !== null ? T.memoizedProps : null),
 					(Le = Z.children),
-					Nd(V, Z) ? (Le = null) : ue !== null && Nd(V, ue) && (M.flags |= 32),
-					hm(T, M),
+					Dd(V, Z) ? (Le = null) : ue !== null && Dd(V, ue) && (M.flags |= 32),
+					pm(T, M),
 					Na(T, M, Le, z),
 					M.child
 				);
 			case 6:
 				return T === null && qa(M), null;
 			case 13:
-				return Qd(T, M, z);
+				return th(T, M, z);
 			case 4:
 				return (
-					Lh(M, M.stateNode.containerInfo),
+					Oh(M, M.stateNode.containerInfo),
 					(V = M.pendingProps),
 					T === null ? (M.child = Ro(M, null, V, z)) : Na(T, M, V, z),
 					M.child
@@ -17043,7 +17043,7 @@ Error generating stack: ` +
 					(V = M.type),
 					(Z = M.pendingProps),
 					(Z = M.elementType === V ? Z : bs(V, Z)),
-					up(T, M, V, Z, z)
+					dp(T, M, V, Z, z)
 				);
 			case 7:
 				return Na(T, M, M.pendingProps, z), M.child;
@@ -17058,7 +17058,7 @@ Error generating stack: ` +
 						(Z = M.pendingProps),
 						(ue = M.memoizedProps),
 						(Le = Z.value),
-						ui(il, V._currentValue),
+						ci(il, V._currentValue),
 						(V._currentValue = Le),
 						ue !== null)
 					)
@@ -17145,31 +17145,31 @@ Error generating stack: ` +
 					qs(T, M, V, Z, z)
 				);
 			case 15:
-				return cp(T, M, M.type, M.pendingProps, z);
+				return hp(T, M, M.type, M.pendingProps, z);
 			case 17:
 				return (
 					(V = M.type),
 					(Z = M.pendingProps),
 					(Z = M.elementType === V ? Z : bs(V, Z)),
-					cd(T, M),
+					hd(T, M),
 					(M.tag = 1),
 					Ua(V) ? ((T = !0), is(M)) : (T = !1),
 					Co(M, z),
-					Wf(M, V, Z),
-					Kf(M, V, Z, z),
-					hp(null, M, V, !0, T, z)
+					Yf(M, V, Z),
+					Xf(M, V, Z, z),
+					pp(null, M, V, !0, T, z)
 				);
 			case 19:
-				return pm(T, M, z);
+				return gm(T, M, z);
 			case 22:
-				return dp(T, M, z);
+				return fp(T, M, z);
 		}
 		throw Error(l(156, M.tag));
 	};
-	function Pm(T, M) {
+	function Lm(T, M) {
 		return Bt(T, M);
 	}
-	function bg(T, M, z, V) {
+	function kg(T, M, z, V) {
 		(this.tag = T),
 			(this.key = z),
 			(this.sibling =
@@ -17194,13 +17194,13 @@ Error generating stack: ` +
 			(this.alternate = null);
 	}
 	function Qa(T, M, z, V) {
-		return new bg(T, M, z, V);
+		return new kg(T, M, z, V);
 	}
-	function Mp(T) {
+	function Pp(T) {
 		return (T = T.prototype), !(!T || !T.isReactComponent);
 	}
-	function lf(T) {
-		if (typeof T == "function") return Mp(T) ? 1 : 0;
+	function cf(T) {
+		if (typeof T == "function") return Pp(T) ? 1 : 0;
 		if (T != null) {
 			if (((T = T.$$typeof), T === de)) return 11;
 			if (T === le) return 14;
@@ -17238,9 +17238,9 @@ Error generating stack: ` +
 			z
 		);
 	}
-	function uf(T, M, z, V, Z, ue) {
+	function df(T, M, z, V, Z, ue) {
 		var Le = 2;
-		if (((V = T), typeof T == "function")) Mp(T) && (Le = 1);
+		if (((V = T), typeof T == "function")) Pp(T) && (Le = 1);
 		else if (typeof T == "string") Le = 5;
 		else
 			e: switch (T) {
@@ -17258,7 +17258,7 @@ Error generating stack: ` +
 				case se:
 					return (T = Qa(19, z, M, Z)), (T.elementType = se), (T.lanes = ue), T;
 				case fe:
-					return cf(z, Z, ue, M);
+					return hf(z, Z, ue, M);
 				default:
 					if (typeof T == "object" && T !== null)
 						switch (T.$$typeof) {
@@ -17291,7 +17291,7 @@ Error generating stack: ` +
 	function hl(T, M, z, V) {
 		return (T = Qa(7, T, V, M)), (T.lanes = z), T;
 	}
-	function cf(T, M, z, V) {
+	function hf(T, M, z, V) {
 		return (
 			(T = Qa(22, T, V, M)),
 			(T.elementType = fe),
@@ -17300,10 +17300,10 @@ Error generating stack: ` +
 			T
 		);
 	}
-	function Rp(T, M, z) {
+	function Bp(T, M, z) {
 		return (T = Qa(6, T, null, M)), (T.lanes = z), T;
 	}
-	function Pp(T, M, z) {
+	function Lp(T, M, z) {
 		return (
 			(M = Qa(4, T.children !== null ? T.children : [], T.key, M)),
 			(M.lanes = z),
@@ -17315,7 +17315,7 @@ Error generating stack: ` +
 			M
 		);
 	}
-	function wg(T, M, z, V, Z) {
+	function Eg(T, M, z, V, Z) {
 		(this.tag = M),
 			(this.containerInfo = T),
 			(this.finishedWork =
@@ -17326,8 +17326,8 @@ Error generating stack: ` +
 			(this.timeoutHandle = -1),
 			(this.callbackNode = this.pendingContext = this.context = null),
 			(this.callbackPriority = 0),
-			(this.eventTimes = li(0)),
-			(this.expirationTimes = li(-1)),
+			(this.eventTimes = ui(0)),
+			(this.expirationTimes = ui(-1)),
 			(this.entangledLanes =
 				this.finishedLanes =
 				this.mutableReadLanes =
@@ -17336,14 +17336,14 @@ Error generating stack: ` +
 				this.suspendedLanes =
 				this.pendingLanes =
 					0),
-			(this.entanglements = li(0)),
+			(this.entanglements = ui(0)),
 			(this.identifierPrefix = V),
 			(this.onRecoverableError = Z),
 			(this.mutableSourceEagerHydrationData = null);
 	}
-	function Bp(T, M, z, V, Z, ue, Le, it, mt) {
+	function Np(T, M, z, V, Z, ue, Le, it, mt) {
 		return (
-			(T = new wg(T, M, z, it, mt)),
+			(T = new Eg(T, M, z, it, mt)),
 			M === 1 ? ((M = 1), ue === !0 && (M |= 8)) : (M = 0),
 			(ue = Qa(3, null, null, M)),
 			(T.current = ue),
@@ -17355,11 +17355,11 @@ Error generating stack: ` +
 				transitions: null,
 				pendingSuspenseBoundaries: null,
 			}),
-			Vf(ue),
+			Gf(ue),
 			T
 		);
 	}
-	function kg(T, M, z) {
+	function Tg(T, M, z) {
 		var V =
 			3 < arguments.length && arguments[3] !== void 0 ? arguments[3] : null;
 		return {
@@ -17370,7 +17370,7 @@ Error generating stack: ` +
 			implementation: z,
 		};
 	}
-	function Bm(T) {
+	function Nm(T) {
 		if (!T) return Eo;
 		T = T._reactInternals;
 		e: {
@@ -17393,14 +17393,14 @@ Error generating stack: ` +
 		}
 		if (T.tag === 1) {
 			var z = T.type;
-			if (Ua(z)) return Wp(T, z, M);
+			if (Ua(z)) return Yp(T, z, M);
 		}
 		return M;
 	}
-	function Lm(T, M, z, V, Z, ue, Le, it, mt) {
+	function Om(T, M, z, V, Z, ue, Le, it, mt) {
 		return (
-			(T = Bp(z, V, !0, T, Z, ue, Le, it, mt)),
-			(T.context = Bm(null)),
+			(T = Np(z, V, !0, T, Z, ue, Le, it, mt)),
+			(T.context = Nm(null)),
 			(z = T.current),
 			(V = Oa()),
 			(Z = Fo(z)),
@@ -17413,12 +17413,12 @@ Error generating stack: ` +
 			T
 		);
 	}
-	function df(T, M, z, V) {
+	function ff(T, M, z, V) {
 		var Z = M.current,
 			ue = Oa(),
 			Le = Fo(Z);
 		return (
-			(z = Bm(z)),
+			(z = Nm(z)),
 			M.context === null ? (M.context = z) : (M.pendingContext = z),
 			(M = ks(ue, Le)),
 			(M.payload = { element: T }),
@@ -17429,7 +17429,7 @@ Error generating stack: ` +
 			Le
 		);
 	}
-	function hf(T) {
+	function pf(T) {
 		if (((T = T.current), !T.child)) return null;
 		switch (T.child.tag) {
 			case 5:
@@ -17438,49 +17438,49 @@ Error generating stack: ` +
 				return T.child.stateNode;
 		}
 	}
-	function Nm(T, M) {
+	function Dm(T, M) {
 		if (((T = T.memoizedState), T !== null && T.dehydrated !== null)) {
 			var z = T.retryLane;
 			T.retryLane = z !== 0 && z < M ? z : M;
 		}
 	}
-	function Lp(T, M) {
-		Nm(T, M), (T = T.alternate) && Nm(T, M);
+	function Op(T, M) {
+		Dm(T, M), (T = T.alternate) && Dm(T, M);
 	}
-	function Eg() {
+	function Cg() {
 		return null;
 	}
-	var Np =
+	var Dp =
 		typeof reportError == "function"
 			? reportError
 			: function (T) {
 					console.error(T);
 				};
-	function ff(T) {
+	function mf(T) {
 		this._internalRoot = T;
 	}
-	(pf.prototype.render = ff.prototype.render =
+	(gf.prototype.render = mf.prototype.render =
 		function (T) {
 			var M = this._internalRoot;
 			if (M === null) throw Error(l(409));
-			df(T, M, null, null);
+			ff(T, M, null, null);
 		}),
-		(pf.prototype.unmount = ff.prototype.unmount =
+		(gf.prototype.unmount = mf.prototype.unmount =
 			function () {
 				var T = this._internalRoot;
 				if (T !== null) {
 					this._internalRoot = null;
 					var M = T.containerInfo;
 					ul(function () {
-						df(null, T, null, null);
+						ff(null, T, null, null);
 					}),
 						(M[Wa] = null);
 				}
 			});
-	function pf(T) {
+	function gf(T) {
 		this._internalRoot = T;
 	}
-	pf.prototype.unstable_scheduleHydration = function (T) {
+	gf.prototype.unstable_scheduleHydration = function (T) {
 		if (T) {
 			var M = On();
 			T = { blockedOn: null, target: T, priority: M };
@@ -17488,10 +17488,10 @@ Error generating stack: ` +
 			Ai.splice(z, 0, T), z === 0 && ms(T);
 		}
 	};
-	function Op(T) {
+	function zp(T) {
 		return !(!T || (T.nodeType !== 1 && T.nodeType !== 9 && T.nodeType !== 11));
 	}
-	function mf(T) {
+	function yf(T) {
 		return !(
 			!T ||
 			(T.nodeType !== 1 &&
@@ -17500,17 +17500,17 @@ Error generating stack: ` +
 				(T.nodeType !== 8 || T.nodeValue !== " react-mount-point-unstable "))
 		);
 	}
-	function Om() {}
-	function gf(T, M, z, V, Z) {
+	function zm() {}
+	function xf(T, M, z, V, Z) {
 		if (Z) {
 			if (typeof V == "function") {
 				var ue = V;
 				V = function () {
-					var Ut = hf(Le);
+					var Ut = pf(Le);
 					ue.call(Ut);
 				};
 			}
-			var Le = Lm(M, V, T, 0, null, !1, !1, "", Om);
+			var Le = Om(M, V, T, 0, null, !1, !1, "", zm);
 			return (
 				(T._reactRootContainer = Le),
 				(T[Wa] = Le.current),
@@ -17523,35 +17523,35 @@ Error generating stack: ` +
 		if (typeof V == "function") {
 			var it = V;
 			V = function () {
-				var Ut = hf(mt);
+				var Ut = pf(mt);
 				it.call(Ut);
 			};
 		}
-		var mt = Bp(T, 0, !1, null, null, !1, !1, "", Om);
+		var mt = Np(T, 0, !1, null, null, !1, !1, "", zm);
 		return (
 			(T._reactRootContainer = mt),
 			(T[Wa] = mt.current),
 			vo(T.nodeType === 8 ? T.parentNode : T),
 			ul(function () {
-				df(M, mt, z, V);
+				ff(M, mt, z, V);
 			}),
 			mt
 		);
 	}
-	function yf(T, M, z, V, Z) {
+	function Sf(T, M, z, V, Z) {
 		var ue = z._reactRootContainer;
 		if (ue) {
 			var Le = ue;
 			if (typeof Z == "function") {
 				var it = Z;
 				Z = function () {
-					var mt = hf(Le);
+					var mt = pf(Le);
 					it.call(mt);
 				};
 			}
-			df(M, Le, T, Z);
-		} else Le = gf(z, M, T, Z, V);
-		return hf(Le);
+			ff(M, Le, T, Z);
+		} else Le = xf(z, M, T, Z, V);
+		return pf(Le);
 	}
 	(Nn = function (T) {
 		switch (T.tag) {
@@ -17560,7 +17560,7 @@ Error generating stack: ` +
 				if (M.current.memoizedState.isDehydrated) {
 					var z = wn(M.pendingLanes);
 					z !== 0 &&
-						(gi(M, z | 1), ba(M, _r()), !(Wn & 6) && ((gd = _r() + 500), To()));
+						(gi(M, z | 1), ba(M, _r()), !(Wn & 6) && ((xd = _r() + 500), To()));
 				}
 				break;
 			case 13:
@@ -17571,7 +17571,7 @@ Error generating stack: ` +
 						Is(V, T, 1, Z);
 					}
 				}),
-					Lp(T, 1);
+					Op(T, 1);
 		}
 	}),
 		($n = function (T) {
@@ -17581,7 +17581,7 @@ Error generating stack: ` +
 					var z = Oa();
 					Is(M, T, 134217728, z);
 				}
-				Lp(T, 134217728);
+				Op(T, 134217728);
 			}
 		}),
 		(Li = function (T) {
@@ -17592,7 +17592,7 @@ Error generating stack: ` +
 					var V = Oa();
 					Is(z, T, M, V);
 				}
-				Lp(T, M);
+				Op(T, M);
 			}
 		}),
 		(On = function () {
@@ -17621,7 +17621,7 @@ Error generating stack: ` +
 						) {
 							var V = z[M];
 							if (V !== T && V.form === T.form) {
-								var Z = Sh(V);
+								var Z = wh(V);
 								if (!Z) throw Error(l(90));
 								be(V), ge(V, Z);
 							}
@@ -17635,20 +17635,20 @@ Error generating stack: ` +
 					(M = z.value), M != null && tt(T, !!z.multiple, M, !1);
 			}
 		}),
-		(rr = Tp),
+		(rr = Ip),
 		(Kt = ul);
-	var Tg = { usingClientEntryPoint: !1, Events: [ha, An, Sh, $t, dr, Tp] },
-		sh = {
+	var Ig = { usingClientEntryPoint: !1, Events: [ha, An, wh, $t, dr, Ip] },
+		lh = {
 			findFiberByHostInstance: Os,
 			bundleType: 0,
 			version: "18.2.0",
 			rendererPackageName: "react-dom",
 		},
-		Cg = {
-			bundleType: sh.bundleType,
-			version: sh.version,
-			rendererPackageName: sh.rendererPackageName,
-			rendererConfig: sh.rendererConfig,
+		Ag = {
+			bundleType: lh.bundleType,
+			version: lh.version,
+			rendererPackageName: lh.rendererPackageName,
+			rendererConfig: lh.rendererConfig,
 			overrideHookState: null,
 			overrideHookStateDeletePath: null,
 			overrideHookStateRenamePath: null,
@@ -17662,7 +17662,7 @@ Error generating stack: ` +
 			findHostInstanceByFiber: function (T) {
 				return (T = zr(T)), T === null ? null : T.stateNode;
 			},
-			findFiberByHostInstance: sh.findFiberByHostInstance || Eg,
+			findFiberByHostInstance: lh.findFiberByHostInstance || Cg,
 			findHostInstancesForRefresh: null,
 			scheduleRefresh: null,
 			scheduleRoot: null,
@@ -17671,35 +17671,35 @@ Error generating stack: ` +
 			reconcilerVersion: "18.2.0-next-9e3b772b8-20220608",
 		};
 	if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ < "u") {
-		var xf = __REACT_DEVTOOLS_GLOBAL_HOOK__;
-		if (!xf.isDisabled && xf.supportsFiber)
+		var vf = __REACT_DEVTOOLS_GLOBAL_HOOK__;
+		if (!vf.isDisabled && vf.supportsFiber)
 			try {
-				(xt = xf.inject(Cg)), (tr = xf);
+				(xt = vf.inject(Ag)), (tr = vf);
 			} catch {}
 	}
 	return (
 		(reactDom_production_min.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED =
-			Tg),
+			Ig),
 		(reactDom_production_min.createPortal = function (T, M) {
 			var z =
 				2 < arguments.length && arguments[2] !== void 0 ? arguments[2] : null;
-			if (!Op(M)) throw Error(l(200));
-			return kg(T, M, null, z);
+			if (!zp(M)) throw Error(l(200));
+			return Tg(T, M, null, z);
 		}),
 		(reactDom_production_min.createRoot = function (T, M) {
-			if (!Op(T)) throw Error(l(299));
+			if (!zp(T)) throw Error(l(299));
 			var z = !1,
 				V = "",
-				Z = Np;
+				Z = Dp;
 			return (
 				M != null &&
 					(M.unstable_strictMode === !0 && (z = !0),
 					M.identifierPrefix !== void 0 && (V = M.identifierPrefix),
 					M.onRecoverableError !== void 0 && (Z = M.onRecoverableError)),
-				(M = Bp(T, 1, !1, null, null, z, !1, V, Z)),
+				(M = Np(T, 1, !1, null, null, z, !1, V, Z)),
 				(T[Wa] = M.current),
 				vo(T.nodeType === 8 ? T.parentNode : T),
-				new ff(M)
+				new mf(M)
 			);
 		}),
 		(reactDom_production_min.findDOMNode = function (T) {
@@ -17716,21 +17716,21 @@ Error generating stack: ` +
 			return ul(T);
 		}),
 		(reactDom_production_min.hydrate = function (T, M, z) {
-			if (!mf(M)) throw Error(l(200));
-			return yf(null, T, M, !0, z);
+			if (!yf(M)) throw Error(l(200));
+			return Sf(null, T, M, !0, z);
 		}),
 		(reactDom_production_min.hydrateRoot = function (T, M, z) {
-			if (!Op(T)) throw Error(l(405));
+			if (!zp(T)) throw Error(l(405));
 			var V = (z != null && z.hydratedSources) || null,
 				Z = !1,
 				ue = "",
-				Le = Np;
+				Le = Dp;
 			if (
 				(z != null &&
 					(z.unstable_strictMode === !0 && (Z = !0),
 					z.identifierPrefix !== void 0 && (ue = z.identifierPrefix),
 					z.onRecoverableError !== void 0 && (Le = z.onRecoverableError)),
-				(M = Lm(M, null, T, 1, z ?? null, Z, !1, ue, Le)),
+				(M = Om(M, null, T, 1, z ?? null, Z, !1, ue, Le)),
 				(T[Wa] = M.current),
 				vo(T),
 				V)
@@ -17742,33 +17742,33 @@ Error generating stack: ` +
 						M.mutableSourceEagerHydrationData == null
 							? (M.mutableSourceEagerHydrationData = [z, Z])
 							: M.mutableSourceEagerHydrationData.push(z, Z);
-			return new pf(M);
+			return new gf(M);
 		}),
 		(reactDom_production_min.render = function (T, M, z) {
-			if (!mf(M)) throw Error(l(200));
-			return yf(null, T, M, !1, z);
+			if (!yf(M)) throw Error(l(200));
+			return Sf(null, T, M, !1, z);
 		}),
 		(reactDom_production_min.unmountComponentAtNode = function (T) {
-			if (!mf(T)) throw Error(l(40));
+			if (!yf(T)) throw Error(l(40));
 			return T._reactRootContainer
 				? (ul(function () {
-						yf(null, null, T, !1, function () {
+						Sf(null, null, T, !1, function () {
 							(T._reactRootContainer = null), (T[Wa] = null);
 						});
 					}),
 					!0)
 				: !1;
 		}),
-		(reactDom_production_min.unstable_batchedUpdates = Tp),
+		(reactDom_production_min.unstable_batchedUpdates = Ip),
 		(reactDom_production_min.unstable_renderSubtreeIntoContainer = function (
 			T,
 			M,
 			z,
 			V,
 		) {
-			if (!mf(z)) throw Error(l(200));
+			if (!yf(z)) throw Error(l(200));
 			if (T == null || T._reactInternals === void 0) throw Error(l(38));
-			return yf(T, M, z, !1, V);
+			return Sf(T, M, z, !1, V);
 		}),
 		(reactDom_production_min.version = "18.2.0-next-9e3b772b8-20220608"),
 		reactDom_production_min
@@ -18161,9 +18161,9 @@ function requireLodash() {
 						Ln = "[" + At + "]",
 						Qn = "[" + It + "]",
 						Sr = "[^" + _r + Wr + xn + At + It + Ir + "]",
-						li = "\\ud83c[\\udffb-\\udfff]",
-						cn = "(?:" + Cn + "|" + li + ")",
-						si = "[^" + _r + "]",
+						ui = "\\ud83c[\\udffb-\\udfff]",
+						cn = "(?:" + Cn + "|" + ui + ")",
+						oi = "[^" + _r + "]",
 						gi = "(?:\\ud83c[\\udde6-\\uddff]){2}",
 						mn = "[\\ud800-\\udbff][\\udc00-\\udfff]",
 						Ii = "[" + Ir + "]",
@@ -18178,7 +18178,7 @@ function requireLodash() {
 							"(?:" +
 							Nn +
 							"(?:" +
-							[si, gi, mn].join("|") +
+							[oi, gi, mn].join("|") +
 							")" +
 							ia +
 							Zi +
@@ -18187,10 +18187,10 @@ function requireLodash() {
 						la = "\\d*(?:1ST|2ND|3RD|(?![123])\\dTH)(?=\\b|[a-z_])",
 						Ca = ia + Zi + aa,
 						rs = "(?:" + [Ln, gi, mn].join("|") + ")" + Ca,
-						Ai = "(?:" + [si + Cn + "?", Cn, gi, mn, Mr].join("|") + ")",
+						Ai = "(?:" + [oi + Cn + "?", Cn, gi, mn, Mr].join("|") + ")",
 						Ia = RegExp(Dr, "g"),
 						Da = RegExp(Cn, "g"),
-						Qi = RegExp(li + "(?=" + li + ")|" + Ai + Ca, "g"),
+						Qi = RegExp(ui + "(?=" + ui + ")|" + Ai + Ca, "g"),
 						ps = RegExp(
 							[
 								Ii +
@@ -18623,7 +18623,7 @@ function requireLodash() {
 							Ot = Wt(Ot, wt[hn], hn, wt);
 						return Ot;
 					}
-					function nn(wt, Wt) {
+					function an(wt, Wt) {
 						for (var Ot = -1, kr = wt == null ? 0 : wt.length; ++Ot < kr; )
 							if (Wt(wt[Ot], Ot, wt)) return !0;
 						return !1;
@@ -18685,7 +18685,7 @@ function requireLodash() {
 							Ot
 						);
 					}
-					function Cd(wt, Wt) {
+					function Ad(wt, Wt) {
 						var Ot = wt.length;
 						for (wt.sort(Wt); Ot--; ) wt[Ot] = wt[Ot].value;
 						return wt;
@@ -18701,12 +18701,12 @@ function requireLodash() {
 						for (var Ot = -1, kr = Array(wt); ++Ot < wt; ) kr[Ot] = Wt(Ot);
 						return kr;
 					}
-					function uh(wt, Wt) {
+					function dh(wt, Wt) {
 						return Fr(Wt, function (Ot) {
 							return [Ot, wt[Ot]];
 						});
 					}
-					function Hc(wt) {
+					function jc(wt) {
 						return wt && wt.slice(0, ca(wt) + 1).replace(Jn, "");
 					}
 					function Ma(wt) {
@@ -18722,24 +18722,24 @@ function requireLodash() {
 					function xs(wt, Wt) {
 						return wt.has(Wt);
 					}
-					function Id(wt, Wt) {
+					function Md(wt, Wt) {
 						for (
 							var Ot = -1, kr = wt.length;
 							++Ot < kr && wi(Wt, wt[Ot], 0) > -1;
 						);
 						return Ot;
 					}
-					function Ad(wt, Wt) {
+					function Rd(wt, Wt) {
 						for (var Ot = wt.length; Ot-- && wi(Wt, wt[Ot], 0) > -1; );
 						return Ot;
 					}
-					function ch(wt, Wt) {
+					function hh(wt, Wt) {
 						for (var Ot = wt.length, kr = 0; Ot--; ) wt[Ot] === Wt && ++kr;
 						return kr;
 					}
-					var dh = Wo(Aa),
+					var fh = Wo(Aa),
 						Ko = Wo(et);
-					function hh(wt) {
+					function ph(wt) {
 						return "\\" + Dt[wt];
 					}
 					function yo(wt, Wt) {
@@ -18751,7 +18751,7 @@ function requireLodash() {
 					function Yo(wt) {
 						return gs.test(wt);
 					}
-					function Lf(wt) {
+					function Of(wt) {
 						for (var Wt, Ot = []; !(Wt = wt.next()).done; ) Ot.push(Wt.value);
 						return Ot;
 					}
@@ -18787,7 +18787,7 @@ function requireLodash() {
 							Ot
 						);
 					}
-					function fh(wt) {
+					function mh(wt) {
 						var Wt = -1,
 							Ot = Array(wt.size);
 						return (
@@ -18802,32 +18802,32 @@ function requireLodash() {
 							if (wt[kr] === Wt) return kr;
 						return -1;
 					}
-					function Nf(wt, Wt, Ot) {
+					function Df(wt, Wt, Ot) {
 						for (var kr = Ot + 1; kr--; ) if (wt[kr] === Wt) return kr;
 						return kr;
 					}
 					function qn(wt) {
-						return _o(wt) ? Vc(wt) : In(wt);
+						return _o(wt) ? Gc(wt) : In(wt);
 					}
 					function ea(wt) {
-						return _o(wt) ? Md(wt) : Mi(wt);
+						return _o(wt) ? Pd(wt) : Mi(wt);
 					}
 					function ca(wt) {
 						for (var Wt = wt.length; Wt-- && st.test(wt.charAt(Wt)); );
 						return Wt;
 					}
 					var Ra = Wo(bt);
-					function Vc(wt) {
+					function Gc(wt) {
 						for (var Wt = (Qi.lastIndex = 0); Qi.test(wt); ) ++Wt;
 						return Wt;
 					}
-					function Md(wt) {
+					function Pd(wt) {
 						return wt.match(Qi) || [];
 					}
-					function Of(wt) {
+					function zf(wt) {
 						return wt.match(ps) || [];
 					}
-					var Df = function wt(Wt) {
+					var Ff = function wt(Wt) {
 							Wt =
 								Wt == null ? Ur : Js.defaults(Ur.Object(), Wt, Js.pick(Ur, ys));
 							var Ot = Wt.Array,
@@ -18837,7 +18837,7 @@ function requireLodash() {
 								Ei = Wt.Math,
 								Gn = Wt.Object,
 								Qs = Wt.RegExp,
-								Rd = Wt.String,
+								Bd = Wt.String,
 								za = Wt.TypeError,
 								je = Ot.prototype,
 								ut = Un.prototype,
@@ -18876,52 +18876,52 @@ function requireLodash() {
 								So = Fn ? Fn.isConcatSpreadable : l,
 								xi = Fn ? Fn.iterator : l,
 								Zo = Fn ? Fn.toStringTag : l,
-								Pd = (function () {
+								Ld = (function () {
 									try {
 										var R = ao(Gn, "defineProperty");
 										return R({}, "", {}), R;
 									} catch {}
 								})(),
-								Hp = Wt.clearTimeout !== Ur.clearTimeout && Wt.clearTimeout,
+								jp = Wt.clearTimeout !== Ur.clearTimeout && Wt.clearTimeout,
 								hi = kr && kr.now !== Ur.Date.now && kr.now,
-								zf = Wt.setTimeout !== Ur.setTimeout && Wt.setTimeout,
+								$f = Wt.setTimeout !== Ur.setTimeout && Wt.setTimeout,
 								Jo = Ei.ceil,
 								vo = Ei.floor,
-								ph = Gn.getOwnPropertySymbols,
-								Ff = kn ? kn.isBuffer : l,
-								jc = Wt.isFinite,
-								mh = je.join,
-								Gc = Ga(Gn.keys, Gn),
+								gh = Gn.getOwnPropertySymbols,
+								Uf = kn ? kn.isBuffer : l,
+								Wc = Wt.isFinite,
+								yh = je.join,
+								Kc = Ga(Gn.keys, Gn),
 								Oi = Ei.max,
 								da = Ei.min,
-								og = kr.now,
-								Vp = Wt.parseInt,
-								Bd = Ei.random,
-								gh = je.reverse,
-								Ld = ao(Wt, "DataView"),
+								ug = kr.now,
+								Gp = Wt.parseInt,
+								Nd = Ei.random,
+								xh = je.reverse,
+								Od = ao(Wt, "DataView"),
 								Qo = ao(Wt, "Map"),
-								Nd = ao(Wt, "Promise"),
+								Dd = ao(Wt, "Promise"),
 								bo = ao(Wt, "Set"),
-								Od = ao(Wt, "WeakMap"),
-								Wc = ao(Gn, "create"),
-								yh = Od && new Od(),
-								Kc = {},
-								$f = Oo(Ld),
+								zd = ao(Wt, "WeakMap"),
+								Yc = ao(Gn, "create"),
+								Sh = zd && new zd(),
+								Xc = {},
+								qf = Oo(Od),
 								wo = Oo(Qo),
-								jp = Oo(Nd),
-								Yc = Oo(bo),
-								Ns = Oo(Od),
+								Wp = Oo(Dd),
+								Zc = Oo(bo),
+								Ns = Oo(zd),
 								ko = Fn ? Fn.prototype : l,
 								Wa = ko ? ko.valueOf : l,
-								xh = ko ? ko.toString : l;
+								bh = ko ? ko.toString : l;
 							function Ve(R) {
 								if (zi(R) && !Rn(R) && !(R instanceof An)) {
 									if (R instanceof ha) return R;
-									if (zt.call(R, "__wrapped__")) return xp(R);
+									if (zt.call(R, "__wrapped__")) return vp(R);
 								}
 								return new ha(R);
 							}
-							var Xc = (function () {
+							var Jc = (function () {
 								function R() {}
 								return function (D) {
 									if (!Bi(D)) return {};
@@ -18948,7 +18948,7 @@ function requireLodash() {
 							}),
 								(Ve.prototype = Os.prototype),
 								(Ve.prototype.constructor = Ve),
-								(ha.prototype = Xc(Os.prototype)),
+								(ha.prototype = Jc(Os.prototype)),
 								(ha.prototype.constructor = ha);
 							function An(R) {
 								(this.__wrapped__ = R),
@@ -18959,7 +18959,7 @@ function requireLodash() {
 									(this.__takeCount__ = Pe),
 									(this.__views__ = []);
 							}
-							function Sh() {
+							function wh() {
 								var R = new An(this.__wrapped__);
 								return (
 									(R.__actions__ = La(this.__actions__)),
@@ -18971,20 +18971,20 @@ function requireLodash() {
 									R
 								);
 							}
-							function Uf() {
+							function Hf() {
 								if (this.__filtered__) {
 									var R = new An(this);
 									(R.__dir__ = -1), (R.__filtered__ = !0);
 								} else (R = this.clone()), (R.__dir__ *= -1);
 								return R;
 							}
-							function Zc() {
+							function Qc() {
 								var R = this.__wrapped__.value(),
 									D = this.__dir__,
 									j = Rn(R),
 									ce = D < 0,
 									Re = j ? R.length : 0,
-									Ye = mm(0, Re, this.__views__),
+									Ye = ym(0, Re, this.__views__),
 									lt = Ye.start,
 									yt = Ye.end,
 									Mt = yt - lt,
@@ -18994,7 +18994,7 @@ function requireLodash() {
 									Tr = 0,
 									jr = da(Mt, this.__takeCount__);
 								if (!j || (!ce && Re == Mt && jr == Mt))
-									return Qf(R, this.__actions__);
+									return tp(R, this.__actions__);
 								var fn = [];
 								e: for (; Mt-- && Tr < jr; ) {
 									Jt += D;
@@ -19013,7 +19013,7 @@ function requireLodash() {
 								}
 								return fn;
 							}
-							(An.prototype = Xc(Os.prototype)),
+							(An.prototype = Jc(Os.prototype)),
 								(An.prototype.constructor = An);
 							function Fa(R) {
 								var D = -1,
@@ -19024,15 +19024,15 @@ function requireLodash() {
 								}
 							}
 							function fi() {
-								(this.__data__ = Wc ? Wc(null) : {}), (this.size = 0);
+								(this.__data__ = Yc ? Yc(null) : {}), (this.size = 0);
 							}
-							function ui(R) {
+							function ci(R) {
 								var D = this.has(R) && delete this.__data__[R];
 								return (this.size -= D ? 1 : 0), D;
 							}
 							function Eo(R) {
 								var D = this.__data__;
-								if (Wc) {
+								if (Yc) {
 									var j = D[R];
 									return j === y ? l : j;
 								}
@@ -19040,18 +19040,18 @@ function requireLodash() {
 							}
 							function fa(R) {
 								var D = this.__data__;
-								return Wc ? D[R] !== l : zt.call(D, R);
+								return Yc ? D[R] !== l : zt.call(D, R);
 							}
 							function $a(R, D) {
 								var j = this.__data__;
 								return (
 									(this.size += this.has(R) ? 0 : 1),
-									(j[R] = Wc && D === l ? y : D),
+									(j[R] = Yc && D === l ? y : D),
 									this
 								);
 							}
 							(Fa.prototype.clear = fi),
-								(Fa.prototype.delete = ui),
+								(Fa.prototype.delete = ci),
 								(Fa.prototype.get = Eo),
 								(Fa.prototype.has = fa),
 								(Fa.prototype.set = $a);
@@ -19063,7 +19063,7 @@ function requireLodash() {
 									this.set(ce[0], ce[1]);
 								}
 							}
-							function Jc() {
+							function ed() {
 								(this.__data__ = []), (this.size = 0);
 							}
 							function Ua(R) {
@@ -19073,26 +19073,26 @@ function requireLodash() {
 								var ce = D.length - 1;
 								return j == ce ? D.pop() : Ls.call(D, j, 1), --this.size, !0;
 							}
-							function bh(R) {
+							function kh(R) {
 								var D = this.__data__,
 									j = ma(D, R);
 								return j < 0 ? l : D[j][1];
 							}
-							function Gp(R) {
+							function Kp(R) {
 								return ma(this.__data__, R) > -1;
 							}
-							function Wp(R, D) {
+							function Yp(R, D) {
 								var j = this.__data__,
 									ce = ma(j, R);
 								return (
 									ce < 0 ? (++this.size, j.push([R, D])) : (j[ce][1] = D), this
 								);
 							}
-							(Pa.prototype.clear = Jc),
+							(Pa.prototype.clear = ed),
 								(Pa.prototype.delete = Ua),
-								(Pa.prototype.get = bh),
-								(Pa.prototype.has = Gp),
-								(Pa.prototype.set = Wp);
+								(Pa.prototype.get = kh),
+								(Pa.prototype.has = Kp),
+								(Pa.prototype.set = Yp);
 							function is(R) {
 								var D = -1,
 									j = R == null ? 0 : R.length;
@@ -19101,7 +19101,7 @@ function requireLodash() {
 									this.set(ce[0], ce[1]);
 								}
 							}
-							function Kp() {
+							function Xp() {
 								(this.size = 0),
 									(this.__data__ = {
 										hash: new Fa(),
@@ -19110,25 +19110,25 @@ function requireLodash() {
 									});
 							}
 							function eo(R) {
-								var D = Yh(this, R).delete(R);
+								var D = Zh(this, R).delete(R);
 								return (this.size -= D ? 1 : 0), D;
 							}
-							function wh(R) {
-								return Yh(this, R).get(R);
+							function Eh(R) {
+								return Zh(this, R).get(R);
 							}
-							function qf(R) {
-								return Yh(this, R).has(R);
+							function Vf(R) {
+								return Zh(this, R).has(R);
 							}
-							function Yp(R, D) {
-								var j = Yh(this, R),
+							function Zp(R, D) {
+								var j = Zh(this, R),
 									ce = j.size;
 								return j.set(R, D), (this.size += j.size == ce ? 0 : 1), this;
 							}
-							(is.prototype.clear = Kp),
+							(is.prototype.clear = Xp),
 								(is.prototype.delete = eo),
-								(is.prototype.get = wh),
-								(is.prototype.has = qf),
-								(is.prototype.set = Yp);
+								(is.prototype.get = Eh),
+								(is.prototype.has = Vf),
+								(is.prototype.set = Zp);
 							function el(R) {
 								var D = -1,
 									j = R == null ? 0 : R.length;
@@ -19137,19 +19137,19 @@ function requireLodash() {
 							function To(R) {
 								return this.__data__.set(R, y), this;
 							}
-							function Qc(R) {
+							function td(R) {
 								return this.__data__.has(R);
 							}
 							(el.prototype.add = el.prototype.push = To),
-								(el.prototype.has = Qc);
+								(el.prototype.has = td);
 							function pa(R) {
 								var D = (this.__data__ = new Pa(R));
 								this.size = D.size;
 							}
-							function kh() {
+							function Th() {
 								(this.__data__ = new Pa()), (this.size = 0);
 							}
-							function Eh(R) {
+							function Ch(R) {
 								var D = this.__data__,
 									j = D.delete(R);
 								return (this.size = D.size), j;
@@ -19170,18 +19170,18 @@ function requireLodash() {
 								}
 								return j.set(R, D), (this.size = j.size), this;
 							}
-							(pa.prototype.clear = kh),
-								(pa.prototype.delete = Eh),
+							(pa.prototype.clear = Th),
+								(pa.prototype.delete = Ch),
 								(pa.prototype.get = as),
 								(pa.prototype.has = ss),
 								(pa.prototype.set = tl);
 							function Ds(R, D) {
 								var j = Rn(R),
-									ce = !j && oh(R),
-									Re = !j && !ce && yd(R),
-									Ye = !j && !ce && !Re && Sf(R),
+									ce = !j && uh(R),
+									Re = !j && !ce && Sd(R),
+									Ye = !j && !ce && !Re && bf(R),
 									lt = j || ce || Re || Ye,
-									yt = lt ? _s(R.length, Rd) : [],
+									yt = lt ? _s(R.length, Bd) : [],
 									Mt = yt.length;
 								for (var Jt in R)
 									(D || zt.call(R, Jt)) &&
@@ -19200,15 +19200,15 @@ function requireLodash() {
 							}
 							function zs(R) {
 								var D = R.length;
-								return D ? R[Vd(0, D - 1)] : l;
+								return D ? R[Gd(0, D - 1)] : l;
 							}
 							function rl(R, D) {
 								return Za(La(R), to(D, 0, R.length));
 							}
-							function Xp(R) {
+							function Jp(R) {
 								return Za(La(R));
 							}
-							function Dd(R, D, j) {
+							function Fd(R, D, j) {
 								((j !== l && !lo(R[D], j)) || (j === l && !(D in R))) &&
 									Fs(R, D, j);
 							}
@@ -19236,8 +19236,8 @@ function requireLodash() {
 								return R && Ts(D, hs(D), R);
 							}
 							function Fs(R, D, j) {
-								D == "__proto__" && Pd
-									? Pd(R, D, {
+								D == "__proto__" && Ld
+									? Ld(R, D, {
 											configurable: !0,
 											enumerable: !0,
 											value: j,
@@ -19245,12 +19245,12 @@ function requireLodash() {
 										})
 									: (R[D] = j);
 							}
-							function Th(R, D) {
+							function Ih(R, D) {
 								for (
 									var j = -1, ce = D.length, Re = Ot(ce), Ye = R == null;
 									++j < ce;
 								)
-									Re[j] = Ye ? l : Rg(R, D[j]);
+									Re[j] = Ye ? l : Bg(R, D[j]);
 								return Re;
 							}
 							function to(R, D, j) {
@@ -19271,14 +19271,14 @@ function requireLodash() {
 								if (!Bi(R)) return R;
 								var Qt = Rn(R);
 								if (Qt) {
-									if (((lt = gm(R)), !yt)) return La(R, lt);
+									if (((lt = xm(R)), !yt)) return La(R, lt);
 								} else {
 									var sr = Sa(R),
 										Tr = sr == be || sr == qe;
-									if (yd(R)) return tp(R, yt);
+									if (Sd(R)) return np(R, yt);
 									if (sr == ge || sr == Qe || (Tr && !Re)) {
-										if (((lt = Mt || Tr ? {} : dd(R)), !yt))
-											return Mt ? ug(R, vs(lt, R)) : sm(R, pi(lt, R));
+										if (((lt = Mt || Tr ? {} : fd(R)), !yt))
+											return Mt ? dg(R, vs(lt, R)) : lm(R, pi(lt, R));
 									} else {
 										if (!Pn[sr]) return Re ? R : {};
 										lt = va(R, sr, yt);
@@ -19288,15 +19288,15 @@ function requireLodash() {
 								var jr = Ye.get(R);
 								if (jr) return jr;
 								Ye.set(R, lt),
-									Kg(R)
+									Xg(R)
 										? R.forEach(function (pn) {
 												lt.add(qa(pn, D, j, pn, R, Ye));
 											})
-										: Gg(R) &&
+										: Kg(R) &&
 											R.forEach(function (pn, Hn) {
 												lt.set(Hn, qa(pn, D, j, Hn, R, Ye));
 											});
-								var fn = Jt ? (Mt ? Zd : Kh) : Mt ? hs : wa,
+								var fn = Jt ? (Mt ? Qd : Xh) : Mt ? hs : wa,
 									Dn = Qt ? l : fn(R);
 								return (
 									Fe(Dn || R, function (pn, Hn) {
@@ -19306,13 +19306,13 @@ function requireLodash() {
 									lt
 								);
 							}
-							function Zp(R) {
+							function Qp(R) {
 								var D = wa(R);
 								return function (j) {
-									return zd(j, R, D);
+									return $d(j, R, D);
 								};
 							}
-							function zd(R, D, j) {
+							function $d(R, D, j) {
 								var ce = j.length;
 								if (R == null) return !ce;
 								for (R = Gn(R); ce--; ) {
@@ -19323,9 +19323,9 @@ function requireLodash() {
 								}
 								return !0;
 							}
-							function Hf(R, D, j) {
+							function jf(R, D, j) {
 								if (typeof R != "function") throw new za(m);
-								return fd(function () {
+								return md(function () {
 									R.apply(l, j);
 								}, D);
 							}
@@ -19351,8 +19351,8 @@ function requireLodash() {
 								}
 								return Mt;
 							}
-							var Us = om(os),
-								Jp = om(Co, !0);
+							var Us = um(os),
+								em = um(Co, !0);
 							function bs(R, D) {
 								var j = !0;
 								return (
@@ -19375,14 +19375,14 @@ function requireLodash() {
 								}
 								return Mt;
 							}
-							function Ch(R, D, j, ce) {
+							function Ah(R, D, j, ce) {
 								var Re = R.length;
 								for (
 									j = Bn(j),
 										j < 0 && (j = -j > Re ? 0 : Re + j),
 										ce = ce === l || ce > Re ? Re : Bn(ce),
 										ce < 0 && (ce += Re),
-										ce = j > ce ? 0 : Xg(ce);
+										ce = j > ce ? 0 : Jg(ce);
 									j < ce;
 								)
 									R[j++] = D;
@@ -19400,7 +19400,7 @@ function requireLodash() {
 							function qi(R, D, j, ce, Re) {
 								var Ye = -1,
 									lt = R.length;
-								for (j || (j = hg), Re || (Re = []); ++Ye < lt; ) {
+								for (j || (j = pg), Re || (Re = []); ++Ye < lt; ) {
 									var yt = R[Ye];
 									D > 0 && j(yt)
 										? D > 1
@@ -19410,13 +19410,13 @@ function requireLodash() {
 								}
 								return Re;
 							}
-							var Fd = sp(),
-								Ih = sp(!0);
+							var Ud = lp(),
+								Mh = lp(!0);
 							function os(R, D) {
-								return R && Fd(R, D, wa);
+								return R && Ud(R, D, wa);
 							}
 							function Co(R, D) {
-								return R && Ih(R, D, wa);
+								return R && Mh(R, D, wa);
 							}
 							function Ba(R, D) {
 								return Xt(D, function (j) {
@@ -19429,7 +19429,7 @@ function requireLodash() {
 									R = R[Cs(D[j++])];
 								return j && j == ce ? R : l;
 							}
-							function Ah(R, D, j) {
+							function Rh(R, D, j) {
 								var ce = D(R);
 								return Rn(R) ? ce : qr(ce, j(R));
 							}
@@ -19439,8 +19439,8 @@ function requireLodash() {
 										? ft
 										: ne
 									: Zo && Zo in Gn(R)
-										? pm(R)
-										: vm(R);
+										? gm(R)
+										: wm(R);
 							}
 							function ws(R, D) {
 								return R > D;
@@ -19448,10 +19448,10 @@ function requireLodash() {
 							function Io(R, D) {
 								return R != null && zt.call(R, D);
 							}
-							function Vf(R, D) {
+							function Gf(R, D) {
 								return R != null && D in Gn(R);
 							}
-							function Qp(R, D, j) {
+							function tm(R, D, j) {
 								return R >= da(D, j) && R < Oi(D, j);
 							}
 							function ks(R, D, j) {
@@ -19501,27 +19501,27 @@ function requireLodash() {
 								);
 							}
 							function Mo(R, D, j) {
-								(D = ro(D, R)), (R = Jh(R, D));
+								(D = ro(D, R)), (R = ef(R, D));
 								var ce = R == null ? R : R[Cs(Wi(D))];
 								return ce == null ? l : Yt(ce, R, j);
 							}
-							function jf(R) {
+							function Wf(R) {
 								return zi(R) && ga(R) == Qe;
 							}
-							function Mh(R) {
+							function Ph(R) {
 								return zi(R) && ga(R) == K;
 							}
-							function em(R) {
+							function rm(R) {
 								return zi(R) && ga(R) == ke;
 							}
-							function ed(R, D, j, ce, Re) {
+							function rd(R, D, j, ce, Re) {
 								return R === D
 									? !0
 									: R == null || D == null || (!zi(R) && !zi(D))
 										? R !== R && D !== D
-										: Gf(R, D, j, ce, ed, Re);
+										: Kf(R, D, j, ce, rd, Re);
 							}
-							function Gf(R, D, j, ce, Re, Ye) {
+							function Kf(R, D, j, ce, Re, Ye) {
 								var lt = Rn(R),
 									yt = Rn(D),
 									Mt = lt ? he : Sa(R),
@@ -19530,16 +19530,16 @@ function requireLodash() {
 								var Qt = Mt == ge,
 									sr = Jt == ge,
 									Tr = Mt == Jt;
-								if (Tr && yd(R)) {
-									if (!yd(D)) return !1;
+								if (Tr && Sd(R)) {
+									if (!Sd(D)) return !1;
 									(lt = !0), (Qt = !1);
 								}
 								if (Tr && !Qt)
 									return (
 										Ye || (Ye = new pa()),
-										lt || Sf(R)
-											? Wh(R, D, j, ce, Re, Ye)
-											: fm(R, D, Mt, j, ce, Re, Ye)
+										lt || bf(R)
+											? Yh(R, D, j, ce, Re, Ye)
+											: mm(R, D, Mt, j, ce, Re, Ye)
 									);
 								if (!(j & E)) {
 									var jr = Qt && zt.call(R, "__wrapped__"),
@@ -19551,13 +19551,13 @@ function requireLodash() {
 									}
 								}
 								return Tr
-									? (Ye || (Ye = new pa()), hp(R, D, j, ce, Re, Ye))
+									? (Ye || (Ye = new pa()), pp(R, D, j, ce, Re, Ye))
 									: !1;
 							}
-							function Rh(R) {
+							function Bh(R) {
 								return zi(R) && Sa(R) == Ge;
 							}
-							function Ph(R, D, j, ce) {
+							function Lh(R, D, j, ce) {
 								var Re = j.length,
 									Ye = Re,
 									lt = !ce;
@@ -19577,26 +19577,26 @@ function requireLodash() {
 									} else {
 										var sr = new pa();
 										if (ce) var Tr = ce(Jt, Qt, Mt, R, D, sr);
-										if (!(Tr === l ? ed(Qt, Jt, E | C, ce, sr) : Tr)) return !1;
+										if (!(Tr === l ? rd(Qt, Jt, E | C, ce, sr) : Tr)) return !1;
 									}
 								}
 								return !0;
 							}
-							function Wf(R) {
-								if (!Bi(R) || gp(R)) return !1;
+							function Yf(R) {
+								if (!Bi(R) || _p(R)) return !1;
 								var D = fl(R) ? tn : zr;
 								return D.test(Oo(R));
 							}
-							function tm(R) {
+							function nm(R) {
 								return zi(R) && ga(R) == Ee;
 							}
-							function Kf(R) {
+							function Xf(R) {
 								return zi(R) && Sa(R) == tt;
 							}
-							function $d(R) {
-								return zi(R) && Dm(R.length) && !!zn[ga(R)];
+							function qd(R) {
+								return zi(R) && Fm(R.length) && !!zn[ga(R)];
 							}
-							function Ud(R) {
+							function Hd(R) {
 								return typeof R == "function"
 									? R
 									: R == null
@@ -19604,19 +19604,19 @@ function requireLodash() {
 										: typeof R == "object"
 											? Rn(R)
 												? Es(R[0], R[1])
-												: td(R)
-											: o0(R);
+												: nd(R)
+											: u0(R);
 							}
-							function Bh(R) {
-								if (!eh(R)) return Gc(R);
+							function Nh(R) {
+								if (!rh(R)) return Kc(R);
 								var D = [];
 								for (var j in Gn(R))
 									zt.call(R, j) && j != "constructor" && D.push(j);
 								return D;
 							}
-							function rm(R) {
-								if (!Bi(R)) return Sm(R);
-								var D = eh(R),
+							function im(R) {
+								if (!Bi(R)) return bm(R);
+								var D = rh(R),
 									j = [];
 								for (var ce in R)
 									(ce == "constructor" && (D || !zt.call(R, ce))) || j.push(ce);
@@ -19625,7 +19625,7 @@ function requireLodash() {
 							function Ro(R, D) {
 								return R < D;
 							}
-							function Yf(R, D) {
+							function Zf(R, D) {
 								var j = -1,
 									ce = ds(R) ? Ot(R.length) : [];
 								return (
@@ -19635,51 +19635,51 @@ function requireLodash() {
 									ce
 								);
 							}
-							function td(R) {
-								var D = Xh(R);
+							function nd(R) {
+								var D = Jh(R);
 								return D.length == 1 && D[0][2]
-									? th(D[0][0], D[0][1])
+									? nh(D[0][0], D[0][1])
 									: function (j) {
-											return j === R || Ph(j, R, D);
+											return j === R || Lh(j, R, D);
 										};
 							}
 							function Es(R, D) {
-								return mp(R) && hd(D)
-									? th(Cs(R), D)
+								return yp(R) && pd(D)
+									? nh(Cs(R), D)
 									: function (j) {
-											var ce = Rg(j, R);
-											return ce === l && ce === D ? Pg(j, R) : ed(D, ce, E | C);
+											var ce = Bg(j, R);
+											return ce === l && ce === D ? Lg(j, R) : rd(D, ce, E | C);
 										};
 							}
 							function Po(R, D, j, ce, Re) {
 								R !== D &&
-									Fd(
+									Ud(
 										D,
 										function (Ye, lt) {
 											if ((Re || (Re = new pa()), Bi(Ye)))
-												qd(R, D, lt, j, Po, ce, Re);
+												Vd(R, D, lt, j, Po, ce, Re);
 											else {
 												var yt = ce ? ce(Xa(R, lt), Ye, lt + "", R, D, Re) : l;
-												yt === l && (yt = Ye), Dd(R, lt, yt);
+												yt === l && (yt = Ye), Fd(R, lt, yt);
 											}
 										},
 										hs,
 									);
 							}
-							function qd(R, D, j, ce, Re, Ye, lt) {
+							function Vd(R, D, j, ce, Re, Ye, lt) {
 								var yt = Xa(R, j),
 									Mt = Xa(D, j),
 									Jt = lt.get(Mt);
 								if (Jt) {
-									Dd(R, j, Jt);
+									Fd(R, j, Jt);
 									return;
 								}
 								var Qt = Ye ? Ye(yt, Mt, j + "", R, D, lt) : l,
 									sr = Qt === l;
 								if (sr) {
 									var Tr = Rn(Mt),
-										jr = !Tr && yd(Mt),
-										fn = !Tr && !jr && Sf(Mt);
+										jr = !Tr && Sd(Mt),
+										fn = !Tr && !jr && bf(Mt);
 									(Qt = Mt),
 										Tr || jr || fn
 											? Rn(yt)
@@ -19687,25 +19687,25 @@ function requireLodash() {
 												: Ki(yt)
 													? (Qt = La(yt))
 													: jr
-														? ((sr = !1), (Qt = tp(Mt, !0)))
+														? ((sr = !1), (Qt = np(Mt, !0)))
 														: fn
-															? ((sr = !1), (Qt = np(Mt, !0)))
+															? ((sr = !1), (Qt = ap(Mt, !0)))
 															: (Qt = [])
-											: Dp(Mt) || oh(Mt)
+											: Fp(Mt) || uh(Mt)
 												? ((Qt = yt),
-													oh(yt)
-														? (Qt = Zg(yt))
-														: (!Bi(yt) || fl(yt)) && (Qt = dd(Mt)))
+													uh(yt)
+														? (Qt = Qg(yt))
+														: (!Bi(yt) || fl(yt)) && (Qt = fd(Mt)))
 												: (sr = !1);
 								}
 								sr && (lt.set(Mt, Qt), Re(Qt, Mt, ce, Ye, lt), lt.delete(Mt)),
-									Dd(R, j, Qt);
+									Fd(R, j, Qt);
 							}
 							function Bo(R, D) {
 								var j = R.length;
 								if (j) return (D += D < 0 ? j : 0), ls(D, j) ? R[D] : l;
 							}
-							function Lh(R, D, j) {
+							function Oh(R, D, j) {
 								D.length
 									? (D = Fr(D, function (Ye) {
 											return Rn(Ye)
@@ -19717,22 +19717,22 @@ function requireLodash() {
 									: (D = [fs]);
 								var ce = -1;
 								D = Fr(D, Ma(Zr()));
-								var Re = Yf(R, function (Ye, lt, yt) {
+								var Re = Zf(R, function (Ye, lt, yt) {
 									var Mt = Fr(D, function (Jt) {
 										return Jt(Ye);
 									});
 									return { criteria: Mt, index: ++ce, value: Ye };
 								});
-								return Cd(Re, function (Ye, lt) {
-									return am(Ye, lt, j);
+								return Ad(Re, function (Ye, lt) {
+									return om(Ye, lt, j);
 								});
 							}
-							function rd(R, D) {
-								return Xf(R, D, function (j, ce) {
-									return Pg(R, ce);
+							function ad(R, D) {
+								return Jf(R, D, function (j, ce) {
+									return Lg(R, ce);
 								});
 							}
-							function Xf(R, D, j) {
+							function Jf(R, D, j) {
 								for (var ce = -1, Re = D.length, Ye = {}; ++ce < Re; ) {
 									var lt = D[ce],
 										yt = Ya(R, lt);
@@ -19740,7 +19740,7 @@ function requireLodash() {
 								}
 								return Ye;
 							}
-							function Zf(R) {
+							function Qf(R) {
 								return function (D) {
 									return Ya(D, R);
 								};
@@ -19761,7 +19761,7 @@ function requireLodash() {
 										yt !== R && Ls.call(yt, Mt, 1), Ls.call(R, Mt, 1);
 								return R;
 							}
-							function Hd(R, D) {
+							function jd(R, D) {
 								for (var j = R ? D.length : 0, ce = j - 1; j--; ) {
 									var Re = D[j];
 									if (j == ce || Re !== Ye) {
@@ -19771,10 +19771,10 @@ function requireLodash() {
 								}
 								return R;
 							}
-							function Vd(R, D) {
-								return R + vo(Bd() * (D - R + 1));
+							function Gd(R, D) {
+								return R + vo(Nd() * (D - R + 1));
 							}
-							function Jf(R, D, j, ce) {
+							function ep(R, D, j, ce) {
 								for (
 									var Re = -1, Ye = Oi(Jo((D - R) / (j || 1)), 0), lt = Ot(Ye);
 									Ye--;
@@ -19782,7 +19782,7 @@ function requireLodash() {
 									(lt[ce ? Ye : ++Re] = R), (R += j);
 								return lt;
 							}
-							function nd(R, D) {
+							function sd(R, D) {
 								var j = "";
 								if (!R || D < 1 || D > ve) return j;
 								do D % 2 && (j += R), (D = vo(D / 2)), D && (R += R);
@@ -19790,13 +19790,13 @@ function requireLodash() {
 								return j;
 							}
 							function Mn(R, D) {
-								return Qh(Zh(R, D, fs), R + "");
+								return tf(Qh(R, D, fs), R + "");
 							}
 							function sl(R) {
-								return zs(vf(R));
+								return zs(wf(R));
 							}
 							function Si(R, D) {
-								var j = vf(R);
+								var j = wf(R);
 								return Za(j, to(D, 0, j.length));
 							}
 							function vi(R, D, j, ce) {
@@ -19823,23 +19823,23 @@ function requireLodash() {
 								}
 								return R;
 							}
-							var Hi = yh
+							var Hi = Sh
 									? function (R, D) {
-											return yh.set(R, D), R;
+											return Sh.set(R, D), R;
 										}
 									: fs,
-								Nh = Pd
+								Dh = Ld
 									? function (R, D) {
-											return Pd(R, "toString", {
+											return Ld(R, "toString", {
 												configurable: !0,
 												enumerable: !1,
-												value: Lg(D),
+												value: Og(D),
 												writable: !0,
 											});
 										}
 									: fs;
-							function jd(R) {
-								return Za(vf(R));
+							function Wd(R) {
+								return Za(wf(R));
 							}
 							function ya(R, D, j) {
 								var ce = -1,
@@ -19852,7 +19852,7 @@ function requireLodash() {
 								for (var Ye = Ot(Re); ++ce < Re; ) Ye[ce] = R[ce + D];
 								return Ye;
 							}
-							function lg(R, D) {
+							function cg(R, D) {
 								var j;
 								return (
 									Us(R, function (ce, Re, Ye) {
@@ -19874,9 +19874,9 @@ function requireLodash() {
 									}
 									return Re;
 								}
-								return Gd(R, D, fs, j);
+								return Kd(R, D, fs, j);
 							}
-							function Gd(R, D, j, ce) {
+							function Kd(R, D, j, ce) {
 								var Re = 0,
 									Ye = R == null ? 0 : R.length;
 								if (Ye === 0) return 0;
@@ -19906,7 +19906,7 @@ function requireLodash() {
 								}
 								return da(Ye, Xe);
 							}
-							function Oh(R, D) {
+							function zh(R, D) {
 								for (var j = -1, ce = R.length, Re = 0, Ye = []; ++j < ce; ) {
 									var lt = R[j],
 										yt = D ? D(lt) : lt;
@@ -19917,13 +19917,13 @@ function requireLodash() {
 								}
 								return Ye;
 							}
-							function Dh(R) {
+							function Fh(R) {
 								return typeof R == "number" ? R : As(R) ? xe : +R;
 							}
 							function Ti(R) {
 								if (typeof R == "string") return R;
 								if (Rn(R)) return Fr(R, Ti) + "";
-								if (As(R)) return xh ? xh.call(R) : "";
+								if (As(R)) return bh ? bh.call(R) : "";
 								var D = R + "";
 								return D == "0" && 1 / R == -fe ? "-0" : D;
 							}
@@ -19955,14 +19955,14 @@ function requireLodash() {
 							function ol(R, D) {
 								return (
 									(D = ro(D, R)),
-									(R = Jh(R, D)),
+									(R = ef(R, D)),
 									R == null || delete R[Cs(Wi(D))]
 								);
 							}
-							function zh(R, D, j, ce) {
+							function $h(R, D, j, ce) {
 								return vi(R, D, j(Ya(R, D)), ce);
 							}
-							function ad(R, D, j, ce) {
+							function od(R, D, j, ce) {
 								for (
 									var Re = R.length, Ye = ce ? Re : -1;
 									(ce ? Ye-- : ++Ye < Re) && D(R[Ye], Ye, R);
@@ -19971,7 +19971,7 @@ function requireLodash() {
 									? ya(R, ce ? 0 : Ye, ce ? Ye + 1 : Re)
 									: ya(R, ce ? Ye + 1 : 0, ce ? Re : Ye);
 							}
-							function Qf(R, D) {
+							function tp(R, D) {
 								var j = R;
 								return (
 									j instanceof An && (j = j.value()),
@@ -19984,7 +19984,7 @@ function requireLodash() {
 									)
 								);
 							}
-							function Fh(R, D, j) {
+							function Uh(R, D, j) {
 								var ce = R.length;
 								if (ce < 2) return ce ? ji(R[0]) : [];
 								for (var Re = -1, Ye = Ot(ce); ++Re < ce; )
@@ -19992,7 +19992,7 @@ function requireLodash() {
 										yt != Re && (Ye[Re] = $s(Ye[Re] || lt, R[yt], D, j));
 								return ji(qi(Ye, 1), D, j);
 							}
-							function ep(R, D, j) {
+							function rp(R, D, j) {
 								for (
 									var ce = -1, Re = R.length, Ye = D.length, lt = {};
 									++ce < Re;
@@ -20002,51 +20002,51 @@ function requireLodash() {
 								}
 								return lt;
 							}
-							function $h(R) {
+							function qh(R) {
 								return Ki(R) ? R : [];
 							}
-							function Uh(R) {
+							function Hh(R) {
 								return typeof R == "function" ? R : fs;
 							}
 							function ro(R, D) {
-								return Rn(R) ? R : mp(R, D) ? [R] : bm(ai(R));
+								return Rn(R) ? R : yp(R, D) ? [R] : km(ai(R));
 							}
-							var nm = Mn;
+							var am = Mn;
 							function no(R, D, j) {
 								var ce = R.length;
 								return (j = j === l ? ce : j), !D && j >= ce ? R : ya(R, D, j);
 							}
-							var sd =
-								Hp ||
+							var ld =
+								jp ||
 								function (R) {
 									return Ur.clearTimeout(R);
 								};
-							function tp(R, D) {
+							function np(R, D) {
 								if (D) return R.slice();
 								var j = R.length,
 									ce = _i ? _i(j) : new R.constructor(j);
 								return R.copy(ce), ce;
 							}
-							function od(R) {
+							function ud(R) {
 								var D = new R.constructor(R.byteLength);
 								return new Kr(D).set(new Kr(R)), D;
 							}
-							function qh(R, D) {
-								var j = D ? od(R.buffer) : R.buffer;
+							function Vh(R, D) {
+								var j = D ? ud(R.buffer) : R.buffer;
 								return new R.constructor(j, R.byteOffset, R.byteLength);
 							}
-							function im(R) {
+							function sm(R) {
 								var D = new R.constructor(R.source, Vt.exec(R));
 								return (D.lastIndex = R.lastIndex), D;
 							}
-							function rp(R) {
+							function ip(R) {
 								return Wa ? Gn(Wa.call(R)) : {};
 							}
-							function np(R, D) {
-								var j = D ? od(R.buffer) : R.buffer;
+							function ap(R, D) {
+								var j = D ? ud(R.buffer) : R.buffer;
 								return new R.constructor(j, R.byteOffset, R.length);
 							}
-							function ip(R, D) {
+							function sp(R, D) {
 								if (R !== D) {
 									var j = R !== l,
 										ce = R === null,
@@ -20075,7 +20075,7 @@ function requireLodash() {
 								}
 								return 0;
 							}
-							function am(R, D, j) {
+							function om(R, D, j) {
 								for (
 									var ce = -1,
 										Re = R.criteria,
@@ -20084,7 +20084,7 @@ function requireLodash() {
 										yt = j.length;
 									++ce < lt;
 								) {
-									var Mt = ip(Re[ce], Ye[ce]);
+									var Mt = sp(Re[ce], Ye[ce]);
 									if (Mt) {
 										if (ce >= yt) return Mt;
 										var Jt = j[ce];
@@ -20093,7 +20093,7 @@ function requireLodash() {
 								}
 								return R.index - D.index;
 							}
-							function ap(R, D, j, ce) {
+							function op(R, D, j, ce) {
 								for (
 									var Re = -1,
 										Ye = R.length,
@@ -20110,7 +20110,7 @@ function requireLodash() {
 								for (; Jt--; ) Qt[yt++] = R[Re++];
 								return Qt;
 							}
-							function Hh(R, D, j, ce) {
+							function jh(R, D, j, ce) {
 								for (
 									var Re = -1,
 										Ye = R.length,
@@ -20145,20 +20145,20 @@ function requireLodash() {
 								}
 								return j;
 							}
-							function sm(R, D) {
-								return Ts(R, cd(R), D);
+							function lm(R, D) {
+								return Ts(R, hd(R), D);
 							}
-							function ug(R, D) {
+							function dg(R, D) {
 								return Ts(R, Vs(R), D);
 							}
-							function Wd(R, D) {
+							function Yd(R, D) {
 								return function (j, ce) {
 									var Re = Rn(j) ? Se : Ka,
 										Ye = D ? D() : {};
 									return Re(j, R, Zr(ce, 2), Ye);
 								};
 							}
-							function ld(R) {
+							function cd(R) {
 								return Mn(function (D, j) {
 									var ce = -1,
 										Re = j.length,
@@ -20179,7 +20179,7 @@ function requireLodash() {
 									return D;
 								});
 							}
-							function om(R, D) {
+							function um(R, D) {
 								return function (j, ce) {
 									if (j == null) return j;
 									if (!ds(j)) return R(j, ce);
@@ -20190,7 +20190,7 @@ function requireLodash() {
 									return j;
 								};
 							}
-							function sp(R) {
+							function lp(R) {
 								return function (D, j, ce) {
 									for (
 										var Re = -1, Ye = Gn(D), lt = ce(D), yt = lt.length;
@@ -20202,16 +20202,16 @@ function requireLodash() {
 									return D;
 								};
 							}
-							function lm(R, D, j) {
+							function cm(R, D, j) {
 								var ce = D & I,
-									Re = Kd(R);
+									Re = Xd(R);
 								function Ye() {
 									var lt = this && this !== Ur && this instanceof Ye ? Re : R;
 									return lt.apply(ce ? j : this, arguments);
 								}
 								return Ye;
 							}
-							function op(R) {
+							function up(R) {
 								return function (D) {
 									D = ai(D);
 									var j = _o(D) ? ea(D) : l,
@@ -20222,10 +20222,10 @@ function requireLodash() {
 							}
 							function io(R) {
 								return function (D) {
-									return Lr(a0(i0(D).replace(Ia, "")), R, "");
+									return Lr(o0(s0(D).replace(Ia, "")), R, "");
 								};
 							}
-							function Kd(R) {
+							function Xd(R) {
 								return function () {
 									var D = arguments;
 									switch (D.length) {
@@ -20246,13 +20246,13 @@ function requireLodash() {
 										case 7:
 											return new R(D[0], D[1], D[2], D[3], D[4], D[5], D[6]);
 									}
-									var j = Xc(R.prototype),
+									var j = Jc(R.prototype),
 										ce = R.apply(j, D);
 									return Bi(ce) ? ce : j;
 								};
 							}
-							function cg(R, D, j) {
-								var ce = Kd(R);
+							function hg(R, D, j) {
+								var ce = Xd(R);
 								function Re() {
 									for (
 										var Ye = arguments.length,
@@ -20267,10 +20267,10 @@ function requireLodash() {
 											? []
 											: ki(lt, Mt);
 									if (((Ye -= Jt.length), Ye < j))
-										return dm(
+										return fm(
 											R,
 											D,
-											ud,
+											dd,
 											Re.placeholder,
 											l,
 											lt,
@@ -20284,7 +20284,7 @@ function requireLodash() {
 								}
 								return Re;
 							}
-							function um(R) {
+							function dm(R) {
 								return function (D, j, ce) {
 									var Re = Gn(D);
 									if (!ds(D)) {
@@ -20306,19 +20306,19 @@ function requireLodash() {
 									for (R && D.reverse(); ce--; ) {
 										var Ye = D[ce];
 										if (typeof Ye != "function") throw new za(m);
-										if (Re && !lt && Qd(Ye) == "wrapper")
+										if (Re && !lt && th(Ye) == "wrapper")
 											var lt = new ha([], !0);
 									}
 									for (ce = lt ? ce : j; ++ce < j; ) {
 										Ye = D[ce];
-										var yt = Qd(Ye),
-											Mt = yt == "wrapper" ? Jd(Ye) : l;
+										var yt = th(Ye),
+											Mt = yt == "wrapper" ? eh(Ye) : l;
 										Mt &&
 										No(Mt[0]) &&
 										Mt[1] == (q | L | O | U) &&
 										!Mt[4].length &&
 										Mt[9] == 1
-											? (lt = lt[Qd(Mt[0])].apply(lt, Mt[3]))
+											? (lt = lt[th(Mt[0])].apply(lt, Mt[3]))
 											: (lt =
 													Ye.length == 1 && No(Ye) ? lt[yt]() : lt.thru(Ye));
 									}
@@ -20336,30 +20336,30 @@ function requireLodash() {
 									};
 								});
 							}
-							function ud(R, D, j, ce, Re, Ye, lt, yt, Mt, Jt) {
+							function dd(R, D, j, ce, Re, Ye, lt, yt, Mt, Jt) {
 								var Qt = D & q,
 									sr = D & I,
 									Tr = D & A,
 									jr = D & (L | N),
 									fn = D & W,
-									Dn = Tr ? l : Kd(R);
+									Dn = Tr ? l : Xd(R);
 								function pn() {
 									for (var Hn = arguments.length, Kn = Ot(Hn), Ms = Hn; Ms--; )
 										Kn[Ms] = arguments[Ms];
 									if (jr)
 										var es = Lo(pn),
-											Rs = ch(Kn, es);
+											Rs = hh(Kn, es);
 									if (
-										(ce && (Kn = ap(Kn, ce, Re, jr)),
-										Ye && (Kn = Hh(Kn, Ye, lt, jr)),
+										(ce && (Kn = op(Kn, ce, Re, jr)),
+										Ye && (Kn = jh(Kn, Ye, lt, jr)),
 										(Hn -= Rs),
 										jr && Hn < Jt)
 									) {
 										var Yi = ki(Kn, es);
-										return dm(
+										return fm(
 											R,
 											D,
-											ud,
+											dd,
 											pn.placeholder,
 											j,
 											Kn,
@@ -20378,18 +20378,18 @@ function requireLodash() {
 										this &&
 											this !== Ur &&
 											this instanceof pn &&
-											(ml = Dn || Kd(ml)),
+											(ml = Dn || Xd(ml)),
 										ml.apply(uo, Kn)
 									);
 								}
 								return pn;
 							}
-							function Vh(R, D) {
+							function Gh(R, D) {
 								return function (j, ce) {
 									return Ao(j, R, D(ce), {});
 								};
 							}
-							function jh(R, D) {
+							function Wh(R, D) {
 								return function (j, ce) {
 									var Re;
 									if (j === l && ce === l) return D;
@@ -20397,13 +20397,13 @@ function requireLodash() {
 										if (Re === l) return ce;
 										typeof j == "string" || typeof ce == "string"
 											? ((j = Ti(j)), (ce = Ti(ce)))
-											: ((j = Dh(j)), (ce = Dh(ce))),
+											: ((j = Fh(j)), (ce = Fh(ce))),
 											(Re = R(j, ce));
 									}
 									return Re;
 								};
 							}
-							function Gh(R) {
+							function Kh(R) {
 								return Hs(function (D) {
 									return (
 										(D = Fr(D, Ma(Zr()))),
@@ -20416,16 +20416,16 @@ function requireLodash() {
 									);
 								});
 							}
-							function Yd(R, D) {
+							function Zd(R, D) {
 								D = D === l ? " " : Ti(D);
 								var j = D.length;
-								if (j < 2) return j ? nd(D, R) : D;
-								var ce = nd(D, Jo(R / qn(D)));
+								if (j < 2) return j ? sd(D, R) : D;
+								var ce = sd(D, Jo(R / qn(D)));
 								return _o(D) ? no(ea(ce), 0, R).join("") : ce.slice(0, R);
 							}
-							function cm(R, D, j, ce) {
+							function hm(R, D, j, ce) {
 								var Re = D & I,
-									Ye = Kd(R);
+									Ye = Xd(R);
 								function lt() {
 									for (
 										var yt = -1,
@@ -20442,18 +20442,18 @@ function requireLodash() {
 								}
 								return lt;
 							}
-							function lp(R) {
+							function cp(R) {
 								return function (D, j, ce) {
 									return (
 										ce && typeof ce != "number" && ti(D, j, ce) && (j = ce = l),
 										(D = pl(D)),
 										j === l ? ((j = D), (D = 0)) : (j = pl(j)),
 										(ce = ce === l ? (D < j ? 1 : -1) : pl(ce)),
-										Jf(D, j, ce, R)
+										ep(D, j, ce, R)
 									);
 								};
 							}
-							function Xd(R) {
+							function Jd(R) {
 								return function (D, j) {
 									return (
 										(typeof D == "string" && typeof j == "string") ||
@@ -20462,7 +20462,7 @@ function requireLodash() {
 									);
 								};
 							}
-							function dm(R, D, j, ce, Re, Ye, lt, yt, Mt, Jt) {
+							function fm(R, D, j, ce, Re, Ye, lt, yt, Mt, Jt) {
 								var Qt = D & L,
 									sr = Qt ? lt : l,
 									Tr = Qt ? l : lt,
@@ -20481,7 +20481,7 @@ function requireLodash() {
 									if (
 										((j = js(j)),
 										(ce = ce == null ? 0 : da(Bn(ce), 292)),
-										ce && jc(j))
+										ce && Wc(j))
 									) {
 										var Re = (ai(j) + "e").split("e"),
 											Ye = D(Re[0] + "e" + (+Re[1] + ce));
@@ -20498,11 +20498,11 @@ function requireLodash() {
 									? function (R) {
 											return new bo(R);
 										}
-									: Dg;
-							function up(R) {
+									: Fg;
+							function dp(R) {
 								return function (D) {
 									var j = Sa(D);
-									return j == Ge ? xo(D) : j == tt ? fh(D) : uh(D, R(D));
+									return j == Ge ? xo(D) : j == tt ? mh(D) : dh(D, R(D));
 								};
 							}
 							function qs(R, D, j, ce, Re, Ye, lt, yt) {
@@ -20520,10 +20520,10 @@ function requireLodash() {
 										sr = Re;
 									ce = Re = l;
 								}
-								var Tr = Mt ? l : Jd(R),
+								var Tr = Mt ? l : eh(R),
 									jr = [R, D, j, ce, Re, Qt, sr, Ye, lt, yt];
 								if (
-									(Tr && xm(jr, Tr),
+									(Tr && vm(jr, Tr),
 									(R = jr[0]),
 									(D = jr[1]),
 									(j = jr[2]),
@@ -20534,31 +20534,31 @@ function requireLodash() {
 									!yt && D & (L | N) && (D &= ~(L | N)),
 									!D || D == I)
 								)
-									var fn = lm(R, D, j);
+									var fn = cm(R, D, j);
 								else
 									D == L || D == N
-										? (fn = cg(R, D, yt))
+										? (fn = hg(R, D, yt))
 										: (D == O || D == (I | O)) && !Re.length
-											? (fn = cm(R, D, j, ce))
-											: (fn = ud.apply(l, jr));
+											? (fn = hm(R, D, j, ce))
+											: (fn = dd.apply(l, jr));
 								var Dn = Tr ? Hi : so;
 								return us(Dn(fn, jr), R, D);
 							}
-							function cp(R, D, j, ce) {
+							function hp(R, D, j, ce) {
 								return R === l || (lo(R, gt[j]) && !zt.call(ce, j)) ? D : R;
 							}
-							function dp(R, D, j, ce, Re, Ye) {
+							function fp(R, D, j, ce, Re, Ye) {
 								return (
 									Bi(R) &&
 										Bi(D) &&
-										(Ye.set(D, R), Po(R, D, l, dp, Ye), Ye.delete(D)),
+										(Ye.set(D, R), Po(R, D, l, fp, Ye), Ye.delete(D)),
 									R
 								);
 							}
-							function hm(R) {
-								return Dp(R) ? l : R;
+							function pm(R) {
+								return Fp(R) ? l : R;
 							}
-							function Wh(R, D, j, ce, Re, Ye) {
+							function Yh(R, D, j, ce, Re, Ye) {
 								var lt = j & E,
 									yt = R.length,
 									Mt = D.length;
@@ -20583,7 +20583,7 @@ function requireLodash() {
 									}
 									if (jr) {
 										if (
-											!nn(D, function (Hn, Kn) {
+											!an(D, function (Hn, Kn) {
 												if (!xs(jr, Kn) && (fn === Hn || Re(fn, Hn, j, ce, Ye)))
 													return jr.push(Kn);
 											})
@@ -20598,7 +20598,7 @@ function requireLodash() {
 								}
 								return Ye.delete(R), Ye.delete(D), Tr;
 							}
-							function fm(R, D, j, ce, Re, Ye, lt) {
+							function mm(R, D, j, ce, Re, Ye, lt) {
 								switch (j) {
 									case Y:
 										if (
@@ -20628,18 +20628,18 @@ function requireLodash() {
 										var Jt = lt.get(R);
 										if (Jt) return Jt == D;
 										(ce |= C), lt.set(R, D);
-										var Qt = Wh(yt(R), yt(D), ce, Re, Ye, lt);
+										var Qt = Yh(yt(R), yt(D), ce, Re, Ye, lt);
 										return lt.delete(R), Qt;
 									case St:
 										if (Wa) return Wa.call(R) == Wa.call(D);
 								}
 								return !1;
 							}
-							function hp(R, D, j, ce, Re, Ye) {
+							function pp(R, D, j, ce, Re, Ye) {
 								var lt = j & E,
-									yt = Kh(R),
+									yt = Xh(R),
 									Mt = yt.length,
-									Jt = Kh(D),
+									Jt = Xh(D),
 									Qt = Jt.length;
 								if (Mt != Qt && !lt) return !1;
 								for (var sr = Mt; sr--; ) {
@@ -20682,24 +20682,24 @@ function requireLodash() {
 								return Ye.delete(R), Ye.delete(D), Dn;
 							}
 							function Hs(R) {
-								return Qh(Zh(R, l, rh), R + "");
+								return tf(Qh(R, l, ih), R + "");
 							}
-							function Kh(R) {
-								return Ah(R, wa, cd);
+							function Xh(R) {
+								return Rh(R, wa, hd);
 							}
-							function Zd(R) {
-								return Ah(R, hs, Vs);
-							}
-							var Jd = yh
-								? function (R) {
-										return yh.get(R);
-									}
-								: Dg;
 							function Qd(R) {
+								return Rh(R, hs, Vs);
+							}
+							var eh = Sh
+								? function (R) {
+										return Sh.get(R);
+									}
+								: Fg;
+							function th(R) {
 								for (
 									var D = R.name + "",
-										j = Kc[D],
-										ce = zt.call(Kc, D) ? j.length : 0;
+										j = Xc[D],
+										ce = zt.call(Xc, D) ? j.length : 0;
 									ce--;
 								) {
 									var Re = j[ce],
@@ -20713,31 +20713,31 @@ function requireLodash() {
 								return D.placeholder;
 							}
 							function Zr() {
-								var R = Ve.iteratee || Ng;
+								var R = Ve.iteratee || Dg;
 								return (
-									(R = R === Ng ? Ud : R),
+									(R = R === Dg ? Hd : R),
 									arguments.length ? R(arguments[0], arguments[1]) : R
 								);
 							}
-							function Yh(R, D) {
+							function Zh(R, D) {
 								var j = R.__data__;
 								return Nr(D)
 									? j[typeof D == "string" ? "string" : "hash"]
 									: j.map;
 							}
-							function Xh(R) {
+							function Jh(R) {
 								for (var D = wa(R), j = D.length; j--; ) {
 									var ce = D[j],
 										Re = R[ce];
-									D[j] = [ce, Re, hd(Re)];
+									D[j] = [ce, Re, pd(Re)];
 								}
 								return D;
 							}
 							function ao(R, D) {
 								var j = yo(R, D);
-								return Wf(j) ? j : l;
+								return Yf(j) ? j : l;
 							}
-							function pm(R) {
+							function gm(R) {
 								var D = zt.call(R, Zo),
 									j = R[Zo];
 								try {
@@ -20747,48 +20747,48 @@ function requireLodash() {
 								var Re = xr.call(R);
 								return ce && (D ? (R[Zo] = j) : delete R[Zo]), Re;
 							}
-							var cd = ph
+							var hd = gh
 									? function (R) {
 											return R == null
 												? []
 												: ((R = Gn(R)),
-													Xt(ph(R), function (D) {
+													Xt(gh(R), function (D) {
 														return ni.call(R, D);
 													}));
 										}
-									: zg,
-								Vs = ph
+									: $g,
+								Vs = gh
 									? function (R) {
-											for (var D = []; R; ) qr(D, cd(R)), (R = ii(R));
+											for (var D = []; R; ) qr(D, hd(R)), (R = ii(R));
 											return D;
 										}
-									: zg,
+									: $g,
 								Sa = ga;
-							((Ld && Sa(new Ld(new ArrayBuffer(1))) != Y) ||
+							((Od && Sa(new Od(new ArrayBuffer(1))) != Y) ||
 								(Qo && Sa(new Qo()) != Ge) ||
-								(Nd && Sa(Nd.resolve()) != Oe) ||
+								(Dd && Sa(Dd.resolve()) != Oe) ||
 								(bo && Sa(new bo()) != tt) ||
-								(Od && Sa(new Od()) != Ft)) &&
+								(zd && Sa(new zd()) != Ft)) &&
 								(Sa = function (R) {
 									var D = ga(R),
 										j = D == ge ? R.constructor : l,
 										ce = j ? Oo(j) : "";
 									if (ce)
 										switch (ce) {
-											case $f:
+											case qf:
 												return Y;
 											case wo:
 												return Ge;
-											case jp:
+											case Wp:
 												return Oe;
-											case Yc:
+											case Zc:
 												return tt;
 											case Ns:
 												return Ft;
 										}
 									return D;
 								});
-							function mm(R, D, j) {
+							function ym(R, D, j) {
 								for (var ce = -1, Re = j.length; ++ce < Re; ) {
 									var Ye = j[ce],
 										lt = Ye.size;
@@ -20809,11 +20809,11 @@ function requireLodash() {
 								}
 								return { start: R, end: D };
 							}
-							function fp(R) {
+							function mp(R) {
 								var D = R.match(ht);
 								return D ? D[1].split(Rt) : [];
 							}
-							function pp(R, D, j) {
+							function gp(R, D, j) {
 								D = ro(D, R);
 								for (var ce = -1, Re = D.length, Ye = !1; ++ce < Re; ) {
 									var lt = Cs(D[ce]);
@@ -20823,9 +20823,9 @@ function requireLodash() {
 								return Ye || ++ce != Re
 									? Ye
 									: ((Re = R == null ? 0 : R.length),
-										!!Re && Dm(Re) && ls(lt, Re) && (Rn(R) || oh(R)));
+										!!Re && Fm(Re) && ls(lt, Re) && (Rn(R) || uh(R)));
 							}
-							function gm(R) {
+							function xm(R) {
 								var D = R.length,
 									j = new R.constructor(D);
 								return (
@@ -20836,21 +20836,21 @@ function requireLodash() {
 									j
 								);
 							}
-							function dd(R) {
-								return typeof R.constructor == "function" && !eh(R)
-									? Xc(ii(R))
+							function fd(R) {
+								return typeof R.constructor == "function" && !rh(R)
+									? Jc(ii(R))
 									: {};
 							}
 							function va(R, D, j) {
 								var ce = R.constructor;
 								switch (D) {
 									case K:
-										return od(R);
+										return ud(R);
 									case pe:
 									case ke:
 										return new ce(+R);
 									case Y:
-										return qh(R, j);
+										return Vh(R, j);
 									case te:
 									case Ae:
 									case De:
@@ -20860,21 +20860,21 @@ function requireLodash() {
 									case Tt:
 									case kt:
 									case We:
-										return np(R, j);
+										return ap(R, j);
 									case Ge:
 										return new ce();
 									case Te:
 									case ot:
 										return new ce(R);
 									case Ee:
-										return im(R);
+										return sm(R);
 									case tt:
 										return new ce();
 									case St:
-										return rp(R);
+										return ip(R);
 								}
 							}
-							function dg(R, D) {
+							function fg(R, D) {
 								var j = D.length;
 								if (!j) return R;
 								var ce = j - 1;
@@ -20891,8 +20891,8 @@ function requireLodash() {
 									)
 								);
 							}
-							function hg(R) {
-								return Rn(R) || oh(R) || !!(So && R && R[So]);
+							function pg(R) {
+								return Rn(R) || uh(R) || !!(So && R && R[So]);
 							}
 							function ls(R, D) {
 								var j = typeof R;
@@ -20916,7 +20916,7 @@ function requireLodash() {
 									? lo(j[D], R)
 									: !1;
 							}
-							function mp(R, D) {
+							function yp(R, D) {
 								if (Rn(R)) return !1;
 								var j = typeof R;
 								return j == "number" ||
@@ -20937,38 +20937,38 @@ function requireLodash() {
 									: R === null;
 							}
 							function No(R) {
-								var D = Qd(R),
+								var D = th(R),
 									j = Ve[D];
 								if (typeof j != "function" || !(D in An.prototype)) return !1;
 								if (R === j) return !0;
-								var ce = Jd(j);
+								var ce = eh(j);
 								return !!ce && R === ce[0];
 							}
-							function gp(R) {
+							function _p(R) {
 								return !!pr && pr in R;
 							}
-							var ym = Gt ? fl : Fg;
-							function eh(R) {
+							var Sm = Gt ? fl : Ug;
+							function rh(R) {
 								var D = R && R.constructor,
 									j = (typeof D == "function" && D.prototype) || gt;
 								return R === j;
 							}
-							function hd(R) {
+							function pd(R) {
 								return R === R && !Bi(R);
 							}
-							function th(R, D) {
+							function nh(R, D) {
 								return function (j) {
 									return j == null ? !1 : j[R] === D && (D !== l || R in Gn(j));
 								};
 							}
-							function yp(R) {
+							function xp(R) {
 								var D = vt(R, function (ce) {
 										return j.size === x && j.clear(), ce;
 									}),
 									j = D.cache;
 								return D;
 							}
-							function xm(R, D) {
+							function vm(R, D) {
 								var j = R[1],
 									ce = D[1],
 									Re = j | ce,
@@ -20982,14 +20982,14 @@ function requireLodash() {
 								var yt = D[3];
 								if (yt) {
 									var Mt = R[3];
-									(R[3] = Mt ? ap(Mt, yt, D[4]) : yt),
+									(R[3] = Mt ? op(Mt, yt, D[4]) : yt),
 										(R[4] = Mt ? ki(R[3], S) : D[4]);
 								}
 								return (
 									(yt = D[5]),
 									yt &&
 										((Mt = R[5]),
-										(R[5] = Mt ? Hh(Mt, yt, D[6]) : yt),
+										(R[5] = Mt ? jh(Mt, yt, D[6]) : yt),
 										(R[6] = Mt ? ki(R[5], S) : D[6])),
 									(yt = D[7]),
 									yt && (R[7] = yt),
@@ -21000,15 +21000,15 @@ function requireLodash() {
 									R
 								);
 							}
-							function Sm(R) {
+							function bm(R) {
 								var D = [];
 								if (R != null) for (var j in Gn(R)) D.push(j);
 								return D;
 							}
-							function vm(R) {
+							function wm(R) {
 								return xr.call(R);
 							}
-							function Zh(R, D, j) {
+							function Qh(R, D, j) {
 								return (
 									(D = Oi(D === l ? R.length - 1 : D, 0)),
 									function () {
@@ -21026,7 +21026,7 @@ function requireLodash() {
 									}
 								);
 							}
-							function Jh(R, D) {
+							function ef(R, D) {
 								return D.length < 2 ? R : Ya(R, ya(D, 0, -1));
 							}
 							function sa(R, D) {
@@ -21046,22 +21046,22 @@ function requireLodash() {
 								)
 									return R[D];
 							}
-							var so = _p(Hi),
-								fd =
-									zf ||
+							var so = Sp(Hi),
+								md =
+									$f ||
 									function (R, D) {
 										return Ur.setTimeout(R, D);
 									},
-								Qh = _p(Nh);
+								tf = Sp(Dh);
 							function us(R, D, j) {
 								var ce = D + "";
-								return Qh(R, dg(ce, wm(fp(ce), j)));
+								return tf(R, fg(ce, Em(mp(ce), j)));
 							}
-							function _p(R) {
+							function Sp(R) {
 								var D = 0,
 									j = 0;
 								return function () {
-									var ce = og(),
+									var ce = ug(),
 										Re = ie - (ce - j);
 									if (((j = ce), Re > 0)) {
 										if (++D >= de) return arguments[0];
@@ -21074,13 +21074,13 @@ function requireLodash() {
 									ce = R.length,
 									Re = ce - 1;
 								for (D = D === l ? ce : D; ++j < D; ) {
-									var Ye = Vd(j, Re),
+									var Ye = Gd(j, Re),
 										lt = R[Ye];
 									(R[Ye] = R[j]), (R[j] = lt);
 								}
 								return (R.length = D), R;
 							}
-							var bm = yp(function (R) {
+							var km = xp(function (R) {
 								var D = [];
 								return (
 									R.charCodeAt(0) === 46 && D.push(""),
@@ -21106,7 +21106,7 @@ function requireLodash() {
 								}
 								return "";
 							}
-							function wm(R, D) {
+							function Em(R, D) {
 								return (
 									Fe(He, function (j) {
 										var ce = "_." + j[0];
@@ -21115,7 +21115,7 @@ function requireLodash() {
 									R.sort()
 								);
 							}
-							function xp(R) {
+							function vp(R) {
 								if (R instanceof An) return R.clone();
 								var D = new ha(R.__wrapped__, R.__chain__);
 								return (
@@ -21125,7 +21125,7 @@ function requireLodash() {
 									D
 								);
 							}
-							function fg(R, D, j) {
+							function mg(R, D, j) {
 								(j ? ti(R, D, j) : D === l) ? (D = 1) : (D = Oi(Bn(D), 0));
 								var ce = R == null ? 0 : R.length;
 								if (!ce || D < 1) return [];
@@ -21133,7 +21133,7 @@ function requireLodash() {
 									lt[Ye++] = ya(R, Re, (Re += D));
 								return lt;
 							}
-							function ef(R) {
+							function rf(R) {
 								for (
 									var D = -1, j = R == null ? 0 : R.length, ce = 0, Re = [];
 									++D < j;
@@ -21143,7 +21143,7 @@ function requireLodash() {
 								}
 								return Re;
 							}
-							function Sp() {
+							function bp() {
 								var R = arguments.length;
 								if (!R) return [];
 								for (var D = Ot(R - 1), j = arguments[0], ce = R; ce--; )
@@ -21181,10 +21181,10 @@ function requireLodash() {
 									: [];
 							}
 							function Ja(R, D) {
-								return R && R.length ? ad(R, Zr(D, 3), !0, !0) : [];
+								return R && R.length ? od(R, Zr(D, 3), !0, !0) : [];
 							}
-							function pd(R, D) {
-								return R && R.length ? ad(R, Zr(D, 3), !0) : [];
+							function gd(R, D) {
+								return R && R.length ? od(R, Zr(D, 3), !0) : [];
 							}
 							function Gi(R, D, j, ce) {
 								var Re = R == null ? 0 : R.length;
@@ -21193,10 +21193,10 @@ function requireLodash() {
 											typeof j != "number" &&
 											ti(R, D, j) &&
 											((j = 0), (ce = Re)),
-										Ch(R, D, j, ce))
+										Ah(R, D, j, ce))
 									: [];
 							}
-							function md(R, D, j) {
+							function yd(R, D, j) {
 								var ce = R == null ? 0 : R.length;
 								if (!ce) return -1;
 								var Re = j == null ? 0 : Bn(j);
@@ -21213,15 +21213,15 @@ function requireLodash() {
 									bi(R, Zr(D, 3), Re, !0)
 								);
 							}
-							function rh(R) {
+							function ih(R) {
 								var D = R == null ? 0 : R.length;
 								return D ? qi(R, 1) : [];
 							}
-							function vp(R) {
+							function wp(R) {
 								var D = R == null ? 0 : R.length;
 								return D ? qi(R, fe) : [];
 							}
-							function nh(R, D) {
+							function ah(R, D) {
 								var j = R == null ? 0 : R.length;
 								return j ? ((D = D === l ? 1 : Bn(D)), qi(R, D)) : [];
 							}
@@ -21235,10 +21235,10 @@ function requireLodash() {
 								}
 								return ce;
 							}
-							function tf(R) {
+							function nf(R) {
 								return R && R.length ? R[0] : l;
 							}
-							function gd(R, D, j) {
+							function xd(R, D, j) {
 								var ce = R == null ? 0 : R.length;
 								if (!ce) return -1;
 								var Re = j == null ? 0 : Bn(j);
@@ -21248,13 +21248,13 @@ function requireLodash() {
 								var D = R == null ? 0 : R.length;
 								return D ? ya(R, 0, -1) : [];
 							}
-							var rf = Mn(function (R) {
-									var D = Fr(R, $h);
+							var af = Mn(function (R) {
+									var D = Fr(R, qh);
 									return D.length && D[0] === R[0] ? ks(D) : [];
 								}),
-								bp = Mn(function (R) {
+								kp = Mn(function (R) {
 									var D = Wi(R),
-										j = Fr(R, $h);
+										j = Fr(R, qh);
 									return (
 										D === Wi(j) ? (D = l) : j.pop(),
 										j.length && j[0] === R[0] ? ks(j, Zr(D, 2)) : []
@@ -21262,21 +21262,21 @@ function requireLodash() {
 								}),
 								zo = Mn(function (R) {
 									var D = Wi(R),
-										j = Fr(R, $h);
+										j = Fr(R, qh);
 									return (
 										(D = typeof D == "function" ? D : l),
 										D && j.pop(),
 										j.length && j[0] === R[0] ? ks(j, l, D) : []
 									);
 								});
-							function nf(R, D) {
-								return R == null ? "" : mh.call(R, D);
+							function sf(R, D) {
+								return R == null ? "" : yh.call(R, D);
 							}
 							function Wi(R) {
 								var D = R == null ? 0 : R.length;
 								return D ? R[D - 1] : l;
 							}
-							function af(R, D, j) {
+							function of(R, D, j) {
 								var ce = R == null ? 0 : R.length;
 								if (!ce) return -1;
 								var Re = ce;
@@ -21284,17 +21284,17 @@ function requireLodash() {
 									j !== l &&
 										((Re = Bn(j)),
 										(Re = Re < 0 ? Oi(ce + Re, 0) : da(Re, ce - 1))),
-									D === D ? Nf(R, D, Re) : bi(R, ua, Re, !0)
+									D === D ? Df(R, D, Re) : bi(R, ua, Re, !0)
 								);
 							}
-							function ih(R, D) {
+							function sh(R, D) {
 								return R && R.length ? Bo(R, Bn(D)) : l;
 							}
-							var wp = Mn(ah);
-							function ah(R, D) {
+							var Ep = Mn(oh);
+							function oh(R, D) {
 								return R && R.length && D && D.length ? mi(R, D) : R;
 							}
-							function sf(R, D, j) {
+							function lf(R, D, j) {
 								return R && R.length && D && D.length ? mi(R, D, Zr(j, 2)) : R;
 							}
 							function Oa(R, D, j) {
@@ -21302,13 +21302,13 @@ function requireLodash() {
 							}
 							var Fo = Hs(function (R, D) {
 								var j = R == null ? 0 : R.length,
-									ce = Th(R, D);
+									ce = Ih(R, D);
 								return (
-									Hd(
+									jd(
 										R,
 										Fr(D, function (Re) {
 											return ls(Re, j) ? +Re : Re;
-										}).sort(ip),
+										}).sort(sp),
 									),
 									ce
 								);
@@ -21323,12 +21323,12 @@ function requireLodash() {
 									var lt = R[ce];
 									D(lt, ce, R) && (j.push(lt), Re.push(ce));
 								}
-								return Hd(R, Re), j;
+								return jd(R, Re), j;
 							}
 							function ba(R) {
-								return R == null ? R : gh.call(R);
+								return R == null ? R : xh.call(R);
 							}
-							function km(R, D, j) {
+							function Tm(R, D, j) {
 								var ce = R == null ? 0 : R.length;
 								return ce
 									? (j && typeof j != "number" && ti(R, D, j)
@@ -21338,13 +21338,13 @@ function requireLodash() {
 										ya(R, D, j))
 									: [];
 							}
-							function kp(R, D) {
+							function Tp(R, D) {
 								return Vi(R, D);
 							}
-							function Ep(R, D, j) {
-								return Gd(R, D, Zr(j, 2));
+							function Cp(R, D, j) {
+								return Kd(R, D, Zr(j, 2));
 							}
-							function pg(R, D) {
+							function gg(R, D) {
 								var j = R == null ? 0 : R.length;
 								if (j) {
 									var ce = Vi(R, D);
@@ -21355,10 +21355,10 @@ function requireLodash() {
 							function $o(R, D) {
 								return Vi(R, D, !0);
 							}
-							function Em(R, D, j) {
-								return Gd(R, D, Zr(j, 2), !0);
+							function Cm(R, D, j) {
+								return Kd(R, D, Zr(j, 2), !0);
 							}
-							function Tp(R, D) {
+							function Ip(R, D) {
 								var j = R == null ? 0 : R.length;
 								if (j) {
 									var ce = Vi(R, D, !0) - 1;
@@ -21367,21 +21367,21 @@ function requireLodash() {
 								return -1;
 							}
 							function ul(R) {
-								return R && R.length ? Oh(R) : [];
+								return R && R.length ? zh(R) : [];
 							}
-							function Cp(R, D) {
-								return R && R.length ? Oh(R, Zr(D, 2)) : [];
+							function Ap(R, D) {
+								return R && R.length ? zh(R, Zr(D, 2)) : [];
 							}
 							function cl(R) {
 								var D = R == null ? 0 : R.length;
 								return D ? ya(R, 1, D) : [];
 							}
-							function Tm(R, D, j) {
+							function Im(R, D, j) {
 								return R && R.length
 									? ((D = j || D === l ? 1 : Bn(D)), ya(R, 0, D < 0 ? 0 : D))
 									: [];
 							}
-							function Cm(R, D, j) {
+							function Am(R, D, j) {
 								var ce = R == null ? 0 : R.length;
 								return ce
 									? ((D = j || D === l ? 1 : Bn(D)),
@@ -21389,33 +21389,33 @@ function requireLodash() {
 										ya(R, D < 0 ? 0 : D, ce))
 									: [];
 							}
-							function Ip(R, D) {
-								return R && R.length ? ad(R, Zr(D, 3), !1, !0) : [];
+							function Mp(R, D) {
+								return R && R.length ? od(R, Zr(D, 3), !1, !0) : [];
 							}
-							function of(R, D) {
-								return R && R.length ? ad(R, Zr(D, 3)) : [];
+							function uf(R, D) {
+								return R && R.length ? od(R, Zr(D, 3)) : [];
 							}
-							var mg = Mn(function (R) {
+							var yg = Mn(function (R) {
 									return ji(qi(R, 1, Ki, !0));
 								}),
-								gg = Mn(function (R) {
+								xg = Mn(function (R) {
 									var D = Wi(R);
 									return Ki(D) && (D = l), ji(qi(R, 1, Ki, !0), Zr(D, 2));
 								}),
-								Im = Mn(function (R) {
+								Mm = Mn(function (R) {
 									var D = Wi(R);
 									return (
 										(D = typeof D == "function" ? D : l),
 										ji(qi(R, 1, Ki, !0), l, D)
 									);
 								});
-							function Am(R) {
+							function Rm(R) {
 								return R && R.length ? ji(R) : [];
 							}
 							function dl(R, D) {
 								return R && R.length ? ji(R, Zr(D, 2)) : [];
 							}
-							function yg(R, D) {
+							function Sg(R, D) {
 								return (
 									(D = typeof D == "function" ? D : l),
 									R && R.length ? ji(R, l, D) : []
@@ -21433,7 +21433,7 @@ function requireLodash() {
 									})
 								);
 							}
-							function Ap(R, D) {
+							function Rp(R, D) {
 								if (!(R && R.length)) return [];
 								var j = Uo(R);
 								return D == null
@@ -21445,41 +21445,41 @@ function requireLodash() {
 							var Ci = Mn(function (R, D) {
 									return Ki(R) ? $s(R, D) : [];
 								}),
-								xg = Mn(function (R) {
-									return Fh(Xt(R, Ki));
+								vg = Mn(function (R) {
+									return Uh(Xt(R, Ki));
 								}),
-								Mm = Mn(function (R) {
+								Pm = Mn(function (R) {
 									var D = Wi(R);
-									return Ki(D) && (D = l), Fh(Xt(R, Ki), Zr(D, 2));
+									return Ki(D) && (D = l), Uh(Xt(R, Ki), Zr(D, 2));
 								}),
-								Sg = Mn(function (R) {
+								bg = Mn(function (R) {
 									var D = Wi(R);
 									return (
-										(D = typeof D == "function" ? D : l), Fh(Xt(R, Ki), l, D)
+										(D = typeof D == "function" ? D : l), Uh(Xt(R, Ki), l, D)
 									);
 								}),
-								vg = Mn(Uo);
-							function Rm(R, D) {
-								return ep(R || [], D || [], nl);
+								wg = Mn(Uo);
+							function Bm(R, D) {
+								return rp(R || [], D || [], nl);
 							}
-							function Pm(R, D) {
-								return ep(R || [], D || [], vi);
+							function Lm(R, D) {
+								return rp(R || [], D || [], vi);
 							}
-							var bg = Mn(function (R) {
+							var kg = Mn(function (R) {
 								var D = R.length,
 									j = D > 1 ? R[D - 1] : l;
 								return (
-									(j = typeof j == "function" ? (R.pop(), j) : l), Ap(R, j)
+									(j = typeof j == "function" ? (R.pop(), j) : l), Rp(R, j)
 								);
 							});
 							function Qa(R) {
 								var D = Ve(R);
 								return (D.__chain__ = !0), D;
 							}
-							function Mp(R, D) {
+							function Pp(R, D) {
 								return D(R), R;
 							}
-							function lf(R, D) {
+							function cf(R, D) {
 								return D(R);
 							}
 							var qo = Hs(function (R) {
@@ -21487,7 +21487,7 @@ function requireLodash() {
 									j = D ? R[0] : 0,
 									ce = this.__wrapped__,
 									Re = function (Ye) {
-										return Th(Ye, R);
+										return Ih(Ye, R);
 									};
 								return D > 1 ||
 									this.__actions__.length ||
@@ -21495,29 +21495,29 @@ function requireLodash() {
 									!ls(j)
 									? this.thru(Re)
 									: ((ce = ce.slice(j, +j + (D ? 1 : 0))),
-										ce.__actions__.push({ func: lf, args: [Re], thisArg: l }),
+										ce.__actions__.push({ func: cf, args: [Re], thisArg: l }),
 										new ha(ce, this.__chain__).thru(function (Ye) {
 											return D && !Ye.length && Ye.push(l), Ye;
 										}));
 							});
-							function uf() {
+							function df() {
 								return Qa(this);
 							}
 							function hl() {
 								return new ha(this.value(), this.__chain__);
 							}
-							function cf() {
-								this.__values__ === l && (this.__values__ = Yg(this.value()));
+							function hf() {
+								this.__values__ === l && (this.__values__ = Zg(this.value()));
 								var R = this.__index__ >= this.__values__.length,
 									D = R ? l : this.__values__[this.__index__++];
 								return { done: R, value: D };
 							}
-							function Rp() {
+							function Bp() {
 								return this;
 							}
-							function Pp(R) {
+							function Lp(R) {
 								for (var D, j = this; j instanceof Os; ) {
-									var ce = xp(j);
+									var ce = vp(j);
 									(ce.__index__ = 0),
 										(ce.__values__ = l),
 										D ? (Re.__wrapped__ = ce) : (D = ce);
@@ -21526,66 +21526,66 @@ function requireLodash() {
 								}
 								return (Re.__wrapped__ = R), D;
 							}
-							function wg() {
+							function Eg() {
 								var R = this.__wrapped__;
 								if (R instanceof An) {
 									var D = R;
 									return (
 										this.__actions__.length && (D = new An(this)),
 										(D = D.reverse()),
-										D.__actions__.push({ func: lf, args: [ba], thisArg: l }),
+										D.__actions__.push({ func: cf, args: [ba], thisArg: l }),
 										new ha(D, this.__chain__)
 									);
 								}
 								return this.thru(ba);
 							}
-							function Bp() {
-								return Qf(this.__wrapped__, this.__actions__);
+							function Np() {
+								return tp(this.__wrapped__, this.__actions__);
 							}
-							var kg = Wd(function (R, D, j) {
+							var Tg = Yd(function (R, D, j) {
 								zt.call(R, j) ? ++R[j] : Fs(R, j, 1);
 							});
-							function Bm(R, D, j) {
+							function Nm(R, D, j) {
 								var ce = Rn(R) ? Ht : bs;
 								return j && ti(R, D, j) && (D = l), ce(R, Zr(D, 3));
 							}
-							function Lm(R, D) {
+							function Om(R, D) {
 								var j = Rn(R) ? Xt : al;
 								return j(R, Zr(D, 3));
 							}
-							var df = um(md),
-								hf = um(Do);
-							function Nm(R, D) {
-								return qi(gf(R, D), 1);
+							var ff = dm(yd),
+								pf = dm(Do);
+							function Dm(R, D) {
+								return qi(xf(R, D), 1);
 							}
-							function Lp(R, D) {
-								return qi(gf(R, D), fe);
+							function Op(R, D) {
+								return qi(xf(R, D), fe);
 							}
-							function Eg(R, D, j) {
-								return (j = j === l ? 1 : Bn(j)), qi(gf(R, D), j);
+							function Cg(R, D, j) {
+								return (j = j === l ? 1 : Bn(j)), qi(xf(R, D), j);
 							}
-							function Np(R, D) {
+							function Dp(R, D) {
 								var j = Rn(R) ? Fe : Us;
 								return j(R, Zr(D, 3));
 							}
-							function ff(R, D) {
-								var j = Rn(R) ? _t : Jp;
+							function mf(R, D) {
+								var j = Rn(R) ? _t : em;
 								return j(R, Zr(D, 3));
 							}
-							var pf = Wd(function (R, D, j) {
+							var gf = Yd(function (R, D, j) {
 								zt.call(R, j) ? R[j].push(D) : Fs(R, j, [D]);
 							});
-							function Op(R, D, j, ce) {
-								(R = ds(R) ? R : vf(R)), (j = j && !ce ? Bn(j) : 0);
+							function zp(R, D, j, ce) {
+								(R = ds(R) ? R : wf(R)), (j = j && !ce ? Bn(j) : 0);
 								var Re = R.length;
 								return (
 									j < 0 && (j = Oi(Re + j, 0)),
-									zm(R)
+									$m(R)
 										? j <= Re && R.indexOf(D, j) > -1
 										: !!Re && wi(R, D, j) > -1
 								);
 							}
-							var mf = Mn(function (R, D, j) {
+							var yf = Mn(function (R, D, j) {
 									var ce = -1,
 										Re = typeof D == "function",
 										Ye = ds(R) ? Ot(R.length) : [];
@@ -21596,22 +21596,22 @@ function requireLodash() {
 										Ye
 									);
 								}),
-								Om = Wd(function (R, D, j) {
+								zm = Yd(function (R, D, j) {
 									Fs(R, j, D);
 								});
-							function gf(R, D) {
-								var j = Rn(R) ? Fr : Yf;
+							function xf(R, D) {
+								var j = Rn(R) ? Fr : Zf;
 								return j(R, Zr(D, 3));
 							}
-							function yf(R, D, j, ce) {
+							function Sf(R, D, j, ce) {
 								return R == null
 									? []
 									: (Rn(D) || (D = D == null ? [] : [D]),
 										(j = ce ? l : j),
 										Rn(j) || (j = j == null ? [] : [j]),
-										Lh(R, D, j));
+										Oh(R, D, j));
 							}
-							var Tg = Wd(
+							var Ig = Yd(
 								function (R, D, j) {
 									R[j ? 0 : 1].push(D);
 								},
@@ -21619,17 +21619,17 @@ function requireLodash() {
 									return [[], []];
 								},
 							);
-							function sh(R, D, j) {
+							function lh(R, D, j) {
 								var ce = Rn(R) ? Lr : Ps,
 									Re = arguments.length < 3;
 								return ce(R, Zr(D, 4), j, Re, Us);
 							}
-							function Cg(R, D, j) {
+							function Ag(R, D, j) {
 								var ce = Rn(R) ? ei : Ps,
 									Re = arguments.length < 3;
-								return ce(R, Zr(D, 4), j, Re, Jp);
+								return ce(R, Zr(D, 4), j, Re, em);
 							}
-							function xf(R, D) {
+							function vf(R, D) {
 								var j = Rn(R) ? Xt : al;
 								return j(R, Nt(Zr(D, 3)));
 							}
@@ -21643,17 +21643,17 @@ function requireLodash() {
 								return ce(R, D);
 							}
 							function z(R) {
-								var D = Rn(R) ? Xp : jd;
+								var D = Rn(R) ? Jp : Wd;
 								return D(R);
 							}
 							function V(R) {
 								if (R == null) return 0;
-								if (ds(R)) return zm(R) ? qn(R) : R.length;
+								if (ds(R)) return $m(R) ? qn(R) : R.length;
 								var D = Sa(R);
-								return D == Ge || D == tt ? R.size : Bh(R).length;
+								return D == Ge || D == tt ? R.size : Nh(R).length;
 							}
 							function Z(R, D, j) {
-								var ce = Rn(R) ? nn : lg;
+								var ce = Rn(R) ? an : cg;
 								return j && ti(R, D, j) && (D = l), ce(R, Zr(D, 3));
 							}
 							var ue = Mn(function (R, D) {
@@ -21663,7 +21663,7 @@ function requireLodash() {
 										j > 1 && ti(R, D[0], D[1])
 											? (D = [])
 											: j > 2 && ti(D[0], D[1], D[2]) && (D = [D[0]]),
-										Lh(R, qi(D, 1), [])
+										Oh(R, qi(D, 1), [])
 									);
 								}),
 								Le =
@@ -21751,13 +21751,13 @@ function requireLodash() {
 									return (ce = Re = l), (Jt = Yi), (lt = R.apply(ml, uo)), lt;
 								}
 								function fn(Yi) {
-									return (Jt = Yi), (yt = fd(Hn, D)), Qt ? jr(Yi) : lt;
+									return (Jt = Yi), (yt = md(Hn, D)), Qt ? jr(Yi) : lt;
 								}
 								function Dn(Yi) {
 									var uo = Yi - Mt,
 										ml = Yi - Jt,
-										l0 = D - uo;
-									return sr ? da(l0, Ye - ml) : l0;
+										c0 = D - uo;
+									return sr ? da(c0, Ye - ml) : c0;
 								}
 								function pn(Yi) {
 									var uo = Yi - Mt,
@@ -21767,13 +21767,13 @@ function requireLodash() {
 								function Hn() {
 									var Yi = Le();
 									if (pn(Yi)) return Kn(Yi);
-									yt = fd(Hn, Dn(Yi));
+									yt = md(Hn, Dn(Yi));
 								}
 								function Kn(Yi) {
 									return (yt = l), Tr && ce ? jr(Yi) : ((ce = Re = l), lt);
 								}
 								function Ms() {
-									yt !== l && sd(yt), (Jt = 0), (ce = Mt = Re = yt = l);
+									yt !== l && ld(yt), (Jt = 0), (ce = Mt = Re = yt = l);
 								}
 								function es() {
 									return yt === l ? lt : Kn(Le());
@@ -21783,17 +21783,17 @@ function requireLodash() {
 										uo = pn(Yi);
 									if (((ce = arguments), (Re = this), (Mt = Yi), uo)) {
 										if (yt === l) return fn(Mt);
-										if (sr) return sd(yt), (yt = fd(Hn, D)), jr(Mt);
+										if (sr) return ld(yt), (yt = md(Hn, D)), jr(Mt);
 									}
-									return yt === l && (yt = fd(Hn, D)), lt;
+									return yt === l && (yt = md(Hn, D)), lt;
 								}
 								return (Rs.cancel = Ms), (Rs.flush = es), Rs;
 							}
 							var $r = Mn(function (R, D) {
-									return Hf(R, 1, D);
+									return jf(R, 1, D);
 								}),
 								Pi = Mn(function (R, D, j) {
-									return Hf(R, js(D) || 0, j);
+									return jf(R, js(D) || 0, j);
 								});
 							function Lt(R) {
 								return qs(R, W);
@@ -21835,7 +21835,7 @@ function requireLodash() {
 							function hr(R) {
 								return Ut(2, R);
 							}
-							var Hr = nm(function (R, D) {
+							var Hr = am(function (R, D) {
 									D =
 										D.length == 1 && Rn(D[0])
 											? Fr(D[0], Ma(Zr()))
@@ -21884,93 +21884,93 @@ function requireLodash() {
 									Or(R, D, { leading: ce, maxWait: D, trailing: Re })
 								);
 							}
-							function Ig(R) {
+							function Mg(R) {
 								return mt(R, 1);
 							}
-							function c0(R, D) {
-								return Jr(Uh(D), R);
+							function h0(R, D) {
+								return Jr(Hh(D), R);
 							}
-							function d0() {
+							function f0() {
 								if (!arguments.length) return [];
 								var R = arguments[0];
 								return Rn(R) ? R : [R];
 							}
-							function h0(R) {
+							function p0(R) {
 								return qa(R, k);
 							}
-							function f0(R, D) {
+							function m0(R, D) {
 								return (D = typeof D == "function" ? D : l), qa(R, k, D);
 							}
-							function p0(R) {
+							function g0(R) {
 								return qa(R, v | k);
 							}
-							function m0(R, D) {
+							function y0(R, D) {
 								return (D = typeof D == "function" ? D : l), qa(R, v | k, D);
 							}
-							function g0(R, D) {
-								return D == null || zd(R, D, wa(D));
+							function _0(R, D) {
+								return D == null || $d(R, D, wa(D));
 							}
 							function lo(R, D) {
 								return R === D || (R !== R && D !== D);
 							}
-							var y0 = Xd(ws),
-								_0 = Xd(function (R, D) {
+							var x0 = Jd(ws),
+								S0 = Jd(function (R, D) {
 									return R >= D;
 								}),
-								oh = jf(
+								uh = Wf(
 									(function () {
 										return arguments;
 									})(),
 								)
-									? jf
+									? Wf
 									: function (R) {
 											return (
 												zi(R) && zt.call(R, "callee") && !ni.call(R, "callee")
 											);
 										},
 								Rn = Ot.isArray,
-								x0 = Ie ? Ma(Ie) : Mh;
+								v0 = Ie ? Ma(Ie) : Ph;
 							function ds(R) {
-								return R != null && Dm(R.length) && !fl(R);
+								return R != null && Fm(R.length) && !fl(R);
 							}
 							function Ki(R) {
 								return zi(R) && ds(R);
 							}
-							function S0(R) {
+							function b0(R) {
 								return R === !0 || R === !1 || (zi(R) && ga(R) == pe);
 							}
-							var yd = Ff || Fg,
-								v0 = ze ? Ma(ze) : em;
-							function b0(R) {
-								return zi(R) && R.nodeType === 1 && !Dp(R);
+							var Sd = Uf || Ug,
+								w0 = ze ? Ma(ze) : rm;
+							function k0(R) {
+								return zi(R) && R.nodeType === 1 && !Fp(R);
 							}
-							function w0(R) {
+							function E0(R) {
 								if (R == null) return !0;
 								if (
 									ds(R) &&
 									(Rn(R) ||
 										typeof R == "string" ||
 										typeof R.splice == "function" ||
-										yd(R) ||
-										Sf(R) ||
-										oh(R))
+										Sd(R) ||
+										bf(R) ||
+										uh(R))
 								)
 									return !R.length;
 								var D = Sa(R);
 								if (D == Ge || D == tt) return !R.size;
-								if (eh(R)) return !Bh(R).length;
+								if (rh(R)) return !Nh(R).length;
 								for (var j in R) if (zt.call(R, j)) return !1;
 								return !0;
 							}
-							function k0(R, D) {
-								return ed(R, D);
+							function T0(R, D) {
+								return rd(R, D);
 							}
-							function E0(R, D, j) {
+							function C0(R, D, j) {
 								j = typeof j == "function" ? j : l;
 								var ce = j ? j(R, D) : l;
-								return ce === l ? ed(R, D, l, j) : !!ce;
+								return ce === l ? rd(R, D, l, j) : !!ce;
 							}
-							function Ag(R) {
+							function Rg(R) {
 								if (!zi(R)) return !1;
 								var D = ga(R);
 								return (
@@ -21978,21 +21978,21 @@ function requireLodash() {
 									D == Be ||
 									(typeof R.message == "string" &&
 										typeof R.name == "string" &&
-										!Dp(R))
+										!Fp(R))
 								);
 							}
-							function T0(R) {
-								return typeof R == "number" && jc(R);
+							function I0(R) {
+								return typeof R == "number" && Wc(R);
 							}
 							function fl(R) {
 								if (!Bi(R)) return !1;
 								var D = ga(R);
 								return D == be || D == qe || D == me || D == Me;
 							}
-							function jg(R) {
+							function Wg(R) {
 								return typeof R == "number" && R == Bn(R);
 							}
-							function Dm(R) {
+							function Fm(R) {
 								return typeof R == "number" && R > -1 && R % 1 == 0 && R <= ve;
 							}
 							function Bi(R) {
@@ -22002,30 +22002,30 @@ function requireLodash() {
 							function zi(R) {
 								return R != null && typeof R == "object";
 							}
-							var Gg = dt ? Ma(dt) : Rh;
-							function C0(R, D) {
-								return R === D || Ph(R, D, Xh(D));
+							var Kg = dt ? Ma(dt) : Bh;
+							function A0(R, D) {
+								return R === D || Lh(R, D, Jh(D));
 							}
-							function I0(R, D, j) {
-								return (j = typeof j == "function" ? j : l), Ph(R, D, Xh(D), j);
-							}
-							function A0(R) {
-								return Wg(R) && R != +R;
-							}
-							function M0(R) {
-								if (ym(R)) throw new hn(p);
-								return Wf(R);
+							function M0(R, D, j) {
+								return (j = typeof j == "function" ? j : l), Lh(R, D, Jh(D), j);
 							}
 							function R0(R) {
-								return R === null;
+								return Yg(R) && R != +R;
 							}
 							function P0(R) {
+								if (Sm(R)) throw new hn(p);
+								return Yf(R);
+							}
+							function B0(R) {
+								return R === null;
+							}
+							function L0(R) {
 								return R == null;
 							}
-							function Wg(R) {
+							function Yg(R) {
 								return typeof R == "number" || (zi(R) && ga(R) == Te);
 							}
-							function Dp(R) {
+							function Fp(R) {
 								if (!zi(R) || ga(R) != ge) return !1;
 								var D = ii(R);
 								if (D === null) return !0;
@@ -22034,37 +22034,37 @@ function requireLodash() {
 									typeof j == "function" && j instanceof j && Ct.call(j) == Yr
 								);
 							}
-							var Mg = at ? Ma(at) : tm;
-							function B0(R) {
-								return jg(R) && R >= -ve && R <= ve;
+							var Pg = at ? Ma(at) : nm;
+							function N0(R) {
+								return Wg(R) && R >= -ve && R <= ve;
 							}
-							var Kg = Et ? Ma(Et) : Kf;
-							function zm(R) {
+							var Xg = Et ? Ma(Et) : Xf;
+							function $m(R) {
 								return typeof R == "string" || (!Rn(R) && zi(R) && ga(R) == ot);
 							}
 							function As(R) {
 								return typeof R == "symbol" || (zi(R) && ga(R) == St);
 							}
-							var Sf = qt ? Ma(qt) : $d;
-							function L0(R) {
+							var bf = qt ? Ma(qt) : qd;
+							function O0(R) {
 								return R === l;
 							}
-							function N0(R) {
+							function D0(R) {
 								return zi(R) && Sa(R) == Ft;
 							}
-							function O0(R) {
+							function z0(R) {
 								return zi(R) && ga(R) == $e;
 							}
-							var D0 = Xd(Ro),
-								z0 = Xd(function (R, D) {
+							var F0 = Jd(Ro),
+								$0 = Jd(function (R, D) {
 									return R <= D;
 								});
-							function Yg(R) {
+							function Zg(R) {
 								if (!R) return [];
-								if (ds(R)) return zm(R) ? ea(R) : La(R);
-								if (xi && R[xi]) return Lf(R[xi]());
+								if (ds(R)) return $m(R) ? ea(R) : La(R);
+								if (xi && R[xi]) return Of(R[xi]());
 								var D = Sa(R),
-									j = D == Ge ? xo : D == tt ? Ss : vf;
+									j = D == Ge ? xo : D == tt ? Ss : wf;
 								return j(R);
 							}
 							function pl(R) {
@@ -22080,7 +22080,7 @@ function requireLodash() {
 									j = D % 1;
 								return D === D ? (j ? D - j : D) : 0;
 							}
-							function Xg(R) {
+							function Jg(R) {
 								return R ? to(Bn(R), 0, Pe) : 0;
 							}
 							function js(R) {
@@ -22091,7 +22091,7 @@ function requireLodash() {
 									R = Bi(D) ? D + "" : D;
 								}
 								if (typeof R != "string") return R === 0 ? R : +R;
-								R = Hc(R);
+								R = jc(R);
 								var j = Gr.test(R);
 								return j || yr.test(R)
 									? yn(R.slice(2), j ? 2 : 8)
@@ -22099,37 +22099,37 @@ function requireLodash() {
 										? xe
 										: +R;
 							}
-							function Zg(R) {
+							function Qg(R) {
 								return Ts(R, hs(R));
 							}
-							function F0(R) {
+							function U0(R) {
 								return R ? to(Bn(R), -ve, ve) : R === 0 ? R : 0;
 							}
 							function ai(R) {
 								return R == null ? "" : Ti(R);
 							}
-							var $0 = ld(function (R, D) {
-									if (eh(D) || ds(D)) {
+							var q0 = cd(function (R, D) {
+									if (rh(D) || ds(D)) {
 										Ts(D, wa(D), R);
 										return;
 									}
 									for (var j in D) zt.call(D, j) && nl(R, j, D[j]);
 								}),
-								Jg = ld(function (R, D) {
+								e0 = cd(function (R, D) {
 									Ts(D, hs(D), R);
 								}),
-								Fm = ld(function (R, D, j, ce) {
+								Um = cd(function (R, D, j, ce) {
 									Ts(D, hs(D), R, ce);
 								}),
-								U0 = ld(function (R, D, j, ce) {
+								H0 = cd(function (R, D, j, ce) {
 									Ts(D, wa(D), R, ce);
 								}),
-								q0 = Hs(Th);
-							function H0(R, D) {
-								var j = Xc(R);
+								V0 = Hs(Ih);
+							function j0(R, D) {
+								var j = Jc(R);
 								return D == null ? j : pi(j, D);
 							}
-							var V0 = Mn(function (R, D) {
+							var G0 = Mn(function (R, D) {
 									R = Gn(R);
 									var j = -1,
 										ce = D.length,
@@ -22146,63 +22146,63 @@ function requireLodash() {
 										}
 									return R;
 								}),
-								j0 = Mn(function (R) {
-									return R.push(l, dp), Yt(Qg, l, R);
+								W0 = Mn(function (R) {
+									return R.push(l, fp), Yt(t0, l, R);
 								});
-							function G0(R, D) {
+							function K0(R, D) {
 								return di(R, Zr(D, 3), os);
 							}
-							function W0(R, D) {
+							function Y0(R, D) {
 								return di(R, Zr(D, 3), Co);
 							}
-							function K0(R, D) {
-								return R == null ? R : Fd(R, Zr(D, 3), hs);
-							}
-							function Y0(R, D) {
-								return R == null ? R : Ih(R, Zr(D, 3), hs);
-							}
 							function X0(R, D) {
-								return R && os(R, Zr(D, 3));
+								return R == null ? R : Ud(R, Zr(D, 3), hs);
 							}
 							function Z0(R, D) {
+								return R == null ? R : Mh(R, Zr(D, 3), hs);
+							}
+							function J0(R, D) {
+								return R && os(R, Zr(D, 3));
+							}
+							function Q0(R, D) {
 								return R && Co(R, Zr(D, 3));
 							}
-							function J0(R) {
+							function e1(R) {
 								return R == null ? [] : Ba(R, wa(R));
 							}
-							function Q0(R) {
+							function t1(R) {
 								return R == null ? [] : Ba(R, hs(R));
 							}
-							function Rg(R, D, j) {
+							function Bg(R, D, j) {
 								var ce = R == null ? l : Ya(R, D);
 								return ce === l ? j : ce;
 							}
-							function e1(R, D) {
-								return R != null && pp(R, D, Io);
+							function r1(R, D) {
+								return R != null && gp(R, D, Io);
 							}
-							function Pg(R, D) {
-								return R != null && pp(R, D, Vf);
+							function Lg(R, D) {
+								return R != null && gp(R, D, Gf);
 							}
-							var t1 = Vh(function (R, D, j) {
+							var n1 = Gh(function (R, D, j) {
 									D != null &&
 										typeof D.toString != "function" &&
 										(D = xr.call(D)),
 										(R[D] = j);
-								}, Lg(fs)),
-								r1 = Vh(function (R, D, j) {
+								}, Og(fs)),
+								i1 = Gh(function (R, D, j) {
 									D != null &&
 										typeof D.toString != "function" &&
 										(D = xr.call(D)),
 										zt.call(R, D) ? R[D].push(j) : (R[D] = [j]);
 								}, Zr),
-								n1 = Mn(Mo);
+								a1 = Mn(Mo);
 							function wa(R) {
-								return ds(R) ? Ds(R) : Bh(R);
+								return ds(R) ? Ds(R) : Nh(R);
 							}
 							function hs(R) {
-								return ds(R) ? Ds(R, !0) : rm(R);
+								return ds(R) ? Ds(R, !0) : im(R);
 							}
-							function i1(R, D) {
+							function s1(R, D) {
 								var j = {};
 								return (
 									(D = Zr(D, 3)),
@@ -22212,7 +22212,7 @@ function requireLodash() {
 									j
 								);
 							}
-							function a1(R, D) {
+							function o1(R, D) {
 								var j = {};
 								return (
 									(D = Zr(D, 3)),
@@ -22222,43 +22222,43 @@ function requireLodash() {
 									j
 								);
 							}
-							var s1 = ld(function (R, D, j) {
+							var l1 = cd(function (R, D, j) {
 									Po(R, D, j);
 								}),
-								Qg = ld(function (R, D, j, ce) {
+								t0 = cd(function (R, D, j, ce) {
 									Po(R, D, j, ce);
 								}),
-								o1 = Hs(function (R, D) {
+								u1 = Hs(function (R, D) {
 									var j = {};
 									if (R == null) return j;
 									var ce = !1;
 									(D = Fr(D, function (Ye) {
 										return (Ye = ro(Ye, R)), ce || (ce = Ye.length > 1), Ye;
 									})),
-										Ts(R, Zd(R), j),
-										ce && (j = qa(j, v | w | k, hm));
+										Ts(R, Qd(R), j),
+										ce && (j = qa(j, v | w | k, pm));
 									for (var Re = D.length; Re--; ) ol(j, D[Re]);
 									return j;
 								});
-							function l1(R, D) {
-								return e0(R, Nt(Zr(D)));
+							function c1(R, D) {
+								return r0(R, Nt(Zr(D)));
 							}
-							var u1 = Hs(function (R, D) {
-								return R == null ? {} : rd(R, D);
+							var d1 = Hs(function (R, D) {
+								return R == null ? {} : ad(R, D);
 							});
-							function e0(R, D) {
+							function r0(R, D) {
 								if (R == null) return {};
-								var j = Fr(Zd(R), function (ce) {
+								var j = Fr(Qd(R), function (ce) {
 									return [ce];
 								});
 								return (
 									(D = Zr(D)),
-									Xf(R, j, function (ce, Re) {
+									Jf(R, j, function (ce, Re) {
 										return D(ce, Re[0]);
 									})
 								);
 							}
-							function c1(R, D, j) {
+							function h1(R, D, j) {
 								D = ro(D, R);
 								var ce = -1,
 									Re = D.length;
@@ -22269,26 +22269,26 @@ function requireLodash() {
 								}
 								return R;
 							}
-							function d1(R, D, j) {
+							function f1(R, D, j) {
 								return R == null ? R : vi(R, D, j);
 							}
-							function h1(R, D, j, ce) {
+							function p1(R, D, j, ce) {
 								return (
 									(ce = typeof ce == "function" ? ce : l),
 									R == null ? R : vi(R, D, j, ce)
 								);
 							}
-							var t0 = up(wa),
-								r0 = up(hs);
-							function f1(R, D, j) {
+							var n0 = dp(wa),
+								i0 = dp(hs);
+							function m1(R, D, j) {
 								var ce = Rn(R),
-									Re = ce || yd(R) || Sf(R);
+									Re = ce || Sd(R) || bf(R);
 								if (((D = Zr(D, 4)), j == null)) {
 									var Ye = R && R.constructor;
 									Re
 										? (j = ce ? new Ye() : [])
 										: Bi(R)
-											? (j = fl(Ye) ? Xc(ii(R)) : {})
+											? (j = fl(Ye) ? Jc(ii(R)) : {})
 											: (j = {});
 								}
 								return (
@@ -22298,25 +22298,25 @@ function requireLodash() {
 									j
 								);
 							}
-							function p1(R, D) {
+							function g1(R, D) {
 								return R == null ? !0 : ol(R, D);
 							}
-							function m1(R, D, j) {
-								return R == null ? R : zh(R, D, Uh(j));
+							function y1(R, D, j) {
+								return R == null ? R : $h(R, D, Hh(j));
 							}
-							function g1(R, D, j, ce) {
+							function _1(R, D, j, ce) {
 								return (
 									(ce = typeof ce == "function" ? ce : l),
-									R == null ? R : zh(R, D, Uh(j), ce)
+									R == null ? R : $h(R, D, Hh(j), ce)
 								);
 							}
-							function vf(R) {
+							function wf(R) {
 								return R == null ? [] : Bs(R, wa(R));
 							}
-							function y1(R) {
+							function x1(R) {
 								return R == null ? [] : Bs(R, hs(R));
 							}
-							function _1(R, D, j) {
+							function S1(R, D, j) {
 								return (
 									j === l && ((j = D), (D = l)),
 									j !== l && ((j = js(j)), (j = j === j ? j : 0)),
@@ -22324,15 +22324,15 @@ function requireLodash() {
 									to(js(R), D, j)
 								);
 							}
-							function x1(R, D, j) {
+							function b1(R, D, j) {
 								return (
 									(D = pl(D)),
 									j === l ? ((j = D), (D = 0)) : (j = pl(j)),
 									(R = js(R)),
-									Qp(R, D, j)
+									tm(R, D, j)
 								);
 							}
-							function S1(R, D, j) {
+							function w1(R, D, j) {
 								if (
 									(j && typeof j != "boolean" && ti(R, D, j) && (D = j = l),
 									j === l &&
@@ -22348,98 +22348,98 @@ function requireLodash() {
 									(R = D), (D = ce);
 								}
 								if (j || R % 1 || D % 1) {
-									var Re = Bd();
+									var Re = Nd();
 									return da(
 										R + Re * (D - R + Ar("1e-" + ((Re + "").length - 1))),
 										D,
 									);
 								}
-								return Vd(R, D);
+								return Gd(R, D);
 							}
-							var b1 = io(function (R, D, j) {
-								return (D = D.toLowerCase()), R + (j ? n0(D) : D);
+							var k1 = io(function (R, D, j) {
+								return (D = D.toLowerCase()), R + (j ? a0(D) : D);
 							});
-							function n0(R) {
-								return Bg(ai(R).toLowerCase());
+							function a0(R) {
+								return Ng(ai(R).toLowerCase());
 							}
-							function i0(R) {
-								return (R = ai(R)), R && R.replace(Vr, dh).replace(Da, "");
+							function s0(R) {
+								return (R = ai(R)), R && R.replace(Vr, fh).replace(Da, "");
 							}
-							function w1(R, D, j) {
+							function E1(R, D, j) {
 								(R = ai(R)), (D = Ti(D));
 								var ce = R.length;
 								j = j === l ? ce : to(Bn(j), 0, ce);
 								var Re = j;
 								return (j -= D.length), j >= 0 && R.slice(j, Re) == D;
 							}
-							function k1(R) {
+							function T1(R) {
 								return (R = ai(R)), R && $t.test(R) ? R.replace(ct, Ko) : R;
 							}
-							function E1(R) {
+							function C1(R) {
 								return (R = ai(R)), R && Zn.test(R) ? R.replace(ln, "\\$&") : R;
 							}
-							var T1 = io(function (R, D, j) {
+							var I1 = io(function (R, D, j) {
 									return R + (j ? "-" : "") + D.toLowerCase();
 								}),
-								C1 = io(function (R, D, j) {
+								A1 = io(function (R, D, j) {
 									return R + (j ? " " : "") + D.toLowerCase();
 								}),
-								I1 = op("toLowerCase");
-							function A1(R, D, j) {
+								M1 = up("toLowerCase");
+							function R1(R, D, j) {
 								(R = ai(R)), (D = Bn(D));
 								var ce = D ? qn(R) : 0;
 								if (!D || ce >= D) return R;
 								var Re = (D - ce) / 2;
-								return Yd(vo(Re), j) + R + Yd(Jo(Re), j);
-							}
-							function M1(R, D, j) {
-								(R = ai(R)), (D = Bn(D));
-								var ce = D ? qn(R) : 0;
-								return D && ce < D ? R + Yd(D - ce, j) : R;
-							}
-							function R1(R, D, j) {
-								(R = ai(R)), (D = Bn(D));
-								var ce = D ? qn(R) : 0;
-								return D && ce < D ? Yd(D - ce, j) + R : R;
+								return Zd(vo(Re), j) + R + Zd(Jo(Re), j);
 							}
 							function P1(R, D, j) {
-								return (
-									j || D == null ? (D = 0) : D && (D = +D),
-									Vp(ai(R).replace(Jn, ""), D || 0)
-								);
+								(R = ai(R)), (D = Bn(D));
+								var ce = D ? qn(R) : 0;
+								return D && ce < D ? R + Zd(D - ce, j) : R;
 							}
 							function B1(R, D, j) {
+								(R = ai(R)), (D = Bn(D));
+								var ce = D ? qn(R) : 0;
+								return D && ce < D ? Zd(D - ce, j) + R : R;
+							}
+							function L1(R, D, j) {
 								return (
-									(j ? ti(R, D, j) : D === l) ? (D = 1) : (D = Bn(D)),
-									nd(ai(R), D)
+									j || D == null ? (D = 0) : D && (D = +D),
+									Gp(ai(R).replace(Jn, ""), D || 0)
 								);
 							}
-							function L1() {
+							function N1(R, D, j) {
+								return (
+									(j ? ti(R, D, j) : D === l) ? (D = 1) : (D = Bn(D)),
+									sd(ai(R), D)
+								);
+							}
+							function O1() {
 								var R = arguments,
 									D = ai(R[0]);
 								return R.length < 3 ? D : D.replace(R[1], R[2]);
 							}
-							var N1 = io(function (R, D, j) {
+							var D1 = io(function (R, D, j) {
 								return R + (j ? "_" : "") + D.toLowerCase();
 							});
-							function O1(R, D, j) {
+							function z1(R, D, j) {
 								return (
 									j && typeof j != "number" && ti(R, D, j) && (D = j = l),
 									(j = j === l ? Pe : j >>> 0),
 									j
 										? ((R = ai(R)),
 											R &&
-											(typeof D == "string" || (D != null && !Mg(D))) &&
+											(typeof D == "string" || (D != null && !Pg(D))) &&
 											((D = Ti(D)), !D && _o(R))
 												? no(ea(R), 0, j)
 												: R.split(D, j))
 										: []
 								);
 							}
-							var D1 = io(function (R, D, j) {
-								return R + (j ? " " : "") + Bg(D);
+							var $1 = io(function (R, D, j) {
+								return R + (j ? " " : "") + Ng(D);
 							});
-							function z1(R, D, j) {
+							function U1(R, D, j) {
 								return (
 									(R = ai(R)),
 									(j = j == null ? 0 : to(Bn(j), 0, R.length)),
@@ -22447,12 +22447,12 @@ function requireLodash() {
 									R.slice(j, j + D.length) == D
 								);
 							}
-							function $1(R, D, j) {
+							function q1(R, D, j) {
 								var ce = Ve.templateSettings;
 								j && ti(R, D, j) && (D = l),
 									(R = ai(R)),
-									(D = Fm({}, D, ce, cp));
-								var Re = Fm({}, D.imports, ce.imports, cp),
+									(D = Um({}, D, ce, hp));
+								var Re = Um({}, D.imports, ce.imports, hp),
 									Ye = wa(Re),
 									lt = Bs(Re, Ye),
 									yt,
@@ -22481,7 +22481,7 @@ function requireLodash() {
 								R.replace(Tr, function (pn, Hn, Kn, Ms, es, Rs) {
 									return (
 										Kn || (Kn = Ms),
-										(sr += R.slice(Jt, Rs).replace(un, hh)),
+										(sr += R.slice(Jt, Rs).replace(un, ph)),
 										Hn &&
 											((yt = !0),
 											(sr +=
@@ -22544,44 +22544,44 @@ function print() { __p += __j.call(arguments, '') }
 										sr +
 										`return __p
 }`);
-								var Dn = s0(function () {
+								var Dn = l0(function () {
 									return Un(Ye, jr + "return " + sr).apply(l, lt);
 								});
-								if (((Dn.source = sr), Ag(Dn))) throw Dn;
+								if (((Dn.source = sr), Rg(Dn))) throw Dn;
 								return Dn;
 							}
-							function U1(R) {
+							function H1(R) {
 								return ai(R).toLowerCase();
 							}
-							function q1(R) {
+							function V1(R) {
 								return ai(R).toUpperCase();
 							}
-							function H1(R, D, j) {
-								if (((R = ai(R)), R && (j || D === l))) return Hc(R);
+							function j1(R, D, j) {
+								if (((R = ai(R)), R && (j || D === l))) return jc(R);
 								if (!R || !(D = Ti(D))) return R;
 								var ce = ea(R),
 									Re = ea(D),
-									Ye = Id(ce, Re),
-									lt = Ad(ce, Re) + 1;
+									Ye = Md(ce, Re),
+									lt = Rd(ce, Re) + 1;
 								return no(ce, Ye, lt).join("");
 							}
-							function V1(R, D, j) {
+							function G1(R, D, j) {
 								if (((R = ai(R)), R && (j || D === l)))
 									return R.slice(0, ca(R) + 1);
 								if (!R || !(D = Ti(D))) return R;
 								var ce = ea(R),
-									Re = Ad(ce, ea(D)) + 1;
+									Re = Rd(ce, ea(D)) + 1;
 								return no(ce, 0, Re).join("");
 							}
-							function j1(R, D, j) {
+							function W1(R, D, j) {
 								if (((R = ai(R)), R && (j || D === l)))
 									return R.replace(Jn, "");
 								if (!R || !(D = Ti(D))) return R;
 								var ce = ea(R),
-									Re = Id(ce, ea(D));
+									Re = Md(ce, ea(D));
 								return no(ce, Re).join("");
 							}
-							function G1(R, D) {
+							function K1(R, D) {
 								var j = X,
 									ce = Q;
 								if (Bi(D)) {
@@ -22600,7 +22600,7 @@ function print() { __p += __j.call(arguments, '') }
 								if (yt < 1) return ce;
 								var Mt = lt ? no(lt, 0, yt).join("") : R.slice(0, yt);
 								if (Re === l) return Mt + ce;
-								if ((lt && (yt += Mt.length - yt), Mg(Re))) {
+								if ((lt && (yt += Mt.length - yt), Pg(Re))) {
 									if (R.slice(yt).search(Re)) {
 										var Jt,
 											Qt = Mt;
@@ -22618,28 +22618,28 @@ function print() { __p += __j.call(arguments, '') }
 								}
 								return Mt + ce;
 							}
-							function W1(R) {
+							function Y1(R) {
 								return (R = ai(R)), R && Zt.test(R) ? R.replace(wr, Ra) : R;
 							}
-							var K1 = io(function (R, D, j) {
+							var X1 = io(function (R, D, j) {
 									return R + (j ? " " : "") + D.toUpperCase();
 								}),
-								Bg = op("toUpperCase");
-							function a0(R, D, j) {
+								Ng = up("toUpperCase");
+							function o0(R, D, j) {
 								return (
 									(R = ai(R)),
 									(D = j ? l : D),
-									D === l ? (Yo(R) ? Of(R) : Ui(R)) : R.match(D) || []
+									D === l ? (Yo(R) ? zf(R) : Ui(R)) : R.match(D) || []
 								);
 							}
-							var s0 = Mn(function (R, D) {
+							var l0 = Mn(function (R, D) {
 									try {
 										return Yt(R, l, D);
 									} catch (j) {
-										return Ag(j) ? j : new hn(j);
+										return Rg(j) ? j : new hn(j);
 									}
 								}),
-								Y1 = Hs(function (R, D) {
+								Z1 = Hs(function (R, D) {
 									return (
 										Fe(D, function (j) {
 											(j = Cs(j)), Fs(R, j, ar(R[j], R));
@@ -22647,7 +22647,7 @@ function print() { __p += __j.call(arguments, '') }
 										R
 									);
 								});
-							function X1(R) {
+							function J1(R) {
 								var D = R == null ? 0 : R.length,
 									j = Zr();
 								return (
@@ -22665,42 +22665,42 @@ function print() { __p += __j.call(arguments, '') }
 									})
 								);
 							}
-							function Z1(R) {
-								return Zp(qa(R, v));
+							function Q1(R) {
+								return Qp(qa(R, v));
 							}
-							function Lg(R) {
+							function Og(R) {
 								return function () {
 									return R;
 								};
 							}
-							function J1(R, D) {
+							function ey(R, D) {
 								return R == null || R !== R ? D : R;
 							}
-							var Q1 = ll(),
-								ey = ll(!0);
+							var ty = ll(),
+								ry = ll(!0);
 							function fs(R) {
 								return R;
 							}
-							function Ng(R) {
-								return Ud(typeof R == "function" ? R : qa(R, v));
+							function Dg(R) {
+								return Hd(typeof R == "function" ? R : qa(R, v));
 							}
-							function ty(R) {
-								return td(qa(R, v));
+							function ny(R) {
+								return nd(qa(R, v));
 							}
-							function ry(R, D) {
+							function iy(R, D) {
 								return Es(R, qa(D, v));
 							}
-							var ny = Mn(function (R, D) {
+							var ay = Mn(function (R, D) {
 									return function (j) {
 										return Mo(j, R, D);
 									};
 								}),
-								iy = Mn(function (R, D) {
+								sy = Mn(function (R, D) {
 									return function (j) {
 										return Mo(R, j, D);
 									};
 								});
-							function Og(R, D, j) {
+							function zg(R, D, j) {
 								var ce = wa(D),
 									Re = Ba(D, ce);
 								j == null &&
@@ -22734,11 +22734,11 @@ function print() { __p += __j.call(arguments, '') }
 									R
 								);
 							}
-							function ay() {
+							function oy() {
 								return Ur._ === this && (Ur._ = Xr), this;
 							}
-							function Dg() {}
-							function sy(R) {
+							function Fg() {}
+							function ly(R) {
 								return (
 									(R = Bn(R)),
 									Mn(function (D) {
@@ -22746,35 +22746,35 @@ function print() { __p += __j.call(arguments, '') }
 									})
 								);
 							}
-							var oy = Gh(Fr),
-								ly = Gh(Ht),
-								uy = Gh(nn);
-							function o0(R) {
-								return mp(R) ? ns(Cs(R)) : Zf(R);
+							var uy = Kh(Fr),
+								cy = Kh(Ht),
+								dy = Kh(an);
+							function u0(R) {
+								return yp(R) ? ns(Cs(R)) : Qf(R);
 							}
-							function cy(R) {
+							function hy(R) {
 								return function (D) {
 									return R == null ? l : Ya(R, D);
 								};
 							}
-							var dy = lp(),
-								hy = lp(!0);
-							function zg() {
+							var fy = cp(),
+								my = cp(!0);
+							function $g() {
 								return [];
 							}
-							function Fg() {
+							function Ug() {
 								return !1;
 							}
-							function fy() {
+							function gy() {
 								return {};
 							}
-							function my() {
+							function yy() {
 								return "";
 							}
-							function gy() {
+							function xy() {
 								return !0;
 							}
-							function yy(R, D) {
+							function Sy(R, D) {
 								if (((R = Bn(R)), R < 1 || R > ve)) return [];
 								var j = Pe,
 									ce = da(R, Pe);
@@ -22782,79 +22782,79 @@ function print() { __p += __j.call(arguments, '') }
 								for (var Re = _s(ce, D); ++j < R; ) D(j);
 								return Re;
 							}
-							function xy(R) {
-								return Rn(R) ? Fr(R, Cs) : As(R) ? [R] : La(bm(ai(R)));
+							function vy(R) {
+								return Rn(R) ? Fr(R, Cs) : As(R) ? [R] : La(km(ai(R)));
 							}
-							function Sy(R) {
+							function by(R) {
 								var D = ++er;
 								return ai(R) + D;
 							}
-							var vy = jh(function (R, D) {
+							var wy = Wh(function (R, D) {
 									return R + D;
 								}, 0),
-								by = xa("ceil"),
-								wy = jh(function (R, D) {
+								ky = xa("ceil"),
+								Ey = Wh(function (R, D) {
 									return R / D;
 								}, 1),
-								ky = xa("floor");
-							function Ey(R) {
+								Ty = xa("floor");
+							function Cy(R) {
 								return R && R.length ? il(R, fs, ws) : l;
 							}
-							function Ty(R, D) {
+							function Iy(R, D) {
 								return R && R.length ? il(R, Zr(D, 2), ws) : l;
 							}
-							function Cy(R) {
+							function Ay(R) {
 								return Ni(R, fs);
 							}
-							function Iy(R, D) {
+							function My(R, D) {
 								return Ni(R, Zr(D, 2));
 							}
-							function Ay(R) {
+							function Ry(R) {
 								return R && R.length ? il(R, fs, Ro) : l;
 							}
-							function My(R, D) {
+							function Py(R, D) {
 								return R && R.length ? il(R, Zr(D, 2), Ro) : l;
 							}
-							var Ry = jh(function (R, D) {
+							var By = Wh(function (R, D) {
 									return R * D;
 								}, 1),
-								Py = xa("round"),
-								By = jh(function (R, D) {
+								Ly = xa("round"),
+								Ny = Wh(function (R, D) {
 									return R - D;
 								}, 0);
-							function Ly(R) {
+							function Oy(R) {
 								return R && R.length ? Vn(R, fs) : 0;
 							}
-							function Ny(R, D) {
+							function Dy(R, D) {
 								return R && R.length ? Vn(R, Zr(D, 2)) : 0;
 							}
 							return (
 								(Ve.after = it),
 								(Ve.ary = mt),
-								(Ve.assign = $0),
-								(Ve.assignIn = Jg),
-								(Ve.assignInWith = Fm),
-								(Ve.assignWith = U0),
-								(Ve.at = q0),
+								(Ve.assign = q0),
+								(Ve.assignIn = e0),
+								(Ve.assignInWith = Um),
+								(Ve.assignWith = H0),
+								(Ve.at = V0),
 								(Ve.before = Ut),
 								(Ve.bind = ar),
-								(Ve.bindAll = Y1),
+								(Ve.bindAll = Z1),
 								(Ve.bindKey = or),
-								(Ve.castArray = d0),
+								(Ve.castArray = f0),
 								(Ve.chain = Qa),
-								(Ve.chunk = fg),
-								(Ve.compact = ef),
-								(Ve.concat = Sp),
-								(Ve.cond = X1),
-								(Ve.conforms = Z1),
-								(Ve.constant = Lg),
-								(Ve.countBy = kg),
-								(Ve.create = H0),
+								(Ve.chunk = mg),
+								(Ve.compact = rf),
+								(Ve.concat = bp),
+								(Ve.cond = J1),
+								(Ve.conforms = Q1),
+								(Ve.constant = Og),
+								(Ve.countBy = Tg),
+								(Ve.create = j0),
 								(Ve.curry = nr),
 								(Ve.curryRight = Rr),
 								(Ve.debounce = Or),
-								(Ve.defaults = V0),
-								(Ve.defaultsDeep = j0),
+								(Ve.defaults = G0),
+								(Ve.defaultsDeep = W0),
 								(Ve.defer = $r),
 								(Ve.delay = Pi),
 								(Ve.difference = cs),
@@ -22863,279 +22863,279 @@ function print() { __p += __j.call(arguments, '') }
 								(Ve.drop = Di),
 								(Ve.dropRight = oa),
 								(Ve.dropRightWhile = Ja),
-								(Ve.dropWhile = pd),
+								(Ve.dropWhile = gd),
 								(Ve.fill = Gi),
-								(Ve.filter = Lm),
-								(Ve.flatMap = Nm),
-								(Ve.flatMapDeep = Lp),
-								(Ve.flatMapDepth = Eg),
-								(Ve.flatten = rh),
-								(Ve.flattenDeep = vp),
-								(Ve.flattenDepth = nh),
+								(Ve.filter = Om),
+								(Ve.flatMap = Dm),
+								(Ve.flatMapDeep = Op),
+								(Ve.flatMapDepth = Cg),
+								(Ve.flatten = ih),
+								(Ve.flattenDeep = wp),
+								(Ve.flattenDepth = ah),
 								(Ve.flip = Lt),
-								(Ve.flow = Q1),
-								(Ve.flowRight = ey),
+								(Ve.flow = ty),
+								(Ve.flowRight = ry),
 								(Ve.fromPairs = Ha),
-								(Ve.functions = J0),
-								(Ve.functionsIn = Q0),
-								(Ve.groupBy = pf),
+								(Ve.functions = e1),
+								(Ve.functionsIn = t1),
+								(Ve.groupBy = gf),
 								(Ve.initial = oo),
-								(Ve.intersection = rf),
-								(Ve.intersectionBy = bp),
+								(Ve.intersection = af),
+								(Ve.intersectionBy = kp),
 								(Ve.intersectionWith = zo),
-								(Ve.invert = t1),
-								(Ve.invertBy = r1),
-								(Ve.invokeMap = mf),
-								(Ve.iteratee = Ng),
-								(Ve.keyBy = Om),
+								(Ve.invert = n1),
+								(Ve.invertBy = i1),
+								(Ve.invokeMap = yf),
+								(Ve.iteratee = Dg),
+								(Ve.keyBy = zm),
 								(Ve.keys = wa),
 								(Ve.keysIn = hs),
-								(Ve.map = gf),
-								(Ve.mapKeys = i1),
-								(Ve.mapValues = a1),
-								(Ve.matches = ty),
-								(Ve.matchesProperty = ry),
+								(Ve.map = xf),
+								(Ve.mapKeys = s1),
+								(Ve.mapValues = o1),
+								(Ve.matches = ny),
+								(Ve.matchesProperty = iy),
 								(Ve.memoize = vt),
-								(Ve.merge = s1),
-								(Ve.mergeWith = Qg),
-								(Ve.method = ny),
-								(Ve.methodOf = iy),
-								(Ve.mixin = Og),
+								(Ve.merge = l1),
+								(Ve.mergeWith = t0),
+								(Ve.method = ay),
+								(Ve.methodOf = sy),
+								(Ve.mixin = zg),
 								(Ve.negate = Nt),
-								(Ve.nthArg = sy),
-								(Ve.omit = o1),
-								(Ve.omitBy = l1),
+								(Ve.nthArg = ly),
+								(Ve.omit = u1),
+								(Ve.omitBy = c1),
 								(Ve.once = hr),
-								(Ve.orderBy = yf),
-								(Ve.over = oy),
+								(Ve.orderBy = Sf),
+								(Ve.over = uy),
 								(Ve.overArgs = Hr),
-								(Ve.overEvery = ly),
-								(Ve.overSome = uy),
+								(Ve.overEvery = cy),
+								(Ve.overSome = dy),
 								(Ve.partial = Jr),
 								(Ve.partialRight = rn),
-								(Ve.partition = Tg),
-								(Ve.pick = u1),
-								(Ve.pickBy = e0),
-								(Ve.property = o0),
-								(Ve.propertyOf = cy),
-								(Ve.pull = wp),
-								(Ve.pullAll = ah),
-								(Ve.pullAllBy = sf),
+								(Ve.partition = Ig),
+								(Ve.pick = d1),
+								(Ve.pickBy = r0),
+								(Ve.property = u0),
+								(Ve.propertyOf = hy),
+								(Ve.pull = Ep),
+								(Ve.pullAll = oh),
+								(Ve.pullAllBy = lf),
 								(Ve.pullAllWith = Oa),
 								(Ve.pullAt = Fo),
-								(Ve.range = dy),
-								(Ve.rangeRight = hy),
+								(Ve.range = fy),
+								(Ve.rangeRight = my),
 								(Ve.rearg = gn),
-								(Ve.reject = xf),
+								(Ve.reject = vf),
 								(Ve.remove = Is),
 								(Ve.rest = na),
 								(Ve.reverse = ba),
 								(Ve.sampleSize = M),
-								(Ve.set = d1),
-								(Ve.setWith = h1),
+								(Ve.set = f1),
+								(Ve.setWith = p1),
 								(Ve.shuffle = z),
-								(Ve.slice = km),
+								(Ve.slice = Tm),
 								(Ve.sortBy = ue),
 								(Ve.sortedUniq = ul),
-								(Ve.sortedUniqBy = Cp),
-								(Ve.split = O1),
+								(Ve.sortedUniqBy = Ap),
+								(Ve.split = z1),
 								(Ve.spread = Xn),
 								(Ve.tail = cl),
-								(Ve.take = Tm),
-								(Ve.takeRight = Cm),
-								(Ve.takeRightWhile = Ip),
-								(Ve.takeWhile = of),
-								(Ve.tap = Mp),
+								(Ve.take = Im),
+								(Ve.takeRight = Am),
+								(Ve.takeRightWhile = Mp),
+								(Ve.takeWhile = uf),
+								(Ve.tap = Pp),
 								(Ve.throttle = Ho),
-								(Ve.thru = lf),
-								(Ve.toArray = Yg),
-								(Ve.toPairs = t0),
-								(Ve.toPairsIn = r0),
-								(Ve.toPath = xy),
-								(Ve.toPlainObject = Zg),
-								(Ve.transform = f1),
-								(Ve.unary = Ig),
-								(Ve.union = mg),
-								(Ve.unionBy = gg),
-								(Ve.unionWith = Im),
-								(Ve.uniq = Am),
+								(Ve.thru = cf),
+								(Ve.toArray = Zg),
+								(Ve.toPairs = n0),
+								(Ve.toPairsIn = i0),
+								(Ve.toPath = vy),
+								(Ve.toPlainObject = Qg),
+								(Ve.transform = m1),
+								(Ve.unary = Mg),
+								(Ve.union = yg),
+								(Ve.unionBy = xg),
+								(Ve.unionWith = Mm),
+								(Ve.uniq = Rm),
 								(Ve.uniqBy = dl),
-								(Ve.uniqWith = yg),
-								(Ve.unset = p1),
+								(Ve.uniqWith = Sg),
+								(Ve.unset = g1),
 								(Ve.unzip = Uo),
-								(Ve.unzipWith = Ap),
-								(Ve.update = m1),
-								(Ve.updateWith = g1),
-								(Ve.values = vf),
-								(Ve.valuesIn = y1),
+								(Ve.unzipWith = Rp),
+								(Ve.update = y1),
+								(Ve.updateWith = _1),
+								(Ve.values = wf),
+								(Ve.valuesIn = x1),
 								(Ve.without = Ci),
-								(Ve.words = a0),
-								(Ve.wrap = c0),
-								(Ve.xor = xg),
-								(Ve.xorBy = Mm),
-								(Ve.xorWith = Sg),
-								(Ve.zip = vg),
-								(Ve.zipObject = Rm),
-								(Ve.zipObjectDeep = Pm),
-								(Ve.zipWith = bg),
-								(Ve.entries = t0),
-								(Ve.entriesIn = r0),
-								(Ve.extend = Jg),
-								(Ve.extendWith = Fm),
-								Og(Ve, Ve),
-								(Ve.add = vy),
-								(Ve.attempt = s0),
-								(Ve.camelCase = b1),
-								(Ve.capitalize = n0),
-								(Ve.ceil = by),
-								(Ve.clamp = _1),
-								(Ve.clone = h0),
-								(Ve.cloneDeep = p0),
-								(Ve.cloneDeepWith = m0),
-								(Ve.cloneWith = f0),
-								(Ve.conformsTo = g0),
-								(Ve.deburr = i0),
-								(Ve.defaultTo = J1),
-								(Ve.divide = wy),
-								(Ve.endsWith = w1),
+								(Ve.words = o0),
+								(Ve.wrap = h0),
+								(Ve.xor = vg),
+								(Ve.xorBy = Pm),
+								(Ve.xorWith = bg),
+								(Ve.zip = wg),
+								(Ve.zipObject = Bm),
+								(Ve.zipObjectDeep = Lm),
+								(Ve.zipWith = kg),
+								(Ve.entries = n0),
+								(Ve.entriesIn = i0),
+								(Ve.extend = e0),
+								(Ve.extendWith = Um),
+								zg(Ve, Ve),
+								(Ve.add = wy),
+								(Ve.attempt = l0),
+								(Ve.camelCase = k1),
+								(Ve.capitalize = a0),
+								(Ve.ceil = ky),
+								(Ve.clamp = S1),
+								(Ve.clone = p0),
+								(Ve.cloneDeep = g0),
+								(Ve.cloneDeepWith = y0),
+								(Ve.cloneWith = m0),
+								(Ve.conformsTo = _0),
+								(Ve.deburr = s0),
+								(Ve.defaultTo = ey),
+								(Ve.divide = Ey),
+								(Ve.endsWith = E1),
 								(Ve.eq = lo),
-								(Ve.escape = k1),
-								(Ve.escapeRegExp = E1),
-								(Ve.every = Bm),
-								(Ve.find = df),
-								(Ve.findIndex = md),
-								(Ve.findKey = G0),
-								(Ve.findLast = hf),
+								(Ve.escape = T1),
+								(Ve.escapeRegExp = C1),
+								(Ve.every = Nm),
+								(Ve.find = ff),
+								(Ve.findIndex = yd),
+								(Ve.findKey = K0),
+								(Ve.findLast = pf),
 								(Ve.findLastIndex = Do),
-								(Ve.findLastKey = W0),
-								(Ve.floor = ky),
-								(Ve.forEach = Np),
-								(Ve.forEachRight = ff),
-								(Ve.forIn = K0),
-								(Ve.forInRight = Y0),
-								(Ve.forOwn = X0),
-								(Ve.forOwnRight = Z0),
-								(Ve.get = Rg),
-								(Ve.gt = y0),
-								(Ve.gte = _0),
-								(Ve.has = e1),
-								(Ve.hasIn = Pg),
-								(Ve.head = tf),
+								(Ve.findLastKey = Y0),
+								(Ve.floor = Ty),
+								(Ve.forEach = Dp),
+								(Ve.forEachRight = mf),
+								(Ve.forIn = X0),
+								(Ve.forInRight = Z0),
+								(Ve.forOwn = J0),
+								(Ve.forOwnRight = Q0),
+								(Ve.get = Bg),
+								(Ve.gt = x0),
+								(Ve.gte = S0),
+								(Ve.has = r1),
+								(Ve.hasIn = Lg),
+								(Ve.head = nf),
 								(Ve.identity = fs),
-								(Ve.includes = Op),
-								(Ve.indexOf = gd),
-								(Ve.inRange = x1),
-								(Ve.invoke = n1),
-								(Ve.isArguments = oh),
+								(Ve.includes = zp),
+								(Ve.indexOf = xd),
+								(Ve.inRange = b1),
+								(Ve.invoke = a1),
+								(Ve.isArguments = uh),
 								(Ve.isArray = Rn),
-								(Ve.isArrayBuffer = x0),
+								(Ve.isArrayBuffer = v0),
 								(Ve.isArrayLike = ds),
 								(Ve.isArrayLikeObject = Ki),
-								(Ve.isBoolean = S0),
-								(Ve.isBuffer = yd),
-								(Ve.isDate = v0),
-								(Ve.isElement = b0),
-								(Ve.isEmpty = w0),
-								(Ve.isEqual = k0),
-								(Ve.isEqualWith = E0),
-								(Ve.isError = Ag),
-								(Ve.isFinite = T0),
+								(Ve.isBoolean = b0),
+								(Ve.isBuffer = Sd),
+								(Ve.isDate = w0),
+								(Ve.isElement = k0),
+								(Ve.isEmpty = E0),
+								(Ve.isEqual = T0),
+								(Ve.isEqualWith = C0),
+								(Ve.isError = Rg),
+								(Ve.isFinite = I0),
 								(Ve.isFunction = fl),
-								(Ve.isInteger = jg),
-								(Ve.isLength = Dm),
-								(Ve.isMap = Gg),
-								(Ve.isMatch = C0),
-								(Ve.isMatchWith = I0),
-								(Ve.isNaN = A0),
-								(Ve.isNative = M0),
-								(Ve.isNil = P0),
-								(Ve.isNull = R0),
-								(Ve.isNumber = Wg),
+								(Ve.isInteger = Wg),
+								(Ve.isLength = Fm),
+								(Ve.isMap = Kg),
+								(Ve.isMatch = A0),
+								(Ve.isMatchWith = M0),
+								(Ve.isNaN = R0),
+								(Ve.isNative = P0),
+								(Ve.isNil = L0),
+								(Ve.isNull = B0),
+								(Ve.isNumber = Yg),
 								(Ve.isObject = Bi),
 								(Ve.isObjectLike = zi),
-								(Ve.isPlainObject = Dp),
-								(Ve.isRegExp = Mg),
-								(Ve.isSafeInteger = B0),
-								(Ve.isSet = Kg),
-								(Ve.isString = zm),
+								(Ve.isPlainObject = Fp),
+								(Ve.isRegExp = Pg),
+								(Ve.isSafeInteger = N0),
+								(Ve.isSet = Xg),
+								(Ve.isString = $m),
 								(Ve.isSymbol = As),
-								(Ve.isTypedArray = Sf),
-								(Ve.isUndefined = L0),
-								(Ve.isWeakMap = N0),
-								(Ve.isWeakSet = O0),
-								(Ve.join = nf),
-								(Ve.kebabCase = T1),
+								(Ve.isTypedArray = bf),
+								(Ve.isUndefined = O0),
+								(Ve.isWeakMap = D0),
+								(Ve.isWeakSet = z0),
+								(Ve.join = sf),
+								(Ve.kebabCase = I1),
 								(Ve.last = Wi),
-								(Ve.lastIndexOf = af),
-								(Ve.lowerCase = C1),
-								(Ve.lowerFirst = I1),
-								(Ve.lt = D0),
-								(Ve.lte = z0),
-								(Ve.max = Ey),
-								(Ve.maxBy = Ty),
-								(Ve.mean = Cy),
-								(Ve.meanBy = Iy),
-								(Ve.min = Ay),
-								(Ve.minBy = My),
-								(Ve.stubArray = zg),
-								(Ve.stubFalse = Fg),
-								(Ve.stubObject = fy),
-								(Ve.stubString = my),
-								(Ve.stubTrue = gy),
-								(Ve.multiply = Ry),
-								(Ve.nth = ih),
-								(Ve.noConflict = ay),
-								(Ve.noop = Dg),
+								(Ve.lastIndexOf = of),
+								(Ve.lowerCase = A1),
+								(Ve.lowerFirst = M1),
+								(Ve.lt = F0),
+								(Ve.lte = $0),
+								(Ve.max = Cy),
+								(Ve.maxBy = Iy),
+								(Ve.mean = Ay),
+								(Ve.meanBy = My),
+								(Ve.min = Ry),
+								(Ve.minBy = Py),
+								(Ve.stubArray = $g),
+								(Ve.stubFalse = Ug),
+								(Ve.stubObject = gy),
+								(Ve.stubString = yy),
+								(Ve.stubTrue = xy),
+								(Ve.multiply = By),
+								(Ve.nth = sh),
+								(Ve.noConflict = oy),
+								(Ve.noop = Fg),
 								(Ve.now = Le),
-								(Ve.pad = A1),
-								(Ve.padEnd = M1),
-								(Ve.padStart = R1),
-								(Ve.parseInt = P1),
-								(Ve.random = S1),
-								(Ve.reduce = sh),
-								(Ve.reduceRight = Cg),
-								(Ve.repeat = B1),
-								(Ve.replace = L1),
-								(Ve.result = c1),
-								(Ve.round = Py),
+								(Ve.pad = R1),
+								(Ve.padEnd = P1),
+								(Ve.padStart = B1),
+								(Ve.parseInt = L1),
+								(Ve.random = w1),
+								(Ve.reduce = lh),
+								(Ve.reduceRight = Ag),
+								(Ve.repeat = N1),
+								(Ve.replace = O1),
+								(Ve.result = h1),
+								(Ve.round = Ly),
 								(Ve.runInContext = wt),
 								(Ve.sample = T),
 								(Ve.size = V),
-								(Ve.snakeCase = N1),
+								(Ve.snakeCase = D1),
 								(Ve.some = Z),
-								(Ve.sortedIndex = kp),
-								(Ve.sortedIndexBy = Ep),
-								(Ve.sortedIndexOf = pg),
+								(Ve.sortedIndex = Tp),
+								(Ve.sortedIndexBy = Cp),
+								(Ve.sortedIndexOf = gg),
 								(Ve.sortedLastIndex = $o),
-								(Ve.sortedLastIndexBy = Em),
-								(Ve.sortedLastIndexOf = Tp),
-								(Ve.startCase = D1),
-								(Ve.startsWith = z1),
-								(Ve.subtract = By),
-								(Ve.sum = Ly),
-								(Ve.sumBy = Ny),
-								(Ve.template = $1),
-								(Ve.times = yy),
+								(Ve.sortedLastIndexBy = Cm),
+								(Ve.sortedLastIndexOf = Ip),
+								(Ve.startCase = $1),
+								(Ve.startsWith = U1),
+								(Ve.subtract = Ny),
+								(Ve.sum = Oy),
+								(Ve.sumBy = Dy),
+								(Ve.template = q1),
+								(Ve.times = Sy),
 								(Ve.toFinite = pl),
 								(Ve.toInteger = Bn),
-								(Ve.toLength = Xg),
-								(Ve.toLower = U1),
+								(Ve.toLength = Jg),
+								(Ve.toLower = H1),
 								(Ve.toNumber = js),
-								(Ve.toSafeInteger = F0),
+								(Ve.toSafeInteger = U0),
 								(Ve.toString = ai),
-								(Ve.toUpper = q1),
-								(Ve.trim = H1),
-								(Ve.trimEnd = V1),
-								(Ve.trimStart = j1),
-								(Ve.truncate = G1),
-								(Ve.unescape = W1),
-								(Ve.uniqueId = Sy),
-								(Ve.upperCase = K1),
-								(Ve.upperFirst = Bg),
-								(Ve.each = Np),
-								(Ve.eachRight = ff),
-								(Ve.first = tf),
-								Og(
+								(Ve.toUpper = V1),
+								(Ve.trim = j1),
+								(Ve.trimEnd = G1),
+								(Ve.trimStart = W1),
+								(Ve.truncate = K1),
+								(Ve.unescape = Y1),
+								(Ve.uniqueId = by),
+								(Ve.upperCase = X1),
+								(Ve.upperFirst = Ng),
+								(Ve.each = Dp),
+								(Ve.eachRight = mf),
+								(Ve.first = nf),
+								zg(
 									Ve,
 									(function () {
 										var R = {};
@@ -23271,7 +23271,7 @@ function print() { __p += __j.call(arguments, '') }
 												var pn = R.apply(lt, yt);
 												return (
 													pn.__actions__.push({
-														func: lf,
+														func: cf,
 														args: [sr],
 														thisArg: l,
 													}),
@@ -23306,30 +23306,30 @@ function print() { __p += __j.call(arguments, '') }
 									var j = Ve[D];
 									if (j) {
 										var ce = j.name + "";
-										zt.call(Kc, ce) || (Kc[ce] = []),
-											Kc[ce].push({ name: D, func: j });
+										zt.call(Xc, ce) || (Xc[ce] = []),
+											Xc[ce].push({ name: D, func: j });
 									}
 								}),
-								(Kc[ud(l, A).name] = [{ name: "wrapper", func: l }]),
-								(An.prototype.clone = Sh),
-								(An.prototype.reverse = Uf),
-								(An.prototype.value = Zc),
+								(Xc[dd(l, A).name] = [{ name: "wrapper", func: l }]),
+								(An.prototype.clone = wh),
+								(An.prototype.reverse = Hf),
+								(An.prototype.value = Qc),
 								(Ve.prototype.at = qo),
-								(Ve.prototype.chain = uf),
+								(Ve.prototype.chain = df),
 								(Ve.prototype.commit = hl),
-								(Ve.prototype.next = cf),
-								(Ve.prototype.plant = Pp),
-								(Ve.prototype.reverse = wg),
+								(Ve.prototype.next = hf),
+								(Ve.prototype.plant = Lp),
+								(Ve.prototype.reverse = Eg),
 								(Ve.prototype.toJSON =
 									Ve.prototype.valueOf =
 									Ve.prototype.value =
-										Bp),
+										Np),
 								(Ve.prototype.first = Ve.prototype.head),
-								xi && (Ve.prototype[xi] = Rp),
+								xi && (Ve.prototype[xi] = Bp),
 								Ve
 							);
 						},
-						Js = Df();
+						Js = Ff();
 					G ? (((G.exports = Js)._ = Js), (F._ = Js)) : (Ur._ = Js);
 				}).call(lodash);
 			})(lodash$1, lodash$1.exports)),
@@ -23925,7 +23925,7 @@ function damp(h, o, l, u) {
 function pingpong(h, o = 1) {
 	return o - Math.abs(euclideanModulo$1(h, o * 2) - o);
 }
-function smoothstep(h, o, l) {
+function smoothstep$1(h, o, l) {
 	return h <= o
 		? 0
 		: h >= l
@@ -24060,7 +24060,7 @@ const MathUtils = {
 		lerp,
 		damp,
 		pingpong,
-		smoothstep,
+		smoothstep: smoothstep$1,
 		smootherstep,
 		randInt,
 		randFloat,
@@ -24075,7 +24075,7 @@ const MathUtils = {
 		normalize: normalize$3,
 		denormalize,
 	},
-	Ug = class Ug {
+	Hg = class Hg {
 		constructor(o = 0, l = 0) {
 			(this.x = o), (this.y = l);
 		}
@@ -24295,8 +24295,8 @@ const MathUtils = {
 			yield this.x, yield this.y;
 		}
 	};
-Ug.prototype.isVector2 = !0;
-let Vector2 = Ug;
+Hg.prototype.isVector2 = !0;
+let Vector2 = Hg;
 class Quaternion {
 	constructor(o = 0, l = 0, u = 0, d = 1) {
 		(this.isQuaternion = !0),
@@ -24696,9 +24696,9 @@ class Quaternion {
 		yield this._x, yield this._y, yield this._z, yield this._w;
 	}
 }
-var Bf;
+var Nf;
 let Vector3$1 =
-	((Bf = class {
+	((Nf = class {
 		constructor(o = 0, l = 0, u = 0) {
 			(this.x = o), (this.y = l), (this.z = u);
 		}
@@ -25111,11 +25111,11 @@ let Vector3$1 =
 			yield this.x, yield this.y, yield this.z;
 		}
 	}),
-	(Bf.prototype.isVector3 = !0),
-	Bf);
+	(Nf.prototype.isVector3 = !0),
+	Nf);
 const _vector$c = new Vector3$1(),
 	_quaternion$5 = new Quaternion(),
-	qg = class qg {
+	Vg = class Vg {
 		constructor(o, l, u, d, p, m, g, y, x) {
 			(this.elements = [1, 0, 0, 0, 1, 0, 0, 0, 1]),
 				o !== void 0 && this.set(o, l, u, d, p, m, g, y, x);
@@ -25375,8 +25375,8 @@ const _vector$c = new Vector3$1(),
 			return new this.constructor().fromArray(this.elements);
 		}
 	};
-qg.prototype.isMatrix3 = !0;
-let Matrix3 = qg;
+Vg.prototype.isMatrix3 = !0;
+let Matrix3 = Vg;
 const _m3 = new Matrix3(),
 	LINEAR_REC709_TO_XYZ = new Matrix3().set(
 		0.4123908,
@@ -25839,7 +25839,7 @@ class Texture extends EventDispatcher {
 Texture.DEFAULT_IMAGE = null;
 Texture.DEFAULT_MAPPING = UVMapping;
 Texture.DEFAULT_ANISOTROPY = 1;
-const Hg = class Hg {
+const jg = class jg {
 	constructor(o = 0, l = 0, u = 0, d = 1) {
 		(this.x = o), (this.y = l), (this.z = u), (this.w = d);
 	}
@@ -26240,8 +26240,8 @@ const Hg = class Hg {
 		yield this.x, yield this.y, yield this.z, yield this.w;
 	}
 };
-Hg.prototype.isVector4 = !0;
-let Vector4 = Hg;
+jg.prototype.isVector4 = !0;
+let Vector4 = jg;
 class RenderTarget extends EventDispatcher {
 	constructor(o = 1, l = 1, u = {}) {
 		super(),
@@ -26409,7 +26409,7 @@ class Data3DTexture extends Texture {
 			(this.unpackAlignment = 1);
 	}
 }
-const Um = class Um {
+const Hm = class Hm {
 	constructor(o, l, u, d, p, m, g, y, x, S, v, w, k, E, C, I) {
 		(this.elements = [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]),
 			o !== void 0 && this.set(o, l, u, d, p, m, g, y, x, S, v, w, k, E, C, I);
@@ -26440,7 +26440,7 @@ const Um = class Um {
 		return this.set(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1), this;
 	}
 	clone() {
-		return new Um().fromArray(this.elements);
+		return new Hm().fromArray(this.elements);
 	}
 	copy(o) {
 		const l = this.elements,
@@ -27153,8 +27153,8 @@ const Um = class Um {
 		);
 	}
 };
-Um.prototype.isMatrix4 = !0;
-let Matrix4 = Um;
+Hm.prototype.isMatrix4 = !0;
+let Matrix4 = Hm;
 const _v1$7 = new Vector3$1(),
 	_m1$2 = new Matrix4(),
 	_zero = new Vector3$1(0, 0, 0),
@@ -28512,7 +28512,7 @@ let Color$1 = class {
 };
 const _color = new Color$1();
 Color$1.NAMES = _colorKeywords;
-let Fog$1 = class u0 {
+let Fog$1 = class d0 {
 	constructor(o, l = 1, u = 1e3) {
 		(this.isFog = !0),
 			(this.name = ""),
@@ -28521,7 +28521,7 @@ let Fog$1 = class u0 {
 			(this.far = u);
 	}
 	clone() {
-		return new u0(this.color, this.near, this.far);
+		return new d0(this.color, this.near, this.far);
 	}
 	toJSON() {
 		return {
@@ -28756,7 +28756,7 @@ class Triangle {
 		return o.a.equals(this.a) && o.b.equals(this.b) && o.c.equals(this.c);
 	}
 }
-class IauP {
+class wUmo {
 	constructor(
 		o = new Vector3$1(1 / 0, 1 / 0, 1 / 0),
 		l = new Vector3$1(-1 / 0, -1 / 0, -1 / 0),
@@ -29021,7 +29021,7 @@ const _points = [
 		new Vector3$1(),
 	],
 	_vector$b = new Vector3$1(),
-	_box$4 = new IauP(),
+	_box$4 = new wUmo(),
 	_v0$1 = new Vector3$1(),
 	_v1$4 = new Vector3$1(),
 	_v2$3 = new Vector3$1(),
@@ -29274,7 +29274,7 @@ class Float32BufferAttribute extends BufferAttribute {
 		super(new Float32Array(o), l, u);
 	}
 }
-const _box$3 = new IauP(),
+const _box$3 = new wUmo(),
 	_v1$3 = new Vector3$1(),
 	_v2$2 = new Vector3$1();
 class Sphere {
@@ -29382,8 +29382,8 @@ let _id$1 = 0;
 const _m1$3 = new Matrix4(),
 	_obj = new Object3D(),
 	_offset = new Vector3$1(),
-	_box$2 = new IauP(),
-	_boxMorphTargets = new IauP(),
+	_box$2 = new wUmo(),
+	_boxMorphTargets = new wUmo(),
 	_vector$9 = new Vector3$1();
 class BufferGeometry extends EventDispatcher {
 	constructor() {
@@ -29516,7 +29516,7 @@ class BufferGeometry extends EventDispatcher {
 		return this;
 	}
 	computeBoundingBox() {
-		this.boundingBox === null && (this.boundingBox = new IauP());
+		this.boundingBox === null && (this.boundingBox = new wUmo());
 		const o = this.attributes.position,
 			l = this.morphAttributes.position;
 		if (o && o.isGLBufferAttribute) {
@@ -31212,7 +31212,7 @@ class SkinnedMesh extends Mesh {
 	}
 	computeBoundingBox() {
 		const o = this.geometry;
-		this.boundingBox === null && (this.boundingBox = new IauP()),
+		this.boundingBox === null && (this.boundingBox = new wUmo()),
 			this.boundingBox.makeEmpty();
 		const l = o.getAttribute("position");
 		for (let u = 0; u < l.count; u++)
@@ -31484,7 +31484,7 @@ class InstancedBufferAttribute extends BufferAttribute {
 const _instanceLocalMatrix = new Matrix4(),
 	_instanceWorldMatrix = new Matrix4(),
 	_instanceIntersects = [],
-	_box3 = new IauP(),
+	_box3 = new wUmo(),
 	_identity = new Matrix4(),
 	_mesh$1 = new Mesh(),
 	_sphere$4 = new Sphere();
@@ -31507,7 +31507,7 @@ class InstancedMesh extends Mesh {
 	computeBoundingBox() {
 		const o = this.geometry,
 			l = this.count;
-		this.boundingBox === null && (this.boundingBox = new IauP()),
+		this.boundingBox === null && (this.boundingBox = new wUmo()),
 			o.boundingBox === null && o.computeBoundingBox(),
 			this.boundingBox.makeEmpty();
 		for (let u = 0; u < l; u++)
@@ -32232,10 +32232,10 @@ class ExternalTexture extends Texture {
 		return super.copy(o), (this.sourceTexture = o.sourceTexture), this;
 	}
 }
-class ndASVtJfPLU extends BufferGeometry {
+class piuHKzNJgfu extends BufferGeometry {
 	constructor(o = 1, l = 1, u = 1, d = 1, p = 1, m = 1) {
 		super(),
-			(this.type = "ndASVtJfPLU"),
+			(this.type = "piuHKzNJgfu"),
 			(this.parameters = {
 				width: o,
 				height: l,
@@ -32307,7 +32307,7 @@ class ndASVtJfPLU extends BufferGeometry {
 		);
 	}
 	static fromJSON(o) {
-		return new ndASVtJfPLU(
+		return new piuHKzNJgfu(
 			o.width,
 			o.height,
 			o.depth,
@@ -36300,25 +36300,6 @@ class LoaderUtils {
 					: l + o);
 	}
 }
-class InstancedBufferGeometry extends BufferGeometry {
-	constructor() {
-		super(),
-			(this.isInstancedBufferGeometry = !0),
-			(this.type = "InstancedBufferGeometry"),
-			(this.instanceCount = 1 / 0);
-	}
-	copy(o) {
-		return super.copy(o), (this.instanceCount = o.instanceCount), this;
-	}
-	toJSON() {
-		const o = super.toJSON();
-		return (
-			(o.instanceCount = this.instanceCount),
-			(o.isInstancedBufferGeometry = !0),
-			o
-		);
-	}
-}
 const _errorMap = new WeakMap();
 class ImageBitmapLoader extends Loader {
 	constructor(o) {
@@ -36939,7 +36920,7 @@ PropertyBinding.prototype.SetterByBindingTypeAndVersioning = [
 		PropertyBinding.prototype._setValue_fromArray_setMatrixWorldNeedsUpdate,
 	],
 ];
-const Vg = class Vg {
+const Gg = class Gg {
 	constructor(o, l, u, d) {
 		(this.elements = [1, 0, 0, 1]), o !== void 0 && this.set(o, l, u, d);
 	}
@@ -36955,8 +36936,8 @@ const Vg = class Vg {
 		return (p[0] = o), (p[2] = l), (p[1] = u), (p[3] = d), this;
 	}
 };
-Vg.prototype.isMatrix2 = !0;
-let Matrix2 = Vg;
+Gg.prototype.isMatrix2 = !0;
+let Matrix2 = Gg;
 class Box3Helper extends LineSegments {
 	constructor(o, l = 16776960) {
 		const u = new Uint16Array([
@@ -41778,7 +41759,7 @@ function WebGLBackground(h, o, l, u, d, p) {
 		N && (N.isCubeTexture || N.mapping === CubeUVReflectionMapping)
 			? (x === void 0 &&
 					((x = new Mesh(
-						new ndASVtJfPLU(1, 1, 1),
+						new piuHKzNJgfu(1, 1, 1),
 						new ShaderMaterial({
 							name: "BackgroundCubeMaterial",
 							uniforms: cloneUniforms(ShaderLib.backgroundCube.uniforms),
@@ -42515,7 +42496,7 @@ class PMREMGenerator {
 				(v.setRenderTarget(d), v.clearDepth(), v.setRenderTarget(null)),
 			this._backgroundBox === null &&
 				(this._backgroundBox = new Mesh(
-					new ndASVtJfPLU(),
+					new piuHKzNJgfu(),
 					new MeshBasicMaterial({
 						name: "PMREM.Background",
 						side: BackSide,
@@ -43114,7 +43095,7 @@ class WebGLCubeRenderTarget extends WebGLRenderTarget {
 				}
 			`,
 			},
-			d = new ndASVtJfPLU(5, 5, 5),
+			d = new piuHKzNJgfu(5, 5, 5),
 			p = new ShaderMaterial({
 				name: "CubemapFromEquirect",
 				uniforms: cloneUniforms(u.uniforms),
@@ -50338,11 +50319,11 @@ class WebGLRenderer {
 				else {
 					const Qn = xt._multiDrawStarts,
 						Sr = xt._multiDrawCounts,
-						li = xt._multiDrawCount,
+						ui = xt._multiDrawCount,
 						cn = Ir ? te.get(Ir).bytesPerElement : 1,
-						si = $e.get(It).currentProgram.getUniforms();
-					for (let gi = 0; gi < li; gi++)
-						si.setValue(Ee, "_gl_DrawID", gi), Ln.render(Qn[gi] / cn, Sr[gi]);
+						oi = $e.get(It).currentProgram.getUniforms();
+					for (let gi = 0; gi < ui; gi++)
+						oi.setValue(Ee, "_gl_DrawID", gi), Ln.render(Qn[gi] / cn, Sr[gi]);
 				}
 			else if (xt.isInstancedMesh) Ln.renderInstances(Mr, Cn, xt.count);
 			else if (At.isInstancedBufferGeometry) {
@@ -50637,12 +50618,12 @@ class WebGLRenderer {
 				let Mr = !1;
 				for (let wn = 0, Cn = pt.length; wn < Cn; wn++) {
 					const xn = pt[wn],
-						{ object: Ln, geometry: Qn, material: Sr, group: li } = xn;
+						{ object: Ln, geometry: Qn, material: Sr, group: ui } = xn;
 					if (Sr.side === DoubleSide && Ln.layers.test(It.layers)) {
 						const cn = Sr.side;
 						(Sr.side = BackSide),
 							(Sr.needsUpdate = !0),
-							dn(Ln, At, It, Qn, Sr, li),
+							dn(Ln, At, It, Qn, Sr, ui),
 							(Sr.side = cn),
 							(Sr.needsUpdate = !0),
 							(Mr = !0);
@@ -50839,14 +50820,14 @@ class WebGLRenderer {
 					At.morphAttributes.color,
 				Qn = Ln !== void 0 ? Ln.length : 0,
 				Sr = $e.get(It),
-				li = B.state.lights;
+				ui = B.state.lights;
 			if (be === !0 && (qe === !0 || Ue !== fe)) {
 				const On = Ue === fe && It.id === ye;
 				kt.setState(It, Ue, On);
 			}
 			let cn = !1;
 			It.version === Sr.__version
-				? ((Sr.needsLights && Sr.lightsStateVersion !== li.state.version) ||
+				? ((Sr.needsLights && Sr.lightsStateVersion !== ui.state.version) ||
 						Sr.outputColorSpace !== lr ||
 						(xt.isBatchedMesh && Sr.batching === !1) ||
 						(!xt.isBatchedMesh && Sr.batching === !0) ||
@@ -50887,17 +50868,17 @@ class WebGLRenderer {
 						!!Sr.lightProbeGrid != B.state.lightProbeGridArray.length > 0) &&
 					(cn = !0)
 				: ((cn = !0), (Sr.__version = It.version));
-			let si = Sr.currentProgram;
+			let oi = Sr.currentProgram;
 			cn === !0 &&
-				((si = Gr(It, pt, xt)),
-				de && It.isNodeMaterial && de.onUpdateProgram(It, si, Sr));
+				((oi = Gr(It, pt, xt)),
+				de && It.isNodeMaterial && de.onUpdateProgram(It, oi, Sr));
 			let gi = !1,
 				mn = !1,
 				Ii = !1;
-			const Nn = si.getUniforms(),
+			const Nn = oi.getUniforms(),
 				$n = Sr.uniforms;
 			if (
-				(ft.useProgram(si.program) && ((gi = !0), (mn = !0), (Ii = !0)),
+				(ft.useProgram(oi.program) && ((gi = !0), (mn = !0), (Ii = !0)),
 				It.id !== ye && ((ye = It.id), (mn = !0)),
 				Sr.needsLights)
 			) {
@@ -50930,17 +50911,17 @@ class WebGLRenderer {
 			}
 			if (
 				(Sr.needsLights &&
-					(li.state.directionalShadowMap.length > 0 &&
+					(ui.state.directionalShadowMap.length > 0 &&
 						Nn.setValue(
 							Ee,
 							"directionalShadowMap",
-							li.state.directionalShadowMap,
+							ui.state.directionalShadowMap,
 							K,
 						),
-					li.state.spotShadowMap.length > 0 &&
-						Nn.setValue(Ee, "spotShadowMap", li.state.spotShadowMap, K),
-					li.state.pointShadowMap.length > 0 &&
-						Nn.setValue(Ee, "pointShadowMap", li.state.pointShadowMap, K)),
+					ui.state.spotShadowMap.length > 0 &&
+						Nn.setValue(Ee, "spotShadowMap", ui.state.spotShadowMap, K),
+					ui.state.pointShadowMap.length > 0 &&
+						Nn.setValue(Ee, "pointShadowMap", ui.state.pointShadowMap, K)),
 				xt.isSkinnedMesh)
 			) {
 				Nn.setOptional(Ee, xt, "bindMatrix"),
@@ -50963,7 +50944,7 @@ class WebGLRenderer {
 				((Li.position !== void 0 ||
 					Li.normal !== void 0 ||
 					Li.color !== void 0) &&
-					jt.update(xt, At, si),
+					jt.update(xt, At, oi),
 				(mn || Sr.receiveShadow !== xt.receiveShadow) &&
 					((Sr.receiveShadow = xt.receiveShadow),
 					Nn.setValue(Ee, "receiveShadow", xt.receiveShadow)),
@@ -51011,10 +50992,10 @@ class WebGLRenderer {
 				const On = It.uniformsGroups;
 				for (let $i = 0, Zi = On.length; $i < Zi; $i++) {
 					const ia = On[$i];
-					$t.update(ia, si), $t.bind(ia, si);
+					$t.update(ia, oi), $t.bind(ia, oi);
 				}
 			}
-			return si;
+			return oi;
 		}
 		function Qr(Ue, pt) {
 			(Ue.ambientLightColor.needsUpdate = pt),
@@ -51334,9 +51315,9 @@ class WebGLRenderer {
 				ft.pixelStorei(Ee.UNPACK_FLIP_Y_WEBGL, pt.flipY),
 				ft.pixelStorei(Ee.UNPACK_PREMULTIPLY_ALPHA_WEBGL, pt.premultiplyAlpha),
 				ft.pixelStorei(Ee.UNPACK_ALIGNMENT, pt.unpackAlignment);
-			const li = ft.getParameter(Ee.UNPACK_ROW_LENGTH),
+			const ui = ft.getParameter(Ee.UNPACK_ROW_LENGTH),
 				cn = ft.getParameter(Ee.UNPACK_IMAGE_HEIGHT),
-				si = ft.getParameter(Ee.UNPACK_SKIP_PIXELS),
+				oi = ft.getParameter(Ee.UNPACK_SKIP_PIXELS),
 				gi = ft.getParameter(Ee.UNPACK_SKIP_ROWS),
 				mn = ft.getParameter(Ee.UNPACK_SKIP_IMAGES);
 			ft.pixelStorei(Ee.UNPACK_ROW_LENGTH, xn.width),
@@ -51479,9 +51460,9 @@ class WebGLRenderer {
 									xn.data,
 								)
 							: Ee.texSubImage2D(Ee.TEXTURE_2D, tr, Mr, wn, fr, lr, Ln, Qn, xn);
-			ft.pixelStorei(Ee.UNPACK_ROW_LENGTH, li),
+			ft.pixelStorei(Ee.UNPACK_ROW_LENGTH, ui),
 				ft.pixelStorei(Ee.UNPACK_IMAGE_HEIGHT, cn),
-				ft.pixelStorei(Ee.UNPACK_SKIP_PIXELS, si),
+				ft.pixelStorei(Ee.UNPACK_SKIP_PIXELS, oi),
 				ft.pixelStorei(Ee.UNPACK_SKIP_ROWS, gi),
 				ft.pixelStorei(Ee.UNPACK_SKIP_IMAGES, mn),
 				tr === 0 && pt.generateMipmaps && Ee.generateMipmap(Sr),
@@ -51522,7 +51503,7 @@ class WebGLRenderer {
 			(l.unpackColorSpace = ColorManagement._getUnpackColorSpace());
 	}
 }
-const wf = class wf {
+const Ef = class Ef {
 	constructor(o, l) {
 		(this.offset = o),
 			(this.description = l),
@@ -51530,10 +51511,10 @@ const wf = class wf {
 			(this.description = l);
 	}
 };
-b(wf, "POSITIVE", new wf(1, "Towards positive")),
-	b(wf, "NEGATIVE", new wf(-1, "Towards negative"));
-let AxisDirection = wf;
-const kf = class kf {
+b(Ef, "POSITIVE", new Ef(1, "Towards positive")),
+	b(Ef, "NEGATIVE", new Ef(-1, "Towards negative"));
+let AxisDirection = Ef;
+const Tf = class Tf {
 	constructor(o) {
 		b(this, "facings");
 		this.direction = o;
@@ -51575,9 +51556,9 @@ const kf = class kf {
 		return this.direction === o.direction;
 	}
 };
-b(kf, "HORIZONTAL", new kf("horizontal")),
-	b(kf, "VERTICAL", new kf("vertical"));
-let Plane = kf;
+b(Tf, "HORIZONTAL", new Tf("horizontal")),
+	b(Tf, "VERTICAL", new Tf("vertical"));
+let Plane = Tf;
 const ka = class ka {
 	constructor(o, l, u) {
 		(this.name = o), (this.plane = l), (this.index = u);
@@ -52029,7 +52010,7 @@ const INTRP_ALPHA = 0.1,
 	},
 	MSPT = 50,
 	MB$1 = 1024 * 1024,
-	VERSION$1 = "3.43.43",
+	VERSION$1 = "3.44.0",
 	MODE = "production";
 if (["development", "local", "staging", "production"].indexOf(MODE) === -1)
 	throw new Error(`Unknown mode: ${MODE}`);
@@ -52753,7 +52734,7 @@ const SESSION_SERVER_ENDPOINT = resolveSessionServerEndpoint(),
 			return new Xi(o.pos.x, o.pos.y, o.pos.z);
 		}
 		toAABB() {
-			return new IauP().setFromCenterAndSize(
+			return new wUmo().setFromCenterAndSize(
 				new Vector3$1(this.x + 0.5, this.y + 0.5, this.z + 0.5),
 				new Vector3$1(0.5, 0.5, 0.5),
 			);
@@ -52827,7 +52808,7 @@ const SESSION_SERVER_ENDPOINT = resolveSessionServerEndpoint(),
 		clone() {
 			return new Xi(this.x, this.y, this.z);
 		}
-		static BnnhEXLqAPb(o, l) {
+		static ZnMvaLdDbPP(o, l) {
 			return { [Symbol.iterator]: () => blockPosIterator(o, l) };
 		}
 	};
@@ -53175,7 +53156,7 @@ function addCoordInto(h, o, l, u, d) {
 	);
 }
 function addCoord(h, o, l, u) {
-	return addCoordInto(h, o, l, u, new IauP(new Vector3$1(), new Vector3$1()));
+	return addCoordInto(h, o, l, u, new wUmo(new Vector3$1(), new Vector3$1()));
 }
 function translateBox3(h, o, l, u) {
 	return (
@@ -53772,9 +53753,9 @@ function requireLodash_reduce() {
 						? !0
 						: Se == null || Fe == null || (!J(Se) && !oe(Fe))
 							? Se !== Se && Fe !== Fe
-							: li(Se, Fe, Sr, _t, Ht, Xt);
+							: ui(Se, Fe, Sr, _t, Ht, Xt);
 				}
-				function li(Se, Fe, _t, Ht, Xt, ur) {
+				function ui(Se, Fe, _t, Ht, Xt, ur) {
 					var Br = En(Se),
 						Fr = En(Fe),
 						qr = S,
@@ -53782,7 +53763,7 @@ function requireLodash_reduce() {
 					Br || ((qr = Ia(Se)), (qr = qr == x ? P : qr)),
 						Fr || ((Lr = Ia(Fe)), (Lr = Lr == x ? P : Lr));
 					var ei = qr == P && !Ft(Se),
-						nn = Lr == P && !Ft(Fe),
+						an = Lr == P && !Ft(Fe),
 						In = qr == Lr;
 					if (In && !ei)
 						return (
@@ -53793,7 +53774,7 @@ function requireLodash_reduce() {
 						);
 					if (!(Xt & m)) {
 						var Mi = ei && Tt.call(Se, "__wrapped__"),
-							Ui = nn && Tt.call(Fe, "__wrapped__");
+							Ui = an && Tt.call(Fe, "__wrapped__");
 						if (Mi || Ui) {
 							var di = Mi ? Se.value() : Se,
 								bi = Ui ? Fe.value() : Fe;
@@ -53819,13 +53800,13 @@ function requireLodash_reduce() {
 							if (qr === void 0 && !(Fr in Se)) return !1;
 						} else {
 							var ei = new xt(),
-								nn;
-							if (!(nn === void 0 ? Sr(Lr, qr, Ht, p | m, ei) : nn)) return !1;
+								an;
+							if (!(an === void 0 ? Sr(Lr, qr, Ht, p | m, ei) : an)) return !1;
 						}
 					}
 					return !0;
 				}
-				function si(Se) {
+				function oi(Se) {
 					if (!J(Se) || gs(Se)) return !1;
 					var Fe = F(Se) || Ft(Se) ? We : he;
 					return Fe.test(et(Se));
@@ -53914,7 +53895,7 @@ function requireLodash_reduce() {
 					var Lr = ur.get(Se);
 					if (Lr && ur.get(Fe)) return Lr == Fe;
 					var ei = -1,
-						nn = !0,
+						an = !0,
 						In = Xt & p ? new pt() : void 0;
 					for (ur.set(Se, Fe), ur.set(Fe, Se); ++ei < Fr; ) {
 						var Mi = Se[ei],
@@ -53925,7 +53906,7 @@ function requireLodash_reduce() {
 								: Ht(Mi, Ui, ei, Se, Fe, ur);
 						if (di !== void 0) {
 							if (di) continue;
-							nn = !1;
+							an = !1;
 							break;
 						}
 						if (In) {
@@ -53935,15 +53916,15 @@ function requireLodash_reduce() {
 										return In.add(wi);
 								})
 							) {
-								nn = !1;
+								an = !1;
 								break;
 							}
 						} else if (!(Mi === Ui || _t(Mi, Ui, Ht, Xt, ur))) {
-							nn = !1;
+							an = !1;
 							break;
 						}
 					}
-					return ur.delete(Se), ur.delete(Fe), nn;
+					return ur.delete(Se), ur.delete(Fe), an;
 				}
 				function Ji(Se, Fe, _t, Ht, Xt, ur, Br) {
 					switch (_t) {
@@ -53989,16 +53970,16 @@ function requireLodash_reduce() {
 						Lr = Et(Fe),
 						ei = Lr.length;
 					if (qr != ei && !Br) return !1;
-					for (var nn = qr; nn--; ) {
-						var In = Fr[nn];
+					for (var an = qr; an--; ) {
+						var In = Fr[an];
 						if (!(Br ? In in Fe : Tt.call(Fe, In))) return !1;
 					}
 					var Mi = ur.get(Se);
 					if (Mi && ur.get(Fe)) return Mi == Fe;
 					var Ui = !0;
 					ur.set(Se, Fe), ur.set(Fe, Se);
-					for (var di = Br; ++nn < qr; ) {
-						In = Fr[nn];
+					for (var di = Br; ++an < qr; ) {
+						In = Fr[an];
 						var bi = Se[In],
 							wi = Fe[In];
 						if (Ht)
@@ -54043,7 +54024,7 @@ function requireLodash_reduce() {
 				}
 				function Ai(Se, Fe) {
 					var _t = ft(Se, Fe);
-					return si(_t) ? _t : void 0;
+					return oi(_t) ? _t : void 0;
 				}
 				var Ia = Ln;
 				((Zt && Ia(new Zt(new ArrayBuffer(1))) != X) ||
@@ -69383,8 +69364,11 @@ return ctx`,
 			);
 		}
 		compile(code) {
-			const native = this.native;
-			return eval(code)();
+			return new Function(
+				"native",
+				"PartialReadError",
+				"return (" + code + ")",
+			)(this.native, requireUtils$1().PartialReadError)();
 		}
 	}
 	class ReadCompiler extends Compiler {
@@ -70197,6 +70181,7 @@ const nbt = getDefaultExportFromCjs(nbtExports),
 			b(this, "tileEntities", []);
 			b(this, "dimension", 0);
 			b(this, "biomes", []);
+			b(this, "hash", "");
 			proto3.util.initPartial(l, this);
 		}
 		static fromBinary(l, u) {
@@ -70230,6 +70215,7 @@ b(wl, "runtime", proto3),
 			},
 			{ no: 5, name: "dimension", kind: "scalar", T: 5 },
 			{ no: 6, name: "biomes", kind: "scalar", T: 13, repeated: !0 },
+			{ no: 7, name: "hash", kind: "scalar", T: 9 },
 		]),
 	);
 let CPacketChunkData = wl;
@@ -70516,14 +70502,14 @@ class ItemArmor extends Item {
 	constructor(l, u, d, p) {
 		super(l);
 		b(this, "armorType");
-		b(this, "mORDBFDRbPdbtOKQNd");
+		b(this, "MSxBItpANUzcuelPDV");
 		b(this, "renderIndex");
 		b(this, "material");
 		b(this, "toughness");
 		(this.material = u),
 			(this.armorType = p),
 			(this.renderIndex = d),
-			(this.mORDBFDRbPdbtOKQNd = u.damageReductionAmount[p]),
+			(this.MSxBItpANUzcuelPDV = u.damageReductionAmount[p]),
 			(this.toughness = u.toughness[p]);
 	}
 	getArmorMaterial() {
@@ -71944,7 +71930,7 @@ const language$2 = {
 	},
 	Fi = class Fi {
 		constructor(o, l) {
-			b(this, "_queryBox", new IauP(new Vector3$1(), new Vector3$1()));
+			b(this, "_queryBox", new wUmo(new Vector3$1(), new Vector3$1()));
 			b(this, "id", Fi.nextEntityID++);
 			b(this, "world");
 			b(this, "mesh");
@@ -71961,7 +71947,7 @@ const language$2 = {
 			b(this, "dead", !1);
 			b(this, "width");
 			b(this, "height");
-			b(this, "boundingBox", new IauP(new Vector3$1(), new Vector3$1()));
+			b(this, "boundingBox", new wUmo(new Vector3$1(), new Vector3$1()));
 			b(this, "dataWatcher");
 			b(this, "isAirborne");
 			b(this, "inWeb");
@@ -72032,19 +72018,19 @@ const language$2 = {
 			return this.inLava;
 		}
 		isEating() {
-			return this.AgsEpbP(4);
+			return this.DobUQdh(4);
 		}
 		setEating(o) {
-			this.ujOLFNP(4, o);
+			this.DbWQhgy(4, o);
 		}
 		entityInit() {}
 		getDataWatcher() {
 			return this.dataWatcher;
 		}
-		AgsEpbP(o) {
+		DobUQdh(o) {
 			return (this.dataWatcher.getWatchableObjectByte(0) & (1 << o)) != 0;
 		}
-		ujOLFNP(o, l) {
+		DbWQhgy(o, l) {
 			const u = this.dataWatcher.getWatchableObjectByte(0);
 			l
 				? this.dataWatcher.updateObject(0, u | (1 << o))
@@ -72078,7 +72064,7 @@ const language$2 = {
 			const u = this.getEntityBoundingBox(),
 				d = u.min,
 				p = u.min.clone().add(new Vector3$1(o, l, o));
-			this.setEntityBoundingBox(new IauP(d, p));
+			this.setEntityBoundingBox(new wUmo(d, p));
 		}
 		setVelocity(o, l, u) {
 			this.motion.set(o, l, u);
@@ -72097,7 +72083,7 @@ const language$2 = {
 					this.pos.y + this.height,
 					this.pos.z + d,
 				);
-			this.setEntityBoundingBox(new IauP(p, m));
+			this.setEntityBoundingBox(new wUmo(p, m));
 		}
 		setPositionAndRotation(o, l, u, d, p) {
 			this.prevPos.set(o, l, u),
@@ -72261,7 +72247,7 @@ const language$2 = {
 		setCurrentItemOrArmor(o, l) {}
 		isBurning() {
 			const o = this.world != null && this.world.isClient;
-			return this.fire > 0 || (o && this.AgsEpbP(0));
+			return this.fire > 0 || (o && this.DobUQdh(0));
 		}
 		getInventory() {
 			return null;
@@ -72761,19 +72747,19 @@ const language$2 = {
 			return this.pos.distanceToSquared(o.pos);
 		}
 		setSprinting(o) {
-			this.ujOLFNP(3, o);
+			this.DbWQhgy(3, o);
 		}
 		isSprinting() {
 			return !1;
 		}
-		piDyaNKCFTy() {
-			return this.AgsEpbP(5);
+		anlFqOVEygl() {
+			return this.DobUQdh(5);
 		}
-		QxuAWxWEweAOpUOkoKA(o) {
-			return this.piDyaNKCFTy();
+		ooYtJFToeashUZHSCFI(o) {
+			return this.anlFqOVEygl();
 		}
 		setInvisible(o) {
-			this.ujOLFNP(5, o);
+			this.DbWQhgy(5, o);
 		}
 		entityDropItem(o, l) {
 			if (o.stackSize != 0 && o.getItem() != null) {
@@ -72998,7 +72984,7 @@ b(Fi, "nextEntityID", 0),
 	b(Fi, "positionOffset", new Vector3$1(-0.03125, 0, -0.03125)),
 	b(Fi, "waterPadding", new Vector3$1(0.001, 0.001, 0.001).multiplyScalar(-1)),
 	b(Fi, "waterOffsetv", new Vector3$1(0, -0.4, 0)),
-	b(Fi, "waterScratchBox", new IauP());
+	b(Fi, "waterScratchBox", new wUmo());
 let Entity = Fi;
 var EnumCreatureAttribute = ((h) => (
 	(h[(h.UNDEFINED = 0)] = "UNDEFINED"),
@@ -73381,7 +73367,7 @@ class EntityXPOrb extends Entity {
 		return !1;
 	}
 }
-const xd = class xd {
+const vd = class vd {
 	constructor(o, l, u, d) {
 		b(this, "id");
 		b(this, "attributeModifierMap", new Map());
@@ -73393,17 +73379,17 @@ const xd = class xd {
 		b(this, "usable");
 		(this.location = l),
 			(this.id = o),
-			(xd.potionTypes[o] = this),
-			xd.potionMap.set(l, this),
+			(vd.potionTypes[o] = this),
+			vd.potionMap.set(l, this),
 			(this.isBadEffect = u),
 			u ? (this.effectiveness = 0.5) : (this.effectiveness = 1),
 			(this.liquidColor = d);
 	}
 	static getPotionFromResourceLocation(o) {
-		return xd.potionMap.get(o);
+		return vd.potionMap.get(o);
 	}
 	static func_181168_c() {
-		return Array.from(xd.potionMap.keys());
+		return Array.from(vd.potionMap.keys());
 	}
 	setIconIndex(o, l) {
 		return (this.statusIconIndex = o + l * 8), this;
@@ -73528,8 +73514,8 @@ const xd = class xd {
 		return l.getAmount() * (o + 1);
 	}
 };
-b(xd, "potionTypes", new Array(32)), b(xd, "potionMap", new Map());
-let Potion = xd;
+b(vd, "potionTypes", new Array(32)), b(vd, "potionMap", new Map());
+let Potion = vd;
 class PotionAbsorption extends Potion {
 	constructor(o, l, u, d) {
 		super(o, l, u, d);
@@ -73567,13 +73553,13 @@ class PotionHealthBoost extends Potion {
 		super(o, l, u, d);
 	}
 }
-const zp = class zp {
+const $p = class $p {
 	static setCache(o) {
-		return o > 0 && o < zp.cache.length ? zp.cache[o] : o;
+		return o > 0 && o < $p.cache.length ? $p.cache[o] : o;
 	}
 };
-b(zp, "cache", new Array(65535));
-let IntegerCache = zp;
+b($p, "cache", new Array(65535));
+let IntegerCache = $p;
 (function h() {
 	for (let o = 0; o < IntegerCache.cache.length; ++o) IntegerCache.cache[o] = o;
 })();
@@ -73923,7 +73909,7 @@ const Sn = class Sn {
 					let m = Sn.parsePotionEffects(p, 0, p.length, o);
 					if (m > 0) {
 						let g = 0;
-						const y = Sn.zWxUbrvYYySvrMqZ.get(d.getId());
+						const y = Sn.yFCzCKYxTiXqpxhu.get(d.getId());
 						y != null &&
 							((g = Sn.parsePotionEffects(y, 0, y.length, o)),
 							g < 0 && (g = 0)),
@@ -73960,7 +73946,7 @@ b(Sn, "field_77924_a", null),
 	b(Sn, "pufferfishEffect", "+0-1+2+3+13&4-4"),
 	b(Sn, "rabbitFootEffect", "+0+1-2+3&4-4+13"),
 	b(Sn, "potionRequirements", new Map()),
-	b(Sn, "zWxUbrvYYySvrMqZ", new Map()),
+	b(Sn, "yFCzCKYxTiXqpxhu", new Map()),
 	b(Sn, "DATAVALUE_COLORS", new Map()),
 	b(Sn, "potionPrefixes", [
 		"potion.prefix.mundane",
@@ -74241,15 +74227,15 @@ PotionHelper.potionRequirements.set(
 	Potions.jump.getId(),
 	"0 & 1 & !2 & 3 & 3+6",
 );
-PotionHelper.zWxUbrvYYySvrMqZ.set(Potions.moveSpeed.getId(), "5");
-PotionHelper.zWxUbrvYYySvrMqZ.set(Potions.digSpeed.getId(), "5");
-PotionHelper.zWxUbrvYYySvrMqZ.set(Potions.damageBoost.getId(), "5");
-PotionHelper.zWxUbrvYYySvrMqZ.set(Potions.regeneration.getId(), "5");
-PotionHelper.zWxUbrvYYySvrMqZ.set(Potions.harm.getId(), "5");
-PotionHelper.zWxUbrvYYySvrMqZ.set(Potions.heal.getId(), "5");
-PotionHelper.zWxUbrvYYySvrMqZ.set(Potions.resistance.getId(), "5");
-PotionHelper.zWxUbrvYYySvrMqZ.set(Potions.poison.getId(), "5");
-PotionHelper.zWxUbrvYYySvrMqZ.set(Potions.jump.getId(), "5");
+PotionHelper.yFCzCKYxTiXqpxhu.set(Potions.moveSpeed.getId(), "5");
+PotionHelper.yFCzCKYxTiXqpxhu.set(Potions.digSpeed.getId(), "5");
+PotionHelper.yFCzCKYxTiXqpxhu.set(Potions.damageBoost.getId(), "5");
+PotionHelper.yFCzCKYxTiXqpxhu.set(Potions.regeneration.getId(), "5");
+PotionHelper.yFCzCKYxTiXqpxhu.set(Potions.harm.getId(), "5");
+PotionHelper.yFCzCKYxTiXqpxhu.set(Potions.heal.getId(), "5");
+PotionHelper.yFCzCKYxTiXqpxhu.set(Potions.resistance.getId(), "5");
+PotionHelper.yFCzCKYxTiXqpxhu.set(Potions.poison.getId(), "5");
+PotionHelper.yFCzCKYxTiXqpxhu.set(Potions.jump.getId(), "5");
 const Gs = class Gs extends Entity {
 	constructor(l) {
 		super(l);
@@ -74258,8 +74244,8 @@ const Gs = class Gs extends Entity {
 		b(this, "jumpTicks", 0);
 		b(this, "initialJumpVelocity", 0.42);
 		b(this, "jumpMovementFactor");
-		b(this, "qIxNFRMPrC", 0);
-		b(this, "sngypTQNXdO", 0);
+		b(this, "diCsIyFmQB", 0);
+		b(this, "jeOIVCTvgax", 0);
 		b(this, "prevLimbSwingAmount", 0);
 		b(this, "limbSwingAmount", 0);
 		b(this, "limbSwing", 0);
@@ -74630,7 +74616,7 @@ const Gs = class Gs extends Entity {
 			Math.abs(this.motion.y) < 0.005 && (this.motion.y = 0),
 			Math.abs(this.motion.z) < 0.005 && (this.motion.z = 0),
 			this.isMovementBlocked()
-				? ((this.jumping = !1), (this.qIxNFRMPrC = 0), (this.sngypTQNXdO = 0))
+				? ((this.jumping = !1), (this.diCsIyFmQB = 0), (this.jeOIVCTvgax = 0))
 				: this.isServerWorld() && this.updateEntityActionState(),
 			this.jumping
 				? this.inWater
@@ -74642,8 +74628,8 @@ const Gs = class Gs extends Entity {
 							(this.jump(), (this.jumpTicks = 10))
 				: (this.jumpTicks = 0),
 			this.isRiding() ||
-				((this.qIxNFRMPrC *= 0.98), (this.sngypTQNXdO *= 0.98)),
-			this.moveEntityWithHeading(this.qIxNFRMPrC, this.sngypTQNXdO),
+				((this.diCsIyFmQB *= 0.98), (this.jeOIVCTvgax *= 0.98)),
+			this.moveEntityWithHeading(this.diCsIyFmQB, this.jeOIVCTvgax),
 			this.world.isServer &&
 				this.doEntityCollision &&
 				this.collideWithNearbyEntities();
@@ -74726,7 +74712,7 @@ const Gs = class Gs extends Entity {
 		for (const u of this.getInventory()) {
 			const d = u.getItem();
 			if (u != null && d instanceof ItemArmor) {
-				const p = d.mORDBFDRbPdbtOKQNd;
+				const p = d.MSxBItpANUzcuelPDV;
 				l += p;
 			}
 		}
@@ -74744,7 +74730,7 @@ const Gs = class Gs extends Entity {
 				if (!m) continue;
 				const g = m.item;
 				g instanceof ItemArmor &&
-					((d += g.mORDBFDRbPdbtOKQNd), (p += g.toughness || 0));
+					((d += g.MSxBItpANUzcuelPDV), (p += g.toughness || 0));
 			}
 			u = u * (1 - Math.min(20, Math.max(d / 5, d - (4 * u) / (p + 8))) / 25);
 		}
@@ -75090,7 +75076,7 @@ const Gs = class Gs extends Entity {
 		if (u > 0) {
 			let p = !1;
 			if (
-				(this.piDyaNKCFTy()
+				(this.anlFqOVEygl()
 					? (p = randomInt(15) == 0)
 					: (p = Math.random() > 0.5),
 				p && u > 0)
@@ -75229,9 +75215,9 @@ b(
 	new AttributeModifier("sprint", "Sprinting speed boost", 0.3, 2).setSaved(!1),
 ),
 	b(Gs, "collidePadding", new Vector3$1(0.2, 0, 0.2)),
-	b(Gs, "collideScratchBox", new IauP());
+	b(Gs, "collideScratchBox", new wUmo());
 let EntityLivingBase = Gs;
-const qm = class qm extends ItemTool {
+const Vm = class Vm extends ItemTool {
 	constructor(l, u) {
 		const d = new Set([
 			Blocks.oak_planks,
@@ -75268,7 +75254,7 @@ const qm = class qm extends ItemTool {
 		});
 	}
 	getStrVsBlock(l, u) {
-		return qm.effectiveOnMaterials.includes(u.material)
+		return Vm.effectiveOnMaterials.includes(u.material)
 			? this.efficiencyOnProperMaterial
 			: super.getStrVsBlock(l, u);
 	}
@@ -75286,12 +75272,12 @@ const qm = class qm extends ItemTool {
 				!0);
 	}
 };
-b(qm, "effectiveOnMaterials", [
+b(Vm, "effectiveOnMaterials", [
 	Materials.wood,
 	Materials.plants,
 	Materials.vine,
 ]);
-let ItemAxe = qm;
+let ItemAxe = Vm;
 const fo = class fo extends Enchantment {
 	constructor(l, u, d, p) {
 		super(l, u, d, EnumEnchantmentType.WEAPON);
@@ -95032,20 +95018,20 @@ class ModelBlock {
 		return new ModelBlock(this.name);
 	}
 }
-const Hm = class Hm {
+const jm = class jm {
 	constructor(o) {
 		b(this, "type", "bool");
 		this.name = o;
 	}
 	getAllowedValues() {
-		return Hm.allowedValues;
+		return jm.allowedValues;
 	}
 	static getName(o) {
 		return o ? "true" : "false";
 	}
 };
-b(Hm, "allowedValues", [!0, !1]);
-let PropertyBool = Hm;
+b(jm, "allowedValues", [!0, !1]);
+let PropertyBool = jm;
 class PropertyDirection {
 	constructor(o, l) {
 		b(this, "type", "enum");
@@ -111755,14 +111741,14 @@ class Block {
 		return null;
 	}
 	setBlockBounds(o, l, u, d, p, m) {
-		this.bbox = new IauP(new Vector3$1(o, l, u), new Vector3$1(d, p, m));
+		this.bbox = new wUmo(new Vector3$1(o, l, u), new Vector3$1(d, p, m));
 	}
 	getBoundingBox(o, l, u) {
 		return this.bbox;
 	}
 	setBlockBoundsBasedOnState(o, l) {}
 	getSelectedBoundingBox(o, l) {
-		return new IauP(
+		return new wUmo(
 			new Vector3$1(
 				l.x + this.bbox.min.x,
 				l.y + this.bbox.min.y,
@@ -111780,7 +111766,7 @@ class Block {
 		g != null && d.intersectsBox(g) && p.push(g);
 	}
 	getCollisionBoundingBox(o, l, u) {
-		return new IauP(
+		return new wUmo(
 			new Vector3$1(
 				l.x + this.bbox.min.x,
 				l.y + this.bbox.min.y,
@@ -112680,7 +112666,7 @@ function binarySearch(h, o, l = 0, u = h.length - 1) {
 				? binarySearch(h, o, l, d - 1)
 				: binarySearch(h, o, d + 1, u);
 }
-const an = class an extends Block {
+const sn = class sn extends Block {
 	constructor(l, u, d) {
 		super(`${l}_stairs`, u, d);
 		b(this, "hasRaytraced");
@@ -112773,13 +112759,13 @@ const an = class an extends Block {
 			: this.setBlockBounds(0, 0, 0, 1, 0.5, 1);
 	}
 	static isBlockStairs(l) {
-		return l instanceof an;
+		return l instanceof sn;
 	}
 	static isSameStair(l, u, d) {
 		const p = l.getBlockState(u),
 			m = p.getBlock();
 		return (
-			an.isBlockStairs(m) &&
+			sn.isBlockStairs(m) &&
 			p.getProp("half") == d.getProp("half") &&
 			p.getProp("facing") == d.getProp("facing")
 		);
@@ -112792,41 +112778,41 @@ const an = class an extends Block {
 		if (p == EnumFacing.EAST) {
 			const y = l.getBlockState(u.east()),
 				x = y.getBlock();
-			if (an.isBlockStairs(x) && m == y.getProp("half")) {
+			if (sn.isBlockStairs(x) && m == y.getProp("half")) {
 				const S = y.getProp("facing");
-				if (S == EnumFacing.NORTH && !an.isSameStair(l, u.south(), d))
+				if (S == EnumFacing.NORTH && !sn.isSameStair(l, u.south(), d))
 					return g ? 1 : 2;
-				if (S == EnumFacing.SOUTH && !an.isSameStair(l, u.north(), d))
+				if (S == EnumFacing.SOUTH && !sn.isSameStair(l, u.north(), d))
 					return g ? 2 : 1;
 			}
 		} else if (p == EnumFacing.WEST) {
 			const y = l.getBlockState(u.west()),
 				x = y.getBlock();
-			if (an.isBlockStairs(x) && m == y.getProp("half")) {
+			if (sn.isBlockStairs(x) && m == y.getProp("half")) {
 				const S = y.getProp("facing");
-				if (S == EnumFacing.NORTH && !an.isSameStair(l, u.south(), d))
+				if (S == EnumFacing.NORTH && !sn.isSameStair(l, u.south(), d))
 					return g ? 2 : 1;
-				if (S == EnumFacing.SOUTH && !an.isSameStair(l, u.north(), d))
+				if (S == EnumFacing.SOUTH && !sn.isSameStair(l, u.north(), d))
 					return g ? 1 : 2;
 			}
 		} else if (p == EnumFacing.SOUTH) {
 			const y = l.getBlockState(u.south()),
 				x = y.getBlock();
-			if (an.isBlockStairs(x) && m == y.getProp("half")) {
+			if (sn.isBlockStairs(x) && m == y.getProp("half")) {
 				const S = y.getProp("facing");
-				if (S == EnumFacing.WEST && !an.isSameStair(l, u.east(), d))
+				if (S == EnumFacing.WEST && !sn.isSameStair(l, u.east(), d))
 					return g ? 2 : 1;
-				if (S == EnumFacing.EAST && !an.isSameStair(l, u.west(), d))
+				if (S == EnumFacing.EAST && !sn.isSameStair(l, u.west(), d))
 					return g ? 1 : 2;
 			}
 		} else if (p == EnumFacing.NORTH) {
 			const y = l.getBlockState(u.north()),
 				x = y.getBlock();
-			if (an.isBlockStairs(x) && m == y.getProp("half")) {
+			if (sn.isBlockStairs(x) && m == y.getProp("half")) {
 				const S = y.getProp("facing");
-				if (S == EnumFacing.WEST && !an.isSameStair(l, u.east(), d))
+				if (S == EnumFacing.WEST && !sn.isSameStair(l, u.east(), d))
 					return g ? 1 : 2;
-				if (S == EnumFacing.EAST && !an.isSameStair(l, u.west(), d))
+				if (S == EnumFacing.EAST && !sn.isSameStair(l, u.west(), d))
 					return g ? 2 : 1;
 			}
 		}
@@ -112840,41 +112826,41 @@ const an = class an extends Block {
 		if (p == EnumFacing.EAST) {
 			const y = l.getBlockState(u.west()),
 				x = y.getBlock();
-			if (an.isBlockStairs(x) && m == y.getProp("half")) {
+			if (sn.isBlockStairs(x) && m == y.getProp("half")) {
 				const S = y.getProp("facing");
-				if (S == EnumFacing.NORTH && !an.isSameStair(l, u.north(), d))
+				if (S == EnumFacing.NORTH && !sn.isSameStair(l, u.north(), d))
 					return g ? 1 : 2;
-				if (S == EnumFacing.SOUTH && !an.isSameStair(l, u.south(), d))
+				if (S == EnumFacing.SOUTH && !sn.isSameStair(l, u.south(), d))
 					return g ? 2 : 1;
 			}
 		} else if (p == EnumFacing.WEST) {
 			const y = l.getBlockState(u.east()),
 				x = y.getBlock();
-			if (an.isBlockStairs(x) && m == y.getProp("half")) {
+			if (sn.isBlockStairs(x) && m == y.getProp("half")) {
 				const S = y.getProp("facing");
-				if (S == EnumFacing.NORTH && !an.isSameStair(l, u.north(), d))
+				if (S == EnumFacing.NORTH && !sn.isSameStair(l, u.north(), d))
 					return g ? 2 : 1;
-				if (S == EnumFacing.SOUTH && !an.isSameStair(l, u.south(), d))
+				if (S == EnumFacing.SOUTH && !sn.isSameStair(l, u.south(), d))
 					return g ? 1 : 2;
 			}
 		} else if (p == EnumFacing.SOUTH) {
 			const y = l.getBlockState(u.north()),
 				x = y.getBlock();
-			if (an.isBlockStairs(x) && m == y.getProp("half")) {
+			if (sn.isBlockStairs(x) && m == y.getProp("half")) {
 				const S = y.getProp("facing");
-				if (S == EnumFacing.WEST && !an.isSameStair(l, u.west(), d))
+				if (S == EnumFacing.WEST && !sn.isSameStair(l, u.west(), d))
 					return g ? 2 : 1;
-				if (S == EnumFacing.EAST && !an.isSameStair(l, u.east(), d))
+				if (S == EnumFacing.EAST && !sn.isSameStair(l, u.east(), d))
 					return g ? 1 : 2;
 			}
 		} else if (p == EnumFacing.NORTH) {
 			const y = l.getBlockState(u.south()),
 				x = y.getBlock();
-			if (an.isBlockStairs(x) && m == y.getProp("half")) {
+			if (sn.isBlockStairs(x) && m == y.getProp("half")) {
 				const S = y.getProp("facing");
-				if (S == EnumFacing.WEST && !an.isSameStair(l, u.west(), d))
+				if (S == EnumFacing.WEST && !sn.isSameStair(l, u.west(), d))
 					return g ? 1 : 2;
-				if (S == EnumFacing.EAST && !an.isSameStair(l, u.east(), d))
+				if (S == EnumFacing.EAST && !sn.isSameStair(l, u.east(), d))
 					return g ? 2 : 1;
 			}
 		}
@@ -112897,47 +112883,47 @@ const an = class an extends Block {
 			(S = 0.5), (k = 1);
 			const C = l.getBlockState(u.east()),
 				I = C.getBlock();
-			if (an.isBlockStairs(I) && m == C.getProp("half")) {
+			if (sn.isBlockStairs(I) && m == C.getProp("half")) {
 				const A = C.getProp("facing");
-				A == EnumFacing.NORTH && !an.isSameStair(l, u.south(), d)
+				A == EnumFacing.NORTH && !sn.isSameStair(l, u.south(), d)
 					? ((k = 0.5), (E = !1))
 					: A == EnumFacing.SOUTH &&
-						!an.isSameStair(l, u.north(), d) &&
+						!sn.isSameStair(l, u.north(), d) &&
 						((w = 0.5), (E = !1));
 			}
 		} else if (p == EnumFacing.WEST) {
 			(v = 0.5), (k = 1);
 			const C = l.getBlockState(u.west()),
 				I = C.getBlock();
-			if (an.isBlockStairs(I) && m == C.getProp("half")) {
+			if (sn.isBlockStairs(I) && m == C.getProp("half")) {
 				const A = C.getProp("facing");
-				A == EnumFacing.NORTH && !an.isSameStair(l, u.south(), d)
+				A == EnumFacing.NORTH && !sn.isSameStair(l, u.south(), d)
 					? ((k = 0.5), (E = !1))
 					: A == EnumFacing.SOUTH &&
-						!an.isSameStair(l, u.north(), d) &&
+						!sn.isSameStair(l, u.north(), d) &&
 						((w = 0.5), (E = !1));
 			}
 		} else if (p == EnumFacing.SOUTH) {
 			(w = 0.5), (k = 1);
 			const C = l.getBlockState(u.south()),
 				I = C.getBlock();
-			if (an.isBlockStairs(I) && m == C.getProp("half")) {
+			if (sn.isBlockStairs(I) && m == C.getProp("half")) {
 				const A = C.getProp("facing");
-				A == EnumFacing.WEST && !an.isSameStair(l, u.east(), d)
+				A == EnumFacing.WEST && !sn.isSameStair(l, u.east(), d)
 					? ((v = 0.5), (E = !1))
 					: A == EnumFacing.EAST &&
-						!an.isSameStair(l, u.west(), d) &&
+						!sn.isSameStair(l, u.west(), d) &&
 						((S = 0.5), (E = !1));
 			}
 		} else if (p == EnumFacing.NORTH) {
 			const C = l.getBlockState(u.north()),
 				I = C.getBlock();
-			if (an.isBlockStairs(I) && m == C.getProp("half")) {
+			if (sn.isBlockStairs(I) && m == C.getProp("half")) {
 				const A = C.getProp("facing");
-				A == EnumFacing.WEST && !an.isSameStair(l, u.east(), d)
+				A == EnumFacing.WEST && !sn.isSameStair(l, u.east(), d)
 					? ((v = 0.5), (E = !1))
 					: A == EnumFacing.EAST &&
-						!an.isSameStair(l, u.west(), d) &&
+						!sn.isSameStair(l, u.west(), d) &&
 						((S = 0.5), (E = !1));
 			}
 		}
@@ -112959,47 +112945,47 @@ const an = class an extends Block {
 		if (p == EnumFacing.EAST) {
 			const C = l.getBlockState(u.west()),
 				I = C.getBlock();
-			if (an.isBlockStairs(I) && m == C.getProp("half")) {
+			if (sn.isBlockStairs(I) && m == C.getProp("half")) {
 				const A = C.getProp("facing");
-				A == EnumFacing.NORTH && !an.isSameStair(l, u.north(), d)
+				A == EnumFacing.NORTH && !sn.isSameStair(l, u.north(), d)
 					? ((w = 0), (k = 0.5), (E = !0))
 					: A == EnumFacing.SOUTH &&
-						!an.isSameStair(l, u.south(), d) &&
+						!sn.isSameStair(l, u.south(), d) &&
 						((w = 0.5), (k = 1), (E = !0));
 			}
 		} else if (p == EnumFacing.WEST) {
 			const C = l.getBlockState(u.east()),
 				I = C.getBlock();
-			if (an.isBlockStairs(I) && m == C.getProp("half")) {
+			if (sn.isBlockStairs(I) && m == C.getProp("half")) {
 				(S = 0.5), (v = 1);
 				const A = C.getProp("facing");
-				A == EnumFacing.NORTH && !an.isSameStair(l, u.north(), d)
+				A == EnumFacing.NORTH && !sn.isSameStair(l, u.north(), d)
 					? ((w = 0), (k = 0.5), (E = !0))
 					: A == EnumFacing.SOUTH &&
-						!an.isSameStair(l, u.south(), d) &&
+						!sn.isSameStair(l, u.south(), d) &&
 						((w = 0.5), (k = 1), (E = !0));
 			}
 		} else if (p == EnumFacing.SOUTH) {
 			const C = l.getBlockState(u.north()),
 				I = C.getBlock();
-			if (an.isBlockStairs(I) && m == C.getProp("half")) {
+			if (sn.isBlockStairs(I) && m == C.getProp("half")) {
 				(w = 0), (k = 0.5);
 				const A = C.getProp("facing");
-				A == EnumFacing.WEST && !an.isSameStair(l, u.west(), d)
+				A == EnumFacing.WEST && !sn.isSameStair(l, u.west(), d)
 					? (E = !0)
 					: A == EnumFacing.EAST &&
-						!an.isSameStair(l, u.east(), d) &&
+						!sn.isSameStair(l, u.east(), d) &&
 						((S = 0.5), (v = 1), (E = !0));
 			}
 		} else if (p == EnumFacing.NORTH) {
 			const C = l.getBlockState(u.south()),
 				I = C.getBlock();
-			if (an.isBlockStairs(I) && m == C.getProp("half")) {
+			if (sn.isBlockStairs(I) && m == C.getProp("half")) {
 				const A = C.getProp("facing");
-				A == EnumFacing.WEST && !an.isSameStair(l, u.west(), d)
+				A == EnumFacing.WEST && !sn.isSameStair(l, u.west(), d)
 					? (E = !0)
 					: A == EnumFacing.EAST &&
-						!an.isSameStair(l, u.east(), d) &&
+						!sn.isSameStair(l, u.east(), d) &&
 						((S = 0.5), (v = 1), (E = !0));
 			}
 		}
@@ -113020,7 +113006,7 @@ const an = class an extends Block {
 			g = l.getBlockState(u),
 			y = g.getProp("facing").getHorizontalIndex(),
 			x = g.getProp("half") == "top",
-			S = an.map[y + (x ? 4 : 0)];
+			S = sn.map[y + (x ? 4 : 0)];
 		this.hasRaytraced = !0;
 		for (let k = 0; k < 8; ++k)
 			(this.rayTracePass = k),
@@ -113039,7 +113025,7 @@ const an = class an extends Block {
 		return new ModelBlock(this.name).rotate(Math.PI, Axis.Y);
 	}
 };
-b(an, "map", [
+b(sn, "map", [
 	[4, 5],
 	[5, 7],
 	[6, 7],
@@ -113049,7 +113035,7 @@ b(an, "map", [
 	[2, 3],
 	[0, 2],
 ]);
-let BlockStairs = an;
+let BlockStairs = sn;
 const objectToString = Object.prototype.toString;
 function isError(h) {
 	switch (objectToString.call(h)) {
@@ -118993,11 +118979,11 @@ class BlockFenceGate extends Block {
 		return u.getProp("open")
 			? null
 			: u.getProp("facing").getAxis() == Axis.Z
-				? new IauP(
+				? new wUmo(
 						new Vector3$1(l.x, l.y, l.z + 0.375),
 						new Vector3$1(l.x + 1, l.y + 1.5, l.z + 0.625),
 					)
-				: new IauP(
+				: new wUmo(
 						new Vector3$1(l.x + 0.375, l.y, l.z),
 						new Vector3$1(l.x + 0.625, l.y + 1.5, l.z + 1),
 					);
@@ -119971,7 +119957,7 @@ class PathNavigate {
 		if (this.noPath()) return;
 		const o = this.currentPath.getPosition(this.theEntity);
 		if (!o) return;
-		let l = new IauP(
+		let l = new wUmo(
 			new Vector3$1(o.x, o.y, o.z),
 			new Vector3$1(o.x, o.y, o.z),
 		).expandByScalar(0.5);
@@ -120178,7 +120164,7 @@ class PathNavigateGround extends PathNavigate {
 		} else return !1;
 	}
 	isPositionClear(l, u, d, p, m, g, y, x, S) {
-		for (const v of BlockPos.BnnhEXLqAPb(
+		for (const v of BlockPos.ZnMvaLdDbPP(
 			new BlockPos(l, u, d),
 			new BlockPos(l + p - 1, u + m - 1, d + g - 1),
 		)) {
@@ -120686,7 +120672,7 @@ class EntityLiving extends EntityLivingBase {
 		}
 	}
 	setMoveForward(l) {
-		this.sngypTQNXdO = l;
+		this.jeOIVCTvgax = l;
 	}
 	setAIMoveSpeed(l) {
 		super.setAIMoveSpeed(l), this.setMoveForward(l);
@@ -121358,7 +121344,7 @@ class Explosion {
 			y = Math.floor(this.explosionZ + l + 1),
 			x = this.worldObj.getEntitiesWithinAABB(
 				null,
-				new IauP(new Vector3$1(u, p, g), new Vector3$1(d, m, y)),
+				new wUmo(new Vector3$1(u, p, g), new Vector3$1(d, m, y)),
 			),
 			S = new Vector3$1(this.explosionX, this.explosionY, this.explosionZ);
 		for (let v = 0; v < x.length; ++v) {
@@ -121506,7 +121492,7 @@ class Team {
 		return o == null ? !0 : o !== this || this.friendlyFire;
 	}
 }
-const oi = class oi {
+const li = class li {
 	constructor(o) {
 		b(this, "entities", new Map());
 		b(this, "players", new Map());
@@ -121653,7 +121639,7 @@ const oi = class oi {
 		return this.getBlock(o).isAir();
 	}
 	areaPassesCheck(o, l, u) {
-		for (const d of BlockPos.BnnhEXLqAPb(o, l))
+		for (const d of BlockPos.ZnMvaLdDbPP(o, l))
 			if (!u(this.getBlock(d))) return !1;
 		return !0;
 	}
@@ -121804,15 +121790,15 @@ const oi = class oi {
 		const u = l,
 			d = [];
 		o instanceof EntityPlayer
-			? (oi.pos1.set(u.min.x + 1e-7, u.min.y + 1e-7 - 1, u.min.z + 1e-7),
-				oi.pos2.set(u.max.x - 1e-7, u.max.y - 1e-7, u.max.z - 1e-7))
-			: (oi.pos1.set(u.min.x, u.min.y, u.min.z),
-				oi.pos2.set(u.max.x, u.max.y, u.max.z));
-		for (let p = oi.pos1.x; p <= oi.pos2.x; ++p)
-			for (let m = oi.pos1.z; m <= oi.pos2.z; ++m)
-				for (let g = oi.pos1.y; g <= oi.pos2.y; ++g) {
-					oi.mutableblockpos.set(p, g, m);
-					const y = this.getBlockState(oi.mutableblockpos),
+			? (li.pos1.set(u.min.x + 1e-7, u.min.y + 1e-7 - 1, u.min.z + 1e-7),
+				li.pos2.set(u.max.x - 1e-7, u.max.y - 1e-7, u.max.z - 1e-7))
+			: (li.pos1.set(u.min.x, u.min.y, u.min.z),
+				li.pos2.set(u.max.x, u.max.y, u.max.z));
+		for (let p = li.pos1.x; p <= li.pos2.x; ++p)
+			for (let m = li.pos1.z; m <= li.pos2.z; ++m)
+				for (let g = li.pos1.y; g <= li.pos2.y; ++g) {
+					li.mutableblockpos.set(p, g, m);
+					const y = this.getBlockState(li.mutableblockpos),
 						x = y.getBlock();
 					if (!x.isAir()) {
 						if (x.usesDefaultCollision) {
@@ -121830,14 +121816,14 @@ const oi = class oi {
 								l.max.z >= k &&
 								l.min.z <= I &&
 								d.push(
-									new IauP(new Vector3$1(v, w, k), new Vector3$1(E, C, I)),
+									new wUmo(new Vector3$1(v, w, k), new Vector3$1(E, C, I)),
 								);
 							continue;
 						}
-						oi.collisionScratchPos.set(p, g, m),
+						li.collisionScratchPos.set(p, g, m),
 							x.addCollisionBoxesToList(
 								this,
-								oi.collisionScratchPos,
+								li.collisionScratchPos,
 								y,
 								l,
 								d,
@@ -121858,8 +121844,8 @@ const oi = class oi {
 			for (let x = d; x <= p; ++x)
 				for (let S = m; S <= g; ++S)
 					if (
-						(oi.scanScratchPos.set(y, x, S),
-						this.getBlockState(oi.scanScratchPos)
+						(li.scanScratchPos.set(y, x, S),
+						this.getBlockState(li.scanScratchPos)
 							.getBlock()
 							.material.isLiquid())
 					)
@@ -121876,8 +121862,8 @@ const oi = class oi {
 		for (let y = l; y <= u; ++y)
 			for (let x = d; x <= p; ++x)
 				for (let S = m; S <= g; ++S) {
-					oi.scanScratchPos.set(y, x, S);
-					const v = this.getBlockState(oi.scanScratchPos).getBlock();
+					li.scanScratchPos.set(y, x, S);
+					const v = this.getBlockState(li.scanScratchPos).getBlock();
 					if (v.equals(Blocks.fire) || v.equals(Blocks.lava)) return !0;
 				}
 		return !1;
@@ -121890,8 +121876,8 @@ const oi = class oi {
 			y = Math.floor(o.min.z),
 			x = Math.floor(o.max.z + 1);
 		let S = !1,
-			v = oi.materialAccelVec.set(0, 0, 0);
-		const w = oi.materialAccelPos;
+			v = li.materialAccelVec.set(0, 0, 0);
+		const w = li.materialAccelPos;
 		for (let k = m; k < g; ++k)
 			for (let E = d; E < p; ++E)
 				for (let C = y; C < x; ++C) {
@@ -121905,9 +121891,18 @@ const oi = class oi {
 							if (
 								((S = !0),
 								(v = A.modifyAcceleration(this, w, u, v)),
-								A === Blocks.lava && (u.inLava = !0),
-								v.length() > 0)
+								A === Blocks.lava)
 							) {
+								const L = u.getEntityBoundingBox();
+								E >= Math.floor(L.min.x + 0.1) &&
+									E < Math.floor(L.max.x + 0.9) &&
+									k >= Math.floor(L.min.y + 0.4) &&
+									k < Math.floor(L.max.y + 0.6) &&
+									C >= Math.floor(L.min.z + 0.1) &&
+									C < Math.floor(L.max.z + 0.9) &&
+									(u.inLava = !0);
+							}
+							if (v.length() > 0) {
 								v = v.normalize();
 								const L = 0.014;
 								(u.motion.x += v.x * L),
@@ -122011,6 +122006,7 @@ const oi = class oi {
 	addTileEntity(o) {
 		this.loadedTileEntitiesMap.set(o.pos, o);
 	}
+	markTileEntityForUpdate(o) {}
 	setTileEntity(o, l) {
 		var u;
 		l != null &&
@@ -122443,14 +122439,14 @@ const oi = class oi {
 			this.onEntityRemoved(o);
 	}
 };
-b(oi, "mutableblockpos", new BlockPos(0, 0, 0)),
-	b(oi, "pos1", new BlockPos(0, 0, 0)),
-	b(oi, "pos2", new BlockPos(0, 0, 0)),
-	b(oi, "materialAccelPos", new BlockPos(0, 0, 0)),
-	b(oi, "materialAccelVec", new Vector3$1()),
-	b(oi, "collisionScratchPos", new BlockPos(0, 0, 0)),
-	b(oi, "scanScratchPos", new BlockPos(0, 0, 0));
-let World = oi;
+b(li, "mutableblockpos", new BlockPos(0, 0, 0)),
+	b(li, "pos1", new BlockPos(0, 0, 0)),
+	b(li, "pos2", new BlockPos(0, 0, 0)),
+	b(li, "materialAccelPos", new BlockPos(0, 0, 0)),
+	b(li, "materialAccelVec", new Vector3$1()),
+	b(li, "collisionScratchPos", new BlockPos(0, 0, 0)),
+	b(li, "scanScratchPos", new BlockPos(0, 0, 0));
+let World = li;
 class BlockContainer extends Block {
 	constructor(l, u, d) {
 		super(l, u, d);
@@ -122488,7 +122484,7 @@ class BlockContainer extends Block {
 var EnumPartType = ((h) => ((h.HEAD = "head"), (h.FOOT = "foot"), h))(
 	EnumPartType || {},
 );
-const Fp = class Fp extends BlockContainer {
+const Up = class Up extends BlockContainer {
 	constructor(o) {
 		super(o, Materials.cloth, SoundType.piston),
 			(this.defaultState = this.defaultState
@@ -122581,7 +122577,7 @@ const Fp = class Fp extends BlockContainer {
 			for (let k = x; k <= v; ++k)
 				for (let E = S; E <= w; ++E) {
 					const C = new BlockPos(k, m, E);
-					if (Fp.hasRoomForPlayer(o, C)) {
+					if (Up.hasRoomForPlayer(o, C)) {
 						if (u <= 0) return C;
 						--u;
 					}
@@ -122627,9 +122623,9 @@ const Fp = class Fp extends BlockContainer {
 			: l.motion.y < 0 && (l.motion.y = -l.motion.y * 0.8);
 	}
 };
-b(Fp, "PART", new PropertyEnum("part", ["head", "foot"])),
-	b(Fp, "OCCUPIED", new PropertyBool("occupied"));
-let BlockBed = Fp,
+b(Up, "PART", new PropertyEnum("part", ["head", "foot"])),
+	b(Up, "OCCUPIED", new PropertyBool("occupied"));
+let BlockBed = Up,
 	Container$2 = class gl {
 		constructor() {
 			b(this, "inventoryItemStacks", []);
@@ -122866,7 +122862,7 @@ let BlockBed = Fp,
 				const g = this.inventorySlots[o];
 				if (g.canTakeStack(d)) {
 					const y = m.getStackInSlot(l);
-					let x = y == null,
+					let x = y == null || (g.inventory === m && g.isItemValid(y)),
 						S = -1;
 					if (
 						(x || ((S = m.getFirstEmptyStack()), (x = x || S > -1)),
@@ -122874,8 +122870,7 @@ let BlockBed = Fp,
 					) {
 						const v = g.getStack();
 						m.setInventorySlotContents(l, v.clone()),
-							(g.inventory.player.name != m.player.name || !g.isItemValid(y)) &&
-							y != null
+							(g.inventory !== m || !g.isItemValid(y)) && y != null
 								? S > -1 &&
 									(m.addItemStackToInventory(y),
 									g.decrStackSize(v.stackSize),
@@ -123375,7 +123370,7 @@ b(yi, "SURVIVAL", new yi("survival")),
 		spectator: yi.SPECTATOR,
 	});
 let GameMode = yi;
-const Ef = class Ef {
+const Cf = class Cf {
 	constructor() {
 		b(this, "foodLevel", 20);
 		b(this, "foodSaturationLevel", 5);
@@ -123446,14 +123441,14 @@ const Ef = class Ef {
 		return this.foodLevel < 20;
 	}
 	static getExhaustionMultiplier() {
-		return Ef.exhaustionMultiplier;
+		return Cf.exhaustionMultiplier;
 	}
 	static setExhaustionMultiplier(o) {
-		Ef.exhaustionMultiplier = o;
+		Cf.exhaustionMultiplier = o;
 	}
 	addExhaustion(o) {
 		this.foodExhaustionLevel = Math.min(
-			this.foodExhaustionLevel + o * Ef.getExhaustionMultiplier(),
+			this.foodExhaustionLevel + o * Cf.getExhaustionMultiplier(),
 			40,
 		);
 	}
@@ -123467,8 +123462,8 @@ const Ef = class Ef {
 		this.foodSaturationLevel = o;
 	}
 };
-b(Ef, "exhaustionMultiplier", 1);
-let FoodStats = Ef;
+b(Cf, "exhaustionMultiplier", 1);
+let FoodStats = Cf;
 class EntityAIBase {
 	constructor() {
 		b(this, "mutexBits");
@@ -124745,7 +124740,7 @@ var EnumStatus = ((h) => (
 	(h[(h.NOT_SAFE = 5)] = "NOT_SAFE"),
 	h
 ))(EnumStatus || {});
-const Sd = class Sd extends EntityLivingBase {
+const bd = class bd extends EntityLivingBase {
 	constructor(l, u) {
 		super(u);
 		b(this, "socketId");
@@ -124900,12 +124895,12 @@ const Sd = class Sd extends EntityLivingBase {
 				: (this.motion.x = this.motion.z = 0);
 	}
 	isSprinting() {
-		return this.AgsEpbP(3);
+		return this.DobUQdh(3);
 	}
-	TsfhPbrbifnjgHPgnTCaNUfRpfdSCHhiU(l) {
+	hPMktegRpjQWHUOBOGIMTfDUaifidoQsp(l) {
 		var m, g;
 		if (
-			(l instanceof Sd && this.team && !this.team.canAttack(l.team)) ||
+			(l instanceof bd && this.team && !this.team.canAttack(l.team)) ||
 			this.isSpectator() ||
 			!l.canAttackWithItem() ||
 			l.hitByEntity(this) ||
@@ -124959,7 +124954,7 @@ const Sd = class Sd extends EntityLivingBase {
 					0.1,
 					-Math.cos(this.yaw) * d * 0.5,
 				),
-				l instanceof Sd &&
+				l instanceof bd &&
 					l.velocityChanged &&
 					!l.world.isClient &&
 					!((g = l.movementValidatorActive) != null && g.call(l)) &&
@@ -124973,7 +124968,7 @@ const Sd = class Sd extends EntityLivingBase {
 				this.setLastAttacker(l),
 				l instanceof EntityLivingBase &&
 					EnchantmentHelper.applyThornEnchantments(l, this),
-				l instanceof Sd && l.hasInferniumArmor() && this.setFire(4),
+				l instanceof bd && l.hasInferniumArmor() && this.setFire(4),
 				EnchantmentHelper.applyArthropodEnchantments(this, l);
 			const v = this.getActiveItemStack(),
 				w = l;
@@ -125021,15 +125016,15 @@ const Sd = class Sd extends EntityLivingBase {
 			d.dead || (d.id != this.id && d.onCollideWithPlayer(this));
 	}
 	applyInput(l, u = !1) {
-		(this.qIxNFRMPrC = (l.right ? 1 : 0) + (l.left ? -1 : 0)),
-			(this.sngypTQNXdO = (l.up ? -1 : 0) + (l.down ? 1 : 0)),
+		(this.diCsIyFmQB = (l.right ? 1 : 0) + (l.left ? -1 : 0)),
+			(this.jeOIVCTvgax = (l.up ? -1 : 0) + (l.down ? 1 : 0)),
 			(this.yaw = l.yaw),
 			(this.pitch = l.pitch),
 			(this.jumping = l.jump),
-			l.sneak && ((this.qIxNFRMPrC *= 0.3), (this.sngypTQNXdO *= 0.3)),
+			l.sneak && ((this.diCsIyFmQB *= 0.3), (this.jeOIVCTvgax *= 0.3)),
 			l.usingItem &&
 				!this.isRiding() &&
-				((this.qIxNFRMPrC *= 0.2), (this.sngypTQNXdO *= 0.2)),
+				((this.diCsIyFmQB *= 0.2), (this.jeOIVCTvgax *= 0.2)),
 			this.onPlayerUpdate(),
 			this.setPositionAndRotation(
 				this.pos.x,
@@ -125492,7 +125487,7 @@ const Sd = class Sd extends EntityLivingBase {
 			if (
 				this.world.getEntitiesWithinAABB(
 					"zombie",
-					new IauP(
+					new wUmo(
 						new Vector3$1(l.x - u, l.y - d, l.z - u),
 						new Vector3$1(l.x + u, l.y + d, l.z + u),
 					),
@@ -125598,11 +125593,11 @@ const Sd = class Sd extends EntityLivingBase {
 				d &&
 					typeof d.Name == "string" &&
 					(this.homes[d.Name] = new BlockPos(d.X, d.Y, d.Z));
-		this.homes[Sd.DEFAULT_HOME_NAME] == null &&
+		this.homes[bd.DEFAULT_HOME_NAME] == null &&
 			l.HomeX != null &&
 			l.HomeY != null &&
 			l.HomeZ != null &&
-			(this.homes[Sd.DEFAULT_HOME_NAME] = new BlockPos(
+			(this.homes[bd.DEFAULT_HOME_NAME] = new BlockPos(
 				l.HomeX,
 				l.HomeY,
 				l.HomeZ,
@@ -125663,8 +125658,8 @@ const Sd = class Sd extends EntityLivingBase {
 		return 80;
 	}
 };
-b(Sd, "DEFAULT_HOME_NAME", "default");
-let EntityPlayer = Sd;
+b(bd, "DEFAULT_HOME_NAME", "default");
+let EntityPlayer = bd;
 const language = {
 		"death.fell.accident.ladder": "%1$s fell off a ladder",
 		"death.fell.accident.vines": "%1$s fell off some vines",
@@ -126216,9 +126211,10 @@ class EntityArrow extends Entity {
 							this.motion.y * this.motion.y +
 							this.motion.z * this.motion.z,
 					);
-					(this.pos.x -= (this.motion.x / A) * 0.05),
+					A > 0 &&
+						((this.pos.x -= (this.motion.x / A) * 0.05),
 						(this.pos.y -= (this.motion.y / A) * 0.05),
-						(this.pos.z -= (this.motion.z / A) * 0.05),
+						(this.pos.z -= (this.motion.z / A) * 0.05)),
 						this.world.playSoundAtPosition(
 							"random.bowhit",
 							1,
@@ -127902,7 +127898,7 @@ class ItemLilyPad extends Item {
 		return o;
 	}
 }
-const Vm = class Vm extends ItemTool {
+const Gm = class Gm extends ItemTool {
 	constructor(l, u) {
 		const d = new Set([
 			Blocks.chiseled_red_sandstone,
@@ -127956,17 +127952,17 @@ const Vm = class Vm extends ItemTool {
 					: !0;
 	}
 	getStrVsBlock(l, u) {
-		return Vm.effectiveOnMaterials.includes(u.material)
+		return Gm.effectiveOnMaterials.includes(u.material)
 			? this.efficiencyOnProperMaterial
 			: super.getStrVsBlock(l, u);
 	}
 };
-b(Vm, "effectiveOnMaterials", [
+b(Gm, "effectiveOnMaterials", [
 	Materials.iron,
 	Materials.anvil,
 	Materials.rock,
 ]);
-let ItemPickaxe = Vm;
+let ItemPickaxe = Gm;
 class ItemRedstone extends ItemBlock {
 	constructor() {
 		super(Blocks.redstone_wire, "redstone");
@@ -128084,7 +128080,7 @@ const Ml = class Ml extends Message {
 	constructor(l) {
 		super();
 		b(this, "pos");
-		b(this, "lines", []);
+		b(this, "owner");
 		proto2.util.initPartial(l, this);
 	}
 	static fromBinary(l, u) {
@@ -128101,16 +128097,133 @@ const Ml = class Ml extends Message {
 	}
 };
 b(Ml, "runtime", proto2),
-	b(Ml, "typeName", "CPacketUpdateSign"),
+	b(Ml, "typeName", "CPacketUpdatePlayerHead"),
 	b(
 		Ml,
+		"fields",
+		proto2.util.newFieldList(() => [
+			{ no: 1, name: "pos", kind: "message", T: PBBlockPos },
+			{ no: 2, name: "owner", kind: "scalar", T: 9 },
+		]),
+	);
+let CPacketUpdatePlayerHead = Ml;
+const DEFAULT_HEAD_SKIN = "bob";
+class TileEntityPlayerHead extends TileEntity {
+	constructor() {
+		super(...arguments);
+		b(this, "name", "player_head");
+		b(this, "skinOwner", DEFAULT_HEAD_SKIN);
+	}
+	writeToNBT(l) {
+		super.writeToNBT(l),
+			(l.SkinOwner = nbt.string(this.skinOwner || DEFAULT_HEAD_SKIN));
+	}
+	readFromNBT(l) {
+		super.readFromNBT(l),
+			typeof l.SkinOwner == "string" &&
+				l.SkinOwner.length > 0 &&
+				(this.skinOwner = l.SkinOwner);
+	}
+	setSkinOwner(l) {
+		(this.skinOwner = l || DEFAULT_HEAD_SKIN), this.markDirty();
+	}
+	getDescriptionPacket() {
+		return new CPacketUpdatePlayerHead({
+			pos: this.pos.toProto(),
+			owner: this.skinOwner || DEFAULT_HEAD_SKIN,
+		});
+	}
+}
+class ItemPlayerHead extends Item {
+	constructor() {
+		super("player_head");
+	}
+	resolveSkin(o, l) {
+		var u, d, p;
+		return (
+			((u = o.data) == null ? void 0 : u.skinOwner) ||
+			((p = (d = l.profile) == null ? void 0 : d.cosmetics) == null
+				? void 0
+				: p.skin) ||
+			DEFAULT_HEAD_SKIN
+		);
+	}
+	onItemUse(o, l, u, d, p, m, g, y) {
+		if (p == EnumFacing.DOWN) return !1;
+		if (!u.getBlockState(d).getBlock().material.isSolid()) return !1;
+		if (((d = d.offset(p)), l.canPlayerEdit(d, p, o)))
+			if (Blocks.player_head.canPlaceBlockAt(u, d)) {
+				if (u.isClient)
+					return (
+						l.abilities.creative || --o.stackSize,
+						u.playPlaceSoundAtPositionClientSidePredicted(
+							Blocks.player_head.sound,
+							d.toVec3(),
+							l,
+						),
+						!0
+					);
+			} else return !1;
+		else return !1;
+		if (p == EnumFacing.UP) {
+			const S = (l.yaw / Math.PI) * 180,
+				v = Math.floor(((360 - S) * 16) / 360 + 0.5) & 15;
+			u.setBlockState(
+				d,
+				Blocks.player_head.defaultState.withState("rotation", v),
+				3,
+			);
+		} else
+			u.setBlockState(
+				d,
+				Blocks.player_wall_head.defaultState.withState("facing", p),
+				3,
+			);
+		u.playPlaceSoundAtPositionClientSidePredicted(
+			Blocks.player_head.sound,
+			d.toVec3(),
+			l,
+		),
+			l.abilities.creative || --o.stackSize;
+		const x = u.getTileEntity(d);
+		return (
+			x instanceof TileEntityPlayerHead &&
+				(x.setSkinOwner(this.resolveSkin(o, l)), u.markTileEntityForUpdate(d)),
+			!0
+		);
+	}
+}
+const Rl = class Rl extends Message {
+	constructor(l) {
+		super();
+		b(this, "pos");
+		b(this, "lines", []);
+		proto2.util.initPartial(l, this);
+	}
+	static fromBinary(l, u) {
+		return new Rl().fromBinary(l, u);
+	}
+	static fromJson(l, u) {
+		return new Rl().fromJson(l, u);
+	}
+	static fromJsonString(l, u) {
+		return new Rl().fromJsonString(l, u);
+	}
+	static equals(l, u) {
+		return proto2.util.equals(Rl, l, u);
+	}
+};
+b(Rl, "runtime", proto2),
+	b(Rl, "typeName", "CPacketUpdateSign"),
+	b(
+		Rl,
 		"fields",
 		proto2.util.newFieldList(() => [
 			{ no: 1, name: "pos", kind: "message", T: PBBlockPos },
 			{ no: 2, name: "lines", kind: "scalar", T: 9, repeated: !0 },
 		]),
 	);
-let CPacketUpdateSign = Ml;
+let CPacketUpdateSign = Rl;
 const MAX_LENGTH$1 = 19;
 class TileEntitySign extends TileEntity {
 	constructor() {
@@ -128493,14 +128606,14 @@ class EntityPotion extends EntityThrowable {
 		}
 	}
 }
-const Rl = class Rl extends Item {
+const Pl = class Pl extends Item {
 	constructor(l) {
 		super(l);
 		b(this, "effectCache", new Map());
 		(this.maxStackSize = 1), this.setHasSubtypes(!0), this.setMaxDamage(0);
 	}
 	getTextureName(l) {
-		return Rl.isSplash(l.getMetadata()) ? "splash_potion" : "potion";
+		return Pl.isSplash(l.getMetadata()) ? "splash_potion" : "potion";
 	}
 	getRenderLayers(l) {
 		const u = this.getTextureName(l);
@@ -128562,7 +128675,7 @@ const Rl = class Rl extends Item {
 		return EnumAction.DRINK;
 	}
 	onItemRightClick(l, u, d) {
-		return Rl.isSplash(l.getMetadata())
+		return Pl.isSplash(l.getMetadata())
 			? (d.abilities.creative || --l.stackSize,
 				u.playSoundAtEntity(
 					d,
@@ -128592,7 +128705,7 @@ const Rl = class Rl extends Item {
 		if (l.getMetadata() == 0) return "Uncraftable Potion";
 		{
 			let u = "";
-			Rl.isSplash(l.getMetadata()) && (u = "Splash ");
+			Pl.isSplash(l.getMetadata()) && (u = "Splash ");
 			const d = Items.potion.getEffects(l);
 			if (d != null && d.length > 0) {
 				const p = d[0].getEffectName();
@@ -128605,7 +128718,7 @@ const Rl = class Rl extends Item {
 		return u != null && u.length > 0;
 	}
 	getSubItems(l, u) {
-		if ((super.getSubItems(l, u), Rl.SUB_ITEMS_CACHE.size == 0))
+		if ((super.getSubItems(l, u), Pl.SUB_ITEMS_CACHE.size == 0))
 			for (let d = 0; d <= 15; ++d)
 				for (let p = 0; p <= 1; ++p) {
 					let m;
@@ -128614,16 +128727,16 @@ const Rl = class Rl extends Item {
 						let y = m;
 						g != 0 && (g == 1 ? (y = m | 32) : g == 2 && (y = m | 64));
 						const x = PotionHelper.getPotionEffects(y, !1);
-						x != null && x.length > 0 && Rl.SUB_ITEMS_CACHE.set(x, y);
+						x != null && x.length > 0 && Pl.SUB_ITEMS_CACHE.set(x, y);
 					}
 				}
-		for (const [, d] of Rl.SUB_ITEMS_CACHE.entries())
+		for (const [, d] of Pl.SUB_ITEMS_CACHE.entries())
 			u.push(new ItemStack(l, 1, d));
 	}
 };
-b(Rl, "SUB_ITEMS_CACHE", new Map());
-let ItemPotion = Rl;
-function fHheOFjsoyXXUQpvuGdgJD(h) {
+b(Pl, "SUB_ITEMS_CACHE", new Map());
+let ItemPotion = Pl;
+function pyNcXqeeFLpBaNXHEwNUeU(h) {
 	return (
 		(h = h % (2 * Math.PI)),
 		h >= Math.PI && (h -= 2 * Math.PI),
@@ -128807,7 +128920,7 @@ class EntityBoat extends Entity {
 					k =
 						this.pos.z +
 						(this.boatZ - this.pos.z) / this.boatPosRotationIncrements,
-					E = fHheOFjsoyXXUQpvuGdgJD(this.boatYaw - this.yaw);
+					E = pyNcXqeeFLpBaNXHEwNUeU(this.boatYaw - this.yaw);
 				(this.yaw += E / this.boatPosRotationIncrements),
 					(this.pitch +=
 						(this.boatPitch - this.pitch) / this.boatPosRotationIncrements),
@@ -128826,7 +128939,7 @@ class EntityBoat extends Entity {
 			const w = this.getEntityBoundingBox(),
 				k = w.min.y + ((w.max.y - w.min.y) * (v + 0)) / u - 0.125,
 				E = w.min.y + ((w.max.y - w.min.y) * (v + 1)) / u - 0.125,
-				C = new IauP(
+				C = new wUmo(
 					new Vector3$1(w.min.x, k, w.min.z),
 					new Vector3$1(w.max.x, E, w.max.z),
 				);
@@ -128838,11 +128951,11 @@ class EntityBoat extends Entity {
 		} else this.motion.y < 0 && (this.motion.y /= 2), (this.motion.y += 0.007);
 		if (this.riddenByEntity instanceof EntityLivingBase) {
 			const v = this.riddenByEntity,
-				w = v.yaw - Math.PI / 2 + (-v.qIxNFRMPrC * Math.PI) / 2;
+				w = v.yaw - Math.PI / 2 + (-v.diCsIyFmQB * Math.PI) / 2;
 			(this.motion.x +=
-				Math.cos(w) * this.speedMultiplier * v.sngypTQNXdO * 0.05),
+				Math.cos(w) * this.speedMultiplier * v.jeOIVCTvgax * 0.05),
 				(this.motion.z +=
-					-Math.sin(w) * this.speedMultiplier * v.sngypTQNXdO * 0.05);
+					-Math.sin(w) * this.speedMultiplier * v.jeOIVCTvgax * 0.05);
 		}
 		let p = Math.sqrt(
 			this.motion.x * this.motion.x + this.motion.z * this.motion.z,
@@ -128880,7 +128993,7 @@ class EntityBoat extends Entity {
 		const g = this.prevPos.x - this.pos.x,
 			y = this.prevPos.z - this.pos.z;
 		g * g + y * y > 0.001 && (m = Math.atan2(g, y) - Math.PI / 2);
-		let x = fHheOFjsoyXXUQpvuGdgJD(m - this.yaw);
+		let x = pyNcXqeeFLpBaNXHEwNUeU(m - this.yaw);
 		const S = degToRad(20);
 		x > S && (x = S),
 			x < -S && (x = -S),
@@ -129283,9 +129396,9 @@ class EntityMinecart extends Entity {
 	}
 	applyRiderInput(l, u) {
 		const d = this.riddenByEntity;
-		if (!(d instanceof EntityLivingBase) || d.sngypTQNXdO === 0) return;
+		if (!(d instanceof EntityLivingBase) || d.jeOIVCTvgax === 0) return;
 		const p = d.getLook(),
-			m = -Math.sign(d.sngypTQNXdO),
+			m = -Math.sign(d.jeOIVCTvgax),
 			g = p.x * l + p.z * u >= 0 ? 1 : -1,
 			y = m * g,
 			x = this.motion.x * l + this.motion.z * u;
@@ -129844,6 +129957,7 @@ const ee = class ee {
 			(ee.jungle_sign = ee.add(new ItemSign("jungle"))),
 			(ee.oak_sign = ee.add(new ItemSign("oak"))),
 			(ee.spruce_sign = ee.add(new ItemSign("spruce"))),
+			(ee.player_head = ee.add(new ItemPlayerHead())),
 			(ee.white_dye = ee.add(new ItemDye("white"))),
 			(ee.orange_dye = ee.add(new ItemDye("orange"))),
 			(ee.magenta_dye = ee.add(new ItemDye("magenta"))),
@@ -130078,6 +130192,7 @@ b(ee, "blockToItemMap", new Map()),
 	b(ee, "jungle_sign"),
 	b(ee, "oak_sign"),
 	b(ee, "spruce_sign"),
+	b(ee, "player_head"),
 	b(ee, "white_dye"),
 	b(ee, "orange_dye"),
 	b(ee, "magenta_dye"),
@@ -130145,13 +130260,13 @@ b(ee, "blockToItemMap", new Map()),
 	b(ee, "ghost_tear");
 let Items = ee;
 globalThis.Items = Items;
-const $p = class $p {
+const qp = class qp {
 	constructor() {
 		b(this, "smeltingList", new Map());
 		b(this, "experienceList", new Map());
 	}
 	static instance() {
-		return $p.smeltingBase;
+		return qp.smeltingBase;
 	}
 	registerRecipes() {
 		this.addSmeltingRecipeForBlock(
@@ -130304,8 +130419,8 @@ const $p = class $p {
 		return 0;
 	}
 };
-b($p, "smeltingBase", new $p());
-let FurnaceRecipes = $p;
+b(qp, "smeltingBase", new qp());
+let FurnaceRecipes = qp;
 const furnaceRecipes = new FurnaceRecipes();
 class BlockAir extends Block {
 	constructor() {
@@ -130578,7 +130693,7 @@ const jo = class jo extends Block {
 		const m =
 				l.getEntitiesWithinAABB(
 					"EntityArrow",
-					new IauP(
+					new wUmo(
 						new Vector3$1(
 							u.x + this.bbox.min.x,
 							u.y + this.bbox.min.y,
@@ -130723,7 +130838,7 @@ class BlockCake extends Block {
 	getCollisionBoundingBox(o, l, u) {
 		const p = (1 + u.getProp("bites") * 2) / 16,
 			m = 0.5;
-		return new IauP(
+		return new wUmo(
 			new Vector3$1(l.x + p, l.y, l.z + 0.0625),
 			new Vector3$1(l.x + 1 - 0.0625, l.y + m, l.z + 1 - 0.0625),
 		);
@@ -131439,7 +131554,7 @@ class TileEntityChest extends TileEntity {
 			const m = 5;
 			for (const g of this.world.getEntitiesInAABBexcluding(
 				null,
-				new IauP(
+				new wUmo(
 					new Vector3$1(l - m, u - m, d - m),
 					new Vector3$1(l + 1 + m, u + 1 + m, d + 1 + m),
 				),
@@ -131804,7 +131919,7 @@ class BlockCloud extends Block {
 		return !0;
 	}
 }
-const Pl = class Pl extends Message {
+const Bl = class Bl extends Message {
 	constructor(l) {
 		super();
 		b(this, "pos");
@@ -131814,22 +131929,22 @@ const Pl = class Pl extends Message {
 		proto2.util.initPartial(l, this);
 	}
 	static fromBinary(l, u) {
-		return new Pl().fromBinary(l, u);
+		return new Bl().fromBinary(l, u);
 	}
 	static fromJson(l, u) {
-		return new Pl().fromJson(l, u);
+		return new Bl().fromJson(l, u);
 	}
 	static fromJsonString(l, u) {
-		return new Pl().fromJsonString(l, u);
+		return new Bl().fromJsonString(l, u);
 	}
 	static equals(l, u) {
-		return proto2.util.equals(Pl, l, u);
+		return proto2.util.equals(Bl, l, u);
 	}
 };
-b(Pl, "runtime", proto2),
-	b(Pl, "typeName", "CPacketUpdateCommandBlock"),
+b(Bl, "runtime", proto2),
+	b(Bl, "typeName", "CPacketUpdateCommandBlock"),
 	b(
-		Pl,
+		Bl,
 		"fields",
 		proto2.util.newFieldList(() => [
 			{ no: 1, name: "pos", kind: "message", T: PBBlockPos },
@@ -131838,7 +131953,7 @@ b(Pl, "runtime", proto2),
 			{ no: 4, name: "repeat", kind: "scalar", T: 5, opt: !0 },
 		]),
 	);
-let CPacketUpdateCommandBlock = Pl;
+let CPacketUpdateCommandBlock = Bl;
 class CommandBlockLogic {
 	constructor() {
 		b(this, "successCount", 0);
@@ -132830,6 +132945,7 @@ class BlockPistonBase extends Block {
 	}
 	onBlockEventReceived(l, u, d, p, m) {
 		const g = d.getProp("facing");
+		if (!g) return !1;
 		if (l.isServer) {
 			const y = this.shouldBeExtended(l, u, g);
 			if (y && p == 1)
@@ -133046,7 +133162,7 @@ class BlockPistonBase extends Block {
 		return new ModelBlock(this.name).rotate(Math.PI / 2, Axis.Y);
 	}
 }
-const vd = class vd extends BlockContainer {
+const wd = class wd extends BlockContainer {
 	constructor() {
 		super("dispenser", Materials.rock, SoundType.piston),
 			(this.defaultState = this.defaultState
@@ -133110,7 +133226,7 @@ const vd = class vd extends BlockContainer {
 		}
 	}
 	getBehavior(o) {
-		return vd.dispenseBehaviorRegistry;
+		return wd.dispenseBehaviorRegistry;
 	}
 	onNeighborBlockChange(o, l, u, d) {
 		const p = o.isBlockPowered(l) || o.isBlockPowered(l.up()),
@@ -133152,7 +133268,7 @@ const vd = class vd extends BlockContainer {
 			super.breakBlock(o, l, u);
 	}
 	static getDispensePosition(o) {
-		const l = vd.getFacing(o.getBlockMetadata()),
+		const l = wd.getFacing(o.getBlockMetadata()),
 			u = o.getX() + 0.7 * l.getFrontOffsetX(),
 			d = o.getY() + 0.7 * l.getFrontOffsetY(),
 			p = o.getZ() + 0.7 * l.getFrontOffsetZ();
@@ -133172,7 +133288,7 @@ const vd = class vd extends BlockContainer {
 	}
 	getStateFromMeta(o) {
 		return this.defaultState
-			.withState("facing", vd.getFacing(o))
+			.withState("facing", wd.getFacing(o))
 			.withState("triggered", (o & 8) > 0);
 	}
 	getMetaFromState(o) {
@@ -133184,11 +133300,11 @@ const vd = class vd extends BlockContainer {
 		);
 	}
 };
-b(vd, "FACING", new PropertyDirection("facing", Plane.getHorizontal())),
-	b(vd, "TRIGGERED", new PropertyBool("triggered")),
-	b(vd, "dispenseBehaviorRegistry", new BehaviorDefaultDispenseItem());
-let BlockDispenser = vd;
-const Tf = class Tf extends Block {
+b(wd, "FACING", new PropertyDirection("facing", Plane.getHorizontal())),
+	b(wd, "TRIGGERED", new PropertyBool("triggered")),
+	b(wd, "dispenseBehaviorRegistry", new BehaviorDefaultDispenseItem());
+let BlockDispenser = wd;
+const If = class If extends Block {
 	constructor(o) {
 		o === "gravel"
 			? super(o, Materials.solidTransparent, SoundType.gravel)
@@ -133205,9 +133321,9 @@ const Tf = class Tf extends Block {
 		o.isServer && this.checkFallable(o, l);
 	}
 	checkFallable(o, l) {
-		if (Tf.canFallInto(o, l.down()) && l.y >= 0)
+		if (If.canFallInto(o, l.down()) && l.y >= 0)
 			if (
-				!Tf.fallInstantly &&
+				!If.fallInstantly &&
 				o.isAreaLoaded(l.add(-32, -32, -32), l.add(32, 32, 32))
 			) {
 				if (o.isServer) {
@@ -133223,7 +133339,7 @@ const Tf = class Tf extends Block {
 			} else {
 				o.setAir(l);
 				let d;
-				for (d = l.down(); Tf.canFallInto(o, d) && d.y > 0; d = d.down());
+				for (d = l.down(); If.canFallInto(o, d) && d.y > 0; d = d.down());
 				d.y > 0 && o.setBlockState(d.up(), this.defaultState);
 			}
 	}
@@ -133237,8 +133353,8 @@ const Tf = class Tf extends Block {
 	}
 	onEndFalling(o, l) {}
 };
-b(Tf, "fallInstantly");
-let BlockFalling = Tf;
+b(If, "fallInstantly");
+let BlockFalling = If;
 class EventBlockFalling extends EventBlock {
 	constructor(l, u) {
 		super(u);
@@ -133976,7 +134092,7 @@ class BlockFarmland extends Block {
 			: new ModelBlock("farmland");
 	}
 	getCollisionBoundingBox(l, u, d) {
-		return new IauP(
+		return new wUmo(
 			new Vector3$1(u.x, u.y, u.z),
 			new Vector3$1(u.x + 1, u.y + 1, u.z + 1),
 		);
@@ -135019,7 +135135,7 @@ class BlockHellPortal extends Block {
 				if (L) continue;
 				const N = { x: "z", z: "x", y: "y" },
 					O = Blocks.hell_portal.defaultState.withState("axis", N[p.name]);
-				for (const B of BlockPos.BnnhEXLqAPb(E, C)) l.setBlockState(B, O, 2);
+				for (const B of BlockPos.ZnMvaLdDbPP(E, C)) l.setBlockState(B, O, 2);
 			}
 	}
 	onEntityCollidedWithBlock(l, u, d) {
@@ -135553,7 +135669,7 @@ class BlockLilyPad extends BlockShrub {
 			super.addCollisionBoxesToList(o, l, u, d, p, m);
 	}
 	getCollisionBoundingBox(o, l, u) {
-		return new IauP(
+		return new wUmo(
 			new Vector3$1(
 				l.x + this.bbox.min.x,
 				l.y + this.bbox.min.y,
@@ -136031,7 +136147,7 @@ class BlockPistonMoving extends BlockContainer {
 					p.getFrontOffsetZ() < 0
 						? (x -= p.getFrontOffsetZ() * d)
 						: (w -= p.getFrontOffsetZ() * d),
-					new IauP(new Vector3$1(g, y, x), new Vector3$1(S, v, w))
+					new wUmo(new Vector3$1(g, y, x), new Vector3$1(S, v, w))
 				);
 			}
 		} else return null;
@@ -136182,7 +136298,7 @@ class BlockBasePressurePlate extends Block {
 			g && o.scheduleUpdate(l, this, this.tickRate(o));
 	}
 	getSensitiveAABB(o) {
-		return new IauP(
+		return new wUmo(
 			new Vector3$1(o.x + 0.125, o.y, o.z + 0.125),
 			new Vector3$1(o.x + 1 - 0.125, o.y + 0.25, o.z + 1 - 0.125),
 		);
@@ -136522,7 +136638,7 @@ class EntityAITarget extends EntityAIBase {
 		}
 	}
 }
-const jm = class jm extends EntityAITarget {
+const Wm = class Wm extends EntityAITarget {
 	constructor(l, u, d, p = !1, m = null, g = 10) {
 		super(l, d, p);
 		b(this, "targetClass");
@@ -136540,7 +136656,7 @@ const jm = class jm extends EntityAITarget {
 					this.taskOwner
 						.getEntityBoundingBox()
 						.clone()
-						.expandByVector(jm.searchExpansion.set(l, 4, l)),
+						.expandByVector(Wm.searchExpansion.set(l, 4, l)),
 				);
 			let d = null,
 				p = 1 / 0;
@@ -136565,8 +136681,8 @@ const jm = class jm extends EntityAITarget {
 		this.taskOwner.setAttackTarget(this.targetEntity), super.startExecuting();
 	}
 };
-b(jm, "searchExpansion", new Vector3$1());
-let EntityAINearestAttackableTarget = jm;
+b(Wm, "searchExpansion", new Vector3$1());
+let EntityAINearestAttackableTarget = Wm;
 class EntitySnowman extends EntityMob {
 	constructor(l) {
 		super(l);
@@ -137230,7 +137346,7 @@ class Toggle {
 		(this.pos = o), (this.time = l);
 	}
 }
-const lh = class lh extends BlockTorch {
+const ch = class ch extends BlockTorch {
 	constructor() {
 		super("redstone_torch");
 		b(this, "modelOff");
@@ -137239,8 +137355,8 @@ const lh = class lh extends BlockTorch {
 		return new ModelBlock(`redstone_torch${l.getProp("lit") ? "" : "_off"}`);
 	}
 	isBurnedOut(l, u, d) {
-		lh.toggles.has(l) || lh.toggles.set(l, []);
-		const p = lh.toggles.get(l);
+		ch.toggles.has(l) || ch.toggles.set(l, []);
+		const p = ch.toggles.get(l);
 		d && p.push(new Toggle(u, l.totalTime));
 		let m = 0;
 		for (let g = 0; g < p.length; ++g)
@@ -137269,7 +137385,7 @@ const lh = class lh extends BlockTorch {
 	}
 	updateTick(l, u, d) {
 		const p = this.shouldBeOff(l, u, d),
-			m = lh.toggles.get(l);
+			m = ch.toggles.get(l);
 		for (; m != null && m.length > 0 && l.totalTime - m[0].time > 60; )
 			m.splice(0, 1);
 		if (d.getProp("lit")) {
@@ -137350,8 +137466,8 @@ const lh = class lh extends BlockTorch {
 		return !1;
 	}
 };
-b(lh, "toggles", new Map());
-let BlockRedstoneTorch = lh;
+b(ch, "toggles", new Map());
+let BlockRedstoneTorch = ch;
 class BlockWallTorch extends BlockTorch {
 	constructor(o) {
 		super(o);
@@ -138997,6 +139113,87 @@ class BlockSlime extends Block {
 		super.onEntityCollidedWithBlock(l, u, d);
 	}
 }
+class BlockSkull extends BlockContainer {
+	constructor(l) {
+		super(l, Materials.circuits, SoundType.stone);
+		b(this, "isTileEntity", !0);
+		this.setBlockBounds(0.25, 0, 0.25, 0.75, 0.5, 0.75),
+			(this.opaqueCube = !1),
+			(this.fullBlock = !1),
+			(this.lightOpacity = 0);
+	}
+	getRenderType() {
+		return BlockRenderType.TESR;
+	}
+	hasItemForm() {
+		return !1;
+	}
+	createNewTileEntity(l) {
+		return new TileEntityPlayerHead();
+	}
+	getCollisionBoundingBox(l, u, d) {
+		return null;
+	}
+	getSelectedBoundingBox(l, u) {
+		return (
+			this.setBlockBoundsBasedOnState(l, u), super.getSelectedBoundingBox(l, u)
+		);
+	}
+	isPassable(l, u) {
+		return !0;
+	}
+	getItemDropped(l, u) {
+		return Items.getItemByName("player_head");
+	}
+}
+class BlockSkullStanding extends BlockSkull {
+	constructor() {
+		super("player_head");
+	}
+	getStateFromMeta(o) {
+		return this.defaultState.withState("rotation", o);
+	}
+	getMetaFromState(o) {
+		return o.getProp("rotation");
+	}
+}
+class BlockSkullWall extends BlockSkull {
+	constructor() {
+		super("player_wall_head");
+	}
+	setBlockBoundsBasedOnState(o, l) {
+		switch (o.getBlockState(l).getProp("facing")) {
+			case EnumFacing.NORTH:
+				this.setBlockBounds(0.25, 0.25, 0.5, 0.75, 0.75, 1);
+				break;
+			case EnumFacing.SOUTH:
+				this.setBlockBounds(0.25, 0.25, 0, 0.75, 0.75, 0.5);
+				break;
+			case EnumFacing.WEST:
+				this.setBlockBounds(0.5, 0.25, 0.25, 1, 0.75, 0.75);
+				break;
+			case EnumFacing.EAST:
+			default:
+				this.setBlockBounds(0, 0.25, 0.25, 0.5, 0.75, 0.75);
+		}
+	}
+	onNeighborBlockChange(o, l, u, d) {
+		const p = u.getProp("facing");
+		o.getBlockState(l.offset(p.getOpposite())).getBlock().material.isSolid() ||
+			o.setAir(l),
+			super.onNeighborBlockChange(o, l, u, d);
+	}
+	getStateFromMeta(o) {
+		let l = EnumFacing.getFront(o);
+		return (
+			l.getAxis() == Axis.Y && (l = EnumFacing.NORTH),
+			this.defaultState.withState("facing", l)
+		);
+	}
+	getMetaFromState(o) {
+		return o.getProp("facing").getIndex();
+	}
+}
 const LAYER_THICKNESS = 2 / BLOCK_PIXELS;
 class BlockSnow extends Block {
 	constructor() {
@@ -139034,7 +139231,7 @@ class BlockSnow extends Block {
 		);
 	}
 	getCollisionBoundingBox(l, u, d) {
-		return new IauP(
+		return new wUmo(
 			new Vector3$1(
 				u.x + this.bbox.min.x,
 				u.y + this.bbox.min.y,
@@ -139066,13 +139263,13 @@ class BlockSoulSand extends Block {
 		(u.motion.x *= 0.4), (u.motion.z *= 0.4);
 	}
 	getCollisionBoundingBox(o, l, u) {
-		return new IauP(
+		return new wUmo(
 			new Vector3$1(l.x, l.y, l.z),
 			new Vector3$1(l.x + 1, l.y + 1 - 0.125, l.z + 1),
 		);
 	}
 	getBoundingBox(o) {
-		return new IauP(new Vector3$1(0, 0, 0), new Vector3$1(1, 1 - 0.125, 1));
+		return new wUmo(new Vector3$1(0, 0, 0), new Vector3$1(1, 1 - 0.125, 1));
 	}
 }
 class BlockSign extends BlockContainer {
@@ -139747,7 +139944,7 @@ class BlockHoney extends Block {
 	}
 }
 const updating = new Set(),
-	key = (h) => `${h.x},${h.y},${h.z}`,
+	key$1 = (h) => `${h.x},${h.y},${h.z}`,
 	HORIZONTAL = [
 		EnumFacing.NORTH,
 		EnumFacing.SOUTH,
@@ -139834,7 +140031,7 @@ class BlockRailBase extends Block {
 	onRailPowerUpdate(l, u, d) {}
 	updateRail(l, u, d) {
 		if (!BlockRailBase.isRail(d.getBlock())) return;
-		const p = key(u);
+		const p = key$1(u);
 		if (updating.has(p)) return;
 		const m = updating.size === 0;
 		updating.add(p);
@@ -140790,6 +140987,8 @@ b(H, "idToBlock", new Map()),
 	b(H, "jungle_wall_sign", H.add(new BlockWallSign("jungle"))),
 	b(H, "oak_wall_sign", H.add(new BlockWallSign("oak"))),
 	b(H, "spruce_wall_sign", H.add(new BlockWallSign("spruce"))),
+	b(H, "player_head", H.add(new BlockSkullStanding())),
+	b(H, "player_wall_head", H.add(new BlockSkullWall())),
 	b(H, "sticky_piston", H.add(new BlockPistonBase("sticky_piston", !0))),
 	b(H, "piston", H.add(new BlockPistonBase("piston", !1))),
 	b(H, "piston_head", H.add(new BlockPistonExtension("piston_head"))),
@@ -143785,7 +143984,7 @@ function requireLodash_mergewith() {
 								(yn && (G == "offset" || G == "parent")) ||
 								(En &&
 									(G == "buffer" || G == "byteLength" || G == "byteOffset")) ||
-								li(G, F))) ||
+								ui(G, F))) ||
 							Ur.push(G);
 					return Ur;
 				}
@@ -143968,7 +144167,7 @@ function requireLodash_mergewith() {
 				}
 				function xn(et, bt) {
 					var Dt = et.__data__;
-					return si(bt)
+					return oi(bt)
 						? Dt[typeof bt == "string" ? "string" : "hash"]
 						: Dt.map;
 				}
@@ -143991,7 +144190,7 @@ function requireLodash_mergewith() {
 						? ct(De(et))
 						: {};
 				}
-				function li(et, bt) {
+				function ui(et, bt) {
 					var Dt = typeof et;
 					return (
 						(bt = bt ?? m),
@@ -144007,13 +144206,13 @@ function requireLodash_mergewith() {
 					var Ar = typeof bt;
 					return (
 						Ar == "number"
-							? la(Dt) && li(bt, Dt.length)
+							? la(Dt) && ui(bt, Dt.length)
 							: Ar == "string" && bt in Dt
 					)
 						? ia(Dt[bt], et)
 						: !1;
 				}
-				function si(et) {
+				function oi(et) {
 					var bt = typeof et;
 					return bt == "string" ||
 						bt == "number" ||
@@ -166930,7 +167129,7 @@ class SoundOptions {
 		}
 	} catch {}
 })();
-const sn = class sn {
+const nn = class nn {
 	static reset() {
 		this.resetVideo(), this.resetControls(), this.sound.reset();
 	}
@@ -166973,15 +167172,15 @@ const sn = class sn {
 			this.invertScroll.reset();
 	}
 	static shadowsEnabled() {
-		return sn.shadows.value !== "None";
+		return nn.shadows.value !== "None";
 	}
 	static worldShadowsEnabled() {
-		return sn.shadows.value === "Medium" || sn.shadows.value === "High";
+		return nn.shadows.value === "Medium" || nn.shadows.value === "High";
 	}
 };
-b(sn, "debug", new Option("Debug", !1)),
+b(nn, "debug", new Option("Debug", !1)),
 	b(
-		sn,
+		nn,
 		"language",
 		new SelectOption(
 			"Language",
@@ -166990,206 +167189,213 @@ b(sn, "debug", new Option("Debug", !1)),
 		).withLabel("options.label.language"),
 	),
 	b(
-		sn,
+		nn,
 		"translateChat",
 		new Option("Translate Chat", !1)
 			.withLabel("options.label.translateChat")
 			.withTooltip("options.tooltip.translateChat"),
 	),
 	b(
-		sn,
+		nn,
 		"fov",
 		new SliderOption("FOV", 50, 150, 85)
 			.withLabel("options.label.fov")
 			.withTooltip("options.tooltip.fov"),
 	),
 	b(
-		sn,
+		nn,
 		"mouseSensitivity",
 		new SliderOption("Mouse Sensitivity", 1, 300, 100).withLabel(
 			"options.label.mouseSensitivity",
 		),
 	),
 	b(
-		sn,
+		nn,
 		"scrollSensitivity",
 		new SliderOption("Scroll Sensitivity", 1, 300, 200).withLabel(
 			"options.label.scrollSensitivity",
 		),
 	),
 	b(
-		sn,
+		nn,
 		"touchSensitivity",
 		new SliderOption("Touch Sensitivity", 1, 300, 100).withLabel(
 			"options.label.touchSensitivity",
 		),
 	),
 	b(
-		sn,
+		nn,
 		"renderDistance",
 		new SliderOption("Render Distance ", 2, 8, 3)
 			.withLabel("options.label.renderDistance")
 			.withTooltip("options.tooltip.renderDistance"),
 	),
 	b(
-		sn,
+		nn,
 		"particles",
 		new SliderOption("Particles", 0, 100, 20)
 			.withLabel("options.label.particles")
 			.withTooltip("options.tooltip.particles"),
 	),
 	b(
-		sn,
+		nn,
 		"resolution",
 		new SliderOption("Resolution Scale", 10, 200, 100)
 			.withLabel("options.label.resolution")
 			.withTooltip("options.tooltip.resolution"),
 	),
 	b(
-		sn,
+		nn,
 		"invertScroll",
 		new Option("Invert Scroll", !1).withLabel("options.label.invertScroll"),
 	),
 	b(
-		sn,
+		nn,
 		"autoJump",
 		new Option("Auto Jump", !0).withLabel("options.label.autoJump"),
 	),
 	b(
-		sn,
+		nn,
 		"fastRender",
 		new Option("Fast Render", !0)
 			.withLabel("options.label.fastRender")
 			.withTooltip("options.tooltip.fastRender"),
 	),
 	b(
-		sn,
+		nn,
 		"wasmMesher",
 		new Option("WASM Mesher ", !0)
 			.withLabel("options.label.wasmMesher")
 			.withTooltip("options.tooltip.wasmMesher"),
 	),
 	b(
-		sn,
+		nn,
 		"checkShaderErrors",
 		new Option("Check Shader Errors", !1)
 			.withLabel("options.label.checkShaderErrors")
 			.withTooltip("options.tooltip.checkShaderErrors"),
 	),
 	b(
-		sn,
+		nn,
+		"chunkCache",
+		new Option("Chunk Cache", !0)
+			.withLabel("options.label.chunkCache")
+			.withTooltip("options.tooltip.chunkCache"),
+	),
+	b(
+		nn,
 		"fastEntities",
 		new Option("Fast Entities", !1)
 			.withLabel("options.label.fastEntities")
 			.withTooltip("options.tooltip.fastEntities"),
 	),
 	b(
-		sn,
+		nn,
 		"entities",
 		new SelectOption("Entities", ["Fastest", "Fast", "Normal"], "Normal")
 			.withLabel("options.label.entities")
 			.withTooltip("options.tooltip.entities"),
 	),
 	b(
-		sn,
+		nn,
 		"dynamicFOV",
 		new Option("Dynamic FOV", !0)
 			.withLabel("options.label.dynamicFOV")
 			.withTooltip("options.tooltip.dynamicFOV"),
 	),
 	b(
-		sn,
+		nn,
 		"autoFullscreen",
 		new Option("Auto Fullscreen ", !1)
 			.withLabel("options.label.autoFullscreen")
 			.withTooltip("options.tooltip.autoFullscreen"),
 	),
 	b(
-		sn,
+		nn,
 		"hoverTooltip",
 		new Option("Hovered Tooltip", !IS_MOBILE)
 			.withLabel("options.label.hoverTooltip")
 			.withTooltip("options.tooltip.hoverTooltip"),
 	),
 	b(
-		sn,
+		nn,
 		"acrylicEffect",
 		new Option("Backdrop Blur", !0)
 			.withLabel("options.label.acrylicEffect")
 			.withTooltip("options.tooltip.acrylicEffect"),
 	),
 	b(
-		sn,
+		nn,
 		"stars",
 		new Option("Stars", !0)
 			.withLabel("options.label.stars")
 			.withTooltip("options.tooltip.stars"),
 	),
 	b(
-		sn,
+		nn,
 		"atmosphericSky",
 		new Option("Atmospheric Sky", !1)
 			.withLabel("options.label.atmosphericSky")
 			.withTooltip("options.tooltip.atmosphericSky"),
 	),
 	b(
-		sn,
+		nn,
 		"fog",
 		new Option("Fog", !0)
 			.withLabel("options.label.fog")
 			.withTooltip("options.tooltip.fog"),
 	),
 	b(
-		sn,
+		nn,
 		"godRays",
 		new Option("God Rays", !1)
 			.withLabel("options.label.godRays")
 			.withTooltip("options.tooltip.godRays"),
 	),
 	b(
-		sn,
+		nn,
 		"bloom",
 		new SliderOption("Bloom Intensity", 0, 100, 0)
 			.withLabel("options.label.bloom")
 			.withTooltip("options.tooltip.bloom", (o) => o > 0),
 	),
 	b(
-		sn,
+		nn,
 		"eyeAdaptation",
 		new SliderOption("Eye Adaptation Level", 0, 100, 0)
 			.withLabel("options.label.eyeAdaptation")
 			.withTooltip("options.tooltip.eyeAdaptation"),
 	),
 	b(
-		sn,
+		nn,
 		"waterShaders",
 		new Option("Water Shaders", !1)
 			.withLabel("options.label.waterShaders")
 			.withTooltip("options.tooltip.waterShaders"),
 	),
 	b(
-		sn,
+		nn,
 		"waterLightRefraction",
 		new Option("Water Light Refraction", !1)
 			.withLabel("options.label.waterLightRefraction")
 			.withTooltip("options.tooltip.waterLightRefraction"),
 	),
 	b(
-		sn,
+		nn,
 		"grassWave",
 		new Option("Grass Wave", !0)
 			.withLabel("options.label.grassWave")
 			.withTooltip("options.tooltip.grassWave"),
 	),
 	b(
-		sn,
+		nn,
 		"bobbing",
 		new Option("Bobbing", !0)
 			.withLabel("options.label.bobbing")
 			.withTooltip("options.tooltip.bobbing"),
 	),
 	b(
-		sn,
+		nn,
 		"textureMaterial",
 		new SelectOption(
 			"Material Texture",
@@ -167200,21 +167406,21 @@ b(sn, "debug", new Option("Debug", !1)),
 			.withTooltip("options.tooltip.textureMaterial"),
 	),
 	b(
-		sn,
+		nn,
 		"clouds",
 		new SelectOption("Clouds", ["None", "Fast", "Fancy"], "None")
 			.withLabel("options.label.clouds")
 			.withTooltip("options.tooltip.clouds", (o) => o === "Fancy"),
 	),
 	b(
-		sn,
+		nn,
 		"cloudHeight",
 		new SliderOption("Cloud Height", 128, 256, 128)
 			.withLabel("options.label.cloudHeight")
 			.withTooltip("options.tooltip.cloudHeight"),
 	),
 	b(
-		sn,
+		nn,
 		"lighting",
 		new SelectOption(
 			"Lighting",
@@ -167223,14 +167429,14 @@ b(sn, "debug", new Option("Debug", !1)),
 		).withTooltip("options.tooltip.lighting", (o) => o === "Fancy"),
 	),
 	b(
-		sn,
+		nn,
 		"dynamicLighting",
 		new Option("Dynamic Lighting", !1)
 			.withLabel("options.label.dynamicLighting")
 			.withTooltip("options.tooltip.dynamicLighting"),
 	),
 	b(
-		sn,
+		nn,
 		"globalIllumination",
 		new SelectOption(
 			"Global Illumination",
@@ -167244,33 +167450,33 @@ b(sn, "debug", new Option("Debug", !1)),
 			),
 	),
 	b(
-		sn,
+		nn,
 		"volumetricFog",
 		new Option("Volumetric Fog", !1)
 			.withLabel("options.label.volumetricFog")
 			.withTooltip("options.tooltip.volumetricFog", (o) => o),
 	),
 	b(
-		sn,
+		nn,
 		"fogDensity",
 		new SliderOption("Fog Density", 0, 100, 50)
 			.withLabel("options.label.fogDensity")
 			.withTooltip("options.tooltip.fogDensity"),
 	),
 	b(
-		sn,
+		nn,
 		"emissiveFogGlow",
 		new Option("Emissive Fog Glow", !1)
 			.withLabel("options.label.emissiveFogGlow")
 			.withTooltip("options.tooltip.emissiveFogGlow"),
 	),
 	b(
-		sn,
+		nn,
 		"shadowQuality",
 		new SelectOption("Shadow Quality", ["Off", "Blob", "Ultra"], "Blob"),
 	),
 	b(
-		sn,
+		nn,
 		"shadows",
 		new SelectOption("Shadows", ["None", "Low", "Medium", "High"], "None")
 			.withLabel("options.label.shadows")
@@ -167279,14 +167485,14 @@ b(sn, "debug", new Option("Debug", !1)),
 				(o) => o === "Medium" || o === "High",
 			),
 	),
-	b(sn, "sound", new SoundOptions()),
-	b(sn, "graphicsAutoDetected", new Option("Graphics Auto Detected", !1)),
-	b(sn, "cinematicMode", !1),
-	b(sn, "streamerMode", new Option("Streamer Mode", !1, !1)),
-	b(sn, "enableZoom", new Option("Enable Zoom", !1, !1)),
-	b(sn, "zoomLevel", new SliderOption("Zoom Level", 1, 15, 3, 1, !1)),
-	b(sn, "f1Mode", new Option("F1 Mode", !1, !1));
-let Options = sn;
+	b(nn, "sound", new SoundOptions()),
+	b(nn, "graphicsAutoDetected", new Option("Graphics Auto Detected", !1)),
+	b(nn, "cinematicMode", !1),
+	b(nn, "streamerMode", new Option("Streamer Mode", !1, !1)),
+	b(nn, "enableZoom", new Option("Enable Zoom", !1, !1)),
+	b(nn, "zoomLevel", new SliderOption("Zoom Level", 1, 15, 3, 1, !1)),
+	b(nn, "f1Mode", new Option("F1 Mode", !1, !1));
+let Options = nn;
 const OptionsManager = Object.freeze(
 		Object.defineProperty(
 			{ __proto__: null, Option, SelectOption, SliderOption, default: Options },
@@ -171115,12 +171321,7 @@ const soundData = {
 		"random.bow": { category: "neutral", sounds: ["random/bow"] },
 		"random.bowhit": {
 			category: "neutral",
-			sounds: [
-				"random/bowhit1",
-				"random/bowhit2",
-				"random/bowhit3",
-				"random/bowhit4",
-			],
+			sounds: ["damage/hit1", "damage/hit2", "damage/hit3"],
 		},
 		"random.break": { category: "player", sounds: ["random/break"] },
 		"random.burp": { category: "player", sounds: ["random/burp"] },
@@ -171434,7 +171635,12 @@ class AudioManager {
 		}
 		const x = this.sprite.play(g);
 		if (x == null) return;
-		d && this.sprite.pos(d.x, d.y, d.z, x), this.sprite.rate(u, x);
+		d &&
+			Number.isFinite(d.x) &&
+			Number.isFinite(d.y) &&
+			Number.isFinite(d.z) &&
+			this.sprite.pos(d.x, d.y, d.z, x),
+			this.sprite.rate(u, x);
 		let S = 1;
 		g.includes("dig") || g.includes("step") || g.includes("water")
 			? (S = Options.sound.blocks.value / 100)
@@ -171448,46 +171654,10 @@ b(AudioManager, "sprite"),
 	Options.sound.master.onChange((o) => {
 		howlerExports.Howler.volume(o / 100);
 	});
-const Bl = class Bl extends Message {
-	constructor(l) {
-		super();
-		b(this, "windowId");
-		proto2.util.initPartial(l, this);
-	}
-	static fromBinary(l, u) {
-		return new Bl().fromBinary(l, u);
-	}
-	static fromJson(l, u) {
-		return new Bl().fromJson(l, u);
-	}
-	static fromJsonString(l, u) {
-		return new Bl().fromJsonString(l, u);
-	}
-	static equals(l, u) {
-		return proto2.util.equals(Bl, l, u);
-	}
-};
-b(Bl, "runtime", proto2),
-	b(Bl, "typeName", "SPacketCloseWindow"),
-	b(
-		Bl,
-		"fields",
-		proto2.util.newFieldList(() => [
-			{ no: 1, name: "windowId", kind: "scalar", T: 5 },
-		]),
-	);
-let SPacketCloseWindow = Bl;
 const Ll = class Ll extends Message {
 	constructor(l) {
 		super();
-		b(this, "id");
-		b(this, "sneak");
-		b(this, "sprinting");
-		b(this, "punching");
-		b(this, "qIxNFRMPrC");
-		b(this, "sngypTQNXdO");
-		b(this, "fire");
-		b(this, "stopSleeping");
+		b(this, "windowId");
 		proto2.util.initPartial(l, this);
 	}
 	static fromBinary(l, u) {
@@ -171504,26 +171674,26 @@ const Ll = class Ll extends Message {
 	}
 };
 b(Ll, "runtime", proto2),
-	b(Ll, "typeName", "SPacketEntityAction"),
+	b(Ll, "typeName", "SPacketCloseWindow"),
 	b(
 		Ll,
 		"fields",
 		proto2.util.newFieldList(() => [
-			{ no: 1, name: "id", kind: "scalar", T: 5 },
-			{ no: 2, name: "sneak", kind: "scalar", T: 8, opt: !0 },
-			{ no: 3, name: "sprinting", kind: "scalar", T: 8, opt: !0 },
-			{ no: 4, name: "punching", kind: "scalar", T: 8, opt: !0 },
-			{ no: 5, name: "qIxNFRMPrC", kind: "scalar", T: 2, opt: !0 },
-			{ no: 6, name: "sngypTQNXdO", kind: "scalar", T: 2, opt: !0 },
-			{ no: 20, name: "fire", kind: "scalar", T: 5, opt: !0 },
-			{ no: 21, name: "stopSleeping", kind: "scalar", T: 8, opt: !0 },
+			{ no: 1, name: "windowId", kind: "scalar", T: 5 },
 		]),
 	);
-let SPacketEntityAction = Ll;
+let SPacketCloseWindow = Ll;
 const Nl = class Nl extends Message {
 	constructor(l) {
 		super();
-		b(this, "isFlying");
+		b(this, "id");
+		b(this, "sneak");
+		b(this, "sprinting");
+		b(this, "punching");
+		b(this, "diCsIyFmQB");
+		b(this, "jeOIVCTvgax");
+		b(this, "fire");
+		b(this, "stopSleeping");
 		proto2.util.initPartial(l, this);
 	}
 	static fromBinary(l, u) {
@@ -171540,22 +171710,26 @@ const Nl = class Nl extends Message {
 	}
 };
 b(Nl, "runtime", proto2),
-	b(Nl, "typeName", "SPacketPlayerAbilities"),
+	b(Nl, "typeName", "SPacketEntityAction"),
 	b(
 		Nl,
 		"fields",
 		proto2.util.newFieldList(() => [
-			{ no: 1, name: "isFlying", kind: "scalar", T: 8, opt: !0 },
+			{ no: 1, name: "id", kind: "scalar", T: 5 },
+			{ no: 2, name: "sneak", kind: "scalar", T: 8, opt: !0 },
+			{ no: 3, name: "sprinting", kind: "scalar", T: 8, opt: !0 },
+			{ no: 4, name: "punching", kind: "scalar", T: 8, opt: !0 },
+			{ no: 5, name: "diCsIyFmQB", kind: "scalar", T: 2, opt: !0 },
+			{ no: 6, name: "jeOIVCTvgax", kind: "scalar", T: 2, opt: !0 },
+			{ no: 20, name: "fire", kind: "scalar", T: 5, opt: !0 },
+			{ no: 21, name: "stopSleeping", kind: "scalar", T: 8, opt: !0 },
 		]),
 	);
-let SPacketPlayerAbilities = Nl;
+let SPacketEntityAction = Nl;
 const Ol = class Ol extends Message {
 	constructor(l) {
 		super();
-		b(this, "pos");
-		b(this, "yaw");
-		b(this, "pitch");
-		b(this, "onGround");
+		b(this, "isFlying");
 		proto2.util.initPartial(l, this);
 	}
 	static fromBinary(l, u) {
@@ -171572,24 +171746,22 @@ const Ol = class Ol extends Message {
 	}
 };
 b(Ol, "runtime", proto2),
-	b(Ol, "typeName", "SPacketPlayerPosLook"),
+	b(Ol, "typeName", "SPacketPlayerAbilities"),
 	b(
 		Ol,
 		"fields",
 		proto2.util.newFieldList(() => [
-			{ no: 1, name: "pos", kind: "message", T: Vector3, opt: !0 },
-			{ no: 2, name: "yaw", kind: "scalar", T: 2, opt: !0 },
-			{ no: 3, name: "pitch", kind: "scalar", T: 2, opt: !0 },
-			{ no: 4, name: "onGround", kind: "scalar", T: 8 },
+			{ no: 1, name: "isFlying", kind: "scalar", T: 8, opt: !0 },
 		]),
 	);
-let SPacketPlayerPosLook = Ol;
+let SPacketPlayerAbilities = Ol;
 const Dl = class Dl extends Message {
 	constructor(l) {
 		super();
-		b(this, "x");
-		b(this, "y");
-		b(this, "z");
+		b(this, "pos");
+		b(this, "yaw");
+		b(this, "pitch");
+		b(this, "onGround");
 		proto2.util.initPartial(l, this);
 	}
 	static fromBinary(l, u) {
@@ -171606,9 +171778,43 @@ const Dl = class Dl extends Message {
 	}
 };
 b(Dl, "runtime", proto2),
-	b(Dl, "typeName", "Vector3"),
+	b(Dl, "typeName", "SPacketPlayerPosLook"),
 	b(
 		Dl,
+		"fields",
+		proto2.util.newFieldList(() => [
+			{ no: 1, name: "pos", kind: "message", T: Vector3, opt: !0 },
+			{ no: 2, name: "yaw", kind: "scalar", T: 2, opt: !0 },
+			{ no: 3, name: "pitch", kind: "scalar", T: 2, opt: !0 },
+			{ no: 4, name: "onGround", kind: "scalar", T: 8 },
+		]),
+	);
+let SPacketPlayerPosLook = Dl;
+const zl = class zl extends Message {
+	constructor(l) {
+		super();
+		b(this, "x");
+		b(this, "y");
+		b(this, "z");
+		proto2.util.initPartial(l, this);
+	}
+	static fromBinary(l, u) {
+		return new zl().fromBinary(l, u);
+	}
+	static fromJson(l, u) {
+		return new zl().fromJson(l, u);
+	}
+	static fromJsonString(l, u) {
+		return new zl().fromJsonString(l, u);
+	}
+	static equals(l, u) {
+		return proto2.util.equals(zl, l, u);
+	}
+};
+b(zl, "runtime", proto2),
+	b(zl, "typeName", "Vector3"),
+	b(
+		zl,
 		"fields",
 		proto2.util.newFieldList(() => [
 			{ no: 1, name: "x", kind: "scalar", T: 2 },
@@ -171616,7 +171822,7 @@ b(Dl, "runtime", proto2),
 			{ no: 3, name: "z", kind: "scalar", T: 2 },
 		]),
 	);
-let Vector3 = Dl;
+let Vector3 = zl;
 var Ys;
 let SPacketRespawn$1 =
 	((Ys = class extends Message {
@@ -172002,31 +172208,31 @@ function Ola(h, o = 300) {
 		h
 	);
 }
-const zl = class zl extends Message {
+const Fl = class Fl extends Message {
 	constructor(o) {
 		super(), proto2.util.initPartial(o, this);
 	}
 	static fromBinary(o, l) {
-		return new zl().fromBinary(o, l);
+		return new Fl().fromBinary(o, l);
 	}
 	static fromJson(o, l) {
-		return new zl().fromJson(o, l);
+		return new Fl().fromJson(o, l);
 	}
 	static fromJsonString(o, l) {
-		return new zl().fromJsonString(o, l);
+		return new Fl().fromJsonString(o, l);
 	}
 	static equals(o, l) {
-		return proto2.util.equals(zl, o, l);
+		return proto2.util.equals(Fl, o, l);
 	}
 };
-b(zl, "runtime", proto2),
-	b(zl, "typeName", "SPacketOpenShop"),
+b(Fl, "runtime", proto2),
+	b(Fl, "typeName", "SPacketOpenShop"),
 	b(
-		zl,
+		Fl,
 		"fields",
 		proto2.util.newFieldList(() => []),
 	);
-let SPacketOpenShop = zl;
+let SPacketOpenShop = Fl;
 const frames = JSON.parse(
 		'{"acacia_boat.png":{"frame":{"x":128,"y":64,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"acacia_door.png":{"frame":{"x":144,"y":64,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"acacia_door_bottom.png":{"frame":{"x":160,"y":64,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"acacia_door_top.png":{"frame":{"x":112,"y":1616,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"acacia_leaves.png":{"frame":{"x":128,"y":1616,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"acacia_log.png":{"frame":{"x":144,"y":1616,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"acacia_log_top.png":{"frame":{"x":160,"y":2032,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"acacia_planks.png":{"frame":{"x":176,"y":2032,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"acacia_sapling.png":{"frame":{"x":192,"y":2032,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"acacia_sign.png":{"frame":{"x":208,"y":2032,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"acacia_trapdoor.png":{"frame":{"x":224,"y":1568,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"activator_rail.png":{"frame":{"x":224,"y":1584,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"activator_rail_on.png":{"frame":{"x":224,"y":1600,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"allium.png":{"frame":{"x":224,"y":1616,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"andesite.png":{"frame":{"x":224,"y":1632,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"anvil.png":{"frame":{"x":224,"y":1648,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"anvil_top.png":{"frame":{"x":224,"y":1664,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"apple.png":{"frame":{"x":224,"y":1680,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"aquastone.png":{"frame":{"x":176,"y":512,"w":16,"h":64},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":64},"sourceSize":{"w":16,"h":64},"anchor":{"x":0,"y":0}},"aquastone_bricks.png":{"frame":{"x":224,"y":1696,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"aquastone_crystals.png":{"frame":{"x":224,"y":1712,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"aquastone_shard.png":{"frame":{"x":224,"y":1728,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"armor_stand.png":{"frame":{"x":224,"y":1744,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"arrow.png":{"frame":{"x":224,"y":1760,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"attached_melon_stem.png":{"frame":{"x":224,"y":1776,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"attached_pumpkin_stem.png":{"frame":{"x":224,"y":1792,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"azure_bluet.png":{"frame":{"x":224,"y":1808,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"baked_potato.png":{"frame":{"x":224,"y":1824,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"bamboo.png":{"frame":{"x":224,"y":1840,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"bamboo_large_leaves.png":{"frame":{"x":224,"y":1856,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"bamboo_singleleaf.png":{"frame":{"x":224,"y":1872,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"bamboo_small_leaves.png":{"frame":{"x":224,"y":1888,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"bamboo_stage0.png":{"frame":{"x":224,"y":1904,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"bamboo_stalk.png":{"frame":{"x":224,"y":1920,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"banana.png":{"frame":{"x":224,"y":1936,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"barrel_bottom.png":{"frame":{"x":224,"y":1952,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"barrel_side.png":{"frame":{"x":224,"y":1968,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"barrel_top.png":{"frame":{"x":224,"y":1984,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"barrel_top_open.png":{"frame":{"x":224,"y":2000,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"barrier.png":{"frame":{"x":176,"y":1472,"w":32,"h":32},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":32,"h":32},"sourceSize":{"w":32,"h":32},"anchor":{"x":0,"y":0}},"basalt_side.png":{"frame":{"x":224,"y":2016,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"basalt_top.png":{"frame":{"x":224,"y":2032,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"beacon.png":{"frame":{"x":192,"y":512,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"bed/black.png":{"frame":{"x":16,"y":1536,"w":64,"h":64},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":64,"h":64},"sourceSize":{"w":64,"h":64},"anchor":{"x":0,"y":0}},"bed/blue.png":{"frame":{"x":16,"y":1600,"w":64,"h":64},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":64,"h":64},"sourceSize":{"w":64,"h":64},"anchor":{"x":0,"y":0}},"bed/brown.png":{"frame":{"x":16,"y":1664,"w":64,"h":64},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":64,"h":64},"sourceSize":{"w":64,"h":64},"anchor":{"x":0,"y":0}},"bed/cyan.png":{"frame":{"x":16,"y":1728,"w":64,"h":64},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":64,"h":64},"sourceSize":{"w":64,"h":64},"anchor":{"x":0,"y":0}},"bed/gray.png":{"frame":{"x":16,"y":1792,"w":64,"h":64},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":64,"h":64},"sourceSize":{"w":64,"h":64},"anchor":{"x":0,"y":0}},"bed/green.png":{"frame":{"x":16,"y":1856,"w":64,"h":64},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":64,"h":64},"sourceSize":{"w":64,"h":64},"anchor":{"x":0,"y":0}},"bed/light_blue.png":{"frame":{"x":16,"y":1920,"w":64,"h":64},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":64,"h":64},"sourceSize":{"w":64,"h":64},"anchor":{"x":0,"y":0}},"bed/light_gray.png":{"frame":{"x":16,"y":1984,"w":64,"h":64},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":64,"h":64},"sourceSize":{"w":64,"h":64},"anchor":{"x":0,"y":0}},"bed/lime.png":{"frame":{"x":32,"y":512,"w":64,"h":64},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":64,"h":64},"sourceSize":{"w":64,"h":64},"anchor":{"x":0,"y":0}},"bed/magenta.png":{"frame":{"x":32,"y":576,"w":64,"h":64},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":64,"h":64},"sourceSize":{"w":64,"h":64},"anchor":{"x":0,"y":0}},"bed/orange.png":{"frame":{"x":32,"y":640,"w":64,"h":64},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":64,"h":64},"sourceSize":{"w":64,"h":64},"anchor":{"x":0,"y":0}},"bed/pink.png":{"frame":{"x":32,"y":704,"w":64,"h":64},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":64,"h":64},"sourceSize":{"w":64,"h":64},"anchor":{"x":0,"y":0}},"bed/purple.png":{"frame":{"x":32,"y":768,"w":64,"h":64},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":64,"h":64},"sourceSize":{"w":64,"h":64},"anchor":{"x":0,"y":0}},"bed/red.png":{"frame":{"x":32,"y":832,"w":64,"h":64},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":64,"h":64},"sourceSize":{"w":64,"h":64},"anchor":{"x":0,"y":0}},"bed/white.png":{"frame":{"x":32,"y":896,"w":64,"h":64},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":64,"h":64},"sourceSize":{"w":64,"h":64},"anchor":{"x":0,"y":0}},"bed/yellow.png":{"frame":{"x":32,"y":960,"w":64,"h":64},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":64,"h":64},"sourceSize":{"w":64,"h":64},"anchor":{"x":0,"y":0}},"bedrock.png":{"frame":{"x":192,"y":528,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"bee_nest_bottom.png":{"frame":{"x":192,"y":544,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"bee_nest_front.png":{"frame":{"x":192,"y":560,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"bee_nest_front_honey.png":{"frame":{"x":192,"y":576,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"bee_nest_side.png":{"frame":{"x":192,"y":592,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"bee_nest_top.png":{"frame":{"x":192,"y":608,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"beef.png":{"frame":{"x":192,"y":624,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"beehive_bottom.png":{"frame":{"x":192,"y":640,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"beehive_end.png":{"frame":{"x":192,"y":656,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"beehive_front.png":{"frame":{"x":192,"y":672,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"beehive_front_honey.png":{"frame":{"x":192,"y":688,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"beehive_side.png":{"frame":{"x":192,"y":704,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"beetroot.png":{"frame":{"x":192,"y":720,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"beetroot_seeds.png":{"frame":{"x":192,"y":736,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"beetroot_soup.png":{"frame":{"x":192,"y":752,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"beetroots_stage0.png":{"frame":{"x":192,"y":768,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"beetroots_stage1.png":{"frame":{"x":192,"y":784,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"beetroots_stage2.png":{"frame":{"x":192,"y":800,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"beetroots_stage3.png":{"frame":{"x":192,"y":816,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"bell.png":{"frame":{"x":192,"y":832,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"birch_boat.png":{"frame":{"x":192,"y":848,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"birch_door.png":{"frame":{"x":192,"y":864,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"birch_door_bottom.png":{"frame":{"x":192,"y":880,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"birch_door_top.png":{"frame":{"x":192,"y":896,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"birch_leaves.png":{"frame":{"x":192,"y":912,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"birch_log.png":{"frame":{"x":192,"y":928,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"birch_log_top.png":{"frame":{"x":192,"y":944,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"birch_planks.png":{"frame":{"x":192,"y":960,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"birch_sapling.png":{"frame":{"x":192,"y":976,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"birch_sign.png":{"frame":{"x":192,"y":992,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"birch_trapdoor.png":{"frame":{"x":192,"y":1008,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"black_bed.png":{"frame":{"x":192,"y":1024,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"black_concrete.png":{"frame":{"x":192,"y":1040,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"black_concrete_powder.png":{"frame":{"x":192,"y":1056,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"black_dye.png":{"frame":{"x":192,"y":1072,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"black_glazed_terracotta.png":{"frame":{"x":192,"y":1088,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"black_shulker_box.png":{"frame":{"x":192,"y":1104,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"black_stained_glass.png":{"frame":{"x":192,"y":1120,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"black_stained_glass_pane_top.png":{"frame":{"x":192,"y":1136,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"black_terracotta.png":{"frame":{"x":192,"y":1152,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"black_wool.png":{"frame":{"x":192,"y":1168,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"blackstone.png":{"frame":{"x":192,"y":1184,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"blackstone_top.png":{"frame":{"x":192,"y":1200,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"blast_furnace_front.png":{"frame":{"x":192,"y":1216,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"blast_furnace_front_on.png":{"frame":{"x":208,"y":1584,"w":16,"h":32},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":32},"sourceSize":{"w":16,"h":32},"anchor":{"x":0,"y":0}},"blast_furnace_side.png":{"frame":{"x":192,"y":1232,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"blast_furnace_top.png":{"frame":{"x":192,"y":1248,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"blaze_powder.png":{"frame":{"x":192,"y":1264,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"blaze_rod.png":{"frame":{"x":208,"y":512,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"blue_bed.png":{"frame":{"x":208,"y":528,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"blue_concrete.png":{"frame":{"x":208,"y":544,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"blue_concrete_powder.png":{"frame":{"x":208,"y":560,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"blue_dye.png":{"frame":{"x":208,"y":576,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"blue_glazed_terracotta.png":{"frame":{"x":208,"y":592,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"blue_ice.png":{"frame":{"x":208,"y":608,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"blue_orchid.png":{"frame":{"x":208,"y":624,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"blue_shulker_box.png":{"frame":{"x":208,"y":640,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"blue_stained_glass.png":{"frame":{"x":208,"y":656,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"blue_stained_glass_pane_top.png":{"frame":{"x":208,"y":672,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"blue_terracotta.png":{"frame":{"x":208,"y":688,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"blue_wool.png":{"frame":{"x":208,"y":704,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"bone.png":{"frame":{"x":208,"y":720,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"bone_block_side.png":{"frame":{"x":208,"y":736,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"bone_block_top.png":{"frame":{"x":208,"y":752,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"bone_meal.png":{"frame":{"x":208,"y":768,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"book_enchanted.png":{"frame":{"x":208,"y":784,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"book_normal.png":{"frame":{"x":208,"y":800,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"book_portfolio.png":{"frame":{"x":208,"y":816,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"book_writable.png":{"frame":{"x":208,"y":832,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"book_written.png":{"frame":{"x":208,"y":848,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"bookshelf.png":{"frame":{"x":208,"y":864,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"bow.png":{"frame":{"x":96,"y":1632,"w":64,"h":64},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":64,"h":64},"sourceSize":{"w":64,"h":64},"anchor":{"x":0,"y":0}},"bow_pulling_0.png":{"frame":{"x":96,"y":1696,"w":64,"h":64},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":64,"h":64},"sourceSize":{"w":64,"h":64},"anchor":{"x":0,"y":0}},"bow_pulling_1.png":{"frame":{"x":96,"y":1760,"w":64,"h":64},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":64,"h":64},"sourceSize":{"w":64,"h":64},"anchor":{"x":0,"y":0}},"bow_pulling_2.png":{"frame":{"x":96,"y":1824,"w":64,"h":64},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":64,"h":64},"sourceSize":{"w":64,"h":64},"anchor":{"x":0,"y":0}},"bowl.png":{"frame":{"x":208,"y":880,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"brain_coral.png":{"frame":{"x":208,"y":896,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"brain_coral_block.png":{"frame":{"x":208,"y":912,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"brain_coral_fan.png":{"frame":{"x":208,"y":928,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"bread.png":{"frame":{"x":208,"y":944,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"brewing_stand.png":{"frame":{"x":208,"y":960,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"brewing_stand_base.png":{"frame":{"x":208,"y":976,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"brewing_stand_item.png":{"frame":{"x":208,"y":992,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"brick.png":{"frame":{"x":208,"y":1008,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"bricks.png":{"frame":{"x":208,"y":1024,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"broken_elytra.png":{"frame":{"x":208,"y":1040,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"brown_bed.png":{"frame":{"x":208,"y":1056,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"brown_concrete.png":{"frame":{"x":208,"y":1072,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"brown_concrete_powder.png":{"frame":{"x":208,"y":1088,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"brown_dye.png":{"frame":{"x":208,"y":1104,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"brown_glazed_terracotta.png":{"frame":{"x":208,"y":1120,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"brown_mushroom.png":{"frame":{"x":208,"y":1136,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"brown_mushroom_block.png":{"frame":{"x":208,"y":1152,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"brown_shulker_box.png":{"frame":{"x":208,"y":1168,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"brown_stained_glass.png":{"frame":{"x":208,"y":1184,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"brown_stained_glass_pane_top.png":{"frame":{"x":208,"y":1200,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"brown_terracotta.png":{"frame":{"x":208,"y":1216,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"brown_wool.png":{"frame":{"x":208,"y":1232,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"bubble_coral.png":{"frame":{"x":208,"y":1248,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"bubble_coral_block.png":{"frame":{"x":208,"y":1264,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"bubble_coral_fan.png":{"frame":{"x":224,"y":512,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"bucket.png":{"frame":{"x":224,"y":528,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"cactus_bottom.png":{"frame":{"x":224,"y":544,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"cactus_side.png":{"frame":{"x":224,"y":560,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"cactus_top.png":{"frame":{"x":224,"y":576,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"cake.png":{"frame":{"x":224,"y":592,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"cake_bottom.png":{"frame":{"x":224,"y":608,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"cake_inner.png":{"frame":{"x":224,"y":624,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"cake_side.png":{"frame":{"x":224,"y":640,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"cake_top.png":{"frame":{"x":224,"y":656,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"campfire.png":{"frame":{"x":224,"y":672,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"campfire_fire.png":{"frame":{"x":96,"y":1216,"w":16,"h":128},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":128},"sourceSize":{"w":16,"h":128},"anchor":{"x":0,"y":0}},"campfire_log.png":{"frame":{"x":224,"y":688,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"campfire_log_lit.png":{"frame":{"x":176,"y":576,"w":16,"h":64},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":64},"sourceSize":{"w":16,"h":64},"anchor":{"x":0,"y":0}},"carrot.png":{"frame":{"x":224,"y":704,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"carrot_on_a_stick.png":{"frame":{"x":224,"y":720,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"carrots_stage0.png":{"frame":{"x":224,"y":736,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"carrots_stage1.png":{"frame":{"x":224,"y":752,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"carrots_stage2.png":{"frame":{"x":224,"y":768,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"carrots_stage3.png":{"frame":{"x":224,"y":784,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"cartography_table_side1.png":{"frame":{"x":224,"y":800,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"cartography_table_side2.png":{"frame":{"x":224,"y":816,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"cartography_table_side3.png":{"frame":{"x":224,"y":832,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"cartography_table_top.png":{"frame":{"x":224,"y":848,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"carved_pumpkin.png":{"frame":{"x":224,"y":864,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"cauldron.png":{"frame":{"x":224,"y":880,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"cauldron_bottom.png":{"frame":{"x":224,"y":896,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"cauldron_inner.png":{"frame":{"x":224,"y":912,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"cauldron_side.png":{"frame":{"x":224,"y":928,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"cauldron_top.png":{"frame":{"x":224,"y":944,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"chain.png":{"frame":{"x":224,"y":960,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"chain_command_block_back.png":{"frame":{"x":176,"y":640,"w":16,"h":64},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":64},"sourceSize":{"w":16,"h":64},"anchor":{"x":0,"y":0}},"chain_command_block_conditional.png":{"frame":{"x":176,"y":704,"w":16,"h":64},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":64},"sourceSize":{"w":16,"h":64},"anchor":{"x":0,"y":0}},"chain_command_block_front.png":{"frame":{"x":176,"y":768,"w":16,"h":64},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":64},"sourceSize":{"w":16,"h":64},"anchor":{"x":0,"y":0}},"chain_command_block_side.png":{"frame":{"x":176,"y":832,"w":16,"h":64},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":64},"sourceSize":{"w":16,"h":64},"anchor":{"x":0,"y":0}},"chain_item.png":{"frame":{"x":224,"y":976,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"chainmail_boots.png":{"frame":{"x":224,"y":992,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"chainmail_chestplate.png":{"frame":{"x":224,"y":1008,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"chainmail_helmet.png":{"frame":{"x":224,"y":1024,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"chainmail_leggings.png":{"frame":{"x":224,"y":1040,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"charcoal.png":{"frame":{"x":224,"y":1056,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"chest/ender.png":{"frame":{"x":96,"y":1888,"w":64,"h":64},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":64,"h":64},"sourceSize":{"w":64,"h":64},"anchor":{"x":0,"y":0}},"chest/normal.png":{"frame":{"x":96,"y":1952,"w":64,"h":64},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":64,"h":64},"sourceSize":{"w":64,"h":64},"anchor":{"x":0,"y":0}},"chest_minecart.png":{"frame":{"x":224,"y":1072,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"chicken.png":{"frame":{"x":224,"y":1088,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"chipped_anvil_top.png":{"frame":{"x":224,"y":1104,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"chiseled_hell_bricks.png":{"frame":{"x":224,"y":1120,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"chiseled_marble_block.png":{"frame":{"x":224,"y":1136,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"chiseled_marble_block_top.png":{"frame":{"x":224,"y":1152,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"chiseled_polished_blackstone.png":{"frame":{"x":224,"y":1168,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"chiseled_red_sandstone.png":{"frame":{"x":224,"y":1184,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"chiseled_sandstone.png":{"frame":{"x":224,"y":1200,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"chiseled_stone_bricks.png":{"frame":{"x":224,"y":1216,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"chorus_flower.png":{"frame":{"x":224,"y":1232,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"chorus_flower_dead.png":{"frame":{"x":224,"y":1248,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"chorus_fruit.png":{"frame":{"x":224,"y":1264,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"chorus_plant.png":{"frame":{"x":240,"y":64,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"clay.png":{"frame":{"x":240,"y":80,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"clay_ball.png":{"frame":{"x":240,"y":96,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"clock_00.png":{"frame":{"x":240,"y":112,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"clock_01.png":{"frame":{"x":240,"y":128,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"clock_02.png":{"frame":{"x":240,"y":144,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"clock_03.png":{"frame":{"x":240,"y":160,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"clock_04.png":{"frame":{"x":240,"y":176,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"clock_05.png":{"frame":{"x":240,"y":192,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"clock_06.png":{"frame":{"x":240,"y":208,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"clock_07.png":{"frame":{"x":240,"y":224,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"clock_08.png":{"frame":{"x":240,"y":240,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"clock_09.png":{"frame":{"x":240,"y":256,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"clock_10.png":{"frame":{"x":240,"y":272,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"clock_11.png":{"frame":{"x":240,"y":288,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"clock_12.png":{"frame":{"x":240,"y":304,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"clock_13.png":{"frame":{"x":240,"y":320,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"clock_14.png":{"frame":{"x":240,"y":336,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"clock_15.png":{"frame":{"x":240,"y":352,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"clock_16.png":{"frame":{"x":240,"y":368,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"clock_17.png":{"frame":{"x":240,"y":384,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"clock_18.png":{"frame":{"x":240,"y":400,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"clock_19.png":{"frame":{"x":240,"y":416,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"clock_20.png":{"frame":{"x":240,"y":432,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"clock_21.png":{"frame":{"x":240,"y":448,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"clock_22.png":{"frame":{"x":240,"y":464,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"clock_23.png":{"frame":{"x":240,"y":480,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"clock_24.png":{"frame":{"x":240,"y":496,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"clock_25.png":{"frame":{"x":240,"y":512,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"clock_26.png":{"frame":{"x":240,"y":528,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"clock_27.png":{"frame":{"x":240,"y":544,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"clock_28.png":{"frame":{"x":240,"y":560,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"clock_29.png":{"frame":{"x":240,"y":576,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"clock_30.png":{"frame":{"x":240,"y":592,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"clock_31.png":{"frame":{"x":240,"y":608,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"clock_32.png":{"frame":{"x":240,"y":624,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"clock_33.png":{"frame":{"x":240,"y":640,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"clock_34.png":{"frame":{"x":240,"y":656,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"clock_35.png":{"frame":{"x":240,"y":672,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"clock_36.png":{"frame":{"x":240,"y":688,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"clock_37.png":{"frame":{"x":240,"y":704,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"clock_38.png":{"frame":{"x":240,"y":720,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"clock_39.png":{"frame":{"x":240,"y":736,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"clock_40.png":{"frame":{"x":240,"y":752,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"clock_41.png":{"frame":{"x":240,"y":768,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"clock_42.png":{"frame":{"x":240,"y":784,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"clock_43.png":{"frame":{"x":240,"y":800,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"clock_44.png":{"frame":{"x":240,"y":816,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"clock_45.png":{"frame":{"x":240,"y":832,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"clock_46.png":{"frame":{"x":240,"y":848,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"clock_47.png":{"frame":{"x":240,"y":864,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"clock_48.png":{"frame":{"x":240,"y":880,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"clock_49.png":{"frame":{"x":240,"y":896,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"clock_50.png":{"frame":{"x":240,"y":912,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"clock_51.png":{"frame":{"x":240,"y":928,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"clock_52.png":{"frame":{"x":240,"y":944,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"clock_53.png":{"frame":{"x":240,"y":960,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"clock_54.png":{"frame":{"x":240,"y":976,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"clock_55.png":{"frame":{"x":240,"y":992,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"clock_56.png":{"frame":{"x":240,"y":1008,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"clock_57.png":{"frame":{"x":240,"y":1024,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"clock_58.png":{"frame":{"x":240,"y":1040,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"clock_59.png":{"frame":{"x":240,"y":1056,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"clock_60.png":{"frame":{"x":240,"y":1072,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"clock_61.png":{"frame":{"x":240,"y":1088,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"clock_62.png":{"frame":{"x":240,"y":1104,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"clock_63.png":{"frame":{"x":240,"y":1120,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"cloud.png":{"frame":{"x":240,"y":1136,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"coal.png":{"frame":{"x":240,"y":1152,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"coal_block.png":{"frame":{"x":240,"y":1168,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"coal_ore.png":{"frame":{"x":240,"y":1184,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"coarse_dirt.png":{"frame":{"x":240,"y":1200,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"cobblestone.png":{"frame":{"x":240,"y":1216,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"cobweb.png":{"frame":{"x":240,"y":1232,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"cocoa_beans.png":{"frame":{"x":240,"y":1248,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"cocoa_stage0.png":{"frame":{"x":240,"y":1264,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"cocoa_stage1.png":{"frame":{"x":240,"y":1280,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"cocoa_stage2.png":{"frame":{"x":240,"y":1296,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"cod.png":{"frame":{"x":240,"y":1312,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"cod_bucket.png":{"frame":{"x":240,"y":1328,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"command_block_back.png":{"frame":{"x":176,"y":896,"w":16,"h":64},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":64},"sourceSize":{"w":16,"h":64},"anchor":{"x":0,"y":0}},"command_block_conditional.png":{"frame":{"x":176,"y":960,"w":16,"h":64},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":64},"sourceSize":{"w":16,"h":64},"anchor":{"x":0,"y":0}},"command_block_front.png":{"frame":{"x":176,"y":1024,"w":16,"h":64},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":64},"sourceSize":{"w":16,"h":64},"anchor":{"x":0,"y":0}},"command_block_minecart.png":{"frame":{"x":240,"y":1344,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"command_block_side.png":{"frame":{"x":176,"y":1088,"w":16,"h":64},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":64},"sourceSize":{"w":16,"h":64},"anchor":{"x":0,"y":0}},"comparator.png":{"frame":{"x":240,"y":1360,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"comparator_item.png":{"frame":{"x":240,"y":1376,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"comparator_on.png":{"frame":{"x":240,"y":1392,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"compass_00.png":{"frame":{"x":240,"y":1408,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"compass_01.png":{"frame":{"x":240,"y":1424,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"compass_02.png":{"frame":{"x":240,"y":1440,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"compass_03.png":{"frame":{"x":240,"y":1456,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"compass_04.png":{"frame":{"x":240,"y":1472,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"compass_05.png":{"frame":{"x":240,"y":1488,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"compass_06.png":{"frame":{"x":240,"y":1504,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"compass_07.png":{"frame":{"x":240,"y":1520,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"compass_08.png":{"frame":{"x":240,"y":1536,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"compass_09.png":{"frame":{"x":240,"y":1552,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"compass_10.png":{"frame":{"x":240,"y":1568,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"compass_11.png":{"frame":{"x":240,"y":1584,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"compass_12.png":{"frame":{"x":240,"y":1600,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"compass_13.png":{"frame":{"x":240,"y":1616,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"compass_14.png":{"frame":{"x":240,"y":1632,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"compass_15.png":{"frame":{"x":240,"y":1648,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"compass_16.png":{"frame":{"x":240,"y":1664,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"compass_17.png":{"frame":{"x":240,"y":1680,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"compass_18.png":{"frame":{"x":240,"y":1696,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"compass_19.png":{"frame":{"x":240,"y":1712,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"compass_20.png":{"frame":{"x":240,"y":1728,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"compass_21.png":{"frame":{"x":240,"y":1744,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"compass_22.png":{"frame":{"x":240,"y":1760,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"compass_23.png":{"frame":{"x":240,"y":1776,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"compass_24.png":{"frame":{"x":240,"y":1792,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"compass_25.png":{"frame":{"x":240,"y":1808,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"compass_26.png":{"frame":{"x":240,"y":1824,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"compass_27.png":{"frame":{"x":240,"y":1840,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"compass_28.png":{"frame":{"x":240,"y":1856,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"compass_29.png":{"frame":{"x":240,"y":1872,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"compass_30.png":{"frame":{"x":240,"y":1888,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"compass_31.png":{"frame":{"x":240,"y":1904,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"compass_atlas.png":{"frame":{"x":32,"y":0,"w":16,"h":512},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":512},"sourceSize":{"w":16,"h":512},"anchor":{"x":0,"y":0}},"composter_bottom.png":{"frame":{"x":240,"y":1920,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"composter_compost.png":{"frame":{"x":240,"y":1936,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"composter_ready.png":{"frame":{"x":240,"y":1952,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"composter_side.png":{"frame":{"x":240,"y":1968,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"composter_top.png":{"frame":{"x":240,"y":1984,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"cooked_beef.png":{"frame":{"x":240,"y":2000,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"cooked_chicken.png":{"frame":{"x":240,"y":2016,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"cooked_cod.png":{"frame":{"x":240,"y":2032,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"cooked_mutton.png":{"frame":{"x":256,"y":0,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"cooked_porkchop.png":{"frame":{"x":256,"y":16,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"cooked_rabbit.png":{"frame":{"x":256,"y":32,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"cooked_salmon.png":{"frame":{"x":256,"y":48,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"cookie.png":{"frame":{"x":256,"y":64,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"cornflower.png":{"frame":{"x":256,"y":80,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"cracked_hell_bricks.png":{"frame":{"x":256,"y":96,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"cracked_polished_blackstone_bricks.png":{"frame":{"x":256,"y":112,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"cracked_stone_bricks.png":{"frame":{"x":256,"y":128,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"creeper_banner_pattern.png":{"frame":{"x":256,"y":144,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"crimson_door.png":{"frame":{"x":256,"y":160,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"crimson_door_bottom.png":{"frame":{"x":256,"y":176,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"crimson_door_top.png":{"frame":{"x":256,"y":192,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"crimson_fungus.png":{"frame":{"x":256,"y":208,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"crimson_nylium.png":{"frame":{"x":256,"y":224,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"crimson_nylium_side.png":{"frame":{"x":256,"y":240,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"crimson_planks.png":{"frame":{"x":256,"y":256,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"crimson_roots.png":{"frame":{"x":256,"y":272,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"crimson_roots_pot.png":{"frame":{"x":256,"y":288,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"crimson_sign.png":{"frame":{"x":256,"y":304,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"crimson_stem.png":{"frame":{"x":96,"y":1472,"w":16,"h":80},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":80},"sourceSize":{"w":16,"h":80},"anchor":{"x":0,"y":0}},"crimson_stem_top.png":{"frame":{"x":256,"y":320,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"crimson_trapdoor.png":{"frame":{"x":256,"y":336,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"crossbow_arrow.png":{"frame":{"x":256,"y":352,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"crossbow_firework.png":{"frame":{"x":256,"y":368,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"crossbow_pulling_0.png":{"frame":{"x":256,"y":384,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"crossbow_pulling_1.png":{"frame":{"x":256,"y":400,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"crossbow_pulling_2.png":{"frame":{"x":256,"y":416,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"crossbow_standby.png":{"frame":{"x":256,"y":432,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"crying_obsidian.png":{"frame":{"x":256,"y":448,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"cut_red_sandstone.png":{"frame":{"x":256,"y":464,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"cut_sandstone.png":{"frame":{"x":256,"y":480,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"cyan_bed.png":{"frame":{"x":256,"y":496,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"cyan_concrete.png":{"frame":{"x":256,"y":512,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"cyan_concrete_powder.png":{"frame":{"x":256,"y":528,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"cyan_dye.png":{"frame":{"x":256,"y":544,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"cyan_glazed_terracotta.png":{"frame":{"x":256,"y":560,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"cyan_shulker_box.png":{"frame":{"x":256,"y":576,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"cyan_stained_glass.png":{"frame":{"x":256,"y":592,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"cyan_stained_glass_pane_top.png":{"frame":{"x":256,"y":608,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"cyan_terracotta.png":{"frame":{"x":256,"y":624,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"cyan_wool.png":{"frame":{"x":256,"y":640,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"damaged_anvil_top.png":{"frame":{"x":256,"y":656,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"dandelion.png":{"frame":{"x":256,"y":672,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"dark_aquastone.png":{"frame":{"x":256,"y":688,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"dark_oak_boat.png":{"frame":{"x":256,"y":704,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"dark_oak_door.png":{"frame":{"x":256,"y":720,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"dark_oak_door_bottom.png":{"frame":{"x":256,"y":736,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"dark_oak_door_top.png":{"frame":{"x":256,"y":752,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"dark_oak_leaves.png":{"frame":{"x":256,"y":768,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"dark_oak_log.png":{"frame":{"x":256,"y":784,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"dark_oak_log_top.png":{"frame":{"x":256,"y":800,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"dark_oak_planks.png":{"frame":{"x":256,"y":816,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"dark_oak_sapling.png":{"frame":{"x":256,"y":832,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"dark_oak_sign.png":{"frame":{"x":256,"y":848,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"dark_oak_trapdoor.png":{"frame":{"x":256,"y":864,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"daylight_detector_inverted_top.png":{"frame":{"x":256,"y":880,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"daylight_detector_side.png":{"frame":{"x":256,"y":896,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"daylight_detector_top.png":{"frame":{"x":256,"y":912,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"dead_brain_coral.png":{"frame":{"x":256,"y":928,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"dead_brain_coral_block.png":{"frame":{"x":256,"y":944,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"dead_brain_coral_fan.png":{"frame":{"x":256,"y":960,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"dead_bubble_coral.png":{"frame":{"x":256,"y":976,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"dead_bubble_coral_block.png":{"frame":{"x":256,"y":992,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"dead_bubble_coral_fan.png":{"frame":{"x":256,"y":1008,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"dead_bush.png":{"frame":{"x":256,"y":1024,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"dead_fire_coral.png":{"frame":{"x":256,"y":1040,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"dead_fire_coral_block.png":{"frame":{"x":256,"y":1056,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"dead_fire_coral_fan.png":{"frame":{"x":256,"y":1072,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"dead_horn_coral.png":{"frame":{"x":256,"y":1088,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"dead_horn_coral_block.png":{"frame":{"x":256,"y":1104,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"dead_horn_coral_fan.png":{"frame":{"x":256,"y":1120,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"dead_tube_coral.png":{"frame":{"x":256,"y":1136,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"dead_tube_coral_block.png":{"frame":{"x":256,"y":1152,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"dead_tube_coral_fan.png":{"frame":{"x":256,"y":1168,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"destroy_stage_0.png":{"frame":{"x":256,"y":1184,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"destroy_stage_1.png":{"frame":{"x":256,"y":1200,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"destroy_stage_2.png":{"frame":{"x":256,"y":1216,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"destroy_stage_3.png":{"frame":{"x":256,"y":1232,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"destroy_stage_4.png":{"frame":{"x":256,"y":1248,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"destroy_stage_5.png":{"frame":{"x":256,"y":1264,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"destroy_stage_6.png":{"frame":{"x":256,"y":1280,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"destroy_stage_7.png":{"frame":{"x":256,"y":1296,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"destroy_stage_8.png":{"frame":{"x":256,"y":1312,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"destroy_stage_9.png":{"frame":{"x":256,"y":1328,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"detector_rail.png":{"frame":{"x":256,"y":1344,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"detector_rail_on.png":{"frame":{"x":256,"y":1360,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"diamond.png":{"frame":{"x":256,"y":1376,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"diamond_axe.png":{"frame":{"x":112,"y":80,"w":64,"h":64},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":64,"h":64},"sourceSize":{"w":64,"h":64},"anchor":{"x":0,"y":0}},"diamond_block.png":{"frame":{"x":256,"y":1392,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"diamond_boots.png":{"frame":{"x":256,"y":1408,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"diamond_chestplate.png":{"frame":{"x":256,"y":1424,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"diamond_helmet.png":{"frame":{"x":256,"y":1440,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"diamond_hoe.png":{"frame":{"x":128,"y":0,"w":64,"h":64},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":64,"h":64},"sourceSize":{"w":64,"h":64},"anchor":{"x":0,"y":0}},"diamond_horse_armor.png":{"frame":{"x":256,"y":1456,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"diamond_leggings.png":{"frame":{"x":256,"y":1472,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"diamond_ore.png":{"frame":{"x":256,"y":1488,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"diamond_pickaxe.png":{"frame":{"x":112,"y":144,"w":64,"h":64},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":64,"h":64},"sourceSize":{"w":64,"h":64},"anchor":{"x":0,"y":0}},"diamond_shovel.png":{"frame":{"x":112,"y":208,"w":64,"h":64},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":64,"h":64},"sourceSize":{"w":64,"h":64},"anchor":{"x":0,"y":0}},"diamond_sword.png":{"frame":{"x":112,"y":272,"w":64,"h":64},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":64,"h":64},"sourceSize":{"w":64,"h":64},"anchor":{"x":0,"y":0}},"diorite.png":{"frame":{"x":256,"y":1504,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"dirt.png":{"frame":{"x":256,"y":1520,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"dispenser_front.png":{"frame":{"x":256,"y":1536,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"dispenser_front_horizontal.png":{"frame":{"x":256,"y":1552,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"dispenser_front_vertical.png":{"frame":{"x":256,"y":1568,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"dragon_breath.png":{"frame":{"x":256,"y":1584,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"dragon_egg.png":{"frame":{"x":256,"y":1600,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"dragon_fireball.png":{"frame":{"x":256,"y":1616,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"dried_kelp.png":{"frame":{"x":256,"y":1632,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"dropper_front.png":{"frame":{"x":256,"y":1648,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"dropper_front_horizontal.png":{"frame":{"x":256,"y":1664,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"dropper_front_vertical.png":{"frame":{"x":256,"y":1680,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"egg.png":{"frame":{"x":256,"y":1696,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"elytra.png":{"frame":{"x":256,"y":1712,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"emerald.png":{"frame":{"x":256,"y":1728,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"emerald_axe.png":{"frame":{"x":112,"y":336,"w":64,"h":64},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":64,"h":64},"sourceSize":{"w":64,"h":64},"anchor":{"x":0,"y":0}},"emerald_block.png":{"frame":{"x":256,"y":1744,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"emerald_boots.png":{"frame":{"x":256,"y":1760,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"emerald_chestplate.png":{"frame":{"x":256,"y":1776,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"emerald_helmet.png":{"frame":{"x":256,"y":1792,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"emerald_hoe.png":{"frame":{"x":112,"y":400,"w":64,"h":64},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":64,"h":64},"sourceSize":{"w":64,"h":64},"anchor":{"x":0,"y":0}},"emerald_leggings.png":{"frame":{"x":256,"y":1808,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"emerald_ore.png":{"frame":{"x":256,"y":1824,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"emerald_pickaxe.png":{"frame":{"x":112,"y":464,"w":64,"h":64},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":64,"h":64},"sourceSize":{"w":64,"h":64},"anchor":{"x":0,"y":0}},"emerald_shovel.png":{"frame":{"x":112,"y":528,"w":64,"h":64},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":64,"h":64},"sourceSize":{"w":64,"h":64},"anchor":{"x":0,"y":0}},"emerald_sword.png":{"frame":{"x":112,"y":592,"w":64,"h":64},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":64,"h":64},"sourceSize":{"w":64,"h":64},"anchor":{"x":0,"y":0}},"empty_armor_slot_boots.png":{"frame":{"x":256,"y":1840,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"empty_armor_slot_chestplate.png":{"frame":{"x":256,"y":1856,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"empty_armor_slot_helmet.png":{"frame":{"x":256,"y":1872,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"empty_armor_slot_leggings.png":{"frame":{"x":256,"y":1888,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"empty_armor_slot_shield.png":{"frame":{"x":256,"y":1904,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"enchanted_book.png":{"frame":{"x":256,"y":1920,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"enchanting_table_bottom.png":{"frame":{"x":256,"y":1936,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"enchanting_table_side.png":{"frame":{"x":256,"y":1952,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"enchanting_table_top.png":{"frame":{"x":256,"y":1968,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"end_crystal.png":{"frame":{"x":256,"y":1984,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"end_portal_frame_eye.png":{"frame":{"x":256,"y":2000,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"end_portal_frame_side.png":{"frame":{"x":256,"y":2016,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"end_portal_frame_top.png":{"frame":{"x":256,"y":2032,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"end_rod.png":{"frame":{"x":272,"y":0,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"end_stone.png":{"frame":{"x":272,"y":16,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"end_stone_bricks.png":{"frame":{"x":272,"y":32,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"ender_eye.png":{"frame":{"x":272,"y":48,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"ender_pearl.png":{"frame":{"x":112,"y":656,"w":64,"h":64},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":64,"h":64},"sourceSize":{"w":64,"h":64},"anchor":{"x":0,"y":0}},"experience_bottle.png":{"frame":{"x":272,"y":64,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"farmland.png":{"frame":{"x":272,"y":80,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"farmland_moist.png":{"frame":{"x":272,"y":96,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"feather.png":{"frame":{"x":272,"y":112,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"fermented_spider_eye.png":{"frame":{"x":272,"y":128,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"fern.png":{"frame":{"x":272,"y":144,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"filled_map.png":{"frame":{"x":272,"y":160,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"fire_0.png":{"frame":{"x":48,"y":0,"w":16,"h":512},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":512},"sourceSize":{"w":16,"h":512},"anchor":{"x":0,"y":0}},"fire_1.png":{"frame":{"x":64,"y":0,"w":16,"h":512},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":512},"sourceSize":{"w":16,"h":512},"anchor":{"x":0,"y":0}},"fire_charge.png":{"frame":{"x":272,"y":176,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"fire_coral.png":{"frame":{"x":272,"y":192,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"fire_coral_block.png":{"frame":{"x":272,"y":208,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"fire_coral_fan.png":{"frame":{"x":272,"y":224,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"firework_rocket.png":{"frame":{"x":272,"y":240,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"firework_star.png":{"frame":{"x":272,"y":256,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"firework_star_overlay.png":{"frame":{"x":272,"y":272,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"fishing_rod.png":{"frame":{"x":272,"y":288,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"fishing_rod_cast.png":{"frame":{"x":272,"y":304,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"fletching_table_front.png":{"frame":{"x":272,"y":320,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"fletching_table_side.png":{"frame":{"x":272,"y":336,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"fletching_table_top.png":{"frame":{"x":272,"y":352,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"flint.png":{"frame":{"x":272,"y":368,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"flint_and_steel.png":{"frame":{"x":272,"y":384,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"flower_banner_pattern.png":{"frame":{"x":272,"y":400,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"flower_pot.png":{"frame":{"x":272,"y":416,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"flower_pot_item.png":{"frame":{"x":272,"y":432,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"frosted_ice_0.png":{"frame":{"x":272,"y":448,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"frosted_ice_1.png":{"frame":{"x":272,"y":464,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"frosted_ice_2.png":{"frame":{"x":272,"y":480,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"frosted_ice_3.png":{"frame":{"x":272,"y":496,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"furnace_front.png":{"frame":{"x":272,"y":512,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"furnace_front_on.png":{"frame":{"x":272,"y":528,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"furnace_minecart.png":{"frame":{"x":272,"y":544,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"furnace_side.png":{"frame":{"x":272,"y":560,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"furnace_top.png":{"frame":{"x":272,"y":576,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"ghost_tear.png":{"frame":{"x":272,"y":592,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"gilded_blackstone.png":{"frame":{"x":272,"y":608,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"glass.png":{"frame":{"x":272,"y":624,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"glass_pane_top.png":{"frame":{"x":272,"y":640,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"glistering_melon_slice.png":{"frame":{"x":272,"y":656,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"globe_banner_pattern.png":{"frame":{"x":272,"y":672,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"glowstone.png":{"frame":{"x":272,"y":688,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"glowstone_dust.png":{"frame":{"x":272,"y":704,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"gold_block.png":{"frame":{"x":272,"y":720,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"gold_ingot.png":{"frame":{"x":272,"y":736,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"gold_nugget.png":{"frame":{"x":272,"y":752,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"gold_ore.png":{"frame":{"x":272,"y":768,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"golden_apple.png":{"frame":{"x":272,"y":784,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"golden_axe.png":{"frame":{"x":112,"y":720,"w":64,"h":64},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":64,"h":64},"sourceSize":{"w":64,"h":64},"anchor":{"x":0,"y":0}},"golden_boots.png":{"frame":{"x":272,"y":800,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"golden_carrot.png":{"frame":{"x":272,"y":816,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"golden_chestplate.png":{"frame":{"x":272,"y":832,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"golden_helmet.png":{"frame":{"x":272,"y":848,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"golden_hoe.png":{"frame":{"x":112,"y":784,"w":64,"h":64},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":64,"h":64},"sourceSize":{"w":64,"h":64},"anchor":{"x":0,"y":0}},"golden_horse_armor.png":{"frame":{"x":272,"y":864,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"golden_leggings.png":{"frame":{"x":272,"y":880,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"golden_pickaxe.png":{"frame":{"x":112,"y":848,"w":64,"h":64},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":64,"h":64},"sourceSize":{"w":64,"h":64},"anchor":{"x":0,"y":0}},"golden_shovel.png":{"frame":{"x":112,"y":912,"w":64,"h":64},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":64,"h":64},"sourceSize":{"w":64,"h":64},"anchor":{"x":0,"y":0}},"golden_sword.png":{"frame":{"x":112,"y":976,"w":64,"h":64},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":64,"h":64},"sourceSize":{"w":64,"h":64},"anchor":{"x":0,"y":0}},"granite.png":{"frame":{"x":272,"y":896,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"grass.png":{"frame":{"x":272,"y":912,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"grass_block_side.png":{"frame":{"x":272,"y":928,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"grass_block_side_overlay.png":{"frame":{"x":272,"y":944,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"grass_block_snow.png":{"frame":{"x":272,"y":960,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"grass_block_top.png":{"frame":{"x":272,"y":976,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"grass_path_side.png":{"frame":{"x":272,"y":992,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"grass_path_top.png":{"frame":{"x":272,"y":1008,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"gravel.png":{"frame":{"x":272,"y":1024,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"gray_bed.png":{"frame":{"x":272,"y":1040,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"gray_concrete.png":{"frame":{"x":272,"y":1056,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"gray_concrete_powder.png":{"frame":{"x":272,"y":1072,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"gray_dye.png":{"frame":{"x":272,"y":1088,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"gray_glazed_terracotta.png":{"frame":{"x":272,"y":1104,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"gray_shulker_box.png":{"frame":{"x":272,"y":1120,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"gray_stained_glass.png":{"frame":{"x":272,"y":1136,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"gray_stained_glass_pane_top.png":{"frame":{"x":272,"y":1152,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"gray_terracotta.png":{"frame":{"x":272,"y":1168,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"gray_wool.png":{"frame":{"x":272,"y":1184,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"green_bed.png":{"frame":{"x":272,"y":1200,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"green_concrete.png":{"frame":{"x":272,"y":1216,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"green_concrete_powder.png":{"frame":{"x":272,"y":1232,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"green_dye.png":{"frame":{"x":272,"y":1248,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"green_glazed_terracotta.png":{"frame":{"x":272,"y":1264,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"green_shulker_box.png":{"frame":{"x":272,"y":1280,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"green_stained_glass.png":{"frame":{"x":272,"y":1296,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"green_stained_glass_pane_top.png":{"frame":{"x":272,"y":1312,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"green_terracotta.png":{"frame":{"x":272,"y":1328,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"green_wool.png":{"frame":{"x":272,"y":1344,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"grindstone_pivot.png":{"frame":{"x":272,"y":1360,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"grindstone_round.png":{"frame":{"x":272,"y":1376,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"grindstone_side.png":{"frame":{"x":272,"y":1392,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"gunpowder.png":{"frame":{"x":272,"y":1408,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"hay_block_side.png":{"frame":{"x":272,"y":1424,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"hay_block_top.png":{"frame":{"x":272,"y":1440,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"heart_of_the_sea.png":{"frame":{"x":272,"y":1456,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"hell_brick.png":{"frame":{"x":272,"y":1472,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"hell_bricks.png":{"frame":{"x":272,"y":1488,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"hell_fungus.png":{"frame":{"x":272,"y":1504,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"hell_fungus_block.png":{"frame":{"x":272,"y":1520,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"hell_fungus_stage0.png":{"frame":{"x":272,"y":1536,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"hell_fungus_stage1.png":{"frame":{"x":272,"y":1552,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"hell_fungus_stage2.png":{"frame":{"x":272,"y":1568,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"hell_gold_ore.png":{"frame":{"x":272,"y":1584,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"hell_marble_ore.png":{"frame":{"x":272,"y":1600,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"hell_portal.png":{"frame":{"x":80,"y":0,"w":16,"h":512},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":512},"sourceSize":{"w":16,"h":512},"anchor":{"x":0,"y":0}},"hell_sprouts.png":{"frame":{"x":272,"y":1616,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"hell_star.png":{"frame":{"x":272,"y":1632,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"hellstone.png":{"frame":{"x":272,"y":1648,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"honey_block_bottom.png":{"frame":{"x":272,"y":1664,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"honey_block_side.png":{"frame":{"x":272,"y":1680,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"honey_block_top.png":{"frame":{"x":272,"y":1696,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"honey_bottle.png":{"frame":{"x":272,"y":1712,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"honeycomb.png":{"frame":{"x":272,"y":1728,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"honeycomb_block.png":{"frame":{"x":272,"y":1744,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"hopper.png":{"frame":{"x":272,"y":1760,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"hopper_inside.png":{"frame":{"x":272,"y":1776,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"hopper_minecart.png":{"frame":{"x":272,"y":1792,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"hopper_outside.png":{"frame":{"x":272,"y":1808,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"hopper_top.png":{"frame":{"x":272,"y":1824,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"horn_coral.png":{"frame":{"x":272,"y":1840,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"horn_coral_block.png":{"frame":{"x":272,"y":1856,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"horn_coral_fan.png":{"frame":{"x":272,"y":1872,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"ice.png":{"frame":{"x":272,"y":1888,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"infernium_axe.png":{"frame":{"x":112,"y":1040,"w":64,"h":64},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":64,"h":64},"sourceSize":{"w":64,"h":64},"anchor":{"x":0,"y":0}},"infernium_block.png":{"frame":{"x":272,"y":1904,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"infernium_boots.png":{"frame":{"x":272,"y":1920,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"infernium_chestplate.png":{"frame":{"x":272,"y":1936,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"infernium_helmet.png":{"frame":{"x":272,"y":1952,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"infernium_ingot.png":{"frame":{"x":272,"y":1968,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"infernium_leggings.png":{"frame":{"x":272,"y":1984,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"infernium_ore.png":{"frame":{"x":272,"y":2000,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"infernium_pickaxe.png":{"frame":{"x":112,"y":1104,"w":64,"h":64},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":64,"h":64},"sourceSize":{"w":64,"h":64},"anchor":{"x":0,"y":0}},"infernium_sword.png":{"frame":{"x":112,"y":1168,"w":64,"h":64},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":64,"h":64},"sourceSize":{"w":64,"h":64},"anchor":{"x":0,"y":0}},"ink_sac.png":{"frame":{"x":272,"y":2016,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"iron_axe.png":{"frame":{"x":112,"y":1232,"w":64,"h":64},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":64,"h":64},"sourceSize":{"w":64,"h":64},"anchor":{"x":0,"y":0}},"iron_bars.png":{"frame":{"x":272,"y":2032,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"iron_block.png":{"frame":{"x":288,"y":0,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"iron_boots.png":{"frame":{"x":288,"y":16,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"iron_chestplate.png":{"frame":{"x":288,"y":32,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"iron_door.png":{"frame":{"x":288,"y":48,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"iron_door_bottom.png":{"frame":{"x":288,"y":64,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"iron_door_top.png":{"frame":{"x":288,"y":80,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"iron_helmet.png":{"frame":{"x":288,"y":96,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"iron_hoe.png":{"frame":{"x":112,"y":1296,"w":64,"h":64},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":64,"h":64},"sourceSize":{"w":64,"h":64},"anchor":{"x":0,"y":0}},"iron_horse_armor.png":{"frame":{"x":288,"y":112,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"iron_ingot.png":{"frame":{"x":288,"y":128,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"iron_ladder.png":{"frame":{"x":288,"y":144,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"iron_leggings.png":{"frame":{"x":288,"y":160,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"iron_nugget.png":{"frame":{"x":288,"y":176,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"iron_ore.png":{"frame":{"x":288,"y":192,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"iron_pickaxe.png":{"frame":{"x":112,"y":1360,"w":64,"h":64},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":64,"h":64},"sourceSize":{"w":64,"h":64},"anchor":{"x":0,"y":0}},"iron_shovel.png":{"frame":{"x":112,"y":1424,"w":64,"h":64},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":64,"h":64},"sourceSize":{"w":64,"h":64},"anchor":{"x":0,"y":0}},"iron_sword.png":{"frame":{"x":112,"y":1488,"w":64,"h":64},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":64,"h":64},"sourceSize":{"w":64,"h":64},"anchor":{"x":0,"y":0}},"iron_trapdoor.png":{"frame":{"x":288,"y":208,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"item_frame.png":{"frame":{"x":288,"y":224,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"item_frame_item.png":{"frame":{"x":288,"y":240,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"jack_o_lantern.png":{"frame":{"x":288,"y":256,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"jigsaw_bottom.png":{"frame":{"x":288,"y":272,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"jigsaw_side.png":{"frame":{"x":288,"y":288,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"jigsaw_top.png":{"frame":{"x":288,"y":304,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"jukebox_side.png":{"frame":{"x":288,"y":320,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"jukebox_top.png":{"frame":{"x":288,"y":336,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"jungle_boat.png":{"frame":{"x":288,"y":352,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"jungle_door.png":{"frame":{"x":288,"y":368,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"jungle_door_bottom.png":{"frame":{"x":288,"y":384,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"jungle_door_top.png":{"frame":{"x":288,"y":400,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"jungle_leaves.png":{"frame":{"x":288,"y":416,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"jungle_log.png":{"frame":{"x":288,"y":432,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"jungle_log_top.png":{"frame":{"x":288,"y":448,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"jungle_planks.png":{"frame":{"x":288,"y":464,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"jungle_sapling.png":{"frame":{"x":288,"y":480,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"jungle_sign.png":{"frame":{"x":288,"y":496,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"jungle_trapdoor.png":{"frame":{"x":288,"y":512,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"kelp_item.png":{"frame":{"x":288,"y":528,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"knowledge_book.png":{"frame":{"x":288,"y":544,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"ladder.png":{"frame":{"x":288,"y":560,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"lantern.png":{"frame":{"x":208,"y":1536,"w":16,"h":48},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":48},"sourceSize":{"w":16,"h":48},"anchor":{"x":0,"y":0}},"lantern_item.png":{"frame":{"x":288,"y":576,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"lapis_block.png":{"frame":{"x":288,"y":592,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"lapis_lazuli.png":{"frame":{"x":288,"y":608,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"lapis_ore.png":{"frame":{"x":288,"y":624,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"large_fern_bottom.png":{"frame":{"x":288,"y":640,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"large_fern_top.png":{"frame":{"x":288,"y":656,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"lava_bucket.png":{"frame":{"x":288,"y":672,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"lava_flow.png":{"frame":{"x":16,"y":1024,"w":32,"h":512},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":32,"h":512},"sourceSize":{"w":32,"h":512},"anchor":{"x":0,"y":0}},"lava_still.png":{"frame":{"x":96,"y":0,"w":16,"h":320},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":320},"sourceSize":{"w":16,"h":320},"anchor":{"x":0,"y":0}},"lead.png":{"frame":{"x":288,"y":688,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"leather.png":{"frame":{"x":288,"y":704,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"leather_boots.png":{"frame":{"x":288,"y":720,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"leather_boots_overlay.png":{"frame":{"x":288,"y":736,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"leather_chestplate.png":{"frame":{"x":288,"y":752,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"leather_chestplate_overlay.png":{"frame":{"x":288,"y":768,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"leather_helmet.png":{"frame":{"x":288,"y":784,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"leather_helmet_overlay.png":{"frame":{"x":288,"y":800,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"leather_horse_armor.png":{"frame":{"x":288,"y":816,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"leather_leggings.png":{"frame":{"x":288,"y":832,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"leather_leggings_overlay.png":{"frame":{"x":288,"y":848,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"lectern_base.png":{"frame":{"x":288,"y":864,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"lectern_front.png":{"frame":{"x":288,"y":880,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"lectern_sides.png":{"frame":{"x":288,"y":896,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"lectern_top.png":{"frame":{"x":288,"y":912,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"lever.png":{"frame":{"x":288,"y":928,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"lever_item.png":{"frame":{"x":288,"y":944,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"light_blue_bed.png":{"frame":{"x":288,"y":960,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"light_blue_concrete.png":{"frame":{"x":288,"y":976,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"light_blue_concrete_powder.png":{"frame":{"x":288,"y":992,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"light_blue_dye.png":{"frame":{"x":288,"y":1008,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"light_blue_glazed_terracotta.png":{"frame":{"x":288,"y":1024,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"light_blue_shulker_box.png":{"frame":{"x":288,"y":1040,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"light_blue_stained_glass.png":{"frame":{"x":288,"y":1056,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"light_blue_stained_glass_pane_top.png":{"frame":{"x":288,"y":1072,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"light_blue_terracotta.png":{"frame":{"x":288,"y":1088,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"light_blue_wool.png":{"frame":{"x":288,"y":1104,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"light_gray_bed.png":{"frame":{"x":288,"y":1120,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"light_gray_concrete.png":{"frame":{"x":288,"y":1136,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"light_gray_concrete_powder.png":{"frame":{"x":288,"y":1152,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"light_gray_dye.png":{"frame":{"x":288,"y":1168,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"light_gray_glazed_terracotta.png":{"frame":{"x":288,"y":1184,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"light_gray_stained_glass.png":{"frame":{"x":288,"y":1200,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"light_gray_stained_glass_pane_top.png":{"frame":{"x":288,"y":1216,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"light_gray_terracotta.png":{"frame":{"x":288,"y":1232,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"light_gray_wool.png":{"frame":{"x":288,"y":1248,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"lilac_bottom.png":{"frame":{"x":288,"y":1264,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"lilac_top.png":{"frame":{"x":288,"y":1280,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"lily_of_the_valley.png":{"frame":{"x":288,"y":1296,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"lily_pad.png":{"frame":{"x":288,"y":1312,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"lime_bed.png":{"frame":{"x":288,"y":1328,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"lime_concrete.png":{"frame":{"x":288,"y":1344,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"lime_concrete_powder.png":{"frame":{"x":288,"y":1360,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"lime_dye.png":{"frame":{"x":288,"y":1376,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"lime_glazed_terracotta.png":{"frame":{"x":288,"y":1392,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"lime_shulker_box.png":{"frame":{"x":288,"y":1408,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"lime_stained_glass.png":{"frame":{"x":288,"y":1424,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"lime_stained_glass_pane_top.png":{"frame":{"x":288,"y":1440,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"lime_terracotta.png":{"frame":{"x":288,"y":1456,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"lime_wool.png":{"frame":{"x":288,"y":1472,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"lingering_potion.png":{"frame":{"x":288,"y":1488,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"lodestone_side.png":{"frame":{"x":288,"y":1504,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"lodestone_top.png":{"frame":{"x":288,"y":1520,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"loom_bottom.png":{"frame":{"x":288,"y":1536,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"loom_front.png":{"frame":{"x":288,"y":1552,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"loom_side.png":{"frame":{"x":288,"y":1568,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"loom_top.png":{"frame":{"x":288,"y":1584,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"magenta_bed.png":{"frame":{"x":288,"y":1600,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"magenta_concrete.png":{"frame":{"x":288,"y":1616,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"magenta_concrete_powder.png":{"frame":{"x":288,"y":1632,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"magenta_dye.png":{"frame":{"x":288,"y":1648,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"magenta_glazed_terracotta.png":{"frame":{"x":288,"y":1664,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"magenta_shulker_box.png":{"frame":{"x":288,"y":1680,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"magenta_stained_glass.png":{"frame":{"x":288,"y":1696,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"magenta_stained_glass_pane_top.png":{"frame":{"x":288,"y":1712,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"magenta_terracotta.png":{"frame":{"x":288,"y":1728,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"magenta_wool.png":{"frame":{"x":288,"y":1744,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"magma.png":{"frame":{"x":176,"y":1568,"w":16,"h":48},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":48},"sourceSize":{"w":16,"h":48},"anchor":{"x":0,"y":0}},"magma_cream.png":{"frame":{"x":288,"y":1760,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"mansion_map.png":{"frame":{"x":288,"y":1776,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"map.png":{"frame":{"x":288,"y":1792,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"map_monument.png":{"frame":{"x":288,"y":1808,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"map_nautilus.png":{"frame":{"x":288,"y":1824,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"marble.png":{"frame":{"x":288,"y":1840,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"marble_block_bottom.png":{"frame":{"x":288,"y":1856,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"marble_block_side.png":{"frame":{"x":288,"y":1872,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"marble_block_top.png":{"frame":{"x":288,"y":1888,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"marble_bricks.png":{"frame":{"x":288,"y":1904,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"marble_pillar.png":{"frame":{"x":288,"y":1920,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"marble_pillar_top.png":{"frame":{"x":288,"y":1936,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"melon_seeds.png":{"frame":{"x":288,"y":1952,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"melon_side.png":{"frame":{"x":288,"y":1968,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"melon_slice.png":{"frame":{"x":288,"y":1984,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"melon_stem_disconnected.png":{"frame":{"x":288,"y":2000,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"melon_top.png":{"frame":{"x":288,"y":2016,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"meteorite_axe.png":{"frame":{"x":112,"y":1552,"w":64,"h":64},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":64,"h":64},"sourceSize":{"w":64,"h":64},"anchor":{"x":0,"y":0}},"meteorite_block.png":{"frame":{"x":288,"y":2032,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"meteorite_boots.png":{"frame":{"x":304,"y":0,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"meteorite_chestplate.png":{"frame":{"x":304,"y":16,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"meteorite_helmet.png":{"frame":{"x":304,"y":32,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"meteorite_hoe.png":{"frame":{"x":160,"y":1616,"w":64,"h":64},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":64,"h":64},"sourceSize":{"w":64,"h":64},"anchor":{"x":0,"y":0}},"meteorite_ingot.png":{"frame":{"x":304,"y":48,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"meteorite_leggings.png":{"frame":{"x":304,"y":64,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"meteorite_pickaxe.png":{"frame":{"x":160,"y":1680,"w":64,"h":64},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":64,"h":64},"sourceSize":{"w":64,"h":64},"anchor":{"x":0,"y":0}},"meteorite_scrap.png":{"frame":{"x":304,"y":80,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"meteorite_shovel.png":{"frame":{"x":160,"y":1744,"w":64,"h":64},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":64,"h":64},"sourceSize":{"w":64,"h":64},"anchor":{"x":0,"y":0}},"meteorite_sword.png":{"frame":{"x":160,"y":1808,"w":64,"h":64},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":64,"h":64},"sourceSize":{"w":64,"h":64},"anchor":{"x":0,"y":0}},"milk_bucket.png":{"frame":{"x":304,"y":96,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"minecart.png":{"frame":{"x":304,"y":112,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"mojang_banner_pattern.png":{"frame":{"x":304,"y":128,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"mossy_cobblestone.png":{"frame":{"x":304,"y":144,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"mossy_stone_bricks.png":{"frame":{"x":304,"y":160,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"muck_side.png":{"frame":{"x":304,"y":176,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"muck_top.png":{"frame":{"x":304,"y":192,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"mushroom_block_inside.png":{"frame":{"x":304,"y":208,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"mushroom_stem.png":{"frame":{"x":304,"y":224,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"mushroom_stew.png":{"frame":{"x":304,"y":240,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"music_disc_11.png":{"frame":{"x":304,"y":256,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"music_disc_13.png":{"frame":{"x":304,"y":272,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"music_disc_blocks.png":{"frame":{"x":304,"y":288,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"music_disc_cat.png":{"frame":{"x":304,"y":304,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"music_disc_chirp.png":{"frame":{"x":304,"y":320,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"music_disc_far.png":{"frame":{"x":304,"y":336,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"music_disc_mall.png":{"frame":{"x":304,"y":352,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"music_disc_mellohi.png":{"frame":{"x":304,"y":368,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"music_disc_pigstep.png":{"frame":{"x":304,"y":384,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"music_disc_stal.png":{"frame":{"x":304,"y":400,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"music_disc_strad.png":{"frame":{"x":304,"y":416,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"music_disc_wait.png":{"frame":{"x":304,"y":432,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"music_disc_ward.png":{"frame":{"x":304,"y":448,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"mutton.png":{"frame":{"x":304,"y":464,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"name_tag.png":{"frame":{"x":304,"y":480,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"nautilus_shell.png":{"frame":{"x":304,"y":496,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"nether_gold_ore.png":{"frame":{"x":304,"y":512,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"note_block.png":{"frame":{"x":304,"y":528,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"oak_boat.png":{"frame":{"x":304,"y":544,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"oak_door.png":{"frame":{"x":304,"y":560,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"oak_door_bottom.png":{"frame":{"x":304,"y":576,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"oak_door_top.png":{"frame":{"x":304,"y":592,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"oak_leaves.png":{"frame":{"x":304,"y":608,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"oak_log.png":{"frame":{"x":304,"y":624,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"oak_log_top.png":{"frame":{"x":304,"y":640,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"oak_planks.png":{"frame":{"x":304,"y":656,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"oak_sapling.png":{"frame":{"x":304,"y":672,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"oak_sign.png":{"frame":{"x":304,"y":688,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"oak_trapdoor.png":{"frame":{"x":304,"y":704,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"observer_back.png":{"frame":{"x":304,"y":720,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"observer_back_on.png":{"frame":{"x":304,"y":736,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"observer_front.png":{"frame":{"x":304,"y":752,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"observer_side.png":{"frame":{"x":304,"y":768,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"observer_top.png":{"frame":{"x":304,"y":784,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"obsidian.png":{"frame":{"x":304,"y":800,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"orange.png":{"frame":{"x":304,"y":816,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"orange_bed.png":{"frame":{"x":304,"y":832,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"orange_concrete.png":{"frame":{"x":304,"y":848,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"orange_concrete_powder.png":{"frame":{"x":304,"y":864,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"orange_dye.png":{"frame":{"x":304,"y":880,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"orange_glazed_terracotta.png":{"frame":{"x":304,"y":896,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"orange_shulker_box.png":{"frame":{"x":304,"y":912,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"orange_stained_glass.png":{"frame":{"x":304,"y":928,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"orange_stained_glass_pane_top.png":{"frame":{"x":304,"y":944,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"orange_terracotta.png":{"frame":{"x":304,"y":960,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"orange_tulip.png":{"frame":{"x":304,"y":976,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"orange_wool.png":{"frame":{"x":304,"y":992,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"oxeye_daisy.png":{"frame":{"x":304,"y":1008,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"packed_ice.png":{"frame":{"x":304,"y":1024,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"painting.png":{"frame":{"x":304,"y":1040,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"paper.png":{"frame":{"x":304,"y":1056,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"peony.png":{"frame":{"x":304,"y":1072,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"peony_bottom.png":{"frame":{"x":304,"y":1088,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"peony_top.png":{"frame":{"x":304,"y":1104,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"phantom_membrane.png":{"frame":{"x":304,"y":1120,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"pink_bed.png":{"frame":{"x":304,"y":1136,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"pink_concrete.png":{"frame":{"x":304,"y":1152,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"pink_concrete_powder.png":{"frame":{"x":304,"y":1168,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"pink_dye.png":{"frame":{"x":304,"y":1184,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"pink_glazed_terracotta.png":{"frame":{"x":304,"y":1200,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"pink_shulker_box.png":{"frame":{"x":304,"y":1216,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"pink_stained_glass.png":{"frame":{"x":304,"y":1232,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"pink_stained_glass_pane_top.png":{"frame":{"x":304,"y":1248,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"pink_terracotta.png":{"frame":{"x":304,"y":1264,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"pink_tulip.png":{"frame":{"x":304,"y":1280,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"pink_wool.png":{"frame":{"x":304,"y":1296,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"piston_bottom.png":{"frame":{"x":304,"y":1312,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"piston_inner.png":{"frame":{"x":304,"y":1328,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"piston_side.png":{"frame":{"x":304,"y":1344,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"piston_top.png":{"frame":{"x":304,"y":1360,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"piston_top_normal.png":{"frame":{"x":304,"y":1376,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"piston_top_sticky.png":{"frame":{"x":304,"y":1392,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"podzol_side.png":{"frame":{"x":304,"y":1408,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"podzol_top.png":{"frame":{"x":304,"y":1424,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"poisonous_potato.png":{"frame":{"x":304,"y":1440,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"polished_andesite.png":{"frame":{"x":304,"y":1456,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"polished_basalt_side.png":{"frame":{"x":304,"y":1472,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"polished_basalt_top.png":{"frame":{"x":304,"y":1488,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"polished_blackstone.png":{"frame":{"x":304,"y":1504,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"polished_blackstone_bricks.png":{"frame":{"x":304,"y":1520,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"polished_diorite.png":{"frame":{"x":304,"y":1536,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"polished_granite.png":{"frame":{"x":304,"y":1552,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"popped_chorus_fruit.png":{"frame":{"x":304,"y":1568,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"poppy.png":{"frame":{"x":304,"y":1584,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"porkchop.png":{"frame":{"x":304,"y":1600,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"potato.png":{"frame":{"x":304,"y":1616,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"potatoes_stage0.png":{"frame":{"x":304,"y":1632,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"potatoes_stage1.png":{"frame":{"x":304,"y":1648,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"potatoes_stage2.png":{"frame":{"x":304,"y":1664,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"potatoes_stage3.png":{"frame":{"x":304,"y":1680,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"potion.png":{"frame":{"x":304,"y":1696,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"potion_bottle_drinkable.png":{"frame":{"x":304,"y":1712,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"potion_bottle_lingering.png":{"frame":{"x":304,"y":1728,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"potion_bottle_splash.png":{"frame":{"x":304,"y":1744,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"potion_overlay.png":{"frame":{"x":304,"y":1760,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"powered_rail.png":{"frame":{"x":304,"y":1776,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"powered_rail_on.png":{"frame":{"x":304,"y":1792,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"pufferfish.png":{"frame":{"x":304,"y":1808,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"pufferfish_bucket.png":{"frame":{"x":304,"y":1824,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"pumpkin_pie.png":{"frame":{"x":304,"y":1840,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"pumpkin_seeds.png":{"frame":{"x":304,"y":1856,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"pumpkin_side.png":{"frame":{"x":304,"y":1872,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"pumpkin_stem_disconnected.png":{"frame":{"x":304,"y":1888,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"pumpkin_top.png":{"frame":{"x":304,"y":1904,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"purple_bed.png":{"frame":{"x":304,"y":1920,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"purple_concrete.png":{"frame":{"x":304,"y":1936,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"purple_concrete_powder.png":{"frame":{"x":304,"y":1952,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"purple_dye.png":{"frame":{"x":304,"y":1968,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"purple_glazed_terracotta.png":{"frame":{"x":304,"y":1984,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"purple_shulker_box.png":{"frame":{"x":304,"y":2000,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"purple_stained_glass.png":{"frame":{"x":304,"y":2016,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"purple_stained_glass_pane_top.png":{"frame":{"x":304,"y":2032,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"purple_terracotta.png":{"frame":{"x":320,"y":0,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"purple_wool.png":{"frame":{"x":320,"y":16,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"purpur_block.png":{"frame":{"x":320,"y":32,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"purpur_pillar.png":{"frame":{"x":320,"y":48,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"purpur_pillar_top.png":{"frame":{"x":320,"y":64,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"quiver.png":{"frame":{"x":320,"y":80,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"rabbit.png":{"frame":{"x":320,"y":96,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"rabbit_foot.png":{"frame":{"x":320,"y":112,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"rabbit_hide.png":{"frame":{"x":320,"y":128,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"rabbit_stew.png":{"frame":{"x":320,"y":144,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"rail.png":{"frame":{"x":320,"y":160,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"rail_corner.png":{"frame":{"x":320,"y":176,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"red_bed.png":{"frame":{"x":320,"y":192,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"red_concrete.png":{"frame":{"x":320,"y":208,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"red_concrete_powder.png":{"frame":{"x":320,"y":224,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"red_dye.png":{"frame":{"x":320,"y":240,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"red_glazed_terracotta.png":{"frame":{"x":320,"y":256,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"red_hell_bricks.png":{"frame":{"x":320,"y":272,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"red_mushroom.png":{"frame":{"x":320,"y":288,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"red_mushroom_block.png":{"frame":{"x":320,"y":304,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"red_sand.png":{"frame":{"x":320,"y":320,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"red_sandstone.png":{"frame":{"x":320,"y":336,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"red_sandstone_bottom.png":{"frame":{"x":320,"y":352,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"red_sandstone_top.png":{"frame":{"x":320,"y":368,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"red_shulker_box.png":{"frame":{"x":320,"y":384,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"red_stained_glass.png":{"frame":{"x":320,"y":400,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"red_stained_glass_pane_top.png":{"frame":{"x":320,"y":416,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"red_terracotta.png":{"frame":{"x":320,"y":432,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"red_tulip.png":{"frame":{"x":320,"y":448,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"red_wool.png":{"frame":{"x":320,"y":464,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"redstone.png":{"frame":{"x":320,"y":480,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"redstone_block.png":{"frame":{"x":320,"y":496,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"redstone_dust_dot.png":{"frame":{"x":320,"y":512,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"redstone_dust_line0.png":{"frame":{"x":320,"y":528,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"redstone_dust_line1.png":{"frame":{"x":320,"y":544,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"redstone_dust_overlay.png":{"frame":{"x":320,"y":560,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"redstone_lamp.png":{"frame":{"x":320,"y":576,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"redstone_lamp_on.png":{"frame":{"x":320,"y":592,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"redstone_ore.png":{"frame":{"x":320,"y":608,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"redstone_torch.png":{"frame":{"x":320,"y":624,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"redstone_torch_off.png":{"frame":{"x":320,"y":640,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"repeater.png":{"frame":{"x":320,"y":656,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"repeater_item.png":{"frame":{"x":320,"y":672,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"repeater_on.png":{"frame":{"x":320,"y":688,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"repeating_command_block_back.png":{"frame":{"x":176,"y":1152,"w":16,"h":64},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":64},"sourceSize":{"w":16,"h":64},"anchor":{"x":0,"y":0}},"repeating_command_block_conditional.png":{"frame":{"x":176,"y":1216,"w":16,"h":64},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":64},"sourceSize":{"w":16,"h":64},"anchor":{"x":0,"y":0}},"repeating_command_block_front.png":{"frame":{"x":208,"y":1472,"w":16,"h":64},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":64},"sourceSize":{"w":16,"h":64},"anchor":{"x":0,"y":0}},"repeating_command_block_side.png":{"frame":{"x":176,"y":1504,"w":16,"h":64},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":64},"sourceSize":{"w":16,"h":64},"anchor":{"x":0,"y":0}},"respawn_anchor_bottom.png":{"frame":{"x":320,"y":704,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"respawn_anchor_side0.png":{"frame":{"x":320,"y":720,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"respawn_anchor_side1.png":{"frame":{"x":320,"y":736,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"respawn_anchor_side2.png":{"frame":{"x":320,"y":752,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"respawn_anchor_side3.png":{"frame":{"x":320,"y":768,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"respawn_anchor_side4.png":{"frame":{"x":320,"y":784,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"respawn_anchor_top.png":{"frame":{"x":48,"y":1024,"w":16,"h":512},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":512},"sourceSize":{"w":16,"h":512},"anchor":{"x":0,"y":0}},"respawn_anchor_top_off.png":{"frame":{"x":320,"y":800,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"rose_bush_bottom.png":{"frame":{"x":320,"y":816,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"rose_bush_top.png":{"frame":{"x":320,"y":832,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"rotten_flesh.png":{"frame":{"x":320,"y":848,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"ruby.png":{"frame":{"x":320,"y":864,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"saddle.png":{"frame":{"x":320,"y":880,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"salmon.png":{"frame":{"x":320,"y":896,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"salmon_bucket.png":{"frame":{"x":320,"y":912,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"sand.png":{"frame":{"x":320,"y":928,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"sandstone.png":{"frame":{"x":320,"y":944,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"sandstone_bottom.png":{"frame":{"x":320,"y":960,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"sandstone_top.png":{"frame":{"x":320,"y":976,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"scaffolding_bottom.png":{"frame":{"x":320,"y":992,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"scaffolding_side.png":{"frame":{"x":320,"y":1008,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"scaffolding_top.png":{"frame":{"x":320,"y":1024,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"scute.png":{"frame":{"x":320,"y":1040,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"sea_lantern.png":{"frame":{"x":96,"y":1552,"w":16,"h":80},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":80},"sourceSize":{"w":16,"h":80},"anchor":{"x":0,"y":0}},"sea_pickle.png":{"frame":{"x":320,"y":1056,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"sea_pickle_item.png":{"frame":{"x":320,"y":1072,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"seagrass.png":{"frame":{"x":96,"y":928,"w":16,"h":288},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":288},"sourceSize":{"w":16,"h":288},"anchor":{"x":0,"y":0}},"seagrass_item.png":{"frame":{"x":320,"y":1088,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"seeds_wheat.png":{"frame":{"x":320,"y":1104,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"shears.png":{"frame":{"x":320,"y":1120,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"shroomlight.png":{"frame":{"x":320,"y":1136,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"shulker_box.png":{"frame":{"x":320,"y":1152,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"shulker_shell.png":{"frame":{"x":320,"y":1168,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"sign.png":{"frame":{"x":320,"y":1184,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"signs/acacia.png":{"frame":{"x":96,"y":2016,"w":64,"h":32},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":64,"h":32},"sourceSize":{"w":64,"h":32},"anchor":{"x":0,"y":0}},"signs/birch.png":{"frame":{"x":160,"y":2000,"w":64,"h":32},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":64,"h":32},"sourceSize":{"w":64,"h":32},"anchor":{"x":0,"y":0}},"signs/crimson.png":{"frame":{"x":176,"y":1280,"w":64,"h":32},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":64,"h":32},"sourceSize":{"w":64,"h":32},"anchor":{"x":0,"y":0}},"signs/dark_oak.png":{"frame":{"x":176,"y":1312,"w":64,"h":32},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":64,"h":32},"sourceSize":{"w":64,"h":32},"anchor":{"x":0,"y":0}},"signs/jungle.png":{"frame":{"x":176,"y":1344,"w":64,"h":32},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":64,"h":32},"sourceSize":{"w":64,"h":32},"anchor":{"x":0,"y":0}},"signs/oak.png":{"frame":{"x":176,"y":1376,"w":64,"h":32},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":64,"h":32},"sourceSize":{"w":64,"h":32},"anchor":{"x":0,"y":0}},"signs/spruce.png":{"frame":{"x":176,"y":1408,"w":64,"h":32},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":64,"h":32},"sourceSize":{"w":64,"h":32},"anchor":{"x":0,"y":0}},"signs/warped.png":{"frame":{"x":176,"y":1440,"w":64,"h":32},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":64,"h":32},"sourceSize":{"w":64,"h":32},"anchor":{"x":0,"y":0}},"silver_shulker_box.png":{"frame":{"x":320,"y":1200,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"skull_banner_pattern.png":{"frame":{"x":320,"y":1216,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"slime_ball.png":{"frame":{"x":320,"y":1232,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"slime_block.png":{"frame":{"x":320,"y":1248,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"smithing_table_bottom.png":{"frame":{"x":320,"y":1264,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"smithing_table_front.png":{"frame":{"x":320,"y":1280,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"smithing_table_side.png":{"frame":{"x":320,"y":1296,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"smithing_table_top.png":{"frame":{"x":320,"y":1312,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"smoker_bottom.png":{"frame":{"x":320,"y":1328,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"smoker_front.png":{"frame":{"x":320,"y":1344,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"smoker_front_on.png":{"frame":{"x":192,"y":1568,"w":16,"h":48},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":48},"sourceSize":{"w":16,"h":48},"anchor":{"x":0,"y":0}},"smoker_side.png":{"frame":{"x":320,"y":1360,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"smoker_top.png":{"frame":{"x":320,"y":1376,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"smooth_stone.png":{"frame":{"x":320,"y":1392,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"smooth_stone_slab_side.png":{"frame":{"x":320,"y":1408,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"snow.png":{"frame":{"x":320,"y":1424,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"snowball.png":{"frame":{"x":320,"y":1440,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"soul_campfire.png":{"frame":{"x":320,"y":1456,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"soul_campfire_fire.png":{"frame":{"x":96,"y":1344,"w":16,"h":128},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":128},"sourceSize":{"w":16,"h":128},"anchor":{"x":0,"y":0}},"soul_campfire_log_lit.png":{"frame":{"x":192,"y":1504,"w":16,"h":64},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":64},"sourceSize":{"w":16,"h":64},"anchor":{"x":0,"y":0}},"soul_fire_0.png":{"frame":{"x":64,"y":1024,"w":16,"h":512},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":512},"sourceSize":{"w":16,"h":512},"anchor":{"x":0,"y":0}},"soul_fire_1.png":{"frame":{"x":80,"y":1024,"w":16,"h":512},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":512},"sourceSize":{"w":16,"h":512},"anchor":{"x":0,"y":0}},"soul_lantern.png":{"frame":{"x":224,"y":1472,"w":16,"h":48},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":48},"sourceSize":{"w":16,"h":48},"anchor":{"x":0,"y":0}},"soul_lantern_item.png":{"frame":{"x":320,"y":1472,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"soul_sand.png":{"frame":{"x":320,"y":1488,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"soul_soil.png":{"frame":{"x":320,"y":1504,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"soul_torch.png":{"frame":{"x":320,"y":1520,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"spawn_egg.png":{"frame":{"x":320,"y":1536,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"spawn_egg_overlay.png":{"frame":{"x":320,"y":1552,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"spawner.png":{"frame":{"x":320,"y":1568,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"spectral_arrow.png":{"frame":{"x":320,"y":1584,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"spider_eye.png":{"frame":{"x":320,"y":1600,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"splash_potion.png":{"frame":{"x":320,"y":1616,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"sponge.png":{"frame":{"x":320,"y":1632,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"spruce_boat.png":{"frame":{"x":320,"y":1648,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"spruce_door.png":{"frame":{"x":320,"y":1664,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"spruce_door_bottom.png":{"frame":{"x":320,"y":1680,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"spruce_door_top.png":{"frame":{"x":320,"y":1696,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"spruce_leaves.png":{"frame":{"x":320,"y":1712,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"spruce_log.png":{"frame":{"x":320,"y":1728,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"spruce_log_top.png":{"frame":{"x":320,"y":1744,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"spruce_planks.png":{"frame":{"x":320,"y":1760,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"spruce_sapling.png":{"frame":{"x":320,"y":1776,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"spruce_sign.png":{"frame":{"x":320,"y":1792,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"spruce_trapdoor.png":{"frame":{"x":320,"y":1808,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"stick.png":{"frame":{"x":320,"y":1824,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"stone.png":{"frame":{"x":320,"y":1840,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"stone_axe.png":{"frame":{"x":160,"y":1872,"w":64,"h":64},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":64,"h":64},"sourceSize":{"w":64,"h":64},"anchor":{"x":0,"y":0}},"stone_bricks.png":{"frame":{"x":320,"y":1856,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"stone_hoe.png":{"frame":{"x":160,"y":1936,"w":64,"h":64},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":64,"h":64},"sourceSize":{"w":64,"h":64},"anchor":{"x":0,"y":0}},"stone_pickaxe.png":{"frame":{"x":176,"y":64,"w":64,"h":64},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":64,"h":64},"sourceSize":{"w":64,"h":64},"anchor":{"x":0,"y":0}},"stone_shovel.png":{"frame":{"x":192,"y":0,"w":64,"h":64},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":64,"h":64},"sourceSize":{"w":64,"h":64},"anchor":{"x":0,"y":0}},"stone_slab_side.png":{"frame":{"x":320,"y":1872,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"stone_slab_top.png":{"frame":{"x":320,"y":1888,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"stone_sword.png":{"frame":{"x":176,"y":128,"w":64,"h":64},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":64,"h":64},"sourceSize":{"w":64,"h":64},"anchor":{"x":0,"y":0}},"stonecutter_bottom.png":{"frame":{"x":320,"y":1904,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"stonecutter_saw.png":{"frame":{"x":224,"y":1520,"w":16,"h":48},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":48},"sourceSize":{"w":16,"h":48},"anchor":{"x":0,"y":0}},"stonecutter_side.png":{"frame":{"x":320,"y":1920,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"stonecutter_top.png":{"frame":{"x":320,"y":1936,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"string.png":{"frame":{"x":320,"y":1952,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"stripped_acacia_log.png":{"frame":{"x":320,"y":1968,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"stripped_acacia_log_top.png":{"frame":{"x":320,"y":1984,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"stripped_birch_log.png":{"frame":{"x":320,"y":2000,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"stripped_birch_log_top.png":{"frame":{"x":320,"y":2016,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"stripped_crimson_stem.png":{"frame":{"x":320,"y":2032,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"stripped_crimson_stem_top.png":{"frame":{"x":336,"y":0,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"stripped_dark_oak_log.png":{"frame":{"x":336,"y":16,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"stripped_dark_oak_log_top.png":{"frame":{"x":336,"y":32,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"stripped_jungle_log.png":{"frame":{"x":336,"y":48,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"stripped_jungle_log_top.png":{"frame":{"x":336,"y":64,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"stripped_oak_log.png":{"frame":{"x":336,"y":80,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"stripped_oak_log_top.png":{"frame":{"x":336,"y":96,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"stripped_spruce_log.png":{"frame":{"x":336,"y":112,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"stripped_spruce_log_top.png":{"frame":{"x":336,"y":128,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"stripped_warped_stem.png":{"frame":{"x":336,"y":144,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"stripped_warped_stem_top.png":{"frame":{"x":336,"y":160,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"structure_block.png":{"frame":{"x":336,"y":176,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"structure_block_corner.png":{"frame":{"x":336,"y":192,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"structure_block_data.png":{"frame":{"x":336,"y":208,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"structure_block_export.png":{"frame":{"x":336,"y":224,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"structure_block_load.png":{"frame":{"x":336,"y":240,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"structure_block_save.png":{"frame":{"x":336,"y":256,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"structure_void.png":{"frame":{"x":336,"y":272,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"sugar.png":{"frame":{"x":336,"y":288,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"sugar_cane.png":{"frame":{"x":336,"y":304,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"sugar_cane_item.png":{"frame":{"x":336,"y":320,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"sunflower_back.png":{"frame":{"x":336,"y":336,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"sunflower_bottom.png":{"frame":{"x":336,"y":352,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"sunflower_front.png":{"frame":{"x":336,"y":368,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"sunflower_top.png":{"frame":{"x":336,"y":384,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"suspicious_stew.png":{"frame":{"x":336,"y":400,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"sweet_berries.png":{"frame":{"x":336,"y":416,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"sweet_berry_bush_stage0.png":{"frame":{"x":336,"y":432,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"sweet_berry_bush_stage1.png":{"frame":{"x":336,"y":448,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"sweet_berry_bush_stage2.png":{"frame":{"x":336,"y":464,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"sweet_berry_bush_stage3.png":{"frame":{"x":336,"y":480,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"tall_grass_bottom.png":{"frame":{"x":336,"y":496,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"tall_grass_top.png":{"frame":{"x":336,"y":512,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"tall_seagrass_bottom.png":{"frame":{"x":96,"y":320,"w":16,"h":304},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":304},"sourceSize":{"w":16,"h":304},"anchor":{"x":0,"y":0}},"tall_seagrass_top.png":{"frame":{"x":96,"y":624,"w":16,"h":304},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":304},"sourceSize":{"w":16,"h":304},"anchor":{"x":0,"y":0}},"target_side.png":{"frame":{"x":336,"y":528,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"target_top.png":{"frame":{"x":336,"y":544,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"terracotta.png":{"frame":{"x":336,"y":560,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"tipped_arrow.png":{"frame":{"x":336,"y":576,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"tipped_arrow_base.png":{"frame":{"x":336,"y":592,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"tipped_arrow_head.png":{"frame":{"x":336,"y":608,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"tnt_bottom.png":{"frame":{"x":336,"y":624,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"tnt_minecart.png":{"frame":{"x":336,"y":640,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"tnt_side.png":{"frame":{"x":336,"y":656,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"tnt_top.png":{"frame":{"x":336,"y":672,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"torch.png":{"frame":{"x":336,"y":688,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"totem_of_undying.png":{"frame":{"x":336,"y":704,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"trident.png":{"frame":{"x":336,"y":720,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"tripwire.png":{"frame":{"x":336,"y":736,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"tripwire_hook.png":{"frame":{"x":336,"y":752,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"tropical_fish.png":{"frame":{"x":336,"y":768,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"tropical_fish_bucket.png":{"frame":{"x":336,"y":784,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"tube_coral.png":{"frame":{"x":336,"y":800,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"tube_coral_block.png":{"frame":{"x":336,"y":816,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"tube_coral_fan.png":{"frame":{"x":336,"y":832,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"turtle_egg.png":{"frame":{"x":336,"y":848,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"turtle_egg_item.png":{"frame":{"x":336,"y":864,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"turtle_egg_slightly_cracked.png":{"frame":{"x":336,"y":880,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"turtle_egg_very_cracked.png":{"frame":{"x":336,"y":896,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"turtle_helmet.png":{"frame":{"x":336,"y":912,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"twisting_vines.png":{"frame":{"x":336,"y":928,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"twisting_vines_plant.png":{"frame":{"x":336,"y":944,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"vine.png":{"frame":{"x":336,"y":960,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"warped_door.png":{"frame":{"x":336,"y":976,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"warped_door_bottom.png":{"frame":{"x":336,"y":992,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"warped_door_top.png":{"frame":{"x":336,"y":1008,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"warped_fungus.png":{"frame":{"x":336,"y":1024,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"warped_fungus_on_a_stick.png":{"frame":{"x":336,"y":1040,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"warped_nylium.png":{"frame":{"x":336,"y":1056,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"warped_nylium_side.png":{"frame":{"x":336,"y":1072,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"warped_planks.png":{"frame":{"x":336,"y":1088,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"warped_roots.png":{"frame":{"x":336,"y":1104,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"warped_roots_pot.png":{"frame":{"x":336,"y":1120,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"warped_sign.png":{"frame":{"x":336,"y":1136,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"warped_stem.png":{"frame":{"x":112,"y":0,"w":16,"h":80},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":80},"sourceSize":{"w":16,"h":80},"anchor":{"x":0,"y":0}},"warped_stem_top.png":{"frame":{"x":336,"y":1152,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"warped_trapdoor.png":{"frame":{"x":336,"y":1168,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"warped_wart_block.png":{"frame":{"x":336,"y":1184,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"watch_atlas.png":{"frame":{"x":0,"y":1024,"w":16,"h":1024},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":1024},"sourceSize":{"w":16,"h":1024},"anchor":{"x":0,"y":0}},"water_bucket.png":{"frame":{"x":336,"y":1200,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"water_flow.png":{"frame":{"x":0,"y":0,"w":32,"h":1024},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":32,"h":1024},"sourceSize":{"w":32,"h":1024},"anchor":{"x":0,"y":0}},"water_overlay.png":{"frame":{"x":336,"y":1216,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"water_still.png":{"frame":{"x":80,"y":1536,"w":16,"h":512},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":512},"sourceSize":{"w":16,"h":512},"anchor":{"x":0,"y":0}},"weeping_vines.png":{"frame":{"x":336,"y":1232,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"weeping_vines_plant.png":{"frame":{"x":336,"y":1248,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"wet_sponge.png":{"frame":{"x":336,"y":1264,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"wheat.png":{"frame":{"x":336,"y":1280,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"wheat_seeds.png":{"frame":{"x":336,"y":1296,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"wheat_stage0.png":{"frame":{"x":336,"y":1312,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"wheat_stage1.png":{"frame":{"x":336,"y":1328,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"wheat_stage2.png":{"frame":{"x":336,"y":1344,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"wheat_stage3.png":{"frame":{"x":336,"y":1360,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"wheat_stage4.png":{"frame":{"x":336,"y":1376,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"wheat_stage5.png":{"frame":{"x":336,"y":1392,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"wheat_stage6.png":{"frame":{"x":336,"y":1408,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"wheat_stage7.png":{"frame":{"x":336,"y":1424,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"white_bed.png":{"frame":{"x":336,"y":1440,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"white_concrete.png":{"frame":{"x":336,"y":1456,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"white_concrete_powder.png":{"frame":{"x":336,"y":1472,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"white_dye.png":{"frame":{"x":336,"y":1488,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"white_glazed_terracotta.png":{"frame":{"x":336,"y":1504,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"white_shulker_box.png":{"frame":{"x":336,"y":1520,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"white_stained_glass.png":{"frame":{"x":336,"y":1536,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"white_stained_glass_pane_top.png":{"frame":{"x":336,"y":1552,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"white_terracotta.png":{"frame":{"x":336,"y":1568,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"white_tulip.png":{"frame":{"x":336,"y":1584,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"white_wool.png":{"frame":{"x":336,"y":1600,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"wither_rose.png":{"frame":{"x":336,"y":1616,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"wooden_axe.png":{"frame":{"x":176,"y":192,"w":64,"h":64},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":64,"h":64},"sourceSize":{"w":64,"h":64},"anchor":{"x":0,"y":0}},"wooden_hoe.png":{"frame":{"x":176,"y":256,"w":64,"h":64},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":64,"h":64},"sourceSize":{"w":64,"h":64},"anchor":{"x":0,"y":0}},"wooden_pickaxe.png":{"frame":{"x":176,"y":320,"w":64,"h":64},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":64,"h":64},"sourceSize":{"w":64,"h":64},"anchor":{"x":0,"y":0}},"wooden_shovel.png":{"frame":{"x":176,"y":384,"w":64,"h":64},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":64,"h":64},"sourceSize":{"w":64,"h":64},"anchor":{"x":0,"y":0}},"wooden_sword.png":{"frame":{"x":176,"y":448,"w":64,"h":64},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":64,"h":64},"sourceSize":{"w":64,"h":64},"anchor":{"x":0,"y":0}},"workbench_front.png":{"frame":{"x":336,"y":1632,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"workbench_side.png":{"frame":{"x":336,"y":1648,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"workbench_top.png":{"frame":{"x":336,"y":1664,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"writable_book.png":{"frame":{"x":336,"y":1680,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"written_book.png":{"frame":{"x":336,"y":1696,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"yellow_bed.png":{"frame":{"x":336,"y":1712,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"yellow_concrete.png":{"frame":{"x":336,"y":1728,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"yellow_concrete_powder.png":{"frame":{"x":336,"y":1744,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"yellow_dye.png":{"frame":{"x":336,"y":1760,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"yellow_glazed_terracotta.png":{"frame":{"x":336,"y":1776,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"yellow_shulker_box.png":{"frame":{"x":336,"y":1792,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"yellow_stained_glass.png":{"frame":{"x":336,"y":1808,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"yellow_stained_glass_pane_top.png":{"frame":{"x":336,"y":1824,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"yellow_terracotta.png":{"frame":{"x":336,"y":1840,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}},"yellow_wool.png":{"frame":{"x":336,"y":1856,"w":16,"h":16},"rotated":false,"trimmed":false,"spriteSourceSize":{"x":0,"y":0,"w":16,"h":16},"sourceSize":{"w":16,"h":16},"anchor":{"x":0,"y":0}}}',
 	),
@@ -174937,7 +175143,7 @@ class GLTFParser {
 }
 function computeBounds(h, o, l) {
 	const u = o.attributes,
-		d = new IauP();
+		d = new wUmo();
 	if (u.POSITION !== void 0) {
 		const g = l.json.accessors[u.POSITION],
 			y = g.min,
@@ -175048,7 +175254,7 @@ class GLTFManager {
 		b(this, "loader", new GLTFLoader());
 		b(this, "models", {});
 	}
-	async ObmvIPuHvy() {
+	async qLtydHJQGT() {
 		const o = [];
 		for (const l of Object.values(HATS)) o.push(this.loadHat(l));
 		await Promise.all(o);
@@ -175285,7 +175491,7 @@ class ShaderManager {
 			grass: Options.grassWave.value,
 		};
 	}
-	static iVglNoBUjyCcHBsplpDKgUCI(o) {
+	static oLtzeiMQzblRArOAbvIDDSMu(o) {
 		(o.userData = {
 			time: { value: 2 },
 			uSunLight: { value: 1 },
@@ -176463,7 +176669,7 @@ class TextureManager {
 		b(this, "old_miniblox_font");
 		b(this, "atlas");
 		b(this, "materialWorld");
-		b(this, "KnRnWxxHBdOgkuRADHukgxFj");
+		b(this, "ajWzDOwzwPYhQVqyViQUjzjd");
 		b(this, "materialFluidWorld");
 		b(this, "material");
 		b(this, "materialEnchanted");
@@ -176472,11 +176678,9 @@ class TextureManager {
 		b(this, "entityUVSize", {});
 		b(this, "spritesheetPixels");
 		b(this, "particles", {});
-		b(this, "particleAtlas", null);
-		b(this, "particleAtlasRects", new Map());
 		b(this, "glintTexture");
 		b(this, "skinManager", new SkinManager());
-		b(this, "rmBvyypGCft", new GLTFManager());
+		b(this, "JUQHMSCZIzG", new GLTFManager());
 		b(this, "reflectionBuffer", null);
 		b(this, "sunDirection", new Vector3$1(0, 1, 0));
 		b(this, "sunLight", 1);
@@ -176506,7 +176710,7 @@ class TextureManager {
 				this.loadSpritesheet(),
 				this.loadFonts(),
 				this.skinManager.loadTextures(),
-				this.rmBvyypGCft.ObmvIPuHvy(),
+				this.JUQHMSCZIzG.qLtydHJQGT(),
 			];
 			PARTICLE_TEXTURES.forEach((u) => {
 				l.push(
@@ -176546,47 +176750,12 @@ class TextureManager {
 						})(),
 					);
 				}),
-				await Promise.all(l),
-				this.buildParticleAtlas();
+				await Promise.all(l);
 		} catch (l) {
 			Ulog.error(l),
 				Ulog.error("Failed to load textures. Retrying..."),
 				o && (await this.loadTextures(!1));
 		}
-	}
-	buildParticleAtlas() {
-		const o = PARTICLE_TEXTURES.filter((S) => {
-			var v;
-			return (v = this.particles[S]) == null ? void 0 : v.image;
-		});
-		if (o.length === 0) return;
-		const l = 32,
-			u = Math.ceil(Math.sqrt(o.length)),
-			d = Math.ceil(o.length / u),
-			p = u * l,
-			m = d * l,
-			g = document.createElement("canvas");
-		(g.width = p), (g.height = m);
-		const y = g.getContext("2d");
-		if (!y) return;
-		(y.imageSmoothingEnabled = !1),
-			this.particleAtlasRects.clear(),
-			o.forEach((S, v) => {
-				const w = (v % u) * l,
-					k = Math.floor(v / u) * l;
-				y.drawImage(this.particles[S].image, w, k, l, l),
-					this.particleAtlasRects.set(
-						this.particles[S],
-						new Vector4(w / p, k / m, l / p, l / m),
-					);
-			});
-		const x = new CanvasTexture(g);
-		(x.flipY = !1),
-			(x.minFilter = NearestFilter),
-			(x.magFilter = NearestFilter),
-			(x.generateMipmaps = !1),
-			(x.needsUpdate = !0),
-			(this.particleAtlas = x);
 	}
 	async loadFonts() {
 		(this.miniblox_font =
@@ -176635,13 +176804,13 @@ class TextureManager {
 			(this.materialTransparent.alphaTest = 0.1),
 			(this.atlas = o.image),
 			(this.materialWorld = this.material.clone()),
-			ShaderManager.iVglNoBUjyCcHBsplpDKgUCI(this.materialWorld),
-			(this.KnRnWxxHBdOgkuRADHukgxFj = this.materialTransparent.clone()),
-			ShaderManager.iVglNoBUjyCcHBsplpDKgUCI(this.KnRnWxxHBdOgkuRADHukgxFj),
-			(this.KnRnWxxHBdOgkuRADHukgxFj.depthWrite = !1);
+			ShaderManager.oLtzeiMQzblRArOAbvIDDSMu(this.materialWorld),
+			(this.ajWzDOwzwPYhQVqyViQUjzjd = this.materialTransparent.clone()),
+			ShaderManager.oLtzeiMQzblRArOAbvIDDSMu(this.ajWzDOwzwPYhQVqyViQUjzjd),
+			(this.ajWzDOwzwPYhQVqyViQUjzjd.depthWrite = !1);
 		const g = () => {
 			(this.materialWorld.needsUpdate = !0),
-				(this.KnRnWxxHBdOgkuRADHukgxFj.needsUpdate = !0);
+				(this.ajWzDOwzwPYhQVqyViQUjzjd.needsUpdate = !0);
 		};
 		Options.grassWave.onChange(g),
 			Options.dynamicLighting.onChange(g),
@@ -176694,8 +176863,8 @@ class TextureManager {
 	fixedUpdate() {
 		var o;
 		this.materialTransparent &&
-			this.KnRnWxxHBdOgkuRADHukgxFj.userData &&
-			this.KnRnWxxHBdOgkuRADHukgxFj.userData.time.value++,
+			this.ajWzDOwzwPYhQVqyViQUjzjd.userData &&
+			this.ajWzDOwzwPYhQVqyViQUjzjd.userData.time.value++,
 			this.materialWorld &&
 				this.materialWorld.userData &&
 				this.materialWorld.userData.time.value++,
@@ -176731,10 +176900,10 @@ class TextureManager {
 			(u = (l = this.materialWorld) == null ? void 0 : l.userData) != null &&
 				u.uSunLight &&
 				(this.materialWorld.userData.uSunLight.value = o),
-			(p = (d = this.KnRnWxxHBdOgkuRADHukgxFj) == null ? void 0 : d.userData) !=
+			(p = (d = this.ajWzDOwzwPYhQVqyViQUjzjd) == null ? void 0 : d.userData) !=
 				null &&
 				p.uSunLight &&
-				(this.KnRnWxxHBdOgkuRADHukgxFj.userData.uSunLight.value = o),
+				(this.ajWzDOwzwPYhQVqyViQUjzjd.userData.uSunLight.value = o),
 			(g = (m = this.materialFluidWorld) == null ? void 0 : m.userData) !=
 				null &&
 				g.uSunLight &&
@@ -176746,10 +176915,10 @@ class TextureManager {
 			(u = (l = this.materialWorld) == null ? void 0 : l.userData) != null &&
 				u.uAmbientLight &&
 				(this.materialWorld.userData.uAmbientLight.value = o),
-			(p = (d = this.KnRnWxxHBdOgkuRADHukgxFj) == null ? void 0 : d.userData) !=
+			(p = (d = this.ajWzDOwzwPYhQVqyViQUjzjd) == null ? void 0 : d.userData) !=
 				null &&
 				p.uAmbientLight &&
-				(this.KnRnWxxHBdOgkuRADHukgxFj.userData.uAmbientLight.value = o),
+				(this.ajWzDOwzwPYhQVqyViQUjzjd.userData.uAmbientLight.value = o),
 			(g = (m = this.materialFluidWorld) == null ? void 0 : m.userData) !=
 				null &&
 				g.uAmbientLight &&
@@ -176760,7 +176929,7 @@ class TextureManager {
 		(this.heldLightLevel = u), o && this.heldLightPos.copy(o);
 		for (const d of [
 			this.materialWorld,
-			this.KnRnWxxHBdOgkuRADHukgxFj,
+			this.ajWzDOwzwPYhQVqyViQUjzjd,
 			this.materialFluidWorld,
 		]) {
 			const p = d == null ? void 0 : d.userData;
@@ -176777,7 +176946,7 @@ class TextureManager {
 			(l.originZ = o.originZ),
 			(l.invExtent = o.invExtent),
 			(this.giState = l);
-		for (const u of [this.materialWorld, this.KnRnWxxHBdOgkuRADHukgxFj]) {
+		for (const u of [this.materialWorld, this.ajWzDOwzwPYhQVqyViQUjzjd]) {
 			const d = u == null ? void 0 : u.userData;
 			d != null &&
 				d.uGITex &&
@@ -176793,13 +176962,13 @@ class TextureManager {
 	}
 	setGIEnabled(o) {
 		o || (this.giState = null);
-		for (const l of [this.materialWorld, this.KnRnWxxHBdOgkuRADHukgxFj]) {
+		for (const l of [this.materialWorld, this.ajWzDOwzwPYhQVqyViQUjzjd]) {
 			const u = l == null ? void 0 : l.userData;
 			u != null && u.uGIEnabled && (u.uGIEnabled.value = o ? 1 : 0);
 		}
 	}
 	setGIDebug(o) {
-		for (const l of [this.materialWorld, this.KnRnWxxHBdOgkuRADHukgxFj]) {
+		for (const l of [this.materialWorld, this.ajWzDOwzwPYhQVqyViQUjzjd]) {
 			const u = l == null ? void 0 : l.userData;
 			u != null && u.uGIDebugView && (u.uGIDebugView.value = o ? 1 : 0);
 		}
@@ -176810,10 +176979,10 @@ class TextureManager {
 		(d = (u = this.materialWorld) == null ? void 0 : u.userData) != null &&
 			d.uHasDamage &&
 			(this.materialWorld.userData.uHasDamage.value = l),
-			(m = (p = this.KnRnWxxHBdOgkuRADHukgxFj) == null ? void 0 : p.userData) !=
+			(m = (p = this.ajWzDOwzwPYhQVqyViQUjzjd) == null ? void 0 : p.userData) !=
 				null &&
 				m.uHasDamage &&
-				(this.KnRnWxxHBdOgkuRADHukgxFj.userData.uHasDamage.value = l);
+				(this.ajWzDOwzwPYhQVqyViQUjzjd.userData.uHasDamage.value = l);
 	}
 }
 const textureManager = new TextureManager();
@@ -177168,6 +177337,56 @@ class Model extends Group {
 		return new Mesh(p, d);
 	}
 }
+const canvasCache = new Map(),
+	urlCache = new Map(),
+	inFlight = new Set();
+async function generate(h) {
+	var x;
+	const o = textureManager.skinManager;
+	if (!o.hasSkin(h))
+		try {
+			await o.downloadSkin(h);
+		} catch {}
+	const l = o.getSkin(h),
+		u = (x = l == null ? void 0 : l.atlas) == null ? void 0 : x.image;
+	if (!u) return;
+	const d = l.ratio ?? 1,
+		p = 8 * d,
+		m = 8,
+		g = document.createElement("canvas");
+	(g.width = p * m), (g.height = p * m);
+	const y = g.getContext("2d");
+	y &&
+		((y.imageSmoothingEnabled = !1),
+		y.drawImage(u, 8 * d, 8 * d, p, p, 0, 0, p * m, p * m),
+		y.drawImage(u, 40 * d, 8 * d, p, p, 0, 0, p * m, p * m),
+		canvasCache.set(h, g),
+		urlCache.set(h, g.toDataURL()));
+}
+function ensure(h) {
+	canvasCache.has(h) ||
+		inFlight.has(h) ||
+		(inFlight.add(h), generate(h).finally(() => inFlight.delete(h)));
+}
+function resolveHeadIconSkin(h) {
+	var o, l, u;
+	return (
+		((o = h.data) == null ? void 0 : o.skinOwner) ||
+		((u =
+			(l = player == null ? void 0 : player.profile) == null
+				? void 0
+				: l.cosmetics) == null
+			? void 0
+			: u.skin) ||
+		DEFAULT_HEAD_SKIN
+	);
+}
+function getPlayerHeadIconCanvas(h) {
+	return ensure(h), canvasCache.get(h) ?? null;
+}
+function getPlayerHeadIconUrl(h) {
+	return ensure(h), urlCache.get(h) ?? null;
+}
 function getPixelAlpha$1(h, o, l) {
 	const u = h + l.x * TILE_SIZE,
 		d = o + l.y * TILE_SIZE,
@@ -177188,12 +177407,15 @@ class ModelItem extends Model {
 	constructor(o, l = 1, u, d = !1) {
 		super(), (this.enchanted = d);
 		let p;
-		o instanceof ItemStack && o.item.isItemBlock() && o.item.drawAsBlock()
-			? (p = this.getBlockMesh(o.item.block, l, u))
-			: (p = this.getItemMesh(o, l, u)),
+		(o instanceof ItemStack ? o.item : o instanceof Item ? o : null) instanceof
+		ItemPlayerHead
+			? (p = this.getHeadMesh(o, l, u))
+			: o instanceof ItemStack && o.item.isItemBlock() && o.item.drawAsBlock()
+				? (p = this.getBlockMesh(o.item.block, l, u))
+				: (p = this.getItemMesh(o, l, u)),
 			p && this.add(p);
-		const m = p ?? u;
-		m && (m.userData.bloomStrength = bloomStrengthForStack(o)),
+		const g = p ?? u;
+		g && (g.userData.bloomStrength = bloomStrengthForStack(o)),
 			(this.matrixAutoUpdate = !0),
 			(this.matrixWorldAutoUpdate = !0);
 	}
@@ -177256,6 +177478,33 @@ class ModelItem extends Model {
 				: textureManager.material;
 		if (u) u.material = x;
 		else return new Mesh(y, x);
+	}
+	getHeadMesh(o, l, u) {
+		var I;
+		const d =
+				o instanceof ItemStack ? resolveHeadIconSkin(o) : DEFAULT_HEAD_SKIN,
+			p = textureManager.skinManager;
+		p.hasSkin(d) || p.downloadSkin(d).catch(() => {});
+		const m = p.getSkin(d),
+			g = m.atlasMat;
+		if (!((I = g == null ? void 0 : g.map) != null && I.image)) return;
+		(this.parts.head = Model.addBox(0, 0, 8, 8, 8)),
+			(this.parts.head2 = Model.addBox(32, 0, 8, 8, 8));
+		const y = m.ratio || 1,
+			x = [],
+			S = [],
+			v = [],
+			w = [],
+			k = l;
+		this.generateGeometry("head", g, x, S, v, w, y, !1, k, k, k);
+		const E = l * (8.5 / 8);
+		this.generateGeometry("head2", g, x, S, v, w, y, !1, E, E, E);
+		const C = Model.setGeometry(
+			{ positions: x, normals: S, uvs: v, indices: w },
+			u,
+		);
+		if (!u) return new Mesh(C, g);
+		u.material = g;
 	}
 	getBlockMesh(o, l = 1, u) {
 		const d = o.getModelCached(o.defaultState),
@@ -177443,28 +177692,28 @@ function applyEntityLighting(h) {
 	(p = Math.max(p, textureManager.heldLightBrightnessAt(l, u, d))),
 		applyToObject(h, p);
 }
-const bd = class bd extends Model {
+const kd = class kd extends Model {
 	constructor(l, u) {
 		super();
 		b(this, "pistonHead");
 		b(this, "pistonBase");
 		const d = this.getGeometry(l);
-		(this.pistonHead = new Mesh(d, bd.getMaterial())),
+		(this.pistonHead = new Mesh(d, kd.getMaterial())),
 			(this.pistonBase = u.shouldPistonHeadBeRendered()
-				? new Mesh(d, bd.getMaterial())
+				? new Mesh(d, kd.getMaterial())
 				: null),
 			this.add(this.pistonHead),
 			this.pistonBase && this.add(this.pistonBase);
 	}
 	static getMaterial() {
-		if (!bd.material) {
+		if (!kd.material) {
 			const l = textureManager.materialTransparent.clone();
 			(l.polygonOffset = !0),
 				(l.polygonOffsetFactor = -1),
 				(l.polygonOffsetUnits = -1),
-				(bd.material = l);
+				(kd.material = l);
 		}
-		return bd.material;
+		return kd.material;
 	}
 	getGeometry(l) {
 		const u = l.getBlock().getModelCached(l),
@@ -177503,8 +177752,64 @@ const bd = class bd extends Model {
 			} else this.pistonHead.geometry = this.getGeometry(m);
 	}
 };
-b(bd, "material");
-let ModelPiston = bd;
+b(kd, "material");
+let ModelPiston = kd;
+const HEAD_PX = 8,
+	HAT_OVERLAY_EXPAND_PX = 0.5;
+class ModelPlayerHead extends Model {
+	constructor(l, u) {
+		super();
+		b(this, "skin");
+		(this.skin = u.skinOwner || DEFAULT_HEAD_SKIN), this.build(l);
+	}
+	needsRendering() {
+		return !0;
+	}
+	async build(l) {
+		var E;
+		const u = textureManager.skinManager;
+		if (!u.hasSkin(this.skin))
+			try {
+				await u.downloadSkin(this.skin);
+			} catch {}
+		const d = u.getSkin(this.skin),
+			p = d.atlasMat;
+		if (!((E = p == null ? void 0 : p.map) != null && E.image)) return;
+		(this.parts.head = Model.addBox(0, 0, HEAD_PX, HEAD_PX, HEAD_PX)),
+			(this.parts.head2 = Model.addBox(32, 0, HEAD_PX, HEAD_PX, HEAD_PX));
+		const m = d.ratio || 1,
+			g = [],
+			y = [],
+			x = [],
+			S = [];
+		this.generateGeometry("head", p, g, y, x, S, m);
+		const v = (HEAD_PX + HAT_OVERLAY_EXPAND_PX) / BLOCK_PIXELS;
+		this.generateGeometry("head2", p, g, y, x, S, m, !1, v, v, v);
+		const w = Model.setGeometry({
+			positions: g,
+			normals: y,
+			uvs: x,
+			indices: S,
+		});
+		this.applyTransform(w, l);
+		const k = new Mesh(w, p);
+		(this.root = k), this.add(k);
+	}
+	applyTransform(l, u) {
+		const d = u.getProp("facing");
+		if (d == null) {
+			const p = u.getProp("rotation");
+			l.rotateY(-(p / 16) * 2 * Math.PI + Math.PI), l.translate(0, -0.25, 0);
+		} else {
+			l.rotateY(d.toAngleRadians());
+			const p = d.getOpposite().directionVec;
+			l.translate(p.x * 0.25, 0, p.z * 0.25);
+		}
+	}
+	render(l, u, d) {
+		lightSubtree(this, d.getVoxelBrightness(l.x, l.y, l.z));
+	}
+}
 const canvas$6 = document.getElementById("canvas-hud"),
 	ctx$5 = canvas$6.getContext("2d");
 function drawCircle(h, o, l, u, d = {}) {
@@ -177899,6 +178204,8 @@ class TileEntityRenderer {
 				return new ModelPiston(l, o);
 			case "bed":
 				return new ModelBed(l);
+			case "player_head":
+				return new ModelPlayerHead(l, o);
 		}
 		throw new Error(`Could not get model for tile entity ${d}`);
 	}
@@ -177927,6 +178234,15 @@ class TileEntityRenderer {
 		const m = l.toVec3();
 		if (o.name === "piston") {
 			(p.pos = l),
+				p.position.copy(m),
+				p.updateMatrix(),
+				this.scene.add(p),
+				this.tileEntityModels.set(l, p);
+			return;
+		}
+		if (o.name === "player_head") {
+			m.addScalar(0.5),
+				(p.pos = l),
 				p.position.copy(m),
 				p.updateMatrix(),
 				this.scene.add(p),
@@ -178436,41 +178752,11 @@ proto2.util.setEnumType(PBEnumFacing, "PBEnumFacing", [
 	{ no: 5, name: "WEST" },
 	{ no: 6, name: "EAST" },
 ]);
-const Fl = class Fl extends Message {
-	constructor(l) {
-		super();
-		b(this, "location");
-		b(this, "start");
-		proto2.util.initPartial(l, this);
-	}
-	static fromBinary(l, u) {
-		return new Fl().fromBinary(l, u);
-	}
-	static fromJson(l, u) {
-		return new Fl().fromJson(l, u);
-	}
-	static fromJsonString(l, u) {
-		return new Fl().fromJsonString(l, u);
-	}
-	static equals(l, u) {
-		return proto2.util.equals(Fl, l, u);
-	}
-};
-b(Fl, "runtime", proto2),
-	b(Fl, "typeName", "SPacketBreakBlock"),
-	b(
-		Fl,
-		"fields",
-		proto2.util.newFieldList(() => [
-			{ no: 1, name: "location", kind: "message", T: PBBlockPos },
-			{ no: 2, name: "start", kind: "scalar", T: 8, opt: !0 },
-		]),
-	);
-let SPacketBreakBlock = Fl;
 const $l = class $l extends Message {
 	constructor(l) {
 		super();
 		b(this, "location");
+		b(this, "start");
 		proto2.util.initPartial(l, this);
 	}
 	static fromBinary(l, u) {
@@ -178487,23 +178773,20 @@ const $l = class $l extends Message {
 	}
 };
 b($l, "runtime", proto2),
-	b($l, "typeName", "SPacketClick"),
+	b($l, "typeName", "SPacketBreakBlock"),
 	b(
 		$l,
 		"fields",
 		proto2.util.newFieldList(() => [
-			{ no: 1, name: "location", kind: "message", T: PBBlockPos, opt: !0 },
+			{ no: 1, name: "location", kind: "message", T: PBBlockPos },
+			{ no: 2, name: "start", kind: "scalar", T: 8, opt: !0 },
 		]),
 	);
-let SPacketClick = $l;
+let SPacketBreakBlock = $l;
 const Ul = class Ul extends Message {
 	constructor(l) {
 		super();
-		b(this, "positionIn");
-		b(this, "side");
-		b(this, "hitX");
-		b(this, "hitY");
-		b(this, "hitZ");
+		b(this, "location");
 		proto2.util.initPartial(l, this);
 	}
 	static fromBinary(l, u) {
@@ -178520,9 +178803,42 @@ const Ul = class Ul extends Message {
 	}
 };
 b(Ul, "runtime", proto2),
-	b(Ul, "typeName", "SPacketPlaceBlock"),
+	b(Ul, "typeName", "SPacketClick"),
 	b(
 		Ul,
+		"fields",
+		proto2.util.newFieldList(() => [
+			{ no: 1, name: "location", kind: "message", T: PBBlockPos, opt: !0 },
+		]),
+	);
+let SPacketClick = Ul;
+const ql = class ql extends Message {
+	constructor(l) {
+		super();
+		b(this, "positionIn");
+		b(this, "side");
+		b(this, "hitX");
+		b(this, "hitY");
+		b(this, "hitZ");
+		proto2.util.initPartial(l, this);
+	}
+	static fromBinary(l, u) {
+		return new ql().fromBinary(l, u);
+	}
+	static fromJson(l, u) {
+		return new ql().fromJson(l, u);
+	}
+	static fromJsonString(l, u) {
+		return new ql().fromJsonString(l, u);
+	}
+	static equals(l, u) {
+		return proto2.util.equals(ql, l, u);
+	}
+};
+b(ql, "runtime", proto2),
+	b(ql, "typeName", "SPacketPlaceBlock"),
+	b(
+		ql,
 		"fields",
 		proto2.util.newFieldList(() => [
 			{ no: 1, name: "positionIn", kind: "message", T: PBBlockPos },
@@ -178537,33 +178853,33 @@ b(Ul, "runtime", proto2),
 			{ no: 6, name: "hitZ", kind: "scalar", T: 2 },
 		]),
 	);
-let SPacketPlaceBlock = Ul;
-const ql = class ql extends Message {
+let SPacketPlaceBlock = ql;
+const Hl = class Hl extends Message {
 	constructor(o) {
 		super(), proto2.util.initPartial(o, this);
 	}
 	static fromBinary(o, l) {
-		return new ql().fromBinary(o, l);
+		return new Hl().fromBinary(o, l);
 	}
 	static fromJson(o, l) {
-		return new ql().fromJson(o, l);
+		return new Hl().fromJson(o, l);
 	}
 	static fromJsonString(o, l) {
-		return new ql().fromJsonString(o, l);
+		return new Hl().fromJsonString(o, l);
 	}
 	static equals(o, l) {
-		return proto2.util.equals(ql, o, l);
+		return proto2.util.equals(Hl, o, l);
 	}
 };
-b(ql, "runtime", proto2),
-	b(ql, "typeName", "SPacketUseItem"),
+b(Hl, "runtime", proto2),
+	b(Hl, "typeName", "SPacketUseItem"),
 	b(
-		ql,
+		Hl,
 		"fields",
 		proto2.util.newFieldList(() => []),
 	);
-let SPacketUseItem = ql;
-const Hl = class Hl extends Message {
+let SPacketUseItem = Hl;
+const Vl = class Vl extends Message {
 	constructor(l) {
 		super();
 		b(this, "windowId");
@@ -178572,42 +178888,6 @@ const Hl = class Hl extends Message {
 		b(this, "mode");
 		b(this, "itemStack");
 		b(this, "transactionId");
-		proto2.util.initPartial(l, this);
-	}
-	static fromBinary(l, u) {
-		return new Hl().fromBinary(l, u);
-	}
-	static fromJson(l, u) {
-		return new Hl().fromJson(l, u);
-	}
-	static fromJsonString(l, u) {
-		return new Hl().fromJsonString(l, u);
-	}
-	static equals(l, u) {
-		return proto2.util.equals(Hl, l, u);
-	}
-};
-b(Hl, "runtime", proto2),
-	b(Hl, "typeName", "SPacketClickWindow"),
-	b(
-		Hl,
-		"fields",
-		proto2.util.newFieldList(() => [
-			{ no: 1, name: "windowId", kind: "scalar", T: 5 },
-			{ no: 2, name: "slotId", kind: "scalar", T: 5 },
-			{ no: 4, name: "button", kind: "scalar", T: 5 },
-			{ no: 5, name: "mode", kind: "scalar", T: 5 },
-			{ no: 6, name: "itemStack", kind: "message", T: PBItemStack },
-			{ no: 7, name: "transactionId", kind: "scalar", T: 5 },
-		]),
-	);
-let SPacketClickWindow = Hl;
-const Vl = class Vl extends Message {
-	constructor(l) {
-		super();
-		b(this, "position");
-		b(this, "facing");
-		b(this, "action");
 		proto2.util.initPartial(l, this);
 	}
 	static fromBinary(l, u) {
@@ -178624,31 +178904,26 @@ const Vl = class Vl extends Message {
 	}
 };
 b(Vl, "runtime", proto2),
-	b(Vl, "typeName", "SPacketPlayerAction"),
+	b(Vl, "typeName", "SPacketClickWindow"),
 	b(
 		Vl,
 		"fields",
 		proto2.util.newFieldList(() => [
-			{ no: 1, name: "position", kind: "message", T: PBBlockPos },
-			{
-				no: 2,
-				name: "facing",
-				kind: "enum",
-				T: proto2.getEnumType(PBEnumFacing),
-			},
-			{ no: 3, name: "action", kind: "enum", T: proto2.getEnumType(PBAction) },
+			{ no: 1, name: "windowId", kind: "scalar", T: 5 },
+			{ no: 2, name: "slotId", kind: "scalar", T: 5 },
+			{ no: 4, name: "button", kind: "scalar", T: 5 },
+			{ no: 5, name: "mode", kind: "scalar", T: 5 },
+			{ no: 6, name: "itemStack", kind: "message", T: PBItemStack },
+			{ no: 7, name: "transactionId", kind: "scalar", T: 5 },
 		]),
 	);
-let SPacketPlayerAction = Vl;
+let SPacketClickWindow = Vl;
 const jl = class jl extends Message {
 	constructor(l) {
 		super();
-		b(this, "id");
+		b(this, "position");
+		b(this, "facing");
 		b(this, "action");
-		b(this, "hitVec");
-		b(this, "yaw");
-		b(this, "pitch");
-		b(this, "sequence");
 		proto2.util.initPartial(l, this);
 	}
 	static fromBinary(l, u) {
@@ -178665,9 +178940,50 @@ const jl = class jl extends Message {
 	}
 };
 b(jl, "runtime", proto2),
-	b(jl, "typeName", "SPacketUseEntity"),
+	b(jl, "typeName", "SPacketPlayerAction"),
 	b(
 		jl,
+		"fields",
+		proto2.util.newFieldList(() => [
+			{ no: 1, name: "position", kind: "message", T: PBBlockPos },
+			{
+				no: 2,
+				name: "facing",
+				kind: "enum",
+				T: proto2.getEnumType(PBEnumFacing),
+			},
+			{ no: 3, name: "action", kind: "enum", T: proto2.getEnumType(PBAction) },
+		]),
+	);
+let SPacketPlayerAction = jl;
+const Gl = class Gl extends Message {
+	constructor(l) {
+		super();
+		b(this, "id");
+		b(this, "action");
+		b(this, "hitVec");
+		b(this, "yaw");
+		b(this, "pitch");
+		b(this, "sequence");
+		proto2.util.initPartial(l, this);
+	}
+	static fromBinary(l, u) {
+		return new Gl().fromBinary(l, u);
+	}
+	static fromJson(l, u) {
+		return new Gl().fromJson(l, u);
+	}
+	static fromJsonString(l, u) {
+		return new Gl().fromJsonString(l, u);
+	}
+	static equals(l, u) {
+		return proto2.util.equals(Gl, l, u);
+	}
+};
+b(Gl, "runtime", proto2),
+	b(Gl, "typeName", "SPacketUseEntity"),
+	b(
+		Gl,
 		"fields",
 		proto2.util.newFieldList(() => [
 			{ no: 1, name: "id", kind: "scalar", T: 13 },
@@ -178683,7 +178999,7 @@ b(jl, "runtime", proto2),
 			{ no: 6, name: "sequence", kind: "scalar", T: 13, opt: !0 },
 		]),
 	);
-let SPacketUseEntity = jl;
+let SPacketUseEntity = Gl;
 var SPacketUseEntity_Action = ((h) => (
 	(h[(h.INTERACT = 0)] = "INTERACT"),
 	(h[(h.ATTACK = 1)] = "ATTACK"),
@@ -178695,6 +179011,105 @@ proto2.util.setEnumType(SPacketUseEntity_Action, "SPacketUseEntity.Action", [
 	{ no: 1, name: "ATTACK" },
 	{ no: 2, name: "INTERACT_AT" },
 ]);
+const LOOK_THRESHOLD = 0.6,
+	MOVE_THRESHOLD_SQ = 2.5 * 2.5,
+	JUMP_MIN_RISE = 0.1;
+class OnboardingManager {
+	constructor() {
+		b(this, "looked", !1);
+		b(this, "moved", !1);
+		b(this, "jumped", !1);
+		b(this, "broke", !1);
+		b(this, "placed", !1);
+		b(this, "openedInventory", !1);
+		b(this, "openedShop", !1);
+		b(this, "openedTeamSelect", !1);
+		b(this, "openedKitSelect", !1);
+		b(this, "openedChest", !1);
+		b(this, "collected", !1);
+		b(this, "bought", !1);
+		b(this, "shopOpen", !1);
+		b(this, "yaw0", null);
+		b(this, "pitch0", 0);
+		b(this, "x0", 0);
+		b(this, "z0", 0);
+		b(this, "wasOnGround", !0);
+		makeAutoObservable(this);
+	}
+	beginRun() {
+		(this.looked = !1),
+			(this.moved = !1),
+			(this.jumped = !1),
+			(this.broke = !1),
+			(this.placed = !1),
+			(this.openedInventory = !1),
+			(this.openedShop = !1),
+			(this.openedTeamSelect = !1),
+			(this.openedKitSelect = !1),
+			(this.openedChest = !1),
+			(this.collected = !1),
+			(this.bought = !1),
+			(this.shopOpen = !1),
+			(this.yaw0 = null);
+	}
+	markBroke() {
+		this.broke = !0;
+	}
+	markPlaced() {
+		this.placed = !0;
+	}
+	markInventoryOpened() {
+		this.openedInventory = !0;
+	}
+	markOpenedShop() {
+		this.openedShop = !0;
+	}
+	markOpenedTeamSelect() {
+		this.openedTeamSelect = !0;
+	}
+	markOpenedKitSelect() {
+		this.openedKitSelect = !0;
+	}
+	markOpenedChest() {
+		this.openedChest = !0;
+	}
+	markCollected() {
+		this.collected = !0;
+	}
+	setShopOpen(o) {
+		this.shopOpen = o;
+	}
+	markBought() {
+		this.shopOpen && (this.bought = !0);
+	}
+	sampleMovement(o) {
+		if (this.yaw0 === null) {
+			(this.yaw0 = o.yaw),
+				(this.pitch0 = o.pitch),
+				(this.x0 = o.x),
+				(this.z0 = o.z),
+				(this.wasOnGround = o.onGround);
+			return;
+		}
+		if (
+			(!this.looked &&
+				Math.abs(o.yaw - this.yaw0) + Math.abs(o.pitch - this.pitch0) >
+					LOOK_THRESHOLD &&
+				(this.looked = !0),
+			!this.moved)
+		) {
+			const l = o.x - this.x0,
+				u = o.z - this.z0;
+			l * l + u * u > MOVE_THRESHOLD_SQ && (this.moved = !0);
+		}
+		!this.jumped &&
+			(o.flying ||
+				(this.wasOnGround && !o.onGround && o.motionY > JUMP_MIN_RISE)) &&
+			(this.jumped = !0),
+			(this.wasOnGround = o.onGround);
+	}
+}
+const onboardingManager = new OnboardingManager();
 class Viewport {
 	constructor() {
 		b(this, "width", window.innerWidth);
@@ -179183,7 +179598,7 @@ function requireJquery() {
 							qr = "sizzle" + 1 * new Date(),
 							Lr = F.document,
 							ei = 0,
-							nn = 0,
+							an = 0,
 							In = ea(),
 							Mi = ea(),
 							Ui = ea(),
@@ -179202,14 +179617,14 @@ function requireJquery() {
 									if (je[gt] === ut) return gt;
 								return -1;
 							},
-							Cd =
+							Ad =
 								"checked|selected|async|autofocus|autoplay|controls|defer|disabled|hidden|ismap|loop|multiple|open|readonly|required|scoped",
 							Vn = "[\\x20\\t\\r\\n\\f]",
 							_s =
 								"(?:\\\\[\\da-fA-F]{1,6}" +
 								Vn +
 								"?|\\\\[^\\r\\n\\f]|[\\w-]|[^\0-\\x7f])+",
-							uh =
+							dh =
 								"\\[" +
 								Vn +
 								"*(" +
@@ -179223,11 +179638,11 @@ function requireJquery() {
 								"))|)" +
 								Vn +
 								"*\\]",
-							Hc =
+							jc =
 								":(" +
 								_s +
 								`)(?:\\((('((?:\\\\.|[^\\\\'])*)'|"((?:\\\\.|[^\\\\"])*)")|((?:\\\\.|[^\\\\()[\\]]|` +
-								uh +
+								dh +
 								")*)|.*)\\)|)",
 							Ma = new RegExp(Vn + "+", "g"),
 							Bs = new RegExp(
@@ -179235,16 +179650,16 @@ function requireJquery() {
 								"g",
 							),
 							xs = new RegExp("^" + Vn + "*," + Vn + "*"),
-							Id = new RegExp("^" + Vn + "*([>+~]|" + Vn + ")" + Vn + "*"),
-							Ad = new RegExp(Vn + "|>"),
-							ch = new RegExp(Hc),
-							dh = new RegExp("^" + _s + "$"),
+							Md = new RegExp("^" + Vn + "*([>+~]|" + Vn + ")" + Vn + "*"),
+							Rd = new RegExp(Vn + "|>"),
+							hh = new RegExp(jc),
+							fh = new RegExp("^" + _s + "$"),
 							Ko = {
 								ID: new RegExp("^#(" + _s + ")"),
 								CLASS: new RegExp("^\\.(" + _s + ")"),
 								TAG: new RegExp("^(" + _s + "|[*])"),
-								ATTR: new RegExp("^" + uh),
-								PSEUDO: new RegExp("^" + Hc),
+								ATTR: new RegExp("^" + dh),
+								PSEUDO: new RegExp("^" + jc),
 								CHILD: new RegExp(
 									"^:(only|first|last|nth|nth-last)-(child|of-type)(?:\\(" +
 										Vn +
@@ -179257,7 +179672,7 @@ function requireJquery() {
 										"*\\)|)",
 									"i",
 								),
-								bool: new RegExp("^(?:" + Cd + ")$", "i"),
+								bool: new RegExp("^(?:" + Ad + ")$", "i"),
 								needsContext: new RegExp(
 									"^" +
 										Vn +
@@ -179269,11 +179684,11 @@ function requireJquery() {
 									"i",
 								),
 							},
-							hh = /HTML$/i,
+							ph = /HTML$/i,
 							yo = /^(?:input|select|textarea|button)$/i,
 							_o = /^h\d$/i,
 							Yo = /^[^{]+\{\s*\[native \w/,
-							Lf = /^(?:#([\w-]+)|(\w+)|\.([\w-]+))$/,
+							Of = /^(?:#([\w-]+)|(\w+)|\.([\w-]+))$/,
 							xo = /[+~]/,
 							Ga = new RegExp(
 								"\\\\[\\da-fA-F]{1,6}" + Vn + "?|\\\\([^\\r\\n\\f])",
@@ -179292,7 +179707,7 @@ function requireJquery() {
 								);
 							},
 							Ss = /([\0-\x1f\x7f]|^-?\d)|^-$|[^\0-\x1f\x7f-\uFFFF\w-]/g,
-							fh = function (je, ut) {
+							mh = function (je, ut) {
 								return ut
 									? je === "\0"
 										? "�"
@@ -179305,7 +179720,7 @@ function requireJquery() {
 							Xo = function () {
 								Se();
 							},
-							Nf = hn(
+							Df = hn(
 								function (je) {
 									return (
 										je.disabled === !0 &&
@@ -179347,7 +179762,7 @@ function requireJquery() {
 							)
 								return gt;
 							if (!Gt && (Se(ut), (ut = ut || Fe), Ht)) {
-								if (kn !== 11 && (xr = Lf.exec(je)))
+								if (kn !== 11 && (xr = Of.exec(je)))
 									if ((Ct = xr[1])) {
 										if (kn === 9)
 											if ((er = ut.getElementById(Ct))) {
@@ -179379,13 +179794,13 @@ function requireJquery() {
 									if (
 										((Xr = je),
 										(tn = ut),
-										kn === 1 && (Ad.test(je) || Id.test(je)))
+										kn === 1 && (Rd.test(je) || Md.test(je)))
 									) {
 										for (
 											tn = (xo.test(je) && Wt(ut.parentNode)) || ut,
 												(tn !== ut || !J.scope) &&
 													((pr = ut.getAttribute("id"))
-														? (pr = pr.replace(Ss, fh))
+														? (pr = pr.replace(Ss, mh))
 														: ut.setAttribute("id", (pr = qr))),
 												Yr = ze(je),
 												zt = Yr.length;
@@ -179428,11 +179843,11 @@ function requireJquery() {
 								ut.parentNode && ut.parentNode.removeChild(ut), (ut = null);
 							}
 						}
-						function Vc(je, ut) {
+						function Gc(je, ut) {
 							for (var gt = je.split("|"), Gt = gt.length; Gt--; )
 								oe.attrHandle[gt[Gt]] = ut;
 						}
-						function Md(je, ut) {
+						function Pd(je, ut) {
 							var gt = ut && je,
 								Gt =
 									gt &&
@@ -179445,13 +179860,13 @@ function requireJquery() {
 							}
 							return je ? 1 : -1;
 						}
-						function Of(je) {
+						function zf(je) {
 							return function (ut) {
 								var gt = ut.nodeName.toLowerCase();
 								return gt === "input" && ut.type === je;
 							};
 						}
-						function Df(je) {
+						function Ff(je) {
 							return function (ut) {
 								var gt = ut.nodeName.toLowerCase();
 								return (gt === "input" || gt === "button") && ut.type === je;
@@ -179466,7 +179881,7 @@ function requireJquery() {
 												? ut.parentNode.disabled === je
 												: ut.disabled === je
 											: ut.isDisabled === je ||
-												(ut.isDisabled !== !je && Nf(ut) === je)
+												(ut.isDisabled !== !je && Df(ut) === je)
 										: ut.disabled === je
 									: "label" in ut
 										? ut.disabled === je
@@ -179495,7 +179910,7 @@ function requireJquery() {
 								function (je) {
 									var ut = je && je.namespaceURI,
 										gt = je && (je.ownerDocument || je).documentElement;
-									return !hh.test(ut || (gt && gt.nodeName) || "HTML");
+									return !ph.test(ut || (gt && gt.nodeName) || "HTML");
 								}),
 							(Se = qn.setDocument =
 								function (je) {
@@ -179637,7 +180052,7 @@ function requireJquery() {
 														Ct.querySelectorAll("[msallowcapture^='']")
 															.length && Xt.push("[*^$]=" + Vn + `*(?:''|"")`),
 														Ct.querySelectorAll("[selected]").length ||
-															Xt.push("\\[" + Vn + "*(?:value|" + Cd + ")"),
+															Xt.push("\\[" + Vn + "*(?:value|" + Ad + ")"),
 														Ct.querySelectorAll("[id~=" + qr + "-]").length ||
 															Xt.push("~="),
 														(zt = Fe.createElement("input")),
@@ -179687,7 +180102,7 @@ function requireJquery() {
 												Ra(function (Ct) {
 													(J.disconnectedMatch = Br.call(Ct, "*")),
 														Br.call(Ct, "[s!='']:x"),
-														ur.push("!=", Hc);
+														ur.push("!=", jc);
 												}),
 											J.cssHas || Xt.push(":has"),
 											(Xt = Xt.length && new RegExp(Xt.join("|"))),
@@ -179769,14 +180184,14 @@ function requireJquery() {
 																			: qt
 																				? Ps(qt, Ct) - Ps(qt, zt)
 																				: 0;
-														if (xr === Yr) return Md(Ct, zt);
+														if (xr === Yr) return Pd(Ct, zt);
 														for (er = Ct; (er = er.parentNode); )
 															Xr.unshift(er);
 														for (er = zt; (er = er.parentNode); )
 															tn.unshift(er);
 														for (; Xr[pr] === tn[pr]; ) pr++;
 														return pr
-															? Md(Xr[pr], tn[pr])
+															? Pd(Xr[pr], tn[pr])
 															: Xr[pr] == Lr
 																? -1
 																: tn[pr] == Lr
@@ -179830,7 +180245,7 @@ function requireJquery() {
 											: null;
 							}),
 							(qn.escape = function (je) {
-								return (je + "").replace(Ss, fh);
+								return (je + "").replace(Ss, mh);
 							}),
 							(qn.error = function (je) {
 								throw new Error("Syntax error, unrecognized expression: " + je);
@@ -179913,7 +180328,7 @@ function requireJquery() {
 												: (je[3]
 														? (je[2] = je[4] || je[5] || "")
 														: gt &&
-															ch.test(gt) &&
+															hh.test(gt) &&
 															(ut = ze(gt, !0)) &&
 															(ut =
 																gt.indexOf(")", gt.length - ut) - gt.length) &&
@@ -180142,7 +180557,7 @@ function requireJquery() {
 										}),
 										lang: ca(function (je) {
 											return (
-												dh.test(je || "") ||
+												fh.test(je || "") ||
 													qn.error("unsupported lang: " + je),
 												(je = je.replace(Ga, ki).toLowerCase()),
 												function (ut) {
@@ -180262,8 +180677,8 @@ function requireJquery() {
 							password: !0,
 							image: !0,
 						})
-							oe.pseudos[G] = Of(G);
-						for (G in { submit: !0, reset: !0 }) oe.pseudos[G] = Df(G);
+							oe.pseudos[G] = zf(G);
+						for (G in { submit: !0, reset: !0 }) oe.pseudos[G] = Ff(G);
 						function Ot() {}
 						(Ot.prototype = oe.filters = oe.pseudos),
 							(oe.setFilters = new Ot()),
@@ -180283,7 +180698,7 @@ function requireJquery() {
 											(Gt && (er = er.slice(Gt[0].length) || er),
 											pr.push((Ct = []))),
 											(gt = !1),
-											(Gt = Id.exec(er)) &&
+											(Gt = Md.exec(er)) &&
 												((gt = Gt.shift()),
 												Ct.push({ value: gt, type: Gt[0].replace(Bs, " ") }),
 												(er = er.slice(gt.length)));
@@ -180311,7 +180726,7 @@ function requireJquery() {
 								Ct = ut.next,
 								zt = Ct || Gt,
 								er = gt && zt === "parentNode",
-								pr = nn++;
+								pr = an++;
 							return ut.first
 								? function (xr, Yr, Xr) {
 										for (; (xr = xr[Gt]); )
@@ -180408,7 +180823,7 @@ function requireJquery() {
 								})
 							);
 						}
-						function Rd(je) {
+						function Bd(je) {
 							for (
 								var ut,
 									gt,
@@ -180460,8 +180875,8 @@ function requireJquery() {
 														}),
 												).replace(Bs, "$1"),
 											gt,
-											pr < Gt && Rd(je.slice(pr, Gt)),
-											Gt < Ct && Rd((je = je.slice(Gt))),
+											pr < Gt && Bd(je.slice(pr, Gt)),
+											Gt < Ct && Bd((je = je.slice(Gt))),
 											Gt < Ct && kr(je),
 										);
 									}
@@ -180531,7 +180946,7 @@ function requireJquery() {
 										zt = Ui[je + " "];
 									if (!zt) {
 										for (ut || (ut = ze(je)), gt = ut.length; gt--; )
-											(zt = Rd(ut[gt])), zt[qr] ? Gt.push(zt) : Ct.push(zt);
+											(zt = Bd(ut[gt])), zt[qr] ? Gt.push(zt) : Ct.push(zt);
 										(zt = Ui(je, za(Ct, Gt))), (zt.selector = je);
 									}
 									return zt;
@@ -180604,7 +181019,7 @@ function requireJquery() {
 									je.firstChild.getAttribute("href") === "#"
 								);
 							}) ||
-								Vc("type|href|height|width", function (je, ut, gt) {
+								Gc("type|href|height|width", function (je, ut, gt) {
 									if (!gt)
 										return je.getAttribute(
 											ut,
@@ -180619,14 +181034,14 @@ function requireJquery() {
 										je.firstChild.getAttribute("value") === ""
 									);
 								})) &&
-								Vc("value", function (je, ut, gt) {
+								Gc("value", function (je, ut, gt) {
 									if (!gt && je.nodeName.toLowerCase() === "input")
 										return je.defaultValue;
 								}),
 							Ra(function (je) {
 								return je.getAttribute("disabled") == null;
 							}) ||
-								Vc(Cd, function (je, ut, gt) {
+								Gc(Ad, function (je, ut, gt) {
 									var Gt;
 									if (!gt)
 										return je[ut] === !0
@@ -183510,7 +183925,7 @@ function requireJquery() {
 							};
 						});
 					var Sr = /^(?:input|select|textarea|button)$/i,
-						li = /^(?:a|area)$/i;
+						ui = /^(?:a|area)$/i;
 					B.fn.extend({
 						prop: function (F, G) {
 							return ke(this, B.prop, F, G, arguments.length > 1);
@@ -183545,7 +183960,7 @@ function requireJquery() {
 										var G = B.find.attr(F, "tabindex");
 										return G
 											? parseInt(G, 10)
-											: Sr.test(F.nodeName) || (li.test(F.nodeName) && F.href)
+											: Sr.test(F.nodeName) || (ui.test(F.nodeName) && F.href)
 												? 0
 												: -1;
 									},
@@ -183587,7 +184002,7 @@ function requireJquery() {
 						var G = F.match(Pe) || [];
 						return G.join(" ");
 					}
-					function si(F) {
+					function oi(F) {
 						return (F.getAttribute && F.getAttribute("class")) || "";
 					}
 					function gi(F) {
@@ -183602,13 +184017,13 @@ function requireJquery() {
 							var G, J, oe, we, Ie, ze;
 							return C(F)
 								? this.each(function (dt) {
-										B(this).addClass(F.call(this, dt, si(this)));
+										B(this).addClass(F.call(this, dt, oi(this)));
 									})
 								: ((G = gi(F)),
 									G.length
 										? this.each(function () {
 												if (
-													((oe = si(this)),
+													((oe = oi(this)),
 													(J = this.nodeType === 1 && " " + cn(oe) + " "),
 													J)
 												) {
@@ -183625,14 +184040,14 @@ function requireJquery() {
 							var G, J, oe, we, Ie, ze;
 							return C(F)
 								? this.each(function (dt) {
-										B(this).removeClass(F.call(this, dt, si(this)));
+										B(this).removeClass(F.call(this, dt, oi(this)));
 									})
 								: arguments.length
 									? ((G = gi(F)),
 										G.length
 											? this.each(function () {
 													if (
-														((oe = si(this)),
+														((oe = oi(this)),
 														(J = this.nodeType === 1 && " " + cn(oe) + " "),
 														J)
 													) {
@@ -183655,7 +184070,7 @@ function requireJquery() {
 								dt = ze === "string" || Array.isArray(F);
 							return C(F)
 								? this.each(function (at) {
-										B(this).toggleClass(F.call(this, at, si(this), G), G);
+										B(this).toggleClass(F.call(this, at, oi(this), G), G);
 									})
 								: typeof G == "boolean" && dt
 									? G
@@ -183671,7 +184086,7 @@ function requireJquery() {
 															: Ie.addClass(oe);
 											else
 												(F === void 0 || ze === "boolean") &&
-													((oe = si(this)),
+													((oe = oi(this)),
 													oe && ne.set(this, "__className__", oe),
 													this.setAttribute &&
 														this.setAttribute(
@@ -183687,7 +184102,7 @@ function requireJquery() {
 								J,
 								oe = 0;
 							for (G = " " + F + " "; (J = this[oe++]); )
-								if (J.nodeType === 1 && (" " + cn(si(J)) + " ").indexOf(G) > -1)
+								if (J.nodeType === 1 && (" " + cn(oi(J)) + " ").indexOf(G) > -1)
 									return !0;
 							return !1;
 						},
@@ -184217,7 +184632,7 @@ function requireJquery() {
 								qr = "canceled",
 								Lr = {
 									readyState: 0,
-									getResponseHeader: function (nn) {
+									getResponseHeader: function (an) {
 										var In;
 										if (at) {
 											if (!Ie)
@@ -184225,34 +184640,34 @@ function requireJquery() {
 													Ie[In[1].toLowerCase() + " "] = (
 														Ie[In[1].toLowerCase() + " "] || []
 													).concat(In[2]);
-											In = Ie[nn.toLowerCase() + " "];
+											In = Ie[an.toLowerCase() + " "];
 										}
 										return In == null ? null : In.join(", ");
 									},
 									getAllResponseHeaders: function () {
 										return at ? we : null;
 									},
-									setRequestHeader: function (nn, In) {
+									setRequestHeader: function (an, In) {
 										return (
 											at == null &&
-												((nn = Fr[nn.toLowerCase()] =
-													Fr[nn.toLowerCase()] || nn),
-												(Br[nn] = In)),
+												((an = Fr[an.toLowerCase()] =
+													Fr[an.toLowerCase()] || an),
+												(Br[an] = In)),
 											this
 										);
 									},
-									overrideMimeType: function (nn) {
-										return at == null && (Se.mimeType = nn), this;
+									overrideMimeType: function (an) {
+										return at == null && (Se.mimeType = an), this;
 									},
-									statusCode: function (nn) {
+									statusCode: function (an) {
 										var In;
-										if (nn)
-											if (at) Lr.always(nn[Lr.status]);
-											else for (In in nn) ur[In] = [ur[In], nn[In]];
+										if (an)
+											if (at) Lr.always(an[Lr.status]);
+											else for (In in an) ur[In] = [ur[In], an[In]];
 										return this;
 									},
-									abort: function (nn) {
-										var In = nn || qr;
+									abort: function (an) {
+										var In = an || qr;
 										return J && J.abort(In), ei(0, In), this;
 									},
 								};
@@ -184356,12 +184771,12 @@ function requireJquery() {
 									}, Se.timeout));
 								try {
 									(at = !1), J.send(Br, ei);
-								} catch (nn) {
-									if (at) throw nn;
-									ei(-1, nn);
+								} catch (an) {
+									if (at) throw an;
+									ei(-1, an);
 								}
 							}
-							function ei(nn, In, Mi, Ui) {
+							function ei(an, In, Mi, Ui) {
 								var di,
 									bi,
 									wi,
@@ -184373,8 +184788,8 @@ function requireJquery() {
 									ze && o.clearTimeout(ze),
 									(J = void 0),
 									(we = Ui || ""),
-									(Lr.readyState = nn > 0 ? 4 : 0),
-									(di = (nn >= 200 && nn < 300) || nn === 304),
+									(Lr.readyState = an > 0 ? 4 : 0),
+									(di = (an >= 200 && an < 300) || an === 304),
 									Mi && (Ri = Aa(Se, Lr, Mi)),
 									!di &&
 										B.inArray("script", Se.dataTypes) > -1 &&
@@ -184387,17 +184802,17 @@ function requireJquery() {
 												ua && (B.lastModified[oe] = ua),
 												(ua = Lr.getResponseHeader("etag")),
 												ua && (B.etag[oe] = ua)),
-											nn === 204 || Se.type === "HEAD"
+											an === 204 || Se.type === "HEAD"
 												? (Ni = "nocontent")
-												: nn === 304
+												: an === 304
 													? (Ni = "notmodified")
 													: ((Ni = Ri.state),
 														(bi = Ri.data),
 														(wi = Ri.error),
 														(di = !wi)))
 										: ((wi = Ni),
-											(nn || !Ni) && ((Ni = "error"), nn < 0 && (nn = 0))),
-									(Lr.status = nn),
+											(an || !Ni) && ((Ni = "error"), an < 0 && (an = 0))),
+									(Lr.status = an),
 									(Lr.statusText = (In || Ni) + ""),
 									di
 										? Ht.resolveWith(Fe, [bi, Ni, Lr])
@@ -185018,35 +185433,35 @@ function requireJquery() {
 }
 var jqueryExports = requireJquery();
 const $ = getDefaultExportFromCjs(jqueryExports),
-	Gl = class Gl extends Message {
+	Wl = class Wl extends Message {
 		constructor(l) {
 			super();
 			b(this, "text");
 			proto2.util.initPartial(l, this);
 		}
 		static fromBinary(l, u) {
-			return new Gl().fromBinary(l, u);
+			return new Wl().fromBinary(l, u);
 		}
 		static fromJson(l, u) {
-			return new Gl().fromJson(l, u);
+			return new Wl().fromJson(l, u);
 		}
 		static fromJsonString(l, u) {
-			return new Gl().fromJsonString(l, u);
+			return new Wl().fromJsonString(l, u);
 		}
 		static equals(l, u) {
-			return proto2.util.equals(Gl, l, u);
+			return proto2.util.equals(Wl, l, u);
 		}
 	};
-b(Gl, "runtime", proto2),
-	b(Gl, "typeName", "SPacketMessage"),
+b(Wl, "runtime", proto2),
+	b(Wl, "typeName", "SPacketMessage"),
 	b(
-		Gl,
+		Wl,
 		"fields",
 		proto2.util.newFieldList(() => [
 			{ no: 1, name: "text", kind: "scalar", T: 9 },
 		]),
 	);
-let SPacketMessage = Gl;
+let SPacketMessage = Wl;
 function utf8Count(h) {
 	for (var o = h.length, l = 0, u = 0; u < o; ) {
 		var d = h.charCodeAt(u++);
@@ -186473,7 +186888,7 @@ const REACT_RENDER_OP = "ui.react.render",
 	_jsxFileName$1 =
 		"/home/runner/work/sentry-javascript/sentry-javascript/packages/react/src/profiler.tsx",
 	UNKNOWN_COMPONENT$1 = "unknown";
-let Profiler$1 = class $g extends reactExports.Component {
+let Profiler$1 = class qg extends reactExports.Component {
 	__init() {
 		this._mountSpan = void 0;
 	}
@@ -186484,7 +186899,7 @@ let Profiler$1 = class $g extends reactExports.Component {
 		this.defaultProps = { disabled: !1, includeRender: !0, includeUpdates: !0 };
 	}
 	constructor(o) {
-		super(o), $g.prototype.__init.call(this), $g.prototype.__init2.call(this);
+		super(o), qg.prototype.__init.call(this), qg.prototype.__init2.call(this);
 		const { name: l, disabled: u = !1 } = this.props;
 		if (u) return;
 		const d = getActiveTransaction();
@@ -186771,44 +187186,11 @@ let Decoder$1 = class extends Emitter$1 {
 	}
 	destroy() {}
 };
-const Wl = class Wl extends Message {
+const Kl = class Kl extends Message {
 	constructor(l) {
 		super();
 		b(this, "id");
 		b(this, "type");
-		proto2.util.initPartial(l, this);
-	}
-	static fromBinary(l, u) {
-		return new Wl().fromBinary(l, u);
-	}
-	static fromJson(l, u) {
-		return new Wl().fromJson(l, u);
-	}
-	static fromJsonString(l, u) {
-		return new Wl().fromJsonString(l, u);
-	}
-	static equals(l, u) {
-		return proto2.util.equals(Wl, l, u);
-	}
-};
-b(Wl, "runtime", proto2),
-	b(Wl, "typeName", "CPacketAnimation"),
-	b(
-		Wl,
-		"fields",
-		proto2.util.newFieldList(() => [
-			{ no: 1, name: "id", kind: "scalar", T: 13 },
-			{ no: 2, name: "type", kind: "scalar", T: 13 },
-		]),
-	);
-let CPacketAnimation = Wl;
-const Kl = class Kl extends Message {
-	constructor(l) {
-		super();
-		b(this, "blockPos");
-		b(this, "instrument");
-		b(this, "pitch");
-		b(this, "blockId");
 		proto2.util.initPartial(l, this);
 	}
 	static fromBinary(l, u) {
@@ -186825,26 +187207,23 @@ const Kl = class Kl extends Message {
 	}
 };
 b(Kl, "runtime", proto2),
-	b(Kl, "typeName", "CPacketBlockAction"),
+	b(Kl, "typeName", "CPacketAnimation"),
 	b(
 		Kl,
 		"fields",
 		proto2.util.newFieldList(() => [
-			{ no: 1, name: "blockPos", kind: "message", T: PBBlockPos },
-			{ no: 2, name: "instrument", kind: "scalar", T: 17 },
-			{ no: 3, name: "pitch", kind: "scalar", T: 17 },
-			{ no: 4, name: "blockId", kind: "scalar", T: 13 },
+			{ no: 1, name: "id", kind: "scalar", T: 13 },
+			{ no: 2, name: "type", kind: "scalar", T: 13 },
 		]),
 	);
-let CPacketBlockAction = Kl;
+let CPacketAnimation = Kl;
 const Yl = class Yl extends Message {
 	constructor(l) {
 		super();
-		b(this, "id");
-		b(this, "x");
-		b(this, "y");
-		b(this, "z");
-		b(this, "prerender");
+		b(this, "blockPos");
+		b(this, "instrument");
+		b(this, "pitch");
+		b(this, "blockId");
 		proto2.util.initPartial(l, this);
 	}
 	static fromBinary(l, u) {
@@ -186861,23 +187240,26 @@ const Yl = class Yl extends Message {
 	}
 };
 b(Yl, "runtime", proto2),
-	b(Yl, "typeName", "CPacketBlockUpdate"),
+	b(Yl, "typeName", "CPacketBlockAction"),
 	b(
 		Yl,
 		"fields",
 		proto2.util.newFieldList(() => [
-			{ no: 1, name: "id", kind: "scalar", T: 13 },
-			{ no: 2, name: "x", kind: "scalar", T: 17 },
-			{ no: 3, name: "y", kind: "scalar", T: 17 },
-			{ no: 4, name: "z", kind: "scalar", T: 17 },
-			{ no: 5, name: "prerender", kind: "scalar", T: 8, opt: !0 },
+			{ no: 1, name: "blockPos", kind: "message", T: PBBlockPos },
+			{ no: 2, name: "instrument", kind: "scalar", T: 17 },
+			{ no: 3, name: "pitch", kind: "scalar", T: 17 },
+			{ no: 4, name: "blockId", kind: "scalar", T: 13 },
 		]),
 	);
-let CPacketBlockUpdate = Yl;
+let CPacketBlockAction = Yl;
 const Xl = class Xl extends Message {
 	constructor(l) {
 		super();
-		b(this, "url");
+		b(this, "id");
+		b(this, "x");
+		b(this, "y");
+		b(this, "z");
+		b(this, "prerender");
 		proto2.util.initPartial(l, this);
 	}
 	static fromBinary(l, u) {
@@ -186894,19 +187276,23 @@ const Xl = class Xl extends Message {
 	}
 };
 b(Xl, "runtime", proto2),
-	b(Xl, "typeName", "CPacketChangeServers"),
+	b(Xl, "typeName", "CPacketBlockUpdate"),
 	b(
 		Xl,
 		"fields",
 		proto2.util.newFieldList(() => [
-			{ no: 1, name: "url", kind: "scalar", T: 9 },
+			{ no: 1, name: "id", kind: "scalar", T: 13 },
+			{ no: 2, name: "x", kind: "scalar", T: 17 },
+			{ no: 3, name: "y", kind: "scalar", T: 17 },
+			{ no: 4, name: "z", kind: "scalar", T: 17 },
+			{ no: 5, name: "prerender", kind: "scalar", T: 8, opt: !0 },
 		]),
 	);
-let CPacketChangeServers = Xl;
+let CPacketBlockUpdate = Xl;
 const Zl = class Zl extends Message {
 	constructor(l) {
 		super();
-		b(this, "windowId");
+		b(this, "url");
 		proto2.util.initPartial(l, this);
 	}
 	static fromBinary(l, u) {
@@ -186923,22 +187309,22 @@ const Zl = class Zl extends Message {
 	}
 };
 b(Zl, "runtime", proto2),
-	b(Zl, "typeName", "CPacketCloseWindow"),
+	b(Zl, "typeName", "CPacketChangeServers"),
 	b(
 		Zl,
 		"fields",
 		proto2.util.newFieldList(() => [
-			{ no: 1, name: "windowId", kind: "scalar", T: 13 },
+			{ no: 1, name: "url", kind: "scalar", T: 9 },
 		]),
 	);
-let CPacketCloseWindow = Zl;
+let CPacketChangeServers = Zl;
 const Jl = class Jl extends Message {
 	constructor(l) {
 		super();
-		b(this, "windowId");
-		b(this, "uid");
-		b(this, "accepted");
-		proto2.util.initPartial(l, this);
+		b(this, "x", 0);
+		b(this, "z", 0);
+		b(this, "dimension", 0);
+		proto3.util.initPartial(l, this);
 	}
 	static fromBinary(l, u) {
 		return new Jl().fromBinary(l, u);
@@ -186950,25 +187336,25 @@ const Jl = class Jl extends Message {
 		return new Jl().fromJsonString(l, u);
 	}
 	static equals(l, u) {
-		return proto2.util.equals(Jl, l, u);
+		return proto3.util.equals(Jl, l, u);
 	}
 };
-b(Jl, "runtime", proto2),
-	b(Jl, "typeName", "CPacketConfirmTransaction"),
+b(Jl, "runtime", proto3),
+	b(Jl, "typeName", "CPacketChunkUnchanged"),
 	b(
 		Jl,
 		"fields",
-		proto2.util.newFieldList(() => [
-			{ no: 1, name: "windowId", kind: "scalar", T: 5 },
-			{ no: 2, name: "uid", kind: "scalar", T: 5 },
-			{ no: 3, name: "accepted", kind: "scalar", T: 8 },
+		proto3.util.newFieldList(() => [
+			{ no: 1, name: "x", kind: "scalar", T: 17 },
+			{ no: 2, name: "z", kind: "scalar", T: 17 },
+			{ no: 3, name: "dimension", kind: "scalar", T: 5 },
 		]),
 	);
-let CPacketConfirmTransaction = Jl;
+let CPacketChunkUnchanged = Jl;
 const Ql = class Ql extends Message {
 	constructor(l) {
 		super();
-		b(this, "ids", []);
+		b(this, "windowId");
 		proto2.util.initPartial(l, this);
 	}
 	static fromBinary(l, u) {
@@ -186985,19 +187371,21 @@ const Ql = class Ql extends Message {
 	}
 };
 b(Ql, "runtime", proto2),
-	b(Ql, "typeName", "CPacketDestroyEntities"),
+	b(Ql, "typeName", "CPacketCloseWindow"),
 	b(
 		Ql,
 		"fields",
 		proto2.util.newFieldList(() => [
-			{ no: 1, name: "ids", kind: "scalar", T: 13, repeated: !0 },
+			{ no: 1, name: "windowId", kind: "scalar", T: 13 },
 		]),
 	);
-let CPacketDestroyEntities = Ql;
+let CPacketCloseWindow = Ql;
 const eu = class eu extends Message {
 	constructor(l) {
 		super();
-		b(this, "reason");
+		b(this, "windowId");
+		b(this, "uid");
+		b(this, "accepted");
 		proto2.util.initPartial(l, this);
 	}
 	static fromBinary(l, u) {
@@ -187014,23 +187402,21 @@ const eu = class eu extends Message {
 	}
 };
 b(eu, "runtime", proto2),
-	b(eu, "typeName", "CPacketDisconnect"),
+	b(eu, "typeName", "CPacketConfirmTransaction"),
 	b(
 		eu,
 		"fields",
 		proto2.util.newFieldList(() => [
-			{ no: 1, name: "reason", kind: "scalar", T: 9 },
+			{ no: 1, name: "windowId", kind: "scalar", T: 5 },
+			{ no: 2, name: "uid", kind: "scalar", T: 5 },
+			{ no: 3, name: "accepted", kind: "scalar", T: 8 },
 		]),
 	);
-let CPacketDisconnect = eu;
+let CPacketConfirmTransaction = eu;
 const tu = class tu extends Message {
 	constructor(l) {
 		super();
-		b(this, "id");
-		b(this, "sneak");
-		b(this, "sprinting");
-		b(this, "punching");
-		b(this, "fire");
+		b(this, "ids", []);
 		proto2.util.initPartial(l, this);
 	}
 	static fromBinary(l, u) {
@@ -187047,25 +187433,19 @@ const tu = class tu extends Message {
 	}
 };
 b(tu, "runtime", proto2),
-	b(tu, "typeName", "CPacketEntityAction"),
+	b(tu, "typeName", "CPacketDestroyEntities"),
 	b(
 		tu,
 		"fields",
 		proto2.util.newFieldList(() => [
-			{ no: 1, name: "id", kind: "scalar", T: 13 },
-			{ no: 2, name: "sneak", kind: "scalar", T: 8, opt: !0 },
-			{ no: 3, name: "sprinting", kind: "scalar", T: 8, opt: !0 },
-			{ no: 4, name: "punching", kind: "scalar", T: 8, opt: !0 },
-			{ no: 20, name: "fire", kind: "scalar", T: 5, opt: !0 },
+			{ no: 1, name: "ids", kind: "scalar", T: 13, repeated: !0 },
 		]),
 	);
-let CPacketEntityAction = tu;
+let CPacketDestroyEntities = tu;
 const ru = class ru extends Message {
 	constructor(l) {
 		super();
-		b(this, "leash");
-		b(this, "entity");
-		b(this, "vehicle");
+		b(this, "reason");
 		proto2.util.initPartial(l, this);
 	}
 	static fromBinary(l, u) {
@@ -187082,22 +187462,23 @@ const ru = class ru extends Message {
 	}
 };
 b(ru, "runtime", proto2),
-	b(ru, "typeName", "CPacketEntityAttach"),
+	b(ru, "typeName", "CPacketDisconnect"),
 	b(
 		ru,
 		"fields",
 		proto2.util.newFieldList(() => [
-			{ no: 1, name: "leash", kind: "scalar", T: 13 },
-			{ no: 2, name: "entity", kind: "scalar", T: 13 },
-			{ no: 3, name: "vehicle", kind: "scalar", T: 17 },
+			{ no: 1, name: "reason", kind: "scalar", T: 9 },
 		]),
 	);
-let CPacketEntityAttach = ru;
+let CPacketDisconnect = ru;
 const nu = class nu extends Message {
 	constructor(l) {
 		super();
 		b(this, "id");
-		b(this, "data", []);
+		b(this, "sneak");
+		b(this, "sprinting");
+		b(this, "punching");
+		b(this, "fire");
 		proto2.util.initPartial(l, this);
 	}
 	static fromBinary(l, u) {
@@ -187114,33 +187495,25 @@ const nu = class nu extends Message {
 	}
 };
 b(nu, "runtime", proto2),
-	b(nu, "typeName", "CPacketEntityMetadata"),
+	b(nu, "typeName", "CPacketEntityAction"),
 	b(
 		nu,
 		"fields",
 		proto2.util.newFieldList(() => [
 			{ no: 1, name: "id", kind: "scalar", T: 13 },
-			{
-				no: 2,
-				name: "data",
-				kind: "message",
-				T: PBWatchableObject,
-				repeated: !0,
-			},
+			{ no: 2, name: "sneak", kind: "scalar", T: 8, opt: !0 },
+			{ no: 3, name: "sprinting", kind: "scalar", T: 8, opt: !0 },
+			{ no: 4, name: "punching", kind: "scalar", T: 8, opt: !0 },
+			{ no: 20, name: "fire", kind: "scalar", T: 5, opt: !0 },
 		]),
 	);
-let CPacketEntityMetadata = nu;
+let CPacketEntityAction = nu;
 const iu = class iu extends Message {
 	constructor(l) {
 		super();
-		b(this, "dataValueId");
-		b(this, "objectType");
-		b(this, "intValue");
-		b(this, "floatValue");
-		b(this, "stringValue");
-		b(this, "vector");
-		b(this, "itemStack");
-		b(this, "blockPos");
+		b(this, "leash");
+		b(this, "entity");
+		b(this, "vehicle");
 		proto2.util.initPartial(l, this);
 	}
 	static fromBinary(l, u) {
@@ -187157,31 +187530,22 @@ const iu = class iu extends Message {
 	}
 };
 b(iu, "runtime", proto2),
-	b(iu, "typeName", "PBWatchableObject"),
+	b(iu, "typeName", "CPacketEntityAttach"),
 	b(
 		iu,
 		"fields",
 		proto2.util.newFieldList(() => [
-			{ no: 1, name: "dataValueId", kind: "scalar", T: 13 },
-			{ no: 2, name: "objectType", kind: "scalar", T: 13 },
-			{ no: 3, name: "intValue", kind: "scalar", T: 17, opt: !0 },
-			{ no: 4, name: "floatValue", kind: "scalar", T: 2, opt: !0 },
-			{ no: 5, name: "stringValue", kind: "scalar", T: 9, opt: !0 },
-			{ no: 6, name: "vector", kind: "message", T: PBVector3, opt: !0 },
-			{ no: 7, name: "itemStack", kind: "message", T: PBItemStack, opt: !0 },
-			{ no: 8, name: "blockPos", kind: "message", T: PBBlockPos, opt: !0 },
+			{ no: 1, name: "leash", kind: "scalar", T: 13 },
+			{ no: 2, name: "entity", kind: "scalar", T: 13 },
+			{ no: 3, name: "vehicle", kind: "scalar", T: 17 },
 		]),
 	);
-let PBWatchableObject = iu;
+let CPacketEntityAttach = iu;
 const au = class au extends Message {
 	constructor(l) {
 		super();
 		b(this, "id");
-		b(this, "pos");
-		b(this, "vel");
-		b(this, "yaw");
-		b(this, "pitch");
-		b(this, "onGround");
+		b(this, "data", []);
 		proto2.util.initPartial(l, this);
 	}
 	static fromBinary(l, u) {
@@ -187198,29 +187562,33 @@ const au = class au extends Message {
 	}
 };
 b(au, "runtime", proto2),
-	b(au, "typeName", "CPacketEntityPositionAndRotation"),
+	b(au, "typeName", "CPacketEntityMetadata"),
 	b(
 		au,
 		"fields",
 		proto2.util.newFieldList(() => [
 			{ no: 1, name: "id", kind: "scalar", T: 13 },
-			{ no: 2, name: "pos", kind: "message", T: PBVector3, opt: !0 },
-			{ no: 3, name: "vel", kind: "message", T: PBVector3, opt: !0 },
-			{ no: 4, name: "yaw", kind: "scalar", T: 2, opt: !0 },
-			{ no: 5, name: "pitch", kind: "scalar", T: 2, opt: !0 },
-			{ no: 6, name: "onGround", kind: "scalar", T: 8, opt: !0 },
+			{
+				no: 2,
+				name: "data",
+				kind: "message",
+				T: PBWatchableObject,
+				repeated: !0,
+			},
 		]),
 	);
-let CPacketEntityPositionAndRotation = au;
+let CPacketEntityMetadata = au;
 const su = class su extends Message {
 	constructor(l) {
 		super();
-		b(this, "id");
-		b(this, "pos");
-		b(this, "vel");
-		b(this, "yaw");
-		b(this, "pitch");
-		b(this, "onGround");
+		b(this, "dataValueId");
+		b(this, "objectType");
+		b(this, "intValue");
+		b(this, "floatValue");
+		b(this, "stringValue");
+		b(this, "vector");
+		b(this, "itemStack");
+		b(this, "blockPos");
 		proto2.util.initPartial(l, this);
 	}
 	static fromBinary(l, u) {
@@ -187237,25 +187605,31 @@ const su = class su extends Message {
 	}
 };
 b(su, "runtime", proto2),
-	b(su, "typeName", "CPacketEntityRelativePositionAndRotation"),
+	b(su, "typeName", "PBWatchableObject"),
 	b(
 		su,
 		"fields",
 		proto2.util.newFieldList(() => [
-			{ no: 1, name: "id", kind: "scalar", T: 13 },
-			{ no: 2, name: "pos", kind: "message", T: PBVector3, opt: !0 },
-			{ no: 3, name: "vel", kind: "message", T: PBVector3, opt: !0 },
-			{ no: 4, name: "yaw", kind: "scalar", T: 17, opt: !0 },
-			{ no: 5, name: "pitch", kind: "scalar", T: 17, opt: !0 },
-			{ no: 6, name: "onGround", kind: "scalar", T: 8, opt: !0 },
+			{ no: 1, name: "dataValueId", kind: "scalar", T: 13 },
+			{ no: 2, name: "objectType", kind: "scalar", T: 13 },
+			{ no: 3, name: "intValue", kind: "scalar", T: 17, opt: !0 },
+			{ no: 4, name: "floatValue", kind: "scalar", T: 2, opt: !0 },
+			{ no: 5, name: "stringValue", kind: "scalar", T: 9, opt: !0 },
+			{ no: 6, name: "vector", kind: "message", T: PBVector3, opt: !0 },
+			{ no: 7, name: "itemStack", kind: "message", T: PBItemStack, opt: !0 },
+			{ no: 8, name: "blockPos", kind: "message", T: PBBlockPos, opt: !0 },
 		]),
 	);
-let CPacketEntityRelativePositionAndRotation = su;
+let PBWatchableObject = su;
 const ou = class ou extends Message {
 	constructor(l) {
 		super();
-		b(this, "entityId");
-		b(this, "entityStatus");
+		b(this, "id");
+		b(this, "pos");
+		b(this, "vel");
+		b(this, "yaw");
+		b(this, "pitch");
+		b(this, "onGround");
 		proto2.util.initPartial(l, this);
 	}
 	static fromBinary(l, u) {
@@ -187272,23 +187646,29 @@ const ou = class ou extends Message {
 	}
 };
 b(ou, "runtime", proto2),
-	b(ou, "typeName", "CPacketEntityStatus"),
+	b(ou, "typeName", "CPacketEntityPositionAndRotation"),
 	b(
 		ou,
 		"fields",
 		proto2.util.newFieldList(() => [
-			{ no: 1, name: "entityId", kind: "scalar", T: 13 },
-			{ no: 2, name: "entityStatus", kind: "scalar", T: 5 },
+			{ no: 1, name: "id", kind: "scalar", T: 13 },
+			{ no: 2, name: "pos", kind: "message", T: PBVector3, opt: !0 },
+			{ no: 3, name: "vel", kind: "message", T: PBVector3, opt: !0 },
+			{ no: 4, name: "yaw", kind: "scalar", T: 2, opt: !0 },
+			{ no: 5, name: "pitch", kind: "scalar", T: 2, opt: !0 },
+			{ no: 6, name: "onGround", kind: "scalar", T: 8, opt: !0 },
 		]),
 	);
-let CPacketEntityStatus = ou;
+let CPacketEntityPositionAndRotation = ou;
 const lu = class lu extends Message {
 	constructor(l) {
 		super();
+		b(this, "id");
 		b(this, "pos");
-		b(this, "strength");
-		b(this, "blocks", []);
-		b(this, "playerPos");
+		b(this, "vel");
+		b(this, "yaw");
+		b(this, "pitch");
+		b(this, "onGround");
 		proto2.util.initPartial(l, this);
 	}
 	static fromBinary(l, u) {
@@ -187305,27 +187685,25 @@ const lu = class lu extends Message {
 	}
 };
 b(lu, "runtime", proto2),
-	b(lu, "typeName", "CPacketExplosion"),
+	b(lu, "typeName", "CPacketEntityRelativePositionAndRotation"),
 	b(
 		lu,
 		"fields",
 		proto2.util.newFieldList(() => [
-			{ no: 1, name: "pos", kind: "message", T: PBFloatVector3 },
-			{ no: 2, name: "strength", kind: "scalar", T: 2 },
-			{ no: 3, name: "blocks", kind: "message", T: PBBlockPos, repeated: !0 },
-			{ no: 4, name: "playerPos", kind: "message", T: PBFloatVector3 },
+			{ no: 1, name: "id", kind: "scalar", T: 13 },
+			{ no: 2, name: "pos", kind: "message", T: PBVector3, opt: !0 },
+			{ no: 3, name: "vel", kind: "message", T: PBVector3, opt: !0 },
+			{ no: 4, name: "yaw", kind: "scalar", T: 17, opt: !0 },
+			{ no: 5, name: "pitch", kind: "scalar", T: 17, opt: !0 },
+			{ no: 6, name: "onGround", kind: "scalar", T: 8, opt: !0 },
 		]),
 	);
-let CPacketExplosion = lu;
+let CPacketEntityRelativePositionAndRotation = lu;
 const uu = class uu extends Message {
 	constructor(l) {
 		super();
-		b(this, "skin");
-		b(this, "cape");
-		b(this, "aura");
-		b(this, "trail");
-		b(this, "color");
-		b(this, "hat");
+		b(this, "entityId");
+		b(this, "entityStatus");
 		proto2.util.initPartial(l, this);
 	}
 	static fromBinary(l, u) {
@@ -187342,9 +187720,79 @@ const uu = class uu extends Message {
 	}
 };
 b(uu, "runtime", proto2),
-	b(uu, "typeName", "PBCosmetics"),
+	b(uu, "typeName", "CPacketEntityStatus"),
 	b(
 		uu,
+		"fields",
+		proto2.util.newFieldList(() => [
+			{ no: 1, name: "entityId", kind: "scalar", T: 13 },
+			{ no: 2, name: "entityStatus", kind: "scalar", T: 5 },
+		]),
+	);
+let CPacketEntityStatus = uu;
+const cu = class cu extends Message {
+	constructor(l) {
+		super();
+		b(this, "pos");
+		b(this, "strength");
+		b(this, "blocks", []);
+		b(this, "playerPos");
+		proto2.util.initPartial(l, this);
+	}
+	static fromBinary(l, u) {
+		return new cu().fromBinary(l, u);
+	}
+	static fromJson(l, u) {
+		return new cu().fromJson(l, u);
+	}
+	static fromJsonString(l, u) {
+		return new cu().fromJsonString(l, u);
+	}
+	static equals(l, u) {
+		return proto2.util.equals(cu, l, u);
+	}
+};
+b(cu, "runtime", proto2),
+	b(cu, "typeName", "CPacketExplosion"),
+	b(
+		cu,
+		"fields",
+		proto2.util.newFieldList(() => [
+			{ no: 1, name: "pos", kind: "message", T: PBFloatVector3 },
+			{ no: 2, name: "strength", kind: "scalar", T: 2 },
+			{ no: 3, name: "blocks", kind: "message", T: PBBlockPos, repeated: !0 },
+			{ no: 4, name: "playerPos", kind: "message", T: PBFloatVector3 },
+		]),
+	);
+let CPacketExplosion = cu;
+const du = class du extends Message {
+	constructor(l) {
+		super();
+		b(this, "skin");
+		b(this, "cape");
+		b(this, "aura");
+		b(this, "trail");
+		b(this, "color");
+		b(this, "hat");
+		proto2.util.initPartial(l, this);
+	}
+	static fromBinary(l, u) {
+		return new du().fromBinary(l, u);
+	}
+	static fromJson(l, u) {
+		return new du().fromJson(l, u);
+	}
+	static fromJsonString(l, u) {
+		return new du().fromJsonString(l, u);
+	}
+	static equals(l, u) {
+		return proto2.util.equals(du, l, u);
+	}
+};
+b(du, "runtime", proto2),
+	b(du, "typeName", "PBCosmetics"),
+	b(
+		du,
 		"fields",
 		proto2.util.newFieldList(() => [
 			{ no: 1, name: "skin", kind: "scalar", T: 9, opt: !0 },
@@ -187355,8 +187803,8 @@ b(uu, "runtime", proto2),
 			{ no: 6, name: "hat", kind: "scalar", T: 9, opt: !0 },
 		]),
 	);
-let PBCosmetics = uu;
-const cu = class cu extends Message {
+let PBCosmetics = du;
+const hu = class hu extends Message {
 	constructor(l) {
 		super();
 		b(this, "serverId");
@@ -187377,22 +187825,22 @@ const cu = class cu extends Message {
 		proto2.util.initPartial(l, this);
 	}
 	static fromBinary(l, u) {
-		return new cu().fromBinary(l, u);
+		return new hu().fromBinary(l, u);
 	}
 	static fromJson(l, u) {
-		return new cu().fromJson(l, u);
+		return new hu().fromJson(l, u);
 	}
 	static fromJsonString(l, u) {
-		return new cu().fromJsonString(l, u);
+		return new hu().fromJsonString(l, u);
 	}
 	static equals(l, u) {
-		return proto2.util.equals(cu, l, u);
+		return proto2.util.equals(hu, l, u);
 	}
 };
-b(cu, "runtime", proto2),
-	b(cu, "typeName", "CPacketServerInfo"),
+b(hu, "runtime", proto2),
+	b(hu, "typeName", "CPacketServerInfo"),
 	b(
-		cu,
+		hu,
 		"fields",
 		proto2.util.newFieldList(() => [
 			{ no: 1, name: "server_id", kind: "scalar", T: 9 },
@@ -187418,8 +187866,8 @@ b(cu, "runtime", proto2),
 			{ no: 15, name: "scripting_enabled", kind: "scalar", T: 8, opt: !0 },
 		]),
 	);
-let CPacketServerInfo = cu;
-const du = class du extends Message {
+let CPacketServerInfo = hu;
+const fu = class fu extends Message {
 	constructor(l) {
 		super();
 		b(this, "uuid");
@@ -187432,22 +187880,22 @@ const du = class du extends Message {
 		proto2.util.initPartial(l, this);
 	}
 	static fromBinary(l, u) {
-		return new du().fromBinary(l, u);
+		return new fu().fromBinary(l, u);
 	}
 	static fromJson(l, u) {
-		return new du().fromJson(l, u);
+		return new fu().fromJson(l, u);
 	}
 	static fromJsonString(l, u) {
-		return new du().fromJsonString(l, u);
+		return new fu().fromJsonString(l, u);
 	}
 	static equals(l, u) {
-		return proto2.util.equals(du, l, u);
+		return proto2.util.equals(fu, l, u);
 	}
 };
-b(du, "runtime", proto2),
-	b(du, "typeName", "PlayerPermissionEntry"),
+b(fu, "runtime", proto2),
+	b(fu, "typeName", "PlayerPermissionEntry"),
 	b(
-		du,
+		fu,
 		"fields",
 		proto2.util.newFieldList(() => [
 			{ no: 1, name: "uuid", kind: "scalar", T: 9 },
@@ -187459,8 +187907,8 @@ b(du, "runtime", proto2),
 			{ no: 7, name: "verified", kind: "scalar", T: 8, opt: !0 },
 		]),
 	);
-let PlayerPermissionEntry = du;
-const hu = class hu extends Message {
+let PlayerPermissionEntry = fu;
+const pu = class pu extends Message {
 	constructor(l) {
 		super();
 		b(this, "canConnect");
@@ -187477,22 +187925,22 @@ const hu = class hu extends Message {
 		proto2.util.initPartial(l, this);
 	}
 	static fromBinary(l, u) {
-		return new hu().fromBinary(l, u);
+		return new pu().fromBinary(l, u);
 	}
 	static fromJson(l, u) {
-		return new hu().fromJson(l, u);
+		return new pu().fromJson(l, u);
 	}
 	static fromJsonString(l, u) {
-		return new hu().fromJsonString(l, u);
+		return new pu().fromJsonString(l, u);
 	}
 	static equals(l, u) {
-		return proto2.util.equals(hu, l, u);
+		return proto2.util.equals(pu, l, u);
 	}
 };
-b(hu, "runtime", proto2),
-	b(hu, "typeName", "CPacketJoinGame"),
+b(pu, "runtime", proto2),
+	b(pu, "typeName", "CPacketJoinGame"),
 	b(
-		hu,
+		pu,
 		"fields",
 		proto2.util.newFieldList(() => [
 			{ no: 1, name: "can_connect", kind: "scalar", T: 8 },
@@ -187520,8 +187968,8 @@ b(hu, "runtime", proto2),
 			{ no: 15, name: "dimension", kind: "scalar", T: 5, opt: !0 },
 		]),
 	);
-let CPacketJoinGame = hu;
-const fu = class fu extends Message {
+let CPacketJoinGame = pu;
+const mu = class mu extends Message {
 	constructor(l) {
 		super();
 		b(this, "id");
@@ -187529,97 +187977,6 @@ const fu = class fu extends Message {
 		b(this, "yaw");
 		b(this, "title");
 		b(this, "content", []);
-		proto2.util.initPartial(l, this);
-	}
-	static fromBinary(l, u) {
-		return new fu().fromBinary(l, u);
-	}
-	static fromJson(l, u) {
-		return new fu().fromJson(l, u);
-	}
-	static fromJsonString(l, u) {
-		return new fu().fromJsonString(l, u);
-	}
-	static equals(l, u) {
-		return proto2.util.equals(fu, l, u);
-	}
-};
-b(fu, "runtime", proto2),
-	b(fu, "typeName", "CPacketLeaderboard"),
-	b(
-		fu,
-		"fields",
-		proto2.util.newFieldList(() => [
-			{ no: 1, name: "id", kind: "scalar", T: 9 },
-			{ no: 2, name: "pos", kind: "message", T: PBVector3 },
-			{ no: 3, name: "yaw", kind: "scalar", T: 2, opt: !0 },
-			{ no: 4, name: "title", kind: "scalar", T: 9 },
-			{ no: 5, name: "content", kind: "scalar", T: 9, repeated: !0 },
-		]),
-	);
-let CPacketLeaderboard = fu;
-const pu = class pu extends Message {
-	constructor(l) {
-		super();
-		b(this, "action");
-		b(this, "key");
-		b(this, "value");
-		proto2.util.initPartial(l, this);
-	}
-	static fromBinary(l, u) {
-		return new pu().fromBinary(l, u);
-	}
-	static fromJson(l, u) {
-		return new pu().fromJson(l, u);
-	}
-	static fromJsonString(l, u) {
-		return new pu().fromJsonString(l, u);
-	}
-	static equals(l, u) {
-		return proto2.util.equals(pu, l, u);
-	}
-};
-b(pu, "runtime", proto2),
-	b(pu, "typeName", "CPacketLocalStorage"),
-	b(
-		pu,
-		"fields",
-		proto2.util.newFieldList(() => [
-			{
-				no: 1,
-				name: "action",
-				kind: "enum",
-				T: proto2.getEnumType(CPacketLocalStorage_Action),
-			},
-			{ no: 2, name: "key", kind: "scalar", T: 9 },
-			{ no: 3, name: "value", kind: "scalar", T: 9, opt: !0 },
-		]),
-	);
-let CPacketLocalStorage = pu;
-var CPacketLocalStorage_Action = ((h) => (
-	(h[(h.DEFAULT = 0)] = "DEFAULT"),
-	(h[(h.REMOVE = 1)] = "REMOVE"),
-	(h[(h.SET = 2)] = "SET"),
-	h
-))(CPacketLocalStorage_Action || {});
-proto2.util.setEnumType(
-	CPacketLocalStorage_Action,
-	"CPacketLocalStorage.Action",
-	[
-		{ no: 0, name: "DEFAULT" },
-		{ no: 1, name: "REMOVE" },
-		{ no: 2, name: "SET" },
-	],
-);
-const mu = class mu extends Message {
-	constructor(l) {
-		super();
-		b(this, "text");
-		b(this, "id");
-		b(this, "color");
-		b(this, "discard");
-		b(this, "toast");
-		b(this, "timer");
 		proto2.util.initPartial(l, this);
 	}
 	static fromBinary(l, u) {
@@ -187636,24 +187993,25 @@ const mu = class mu extends Message {
 	}
 };
 b(mu, "runtime", proto2),
-	b(mu, "typeName", "CPacketMessage"),
+	b(mu, "typeName", "CPacketLeaderboard"),
 	b(
 		mu,
 		"fields",
 		proto2.util.newFieldList(() => [
-			{ no: 1, name: "text", kind: "scalar", T: 9, opt: !0 },
-			{ no: 3, name: "id", kind: "scalar", T: 9, opt: !0 },
-			{ no: 4, name: "color", kind: "scalar", T: 9, opt: !0 },
-			{ no: 5, name: "discard", kind: "scalar", T: 8, opt: !0 },
-			{ no: 6, name: "toast", kind: "scalar", T: 8, opt: !0 },
-			{ no: 7, name: "timer", kind: "scalar", T: 5, opt: !0 },
+			{ no: 1, name: "id", kind: "scalar", T: 9 },
+			{ no: 2, name: "pos", kind: "message", T: PBVector3 },
+			{ no: 3, name: "yaw", kind: "scalar", T: 2, opt: !0 },
+			{ no: 4, name: "title", kind: "scalar", T: 9 },
+			{ no: 5, name: "content", kind: "scalar", T: 9, repeated: !0 },
 		]),
 	);
-let CPacketMessage = mu;
+let CPacketLeaderboard = mu;
 const gu = class gu extends Message {
 	constructor(l) {
 		super();
-		b(this, "type");
+		b(this, "action");
+		b(this, "key");
+		b(this, "value");
 		proto2.util.initPartial(l, this);
 	}
 	static fromBinary(l, u) {
@@ -187670,22 +188028,46 @@ const gu = class gu extends Message {
 	}
 };
 b(gu, "runtime", proto2),
-	b(gu, "typeName", "CPacketOpenShop"),
+	b(gu, "typeName", "CPacketLocalStorage"),
 	b(
 		gu,
 		"fields",
 		proto2.util.newFieldList(() => [
-			{ no: 1, name: "type", kind: "scalar", T: 9 },
+			{
+				no: 1,
+				name: "action",
+				kind: "enum",
+				T: proto2.getEnumType(CPacketLocalStorage_Action),
+			},
+			{ no: 2, name: "key", kind: "scalar", T: 9 },
+			{ no: 3, name: "value", kind: "scalar", T: 9, opt: !0 },
 		]),
 	);
-let CPacketOpenShop = gu;
+let CPacketLocalStorage = gu;
+var CPacketLocalStorage_Action = ((h) => (
+	(h[(h.DEFAULT = 0)] = "DEFAULT"),
+	(h[(h.REMOVE = 1)] = "REMOVE"),
+	(h[(h.SET = 2)] = "SET"),
+	h
+))(CPacketLocalStorage_Action || {});
+proto2.util.setEnumType(
+	CPacketLocalStorage_Action,
+	"CPacketLocalStorage.Action",
+	[
+		{ no: 0, name: "DEFAULT" },
+		{ no: 1, name: "REMOVE" },
+		{ no: 2, name: "SET" },
+	],
+);
 const yu = class yu extends Message {
 	constructor(l) {
 		super();
-		b(this, "windowId");
-		b(this, "guiID");
-		b(this, "title");
-		b(this, "size");
+		b(this, "text");
+		b(this, "id");
+		b(this, "color");
+		b(this, "discard");
+		b(this, "toast");
+		b(this, "timer");
 		proto2.util.initPartial(l, this);
 	}
 	static fromBinary(l, u) {
@@ -187702,32 +188084,24 @@ const yu = class yu extends Message {
 	}
 };
 b(yu, "runtime", proto2),
-	b(yu, "typeName", "CPacketOpenWindow"),
+	b(yu, "typeName", "CPacketMessage"),
 	b(
 		yu,
 		"fields",
 		proto2.util.newFieldList(() => [
-			{ no: 1, name: "windowId", kind: "scalar", T: 5 },
-			{ no: 2, name: "guiID", kind: "scalar", T: 9 },
-			{ no: 3, name: "title", kind: "scalar", T: 9, opt: !0 },
-			{ no: 4, name: "size", kind: "scalar", T: 5, opt: !0 },
+			{ no: 1, name: "text", kind: "scalar", T: 9, opt: !0 },
+			{ no: 3, name: "id", kind: "scalar", T: 9, opt: !0 },
+			{ no: 4, name: "color", kind: "scalar", T: 9, opt: !0 },
+			{ no: 5, name: "discard", kind: "scalar", T: 8, opt: !0 },
+			{ no: 6, name: "toast", kind: "scalar", T: 8, opt: !0 },
+			{ no: 7, name: "timer", kind: "scalar", T: 5, opt: !0 },
 		]),
 	);
-let CPacketOpenWindow = yu;
+let CPacketMessage = yu;
 const _u = class _u extends Message {
 	constructor(l) {
 		super();
-		b(this, "particleId");
-		b(this, "longDistance");
-		b(this, "x");
-		b(this, "y");
-		b(this, "z");
-		b(this, "xOffset");
-		b(this, "yOffset");
-		b(this, "zOffset");
-		b(this, "speed");
-		b(this, "count");
-		b(this, "particleArguments", []);
+		b(this, "type");
 		proto2.util.initPartial(l, this);
 	}
 	static fromBinary(l, u) {
@@ -187744,29 +188118,22 @@ const _u = class _u extends Message {
 	}
 };
 b(_u, "runtime", proto2),
-	b(_u, "typeName", "CPacketParticles"),
+	b(_u, "typeName", "CPacketOpenShop"),
 	b(
 		_u,
 		"fields",
 		proto2.util.newFieldList(() => [
-			{ no: 1, name: "particleId", kind: "scalar", T: 5 },
-			{ no: 2, name: "longDistance", kind: "scalar", T: 8, opt: !0 },
-			{ no: 3, name: "x", kind: "scalar", T: 2, opt: !0 },
-			{ no: 4, name: "y", kind: "scalar", T: 2, opt: !0 },
-			{ no: 5, name: "z", kind: "scalar", T: 2, opt: !0 },
-			{ no: 6, name: "xOffset", kind: "scalar", T: 2, opt: !0 },
-			{ no: 7, name: "yOffset", kind: "scalar", T: 2, opt: !0 },
-			{ no: 8, name: "zOffset", kind: "scalar", T: 2, opt: !0 },
-			{ no: 9, name: "speed", kind: "scalar", T: 2, opt: !0 },
-			{ no: 10, name: "count", kind: "scalar", T: 5, opt: !0 },
-			{ no: 11, name: "particleArguments", kind: "scalar", T: 5, repeated: !0 },
+			{ no: 1, name: "type", kind: "scalar", T: 9 },
 		]),
 	);
-let CPacketParticles = _u;
+let CPacketOpenShop = _u;
 const xu = class xu extends Message {
 	constructor(l) {
 		super();
-		b(this, "players", []);
+		b(this, "windowId");
+		b(this, "guiID");
+		b(this, "title");
+		b(this, "size");
 		proto2.util.initPartial(l, this);
 	}
 	static fromBinary(l, u) {
@@ -187783,27 +188150,32 @@ const xu = class xu extends Message {
 	}
 };
 b(xu, "runtime", proto2),
-	b(xu, "typeName", "CPacketPlayerList"),
+	b(xu, "typeName", "CPacketOpenWindow"),
 	b(
 		xu,
 		"fields",
 		proto2.util.newFieldList(() => [
-			{ no: 1, name: "players", kind: "message", T: PlayerData, repeated: !0 },
+			{ no: 1, name: "windowId", kind: "scalar", T: 5 },
+			{ no: 2, name: "guiID", kind: "scalar", T: 9 },
+			{ no: 3, name: "title", kind: "scalar", T: 9, opt: !0 },
+			{ no: 4, name: "size", kind: "scalar", T: 5, opt: !0 },
 		]),
 	);
-let CPacketPlayerList = xu;
+let CPacketOpenWindow = xu;
 const Su = class Su extends Message {
 	constructor(l) {
 		super();
-		b(this, "id");
-		b(this, "uuid");
-		b(this, "permissionLevel");
-		b(this, "ping");
-		b(this, "name");
-		b(this, "color");
-		b(this, "rank");
-		b(this, "level");
-		b(this, "verified");
+		b(this, "particleId");
+		b(this, "longDistance");
+		b(this, "x");
+		b(this, "y");
+		b(this, "z");
+		b(this, "xOffset");
+		b(this, "yOffset");
+		b(this, "zOffset");
+		b(this, "speed");
+		b(this, "count");
+		b(this, "particleArguments", []);
 		proto2.util.initPartial(l, this);
 	}
 	static fromBinary(l, u) {
@@ -187820,31 +188192,29 @@ const Su = class Su extends Message {
 	}
 };
 b(Su, "runtime", proto2),
-	b(Su, "typeName", "PlayerData"),
+	b(Su, "typeName", "CPacketParticles"),
 	b(
 		Su,
 		"fields",
 		proto2.util.newFieldList(() => [
-			{ no: 1, name: "id", kind: "scalar", T: 13 },
-			{ no: 9, name: "uuid", kind: "scalar", T: 9 },
-			{ no: 10, name: "permission_level", kind: "scalar", T: 5 },
-			{ no: 2, name: "ping", kind: "scalar", T: 13, opt: !0 },
-			{ no: 4, name: "name", kind: "scalar", T: 9, opt: !0 },
-			{ no: 5, name: "color", kind: "scalar", T: 9, opt: !0 },
-			{ no: 6, name: "rank", kind: "scalar", T: 9, opt: !0 },
-			{ no: 7, name: "level", kind: "scalar", T: 13, opt: !0 },
-			{ no: 8, name: "verified", kind: "scalar", T: 8, opt: !0 },
+			{ no: 1, name: "particleId", kind: "scalar", T: 5 },
+			{ no: 2, name: "longDistance", kind: "scalar", T: 8, opt: !0 },
+			{ no: 3, name: "x", kind: "scalar", T: 2, opt: !0 },
+			{ no: 4, name: "y", kind: "scalar", T: 2, opt: !0 },
+			{ no: 5, name: "z", kind: "scalar", T: 2, opt: !0 },
+			{ no: 6, name: "xOffset", kind: "scalar", T: 2, opt: !0 },
+			{ no: 7, name: "yOffset", kind: "scalar", T: 2, opt: !0 },
+			{ no: 8, name: "zOffset", kind: "scalar", T: 2, opt: !0 },
+			{ no: 9, name: "speed", kind: "scalar", T: 2, opt: !0 },
+			{ no: 10, name: "count", kind: "scalar", T: 5, opt: !0 },
+			{ no: 11, name: "particleArguments", kind: "scalar", T: 5, repeated: !0 },
 		]),
 	);
-let PlayerData = Su;
+let CPacketParticles = Su;
 const vu = class vu extends Message {
 	constructor(l) {
 		super();
-		b(this, "x");
-		b(this, "y");
-		b(this, "z");
-		b(this, "yaw");
-		b(this, "pitch");
+		b(this, "players", []);
 		proto2.util.initPartial(l, this);
 	}
 	static fromBinary(l, u) {
@@ -187861,25 +188231,27 @@ const vu = class vu extends Message {
 	}
 };
 b(vu, "runtime", proto2),
-	b(vu, "typeName", "CPacketPlayerPosLook"),
+	b(vu, "typeName", "CPacketPlayerList"),
 	b(
 		vu,
 		"fields",
 		proto2.util.newFieldList(() => [
-			{ no: 1, name: "x", kind: "scalar", T: 2 },
-			{ no: 2, name: "y", kind: "scalar", T: 2 },
-			{ no: 3, name: "z", kind: "scalar", T: 2 },
-			{ no: 4, name: "yaw", kind: "scalar", T: 2 },
-			{ no: 5, name: "pitch", kind: "scalar", T: 2 },
+			{ no: 1, name: "players", kind: "message", T: PlayerData, repeated: !0 },
 		]),
 	);
-let CPacketPlayerPosLook = vu;
+let CPacketPlayerList = vu;
 const bu = class bu extends Message {
 	constructor(l) {
 		super();
-		b(this, "x");
-		b(this, "y");
-		b(this, "z");
+		b(this, "id");
+		b(this, "uuid");
+		b(this, "permissionLevel");
+		b(this, "ping");
+		b(this, "name");
+		b(this, "color");
+		b(this, "rank");
+		b(this, "level");
+		b(this, "verified");
 		proto2.util.initPartial(l, this);
 	}
 	static fromBinary(l, u) {
@@ -187896,17 +188268,23 @@ const bu = class bu extends Message {
 	}
 };
 b(bu, "runtime", proto2),
-	b(bu, "typeName", "CPacketPlayerPosition"),
+	b(bu, "typeName", "PlayerData"),
 	b(
 		bu,
 		"fields",
 		proto2.util.newFieldList(() => [
-			{ no: 1, name: "x", kind: "scalar", T: 2 },
-			{ no: 2, name: "y", kind: "scalar", T: 2 },
-			{ no: 3, name: "z", kind: "scalar", T: 2 },
+			{ no: 1, name: "id", kind: "scalar", T: 13 },
+			{ no: 9, name: "uuid", kind: "scalar", T: 9 },
+			{ no: 10, name: "permission_level", kind: "scalar", T: 5 },
+			{ no: 2, name: "ping", kind: "scalar", T: 13, opt: !0 },
+			{ no: 4, name: "name", kind: "scalar", T: 9, opt: !0 },
+			{ no: 5, name: "color", kind: "scalar", T: 9, opt: !0 },
+			{ no: 6, name: "rank", kind: "scalar", T: 9, opt: !0 },
+			{ no: 7, name: "level", kind: "scalar", T: 13, opt: !0 },
+			{ no: 8, name: "verified", kind: "scalar", T: 8, opt: !0 },
 		]),
 	);
-let CPacketPlayerPosition = bu;
+let PlayerData = bu;
 const wu = class wu extends Message {
 	constructor(l) {
 		super();
@@ -187915,10 +188293,6 @@ const wu = class wu extends Message {
 		b(this, "z");
 		b(this, "yaw");
 		b(this, "pitch");
-		b(this, "lastProcessedInput");
-		b(this, "reset");
-		b(this, "ackId");
-		b(this, "onGround");
 		proto2.util.initPartial(l, this);
 	}
 	static fromBinary(l, u) {
@@ -187935,7 +188309,7 @@ const wu = class wu extends Message {
 	}
 };
 b(wu, "runtime", proto2),
-	b(wu, "typeName", "CPacketPlayerReconciliation"),
+	b(wu, "typeName", "CPacketPlayerPosLook"),
 	b(
 		wu,
 		"fields",
@@ -187945,19 +188319,15 @@ b(wu, "runtime", proto2),
 			{ no: 3, name: "z", kind: "scalar", T: 2 },
 			{ no: 4, name: "yaw", kind: "scalar", T: 2 },
 			{ no: 5, name: "pitch", kind: "scalar", T: 2 },
-			{ no: 6, name: "lastProcessedInput", kind: "scalar", T: 13 },
-			{ no: 7, name: "reset", kind: "scalar", T: 8, opt: !0 },
-			{ no: 8, name: "ackId", kind: "scalar", T: 13, opt: !0 },
-			{ no: 9, name: "onGround", kind: "scalar", T: 8, opt: !0 },
 		]),
 	);
-let CPacketPlayerReconciliation = wu;
+let CPacketPlayerPosLook = wu;
 const ku = class ku extends Message {
 	constructor(l) {
 		super();
-		b(this, "time");
-		b(this, "mspt");
-		b(this, "tick");
+		b(this, "x");
+		b(this, "y");
+		b(this, "z");
 		proto2.util.initPartial(l, this);
 	}
 	static fromBinary(l, u) {
@@ -187974,23 +188344,29 @@ const ku = class ku extends Message {
 	}
 };
 b(ku, "runtime", proto2),
-	b(ku, "typeName", "CPacketPong"),
+	b(ku, "typeName", "CPacketPlayerPosition"),
 	b(
 		ku,
 		"fields",
 		proto2.util.newFieldList(() => [
-			{ no: 1, name: "time", kind: "scalar", T: 4 },
-			{ no: 2, name: "mspt", kind: "scalar", T: 2 },
-			{ no: 4, name: "tick", kind: "scalar", T: 13 },
+			{ no: 1, name: "x", kind: "scalar", T: 2 },
+			{ no: 2, name: "y", kind: "scalar", T: 2 },
+			{ no: 3, name: "z", kind: "scalar", T: 2 },
 		]),
 	);
-let CPacketPong = ku;
+let CPacketPlayerPosition = ku;
 const Eu = class Eu extends Message {
 	constructor(l) {
 		super();
-		b(this, "notDeath");
-		b(this, "client");
-		b(this, "dimension");
+		b(this, "x");
+		b(this, "y");
+		b(this, "z");
+		b(this, "yaw");
+		b(this, "pitch");
+		b(this, "lastProcessedInput");
+		b(this, "reset");
+		b(this, "ackId");
+		b(this, "onGround");
 		proto2.util.initPartial(l, this);
 	}
 	static fromBinary(l, u) {
@@ -188007,22 +188383,29 @@ const Eu = class Eu extends Message {
 	}
 };
 b(Eu, "runtime", proto2),
-	b(Eu, "typeName", "CPacketRespawn"),
+	b(Eu, "typeName", "CPacketPlayerReconciliation"),
 	b(
 		Eu,
 		"fields",
 		proto2.util.newFieldList(() => [
-			{ no: 1, name: "notDeath", kind: "scalar", T: 8, opt: !0 },
-			{ no: 2, name: "client", kind: "scalar", T: 8, opt: !0 },
-			{ no: 3, name: "dimension", kind: "scalar", T: 5, opt: !0 },
+			{ no: 1, name: "x", kind: "scalar", T: 2 },
+			{ no: 2, name: "y", kind: "scalar", T: 2 },
+			{ no: 3, name: "z", kind: "scalar", T: 2 },
+			{ no: 4, name: "yaw", kind: "scalar", T: 2 },
+			{ no: 5, name: "pitch", kind: "scalar", T: 2 },
+			{ no: 6, name: "lastProcessedInput", kind: "scalar", T: 13 },
+			{ no: 7, name: "reset", kind: "scalar", T: 8, opt: !0 },
+			{ no: 8, name: "ackId", kind: "scalar", T: 13, opt: !0 },
+			{ no: 9, name: "onGround", kind: "scalar", T: 8, opt: !0 },
 		]),
 	);
-let CPacketRespawn = Eu;
+let CPacketPlayerReconciliation = Eu;
 const Tu = class Tu extends Message {
 	constructor(l) {
 		super();
-		b(this, "title");
-		b(this, "content", []);
+		b(this, "time");
+		b(this, "mspt");
+		b(this, "tick");
 		proto2.util.initPartial(l, this);
 	}
 	static fromBinary(l, u) {
@@ -188039,26 +188422,23 @@ const Tu = class Tu extends Message {
 	}
 };
 b(Tu, "runtime", proto2),
-	b(Tu, "typeName", "CPacketScoreboard"),
+	b(Tu, "typeName", "CPacketPong"),
 	b(
 		Tu,
 		"fields",
 		proto2.util.newFieldList(() => [
-			{ no: 1, name: "title", kind: "scalar", T: 9 },
-			{
-				no: 2,
-				name: "content",
-				kind: "message",
-				T: ScoreboardContent,
-				repeated: !0,
-			},
+			{ no: 1, name: "time", kind: "scalar", T: 4 },
+			{ no: 2, name: "mspt", kind: "scalar", T: 2 },
+			{ no: 4, name: "tick", kind: "scalar", T: 13 },
 		]),
 	);
-let CPacketScoreboard = Tu;
+let CPacketPong = Tu;
 const Cu = class Cu extends Message {
 	constructor(l) {
 		super();
-		b(this, "columns", []);
+		b(this, "notDeath");
+		b(this, "client");
+		b(this, "dimension");
 		proto2.util.initPartial(l, this);
 	}
 	static fromBinary(l, u) {
@@ -188075,19 +188455,22 @@ const Cu = class Cu extends Message {
 	}
 };
 b(Cu, "runtime", proto2),
-	b(Cu, "typeName", "ScoreboardContent"),
+	b(Cu, "typeName", "CPacketRespawn"),
 	b(
 		Cu,
 		"fields",
 		proto2.util.newFieldList(() => [
-			{ no: 1, name: "columns", kind: "scalar", T: 9, repeated: !0 },
+			{ no: 1, name: "notDeath", kind: "scalar", T: 8, opt: !0 },
+			{ no: 2, name: "client", kind: "scalar", T: 8, opt: !0 },
+			{ no: 3, name: "dimension", kind: "scalar", T: 5, opt: !0 },
 		]),
 	);
-let ScoreboardContent = Cu;
+let CPacketRespawn = Cu;
 const Iu = class Iu extends Message {
 	constructor(l) {
 		super();
-		b(this, "metadata");
+		b(this, "title");
+		b(this, "content", []);
 		proto2.util.initPartial(l, this);
 	}
 	static fromBinary(l, u) {
@@ -188104,21 +188487,26 @@ const Iu = class Iu extends Message {
 	}
 };
 b(Iu, "runtime", proto2),
-	b(Iu, "typeName", "CPacketServerMetadata"),
+	b(Iu, "typeName", "CPacketScoreboard"),
 	b(
 		Iu,
 		"fields",
 		proto2.util.newFieldList(() => [
-			{ no: 12, name: "metadata", kind: "scalar", T: 9 },
+			{ no: 1, name: "title", kind: "scalar", T: 9 },
+			{
+				no: 2,
+				name: "content",
+				kind: "message",
+				T: ScoreboardContent,
+				repeated: !0,
+			},
 		]),
 	);
-let CPacketServerMetadata = Iu;
+let CPacketScoreboard = Iu;
 const Au = class Au extends Message {
 	constructor(l) {
 		super();
-		b(this, "windowId");
-		b(this, "slot");
-		b(this, "slotData");
+		b(this, "columns", []);
 		proto2.util.initPartial(l, this);
 	}
 	static fromBinary(l, u) {
@@ -188135,21 +188523,19 @@ const Au = class Au extends Message {
 	}
 };
 b(Au, "runtime", proto2),
-	b(Au, "typeName", "CPacketSetSlot"),
+	b(Au, "typeName", "ScoreboardContent"),
 	b(
 		Au,
 		"fields",
 		proto2.util.newFieldList(() => [
-			{ no: 1, name: "window_id", kind: "scalar", T: 5 },
-			{ no: 2, name: "slot", kind: "scalar", T: 5 },
-			{ no: 3, name: "slot_data", kind: "message", T: PBItemStack },
+			{ no: 1, name: "columns", kind: "scalar", T: 9, repeated: !0 },
 		]),
 	);
-let CPacketSetSlot = Au;
+let ScoreboardContent = Au;
 const Mu = class Mu extends Message {
 	constructor(l) {
 		super();
-		b(this, "signPosition");
+		b(this, "metadata");
 		proto2.util.initPartial(l, this);
 	}
 	static fromBinary(l, u) {
@@ -188166,22 +188552,21 @@ const Mu = class Mu extends Message {
 	}
 };
 b(Mu, "runtime", proto2),
-	b(Mu, "typeName", "CPacketSignEditorOpen"),
+	b(Mu, "typeName", "CPacketServerMetadata"),
 	b(
 		Mu,
 		"fields",
 		proto2.util.newFieldList(() => [
-			{ no: 1, name: "signPosition", kind: "message", T: PBBlockPos },
+			{ no: 12, name: "metadata", kind: "scalar", T: 9 },
 		]),
 	);
-let CPacketSignEditorOpen = Mu;
+let CPacketServerMetadata = Mu;
 const Ru = class Ru extends Message {
 	constructor(l) {
 		super();
-		b(this, "sound");
-		b(this, "location");
-		b(this, "volume");
-		b(this, "pitch");
+		b(this, "windowId");
+		b(this, "slot");
+		b(this, "slotData");
 		proto2.util.initPartial(l, this);
 	}
 	static fromBinary(l, u) {
@@ -188198,31 +188583,21 @@ const Ru = class Ru extends Message {
 	}
 };
 b(Ru, "runtime", proto2),
-	b(Ru, "typeName", "CPacketSoundEffect"),
+	b(Ru, "typeName", "CPacketSetSlot"),
 	b(
 		Ru,
 		"fields",
 		proto2.util.newFieldList(() => [
-			{ no: 1, name: "sound", kind: "scalar", T: 9 },
-			{ no: 2, name: "location", kind: "message", T: PBVector3, opt: !0 },
-			{ no: 3, name: "volume", kind: "scalar", T: 2, opt: !0 },
-			{ no: 4, name: "pitch", kind: "scalar", T: 2, opt: !0 },
+			{ no: 1, name: "window_id", kind: "scalar", T: 5 },
+			{ no: 2, name: "slot", kind: "scalar", T: 5 },
+			{ no: 3, name: "slot_data", kind: "message", T: PBItemStack },
 		]),
 	);
-let CPacketSoundEffect = Ru;
+let CPacketSetSlot = Ru;
 const Pu = class Pu extends Message {
 	constructor(l) {
 		super();
-		b(this, "id");
-		b(this, "type");
-		b(this, "pos");
-		b(this, "yaw");
-		b(this, "pitch");
-		b(this, "motion");
-		b(this, "item");
-		b(this, "shooterId");
-		b(this, "state");
-		b(this, "texture");
+		b(this, "signPosition");
 		proto2.util.initPartial(l, this);
 	}
 	static fromBinary(l, u) {
@@ -188239,32 +188614,22 @@ const Pu = class Pu extends Message {
 	}
 };
 b(Pu, "runtime", proto2),
-	b(Pu, "typeName", "CPacketSpawnEntity"),
+	b(Pu, "typeName", "CPacketSignEditorOpen"),
 	b(
 		Pu,
 		"fields",
 		proto2.util.newFieldList(() => [
-			{ no: 1, name: "id", kind: "scalar", T: 13 },
-			{ no: 2, name: "type", kind: "scalar", T: 13 },
-			{ no: 3, name: "pos", kind: "message", T: PBVector3, opt: !0 },
-			{ no: 4, name: "yaw", kind: "scalar", T: 2, opt: !0 },
-			{ no: 5, name: "pitch", kind: "scalar", T: 2, opt: !0 },
-			{ no: 6, name: "motion", kind: "message", T: PBFloatVector3, opt: !0 },
-			{ no: 7, name: "item", kind: "message", T: PBItemStack, opt: !0 },
-			{ no: 8, name: "shooterId", kind: "scalar", T: 13, opt: !0 },
-			{ no: 9, name: "state", kind: "scalar", T: 5, opt: !0 },
-			{ no: 10, name: "texture", kind: "scalar", T: 9, opt: !0 },
+			{ no: 1, name: "signPosition", kind: "message", T: PBBlockPos },
 		]),
 	);
-let CPacketSpawnEntity = Pu;
+let CPacketSignEditorOpen = Pu;
 const Bu = class Bu extends Message {
 	constructor(l) {
 		super();
-		b(this, "id");
-		b(this, "x");
-		b(this, "y");
-		b(this, "z");
-		b(this, "xpValue");
+		b(this, "sound");
+		b(this, "location");
+		b(this, "volume");
+		b(this, "pitch");
 		proto2.util.initPartial(l, this);
 	}
 	static fromBinary(l, u) {
@@ -188281,32 +188646,31 @@ const Bu = class Bu extends Message {
 	}
 };
 b(Bu, "runtime", proto2),
-	b(Bu, "typeName", "CPacketSpawnExperienceOrb"),
+	b(Bu, "typeName", "CPacketSoundEffect"),
 	b(
 		Bu,
 		"fields",
 		proto2.util.newFieldList(() => [
-			{ no: 1, name: "id", kind: "scalar", T: 13 },
-			{ no: 2, name: "x", kind: "scalar", T: 17 },
-			{ no: 3, name: "y", kind: "scalar", T: 17 },
-			{ no: 4, name: "z", kind: "scalar", T: 17 },
-			{ no: 5, name: "xpValue", kind: "scalar", T: 13 },
+			{ no: 1, name: "sound", kind: "scalar", T: 9 },
+			{ no: 2, name: "location", kind: "message", T: PBVector3, opt: !0 },
+			{ no: 3, name: "volume", kind: "scalar", T: 2, opt: !0 },
+			{ no: 4, name: "pitch", kind: "scalar", T: 2, opt: !0 },
 		]),
 	);
-let CPacketSpawnExperienceOrb = Bu;
+let CPacketSoundEffect = Bu;
 const Lu = class Lu extends Message {
 	constructor(l) {
 		super();
 		b(this, "id");
-		b(this, "name");
-		b(this, "gamemode");
-		b(this, "operator");
+		b(this, "type");
 		b(this, "pos");
 		b(this, "yaw");
 		b(this, "pitch");
-		b(this, "cosmetics");
-		b(this, "rank");
-		b(this, "socketId");
+		b(this, "motion");
+		b(this, "item");
+		b(this, "shooterId");
+		b(this, "state");
+		b(this, "texture");
 		proto2.util.initPartial(l, this);
 	}
 	static fromBinary(l, u) {
@@ -188323,28 +188687,32 @@ const Lu = class Lu extends Message {
 	}
 };
 b(Lu, "runtime", proto2),
-	b(Lu, "typeName", "CPacketSpawnPlayer"),
+	b(Lu, "typeName", "CPacketSpawnEntity"),
 	b(
 		Lu,
 		"fields",
 		proto2.util.newFieldList(() => [
 			{ no: 1, name: "id", kind: "scalar", T: 13 },
-			{ no: 2, name: "name", kind: "scalar", T: 9 },
-			{ no: 3, name: "gamemode", kind: "scalar", T: 9 },
-			{ no: 4, name: "operator", kind: "scalar", T: 8, opt: !0 },
-			{ no: 5, name: "pos", kind: "message", T: PBFloatVector3 },
-			{ no: 6, name: "yaw", kind: "scalar", T: 2 },
-			{ no: 7, name: "pitch", kind: "scalar", T: 2 },
-			{ no: 8, name: "cosmetics", kind: "message", T: PBCosmetics },
-			{ no: 9, name: "rank", kind: "scalar", T: 9, opt: !0 },
-			{ no: 10, name: "socketId", kind: "scalar", T: 9 },
+			{ no: 2, name: "type", kind: "scalar", T: 13 },
+			{ no: 3, name: "pos", kind: "message", T: PBVector3, opt: !0 },
+			{ no: 4, name: "yaw", kind: "scalar", T: 2, opt: !0 },
+			{ no: 5, name: "pitch", kind: "scalar", T: 2, opt: !0 },
+			{ no: 6, name: "motion", kind: "message", T: PBFloatVector3, opt: !0 },
+			{ no: 7, name: "item", kind: "message", T: PBItemStack, opt: !0 },
+			{ no: 8, name: "shooterId", kind: "scalar", T: 13, opt: !0 },
+			{ no: 9, name: "state", kind: "scalar", T: 5, opt: !0 },
+			{ no: 10, name: "texture", kind: "scalar", T: 9, opt: !0 },
 		]),
 	);
-let CPacketSpawnPlayer = Lu;
+let CPacketSpawnEntity = Lu;
 const Nu = class Nu extends Message {
 	constructor(l) {
 		super();
-		b(this, "matches", []);
+		b(this, "id");
+		b(this, "x");
+		b(this, "y");
+		b(this, "z");
+		b(this, "xpValue");
 		proto2.util.initPartial(l, this);
 	}
 	static fromBinary(l, u) {
@@ -188361,20 +188729,32 @@ const Nu = class Nu extends Message {
 	}
 };
 b(Nu, "runtime", proto2),
-	b(Nu, "typeName", "CPacketTabComplete"),
+	b(Nu, "typeName", "CPacketSpawnExperienceOrb"),
 	b(
 		Nu,
 		"fields",
 		proto2.util.newFieldList(() => [
-			{ no: 1, name: "matches", kind: "scalar", T: 9, repeated: !0 },
+			{ no: 1, name: "id", kind: "scalar", T: 13 },
+			{ no: 2, name: "x", kind: "scalar", T: 17 },
+			{ no: 3, name: "y", kind: "scalar", T: 17 },
+			{ no: 4, name: "z", kind: "scalar", T: 17 },
+			{ no: 5, name: "xpValue", kind: "scalar", T: 13 },
 		]),
 	);
-let CPacketTabComplete = Nu;
+let CPacketSpawnExperienceOrb = Nu;
 const Ou = class Ou extends Message {
 	constructor(l) {
 		super();
-		b(this, "title");
-		b(this, "duration");
+		b(this, "id");
+		b(this, "name");
+		b(this, "gamemode");
+		b(this, "operator");
+		b(this, "pos");
+		b(this, "yaw");
+		b(this, "pitch");
+		b(this, "cosmetics");
+		b(this, "rank");
+		b(this, "socketId");
 		proto2.util.initPartial(l, this);
 	}
 	static fromBinary(l, u) {
@@ -188391,24 +188771,28 @@ const Ou = class Ou extends Message {
 	}
 };
 b(Ou, "runtime", proto2),
-	b(Ou, "typeName", "CPacketTitle"),
+	b(Ou, "typeName", "CPacketSpawnPlayer"),
 	b(
 		Ou,
 		"fields",
 		proto2.util.newFieldList(() => [
-			{ no: 1, name: "title", kind: "scalar", T: 9 },
-			{ no: 2, name: "duration", kind: "scalar", T: 13 },
+			{ no: 1, name: "id", kind: "scalar", T: 13 },
+			{ no: 2, name: "name", kind: "scalar", T: 9 },
+			{ no: 3, name: "gamemode", kind: "scalar", T: 9 },
+			{ no: 4, name: "operator", kind: "scalar", T: 8, opt: !0 },
+			{ no: 5, name: "pos", kind: "message", T: PBFloatVector3 },
+			{ no: 6, name: "yaw", kind: "scalar", T: 2 },
+			{ no: 7, name: "pitch", kind: "scalar", T: 2 },
+			{ no: 8, name: "cosmetics", kind: "message", T: PBCosmetics },
+			{ no: 9, name: "rank", kind: "scalar", T: 9, opt: !0 },
+			{ no: 10, name: "socketId", kind: "scalar", T: 9 },
 		]),
 	);
-let CPacketTitle = Ou;
+let CPacketSpawnPlayer = Ou;
 const Du = class Du extends Message {
 	constructor(l) {
 		super();
-		b(this, "id");
-		b(this, "hp");
-		b(this, "food");
-		b(this, "foodSaturation");
-		b(this, "oxygen");
+		b(this, "matches", []);
 		proto2.util.initPartial(l, this);
 	}
 	static fromBinary(l, u) {
@@ -188425,24 +188809,20 @@ const Du = class Du extends Message {
 	}
 };
 b(Du, "runtime", proto2),
-	b(Du, "typeName", "CPacketUpdateHealth"),
+	b(Du, "typeName", "CPacketTabComplete"),
 	b(
 		Du,
 		"fields",
 		proto2.util.newFieldList(() => [
-			{ no: 1, name: "id", kind: "scalar", T: 13 },
-			{ no: 2, name: "hp", kind: "scalar", T: 2, opt: !0 },
-			{ no: 3, name: "food", kind: "scalar", T: 5, opt: !0 },
-			{ no: 4, name: "foodSaturation", kind: "scalar", T: 2, opt: !0 },
-			{ no: 5, name: "oxygen", kind: "scalar", T: 2, opt: !0 },
+			{ no: 1, name: "matches", kind: "scalar", T: 9, repeated: !0 },
 		]),
 	);
-let CPacketUpdateHealth = Du;
+let CPacketTabComplete = Du;
 const zu = class zu extends Message {
 	constructor(l) {
 		super();
-		b(this, "id");
-		b(this, "content", []);
+		b(this, "title");
+		b(this, "duration");
 		proto2.util.initPartial(l, this);
 	}
 	static fromBinary(l, u) {
@@ -188459,21 +188839,24 @@ const zu = class zu extends Message {
 	}
 };
 b(zu, "runtime", proto2),
-	b(zu, "typeName", "CPacketUpdateLeaderboard"),
+	b(zu, "typeName", "CPacketTitle"),
 	b(
 		zu,
 		"fields",
 		proto2.util.newFieldList(() => [
-			{ no: 1, name: "id", kind: "scalar", T: 9 },
-			{ no: 5, name: "content", kind: "scalar", T: 9, repeated: !0 },
+			{ no: 1, name: "title", kind: "scalar", T: 9 },
+			{ no: 2, name: "duration", kind: "scalar", T: 13 },
 		]),
 	);
-let CPacketUpdateLeaderboard = zu;
+let CPacketTitle = zu;
 const Fu = class Fu extends Message {
 	constructor(l) {
 		super();
-		b(this, "index");
-		b(this, "columns", []);
+		b(this, "id");
+		b(this, "hp");
+		b(this, "food");
+		b(this, "foodSaturation");
+		b(this, "oxygen");
 		proto2.util.initPartial(l, this);
 	}
 	static fromBinary(l, u) {
@@ -188490,24 +188873,24 @@ const Fu = class Fu extends Message {
 	}
 };
 b(Fu, "runtime", proto2),
-	b(Fu, "typeName", "CPacketUpdateScoreboard"),
+	b(Fu, "typeName", "CPacketUpdateHealth"),
 	b(
 		Fu,
 		"fields",
 		proto2.util.newFieldList(() => [
-			{ no: 1, name: "index", kind: "scalar", T: 13 },
-			{ no: 2, name: "columns", kind: "scalar", T: 9, repeated: !0 },
+			{ no: 1, name: "id", kind: "scalar", T: 13 },
+			{ no: 2, name: "hp", kind: "scalar", T: 2, opt: !0 },
+			{ no: 3, name: "food", kind: "scalar", T: 5, opt: !0 },
+			{ no: 4, name: "foodSaturation", kind: "scalar", T: 2, opt: !0 },
+			{ no: 5, name: "oxygen", kind: "scalar", T: 2, opt: !0 },
 		]),
 	);
-let CPacketUpdateScoreboard = Fu;
+let CPacketUpdateHealth = Fu;
 const $u = class $u extends Message {
 	constructor(l) {
 		super();
 		b(this, "id");
-		b(this, "mode");
-		b(this, "rank");
-		b(this, "color");
-		b(this, "hidePlayers");
+		b(this, "content", []);
 		proto2.util.initPartial(l, this);
 	}
 	static fromBinary(l, u) {
@@ -188524,25 +188907,21 @@ const $u = class $u extends Message {
 	}
 };
 b($u, "runtime", proto2),
-	b($u, "typeName", "CPacketUpdateStatus"),
+	b($u, "typeName", "CPacketUpdateLeaderboard"),
 	b(
 		$u,
 		"fields",
 		proto2.util.newFieldList(() => [
-			{ no: 1, name: "id", kind: "scalar", T: 13 },
-			{ no: 2, name: "mode", kind: "scalar", T: 9, opt: !0 },
-			{ no: 4, name: "rank", kind: "scalar", T: 9, opt: !0 },
-			{ no: 5, name: "color", kind: "scalar", T: 9, opt: !0 },
-			{ no: 6, name: "hidePlayers", kind: "scalar", T: 8, opt: !0 },
+			{ no: 1, name: "id", kind: "scalar", T: 9 },
+			{ no: 5, name: "content", kind: "scalar", T: 9, repeated: !0 },
 		]),
 	);
-let CPacketUpdateStatus = $u;
+let CPacketUpdateLeaderboard = $u;
 const Uu = class Uu extends Message {
 	constructor(l) {
 		super();
-		b(this, "tick");
-		b(this, "t");
-		b(this, "mspt");
+		b(this, "index");
+		b(this, "columns", []);
 		proto2.util.initPartial(l, this);
 	}
 	static fromBinary(l, u) {
@@ -188559,22 +188938,24 @@ const Uu = class Uu extends Message {
 	}
 };
 b(Uu, "runtime", proto2),
-	b(Uu, "typeName", "CPacketUpdate"),
+	b(Uu, "typeName", "CPacketUpdateScoreboard"),
 	b(
 		Uu,
 		"fields",
 		proto2.util.newFieldList(() => [
-			{ no: 4, name: "tick", kind: "scalar", T: 13 },
-			{ no: 5, name: "t", kind: "scalar", T: 4 },
-			{ no: 6, name: "mspt", kind: "scalar", T: 2 },
+			{ no: 1, name: "index", kind: "scalar", T: 13 },
+			{ no: 2, name: "columns", kind: "scalar", T: 9, repeated: !0 },
 		]),
 	);
-let CPacketUpdate = Uu;
+let CPacketUpdateScoreboard = Uu;
 const qu = class qu extends Message {
 	constructor(l) {
 		super();
-		b(this, "windowId");
-		b(this, "items", []);
+		b(this, "id");
+		b(this, "mode");
+		b(this, "rank");
+		b(this, "color");
+		b(this, "hidePlayers");
 		proto2.util.initPartial(l, this);
 	}
 	static fromBinary(l, u) {
@@ -188591,22 +188972,25 @@ const qu = class qu extends Message {
 	}
 };
 b(qu, "runtime", proto2),
-	b(qu, "typeName", "CPacketWindowItems"),
+	b(qu, "typeName", "CPacketUpdateStatus"),
 	b(
 		qu,
 		"fields",
 		proto2.util.newFieldList(() => [
-			{ no: 1, name: "window_id", kind: "scalar", T: 13 },
-			{ no: 2, name: "items", kind: "message", T: PBItemStack, repeated: !0 },
+			{ no: 1, name: "id", kind: "scalar", T: 13 },
+			{ no: 2, name: "mode", kind: "scalar", T: 9, opt: !0 },
+			{ no: 4, name: "rank", kind: "scalar", T: 9, opt: !0 },
+			{ no: 5, name: "color", kind: "scalar", T: 9, opt: !0 },
+			{ no: 6, name: "hidePlayers", kind: "scalar", T: 8, opt: !0 },
 		]),
 	);
-let CPacketWindowItems = qu;
+let CPacketUpdateStatus = qu;
 const Hu = class Hu extends Message {
 	constructor(l) {
 		super();
-		b(this, "windowId");
-		b(this, "varIndex");
-		b(this, "varValue");
+		b(this, "tick");
+		b(this, "t");
+		b(this, "mspt");
 		proto2.util.initPartial(l, this);
 	}
 	static fromBinary(l, u) {
@@ -188623,9 +189007,73 @@ const Hu = class Hu extends Message {
 	}
 };
 b(Hu, "runtime", proto2),
-	b(Hu, "typeName", "CPacketWindowProperty"),
+	b(Hu, "typeName", "CPacketUpdate"),
 	b(
 		Hu,
+		"fields",
+		proto2.util.newFieldList(() => [
+			{ no: 4, name: "tick", kind: "scalar", T: 13 },
+			{ no: 5, name: "t", kind: "scalar", T: 4 },
+			{ no: 6, name: "mspt", kind: "scalar", T: 2 },
+		]),
+	);
+let CPacketUpdate = Hu;
+const Vu = class Vu extends Message {
+	constructor(l) {
+		super();
+		b(this, "windowId");
+		b(this, "items", []);
+		proto2.util.initPartial(l, this);
+	}
+	static fromBinary(l, u) {
+		return new Vu().fromBinary(l, u);
+	}
+	static fromJson(l, u) {
+		return new Vu().fromJson(l, u);
+	}
+	static fromJsonString(l, u) {
+		return new Vu().fromJsonString(l, u);
+	}
+	static equals(l, u) {
+		return proto2.util.equals(Vu, l, u);
+	}
+};
+b(Vu, "runtime", proto2),
+	b(Vu, "typeName", "CPacketWindowItems"),
+	b(
+		Vu,
+		"fields",
+		proto2.util.newFieldList(() => [
+			{ no: 1, name: "window_id", kind: "scalar", T: 13 },
+			{ no: 2, name: "items", kind: "message", T: PBItemStack, repeated: !0 },
+		]),
+	);
+let CPacketWindowItems = Vu;
+const ju = class ju extends Message {
+	constructor(l) {
+		super();
+		b(this, "windowId");
+		b(this, "varIndex");
+		b(this, "varValue");
+		proto2.util.initPartial(l, this);
+	}
+	static fromBinary(l, u) {
+		return new ju().fromBinary(l, u);
+	}
+	static fromJson(l, u) {
+		return new ju().fromJson(l, u);
+	}
+	static fromJsonString(l, u) {
+		return new ju().fromJsonString(l, u);
+	}
+	static equals(l, u) {
+		return proto2.util.equals(ju, l, u);
+	}
+};
+b(ju, "runtime", proto2),
+	b(ju, "typeName", "CPacketWindowProperty"),
+	b(
+		ju,
 		"fields",
 		proto2.util.newFieldList(() => [
 			{ no: 1, name: "windowId", kind: "scalar", T: 13 },
@@ -188633,32 +189081,32 @@ b(Hu, "runtime", proto2),
 			{ no: 3, name: "varValue", kind: "scalar", T: 5 },
 		]),
 	);
-let CPacketWindowProperty = Hu;
-const Vu = class Vu extends Message {
+let CPacketWindowProperty = ju;
+const Gu = class Gu extends Message {
 	constructor(o) {
 		super(), proto2.util.initPartial(o, this);
 	}
 	static fromBinary(o, l) {
-		return new Vu().fromBinary(o, l);
+		return new Gu().fromBinary(o, l);
 	}
 	static fromJson(o, l) {
-		return new Vu().fromJson(o, l);
+		return new Gu().fromJson(o, l);
 	}
 	static fromJsonString(o, l) {
-		return new Vu().fromJsonString(o, l);
+		return new Gu().fromJsonString(o, l);
 	}
 	static equals(o, l) {
-		return proto2.util.equals(Vu, o, l);
+		return proto2.util.equals(Gu, o, l);
 	}
 };
-b(Vu, "runtime", proto2),
-	b(Vu, "typeName", "SPacketRespawn"),
+b(Gu, "runtime", proto2),
+	b(Gu, "typeName", "SPacketRespawn"),
 	b(
-		Vu,
+		Gu,
 		"fields",
 		proto2.util.newFieldList(() => []),
 	);
-let SPacketRespawn = Vu;
+let SPacketRespawn = Gu;
 var Xs;
 let SPacketTabComplete$1 =
 	((Xs = class extends Message {
@@ -188690,70 +189138,10 @@ let SPacketTabComplete$1 =
 		]),
 	),
 	Xs);
-const ju = class ju extends Message {
-	constructor(l) {
-		super();
-		b(this, "data");
-		proto2.util.initPartial(l, this);
-	}
-	static fromBinary(l, u) {
-		return new ju().fromBinary(l, u);
-	}
-	static fromJson(l, u) {
-		return new ju().fromJson(l, u);
-	}
-	static fromJsonString(l, u) {
-		return new ju().fromJsonString(l, u);
-	}
-	static equals(l, u) {
-		return proto2.util.equals(ju, l, u);
-	}
-};
-b(ju, "runtime", proto2),
-	b(ju, "typeName", "SPacketCraftItem"),
-	b(
-		ju,
-		"fields",
-		proto2.util.newFieldList(() => [
-			{ no: 1, name: "data", kind: "scalar", T: 9 },
-		]),
-	);
-let SPacketCraftItem = ju;
-const Gu = class Gu extends Message {
-	constructor(l) {
-		super();
-		b(this, "x");
-		b(this, "z");
-		proto2.util.initPartial(l, this);
-	}
-	static fromBinary(l, u) {
-		return new Gu().fromBinary(l, u);
-	}
-	static fromJson(l, u) {
-		return new Gu().fromJson(l, u);
-	}
-	static fromJsonString(l, u) {
-		return new Gu().fromJsonString(l, u);
-	}
-	static equals(l, u) {
-		return proto2.util.equals(Gu, l, u);
-	}
-};
-b(Gu, "runtime", proto2),
-	b(Gu, "typeName", "SPacketRequestChunk"),
-	b(
-		Gu,
-		"fields",
-		proto2.util.newFieldList(() => [
-			{ no: 1, name: "x", kind: "scalar", T: 5 },
-			{ no: 2, name: "z", kind: "scalar", T: 5 },
-		]),
-	);
-let SPacketRequestChunk = Gu;
 const Wu = class Wu extends Message {
 	constructor(l) {
 		super();
-		b(this, "action", { case: void 0 });
+		b(this, "data");
 		proto2.util.initPartial(l, this);
 	}
 	static fromBinary(l, u) {
@@ -188770,9 +189158,71 @@ const Wu = class Wu extends Message {
 	}
 };
 b(Wu, "runtime", proto2),
-	b(Wu, "typeName", "SPacketAdminAction"),
+	b(Wu, "typeName", "SPacketCraftItem"),
 	b(
 		Wu,
+		"fields",
+		proto2.util.newFieldList(() => [
+			{ no: 1, name: "data", kind: "scalar", T: 9 },
+		]),
+	);
+let SPacketCraftItem = Wu;
+const Ku = class Ku extends Message {
+	constructor(l) {
+		super();
+		b(this, "x");
+		b(this, "z");
+		b(this, "cachedHash");
+		proto2.util.initPartial(l, this);
+	}
+	static fromBinary(l, u) {
+		return new Ku().fromBinary(l, u);
+	}
+	static fromJson(l, u) {
+		return new Ku().fromJson(l, u);
+	}
+	static fromJsonString(l, u) {
+		return new Ku().fromJsonString(l, u);
+	}
+	static equals(l, u) {
+		return proto2.util.equals(Ku, l, u);
+	}
+};
+b(Ku, "runtime", proto2),
+	b(Ku, "typeName", "SPacketRequestChunk"),
+	b(
+		Ku,
+		"fields",
+		proto2.util.newFieldList(() => [
+			{ no: 1, name: "x", kind: "scalar", T: 5 },
+			{ no: 2, name: "z", kind: "scalar", T: 5 },
+			{ no: 3, name: "cachedHash", kind: "scalar", T: 9, opt: !0 },
+		]),
+	);
+let SPacketRequestChunk = Ku;
+const Yu = class Yu extends Message {
+	constructor(l) {
+		super();
+		b(this, "action", { case: void 0 });
+		proto2.util.initPartial(l, this);
+	}
+	static fromBinary(l, u) {
+		return new Yu().fromBinary(l, u);
+	}
+	static fromJson(l, u) {
+		return new Yu().fromJson(l, u);
+	}
+	static fromJsonString(l, u) {
+		return new Yu().fromJsonString(l, u);
+	}
+	static equals(l, u) {
+		return proto2.util.equals(Yu, l, u);
+	}
+};
+b(Yu, "runtime", proto2),
+	b(Yu, "typeName", "SPacketAdminAction"),
+	b(
+		Yu,
 		"fields",
 		proto2.util.newFieldList(() => [
 			{
@@ -188854,65 +189304,7 @@ b(Wu, "runtime", proto2),
 			},
 		]),
 	);
-let SPacketAdminAction = Wu;
-const Ku = class Ku extends Message {
-	constructor(l) {
-		super();
-		b(this, "uuid");
-		proto2.util.initPartial(l, this);
-	}
-	static fromBinary(l, u) {
-		return new Ku().fromBinary(l, u);
-	}
-	static fromJson(l, u) {
-		return new Ku().fromJson(l, u);
-	}
-	static fromJsonString(l, u) {
-		return new Ku().fromJsonString(l, u);
-	}
-	static equals(l, u) {
-		return proto2.util.equals(Ku, l, u);
-	}
-};
-b(Ku, "runtime", proto2),
-	b(Ku, "typeName", "KickPlayer"),
-	b(
-		Ku,
-		"fields",
-		proto2.util.newFieldList(() => [
-			{ no: 1, name: "uuid", kind: "scalar", T: 9 },
-		]),
-	);
-let KickPlayer = Ku;
-const Yu = class Yu extends Message {
-	constructor(l) {
-		super();
-		b(this, "uuid");
-		proto2.util.initPartial(l, this);
-	}
-	static fromBinary(l, u) {
-		return new Yu().fromBinary(l, u);
-	}
-	static fromJson(l, u) {
-		return new Yu().fromJson(l, u);
-	}
-	static fromJsonString(l, u) {
-		return new Yu().fromJsonString(l, u);
-	}
-	static equals(l, u) {
-		return proto2.util.equals(Yu, l, u);
-	}
-};
-b(Yu, "runtime", proto2),
-	b(Yu, "typeName", "BanPlayer"),
-	b(
-		Yu,
-		"fields",
-		proto2.util.newFieldList(() => [
-			{ no: 1, name: "uuid", kind: "scalar", T: 9 },
-		]),
-	);
-let BanPlayer = Yu;
+let SPacketAdminAction = Yu;
 const Xu = class Xu extends Message {
 	constructor(l) {
 		super();
@@ -188933,7 +189325,7 @@ const Xu = class Xu extends Message {
 	}
 };
 b(Xu, "runtime", proto2),
-	b(Xu, "typeName", "UnbanPlayer"),
+	b(Xu, "typeName", "KickPlayer"),
 	b(
 		Xu,
 		"fields",
@@ -188941,32 +189333,36 @@ b(Xu, "runtime", proto2),
 			{ no: 1, name: "uuid", kind: "scalar", T: 9 },
 		]),
 	);
-let UnbanPlayer = Xu;
+let KickPlayer = Xu;
 const Zu = class Zu extends Message {
-	constructor(o) {
-		super(), proto2.util.initPartial(o, this);
+	constructor(l) {
+		super();
+		b(this, "uuid");
+		proto2.util.initPartial(l, this);
 	}
-	static fromBinary(o, l) {
-		return new Zu().fromBinary(o, l);
+	static fromBinary(l, u) {
+		return new Zu().fromBinary(l, u);
 	}
-	static fromJson(o, l) {
-		return new Zu().fromJson(o, l);
+	static fromJson(l, u) {
+		return new Zu().fromJson(l, u);
 	}
-	static fromJsonString(o, l) {
-		return new Zu().fromJsonString(o, l);
+	static fromJsonString(l, u) {
+		return new Zu().fromJsonString(l, u);
 	}
-	static equals(o, l) {
-		return proto2.util.equals(Zu, o, l);
+	static equals(l, u) {
+		return proto2.util.equals(Zu, l, u);
 	}
 };
 b(Zu, "runtime", proto2),
-	b(Zu, "typeName", "StopServer"),
+	b(Zu, "typeName", "BanPlayer"),
 	b(
 		Zu,
 		"fields",
-		proto2.util.newFieldList(() => []),
+		proto2.util.newFieldList(() => [
+			{ no: 1, name: "uuid", kind: "scalar", T: 9 },
+		]),
 	);
-let StopServer = Zu;
+let BanPlayer = Zu;
 const Ju = class Ju extends Message {
 	constructor(l) {
 		super();
@@ -188987,7 +189383,7 @@ const Ju = class Ju extends Message {
 	}
 };
 b(Ju, "runtime", proto2),
-	b(Ju, "typeName", "PromotePlayer"),
+	b(Ju, "typeName", "UnbanPlayer"),
 	b(
 		Ju,
 		"fields",
@@ -188995,40 +189391,36 @@ b(Ju, "runtime", proto2),
 			{ no: 1, name: "uuid", kind: "scalar", T: 9 },
 		]),
 	);
-let PromotePlayer = Ju;
+let UnbanPlayer = Ju;
 const Qu = class Qu extends Message {
-	constructor(l) {
-		super();
-		b(this, "uuid");
-		proto2.util.initPartial(l, this);
+	constructor(o) {
+		super(), proto2.util.initPartial(o, this);
 	}
-	static fromBinary(l, u) {
-		return new Qu().fromBinary(l, u);
+	static fromBinary(o, l) {
+		return new Qu().fromBinary(o, l);
 	}
-	static fromJson(l, u) {
-		return new Qu().fromJson(l, u);
+	static fromJson(o, l) {
+		return new Qu().fromJson(o, l);
 	}
-	static fromJsonString(l, u) {
-		return new Qu().fromJsonString(l, u);
+	static fromJsonString(o, l) {
+		return new Qu().fromJsonString(o, l);
 	}
-	static equals(l, u) {
-		return proto2.util.equals(Qu, l, u);
+	static equals(o, l) {
+		return proto2.util.equals(Qu, o, l);
 	}
 };
 b(Qu, "runtime", proto2),
-	b(Qu, "typeName", "DemotePlayer"),
+	b(Qu, "typeName", "StopServer"),
 	b(
 		Qu,
 		"fields",
-		proto2.util.newFieldList(() => [
-			{ no: 1, name: "uuid", kind: "scalar", T: 9 },
-		]),
+		proto2.util.newFieldList(() => []),
 	);
-let DemotePlayer = Qu;
+let StopServer = Qu;
 const ec = class ec extends Message {
 	constructor(l) {
 		super();
-		b(this, "accessControl");
+		b(this, "uuid");
 		proto2.util.initPartial(l, this);
 	}
 	static fromBinary(l, u) {
@@ -189045,19 +189437,19 @@ const ec = class ec extends Message {
 	}
 };
 b(ec, "runtime", proto2),
-	b(ec, "typeName", "UpdateAccessControl"),
+	b(ec, "typeName", "PromotePlayer"),
 	b(
 		ec,
 		"fields",
 		proto2.util.newFieldList(() => [
-			{ no: 1, name: "accessControl", kind: "scalar", T: 9 },
+			{ no: 1, name: "uuid", kind: "scalar", T: 9 },
 		]),
 	);
-let UpdateAccessControl = ec;
+let PromotePlayer = ec;
 const tc = class tc extends Message {
 	constructor(l) {
 		super();
-		b(this, "cheats");
+		b(this, "uuid");
 		proto2.util.initPartial(l, this);
 	}
 	static fromBinary(l, u) {
@@ -189074,19 +189466,19 @@ const tc = class tc extends Message {
 	}
 };
 b(tc, "runtime", proto2),
-	b(tc, "typeName", "UpdateCheats"),
+	b(tc, "typeName", "DemotePlayer"),
 	b(
 		tc,
 		"fields",
 		proto2.util.newFieldList(() => [
-			{ no: 1, name: "cheats", kind: "scalar", T: 9 },
+			{ no: 1, name: "uuid", kind: "scalar", T: 9 },
 		]),
 	);
-let UpdateCheats = tc;
+let DemotePlayer = tc;
 const rc = class rc extends Message {
 	constructor(l) {
 		super();
-		b(this, "enabled");
+		b(this, "accessControl");
 		proto2.util.initPartial(l, this);
 	}
 	static fromBinary(l, u) {
@@ -189103,19 +189495,19 @@ const rc = class rc extends Message {
 	}
 };
 b(rc, "runtime", proto2),
-	b(rc, "typeName", "UpdatePvP"),
+	b(rc, "typeName", "UpdateAccessControl"),
 	b(
 		rc,
 		"fields",
 		proto2.util.newFieldList(() => [
-			{ no: 1, name: "enabled", kind: "scalar", T: 8 },
+			{ no: 1, name: "accessControl", kind: "scalar", T: 9 },
 		]),
 	);
-let UpdatePvP = rc;
+let UpdateAccessControl = rc;
 const nc = class nc extends Message {
 	constructor(l) {
 		super();
-		b(this, "enabled");
+		b(this, "cheats");
 		proto2.util.initPartial(l, this);
 	}
 	static fromBinary(l, u) {
@@ -189132,15 +189524,15 @@ const nc = class nc extends Message {
 	}
 };
 b(nc, "runtime", proto2),
-	b(nc, "typeName", "UpdateCommandBlock"),
+	b(nc, "typeName", "UpdateCheats"),
 	b(
 		nc,
 		"fields",
 		proto2.util.newFieldList(() => [
-			{ no: 1, name: "enabled", kind: "scalar", T: 8 },
+			{ no: 1, name: "cheats", kind: "scalar", T: 9 },
 		]),
 	);
-let UpdateCommandBlock = nc;
+let UpdateCheats = nc;
 const ic = class ic extends Message {
 	constructor(l) {
 		super();
@@ -189161,7 +189553,7 @@ const ic = class ic extends Message {
 	}
 };
 b(ic, "runtime", proto2),
-	b(ic, "typeName", "UpdateScripting"),
+	b(ic, "typeName", "UpdatePvP"),
 	b(
 		ic,
 		"fields",
@@ -189169,12 +189561,11 @@ b(ic, "runtime", proto2),
 			{ no: 1, name: "enabled", kind: "scalar", T: 8 },
 		]),
 	);
-let UpdateScripting = ic;
+let UpdatePvP = ic;
 const ac = class ac extends Message {
 	constructor(l) {
 		super();
-		b(this, "fps");
-		b(this, "ping");
+		b(this, "enabled");
 		proto2.util.initPartial(l, this);
 	}
 	static fromBinary(l, u) {
@@ -189191,22 +189582,19 @@ const ac = class ac extends Message {
 	}
 };
 b(ac, "runtime", proto2),
-	b(ac, "typeName", "SPacketAnalytics"),
+	b(ac, "typeName", "UpdateCommandBlock"),
 	b(
 		ac,
 		"fields",
 		proto2.util.newFieldList(() => [
-			{ no: 1, name: "fps", kind: "scalar", T: 2 },
-			{ no: 2, name: "ping", kind: "scalar", T: 2 },
+			{ no: 1, name: "enabled", kind: "scalar", T: 8 },
 		]),
 	);
-let SPacketAnalytics = ac;
+let UpdateCommandBlock = ac;
 const sc = class sc extends Message {
 	constructor(l) {
 		super();
-		b(this, "windowId");
-		b(this, "actionNumber");
-		b(this, "accepted");
+		b(this, "enabled");
 		proto2.util.initPartial(l, this);
 	}
 	static fromBinary(l, u) {
@@ -189223,21 +189611,20 @@ const sc = class sc extends Message {
 	}
 };
 b(sc, "runtime", proto2),
-	b(sc, "typeName", "SPacketConfirmTransaction"),
+	b(sc, "typeName", "UpdateScripting"),
 	b(
 		sc,
 		"fields",
 		proto2.util.newFieldList(() => [
-			{ no: 1, name: "windowId", kind: "scalar", T: 5 },
-			{ no: 2, name: "actionNumber", kind: "scalar", T: 5 },
-			{ no: 3, name: "accepted", kind: "scalar", T: 8 },
+			{ no: 1, name: "enabled", kind: "scalar", T: 8 },
 		]),
 	);
-let SPacketConfirmTransaction = sc;
+let UpdateScripting = sc;
 const oc = class oc extends Message {
 	constructor(l) {
 		super();
-		b(this, "slot");
+		b(this, "fps");
+		b(this, "ping");
 		proto2.util.initPartial(l, this);
 	}
 	static fromBinary(l, u) {
@@ -189254,19 +189641,22 @@ const oc = class oc extends Message {
 	}
 };
 b(oc, "runtime", proto2),
-	b(oc, "typeName", "SPacketHeldItemChange"),
+	b(oc, "typeName", "SPacketAnalytics"),
 	b(
 		oc,
 		"fields",
 		proto2.util.newFieldList(() => [
-			{ no: 1, name: "slot", kind: "scalar", T: 5 },
+			{ no: 1, name: "fps", kind: "scalar", T: 2 },
+			{ no: 2, name: "ping", kind: "scalar", T: 2 },
 		]),
 	);
-let SPacketHeldItemChange = oc;
+let SPacketAnalytics = oc;
 const lc = class lc extends Message {
 	constructor(l) {
 		super();
-		b(this, "time");
+		b(this, "windowId");
+		b(this, "actionNumber");
+		b(this, "accepted");
 		proto2.util.initPartial(l, this);
 	}
 	static fromBinary(l, u) {
@@ -189283,16 +189673,76 @@ const lc = class lc extends Message {
 	}
 };
 b(lc, "runtime", proto2),
-	b(lc, "typeName", "SPacketPing"),
+	b(lc, "typeName", "SPacketConfirmTransaction"),
 	b(
 		lc,
+		"fields",
+		proto2.util.newFieldList(() => [
+			{ no: 1, name: "windowId", kind: "scalar", T: 5 },
+			{ no: 2, name: "actionNumber", kind: "scalar", T: 5 },
+			{ no: 3, name: "accepted", kind: "scalar", T: 8 },
+		]),
+	);
+let SPacketConfirmTransaction = lc;
+const uc = class uc extends Message {
+	constructor(l) {
+		super();
+		b(this, "slot");
+		proto2.util.initPartial(l, this);
+	}
+	static fromBinary(l, u) {
+		return new uc().fromBinary(l, u);
+	}
+	static fromJson(l, u) {
+		return new uc().fromJson(l, u);
+	}
+	static fromJsonString(l, u) {
+		return new uc().fromJsonString(l, u);
+	}
+	static equals(l, u) {
+		return proto2.util.equals(uc, l, u);
+	}
+};
+b(uc, "runtime", proto2),
+	b(uc, "typeName", "SPacketHeldItemChange"),
+	b(
+		uc,
+		"fields",
+		proto2.util.newFieldList(() => [
+			{ no: 1, name: "slot", kind: "scalar", T: 5 },
+		]),
+	);
+let SPacketHeldItemChange = uc;
+const cc = class cc extends Message {
+	constructor(l) {
+		super();
+		b(this, "time");
+		proto2.util.initPartial(l, this);
+	}
+	static fromBinary(l, u) {
+		return new cc().fromBinary(l, u);
+	}
+	static fromJson(l, u) {
+		return new cc().fromJson(l, u);
+	}
+	static fromJsonString(l, u) {
+		return new cc().fromJsonString(l, u);
+	}
+	static equals(l, u) {
+		return proto2.util.equals(cc, l, u);
+	}
+};
+b(cc, "runtime", proto2),
+	b(cc, "typeName", "SPacketPing"),
+	b(
+		cc,
 		"fields",
 		proto2.util.newFieldList(() => [
 			{ no: 1, name: "time", kind: "scalar", T: 4 },
 		]),
 	);
-let SPacketPing = lc;
-const uc = class uc extends Message {
+let SPacketPing = cc;
+const dc = class dc extends Message {
 	constructor(l) {
 		super();
 		b(this, "sequenceNumber");
@@ -189312,22 +189762,22 @@ const uc = class uc extends Message {
 		proto2.util.initPartial(l, this);
 	}
 	static fromBinary(l, u) {
-		return new uc().fromBinary(l, u);
+		return new dc().fromBinary(l, u);
 	}
 	static fromJson(l, u) {
-		return new uc().fromJson(l, u);
+		return new dc().fromJson(l, u);
 	}
 	static fromJsonString(l, u) {
-		return new uc().fromJsonString(l, u);
+		return new dc().fromJsonString(l, u);
 	}
 	static equals(l, u) {
-		return proto2.util.equals(uc, l, u);
+		return proto2.util.equals(dc, l, u);
 	}
 };
-b(uc, "runtime", proto2),
-	b(uc, "typeName", "SPacketPlayerInput"),
+b(dc, "runtime", proto2),
+	b(dc, "typeName", "SPacketPlayerInput"),
 	b(
-		uc,
+		dc,
 		"fields",
 		proto2.util.newFieldList(() => [
 			{ no: 1, name: "sequenceNumber", kind: "scalar", T: 13 },
@@ -189346,80 +189796,12 @@ b(uc, "runtime", proto2),
 			{ no: 14, name: "usingItem", kind: "scalar", T: 8, opt: !0 },
 		]),
 	);
-let SPacketPlayerInput = uc;
-const cc = class cc extends Message {
+let SPacketPlayerInput = dc;
+const hc = class hc extends Message {
 	constructor(l) {
 		super();
 		b(this, "pos");
 		b(this, "lines", []);
-		proto2.util.initPartial(l, this);
-	}
-	static fromBinary(l, u) {
-		return new cc().fromBinary(l, u);
-	}
-	static fromJson(l, u) {
-		return new cc().fromJson(l, u);
-	}
-	static fromJsonString(l, u) {
-		return new cc().fromJsonString(l, u);
-	}
-	static equals(l, u) {
-		return proto2.util.equals(cc, l, u);
-	}
-};
-b(cc, "runtime", proto2),
-	b(cc, "typeName", "SPacketUpdateSign"),
-	b(
-		cc,
-		"fields",
-		proto2.util.newFieldList(() => [
-			{ no: 1, name: "pos", kind: "message", T: PBBlockPos },
-			{ no: 2, name: "lines", kind: "scalar", T: 9, repeated: !0 },
-		]),
-	);
-let SPacketUpdateSign = cc;
-const dc = class dc extends Message {
-	constructor(l) {
-		super();
-		b(this, "id");
-		b(this, "effectId");
-		b(this, "amplifier");
-		b(this, "duration");
-		b(this, "hideParticles");
-		proto2.util.initPartial(l, this);
-	}
-	static fromBinary(l, u) {
-		return new dc().fromBinary(l, u);
-	}
-	static fromJson(l, u) {
-		return new dc().fromJson(l, u);
-	}
-	static fromJsonString(l, u) {
-		return new dc().fromJsonString(l, u);
-	}
-	static equals(l, u) {
-		return proto2.util.equals(dc, l, u);
-	}
-};
-b(dc, "runtime", proto2),
-	b(dc, "typeName", "CPacketEntityEffect"),
-	b(
-		dc,
-		"fields",
-		proto2.util.newFieldList(() => [
-			{ no: 1, name: "id", kind: "scalar", T: 13 },
-			{ no: 2, name: "effectId", kind: "scalar", T: 13 },
-			{ no: 3, name: "amplifier", kind: "scalar", T: 13 },
-			{ no: 4, name: "duration", kind: "scalar", T: 13 },
-			{ no: 5, name: "hideParticles", kind: "scalar", T: 8 },
-		]),
-	);
-let CPacketEntityEffect = dc;
-const hc = class hc extends Message {
-	constructor(l) {
-		super();
-		b(this, "id");
-		b(this, "data", []);
 		proto2.util.initPartial(l, this);
 	}
 	static fromBinary(l, u) {
@@ -189436,22 +189818,24 @@ const hc = class hc extends Message {
 	}
 };
 b(hc, "runtime", proto2),
-	b(hc, "typeName", "CPacketEntityProperties"),
+	b(hc, "typeName", "SPacketUpdateSign"),
 	b(
 		hc,
 		"fields",
 		proto2.util.newFieldList(() => [
-			{ no: 1, name: "id", kind: "scalar", T: 13 },
-			{ no: 2, name: "data", kind: "message", T: PBSnapshot, repeated: !0 },
+			{ no: 1, name: "pos", kind: "message", T: PBBlockPos },
+			{ no: 2, name: "lines", kind: "scalar", T: 9, repeated: !0 },
 		]),
 	);
-let CPacketEntityProperties = hc;
+let SPacketUpdateSign = hc;
 const fc = class fc extends Message {
 	constructor(l) {
 		super();
 		b(this, "id");
-		b(this, "value");
-		b(this, "modifiers", []);
+		b(this, "effectId");
+		b(this, "amplifier");
+		b(this, "duration");
+		b(this, "hideParticles");
 		proto2.util.initPartial(l, this);
 	}
 	static fromBinary(l, u) {
@@ -189468,29 +189852,24 @@ const fc = class fc extends Message {
 	}
 };
 b(fc, "runtime", proto2),
-	b(fc, "typeName", "PBSnapshot"),
+	b(fc, "typeName", "CPacketEntityEffect"),
 	b(
 		fc,
 		"fields",
 		proto2.util.newFieldList(() => [
-			{ no: 1, name: "id", kind: "scalar", T: 9 },
-			{ no: 2, name: "value", kind: "scalar", T: 2 },
-			{
-				no: 3,
-				name: "modifiers",
-				kind: "message",
-				T: PBModifier,
-				repeated: !0,
-			},
+			{ no: 1, name: "id", kind: "scalar", T: 13 },
+			{ no: 2, name: "effectId", kind: "scalar", T: 13 },
+			{ no: 3, name: "amplifier", kind: "scalar", T: 13 },
+			{ no: 4, name: "duration", kind: "scalar", T: 13 },
+			{ no: 5, name: "hideParticles", kind: "scalar", T: 8 },
 		]),
 	);
-let PBSnapshot = fc;
+let CPacketEntityEffect = fc;
 const pc = class pc extends Message {
 	constructor(l) {
 		super();
 		b(this, "id");
-		b(this, "amount");
-		b(this, "operation");
+		b(this, "data", []);
 		proto2.util.initPartial(l, this);
 	}
 	static fromBinary(l, u) {
@@ -189507,22 +189886,22 @@ const pc = class pc extends Message {
 	}
 };
 b(pc, "runtime", proto2),
-	b(pc, "typeName", "PBModifier"),
+	b(pc, "typeName", "CPacketEntityProperties"),
 	b(
 		pc,
 		"fields",
 		proto2.util.newFieldList(() => [
-			{ no: 1, name: "id", kind: "scalar", T: 9 },
-			{ no: 2, name: "amount", kind: "scalar", T: 2 },
-			{ no: 3, name: "operation", kind: "scalar", T: 13 },
+			{ no: 1, name: "id", kind: "scalar", T: 13 },
+			{ no: 2, name: "data", kind: "message", T: PBSnapshot, repeated: !0 },
 		]),
 	);
-let PBModifier = pc;
+let CPacketEntityProperties = pc;
 const gc = class gc extends Message {
 	constructor(l) {
 		super();
-		b(this, "minigameId");
-		b(this, "minigameConfig");
+		b(this, "id");
+		b(this, "value");
+		b(this, "modifiers", []);
 		proto2.util.initPartial(l, this);
 	}
 	static fromBinary(l, u) {
@@ -189539,21 +189918,29 @@ const gc = class gc extends Message {
 	}
 };
 b(gc, "runtime", proto2),
-	b(gc, "typeName", "CPacketQueueNext"),
+	b(gc, "typeName", "PBSnapshot"),
 	b(
 		gc,
 		"fields",
 		proto2.util.newFieldList(() => [
-			{ no: 1, name: "minigameId", kind: "scalar", T: 9 },
-			{ no: 2, name: "minigameConfig", kind: "scalar", T: 9 },
+			{ no: 1, name: "id", kind: "scalar", T: 9 },
+			{ no: 2, name: "value", kind: "scalar", T: 2 },
+			{
+				no: 3,
+				name: "modifiers",
+				kind: "message",
+				T: PBModifier,
+				repeated: !0,
+			},
 		]),
 	);
-let CPacketQueueNext = gc;
+let PBSnapshot = gc;
 const yc = class yc extends Message {
 	constructor(l) {
 		super();
 		b(this, "id");
-		b(this, "effectId");
+		b(this, "amount");
+		b(this, "operation");
 		proto2.util.initPartial(l, this);
 	}
 	static fromBinary(l, u) {
@@ -189570,22 +189957,22 @@ const yc = class yc extends Message {
 	}
 };
 b(yc, "runtime", proto2),
-	b(yc, "typeName", "CPacketRemoveEntityEffect"),
+	b(yc, "typeName", "PBModifier"),
 	b(
 		yc,
 		"fields",
 		proto2.util.newFieldList(() => [
-			{ no: 1, name: "id", kind: "scalar", T: 13 },
-			{ no: 2, name: "effectId", kind: "scalar", T: 13 },
+			{ no: 1, name: "id", kind: "scalar", T: 9 },
+			{ no: 2, name: "amount", kind: "scalar", T: 2 },
+			{ no: 3, name: "operation", kind: "scalar", T: 13 },
 		]),
 	);
-let CPacketRemoveEntityEffect = yc;
+let PBModifier = yc;
 const xc = class xc extends Message {
 	constructor(l) {
 		super();
-		b(this, "experience");
-		b(this, "experienceTotal");
-		b(this, "level");
+		b(this, "minigameId");
+		b(this, "minigameConfig");
 		proto2.util.initPartial(l, this);
 	}
 	static fromBinary(l, u) {
@@ -189602,22 +189989,21 @@ const xc = class xc extends Message {
 	}
 };
 b(xc, "runtime", proto2),
-	b(xc, "typeName", "CPacketSetExperience"),
+	b(xc, "typeName", "CPacketQueueNext"),
 	b(
 		xc,
 		"fields",
 		proto2.util.newFieldList(() => [
-			{ no: 1, name: "experience", kind: "scalar", T: 2 },
-			{ no: 2, name: "experienceTotal", kind: "scalar", T: 5 },
-			{ no: 3, name: "level", kind: "scalar", T: 5 },
+			{ no: 1, name: "minigameId", kind: "scalar", T: 9 },
+			{ no: 2, name: "minigameConfig", kind: "scalar", T: 9 },
 		]),
 	);
-let CPacketSetExperience = xc;
+let CPacketQueueNext = xc;
 const Sc = class Sc extends Message {
 	constructor(l) {
 		super();
-		b(this, "name");
-		b(this, "value");
+		b(this, "id");
+		b(this, "effectId");
 		proto2.util.initPartial(l, this);
 	}
 	static fromBinary(l, u) {
@@ -189634,20 +190020,22 @@ const Sc = class Sc extends Message {
 	}
 };
 b(Sc, "runtime", proto2),
-	b(Sc, "typeName", "CPacketShopProperty"),
+	b(Sc, "typeName", "CPacketRemoveEntityEffect"),
 	b(
 		Sc,
 		"fields",
 		proto2.util.newFieldList(() => [
-			{ no: 1, name: "name", kind: "scalar", T: 9, opt: !0 },
-			{ no: 2, name: "value", kind: "scalar", T: 9, opt: !0 },
+			{ no: 1, name: "id", kind: "scalar", T: 13 },
+			{ no: 2, name: "effectId", kind: "scalar", T: 13 },
 		]),
 	);
-let CPacketShopProperty = Sc;
+let CPacketRemoveEntityEffect = Sc;
 const vc = class vc extends Message {
 	constructor(l) {
 		super();
-		b(this, "properties", []);
+		b(this, "experience");
+		b(this, "experienceTotal");
+		b(this, "level");
 		proto2.util.initPartial(l, this);
 	}
 	static fromBinary(l, u) {
@@ -189664,26 +190052,22 @@ const vc = class vc extends Message {
 	}
 };
 b(vc, "runtime", proto2),
-	b(vc, "typeName", "CPacketShopProperties"),
+	b(vc, "typeName", "CPacketSetExperience"),
 	b(
 		vc,
 		"fields",
 		proto2.util.newFieldList(() => [
-			{
-				no: 1,
-				name: "properties",
-				kind: "message",
-				T: CPacketShopProperty,
-				repeated: !0,
-			},
+			{ no: 1, name: "experience", kind: "scalar", T: 2 },
+			{ no: 2, name: "experienceTotal", kind: "scalar", T: 5 },
+			{ no: 3, name: "level", kind: "scalar", T: 5 },
 		]),
 	);
-let CPacketShopProperties = vc;
+let CPacketSetExperience = vc;
 const bc = class bc extends Message {
 	constructor(l) {
 		super();
-		b(this, "id");
-		b(this, "bedPos");
+		b(this, "name");
+		b(this, "value");
 		proto2.util.initPartial(l, this);
 	}
 	static fromBinary(l, u) {
@@ -189700,21 +190084,20 @@ const bc = class bc extends Message {
 	}
 };
 b(bc, "runtime", proto2),
-	b(bc, "typeName", "CPacketUseBed"),
+	b(bc, "typeName", "CPacketShopProperty"),
 	b(
 		bc,
 		"fields",
 		proto2.util.newFieldList(() => [
-			{ no: 1, name: "id", kind: "scalar", T: 13 },
-			{ no: 2, name: "bedPos", kind: "message", T: PBBlockPos },
+			{ no: 1, name: "name", kind: "scalar", T: 9, opt: !0 },
+			{ no: 2, name: "value", kind: "scalar", T: 9, opt: !0 },
 		]),
 	);
-let CPacketUseBed = bc;
+let CPacketShopProperty = bc;
 const wc = class wc extends Message {
 	constructor(l) {
 		super();
-		b(this, "totalTime");
-		b(this, "worldTime");
+		b(this, "properties", []);
 		proto2.util.initPartial(l, this);
 	}
 	static fromBinary(l, u) {
@@ -189731,23 +190114,26 @@ const wc = class wc extends Message {
 	}
 };
 b(wc, "runtime", proto2),
-	b(wc, "typeName", "CPacketTimeUpdate"),
+	b(wc, "typeName", "CPacketShopProperties"),
 	b(
 		wc,
 		"fields",
 		proto2.util.newFieldList(() => [
-			{ no: 1, name: "totalTime", kind: "scalar", T: 13 },
-			{ no: 2, name: "worldTime", kind: "scalar", T: 13 },
+			{
+				no: 1,
+				name: "properties",
+				kind: "message",
+				T: CPacketShopProperty,
+				repeated: !0,
+			},
 		]),
 	);
-let CPacketTimeUpdate = wc;
+let CPacketShopProperties = wc;
 const kc = class kc extends Message {
 	constructor(l) {
 		super();
-		b(this, "enabled");
-		b(this, "disabledReason");
-		b(this, "scripts", []);
-		b(this, "readOnly");
+		b(this, "id");
+		b(this, "bedPos");
 		proto2.util.initPartial(l, this);
 	}
 	static fromBinary(l, u) {
@@ -189764,32 +190150,21 @@ const kc = class kc extends Message {
 	}
 };
 b(kc, "runtime", proto2),
-	b(kc, "typeName", "CPacketScriptData"),
+	b(kc, "typeName", "CPacketUseBed"),
 	b(
 		kc,
 		"fields",
 		proto2.util.newFieldList(() => [
-			{ no: 1, name: "enabled", kind: "scalar", T: 8 },
-			{ no: 2, name: "disabled_reason", kind: "scalar", T: 9, opt: !0 },
-			{
-				no: 3,
-				name: "scripts",
-				kind: "message",
-				T: PBScriptEntry,
-				repeated: !0,
-			},
-			{ no: 4, name: "read_only", kind: "scalar", T: 8, opt: !0 },
+			{ no: 1, name: "id", kind: "scalar", T: 13 },
+			{ no: 2, name: "bedPos", kind: "message", T: PBBlockPos },
 		]),
 	);
-let CPacketScriptData = kc;
+let CPacketUseBed = kc;
 const Ec = class Ec extends Message {
 	constructor(l) {
 		super();
-		b(this, "name");
-		b(this, "source");
-		b(this, "updatedAt");
-		b(this, "updatedBy");
-		b(this, "loadError");
+		b(this, "totalTime");
+		b(this, "worldTime");
 		proto2.util.initPartial(l, this);
 	}
 	static fromBinary(l, u) {
@@ -189806,23 +190181,23 @@ const Ec = class Ec extends Message {
 	}
 };
 b(Ec, "runtime", proto2),
-	b(Ec, "typeName", "PBScriptEntry"),
+	b(Ec, "typeName", "CPacketTimeUpdate"),
 	b(
 		Ec,
 		"fields",
 		proto2.util.newFieldList(() => [
-			{ no: 1, name: "name", kind: "scalar", T: 9 },
-			{ no: 2, name: "source", kind: "scalar", T: 9 },
-			{ no: 3, name: "updated_at", kind: "scalar", T: 4, opt: !0 },
-			{ no: 4, name: "updated_by", kind: "scalar", T: 9, opt: !0 },
-			{ no: 5, name: "load_error", kind: "scalar", T: 9, opt: !0 },
+			{ no: 1, name: "totalTime", kind: "scalar", T: 13 },
+			{ no: 2, name: "worldTime", kind: "scalar", T: 13 },
 		]),
 	);
-let PBScriptEntry = Ec;
+let CPacketTimeUpdate = Ec;
 const Tc = class Tc extends Message {
 	constructor(l) {
 		super();
-		b(this, "entries", []);
+		b(this, "enabled");
+		b(this, "disabledReason");
+		b(this, "scripts", []);
+		b(this, "readOnly");
 		proto2.util.initPartial(l, this);
 	}
 	static fromBinary(l, u) {
@@ -189839,29 +190214,32 @@ const Tc = class Tc extends Message {
 	}
 };
 b(Tc, "runtime", proto2),
-	b(Tc, "typeName", "CPacketScriptLog"),
+	b(Tc, "typeName", "CPacketScriptData"),
 	b(
 		Tc,
 		"fields",
 		proto2.util.newFieldList(() => [
+			{ no: 1, name: "enabled", kind: "scalar", T: 8 },
+			{ no: 2, name: "disabled_reason", kind: "scalar", T: 9, opt: !0 },
 			{
-				no: 1,
-				name: "entries",
+				no: 3,
+				name: "scripts",
 				kind: "message",
-				T: PBScriptLogEntry,
+				T: PBScriptEntry,
 				repeated: !0,
 			},
+			{ no: 4, name: "read_only", kind: "scalar", T: 8, opt: !0 },
 		]),
 	);
-let CPacketScriptLog = Tc;
+let CPacketScriptData = Tc;
 const Cc = class Cc extends Message {
 	constructor(l) {
 		super();
-		b(this, "level");
-		b(this, "message");
-		b(this, "stack");
-		b(this, "tick");
-		b(this, "timestamp");
+		b(this, "name");
+		b(this, "source");
+		b(this, "updatedAt");
+		b(this, "updatedBy");
+		b(this, "loadError");
 		proto2.util.initPartial(l, this);
 	}
 	static fromBinary(l, u) {
@@ -189878,23 +190256,23 @@ const Cc = class Cc extends Message {
 	}
 };
 b(Cc, "runtime", proto2),
-	b(Cc, "typeName", "PBScriptLogEntry"),
+	b(Cc, "typeName", "PBScriptEntry"),
 	b(
 		Cc,
 		"fields",
 		proto2.util.newFieldList(() => [
-			{ no: 1, name: "level", kind: "scalar", T: 9 },
-			{ no: 2, name: "message", kind: "scalar", T: 9 },
-			{ no: 3, name: "stack", kind: "scalar", T: 9, opt: !0 },
-			{ no: 4, name: "tick", kind: "scalar", T: 4, opt: !0 },
-			{ no: 5, name: "timestamp", kind: "scalar", T: 4, opt: !0 },
+			{ no: 1, name: "name", kind: "scalar", T: 9 },
+			{ no: 2, name: "source", kind: "scalar", T: 9 },
+			{ no: 3, name: "updated_at", kind: "scalar", T: 4, opt: !0 },
+			{ no: 4, name: "updated_by", kind: "scalar", T: 9, opt: !0 },
+			{ no: 5, name: "load_error", kind: "scalar", T: 9, opt: !0 },
 		]),
 	);
-let PBScriptLogEntry = Cc;
+let PBScriptEntry = Cc;
 const Ic = class Ic extends Message {
 	constructor(l) {
 		super();
-		b(this, "json");
+		b(this, "entries", []);
 		proto2.util.initPartial(l, this);
 	}
 	static fromBinary(l, u) {
@@ -189911,19 +190289,29 @@ const Ic = class Ic extends Message {
 	}
 };
 b(Ic, "runtime", proto2),
-	b(Ic, "typeName", "CPacketPlotsData"),
+	b(Ic, "typeName", "CPacketScriptLog"),
 	b(
 		Ic,
 		"fields",
 		proto2.util.newFieldList(() => [
-			{ no: 1, name: "json", kind: "scalar", T: 9 },
+			{
+				no: 1,
+				name: "entries",
+				kind: "message",
+				T: PBScriptLogEntry,
+				repeated: !0,
+			},
 		]),
 	);
-let CPacketPlotsData = Ic;
+let CPacketScriptLog = Ic;
 const Ac = class Ac extends Message {
 	constructor(l) {
 		super();
-		b(this, "packets", []);
+		b(this, "level");
+		b(this, "message");
+		b(this, "stack");
+		b(this, "tick");
+		b(this, "timestamp");
 		proto2.util.initPartial(l, this);
 	}
 	static fromBinary(l, u) {
@@ -189940,25 +190328,23 @@ const Ac = class Ac extends Message {
 	}
 };
 b(Ac, "runtime", proto2),
-	b(Ac, "typeName", "ClientBoundCombined"),
+	b(Ac, "typeName", "PBScriptLogEntry"),
 	b(
 		Ac,
 		"fields",
 		proto2.util.newFieldList(() => [
-			{
-				no: 1,
-				name: "packets",
-				kind: "message",
-				T: ClientBoundCombined_CPacket,
-				repeated: !0,
-			},
+			{ no: 1, name: "level", kind: "scalar", T: 9 },
+			{ no: 2, name: "message", kind: "scalar", T: 9 },
+			{ no: 3, name: "stack", kind: "scalar", T: 9, opt: !0 },
+			{ no: 4, name: "tick", kind: "scalar", T: 4, opt: !0 },
+			{ no: 5, name: "timestamp", kind: "scalar", T: 4, opt: !0 },
 		]),
 	);
-let ClientBoundCombined = Ac;
+let PBScriptLogEntry = Ac;
 const Mc = class Mc extends Message {
 	constructor(l) {
 		super();
-		b(this, "packet", { case: void 0 });
+		b(this, "json");
 		proto2.util.initPartial(l, this);
 	}
 	static fromBinary(l, u) {
@@ -189975,9 +190361,73 @@ const Mc = class Mc extends Message {
 	}
 };
 b(Mc, "runtime", proto2),
-	b(Mc, "typeName", "ClientBoundCombined.CPacket"),
+	b(Mc, "typeName", "CPacketPlotsData"),
 	b(
 		Mc,
+		"fields",
+		proto2.util.newFieldList(() => [
+			{ no: 1, name: "json", kind: "scalar", T: 9 },
+		]),
+	);
+let CPacketPlotsData = Mc;
+const Rc = class Rc extends Message {
+	constructor(l) {
+		super();
+		b(this, "packets", []);
+		proto2.util.initPartial(l, this);
+	}
+	static fromBinary(l, u) {
+		return new Rc().fromBinary(l, u);
+	}
+	static fromJson(l, u) {
+		return new Rc().fromJson(l, u);
+	}
+	static fromJsonString(l, u) {
+		return new Rc().fromJsonString(l, u);
+	}
+	static equals(l, u) {
+		return proto2.util.equals(Rc, l, u);
+	}
+};
+b(Rc, "runtime", proto2),
+	b(Rc, "typeName", "ClientBoundCombined"),
+	b(
+		Rc,
+		"fields",
+		proto2.util.newFieldList(() => [
+			{
+				no: 1,
+				name: "packets",
+				kind: "message",
+				T: ClientBoundCombined_CPacket,
+				repeated: !0,
+			},
+		]),
+	);
+let ClientBoundCombined = Rc;
+const Pc = class Pc extends Message {
+	constructor(l) {
+		super();
+		b(this, "packet", { case: void 0 });
+		proto2.util.initPartial(l, this);
+	}
+	static fromBinary(l, u) {
+		return new Pc().fromBinary(l, u);
+	}
+	static fromJson(l, u) {
+		return new Pc().fromJson(l, u);
+	}
+	static fromJsonString(l, u) {
+		return new Pc().fromJsonString(l, u);
+	}
+	static equals(l, u) {
+		return proto2.util.equals(Pc, l, u);
+	}
+};
+b(Pc, "runtime", proto2),
+	b(Pc, "typeName", "ClientBoundCombined.CPacket"),
+	b(
+		Pc,
 		"fields",
 		proto2.util.newFieldList(() => [
 			{
@@ -190407,69 +190857,28 @@ b(Mc, "runtime", proto2),
 				T: CPacketPlotsData,
 				oneof: "packet",
 			},
+			{
+				no: 62,
+				name: "CPacketUpdatePlayerHead",
+				kind: "message",
+				T: CPacketUpdatePlayerHead,
+				oneof: "packet",
+			},
+			{
+				no: 63,
+				name: "CPacketChunkUnchanged",
+				kind: "message",
+				T: CPacketChunkUnchanged,
+				oneof: "packet",
+			},
 		]),
 	);
-let ClientBoundCombined_CPacket = Mc;
-const Rc = class Rc extends Message {
+let ClientBoundCombined_CPacket = Pc;
+const Bc = class Bc extends Message {
 	constructor(l) {
 		super();
 		b(this, "windowId");
 		b(this, "button");
-		proto2.util.initPartial(l, this);
-	}
-	static fromBinary(l, u) {
-		return new Rc().fromBinary(l, u);
-	}
-	static fromJson(l, u) {
-		return new Rc().fromJson(l, u);
-	}
-	static fromJsonString(l, u) {
-		return new Rc().fromJsonString(l, u);
-	}
-	static equals(l, u) {
-		return proto2.util.equals(Rc, l, u);
-	}
-};
-b(Rc, "runtime", proto2),
-	b(Rc, "typeName", "SPacketEnchantItem"),
-	b(
-		Rc,
-		"fields",
-		proto2.util.newFieldList(() => [
-			{ no: 1, name: "windowId", kind: "scalar", T: 5 },
-			{ no: 2, name: "button", kind: "scalar", T: 5 },
-		]),
-	);
-let SPacketEnchantItem = Rc;
-const Pc = class Pc extends Message {
-	constructor(o) {
-		super(), proto2.util.initPartial(o, this);
-	}
-	static fromBinary(o, l) {
-		return new Pc().fromBinary(o, l);
-	}
-	static fromJson(o, l) {
-		return new Pc().fromJson(o, l);
-	}
-	static fromJsonString(o, l) {
-		return new Pc().fromJsonString(o, l);
-	}
-	static equals(o, l) {
-		return proto2.util.equals(Pc, o, l);
-	}
-};
-b(Pc, "runtime", proto2),
-	b(Pc, "typeName", "SPacketQueueNext"),
-	b(
-		Pc,
-		"fields",
-		proto2.util.newFieldList(() => []),
-	);
-let SPacketQueueNext = Pc;
-const Bc = class Bc extends Message {
-	constructor(l) {
-		super();
-		b(this, "action", { case: void 0 });
 		proto2.util.initPartial(l, this);
 	}
 	static fromBinary(l, u) {
@@ -190486,9 +190895,64 @@ const Bc = class Bc extends Message {
 	}
 };
 b(Bc, "runtime", proto2),
-	b(Bc, "typeName", "SPacketScriptAction"),
+	b(Bc, "typeName", "SPacketEnchantItem"),
 	b(
 		Bc,
+		"fields",
+		proto2.util.newFieldList(() => [
+			{ no: 1, name: "windowId", kind: "scalar", T: 5 },
+			{ no: 2, name: "button", kind: "scalar", T: 5 },
+		]),
+	);
+let SPacketEnchantItem = Bc;
+const Lc = class Lc extends Message {
+	constructor(o) {
+		super(), proto2.util.initPartial(o, this);
+	}
+	static fromBinary(o, l) {
+		return new Lc().fromBinary(o, l);
+	}
+	static fromJson(o, l) {
+		return new Lc().fromJson(o, l);
+	}
+	static fromJsonString(o, l) {
+		return new Lc().fromJsonString(o, l);
+	}
+	static equals(o, l) {
+		return proto2.util.equals(Lc, o, l);
+	}
+};
+b(Lc, "runtime", proto2),
+	b(Lc, "typeName", "SPacketQueueNext"),
+	b(
+		Lc,
+		"fields",
+		proto2.util.newFieldList(() => []),
+	);
+let SPacketQueueNext = Lc;
+const Nc = class Nc extends Message {
+	constructor(l) {
+		super();
+		b(this, "action", { case: void 0 });
+		proto2.util.initPartial(l, this);
+	}
+	static fromBinary(l, u) {
+		return new Nc().fromBinary(l, u);
+	}
+	static fromJson(l, u) {
+		return new Nc().fromJson(l, u);
+	}
+	static fromJsonString(l, u) {
+		return new Nc().fromJsonString(l, u);
+	}
+	static equals(l, u) {
+		return proto2.util.equals(Nc, l, u);
+	}
+};
+b(Nc, "runtime", proto2),
+	b(Nc, "typeName", "SPacketScriptAction"),
+	b(
+		Nc,
 		"fields",
 		proto2.util.newFieldList(() => [
 			{ no: 1, name: "list", kind: "message", T: ScriptList, oneof: "action" },
@@ -190523,96 +190987,37 @@ b(Bc, "runtime", proto2),
 			},
 		]),
 	);
-let SPacketScriptAction = Bc;
-const Lc = class Lc extends Message {
+let SPacketScriptAction = Nc;
+const Oc = class Oc extends Message {
 	constructor(o) {
 		super(), proto2.util.initPartial(o, this);
 	}
 	static fromBinary(o, l) {
-		return new Lc().fromBinary(o, l);
+		return new Oc().fromBinary(o, l);
 	}
 	static fromJson(o, l) {
-		return new Lc().fromJson(o, l);
+		return new Oc().fromJson(o, l);
 	}
 	static fromJsonString(o, l) {
-		return new Lc().fromJsonString(o, l);
+		return new Oc().fromJsonString(o, l);
 	}
 	static equals(o, l) {
-		return proto2.util.equals(Lc, o, l);
+		return proto2.util.equals(Oc, o, l);
 	}
 };
-b(Lc, "runtime", proto2),
-	b(Lc, "typeName", "ScriptList"),
+b(Oc, "runtime", proto2),
+	b(Oc, "typeName", "ScriptList"),
 	b(
-		Lc,
+		Oc,
 		"fields",
 		proto2.util.newFieldList(() => []),
 	);
-let ScriptList = Lc;
-const Nc = class Nc extends Message {
+let ScriptList = Oc;
+const Dc = class Dc extends Message {
 	constructor(l) {
 		super();
 		b(this, "name");
 		b(this, "source");
-		proto2.util.initPartial(l, this);
-	}
-	static fromBinary(l, u) {
-		return new Nc().fromBinary(l, u);
-	}
-	static fromJson(l, u) {
-		return new Nc().fromJson(l, u);
-	}
-	static fromJsonString(l, u) {
-		return new Nc().fromJsonString(l, u);
-	}
-	static equals(l, u) {
-		return proto2.util.equals(Nc, l, u);
-	}
-};
-b(Nc, "runtime", proto2),
-	b(Nc, "typeName", "ScriptSave"),
-	b(
-		Nc,
-		"fields",
-		proto2.util.newFieldList(() => [
-			{ no: 1, name: "name", kind: "scalar", T: 9 },
-			{ no: 2, name: "source", kind: "scalar", T: 9 },
-		]),
-	);
-let ScriptSave = Nc;
-const Oc = class Oc extends Message {
-	constructor(l) {
-		super();
-		b(this, "name");
-		proto2.util.initPartial(l, this);
-	}
-	static fromBinary(l, u) {
-		return new Oc().fromBinary(l, u);
-	}
-	static fromJson(l, u) {
-		return new Oc().fromJson(l, u);
-	}
-	static fromJsonString(l, u) {
-		return new Oc().fromJsonString(l, u);
-	}
-	static equals(l, u) {
-		return proto2.util.equals(Oc, l, u);
-	}
-};
-b(Oc, "runtime", proto2),
-	b(Oc, "typeName", "ScriptDelete"),
-	b(
-		Oc,
-		"fields",
-		proto2.util.newFieldList(() => [
-			{ no: 1, name: "name", kind: "scalar", T: 9 },
-		]),
-	);
-let ScriptDelete = Oc;
-const Dc = class Dc extends Message {
-	constructor(l) {
-		super();
-		b(this, "enabled");
 		proto2.util.initPartial(l, this);
 	}
 	static fromBinary(l, u) {
@@ -190629,45 +191034,49 @@ const Dc = class Dc extends Message {
 	}
 };
 b(Dc, "runtime", proto2),
-	b(Dc, "typeName", "ScriptSetEnabled"),
+	b(Dc, "typeName", "ScriptSave"),
 	b(
 		Dc,
 		"fields",
 		proto2.util.newFieldList(() => [
-			{ no: 1, name: "enabled", kind: "scalar", T: 8 },
+			{ no: 1, name: "name", kind: "scalar", T: 9 },
+			{ no: 2, name: "source", kind: "scalar", T: 9 },
 		]),
 	);
-let ScriptSetEnabled = Dc;
+let ScriptSave = Dc;
 const zc = class zc extends Message {
-	constructor(o) {
-		super(), proto2.util.initPartial(o, this);
-	}
-	static fromBinary(o, l) {
-		return new zc().fromBinary(o, l);
-	}
-	static fromJson(o, l) {
-		return new zc().fromJson(o, l);
-	}
-	static fromJsonString(o, l) {
-		return new zc().fromJsonString(o, l);
-	}
-	static equals(o, l) {
-		return proto2.util.equals(zc, o, l);
-	}
-};
-b(zc, "runtime", proto2),
-	b(zc, "typeName", "ScriptGetLogs"),
-	b(
-		zc,
-		"fields",
-		proto2.util.newFieldList(() => []),
-	);
-let ScriptGetLogs = zc;
-const Fc = class Fc extends Message {
 	constructor(l) {
 		super();
 		b(this, "name");
-		b(this, "newName");
+		proto2.util.initPartial(l, this);
+	}
+	static fromBinary(l, u) {
+		return new zc().fromBinary(l, u);
+	}
+	static fromJson(l, u) {
+		return new zc().fromJson(l, u);
+	}
+	static fromJsonString(l, u) {
+		return new zc().fromJsonString(l, u);
+	}
+	static equals(l, u) {
+		return proto2.util.equals(zc, l, u);
+	}
+};
+b(zc, "runtime", proto2),
+	b(zc, "typeName", "ScriptDelete"),
+	b(
+		zc,
+		"fields",
+		proto2.util.newFieldList(() => [
+			{ no: 1, name: "name", kind: "scalar", T: 9 },
+		]),
+	);
+let ScriptDelete = zc;
+const Fc = class Fc extends Message {
+	constructor(l) {
+		super();
+		b(this, "enabled");
 		proto2.util.initPartial(l, this);
 	}
 	static fromBinary(l, u) {
@@ -190684,52 +191093,45 @@ const Fc = class Fc extends Message {
 	}
 };
 b(Fc, "runtime", proto2),
-	b(Fc, "typeName", "ScriptRename"),
+	b(Fc, "typeName", "ScriptSetEnabled"),
 	b(
 		Fc,
 		"fields",
 		proto2.util.newFieldList(() => [
-			{ no: 1, name: "name", kind: "scalar", T: 9 },
-			{ no: 2, name: "new_name", kind: "scalar", T: 9 },
+			{ no: 1, name: "enabled", kind: "scalar", T: 8 },
 		]),
 	);
-let ScriptRename = Fc;
+let ScriptSetEnabled = Fc;
 const $c = class $c extends Message {
-	constructor(l) {
-		super();
-		b(this, "json");
-		proto2.util.initPartial(l, this);
+	constructor(o) {
+		super(), proto2.util.initPartial(o, this);
 	}
-	static fromBinary(l, u) {
-		return new $c().fromBinary(l, u);
+	static fromBinary(o, l) {
+		return new $c().fromBinary(o, l);
 	}
-	static fromJson(l, u) {
-		return new $c().fromJson(l, u);
+	static fromJson(o, l) {
+		return new $c().fromJson(o, l);
 	}
-	static fromJsonString(l, u) {
-		return new $c().fromJsonString(l, u);
+	static fromJsonString(o, l) {
+		return new $c().fromJsonString(o, l);
 	}
-	static equals(l, u) {
-		return proto2.util.equals($c, l, u);
+	static equals(o, l) {
+		return proto2.util.equals($c, o, l);
 	}
 };
 b($c, "runtime", proto2),
-	b($c, "typeName", "SPacketPlotsAction"),
+	b($c, "typeName", "ScriptGetLogs"),
 	b(
 		$c,
 		"fields",
-		proto2.util.newFieldList(() => [
-			{ no: 1, name: "json", kind: "scalar", T: 9 },
-		]),
+		proto2.util.newFieldList(() => []),
 	);
-let SPacketPlotsAction = $c;
+let ScriptGetLogs = $c;
 const Uc = class Uc extends Message {
 	constructor(l) {
 		super();
-		b(this, "pos");
-		b(this, "command");
-		b(this, "commands", []);
-		b(this, "repeat");
+		b(this, "name");
+		b(this, "newName");
 		proto2.util.initPartial(l, this);
 	}
 	static fromBinary(l, u) {
@@ -190746,9 +191148,71 @@ const Uc = class Uc extends Message {
 	}
 };
 b(Uc, "runtime", proto2),
-	b(Uc, "typeName", "SPacketUpdateCommandBlock"),
+	b(Uc, "typeName", "ScriptRename"),
 	b(
 		Uc,
+		"fields",
+		proto2.util.newFieldList(() => [
+			{ no: 1, name: "name", kind: "scalar", T: 9 },
+			{ no: 2, name: "new_name", kind: "scalar", T: 9 },
+		]),
+	);
+let ScriptRename = Uc;
+const qc = class qc extends Message {
+	constructor(l) {
+		super();
+		b(this, "json");
+		proto2.util.initPartial(l, this);
+	}
+	static fromBinary(l, u) {
+		return new qc().fromBinary(l, u);
+	}
+	static fromJson(l, u) {
+		return new qc().fromJson(l, u);
+	}
+	static fromJsonString(l, u) {
+		return new qc().fromJsonString(l, u);
+	}
+	static equals(l, u) {
+		return proto2.util.equals(qc, l, u);
+	}
+};
+b(qc, "runtime", proto2),
+	b(qc, "typeName", "SPacketPlotsAction"),
+	b(
+		qc,
+		"fields",
+		proto2.util.newFieldList(() => [
+			{ no: 1, name: "json", kind: "scalar", T: 9 },
+		]),
+	);
+let SPacketPlotsAction = qc;
+const Hc = class Hc extends Message {
+	constructor(l) {
+		super();
+		b(this, "pos");
+		b(this, "command");
+		b(this, "commands", []);
+		b(this, "repeat");
+		proto2.util.initPartial(l, this);
+	}
+	static fromBinary(l, u) {
+		return new Hc().fromBinary(l, u);
+	}
+	static fromJson(l, u) {
+		return new Hc().fromJson(l, u);
+	}
+	static fromJsonString(l, u) {
+		return new Hc().fromJsonString(l, u);
+	}
+	static equals(l, u) {
+		return proto2.util.equals(Hc, l, u);
+	}
+};
+b(Hc, "runtime", proto2),
+	b(Hc, "typeName", "SPacketUpdateCommandBlock"),
+	b(
+		Hc,
 		"fields",
 		proto2.util.newFieldList(() => [
 			{ no: 1, name: "pos", kind: "message", T: PBBlockPos },
@@ -190757,7 +191221,7 @@ b(Uc, "runtime", proto2),
 			{ no: 4, name: "repeat", kind: "scalar", T: 5, opt: !0 },
 		]),
 	);
-let SPacketUpdateCommandBlock = Uc;
+let SPacketUpdateCommandBlock = Hc;
 const CPACKET_MAP = {
 		CPacketAnimation,
 		CPacketBlockAction,
@@ -190822,6 +191286,8 @@ const CPACKET_MAP = {
 		CPacketScriptData,
 		CPacketScriptLog,
 		CPacketPlotsData,
+		CPacketUpdatePlayerHead,
+		CPacketChunkUnchanged,
 	},
 	SPACKET_MAP = {
 		SPacketAdminAction,
@@ -190865,6 +191331,8 @@ const CPACKET_MAP = {
 		SPacketScriptAction,
 		CPacketPlotsData,
 		SPacketPlotsAction,
+		CPacketUpdatePlayerHead,
+		CPacketChunkUnchanged,
 	};
 let currentId = 0;
 const assignPacketId = (h, o) => {
@@ -193115,7 +193583,7 @@ class Polling extends Transport {
 			(this.pollXhr = o);
 	}
 }
-let Request$1 = class $m extends Emitter {
+let Request$1 = class qm extends Emitter {
 	constructor(o, l) {
 		super(),
 			installTimerFunctions(this, l),
@@ -193183,7 +193651,7 @@ let Request$1 = class $m extends Emitter {
 			return;
 		}
 		typeof document < "u" &&
-			((this.index = $m.requestsCount++), ($m.requests[this.index] = this));
+			((this.index = qm.requestsCount++), (qm.requests[this.index] = this));
 	}
 	onError(o) {
 		this.emitReserved("error", o, this.xhr), this.cleanup(!0);
@@ -193194,7 +193662,7 @@ let Request$1 = class $m extends Emitter {
 				try {
 					this.xhr.abort();
 				} catch {}
-			typeof document < "u" && delete $m.requests[this.index],
+			typeof document < "u" && delete qm.requests[this.index],
 				(this.xhr = null);
 		}
 	}
@@ -193446,7 +193914,7 @@ function queryKey(h, o) {
 		l
 	);
 }
-let Socket$1 = class bf extends Emitter {
+let Socket$1 = class kf extends Emitter {
 	constructor(o, l = {}) {
 		super(),
 			(this.binaryType = defaultBinaryType),
@@ -193545,7 +194013,7 @@ let Socket$1 = class bf extends Emitter {
 		let o;
 		if (
 			this.opts.rememberUpgrade &&
-			bf.priorWebsocketSuccess &&
+			kf.priorWebsocketSuccess &&
 			this.transports.indexOf("websocket") !== -1
 		)
 			o = "websocket";
@@ -193576,7 +194044,7 @@ let Socket$1 = class bf extends Emitter {
 	probe(o) {
 		let l = this.createTransport(o),
 			u = !1;
-		bf.priorWebsocketSuccess = !1;
+		kf.priorWebsocketSuccess = !1;
 		const d = () => {
 			u ||
 				(l.send([{ type: "ping", data: "probe" }]),
@@ -193587,7 +194055,7 @@ let Socket$1 = class bf extends Emitter {
 								((this.upgrading = !0), this.emitReserved("upgrading", l), !l)
 							)
 								return;
-							(bf.priorWebsocketSuccess = l.name === "websocket"),
+							(kf.priorWebsocketSuccess = l.name === "websocket"),
 								this.transport.pause(() => {
 									u ||
 										(this.readyState !== "closed" &&
@@ -193642,7 +194110,7 @@ let Socket$1 = class bf extends Emitter {
 	onOpen() {
 		if (
 			((this.readyState = "open"),
-			(bf.priorWebsocketSuccess = this.transport.name === "websocket"),
+			(kf.priorWebsocketSuccess = this.transport.name === "websocket"),
 			this.emitReserved("open"),
 			this.flush(),
 			this.readyState === "open" && this.opts.upgrade)
@@ -193780,7 +194248,7 @@ let Socket$1 = class bf extends Emitter {
 		);
 	}
 	onError(o) {
-		(bf.priorWebsocketSuccess = !1),
+		(kf.priorWebsocketSuccess = !1),
 			this.emitReserved("error", o),
 			this.onClose("transport error", o);
 	}
@@ -195365,7 +195833,7 @@ class ClientDecoder extends Decoder$1 {
 		if (!!ClientSocket.useDecodeWorker)
 			try {
 				(this.worker = new Worker(
-					new URL("/assets/NetworkDecodeWorker-B1G7GL-l.js", import.meta.url),
+					new URL("/assets/NetworkDecodeWorker-DTaeBN1S.js", import.meta.url),
 					{ type: "module" },
 				)),
 					(this.worker.onmessage = (l) => {
@@ -195392,7 +195860,7 @@ const parser = {
 		Encoder: ClientEncoder,
 		Decoder: ClientDecoder,
 	},
-	wd = class wd {
+	Ed = class Ed {
 		static setUrl(o, l) {
 			this.socket = lookup(o, {
 				transports: ["websocket"],
@@ -195411,7 +195879,7 @@ const parser = {
 		}
 		static connect() {
 			this.socket.on("connect", () => {
-				wd.id = this.socket.id;
+				Ed.id = this.socket.id;
 			}),
 				this.socket.connect();
 		}
@@ -195444,12 +195912,12 @@ const parser = {
 			});
 		}
 	};
-b(wd, "socket"),
-	b(wd, "id"),
-	b(wd, "disconnectMessage", null),
-	b(wd, "netSim", new NetworkSimulator()),
+b(Ed, "socket"),
+	b(Ed, "id"),
+	b(Ed, "disconnectMessage", null),
+	b(Ed, "netSim", new NetworkSimulator()),
 	b(
-		wd,
+		Ed,
 		"useDecodeWorker",
 		(() => {
 			try {
@@ -195460,7 +195928,7 @@ b(wd, "socket"),
 			return !0;
 		})(),
 	);
-let ClientSocket = wd,
+let ClientSocket = Ed,
 	streakOfConsistentClicks = 0,
 	lastClick = 0,
 	recentClick = 0,
@@ -195565,17 +196033,17 @@ document.addEventListener("mousedown", (h) => {
 	if ((autoClickerDectectOnClick(game), !(!Game.isActive() || Game.isMobile))) {
 		switch (h.which) {
 			case 1:
-				BAvuRSpMQwpQWMAW.leftClick(), (mouseLerp.event = 0);
+				YGgmbprFEuQFLLKz.leftClick(), (mouseLerp.event = 0);
 				break;
 			case 2:
 				h.preventDefault(),
-					BAvuRSpMQwpQWMAW.middleClick(),
+					YGgmbprFEuQFLLKz.middleClick(),
 					(mouseLerp.event = 2);
 				break;
 			case 3:
 				(mouseLerp.event = 1),
-					(BAvuRSpMQwpQWMAW.rightClick = !0),
-					BAvuRSpMQwpQWMAW.rightClickMouse();
+					(YGgmbprFEuQFLLKz.rightClick = !0),
+					YGgmbprFEuQFLLKz.rightClickMouse();
 				break;
 		}
 		(o = gui$1.currentScreen) == null || o.handleMouseInput();
@@ -195586,14 +196054,14 @@ document.addEventListener("mouseup", (h) => {
 	if (game.inGame() && !Game.isMobile) {
 		switch (h.which) {
 			case 1:
-				BAvuRSpMQwpQWMAW.leftClick(!0);
+				YGgmbprFEuQFLLKz.leftClick(!0);
 				break;
 			case 2:
-				BAvuRSpMQwpQWMAW.middleClick(!0);
+				YGgmbprFEuQFLLKz.middleClick(!0);
 				break;
 			case 3:
-				(BAvuRSpMQwpQWMAW.rightClick = !1),
-					player.isUsingItem() && BAvuRSpMQwpQWMAW.onStoppedUsingItem(player);
+				(YGgmbprFEuQFLLKz.rightClick = !1),
+					player.isUsingItem() && YGgmbprFEuQFLLKz.onStoppedUsingItem(player);
 				break;
 		}
 		(o = gui$1.currentScreen) == null || o.handleMouseInput(!1, !0),
@@ -195685,7 +196153,7 @@ class PointerLockControls {
 	get camera() {
 		return this.yawObject;
 	}
-	get ZmUSmv() {
+	get qJMGAc() {
 		return this.camera.position;
 	}
 }
@@ -196749,10 +197217,10 @@ function useLinkClickHandler(h, o) {
 		[y, g, x, u, d, l, h, p, m],
 	);
 }
-const kd = class kd {
+const Td = class Td {
 	static useMountHooks() {
 		(this.navigate = useNavigate()),
-			(this.location = kd.location = useLocation().pathname);
+			(this.location = Td.location = useLocation().pathname);
 	}
 	static useEscapeHandler(o) {
 		const l = useNavigate();
@@ -196836,11 +197304,11 @@ const kd = class kd {
 		] && ClientAxios.publicRequest(u(363), {});
 	}
 };
-b(kd, "defaultLocation", "/"),
-	b(kd, "location", kd.defaultLocation),
-	b(kd, "navigate", (o) => {}),
-	b(kd, "escapeHandler", null);
-let ReactInterface = kd;
+b(Td, "defaultLocation", "/"),
+	b(Td, "location", Td.defaultLocation),
+	b(Td, "navigate", (o) => {}),
+	b(Td, "escapeHandler", null);
+let ReactInterface = Td;
 const canvas$5 = document.getElementById("canvas-hud"),
 	ctx$4 = canvas$5.getContext("2d");
 class TouchControls {
@@ -196944,12 +197412,12 @@ class TouchControls {
 					(this.lookId = u.identifier),
 					(mouse.x = u.clientX),
 					(mouse.y = u.clientY),
-					BAvuRSpMQwpQWMAW.updateMouseOver(),
-					BAvuRSpMQwpQWMAW.objectMouseOver.block
+					YGgmbprFEuQFLLKz.updateMouseOver(),
+					YGgmbprFEuQFLLKz.objectMouseOver.block
 						? (this.prevTouchPos.set(u.clientX, u.clientY),
 							(this.startLook = Date.now()))
-						: BAvuRSpMQwpQWMAW.objectMouseOver.entity &&
-							BAvuRSpMQwpQWMAW.leftClick());
+						: YGgmbprFEuQFLLKz.objectMouseOver.entity &&
+							YGgmbprFEuQFLLKz.leftClick());
 		this.checkForDisconnectedTouch(l);
 	}
 	touchEnd(o, l) {
@@ -196958,11 +197426,11 @@ class TouchControls {
 				((this.moveId = null), this.direction.setScalar(0)),
 				u.identifier === this.lookId &&
 					(Date.now() - this.startLook < 200 &&
-						BAvuRSpMQwpQWMAW.rightClickMouse(),
+						YGgmbprFEuQFLLKz.rightClickMouse(),
 					(this.lookId = null),
 					(this.lastLook = Date.now()),
 					(this.startLook = 0),
-					BAvuRSpMQwpQWMAW.leftClick(!0));
+					YGgmbprFEuQFLLKz.leftClick(!0));
 		this.checkForDisconnectedTouch(l);
 	}
 	updateDirection(o) {
@@ -197016,7 +197484,7 @@ class TouchControls {
 			this.startLook &&
 				Date.now() - this.startLook > 300 &&
 				o < l &&
-				(BAvuRSpMQwpQWMAW.leftClick(), (this.startLook = 0));
+				(YGgmbprFEuQFLLKz.leftClick(), (this.startLook = 0));
 	}
 	render() {
 		if (
@@ -197062,7 +197530,7 @@ class PlayerControllerMP {
 		b(this, "lastSentSlot", -1);
 		b(this, "isHittingBlock", !1);
 	}
-	HUcerkPBwZKiYBQDcKS() {
+	iIsqlAHaYqWdDSXzzxA() {
 		const o = player.inventory.currentItem;
 		o !== this.lastSentSlot &&
 			((this.lastSentSlot = o),
@@ -197076,10 +197544,10 @@ class PlayerControllerMP {
 	}
 }
 const playerControllerMP = new PlayerControllerMP(),
-	_prevBbox = new IauP(),
+	_prevBbox = new wUmo(),
 	_prevPos = new Vector3$1(),
-	_aabb = new IauP(),
-	EMPTY_BOX = new IauP(new Vector3$1(0, 0, 0), new Vector3$1(0, 0, 0)),
+	_aabb = new wUmo(),
+	EMPTY_BOX = new wUmo(new Vector3$1(0, 0, 0), new Vector3$1(0, 0, 0)),
 	_cameraRight = new Vector3$1(),
 	_cameraUp = new Vector3$1(0, 1, 0),
 	_cameraUpAdjusted = new Vector3$1();
@@ -197157,7 +197625,7 @@ class PlayerController {
 		this.sendUseItem(player, game.world, o) && o != null && hud3D.swingArm();
 	}
 	onPlayerRightClick(o, l, u, d, p, m) {
-		playerControllerMP.HUcerkPBwZKiYBQDcKS();
+		playerControllerMP.iIsqlAHaYqWdDSXzzxA();
 		const g = m.x - d.x,
 			y = m.y - d.y,
 			x = m.z - d.z;
@@ -197184,12 +197652,17 @@ class PlayerController {
 			!u.item.canPlaceBlockOnSide(l, d, p, o, u)
 		)
 			return !1;
-		return v ? !0 : u == null ? !1 : u.onItemUse(o, l, d, p, g, y, x);
+		if (v) return !0;
+		if (u == null) return !1;
+		{
+			const w = u.onItemUse(o, l, d, p, g, y, x);
+			return w && u.item.isItemBlock() && onboardingManager.markPlaced(), w;
+		}
 	}
 	sendUseItem(o, l, u) {
 		if (
 			o.mode.isSpectator() ||
-			(playerControllerMP.HUcerkPBwZKiYBQDcKS(),
+			(playerControllerMP.iIsqlAHaYqWdDSXzzxA(),
 			ClientSocket.sendPacket(new SPacketUseItem()),
 			u == null)
 		)
@@ -197202,7 +197675,7 @@ class PlayerController {
 				? !1
 				: ((o.inventory.main[o.inventory.currentItem] = p), !0);
 	}
-	mBMVHePueZT(o, l, u, d, p) {
+	ZdqsJfGeiXV(o, l, u, d, p) {
 		const m = p.openContainer.getNextTransactionID(p.inventory),
 			g = p.openContainer.slotClick(l, u, d, p);
 		return (
@@ -197220,7 +197693,7 @@ class PlayerController {
 		);
 	}
 	onStoppedUsingItem(o) {
-		playerControllerMP.HUcerkPBwZKiYBQDcKS(),
+		playerControllerMP.iIsqlAHaYqWdDSXzzxA(),
 			ClientSocket.sendPacket(
 				new SPacketPlayerAction({
 					position: BlockPos.ORIGIN.toProto(),
@@ -197289,7 +197762,7 @@ class PlayerController {
 		}
 	}
 	attackEntity(o) {
-		playerControllerMP.HUcerkPBwZKiYBQDcKS(),
+		playerControllerMP.iIsqlAHaYqWdDSXzzxA(),
 			ClientSocket.sendPacket(
 				new SPacketUseEntity({
 					id: o.id,
@@ -197304,11 +197777,11 @@ class PlayerController {
 					sequence: player.inputSequenceNumber,
 				}),
 			),
-			player.TsfhPbrbifnjgHPgnTCaNUfRpfdSCHhiU(o);
+			player.hPMktegRpjQWHUOBOGIMTfDUaifidoQsp(o);
 	}
 	interactWithEntitySendPacket(o, l) {
 		return l
-			? (playerControllerMP.HUcerkPBwZKiYBQDcKS(),
+			? (playerControllerMP.iIsqlAHaYqWdDSXzzxA(),
 				ClientSocket.sendPacket(
 					new SPacketUseEntity({
 						id: l.id,
@@ -197416,12 +197889,23 @@ class PlayerController {
 		const o = this.getTargetedBlockState();
 		if (!o) return;
 		const l = o.getBlock();
-		if (!l.hasItemForm()) return;
-		const u = Items.getItemByBlock(l),
-			d = this.findHotbarSlotForPickBlock(u);
-		(player.inventory.main[d] = new ItemStack(u)),
-			(player.inventory.currentItem = d),
-			(game.info.selectedSlot = d),
+		let u,
+			d = null;
+		if (l instanceof BlockSkull) {
+			u = Items.getItemByName("player_head");
+			const g = game.world.getTileEntity(this.getTargetedBlockCoords());
+			g instanceof TileEntityPlayerHead && (d = { skinOwner: g.skinOwner });
+		} else {
+			if (!l.hasItemForm()) return;
+			u = Items.getItemByBlock(l);
+		}
+		if (!u) return;
+		const p = this.findHotbarSlotForPickBlock(u),
+			m = new ItemStack(u);
+		d && (m.data = d),
+			(player.inventory.main[p] = m),
+			(player.inventory.currentItem = p),
+			(game.info.selectedSlot = p),
 			ClientSocket.sendPacket(player.inventory.sendInventoryToServer());
 	}
 	mine(o) {
@@ -197464,6 +197948,7 @@ class PlayerController {
 						}),
 					),
 					(this.currBreakingLocation = null),
+					onboardingManager.markBroke(),
 					game.serverInfo.worldType !== "ONEBLOCK" &&
 						(game.world.setAirXYZ(u, d, p),
 						game.chunkRenderManager.chunkRenderQueue.enqueueHighPriority(
@@ -197555,7 +198040,7 @@ class PlayerController {
 		this.updateMouseOver(), this.select(), this.mine();
 	}
 }
-const BAvuRSpMQwpQWMAW = new PlayerController(),
+const YGgmbprFEuQFLLKz = new PlayerController(),
 	CopyShader = {
 		name: "CopyShader",
 		uniforms: { tDiffuse: { value: null }, opacity: { value: 1 } },
@@ -198884,6 +199369,184 @@ function setWaterCameraState(h, o = 0, l = !1) {
 		(waterCameraState.depthBelowSurface = o),
 		(waterCameraState.lava = l);
 }
+const RESOLUTION = 48,
+	VOXEL_SIZE = 2,
+	BUILD_SLABS_PER_FRAME = 6,
+	REFRESH_SLABS_PER_FRAME = 4,
+	REBUILD_THRESHOLD = 4,
+	EXPOSURE_LO = 5,
+	EXPOSURE_HI = 14,
+	CAVE_PROBE_HEIGHT = 9,
+	CAVE_OPEN_LO = 2,
+	CAVE_OPEN_HI = 12;
+function smoothstep(h, o, l) {
+	const u = Math.min(1, Math.max(0, (l - h) / (o - h)));
+	return u * u * (3 - 2 * u);
+}
+class FogExposureVolume {
+	constructor() {
+		b(this, "N", RESOLUTION);
+		b(this, "voxelSize", VOXEL_SIZE);
+		b(this, "halfVoxel", (VOXEL_SIZE / 2) | 0);
+		b(this, "texture", null);
+		b(this, "frontData", new Uint8Array(0));
+		b(this, "backData", new Uint8Array(0));
+		b(this, "frontOX", 0);
+		b(this, "frontOY", 0);
+		b(this, "frontOZ", 0);
+		b(this, "backOX", 0);
+		b(this, "backOY", 0);
+		b(this, "backOZ", 0);
+		b(this, "building", !1);
+		b(this, "buildCursor", 0);
+		b(this, "everBuilt", !1);
+		b(this, "refreshCursor", 0);
+		b(this, "uploadDirty", !1);
+		b(this, "_state", {
+			texture: null,
+			originX: 0,
+			originY: 0,
+			originZ: 0,
+			invExtent: 1,
+		});
+		b(this, "out", [0, 0, 0, 255]);
+	}
+	get state() {
+		if (!this.everBuilt || !this.texture) return null;
+		const o = this.voxelSize;
+		return (
+			(this._state.texture = this.texture),
+			(this._state.originX = this.frontOX * o),
+			(this._state.originY = this.frontOY * o),
+			(this._state.originZ = this.frontOZ * o),
+			(this._state.invExtent = 1 / (this.N * o)),
+			this._state
+		);
+	}
+	ensureAllocated() {
+		if (this.texture) return;
+		const o = this.N * this.N * this.N * 4;
+		(this.frontData = new Uint8Array(o)), (this.backData = new Uint8Array(o));
+		const l = new Data3DTexture(this.frontData, this.N, this.N, this.N);
+		(l.format = RGBAFormat),
+			(l.type = UnsignedByteType),
+			(l.minFilter = LinearFilter),
+			(l.magFilter = LinearFilter),
+			(l.wrapS = l.wrapT = l.wrapR = ClampToEdgeWrapping),
+			(l.needsUpdate = !0),
+			(this.texture = l);
+	}
+	update(o, l) {
+		this.ensureAllocated();
+		const u = this.N >> 1,
+			d = Math.floor(l.x / this.voxelSize) - u,
+			p = Math.floor(l.y / this.voxelSize) - u,
+			m = Math.floor(l.z / this.voxelSize) - u;
+		if (this.building) this.advanceBuild(o);
+		else {
+			const g = Math.max(
+				Math.abs(d - this.frontOX),
+				Math.abs(p - this.frontOY),
+				Math.abs(m - this.frontOZ),
+			);
+			!this.everBuilt || g > REBUILD_THRESHOLD
+				? (this.startBuild(d, p, m), this.advanceBuild(o))
+				: this.rollingRefresh(o);
+		}
+		this.uploadDirty && (this.uploadTexture(), (this.uploadDirty = !1));
+	}
+	startBuild(o, l, u) {
+		(this.building = !0),
+			(this.buildCursor = 0),
+			(this.backOX = o),
+			(this.backOY = l),
+			(this.backOZ = u);
+	}
+	advanceBuild(o) {
+		const l = Math.min(this.buildCursor + BUILD_SLABS_PER_FRAME, this.N);
+		for (let u = this.buildCursor; u < l; u++)
+			this.buildSlab(
+				o,
+				this.backData,
+				this.backOX,
+				this.backOY,
+				this.backOZ,
+				u,
+			);
+		if (((this.buildCursor = l), this.buildCursor >= this.N)) {
+			const u = this.frontData;
+			(this.frontData = this.backData),
+				(this.backData = u),
+				(this.frontOX = this.backOX),
+				(this.frontOY = this.backOY),
+				(this.frontOZ = this.backOZ),
+				(this.building = !1),
+				(this.everBuilt = !0),
+				(this.refreshCursor = 0),
+				(this.uploadDirty = !0);
+		}
+	}
+	rollingRefresh(o) {
+		for (let l = 0; l < REFRESH_SLABS_PER_FRAME; l++) {
+			const u = (this.refreshCursor + l) % this.N;
+			this.buildSlab(
+				o,
+				this.frontData,
+				this.frontOX,
+				this.frontOY,
+				this.frontOZ,
+				u,
+			);
+		}
+		(this.refreshCursor =
+			(this.refreshCursor + REFRESH_SLABS_PER_FRAME) % this.N),
+			(this.uploadDirty = !0);
+	}
+	buildSlab(o, l, u, d, p, m) {
+		const { N: g, voxelSize: y, halfVoxel: x, out: S } = this;
+		for (let v = 0; v < g; v++)
+			for (let w = 0; w < g; w++) {
+				const k = (u + w) * y + x,
+					E = (d + v) * y + x,
+					C = (p + m) * y + x;
+				this.computeVoxel(o, k, E, C);
+				const I = (w + g * (v + g * m)) * 4;
+				(l[I] = S[0]), (l[I + 1] = S[1]), (l[I + 2] = S[2]), (l[I + 3] = S[3]);
+			}
+	}
+	computeVoxel(o, l, u, d) {
+		const p = this.out,
+			m = getSkyLight(o, l, u, d),
+			g = getSkyLight(o, l, u + CAVE_PROBE_HEIGHT, d),
+			y = smoothstep(EXPOSURE_LO, EXPOSURE_HI, m),
+			x = 1 - smoothstep(CAVE_OPEN_LO, CAVE_OPEN_HI, g);
+		(p[0] = (y * 255 + 0.5) | 0),
+			(p[1] = (x * 255 + 0.5) | 0),
+			(p[2] = 0),
+			(p[3] = 255);
+	}
+	uploadTexture() {
+		this.texture &&
+			((this.texture.image.data = this.frontData),
+			(this.texture.needsUpdate = !0));
+	}
+	release() {
+		var o;
+		(!this.texture && this.frontData.length === 0) ||
+			((o = this.texture) == null || o.dispose(),
+			(this.texture = null),
+			(this.frontData = new Uint8Array(0)),
+			(this.backData = new Uint8Array(0)),
+			(this.everBuilt = !1),
+			(this.building = !1),
+			(this.buildCursor = 0),
+			(this.refreshCursor = 0),
+			(this.uploadDirty = !1));
+	}
+	dispose() {
+		this.release();
+	}
+}
 const FOG_QUALITY = {
 		steps: 16,
 		resolutionScale: 0.5,
@@ -198926,9 +199589,20 @@ const FOG_QUALITY = {
   uniform float uHeightFalloff;    // exponential height falloff rate
   uniform float uFogBaseHeight;    // world Y the height fog is densest below
   uniform float uHeightDensity;    // how strongly height fog thickens toward the ground
-  uniform float uCaveFactor;       // 0..1 sky visibility at the camera (1 = open sky)
-  uniform float uCaveDensity;      // density multiplier when fully enclosed (caves/interiors)
+  uniform float uCaveFactor;       // 0..1 sky visibility at the camera (1 = open sky) — fallback only
+  uniform float uCaveDensity;      // density multiplier when fully enclosed AND buried (caves)
+  uniform float uBuildingDensity;  // density multiplier when enclosed but thinly covered (buildings)
   uniform float uDimensionDensity; // per-dimension multiplier (Nether/End)
+
+  // Per-sample sky-exposure volume (camera-relative). When enabled it replaces the single global
+  // uCaveFactor with a value sampled at each marched point, so fog can be suppressed inside a
+  // building while the open air around it (and any cave) keeps its fog — regardless of where the
+  // camera is. See FogExposureVolume: R = exposure (0 enclosed .. 1 open sky), G = caveness (0 thin
+  // cover / building .. 1 deeply buried / cave).
+  uniform float uFogVolEnabled;    // 1 = sample the exposure volume instead of uCaveFactor
+  uniform sampler3D uFogVolTex;    // R = exposure, G = caveness
+  uniform vec3 uFogVolOrigin;      // world-space min corner of the volume
+  uniform vec3 uFogVolInvExtent;   // 1 / extent (per axis)
 
   // Lighting (ambient only — directional sun shafts are GodRaysPass's job, not the fog's).
   uniform vec3 uSkyColor;          // ambient in-scatter colour (sky tint, warm at sunrise/sunset)
@@ -198970,14 +199644,39 @@ const FOG_QUALITY = {
     rayDir = normalize(mat3(uCameraMatrixWorld) * rayDirView);
   }
 
+  // Per-sample enclosure at a world position, returning BOTH:
+  //   .x = density multiplier — open sky => 1 (full outdoor fog); a building interior =>
+  //        uBuildingDensity (~0, no fog); a cave => uCaveDensity (the misty boost).
+  //   .y = sky-light scale — how much of the sky/sun ambient reaches this point: 1 in open air,
+  //        0 deep in a cave (so cave fog is NOT tinted by daylight — it is lit only by emissive
+  //        block light, see main()). This is the raw sky exposure of the sample.
+  // When the exposure volume isn't available (volume not built, or a skyless dimension) we fall back
+  // to the single camera-sampled uCaveFactor for density and let the dimension's ambient sky colour
+  // apply in full (sky scale 1), reproducing the original behaviour.
+  vec2 fogEnclosure(vec3 pos) {
+    if (uFogVolEnabled < 0.5) return vec2(mix(uCaveDensity, 1.0, uCaveFactor), 1.0);
+    vec3 c = (pos - uFogVolOrigin) * uFogVolInvExtent;
+    // Outside the volume => treat as open sky so distant terrain keeps its fog and sky tint.
+    if (any(lessThan(c, vec3(0.0))) || any(greaterThan(c, vec3(1.0)))) return vec2(1.0, 1.0);
+    // textureLod (explicit LOD 0): this read lives in the dynamically-exited raymarch loop, where an
+    // implicit-LOD fetch's screen-space derivatives are undefined (matches emissiveAt below).
+    vec2 v = textureLod(uFogVolTex, c, 0.0).rg;
+    float exposure = v.r; // 0 enclosed .. 1 open sky
+    float caveness = v.g; // 0 building (thin cover) .. 1 cave (buried)
+    float interior = mix(uBuildingDensity, uCaveDensity, caveness);
+    return vec2(mix(interior, 1.0, exposure), exposure);
+  }
+
   // Fog density at a world position: global * height (thicker near/below the ground) *
-  // cave (thicker when the camera is enclosed) * dimension. Clamped so a low height-falloff
-  // can't blow the density up far below the base height.
-  float fogDensityAt(vec3 pos) {
+  // enclosure (per-sample: outdoor full, buildings cleared, caves misty) * dimension. Clamped so a
+  // low height-falloff can't blow the density up far below the base height. Also outputs the sky
+  // scale (how much sky/sun ambient lights this point) so the caller can keep caves out of daylight.
+  float fogDensityAt(vec3 pos, out float skyScale) {
     float height = exp(-(pos.y - uFogBaseHeight) * uHeightFalloff);
     height = clamp(mix(1.0, height, uHeightDensity), 0.0, 4.0);
-    float cave = mix(uCaveDensity, 1.0, uCaveFactor);
-    return uBaseDensity * uDimensionDensity * height * cave;
+    vec2 enc = fogEnclosure(pos);
+    skyScale = enc.y;
+    return uBaseDensity * uDimensionDensity * height * enc.x;
   }
 
   // Emissive radiance from the GI volume at a world position (torch/lava/portal glow). Returns
@@ -199026,13 +199725,16 @@ const FOG_QUALITY = {
     for (int i = 0; i < FOG_MAX_STEPS; i++) {
       if (i >= steps || t >= marchEnd) break;
       vec3 pos = uCameraPos + rayDir * t;
-      float density = fogDensityAt(pos) * stepLen;
+      float skyScale;
+      float density = fogDensityAt(pos, skyScale) * stepLen;
       if (density > 1e-5) {
-        // Ambient sky-tinted fog + emissive block glow. Directional sun shafts are GodRaysPass's
-        // job, not the fog's — the sky colour itself already carries time-of-day warmth, so
-        // sunrise/sunset fog reads warm-orange and nighttime fog reads cool/dim through uSunLight.
+        // Sky/sun-tinted ambient + emissive block glow. The sky term is scaled by this sample's sky
+        // exposure (skyScale), so open-air fog is lit by the sky while cave fog is NOT touched by
+        // daylight — it is lit only by emissive sources (torches/lava/portals) via the GI volume.
+        // Directional sun shafts are GodRaysPass's job, not the fog's; the sky colour itself carries
+        // time-of-day warmth, so sunrise/sunset fog reads warm-orange and night fog dim via uSunLight.
         vec3 emissive = emissiveAt(pos) * uEmissiveStrength;
-        vec3 light = uSkyColor * uSunLight * uFogColor + emissive;
+        vec3 light = uSkyColor * uSunLight * uFogColor * skyScale + emissive;
 
         float sampleT = exp(-density);
         float weight = transmittance * (1.0 - sampleT);
@@ -199162,6 +199864,7 @@ const FOG_QUALITY = {
 	HEIGHT_FALLOFF = 0.045,
 	HEIGHT_DENSITY = 0.7,
 	CAVE_DENSITY = 2.6,
+	BUILDING_DENSITY = 0,
 	MIN_TRANSMITTANCE = 0.15,
 	EMISSIVE_STRENGTH = 0.5,
 	HISTORY_WEIGHT_MAX = 0.9,
@@ -199224,7 +199927,12 @@ class VolumetricFogPass extends Pass {
 					uHeightDensity: { value: HEIGHT_DENSITY },
 					uCaveFactor: { value: 1 },
 					uCaveDensity: { value: CAVE_DENSITY },
+					uBuildingDensity: { value: BUILDING_DENSITY },
 					uDimensionDensity: { value: 1 },
+					uFogVolEnabled: { value: 0 },
+					uFogVolTex: { value: getDummyGITexture() },
+					uFogVolOrigin: { value: new Vector3$1() },
+					uFogVolInvExtent: { value: new Vector3$1(1, 1, 1) },
 					uSkyColor: { value: new Color$1(0.6, 0.7, 0.9) },
 					uFogColor: { value: new Color$1(1, 1, 1) },
 					uSunLight: { value: 1 },
@@ -199304,6 +200012,21 @@ class VolumetricFogPass extends Pass {
 			(u.uFogBaseHeight.value = l.fogBaseHeight),
 			(u.uDimensionDensity.value = l.dimensionDensity),
 			(u.uCaveFactor.value = l.caveFactor),
+			l.fogVolume
+				? ((u.uFogVolTex.value = l.fogVolume.texture),
+					u.uFogVolOrigin.value.set(
+						l.fogVolume.originX,
+						l.fogVolume.originY,
+						l.fogVolume.originZ,
+					),
+					u.uFogVolInvExtent.value.set(
+						l.fogVolume.invExtent,
+						l.fogVolume.invExtent,
+						l.fogVolume.invExtent,
+					),
+					(u.uFogVolEnabled.value = 1))
+				: ((u.uFogVolTex.value = getDummyGITexture()),
+					(u.uFogVolEnabled.value = 0)),
 			Options.emissiveFogGlow.value && l.gi != null && l.gi
 				? ((u.uGITex.value = l.gi.texture),
 					u.uGIOrigin.value.set(l.gi.originX, l.gi.originY, l.gi.originZ),
@@ -199886,7 +200609,7 @@ class VoxelGI {
 	}
 }
 const MODE_NAMES = ["off", "volume", "emissive", "gi-only"],
-	Cf = class Cf {
+	Af = class Af {
 		constructor(o, l) {
 			b(this, "points");
 			b(this, "geometry");
@@ -199926,7 +200649,7 @@ const MODE_NAMES = ["off", "volume", "emissive", "gi-only"],
 		update() {
 			if (
 				(this.mode !== 1 && this.mode !== 2) ||
-				this.frame++ % Cf.REBUILD_INTERVAL !== 0
+				this.frame++ % Af.REBUILD_INTERVAL !== 0
 			)
 				return;
 			const o = this.gi.getDebugVolume();
@@ -199972,7 +200695,7 @@ const MODE_NAMES = ["off", "volume", "emissive", "gi-only"],
 						const q = L * w,
 							U = N * w,
 							W = O * w;
-						if (k && Math.max(q, U, W) < Cf.EMISSIVE_THRESHOLD) continue;
+						if (k && Math.max(q, U, W) < Af.EMISSIVE_THRESHOLD) continue;
 						const X = E * 3;
 						(x[X] = p + A * d + v),
 							(x[X + 1] = m + I * d + v),
@@ -199988,9 +200711,9 @@ const MODE_NAMES = ["off", "volume", "emissive", "gi-only"],
 				this.geometry.setDrawRange(0, E);
 		}
 	};
-b(Cf, "REBUILD_INTERVAL", 10), b(Cf, "EMISSIVE_THRESHOLD", 0.25);
-let VoxelGIDebug = Cf;
-const ci = class ci {
+b(Af, "REBUILD_INTERVAL", 10), b(Af, "EMISSIVE_THRESHOLD", 0.25);
+let VoxelGIDebug = Af;
+const si = class si {
 	static set renderUnderWater(o) {
 		(waterCameraState.submerged = o),
 			o || (waterCameraState.depthBelowSurface = 0);
@@ -200294,7 +201017,7 @@ ${new Error().stack ?? ""}`);
 				(ie.receiveShadow = Q), m.add(ie);
 			};
 		g(textureManager.materialWorld, !1, !0),
-			g(textureManager.KnRnWxxHBdOgkuRADHukgxFj, !1, !0),
+			g(textureManager.ajWzDOwzwPYhQVqyViQUjzjd, !1, !0),
 			g(textureManager.materialFluidWorld, !0, !1);
 		const y = [],
 			x = (W) => {
@@ -200372,7 +201095,7 @@ ${new Error().stack ?? ""}`);
 		m
 			? ((this.reflectionIdleFrames = 0), this.setReflectionTargetsActive(!0))
 			: this.reflectionTargetsFull &&
-				++this.reflectionIdleFrames >= ci.POST_IDLE_RELEASE_FRAMES &&
+				++this.reflectionIdleFrames >= si.POST_IDLE_RELEASE_FRAMES &&
 				this.setReflectionTargetsActive(!1),
 			(this.colorPass.enabled = o),
 			o &&
@@ -200484,7 +201207,9 @@ ${new Error().stack ?? ""}`);
 				));
 		const w = this.fogPass.active && !o;
 		(this.fogPass.enabled = w),
-			w && profiler.measure("render", "fog", () => this.updateFog(u)),
+			w
+				? profiler.measure("render", "fog", () => this.updateFog(u))
+				: this.fogPass.active || this.fogExposureVolume.release(),
 			this.fogPass.enabled ||
 			this.colorPass.enabled ||
 			this.godRaysPass.enabled ||
@@ -200492,7 +201217,7 @@ ${new Error().stack ?? ""}`);
 			this.eyeAdaptationPass.enabled
 				? ((this.postIdleFrames = 0), this.setPostTargetsActive(!0))
 				: this.postTargetsFull &&
-					++this.postIdleFrames >= ci.POST_IDLE_RELEASE_FRAMES &&
+					++this.postIdleFrames >= si.POST_IDLE_RELEASE_FRAMES &&
 					this.setPostTargetsActive(!1),
 			this.syncSceneDepthSize(),
 			w &&
@@ -200534,6 +201259,13 @@ ${new Error().stack ?? ""}`);
 						(l.dimensionDensity = 1.2),
 						(l.fogBaseHeight = 48)),
 			(l.caveFactor = this.sampleCaveFactor()),
+			u && this.game.world
+				? (o.getWorldPosition(this._fogFocus),
+					profiler.measure("render", "fogVolume", () =>
+						this.fogExposureVolume.update(this.game.world, this._fogFocus),
+					),
+					(l.fogVolume = this.fogExposureVolume.state))
+				: (l.fogVolume = null),
 			(l.gi = textureManager.giState),
 			(l.time = performance.now() / 1e3),
 			this.fogPass.update(l);
@@ -200616,27 +201348,29 @@ ${new Error().stack ?? ""}`);
 			((this.reflectionTargetsFull = o), this.updateReflectionBufferSize());
 	}
 };
-b(ci, "colorPass"),
-	b(ci, "godRaysPass"),
-	b(ci, "bloomPass"),
-	b(ci, "eyeAdaptationPass"),
-	b(ci, "fogPass"),
-	b(ci, "sceneDepthTexture"),
-	b(ci, "renderer"),
-	b(ci, "composer"),
-	b(ci, "game"),
-	b(ci, "reflectionBuffer"),
-	b(ci, "drawingBufferSize", new Vector2()),
-	b(ci, "voxelGI"),
-	b(ci, "voxelGIDebug"),
-	b(ci, "giFocus", new Vector3$1()),
-	b(ci, "POST_IDLE_RELEASE_FRAMES", 120),
-	b(ci, "postTargetsFull", !1),
-	b(ci, "postIdleFrames", 0),
-	b(ci, "reflectionTargetsFull", !1),
-	b(ci, "reflectionIdleFrames", 0),
-	b(ci, "_caveFactor", 1),
-	b(ci, "_fogParams", {
+b(si, "colorPass"),
+	b(si, "godRaysPass"),
+	b(si, "bloomPass"),
+	b(si, "eyeAdaptationPass"),
+	b(si, "fogPass"),
+	b(si, "sceneDepthTexture"),
+	b(si, "renderer"),
+	b(si, "composer"),
+	b(si, "game"),
+	b(si, "reflectionBuffer"),
+	b(si, "drawingBufferSize", new Vector2()),
+	b(si, "voxelGI"),
+	b(si, "voxelGIDebug"),
+	b(si, "giFocus", new Vector3$1()),
+	b(si, "POST_IDLE_RELEASE_FRAMES", 120),
+	b(si, "postTargetsFull", !1),
+	b(si, "postIdleFrames", 0),
+	b(si, "reflectionTargetsFull", !1),
+	b(si, "reflectionIdleFrames", 0),
+	b(si, "fogExposureVolume", new FogExposureVolume()),
+	b(si, "_fogFocus", new Vector3$1()),
+	b(si, "_caveFactor", 1),
+	b(si, "_fogParams", {
 		depthTexture: null,
 		camera: null,
 		skyColor: new Color$1(),
@@ -200645,13 +201379,14 @@ b(ci, "colorPass"),
 		fogBaseHeight: 64,
 		dimensionDensity: 1,
 		caveFactor: 1,
+		fogVolume: null,
 		gi: null,
 		time: 0,
 	}),
-	b(ci, "_fogSkyFallback", new Color$1(0.6, 0.72, 0.92)),
-	b(ci, "_seenPrograms", new Set()),
-	b(ci, "_glInstrumented", !1);
-let MasterRenderer = ci;
+	b(si, "_fogSkyFallback", new Color$1(0.6, 0.72, 0.92)),
+	b(si, "_seenPrograms", new Set()),
+	b(si, "_glInstrumented", !1);
+let MasterRenderer = si;
 const MasterRenderer$1 = Object.freeze(
 	Object.defineProperty(
 		{ __proto__: null, default: MasterRenderer },
@@ -200831,7 +201566,10 @@ function drawItemStack(h, o, l, u, d = 48, p = !0) {
 	if (!u) return;
 	(o = Math.floor(o)), (l = Math.floor(l));
 	const m = u.item;
-	if (((h.imageSmoothingEnabled = !1), m.isItemBlock() && m.drawAsBlock()))
+	if (((h.imageSmoothingEnabled = !1), m instanceof ItemPlayerHead)) {
+		const y = getPlayerHeadIconCanvas(resolveHeadIconSkin(u));
+		y && h.drawImage(y, o, l, d, d);
+	} else if (m.isItemBlock() && m.drawAsBlock())
 		h.drawImage(getItemTexture(m), o, l, d, d);
 	else {
 		if (u.item.isItemBlock()) {
@@ -200992,7 +201730,7 @@ class GuiManager {
 		(game.info.showInventory =
 			((o = this.currentScreen) == null ? void 0 : o.id) || "inventory"),
 			(mouseLerp.event = -1),
-			(BAvuRSpMQwpQWMAW.rightClick = !1),
+			(YGgmbprFEuQFLLKz.rightClick = !1),
 			exitPointerLock();
 	}
 	update() {
@@ -201554,7 +202292,7 @@ class GuiContainer extends GuiScreen {
 	}
 	handleMouseClick(l, u, d, p) {
 		l != null && (u = l.slotNumber),
-			BAvuRSpMQwpQWMAW.mBMVHePueZT(
+			YGgmbprFEuQFLLKz.ZdqsJfGeiXV(
 				this.inventorySlots.windowId,
 				u,
 				d,
@@ -201796,7 +202534,7 @@ class EntityHanging extends Entity {
 				(x = x / 32),
 				(S = S / 32),
 				this.setEntityBoundingBox(
-					new IauP(
+					new wUmo(
 						new Vector3$1(l - y, u - x, d - S),
 						new Vector3$1(l + y, u + x, d + S),
 					),
@@ -202133,7 +202871,7 @@ class EntityAIHurtByTarget extends EntityAITarget {
 			const l = this.getTargetDistance(),
 				u = this.taskOwner.world.getEntitiesWithinAABB(
 					this.taskOwner.type,
-					new IauP(
+					new wUmo(
 						new Vector3$1(
 							this.taskOwner.pos.x,
 							this.taskOwner.pos.y,
@@ -202552,7 +203290,7 @@ class EntityFlying extends EntityLiving {
 		return !1;
 	}
 }
-const Gm = class Gm extends EntityAIBase {
+const Km = class Km extends EntityAIBase {
 	constructor(l) {
 		super();
 		b(this, "entity");
@@ -202567,7 +203305,7 @@ const Gm = class Gm extends EntityAIBase {
 				this.entity
 					.getEntityBoundingBox()
 					.clone()
-					.expandByVector(Gm.searchExpansion.set(l, 4, l)),
+					.expandByVector(Km.searchExpansion.set(l, 4, l)),
 				this.predicate,
 			);
 		let d = null,
@@ -202603,8 +203341,8 @@ const Gm = class Gm extends EntityAIBase {
 		return 16;
 	}
 };
-b(Gm, "searchExpansion", new Vector3$1());
-let EntityAIFindEntityNearestPlayer = Gm;
+b(Km, "searchExpansion", new Vector3$1());
+let EntityAIFindEntityNearestPlayer = Km;
 class EntityGhost extends EntityFlying {
 	constructor(l) {
 		super(l);
@@ -202959,7 +203697,7 @@ class SlimeMoveHelper extends EntityMoveHelper {
 											this.slime.getSoundVolume(),
 											((Math.random() - Math.random()) * 0.2 + 1) * 0.8,
 										))
-								: ((this.slime.qIxNFRMPrC = this.slime.sngypTQNXdO = 0),
+								: ((this.slime.diCsIyFmQB = this.slime.jeOIVCTvgax = 0),
 									this.entity.setAIMoveSpeed(0)))
 						: this.entity.setAIMoveSpeed(
 								this.speed *
@@ -203816,14 +204554,14 @@ class RenderEntity extends Group {
 	setDebugSize(l, u) {
 		if (!this.debugMesh) return;
 		const d = l / 2,
-			p = new IauP(new Vector3$1(-d, 0, -d), new Vector3$1(d, u, d));
+			p = new wUmo(new Vector3$1(-d, 0, -d), new Vector3$1(d, u, d));
 		this.debugMesh.box = p;
 	}
 	set debug(l) {
 		if (this.entity)
 			if (l && !this.debugMesh) {
 				const u = this.entity.width / 2,
-					d = new IauP(
+					d = new wUmo(
 						new Vector3$1(-u, 0, -u),
 						new Vector3$1(u, this.entity.height, u),
 					);
@@ -206093,7 +206831,7 @@ class ModelPlayer extends ModelBiped {
 	async addHat(o) {
 		const l = o.entity.profile.cosmetics.hat;
 		if (!l || l === "none") return;
-		const u = await textureManager.rmBvyypGCft.getModel(l);
+		const u = await textureManager.JUQHMSCZIzG.getModel(l);
 		if (!u) return;
 		const d = u.clone();
 		(d.position.y = 8 / 16),
@@ -206341,7 +207079,7 @@ class EntityManager {
 		for (const l of game.world.playersIterator()) {
 			if (l.id == player.id) continue;
 			const u = this.shouldRenderEntity(l, !0),
-				d = u && l.QxuAWxWEweAOpUOkoKA(player);
+				d = u && l.ooYtJFToeashUZHSCFI(player);
 			(l.mesh.visible = u), l.mesh.setRenderArmorOnly(d);
 			const p = !d && !o && !l.mesh.usesFastLOD();
 			l.mesh.hatMesh && (l.mesh.hatMesh.visible = p),
@@ -206354,7 +207092,7 @@ class EntityManager {
 			this.hidePlayers ||
 			(_blockPos.set(o.pos.x, o.pos.y, o.pos.z),
 			!o.world.isBlockLoaded(_blockPos)) ||
-			(!l && o.QxuAWxWEweAOpUOkoKA(player)) ||
+			(!l && o.ooYtJFToeashUZHSCFI(player)) ||
 			(o instanceof EntityPlayer && o.isSpectator() && !player.isSpectator())
 		)
 			return !1;
@@ -206664,7 +207402,7 @@ class GuiInventory extends GuiContainer {
 	drawGuiContainerBackgroundLayer(l, u) {}
 	drawGuiContainerForegroundLayer(l, u) {}
 }
-function WAIponLXrTzAkIkj(h) {
+function kvtrPXvXwOETLzcK(h) {
 	return keyPressed(h) && Game.isActive(!1);
 }
 function bindKeysWithDefaults(h, o) {
@@ -206758,7 +207496,7 @@ bindKeys(
 	{ preventDefault: !1, handler: "keyup" },
 );
 bindKeysWithDefaults("q", (h) => {
-	Game.isActive() && BAvuRSpMQwpQWMAW.dropItem(h.shiftKey);
+	Game.isActive() && YGgmbprFEuQFLLKz.dropItem(h.shiftKey);
 });
 bindKeysWithDefaults("slash", (h) => {
 	h.repeat ||
@@ -206902,25 +207640,25 @@ class PlayerMovement extends EntityPlayer {
 		(this.inputSequenceNumber = 0), (this.pendingInputs = []);
 	}
 	updatePlayerMoveState() {
-		(this.qIxNFRMPrC = 0), (this.sngypTQNXdO = 0);
+		(this.diCsIyFmQB = 0), (this.jeOIVCTvgax = 0);
 		const l =
-				WAIponLXrTzAkIkj("d") ||
-				WAIponLXrTzAkIkj("right") ||
+				kvtrPXvXwOETLzcK("d") ||
+				kvtrPXvXwOETLzcK("right") ||
 				touchcontrols.direction.x > 0,
 			u =
-				WAIponLXrTzAkIkj("a") ||
-				WAIponLXrTzAkIkj("left") ||
+				kvtrPXvXwOETLzcK("a") ||
+				kvtrPXvXwOETLzcK("left") ||
 				touchcontrols.direction.x < 0,
 			d =
-				WAIponLXrTzAkIkj("w") ||
-				WAIponLXrTzAkIkj("up") ||
+				kvtrPXvXwOETLzcK("w") ||
+				kvtrPXvXwOETLzcK("up") ||
 				touchcontrols.direction.y > 0,
 			p =
-				WAIponLXrTzAkIkj("s") ||
-				WAIponLXrTzAkIkj("down") ||
+				kvtrPXvXwOETLzcK("s") ||
+				kvtrPXvXwOETLzcK("down") ||
 				touchcontrols.direction.y < 0;
-		(this.jumping = touchcontrols.jumping || WAIponLXrTzAkIkj("space")),
-			game.info.inLoadedChunk &&
+		(this.jumping = touchcontrols.jumping || kvtrPXvXwOETLzcK("space")),
+			!(!game.info.inLoadedChunk && !this.mode.isSpectator()) &&
 				(this.inputSequenceNumber++,
 				(this.currentInput = new SPacketPlayerInput({
 					sequenceNumber: this.inputSequenceNumber,
@@ -206982,7 +207720,7 @@ class PlayerMovement extends EntityPlayer {
 		const d = this.jumping,
 			p = this.sneak,
 			m = -0.8,
-			g = this.sngypTQNXdO <= m;
+			g = this.jeOIVCTvgax <= m;
 		this.isUsingItem() &&
 			!this.isRiding() &&
 			this.isSprinting() &&
@@ -207011,11 +207749,11 @@ class PlayerMovement extends EntityPlayer {
 				this.pos.z + y,
 			);
 		const x = this.getFoodStats().getFoodLevel() > 6 || this.abilities.mayFly,
-			S = WAIponLXrTzAkIkj("shift") || touchcontrols.sprinting;
+			S = kvtrPXvXwOETLzcK("shift") || touchcontrols.sprinting;
 		this.onGround &&
 			!p &&
 			!g &&
-			this.sngypTQNXdO <= m &&
+			this.jeOIVCTvgax <= m &&
 			!this.isSprinting() &&
 			x &&
 			!this.isUsingItem() &&
@@ -207023,13 +207761,13 @@ class PlayerMovement extends EntityPlayer {
 				? (this.sprintToggleTimer = 7)
 				: this.setSprinting(!0)),
 			!this.isSprinting() &&
-				this.sngypTQNXdO <= m &&
+				this.jeOIVCTvgax <= m &&
 				x &&
 				!this.isUsingItem() &&
 				S &&
 				this.setSprinting(!0),
 			this.isSprinting() &&
-				(this.sngypTQNXdO > m || this.isCollidedHorizontally || !x) &&
+				(this.jeOIVCTvgax > m || this.isCollidedHorizontally || !x) &&
 				this.setSprinting(!1),
 			this.flyToggleTimer > 0 && this.flyToggleTimer--,
 			this.abilities.mayFly &&
@@ -207041,7 +207779,7 @@ class PlayerMovement extends EntityPlayer {
 					: ((this.abilities.flying = !this.abilities.flying),
 						(this.flyToggleTimer = 0))),
 			this.abilities.flying &&
-				((WAIponLXrTzAkIkj("space") || touchcontrols.jumping) &&
+				((kvtrPXvXwOETLzcK("space") || touchcontrols.jumping) &&
 					(this.motion.y += this.flySpeed * 3),
 				this.sneak && (this.motion.y -= this.flySpeed * 3));
 		const v = this.jumping;
@@ -207065,7 +207803,7 @@ class PlayerMovement extends EntityPlayer {
 						.translate(new Vector3$1(0, 1, 0))
 						.expandByVector(new Vector3$1(0.15, -0.1, 0.15)),
 				);
-			w.length > 0 && k.length <= 0 && this.sngypTQNXdO < 0
+			w.length > 0 && k.length <= 0 && this.jeOIVCTvgax < 0
 				? (this.jumping = !0)
 				: (this.jumping = !1);
 		}
@@ -207094,14 +207832,14 @@ class PlayerMovement extends EntityPlayer {
 		let u = l.up();
 		for (; u.y < 256; ) {
 			if (!game.world.getBlockState(u).getBlock().equals(Blocks.water))
-				return u.y - controls.ZmUSmv.y;
+				return u.y - controls.qJMGAc.y;
 			u = u.up();
 		}
-		return 256 - controls.ZmUSmv.y;
+		return 256 - controls.qJMGAc.y;
 	}
 	checkHeadInBlock() {
 		player.headInBlock = null;
-		const l = BlockPos.fromVector(controls.ZmUSmv),
+		const l = BlockPos.fromVector(controls.qJMGAc),
 			u = game.world.getBlockState(l),
 			d = u.getBlock();
 		d.setBlockBoundsBasedOnState(game.world, l);
@@ -207135,7 +207873,7 @@ class PlayerMovement extends EntityPlayer {
 		var l;
 		!game.inGame() ||
 			this.getHealth() <= 0 ||
-			(playerControllerMP.HUcerkPBwZKiYBQDcKS(),
+			(playerControllerMP.iIsqlAHaYqWdDSXzzxA(),
 			this.onEntityUpdate(),
 			this.onLivingUpdate(),
 			this.checkHeadInBlock(),
@@ -207165,17 +207903,17 @@ const _camPos = new Vector3$1(),
 		colorWrite: !1,
 		depthWrite: !1,
 	}),
-	Up = class Up extends PlayerMovement {
+	Hp = class Hp extends PlayerMovement {
 		constructor() {
 			super();
-			b(this, "perspective", Up.Perspective.FIRST_PERSON);
+			b(this, "perspective", Hp.Perspective.FIRST_PERSON);
 			b(this, "deltaFov", Ola(0, 150));
 			b(this, "selectBox");
 			b(this, "headInBlock");
 			b(this, "lastHeadInBlock");
 			b(this, "biome", "WIP");
 			b(this, "lastReportedPos", new Vector3$1());
-			b(this, "UkEnxsKSyHUdLML");
+			b(this, "DgjVIJuKznUbvuD");
 			b(this, "lastReportedPitch");
 			b(this, "serverSneakState");
 			b(this, "serverSprintState");
@@ -207237,7 +207975,7 @@ const _camPos = new Vector3$1(),
 			for (const p of player.inventory.armor)
 				p &&
 					p.item instanceof ItemArmor &&
-					(u += p.item.mORDBFDRbPdbtOKQNd || 0);
+					(u += p.item.MSxBItpANUzcuelPDV || 0);
 			const d = this.world.getPlayerById(this.id);
 			u !== this.prevDefencePoints &&
 				((this.prevDefencePoints = u),
@@ -207283,7 +208021,7 @@ const _camPos = new Vector3$1(),
 		}
 		addSelectBox() {
 			if (this.selectBox) return;
-			const l = new IauP(new Vector3$1(), new Vector3$1(1, 1, 1));
+			const l = new wUmo(new Vector3$1(), new Vector3$1(1, 1, 1));
 			(this.selectBox = new Box3Helper(l, new Color$1("white"))),
 				(this.selectBox.name = "wireframe"),
 				this.game.gameScene.scene.add(this.selectBox);
@@ -207342,8 +208080,8 @@ const _camPos = new Vector3$1(),
 					this.game.gameScene.camera.getWorldPosition(_camPos);
 				const m = _camDir;
 				this.game.gameScene.camera.getWorldDirection(m), m.negate();
-				const g = controls.ZmUSmv,
-					y = _camEnd.copy(controls.ZmUSmv).add(m.multiplyScalar(p)),
+				const g = controls.qJMGAc,
+					y = _camEnd.copy(controls.qJMGAc).add(m.multiplyScalar(p)),
 					x = rayTraceBlocks(g, y, !1, !0, !0, this.game.world);
 				if (x) {
 					const S = g.distanceTo(x.hitVec);
@@ -207440,13 +208178,13 @@ const _camPos = new Vector3$1(),
 				(this.yaw = controls.yaw),
 				(this.pitch = controls.pitch);
 			const l =
-				WAIponLXrTzAkIkj("ctrl") &&
+				kvtrPXvXwOETLzcK("ctrl") &&
 				keyMap.ControlLeft === "ctrl" &&
 				Game.isFullscreen();
 			this.sneak =
-				WAIponLXrTzAkIkj("alt") ||
+				kvtrPXvXwOETLzcK("alt") ||
 				l ||
-				(WAIponLXrTzAkIkj("ctrl") && keyMap.ControlLeft != "ctrl") ||
+				(kvtrPXvXwOETLzcK("ctrl") && keyMap.ControlLeft != "ctrl") ||
 				touchcontrols.sneaking;
 		}
 		sendPositionAndRotation() {
@@ -207465,11 +208203,11 @@ const _camPos = new Vector3$1(),
 				(this.lastReportedPos.y = this.getEntityBoundingBox().min.y),
 				(this.lastReportedPos.z = this.pos.z),
 				(this.positionUpdateTicks = 0)),
-				(this.yaw - this.UkEnxsKSyHUdLML !== 0 ||
+				(this.yaw - this.DgjVIJuKznUbvuD !== 0 ||
 					this.pitch - this.lastReportedPitch !== 0) &&
 					((m.yaw = player.yaw),
 					(m.pitch = player.pitch),
-					(this.UkEnxsKSyHUdLML = this.yaw),
+					(this.DgjVIJuKznUbvuD = this.yaw),
 					(this.lastReportedPitch = this.pitch)),
 				ClientSocket.sendPacket(new SPacketPlayerPosLook(m)),
 				++this.positionUpdateTicks;
@@ -207489,13 +208227,13 @@ const _camPos = new Vector3$1(),
 					((player.serverPunchState = player.punching),
 					(l.punching = player.punching),
 					(u = !0)),
-				player.qIxNFRMPrC !== player.serverMoveStrafe &&
-					((player.serverMoveStrafe = player.qIxNFRMPrC),
-					(l.qIxNFRMPrC = player.qIxNFRMPrC),
+				player.diCsIyFmQB !== player.serverMoveStrafe &&
+					((player.serverMoveStrafe = player.diCsIyFmQB),
+					(l.diCsIyFmQB = player.diCsIyFmQB),
 					(u = !0)),
-				player.sngypTQNXdO !== player.serverMoveForward &&
-					((player.serverMoveForward = player.sngypTQNXdO),
-					(l.sngypTQNXdO = player.sngypTQNXdO),
+				player.jeOIVCTvgax !== player.serverMoveForward &&
+					((player.serverMoveForward = player.jeOIVCTvgax),
+					(l.jeOIVCTvgax = player.jeOIVCTvgax),
 					(u = !0)),
 				u && ClientSocket.sendPacket(new SPacketEntityAction(l));
 		}
@@ -207512,7 +208250,7 @@ const _camPos = new Vector3$1(),
 		}
 		fixedUpdate() {
 			super.fixedUpdate(),
-				BAvuRSpMQwpQWMAW.update(),
+				YGgmbprFEuQFLLKz.update(),
 				this.updateItemInUse(),
 				this.isRiding()
 					? ClientSocket.sendPacket(
@@ -207525,7 +208263,7 @@ const _camPos = new Vector3$1(),
 						)
 					: this.onUpdateWalkingPlayer(),
 				this.sendActions(),
-				this.perspective !== Up.Perspective.FIRST_PERSON &&
+				this.perspective !== Hp.Perspective.FIRST_PERSON &&
 					this.effects.update();
 			const l = BlockPos.fromVector(this.pos);
 			this.world.getBlock(l) instanceof BlockHellPortal
@@ -207551,8 +208289,8 @@ const _camPos = new Vector3$1(),
 					));
 		}
 		getMoveDirection(l) {
-			let u = this.qIxNFRMPrC,
-				d = this.sngypTQNXdO,
+			let u = this.diCsIyFmQB,
+				d = this.jeOIVCTvgax,
 				p = u * u + d * d;
 			if (p >= 1e-4) {
 				(p = Math.sqrt(p)),
@@ -207568,7 +208306,7 @@ const _camPos = new Vector3$1(),
 		}
 		updateClient(l) {
 			this.getHealth() <= 0 ||
-				(BAvuRSpMQwpQWMAW.render(),
+				(YGgmbprFEuQFLLKz.render(),
 				hud3D.update(),
 				this.updateViewModelLighting(),
 				this.updateHeldLight(),
@@ -207579,7 +208317,7 @@ const _camPos = new Vector3$1(),
 				this.updateSelfShadow());
 		}
 		updateSoundOrientation() {
-			const l = controls.ZmUSmv;
+			const l = controls.qJMGAc;
 			isFinite(l.x) &&
 				isFinite(l.y) &&
 				isFinite(l.z) &&
@@ -207594,7 +208332,7 @@ const _camPos = new Vector3$1(),
 				);
 		}
 		getEyePos() {
-			return controls.ZmUSmv;
+			return controls.qJMGAc;
 		}
 		attackEntityFrom(l, u) {
 			return !1;
@@ -207678,8 +208416,8 @@ const _camPos = new Vector3$1(),
 				if (l.id === this.id) return l.mesh;
 		}
 	};
-b(Up, "Perspective", Perspective);
-let ClientEntityPlayer = Up;
+b(Hp, "Perspective", Perspective);
+let ClientEntityPlayer = Hp;
 const player =
 	new ClientEntityPlayer(); /*! typedarray-to-buffer. MIT License. Feross Aboukhadijeh <https://feross.org/opensource> */
 var typedarrayToBuffer, hasRequiredTypedarrayToBuffer;
@@ -207697,11 +208435,11 @@ function requireTypedarrayToBuffer() {
 }
 var typedarrayToBufferExports = requireTypedarrayToBuffer();
 const toBuffer = getDefaultExportFromCjs(typedarrayToBufferExports),
-	qp = class qp {
+	Vp = class Vp {
 		static fromNBT(o, l) {
 			try {
 				const u = o.id.replace(`${mc}:`, "").toLowerCase(),
-					d = qp.idToTileEntity[u];
+					d = Vp.idToTileEntity[u];
 				if (!d)
 					return (
 						this.seenMissingTileEntities.has(u) ||
@@ -207716,8 +208454,8 @@ const toBuffer = getDefaultExportFromCjs(typedarrayToBufferExports),
 			}
 		}
 	};
-b(qp, "seenMissingTileEntities", new Set()),
-	b(qp, "idToTileEntity", {
+b(Vp, "seenMissingTileEntities", new Set()),
+	b(Vp, "idToTileEntity", {
 		trapped_chest: TileEntityChest,
 		chest: TileEntityChest,
 		furnace: TileEntityFurnace,
@@ -207728,8 +208466,9 @@ b(qp, "seenMissingTileEntities", new Set()),
 		dispenser: TileEntityDispenser,
 		command_block: TileEntityCommandBlock,
 		comparator: TileEntityComparator,
+		player_head: TileEntityPlayerHead,
 	});
-let TileEntityRegistry = qp;
+let TileEntityRegistry = Vp;
 class BitArray {
 	constructor(o, l, u) {
 		b(this, "capacity");
@@ -208355,6 +209094,16 @@ class ChunkProviderClient {
 		return null;
 	}
 }
+const pending = new Map(),
+	key = (h) => `${h.x},${h.y},${h.z}`;
+function setPendingHeadSkin(h, o) {
+	pending.set(key(h), o);
+}
+function takePendingHeadSkin(h) {
+	const o = key(h),
+		l = pending.get(o);
+	return l !== void 0 && pending.delete(o), l;
+}
 class ClientWorld extends World {
 	constructor(l, u, d) {
 		super(d);
@@ -208383,6 +209132,10 @@ class ClientWorld extends World {
 		return super.getPlayerById(l);
 	}
 	addTileEntity(l) {
+		if (l instanceof TileEntityPlayerHead) {
+			const u = takePendingHeadSkin(l.pos);
+			u !== void 0 && (l.skinOwner = u);
+		}
 		super.addTileEntity(l), this.game.gameScene.tileEntityRenderer.add(l);
 	}
 	removeTileEntity(l) {
@@ -208400,6 +209153,7 @@ class ClientWorld extends World {
 					{ x: l.x, y: l.y, z: l.z, id: u.id },
 					(d & 4) == 0 && !p,
 				),
+				this.game.chunkManager.invalidateChunkAt(l.x, l.z),
 				Options.lighting.value !== "Classic")
 			) {
 				const y = this.getChunk(l);
@@ -210828,13 +211582,18 @@ const CheatsToText = {
 	"admin-enabled": "Admins Only",
 };
 async function getRecaptchaToken(h) {
-	return new Promise((o) => {
+	return new Promise((o, l) => {
 		grecaptcha.ready(() => {
 			grecaptcha
 				.execute("6LcIlCEtAAAAAKJQcV5uxQG4FidPGvp1zvSV9LkU", { action: h })
-				.then((l) => {
-					o(l);
-				});
+				.then(
+					(u) => {
+						o(u);
+					},
+					(u) => {
+						l(u);
+					},
+				);
 		});
 	});
 }
@@ -210897,7 +211656,11 @@ const Ks = class Ks {
 					Ulog.error("Failed to link CrazyGames account", d),
 					localStorage.removeItem(SESSION_TOKEN_KEY),
 					window.location.reload(),
-					Promise.reject()
+					Promise.reject(
+						d instanceof Error
+							? d
+							: new Error(`Failed to link CrazyGames account: ${d}`),
+					)
 				);
 			}
 		else {
@@ -211079,7 +211842,11 @@ function useAccountContext(h) {
 			l(!0);
 			try {
 				await Accounts.signIn(de),
-					CrazyGames.linkAccount().then(I),
+					CrazyGames.linkAccount()
+						.then(I)
+						.catch((fe) => {
+							Ulog.error("CrazyGames.linkAccount failed after sign-in", fe);
+						}),
 					(se = ie.onSuccess) == null || se.call(ie);
 			} catch (fe) {
 				l(!1),
@@ -211129,7 +211896,11 @@ function useAccountContext(h) {
 			B(!1);
 		};
 	reactExports.useEffect(() => {
-		CrazyGames.linkAccount().then(I);
+		CrazyGames.linkAccount()
+			.then(I)
+			.catch((de) => {
+				Ulog.error("CrazyGames.linkAccount failed on page load", de);
+			});
 	}, []);
 	const Q = (de) => {
 		if (!de.loginBonusLastClaim) {
@@ -214685,6 +215456,7 @@ const common = {
 			fastRender: "Fast Render",
 			wasmMesher: "WASM Mesher",
 			checkShaderErrors: "Check Shader Errors",
+			chunkCache: "Chunk Cache",
 			fastEntities: "Fast Entities",
 			entities: "Entities",
 			dynamicFOV: "Dynamic FOV",
@@ -214763,6 +215535,8 @@ const common = {
 				"Builds and lights chunks with the WebAssembly mesher, which is faster on most hardware. Turn it off to fall back to the JavaScript path if you see glitches or run low on memory on a low-end device. Experimental.",
 			checkShaderErrors:
 				"Validates each shader program on first use and reports compile/link errors to the console. Costs a synchronous GPU stall during chunk loading, so keep it off when profiling. Dev-only.",
+			chunkCache:
+				"Caches received chunks in your browser and skips re-downloading any the server reports unchanged when you revisit or reconnect. Saves bandwidth, especially in static worlds. The server always decides what's current, so it can't show outdated terrain. Dev-only.",
 			fastEntities: "Simplifies distant entities to improve performance.",
 			entities:
 				"Level of detail for other players. Fast swaps distant players (past 32 blocks) to a cheaper combined mesh; Fastest uses it at all distances; Normal keeps everyone fully detailed.",
@@ -214782,11 +215556,74 @@ const common = {
 			returning: "Returning to game...",
 		},
 		chat: { placeholder: "Press enter to chat" },
-		tutorial: {
-			move: "WASD to move",
-			jump: "Space to jump",
-			sprint: "Shift to sprint",
-			crouch: "{{key}} to crouch",
+		onboarding: {
+			title: "Getting started",
+			howToPlay: "How to play",
+			done: "You're all set!",
+			goodLuck: "Good luck!",
+			sandbox: {
+				look: "Look around",
+				move: "Move",
+				jump: "Jump",
+				fly: "Fly up",
+				break: "Break a block",
+				place: "Place a block",
+				inventory: "Open your inventory",
+			},
+			eggwars: {
+				team: "Select your team",
+				collect: "Collect resources from generators",
+				shop: "Open a shop to spend them",
+				buy: "Buy some gear",
+				egg: "Break the enemy egg, then eliminate them",
+			},
+			skywars: {
+				kit: "Choose your kit",
+				chests: "Open chests to gear up",
+				build: "Build bridges to other islands",
+				eliminate: "Eliminate everyone — last team standing wins!",
+			},
+			kitpvp: {
+				kit: "Choose your kit",
+				fight: "Fight other players to rack up kills",
+				climb: "Climb the leaderboard. Good luck!",
+			},
+			pvp: {
+				fight: "Kill or be killed with sword and bow",
+				pro: "Have you got what it takes to be a PvP pro?",
+			},
+			oitq: {
+				start: "You start with a single arrow",
+				snipe: "Snipe a player for an instakill and a new arrow",
+				melee: "Miss? Switch to your melee weapon",
+			},
+			spleef: {
+				break: "Break the blocks under your opponents",
+				last: "Be the last one standing to win!",
+			},
+			bridge: {
+				build: "Place blocks to bridge the gap",
+				score: "Score by falling into your opponent's goal",
+				win: "First to 5 goals wins!",
+			},
+			duels: { fight: "Duel your opponent to the death!" },
+			parkour: {
+				run: "Run and jump through the levels",
+				checkpoints: "Gold pressure plates are checkpoints",
+				items: "Use the items in your hotbar",
+			},
+			murder: {
+				goal: "Figure out who the murderer is",
+				roles: "Innocents survive; the murderer kills quietly",
+			},
+			blockhunt: {
+				hide: "Hiders: disguise as a block and hide",
+				seek: "Hunters: find and eliminate the hiders",
+			},
+			blitzbuild: {
+				copy: "Copy the build as fast as you can",
+				place: "Place blocks to match it",
+			},
 		},
 	},
 	account = {
@@ -216929,12 +217766,12 @@ class ConfiguredUnleashClient extends buildExports.UnleashClient {
 		});
 	}
 }
-const Ed = class Ed {
+const Cd = class Cd {
 	constructor(o) {
 		(this.game = o),
 			ClientAxios.publicRequest("/update_status", void 0)
 				.then((l) => {
-					Ed.shouldPlay = l.status;
+					Cd.shouldPlay = l.status;
 				})
 				.catch((l) => {
 					Ulog.warn("Failed to fetch ad status", l);
@@ -217036,7 +217873,7 @@ const Ed = class Ed {
 			return Ulog.info("Skipping video ad because of ads flag"), !1;
 		if (o && o.rank != null && o.rank != "")
 			return Ulog.info("Skipping video ad because of rank"), !1;
-		if (!Ed.shouldPlay) return !1;
+		if (!Cd.shouldPlay) return !1;
 		if (Game.isCrazyGames && l) return !0;
 		if (!Game.isCrazyGames) {
 			const d = window.aiptag;
@@ -217054,11 +217891,11 @@ const Ed = class Ed {
 			u == null
 				? (localStorage.setItem(
 						"lastAd",
-						(Date.now() - Ed.AD_COOLDOWN_MS + 3 * 6e4).toString(),
+						(Date.now() - Cd.AD_COOLDOWN_MS + 3 * 6e4).toString(),
 					),
 					Ulog.info("Skipping video ad because last ad was not set"),
 					!1)
-				: Date.now() - parseInt(u) < Ed.AD_COOLDOWN_MS
+				: Date.now() - parseInt(u) < Cd.AD_COOLDOWN_MS
 					? (Ulog.info(
 							"Skipping video ad because last ad was played too recently",
 						),
@@ -217067,8 +217904,8 @@ const Ed = class Ed {
 		);
 	}
 };
-b(Ed, "AD_COOLDOWN_MS", 3 * 6e4), b(Ed, "shouldPlay", !0);
-let CubicBezier = Ed;
+b(Cd, "AD_COOLDOWN_MS", 3 * 6e4), b(Cd, "shouldPlay", !0);
+let CubicBezier = Cd;
 class EntityFX extends Entity {
 	constructor(l, u, d, p, m, g, y) {
 		super(l);
@@ -217170,7 +218007,7 @@ class EntityFX extends Entity {
 			);
 	}
 	remove(l) {
-		this.mesh_ && l.remove(this.mesh_);
+		this.sprite && l.remove(this.sprite), this.mesh_ && l.remove(this.mesh_);
 	}
 	getFXLayer() {
 		return 0;
@@ -217187,16 +218024,7 @@ class EntityFX extends Entity {
 		return !1;
 	}
 }
-class ParticleQuad {
-	constructor(o) {
-		b(this, "size", 1);
-		b(this, "scale", { setScalar: (o) => void (this.size = o) });
-		b(this, "position", new Vector3$1());
-		b(this, "material", { map: null, color: new Color$1(1, 1, 1) });
-		this.material.map = o;
-	}
-}
-const Wm = class Wm extends EntityFX {
+const Ym = class Ym extends EntityFX {
 	constructor(o, l, u, d, p) {
 		super(o, l, u, d, 0, 0, 0),
 			(this.particleRed = this.particleGreen = this.particleBlue = 1),
@@ -217211,22 +218039,26 @@ const Wm = class Wm extends EntityFX {
 		this.particleAge++ >= this.particleMaxAge && this.setDead();
 	}
 	renderParticle(o, l, u) {
-		this.sprite ||
-			((this.sprite = new ParticleQuad(textureManager.particles.barrier)),
-			this.sprite.position.copy(this.pos));
+		if (!this.sprite) {
+			const d = textureManager.particles.barrier;
+			if (!d) return;
+			(this.sprite = new Sprite(new SpriteMaterial({ map: d, fog: !1 }))),
+				this.sprite.position.copy(this.pos),
+				o.add(this.sprite);
+		}
 	}
 };
 b(
-	Wm,
+	Ym,
 	"Factory",
 	class {
 		getEntityFX(l, u, d, p, m, g, y, x, ...S) {
-			return new Wm(u, d, p, m, Items.getItemByBlock(Blocks.barrier));
+			return new Ym(u, d, p, m, Items.getItemByBlock(Blocks.barrier));
 		}
 	},
 );
-let Barrier = Wm;
-const Km = class Km extends EntityFX {
+let Barrier = Ym;
+const Xm = class Xm extends EntityFX {
 	constructor(l, u, d, p, m, g, y, x) {
 		super(l, u, d, p, 0, 0, 0);
 		b(this, "smokeParticleScale");
@@ -217246,8 +218078,12 @@ const Km = class Km extends EntityFX {
 			(this.noPhysics = !1);
 	}
 	renderParticle(l, u, d) {
-		this.sprite ||
-			(this.sprite = new ParticleQuad(textureManager.particles.generic_7));
+		if (!this.sprite) {
+			const g = textureManager.particles.generic_7;
+			if (!g) return;
+			(this.sprite = new Sprite(new SpriteMaterial({ map: g, fog: !1 }))),
+				l.add(this.sprite);
+		}
 		const p = Math.ceil(7 - (this.particleAge * 8) / this.particleMaxAge);
 		this.prevAge != p &&
 			((this.prevAge = p),
@@ -217273,16 +218109,16 @@ const Km = class Km extends EntityFX {
 	}
 };
 b(
-	Km,
+	Xm,
 	"Factory",
 	class {
 		getEntityFX(u, d, p, m, g, y, x, S, ...v) {
-			return new Km(d, p, m, g, y, x, S, v);
+			return new Xm(d, p, m, g, y, x, S, v);
 		}
 	},
 );
-let EntityColorFX = Km;
-const If = class If extends EntityFX {
+let EntityColorFX = Xm;
+const Mf = class Mf extends EntityFX {
 	constructor(l, u, d, p, m) {
 		super(l, u, d, p, 0, 0, 0);
 		b(this, "materialType");
@@ -217306,11 +218142,13 @@ const If = class If extends EntityFX {
 			(this.motion.x = this.motion.y = this.motion.z = 0);
 	}
 	renderParticle(l, u, d) {
-		if (
-			(this.sprite ||
-				(this.sprite = new ParticleQuad(textureManager.particles.drip_fall)),
-			this.prevType != this.currType)
-		)
+		if (!this.sprite) {
+			const p = textureManager.particles.drip_fall;
+			if (!p) return;
+			(this.sprite = new Sprite(new SpriteMaterial({ map: p, fog: !1 }))),
+				l.add(this.sprite);
+		}
+		if (this.prevType != this.currType)
 			switch (((this.prevType = this.currType), this.currType)) {
 				case 0:
 					this.sprite.material.map = textureManager.particles.drip_fall;
@@ -217372,25 +218210,25 @@ const If = class If extends EntityFX {
 	}
 };
 b(
-	If,
+	Mf,
 	"LavaFactory",
 	class {
 		getEntityFX(u, d, p, m, g, y, x, S, ...v) {
-			return new If(d, p, m, g, "lava");
+			return new Mf(d, p, m, g, "lava");
 		}
 	},
 ),
 	b(
-		If,
+		Mf,
 		"WaterFactory",
 		class {
 			getEntityFX(u, d, p, m, g, y, x, S, ...v) {
-				return new If(d, p, m, g, "water");
+				return new Mf(d, p, m, g, "water");
 			}
 		},
 	);
-let EntityDropParticleFX = If;
-const Ym = class Ym extends EntityFX {
+let EntityDropParticleFX = Mf;
+const Zm = class Zm extends EntityFX {
 	constructor(l, u, d, p, m, g, y, x) {
 		super(l, u, d, p, 0, 0, 0);
 		b(this, "smokeParticleScale");
@@ -217413,8 +218251,12 @@ const Ym = class Ym extends EntityFX {
 			(this.noPhysics = !1);
 	}
 	renderParticle(l, u, d) {
-		this.sprite ||
-			(this.sprite = new ParticleQuad(textureManager.particles.generic_7));
+		if (!this.sprite) {
+			const g = textureManager.particles.generic_7;
+			if (!g) return;
+			(this.sprite = new Sprite(new SpriteMaterial({ map: g, fog: !1 }))),
+				l.add(this.sprite);
+		}
 		const p = Math.ceil(7 - (this.particleAge * 8) / this.particleMaxAge);
 		this.prevAge != p &&
 			((this.prevAge = p),
@@ -217443,16 +218285,16 @@ const Ym = class Ym extends EntityFX {
 	}
 };
 b(
-	Ym,
+	Zm,
 	"Factory",
 	class {
 		getEntityFX(u, d, p, m, g, y, x, S, ...v) {
-			return new Ym(d, p, m, g, y, x, S, 1);
+			return new Zm(d, p, m, g, y, x, S, 1);
 		}
 	},
 );
-let EntitySmokeFX = Ym;
-const Af = class Af extends EntityFX {
+let EntitySmokeFX = Zm;
+const Rf = class Rf extends EntityFX {
 	constructor(o, l, u, d, p, m, g) {
 		super(o, l, u, d, p, m, g);
 		const y = Math.random() * 0.1 + 0.2;
@@ -217469,9 +218311,13 @@ const Af = class Af extends EntityFX {
 			(this.noPhysics = !0);
 	}
 	renderParticle(o, l, u) {
-		this.sprite ||
-			(this.sprite = new ParticleQuad(textureManager.particles.glint)),
-			super.renderParticle(o, l, u);
+		if (!this.sprite) {
+			const d = textureManager.particles.glint;
+			if (!d) return;
+			(this.sprite = new Sprite(new SpriteMaterial({ map: d, fog: !1 }))),
+				o.add(this.sprite);
+		}
+		super.renderParticle(o, l, u);
 	}
 	update() {
 		(this.prevPos.x = this.pos.x),
@@ -217485,26 +218331,26 @@ const Af = class Af extends EntityFX {
 	}
 };
 b(
-	Af,
+	Rf,
 	"Factory",
 	class {
 		getEntityFX(l, u, d, p, m, g, y, x, ...S) {
-			return new Af(u, d, p, m, g, y, x);
+			return new Rf(u, d, p, m, g, y, x);
 		}
 	},
 ),
 	b(
-		Af,
+		Rf,
 		"HappyVillagerFactory",
 		class {
 			getEntityFX(l, u, d, p, m, g, y, x, ...S) {
-				const v = new Af(u, d, p, m, g, y, x);
+				const v = new Rf(u, d, p, m, g, y, x);
 				return v.setParticleTextureIndex(82), v.setRBGColorF(1, 1, 1), v;
 			}
 		},
 	);
-let EntityAuraFX = Af;
-const Xm = class Xm extends EntityFX {
+let EntityAuraFX = Rf;
+const Jm = class Jm extends EntityFX {
 	constructor(l, u, d, p, m, g, y, x) {
 		super(l, u, d, p, m, g, y);
 		b(this, "state");
@@ -217590,11 +218436,11 @@ const Xm = class Xm extends EntityFX {
 	}
 };
 b(
-	Xm,
+	Jm,
 	"Factory",
 	class {
 		getEntityFX(u, d, p, m, g, y, x, S, ...v) {
-			return new Xm(
+			return new Jm(
 				d,
 				p,
 				m,
@@ -217607,8 +218453,8 @@ b(
 		}
 	},
 );
-let EntityDiggingFX = Xm;
-const Zm = class Zm extends EntityDiggingFX {
+let EntityDiggingFX = Jm;
+const Qm = class Qm extends EntityDiggingFX {
 	constructor(o, l, u, d, p, m, g, y) {
 		super(o, l, u, d, p, m, g, y),
 			(this.motion.x = p),
@@ -217617,19 +218463,19 @@ const Zm = class Zm extends EntityDiggingFX {
 	}
 };
 b(
-	Zm,
+	Qm,
 	"Factory",
 	class {
 		getEntityFX(l, u, d, p, m, g, y, x, ...S) {
 			const v = Blocks.fromBlockStateId(S[0]);
 			return v.getBlock().getRenderType() == -1
 				? null
-				: new Zm(u, d, p, m, g, y, x, v).func_174845_l();
+				: new Qm(u, d, p, m, g, y, x, v).func_174845_l();
 		}
 	},
 );
-let EntityBlockDustFX = Zm;
-const Td = class Td extends EntityFX {
+let EntityBlockDustFX = Qm;
+const Id = class Id extends EntityFX {
 	constructor(o, l, u, d, p, m, g, y, x = 0) {
 		super(o, l, u, d, 0, 0, 0),
 			(this.motion.x *= 0.1),
@@ -217648,35 +218494,35 @@ const Td = class Td extends EntityFX {
 	renderParticle(o, l, u) {}
 };
 b(
-	Td,
+	Id,
 	"Factory",
 	class {
 		getEntityFX(l, u, d, p, m, g, y, x, ...S) {
 			const v = S.length > 1 ? S[1] : 0;
-			return new Td(u, d, p, m, g, y, x, Items.getItemById(S[0]), v);
+			return new Id(u, d, p, m, g, y, x, Items.getItemById(S[0]), v);
 		}
 	},
 ),
 	b(
-		Td,
+		Id,
 		"SlimeFactory",
 		class {
 			getEntityFX(l, u, d, p, m, g, y, x, ...S) {
-				return new Td(u, d, p, m, 0, 0, 0, Items.slime_ball);
+				return new Id(u, d, p, m, 0, 0, 0, Items.slime_ball);
 			}
 		},
 	),
 	b(
-		Td,
+		Id,
 		"SnowballFactory",
 		class {
 			getEntityFX(l, u, d, p, m, g, y, x, ...S) {
-				return new Td(u, d, p, m, 0, 0, 0, Items.snowball);
+				return new Id(u, d, p, m, 0, 0, 0, Items.snowball);
 			}
 		},
 	);
-let EntityBreakingFX = Td;
-const Jm = class Jm extends EntityFX {
+let EntityBreakingFX = Id;
+const eg = class eg extends EntityFX {
 	constructor(l, u, d, p, m, g, y) {
 		super(l, u, d, p, 0, 0, 0);
 		b(this, "field_70569_a");
@@ -217700,8 +218546,12 @@ const Jm = class Jm extends EntityFX {
 			(this.noPhysics = !1);
 	}
 	renderParticle(l, u, d) {
-		this.sprite ||
-			(this.sprite = new ParticleQuad(textureManager.particles.generic_7));
+		if (!this.sprite) {
+			const g = textureManager.particles.generic_7;
+			if (!g) return;
+			(this.sprite = new Sprite(new SpriteMaterial({ map: g, fog: !1 }))),
+				l.add(this.sprite);
+		}
 		const p = Math.ceil(7 - (this.particleAge * 8) / this.particleMaxAge);
 		this.prevAge != p &&
 			((this.prevAge = p),
@@ -217733,16 +218583,16 @@ const Jm = class Jm extends EntityFX {
 	}
 };
 b(
-	Jm,
+	eg,
 	"Factory",
 	class {
 		getEntityFX(u, d, p, m, g, y, x, S, ...v) {
-			return new Jm(d, p, m, g, y, x, S);
+			return new eg(d, p, m, g, y, x, S);
 		}
 	},
 );
-let EntityCloudFX = Jm;
-const Mf = class Mf extends EntityFX {
+let EntityCloudFX = eg;
+const Pf = class Pf extends EntityFX {
 	constructor(l, u, d, p, m, g, y, x = 1) {
 		super(l, u, d, p, 0, 0, 0);
 		b(this, "prevScale");
@@ -217766,8 +218616,12 @@ const Mf = class Mf extends EntityFX {
 			this.update();
 	}
 	renderParticle(l, u, d) {
-		this.sprite ||
-			(this.sprite = new ParticleQuad(textureManager.particles.critical_hit));
+		if (!this.sprite) {
+			const m = textureManager.particles.critical_hit;
+			if (!m) return;
+			(this.sprite = new Sprite(new SpriteMaterial({ map: m, fog: !1 }))),
+				l.add(this.sprite);
+		}
 		let p = ((this.particleAge + d) / this.particleMaxAge) * 32;
 		(p = lodashExports.clamp(p, 0, 1)),
 			(this.particleScale = this.prevScale * p),
@@ -217789,20 +218643,20 @@ const Mf = class Mf extends EntityFX {
 	}
 };
 b(
-	Mf,
+	Pf,
 	"Factory",
 	class {
 		getEntityFX(u, d, p, m, g, y, x, S, ...v) {
-			return new Mf(d, p, m, g, y, x, S);
+			return new Pf(d, p, m, g, y, x, S);
 		}
 	},
 ),
 	b(
-		Mf,
+		Pf,
 		"MagicFactory",
 		class {
 			getEntityFX(u, d, p, m, g, y, x, S, ...v) {
-				const w = new Mf(d, p, m, g, y, x, S);
+				const w = new Pf(d, p, m, g, y, x, S);
 				return (
 					w.setRBGColorF(
 						w.getRedColorF() * 0.3,
@@ -217815,8 +218669,8 @@ b(
 			}
 		},
 	);
-let EntityCrit2FX = Mf;
-const Qm = class Qm extends EntityFX {
+let EntityCrit2FX = Pf;
+const tg = class tg extends EntityFX {
 	constructor(l, u, d, p, m, g, y) {
 		super(l, u, d, p, m, g, y);
 		b(this, "coordX");
@@ -217843,9 +218697,14 @@ const Qm = class Qm extends EntityFX {
 	renderParticle(l, u, d) {
 		if (!this.sprite) {
 			const p =
-				"sga_" +
-				String.fromCharCode(65 + Math.floor(Math.random() * 26)).toLowerCase();
-			this.sprite = new ParticleQuad(textureManager.particles[p]);
+					"sga_" +
+					String.fromCharCode(
+						65 + Math.floor(Math.random() * 26),
+					).toLowerCase(),
+				m = textureManager.particles[p];
+			if (!m) return;
+			(this.sprite = new Sprite(new SpriteMaterial({ map: m, fog: !1 }))),
+				l.add(this.sprite);
 		}
 		super.renderParticle(l, u, d);
 	}
@@ -217865,16 +218724,16 @@ const Qm = class Qm extends EntityFX {
 	}
 };
 b(
-	Qm,
+	tg,
 	"EnchantmentTable",
 	class {
 		getEntityFX(u, d, p, m, g, y, x, S, ...v) {
-			return new Qm(d, p, m, g, y, x, S);
+			return new tg(d, p, m, g, y, x, S);
 		}
 	},
 );
-let EntityEnchantmentTableParticleFX = Qm;
-const eg = class eg extends EntityFX {
+let EntityEnchantmentTableParticleFX = tg;
+const rg = class rg extends EntityFX {
 	constructor(l, u, d, p, m, g, y, x) {
 		super(l, u, d, p, m, g, y);
 		b(this, "flameScale");
@@ -217891,8 +218750,12 @@ const eg = class eg extends EntityFX {
 			this.setParticleTextureIndex(48);
 	}
 	renderParticle(l, u, d) {
-		this.sprite ||
-			(this.sprite = new ParticleQuad(textureManager.particles.flame));
+		if (!this.sprite) {
+			const m = textureManager.particles.flame;
+			if (!m) return;
+			(this.sprite = new Sprite(new SpriteMaterial({ map: m, fog: !1 }))),
+				l.add(this.sprite);
+		}
 		const p = (this.particleAge + d) / this.particleMaxAge;
 		(this.particleScale = this.flameScale * (1 - p * p * 0.5)),
 			super.renderParticle(l, u, d);
@@ -217910,16 +218773,16 @@ const eg = class eg extends EntityFX {
 	}
 };
 b(
-	eg,
+	rg,
 	"Factory",
 	class {
 		getEntityFX(u, d, p, m, g, y, x, S, ...v) {
-			return new eg(d, p, m, g, y, x, S, 1);
+			return new rg(d, p, m, g, y, x, S, 1);
 		}
 	},
 );
-let EntityFlameFX = eg;
-const Rf = class Rf extends EntityFX {
+let EntityFlameFX = rg;
+const Bf = class Bf extends EntityFX {
 	constructor(l, u, d, p, m, g, y, x = 2) {
 		super(l, u, d, p, 0, 0, 0);
 		b(this, "particleScaleOverTime");
@@ -217936,10 +218799,11 @@ const Rf = class Rf extends EntityFX {
 	}
 	renderParticle(l, u, d) {
 		if (!this.sprite) {
-			const m = this.particleTextureIndexX % 16;
-			this.sprite = new ParticleQuad(
-				textureManager.particles[m == 0 ? "heart" : "angry"],
-			);
+			const m = this.particleTextureIndexX % 16,
+				g = textureManager.particles[m == 0 ? "heart" : "angry"];
+			if (!g) return;
+			(this.sprite = new Sprite(new SpriteMaterial({ map: g, fog: !1 }))),
+				l.add(this.sprite);
 		}
 		let p = ((this.particleAge + d) / this.particleMaxAge) * 32;
 		(p = lodashExports.clamp(p, 0, 1)),
@@ -217961,26 +218825,26 @@ const Rf = class Rf extends EntityFX {
 	}
 };
 b(
-	Rf,
+	Bf,
 	"AngryVillagerFactory",
 	class {
 		getEntityFX(u, d, p, m, g, y, x, S, ...v) {
-			const w = new Rf(d, p, m + 0.5, g, y, x, S);
+			const w = new Bf(d, p, m + 0.5, g, y, x, S);
 			return w.setParticleTextureIndex(81), w.setRBGColorF(1, 1, 1), w;
 		}
 	},
 ),
 	b(
-		Rf,
+		Bf,
 		"Factory",
 		class {
 			getEntityFX(u, d, p, m, g, y, x, S, ...v) {
-				return new Rf(d, p, m, g, y, x, S);
+				return new Bf(d, p, m, g, y, x, S);
 			}
 		},
 	);
-let EntityHeartFX = Rf;
-const tg = class tg extends EntityFX {
+let EntityHeartFX = Bf;
+const ng = class ng extends EntityFX {
 	constructor(l, u, d, p) {
 		super(l, u, d, p, 0, 0, 0);
 		b(this, "lavaParticleScale");
@@ -217998,8 +218862,12 @@ const tg = class tg extends EntityFX {
 			this.setParticleTextureIndex(49);
 	}
 	renderParticle(l, u, d) {
-		this.sprite ||
-			(this.sprite = new ParticleQuad(textureManager.particles.lava));
+		if (!this.sprite) {
+			const m = textureManager.particles.lava;
+			if (!m) return;
+			(this.sprite = new Sprite(new SpriteMaterial({ map: m, fog: !1 }))),
+				l.add(this.sprite);
+		}
 		const p = (this.particleAge + d) / this.particleMaxAge;
 		(this.particleScale = this.lavaParticleScale * (1 - p * p)),
 			super.renderParticle(l, u, d);
@@ -218029,16 +218897,16 @@ const tg = class tg extends EntityFX {
 	}
 };
 b(
-	tg,
+	ng,
 	"Factory",
 	class {
 		getEntityFX(u, d, p, m, g, y, x, S, ...v) {
-			return new tg(d, p, m, g);
+			return new ng(d, p, m, g);
 		}
 	},
 );
-let EntityLavaFX = tg;
-const rg = class rg extends EntityFX {
+let EntityLavaFX = ng;
+const ig = class ig extends EntityFX {
 	constructor(l, u, d, p, m, g, y, x = 2) {
 		super(l, u, d, p, 0, 0, 0);
 		b(this, "noteParticleScale");
@@ -218059,8 +218927,12 @@ const rg = class rg extends EntityFX {
 			this.setParticleTextureIndex(64);
 	}
 	renderParticle(l, u, d) {
-		this.sprite ||
-			(this.sprite = new ParticleQuad(textureManager.particles.note));
+		if (!this.sprite) {
+			const m = textureManager.particles.note;
+			if (!m) return;
+			(this.sprite = new Sprite(new SpriteMaterial({ map: m, fog: !1 }))),
+				l.add(this.sprite);
+		}
 		let p = ((this.particleAge + d) / this.particleMaxAge) * 32;
 		(p = lodashExports.clamp(p, 0, 1)),
 			(this.particleScale = this.noteParticleScale * p),
@@ -218081,15 +218953,15 @@ const rg = class rg extends EntityFX {
 	}
 };
 b(
-	rg,
+	ig,
 	"Factory",
 	class {
 		getEntityFX(u, d, p, m, g, y, x, S, ...v) {
-			return new rg(d, p, m, g, y, x, S, 1);
+			return new ig(d, p, m, g, y, x, S, 1);
 		}
 	},
 );
-let EntityNoteFX = rg;
+let EntityNoteFX = ig;
 class EntityParticleEmitter extends EntityFX {
 	constructor(l, u, d) {
 		super(
@@ -218142,7 +219014,7 @@ class EntityParticleEmitter extends EntityFX {
 		return 3;
 	}
 }
-const ng = class ng extends EntityFX {
+const ag = class ag extends EntityFX {
 	constructor(l, u, d, p, m, g, y) {
 		super(l, u, d, p, m, g, y);
 		b(this, "portalParticleScale");
@@ -218165,10 +219037,13 @@ const ng = class ng extends EntityFX {
 			this.setParticleTextureIndex(Math.random() * 8);
 	}
 	renderParticle(l, u, d) {
-		this.sprite ||
-			(this.sprite = new ParticleQuad(
-				textureManager.particles["generic_" + Math.floor(Math.random() * 8)],
-			));
+		if (!this.sprite) {
+			const m =
+				textureManager.particles["generic_" + Math.floor(Math.random() * 8)];
+			if (!m) return;
+			(this.sprite = new Sprite(new SpriteMaterial({ map: m, fog: !1 }))),
+				l.add(this.sprite);
+		}
 		let p = (this.particleAge + d) / this.particleMaxAge;
 		(p = 1 - p),
 			(p = p * p),
@@ -218190,16 +219065,16 @@ const ng = class ng extends EntityFX {
 	}
 };
 b(
-	ng,
+	ag,
 	"Factory",
 	class {
 		getEntityFX(u, d, p, m, g, y, x, S, ...v) {
-			return new ng(d, p, m, g, y, x, S);
+			return new ag(d, p, m, g, y, x, S);
 		}
 	},
 );
-let EntityPortalFX = ng;
-const ig = class ig extends EntityFX {
+let EntityPortalFX = ag;
+const sg = class sg extends EntityFX {
 	constructor(o, l, u, d) {
 		super(o, l, u, d, 0, 0, 0),
 			(this.motion.x *= 0.3),
@@ -218214,11 +219089,14 @@ const ig = class ig extends EntityFX {
 			(this.particleMaxAge = 8 / (Math.random() * 0.8 + 0.2));
 	}
 	renderParticle(o, l, u) {
-		this.sprite ||
-			(this.sprite = new ParticleQuad(
-				textureManager.particles["splash_" + Math.floor(Math.random() * 4)],
-			)),
-			super.renderParticle(o, l, u);
+		if (!this.sprite) {
+			const d =
+				textureManager.particles["splash_" + Math.floor(Math.random() * 4)];
+			if (!d) return;
+			(this.sprite = new Sprite(new SpriteMaterial({ map: d, fog: !1 }))),
+				o.add(this.sprite);
+		}
+		super.renderParticle(o, l, u);
 	}
 	update() {
 		(this.prevPos.x = this.pos.x),
@@ -218248,16 +219126,16 @@ const ig = class ig extends EntityFX {
 	}
 };
 b(
-	ig,
+	sg,
 	"Factory",
 	class {
 		getEntityFX(l, u, d, p, m, g, y, x, ...S) {
-			return new ig(u, d, p, m);
+			return new sg(u, d, p, m);
 		}
 	},
 );
-let EntityRainFX = ig;
-const ag = class ag extends EntityFX {
+let EntityRainFX = sg;
+const og = class og extends EntityFX {
 	constructor(l, u, d, p, m, g, y, x = 1) {
 		super(l, u, d, p, 0, 0, 0);
 		b(this, "reddustParticleScale");
@@ -218278,8 +219156,12 @@ const ag = class ag extends EntityFX {
 			(this.noPhysics = !1);
 	}
 	renderParticle(l, u, d) {
-		this.sprite ||
-			(this.sprite = new ParticleQuad(textureManager.particles.generic_7));
+		if (!this.sprite) {
+			const g = textureManager.particles.generic_7;
+			if (!g) return;
+			(this.sprite = new Sprite(new SpriteMaterial({ map: g, fog: !1 }))),
+				l.add(this.sprite);
+		}
 		const p = Math.ceil(7 - (this.particleAge * 8) / this.particleMaxAge);
 		this.prevAge != p &&
 			((this.prevAge = p),
@@ -218307,16 +219189,16 @@ const ag = class ag extends EntityFX {
 	}
 };
 b(
-	ag,
+	og,
 	"Factory",
 	class {
 		getEntityFX(u, d, p, m, g, y, x, S, ...v) {
-			return new ag(d, p, m, g, y, x, S);
+			return new og(d, p, m, g, y, x, S);
 		}
 	},
 );
-let EntityReddustFX = ag;
-const sg = class sg extends EntityRainFX {
+let EntityReddustFX = og;
+const lg = class lg extends EntityRainFX {
 	constructor(o, l, u, d, p, m, g) {
 		super(o, l, u, d),
 			(this.particleGravity = 0.04),
@@ -218327,208 +219209,15 @@ const sg = class sg extends EntityRainFX {
 	}
 };
 b(
-	sg,
+	lg,
 	"Factory",
 	class {
 		getEntityFX(l, u, d, p, m, g, y, x, ...S) {
-			return new sg(u, d, p, m, g, y, x);
+			return new lg(u, d, p, m, g, y, x);
 		}
 	},
 );
-let EntitySplashFX = sg;
-const INITIAL_CAPACITY = 2048,
-	MAX_CAPACITY = 65536,
-	QUAD_POSITIONS = new Float32Array([
-		-0.5, 0.5, 0, 0.5, 0.5, 0, -0.5, -0.5, 0, 0.5, -0.5, 0,
-	]),
-	QUAD_UVS = new Float32Array([0, 0, 1, 0, 0, 1, 1, 1]),
-	QUAD_INDICES = new Uint16Array([0, 2, 1, 2, 3, 1]),
-	VERTEX_SHADER$1 = `
-  attribute vec3 aOffset;
-  attribute float aScale;
-  attribute vec3 aColor;
-  attribute vec4 aUV;
-  varying vec2 vUv;
-  varying vec3 vColor;
-  // Held ("dynamic") light: the same world-space point light the terrain/water shaders use, so
-  // a torch in hand also brightens nearby particles. level is 0..1 (block-light normalised);
-  // 0 = off. Computed per-vertex (the four corners share aOffset, so effectively per particle).
-  uniform vec3 uHeldLightPos;
-  uniform float uHeldLightLevel;
-  void main() {
-    vColor = aColor;
-    // Proportional additive boost (keeps each particle's hue, never darkens) with the same
-    // quadratic radial falloff the world shaders apply. aOffset is the particle's world-space
-    // centre in the (identity) game scene, matching uHeldLightPos.
-    if (uHeldLightLevel > 0.0) {
-      float range = uHeldLightLevel * 15.0;
-      float falloff = clamp(1.0 - distance(aOffset, uHeldLightPos) / range, 0.0, 1.0);
-      vColor += vColor * (uHeldLightLevel * falloff * falloff);
-    }
-    vUv = aUV.xy + uv * aUV.zw;
-    // Billboard: place the centre in view space, then offset the corner along the screen
-    // axes so the quad always faces the camera regardless of its world position.
-    vec4 mv = modelViewMatrix * vec4(aOffset, 1.0);
-    mv.xy += position.xy * aScale;
-    gl_Position = projectionMatrix * mv;
-  }
-`,
-	FRAGMENT_SHADER$1 = `
-  uniform sampler2D uAtlas;
-  varying vec2 vUv;
-  varying vec3 vColor;
-  void main() {
-    vec4 tex = texture2D(uAtlas, vUv);
-    if (tex.a < 0.01) discard;
-    gl_FragColor = vec4(tex.rgb * vColor, tex.a);
-  }
-`;
-class ParticleBatcher {
-	constructor(o) {
-		b(this, "mesh", null);
-		b(this, "geometry", null);
-		b(this, "capacity", 0);
-		b(this, "count", 0);
-		b(this, "offsets");
-		b(this, "scales");
-		b(this, "colors");
-		b(this, "uvs");
-		b(this, "aOffset");
-		b(this, "aScale");
-		b(this, "aColor");
-		b(this, "aUV");
-		this.scene = o;
-	}
-	ensureMesh() {
-		if (this.mesh) return !0;
-		const o = textureManager.particleAtlas;
-		if (!o) return !1;
-		this.allocate(INITIAL_CAPACITY);
-		const l = new InstancedBufferGeometry();
-		l.setAttribute("position", new BufferAttribute(QUAD_POSITIONS, 3)),
-			l.setAttribute("uv", new BufferAttribute(QUAD_UVS, 2)),
-			l.setIndex(new BufferAttribute(QUAD_INDICES, 1)),
-			l.setAttribute("aOffset", this.aOffset),
-			l.setAttribute("aScale", this.aScale),
-			l.setAttribute("aColor", this.aColor),
-			l.setAttribute("aUV", this.aUV),
-			(l.instanceCount = 0),
-			(l.boundingSphere = new Sphere(new Vector3$1(), 1 / 0));
-		const u = new ShaderMaterial({
-				uniforms: {
-					uAtlas: { value: o },
-					uHeldLightPos: { value: new Vector3$1() },
-					uHeldLightLevel: { value: 0 },
-				},
-				vertexShader: VERTEX_SHADER$1,
-				fragmentShader: FRAGMENT_SHADER$1,
-				transparent: !0,
-				depthTest: !0,
-				depthWrite: !1,
-				side: DoubleSide,
-				fog: !1,
-			}),
-			d = new Mesh(l, u);
-		return (
-			(d.frustumCulled = !1),
-			(d.matrixAutoUpdate = !1),
-			(d.matrixWorldAutoUpdate = !1),
-			(d.renderOrder = 1),
-			d.position.set(0, 0, 0),
-			d.updateMatrix(),
-			(this.geometry = l),
-			(this.mesh = d),
-			this.scene.add(d),
-			!0
-		);
-	}
-	allocate(o) {
-		(this.capacity = o),
-			(this.offsets = new Float32Array(o * 3)),
-			(this.scales = new Float32Array(o)),
-			(this.colors = new Float32Array(o * 3)),
-			(this.uvs = new Float32Array(o * 4)),
-			(this.aOffset = new InstancedBufferAttribute(this.offsets, 3).setUsage(
-				DynamicDrawUsage,
-			)),
-			(this.aScale = new InstancedBufferAttribute(this.scales, 1).setUsage(
-				DynamicDrawUsage,
-			)),
-			(this.aColor = new InstancedBufferAttribute(this.colors, 3).setUsage(
-				DynamicDrawUsage,
-			)),
-			(this.aUV = new InstancedBufferAttribute(this.uvs, 4).setUsage(
-				DynamicDrawUsage,
-			));
-	}
-	grow() {
-		const o = Math.min(this.capacity * 2, MAX_CAPACITY);
-		if (o === this.capacity) return;
-		const l = this.offsets,
-			u = this.scales,
-			d = this.colors,
-			p = this.uvs,
-			m = this.count;
-		this.allocate(o),
-			this.offsets.set(l.subarray(0, m * 3)),
-			this.scales.set(u.subarray(0, m)),
-			this.colors.set(d.subarray(0, m * 3)),
-			this.uvs.set(p.subarray(0, m * 4)),
-			this.geometry &&
-				(this.geometry.setAttribute("aOffset", this.aOffset),
-				this.geometry.setAttribute("aScale", this.aScale),
-				this.geometry.setAttribute("aColor", this.aColor),
-				this.geometry.setAttribute("aUV", this.aUV));
-	}
-	begin() {
-		(this.count = 0),
-			this.ensureMesh() &&
-				this.mesh &&
-				this.mesh.parent !== this.scene &&
-				this.scene.add(this.mesh);
-	}
-	add(o) {
-		if (!this.mesh) return;
-		const l = o.material.map;
-		if (!l) return;
-		const u = textureManager.particleAtlasRects.get(l);
-		if (
-			!u ||
-			(this.count >= this.capacity &&
-				(this.capacity >= MAX_CAPACITY ||
-					(this.grow(), this.count >= this.capacity)))
-		)
-			return;
-		const d = this.count,
-			p = o.position;
-		(this.offsets[d * 3] = p.x),
-			(this.offsets[d * 3 + 1] = p.y),
-			(this.offsets[d * 3 + 2] = p.z),
-			(this.scales[d] = o.size);
-		const m = o.material.color;
-		(this.colors[d * 3] = m.r),
-			(this.colors[d * 3 + 1] = m.g),
-			(this.colors[d * 3 + 2] = m.b),
-			(this.uvs[d * 4] = u.x),
-			(this.uvs[d * 4 + 1] = u.y),
-			(this.uvs[d * 4 + 2] = u.z),
-			(this.uvs[d * 4 + 3] = u.w),
-			this.count++;
-	}
-	end() {
-		if (!this.mesh || !this.geometry) return;
-		const o = this.mesh.material.uniforms;
-		(o.uHeldLightLevel.value = textureManager.heldLightLevel),
-			o.uHeldLightPos.value.copy(textureManager.heldLightPos),
-			(this.geometry.instanceCount = this.count),
-			this.count > 0 &&
-				((this.aOffset.needsUpdate = !0),
-				(this.aScale.needsUpdate = !0),
-				(this.aColor.needsUpdate = !0),
-				(this.aUV.needsUpdate = !0)),
-			this.mesh.updateWorldMatrix(!0, !1);
-	}
-}
+let EntitySplashFX = lg;
 const INITIAL_CAPACITY_VERTS = 4096,
 	MAX_CAPACITY_VERTS = 131072;
 function fillQuadIndices(h, o) {
@@ -218684,12 +219373,10 @@ class EffectRenderer {
 		b(this, "fxLayers", new Array(4));
 		b(this, "particleTypes", new Map());
 		b(this, "particleEmitters", []);
-		b(this, "batcher");
 		b(this, "diggingBatcher");
 		(this.scene = o),
 			(this.isGuiPlayerRenderer = l),
 			(this.scene = o),
-			(this.batcher = new ParticleBatcher(o)),
 			(this.diggingBatcher = new DiggingParticleBatcher(o));
 		for (let u = 0; u < 4; ++u) {
 			this.fxLayers[u] = new Array(2);
@@ -218860,7 +219547,7 @@ class EffectRenderer {
 		} catch {}
 	}
 	renderParticles(o, l) {
-		this.batcher.begin(), this.diggingBatcher.begin();
+		this.diggingBatcher.begin();
 		for (let u = 0; u < 3; ++u)
 			for (let d = 0; d < 2; ++d) {
 				const p = this.fxLayers[u][d];
@@ -218868,13 +219555,11 @@ class EffectRenderer {
 					const g = p[m];
 					try {
 						g.renderParticle(this.scene, o, l),
-							g.sprite
-								? this.batcher.add(g.sprite)
-								: g instanceof EntityDiggingFX && this.diggingBatcher.add(g);
+							g instanceof EntityDiggingFX && this.diggingBatcher.add(g);
 					} catch {}
 				}
 			}
-		this.batcher.end(), this.diggingBatcher.end();
+		this.diggingBatcher.end();
 	}
 	addBlockDestroyEffects(o, l, u) {
 		if (!l.block.isAir())
@@ -219571,7 +220256,7 @@ class Fog {
 				: ((this.fog.near = 1e9), (this.fog.far = 1e11));
 	}
 }
-const Pf = class Pf {
+const Lf = class Lf {
 	constructor(o) {
 		b(
 			this,
@@ -219623,7 +220308,7 @@ const Pf = class Pf {
 	}
 	update() {
 		const o = this.game.world.worldTime;
-		Math.abs(o - Pf.tick.value) > 100 ? (Pf.tick = Ola(o)) : Pf.tick.set(o),
+		Math.abs(o - Lf.tick.value) > 100 ? (Lf.tick = Ola(o)) : Lf.tick.set(o),
 			this.clouds.update(),
 			this.stars.update(),
 			this.sun.update(),
@@ -219634,8 +220319,8 @@ const Pf = class Pf {
 		this.entityMeshes.clear(), this.leaderboardMeshes.clear();
 	}
 };
-b(Pf, "tick", Ola(0));
-let GameScene = Pf;
+b(Lf, "tick", Ola(0));
+let GameScene = Lf;
 class ChunkRenderQueue {
 	constructor(o) {
 		b(this, "highPriorityQueue", new ChunkPosSet());
@@ -219672,7 +220357,7 @@ class ChunkRenderQueue {
 	}
 }
 function WorkerWrapper(h) {
-	return new Worker("/assets/ChunkRenderWorker-BPsDozsF.js", {
+	return new Worker("/assets/ChunkRenderWorker-CYVnwyCJ.js", {
 		type: "module",
 		name: h == null ? void 0 : h.name,
 	});
@@ -219941,7 +220626,7 @@ class ChunkRenderManager {
 		await textureManager.loadSpritesheet();
 		for (const o of this.meshes.values())
 			(o.opaque.material = textureManager.materialWorld),
-				(o.transparent.material = textureManager.KnRnWxxHBdOgkuRADHukgxFj),
+				(o.transparent.material = textureManager.ajWzDOwzwPYhQVqyViQUjzjd),
 				(o.fluid.material = textureManager.materialFluidWorld);
 	}
 	updateChunkMesh(o) {
@@ -219961,7 +220646,7 @@ class ChunkRenderManager {
 				opaque: new Mesh(new BufferGeometry(), textureManager.materialWorld),
 				transparent: new Mesh(
 					new BufferGeometry(),
-					textureManager.KnRnWxxHBdOgkuRADHukgxFj,
+					textureManager.ajWzDOwzwPYhQVqyViQUjzjd,
 				),
 				fluid: new Mesh(
 					new BufferGeometry(),
@@ -220136,39 +220821,38 @@ class ChunkRenderManager {
 			this.world.chunkProvider.unloadAllChunks();
 	}
 }
-const qc = class qc extends Message {
+const Vc = class Vc extends Message {
 	constructor(l) {
 		super();
 		b(this, "message");
 		proto2.util.initPartial(l, this);
 	}
 	static fromBinary(l, u) {
-		return new qc().fromBinary(l, u);
+		return new Vc().fromBinary(l, u);
 	}
 	static fromJson(l, u) {
-		return new qc().fromJson(l, u);
+		return new Vc().fromJson(l, u);
 	}
 	static fromJsonString(l, u) {
-		return new qc().fromJsonString(l, u);
+		return new Vc().fromJsonString(l, u);
 	}
 	static equals(l, u) {
-		return proto2.util.equals(qc, l, u);
+		return proto2.util.equals(Vc, l, u);
 	}
 };
-b(qc, "runtime", proto2),
-	b(qc, "typeName", "SPacketTabComplete"),
+b(Vc, "runtime", proto2),
+	b(Vc, "typeName", "SPacketTabComplete"),
 	b(
-		qc,
+		Vc,
 		"fields",
 		proto2.util.newFieldList(() => [
 			{ no: 1, name: "message", kind: "scalar", T: 9 },
 		]),
 	);
-let SPacketTabComplete = qc;
+let SPacketTabComplete = Vc;
 class ClientSideCommands {
 	static tryExecuteClientside(o, l) {
 		const u = o.removeExtraSpaces().split(" ");
-		if (u[0] == "tutorial") return this.displayTutorial(l), !0;
 		if (u[0] == "reload") return l.chunkRenderManager.reload(), !0;
 		if (u[0] == "screenshot" || u[0] == "ss") {
 			const d = u[1];
@@ -220184,20 +220868,6 @@ class ClientSideCommands {
 				return (window.location = window.location + "?path=/signup/start"), !0;
 		}
 		return !1;
-	}
-	static displayTutorial(o) {
-		const l = (u) => o.chat.addChat({ text: u });
-		l("------------------"),
-			l("TUTORIAL"),
-			l(
-				"Use WASD to move around, SPACEBAR to jump, SHIFT to sprint, and ALT to crouch",
-			),
-			l(
-				"Use the mouse to look around, LEFT CLICK to mine and attack, RIGHT CLICK to place blocks",
-			),
-			l("Press E to open your inventory"),
-			l("Double tap space to fly in creative mode"),
-			l("------------------");
 	}
 }
 class Chat {
@@ -220361,7 +221031,9 @@ class PlayerList {
 		Object.getOwnPropertyNames(window).filter(
 			(l) => l.startsWith("a") && l.length === 17,
 		).length > 0 &&
-			ClientAxios.publicRequest("/accounts/update", { serverId: o });
+			ClientAxios.publicRequest("/accounts/update", { serverId: o }).catch(
+				() => {},
+			);
 	}
 }
 const Enter = "enter",
@@ -220811,7 +221483,23 @@ class LocalBlockIntercommunication {
 		return this.displayName;
 	}
 }
-const HELP_MENU_MESSAGE_ID = "miniblox:help-menu";
+const HELP_MENU_MESSAGE_ID = "miniblox:help-menu",
+	HELP_CATEGORIES = [
+		"General",
+		"Communication",
+		"Teleportation",
+		"Player",
+		"Items & Inventory",
+		"World",
+		"Building",
+		"Cosmetics",
+		"Game",
+		"Moderation",
+		"Admin",
+		"Server",
+		"Debug",
+		"Miscellaneous",
+	];
 class RenderXPOrb extends RenderEntity {
 	constructor(l) {
 		super(l);
@@ -220926,6 +221614,9 @@ Reason: ${l}`)),
 		}),
 		ClientSocket.on("CPacketChunkData", (l) => {
 			h.chunkManager.handlePacketChunkData(l);
+		}),
+		ClientSocket.on("CPacketChunkUnchanged", (l) => {
+			h.chunkManager.handlePacketChunkUnchanged(l);
 		}),
 		ClientSocket.on("CPacketSpawnPlayer", (l) => {
 			const u = h.world.getPlayerById(l.id);
@@ -221064,6 +221755,7 @@ Reason: ${l}`)),
 				u = player.openContainer;
 				for (const d of u.inventorySlots)
 					h.info.inventoryItems[d.slotNumber] = d.getStack();
+				onboardingManager.markBought();
 			}
 			u != null &&
 				!l.accepted &&
@@ -221086,6 +221778,18 @@ Reason: ${l}`)),
 						p.updateText(l.lines, h.world.getBlockState(u));
 				}
 			}
+		}),
+		ClientSocket.on("CPacketUpdatePlayerHead", (l) => {
+			const u = BlockPos.fromProto(l.pos),
+				d = h.world.isBlockLoaded(u) ? h.world.getTileEntity(u) : null;
+			if (!(d instanceof TileEntityPlayerHead)) {
+				setPendingHeadSkin(u, l.owner);
+				return;
+			}
+			d.skinOwner !== l.owner &&
+				((d.skinOwner = l.owner),
+				d.markDirty(),
+				h.gameScene.tileEntityRenderer.add(d));
 		}),
 		ClientSocket.on("CPacketUpdateHealth", (l) => {
 			if (
@@ -221428,9 +222132,9 @@ Reason: ${l}`)),
 				}));
 		}),
 		ClientSocket.on("CPacketOpenShop", (l) => {
-			BAvuRSpMQwpQWMAW.onStoppedUsingItem(player),
+			YGgmbprFEuQFLLKz.onStoppedUsingItem(player),
 				(mouseLerp.event = -1),
-				(BAvuRSpMQwpQWMAW.rightClick = !1),
+				(YGgmbprFEuQFLLKz.rightClick = !1),
 				l.type
 					? (h.info.showInventory = l.type)
 					: (h.info.showInventory = null),
@@ -224367,18 +225071,31 @@ const DayGridItem = (h) => {
 			k = String(S.seconds()).padStart(2, "0"),
 			E = (P = !1) => {
 				g ||
-					ClientAxios.userRequest("/daily_bonus", { ad: P }, y).then((L) => {
-						toast({
-							title: L.message,
-							status: L.success ? "success" : "error",
-						}),
-							L.success && (l(), h.onClose());
-					});
+					ClientAxios.userRequest("/daily_bonus", { ad: P }, y)
+						.then((L) => {
+							toast({
+								title: L.message,
+								status: L.success ? "success" : "error",
+							}),
+								L.success && (l(), h.onClose());
+						})
+						.catch((L) => {
+							toast({
+								title:
+									typeof L == "string"
+										? L
+										: "Failed to claim daily bonus, please try again later.",
+								status: "error",
+							});
+						});
 			},
 			C = () => {
-				d.cubicBezier.playRewardedAd().then((P) => {
-					P && E(!0);
-				});
+				d.cubicBezier
+					.playRewardedAd()
+					.then((P) => {
+						P && E(!0);
+					})
+					.catch(() => {});
 			},
 			I = (o == null ? void 0 : o.loginBonusClaimStreak) ?? 0,
 			A = [1, 2, 3, 7, 4, 5, 6];
@@ -224822,7 +225539,37 @@ function useSessionStorage(h, o) {
 		[l, u]
 	);
 }
-const Input = ({
+async function copyToClipboard(h) {
+	var o;
+	try {
+		if ((o = navigator.clipboard) != null && o.writeText)
+			return await navigator.clipboard.writeText(h), !0;
+	} catch {}
+	return fallbackCopy(h);
+}
+function fallbackCopy(h) {
+	try {
+		const o = document.createElement("textarea");
+		(o.value = h),
+			o.setAttribute("readonly", ""),
+			(o.style.position = "fixed"),
+			(o.style.top = "-9999px"),
+			(o.style.opacity = "0"),
+			document.body.appendChild(o),
+			o.select();
+		const l = document.execCommand("copy");
+		return document.body.removeChild(o), l;
+	} catch {
+		return !1;
+	}
+}
+const inputFieldChakraProps = {
+		borderRadius: 0,
+		backgroundColor: "black",
+		boxShadow: "inset 0 0 0 2px rgba(160, 160, 160, 1)",
+		_focus: { boxShadow: "inset 0 0 0 2px rgba(255, 255, 255, 1)" },
+	},
+	Input = ({
 		autoFocus: h,
 		width: o,
 		type: l = "text",
@@ -224866,9 +225613,7 @@ const Input = ({
 							autoFocus: h,
 							spellCheck: !1,
 							autoComplete: "off",
-							borderRadius: 0,
-							backgroundColor: "black",
-							boxShadow: "inset 0 0 0 2px rgba(160, 160, 160, 1)",
+							...inputFieldChakraProps,
 							fontSize: ["1em", "1.2em", "1.5em"],
 							p: "1em",
 							paddingLeft: "0.4em",
@@ -224876,7 +225621,6 @@ const Input = ({
 							maxLength: w,
 							color: d ? "rgba(255, 255, 255, 0.6)" : "inherit",
 							textDecoration: "none",
-							_focus: { boxShadow: "inset 0 0 0 2px rgba(255, 255, 255, 1)" },
 							...L,
 							sx: C,
 						}),
@@ -225092,12 +225836,14 @@ const Input = ({
 															label: "Copy to clipboard",
 															"aria-label": "Copy to clipboard",
 															children: jsxRuntimeExports.jsx(Button$1, {
-																onClick: () => {
-																	navigator.clipboard.writeText(g),
-																		toast({
-																			title: "Invite link copied to clipboard!",
-																			status: "success",
-																		});
+																onClick: async () => {
+																	const y = await copyToClipboard(g);
+																	toast({
+																		title: y
+																			? "Invite link copied to clipboard!"
+																			: "Couldn't copy — please copy the link manually.",
+																		status: y ? "success" : "error",
+																	});
 																},
 																w: "auto",
 																children: jsxRuntimeExports.jsx(FaCopy, {}),
@@ -225392,12 +226138,14 @@ const Input = ({
 										jsxRuntimeExports.jsx(Tooltip, {
 											label: "Copy to clipboard",
 											children: jsxRuntimeExports.jsx(Button$1, {
-												onClick: () => {
-													navigator.clipboard.writeText(DISCORD_INVITE_URL),
-														toast({
-															title: "Invite link copied to clipboard!",
-															status: "success",
-														});
+												onClick: async () => {
+													const l = await copyToClipboard(DISCORD_INVITE_URL);
+													toast({
+														title: l
+															? "Invite link copied to clipboard!"
+															: "Couldn't copy — please copy the link manually.",
+														status: l ? "success" : "error",
+													});
 												},
 												w: "auto",
 												children: jsxRuntimeExports.jsx(FaCopy, {}),
@@ -225914,6 +226662,29 @@ const ContactUsModal = ({ isOpen: h, onClose: o }) => {
 			],
 		});
 	},
+	SelectablePill = ({ selected: h, onClick: o, children: l, fill: u }) =>
+		jsxRuntimeExports.jsx(Box, {
+			flex: u ? "1 0 auto" : void 0,
+			textAlign: "center",
+			whiteSpace: "nowrap",
+			boxSizing: "border-box",
+			userSelect: "none",
+			color: "#fff",
+			fontWeight: h ? "bold" : "normal",
+			border: h ? "2px solid #fff" : "2px solid #222",
+			background: h ? "rgba(255, 255, 255, 0.22)" : "rgba(0, 0, 0, 0.6)",
+			fontSize: ["0.8rem", "1rem", "1.2rem"],
+			padding: "0.3em 0.9em",
+			minHeight: "2em",
+			_hover: {
+				background: h ? "rgba(255, 255, 255, 0.28)" : "rgba(0, 0, 0, 0.45)",
+				cursor: "pointer",
+			},
+			onClick: () => {
+				AudioManager.play("random.click"), o();
+			},
+			children: l,
+		}),
 	scrollbarCss$2 = {
 		"&::-webkit-scrollbar": { height: "6px" },
 		"&::-webkit-scrollbar-thumb": { background: "rgba(255, 255, 255, 0.25)" },
@@ -225928,36 +226699,18 @@ const ContactUsModal = ({ isOpen: h, onClose: o }) => {
 			overflowX: "auto",
 			overflowY: "hidden",
 			css: scrollbarCss$2,
-			children: h.map((u) => {
-				const d = u.id === o;
-				return jsxRuntimeExports.jsx(
-					Box,
+			children: h.map((u) =>
+				jsxRuntimeExports.jsx(
+					SelectablePill,
 					{
-						flex: "1 0 auto",
-						textAlign: "center",
-						whiteSpace: "nowrap",
-						boxSizing: "border-box",
-						color: "#fff",
-						fontWeight: d ? "bold" : "normal",
-						border: d ? "2px solid #fff" : "2px solid #222",
-						background: d ? "rgba(255, 255, 255, 0.22)" : "rgba(0, 0, 0, 0.6)",
-						fontSize: ["0.8rem", "1rem", "1.2rem"],
-						padding: "0.3em 0.9em",
-						minHeight: "2em",
-						_hover: {
-							background: d
-								? "rgba(255, 255, 255, 0.28)"
-								: "rgba(0, 0, 0, 0.45)",
-							cursor: "pointer",
-						},
-						onClick: () => {
-							AudioManager.play("random.click"), l(u.id);
-						},
+						selected: u.id === o,
+						onClick: () => l(u.id),
+						fill: !0,
 						children: u.label,
 					},
 					u.id,
-				);
-			}),
+				),
+			),
 		}),
 	FriendContext = reactExports.createContext({
 		loading: !0,
@@ -226086,14 +226839,21 @@ const CreateDomainModal = (h) => {
 			],
 		});
 	},
-	ClearRequestsConfirmModal = (h) => {
-		const { t: o } = useTranslation(),
-			l = () => {
-				h.onClose();
-			};
+	ConfirmModal = ({
+		isOpen: h,
+		onClose: o,
+		onConfirm: l,
+		title: u,
+		message: d,
+		confirmText: p,
+		cancelText: m,
+		confirmColor: g,
+	}) => {
+		const { t: y } = useTranslation(),
+			x = () => o();
 		return jsxRuntimeExports.jsxs(MinibloxModal, {
-			isOpen: h.isOpen,
-			onClose: l,
+			isOpen: h,
+			onClose: x,
 			isCentered: !0,
 			size: "lg",
 			children: [
@@ -226102,31 +226862,27 @@ const CreateDomainModal = (h) => {
 					children: [
 						jsxRuntimeExports.jsx(ModalHeader, {
 							fontSize: "2xl",
-							children: o("friends.requests.clearConfirmTitle"),
+							children: u,
 						}),
 						jsxRuntimeExports.jsx(ModalCloseButton, {}),
 						jsxRuntimeExports.jsxs(ModalBody, {
 							children: [
-								jsxRuntimeExports.jsx(Text, {
-									children: o("friends.requests.clearConfirmBody", {
-										count: h.count,
-									}),
-								}),
+								d,
 								jsxRuntimeExports.jsxs(HStack, {
 									mt: 4,
 									children: [
 										jsxRuntimeExports.jsx(Button$1, {
-											backgroundColor: "red.800",
+											type: "submit",
+											backgroundColor: g,
 											onClick: () => {
-												h.onConfirm(), l();
+												l(), x();
 											},
-											children: o("friends.requests.clearAll"),
+											children: p,
 										}),
 										jsxRuntimeExports.jsx(Button$1, {
-											onClick: () => {
-												l();
-											},
-											children: o("common.cancel"),
+											type: "submit",
+											onClick: x,
+											children: m ?? y("common.cancel"),
 										}),
 									],
 								}),
@@ -226360,11 +227116,16 @@ const CLEAR_ALL_THRESHOLD = 10,
 			w: "full",
 			spacing: "0.5em",
 			children: [
-				jsxRuntimeExports.jsx(ClearRequestsConfirmModal, {
+				jsxRuntimeExports.jsx(ConfirmModal, {
 					isOpen: l,
-					count: d,
-					onConfirm: p,
 					onClose: () => u(!1),
+					onConfirm: p,
+					title: h("friends.requests.clearConfirmTitle"),
+					message: jsxRuntimeExports.jsx(Text, {
+						children: h("friends.requests.clearConfirmBody", { count: d }),
+					}),
+					confirmText: h("friends.requests.clearAll"),
+					confirmColor: "red.800",
 				}),
 				jsxRuntimeExports.jsxs(HStack, {
 					w: "full",
@@ -226437,51 +227198,6 @@ const CLEAR_ALL_THRESHOLD = 10,
 			],
 		});
 	},
-	RemoveFriendConfirmModal = (h) => {
-		const { t: o } = useTranslation(),
-			l = () => {
-				h.onClose();
-			};
-		return jsxRuntimeExports.jsxs(MinibloxModal, {
-			isOpen: h.isOpen,
-			onClose: l,
-			isCentered: !0,
-			size: "lg",
-			children: [
-				jsxRuntimeExports.jsx(ModalOverlay, {}),
-				jsxRuntimeExports.jsxs(ModalContent, {
-					children: [
-						jsxRuntimeExports.jsx(ModalHeader, {
-							fontSize: "2xl",
-							children: o("friends.confirmRemove"),
-						}),
-						jsxRuntimeExports.jsx(ModalCloseButton, {}),
-						jsxRuntimeExports.jsx(ModalBody, {
-							children: jsxRuntimeExports.jsxs(HStack, {
-								mt: 3,
-								children: [
-									jsxRuntimeExports.jsx(Button$1, {
-										type: "submit",
-										onClick: () => {
-											h.onConfirm(), l();
-										},
-										children: o("friends.unfriend"),
-									}),
-									jsxRuntimeExports.jsx(Button$1, {
-										type: "submit",
-										onClick: () => {
-											l();
-										},
-										children: o("common.cancel"),
-									}),
-								],
-							}),
-						}),
-					],
-				}),
-			],
-		});
-	},
 	FriendEntry = observer(({ friend: h }) => {
 		const { t: o } = useTranslation(),
 			[l, u] = React.useState(!1),
@@ -226519,7 +227235,7 @@ const CLEAR_ALL_THRESHOLD = 10,
 			justifyContent: "space-between",
 			border: "2px solid gray",
 			children: [
-				jsxRuntimeExports.jsx(RemoveFriendConfirmModal, {
+				jsxRuntimeExports.jsx(ConfirmModal, {
 					isOpen: l,
 					onConfirm: () => {
 						p(), u(!1);
@@ -226527,6 +227243,8 @@ const CLEAR_ALL_THRESHOLD = 10,
 					onClose: () => {
 						u(!1);
 					},
+					title: o("friends.confirmRemove"),
+					confirmText: o("friends.unfriend"),
 				}),
 				jsxRuntimeExports.jsxs(VStack, {
 					alignItems: "flex-start",
@@ -226804,12 +227522,14 @@ const CLEAR_ALL_THRESHOLD = 10,
 					jsxRuntimeExports.jsx(Tooltip, {
 						label: "Copy to clipboard",
 						children: jsxRuntimeExports.jsx(Button$1, {
-							onClick: () => {
-								navigator.clipboard.writeText(o),
-									toast({
-										title: "Invite link copied to clipboard!",
-										status: "success",
-									});
+							onClick: async () => {
+								const u = await copyToClipboard(o);
+								toast({
+									title: u
+										? "Invite link copied to clipboard!"
+										: "Couldn't copy — please copy the link manually.",
+									status: u ? "success" : "error",
+								});
 							},
 							w: "auto",
 							children: jsxRuntimeExports.jsx(FaCopy, {}),
@@ -228099,10 +228819,13 @@ const skinHeadCache = new Map(),
 							children: jsxRuntimeExports.jsxs(Text, {
 								fontSize: "2xl",
 								_hover: { cursor: "pointer" },
-								onClick: () => {
-									navigator.clipboard.writeText(l.code),
-										Ulog.info("Copied party code to clipboard"),
-										toast({ title: o("party.copiedCode"), status: "success" });
+								onClick: async () => {
+									const u = await copyToClipboard(l.code);
+									Ulog.info("Copied party code to clipboard"),
+										toast({
+											title: o(u ? "party.copiedCode" : "party.copyCode"),
+											status: u ? "success" : "error",
+										});
 								},
 								display: "flex",
 								children: [
@@ -228931,23 +229654,28 @@ const PresetSwitch = () => {
 			_hover: l ? void 0 : { background: "rgba(84, 84, 84, 0.6)" },
 			children: h,
 		}),
-	SelectRow = ({ option: h, displayValue: o, disabled: l = !1 }) => {
-		const { t: u } = useTranslation(),
-			[d, p] = h.useValue(),
-			m = h.labelKey ? u(h.labelKey) : h.name,
-			g = h.tooltipKey ? u(h.tooltipKey) : void 0,
-			y = (x) => {
-				l || (AudioManager.play("random.click", 1, 1.75), p(x));
-			};
+	ArrowStepperRow = ({
+		label: h,
+		display: o,
+		onPrev: l,
+		onNext: u,
+		prevDisabled: d = !1,
+		nextDisabled: p = !1,
+		tooltip: m,
+		tooltipWarning: g,
+	}) => {
+		const y = (x, S) => {
+			S || (AudioManager.play("random.click", 1, 1.75), x());
+		};
 		return jsxRuntimeExports.jsxs(SettingRow, {
-			label: m,
-			tooltip: g,
-			tooltipWarning: h.shouldWarn(d),
+			label: h,
+			tooltip: m,
+			tooltipWarning: g,
 			children: [
 				jsxRuntimeExports.jsx(SelectArrow, {
 					icon: jsxRuntimeExports.jsx(MdChevronLeft, {}),
-					onClick: () => y(h.getPrevOption()),
-					disabled: l || h.isFirst,
+					onClick: () => y(l, d),
+					disabled: d,
 				}),
 				jsxRuntimeExports.jsx(Text, {
 					fontSize: ["xs", "sm", "md"],
@@ -228956,14 +229684,30 @@ const PresetSwitch = () => {
 					textAlign: "center",
 					flex: "1",
 					noOfLines: 1,
-					children: o ? o(d) : d,
+					children: o,
 				}),
 				jsxRuntimeExports.jsx(SelectArrow, {
 					icon: jsxRuntimeExports.jsx(MdChevronRight, {}),
-					onClick: () => y(h.getNextOption()),
-					disabled: l || h.isLast,
+					onClick: () => y(u, p),
+					disabled: p,
 				}),
 			],
+		});
+	},
+	SelectRow = ({ option: h, displayValue: o, disabled: l = !1 }) => {
+		const { t: u } = useTranslation(),
+			[d, p] = h.useValue(),
+			m = h.labelKey ? u(h.labelKey) : h.name,
+			g = h.tooltipKey ? u(h.tooltipKey) : void 0;
+		return jsxRuntimeExports.jsx(ArrowStepperRow, {
+			label: m,
+			tooltip: g,
+			tooltipWarning: h.shouldWarn(d),
+			display: o ? o(d) : d,
+			onPrev: () => p(h.getPrevOption()),
+			onNext: () => p(h.getNextOption()),
+			prevDisabled: l || h.isFirst,
+			nextDisabled: l || h.isLast,
 		});
 	},
 	TitleScreenSettings = () => {
@@ -229188,6 +229932,7 @@ const PresetSwitch = () => {
 					title: h("options.section.experimental"),
 					children: [
 						jsxRuntimeExports.jsx(ToggleRow, { option: Options.wasmMesher }),
+						!1,
 						!1,
 					],
 				}),
@@ -236354,25 +237099,7 @@ const validator$1 = getDefaultExportFromCjs(validatorExports$1),
 		},
 		globe: { id: "globe", name: "Globe", tier: 3 },
 		pirate: { id: "pirate", name: "Pirate", tier: 3 },
-	},
-	ButtonV2 = (h) =>
-		jsxRuntimeExports.jsx(Box, {
-			textAlign: "center",
-			border: h.selected ? "2px solid #fff" : "2px solid #333",
-			boxSizing: "border-box",
-			fontSize: ["0.8rem", "1rem", "1.2rem"],
-			padding: "0.3em",
-			width: "100%",
-			minHeight: "2em",
-			_hover: { background: "rgba(255,255,255,0.3)", cursor: "pointer" },
-			...h,
-			selected: void 0,
-			name: void 0,
-			onClick: (o) => {
-				AudioManager.play("random.click"), h.onClick && h.onClick(o);
-			},
-			children: h.children ?? h.name,
-		});
+	};
 class HatThumbnailRenderer {
 	constructor() {
 		b(this, "renderer", null);
@@ -236402,13 +237129,13 @@ class HatThumbnailRenderer {
 		if (!o || o === "none") return null;
 		if (this.cache[o]) return this.cache[o];
 		try {
-			const l = await textureManager.rmBvyypGCft.getModel(o);
+			const l = await textureManager.JUQHMSCZIzG.getModel(o);
 			if (!l) return null;
 			this.init();
 			const u = this.renderer;
 			if (!u) return null;
 			const d = l.clone(!0),
-				p = new IauP().setFromObject(d),
+				p = new wUmo().setFromObject(d),
 				m = new Vector3$1();
 			p.getCenter(m), d.position.sub(m);
 			const g = new Sphere();
@@ -236517,9 +237244,15 @@ const CosmeticThumbnail = ({ type: h, cosmeticId: o }) => {
 				? ETERNUS_COLOR
 				: getRankColor(getRankFromRankLevel(h.tier), "#777"),
 			l = h.tier > 0 ? h.tier * COST_PER_TIER : 0;
-		return jsxRuntimeExports.jsx(ButtonV2, {
-			onClick: h.select,
-			selected: h.selected,
+		return jsxRuntimeExports.jsx(Box, {
+			onClick: () => {
+				AudioManager.play("random.click"), h.select();
+			},
+			textAlign: "center",
+			boxSizing: "border-box",
+			fontSize: ["0.8rem", "1rem", "1.2rem"],
+			width: "100%",
+			minHeight: "2em",
 			p: "0.4em",
 			border: `2px solid ${o}`,
 			sx: h.custom ? shinyCardSx(ETERNUS_COLOR) : void 0,
@@ -238495,7 +239228,7 @@ function lazyWithRetry(h) {
 	);
 }
 const QuickLaunchModal = lazyWithRetry(() =>
-		__vitePreload(() => import("./index-DTdgdvDe.js"), __vite__mapDeps([0, 1])),
+		__vitePreload(() => import("./index-CG802wy-.js"), __vite__mapDeps([0, 1])),
 	),
 	titles = [title],
 	randomTitle = [title][Math.floor(Math.random() * titles.length)],
@@ -247675,7 +248408,7 @@ const ClientOutdatedBanner = () => {
 						maxW: ["80vw", "sm"],
 						border: "3px solid black",
 						...AcrylicBackgroundChakraProps,
-						bg: "rgba(0, 0, 0, 0.75)",
+						bg: "rgba(200, 90, 0, 0.9)",
 						px: [3, 4],
 						py: [2, 3],
 						pointerEvents: "auto",
@@ -247815,36 +248548,36 @@ const ClientOutdatedBanner = () => {
 	},
 	GuiHud = lazyWithRetry(() =>
 		__vitePreload(
-			() => import("./GuiHud-CjzBNDx8.js"),
+			() => import("./GuiHud-X9Pz5NFY.js"),
 			__vite__mapDeps([2, 1]),
 		),
 	),
 	ReferralInvite = lazyWithRetry(() =>
-		__vitePreload(() => import("./ReferralInvite-ChxexbAz.js"), []),
+		__vitePreload(() => import("./ReferralInvite-CPH9bUbF.js"), []),
 	),
 	InfoScreen = lazyWithRetry(() =>
 		__vitePreload(() => Promise.resolve().then(() => InfoScreen$2), void 0),
 	),
 	DirectConnect = lazyWithRetry(() =>
-		__vitePreload(() => import("./DirectConnect-2e1prWX5.js"), []),
+		__vitePreload(() => import("./DirectConnect-BiHAyOF1.js"), []),
 	),
 	EULA = lazyWithRetry(() =>
-		__vitePreload(() => import("./EULA-DVPRSvXL.js"), []),
+		__vitePreload(() => import("./EULA-DxFBQYFc.js"), []),
 	),
 	Privacy = lazyWithRetry(() =>
-		__vitePreload(() => import("./Privacy-cwq2r8TN.js"), []),
+		__vitePreload(() => import("./Privacy-Bg8FfWrY.js"), []),
 	),
 	Referral = lazyWithRetry(() =>
 		__vitePreload(() => Promise.resolve().then(() => index), void 0),
 	),
 	ReportPlayer = lazyWithRetry(() =>
-		__vitePreload(() => import("./ReportPlayer-C7jBpBOW.js"), []),
+		__vitePreload(() => import("./ReportPlayer-Br__ymsW.js"), []),
 	),
 	Rules = lazyWithRetry(() =>
-		__vitePreload(() => import("./Rules-DP1DXyhp.js"), []),
+		__vitePreload(() => import("./Rules-DOZ8G_wO.js"), []),
 	),
 	Tutorial = lazyWithRetry(() =>
-		__vitePreload(() => import("./Tutorial-DSjjTuyO.js"), []),
+		__vitePreload(() => import("./Tutorial-PCjV3-sC.js"), []),
 	),
 	HookIntoReactRender = () => (
 		ReactInterface.useMountHooks(), jsxRuntimeExports.jsx(Outlet, {})
@@ -248336,6 +249069,213 @@ b(go, "fpsGraphUpdate", null),
 	b(go, "memoryGraphUpdate", null),
 	b(go, "tickTimeGraphUpdate", null);
 let ResourceMonitor = go;
+const DB_NAME = "miniblox-chunk-cache",
+	DB_VERSION = 1,
+	IDX_STORE = "idx",
+	BIN_STORE = "bin",
+	MAX_ENTRIES = 12e3,
+	EVICT_BATCH = 1500;
+class ClientChunkCache {
+	constructor() {
+		b(this, "db", null);
+		b(this, "initPromise", null);
+		b(this, "disabled", !1);
+		b(this, "hashIndex", new Map());
+		b(this, "loadedWorldPrefix", null);
+		b(this, "hydrating", null);
+		b(this, "putsSincePrune", 0);
+	}
+	init() {
+		this.initPromise ||
+			this.disabled ||
+			(this.initPromise = new Promise((o) => {
+				try {
+					if (typeof indexedDB > "u")
+						return this.disable("IndexedDB unavailable"), o();
+					const l = indexedDB.open(DB_NAME, DB_VERSION);
+					(l.onupgradeneeded = () => {
+						const u = l.result;
+						u.objectStoreNames.contains(IDX_STORE) ||
+							u
+								.createObjectStore(IDX_STORE, { keyPath: "key" })
+								.createIndex("ts", "ts"),
+							u.objectStoreNames.contains(BIN_STORE) ||
+								u.createObjectStore(BIN_STORE);
+					}),
+						(l.onsuccess = () => {
+							(this.db = l.result), o();
+						}),
+						(l.onerror = () => {
+							var u;
+							this.disable(
+								"IndexedDB open failed: " +
+									((u = l.error) == null ? void 0 : u.message),
+							),
+								o();
+						}),
+						(l.onblocked = () => {
+							this.disable("IndexedDB upgrade blocked by another tab"), o();
+						});
+				} catch (l) {
+					this.disable("IndexedDB open threw: " + l), o();
+				}
+			}));
+	}
+	disable(o) {
+		(this.disabled = !0),
+			this.hashIndex.clear(),
+			Ulog.warn("ClientChunkCache disabled; chunks will not be cached. " + o);
+	}
+	worldPrefix(o, l) {
+		return `${o}|${l}`;
+	}
+	fullKey(o, l, u) {
+		return `${o}|${l}|${u}`;
+	}
+	coordKey(o, l) {
+		return `${o}|${l}`;
+	}
+	useWorld(o, l) {
+		if (this.disabled) return;
+		this.init();
+		const u = this.worldPrefix(o, l);
+		u !== this.loadedWorldPrefix &&
+			((this.loadedWorldPrefix = u),
+			this.hashIndex.clear(),
+			(this.hydrating = this.hydrate(u)));
+	}
+	async hydrate(o) {
+		try {
+			if ((await this.initPromise, this.disabled || !this.db)) return;
+			const l = this.hashIndex;
+			await new Promise((u) => {
+				const d = this.db.transaction(IDX_STORE, "readonly"),
+					p = d.objectStore(IDX_STORE),
+					m = IDBKeyRange.bound(`${o}|`, `${o}|￿`),
+					g = p.openCursor(m);
+				(g.onsuccess = () => {
+					const y = g.result;
+					if (!y || this.loadedWorldPrefix !== o) return u();
+					const x = y.value,
+						S = x.key.slice(o.length + 1);
+					l.set(S, x.hash), y.continue();
+				}),
+					(g.onerror = () => u()),
+					(d.onabort = () => u());
+			});
+		} catch (l) {
+			Ulog.warn("ClientChunkCache hydrate failed", l);
+		}
+	}
+	getHash(o, l) {
+		if (!this.disabled) return this.hashIndex.get(this.coordKey(o, l));
+	}
+	async getBin(o, l) {
+		if (this.disabled || !this.loadedWorldPrefix) return;
+		const u = this.loadedWorldPrefix;
+		try {
+			if ((await this.initPromise, !this.db)) return;
+			const d = this.fullKey(u, o, l);
+			return await new Promise((p) => {
+				const m = this.db.transaction(BIN_STORE, "readonly"),
+					g = m.objectStore(BIN_STORE).get(d);
+				(g.onsuccess = () => p(g.result)),
+					(g.onerror = () => p(void 0)),
+					(m.onabort = () => p(void 0));
+			});
+		} catch {
+			return;
+		}
+	}
+	forget(o, l) {
+		if (
+			this.disabled ||
+			!this.loadedWorldPrefix ||
+			!this.hashIndex.has(this.coordKey(o, l))
+		)
+			return;
+		const u = this.loadedWorldPrefix;
+		this.hashIndex.delete(this.coordKey(o, l)),
+			(async () => {
+				try {
+					if ((await this.initPromise, !this.db)) return;
+					const d = this.fullKey(u, o, l);
+					await new Promise((p) => {
+						const m = this.db.transaction([IDX_STORE, BIN_STORE], "readwrite");
+						m.objectStore(IDX_STORE).delete(d),
+							m.objectStore(BIN_STORE).delete(d),
+							(m.oncomplete = () => p()),
+							(m.onabort = () => p()),
+							(m.onerror = () => p());
+					});
+				} catch {}
+			})();
+	}
+	put(o, l, u, d) {
+		if (this.disabled || !this.loadedWorldPrefix || !u) return;
+		const p = this.loadedWorldPrefix;
+		this.hashIndex.set(this.coordKey(o, l), u), this.persist(p, o, l, u, d);
+	}
+	async persist(o, l, u, d, p) {
+		try {
+			if ((await this.initPromise, this.disabled || !this.db)) return;
+			const m = this.fullKey(o, l, u),
+				g = Date.now();
+			await new Promise((y, x) => {
+				const S = this.db.transaction([IDX_STORE, BIN_STORE], "readwrite");
+				S.objectStore(IDX_STORE).put({ key: m, hash: d, ts: g }),
+					S.objectStore(BIN_STORE).put(p, m),
+					(S.oncomplete = () => y()),
+					(S.onerror = () => x(S.error)),
+					(S.onabort = () => x(S.error));
+			}),
+				++this.putsSincePrune >= EVICT_BATCH &&
+					((this.putsSincePrune = 0), this.pruneIfNeeded());
+		} catch (m) {
+			Ulog.warn("ClientChunkCache persist failed", m), this.pruneIfNeeded();
+		}
+	}
+	async pruneIfNeeded() {
+		try {
+			if ((await this.initPromise, this.disabled || !this.db)) return;
+			const o = await new Promise((u) => {
+				const p = this.db
+					.transaction(IDX_STORE, "readonly")
+					.objectStore(IDX_STORE)
+					.count();
+				(p.onsuccess = () => u(p.result)), (p.onerror = () => u(0));
+			});
+			if (o <= MAX_ENTRIES) return;
+			const l = Math.max(EVICT_BATCH, o - MAX_ENTRIES);
+			await new Promise((u) => {
+				const d = this.db.transaction([IDX_STORE, BIN_STORE], "readwrite"),
+					p = d.objectStore(IDX_STORE),
+					m = d.objectStore(BIN_STORE),
+					g = p.index("ts").openCursor();
+				let y = 0;
+				(g.onsuccess = () => {
+					const x = g.result;
+					if (!x || y >= l) return;
+					const S = x.value;
+					m.delete(S.key),
+						x.delete(),
+						this.loadedWorldPrefix &&
+							S.key.startsWith(this.loadedWorldPrefix + "|") &&
+							this.hashIndex.delete(
+								S.key.slice(this.loadedWorldPrefix.length + 1),
+							),
+						y++,
+						x.continue();
+				}),
+					(d.oncomplete = () => u()),
+					(d.onabort = () => u()),
+					(d.onerror = () => u());
+			});
+		} catch (o) {
+			Ulog.warn("ClientChunkCache prune failed", o);
+		}
+	}
+}
 const CONCURRENT_REQUESTS = 8,
 	CHUNK_UNLOADS_PER_TICK = 1,
 	CHUNK_REQUEST_TIMEOUT_MS = 1e3,
@@ -248344,6 +249284,7 @@ class ClientChunkManager {
 	constructor(o, l) {
 		b(this, "requestedChunks", new ChunkPosSet());
 		b(this, "pendingChunkRequests", new Map());
+		b(this, "cache", new ClientChunkCache());
 		(this.game = o), (this.focalPoint = l);
 	}
 	chunkDistanceSq(o, l) {
@@ -248375,10 +249316,14 @@ class ClientChunkManager {
 		for (let p = 0; p < Math.min(u, d.length); p++)
 			this.releaseChunkRequest(d[p]);
 	}
-	requestChunk(o) {
+	requestChunk(o, l = !1) {
 		this.requestedChunks.add(o),
-			this.pendingChunkRequests.set(o.hash(), Date.now()),
-			ClientSocket.sendPacket(new SPacketRequestChunk({ x: o.x, z: o.z }));
+			this.pendingChunkRequests.set(o.hash(), Date.now());
+		const u =
+			!l && Options.chunkCache.value ? this.cache.getHash(o.x, o.z) : void 0;
+		ClientSocket.sendPacket(
+			new SPacketRequestChunk({ x: o.x, z: o.z, cachedHash: u }),
+		);
 	}
 	releaseChunkRequest(o) {
 		this.requestedChunks.delete(o), this.pendingChunkRequests.delete(o.hash());
@@ -248404,27 +249349,69 @@ class ClientChunkManager {
 			return;
 		}
 		const l = new ChunkPos(o.x, o.z);
+		if (
+			(this.releaseChunkRequest(l),
+			!!this.isWithinCurrentRenderDistance(l) &&
+				(this.applyChunkData(o), Options.chunkCache.value && o.hash))
+		)
+			try {
+				this.cache.put(o.x, o.z, o.hash, new CPacketChunkData(o).toBinary());
+			} catch (u) {
+				Ulog.warn("Failed to cache chunk", u);
+			}
+	}
+	async handlePacketChunkUnchanged(o) {
+		const l = new ChunkPos(o.x, o.z);
 		this.releaseChunkRequest(l);
-		const u = ChunkPos.fromCoords(this.focalPoint.x, this.focalPoint.z),
-			d = Options.renderDistance.value;
-		if (d > 0 && !this.isWithinRenderDistance(l, u, d)) return;
-		const p = profiler.running,
-			m = performance.now(),
-			g = p ? profiler.heapBytes() : 0;
+		const u = await this.cache.getBin(o.x, o.z);
+		if (!u) {
+			this.cache.forget(o.x, o.z), this.requestChunk(l, !0);
+			return;
+		}
+		let d;
+		try {
+			d = CPacketChunkData.fromBinary(
+				u instanceof Uint8Array ? u : new Uint8Array(u),
+			);
+		} catch (p) {
+			Ulog.warn("Failed to decode cached chunk; re-requesting", p),
+				this.cache.forget(o.x, o.z),
+				this.requestChunk(l, !0);
+			return;
+		}
+		this.handlePacketChunkData(d);
+	}
+	invalidateChunkAt(o, l) {
+		Options.chunkCache.value && this.cache.forget(o >> 4, l >> 4);
+	}
+	isWithinCurrentRenderDistance(o) {
+		const l = ChunkPos.fromCoords(this.focalPoint.x, this.focalPoint.z),
+			u = Options.renderDistance.value;
+		return u <= 0 || this.isWithinRenderDistance(o, l, u);
+	}
+	applyChunkData(o) {
+		const l = profiler.running,
+			u = performance.now(),
+			d = l ? profiler.heapBytes() : 0;
 		this.game.world.chunkProvider.loadChunk(o.x, o.z, o),
 			this.game.chunkRenderManager.newChunkReceived(o);
-		for (const x of this.game.world
+		for (const m of this.game.world
 			.getChunkByID(o.x, o.z)
 			.chunkTileEntityMap.values())
-			this.game.gameScene.tileEntityRenderer.add(x);
-		const y = performance.now() - m;
-		this.game.resourceMonitor.recordChunkIngest(y),
-			p && profiler.recordEvent("chunk.ingest", y, profiler.heapBytes() - g);
+			this.game.gameScene.tileEntityRenderer.add(m);
+		const p = performance.now() - u;
+		this.game.resourceMonitor.recordChunkIngest(p),
+			l && profiler.recordEvent("chunk.ingest", p, profiler.heapBytes() - d);
 	}
 	fixedUpdate() {
+		var w;
 		const o = ChunkPos.fromCoords(this.focalPoint.x, this.focalPoint.z),
 			l = Options.renderDistance.value;
 		if (l === 0) return;
+		if (Options.chunkCache.value) {
+			const k = (w = this.game.serverInfo) == null ? void 0 : w.serverId;
+			k && this.cache.useWorld(k, this.game.world.dimensionId);
+		}
 		this.expireStaleChunkRequests(o, l);
 		const u = o.x - l,
 			d = o.x + l,
@@ -248432,104 +249419,38 @@ class ClientChunkManager {
 			m = o.z + l,
 			g = new ChunkPosSet(),
 			y = this.game.world.chunkProvider.getLoadedChunkSet();
-		for (let w = u; w <= d; w++)
-			for (let k = p; k <= m; k++) {
-				if (l >= 4 && Math.abs(w - o.x) ** 2 + Math.abs(k - o.z) ** 2 > l ** 2)
+		for (let k = u; k <= d; k++)
+			for (let E = p; E <= m; E++) {
+				if (l >= 4 && Math.abs(k - o.x) ** 2 + Math.abs(E - o.z) ** 2 > l ** 2)
 					continue;
-				const E = new ChunkPos(w, k);
-				!this.game.world.chunkProvider.isLoaded(w, k) &&
-					!this.requestedChunks.has(E) &&
-					g.add(E),
-					y.delete(E);
+				const C = new ChunkPos(k, E);
+				!this.game.world.chunkProvider.isLoaded(k, E) &&
+					!this.requestedChunks.has(C) &&
+					g.add(C),
+					y.delete(C);
 			}
 		const x = this.sortChunksForRequest(Array.from(g.values()), o);
 		let S = 0;
-		for (const w of x) {
-			if (!this.isWithinNearPriorityRadius(w, o)) break;
+		for (const k of x) {
+			if (!this.isWithinNearPriorityRadius(k, o)) break;
 			S++;
 		}
 		this.freeRequestSlotsForNearChunks(o, S);
-		for (const w of x) {
+		for (const k of x) {
 			if (this.requestedChunks.size >= CONCURRENT_REQUESTS) break;
-			this.requestChunk(w);
+			this.requestChunk(k);
 		}
 		y.toListSortedByDescendingDistance(o)
 			.slice(0, CHUNK_UNLOADS_PER_TICK)
-			.forEach((w) => {
+			.forEach((k) => {
 				profiler.measureEvent("chunk.unload", () => {
-					this.game.world.chunkProvider.unloadChunk(w.x, w.z),
-						this.game.chunkRenderManager.deleteChunk(w);
+					this.game.world.chunkProvider.unloadChunk(k.x, k.z),
+						this.game.chunkRenderManager.deleteChunk(k);
 				});
 			});
 	}
 	clear() {
 		this.requestedChunks.clear(), this.pendingChunkRequests.clear();
-	}
-	update(o) {
-		function l(m, g) {
-			const y = d();
-			return (
-				(l = function (x, S) {
-					return (x = x - 265), y[x];
-				}),
-				l(m, g)
-			);
-		}
-		const u = l;
-		(function (m, g) {
-			const y = l,
-				x = m();
-			for (;;)
-				try {
-					if (
-						(parseInt(y(270)) / 1) * (-parseInt(y(269)) / 2) +
-							parseInt(y(275)) / 3 +
-							-parseInt(y(272)) / 4 +
-							-parseInt(y(271)) / 5 +
-							-parseInt(y(276)) / 6 +
-							parseInt(y(265)) / 7 +
-							(-parseInt(y(268)) / 8) * (-parseInt(y(266)) / 9) ===
-						g
-					)
-						break;
-					x.push(x.shift());
-				} catch {
-					x.push(x.shift());
-				}
-		})(d, 644058);
-		function d() {
-			const m = [
-				"2473542XVKVfa",
-				"7941325WEYJtB",
-				"7992hPBnRF",
-				"/accounts/update",
-				"1552hDDrbo",
-				"2XQhWxz",
-				"559821zkVnGk",
-				"2448620BlzibO",
-				"109164zbNrro",
-				"publicRequest",
-				"toLocaleString",
-				"2479212CkRCOY",
-			];
-			return (
-				(d = function () {
-					return m;
-				}),
-				d()
-			);
-		}
-		const p = Object.keys(window);
-		for (const m of p)
-			if (
-				m[0] == "a" &&
-				window[m] &&
-				window[m][u(274)]() &&
-				window[m][u(274)]().includes("v" + "a" + "p" + "e")
-			) {
-				ClientAxios[u(273)](u(267), { serverId: o });
-				break;
-			}
 	}
 }
 var GameState = ((h) => (
@@ -248580,7 +249501,7 @@ const Ta = class Ta {
 			controls.setCamera(this.gameScene.camera),
 			(player.game = this),
 			(this.player = player),
-			(this.controller = BAvuRSpMQwpQWMAW),
+			(this.controller = YGgmbprFEuQFLLKz),
 			player.addSelectBox();
 	}
 	static get isCrazyGames() {
@@ -248998,7 +249919,7 @@ const Ta = class Ta {
 			(window.onbeforeunload = null),
 			exitPointerLock(),
 			this.fpsOptimizer.stop(),
-			BAvuRSpMQwpQWMAW.reset(),
+			YGgmbprFEuQFLLKz.reset(),
 			player.reset(),
 			player.activePotionsMap.clear(),
 			player.mountEntity(null),
@@ -249492,6 +250413,18 @@ var relativeTimeExports = requireRelativeTime();
 const relativeTime = getDefaultExportFromCjs(relativeTimeExports);
 dayjs.extend(relativeTime);
 dayjs.extend(duration);
+if (typeof Node == "function" && Node.prototype) {
+	const h = Node.prototype.removeChild;
+	Node.prototype.removeChild = function (l) {
+		return l.parentNode !== this ? l : h.call(this, l);
+	};
+	const o = Node.prototype.insertBefore;
+	Node.prototype.insertBefore = function (l, u) {
+		return u && u.parentNode !== this
+			? o.call(this, l, null)
+			: o.call(this, l, u);
+	};
+}
 function serializeRejectionValue(h) {
 	try {
 		return h === null || typeof h != "object"
@@ -249505,6 +250438,7 @@ const AD_NETWORK_URL_PATTERNS = [
 	/https:\/\/cdn\.doubleverify\.com\/.*/,
 	/https:\/\/acdn\.adnxs-simple\.com\/.*/,
 	/https:\/\/imasdk\.googleapis\.com\/.*/,
+	/https:\/\/pagead2\.googlesyndication\.com\/.*/,
 	/https:\/\/api\.adinplay\.com\/.*/,
 	/https:\/\/.*\.venatusmedia\.com\/.*/,
 	/https:\/\/.*\.amazon-adsystem\.com\/.*/,
@@ -249635,7 +250569,7 @@ async function startGame() {
 }
 document.addEventListener("DOMContentLoaded", startGame, !1);
 export {
-	ModalBody as $,
+	ModalCloseButton as $,
 	AcrylicBackgroundChakraProps as A,
 	Box as B,
 	Center as C,
@@ -249658,189 +250592,200 @@ export {
 	TileEntityCommandBlock as T,
 	SPacketUpdateCommandBlock as U,
 	VStack as V,
-	MinibloxModal as W,
-	ModalOverlay as X,
-	ModalContent as Y,
-	ModalHeader as Z,
-	ModalCloseButton as _,
+	HELP_CATEGORIES as W,
+	MinibloxModal as X,
+	ModalOverlay as Y,
+	ModalContent as Z,
+	ModalHeader as _,
 	useCallbackRef$2 as a,
-	FaBars as a$,
-	Grid as a0,
-	GridItem as a1,
-	NESTED_SURFACE_HOVER_BG as a2,
-	TileEntitySign as a3,
-	SPacketUpdateSign as a4,
-	MAX_LENGTH$1 as a5,
-	AccountContext as a6,
-	index_browserExports as a7,
-	AccessControl as a8,
-	CheatsToText as a9,
-	FaCopy as aA,
-	SPacketPlotsAction as aB,
-	MdKeyboardArrowDown as aC,
-	AlertDialog as aD,
-	AlertDialogContent as aE,
-	GenIcon as aF,
-	Input$1 as aG,
-	DEFAULT_TEXT_SHADOW as aH,
-	useChatTranslation as aI,
-	Container$1 as aJ,
-	stripChatMarkup as aK,
-	Enchantment as aL,
-	ItemPotion as aM,
-	textureManager as aN,
-	getTextureUVPos as aO,
-	SPRITE_WIDTH as aP,
-	SPRITE_HEIGHT as aQ,
-	TILE_SIZE as aR,
-	getItemTexture as aS,
-	ItemStack as aT,
-	drawItemStack as aU,
-	Options as aV,
-	EntityPlayer as aW,
-	fetchSkin as aX,
-	Items as aY,
-	Image2 as aZ,
-	EntityItem as a_,
-	OptionsPanelLayout as aa,
-	SettingsSection as ab,
-	SPacketAdminAction as ac,
-	Cheats as ad,
-	SettingRow as ae,
-	SPacketScriptAction as af,
-	PermissionLevel as ag,
-	NESTED_SURFACE_BG as ah,
-	GuiText as ai,
-	prefixChat as aj,
-	FaHardHat as ak,
-	FaCrown as al,
-	canPerformAction as am,
-	useTranslation as an,
-	TabBar as ao,
-	SettingsCloseContext as ap,
-	useNavigate as aq,
-	useDisclosure$1 as ar,
-	CubicBezier as as,
-	PartyModal as at,
-	FriendsModal as au,
-	SettingsModal as av,
-	Badge as aw,
-	CrazyGames as ax,
-	Tooltip as ay,
-	toast as az,
+	EntityPlayer as a$,
+	ModalBody as a0,
+	Grid as a1,
+	GridItem as a2,
+	NESTED_SURFACE_HOVER_BG as a3,
+	TileEntitySign as a4,
+	SPacketUpdateSign as a5,
+	MAX_LENGTH$1 as a6,
+	AccountContext as a7,
+	index_browserExports as a8,
+	AccessControl as a9,
+	copyToClipboard as aA,
+	toast as aB,
+	FaCopy as aC,
+	SPacketPlotsAction as aD,
+	MdKeyboardArrowDown as aE,
+	AlertDialog as aF,
+	AlertDialogContent as aG,
+	GenIcon as aH,
+	Input$1 as aI,
+	DEFAULT_TEXT_SHADOW as aJ,
+	useChatTranslation as aK,
+	Container$1 as aL,
+	stripChatMarkup as aM,
+	Enchantment as aN,
+	ItemPlayerHead as aO,
+	getPlayerHeadIconUrl as aP,
+	resolveHeadIconSkin as aQ,
+	ItemPotion as aR,
+	textureManager as aS,
+	getTextureUVPos as aT,
+	SPRITE_WIDTH as aU,
+	SPRITE_HEIGHT as aV,
+	TILE_SIZE as aW,
+	getItemTexture as aX,
+	ItemStack as aY,
+	drawItemStack as aZ,
+	Options as a_,
+	CheatsToText as aa,
+	OptionsPanelLayout as ab,
+	SettingsSection as ac,
+	SPacketAdminAction as ad,
+	Cheats as ae,
+	SettingRow as af,
+	SPacketScriptAction as ag,
+	PermissionLevel as ah,
+	NESTED_SURFACE_BG as ai,
+	GuiText as aj,
+	prefixChat as ak,
+	FaHardHat as al,
+	FaCrown as am,
+	canPerformAction as an,
+	useTranslation as ao,
+	TabBar as ap,
+	SettingsCloseContext as aq,
+	useNavigate as ar,
+	useDisclosure$1 as as,
+	CubicBezier as at,
+	PartyModal as au,
+	FriendsModal as av,
+	SettingsModal as aw,
+	Badge as ax,
+	CrazyGames as ay,
+	Tooltip as az,
 	useEventListener as b,
-	InputLabel as b$,
-	gui$1 as b0,
-	GuiInventory as b1,
-	FaTable as b2,
-	MdLeaderboard as b3,
-	FaVideo as b4,
-	MdFullscreenExit as b5,
-	MdFullscreen as b6,
-	BAvuRSpMQwpQWMAW as b7,
-	touchcontrols as b8,
-	FaArrowCircleUp as b9,
-	Blocks as bA,
-	FaArrowRight as bB,
-	SPacketCraftItem as bC,
-	AudioManager as bD,
-	Stack as bE,
-	playerControllerMP as bF,
-	Progress as bG,
-	GuiPlayer as bH,
-	coinImage as bI,
-	SPacketMessage as bJ,
-	ItemArmor as bK,
-	ItemSword as bL,
-	SPacketEntityAction as bM,
-	Ulog as bN,
-	IconButton$1 as bO,
-	lazyWithRetry as bP,
-	__vitePreload as bQ,
-	ToastContainer as bR,
-	GuiPlayerList as bS,
-	Outlet as bT,
-	useParams as bU,
-	useAuthModal as bV,
-	useFormControlContext as bW,
-	trackFocusVisible as bX,
-	layoutPropNames as bY,
-	useStyleConfig as bZ,
-	useFormControl as b_,
-	reactDomExports as ba,
-	nameTagManager as bb,
-	game as bc,
-	Vector3$1 as bd,
-	MB$1 as be,
-	ResourceMonitor as bf,
-	VERSION$1 as bg,
-	MasterRenderer as bh,
-	lodashExports as bi,
-	CELL_WIDTH as bj,
-	biomeArray as bk,
-	euclideanModulo as bl,
-	controls as bm,
-	getBrowserInfo as bn,
-	ScaleFade as bo,
-	inventory as bp,
-	mouseLerp as bq,
-	useLocalStorage as br,
-	GameMode as bs,
-	LuWind as bt,
-	LuCross as bu,
-	MdOutlineFastfood as bv,
-	Enchantments as bw,
-	EntityArrow as bx,
-	PotionEffect as by,
-	Potions as bz,
+	Outlet as b$,
+	fetchSkin as b0,
+	Items as b1,
+	Image2 as b2,
+	EntityItem as b3,
+	FaBars as b4,
+	gui$1 as b5,
+	GuiInventory as b6,
+	FaTable as b7,
+	MdLeaderboard as b8,
+	FaVideo as b9,
+	FaCheck$1 as bA,
+	LuWind as bB,
+	LuCross as bC,
+	MdOutlineFastfood as bD,
+	Enchantments as bE,
+	EntityArrow as bF,
+	PotionEffect as bG,
+	Potions as bH,
+	Blocks as bI,
+	FaArrowRight as bJ,
+	SPacketCraftItem as bK,
+	AudioManager as bL,
+	Stack as bM,
+	playerControllerMP as bN,
+	Progress as bO,
+	GuiPlayer as bP,
+	coinImage as bQ,
+	SPacketMessage as bR,
+	ItemArmor as bS,
+	ItemSword as bT,
+	SPacketEntityAction as bU,
+	Ulog as bV,
+	IconButton$1 as bW,
+	lazyWithRetry as bX,
+	__vitePreload as bY,
+	ToastContainer as bZ,
+	GuiPlayerList as b_,
+	MdFullscreenExit as ba,
+	MdFullscreen as bb,
+	YGgmbprFEuQFLLKz as bc,
+	touchcontrols as bd,
+	FaArrowCircleUp as be,
+	reactDomExports as bf,
+	nameTagManager as bg,
+	game as bh,
+	Vector3$1 as bi,
+	MB$1 as bj,
+	ResourceMonitor as bk,
+	VERSION$1 as bl,
+	MasterRenderer as bm,
+	lodashExports as bn,
+	CELL_WIDTH as bo,
+	biomeArray as bp,
+	euclideanModulo as bq,
+	controls as br,
+	getBrowserInfo as bs,
+	ScaleFade as bt,
+	inventory as bu,
+	mouseLerp as bv,
+	GameMode as bw,
+	useLocalStorage as bx,
+	GameState as by,
+	onboardingManager as bz,
 	getOwnerWindow as c,
-	REPORT_CATEGORY_MAP as c0,
-	ClientAxios as c1,
-	stripCrazyGamesSuffix as c2,
-	useDebounce as c3,
-	getRankLevel as c4,
-	GameModeId as c5,
-	WorldGenerationType as c6,
-	EnumDifficulty as c7,
-	REQUESTED_UUID_KEY as c8,
-	GuiToast as c9,
-	minigameServers as cA,
-	SelectArrow as cB,
-	Potion as cC,
-	Spacer as cD,
-	InputGroup as cE,
-	InputLeftElement as cF,
-	MdSearch as cG,
-	Collapse as cH,
-	MdSave as cI,
-	MdDelete as cJ,
-	ModalFooter as cK,
-	Icon as ca,
-	FaInfoCircle as cb,
-	Trans as cc,
-	dayjs as cd,
-	FaUsers as ce,
-	FaStop as cf,
-	FaCog as cg,
-	useOutsideClick as ch,
-	List as ci,
-	ListItem as cj,
-	Spinner as ck,
-	FaCrown$1 as cl,
-	Username as cm,
-	FaTrash as cn,
-	canKeepPlanetsAlwaysOn as co,
-	MdChevronLeft as cp,
-	MdChevronRight as cq,
-	FormControl as cr,
-	SERVERS as cs,
-	SimpleGrid as ct,
-	survivalImage as cu,
-	creativeImage as cv,
-	css as cw,
-	LuMail as cx,
-	sandboxServers as cy,
-	LuSwords as cz,
+	useParams as c0,
+	useAuthModal as c1,
+	useFormControlContext as c2,
+	trackFocusVisible as c3,
+	layoutPropNames as c4,
+	useStyleConfig as c5,
+	useFormControl as c6,
+	InputLabel as c7,
+	REPORT_CATEGORY_MAP as c8,
+	ClientAxios as c9,
+	MdChevronLeft as cA,
+	MdChevronRight as cB,
+	FormControl as cC,
+	SERVERS as cD,
+	SimpleGrid as cE,
+	survivalImage as cF,
+	creativeImage as cG,
+	css as cH,
+	LuMail as cI,
+	sandboxServers as cJ,
+	LuSwords as cK,
+	minigameServers as cL,
+	ArrowStepperRow as cM,
+	Potion as cN,
+	Spacer as cO,
+	InputGroup as cP,
+	InputLeftElement as cQ,
+	MdSearch as cR,
+	Collapse as cS,
+	MdSave as cT,
+	MdDelete as cU,
+	ModalFooter as cV,
+	SelectablePill as ca,
+	stripCrazyGamesSuffix as cb,
+	useDebounce as cc,
+	getRankLevel as cd,
+	GameModeId as ce,
+	WorldGenerationType as cf,
+	EnumDifficulty as cg,
+	REQUESTED_UUID_KEY as ch,
+	GuiToast as ci,
+	Icon as cj,
+	FaInfoCircle as ck,
+	ConfirmModal as cl,
+	Trans as cm,
+	dayjs as cn,
+	FaUsers as co,
+	FaStop as cp,
+	FaCog as cq,
+	useOutsideClick as cr,
+	inputFieldChakraProps as cs,
+	List as ct,
+	ListItem as cu,
+	Spinner as cv,
+	FaCrown$1 as cw,
+	Username as cx,
+	FaTrash as cy,
+	canKeepPlanetsAlwaysOn as cz,
 	createContext as d,
 	useMultiStyleConfig as e,
 	useTheme as f,
@@ -249865,4 +250810,4 @@ export {
 	Text as y,
 	MdClose as z,
 };
-//# sourceMappingURL=index-D-GkTtBo.js.map
+//# sourceMappingURL=index-BDcNgFNb.js.map
