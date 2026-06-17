@@ -3,9 +3,9 @@ const __vite__mapDeps = (
 	m = __vite__mapDeps,
 	d = m.f ||
 		(m.f = [
-			"assets/index-D7JbcHkZ.js",
-			"assets/ChoiceRow-BKNZnS3y.js",
-			"assets/GuiHud-XqdyBjjD.js",
+			"assets/index-DUjbhSTC.js",
+			"assets/ChoiceRow-BbNedxz4.js",
+			"assets/GuiHud-CI3xQSb4.js",
 		]),
 ) => i.map((i) => d[i]);
 var Oy = Object.defineProperty;
@@ -32232,10 +32232,10 @@ class ExternalTexture extends Texture {
 		return super.copy(o), (this.sourceTexture = o.sourceTexture), this;
 	}
 }
-class STChPIRzLg extends BufferGeometry {
+class myEoWIgIfih extends BufferGeometry {
 	constructor(o = 1, l = 1, u = 1, d = 1, p = 1, m = 1) {
 		super(),
-			(this.type = "STChPIRzLg"),
+			(this.type = "myEoWIgIfih"),
 			(this.parameters = {
 				width: o,
 				height: l,
@@ -32307,7 +32307,7 @@ class STChPIRzLg extends BufferGeometry {
 		);
 	}
 	static fromJSON(o) {
-		return new STChPIRzLg(
+		return new myEoWIgIfih(
 			o.width,
 			o.height,
 			o.depth,
@@ -41778,7 +41778,7 @@ function WebGLBackground(h, o, l, u, d, p) {
 		N && (N.isCubeTexture || N.mapping === CubeUVReflectionMapping)
 			? (x === void 0 &&
 					((x = new Mesh(
-						new STChPIRzLg(1, 1, 1),
+						new myEoWIgIfih(1, 1, 1),
 						new ShaderMaterial({
 							name: "BackgroundCubeMaterial",
 							uniforms: cloneUniforms(ShaderLib.backgroundCube.uniforms),
@@ -42515,7 +42515,7 @@ class PMREMGenerator {
 				(v.setRenderTarget(d), v.clearDepth(), v.setRenderTarget(null)),
 			this._backgroundBox === null &&
 				(this._backgroundBox = new Mesh(
-					new STChPIRzLg(),
+					new myEoWIgIfih(),
 					new MeshBasicMaterial({
 						name: "PMREM.Background",
 						side: BackSide,
@@ -43114,7 +43114,7 @@ class WebGLCubeRenderTarget extends WebGLRenderTarget {
 				}
 			`,
 			},
-			d = new STChPIRzLg(5, 5, 5),
+			d = new myEoWIgIfih(5, 5, 5),
 			p = new ShaderMaterial({
 				name: "CubemapFromEquirect",
 				uniforms: cloneUniforms(u.uniforms),
@@ -52029,7 +52029,7 @@ const INTRP_ALPHA = 0.1,
 	},
 	MSPT = 50,
 	MB$1 = 1024 * 1024,
-	VERSION$1 = "3.43.35",
+	VERSION$1 = "3.43.36",
 	MODE = "production";
 if (["development", "local", "staging", "production"].indexOf(MODE) === -1)
 	throw new Error(`Unknown mode: ${MODE}`);
@@ -53175,13 +53175,7 @@ function addCoordInto(h, o, l, u, d) {
 	);
 }
 function addCoord(h, o, l, u) {
-	return addCoordInto(
-		h,
-		o,
-		l,
-		u,
-		new AxisAlignedBoundingBox(new Vector3$1(), new Vector3$1()),
-	);
+	return addCoordInto(h, o, l, u, new AxisAlignedBoundingBox(new Vector3$1(), new Vector3$1()));
 }
 function translateBox3(h, o, l, u) {
 	return (
@@ -70522,14 +70516,14 @@ class ItemArmor extends Item {
 	constructor(l, u, d, p) {
 		super(l);
 		b(this, "armorType");
-		b(this, "damageReduceAmount");
+		b(this, "QdCsKoAPmoAEitRSeI");
 		b(this, "renderIndex");
 		b(this, "material");
 		b(this, "toughness");
 		(this.material = u),
 			(this.armorType = p),
 			(this.renderIndex = d),
-			(this.damageReduceAmount = u.damageReductionAmount[p]),
+			(this.QdCsKoAPmoAEitRSeI = u.damageReductionAmount[p]),
 			(this.toughness = u.toughness[p]);
 	}
 	getArmorMaterial() {
@@ -72041,7 +72035,7 @@ const language$2 = {
 			return this.getFlag(4);
 		}
 		setEating(o) {
-			this.skathDAWXK(4, o);
+			this.glZhzxA(4, o);
 		}
 		entityInit() {}
 		getDataWatcher() {
@@ -72050,7 +72044,7 @@ const language$2 = {
 		getFlag(o) {
 			return (this.dataWatcher.getWatchableObjectByte(0) & (1 << o)) != 0;
 		}
-		skathDAWXK(o, l) {
+		glZhzxA(o, l) {
 			const u = this.dataWatcher.getWatchableObjectByte(0);
 			l
 				? this.dataWatcher.updateObject(0, u | (1 << o))
@@ -72767,19 +72761,19 @@ const language$2 = {
 			return this.pos.distanceToSquared(o.pos);
 		}
 		setSprinting(o) {
-			this.skathDAWXK(3, o);
+			this.glZhzxA(3, o);
 		}
 		isSprinting() {
 			return !1;
 		}
-		AWVGVTetAA() {
+		HnjsyQcbdwN() {
 			return this.getFlag(5);
 		}
-		EXZTHEagWm(o) {
-			return this.AWVGVTetAA();
+		KExrfvDmmtCvfGzMjxD(o) {
+			return this.HnjsyQcbdwN();
 		}
 		setInvisible(o) {
-			this.skathDAWXK(5, o);
+			this.glZhzxA(5, o);
 		}
 		entityDropItem(o, l) {
 			if (o.stackSize != 0 && o.getItem() != null) {
@@ -74647,7 +74641,8 @@ const js = class js extends Entity {
 							this.jumpTicks == 0 &&
 							(this.jump(), (this.jumpTicks = 10))
 				: (this.jumpTicks = 0),
-			this.isRiding() || ((this.moveStrafe *= 0.98), (this.moveForward *= 0.98)),
+			this.isRiding() ||
+				((this.moveStrafe *= 0.98), (this.moveForward *= 0.98)),
 			this.moveEntityWithHeading(this.moveStrafe, this.moveForward),
 			this.world.isServer &&
 				this.doEntityCollision &&
@@ -74731,7 +74726,7 @@ const js = class js extends Entity {
 		for (const u of this.getInventory()) {
 			const d = u.getItem();
 			if (u != null && d instanceof ItemArmor) {
-				const p = d.damageReduceAmount;
+				const p = d.QdCsKoAPmoAEitRSeI;
 				l += p;
 			}
 		}
@@ -74749,7 +74744,7 @@ const js = class js extends Entity {
 				if (!m) continue;
 				const g = m.item;
 				g instanceof ItemArmor &&
-					((d += g.damageReduceAmount), (p += g.toughness || 0));
+					((d += g.QdCsKoAPmoAEitRSeI), (p += g.toughness || 0));
 			}
 			u = u * (1 - Math.min(20, Math.max(d / 5, d - (4 * u) / (p + 8))) / 25);
 		}
@@ -75095,7 +75090,7 @@ const js = class js extends Entity {
 		if (u > 0) {
 			let p = !1;
 			if (
-				(this.AWVGVTetAA()
+				(this.HnjsyQcbdwN()
 					? (p = randomInt(15) == 0)
 					: (p = Math.random() > 0.5),
 				p && u > 0)
@@ -121835,10 +121830,7 @@ const oi = class oi {
 								l.max.z >= k &&
 								l.min.z <= I &&
 								d.push(
-									new AxisAlignedBoundingBox(
-										new Vector3$1(v, w, k),
-										new Vector3$1(E, C, I),
-									),
+									new AxisAlignedBoundingBox(new Vector3$1(v, w, k), new Vector3$1(E, C, I)),
 								);
 							continue;
 						}
@@ -124909,7 +124901,7 @@ const Sd = class Sd extends EntityLivingBase {
 	isSprinting() {
 		return this.getFlag(3);
 	}
-	wViOCvxpvA(l) {
+	efjyQQZWNiKXFgjwXOAQpQxwjeGmjvyDG(l) {
 		var m, g;
 		if (
 			(l instanceof Sd && this.team && !this.team.canAttack(l.team)) ||
@@ -139079,10 +139071,7 @@ class BlockSoulSand extends Block {
 		);
 	}
 	getBoundingBox(o) {
-		return new AxisAlignedBoundingBox(
-			new Vector3$1(0, 0, 0),
-			new Vector3$1(1, 1 - 0.125, 1),
-		);
+		return new AxisAlignedBoundingBox(new Vector3$1(0, 0, 0), new Vector3$1(1, 1 - 0.125, 1));
 	}
 }
 class BlockSign extends BlockContainer {
@@ -176645,7 +176634,8 @@ class TextureManager {
 			ShaderManager.addShaderToMaterialWorld(this.materialTransparentWorld),
 			(this.materialTransparentWorld.depthWrite = !1);
 		const g = () => {
-			(this.materialWorld.needsUpdate = !0), (this.materialTransparentWorld.needsUpdate = !0);
+			(this.materialWorld.needsUpdate = !0),
+				(this.materialTransparentWorld.needsUpdate = !0);
 		};
 		Options.grassWave.onChange(g),
 			Options.dynamicLighting.onChange(g),
@@ -176735,7 +176725,8 @@ class TextureManager {
 			(u = (l = this.materialWorld) == null ? void 0 : l.userData) != null &&
 				u.uSunLight &&
 				(this.materialWorld.userData.uSunLight.value = o),
-			(p = (d = this.materialTransparentWorld) == null ? void 0 : d.userData) != null &&
+			(p = (d = this.materialTransparentWorld) == null ? void 0 : d.userData) !=
+				null &&
 				p.uSunLight &&
 				(this.materialTransparentWorld.userData.uSunLight.value = o),
 			(g = (m = this.materialFluidWorld) == null ? void 0 : m.userData) !=
@@ -176749,7 +176740,8 @@ class TextureManager {
 			(u = (l = this.materialWorld) == null ? void 0 : l.userData) != null &&
 				u.uAmbientLight &&
 				(this.materialWorld.userData.uAmbientLight.value = o),
-			(p = (d = this.materialTransparentWorld) == null ? void 0 : d.userData) != null &&
+			(p = (d = this.materialTransparentWorld) == null ? void 0 : d.userData) !=
+				null &&
 				p.uAmbientLight &&
 				(this.materialTransparentWorld.userData.uAmbientLight.value = o),
 			(g = (m = this.materialFluidWorld) == null ? void 0 : m.userData) !=
@@ -176812,7 +176804,8 @@ class TextureManager {
 		(d = (u = this.materialWorld) == null ? void 0 : u.userData) != null &&
 			d.uHasDamage &&
 			(this.materialWorld.userData.uHasDamage.value = l),
-			(m = (p = this.materialTransparentWorld) == null ? void 0 : p.userData) != null &&
+			(m = (p = this.materialTransparentWorld) == null ? void 0 : p.userData) !=
+				null &&
 				m.uHasDamage &&
 				(this.materialTransparentWorld.userData.uHasDamage.value = l);
 	}
@@ -195361,7 +195354,7 @@ class ClientDecoder extends Decoder$1 {
 		if (!!ClientSocket.useDecodeWorker)
 			try {
 				(this.worker = new Worker(
-					new URL("/assets/NetworkDecodeWorker-Box5Cjtl.js", import.meta.url),
+					new URL("/assets/NetworkDecodeWorker-Cx0MzXAc.js", import.meta.url),
 					{ type: "module" },
 				)),
 					(this.worker.onmessage = (l) => {
@@ -195564,7 +195557,9 @@ document.addEventListener("mousedown", (h) => {
 				playerController.leftClick(), (mouseLerp.event = 0);
 				break;
 			case 2:
-				h.preventDefault(), playerController.middleClick(), (mouseLerp.event = 2);
+				h.preventDefault(),
+					playerController.middleClick(),
+					(mouseLerp.event = 2);
 				break;
 			case 3:
 				(mouseLerp.event = 1),
@@ -196942,7 +196937,8 @@ class TouchControls {
 					playerController.objectMouseOver.block
 						? (this.prevTouchPos.set(u.clientX, u.clientY),
 							(this.startLook = Date.now()))
-						: playerController.objectMouseOver.entity && playerController.leftClick());
+						: playerController.objectMouseOver.entity &&
+							playerController.leftClick());
 		this.checkForDisconnectedTouch(l);
 	}
 	touchEnd(o, l) {
@@ -196950,7 +196946,8 @@ class TouchControls {
 			u.identifier === this.moveId &&
 				((this.moveId = null), this.direction.setScalar(0)),
 				u.identifier === this.lookId &&
-					(Date.now() - this.startLook < 200 && playerController.rightClickMouse(),
+					(Date.now() - this.startLook < 200 &&
+						playerController.rightClickMouse(),
 					(this.lookId = null),
 					(this.lastLook = Date.now()),
 					(this.startLook = 0),
@@ -197194,7 +197191,7 @@ class PlayerController {
 				? !1
 				: ((o.inventory.main[o.inventory.currentItem] = p), !0);
 	}
-	windowClick(o, l, u, d, p) {
+	VDSgWeegbYp(o, l, u, d, p) {
 		const m = p.openContainer.getNextTransactionID(p.inventory),
 			g = p.openContainer.slotClick(l, u, d, p);
 		return (
@@ -197296,7 +197293,7 @@ class PlayerController {
 					sequence: player.inputSequenceNumber,
 				}),
 			),
-			player.wViOCvxpvA(o);
+			player.efjyQQZWNiKXFgjwXOAQpQxwjeGmjvyDG(o);
 	}
 	interactWithEntitySendPacket(o, l) {
 		return l
@@ -201545,7 +201542,13 @@ class GuiContainer extends GuiScreen {
 	}
 	handleMouseClick(l, u, d, p) {
 		l != null && (u = l.slotNumber),
-			playerController.windowClick(this.inventorySlots.windowId, u, d, p, player);
+			playerController.VDSgWeegbYp(
+				this.inventorySlots.windowId,
+				u,
+				d,
+				p,
+				player,
+			);
 	}
 	onGuiClosed() {
 		player != null && this.inventorySlots.onContainerClosed(player);
@@ -206326,7 +206329,7 @@ class EntityManager {
 		for (const l of game.world.playersIterator()) {
 			if (l.id == player.id) continue;
 			const u = this.shouldRenderEntity(l, !0),
-				d = u && l.EXZTHEagWm(player);
+				d = u && l.KExrfvDmmtCvfGzMjxD(player);
 			(l.mesh.visible = u), l.mesh.setRenderArmorOnly(d);
 			const p = !d && !o && !l.mesh.usesFastLOD();
 			l.mesh.hatMesh && (l.mesh.hatMesh.visible = p),
@@ -206339,7 +206342,7 @@ class EntityManager {
 			this.hidePlayers ||
 			(_blockPos.set(o.pos.x, o.pos.y, o.pos.z),
 			!o.world.isBlockLoaded(_blockPos)) ||
-			(!l && o.EXZTHEagWm(player)) ||
+			(!l && o.KExrfvDmmtCvfGzMjxD(player)) ||
 			(o instanceof EntityPlayer && o.isSpectator() && !player.isSpectator())
 		)
 			return !1;
@@ -206877,12 +206880,21 @@ class PlayerMovement extends EntityPlayer {
 	updatePlayerMoveState() {
 		(this.moveStrafe = 0), (this.moveForward = 0);
 		const l =
-				keyPressedPlayer("d") || keyPressedPlayer("right") || touchcontrols.direction.x > 0,
+				keyPressedPlayer("d") ||
+				keyPressedPlayer("right") ||
+				touchcontrols.direction.x > 0,
 			u =
-				keyPressedPlayer("a") || keyPressedPlayer("left") || touchcontrols.direction.x < 0,
-			d = keyPressedPlayer("w") || keyPressedPlayer("up") || touchcontrols.direction.y > 0,
+				keyPressedPlayer("a") ||
+				keyPressedPlayer("left") ||
+				touchcontrols.direction.x < 0,
+			d =
+				keyPressedPlayer("w") ||
+				keyPressedPlayer("up") ||
+				touchcontrols.direction.y > 0,
 			p =
-				keyPressedPlayer("s") || keyPressedPlayer("down") || touchcontrols.direction.y < 0;
+				keyPressedPlayer("s") ||
+				keyPressedPlayer("down") ||
+				touchcontrols.direction.y < 0;
 		(this.jumping = touchcontrols.jumping || keyPressedPlayer("space")),
 			game.info.inLoadedChunk &&
 				(this.inputSequenceNumber++,
@@ -207199,7 +207211,9 @@ const _camPos = new Vector3$1(),
 			}
 			let u = 0;
 			for (const p of player.inventory.armor)
-				p && p.item instanceof ItemArmor && (u += p.item.damageReduceAmount || 0);
+				p &&
+					p.item instanceof ItemArmor &&
+					(u += p.item.QdCsKoAPmoAEitRSeI || 0);
 			const d = this.world.getPlayerById(this.id);
 			u !== this.prevDefencePoints &&
 				((this.prevDefencePoints = u),
@@ -219622,7 +219636,7 @@ class ChunkRenderQueue {
 	}
 }
 function WorkerWrapper(h) {
-	return new Worker("/assets/ChunkRenderWorker-BMx71Wm9.js", {
+	return new Worker("/assets/ChunkRenderWorker-CIApoxrx.js", {
 		type: "module",
 		name: h == null ? void 0 : h.name,
 	});
@@ -219909,7 +219923,10 @@ class ChunkRenderManager {
 		if (!y) {
 			y = {
 				opaque: new Mesh(new BufferGeometry(), textureManager.materialWorld),
-				transparent: new Mesh(new BufferGeometry(), textureManager.materialTransparentWorld),
+				transparent: new Mesh(
+					new BufferGeometry(),
+					textureManager.materialTransparentWorld,
+				),
 				fluid: new Mesh(
 					new BufferGeometry(),
 					textureManager.materialFluidWorld,
@@ -238389,7 +238406,7 @@ const AccountModal = ({ isOpen: h, onClose: o, initialTab: l }) => {
 		});
 	},
 	QuickLaunchModal = reactExports.lazy(() =>
-		__vitePreload(() => import("./index-D7JbcHkZ.js"), __vite__mapDeps([0, 1])),
+		__vitePreload(() => import("./index-DUjbhSTC.js"), __vite__mapDeps([0, 1])),
 	),
 	titles = [title],
 	randomTitle = [title][Math.floor(Math.random() * titles.length)],
@@ -247596,36 +247613,36 @@ const TODOemptyValidator = (h) => !0,
 	},
 	GuiHud = reactExports.lazy(() =>
 		__vitePreload(
-			() => import("./GuiHud-XqdyBjjD.js"),
+			() => import("./GuiHud-CI3xQSb4.js"),
 			__vite__mapDeps([2, 1]),
 		),
 	),
 	ReferralInvite = reactExports.lazy(() =>
-		__vitePreload(() => import("./ReferralInvite-CC5OWaiv.js"), []),
+		__vitePreload(() => import("./ReferralInvite-DYuH5ClG.js"), []),
 	),
 	InfoScreen = reactExports.lazy(() =>
 		__vitePreload(() => Promise.resolve().then(() => InfoScreen$2), void 0),
 	),
 	DirectConnect = reactExports.lazy(() =>
-		__vitePreload(() => import("./DirectConnect-Bdv-g_lb.js"), []),
+		__vitePreload(() => import("./DirectConnect-BcccVLb1.js"), []),
 	),
 	EULA = reactExports.lazy(() =>
-		__vitePreload(() => import("./EULA-Co7O2B7L.js"), []),
+		__vitePreload(() => import("./EULA-UuCy76B-.js"), []),
 	),
 	Privacy = reactExports.lazy(() =>
-		__vitePreload(() => import("./Privacy-BzEO_ksd.js"), []),
+		__vitePreload(() => import("./Privacy-D9GiD1fE.js"), []),
 	),
 	Referral = reactExports.lazy(() =>
 		__vitePreload(() => Promise.resolve().then(() => index), void 0),
 	),
 	ReportPlayer = reactExports.lazy(() =>
-		__vitePreload(() => import("./ReportPlayer-VE08JIX3.js"), []),
+		__vitePreload(() => import("./ReportPlayer-BK0-_Xiz.js"), []),
 	),
 	Rules = reactExports.lazy(() =>
-		__vitePreload(() => import("./Rules-Wo-UW7NX.js"), []),
+		__vitePreload(() => import("./Rules-DcncSv_y.js"), []),
 	),
 	Tutorial = reactExports.lazy(() =>
-		__vitePreload(() => import("./Tutorial-D79RZR95.js"), []),
+		__vitePreload(() => import("./Tutorial-B6aRjpx7.js"), []),
 	),
 	HookIntoReactRender = () => (
 		ReactInterface.useMountHooks(), jsxRuntimeExports.jsx(Outlet, {})
@@ -248514,6 +248531,7 @@ const Ta = class Ta {
 			try {
 				const o = await detectRecommendedPreset();
 				applyGraphicsPreset(o),
+					o === "low" && (Options.acrylicEffect.value = !1),
 					(Options.graphicsAutoDetected.value = !0),
 					Ulog.info(`Auto-detected graphics preset: ${o}`);
 			} catch (o) {
@@ -249257,7 +249275,9 @@ dayjs.extend(relativeTime);
 dayjs.extend(duration);
 init$1({
 	dsn: "https://996957fea66245cf878fcee82d1b0eee@o1162526.ingest.sentry.io/6249969",
+	tunnel: `${SESSION_SERVER_ENDPOINT}/sentry-tunnel`,
 	integrations: [new BrowserTracing()],
+	tracesSampleRate: 0.1,
 	release: VERSION$1,
 	denyUrls: [
 		/https:\/\/cdn.doubleverify.com\/.*/,
@@ -249538,4 +249558,4 @@ export {
 	Text as y,
 	MdClose as z,
 };
-//# sourceMappingURL=index-BoBTMt88.js.map
+//# sourceMappingURL=index-BGCuQtag.js.map
