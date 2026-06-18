@@ -3,9 +3,9 @@ const __vite__mapDeps = (
 	m = __vite__mapDeps,
 	d = m.f ||
 		(m.f = [
-			"assets/index-sLoYQbkh.js",
-			"assets/ChoiceRow-BW66Ym4b.js",
-			"assets/GuiHud-45HKqsfs.js",
+			"assets/index-gaPk1jGO.js",
+			"assets/ChoiceRow-DZxjx405.js",
+			"assets/GuiHud-NF9PL6y4.js",
 		]),
 ) => i.map((i) => d[i]);
 var Uy = Object.defineProperty;
@@ -7517,6 +7517,7 @@ const Sl = class Sl extends Message {
 		E(this, "requestedUuid");
 		E(this, "clientVersion");
 		E(this, "language");
+		E(this, "prefetch");
 		proto2.util.initPartial(h, this);
 	}
 	static fromBinary(h, p) {
@@ -7544,6 +7545,7 @@ E(Sl, "runtime", proto2),
 			{ no: 4, name: "requested_uuid", kind: "scalar", T: 9, opt: !0 },
 			{ no: 5, name: "client_version", kind: "scalar", T: 9 },
 			{ no: 6, name: "language", kind: "scalar", T: 9, opt: !0 },
+			{ no: 7, name: "prefetch", kind: "scalar", T: 9, opt: !0 },
 		]),
 	);
 let SPacketLoginStart = Sl,
@@ -29393,7 +29395,7 @@ class Sphere {
 let _id$1 = 0;
 const _m1$3 = new Matrix4(),
 	_obj = new Object3D(),
-	_offset = new Vector3$1(),
+	_offset$1 = new Vector3$1(),
 	_box$2 = new AxisAlignedBoundingBox(),
 	_boxMorphTargets = new AxisAlignedBoundingBox(),
 	_vector$9 = new Vector3$1();
@@ -29499,8 +29501,8 @@ class BufferGeometry extends EventDispatcher {
 	center() {
 		return (
 			this.computeBoundingBox(),
-			this.boundingBox.getCenter(_offset).negate(),
-			this.translate(_offset.x, _offset.y, _offset.z),
+			this.boundingBox.getCenter(_offset$1).negate(),
+			this.translate(_offset$1.x, _offset$1.y, _offset$1.z),
 			this
 		);
 	}
@@ -29601,7 +29603,8 @@ class BufferGeometry extends EventDispatcher {
 						v = this.morphTargetsRelative;
 					for (let b = 0, w = S.count; b < w; b++)
 						_vector$9.fromBufferAttribute(S, b),
-							v && (_offset.fromBufferAttribute(u, b), _vector$9.add(_offset)),
+							v &&
+								(_offset$1.fromBufferAttribute(u, b), _vector$9.add(_offset$1)),
 							(g = Math.max(g, p.distanceToSquared(_vector$9)));
 				}
 			(this.boundingSphere.radius = Math.sqrt(g)),
@@ -31497,7 +31500,7 @@ const _instanceLocalMatrix = new Matrix4(),
 	_instanceWorldMatrix = new Matrix4(),
 	_instanceIntersects = [],
 	_box3 = new AxisAlignedBoundingBox(),
-	_identity = new Matrix4(),
+	_identity$1 = new Matrix4(),
 	_mesh$1 = new Mesh(),
 	_sphere$4 = new Sphere();
 class InstancedMesh extends Mesh {
@@ -31514,7 +31517,7 @@ class InstancedMesh extends Mesh {
 			(this.count = p),
 			(this.boundingBox = null),
 			(this.boundingSphere = null);
-		for (let g = 0; g < p; g++) this.setMatrixAt(g, _identity);
+		for (let g = 0; g < p; g++) this.setMatrixAt(g, _identity$1);
 	}
 	computeBoundingBox() {
 		const u = this.geometry,
@@ -32244,10 +32247,10 @@ class ExternalTexture extends Texture {
 		return super.copy(u), (this.sourceTexture = u.sourceTexture), this;
 	}
 }
-class oTmrevzmRaH extends BufferGeometry {
+class XXlVkopPRKY extends BufferGeometry {
 	constructor(u = 1, h = 1, p = 1, g = 1, y = 1, x = 1) {
 		super(),
-			(this.type = "oTmrevzmRaH"),
+			(this.type = "XXlVkopPRKY"),
 			(this.parameters = {
 				width: u,
 				height: h,
@@ -32319,7 +32322,7 @@ class oTmrevzmRaH extends BufferGeometry {
 		);
 	}
 	static fromJSON(u) {
-		return new oTmrevzmRaH(
+		return new XXlVkopPRKY(
 			u.width,
 			u.height,
 			u.depth,
@@ -41790,7 +41793,7 @@ function WebGLBackground(m, u, h, p, g, y) {
 		z && (z.isCubeTexture || z.mapping === CubeUVReflectionMapping)
 			? (b === void 0 &&
 					((b = new Mesh(
-						new oTmrevzmRaH(1, 1, 1),
+						new XXlVkopPRKY(1, 1, 1),
 						new ShaderMaterial({
 							name: "BackgroundCubeMaterial",
 							uniforms: cloneUniforms(ShaderLib.backgroundCube.uniforms),
@@ -42529,7 +42532,7 @@ class PMREMGenerator {
 				(k.setRenderTarget(g), k.clearDepth(), k.setRenderTarget(null)),
 			this._backgroundBox === null &&
 				(this._backgroundBox = new Mesh(
-					new oTmrevzmRaH(),
+					new XXlVkopPRKY(),
 					new MeshBasicMaterial({
 						name: "PMREM.Background",
 						side: BackSide,
@@ -43128,7 +43131,7 @@ class WebGLCubeRenderTarget extends WebGLRenderTarget {
 				}
 			`,
 			},
-			g = new oTmrevzmRaH(5, 5, 5),
+			g = new XXlVkopPRKY(5, 5, 5),
 			y = new ShaderMaterial({
 				name: "CubemapFromEquirect",
 				uniforms: cloneUniforms(p.uniforms),
@@ -52043,7 +52046,7 @@ const INTRP_ALPHA = 0.1,
 	},
 	MSPT = 50,
 	MB$1 = 1024 * 1024,
-	VERSION$1 = "3.44.13",
+	VERSION$1 = "3.44.15",
 	MODE = "production";
 if (["development", "local", "staging", "production"].indexOf(MODE) === -1)
 	throw new Error(`Unknown mode: ${MODE}`);
@@ -52355,6 +52358,7 @@ const SESSION_SERVER_ENDPOINT = resolveSessionServerEndpoint(),
 		"22346454309-4g8oqmbsukjgn9v6p7jonqkqps9jr9np.apps.googleusercontent.com",
 	SESSION_TOKEN_KEY = "session_v1",
 	REQUESTED_UUID_KEY = `request_uuid_${MODE}`,
+	MUTE_STORAGE_KEY = "px_seg",
 	LOCALHOST_ADDRESS = "localhost:3002",
 	mc =
 		"m" +
@@ -70536,14 +70540,14 @@ class ItemArmor extends Item {
 	constructor(h, p, g, y) {
 		super(h);
 		E(this, "armorType");
-		E(this, "tXwAoyipAwpHBwlGAk");
+		E(this, "XUOSftPWQVAakGpjJj");
 		E(this, "renderIndex");
 		E(this, "material");
 		E(this, "toughness");
 		(this.material = p),
 			(this.armorType = y),
 			(this.renderIndex = g),
-			(this.tXwAoyipAwpHBwlGAk = p.damageReductionAmount[y]),
+			(this.XUOSftPWQVAakGpjJj = p.damageReductionAmount[y]),
 			(this.toughness = p.toughness[y]);
 	}
 	getArmorMaterial() {
@@ -72786,11 +72790,11 @@ const language$2 = {
 		isSprinting() {
 			return !1;
 		}
-		UKWuWqoLbjd() {
+		mPovnEKsGKn() {
 			return this.getFlag(5);
 		}
-		VTLIgkknMmyPlbflpmM(u) {
-			return this.UKWuWqoLbjd();
+		mZyHbvDLfKSSqBMNwJP(u) {
+			return this.mPovnEKsGKn();
 		}
 		setInvisible(u) {
 			this.setFlag(5, u);
@@ -74746,7 +74750,7 @@ const Ys = class Ys extends Entity {
 		for (const p of this.getInventory()) {
 			const g = p.getItem();
 			if (p != null && g instanceof ItemArmor) {
-				const y = g.tXwAoyipAwpHBwlGAk;
+				const y = g.XUOSftPWQVAakGpjJj;
 				h += y;
 			}
 		}
@@ -74764,7 +74768,7 @@ const Ys = class Ys extends Entity {
 				if (!x) continue;
 				const S = x.item;
 				S instanceof ItemArmor &&
-					((g += S.tXwAoyipAwpHBwlGAk), (y += S.toughness || 0));
+					((g += S.XUOSftPWQVAakGpjJj), (y += S.toughness || 0));
 			}
 			p = p * (1 - Math.min(20, Math.max(g / 5, g - (4 * p) / (y + 8))) / 25);
 		}
@@ -75110,7 +75114,7 @@ const Ys = class Ys extends Entity {
 		if (p > 0) {
 			let y = !1;
 			if (
-				(this.UKWuWqoLbjd()
+				(this.mPovnEKsGKn()
 					? (y = randomInt(15) == 0)
 					: (y = Math.random() > 0.5),
 				y && p > 0)
@@ -125030,7 +125034,7 @@ const Ed = class Ed extends EntityLivingBase {
 	isSprinting() {
 		return this.getFlag(3);
 	}
-	whzmSMTMtYAgQHbaFcqxaMtBGWRSFYejJ(h) {
+	vcnVjpMHhzOSCqaJgNUaiWhRilrGUPaXl(h) {
 		var x, S;
 		if (
 			(h instanceof Ed && this.team && !this.team.canAttack(h.team)) ||
@@ -177347,7 +177351,43 @@ class MeshHelper {
 			(this.rotZ.value = h.z);
 	}
 }
-const meshHelper = new MeshHelper();
+const meshHelper = new MeshHelper(),
+	_rootInverse = new Matrix4(),
+	_rel = new Matrix4(),
+	_offset = new Matrix4(),
+	_identity = new Matrix4(),
+	_identityBind = new Matrix4();
+class LocalSkeleton extends Skeleton {
+	constructor() {
+		super(...arguments);
+		E(this, "root", null);
+	}
+	update() {
+		const h = this.bones,
+			p = this.boneInverses,
+			g = this.boneMatrices,
+			y = this.boneTexture,
+			x = this.root;
+		x ? _rootInverse.copy(x.matrixWorld).invert() : _rootInverse.identity();
+		for (let S = 0, v = h.length; S < v; S++) {
+			const b = h[S] ? h[S].matrixWorld : _identity;
+			_rel.multiplyMatrices(_rootInverse, b),
+				_offset.multiplyMatrices(_rel, p[S]),
+				_offset.toArray(g, S * 16);
+		}
+		y !== null && (y.needsUpdate = !0);
+	}
+}
+function createLocalSkeleton(m, u, h) {
+	const p = m.map((y) =>
+			new Matrix4().multiplyMatrices(h, y.matrixWorld).invert(),
+		),
+		g = new LocalSkeleton(m, p);
+	return (g.root = u), g;
+}
+function bindLocalSkinnedMesh(m, u) {
+	m.bind(u, _identityBind), (m.bindMode = DetachedBindMode);
+}
 class Model extends Group {
 	constructor() {
 		super();
@@ -177659,7 +177699,7 @@ class Model extends Group {
 			(C.receiveShadow = !0),
 			h.add(C),
 			h.updateMatrixWorld(!0),
-			C.bind(new Skeleton(S)),
+			bindLocalSkinnedMesh(C, createLocalSkeleton(S, h, x)),
 			(h.skinnedRig[this.skinName] = C),
 			C
 		);
@@ -196195,7 +196235,7 @@ class ClientDecoder extends Decoder$1 {
 		if (!!ClientSocket.useDecodeWorker)
 			try {
 				(this.worker = new Worker(
-					new URL("/assets/NetworkDecodeWorker-Ba8s_RHh.js", import.meta.url),
+					new URL("/assets/NetworkDecodeWorker-OZOhK2Yv.js", import.meta.url),
 					{ type: "module" },
 				)),
 					(this.worker.onmessage = (h) => {
@@ -198037,7 +198077,7 @@ class PlayerController {
 				? !1
 				: ((u.inventory.main[u.inventory.currentItem] = y), !0);
 	}
-	bbshDVvmoKj(u, h, p, g, y) {
+	gAnpCgEoYoa(u, h, p, g, y) {
 		const x = y.openContainer.getNextTransactionID(y.inventory),
 			S = y.openContainer.slotClick(h, p, g, y);
 		return (
@@ -198139,7 +198179,7 @@ class PlayerController {
 					sequence: player.inputSequenceNumber,
 				}),
 			),
-			player.whzmSMTMtYAgQHbaFcqxaMtBGWRSFYejJ(u);
+			player.vcnVjpMHhzOSCqaJgNUaiWhRilrGUPaXl(u);
 	}
 	interactWithEntitySendPacket(u, h) {
 		return h
@@ -202671,7 +202711,7 @@ class GuiContainer extends GuiScreen {
 	}
 	handleMouseClick(h, p, g, y) {
 		h != null && (p = h.slotNumber),
-			playerController.bbshDVvmoKj(
+			playerController.gAnpCgEoYoa(
 				this.inventorySlots.windowId,
 				p,
 				g,
@@ -206624,9 +206664,9 @@ class ModelBiped extends Model {
 		}
 		if (!k && Object.keys(T).length === 0) return;
 		h.updateMatrixWorld(!0);
-		const C = new Skeleton(x);
-		k && (k.bind(C), (h.skinnedBody = k));
-		for (const A in T) T[A].bind(C);
+		const C = createLocalSkeleton(x, h, y);
+		k && (bindLocalSkinnedMesh(k, C), (h.skinnedBody = k));
+		for (const A in T) bindLocalSkinnedMesh(T[A], C);
 		(h.skinnedArmor = T), this.buildCombinedLOD(h, w);
 	}
 	buildCombinedLOD(h, p) {
@@ -207363,7 +207403,7 @@ class EntityManager {
 		for (const h of game.world.playersIterator()) {
 			if (h.id == player.id) continue;
 			const p = this.shouldRenderEntity(h, !0),
-				g = p && h.VTLIgkknMmyPlbflpmM(player);
+				g = p && h.mZyHbvDLfKSSqBMNwJP(player);
 			(h.mesh.visible = p), h.mesh.setRenderArmorOnly(g);
 			const y = !g && !u && !h.mesh.usesFastLOD();
 			h.mesh.hatMesh && (h.mesh.hatMesh.visible = y),
@@ -207376,7 +207416,7 @@ class EntityManager {
 			this.hidePlayers ||
 			(_blockPos.set(u.pos.x, u.pos.y, u.pos.z),
 			!u.world.isBlockLoaded(_blockPos)) ||
-			(!h && u.VTLIgkknMmyPlbflpmM(player)) ||
+			(!h && u.mZyHbvDLfKSSqBMNwJP(player)) ||
 			(u instanceof EntityPlayer && u.isSpectator() && !player.isSpectator())
 		)
 			return !1;
@@ -208350,7 +208390,7 @@ const _camPos = new Vector3$1(),
 			for (const y of player.inventory.armor)
 				y &&
 					y.item instanceof ItemArmor &&
-					(p += y.item.tXwAoyipAwpHBwlGAk || 0);
+					(p += y.item.XUOSftPWQVAakGpjJj || 0);
 			const g = this.world.getPlayerById(this.id);
 			p !== this.prevDefencePoints &&
 				((this.prevDefencePoints = p),
@@ -224706,7 +224746,7 @@ class ChunkRenderQueue {
 	}
 }
 function WorkerWrapper(m) {
-	return new Worker("/assets/ChunkRenderWorker-DSYFwPjG.js", {
+	return new Worker("/assets/ChunkRenderWorker-CkgpArO1.js", {
 		type: "module",
 		name: m == null ? void 0 : m.name,
 	});
@@ -244457,7 +244497,7 @@ function lazyWithRetry(m) {
 	);
 }
 const QuickLaunchModal = lazyWithRetry(() =>
-		__vitePreload(() => import("./index-sLoYQbkh.js"), __vite__mapDeps([0, 1])),
+		__vitePreload(() => import("./index-gaPk1jGO.js"), __vite__mapDeps([0, 1])),
 	),
 	titles = [title],
 	randomTitle = [title][Math.floor(Math.random() * titles.length)],
@@ -253815,36 +253855,36 @@ const ClientOutdatedBanner = () => {
 	},
 	GuiHud = lazyWithRetry(() =>
 		__vitePreload(
-			() => import("./GuiHud-45HKqsfs.js"),
+			() => import("./GuiHud-NF9PL6y4.js"),
 			__vite__mapDeps([2, 1]),
 		),
 	),
 	ReferralInvite = lazyWithRetry(() =>
-		__vitePreload(() => import("./ReferralInvite-1A9xwnQp.js"), []),
+		__vitePreload(() => import("./ReferralInvite-CLkdVgHO.js"), []),
 	),
 	InfoScreen = lazyWithRetry(() =>
 		__vitePreload(() => Promise.resolve().then(() => InfoScreen$2), void 0),
 	),
 	DirectConnect = lazyWithRetry(() =>
-		__vitePreload(() => import("./DirectConnect-D6OJgGa2.js"), []),
+		__vitePreload(() => import("./DirectConnect-DNXndZZN.js"), []),
 	),
 	EULA = lazyWithRetry(() =>
-		__vitePreload(() => import("./EULA-47tZuoIQ.js"), []),
+		__vitePreload(() => import("./EULA-Ct9XIx0W.js"), []),
 	),
 	Privacy = lazyWithRetry(() =>
-		__vitePreload(() => import("./Privacy-Ct8Jxz8X.js"), []),
+		__vitePreload(() => import("./Privacy-Dy9wvd7g.js"), []),
 	),
 	Referral = lazyWithRetry(() =>
 		__vitePreload(() => Promise.resolve().then(() => index), void 0),
 	),
 	ReportPlayer = lazyWithRetry(() =>
-		__vitePreload(() => import("./ReportPlayer-WKKuZxpc.js"), []),
+		__vitePreload(() => import("./ReportPlayer-D5szYj00.js"), []),
 	),
 	Rules = lazyWithRetry(() =>
-		__vitePreload(() => import("./Rules-B3pb2ivt.js"), []),
+		__vitePreload(() => import("./Rules-BjFdUsmp.js"), []),
 	),
 	Tutorial = lazyWithRetry(() =>
-		__vitePreload(() => import("./Tutorial-cQ6dF_Os.js"), []),
+		__vitePreload(() => import("./Tutorial-BvmUXpU1.js"), []),
 	),
 	HookIntoReactRender = () => (
 		ReactInterface.useMountHooks(), jsxRuntimeExports.jsx(Outlet, {})
@@ -255119,6 +255159,7 @@ const oa = class oa {
 									localStorage.getItem(REQUESTED_UUID_KEY) ?? void 0,
 								session: localStorage.getItem(SESSION_TOKEN_KEY) ?? "",
 								hydration: localStorage.getItem("hydration") ?? "0",
+								prefetch: localStorage.getItem(MUTE_STORAGE_KEY) ?? void 0,
 								metricsId: localStorage.getItem("metrics_id") ?? "",
 								clientVersion: VERSION$1,
 								language: Options.language.value,
@@ -256088,4 +256129,4 @@ export {
 	Text as y,
 	MdClose as z,
 };
-//# sourceMappingURL=index-CrVTi2Cx.js.map
+//# sourceMappingURL=index-BnckpGmk.js.map
