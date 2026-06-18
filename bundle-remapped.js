@@ -3,9 +3,9 @@ const __vite__mapDeps = (
 	m = __vite__mapDeps,
 	d = m.f ||
 		(m.f = [
-			"assets/index-J4bYI0_o.js",
-			"assets/ChoiceRow-B4MTaMD3.js",
-			"assets/GuiHud-CeXhUCul.js",
+			"assets/index-C91vRmaT.js",
+			"assets/ChoiceRow-Dv5zRKeV.js",
+			"assets/GuiHud-o7QiYzSY.js",
 		]),
 ) => i.map((i) => d[i]);
 var Uy = Object.defineProperty;
@@ -32247,10 +32247,10 @@ class ExternalTexture extends Texture {
 		return super.copy(u), (this.sourceTexture = u.sourceTexture), this;
 	}
 }
-class VLPHiLunwEu extends BufferGeometry {
+class jroyJZkOzas extends BufferGeometry {
 	constructor(u = 1, h = 1, p = 1, g = 1, y = 1, x = 1) {
 		super(),
-			(this.type = "VLPHiLunwEu"),
+			(this.type = "jroyJZkOzas"),
 			(this.parameters = {
 				width: u,
 				height: h,
@@ -32322,7 +32322,7 @@ class VLPHiLunwEu extends BufferGeometry {
 		);
 	}
 	static fromJSON(u) {
-		return new VLPHiLunwEu(
+		return new jroyJZkOzas(
 			u.width,
 			u.height,
 			u.depth,
@@ -41793,7 +41793,7 @@ function WebGLBackground(m, u, h, p, g, y) {
 		D && (D.isCubeTexture || D.mapping === CubeUVReflectionMapping)
 			? (b === void 0 &&
 					((b = new Mesh(
-						new VLPHiLunwEu(1, 1, 1),
+						new jroyJZkOzas(1, 1, 1),
 						new ShaderMaterial({
 							name: "BackgroundCubeMaterial",
 							uniforms: cloneUniforms(ShaderLib.backgroundCube.uniforms),
@@ -42532,7 +42532,7 @@ class PMREMGenerator {
 				(k.setRenderTarget(g), k.clearDepth(), k.setRenderTarget(null)),
 			this._backgroundBox === null &&
 				(this._backgroundBox = new Mesh(
-					new VLPHiLunwEu(),
+					new jroyJZkOzas(),
 					new MeshBasicMaterial({
 						name: "PMREM.Background",
 						side: BackSide,
@@ -43131,7 +43131,7 @@ class WebGLCubeRenderTarget extends WebGLRenderTarget {
 				}
 			`,
 			},
-			g = new VLPHiLunwEu(5, 5, 5),
+			g = new jroyJZkOzas(5, 5, 5),
 			y = new ShaderMaterial({
 				name: "CubemapFromEquirect",
 				uniforms: cloneUniforms(p.uniforms),
@@ -52046,7 +52046,7 @@ const INTRP_ALPHA = 0.1,
 	},
 	MSPT = 50,
 	MB$1 = 1024 * 1024,
-	VERSION$1 = "3.44.21",
+	VERSION$1 = "3.44.22",
 	MODE = "production";
 if (["development", "local", "staging", "production"].indexOf(MODE) === -1)
 	throw new Error(`Unknown mode: ${MODE}`);
@@ -52845,7 +52845,7 @@ const SESSION_SERVER_ENDPOINT = resolveSessionServerEndpoint(),
 		clone() {
 			return new Qi(this.x, this.y, this.z);
 		}
-		static osZVJDuiMTV(u, h) {
+		static DRyNVdKjcXR(u, h) {
 			return { [Symbol.iterator]: () => blockPosIterator(u, h) };
 		}
 	};
@@ -70540,14 +70540,14 @@ class ItemArmor extends Item {
 	constructor(h, p, g, y) {
 		super(h);
 		E(this, "armorType");
-		E(this, "mjWuUrZYzqSeIfQwpa");
+		E(this, "sIQTlKDCCDrvnfOzJP");
 		E(this, "renderIndex");
 		E(this, "material");
 		E(this, "toughness");
 		(this.material = p),
 			(this.armorType = y),
 			(this.renderIndex = g),
-			(this.mjWuUrZYzqSeIfQwpa = p.damageReductionAmount[y]),
+			(this.sIQTlKDCCDrvnfOzJP = p.damageReductionAmount[y]),
 			(this.toughness = p.toughness[y]);
 	}
 	getArmorMaterial() {
@@ -72057,19 +72057,19 @@ const language$2 = {
 			return this.inLava;
 		}
 		isEating() {
-			return this.eXgQCON(4);
+			return this.GUzoAtV(4);
 		}
 		setEating(u) {
-			this.rICwuxa(4, u);
+			this.KZegPQX(4, u);
 		}
 		entityInit() {}
 		getDataWatcher() {
 			return this.dataWatcher;
 		}
-		eXgQCON(u) {
+		GUzoAtV(u) {
 			return (this.dataWatcher.getWatchableObjectByte(0) & (1 << u)) != 0;
 		}
-		rICwuxa(u, h) {
+		KZegPQX(u, h) {
 			const p = this.dataWatcher.getWatchableObjectByte(0);
 			h
 				? this.dataWatcher.updateObject(0, p | (1 << u))
@@ -72286,7 +72286,7 @@ const language$2 = {
 		setCurrentItemOrArmor(u, h) {}
 		isBurning() {
 			const u = this.world != null && this.world.isClient;
-			return this.fire > 0 || (u && this.eXgQCON(0));
+			return this.fire > 0 || (u && this.GUzoAtV(0));
 		}
 		getInventory() {
 			return null;
@@ -72786,19 +72786,19 @@ const language$2 = {
 			return this.pos.distanceToSquared(u.pos);
 		}
 		setSprinting(u) {
-			this.rICwuxa(3, u);
+			this.KZegPQX(3, u);
 		}
 		isSprinting() {
 			return !1;
 		}
-		XzYWQnkeuEG() {
-			return this.eXgQCON(5);
+		YTbObRMsNuB() {
+			return this.GUzoAtV(5);
 		}
-		oadPSHQovvqHeIjCWMG(u) {
-			return this.XzYWQnkeuEG();
+		fWeeBSRwQswrttsiIPQ(u) {
+			return this.YTbObRMsNuB();
 		}
 		setInvisible(u) {
-			this.rICwuxa(5, u);
+			this.KZegPQX(5, u);
 		}
 		entityDropItem(u, h) {
 			if (u.stackSize != 0 && u.getItem() != null) {
@@ -73948,7 +73948,7 @@ const wn = class wn {
 					let x = wn.parsePotionEffects(y, 0, y.length, u);
 					if (x > 0) {
 						let S = 0;
-						const v = wn.gQwBVQgkaaOVCieW.get(g.getId());
+						const v = wn.MpwcRrjIOoVrSqsh.get(g.getId());
 						v != null &&
 							((S = wn.parsePotionEffects(v, 0, v.length, u)),
 							S < 0 && (S = 0)),
@@ -73985,7 +73985,7 @@ E(wn, "field_77924_a", null),
 	E(wn, "pufferfishEffect", "+0-1+2+3+13&4-4"),
 	E(wn, "rabbitFootEffect", "+0+1-2+3&4-4+13"),
 	E(wn, "potionRequirements", new Map()),
-	E(wn, "gQwBVQgkaaOVCieW", new Map()),
+	E(wn, "MpwcRrjIOoVrSqsh", new Map()),
 	E(wn, "DATAVALUE_COLORS", new Map()),
 	E(wn, "potionPrefixes", [
 		"potion.prefix.mundane",
@@ -74266,15 +74266,15 @@ PotionHelper.potionRequirements.set(
 	Potions.jump.getId(),
 	"0 & 1 & !2 & 3 & 3+6",
 );
-PotionHelper.gQwBVQgkaaOVCieW.set(Potions.moveSpeed.getId(), "5");
-PotionHelper.gQwBVQgkaaOVCieW.set(Potions.digSpeed.getId(), "5");
-PotionHelper.gQwBVQgkaaOVCieW.set(Potions.damageBoost.getId(), "5");
-PotionHelper.gQwBVQgkaaOVCieW.set(Potions.regeneration.getId(), "5");
-PotionHelper.gQwBVQgkaaOVCieW.set(Potions.harm.getId(), "5");
-PotionHelper.gQwBVQgkaaOVCieW.set(Potions.heal.getId(), "5");
-PotionHelper.gQwBVQgkaaOVCieW.set(Potions.resistance.getId(), "5");
-PotionHelper.gQwBVQgkaaOVCieW.set(Potions.poison.getId(), "5");
-PotionHelper.gQwBVQgkaaOVCieW.set(Potions.jump.getId(), "5");
+PotionHelper.MpwcRrjIOoVrSqsh.set(Potions.moveSpeed.getId(), "5");
+PotionHelper.MpwcRrjIOoVrSqsh.set(Potions.digSpeed.getId(), "5");
+PotionHelper.MpwcRrjIOoVrSqsh.set(Potions.damageBoost.getId(), "5");
+PotionHelper.MpwcRrjIOoVrSqsh.set(Potions.regeneration.getId(), "5");
+PotionHelper.MpwcRrjIOoVrSqsh.set(Potions.harm.getId(), "5");
+PotionHelper.MpwcRrjIOoVrSqsh.set(Potions.heal.getId(), "5");
+PotionHelper.MpwcRrjIOoVrSqsh.set(Potions.resistance.getId(), "5");
+PotionHelper.MpwcRrjIOoVrSqsh.set(Potions.poison.getId(), "5");
+PotionHelper.MpwcRrjIOoVrSqsh.set(Potions.jump.getId(), "5");
 const Ys = class Ys extends Entity {
 	constructor(h) {
 		super(h);
@@ -74283,8 +74283,8 @@ const Ys = class Ys extends Entity {
 		E(this, "jumpTicks", 0);
 		E(this, "initialJumpVelocity", 0.42);
 		E(this, "jumpMovementFactor");
-		E(this, "QpyyHWoRtn", 0);
-		E(this, "xQrBJjLHwmI", 0);
+		E(this, "axGtHwbyAL", 0);
+		E(this, "QcQtdtqlQMO", 0);
 		E(this, "prevLimbSwingAmount", 0);
 		E(this, "limbSwingAmount", 0);
 		E(this, "limbSwing", 0);
@@ -74655,7 +74655,7 @@ const Ys = class Ys extends Entity {
 			Math.abs(this.motion.y) < 0.005 && (this.motion.y = 0),
 			Math.abs(this.motion.z) < 0.005 && (this.motion.z = 0),
 			this.isMovementBlocked()
-				? ((this.jumping = !1), (this.QpyyHWoRtn = 0), (this.xQrBJjLHwmI = 0))
+				? ((this.jumping = !1), (this.axGtHwbyAL = 0), (this.QcQtdtqlQMO = 0))
 				: this.isServerWorld() && this.updateEntityActionState(),
 			this.jumping
 				? this.inWater
@@ -74667,8 +74667,8 @@ const Ys = class Ys extends Entity {
 							(this.jump(), (this.jumpTicks = 10))
 				: (this.jumpTicks = 0),
 			this.isRiding() ||
-				((this.QpyyHWoRtn *= 0.98), (this.xQrBJjLHwmI *= 0.98)),
-			this.moveEntityWithHeading(this.QpyyHWoRtn, this.xQrBJjLHwmI),
+				((this.axGtHwbyAL *= 0.98), (this.QcQtdtqlQMO *= 0.98)),
+			this.moveEntityWithHeading(this.axGtHwbyAL, this.QcQtdtqlQMO),
 			this.world.isServer &&
 				this.doEntityCollision &&
 				this.collideWithNearbyEntities();
@@ -74751,7 +74751,7 @@ const Ys = class Ys extends Entity {
 		for (const p of this.getInventory()) {
 			const g = p.getItem();
 			if (p != null && g instanceof ItemArmor) {
-				const y = g.mjWuUrZYzqSeIfQwpa;
+				const y = g.sIQTlKDCCDrvnfOzJP;
 				h += y;
 			}
 		}
@@ -74769,7 +74769,7 @@ const Ys = class Ys extends Entity {
 				if (!x) continue;
 				const S = x.item;
 				S instanceof ItemArmor &&
-					((g += S.mjWuUrZYzqSeIfQwpa), (y += S.toughness || 0));
+					((g += S.sIQTlKDCCDrvnfOzJP), (y += S.toughness || 0));
 			}
 			p = p * (1 - Math.min(20, Math.max(g / 5, g - (4 * p) / (y + 8))) / 25);
 		}
@@ -75115,7 +75115,7 @@ const Ys = class Ys extends Entity {
 		if (p > 0) {
 			let y = !1;
 			if (
-				(this.XzYWQnkeuEG()
+				(this.YTbObRMsNuB()
 					? (y = randomInt(15) == 0)
 					: (y = Math.random() > 0.5),
 				y && p > 0)
@@ -120283,7 +120283,7 @@ class PathNavigateGround extends PathNavigate {
 		} else return !1;
 	}
 	isPositionClear(h, p, g, y, x, S, v, b, w) {
-		for (const k of BlockPos.osZVJDuiMTV(
+		for (const k of BlockPos.DRyNVdKjcXR(
 			new BlockPos(h, p, g),
 			new BlockPos(h + y - 1, p + x - 1, g + S - 1),
 		)) {
@@ -120791,7 +120791,7 @@ class EntityLiving extends EntityLivingBase {
 		}
 	}
 	setMoveForward(h) {
-		this.xQrBJjLHwmI = h;
+		this.QcQtdtqlQMO = h;
 	}
 	setAIMoveSpeed(h) {
 		super.setAIMoveSpeed(h), this.setMoveForward(h);
@@ -121778,7 +121778,7 @@ const di = class di {
 		return this.getBlock(u).isAir();
 	}
 	areaPassesCheck(u, h, p) {
-		for (const g of BlockPos.osZVJDuiMTV(u, h))
+		for (const g of BlockPos.DRyNVdKjcXR(u, h))
 			if (!p(this.getBlock(g))) return !1;
 		return !0;
 	}
@@ -125037,9 +125037,9 @@ const Ed = class Ed extends EntityLivingBase {
 				: (this.motion.x = this.motion.z = 0);
 	}
 	isSprinting() {
-		return this.eXgQCON(3);
+		return this.GUzoAtV(3);
 	}
-	jeAOSTZCeUHsbovCzYJwyCaANcWRccxlW(h) {
+	fKOmYWnlldbtuTtguHZRZVpSwVLdjZbPe(h) {
 		var x, S;
 		if (
 			(h instanceof Ed && this.team && !this.team.canAttack(h.team)) ||
@@ -125158,15 +125158,15 @@ const Ed = class Ed extends EntityLivingBase {
 			g.dead || (g.id != this.id && g.onCollideWithPlayer(this));
 	}
 	applyInput(h, p = !1) {
-		(this.QpyyHWoRtn = (h.right ? 1 : 0) + (h.left ? -1 : 0)),
-			(this.xQrBJjLHwmI = (h.up ? -1 : 0) + (h.down ? 1 : 0)),
+		(this.axGtHwbyAL = (h.right ? 1 : 0) + (h.left ? -1 : 0)),
+			(this.QcQtdtqlQMO = (h.up ? -1 : 0) + (h.down ? 1 : 0)),
 			(this.yaw = h.yaw),
 			(this.pitch = h.pitch),
 			(this.jumping = h.jump),
-			h.sneak && ((this.QpyyHWoRtn *= 0.3), (this.xQrBJjLHwmI *= 0.3)),
+			h.sneak && ((this.axGtHwbyAL *= 0.3), (this.QcQtdtqlQMO *= 0.3)),
 			h.usingItem &&
 				!this.isRiding() &&
-				((this.QpyyHWoRtn *= 0.2), (this.xQrBJjLHwmI *= 0.2)),
+				((this.axGtHwbyAL *= 0.2), (this.QcQtdtqlQMO *= 0.2)),
 			this.onPlayerUpdate(),
 			this.setPositionAndRotation(
 				this.pos.x,
@@ -128879,7 +128879,7 @@ const Nl = class Nl extends Item {
 };
 E(Nl, "SUB_ITEMS_CACHE", new Map());
 let ItemPotion = Nl;
-function cDOeOdgRjyYjWdnPAEDmpP(m) {
+function tEFuIRCELooKEhnGoCraaL(m) {
 	return (
 		(m = m % (2 * Math.PI)),
 		m >= Math.PI && (m -= 2 * Math.PI),
@@ -129063,7 +129063,7 @@ class EntityBoat extends Entity {
 					C =
 						this.pos.z +
 						(this.boatZ - this.pos.z) / this.boatPosRotationIncrements,
-					A = cDOeOdgRjyYjWdnPAEDmpP(this.boatYaw - this.yaw);
+					A = tEFuIRCELooKEhnGoCraaL(this.boatYaw - this.yaw);
 				(this.yaw += A / this.boatPosRotationIncrements),
 					(this.pitch +=
 						(this.boatPitch - this.pitch) / this.boatPosRotationIncrements),
@@ -129094,11 +129094,11 @@ class EntityBoat extends Entity {
 		} else this.motion.y < 0 && (this.motion.y /= 2), (this.motion.y += 0.007);
 		if (this.riddenByEntity instanceof EntityLivingBase) {
 			const k = this.riddenByEntity,
-				T = k.yaw - Math.PI / 2 + (-k.QpyyHWoRtn * Math.PI) / 2;
+				T = k.yaw - Math.PI / 2 + (-k.axGtHwbyAL * Math.PI) / 2;
 			(this.motion.x +=
-				Math.cos(T) * this.speedMultiplier * k.xQrBJjLHwmI * 0.05),
+				Math.cos(T) * this.speedMultiplier * k.QcQtdtqlQMO * 0.05),
 				(this.motion.z +=
-					-Math.sin(T) * this.speedMultiplier * k.xQrBJjLHwmI * 0.05);
+					-Math.sin(T) * this.speedMultiplier * k.QcQtdtqlQMO * 0.05);
 		}
 		let y = Math.sqrt(
 			this.motion.x * this.motion.x + this.motion.z * this.motion.z,
@@ -129136,7 +129136,7 @@ class EntityBoat extends Entity {
 		const S = this.prevPos.x - this.pos.x,
 			v = this.prevPos.z - this.pos.z;
 		S * S + v * v > 0.001 && (x = Math.atan2(S, v) - Math.PI / 2);
-		let b = cDOeOdgRjyYjWdnPAEDmpP(x - this.yaw);
+		let b = tEFuIRCELooKEhnGoCraaL(x - this.yaw);
 		const w = degToRad(20);
 		b > w && (b = w),
 			b < -w && (b = -w),
@@ -129539,9 +129539,9 @@ class EntityMinecart extends Entity {
 	}
 	applyRiderInput(h, p) {
 		const g = this.riddenByEntity;
-		if (!(g instanceof EntityLivingBase) || g.xQrBJjLHwmI === 0) return;
+		if (!(g instanceof EntityLivingBase) || g.QcQtdtqlQMO === 0) return;
 		const y = g.getLook(),
-			x = -Math.sign(g.xQrBJjLHwmI),
+			x = -Math.sign(g.QcQtdtqlQMO),
 			S = y.x * h + y.z * p >= 0 ? 1 : -1,
 			v = x * S,
 			b = this.motion.x * h + this.motion.z * p;
@@ -135275,7 +135275,7 @@ class BlockHellPortal extends Block {
 				if (z) continue;
 				const D = { x: "z", z: "x", y: "y" },
 					F = Blocks.hell_portal.defaultState.withState("axis", D[y.name]);
-				for (const O of BlockPos.osZVJDuiMTV(A, I)) h.setBlockState(O, F, 2);
+				for (const O of BlockPos.DRyNVdKjcXR(A, I)) h.setBlockState(O, F, 2);
 			}
 	}
 	onEntityCollidedWithBlock(h, p, g) {
@@ -172177,8 +172177,8 @@ const zl = class zl extends Message {
 		E(this, "sneak");
 		E(this, "sprinting");
 		E(this, "punching");
-		E(this, "QpyyHWoRtn");
-		E(this, "xQrBJjLHwmI");
+		E(this, "axGtHwbyAL");
+		E(this, "QcQtdtqlQMO");
 		E(this, "fire");
 		E(this, "stopSleeping");
 		proto2.util.initPartial(h, this);
@@ -172206,8 +172206,8 @@ E(zl, "runtime", proto2),
 			{ no: 2, name: "sneak", kind: "scalar", T: 8, opt: !0 },
 			{ no: 3, name: "sprinting", kind: "scalar", T: 8, opt: !0 },
 			{ no: 4, name: "punching", kind: "scalar", T: 8, opt: !0 },
-			{ no: 5, name: "QpyyHWoRtn", kind: "scalar", T: 2, opt: !0 },
-			{ no: 6, name: "xQrBJjLHwmI", kind: "scalar", T: 2, opt: !0 },
+			{ no: 5, name: "axGtHwbyAL", kind: "scalar", T: 2, opt: !0 },
+			{ no: 6, name: "QcQtdtqlQMO", kind: "scalar", T: 2, opt: !0 },
 			{ no: 20, name: "fire", kind: "scalar", T: 5, opt: !0 },
 			{ no: 21, name: "stopSleeping", kind: "scalar", T: 8, opt: !0 },
 		]),
@@ -196450,7 +196450,7 @@ class ClientDecoder extends Decoder$1 {
 		if (!!ClientSocket.useDecodeWorker)
 			try {
 				(this.worker = new Worker(
-					new URL("/assets/NetworkDecodeWorker-UGKVWLQ1.js", import.meta.url),
+					new URL("/assets/NetworkDecodeWorker-CDdcm2Yo.js", import.meta.url),
 					{ type: "module" },
 				)),
 					(this.worker.onmessage = (h) => {
@@ -196770,7 +196770,7 @@ class PointerLockControls {
 	get camera() {
 		return this.yawObject;
 	}
-	get IJfxPG() {
+	get rQJAnk() {
 		return this.camera.position;
 	}
 }
@@ -198292,7 +198292,7 @@ class PlayerController {
 				? !1
 				: ((u.inventory.main[u.inventory.currentItem] = y), !0);
 	}
-	nJosJJAjIWJ(u, h, p, g, y) {
+	jBFurwCzrzZ(u, h, p, g, y) {
 		const x = y.openContainer.getNextTransactionID(y.inventory),
 			S = y.openContainer.slotClick(h, p, g, y);
 		return (
@@ -198394,7 +198394,7 @@ class PlayerController {
 					sequence: player.inputSequenceNumber,
 				}),
 			),
-			player.jeAOSTZCeUHsbovCzYJwyCaANcWRccxlW(u);
+			player.fKOmYWnlldbtuTtguHZRZVpSwVLdjZbPe(u);
 	}
 	interactWithEntitySendPacket(u, h) {
 		return h
@@ -201521,6 +201521,18 @@ const ci = class ci {
 			(this.fogPass = new VolumetricFogPass()),
 			(this.fogPass.enabled = !1),
 			this.composer.insertPass(this.fogPass, 1),
+			Options.godRays.onChange((y) => {
+				y && this.warmPasses([this.godRaysPass.material]);
+			}),
+			Options.bloom.onChange((y) => {
+				y > 0 && this.warmPasses(this.bloomPass.warmupMaterials);
+			}),
+			Options.eyeAdaptation.onChange((y) => {
+				y > 0 && this.warmPasses(this.eyeAdaptationPass.warmupMaterials);
+			}),
+			Options.volumetricFog.onChange((y) => {
+				y && this.warmPasses(this.fogPass.warmupMaterials);
+			}),
 			document
 				.getElementById("canvas-holder")
 				.appendChild(this.renderer.domElement),
@@ -201645,19 +201657,26 @@ ${new Error().stack ?? ""}`);
 			b = (K) => {
 				K && v.push(K);
 			};
-		b((N = this.colorPass) == null ? void 0 : N.material),
-			b((z = this.godRaysPass) == null ? void 0 : z.material);
-		for (const K of ((D = this.bloomPass) == null
-			? void 0
-			: D.warmupMaterials) ?? [])
-			b(K);
-		for (const K of ((F = this.eyeAdaptationPass) == null
-			? void 0
-			: F.warmupMaterials) ?? [])
-			b(K);
-		for (const K of ((O = this.fogPass) == null ? void 0 : O.warmupMaterials) ??
-			[])
-			b(K);
+		if (
+			(b((N = this.colorPass) == null ? void 0 : N.material),
+			Options.godRays.value &&
+				b((z = this.godRaysPass) == null ? void 0 : z.material),
+			Options.bloom.value > 0)
+		)
+			for (const K of ((D = this.bloomPass) == null
+				? void 0
+				: D.warmupMaterials) ?? [])
+				b(K);
+		if (Options.eyeAdaptation.value > 0)
+			for (const K of ((F = this.eyeAdaptationPass) == null
+				? void 0
+				: F.warmupMaterials) ?? [])
+				b(K);
+		if (Options.volumetricFog.value)
+			for (const K of ((O = this.fogPass) == null
+				? void 0
+				: O.warmupMaterials) ?? [])
+				b(K);
 		const w = new Group(),
 			k = new PlaneGeometry(2, 2);
 		for (const K of v) w.add(new Mesh(k, K));
@@ -201669,9 +201688,10 @@ ${new Error().stack ?? ""}`);
 			const K = u.compileAsync(g, p);
 			y.sunlight.castShadow = !1;
 			const Z = u.compileAsync(x, p, g);
-			y.sunlight.castShadow = !0;
-			const ee = u.compileAsync(x, p, g),
-				fe =
+			let ee = Promise.resolve(void 0);
+			Options.shadowsEnabled() &&
+				((y.sunlight.castShadow = !0), (ee = u.compileAsync(x, p, g)));
+			const fe =
 					w.children.length > 0
 						? u.compileAsync(w, p)
 						: Promise.resolve(void 0),
@@ -201679,7 +201699,7 @@ ${new Error().stack ?? ""}`);
 					I = !1;
 				}),
 				ce = new Promise((ue) => setTimeout(ue, 8e3));
-			await Promise.race([oe, ce]);
+			await Promise.race([oe, ce]), this.touchProgramIntrospection();
 		} catch (K) {
 			Ulog.warn("Shader prewarm failed (will link lazily on first draw)", K);
 		} finally {
@@ -201695,6 +201715,39 @@ ${new Error().stack ?? ""}`);
 		Ulog.info(
 			`[shader] prewarm done in ${(performance.now() - T).toFixed(0)}ms; warmed scene + ${x.children.length} world + ${v.length} pass materials; programs ${C} → ${R}; timedOut=${I}`,
 		);
+	}
+	static touchProgramIntrospection() {
+		var h, p;
+		const u = this.renderer.info.programs ?? [];
+		for (const g of u)
+			try {
+				(h = g.getUniforms) == null || h.call(g),
+					(p = g.getAttributes) == null || p.call(g);
+			} catch {}
+	}
+	static async warmPasses(u) {
+		var y;
+		const h = u.filter((x) => !!x);
+		if (
+			h.length === 0 ||
+			!this.renderer ||
+			!((y = this.game) != null && y.gameScene)
+		)
+			return;
+		const p = new Group(),
+			g = new PlaneGeometry(2, 2);
+		for (const x of h) p.add(new Mesh(g, x));
+		try {
+			await this.renderer.compileAsync(p, this.game.gameScene.camera),
+				this.touchProgramIntrospection();
+		} catch (x) {
+			Ulog.warn(
+				"Shader warm-on-enable failed (will link lazily on first draw)",
+				x,
+			);
+		} finally {
+			g.dispose();
+		}
 	}
 	static render() {
 		var A, I;
@@ -202926,7 +202979,7 @@ class GuiContainer extends GuiScreen {
 	}
 	handleMouseClick(h, p, g, y) {
 		h != null && (p = h.slotNumber),
-			playerController.nJosJJAjIWJ(
+			playerController.jBFurwCzrzZ(
 				this.inventorySlots.windowId,
 				p,
 				g,
@@ -204331,7 +204384,7 @@ class SlimeMoveHelper extends EntityMoveHelper {
 											this.slime.getSoundVolume(),
 											((Math.random() - Math.random()) * 0.2 + 1) * 0.8,
 										))
-								: ((this.slime.QpyyHWoRtn = this.slime.xQrBJjLHwmI = 0),
+								: ((this.slime.axGtHwbyAL = this.slime.QcQtdtqlQMO = 0),
 									this.entity.setAIMoveSpeed(0)))
 						: this.entity.setAIMoveSpeed(
 								this.speed *
@@ -207620,7 +207673,7 @@ class EntityManager {
 		for (const h of game.world.playersIterator()) {
 			if (h.id == player.id) continue;
 			const p = this.shouldRenderEntity(h, !0),
-				g = p && h.oadPSHQovvqHeIjCWMG(player);
+				g = p && h.fWeeBSRwQswrttsiIPQ(player);
 			(h.mesh.visible = p), h.mesh.setRenderArmorOnly(g);
 			const y = !g && !u && !h.mesh.usesFastLOD();
 			h.mesh.hatMesh && (h.mesh.hatMesh.visible = y),
@@ -207633,7 +207686,7 @@ class EntityManager {
 			this.hidePlayers ||
 			(_blockPos.set(u.pos.x, u.pos.y, u.pos.z),
 			!u.world.isBlockLoaded(_blockPos)) ||
-			(!h && u.oadPSHQovvqHeIjCWMG(player)) ||
+			(!h && u.fWeeBSRwQswrttsiIPQ(player)) ||
 			(u instanceof EntityPlayer && u.isSpectator() && !player.isSpectator())
 		)
 			return !1;
@@ -208224,7 +208277,7 @@ class PlayerMovement extends EntityPlayer {
 		(this.pendingInputs = []), this.predictedPositions.clear();
 	}
 	updatePlayerMoveState() {
-		(this.QpyyHWoRtn = 0), (this.xQrBJjLHwmI = 0);
+		(this.axGtHwbyAL = 0), (this.QcQtdtqlQMO = 0);
 		const h =
 				keyPressedPlayer("d") ||
 				keyPressedPlayer("right") ||
@@ -208341,7 +208394,7 @@ class PlayerMovement extends EntityPlayer {
 		const g = this.jumping,
 			y = this.sneak,
 			x = -0.8,
-			S = this.xQrBJjLHwmI <= x;
+			S = this.QcQtdtqlQMO <= x;
 		this.isUsingItem() &&
 			!this.isRiding() &&
 			this.isSprinting() &&
@@ -208374,7 +208427,7 @@ class PlayerMovement extends EntityPlayer {
 		this.onGround &&
 			!y &&
 			!S &&
-			this.xQrBJjLHwmI <= x &&
+			this.QcQtdtqlQMO <= x &&
 			!this.isSprinting() &&
 			b &&
 			!this.isUsingItem() &&
@@ -208382,13 +208435,13 @@ class PlayerMovement extends EntityPlayer {
 				? (this.sprintToggleTimer = 7)
 				: this.setSprinting(!0)),
 			!this.isSprinting() &&
-				this.xQrBJjLHwmI <= x &&
+				this.QcQtdtqlQMO <= x &&
 				b &&
 				!this.isUsingItem() &&
 				w &&
 				this.setSprinting(!0),
 			this.isSprinting() &&
-				(this.xQrBJjLHwmI > x || this.isCollidedHorizontally || !b) &&
+				(this.QcQtdtqlQMO > x || this.isCollidedHorizontally || !b) &&
 				this.setSprinting(!1),
 			this.flyToggleTimer > 0 && this.flyToggleTimer--,
 			this.abilities.mayFly &&
@@ -208424,7 +208477,7 @@ class PlayerMovement extends EntityPlayer {
 						.translate(new Vector3$1(0, 1, 0))
 						.expandByVector(new Vector3$1(0.15, -0.1, 0.15)),
 				);
-			T.length > 0 && C.length <= 0 && this.xQrBJjLHwmI < 0
+			T.length > 0 && C.length <= 0 && this.QcQtdtqlQMO < 0
 				? (this.jumping = !0)
 				: (this.jumping = !1);
 		}
@@ -208453,14 +208506,14 @@ class PlayerMovement extends EntityPlayer {
 		let p = h.up();
 		for (; p.y < 256; ) {
 			if (!game.world.getBlockState(p).getBlock().equals(Blocks.water))
-				return p.y - controls.IJfxPG.y;
+				return p.y - controls.rQJAnk.y;
 			p = p.up();
 		}
-		return 256 - controls.IJfxPG.y;
+		return 256 - controls.rQJAnk.y;
 	}
 	checkHeadInBlock() {
 		player.headInBlock = null;
-		const h = BlockPos.fromVector(controls.IJfxPG),
+		const h = BlockPos.fromVector(controls.rQJAnk),
 			p = game.world.getBlockState(h),
 			g = p.getBlock();
 		g.setBlockBoundsBasedOnState(game.world, h);
@@ -208604,7 +208657,7 @@ const _camPos = new Vector3$1(),
 			for (const y of player.inventory.armor)
 				y &&
 					y.item instanceof ItemArmor &&
-					(p += y.item.mjWuUrZYzqSeIfQwpa || 0);
+					(p += y.item.sIQTlKDCCDrvnfOzJP || 0);
 			const g = this.world.getPlayerById(this.id);
 			p !== this.prevDefencePoints &&
 				((this.prevDefencePoints = p),
@@ -208709,8 +208762,8 @@ const _camPos = new Vector3$1(),
 					this.game.gameScene.camera.getWorldPosition(_camPos);
 				const x = _camDir;
 				this.game.gameScene.camera.getWorldDirection(x), x.negate();
-				const S = controls.IJfxPG,
-					v = _camEnd.copy(controls.IJfxPG).add(x.multiplyScalar(y)),
+				const S = controls.rQJAnk,
+					v = _camEnd.copy(controls.rQJAnk).add(x.multiplyScalar(y)),
 					b = rayTraceBlocks(S, v, !1, !0, !0, this.game.world);
 				if (b) {
 					const w = S.distanceTo(b.hitVec);
@@ -208856,13 +208909,13 @@ const _camPos = new Vector3$1(),
 					((player.serverPunchState = player.punching),
 					(h.punching = player.punching),
 					(p = !0)),
-				player.QpyyHWoRtn !== player.serverMoveStrafe &&
-					((player.serverMoveStrafe = player.QpyyHWoRtn),
-					(h.QpyyHWoRtn = player.QpyyHWoRtn),
+				player.axGtHwbyAL !== player.serverMoveStrafe &&
+					((player.serverMoveStrafe = player.axGtHwbyAL),
+					(h.axGtHwbyAL = player.axGtHwbyAL),
 					(p = !0)),
-				player.xQrBJjLHwmI !== player.serverMoveForward &&
-					((player.serverMoveForward = player.xQrBJjLHwmI),
-					(h.xQrBJjLHwmI = player.xQrBJjLHwmI),
+				player.QcQtdtqlQMO !== player.serverMoveForward &&
+					((player.serverMoveForward = player.QcQtdtqlQMO),
+					(h.QcQtdtqlQMO = player.QcQtdtqlQMO),
 					(p = !0)),
 				p && ClientSocket.sendPacket(new SPacketEntityAction(h));
 		}
@@ -208918,8 +208971,8 @@ const _camPos = new Vector3$1(),
 					));
 		}
 		getMoveDirection(h) {
-			let p = this.QpyyHWoRtn,
-				g = this.xQrBJjLHwmI,
+			let p = this.axGtHwbyAL,
+				g = this.QcQtdtqlQMO,
 				y = p * p + g * g;
 			if (y >= 1e-4) {
 				(y = Math.sqrt(y)),
@@ -208946,7 +208999,7 @@ const _camPos = new Vector3$1(),
 				this.updateSelfShadow());
 		}
 		updateSoundOrientation() {
-			const h = controls.IJfxPG;
+			const h = controls.rQJAnk;
 			isFinite(h.x) &&
 				isFinite(h.y) &&
 				isFinite(h.z) &&
@@ -208961,7 +209014,7 @@ const _camPos = new Vector3$1(),
 				);
 		}
 		getEyePos() {
-			return controls.IJfxPG;
+			return controls.rQJAnk;
 		}
 		attackEntityFrom(h, p) {
 			return !1;
@@ -224994,7 +225047,7 @@ class ChunkRenderQueue {
 	}
 }
 function WorkerWrapper(m) {
-	return new Worker("/assets/ChunkRenderWorker-Bap2tijX.js", {
+	return new Worker("/assets/ChunkRenderWorker-INeqLvQU.js", {
 		type: "module",
 		name: m == null ? void 0 : m.name,
 	});
@@ -246521,7 +246574,7 @@ function lazyWithRetry(m) {
 	);
 }
 const QuickLaunchModal = lazyWithRetry(() =>
-		__vitePreload(() => import("./index-J4bYI0_o.js"), __vite__mapDeps([0, 1])),
+		__vitePreload(() => import("./index-C91vRmaT.js"), __vite__mapDeps([0, 1])),
 	),
 	titles = [title],
 	randomTitle = [title][Math.floor(Math.random() * titles.length)],
@@ -255914,36 +255967,36 @@ const Banner = ({ accent: m, onClose: u, children: h }) =>
 	},
 	GuiHud = lazyWithRetry(() =>
 		__vitePreload(
-			() => import("./GuiHud-CeXhUCul.js"),
+			() => import("./GuiHud-o7QiYzSY.js"),
 			__vite__mapDeps([2, 1]),
 		),
 	),
 	ReferralInvite = lazyWithRetry(() =>
-		__vitePreload(() => import("./ReferralInvite-CV7OBs7r.js"), []),
+		__vitePreload(() => import("./ReferralInvite-CLP-KUc0.js"), []),
 	),
 	InfoScreen = lazyWithRetry(() =>
 		__vitePreload(() => Promise.resolve().then(() => InfoScreen$2), void 0),
 	),
 	DirectConnect = lazyWithRetry(() =>
-		__vitePreload(() => import("./DirectConnect-BwONQ0MP.js"), []),
+		__vitePreload(() => import("./DirectConnect-Ba2LXRmw.js"), []),
 	),
 	EULA = lazyWithRetry(() =>
-		__vitePreload(() => import("./EULA-CVK1VJyz.js"), []),
+		__vitePreload(() => import("./EULA-BPqw-Jwj.js"), []),
 	),
 	Privacy = lazyWithRetry(() =>
-		__vitePreload(() => import("./Privacy-COWLh1SG.js"), []),
+		__vitePreload(() => import("./Privacy-CEWvrOPV.js"), []),
 	),
 	Referral = lazyWithRetry(() =>
 		__vitePreload(() => Promise.resolve().then(() => index), void 0),
 	),
 	ReportPlayer = lazyWithRetry(() =>
-		__vitePreload(() => import("./ReportPlayer-3bGqsb84.js"), []),
+		__vitePreload(() => import("./ReportPlayer-BAIW5G7C.js"), []),
 	),
 	Rules = lazyWithRetry(() =>
-		__vitePreload(() => import("./Rules-B0KPp4lm.js"), []),
+		__vitePreload(() => import("./Rules-SkzKl-bS.js"), []),
 	),
 	Tutorial = lazyWithRetry(() =>
-		__vitePreload(() => import("./Tutorial-BiNaMhyC.js"), []),
+		__vitePreload(() => import("./Tutorial-ChLJGrtN.js"), []),
 	),
 	HookIntoReactRender = () => (
 		ReactInterface.useMountHooks(), jsxRuntimeExports.jsx(Outlet, {})
@@ -258188,4 +258241,4 @@ export {
 	ModalBody as y,
 	GuiText as z,
 };
-//# sourceMappingURL=index-BUTlj9Ql.js.map
+//# sourceMappingURL=index-B84c-aZu.js.map

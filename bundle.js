@@ -3,9 +3,9 @@ const __vite__mapDeps = (
 	m = __vite__mapDeps,
 	d = m.f ||
 		(m.f = [
-			"assets/index-J4bYI0_o.js",
-			"assets/ChoiceRow-B4MTaMD3.js",
-			"assets/GuiHud-CeXhUCul.js",
+			"assets/index-C91vRmaT.js",
+			"assets/ChoiceRow-Dv5zRKeV.js",
+			"assets/GuiHud-o7QiYzSY.js",
 		]),
 ) => i.map((i) => d[i]);
 var Uy = Object.defineProperty;
@@ -28770,7 +28770,7 @@ class Triangle {
 		return u.a.equals(this.a) && u.b.equals(this.b) && u.c.equals(this.c);
 	}
 }
-class Nczb {
+class cnAT {
 	constructor(
 		u = new Vector3$1(1 / 0, 1 / 0, 1 / 0),
 		h = new Vector3$1(-1 / 0, -1 / 0, -1 / 0),
@@ -29035,7 +29035,7 @@ const _points = [
 		new Vector3$1(),
 	],
 	_vector$b = new Vector3$1(),
-	_box$4 = new Nczb(),
+	_box$4 = new cnAT(),
 	_v0$1 = new Vector3$1(),
 	_v1$4 = new Vector3$1(),
 	_v2$3 = new Vector3$1(),
@@ -29288,7 +29288,7 @@ class Float32BufferAttribute extends BufferAttribute {
 		super(new Float32Array(u), h, p);
 	}
 }
-const _box$3 = new Nczb(),
+const _box$3 = new cnAT(),
 	_v1$3 = new Vector3$1(),
 	_v2$2 = new Vector3$1();
 class Sphere {
@@ -29396,8 +29396,8 @@ let _id$1 = 0;
 const _m1$3 = new Matrix4(),
 	_obj = new Object3D(),
 	_offset$1 = new Vector3$1(),
-	_box$2 = new Nczb(),
-	_boxMorphTargets = new Nczb(),
+	_box$2 = new cnAT(),
+	_boxMorphTargets = new cnAT(),
 	_vector$9 = new Vector3$1();
 class BufferGeometry extends EventDispatcher {
 	constructor() {
@@ -29530,7 +29530,7 @@ class BufferGeometry extends EventDispatcher {
 		return this;
 	}
 	computeBoundingBox() {
-		this.boundingBox === null && (this.boundingBox = new Nczb());
+		this.boundingBox === null && (this.boundingBox = new cnAT());
 		const u = this.attributes.position,
 			h = this.morphAttributes.position;
 		if (u && u.isGLBufferAttribute) {
@@ -31227,7 +31227,7 @@ class SkinnedMesh extends Mesh {
 	}
 	computeBoundingBox() {
 		const u = this.geometry;
-		this.boundingBox === null && (this.boundingBox = new Nczb()),
+		this.boundingBox === null && (this.boundingBox = new cnAT()),
 			this.boundingBox.makeEmpty();
 		const h = u.getAttribute("position");
 		for (let p = 0; p < h.count; p++)
@@ -31499,7 +31499,7 @@ class InstancedBufferAttribute extends BufferAttribute {
 const _instanceLocalMatrix = new Matrix4(),
 	_instanceWorldMatrix = new Matrix4(),
 	_instanceIntersects = [],
-	_box3 = new Nczb(),
+	_box3 = new cnAT(),
 	_identity$1 = new Matrix4(),
 	_mesh$1 = new Mesh(),
 	_sphere$4 = new Sphere();
@@ -31522,7 +31522,7 @@ class InstancedMesh extends Mesh {
 	computeBoundingBox() {
 		const u = this.geometry,
 			h = this.count;
-		this.boundingBox === null && (this.boundingBox = new Nczb()),
+		this.boundingBox === null && (this.boundingBox = new cnAT()),
 			u.boundingBox === null && u.computeBoundingBox(),
 			this.boundingBox.makeEmpty();
 		for (let p = 0; p < h; p++)
@@ -32247,10 +32247,10 @@ class ExternalTexture extends Texture {
 		return super.copy(u), (this.sourceTexture = u.sourceTexture), this;
 	}
 }
-class VLPHiLunwEu extends BufferGeometry {
+class jroyJZkOzas extends BufferGeometry {
 	constructor(u = 1, h = 1, p = 1, g = 1, y = 1, x = 1) {
 		super(),
-			(this.type = "VLPHiLunwEu"),
+			(this.type = "jroyJZkOzas"),
 			(this.parameters = {
 				width: u,
 				height: h,
@@ -32322,7 +32322,7 @@ class VLPHiLunwEu extends BufferGeometry {
 		);
 	}
 	static fromJSON(u) {
-		return new VLPHiLunwEu(
+		return new jroyJZkOzas(
 			u.width,
 			u.height,
 			u.depth,
@@ -41793,7 +41793,7 @@ function WebGLBackground(m, u, h, p, g, y) {
 		D && (D.isCubeTexture || D.mapping === CubeUVReflectionMapping)
 			? (b === void 0 &&
 					((b = new Mesh(
-						new VLPHiLunwEu(1, 1, 1),
+						new jroyJZkOzas(1, 1, 1),
 						new ShaderMaterial({
 							name: "BackgroundCubeMaterial",
 							uniforms: cloneUniforms(ShaderLib.backgroundCube.uniforms),
@@ -42532,7 +42532,7 @@ class PMREMGenerator {
 				(k.setRenderTarget(g), k.clearDepth(), k.setRenderTarget(null)),
 			this._backgroundBox === null &&
 				(this._backgroundBox = new Mesh(
-					new VLPHiLunwEu(),
+					new jroyJZkOzas(),
 					new MeshBasicMaterial({
 						name: "PMREM.Background",
 						side: BackSide,
@@ -43131,7 +43131,7 @@ class WebGLCubeRenderTarget extends WebGLRenderTarget {
 				}
 			`,
 			},
-			g = new VLPHiLunwEu(5, 5, 5),
+			g = new jroyJZkOzas(5, 5, 5),
 			y = new ShaderMaterial({
 				name: "CubemapFromEquirect",
 				uniforms: cloneUniforms(p.uniforms),
@@ -52046,7 +52046,7 @@ const INTRP_ALPHA = 0.1,
 	},
 	MSPT = 50,
 	MB$1 = 1024 * 1024,
-	VERSION$1 = "3.44.21",
+	VERSION$1 = "3.44.22",
 	MODE = "production";
 if (["development", "local", "staging", "production"].indexOf(MODE) === -1)
 	throw new Error(`Unknown mode: ${MODE}`);
@@ -52771,7 +52771,7 @@ const SESSION_SERVER_ENDPOINT = resolveSessionServerEndpoint(),
 			return new Qi(u.pos.x, u.pos.y, u.pos.z);
 		}
 		toAABB() {
-			return new Nczb().setFromCenterAndSize(
+			return new cnAT().setFromCenterAndSize(
 				new Vector3$1(this.x + 0.5, this.y + 0.5, this.z + 0.5),
 				new Vector3$1(0.5, 0.5, 0.5),
 			);
@@ -52845,7 +52845,7 @@ const SESSION_SERVER_ENDPOINT = resolveSessionServerEndpoint(),
 		clone() {
 			return new Qi(this.x, this.y, this.z);
 		}
-		static osZVJDuiMTV(u, h) {
+		static DRyNVdKjcXR(u, h) {
 			return { [Symbol.iterator]: () => blockPosIterator(u, h) };
 		}
 	};
@@ -53193,7 +53193,7 @@ function addCoordInto(m, u, h, p, g) {
 	);
 }
 function addCoord(m, u, h, p) {
-	return addCoordInto(m, u, h, p, new Nczb(new Vector3$1(), new Vector3$1()));
+	return addCoordInto(m, u, h, p, new cnAT(new Vector3$1(), new Vector3$1()));
 }
 function translateBox3(m, u, h, p) {
 	return (
@@ -70540,14 +70540,14 @@ class ItemArmor extends Item {
 	constructor(h, p, g, y) {
 		super(h);
 		E(this, "armorType");
-		E(this, "mjWuUrZYzqSeIfQwpa");
+		E(this, "sIQTlKDCCDrvnfOzJP");
 		E(this, "renderIndex");
 		E(this, "material");
 		E(this, "toughness");
 		(this.material = p),
 			(this.armorType = y),
 			(this.renderIndex = g),
-			(this.mjWuUrZYzqSeIfQwpa = p.damageReductionAmount[y]),
+			(this.sIQTlKDCCDrvnfOzJP = p.damageReductionAmount[y]),
 			(this.toughness = p.toughness[y]);
 	}
 	getArmorMaterial() {
@@ -71968,7 +71968,7 @@ const language$2 = {
 	},
 	qi = class qi {
 		constructor(u, h) {
-			E(this, "_queryBox", new Nczb(new Vector3$1(), new Vector3$1()));
+			E(this, "_queryBox", new cnAT(new Vector3$1(), new Vector3$1()));
 			E(this, "id", qi.nextEntityID++);
 			E(this, "world");
 			E(this, "mesh");
@@ -71985,7 +71985,7 @@ const language$2 = {
 			E(this, "dead", !1);
 			E(this, "width");
 			E(this, "height");
-			E(this, "boundingBox", new Nczb(new Vector3$1(), new Vector3$1()));
+			E(this, "boundingBox", new cnAT(new Vector3$1(), new Vector3$1()));
 			E(this, "dataWatcher");
 			E(this, "isAirborne");
 			E(this, "inWeb");
@@ -72057,19 +72057,19 @@ const language$2 = {
 			return this.inLava;
 		}
 		isEating() {
-			return this.eXgQCON(4);
+			return this.GUzoAtV(4);
 		}
 		setEating(u) {
-			this.rICwuxa(4, u);
+			this.KZegPQX(4, u);
 		}
 		entityInit() {}
 		getDataWatcher() {
 			return this.dataWatcher;
 		}
-		eXgQCON(u) {
+		GUzoAtV(u) {
 			return (this.dataWatcher.getWatchableObjectByte(0) & (1 << u)) != 0;
 		}
-		rICwuxa(u, h) {
+		KZegPQX(u, h) {
 			const p = this.dataWatcher.getWatchableObjectByte(0);
 			h
 				? this.dataWatcher.updateObject(0, p | (1 << u))
@@ -72103,7 +72103,7 @@ const language$2 = {
 			const p = this.getEntityBoundingBox(),
 				g = p.min,
 				y = p.min.clone().add(new Vector3$1(u, h, u));
-			this.setEntityBoundingBox(new Nczb(g, y));
+			this.setEntityBoundingBox(new cnAT(g, y));
 		}
 		setVelocity(u, h, p) {
 			this.motion.set(u, h, p);
@@ -72122,7 +72122,7 @@ const language$2 = {
 					this.pos.y + this.height,
 					this.pos.z + g,
 				);
-			this.setEntityBoundingBox(new Nczb(y, x));
+			this.setEntityBoundingBox(new cnAT(y, x));
 		}
 		setPositionAndRotation(u, h, p, g, y) {
 			this.prevPos.set(u, h, p),
@@ -72286,7 +72286,7 @@ const language$2 = {
 		setCurrentItemOrArmor(u, h) {}
 		isBurning() {
 			const u = this.world != null && this.world.isClient;
-			return this.fire > 0 || (u && this.eXgQCON(0));
+			return this.fire > 0 || (u && this.GUzoAtV(0));
 		}
 		getInventory() {
 			return null;
@@ -72786,19 +72786,19 @@ const language$2 = {
 			return this.pos.distanceToSquared(u.pos);
 		}
 		setSprinting(u) {
-			this.rICwuxa(3, u);
+			this.KZegPQX(3, u);
 		}
 		isSprinting() {
 			return !1;
 		}
-		XzYWQnkeuEG() {
-			return this.eXgQCON(5);
+		YTbObRMsNuB() {
+			return this.GUzoAtV(5);
 		}
-		oadPSHQovvqHeIjCWMG(u) {
-			return this.XzYWQnkeuEG();
+		fWeeBSRwQswrttsiIPQ(u) {
+			return this.YTbObRMsNuB();
 		}
 		setInvisible(u) {
-			this.rICwuxa(5, u);
+			this.KZegPQX(5, u);
 		}
 		entityDropItem(u, h) {
 			if (u.stackSize != 0 && u.getItem() != null) {
@@ -73023,7 +73023,7 @@ E(qi, "nextEntityID", 0),
 	E(qi, "positionOffset", new Vector3$1(-0.03125, 0, -0.03125)),
 	E(qi, "waterPadding", new Vector3$1(0.001, 0.001, 0.001).multiplyScalar(-1)),
 	E(qi, "waterOffsetv", new Vector3$1(0, -0.4, 0)),
-	E(qi, "waterScratchBox", new Nczb());
+	E(qi, "waterScratchBox", new cnAT());
 let Entity = qi;
 var EnumCreatureAttribute = ((m) => (
 	(m[(m.UNDEFINED = 0)] = "UNDEFINED"),
@@ -73948,7 +73948,7 @@ const wn = class wn {
 					let x = wn.parsePotionEffects(y, 0, y.length, u);
 					if (x > 0) {
 						let S = 0;
-						const v = wn.gQwBVQgkaaOVCieW.get(g.getId());
+						const v = wn.MpwcRrjIOoVrSqsh.get(g.getId());
 						v != null &&
 							((S = wn.parsePotionEffects(v, 0, v.length, u)),
 							S < 0 && (S = 0)),
@@ -73985,7 +73985,7 @@ E(wn, "field_77924_a", null),
 	E(wn, "pufferfishEffect", "+0-1+2+3+13&4-4"),
 	E(wn, "rabbitFootEffect", "+0+1-2+3&4-4+13"),
 	E(wn, "potionRequirements", new Map()),
-	E(wn, "gQwBVQgkaaOVCieW", new Map()),
+	E(wn, "MpwcRrjIOoVrSqsh", new Map()),
 	E(wn, "DATAVALUE_COLORS", new Map()),
 	E(wn, "potionPrefixes", [
 		"potion.prefix.mundane",
@@ -74266,15 +74266,15 @@ PotionHelper.potionRequirements.set(
 	Potions.jump.getId(),
 	"0 & 1 & !2 & 3 & 3+6",
 );
-PotionHelper.gQwBVQgkaaOVCieW.set(Potions.moveSpeed.getId(), "5");
-PotionHelper.gQwBVQgkaaOVCieW.set(Potions.digSpeed.getId(), "5");
-PotionHelper.gQwBVQgkaaOVCieW.set(Potions.damageBoost.getId(), "5");
-PotionHelper.gQwBVQgkaaOVCieW.set(Potions.regeneration.getId(), "5");
-PotionHelper.gQwBVQgkaaOVCieW.set(Potions.harm.getId(), "5");
-PotionHelper.gQwBVQgkaaOVCieW.set(Potions.heal.getId(), "5");
-PotionHelper.gQwBVQgkaaOVCieW.set(Potions.resistance.getId(), "5");
-PotionHelper.gQwBVQgkaaOVCieW.set(Potions.poison.getId(), "5");
-PotionHelper.gQwBVQgkaaOVCieW.set(Potions.jump.getId(), "5");
+PotionHelper.MpwcRrjIOoVrSqsh.set(Potions.moveSpeed.getId(), "5");
+PotionHelper.MpwcRrjIOoVrSqsh.set(Potions.digSpeed.getId(), "5");
+PotionHelper.MpwcRrjIOoVrSqsh.set(Potions.damageBoost.getId(), "5");
+PotionHelper.MpwcRrjIOoVrSqsh.set(Potions.regeneration.getId(), "5");
+PotionHelper.MpwcRrjIOoVrSqsh.set(Potions.harm.getId(), "5");
+PotionHelper.MpwcRrjIOoVrSqsh.set(Potions.heal.getId(), "5");
+PotionHelper.MpwcRrjIOoVrSqsh.set(Potions.resistance.getId(), "5");
+PotionHelper.MpwcRrjIOoVrSqsh.set(Potions.poison.getId(), "5");
+PotionHelper.MpwcRrjIOoVrSqsh.set(Potions.jump.getId(), "5");
 const Ys = class Ys extends Entity {
 	constructor(h) {
 		super(h);
@@ -74283,8 +74283,8 @@ const Ys = class Ys extends Entity {
 		E(this, "jumpTicks", 0);
 		E(this, "initialJumpVelocity", 0.42);
 		E(this, "jumpMovementFactor");
-		E(this, "QpyyHWoRtn", 0);
-		E(this, "xQrBJjLHwmI", 0);
+		E(this, "axGtHwbyAL", 0);
+		E(this, "QcQtdtqlQMO", 0);
 		E(this, "prevLimbSwingAmount", 0);
 		E(this, "limbSwingAmount", 0);
 		E(this, "limbSwing", 0);
@@ -74655,7 +74655,7 @@ const Ys = class Ys extends Entity {
 			Math.abs(this.motion.y) < 0.005 && (this.motion.y = 0),
 			Math.abs(this.motion.z) < 0.005 && (this.motion.z = 0),
 			this.isMovementBlocked()
-				? ((this.jumping = !1), (this.QpyyHWoRtn = 0), (this.xQrBJjLHwmI = 0))
+				? ((this.jumping = !1), (this.axGtHwbyAL = 0), (this.QcQtdtqlQMO = 0))
 				: this.isServerWorld() && this.updateEntityActionState(),
 			this.jumping
 				? this.inWater
@@ -74667,8 +74667,8 @@ const Ys = class Ys extends Entity {
 							(this.jump(), (this.jumpTicks = 10))
 				: (this.jumpTicks = 0),
 			this.isRiding() ||
-				((this.QpyyHWoRtn *= 0.98), (this.xQrBJjLHwmI *= 0.98)),
-			this.moveEntityWithHeading(this.QpyyHWoRtn, this.xQrBJjLHwmI),
+				((this.axGtHwbyAL *= 0.98), (this.QcQtdtqlQMO *= 0.98)),
+			this.moveEntityWithHeading(this.axGtHwbyAL, this.QcQtdtqlQMO),
 			this.world.isServer &&
 				this.doEntityCollision &&
 				this.collideWithNearbyEntities();
@@ -74751,7 +74751,7 @@ const Ys = class Ys extends Entity {
 		for (const p of this.getInventory()) {
 			const g = p.getItem();
 			if (p != null && g instanceof ItemArmor) {
-				const y = g.mjWuUrZYzqSeIfQwpa;
+				const y = g.sIQTlKDCCDrvnfOzJP;
 				h += y;
 			}
 		}
@@ -74769,7 +74769,7 @@ const Ys = class Ys extends Entity {
 				if (!x) continue;
 				const S = x.item;
 				S instanceof ItemArmor &&
-					((g += S.mjWuUrZYzqSeIfQwpa), (y += S.toughness || 0));
+					((g += S.sIQTlKDCCDrvnfOzJP), (y += S.toughness || 0));
 			}
 			p = p * (1 - Math.min(20, Math.max(g / 5, g - (4 * p) / (y + 8))) / 25);
 		}
@@ -75115,7 +75115,7 @@ const Ys = class Ys extends Entity {
 		if (p > 0) {
 			let y = !1;
 			if (
-				(this.XzYWQnkeuEG()
+				(this.YTbObRMsNuB()
 					? (y = randomInt(15) == 0)
 					: (y = Math.random() > 0.5),
 				y && p > 0)
@@ -75254,7 +75254,7 @@ E(
 	new AttributeModifier("sprint", "Sprinting speed boost", 0.3, 2).setSaved(!1),
 ),
 	E(Ys, "collidePadding", new Vector3$1(0.2, 0, 0.2)),
-	E(Ys, "collideScratchBox", new Nczb());
+	E(Ys, "collideScratchBox", new cnAT());
 let EntityLivingBase = Ys;
 const Wm = class Wm extends ItemTool {
 	constructor(h, p) {
@@ -111860,14 +111860,14 @@ class Block {
 		return null;
 	}
 	setBlockBounds(u, h, p, g, y, x) {
-		this.bbox = new Nczb(new Vector3$1(u, h, p), new Vector3$1(g, y, x));
+		this.bbox = new cnAT(new Vector3$1(u, h, p), new Vector3$1(g, y, x));
 	}
 	getBoundingBox(u, h, p) {
 		return this.bbox;
 	}
 	setBlockBoundsBasedOnState(u, h) {}
 	getSelectedBoundingBox(u, h) {
-		return new Nczb(
+		return new cnAT(
 			new Vector3$1(
 				h.x + this.bbox.min.x,
 				h.y + this.bbox.min.y,
@@ -111885,7 +111885,7 @@ class Block {
 		S != null && g.intersectsBox(S) && y.push(S);
 	}
 	getCollisionBoundingBox(u, h, p) {
-		return new Nczb(
+		return new cnAT(
 			new Vector3$1(
 				h.x + this.bbox.min.x,
 				h.y + this.bbox.min.y,
@@ -119098,11 +119098,11 @@ class BlockFenceGate extends Block {
 		return p.getProp("open")
 			? null
 			: p.getProp("facing").getAxis() == Axis.Z
-				? new Nczb(
+				? new cnAT(
 						new Vector3$1(h.x, h.y, h.z + 0.375),
 						new Vector3$1(h.x + 1, h.y + 1.5, h.z + 0.625),
 					)
-				: new Nczb(
+				: new cnAT(
 						new Vector3$1(h.x + 0.375, h.y, h.z),
 						new Vector3$1(h.x + 0.625, h.y + 1.5, h.z + 1),
 					);
@@ -120076,7 +120076,7 @@ class PathNavigate {
 		if (this.noPath()) return;
 		const u = this.currentPath.getPosition(this.theEntity);
 		if (!u) return;
-		let h = new Nczb(
+		let h = new cnAT(
 			new Vector3$1(u.x, u.y, u.z),
 			new Vector3$1(u.x, u.y, u.z),
 		).expandByScalar(0.5);
@@ -120283,7 +120283,7 @@ class PathNavigateGround extends PathNavigate {
 		} else return !1;
 	}
 	isPositionClear(h, p, g, y, x, S, v, b, w) {
-		for (const k of BlockPos.osZVJDuiMTV(
+		for (const k of BlockPos.DRyNVdKjcXR(
 			new BlockPos(h, p, g),
 			new BlockPos(h + y - 1, p + x - 1, g + S - 1),
 		)) {
@@ -120791,7 +120791,7 @@ class EntityLiving extends EntityLivingBase {
 		}
 	}
 	setMoveForward(h) {
-		this.xQrBJjLHwmI = h;
+		this.QcQtdtqlQMO = h;
 	}
 	setAIMoveSpeed(h) {
 		super.setAIMoveSpeed(h), this.setMoveForward(h);
@@ -121483,7 +121483,7 @@ class Explosion {
 			v = Math.floor(this.explosionZ + h + 1),
 			b = this.worldObj.getEntitiesWithinAABB(
 				null,
-				new Nczb(new Vector3$1(p, y, S), new Vector3$1(g, x, v)),
+				new cnAT(new Vector3$1(p, y, S), new Vector3$1(g, x, v)),
 			),
 			w = new Vector3$1(this.explosionX, this.explosionY, this.explosionZ);
 		for (let k = 0; k < b.length; ++k) {
@@ -121778,7 +121778,7 @@ const di = class di {
 		return this.getBlock(u).isAir();
 	}
 	areaPassesCheck(u, h, p) {
-		for (const g of BlockPos.osZVJDuiMTV(u, h))
+		for (const g of BlockPos.DRyNVdKjcXR(u, h))
 			if (!p(this.getBlock(g))) return !1;
 		return !0;
 	}
@@ -121955,7 +121955,7 @@ const di = class di {
 								h.max.z >= C &&
 								h.min.z <= R &&
 								g.push(
-									new Nczb(new Vector3$1(k, T, C), new Vector3$1(A, I, R)),
+									new cnAT(new Vector3$1(k, T, C), new Vector3$1(A, I, R)),
 								);
 							continue;
 						}
@@ -125037,9 +125037,9 @@ const Ed = class Ed extends EntityLivingBase {
 				: (this.motion.x = this.motion.z = 0);
 	}
 	isSprinting() {
-		return this.eXgQCON(3);
+		return this.GUzoAtV(3);
 	}
-	jeAOSTZCeUHsbovCzYJwyCaANcWRccxlW(h) {
+	fKOmYWnlldbtuTtguHZRZVpSwVLdjZbPe(h) {
 		var x, S;
 		if (
 			(h instanceof Ed && this.team && !this.team.canAttack(h.team)) ||
@@ -125158,15 +125158,15 @@ const Ed = class Ed extends EntityLivingBase {
 			g.dead || (g.id != this.id && g.onCollideWithPlayer(this));
 	}
 	applyInput(h, p = !1) {
-		(this.QpyyHWoRtn = (h.right ? 1 : 0) + (h.left ? -1 : 0)),
-			(this.xQrBJjLHwmI = (h.up ? -1 : 0) + (h.down ? 1 : 0)),
+		(this.axGtHwbyAL = (h.right ? 1 : 0) + (h.left ? -1 : 0)),
+			(this.QcQtdtqlQMO = (h.up ? -1 : 0) + (h.down ? 1 : 0)),
 			(this.yaw = h.yaw),
 			(this.pitch = h.pitch),
 			(this.jumping = h.jump),
-			h.sneak && ((this.QpyyHWoRtn *= 0.3), (this.xQrBJjLHwmI *= 0.3)),
+			h.sneak && ((this.axGtHwbyAL *= 0.3), (this.QcQtdtqlQMO *= 0.3)),
 			h.usingItem &&
 				!this.isRiding() &&
-				((this.QpyyHWoRtn *= 0.2), (this.xQrBJjLHwmI *= 0.2)),
+				((this.axGtHwbyAL *= 0.2), (this.QcQtdtqlQMO *= 0.2)),
 			this.onPlayerUpdate(),
 			this.setPositionAndRotation(
 				this.pos.x,
@@ -125629,7 +125629,7 @@ const Ed = class Ed extends EntityLivingBase {
 			if (
 				this.world.getEntitiesWithinAABB(
 					"zombie",
-					new Nczb(
+					new cnAT(
 						new Vector3$1(h.x - p, h.y - g, h.z - p),
 						new Vector3$1(h.x + p, h.y + g, h.z + p),
 					),
@@ -128879,7 +128879,7 @@ const Nl = class Nl extends Item {
 };
 E(Nl, "SUB_ITEMS_CACHE", new Map());
 let ItemPotion = Nl;
-function cDOeOdgRjyYjWdnPAEDmpP(m) {
+function tEFuIRCELooKEhnGoCraaL(m) {
 	return (
 		(m = m % (2 * Math.PI)),
 		m >= Math.PI && (m -= 2 * Math.PI),
@@ -129063,7 +129063,7 @@ class EntityBoat extends Entity {
 					C =
 						this.pos.z +
 						(this.boatZ - this.pos.z) / this.boatPosRotationIncrements,
-					A = cDOeOdgRjyYjWdnPAEDmpP(this.boatYaw - this.yaw);
+					A = tEFuIRCELooKEhnGoCraaL(this.boatYaw - this.yaw);
 				(this.yaw += A / this.boatPosRotationIncrements),
 					(this.pitch +=
 						(this.boatPitch - this.pitch) / this.boatPosRotationIncrements),
@@ -129082,7 +129082,7 @@ class EntityBoat extends Entity {
 			const T = this.getEntityBoundingBox(),
 				C = T.min.y + ((T.max.y - T.min.y) * (k + 0)) / p - 0.125,
 				A = T.min.y + ((T.max.y - T.min.y) * (k + 1)) / p - 0.125,
-				I = new Nczb(
+				I = new cnAT(
 					new Vector3$1(T.min.x, C, T.min.z),
 					new Vector3$1(T.max.x, A, T.max.z),
 				);
@@ -129094,11 +129094,11 @@ class EntityBoat extends Entity {
 		} else this.motion.y < 0 && (this.motion.y /= 2), (this.motion.y += 0.007);
 		if (this.riddenByEntity instanceof EntityLivingBase) {
 			const k = this.riddenByEntity,
-				T = k.yaw - Math.PI / 2 + (-k.QpyyHWoRtn * Math.PI) / 2;
+				T = k.yaw - Math.PI / 2 + (-k.axGtHwbyAL * Math.PI) / 2;
 			(this.motion.x +=
-				Math.cos(T) * this.speedMultiplier * k.xQrBJjLHwmI * 0.05),
+				Math.cos(T) * this.speedMultiplier * k.QcQtdtqlQMO * 0.05),
 				(this.motion.z +=
-					-Math.sin(T) * this.speedMultiplier * k.xQrBJjLHwmI * 0.05);
+					-Math.sin(T) * this.speedMultiplier * k.QcQtdtqlQMO * 0.05);
 		}
 		let y = Math.sqrt(
 			this.motion.x * this.motion.x + this.motion.z * this.motion.z,
@@ -129136,7 +129136,7 @@ class EntityBoat extends Entity {
 		const S = this.prevPos.x - this.pos.x,
 			v = this.prevPos.z - this.pos.z;
 		S * S + v * v > 0.001 && (x = Math.atan2(S, v) - Math.PI / 2);
-		let b = cDOeOdgRjyYjWdnPAEDmpP(x - this.yaw);
+		let b = tEFuIRCELooKEhnGoCraaL(x - this.yaw);
 		const w = degToRad(20);
 		b > w && (b = w),
 			b < -w && (b = -w),
@@ -129539,9 +129539,9 @@ class EntityMinecart extends Entity {
 	}
 	applyRiderInput(h, p) {
 		const g = this.riddenByEntity;
-		if (!(g instanceof EntityLivingBase) || g.xQrBJjLHwmI === 0) return;
+		if (!(g instanceof EntityLivingBase) || g.QcQtdtqlQMO === 0) return;
 		const y = g.getLook(),
-			x = -Math.sign(g.xQrBJjLHwmI),
+			x = -Math.sign(g.QcQtdtqlQMO),
 			S = y.x * h + y.z * p >= 0 ? 1 : -1,
 			v = x * S,
 			b = this.motion.x * h + this.motion.z * p;
@@ -130833,7 +130833,7 @@ const Ko = class Ko extends Block {
 		const x =
 				h.getEntitiesWithinAABB(
 					"EntityArrow",
-					new Nczb(
+					new cnAT(
 						new Vector3$1(
 							p.x + this.bbox.min.x,
 							p.y + this.bbox.min.y,
@@ -130978,7 +130978,7 @@ class BlockCake extends Block {
 	getCollisionBoundingBox(u, h, p) {
 		const y = (1 + p.getProp("bites") * 2) / 16,
 			x = 0.5;
-		return new Nczb(
+		return new cnAT(
 			new Vector3$1(h.x + y, h.y, h.z + 0.0625),
 			new Vector3$1(h.x + 1 - 0.0625, h.y + x, h.z + 1 - 0.0625),
 		);
@@ -131694,7 +131694,7 @@ class TileEntityChest extends TileEntity {
 			const x = 5;
 			for (const S of this.world.getEntitiesInAABBexcluding(
 				null,
-				new Nczb(
+				new cnAT(
 					new Vector3$1(h - x, p - x, g - x),
 					new Vector3$1(h + 1 + x, p + 1 + x, g + 1 + x),
 				),
@@ -134232,7 +134232,7 @@ class BlockFarmland extends Block {
 			: new ModelBlock("farmland");
 	}
 	getCollisionBoundingBox(h, p, g) {
-		return new Nczb(
+		return new cnAT(
 			new Vector3$1(p.x, p.y, p.z),
 			new Vector3$1(p.x + 1, p.y + 1, p.z + 1),
 		);
@@ -135275,7 +135275,7 @@ class BlockHellPortal extends Block {
 				if (z) continue;
 				const D = { x: "z", z: "x", y: "y" },
 					F = Blocks.hell_portal.defaultState.withState("axis", D[y.name]);
-				for (const O of BlockPos.osZVJDuiMTV(A, I)) h.setBlockState(O, F, 2);
+				for (const O of BlockPos.DRyNVdKjcXR(A, I)) h.setBlockState(O, F, 2);
 			}
 	}
 	onEntityCollidedWithBlock(h, p, g) {
@@ -135806,7 +135806,7 @@ class BlockLilyPad extends BlockShrub {
 			super.addCollisionBoxesToList(u, h, p, g, y, x);
 	}
 	getCollisionBoundingBox(u, h, p) {
-		return new Nczb(
+		return new cnAT(
 			new Vector3$1(
 				h.x + this.bbox.min.x,
 				h.y + this.bbox.min.y,
@@ -136284,7 +136284,7 @@ class BlockPistonMoving extends BlockContainer {
 					y.getFrontOffsetZ() < 0
 						? (b -= y.getFrontOffsetZ() * g)
 						: (T -= y.getFrontOffsetZ() * g),
-					new Nczb(new Vector3$1(S, v, b), new Vector3$1(w, k, T))
+					new cnAT(new Vector3$1(S, v, b), new Vector3$1(w, k, T))
 				);
 			}
 		} else return null;
@@ -136435,7 +136435,7 @@ class BlockBasePressurePlate extends Block {
 			S && u.scheduleUpdate(h, this, this.tickRate(u));
 	}
 	getSensitiveAABB(u) {
-		return new Nczb(
+		return new cnAT(
 			new Vector3$1(u.x + 0.125, u.y, u.z + 0.125),
 			new Vector3$1(u.x + 1 - 0.125, u.y + 0.25, u.z + 1 - 0.125),
 		);
@@ -139368,7 +139368,7 @@ class BlockSnow extends Block {
 		);
 	}
 	getCollisionBoundingBox(h, p, g) {
-		return new Nczb(
+		return new cnAT(
 			new Vector3$1(
 				p.x + this.bbox.min.x,
 				p.y + this.bbox.min.y,
@@ -139400,13 +139400,13 @@ class BlockSoulSand extends Block {
 		(p.motion.x *= 0.4), (p.motion.z *= 0.4);
 	}
 	getCollisionBoundingBox(u, h, p) {
-		return new Nczb(
+		return new cnAT(
 			new Vector3$1(h.x, h.y, h.z),
 			new Vector3$1(h.x + 1, h.y + 1 - 0.125, h.z + 1),
 		);
 	}
 	getBoundingBox(u) {
-		return new Nczb(new Vector3$1(0, 0, 0), new Vector3$1(1, 1 - 0.125, 1));
+		return new cnAT(new Vector3$1(0, 0, 0), new Vector3$1(1, 1 - 0.125, 1));
 	}
 }
 class BlockSign extends BlockContainer {
@@ -172177,8 +172177,8 @@ const zl = class zl extends Message {
 		E(this, "sneak");
 		E(this, "sprinting");
 		E(this, "punching");
-		E(this, "QpyyHWoRtn");
-		E(this, "xQrBJjLHwmI");
+		E(this, "axGtHwbyAL");
+		E(this, "QcQtdtqlQMO");
 		E(this, "fire");
 		E(this, "stopSleeping");
 		proto2.util.initPartial(h, this);
@@ -172206,8 +172206,8 @@ E(zl, "runtime", proto2),
 			{ no: 2, name: "sneak", kind: "scalar", T: 8, opt: !0 },
 			{ no: 3, name: "sprinting", kind: "scalar", T: 8, opt: !0 },
 			{ no: 4, name: "punching", kind: "scalar", T: 8, opt: !0 },
-			{ no: 5, name: "QpyyHWoRtn", kind: "scalar", T: 2, opt: !0 },
-			{ no: 6, name: "xQrBJjLHwmI", kind: "scalar", T: 2, opt: !0 },
+			{ no: 5, name: "axGtHwbyAL", kind: "scalar", T: 2, opt: !0 },
+			{ no: 6, name: "QcQtdtqlQMO", kind: "scalar", T: 2, opt: !0 },
 			{ no: 20, name: "fire", kind: "scalar", T: 5, opt: !0 },
 			{ no: 21, name: "stopSleeping", kind: "scalar", T: 8, opt: !0 },
 		]),
@@ -175443,7 +175443,7 @@ class GLTFParser {
 }
 function computeBounds(m, u, h) {
 	const p = u.attributes,
-		g = new Nczb();
+		g = new cnAT();
 	if (p.POSITION !== void 0) {
 		const S = h.json.accessors[p.POSITION],
 			v = S.min,
@@ -175554,7 +175554,7 @@ class GLTFManager {
 		E(this, "loader", new GLTFLoader());
 		E(this, "models", {});
 	}
-	async OzloynjJNg() {
+	async KrecjENAJr() {
 		const u = [];
 		for (const h of Object.values(HATS)) u.push(this.loadHat(h));
 		await Promise.all(u);
@@ -175803,7 +175803,7 @@ class ShaderManager {
 			grass: Options.grassWave.value,
 		};
 	}
-	static soIesuGOiOBlKnIhXyntSkvp(u) {
+	static YzsFWpVYMYmJLmVFRrBnUkWn(u) {
 		(u.userData = {
 			time: { value: 2 },
 			uSunLight: { value: 1 },
@@ -176987,7 +176987,7 @@ class TextureManager {
 		E(this, "atlasHeight", SPRITE_HEIGHT);
 		E(this, "atlasFellBackToDefault", !1);
 		E(this, "materialWorld");
-		E(this, "MPCMKvWghbgMaTeUEzBqmTMD");
+		E(this, "wcdrzmrrtjWnqczZkIoJWZTZ");
 		E(this, "materialFluidWorld");
 		E(this, "material");
 		E(this, "materialEnchanted");
@@ -177000,7 +177000,7 @@ class TextureManager {
 		E(this, "particleAtlasRects", new Map());
 		E(this, "glintTexture");
 		E(this, "skinManager", new SkinManager());
-		E(this, "wYucBXxoYvr", new GLTFManager());
+		E(this, "mWnrIKVXQMY", new GLTFManager());
 		E(this, "reflectionBuffer", null);
 		E(this, "sunDirection", new Vector3$1(0, 1, 0));
 		E(this, "sunLight", 1);
@@ -177033,7 +177033,7 @@ class TextureManager {
 				this.loadSpritesheet(),
 				this.loadFonts(),
 				this.skinManager.loadTextures(),
-				this.wYucBXxoYvr.OzloynjJNg(),
+				this.mWnrIKVXQMY.KrecjENAJr(),
 			];
 			PARTICLE_TEXTURES.forEach((p) => {
 				h.push(
@@ -177190,13 +177190,13 @@ class TextureManager {
 			(this.materialTransparent.alphaTest = 0.1),
 			(this.atlas = u.image),
 			(this.materialWorld = this.material.clone()),
-			ShaderManager.soIesuGOiOBlKnIhXyntSkvp(this.materialWorld),
-			(this.MPCMKvWghbgMaTeUEzBqmTMD = this.materialTransparent.clone()),
-			ShaderManager.soIesuGOiOBlKnIhXyntSkvp(this.MPCMKvWghbgMaTeUEzBqmTMD),
-			(this.MPCMKvWghbgMaTeUEzBqmTMD.depthWrite = !1);
+			ShaderManager.YzsFWpVYMYmJLmVFRrBnUkWn(this.materialWorld),
+			(this.wcdrzmrrtjWnqczZkIoJWZTZ = this.materialTransparent.clone()),
+			ShaderManager.YzsFWpVYMYmJLmVFRrBnUkWn(this.wcdrzmrrtjWnqczZkIoJWZTZ),
+			(this.wcdrzmrrtjWnqczZkIoJWZTZ.depthWrite = !1);
 		const y = () => {
 			(this.materialWorld.needsUpdate = !0),
-				(this.MPCMKvWghbgMaTeUEzBqmTMD.needsUpdate = !0);
+				(this.wcdrzmrrtjWnqczZkIoJWZTZ.needsUpdate = !0);
 		};
 		Options.grassWave.onChange(y),
 			Options.dynamicLighting.onChange(y),
@@ -177248,7 +177248,7 @@ class TextureManager {
 				this.materialEnchanted,
 				this.materialTransparent,
 				this.materialWorld,
-				this.MPCMKvWghbgMaTeUEzBqmTMD,
+				this.wcdrzmrrtjWnqczZkIoJWZTZ,
 				this.materialFluidWorld,
 			];
 		for (const y of p) y && (y.map = u);
@@ -177266,8 +177266,8 @@ class TextureManager {
 	fixedUpdate() {
 		var u;
 		this.materialTransparent &&
-			this.MPCMKvWghbgMaTeUEzBqmTMD.userData &&
-			this.MPCMKvWghbgMaTeUEzBqmTMD.userData.time.value++,
+			this.wcdrzmrrtjWnqczZkIoJWZTZ.userData &&
+			this.wcdrzmrrtjWnqczZkIoJWZTZ.userData.time.value++,
 			this.materialWorld &&
 				this.materialWorld.userData &&
 				this.materialWorld.userData.time.value++,
@@ -177303,10 +177303,10 @@ class TextureManager {
 			(p = (h = this.materialWorld) == null ? void 0 : h.userData) != null &&
 				p.uSunLight &&
 				(this.materialWorld.userData.uSunLight.value = u),
-			(y = (g = this.MPCMKvWghbgMaTeUEzBqmTMD) == null ? void 0 : g.userData) !=
+			(y = (g = this.wcdrzmrrtjWnqczZkIoJWZTZ) == null ? void 0 : g.userData) !=
 				null &&
 				y.uSunLight &&
-				(this.MPCMKvWghbgMaTeUEzBqmTMD.userData.uSunLight.value = u),
+				(this.wcdrzmrrtjWnqczZkIoJWZTZ.userData.uSunLight.value = u),
 			(S = (x = this.materialFluidWorld) == null ? void 0 : x.userData) !=
 				null &&
 				S.uSunLight &&
@@ -177318,10 +177318,10 @@ class TextureManager {
 			(p = (h = this.materialWorld) == null ? void 0 : h.userData) != null &&
 				p.uAmbientLight &&
 				(this.materialWorld.userData.uAmbientLight.value = u),
-			(y = (g = this.MPCMKvWghbgMaTeUEzBqmTMD) == null ? void 0 : g.userData) !=
+			(y = (g = this.wcdrzmrrtjWnqczZkIoJWZTZ) == null ? void 0 : g.userData) !=
 				null &&
 				y.uAmbientLight &&
-				(this.MPCMKvWghbgMaTeUEzBqmTMD.userData.uAmbientLight.value = u),
+				(this.wcdrzmrrtjWnqczZkIoJWZTZ.userData.uAmbientLight.value = u),
 			(S = (x = this.materialFluidWorld) == null ? void 0 : x.userData) !=
 				null &&
 				S.uAmbientLight &&
@@ -177332,7 +177332,7 @@ class TextureManager {
 		(this.heldLightLevel = p), u && this.heldLightPos.copy(u);
 		for (const g of [
 			this.materialWorld,
-			this.MPCMKvWghbgMaTeUEzBqmTMD,
+			this.wcdrzmrrtjWnqczZkIoJWZTZ,
 			this.materialFluidWorld,
 		]) {
 			const y = g == null ? void 0 : g.userData;
@@ -177349,7 +177349,7 @@ class TextureManager {
 			(h.originZ = u.originZ),
 			(h.invExtent = u.invExtent),
 			(this.giState = h);
-		for (const p of [this.materialWorld, this.MPCMKvWghbgMaTeUEzBqmTMD]) {
+		for (const p of [this.materialWorld, this.wcdrzmrrtjWnqczZkIoJWZTZ]) {
 			const g = p == null ? void 0 : p.userData;
 			g != null &&
 				g.uGITex &&
@@ -177365,13 +177365,13 @@ class TextureManager {
 	}
 	setGIEnabled(u) {
 		u || (this.giState = null);
-		for (const h of [this.materialWorld, this.MPCMKvWghbgMaTeUEzBqmTMD]) {
+		for (const h of [this.materialWorld, this.wcdrzmrrtjWnqczZkIoJWZTZ]) {
 			const p = h == null ? void 0 : h.userData;
 			p != null && p.uGIEnabled && (p.uGIEnabled.value = u ? 1 : 0);
 		}
 	}
 	setGIDebug(u) {
-		for (const h of [this.materialWorld, this.MPCMKvWghbgMaTeUEzBqmTMD]) {
+		for (const h of [this.materialWorld, this.wcdrzmrrtjWnqczZkIoJWZTZ]) {
 			const p = h == null ? void 0 : h.userData;
 			p != null && p.uGIDebugView && (p.uGIDebugView.value = u ? 1 : 0);
 		}
@@ -177382,10 +177382,10 @@ class TextureManager {
 		(g = (p = this.materialWorld) == null ? void 0 : p.userData) != null &&
 			g.uHasDamage &&
 			(this.materialWorld.userData.uHasDamage.value = h),
-			(x = (y = this.MPCMKvWghbgMaTeUEzBqmTMD) == null ? void 0 : y.userData) !=
+			(x = (y = this.wcdrzmrrtjWnqczZkIoJWZTZ) == null ? void 0 : y.userData) !=
 				null &&
 				x.uHasDamage &&
-				(this.MPCMKvWghbgMaTeUEzBqmTMD.userData.uHasDamage.value = h);
+				(this.wcdrzmrrtjWnqczZkIoJWZTZ.userData.uHasDamage.value = h);
 	}
 }
 const textureManager = new TextureManager();
@@ -196450,7 +196450,7 @@ class ClientDecoder extends Decoder$1 {
 		if (!!ClientSocket.useDecodeWorker)
 			try {
 				(this.worker = new Worker(
-					new URL("/assets/NetworkDecodeWorker-UGKVWLQ1.js", import.meta.url),
+					new URL("/assets/NetworkDecodeWorker-CDdcm2Yo.js", import.meta.url),
 					{ type: "module" },
 				)),
 					(this.worker.onmessage = (h) => {
@@ -196650,17 +196650,17 @@ document.addEventListener("mousedown", (m) => {
 	if ((autoClickerDectectOnClick(game), !(!Game.isActive() || Game.isMobile))) {
 		switch (m.which) {
 			case 1:
-				NqEwrUxGQPxVqmvb.leftClick(), (mouseLerp.event = 0);
+				bHUUwaWZzvCbuEbX.leftClick(), (mouseLerp.event = 0);
 				break;
 			case 2:
 				m.preventDefault(),
-					NqEwrUxGQPxVqmvb.middleClick(),
+					bHUUwaWZzvCbuEbX.middleClick(),
 					(mouseLerp.event = 2);
 				break;
 			case 3:
 				(mouseLerp.event = 1),
-					(NqEwrUxGQPxVqmvb.rightClick = !0),
-					NqEwrUxGQPxVqmvb.rightClickMouse();
+					(bHUUwaWZzvCbuEbX.rightClick = !0),
+					bHUUwaWZzvCbuEbX.rightClickMouse();
 				break;
 		}
 		(u = gui$1.currentScreen) == null || u.handleMouseInput();
@@ -196671,14 +196671,14 @@ document.addEventListener("mouseup", (m) => {
 	if (game.inGame() && !Game.isMobile) {
 		switch (m.which) {
 			case 1:
-				NqEwrUxGQPxVqmvb.leftClick(!0);
+				bHUUwaWZzvCbuEbX.leftClick(!0);
 				break;
 			case 2:
-				NqEwrUxGQPxVqmvb.middleClick(!0);
+				bHUUwaWZzvCbuEbX.middleClick(!0);
 				break;
 			case 3:
-				(NqEwrUxGQPxVqmvb.rightClick = !1),
-					player.isUsingItem() && NqEwrUxGQPxVqmvb.onStoppedUsingItem(player);
+				(bHUUwaWZzvCbuEbX.rightClick = !1),
+					player.isUsingItem() && bHUUwaWZzvCbuEbX.onStoppedUsingItem(player);
 				break;
 		}
 		(u = gui$1.currentScreen) == null || u.handleMouseInput(!1, !0),
@@ -196770,7 +196770,7 @@ class PointerLockControls {
 	get camera() {
 		return this.yawObject;
 	}
-	get IJfxPG() {
+	get rQJAnk() {
 		return this.camera.position;
 	}
 }
@@ -198029,12 +198029,12 @@ class TouchControls {
 					(this.lookId = p.identifier),
 					(mouse.x = p.clientX),
 					(mouse.y = p.clientY),
-					NqEwrUxGQPxVqmvb.updateMouseOver(),
-					NqEwrUxGQPxVqmvb.objectMouseOver.block
+					bHUUwaWZzvCbuEbX.updateMouseOver(),
+					bHUUwaWZzvCbuEbX.objectMouseOver.block
 						? (this.prevTouchPos.set(p.clientX, p.clientY),
 							(this.startLook = Date.now()))
-						: NqEwrUxGQPxVqmvb.objectMouseOver.entity &&
-							NqEwrUxGQPxVqmvb.leftClick());
+						: bHUUwaWZzvCbuEbX.objectMouseOver.entity &&
+							bHUUwaWZzvCbuEbX.leftClick());
 		this.checkForDisconnectedTouch(h);
 	}
 	touchEnd(u, h) {
@@ -198043,11 +198043,11 @@ class TouchControls {
 				((this.moveId = null), this.direction.setScalar(0)),
 				p.identifier === this.lookId &&
 					(Date.now() - this.startLook < 200 &&
-						NqEwrUxGQPxVqmvb.rightClickMouse(),
+						bHUUwaWZzvCbuEbX.rightClickMouse(),
 					(this.lookId = null),
 					(this.lastLook = Date.now()),
 					(this.startLook = 0),
-					NqEwrUxGQPxVqmvb.leftClick(!0));
+					bHUUwaWZzvCbuEbX.leftClick(!0));
 		this.checkForDisconnectedTouch(h);
 	}
 	updateDirection(u) {
@@ -198101,7 +198101,7 @@ class TouchControls {
 			this.startLook &&
 				Date.now() - this.startLook > 300 &&
 				u < h &&
-				(NqEwrUxGQPxVqmvb.leftClick(), (this.startLook = 0));
+				(bHUUwaWZzvCbuEbX.leftClick(), (this.startLook = 0));
 	}
 	render() {
 		if (
@@ -198147,7 +198147,7 @@ class PlayerControllerMP {
 		E(this, "lastSentSlot", -1);
 		E(this, "isHittingBlock", !1);
 	}
-	jZKrgVyWElCIzZhkbat() {
+	DJAAXPbKIUuIqgGCEOA() {
 		const u = player.inventory.currentItem;
 		u !== this.lastSentSlot &&
 			((this.lastSentSlot = u),
@@ -198161,10 +198161,10 @@ class PlayerControllerMP {
 	}
 }
 const playerControllerMP = new PlayerControllerMP(),
-	_prevBbox = new Nczb(),
+	_prevBbox = new cnAT(),
 	_prevPos = new Vector3$1(),
-	_aabb = new Nczb(),
-	EMPTY_BOX = new Nczb(new Vector3$1(0, 0, 0), new Vector3$1(0, 0, 0)),
+	_aabb = new cnAT(),
+	EMPTY_BOX = new cnAT(new Vector3$1(0, 0, 0), new Vector3$1(0, 0, 0)),
 	_cameraRight = new Vector3$1(),
 	_cameraUp = new Vector3$1(0, 1, 0),
 	_cameraUpAdjusted = new Vector3$1();
@@ -198242,7 +198242,7 @@ class PlayerController {
 		this.sendUseItem(player, game.world, u) && u != null && hud3D.swingArm();
 	}
 	onPlayerRightClick(u, h, p, g, y, x) {
-		playerControllerMP.jZKrgVyWElCIzZhkbat();
+		playerControllerMP.DJAAXPbKIUuIqgGCEOA();
 		const S = x.x - g.x,
 			v = x.y - g.y,
 			b = x.z - g.z;
@@ -198279,7 +198279,7 @@ class PlayerController {
 	sendUseItem(u, h, p) {
 		if (
 			u.mode.isSpectator() ||
-			(playerControllerMP.jZKrgVyWElCIzZhkbat(),
+			(playerControllerMP.DJAAXPbKIUuIqgGCEOA(),
 			ClientSocket.sendPacket(new SPacketUseItem()),
 			p == null)
 		)
@@ -198292,7 +198292,7 @@ class PlayerController {
 				? !1
 				: ((u.inventory.main[u.inventory.currentItem] = y), !0);
 	}
-	nJosJJAjIWJ(u, h, p, g, y) {
+	jBFurwCzrzZ(u, h, p, g, y) {
 		const x = y.openContainer.getNextTransactionID(y.inventory),
 			S = y.openContainer.slotClick(h, p, g, y);
 		return (
@@ -198310,7 +198310,7 @@ class PlayerController {
 		);
 	}
 	onStoppedUsingItem(u) {
-		playerControllerMP.jZKrgVyWElCIzZhkbat(),
+		playerControllerMP.DJAAXPbKIUuIqgGCEOA(),
 			ClientSocket.sendPacket(
 				new SPacketPlayerAction({
 					position: BlockPos.ORIGIN.toProto(),
@@ -198379,7 +198379,7 @@ class PlayerController {
 		}
 	}
 	attackEntity(u) {
-		playerControllerMP.jZKrgVyWElCIzZhkbat(),
+		playerControllerMP.DJAAXPbKIUuIqgGCEOA(),
 			ClientSocket.sendPacket(
 				new SPacketUseEntity({
 					id: u.id,
@@ -198394,11 +198394,11 @@ class PlayerController {
 					sequence: player.inputSequenceNumber,
 				}),
 			),
-			player.jeAOSTZCeUHsbovCzYJwyCaANcWRccxlW(u);
+			player.fKOmYWnlldbtuTtguHZRZVpSwVLdjZbPe(u);
 	}
 	interactWithEntitySendPacket(u, h) {
 		return h
-			? (playerControllerMP.jZKrgVyWElCIzZhkbat(),
+			? (playerControllerMP.DJAAXPbKIUuIqgGCEOA(),
 				ClientSocket.sendPacket(
 					new SPacketUseEntity({
 						id: h.id,
@@ -198657,7 +198657,7 @@ class PlayerController {
 		this.updateMouseOver(), this.select(), this.mine();
 	}
 }
-const NqEwrUxGQPxVqmvb = new PlayerController(),
+const bHUUwaWZzvCbuEbX = new PlayerController(),
 	CopyShader = {
 		name: "CopyShader",
 		uniforms: { tDiffuse: { value: null }, opacity: { value: 1 } },
@@ -201521,6 +201521,18 @@ const ci = class ci {
 			(this.fogPass = new VolumetricFogPass()),
 			(this.fogPass.enabled = !1),
 			this.composer.insertPass(this.fogPass, 1),
+			Options.godRays.onChange((y) => {
+				y && this.warmPasses([this.godRaysPass.material]);
+			}),
+			Options.bloom.onChange((y) => {
+				y > 0 && this.warmPasses(this.bloomPass.warmupMaterials);
+			}),
+			Options.eyeAdaptation.onChange((y) => {
+				y > 0 && this.warmPasses(this.eyeAdaptationPass.warmupMaterials);
+			}),
+			Options.volumetricFog.onChange((y) => {
+				y && this.warmPasses(this.fogPass.warmupMaterials);
+			}),
 			document
 				.getElementById("canvas-holder")
 				.appendChild(this.renderer.domElement),
@@ -201639,25 +201651,32 @@ ${new Error().stack ?? ""}`);
 				(oe.receiveShadow = ee), x.add(oe);
 			};
 		S(textureManager.materialWorld, !1, !0),
-			S(textureManager.MPCMKvWghbgMaTeUEzBqmTMD, !1, !0),
+			S(textureManager.wcdrzmrrtjWnqczZkIoJWZTZ, !1, !0),
 			S(textureManager.materialFluidWorld, !0, !1);
 		const v = [],
 			b = (K) => {
 				K && v.push(K);
 			};
-		b((N = this.colorPass) == null ? void 0 : N.material),
-			b((z = this.godRaysPass) == null ? void 0 : z.material);
-		for (const K of ((D = this.bloomPass) == null
-			? void 0
-			: D.warmupMaterials) ?? [])
-			b(K);
-		for (const K of ((F = this.eyeAdaptationPass) == null
-			? void 0
-			: F.warmupMaterials) ?? [])
-			b(K);
-		for (const K of ((O = this.fogPass) == null ? void 0 : O.warmupMaterials) ??
-			[])
-			b(K);
+		if (
+			(b((N = this.colorPass) == null ? void 0 : N.material),
+			Options.godRays.value &&
+				b((z = this.godRaysPass) == null ? void 0 : z.material),
+			Options.bloom.value > 0)
+		)
+			for (const K of ((D = this.bloomPass) == null
+				? void 0
+				: D.warmupMaterials) ?? [])
+				b(K);
+		if (Options.eyeAdaptation.value > 0)
+			for (const K of ((F = this.eyeAdaptationPass) == null
+				? void 0
+				: F.warmupMaterials) ?? [])
+				b(K);
+		if (Options.volumetricFog.value)
+			for (const K of ((O = this.fogPass) == null
+				? void 0
+				: O.warmupMaterials) ?? [])
+				b(K);
 		const w = new Group(),
 			k = new PlaneGeometry(2, 2);
 		for (const K of v) w.add(new Mesh(k, K));
@@ -201669,9 +201688,10 @@ ${new Error().stack ?? ""}`);
 			const K = u.compileAsync(g, p);
 			y.sunlight.castShadow = !1;
 			const Z = u.compileAsync(x, p, g);
-			y.sunlight.castShadow = !0;
-			const ee = u.compileAsync(x, p, g),
-				fe =
+			let ee = Promise.resolve(void 0);
+			Options.shadowsEnabled() &&
+				((y.sunlight.castShadow = !0), (ee = u.compileAsync(x, p, g)));
+			const fe =
 					w.children.length > 0
 						? u.compileAsync(w, p)
 						: Promise.resolve(void 0),
@@ -201679,7 +201699,7 @@ ${new Error().stack ?? ""}`);
 					I = !1;
 				}),
 				ce = new Promise((ue) => setTimeout(ue, 8e3));
-			await Promise.race([oe, ce]);
+			await Promise.race([oe, ce]), this.touchProgramIntrospection();
 		} catch (K) {
 			Ulog.warn("Shader prewarm failed (will link lazily on first draw)", K);
 		} finally {
@@ -201695,6 +201715,39 @@ ${new Error().stack ?? ""}`);
 		Ulog.info(
 			`[shader] prewarm done in ${(performance.now() - T).toFixed(0)}ms; warmed scene + ${x.children.length} world + ${v.length} pass materials; programs ${C} → ${R}; timedOut=${I}`,
 		);
+	}
+	static touchProgramIntrospection() {
+		var h, p;
+		const u = this.renderer.info.programs ?? [];
+		for (const g of u)
+			try {
+				(h = g.getUniforms) == null || h.call(g),
+					(p = g.getAttributes) == null || p.call(g);
+			} catch {}
+	}
+	static async warmPasses(u) {
+		var y;
+		const h = u.filter((x) => !!x);
+		if (
+			h.length === 0 ||
+			!this.renderer ||
+			!((y = this.game) != null && y.gameScene)
+		)
+			return;
+		const p = new Group(),
+			g = new PlaneGeometry(2, 2);
+		for (const x of h) p.add(new Mesh(g, x));
+		try {
+			await this.renderer.compileAsync(p, this.game.gameScene.camera),
+				this.touchProgramIntrospection();
+		} catch (x) {
+			Ulog.warn(
+				"Shader warm-on-enable failed (will link lazily on first draw)",
+				x,
+			);
+		} finally {
+			g.dispose();
+		}
 	}
 	static render() {
 		var A, I;
@@ -202364,7 +202417,7 @@ class GuiManager {
 		(game.info.showInventory =
 			((u = this.currentScreen) == null ? void 0 : u.id) || "inventory"),
 			(mouseLerp.event = -1),
-			(NqEwrUxGQPxVqmvb.rightClick = !1),
+			(bHUUwaWZzvCbuEbX.rightClick = !1),
 			exitPointerLock();
 	}
 	update() {
@@ -202926,7 +202979,7 @@ class GuiContainer extends GuiScreen {
 	}
 	handleMouseClick(h, p, g, y) {
 		h != null && (p = h.slotNumber),
-			NqEwrUxGQPxVqmvb.nJosJJAjIWJ(
+			bHUUwaWZzvCbuEbX.jBFurwCzrzZ(
 				this.inventorySlots.windowId,
 				p,
 				g,
@@ -203168,7 +203221,7 @@ class EntityHanging extends Entity {
 				(b = b / 32),
 				(w = w / 32),
 				this.setEntityBoundingBox(
-					new Nczb(
+					new cnAT(
 						new Vector3$1(h - v, p - b, g - w),
 						new Vector3$1(h + v, p + b, g + w),
 					),
@@ -203505,7 +203558,7 @@ class EntityAIHurtByTarget extends EntityAITarget {
 			const h = this.getTargetDistance(),
 				p = this.taskOwner.world.getEntitiesWithinAABB(
 					this.taskOwner.type,
-					new Nczb(
+					new cnAT(
 						new Vector3$1(
 							this.taskOwner.pos.x,
 							this.taskOwner.pos.y,
@@ -204331,7 +204384,7 @@ class SlimeMoveHelper extends EntityMoveHelper {
 											this.slime.getSoundVolume(),
 											((Math.random() - Math.random()) * 0.2 + 1) * 0.8,
 										))
-								: ((this.slime.QpyyHWoRtn = this.slime.xQrBJjLHwmI = 0),
+								: ((this.slime.axGtHwbyAL = this.slime.QcQtdtqlQMO = 0),
 									this.entity.setAIMoveSpeed(0)))
 						: this.entity.setAIMoveSpeed(
 								this.speed *
@@ -207358,7 +207411,7 @@ class ModelPlayer extends ModelBiped {
 	async addHat(u) {
 		const h = u.entity.profile.cosmetics.hat;
 		if (!h || h === "none") return;
-		const p = await textureManager.wYucBXxoYvr.getModel(h);
+		const p = await textureManager.mWnrIKVXQMY.getModel(h);
 		if (!p) return;
 		const g = p.clone();
 		(g.position.y = 8 / 16),
@@ -207620,7 +207673,7 @@ class EntityManager {
 		for (const h of game.world.playersIterator()) {
 			if (h.id == player.id) continue;
 			const p = this.shouldRenderEntity(h, !0),
-				g = p && h.oadPSHQovvqHeIjCWMG(player);
+				g = p && h.fWeeBSRwQswrttsiIPQ(player);
 			(h.mesh.visible = p), h.mesh.setRenderArmorOnly(g);
 			const y = !g && !u && !h.mesh.usesFastLOD();
 			h.mesh.hatMesh && (h.mesh.hatMesh.visible = y),
@@ -207633,7 +207686,7 @@ class EntityManager {
 			this.hidePlayers ||
 			(_blockPos.set(u.pos.x, u.pos.y, u.pos.z),
 			!u.world.isBlockLoaded(_blockPos)) ||
-			(!h && u.oadPSHQovvqHeIjCWMG(player)) ||
+			(!h && u.fWeeBSRwQswrttsiIPQ(player)) ||
 			(u instanceof EntityPlayer && u.isSpectator() && !player.isSpectator())
 		)
 			return !1;
@@ -207943,7 +207996,7 @@ class GuiInventory extends GuiContainer {
 	drawGuiContainerBackgroundLayer(h, p) {}
 	drawGuiContainerForegroundLayer(h, p) {}
 }
-function akORNqXqNDUEVTdr(m) {
+function OSJbfnwWdWAwfRhA(m) {
 	return keyPressed(m) && Game.isActive(!1);
 }
 function bindKeysWithDefaults(m, u) {
@@ -208034,7 +208087,7 @@ bindKeys(
 	{ preventDefault: !1, handler: "keyup" },
 );
 bindKeysWithDefaults("q", (m) => {
-	Game.isActive() && NqEwrUxGQPxVqmvb.dropItem(m.shiftKey);
+	Game.isActive() && bHUUwaWZzvCbuEbX.dropItem(m.shiftKey);
 });
 bindKeysWithDefaults("slash", (m) => {
 	m.repeat ||
@@ -208224,25 +208277,25 @@ class PlayerMovement extends EntityPlayer {
 		(this.pendingInputs = []), this.predictedPositions.clear();
 	}
 	updatePlayerMoveState() {
-		(this.QpyyHWoRtn = 0), (this.xQrBJjLHwmI = 0);
+		(this.axGtHwbyAL = 0), (this.QcQtdtqlQMO = 0);
 		const h =
-				akORNqXqNDUEVTdr("d") ||
-				akORNqXqNDUEVTdr("right") ||
+				OSJbfnwWdWAwfRhA("d") ||
+				OSJbfnwWdWAwfRhA("right") ||
 				touchcontrols.direction.x > 0,
 			p =
-				akORNqXqNDUEVTdr("a") ||
-				akORNqXqNDUEVTdr("left") ||
+				OSJbfnwWdWAwfRhA("a") ||
+				OSJbfnwWdWAwfRhA("left") ||
 				touchcontrols.direction.x < 0,
 			g =
-				akORNqXqNDUEVTdr("w") ||
-				akORNqXqNDUEVTdr("up") ||
+				OSJbfnwWdWAwfRhA("w") ||
+				OSJbfnwWdWAwfRhA("up") ||
 				touchcontrols.direction.y > 0,
 			y =
-				akORNqXqNDUEVTdr("s") ||
-				akORNqXqNDUEVTdr("down") ||
+				OSJbfnwWdWAwfRhA("s") ||
+				OSJbfnwWdWAwfRhA("down") ||
 				touchcontrols.direction.y < 0;
 		if (
-			((this.jumping = touchcontrols.jumping || akORNqXqNDUEVTdr("space")),
+			((this.jumping = touchcontrols.jumping || OSJbfnwWdWAwfRhA("space")),
 			!(!game.info.inLoadedChunk && !this.mode.isSpectator()) &&
 				(this.inputSequenceNumber++,
 				(this.currentInput = new SPacketPlayerInput({
@@ -208341,7 +208394,7 @@ class PlayerMovement extends EntityPlayer {
 		const g = this.jumping,
 			y = this.sneak,
 			x = -0.8,
-			S = this.xQrBJjLHwmI <= x;
+			S = this.QcQtdtqlQMO <= x;
 		this.isUsingItem() &&
 			!this.isRiding() &&
 			this.isSprinting() &&
@@ -208370,11 +208423,11 @@ class PlayerMovement extends EntityPlayer {
 				this.pos.z + v,
 			);
 		const b = this.getFoodStats().getFoodLevel() > 6 || this.abilities.mayFly,
-			w = akORNqXqNDUEVTdr("shift") || touchcontrols.sprinting;
+			w = OSJbfnwWdWAwfRhA("shift") || touchcontrols.sprinting;
 		this.onGround &&
 			!y &&
 			!S &&
-			this.xQrBJjLHwmI <= x &&
+			this.QcQtdtqlQMO <= x &&
 			!this.isSprinting() &&
 			b &&
 			!this.isUsingItem() &&
@@ -208382,13 +208435,13 @@ class PlayerMovement extends EntityPlayer {
 				? (this.sprintToggleTimer = 7)
 				: this.setSprinting(!0)),
 			!this.isSprinting() &&
-				this.xQrBJjLHwmI <= x &&
+				this.QcQtdtqlQMO <= x &&
 				b &&
 				!this.isUsingItem() &&
 				w &&
 				this.setSprinting(!0),
 			this.isSprinting() &&
-				(this.xQrBJjLHwmI > x || this.isCollidedHorizontally || !b) &&
+				(this.QcQtdtqlQMO > x || this.isCollidedHorizontally || !b) &&
 				this.setSprinting(!1),
 			this.flyToggleTimer > 0 && this.flyToggleTimer--,
 			this.abilities.mayFly &&
@@ -208400,7 +208453,7 @@ class PlayerMovement extends EntityPlayer {
 					: ((this.abilities.flying = !this.abilities.flying),
 						(this.flyToggleTimer = 0))),
 			this.abilities.flying &&
-				((akORNqXqNDUEVTdr("space") || touchcontrols.jumping) &&
+				((OSJbfnwWdWAwfRhA("space") || touchcontrols.jumping) &&
 					(this.motion.y += this.flySpeed * 3),
 				this.sneak && (this.motion.y -= this.flySpeed * 3));
 		const k = this.jumping;
@@ -208424,7 +208477,7 @@ class PlayerMovement extends EntityPlayer {
 						.translate(new Vector3$1(0, 1, 0))
 						.expandByVector(new Vector3$1(0.15, -0.1, 0.15)),
 				);
-			T.length > 0 && C.length <= 0 && this.xQrBJjLHwmI < 0
+			T.length > 0 && C.length <= 0 && this.QcQtdtqlQMO < 0
 				? (this.jumping = !0)
 				: (this.jumping = !1);
 		}
@@ -208453,14 +208506,14 @@ class PlayerMovement extends EntityPlayer {
 		let p = h.up();
 		for (; p.y < 256; ) {
 			if (!game.world.getBlockState(p).getBlock().equals(Blocks.water))
-				return p.y - controls.IJfxPG.y;
+				return p.y - controls.rQJAnk.y;
 			p = p.up();
 		}
-		return 256 - controls.IJfxPG.y;
+		return 256 - controls.rQJAnk.y;
 	}
 	checkHeadInBlock() {
 		player.headInBlock = null;
-		const h = BlockPos.fromVector(controls.IJfxPG),
+		const h = BlockPos.fromVector(controls.rQJAnk),
 			p = game.world.getBlockState(h),
 			g = p.getBlock();
 		g.setBlockBoundsBasedOnState(game.world, h);
@@ -208493,7 +208546,7 @@ class PlayerMovement extends EntityPlayer {
 	fixedUpdate() {
 		var y;
 		if (!game.inGame() || this.getHealth() <= 0) return;
-		playerControllerMP.jZKrgVyWElCIzZhkbat(),
+		playerControllerMP.DJAAXPbKIUuIqgGCEOA(),
 			this.onEntityUpdate(),
 			this.onLivingUpdate(),
 			this.checkHeadInBlock();
@@ -208542,7 +208595,7 @@ const _camPos = new Vector3$1(),
 			E(this, "lastHeadInBlock");
 			E(this, "biome", "WIP");
 			E(this, "lastReportedPos", new Vector3$1());
-			E(this, "ehqRMEIEDfFcgnV");
+			E(this, "ZovwJvdZTtjxEhf");
 			E(this, "lastReportedPitch");
 			E(this, "serverSneakState");
 			E(this, "serverSprintState");
@@ -208604,7 +208657,7 @@ const _camPos = new Vector3$1(),
 			for (const y of player.inventory.armor)
 				y &&
 					y.item instanceof ItemArmor &&
-					(p += y.item.mjWuUrZYzqSeIfQwpa || 0);
+					(p += y.item.sIQTlKDCCDrvnfOzJP || 0);
 			const g = this.world.getPlayerById(this.id);
 			p !== this.prevDefencePoints &&
 				((this.prevDefencePoints = p),
@@ -208650,7 +208703,7 @@ const _camPos = new Vector3$1(),
 		}
 		addSelectBox() {
 			if (this.selectBox) return;
-			const h = new Nczb(new Vector3$1(), new Vector3$1(1, 1, 1));
+			const h = new cnAT(new Vector3$1(), new Vector3$1(1, 1, 1));
 			(this.selectBox = new Box3Helper(h, new Color$1("white"))),
 				(this.selectBox.name = "wireframe"),
 				this.game.gameScene.scene.add(this.selectBox);
@@ -208709,8 +208762,8 @@ const _camPos = new Vector3$1(),
 					this.game.gameScene.camera.getWorldPosition(_camPos);
 				const x = _camDir;
 				this.game.gameScene.camera.getWorldDirection(x), x.negate();
-				const S = controls.IJfxPG,
-					v = _camEnd.copy(controls.IJfxPG).add(x.multiplyScalar(y)),
+				const S = controls.rQJAnk,
+					v = _camEnd.copy(controls.rQJAnk).add(x.multiplyScalar(y)),
 					b = rayTraceBlocks(S, v, !1, !0, !0, this.game.world);
 				if (b) {
 					const w = S.distanceTo(b.hitVec);
@@ -208807,13 +208860,13 @@ const _camPos = new Vector3$1(),
 				(this.yaw = controls.yaw),
 				(this.pitch = controls.pitch);
 			const h =
-				akORNqXqNDUEVTdr("ctrl") &&
+				OSJbfnwWdWAwfRhA("ctrl") &&
 				keyMap.ControlLeft === "ctrl" &&
 				Game.isFullscreen();
 			this.sneak =
-				akORNqXqNDUEVTdr("alt") ||
+				OSJbfnwWdWAwfRhA("alt") ||
 				h ||
-				(akORNqXqNDUEVTdr("ctrl") && keyMap.ControlLeft != "ctrl") ||
+				(OSJbfnwWdWAwfRhA("ctrl") && keyMap.ControlLeft != "ctrl") ||
 				touchcontrols.sneaking;
 		}
 		sendPositionAndRotation() {
@@ -208832,11 +208885,11 @@ const _camPos = new Vector3$1(),
 				(this.lastReportedPos.y = this.getEntityBoundingBox().min.y),
 				(this.lastReportedPos.z = this.pos.z),
 				(this.positionUpdateTicks = 0)),
-				(this.yaw - this.ehqRMEIEDfFcgnV !== 0 ||
+				(this.yaw - this.ZovwJvdZTtjxEhf !== 0 ||
 					this.pitch - this.lastReportedPitch !== 0) &&
 					((x.yaw = player.yaw),
 					(x.pitch = player.pitch),
-					(this.ehqRMEIEDfFcgnV = this.yaw),
+					(this.ZovwJvdZTtjxEhf = this.yaw),
 					(this.lastReportedPitch = this.pitch)),
 				ClientSocket.sendPacket(new SPacketPlayerPosLook(x)),
 				++this.positionUpdateTicks;
@@ -208856,13 +208909,13 @@ const _camPos = new Vector3$1(),
 					((player.serverPunchState = player.punching),
 					(h.punching = player.punching),
 					(p = !0)),
-				player.QpyyHWoRtn !== player.serverMoveStrafe &&
-					((player.serverMoveStrafe = player.QpyyHWoRtn),
-					(h.QpyyHWoRtn = player.QpyyHWoRtn),
+				player.axGtHwbyAL !== player.serverMoveStrafe &&
+					((player.serverMoveStrafe = player.axGtHwbyAL),
+					(h.axGtHwbyAL = player.axGtHwbyAL),
 					(p = !0)),
-				player.xQrBJjLHwmI !== player.serverMoveForward &&
-					((player.serverMoveForward = player.xQrBJjLHwmI),
-					(h.xQrBJjLHwmI = player.xQrBJjLHwmI),
+				player.QcQtdtqlQMO !== player.serverMoveForward &&
+					((player.serverMoveForward = player.QcQtdtqlQMO),
+					(h.QcQtdtqlQMO = player.QcQtdtqlQMO),
 					(p = !0)),
 				p && ClientSocket.sendPacket(new SPacketEntityAction(h));
 		}
@@ -208879,7 +208932,7 @@ const _camPos = new Vector3$1(),
 		}
 		fixedUpdate() {
 			super.fixedUpdate(),
-				NqEwrUxGQPxVqmvb.update(),
+				bHUUwaWZzvCbuEbX.update(),
 				this.updateItemInUse(),
 				this.isRiding()
 					? ClientSocket.sendPacket(
@@ -208918,8 +208971,8 @@ const _camPos = new Vector3$1(),
 					));
 		}
 		getMoveDirection(h) {
-			let p = this.QpyyHWoRtn,
-				g = this.xQrBJjLHwmI,
+			let p = this.axGtHwbyAL,
+				g = this.QcQtdtqlQMO,
 				y = p * p + g * g;
 			if (y >= 1e-4) {
 				(y = Math.sqrt(y)),
@@ -208935,7 +208988,7 @@ const _camPos = new Vector3$1(),
 		}
 		updateClient(h) {
 			this.getHealth() <= 0 ||
-				(NqEwrUxGQPxVqmvb.render(),
+				(bHUUwaWZzvCbuEbX.render(),
 				hud3D.update(),
 				this.updateViewModelLighting(),
 				this.updateHeldLight(),
@@ -208946,7 +208999,7 @@ const _camPos = new Vector3$1(),
 				this.updateSelfShadow());
 		}
 		updateSoundOrientation() {
-			const h = controls.IJfxPG;
+			const h = controls.rQJAnk;
 			isFinite(h.x) &&
 				isFinite(h.y) &&
 				isFinite(h.z) &&
@@ -208961,7 +209014,7 @@ const _camPos = new Vector3$1(),
 				);
 		}
 		getEyePos() {
-			return controls.IJfxPG;
+			return controls.rQJAnk;
 		}
 		attackEntityFrom(h, p) {
 			return !1;
@@ -224994,7 +225047,7 @@ class ChunkRenderQueue {
 	}
 }
 function WorkerWrapper(m) {
-	return new Worker("/assets/ChunkRenderWorker-Bap2tijX.js", {
+	return new Worker("/assets/ChunkRenderWorker-INeqLvQU.js", {
 		type: "module",
 		name: m == null ? void 0 : m.name,
 	});
@@ -225263,7 +225316,7 @@ class ChunkRenderManager {
 		await textureManager.loadSpritesheet();
 		for (const u of this.meshes.values())
 			(u.opaque.material = textureManager.materialWorld),
-				(u.transparent.material = textureManager.MPCMKvWghbgMaTeUEzBqmTMD),
+				(u.transparent.material = textureManager.wcdrzmrrtjWnqczZkIoJWZTZ),
 				(u.fluid.material = textureManager.materialFluidWorld);
 	}
 	updateChunkMesh(u) {
@@ -225283,7 +225336,7 @@ class ChunkRenderManager {
 				opaque: new Mesh(new BufferGeometry(), textureManager.materialWorld),
 				transparent: new Mesh(
 					new BufferGeometry(),
-					textureManager.MPCMKvWghbgMaTeUEzBqmTMD,
+					textureManager.wcdrzmrrtjWnqczZkIoJWZTZ,
 				),
 				fluid: new Mesh(
 					new BufferGeometry(),
@@ -226779,9 +226832,9 @@ Reason: ${h}`)),
 				}));
 		}),
 		ClientSocket.on("CPacketOpenShop", (h) => {
-			NqEwrUxGQPxVqmvb.onStoppedUsingItem(player),
+			bHUUwaWZzvCbuEbX.onStoppedUsingItem(player),
 				(mouseLerp.event = -1),
-				(NqEwrUxGQPxVqmvb.rightClick = !1),
+				(bHUUwaWZzvCbuEbX.rightClick = !1),
 				h.type
 					? (m.info.showInventory = h.type)
 					: (m.info.showInventory = null),
@@ -234294,13 +234347,13 @@ class HatThumbnailRenderer {
 		if (!u || u === "none") return null;
 		if (this.cache[u]) return this.cache[u];
 		try {
-			const h = await textureManager.wYucBXxoYvr.getModel(u);
+			const h = await textureManager.mWnrIKVXQMY.getModel(u);
 			if (!h) return null;
 			this.init();
 			const p = this.renderer;
 			if (!p) return null;
 			const g = h.clone(!0),
-				y = new Nczb().setFromObject(g),
+				y = new cnAT().setFromObject(g),
 				x = new Vector3$1();
 			y.getCenter(x), g.position.sub(x);
 			const S = new Sphere();
@@ -246521,7 +246574,7 @@ function lazyWithRetry(m) {
 	);
 }
 const QuickLaunchModal = lazyWithRetry(() =>
-		__vitePreload(() => import("./index-J4bYI0_o.js"), __vite__mapDeps([0, 1])),
+		__vitePreload(() => import("./index-C91vRmaT.js"), __vite__mapDeps([0, 1])),
 	),
 	titles = [title],
 	randomTitle = [title][Math.floor(Math.random() * titles.length)],
@@ -255914,36 +255967,36 @@ const Banner = ({ accent: m, onClose: u, children: h }) =>
 	},
 	GuiHud = lazyWithRetry(() =>
 		__vitePreload(
-			() => import("./GuiHud-CeXhUCul.js"),
+			() => import("./GuiHud-o7QiYzSY.js"),
 			__vite__mapDeps([2, 1]),
 		),
 	),
 	ReferralInvite = lazyWithRetry(() =>
-		__vitePreload(() => import("./ReferralInvite-CV7OBs7r.js"), []),
+		__vitePreload(() => import("./ReferralInvite-CLP-KUc0.js"), []),
 	),
 	InfoScreen = lazyWithRetry(() =>
 		__vitePreload(() => Promise.resolve().then(() => InfoScreen$2), void 0),
 	),
 	DirectConnect = lazyWithRetry(() =>
-		__vitePreload(() => import("./DirectConnect-BwONQ0MP.js"), []),
+		__vitePreload(() => import("./DirectConnect-Ba2LXRmw.js"), []),
 	),
 	EULA = lazyWithRetry(() =>
-		__vitePreload(() => import("./EULA-CVK1VJyz.js"), []),
+		__vitePreload(() => import("./EULA-BPqw-Jwj.js"), []),
 	),
 	Privacy = lazyWithRetry(() =>
-		__vitePreload(() => import("./Privacy-COWLh1SG.js"), []),
+		__vitePreload(() => import("./Privacy-CEWvrOPV.js"), []),
 	),
 	Referral = lazyWithRetry(() =>
 		__vitePreload(() => Promise.resolve().then(() => index), void 0),
 	),
 	ReportPlayer = lazyWithRetry(() =>
-		__vitePreload(() => import("./ReportPlayer-3bGqsb84.js"), []),
+		__vitePreload(() => import("./ReportPlayer-BAIW5G7C.js"), []),
 	),
 	Rules = lazyWithRetry(() =>
-		__vitePreload(() => import("./Rules-B0KPp4lm.js"), []),
+		__vitePreload(() => import("./Rules-SkzKl-bS.js"), []),
 	),
 	Tutorial = lazyWithRetry(() =>
-		__vitePreload(() => import("./Tutorial-BiNaMhyC.js"), []),
+		__vitePreload(() => import("./Tutorial-ChLJGrtN.js"), []),
 	),
 	HookIntoReactRender = () => (
 		ReactInterface.useMountHooks(), jsxRuntimeExports.jsx(Outlet, {})
@@ -256869,7 +256922,7 @@ const oa = class oa {
 			controls.setCamera(this.gameScene.camera),
 			(player.game = this),
 			(this.player = player),
-			(this.controller = NqEwrUxGQPxVqmvb),
+			(this.controller = bHUUwaWZzvCbuEbX),
 			player.addSelectBox();
 	}
 	static get isCrazyGames() {
@@ -257301,7 +257354,7 @@ const oa = class oa {
 			(window.onbeforeunload = null),
 			exitPointerLock(),
 			this.fpsOptimizer.stop(),
-			NqEwrUxGQPxVqmvb.reset(),
+			bHUUwaWZzvCbuEbX.reset(),
 			player.reset(),
 			player.activePotionsMap.clear(),
 			player.mountEntity(null),
@@ -258055,7 +258108,7 @@ export {
 	FaVideo as b3,
 	MdFullscreenExit as b4,
 	MdFullscreen as b5,
-	NqEwrUxGQPxVqmvb as b6,
+	bHUUwaWZzvCbuEbX as b6,
 	touchcontrols as b7,
 	FaArrowCircleUp as b8,
 	reactDomExports as b9,
@@ -258188,4 +258241,4 @@ export {
 	ModalBody as y,
 	GuiText as z,
 };
-//# sourceMappingURL=index-BUTlj9Ql.js.map
+//# sourceMappingURL=index-B84c-aZu.js.map
