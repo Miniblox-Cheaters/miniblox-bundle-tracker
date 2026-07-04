@@ -3,20 +3,20 @@ const __vite__mapDeps = (
 	m = __vite__mapDeps,
 	d = m.f ||
 		(m.f = [
-			"assets/OptionsManager-DmET_u26.js",
-			"assets/rolldown-runtime-DtE-Pup9.js",
-			"assets/output-j9dxJKY9.js",
-			"assets/AccountAvatarHead-DawLyifC.js",
-			"assets/dist-BOBZGnHZ.js",
-			"assets/GuiHud-DClbABeu.js",
-			"assets/three-ZPUHXpw4.js",
-			"assets/gamedata-Bumfptu9.js",
-			"assets/ReferralInvite-CALFfopx.js",
-			"assets/EULA-EJgOr6ox.js",
-			"assets/Privacy-DC6nS6fT.js",
-			"assets/Rules-C6KTtS0l.js",
-			"assets/Tutorial-BCD_1ElJ.js",
-			"assets/bootEngine-DoGhQtlc.js",
+			"assets/OptionsManager-DnRoMb_m.js",
+			"assets/rolldown-runtime-Bi9HiQ70.js",
+			"assets/output-D4djaj-o.js",
+			"assets/AccountAvatarHead-DpELHEsd.js",
+			"assets/dist-83rU8PAS.js",
+			"assets/GuiHud-BI7vl3va.js",
+			"assets/three-DresAxx9.js",
+			"assets/gamedata-BfZplp1x.js",
+			"assets/ReferralInvite-BB_FLHUE.js",
+			"assets/EULA-CmmGnACm.js",
+			"assets/Privacy-BeiwnO7R.js",
+			"assets/Rules-DpmGr-XY.js",
+			"assets/Tutorial-CSlrbzyZ.js",
+			"assets/bootEngine-D6yaOrXa.js",
 		]),
 ) => i.map((i) => d[i]);
 (function () {
@@ -31,15 +31,15 @@ const __vite__mapDeps = (
 						: typeof self < `u`
 							? self
 							: {};
-		e.SENTRY_RELEASE = { id: `3.46.37` };
+		e.SENTRY_RELEASE = { id: `3.46.39` };
 		var t = new e.Error().stack;
 		t &&
 			((e._sentryDebugIds = e._sentryDebugIds || {}),
-			(e._sentryDebugIds[t] = `375d407d-5b09-43d8-8e7f-5f3e692a0bb7`),
-			(e._sentryDebugIdIdentifier = `sentry-dbid-375d407d-5b09-43d8-8e7f-5f3e692a0bb7`));
+			(e._sentryDebugIds[t] = `77f59e29-0124-4600-b18c-2520e40cc010`),
+			(e._sentryDebugIdIdentifier = `sentry-dbid-77f59e29-0124-4600-b18c-2520e40cc010`));
 	} catch {}
 })();
-import { a as e, i as t, n, r, t as i } from "./rolldown-runtime-DtE-Pup9.js";
+import { a as e, i as t, n, r, t as i } from "./rolldown-runtime-Bi9HiQ70.js";
 import {
 	A as a,
 	C as o,
@@ -71,7 +71,7 @@ import {
 	w as ae,
 	x as oe,
 	y as se,
-} from "./OptionsManager-DmET_u26.js";
+} from "./OptionsManager-DnRoMb_m.js";
 import {
 	$ as ce,
 	$t as le,
@@ -184,23 +184,23 @@ import {
 	yt as an,
 	z as on,
 	zt as sn,
-} from "./dist-BOBZGnHZ.js";
+} from "./dist-83rU8PAS.js";
 import {
 	a as cn,
 	i as iee,
 	n as ln,
 	r as un,
 	t as dn,
-} from "./gamedata-Bumfptu9.js";
+} from "./gamedata-BfZplp1x.js";
 import {
 	$ as fn,
-	A as pn,
-	B as aee,
-	C as mn,
-	Ct as hn,
-	D as gn,
-	E as _n,
-	F as oee,
+	A as aee,
+	B as oee,
+	C as pn,
+	Ct as mn,
+	D as hn,
+	E as gn,
+	F as _n,
 	G as vn,
 	H as yn,
 	I as see,
@@ -222,53 +222,53 @@ import {
 	Y as jn,
 	Z as Mn,
 	_ as Nn,
-	_t as Pn,
-	a as Fn,
-	at as In,
-	b as Ln,
-	bt as D,
-	c as fee,
-	ct as Rn,
-	d as zn,
-	et as pee,
-	ft as mee,
-	g as Bn,
-	gt as hee,
-	h as Vn,
-	ht as Hn,
-	i as Un,
-	it as gee,
-	j as Wn,
-	k as _ee,
-	l as Gn,
-	lt as Kn,
-	m as vee,
-	mt as qn,
-	n as yee,
-	nt as Jn,
+	_t as fee,
+	a as Pn,
+	at as pee,
+	b as Fn,
+	bt as In,
+	c as mee,
+	ct as Ln,
+	d as Rn,
+	dt as zn,
+	et as Bn,
+	g as Vn,
+	gt as Hn,
+	h as Un,
+	ht as Wn,
+	i as Gn,
+	it as Kn,
+	j as qn,
+	k as hee,
+	l as Jn,
+	lt as Yn,
+	m as gee,
+	mt as _ee,
+	n as vee,
+	nt as yee,
 	o as bee,
-	ot as Yn,
+	ot as Xn,
 	p as xee,
 	pt as See,
 	q as Cee,
-	r as Xn,
-	rt as Zn,
-	s as Qn,
-	st as $n,
+	r as Zn,
+	rt as Qn,
+	s as $n,
+	st as er,
 	t as wee,
 	tt as Tee,
-	u as er,
-	ut as tr,
-	v as nr,
-	vt as Eee,
-	w as rr,
-	wt as ir,
-	x as ar,
-	xt as or,
-	y as sr,
-	yt as cr,
+	u as tr,
+	ut as nr,
+	v as rr,
+	vt as ir,
+	w as ar,
+	wt as or,
+	x as sr,
+	xt as D,
+	y as cr,
+	yt as Eee,
 	z as lr,
-} from "./three-ZPUHXpw4.js";
+} from "./three-DresAxx9.js";
 (function () {
 	let e = document.createElement(`link`).relList;
 	if (e && e.supports && e.supports(`modulepreload`)) return;
@@ -8928,7 +8928,7 @@ for (let e = -1; e <= 1; e++)
 var Uc = { north: 0, east: Math.PI / 2, south: Math.PI, west: -Math.PI / 2 },
 	Wc = 1024 * 1024,
 	Gc = [`eggwars`, `skywars`, `pvp`, `kitpvp`, `oitq`, `duels_bridge`],
-	Kc = `3.46.37`,
+	Kc = `3.46.39`,
 	qc = `production`;
 if (
 	[`development`, `local`, `staging`, `production`].indexOf(`production`) === -1
@@ -9157,7 +9157,7 @@ var dre = `localhost:3002`,
 			return new e(t.pos.x, t.pos.y, t.pos.z);
 		}
 		toAABB() {
-			return new ir().setFromCenterAndSize(
+			return new Cn().setFromCenterAndSize(
 				new D(this.x + 0.5, this.y + 0.5, this.z + 0.5),
 				new D(0.5, 0.5, 0.5),
 			);
@@ -9234,7 +9234,7 @@ var dre = `localhost:3002`,
 		clone() {
 			return new e(this.x, this.y, this.z);
 		}
-		static BjvEvCbvsef(e, t) {
+		static SutyNUnmvwM(e, t) {
 			return { [Symbol.iterator]: () => pre(e, t) };
 		}
 	};
@@ -12173,7 +12173,7 @@ var cu = {
 				(this.material = t),
 				(this.armorType = r),
 				(this.renderIndex = n),
-				(this.QhzlVaHJiinRkouulH = t.damageReductionAmount[r]),
+				(this.rbuvBSyyXWdTnOivan = t.damageReductionAmount[r]),
 				(this.toughness = t.toughness);
 		}
 		getArmorMaterial() {
@@ -12553,13 +12553,13 @@ var cu = {
 		getName() {
 			return this.name;
 		}
-		PWNOMBXmGvip() {
+		HgVKtguipvOY() {
 			return this.operation;
 		}
-		diHbmYCRS() {
+		sTXasIxSg() {
 			return this.amount;
 		}
-		EHNuBVKk(e) {
+		vkhnlaDC(e) {
 			return (this.isSaved = e), this;
 		}
 		equals(e) {
@@ -12601,13 +12601,13 @@ var cu = {
 		getAttributeUnlocalizedName() {
 			return this.unlocalizedName;
 		}
-		HsgYUypTjYZkimE() {
+		lPLoIIuEeiBYSAt() {
 			return this.defaultValue;
 		}
-		HyTvekoRfsNMrY() {
+		SIHbEFWJNJrfZb() {
 			return this.shouldWatch;
 		}
-		hWqOiAYSLjpHtH(e) {
+		jqdrhZqJDBgMRp(e) {
 			return (this.shouldWatch = e), this;
 		}
 		getAttribute() {
@@ -12632,21 +12632,21 @@ var cu = {
 			if (n < r) throw `Default value cannot be lower than minimum value!`;
 			if (n > i) throw `Default value cannot be bigger than maximum value!`;
 		}
-		dxpODhNIiNhIgN(e) {
+		pYsGfPBtPtwiIs(e) {
 			return (this.description = e), this;
 		}
-		mpJmYMzqJOcQhE() {
+		IRsRJRqUhtKodv() {
 			return this.description;
 		}
-		NPckiivCQQ(e) {
+		LyntzqcTrk(e) {
 			return (e = (0, M.clamp)(e, this.minimumValue, this.maximumValue)), e;
 		}
 	},
 	Au = class e {
 		static {
 			this.maxHealth = new ku(null, `generic.maxHealth`, 20, 0, 1024)
-				.dxpODhNIiNhIgN(`Max Health`)
-				.hWqOiAYSLjpHtH(!0);
+				.pYsGfPBtPtwiIs(`Max Health`)
+				.jqdrhZqJDBgMRp(!0);
 		}
 		static {
 			this.followRange = new ku(
@@ -12655,7 +12655,7 @@ var cu = {
 				32,
 				0,
 				2048,
-			).dxpODhNIiNhIgN(`Follow Range`);
+			).pYsGfPBtPtwiIs(`Follow Range`);
 		}
 		static {
 			this.knockbackResistance = new ku(
@@ -12664,68 +12664,68 @@ var cu = {
 				0,
 				0,
 				1,
-			).dxpODhNIiNhIgN(`Knockback Resistance`);
+			).pYsGfPBtPtwiIs(`Knockback Resistance`);
 		}
 		static {
-			this.sLYAdepgIImgX = new ku(null, `generic.movementSpeed`, 0.7, 0, 1024)
-				.dxpODhNIiNhIgN(`Movement Speed`)
-				.hWqOiAYSLjpHtH(!0);
+			this.NLOgYLKKWRvav = new ku(null, `generic.movementSpeed`, 0.7, 0, 1024)
+				.pYsGfPBtPtwiIs(`Movement Speed`)
+				.jqdrhZqJDBgMRp(!0);
 		}
 		static {
 			this.attackDamage = new ku(null, `generic.attackDamage`, 2, 0, 2048);
 		}
-		static rDtigEBlArLxcGnXxjQxYSZPga(t) {
+		static GdTxAzsupoTbWBUHeNXPYDekDb(t) {
 			let n = [];
-			for (let r of t.pdMtvmPFKHgRdfQM())
-				n.push(e.RGQCaZJlJSLyPQWMlEDhqQJAEMP(r));
+			for (let r of t.CtXJCsnAmchsVhDY())
+				n.push(e.SmBMDUfpMgfLZAndOrHxAHmbGOc(r));
 			return I.list(I.comp(n));
 		}
-		static RGQCaZJlJSLyPQWMlEDhqQJAEMP(t) {
+		static SmBMDUfpMgfLZAndOrHxAHmbGOc(t) {
 			let n = {},
 				r = t.getAttribute();
 			(n.Name = I.string(r.getAttributeUnlocalizedName())),
-				(n.Base = I.double(t.mgVBIewPIpIX()));
-			let i = t.ZZtpcQHlgjRcQ();
+				(n.Base = I.double(t.PHfNzUptldiY()));
+			let i = t.LeJdkHhYGLjIl();
 			if (i != null && i.length > 0) {
 				let t = [];
-				for (let n of i) n.isSaved && t.push(e.nYRmnfahRwPyjOtMVxslojQTYSv(n));
+				for (let n of i) n.isSaved && t.push(e.hIeeglXoxvxHCJuYBnPMWKWQFsM(n));
 				n.Modifiers = I.list(I.comp(t));
 			}
 			return n;
 		}
-		static nYRmnfahRwPyjOtMVxslojQTYSv(e) {
+		static hIeeglXoxvxHCJuYBnPMWKWQFsM(e) {
 			let t = {};
 			return (
 				(t.Name = I.string(e.getName())),
-				(t.Amount = I.double(e.diHbmYCRS())),
-				(t.Operation = I.int(e.PWNOMBXmGvip())),
+				(t.Amount = I.double(e.sTXasIxSg())),
+				(t.Operation = I.int(e.HgVKtguipvOY())),
 				(t.UUID = I.string(e.getID())),
 				t
 			);
 		}
-		static cGcJfmSDRNCjp(t, n) {
+		static tULcvQqWBYjOU(t, n) {
 			for (let r = 0; r < n.length; ++r) {
 				let i = n[r],
 					a = i.Name.replace(`${ol}:`, ``),
-					o = t.rMcHswwhfhyoKlIAUomzhwfXpu(a);
+					o = t.KaUOqZlYGoVzSJFLkOgfmuQFdt(a);
 				o == null
 					? O.info(`Ignoring unknown attribute '${a}'`)
-					: e.GIBcwLvECjgYCgJJDtxHRaafgwuiMrKue(o, i);
+					: e.agjZQxeaXTNeXHANUaxUkYpLlBkuLVukX(o, i);
 			}
 		}
-		static GIBcwLvECjgYCgJJDtxHRaafgwuiMrKue(t, n) {
+		static agjZQxeaXTNeXHANUaxUkYpLlBkuLVukX(t, n) {
 			if ((t.setBaseValue(n.Base), n.Modifiers)) {
 				let r = n.Modifiers;
 				for (let n = 0; n < r.length; ++n) {
-					let i = e.TKBiUSfQEzNrzGpTHTqlSHkGTxqR(r[n]);
+					let i = e.VcoljggaXJrRrdDmTIlKayFvZmNr(r[n]);
 					if (i != null) {
-						let e = t.ypbnVjsJauX(i.getID());
+						let e = t.EfuhFZvNBpV(i.getID());
 						e != null && t.removeModifier(e.getID()), t.applyModifier(i);
 					}
 				}
 			}
 		}
-		static TKBiUSfQEzNrzGpTHTqlSHkGTxqR(e) {
+		static VcoljggaXJrRrdDmTIlKayFvZmNr(e) {
 			let t = e.UUID;
 			try {
 				return new Du(t, e.Name, e.Amount, e.Operation);
@@ -13190,7 +13190,7 @@ var Gu = class extends Lc {
 		getDamageSrc() {
 			return this.damageSrc;
 		}
-		AipJfEPuh() {
+		tMynBKOUy() {
 			return this.damage;
 		}
 		isLivingDamageSrc() {
@@ -13271,7 +13271,7 @@ var Gu = class extends Lc {
 					((this.field_94552_d = !0),
 					(this.field_152775_d = this.fighter.ticksExisted),
 					(this.field_152776_e = this.field_152775_d),
-					this.fighter.rbAPXJLvpZZQcWM());
+					this.fighter.jfYOFziQHdprkFv());
 		}
 		getDeathMessage() {
 			if (this.combatEntries.length == 0)
@@ -13388,7 +13388,7 @@ var Gu = class extends Lc {
 				(this.field_94553_e = !1),
 					(this.field_94552_d = !1),
 					(this.field_152776_e = this.fighter.ticksExisted),
-					e && this.fighter.vKphJTBxZQesV(),
+					e && this.fighter.QnYAFNfxNTEQA(),
 					(this.combatEntries.length = 0);
 			}
 		}
@@ -13495,7 +13495,7 @@ function Zu(e, t, n, r, i, a) {
 	return i ? h : null;
 }
 function Qu(e, t, n, r = !1) {
-	let i = e.NvstfwYcR();
+	let i = e.PmrXjhyxc();
 	return Zu(i, i.clone().add(e.getLook().multiplyScalar(n)), r, !1, !1, t);
 }
 function eie(e, t) {
@@ -13757,7 +13757,7 @@ function vd(e, t, n, r, i) {
 	);
 }
 function yd(e, t, n, r) {
-	return vd(e, t, n, r, new ir(new D(), new D()));
+	return vd(e, t, n, r, new Cn(new D(), new D()));
 }
 function bd(e, t, n, r) {
 	return (
@@ -13777,22 +13777,22 @@ var xd = class e {
 				(this.objectType = e),
 				(this.watched = !0);
 		}
-		dHseuQsfGPZXvG() {
+		lpjkeDTsaPgRFq() {
 			return this.dataValueId;
 		}
-		XkTwRYxSN(e) {
+		xqVbPbVZK(e) {
 			this.watchedObject = e;
 		}
 		getObject() {
 			return this.watchedObject;
 		}
-		TwYgVWqVJuGQB() {
+		VpskXzuVlVlWm() {
 			return this.objectType;
 		}
-		RPcTqWSGD() {
+		ZyIyXasQa() {
 			return this.watched;
 		}
-		adhdFSJSFy(e) {
+		EpXjnzaoHq(e) {
 			this.watched = e;
 		}
 		static fromProto(t) {
@@ -13847,29 +13847,29 @@ var xd = class e {
 				this.watchedObjects.set(e, n), (this.isBlank = !1);
 			}
 		}
-		PDcBuDZkPkJrkoAKgVs(e, t) {
+		UlqwRqpZmprCAVwPcnn(e, t) {
 			let n = new xd(t, e, null);
 			this.watchedObjects.set(e, n), (this.isBlank = !1);
 		}
 		getWatchableObjectByte(e) {
-			return this.oTLAbMQICOXHyNkp(e).getObject();
+			return this.fCcYczUZRCwGFPxU(e).getObject();
 		}
-		eeaapnkppJybUTrxxLRcPzJ(e) {
-			return this.oTLAbMQICOXHyNkp(e).getObject();
+		ILduIombZkoKOutAjqNcQyy(e) {
+			return this.fCcYczUZRCwGFPxU(e).getObject();
 		}
-		YJfZLGOonfmmAktuyJuka(e) {
-			return this.oTLAbMQICOXHyNkp(e).getObject();
+		eHjnaPmjMseFGhWmPFXjp(e) {
+			return this.fCcYczUZRCwGFPxU(e).getObject();
 		}
 		getWatchableObjectFloat(e) {
-			return this.oTLAbMQICOXHyNkp(e).getObject();
+			return this.fCcYczUZRCwGFPxU(e).getObject();
 		}
-		CprFqBszoeHwMtNHxkWSJkTH(e) {
-			return this.oTLAbMQICOXHyNkp(e).getObject();
+		DvNVuElyRwbtHpKWTEANZDRI(e) {
+			return this.fCcYczUZRCwGFPxU(e).getObject();
 		}
-		kUPWOsQFGVbCiGdNbzvBLfNyQtC(e) {
-			return this.oTLAbMQICOXHyNkp(e).getObject();
+		vYIXnwZVBrrXVXqxHGvxcifPwJG(e) {
+			return this.fCcYczUZRCwGFPxU(e).getObject();
 		}
-		oTLAbMQICOXHyNkp(e) {
+		fCcYczUZRCwGFPxU(e) {
 			let t;
 			try {
 				t = this.watchedObjects.get(e);
@@ -13878,45 +13878,45 @@ var xd = class e {
 			}
 			return t;
 		}
-		EFVrPvXTaIhEDXZMotpJYGsawrh(e) {
-			return this.oTLAbMQICOXHyNkp(e).getObject();
+		vtdPAjTKdQwXRNVjmclHxXCUBDj(e) {
+			return this.fCcYczUZRCwGFPxU(e).getObject();
 		}
 		updateObject(e, t) {
-			let n = this.oTLAbMQICOXHyNkp(e);
+			let n = this.fCcYczUZRCwGFPxU(e);
 			M.default.isEqual(t, n.getObject()) ||
-				(n.XkTwRYxSN(t),
-				this.owner.hqnMJVAipHnfTLFohtx(e),
-				n.adhdFSJSFy(!0),
+				(n.xqVbPbVZK(t),
+				this.owner.QmvEoitVxpQnzVdRSqK(e),
+				n.EpXjnzaoHq(!0),
 				(this.objectChanged = !0));
 		}
-		SZLvlrvqjkZoDoIJ(e) {
-			(this.oTLAbMQICOXHyNkp(e).watched = !0), (this.objectChanged = !0);
+		nRHEZZXqmWjATRNs(e) {
+			(this.fCcYczUZRCwGFPxU(e).watched = !0), (this.objectChanged = !0);
 		}
-		AMitjycFLCVgJhKk() {
+		AsembICpwJfaOIDF() {
 			return this.objectChanged;
 		}
-		fznEzARVXJ() {
+		CVHxpBFVNU() {
 			let e;
 			if (this.objectChanged)
 				for (let t of this.watchedObjects.values())
-					t.RPcTqWSGD() && (t.adhdFSJSFy(!1), (e ??= []), e.push(t));
+					t.ZyIyXasQa() && (t.EpXjnzaoHq(!1), (e ??= []), e.push(t));
 			return (this.objectChanged = !1), e;
 		}
-		DoJyzVzPbImPn() {
+		BOFlqrbedKOPp() {
 			let e;
 			for (let t of this.watchedObjects.values()) (e ??= []), e.push(t);
 			return e;
 		}
-		impFdgdcCyXjffQdcYxadSXqdMxJ(e) {
+		AJAirNZtwlYaJJVUgsLpgTrUNQkQ(e) {
 			for (let t of e) {
-				let e = this.watchedObjects.get(t.dHseuQsfGPZXvG());
+				let e = this.watchedObjects.get(t.lpjkeDTsaPgRFq());
 				e != null &&
-					(e.XkTwRYxSN(t.getObject()),
-					this.owner.hqnMJVAipHnfTLFohtx(t.dHseuQsfGPZXvG()));
+					(e.xqVbPbVZK(t.getObject()),
+					this.owner.QmvEoitVxpQnzVdRSqK(t.lpjkeDTsaPgRFq()));
 			}
 			this.objectChanged = !0;
 		}
-		ZNVddWcjjY() {
+		AfdjhyFuMG() {
 			return this.isBlank;
 		}
 	},
@@ -14040,7 +14040,7 @@ var xd = class e {
 		static {
 			this.uuidCounter = 0;
 		}
-		static hrihCawEHfcu() {
+		static ALiIEaxYUDhJ() {
 			return `${Date.now().toString(36)}-${(e.uuidCounter++).toString(36)}-${Math.random().toString(36).slice(2, 10)}`;
 		}
 		static {
@@ -14056,13 +14056,13 @@ var xd = class e {
 			this.MAX_FIRE_TICKS = 2e3;
 		}
 		constructor(t, n) {
-			(this._queryBox = new ir(new D(), new D())),
+			(this._queryBox = new Cn(new D(), new D())),
 				(this._moveDelta = new D()),
 				(this._moveSaved = new D()),
 				(this._movePrev = new D()),
 				(this._moveDeltaPos = new D()),
 				(this.id = e.nextEntityID++),
-				(this.uuid = e.hrihCawEHfcu()),
+				(this.uuid = e.ALiIEaxYUDhJ()),
 				(this.pos = new D()),
 				(this.prevPos = new D()),
 				(this.serverPos = new D()),
@@ -14074,7 +14074,7 @@ var xd = class e {
 				(this.prevPitch = 0),
 				(this.ticksExisted = 0),
 				(this.dead = !1),
-				(this.boundingBox = new ir(new D(), new D())),
+				(this.boundingBox = new Cn(new D(), new D())),
 				(this.fire = 0),
 				(this.fireResistance = 1),
 				(this.onGround = !1),
@@ -14106,7 +14106,7 @@ var xd = class e {
 				this.dataWatcher.addObject(4, 0),
 				this.entityInit();
 		}
-		iaKNNNPkiVSSA() {
+		TkRfsxCMEHFDZ() {
 			this.setDead();
 		}
 		getDisplayName() {
@@ -14118,48 +14118,48 @@ var xd = class e {
 		isInWater() {
 			return this.inWater;
 		}
-		tfumiyDB() {
+		NomvXcuL() {
 			return this.inLava;
 		}
-		jkCMvaSZ() {
-			return this.QqHsDTH(4);
+		yZHQaxsw() {
+			return this.mtdnsyd(4);
 		}
-		acnuEMWwT(e) {
-			this.kDtEjGr(4, e);
+		sPvQKWXcp(e) {
+			this.eskGpoT(4, e);
 		}
 		entityInit() {}
 		getDataWatcher() {
 			return this.dataWatcher;
 		}
-		QqHsDTH(e) {
+		mtdnsyd(e) {
 			return (this.dataWatcher.getWatchableObjectByte(0) & (1 << e)) != 0;
 		}
-		kDtEjGr(e, t) {
+		eskGpoT(e, t) {
 			let n = this.dataWatcher.getWatchableObjectByte(0);
 			t
 				? this.dataWatcher.updateObject(0, n | (1 << e))
 				: this.dataWatcher.updateObject(0, n & ~(1 << e));
 		}
-		HipeNCdhZKkgulTK() {
-			return this.dataWatcher.CprFqBszoeHwMtNHxkWSJkTH(2);
+		hKtjHuPEjPfhLXzJ() {
+			return this.dataWatcher.DvNVuElyRwbtHpKWTEANZDRI(2);
 		}
-		rgBxniBSEiqsdUtB(e) {
+		abwjeBOXXaFfiYuM(e) {
 			this.dataWatcher.updateObject(2, e);
 		}
-		AfygWPeexOyoRuTkFwycap() {
+		ilSzKbcHFANVPpodgQvnSX() {
 			return this.dataWatcher.getWatchableObjectByte(3) === 1;
 		}
-		QYTNuXtoDSJTxhLJEpJdfJ(e) {
+		lDpMRPDRimKUniWyBmrWxs(e) {
 			this.dataWatcher.updateObject(3, +!!e);
 		}
-		hqnMJVAipHnfTLFohtx(e) {}
+		QmvEoitVxpQnzVdRSqK(e) {}
 		equals(t) {
 			return t instanceof e ? t.id === this.id : !1;
 		}
 		getEntityBoundingBox() {
 			return this.boundingBox;
 		}
-		jFuFCrgeyGbtaMdQmR() {
+		NQuPlOGHncVcTcrfPI() {
 			return this.yaw;
 		}
 		setSize(e, t) {
@@ -14168,9 +14168,9 @@ var xd = class e {
 			let n = this.getEntityBoundingBox(),
 				r = n.min,
 				i = n.min.clone().add(new D(e, t, e));
-			this.rAiXfyylIPATJjSiUmFQ(new ir(r, i));
+			this.SIOdlmnwbkBCGFReLoJl(new Cn(r, i));
 		}
-		qMeUKdITVHb(e, t, n) {
+		YMTjSHdjIzp(e, t, n) {
 			this.motion.set(e, t, n);
 		}
 		setPositionAndUpdate(e, t, n) {
@@ -14183,7 +14183,7 @@ var xd = class e {
 			let r = this.width / 2,
 				i = new D(this.pos.x - r, this.pos.y, this.pos.z - r),
 				a = new D(this.pos.x + r, this.pos.y + this.height, this.pos.z + r);
-			this.rAiXfyylIPATJjSiUmFQ(new ir(i, a));
+			this.SIOdlmnwbkBCGFReLoJl(new Cn(i, a));
 		}
 		setPositionAndRotation(e, t, n, r, i) {
 			this.prevPos.set(e, t, n),
@@ -14193,13 +14193,13 @@ var xd = class e {
 				(this.prevYaw = r),
 				(this.prevPitch = i),
 				this.setPosition(this.pos),
-				this.edBpTfmccyY(this.yaw, this.pitch);
+				this.AlnylFQVLYK(this.yaw, this.pitch);
 		}
 		static {
 			this.positionOffset = new D(-0.03125, 0, -0.03125);
 		}
 		setPositionAndRotation2(t, n, r, i, a, o, s = !1) {
-			this.setPosition(t, n, r), this.edBpTfmccyY(i, a);
+			this.setPosition(t, n, r), this.AlnylFQVLYK(i, a);
 			let c = this.world.getCollidingBoundingBoxes(
 				this,
 				this.getEntityBoundingBox().clone().expandByVector(e.positionOffset),
@@ -14210,7 +14210,7 @@ var xd = class e {
 				(n += e - this.getEntityBoundingBox().min.y), this.setPosition(t, n, r);
 			}
 		}
-		edBpTfmccyY(e, t) {
+		AlnylFQVLYK(e, t) {
 			(this.yaw = e), (this.pitch = t);
 		}
 		setLocationAndAngles(e, t, n, r = 0, i = 0) {
@@ -14219,10 +14219,10 @@ var xd = class e {
 				(this.pitch = i),
 				this.setPosition(new D(e, t, n));
 		}
-		vuNbxUmhrT(e) {
+		TNIYHSMOaO(e) {
 			return this.getEntityBoundingBox().clone().translate(e);
 		}
-		UCNtkxDamUzIEQF(e, t, n) {
+		QbjVkmKsVhiPYKl(e, t, n) {
 			let r = this.getEntityBoundingBox();
 			return (
 				this._queryBox.min.set(r.min.x + e, r.min.y + t, r.min.z + n),
@@ -14230,10 +14230,10 @@ var xd = class e {
 				this._queryBox
 			);
 		}
-		rAiXfyylIPATJjSiUmFQ(e) {
+		SIOdlmnwbkBCGFReLoJl(e) {
 			this.boundingBox = e;
 		}
-		XAytsNkcPvDnBohbe() {
+		EaiqIyxYWoPMkWfwj() {
 			(this.pos.x = (this.boundingBox.min.x + this.boundingBox.max.x) / 2),
 				(this.pos.y = this.boundingBox.min.y),
 				(this.pos.z = (this.boundingBox.min.z + this.boundingBox.max.z) / 2);
@@ -14245,12 +14245,12 @@ var xd = class e {
 			return (performance.now() - this.lastUpdate) / 50;
 		}
 		update() {
-			this.FwTbPfqjHOzMte(), (this.lastUpdate = performance.now());
+			this.DKamtSrQzCEzOy(), (this.lastUpdate = performance.now());
 		}
 		kill() {
 			this.setDead();
 		}
-		kpzuSltuiOkliPfskZHX() {
+		zZjdQvRzvsajSzQZEjvu() {
 			if (this.world != null) {
 				for (
 					;
@@ -14266,13 +14266,13 @@ var xd = class e {
 				(this.motion.x = this.motion.y = this.motion.z = 0), (this.pitch = 0);
 			}
 		}
-		sZHfjcUDpyeovPppJa() {
+		nwyDQPgyMsbkJawrAy() {
 			return 0;
 		}
-		vHfjKzhf(e) {
+		OGPQTaeb(e) {
 			this.world = e;
 		}
-		abbdIoHxysrQmHuAB(e) {
+		XxHeMOOIPkQiVkEyD(e) {
 			if (this.dead || this.world.isClient) return;
 			let t = this.world.getServer(),
 				n = this.world.getConfigurationManager(),
@@ -14287,9 +14287,9 @@ var xd = class e {
 				this.world.removeEntity(this),
 				(this.dead = !1),
 				n.transferEntityToWorld(this, r, i, a, !0);
-			let o = n.abPuHctzZjqlDFTrWSHBAFTWc(this.constructor.name, a);
+			let o = n.HjDOucwoziNNtrKLcGMdImHZI(this.constructor.name, a);
 			if (o != null) {
-				if ((o.lZzLWpOKbvCBmPb(this), r == 1 && e == 1)) {
+				if ((o.IJxbatIhvllUGxv(this), r == 1 && e == 1)) {
 					let e = this.world.getTopSolidOrLiquidBlock(a.getSpawnPoint());
 					o.setLocationAndAngles(
 						e.x + 0.5,
@@ -14303,13 +14303,13 @@ var xd = class e {
 			}
 			(this.dead = !0), i.resetUpdateEntityTick(), a.resetUpdateEntityTick();
 		}
-		lZzLWpOKbvCBmPb(e) {
+		IJxbatIhvllUGxv(e) {
 			let t = {};
 			e.writeToNBT(t),
 				this.readFromNBT(t),
 				(this.timeUntilPortal = e.timeUntilPortal);
 		}
-		FwTbPfqjHOzMte() {
+		DKamtSrQzCEzOy() {
 			if (
 				(this.ridingEntity != null &&
 					this.ridingEntity.dead &&
@@ -14320,20 +14320,20 @@ var xd = class e {
 				(this.inLava = !1),
 				this.world.isServer)
 			) {
-				let e = this.sZHfjcUDpyeovPppJa();
+				let e = this.nwyDQPgyMsbkJawrAy();
 				this.inPortal
 					? (this.ridingEntity == null &&
 							this.portalCounter++ >= e &&
 							((this.portalCounter = e),
-							(this.timeUntilPortal = this.CAWXyURiFaXKxUofR()),
+							(this.timeUntilPortal = this.dnKjQLmWeVrTqtdnG()),
 							this instanceof Np &&
-								this.abbdIoHxysrQmHuAB(this.getPortalDestinationDimension())),
+								this.XxHeMOOIPkQiVkEyD(this.getPortalDestinationDimension())),
 						(this.inPortal = !1))
 					: (this.portalCounter > 0 && (this.portalCounter -= 4),
 						this.portalCounter < 0 && (this.portalCounter = 0)),
 					this.timeUntilPortal > 0 && --this.timeUntilPortal;
 			}
-			this.wIJXaeUtnSkUmJlmRxJ(),
+			this.gpfsOXUiWYjuVnBnsNd(),
 				this.world.isClient ||
 					(this.fire > 0 &&
 						(this.immuneToFire
@@ -14342,13 +14342,13 @@ var xd = class e {
 								this.fire--))),
 				this.inLava &&
 					((this.fallDistance *= 0.5),
-					this.world.isServer && this.pkxlnikqAvSfLMaXl()),
+					this.world.isServer && this.wAnLDSyInVclWWCEu()),
 				this.pos.y < -64 && this.kill();
 		}
 		setCurrentItemOrArmor(e, t) {}
 		isBurning() {
 			let e = this.world != null && this.world.isClient;
-			return this.fire > 0 || (e && this.QqHsDTH(0));
+			return this.fire > 0 || (e && this.mtdnsyd(0));
 		}
 		getInventory() {
 			return null;
@@ -14366,7 +14366,7 @@ var xd = class e {
 				e.pitch && (this.pitch = e.pitch),
 				(this.onGround = e.onGround == 1);
 		}
-		LtCuXkszHoNC(e, t) {
+		SgoppVUAzxZH(e, t) {
 			let n,
 				r = -0.999999;
 			for (
@@ -14374,7 +14374,7 @@ var xd = class e {
 				t.x != 0 &&
 				this.world.getCollidingBoundingBoxes(
 					this,
-					this.UCNtkxDamUzIEQF(t.x, r, 0),
+					this.QbjVkmKsVhiPYKl(t.x, r, 0),
 				).length == 0;
 				e.x = t.x
 			)
@@ -14384,7 +14384,7 @@ var xd = class e {
 				t.z != 0 &&
 				this.world.getCollidingBoundingBoxes(
 					this,
-					this.UCNtkxDamUzIEQF(0, r, t.z),
+					this.QbjVkmKsVhiPYKl(0, r, t.z),
 				).length == 0;
 				e.z = t.z
 			)
@@ -14395,7 +14395,7 @@ var xd = class e {
 				t.z != 0 &&
 				this.world.getCollidingBoundingBoxes(
 					this,
-					this.UCNtkxDamUzIEQF(t.x, r, t.z),
+					this.QbjVkmKsVhiPYKl(t.x, r, t.z),
 				).length == 0;
 				e.z = t.z
 			)
@@ -14403,10 +14403,10 @@ var xd = class e {
 					(e.x = t.x),
 					t.z < n && t.z >= -n ? (t.z = 0) : t.z > 0 ? (t.z -= n) : (t.z += n);
 		}
-		EdoyIzuWaQ(e, t, n) {
+		EMJpBfrmpj(e, t, n) {
 			let r = n.clone(),
 				i = this.getEntityBoundingBox();
-			this.rAiXfyylIPATJjSiUmFQ(e), (n.y = this.stepHeight);
+			this.SIOdlmnwbkBCGFReLoJl(e), (n.y = this.stepHeight);
 			let a = this.world.getCollidingBoundingBoxes(
 					this,
 					vd(this.getEntityBoundingBox(), t.x, n.y, t.z, this._queryBox),
@@ -14433,18 +14433,18 @@ var xd = class e {
 			for (let e of a) m = pd(e, d, m);
 			bd(d, 0, 0, m),
 				l * l + u * u > p * p + m * m
-					? ((n.x = l), (n.z = u), (n.y = -c), this.rAiXfyylIPATJjSiUmFQ(o))
-					: ((n.x = p), (n.z = m), (n.y = -f), this.rAiXfyylIPATJjSiUmFQ(d));
+					? ((n.x = l), (n.z = u), (n.y = -c), this.SIOdlmnwbkBCGFReLoJl(o))
+					: ((n.x = p), (n.z = m), (n.y = -f), this.SIOdlmnwbkBCGFReLoJl(d));
 			for (let e of a) n.y = fd(e, this.getEntityBoundingBox(), n.y);
 			let h = this.getEntityBoundingBox().clone();
 			return (
 				bd(h, 0, n.y, 0),
-				this.rAiXfyylIPATJjSiUmFQ(h),
+				this.SIOdlmnwbkBCGFReLoJl(h),
 				r.x * r.x + r.z * r.z >= n.x * n.x + n.z * n.z
 					? ((n.x = r.x),
 						(n.y = r.y),
 						(n.z = r.z),
-						this.rAiXfyylIPATJjSiUmFQ(i),
+						this.SIOdlmnwbkBCGFReLoJl(i),
 						!1)
 					: !0
 			);
@@ -14456,9 +14456,9 @@ var xd = class e {
 			this.waterOffsetv = new D(0, -0.4, 0);
 		}
 		static {
-			this.waterScratchBox = new ir();
+			this.waterScratchBox = new Cn();
 		}
-		wIJXaeUtnSkUmJlmRxJ() {
+		gpfsOXUiWYjuVnBnsNd() {
 			return (
 				this.world &&
 				this.world.handleMaterialAcceleration(
@@ -14469,7 +14469,7 @@ var xd = class e {
 					L.water,
 					this,
 				)
-					? (this.inWater || this.VdamAGsZkjm(),
+					? (this.inWater || this.SUxQAQnditj(),
 						(this.fallDistance = 0),
 						(this.inWater = !0),
 						(this.fire = 0))
@@ -14490,10 +14490,10 @@ var xd = class e {
 				: e < 0 && (this.fallDistance -= e);
 		}
 		handleStatusUpdate(e) {}
-		WtoIBRKMWEo() {
+		PbjPPFroyKI() {
 			return !1;
 		}
-		aKqGvuzf() {
+		GWtuhFWO() {
 			return this.dataWatcher.getWatchableObjectByte(4) == 1;
 		}
 		isOnLadder() {
@@ -14502,7 +14502,7 @@ var xd = class e {
 			let n = this.world.getBlockState(t).block;
 			return n === B.ladder || n === B.vine || n === B.iron_ladder;
 		}
-		mpBJtoyQErMsrU() {
+		ROnvgoorjzMDMe() {
 			let t = e.groundScratchPos;
 			return (
 				t.set(this.pos.x, this.getEntityBoundingBox().min.y, this.pos.z),
@@ -14512,16 +14512,16 @@ var xd = class e {
 		canTriggerWalking() {
 			return !0;
 		}
-		pxknJzIQeMlbpvfFmiyWcKcj(e, t, n) {
-			return this.uJQVBOqZrscNuumUQfcdt(this.UCNtkxDamUzIEQF(e, t, n));
+		gqpUhkGQIWVwVNOdrKMfkVtq(e, t, n) {
+			return this.FqmQJmtqKnxfggoMuzZsP(this.QbjVkmKsVhiPYKl(e, t, n));
 		}
-		uJQVBOqZrscNuumUQfcdt(e) {
+		FqmQJmtqKnxfggoMuzZsP(e) {
 			return (
 				this.world.getCollidingBoundingBoxes(this, e).length == 0 &&
 				!this.world.isAnyLiquid(e)
 			);
 		}
-		VmJptHdVyb(e, t, n) {
+		LTIctsnhrg(e, t, n) {
 			let r = e * e + t * t;
 			if ((isFinite(n) || (n = 0), r >= 1e-4)) {
 				(r = Math.sqrt(r)), r < 1 && (r = 1), (r = n / r), (e *= r), (t *= r);
@@ -14536,10 +14536,10 @@ var xd = class e {
 				return;
 			}
 			if (this.noPhysics) {
-				this.rAiXfyylIPATJjSiUmFQ(
+				this.SIOdlmnwbkBCGFReLoJl(
 					this.getEntityBoundingBox().translate(this.motion),
 				),
-					this.XAytsNkcPvDnBohbe();
+					this.EaiqIyxYWoPMkWfwj();
 				return;
 			}
 			let i = this._moveDelta.set(t, n, r),
@@ -14556,7 +14556,7 @@ var xd = class e {
 					((this.inCloud = !1), (i.x *= Cd), (i.y *= Cd), (i.z *= Cd));
 			let o = this._moveSaved.copy(i),
 				s = this.onGround && this.sneak;
-			s && this.LtCuXkszHoNC(o, i);
+			s && this.SgoppVUAzxZH(o, i);
 			let c = this.getEntityBoundingBox(),
 				l =
 					i.x === 0 && i.y === 0 && i.z === 0
@@ -14567,7 +14567,7 @@ var xd = class e {
 							);
 			for (let e of l) i.y = fd(e, c, i.y);
 			let u = c.clone();
-			bd(u, 0, i.y, 0), this.rAiXfyylIPATJjSiUmFQ(u);
+			bd(u, 0, i.y, 0), this.SIOdlmnwbkBCGFReLoJl(u);
 			let d = this.onGround || (o.y != i.y && o.y < 0);
 			for (let e of l) i.x = dd(e, u, i.x);
 			bd(u, i.x, 0, 0);
@@ -14577,8 +14577,8 @@ var xd = class e {
 			this.stepHeight > 0 &&
 				f &&
 				(o.x != i.x || o.z != i.z) &&
-				this.EdoyIzuWaQ(c, o, i),
-				this.XAytsNkcPvDnBohbe(),
+				this.EMJpBfrmpj(c, o, i),
+				this.EaiqIyxYWoPMkWfwj(),
 				(this.isCollidedHorizontally = i.x != o.x || i.z != o.z),
 				(this.isCollidedVertically = i.y != o.y),
 				(this.onGround = this.isCollidedVertically && o.y < 0),
@@ -14642,12 +14642,12 @@ var xd = class e {
 								this.playSound(e.getStepSound(), e.volume * 0.15, e.frequency));
 				}
 			}
-			this.BbUoewXKZoPBHBmAZ();
+			this.upZrUektcYdJdePZm();
 			let h = this.inWater;
 			this.world.isFlammableWithin(
 				this.getEntityBoundingBox().clone().expandByVector(e.waterPadding),
 			)
-				? (this.UpzTvKPUmKIhVN(1),
+				? (this.uffSZakwTwjKXd(1),
 					h ||
 						(++this.fire,
 						this.fire == 0
@@ -14666,7 +14666,7 @@ var xd = class e {
 		playSound(e, t, n) {
 			this.world.playSoundAtEntity(this, e, t, n);
 		}
-		XngVCDJroIxeEatwfmND(e) {
+		pSvuYLGoCWijlxvnoEaX(e) {
 			let t = 0.8;
 			if (
 				e.riddenByEntity !== this &&
@@ -14698,14 +14698,14 @@ var xd = class e {
 				(this.motion.z += n),
 				(this.isAirborne = !0);
 		}
-		UpzTvKPUmKIhVN(e) {
+		uffSZakwTwjKXd(e) {
 			this.immuneToFire || this.attackEntityFrom(Fp.IN_FIRE, e);
 		}
 		setFire(e) {
 			let t = e * 20;
 			this.fire < t && (this.fire = t);
 		}
-		BbUoewXKZoPBHBmAZ() {
+		upZrUektcYdJdePZm() {
 			let t = this.getEntityBoundingBox(),
 				n = Math.floor(t.min.x + 0.001),
 				r = Math.floor(t.min.y + 0.001),
@@ -14724,12 +14724,12 @@ var xd = class e {
 							i.onEntityCollidedWithBlock(this.world, new F(t, n, r), this);
 					}
 		}
-		YFnRETJMecRdrTrK(e) {
+		cwMLFtSfiGTgVPMa(e) {
 			let t = this.world.getBlockState(e),
 				n = this.world.getBlockState(e.up());
 			return !t.getBlock().isFullCube(t) && !n.getBlock().isFullCube(n);
 		}
-		CdhpUxIRTzOeeCyUvvNtEECBV() {
+		dMJGeAKUkOznAgbMKVXdjOAeV() {
 			let e = new F(-(2 ** 53 - 1), -(2 ** 53 - 1), -(2 ** 53 - 1));
 			for (let t = 0; t < 8; ++t) {
 				let n = Math.floor(
@@ -14749,24 +14749,24 @@ var xd = class e {
 			}
 			return !1;
 		}
-		fhgzMgSKTwVNQtBiWA(e) {
+		qVelQMcPZDLVNanPTL(e) {
 			let t = this.pos.y + this.getEyeHeight(),
 				n = new F(this.pos.x, t, this.pos.z);
 			return this.world.getBlockState(n).getBlock().type == `liquid`;
 		}
-		nczYfjlmYfuSJJv(e, t, n) {
+		EvYarNNvVTTOMWV(e, t, n) {
 			let r = new F(e, t, n),
 				i = e - r.x,
 				a = n - r.z;
-			if (!this.YFnRETJMecRdrTrK(r)) {
+			if (!this.cwMLFtSfiGTgVPMa(r)) {
 				let e = -1,
 					t = 9999;
-				this.YFnRETJMecRdrTrK(r.west()) && i < t && ((t = i), (e = 0)),
-					this.YFnRETJMecRdrTrK(r.east()) &&
+				this.cwMLFtSfiGTgVPMa(r.west()) && i < t && ((t = i), (e = 0)),
+					this.cwMLFtSfiGTgVPMa(r.east()) &&
 						1 - i < t &&
 						((t = 1 - i), (e = 1)),
-					this.YFnRETJMecRdrTrK(r.north()) && a < t && ((t = a), (e = 4)),
-					this.YFnRETJMecRdrTrK(r.south()) &&
+					this.cwMLFtSfiGTgVPMa(r.north()) && a < t && ((t = a), (e = 4)),
+					this.cwMLFtSfiGTgVPMa(r.south()) &&
 						1 - a < t &&
 						((t = 1 - a), (e = 5));
 				let n = 0.1;
@@ -14792,14 +14792,14 @@ var xd = class e {
 		canCommandSenderUseCommand(e, t) {
 			return !0;
 		}
-		NvstfwYcR() {
+		PmrXjhyxc() {
 			let e = this.pos.clone();
 			return (e.y += this.getEyeHeight()), e;
 		}
-		LLsuvlQBBJzmvGvuy() {
+		QSRWULacmykRNpuCz() {
 			return !0;
 		}
-		BdEVgNeAoNU(e) {
+		cQWlAXvPULl(e) {
 			return !1;
 		}
 		attackEntityFrom(e, t) {
@@ -14813,8 +14813,8 @@ var xd = class e {
 				this.invulnerable && !e.equals(Fp.OUT_OF_WORLD) && !e.isCreativePlayer()
 			);
 		}
-		MKHzIVGExuFS(e) {}
-		pkxlnikqAvSfLMaXl() {
+		gkzufWPlADNe(e) {}
+		wAnLDSyInVclWWCEu() {
 			this.immuneToFire ||
 				(this.attackEntityFrom(Fp.LAVA, 4), this.setFire(15));
 		}
@@ -14825,46 +14825,46 @@ var xd = class e {
 			return !this.dead;
 		}
 		setEntityState(e, t) {}
-		DgJUkkIIWMg() {}
+		OataORtJGcv() {}
 		dropItem2(e, t) {
-			return this.robrdxhEOUnlrtxDdl(e, t, 0);
+			return this.mCHgmDUJvVYmzidokY(e, t, 0);
 		}
-		robrdxhEOUnlrtxDdl(e, t, n) {
+		mCHgmDUJvVYmzidokY(e, t, n) {
 			return this.entityDropItem(new Vp(e, t, 0), n);
 		}
 		getDistanceSqToEntity(e) {
 			return this.pos.distanceToSquared(e.pos);
 		}
 		setSprinting(e) {
-			this.kDtEjGr(3, e);
+			this.eskGpoT(3, e);
 		}
 		isSprinting() {
 			return !1;
 		}
-		YxOkSAcxKhg() {
-			return this.QqHsDTH(5);
+		TQuOhOtfcpf() {
+			return this.mtdnsyd(5);
 		}
-		vEpqdbbqBuXmkKSPCCa(e) {
-			return this.YxOkSAcxKhg();
+		oEEQBuQbNqtMNAHjAki(e) {
+			return this.TQuOhOtfcpf();
 		}
-		LvBPqAYaLPhV(e) {
-			this.kDtEjGr(5, e);
+		BapEmwqfwgdQ(e) {
+			this.eskGpoT(5, e);
 		}
 		entityDropItem(e, t) {
 			if (e.stackSize != 0 && e.getItem() != null) {
 				let n = this.world.getEntityItem(e, this.pos, t);
 				return n
-					? (n.ckiADalhsfKLKtbJtdhmq(),
+					? (n.jNQLowLelMniMneKRxexI(),
 						n.setPosition(new D(this.pos.x, this.pos.y + t, this.pos.z)),
 						this.world.spawnEntityInWorld(n),
 						n)
 					: null;
 			} else return null;
 		}
-		ePDGhbOhcPlAQMvhhYlcPbmQtoKmpOKZS() {
+		TgwsNUEXGWqZvzPcupnkeRUvSJRsFQmQT() {
 			return !1;
 		}
-		XGtxuclsfxBtDiwTGjZ() {
+		tkcSfVdpVIKNwjkCVWb() {
 			return P.getHorizontal(
 				Math.floor((((this.yaw * 180) / Math.PI) * 4) / 360 + 0.5) & 3,
 			);
@@ -14872,22 +14872,22 @@ var xd = class e {
 		getPosition() {
 			return new F(this.pos.x, this.pos.y + 0.5, this.pos.z);
 		}
-		hfqzpOfhrrzxervxtbBHhC(e, t, n, r) {
-			return r.getBlock().hfqzpOfhrrzxervxtbBHhC(this);
+		plYGOMsRLGCzQaqjjBvKfu(e, t, n, r) {
+			return r.getBlock().plYGOMsRLGCzQaqjjBvKfu(this);
 		}
-		IXqYMbKSNxyiSIf(e, t, n, r, i) {
+		ffuMmyvQMwuwwWf(e, t, n, r, i) {
 			return !0;
 		}
-		pgzCUgsQTPYOmShOGUux() {
+		EeawRILDKOyKcxIuoNkP() {
 			return !1;
 		}
-		IFksSNGpRVT(e, t, n) {
+		YzXcWVlUgLc(e, t, n) {
 			let r = this.pos.x - e,
 				i = this.pos.y - t,
 				a = this.pos.z - n;
 			return Math.sqrt(r * r + i * i + a * a);
 		}
-		VdamAGsZkjm() {
+		SUxQAQnditj() {
 			let e =
 				Math.sqrt(
 					this.motion.x * this.motion.x * 0.2 +
@@ -14932,7 +14932,7 @@ var xd = class e {
 					);
 			}
 		}
-		UkXQWaNTYzKGhfHj() {
+		LXnvnkHFnwuxjhPt() {
 			return 3;
 		}
 		writeEntityToNBT(e) {}
@@ -14947,20 +14947,20 @@ var xd = class e {
 				(e.FallDistance = I.float(this.fallDistance)),
 				(e.Fire = Ju(this.fire)),
 				(e.OnGround = I.byte(+!!this.onGround)),
-				this.HipeNCdhZKkgulTK() != null &&
-					this.HipeNCdhZKkgulTK().length > 0 &&
-					((e.CustomName = I.string(this.HipeNCdhZKkgulTK())),
-					(e.CustomNameVisible = I.byte(+!!this.AfygWPeexOyoRuTkFwycap()))),
+				this.hKtjHuPEjPfhLXzJ() != null &&
+					this.hKtjHuPEjPfhLXzJ().length > 0 &&
+					((e.CustomName = I.string(this.hKtjHuPEjPfhLXzJ())),
+					(e.CustomNameVisible = I.byte(+!!this.ilSzKbcHFANVPpodgQvnSX()))),
 				(e.Dimension = I.int(this.dimension)),
 				(e.PortalCooldown = I.int(this.timeUntilPortal)),
 				(e.UUID = I.string(this.uuid)),
-				this.aULKSGvWBrOacYqPf() && (e.RuntimeId = I.int(this.id)),
+				this.MJeXRQqDunnBwsYdX() && (e.RuntimeId = I.int(this.id)),
 				this.writeEntityToNBT(e);
 		}
-		aULKSGvWBrOacYqPf() {
+		MJeXRQqDunnBwsYdX() {
 			return !0;
 		}
-		RNhdtWUEsoEmcDqEEgoLAg() {
+		erPcqThcvmPfsonuHkgSpB() {
 			return 0.1;
 		}
 		readFromNBT(t) {
@@ -14977,8 +14977,8 @@ var xd = class e {
 				this.motion.set(r[0], r[1], r[2]),
 				t.CustomName &&
 					t.CustomName.length > 0 &&
-					this.rgBxniBSEiqsdUtB(t.CustomName),
-				this.QYTNuXtoDSJTxhLJEpJdfJ(!!t.CustomNameVisible),
+					this.abwjeBOXXaFfiYuM(t.CustomName),
+				this.lDpMRPDRimKUniWyBmrWxs(!!t.CustomNameVisible),
 				(this.yaw = i[0]),
 				(this.pitch = i[1]),
 				(this.prevYaw = this.yaw),
@@ -14989,7 +14989,7 @@ var xd = class e {
 				(this.dimension = c),
 				(this.timeUntilPortal = l),
 				typeof t.UUID == `string` && t.UUID.length > 0 && (this.uuid = t.UUID),
-				this.aULKSGvWBrOacYqPf() &&
+				this.MJeXRQqDunnBwsYdX() &&
 					typeof t.RuntimeId == `number` &&
 					t.RuntimeId >= 0)
 			) {
@@ -14999,7 +14999,7 @@ var xd = class e {
 			}
 			this.readEntityFromNBT(t);
 		}
-		zppyedGQNpw() {
+		NcdONrFawjV() {
 			return this.dimension == 0;
 		}
 		hasDaylightSky() {
@@ -15008,39 +15008,39 @@ var xd = class e {
 		interactFirst(e) {
 			return !1;
 		}
-		jjpjoGKOdWfbIxJRVBR() {
+		oACwpzBKZUPYBBJvtyp() {
 			return !1;
 		}
-		YvnoDnhywWNKOnBoF(e, t) {
+		AaFWgTytMswBObNqj(e, t) {
 			t instanceof Fd && Hd.applyThornEnchantments(t, e),
 				Hd.applyArthropodEnchantments(e, t);
 		}
 		isRiding() {
 			return this.ridingEntity != null;
 		}
-		jMEYRGfRWd() {
+		LxOZNwUOEe() {
 			return 0;
 		}
-		WwgpWqQdPvrbRgFVb() {
+		qXGWIQOLALoeNGBXU() {
 			return this.height * 0.75;
 		}
-		NtbrJGCswoLSVniiFRz() {
+		MkRBYLbHTmKzhIkoJkp() {
 			this.riddenByEntity?.setPosition(
 				this.pos.x,
 				this.pos.y +
-					this.WwgpWqQdPvrbRgFVb() +
-					this.riddenByEntity.jMEYRGfRWd(),
+					this.qXGWIQOLALoeNGBXU() +
+					this.riddenByEntity.LxOZNwUOEe(),
 				this.pos.z,
 			);
 		}
-		hLQosuvefMOH() {
+		cdmSdnUTngXb() {
 			this.ridingEntity?.dead
 				? (this.ridingEntity = null)
 				: ((this.motion.x = 0),
 					(this.motion.y = 0),
 					(this.motion.z = 0),
 					this.update(),
-					this.ridingEntity != null && this.ridingEntity.NtbrJGCswoLSVniiFRz());
+					this.ridingEntity != null && this.ridingEntity.MkRBYLbHTmKzhIkoJkp());
 		}
 		mountEntity(e) {
 			if (e == null)
@@ -15067,15 +15067,15 @@ var xd = class e {
 				(this.ridingEntity = e), (e.riddenByEntity = this);
 			}
 		}
-		HERPpiIScfAa(e) {
+		RxgeciyGxayV(e) {
 			this.timeUntilPortal > 0
-				? (this.timeUntilPortal = this.CAWXyURiFaXKxUofR())
+				? (this.timeUntilPortal = this.dnKjQLmWeVrTqtdnG())
 				: (this.world.isServer &&
 						(!this.portalBlock || !e.equals(this.portalBlock)) &&
 						(this.portalBlock = e),
 					(this.inPortal = !0));
 		}
-		CAWXyURiFaXKxUofR() {
+		dnKjQLmWeVrTqtdnG() {
 			return 60;
 		}
 		getPortalDestinationDimension() {
@@ -15102,17 +15102,17 @@ var xd = class e {
 				(this.attributesByName = new Map()),
 				(this.attributesMap = new kc());
 		}
-		SQxyCnpGgTurqfwyATgO(e) {
+		vmhhptbwXdqmvJNhojLl(e) {
 			return this.attributes.get(e);
 		}
-		rMcHswwhfhyoKlIAUomzhwfXpu(e) {
+		KaUOqZlYGoVzSJFLkOgfmuQFdt(e) {
 			return this.attributesByName.get(e);
 		}
 		registerAttribute(e) {
 			if (this.attributesByName.has(e.getAttributeUnlocalizedName()))
 				throw `Attribute is already registered!`;
 			{
-				let t = this.AJwpzDwQFXzcIIGVNHbUNFq(e);
+				let t = this.gyLJfSEvQWfJXXFqJzKIbeI(e);
 				this.attributesByName.set(e.getAttributeUnlocalizedName(), t),
 					this.attributes.set(e, t);
 				for (let t = e.getAttribute(); t != null; t = t.getAttribute())
@@ -15120,19 +15120,19 @@ var xd = class e {
 				return t;
 			}
 		}
-		pdMtvmPFKHgRdfQM() {
+		CtXJCsnAmchsVhDY() {
 			return this.attributesByName.values();
 		}
-		kaSCLUfPmPVOejB(e) {}
-		iSaxIAjMvBMRYdTSlgKJkoLq(e) {
+		UAtPGgLJQCjfFEG(e) {}
+		TqTRhjmJaEiniItaILfLVNkL(e) {
 			for (let [t, n] of e.entries)
 				for (let e of n.values())
-					this.rMcHswwhfhyoKlIAUomzhwfXpu(t)?.removeModifier(e.getID());
+					this.KaUOqZlYGoVzSJFLkOgfmuQFdt(t)?.removeModifier(e.getID());
 		}
-		scMVzIRKMfdNvwRFosygzJD(e) {
+		bCKcZOhUjfhiTLPeListqmT(e) {
 			for (let [t, n] of e.entries)
 				for (let e of n.values()) {
-					let n = this.rMcHswwhfhyoKlIAUomzhwfXpu(t);
+					let n = this.KaUOqZlYGoVzSJFLkOgfmuQFdt(t);
 					n != null && (n.removeModifier(e.getID()), n.applyModifier(e));
 				}
 		}
@@ -15145,85 +15145,85 @@ var xd = class e {
 				(this.needsUpdate = !0),
 				(this.attributeMap = e),
 				(this.genericAttribute = t),
-				(this.baseValue = t.HsgYUypTjYZkimE());
+				(this.baseValue = t.lPLoIIuEeiBYSAt());
 			for (let e = 0; e < 3; ++e) this.mapByOperation.set(e, new Set());
 		}
 		getAttribute() {
 			return this.genericAttribute;
 		}
-		mgVBIewPIpIX() {
+		PHfNzUptldiY() {
 			return this.baseValue;
 		}
 		setBaseValue(e) {
-			e != this.mgVBIewPIpIX() && ((this.baseValue = e), this.GQEoWquiYTHzR());
+			e != this.PHfNzUptldiY() && ((this.baseValue = e), this.DSNGpYwKcBuNU());
 		}
-		NAZgElvNWQWMqAPwXsRGqVs(e) {
+		RDxQmWKWPozRPiaqrkQgreG(e) {
 			return this.mapByOperation.get(e) ?? new Set();
 		}
-		ZZtpcQHlgjRcQ() {
+		LeJdkHhYGLjIl() {
 			let e = [];
 			for (let t = 0; t < 3; ++t)
-				e = e.concat(Array.from(this.NAZgElvNWQWMqAPwXsRGqVs(t)));
+				e = e.concat(Array.from(this.RDxQmWKWPozRPiaqrkQgreG(t)));
 			return e;
 		}
-		ypbnVjsJauX(e) {
+		EfuhFZvNBpV(e) {
 			return this.mapByUUID.get(e);
 		}
-		uPbCUWtiBjx(e) {
+		BKyggHncqvi(e) {
 			return this.mapByUUID.get(e.getID()) != null;
 		}
 		applyModifier(e) {
-			if (this.ypbnVjsJauX(e.getID()) != null)
+			if (this.EfuhFZvNBpV(e.getID()) != null)
 				throw `Modifier is already applied on this attribute!`;
 			{
 				let t = this.mapByName.get(e.getName());
 				t ?? ((t = new Set()), this.mapByName.set(e.getName(), t));
-				let n = this.mapByOperation.get(e.PWNOMBXmGvip());
-				if (!n) throw `Operation ${e.PWNOMBXmGvip()} is not valid!`;
+				let n = this.mapByOperation.get(e.HgVKtguipvOY());
+				if (!n) throw `Operation ${e.HgVKtguipvOY()} is not valid!`;
 				n.add(e),
 					t.add(e),
 					this.mapByUUID.set(e.getID(), e),
-					this.GQEoWquiYTHzR();
+					this.DSNGpYwKcBuNU();
 			}
 		}
-		GQEoWquiYTHzR() {
-			(this.needsUpdate = !0), this.attributeMap.kaSCLUfPmPVOejB(this);
+		DSNGpYwKcBuNU() {
+			(this.needsUpdate = !0), this.attributeMap.UAtPGgLJQCjfFEG(this);
 		}
 		removeModifier(e) {
 			for (let t = 0; t < 3; ++t)
-				this.mapByOperation.get(t)?.delete(this.ypbnVjsJauX(e));
+				this.mapByOperation.get(t)?.delete(this.EfuhFZvNBpV(e));
 			let t = this.mapByName.get(e);
 			t != null &&
-				(t.delete(this.ypbnVjsJauX(e)), t.size < 1 && this.mapByName.delete(e)),
+				(t.delete(this.EfuhFZvNBpV(e)), t.size < 1 && this.mapByName.delete(e)),
 				this.mapByUUID.delete(e),
-				this.GQEoWquiYTHzR();
+				this.DSNGpYwKcBuNU();
 		}
-		LozIVdjqsHAKluWLdi() {
-			let e = this.ZZtpcQHlgjRcQ();
+		UafVCDcWlSosJlXnCo() {
+			let e = this.LeJdkHhYGLjIl();
 			if (e != null) for (let t of e) this.removeModifier(t.getID());
 		}
 		getAttributeValue() {
 			return (
-				(this.needsUpdate &&= ((this.cachedValue = this.nKWAQLDykHpJ()), !1)),
+				(this.needsUpdate &&= ((this.cachedValue = this.CNWQlsoXXEwp()), !1)),
 				this.cachedValue
 			);
 		}
-		nKWAQLDykHpJ() {
-			let e = this.mgVBIewPIpIX();
-			for (let t of this.XTbTkljqeLUhcYLbylQpQ(0)) e += t.diHbmYCRS();
+		CNWQlsoXXEwp() {
+			let e = this.PHfNzUptldiY();
+			for (let t of this.gIFAuxKajvvSCPsHmkmBE(0)) e += t.sTXasIxSg();
 			let t = e;
-			for (let n of this.XTbTkljqeLUhcYLbylQpQ(1)) t += e * n.diHbmYCRS();
-			for (let e of this.XTbTkljqeLUhcYLbylQpQ(2)) t *= 1 + e.diHbmYCRS();
-			return this.genericAttribute.NPckiivCQQ(t);
+			for (let n of this.gIFAuxKajvvSCPsHmkmBE(1)) t += e * n.sTXasIxSg();
+			for (let e of this.gIFAuxKajvvSCPsHmkmBE(2)) t *= 1 + e.sTXasIxSg();
+			return this.genericAttribute.LyntzqcTrk(t);
 		}
-		XTbTkljqeLUhcYLbylQpQ(e) {
+		gIFAuxKajvvSCPsHmkmBE(e) {
 			let t = new Set();
-			for (let n of this.NAZgElvNWQWMqAPwXsRGqVs(e)) t.add(n);
+			for (let n of this.RDxQmWKWPozRPiaqrkQgreG(e)) t.add(n);
 			let n = this.genericAttribute.getAttribute();
 			for (; n; ) {
-				let r = this.attributeMap.SQxyCnpGgTurqfwyATgO(n);
+				let r = this.attributeMap.vmhhptbwXdqmvJNhojLl(n);
 				if (r) {
-					for (let n of r.NAZgElvNWQWMqAPwXsRGqVs(e)) t.add(n);
+					for (let n of r.RDxQmWKWPozRPiaqrkQgreG(e)) t.add(n);
 					n = n.getAttribute();
 				} else break;
 			}
@@ -15236,37 +15236,37 @@ var xd = class e {
 				(this.attributeInstanceSet = new Set()),
 				(this.descriptionToAttributeInstanceMap = new Map());
 		}
-		SQxyCnpGgTurqfwyATgO(e) {
-			return super.SQxyCnpGgTurqfwyATgO(e);
+		vmhhptbwXdqmvJNhojLl(e) {
+			return super.vmhhptbwXdqmvJNhojLl(e);
 		}
-		rMcHswwhfhyoKlIAUomzhwfXpu(e) {
-			let t = super.rMcHswwhfhyoKlIAUomzhwfXpu(e);
+		KaUOqZlYGoVzSJFLkOgfmuQFdt(e) {
+			let t = super.KaUOqZlYGoVzSJFLkOgfmuQFdt(e);
 			return (t ??= this.descriptionToAttributeInstanceMap.get(e)), t;
 		}
 		registerAttribute(e) {
 			let t = super.registerAttribute(e);
 			return (
 				e instanceof ku &&
-					e.mpJmYMzqJOcQhE() != null &&
-					this.descriptionToAttributeInstanceMap.set(e.mpJmYMzqJOcQhE(), t),
+					e.IRsRJRqUhtKodv() != null &&
+					this.descriptionToAttributeInstanceMap.set(e.IRsRJRqUhtKodv(), t),
 				t
 			);
 		}
-		AJwpzDwQFXzcIIGVNHbUNFq(e) {
+		gyLJfSEvQWfJXXFqJzKIbeI(e) {
 			return new lie(this, e);
 		}
-		kaSCLUfPmPVOejB(e) {
-			e.getAttribute().HyTvekoRfsNMrY() && this.attributeInstanceSet.add(e);
+		UAtPGgLJQCjfFEG(e) {
+			e.getAttribute().SIHbEFWJNJrfZb() && this.attributeInstanceSet.add(e);
 			for (let t of this.attributesMap.get(e.getAttribute()))
-				this.SQxyCnpGgTurqfwyATgO(t)?.GQEoWquiYTHzR();
+				this.vmhhptbwXdqmvJNhojLl(t)?.DSNGpYwKcBuNU();
 		}
-		PlIGNIpDfoqDhSetgnhjIbV() {
+		EZoPzOfFtiFiBnVqXkjkuOI() {
 			return this.attributeInstanceSet;
 		}
-		vPOQIVSDmhvPLCKLCwHU() {
+		pbjtCselwYmbHikRbswh() {
 			let e = new Set();
-			for (let t of this.pdMtvmPFKHgRdfQM())
-				t.getAttribute().HyTvekoRfsNMrY() && e.add(t);
+			for (let t of this.CtXJCsnAmchsVhDY())
+				t.getAttribute().SIHbEFWJNJrfZb() && e.add(t);
 			return e;
 		}
 	},
@@ -15309,7 +15309,7 @@ var xd = class e {
 					(this.motion.x = (Math.random() - Math.random()) * 0.2),
 					(this.motion.z = (Math.random() - Math.random()) * 0.2),
 					this.playSound(`random.fizz`, 0.4, 2 + Math.random() * 0.4)),
-				this.nczYfjlmYfuSJJv(
+				this.EvYarNNvVTTOMWV(
 					this.pos.x,
 					(this.getEntityBoundingBox().min.y +
 						this.getEntityBoundingBox().max.y) /
@@ -15362,14 +15362,14 @@ var xd = class e {
 				++this.xpOrbAge,
 				this.xpOrbAge >= 6e3 && this.setDead();
 		}
-		wIJXaeUtnSkUmJlmRxJ() {
+		gpfsOXUiWYjuVnBnsNd() {
 			return this.world.handleMaterialAcceleration(
 				this.getEntityBoundingBox(),
 				L.water,
 				this,
 			);
 		}
-		UpzTvKPUmKIhVN(e) {
+		uffSZakwTwjKXd(e) {
 			this.attackEntityFrom(Fp.IN_FIRE, e);
 		}
 		attackEntityFrom(e, t) {
@@ -15401,14 +15401,14 @@ var xd = class e {
 						0.1,
 						0.5 * ((Math.random() - Math.random()) * 0.7 + 1.8),
 					),
-					e.fnkysGmZjbQZ(this, 1),
-					e.btqPyHnUVEjyF(this.xpValue),
+					e.LECfGxrZzpxv(this, 1),
+					e.rGmxFdETHFHAm(this.xpValue),
 					this.setDead()));
 		}
-		OxusoFPxbd() {
+		ysoxzXTqtc() {
 			return this.xpValue;
 		}
-		EvhvxEykasVhuA() {
+		unmSDHhPKBbPAy() {
 			return this.xpValue >= 2477
 				? 10
 				: this.xpValue >= 1237
@@ -15452,7 +15452,7 @@ var xd = class e {
 													? 3
 													: 1;
 		}
-		LLsuvlQBBJzmvGvuy() {
+		QSRWULacmykRNpuCz() {
 			return !1;
 		}
 	},
@@ -15535,11 +15535,11 @@ var xd = class e {
 		}
 		removeAttributesModifiersFromEntity(e, t, n) {
 			for (let [e, n] of this.attributeModifierMap.entries())
-				t.SQxyCnpGgTurqfwyATgO(e)?.removeModifier(n.getID());
+				t.vmhhptbwXdqmvJNhojLl(e)?.removeModifier(n.getID());
 		}
 		applyAttributesModifiersToEntity(e, t, n) {
 			for (let [e, r] of this.attributeModifierMap.entries()) {
-				let i = t.SQxyCnpGgTurqfwyATgO(e);
+				let i = t.vmhhptbwXdqmvJNhojLl(e);
 				if (i != null) {
 					let e = r;
 					i.removeModifier(r.getID()),
@@ -15548,14 +15548,14 @@ var xd = class e {
 								e.getID(),
 								this.getName() + ` ` + n,
 								this.getAttributeModifierAmount(n, e),
-								e.PWNOMBXmGvip(),
+								e.HgVKtguipvOY(),
 							),
 						);
 				}
 			}
 		}
 		getAttributeModifierAmount(e, t) {
-			return t.diHbmYCRS() * (e + 1);
+			return t.sTXasIxSg() * (e + 1);
 		}
 	},
 	die = class extends Dd {
@@ -15563,11 +15563,11 @@ var xd = class e {
 			super(e, t, n, r);
 		}
 		removeAttributesModifiersFromEntity(e, t, n) {
-			e.lAWVbxOTpOYVfPsyTeZ(e.oFdflIheFKVgDbCpkem() - 4 * (n + 1)),
+			e.GFmItBTkaQdpYTdiEUB(e.hwnudaSahEeXwrPpmMq() - 4 * (n + 1)),
 				super.removeAttributesModifiersFromEntity(e, t, n);
 		}
 		applyAttributesModifiersToEntity(e, t, n) {
-			e.lAWVbxOTpOYVfPsyTeZ(e.oFdflIheFKVgDbCpkem() + 4 * (n + 1)),
+			e.GFmItBTkaQdpYTdiEUB(e.hwnudaSahEeXwrPpmMq() + 4 * (n + 1)),
 				super.applyAttributesModifiersToEntity(e, t, n);
 		}
 	},
@@ -15592,12 +15592,12 @@ var xd = class e {
 	},
 	fie = class extends kd {
 		performEffect(e, t) {
-			e.UdLrWEFGaYyPao()
+			e.SDyhbxahNGIDpn()
 				? e.heal(Math.max(4 << t, 0))
 				: e.attackEntityFrom(Fp.MAGIC, 6 << t);
 		}
 		affectEntity(e, t, n, r, i) {
-			if (n.UdLrWEFGaYyPao()) {
+			if (n.SDyhbxahNGIDpn()) {
 				let e = (0, M.toInteger)(i * (4 << r) + 0.5);
 				n.heal(e);
 			} else {
@@ -15610,12 +15610,12 @@ var xd = class e {
 	},
 	pie = class extends kd {
 		performEffect(e, t) {
-			e.UdLrWEFGaYyPao()
+			e.SDyhbxahNGIDpn()
 				? e.attackEntityFrom(Fp.MAGIC, 6 << t)
 				: e.heal(Math.max(4 << t, 0));
 		}
 		affectEntity(e, t, n, r, i) {
-			if (n.UdLrWEFGaYyPao()) {
+			if (n.SDyhbxahNGIDpn()) {
 				let a = (0, M.toInteger)(i * (6 << r) + 0.5);
 				e == null
 					? n.attackEntityFrom(Fp.MAGIC, a)
@@ -15901,7 +15901,7 @@ var bie = {
 			this.potionRequirements = new Map();
 		}
 		static {
-			this.BMJlaFertkKJJicL = new Map();
+			this.YKeYCMgQDDLvJcYd = new Map();
 		}
 		static {
 			this.DATAVALUE_COLORS = new Map();
@@ -16083,7 +16083,7 @@ var bie = {
 						let a = e.parsePotionEffects(n, 0, n.length, t);
 						if (a > 0) {
 							let n = 0,
-								o = e.BMJlaFertkKJJicL.get(i.getId());
+								o = e.YKeYCMgQDDLvJcYd.get(i.getId());
 							o != null &&
 								((n = e.parsePotionEffects(o, 0, o.length, t)),
 								n < 0 && (n = 0)),
@@ -16111,7 +16111,7 @@ var bie = {
 				.setPotionName(`potion.moveSpeed`)
 				.setIconIndex(0, 0)
 				.registerPotionAttributeModifier(
-					Au.sLYAdepgIImgX,
+					Au.NLOgYLKKWRvav,
 					`91AEAA56-376B-4498-935B-2F7F68070635`,
 					0.2,
 					2,
@@ -16122,7 +16122,7 @@ var bie = {
 				.setPotionName(`potion.moveSlowdown`)
 				.setIconIndex(1, 0)
 				.registerPotionAttributeModifier(
-					Au.sLYAdepgIImgX,
+					Au.NLOgYLKKWRvav,
 					`7107DE5E-7CE8-4030-940E-514C1F160890`,
 					-0.15,
 					2,
@@ -16276,15 +16276,15 @@ Md.potionRequirements.set(Nd.regeneration.getId(), `0 & !1 & !2 & !3 & 0+6`),
 	Md.potionRequirements.set(Nd.invisibility.getId(), `!0 & 1 & 2 & 3 & 2+6`),
 	Md.potionRequirements.set(Nd.waterBreathing.getId(), `0 & !1 & 2 & 3 & 2+6`),
 	Md.potionRequirements.set(Nd.jump.getId(), `0 & 1 & !2 & 3 & 3+6`),
-	Md.BMJlaFertkKJJicL.set(Nd.moveSpeed.getId(), `5`),
-	Md.BMJlaFertkKJJicL.set(Nd.digSpeed.getId(), `5`),
-	Md.BMJlaFertkKJJicL.set(Nd.damageBoost.getId(), `5`),
-	Md.BMJlaFertkKJJicL.set(Nd.regeneration.getId(), `5`),
-	Md.BMJlaFertkKJJicL.set(Nd.harm.getId(), `5`),
-	Md.BMJlaFertkKJJicL.set(Nd.heal.getId(), `5`),
-	Md.BMJlaFertkKJJicL.set(Nd.resistance.getId(), `5`),
-	Md.BMJlaFertkKJJicL.set(Nd.poison.getId(), `5`),
-	Md.BMJlaFertkKJJicL.set(Nd.jump.getId(), `5`);
+	Md.YKeYCMgQDDLvJcYd.set(Nd.moveSpeed.getId(), `5`),
+	Md.YKeYCMgQDDLvJcYd.set(Nd.digSpeed.getId(), `5`),
+	Md.YKeYCMgQDDLvJcYd.set(Nd.damageBoost.getId(), `5`),
+	Md.YKeYCMgQDDLvJcYd.set(Nd.regeneration.getId(), `5`),
+	Md.YKeYCMgQDDLvJcYd.set(Nd.harm.getId(), `5`),
+	Md.YKeYCMgQDDLvJcYd.set(Nd.heal.getId(), `5`),
+	Md.YKeYCMgQDDLvJcYd.set(Nd.resistance.getId(), `5`),
+	Md.YKeYCMgQDDLvJcYd.set(Nd.poison.getId(), `5`),
+	Md.YKeYCMgQDDLvJcYd.set(Nd.jump.getId(), `5`);
 var Pd = 0.91,
 	Fd = class e extends wd {
 		static {
@@ -16293,7 +16293,7 @@ var Pd = 0.91,
 				`Sprinting speed boost`,
 				0.3,
 				2,
-			).EHNuBVKk(!1);
+			).vkhnlaDC(!1);
 		}
 		constructor(e) {
 			super(e),
@@ -16301,8 +16301,8 @@ var Pd = 0.91,
 				(this.jumping = !1),
 				(this.jumpTicks = 0),
 				(this.initialJumpVelocity = 0.42),
-				(this.atxzXhNxgN = 0),
-				(this.rutqrVROSKR = 0),
+				(this.zVbpZHiaYd = 0),
+				(this.unAZjpZwBxI = 0),
 				(this.prevLimbSwingAmount = 0),
 				(this.limbSwingAmount = 0),
 				(this.limbSwing = 0),
@@ -16332,7 +16332,7 @@ var Pd = 0.91,
 				this.applyEntityAttributes(),
 				this.dataWatcher.updateObject(6, this.getMaxHealth());
 		}
-		iaKNNNPkiVSSA() {
+		TkRfsxCMEHFDZ() {
 			this.attackEntityFrom(Fp.OUT_OF_WORLD, Number.MAX_VALUE);
 		}
 		entityInit() {
@@ -16344,15 +16344,15 @@ var Pd = 0.91,
 		applyEntityAttributes() {
 			this.getAttributeMap().registerAttribute(Au.maxHealth),
 				this.getAttributeMap().registerAttribute(Au.knockbackResistance),
-				this.getAttributeMap().registerAttribute(Au.sLYAdepgIImgX);
+				this.getAttributeMap().registerAttribute(Au.NLOgYLKKWRvav);
 		}
 		getEntityAttribute(e) {
-			return this.getAttributeMap().SQxyCnpGgTurqfwyATgO(e);
+			return this.getAttributeMap().vmhhptbwXdqmvJNhojLl(e);
 		}
 		getAttributeMap() {
 			return (this.attributeMap ??= new uie()), this.attributeMap;
 		}
-		opSHsRvjPhDTkVId() {
+		TtZdhtLOjZIfYFnc() {
 			return this._combatTracker;
 		}
 		lastDamager() {
@@ -16367,30 +16367,30 @@ var Pd = 0.91,
 		getHeldItem() {
 			return this.getEquipmentInSlot(0);
 		}
-		FwTbPfqjHOzMte() {
-			super.FwTbPfqjHOzMte();
+		DKamtSrQzCEzOy() {
+			super.DKamtSrQzCEzOy();
 			let t = this instanceof Np;
 			this.dead ||
-				(this.CdhpUxIRTzOeeCyUvvNtEECBV() &&
+				(this.dMJGeAKUkOznAgbMKVXdjOAeV() &&
 					this.attackEntityFrom(Fp.IN_WALL, 1));
 			let n = t && !1;
 			this.dead ||
-				(this.fhgzMgSKTwVNQtBiWA(L.water)
-					? (!this.LrtAUkqaRPIiRwNfyFyh() &&
+				(this.qVelQMcPZDLVNanPTL(L.water)
+					? (!this.qOARKUnuOwSgCPhWdskM() &&
 							!n &&
-							(this.NUCgCSivT(this.jQSZCMOPmyVpWHJGfFZq(this.FwlWyKYQG())),
-							this.FwlWyKYQG() == -20 &&
-								(this.NUCgCSivT(0), this.attackEntityFrom(Fp.DROWN, 2))),
+							(this.dKNvFfNEs(this.pWUwNrtmSrkILrljHAMq(this.HxkgYMBOf())),
+							this.HxkgYMBOf() == -20 &&
+								(this.dKNvFfNEs(0), this.attackEntityFrom(Fp.DROWN, 2))),
 						this.world.isServer &&
 							this.isRiding() &&
 							this.ridingEntity instanceof e &&
 							this.mountEntity(null))
-					: this.NUCgCSivT(300)),
+					: this.dKNvFfNEs(300)),
 				this.hurtTime > 0 && --this.hurtTime,
 				this.hurtResistantTime > 0 &&
 					!this.netHandler &&
 					--this.hurtResistantTime,
-				this.getHealth() <= 0 && this.VggeVonKpjGyw(),
+				this.getHealth() <= 0 && this.DzxbgiaCFEdER(),
 				this.recentlyHit > 0
 					? --this.recentlyHit
 					: (this.attackingPlayer = null),
@@ -16400,9 +16400,9 @@ var Pd = 0.91,
 				this.entityLivingToAttack != null &&
 					(this.entityLivingToAttack.isEntityAlive()
 						? this.ticksExisted - this.revengeTimer > 100 &&
-							this.FXyPZGsbOXsfKssE(null)
-						: this.FXyPZGsbOXsfKssE(null)),
-				this.qguadMtwooWVAIltFoO(),
+							this.mvLMwnGCgKnsvtkn(null)
+						: this.mvLMwnGCgKnsvtkn(null)),
+				this.PHuARmusgutUtBxQahQ(),
 				(this.prevRenderYawOffset = this.renderYawOffset),
 				(this.prevRotationYawHead = this.yawHead),
 				(this.prevYaw = this.yaw),
@@ -16411,70 +16411,70 @@ var Pd = 0.91,
 		isChild() {
 			return !1;
 		}
-		bLNSMscm() {
+		QUahhKSq() {
 			return !1;
 		}
 		getExperiencePoints(e) {
 			return 0;
 		}
-		VggeVonKpjGyw() {
+		DzxbgiaCFEdER() {
 			++this.deathTime, this.deathTime;
 		}
-		NUCgCSivT(e) {
+		dKNvFfNEs(e) {
 			this.oxygen = e;
 		}
-		FwlWyKYQG() {
+		HxkgYMBOf() {
 			return this.oxygen;
 		}
-		jQSZCMOPmyVpWHJGfFZq(e) {
+		pWUwNrtmSrkILrljHAMq(e) {
 			return e - 1;
 		}
-		LrtAUkqaRPIiRwNfyFyh() {
+		qOARKUnuOwSgCPhWdskM() {
 			return !1;
 		}
 		updateFallState(e, t, n, r) {
-			this.inWater || this.wIJXaeUtnSkUmJlmRxJ(),
+			this.inWater || this.gpfsOXUiWYjuVnBnsNd(),
 				super.updateFallState(e, t, n, r);
 		}
 		static {
 			this.collidePadding = new D(0.2, 0, 0.2);
 		}
 		static {
-			this.collideScratchBox = new ir();
+			this.collideScratchBox = new Cn();
 		}
-		fmDLstkQoonXkyswyWwuhkTto() {
+		ubPXtlwbtscDSZSMgCEqqNGWP() {
 			let t = e.collideScratchBox
 					.copy(this.getEntityBoundingBox())
 					.expandByVector(e.collidePadding),
 				n = this.world.getEntitiesInAABBexcluding(this, t);
-			for (let e of n) e.WtoIBRKMWEo() && this.GhyhdJcgWLHtSVIPS(e);
+			for (let e of n) e.PbjPPFroyKI() && this.PgfdXjHgzTobZupxm(e);
 		}
-		WtoIBRKMWEo() {
+		PbjPPFroyKI() {
 			return this.getHealth() > 0;
 		}
-		DQaccOjhxUu() {
+		GpZVffwkakJ() {
 			return this.entityLivingToAttack;
 		}
-		QYQtwWCIXszbiMP() {
+		LXMDPIBmwlcoHAs() {
 			return this.revengeTimer;
 		}
-		FXyPZGsbOXsfKssE(e) {
+		mvLMwnGCgKnsvtkn(e) {
 			(this.entityLivingToAttack = e), (this.revengeTimer = this.ticksExisted);
 		}
-		sXiykMfhDdVXQkZ() {
+		bxdRTeWSGqFVAfF() {
 			return this.lastAttacker;
 		}
-		ekUKYRVyzoGKnTPShha() {
+		aSOfNxmPuAEwGyGXniy() {
 			return this.lastAttackerTime;
 		}
-		GTzZqzXvkvblYKl(t) {
+		pBlzmSPqDcYNvHE(t) {
 			t instanceof e ? (this.lastAttacker = t) : (this.lastAttacker = null),
 				(this.lastAttackerTime = this.ticksExisted);
 		}
-		ZcBfcT() {
+		BvtKJI() {
 			return this.entityAge;
 		}
-		GhyhdJcgWLHtSVIPS(e) {
+		PgfdXjHgzTobZupxm(e) {
 			if (this.noPhysics || e.noPhysics) return;
 			let t = e.pos.x - this.pos.x,
 				n = e.pos.z - this.pos.z,
@@ -16491,7 +16491,7 @@ var Pd = 0.91,
 					(this.motion.z += -n);
 			}
 		}
-		fdrVCJqYIR(e) {
+		GLjxwhavhK(e) {
 			this.jumping = e;
 		}
 		jump() {
@@ -16506,15 +16506,15 @@ var Pd = 0.91,
 		}
 		setSprinting(t) {
 			super.setSprinting(t);
-			let n = this.getEntityAttribute(Au.sLYAdepgIImgX);
-			n.ypbnVjsJauX(`sprint`) != null &&
+			let n = this.getEntityAttribute(Au.NLOgYLKKWRvav);
+			n.EfuhFZvNBpV(`sprint`) != null &&
 				n.removeModifier(e.sprintingSpeedBoostModifier.getID()),
 				t && n.applyModifier(e.sprintingSpeedBoostModifier);
 		}
-		fnkysGmZjbQZ(e, t) {
+		LECfGxrZzpxv(e, t) {
 			!e.dead && this.world.isServer;
 		}
-		FqEWpSDQfcpWWBq(e) {
+		ahHTelAIuQfnkpT(e) {
 			return (
 				Zu(
 					new D(this.pos.x, this.pos.y + this.getEyeHeight(), this.pos.z),
@@ -16526,25 +16526,25 @@ var Pd = 0.91,
 				) == null
 			);
 		}
-		CEgFKJCXwQDDn() {
+		JFPLnMIsjnmwp() {
 			return this.world.isServer;
 		}
-		moEkTOMnSlsWwewBt() {
+		wDLugPmngLAgTfDbD() {
 			return this.getHealth() <= 0;
 		}
-		abPWDhZMWIEMEfEGqpXHnSy() {}
-		FTRJZwSZvZoOchifOkoWC(e) {
+		prqabDBVZwGqXEhNosyOlPX() {}
+		HedFSWqdWllaCcDxUsJTk(e) {
 			this.playSound(`random.break`, 0.8, 0.8 + Math.random() * 0.4);
 			for (let e = 0; e < 5; ++e);
 		}
 		update() {
 			super.update(),
 				this.world.isServer &&
-					(this.hiysKAxHGaxaK(),
-					this.ticksExisted % 20 == 0 && this.opSHsRvjPhDTkVId().reset()),
+					(this.ABzEdbaxqYmSj(),
+					this.ticksExisted % 20 == 0 && this.TtZdhtLOjZIfYFnc().reset()),
 				this.onLivingUpdate();
 		}
-		hiysKAxHGaxaK() {
+		ABzEdbaxqYmSj() {
 			if (!this.world.isServer) return;
 			let e = [];
 			for (let t = 0; t < 5; ++t) {
@@ -16554,11 +16554,11 @@ var Pd = 0.91,
 				let i = t == 0 ? 1 : t + 2;
 				e.push(new Uu({ slot: i, item: r ? r.toProto() : Vp.PB_EMPTY })),
 					n != null &&
-						this.attributeMap.iSaxIAjMvBMRYdTSlgKJkoLq(
+						this.attributeMap.TqTRhjmJaEiniItaILfLVNkL(
 							n.getAttributeModifiers(),
 						),
 					r != null &&
-						this.attributeMap.scMVzIRKMfdNvwRFosygzJD(
+						this.attributeMap.bCKcZOhUjfhiTLPeListqmT(
 							r.getAttributeModifiers(),
 						),
 					(this.previousEquipment[t] = r == null ? null : r.clone());
@@ -16570,16 +16570,16 @@ var Pd = 0.91,
 		}
 		mountEntity(e) {
 			this.ridingEntity != null && e == null
-				? (this.world.isServer && this.szfXYwCQFcRxes(this.ridingEntity),
+				? (this.world.isServer && this.OoQwQfyAPHhUgo(this.ridingEntity),
 					this.ridingEntity != null &&
 						(this.ridingEntity.riddenByEntity = null),
 					(this.ridingEntity = null))
 				: super.mountEntity(e);
 		}
-		hLQosuvefMOH() {
-			super.hLQosuvefMOH(), (this.fallDistance = 0);
+		cdmSdnUTngXb() {
+			super.cdmSdnUTngXb(), (this.fallDistance = 0);
 		}
-		szfXYwCQFcRxes(e) {
+		OoQwQfyAPHhUgo(e) {
 			let t = this.pos.x,
 				n = this.getEntityBoundingBox().min.y + this.height,
 				r = this.pos.z;
@@ -16648,14 +16648,14 @@ var Pd = 0.91,
 						(this.newPitch - this.pitch) / this.newPosRotationIncrements),
 					--this.newPosRotationIncrements,
 					this.setPosition(e, t, n),
-					this.edBpTfmccyY(this.yaw, this.pitch);
+					this.AlnylFQVLYK(this.yaw, this.pitch);
 			}
 			Math.abs(this.motion.x) < 0.005 && (this.motion.x = 0),
 				Math.abs(this.motion.y) < 0.005 && (this.motion.y = 0),
 				Math.abs(this.motion.z) < 0.005 && (this.motion.z = 0),
-				this.moEkTOMnSlsWwewBt()
-					? ((this.jumping = !1), (this.atxzXhNxgN = 0), (this.rutqrVROSKR = 0))
-					: this.CEgFKJCXwQDDn() && this.abPWDhZMWIEMEfEGqpXHnSy(),
+				this.wDLugPmngLAgTfDbD()
+					? ((this.jumping = !1), (this.zVbpZHiaYd = 0), (this.unAZjpZwBxI = 0))
+					: this.JFPLnMIsjnmwp() && this.prqabDBVZwGqXEhNosyOlPX(),
 				this.jumping
 					? this.inWater || this.inLava
 						? (this.motion.y += 0.05)
@@ -16664,14 +16664,14 @@ var Pd = 0.91,
 							(this.jump(), (this.jumpTicks = 10))
 					: (this.jumpTicks = 0),
 				this.isRiding() ||
-					((this.atxzXhNxgN *= 0.98), (this.rutqrVROSKR *= 0.98)),
-				this.xqIaUNKxJPaVELYqMUyFv(this.atxzXhNxgN, this.rutqrVROSKR),
+					((this.zVbpZHiaYd *= 0.98), (this.unAZjpZwBxI *= 0.98)),
+				this.AYZJOzBvWadrAEvyNNDMn(this.zVbpZHiaYd, this.unAZjpZwBxI),
 				this.world.isServer &&
 					this.doEntityCollision &&
-					this.fmDLstkQoonXkyswyWwuhkTto();
+					this.ubPXtlwbtscDSZSMgCEqqNGWP();
 		}
-		xqIaUNKxJPaVELYqMUyFv(e, t) {
-			if (this.CEgFKJCXwQDDn())
+		AYZJOzBvWadrAEvyNNDMn(e, t) {
+			if (this.JFPLnMIsjnmwp())
 				if (this.inWater) {
 					let n = this.pos.y,
 						r = 0.8,
@@ -16681,15 +16681,15 @@ var Pd = 0.91,
 						this.onGround || (a *= 0.5),
 						a > 0 &&
 							((r += ((0.546 - r) * a) / 3),
-							(i += ((this.GpapJJboBJTjEv() * 1 - i) * a) / 3)),
-						this.VmJptHdVyb(e, t, i),
+							(i += ((this.DvTzXmmrfLOvHd() * 1 - i) * a) / 3)),
+						this.LTIctsnhrg(e, t, i),
 						this.moveEntity(this.motion.x, this.motion.y, this.motion.z),
 						(this.motion.x *= r),
 						(this.motion.y *= 0.8),
 						(this.motion.z *= r),
 						(this.motion.y -= 0.02),
 						this.isCollidedHorizontally &&
-							this.pxknJzIQeMlbpvfFmiyWcKcj(
+							this.gqpUhkGQIWVwVNOdrKMfkVtq(
 								this.motion.x,
 								this.motion.y + 0.6 - this.pos.y + n,
 								this.motion.z,
@@ -16706,9 +16706,9 @@ var Pd = 0.91,
 					}
 					let a = 0.16277136 / (i * i * i),
 						o = this.onGround
-							? this.GpapJJboBJTjEv() * a
+							? this.DvTzXmmrfLOvHd() * a
 							: this.jumpMovementFactor;
-					if ((this.VmJptHdVyb(e, t, o), this.isOnLadder())) {
+					if ((this.LTIctsnhrg(e, t, o), this.isOnLadder())) {
 						let e = 0.15;
 						(this.motion.x = (0, M.clamp)(this.motion.x, -0.15, e)),
 							(this.motion.z = (0, M.clamp)(this.motion.z, -0.15, e)),
@@ -16719,7 +16719,7 @@ var Pd = 0.91,
 					this.moveEntity(this.motion.x, this.motion.y, this.motion.z),
 						this.isCollidedHorizontally &&
 							this.isOnLadder() &&
-							(this.motion.y = this.mpBJtoyQErMsrU()),
+							(this.motion.y = this.ROnvgoorjzMDMe()),
 						(this.motion.y -= 0.08),
 						(this.motion.y *= 0.98),
 						(this.motion.x *= i),
@@ -16732,33 +16732,33 @@ var Pd = 0.91,
 			(this.limbSwingAmount += (i - this.limbSwingAmount) * 0.4),
 				(this.limbSwing += this.limbSwingAmount);
 		}
-		GpapJJboBJTjEv() {
+		DvTzXmmrfLOvHd() {
 			return this.landMovementFactor;
 		}
-		XrvKmJUdtOsjzO(e) {
+		NPBfSqoqdLdEFc(e) {
 			this.landMovementFactor = e;
 		}
 		attackEntityAsMob(e) {
-			return this.GTzZqzXvkvblYKl(e), !1;
+			return this.pBlzmSPqDcYNvHE(e), !1;
 		}
 		getEquipmentInSlot(e) {
 			throw Error(`getEquipmentInSlot Method not implemented.`);
 		}
-		FAOnJyxeCXwWyplegV() {
+		DPAhMatAClFRmOWJYO() {
 			let e = 0;
 			for (let t of this.getInventory()) {
 				let n = t.getItem();
 				if (t != null && n instanceof yu) {
-					let t = n.QhzlVaHJiinRkouulH;
+					let t = n.rbuvBSyyXWdTnOivan;
 					e += t;
 				}
 			}
 			return e;
 		}
-		yLbLuCYfVWT(e) {}
-		jsKWhUPtbwRBoIwsxGLOgi(e, t) {
+		LSuxICQDOpq(e) {}
+		gBNBLdsMfNEfCoarZNiFgU(e, t) {
 			if (!e.isUnblockable()) {
-				this.yLbLuCYfVWT(t);
+				this.LSuxICQDOpq(t);
 				let e = 0,
 					n = 0;
 				for (let t of this.getInventory().filter(
@@ -16767,13 +16767,13 @@ var Pd = 0.91,
 					if (!t) continue;
 					let r = t.item;
 					r instanceof yu &&
-						((e += r.QhzlVaHJiinRkouulH), (n += r.toughness || 0));
+						((e += r.rbuvBSyyXWdTnOivan), (n += r.toughness || 0));
 				}
 				t *= 1 - Math.min(20, Math.max(e / 5, e - (4 * t) / (n + 8))) / 25;
 			}
 			return t;
 		}
-		XsGmfAjQLTHKlFjicQhMhJnjxzmuX(e, t) {
+		hykpKLNrGWVwIylgzrCOQLeWPQAzb(e, t) {
 			if (e.isDamageAbsolute()) return t;
 			if (this.isPotionActive(Nd.resistance) && e != Fp.OUT_OF_WORLD) {
 				let e =
@@ -16791,26 +16791,26 @@ var Pd = 0.91,
 				return t;
 			}
 		}
-		qiHxJSvPDtlr(e, t) {
+		EHPeDcaMYmjL(e, t) {
 			if (this.isEntityInvulnerable(e)) return;
-			(t = this.jsKWhUPtbwRBoIwsxGLOgi(e, t)),
-				(t = this.XsGmfAjQLTHKlFjicQhMhJnjxzmuX(e, t));
+			(t = this.gBNBLdsMfNEfCoarZNiFgU(e, t)),
+				(t = this.hykpKLNrGWVwIylgzrCOQLeWPQAzb(e, t));
 			let n = t;
 			if (
-				((t = Math.max(t - this.oFdflIheFKVgDbCpkem(), 0)),
-				this.lAWVbxOTpOYVfPsyTeZ(this.oFdflIheFKVgDbCpkem() - (n - t)),
+				((t = Math.max(t - this.hwnudaSahEeXwrPpmMq(), 0)),
+				this.GFmItBTkaQdpYTdiEUB(this.hwnudaSahEeXwrPpmMq() - (n - t)),
 				t != 0)
 			) {
 				let n = this.getHealth();
 				this.setHealth(this.getHealth() - Math.floor(t)),
-					this.opSHsRvjPhDTkVId().trackDamage(e, n, t),
-					this.lAWVbxOTpOYVfPsyTeZ(this.oFdflIheFKVgDbCpkem() - t);
+					this.TtZdhtLOjZIfYFnc().trackDamage(e, n, t),
+					this.GFmItBTkaQdpYTdiEUB(this.hwnudaSahEeXwrPpmMq() - t);
 			}
 		}
-		oFdflIheFKVgDbCpkem() {
+		hwnudaSahEeXwrPpmMq() {
 			return this.absorptionAmount;
 		}
-		lAWVbxOTpOYVfPsyTeZ(e) {
+		GFmItBTkaQdpYTdiEUB(e) {
 			e < 0 && (e = 0), (this.absorptionAmount = e);
 		}
 		knockback(e, t, n, r) {
@@ -16830,7 +16830,7 @@ var Pd = 0.91,
 					this.motion.y > 0.4 && (this.motion.y = 0.4);
 			}
 		}
-		NsDKZjLdTWqxvOGyUIeC() {
+		RivMJdcElFMhslKhmgJh() {
 			return Td.UNDEFINED;
 		}
 		setBeenAttacked() {
@@ -16838,7 +16838,7 @@ var Pd = 0.91,
 				Math.random() >=
 				this.getEntityAttribute(Au.knockbackResistance).getAttributeValue();
 		}
-		gyfgrGCtJsArYYiVi() {
+		TzVrKyVsZxubKIsOb() {
 			return !1;
 		}
 		attackEntityFrom(t, n) {
@@ -16848,7 +16848,7 @@ var Pd = 0.91,
 					this.getHealth() <= 0 ||
 					(t.isFireDamage() &&
 						(this.isPotionActive(Nd.fireResistance) ||
-							this.gyfgrGCtJsArYYiVi()))
+							this.TzVrKyVsZxubKIsOb()))
 				)
 					return !1;
 				t == Fp.FALLING_BLOCK &&
@@ -16874,11 +16874,11 @@ var Pd = 0.91,
 				let a = t.getEntity(),
 					o = a ? new zc(a, this, t, i) : new Rc(this, t, i);
 				if ((this.world.handleEvent(o), o.cancelled)) return !1;
-				this.qiHxJSvPDtlr(t, o.damage), (this.attackedAtYaw = 0);
+				this.EHPeDcaMYmjL(t, o.damage), (this.attackedAtYaw = 0);
 				let s = t.getEntity();
 				if (
 					(s &&
-						(s instanceof e && this.FXyPZGsbOXsfKssE(s),
+						(s instanceof e && this.mvLMwnGCgKnsvtkn(s),
 						s instanceof Np &&
 							((this.recentlyHit = 100), (this.attackingPlayer = s))),
 					r)
@@ -16899,21 +16899,21 @@ var Pd = 0.91,
 						this.knockback(s, n, e, t);
 					} else this.attackedAtYaw = Math.random() * 2 * 180;
 				if (this.getHealth() <= 0) {
-					let e = this.DETQYMRBjKlAC();
+					let e = this.BRsaqdAexQZfa();
 					r &&
 						e != null &&
-						this.playSound(e, this.ZrtnMWShbTqWBt(), this.NRWynydclFEbm()),
+						this.playSound(e, this.AGlduxQEquCMBA(), this.OASmqcWnURSdi()),
 						this.onDeath(t);
 				} else {
-					let e = this.EegPBXTTFGqp();
+					let e = this.iwBVpVDqhEXu();
 					r &&
 						e != null &&
-						this.playSound(e, this.ZrtnMWShbTqWBt(), this.NRWynydclFEbm());
+						this.playSound(e, this.AGlduxQEquCMBA(), this.OASmqcWnURSdi());
 				}
 				return !0;
 			}
 		}
-		NRWynydclFEbm() {
+		OASmqcWnURSdi() {
 			return this.isChild()
 				? (Math.random() - Math.random()) * 0.2 + 1.5
 				: (Math.random() - Math.random()) * 0.2 + 1;
@@ -16931,26 +16931,26 @@ var Pd = 0.91,
 			let t = e.getEntity();
 			if (
 				(this.lastDamager(),
-				t?.MKHzIVGExuFS(this),
+				t?.gkzufWPlADNe(this),
 				this.setDead(),
 				this.world.isServer &&
 					!(this instanceof Np) &&
 					this.world.handleEvent(new Gu(this, [])),
-				this.opSHsRvjPhDTkVId().reset(),
+				this.TtZdhtLOjZIfYFnc().reset(),
 				this.world.isServer)
 			) {
 				let e = 0;
 				t instanceof Np && (e = Hd.getLootingModifier(t)),
-					this.pkyVdBenOJL() &&
+					this.PlykDvcAfyW() &&
 						(this.dropFewItems(this.recentlyHit > 0, e),
 						this.recentlyHit > 0 &&
 							Math.random() < 0.025 + e * 0.01 &&
-							this.gPQHfMRdvoGgs());
+							this.buNPTPFBASuxj());
 			}
 			if (
 				this.world.isServer &&
-				(this.recentlyHit > 0 || this.bLNSMscm()) &&
-				this.pkyVdBenOJL()
+				(this.recentlyHit > 0 || this.QUahhKSq()) &&
+				this.PlykDvcAfyW()
 			) {
 				let e = this.getExperiencePoints(this.attackingPlayer);
 				for (; e > 0; ) {
@@ -16971,7 +16971,7 @@ var Pd = 0.91,
 			let a = this.attackEntityFrom(Fp.FALL, i);
 			if (this.world.isServer) {
 				if (!a) return;
-				this.world.playSoundAtEntity(this, this.zKCjCxhqCtBURoelSO(i), 1, 1);
+				this.world.playSoundAtEntity(this, this.BRbYfCirTfioDoQZeb(i), 1, 1);
 			}
 			let o = Math.floor(this.pos.x),
 				s = Math.floor(this.pos.y - 0.2),
@@ -16980,7 +16980,7 @@ var Pd = 0.91,
 			l.sound &&
 				this.world.playSoundAtEntity(this, l.sound.getStepSound(), 0.5, 0.75);
 		}
-		zKCjCxhqCtBURoelSO(e) {
+		BRbYfCirTfioDoQZeb(e) {
 			return e > 4
 				? `game.player.hurt.fall.big`
 				: `game.player.hurt.fall.small`;
@@ -16988,15 +16988,15 @@ var Pd = 0.91,
 		getSoundInfo() {
 			return {};
 		}
-		EegPBXTTFGqp() {
+		iwBVpVDqhEXu() {
 			return this.getSoundInfo().hurt ?? `game.neutral.hurt`;
 		}
-		DETQYMRBjKlAC() {
+		BRsaqdAexQZfa() {
 			return this.getSoundInfo().death ?? `game.neutral.die`;
 		}
-		gPQHfMRdvoGgs() {}
+		buNPTPFBASuxj() {}
 		dropFewItems(e, t) {}
-		pkyVdBenOJL() {
+		PlykDvcAfyW() {
 			return !this.isChild();
 		}
 		canBeCollidedWith() {
@@ -17005,7 +17005,7 @@ var Pd = 0.91,
 		getInventory() {
 			return null;
 		}
-		ZrtnMWShbTqWBt() {
+		AGlduxQEquCMBA() {
 			return this.getSoundInfo().soundVolume ?? 1;
 		}
 		kill() {
@@ -17017,14 +17017,14 @@ var Pd = 0.91,
 				(e.HurtTime = Ju(this.hurtTime)),
 				(e.HurtByTimestamp = I.int(this.revengeTimer)),
 				(e.DeathTime = Ju(this.deathTime)),
-				(e.AbsorptionAmount = I.float(this.oFdflIheFKVgDbCpkem()));
+				(e.AbsorptionAmount = I.float(this.hwnudaSahEeXwrPpmMq()));
 			for (let e of this.getInventory())
 				e != null &&
-					this.attributeMap.iSaxIAjMvBMRYdTSlgKJkoLq(e.getAttributeModifiers());
-			e.Attributes = Au.rDtigEBlArLxcGnXxjQxYSZPga(this.getAttributeMap());
+					this.attributeMap.TqTRhjmJaEiniItaILfLVNkL(e.getAttributeModifiers());
+			e.Attributes = Au.GdTxAzsupoTbWBUHeNXPYDekDb(this.getAttributeMap());
 			for (let e of this.getInventory())
 				e != null &&
-					this.attributeMap.scMVzIRKMfdNvwRFosygzJD(e.getAttributeModifiers());
+					this.attributeMap.bCKcZOhUjfhiTLPeListqmT(e.getAttributeModifiers());
 			if (this.activePotionsMap.size > 0) {
 				let t = [];
 				for (let e of this.activePotionsMap.values())
@@ -17034,11 +17034,11 @@ var Pd = 0.91,
 		}
 		readEntityFromNBT(e) {
 			if (
-				(this.lAWVbxOTpOYVfPsyTeZ(e.AbsorptionAmount),
+				(this.GFmItBTkaQdpYTdiEUB(e.AbsorptionAmount),
 				e.Attributes &&
 					this.world != null &&
 					!this.world.isClient &&
-					Au.cGcJfmSDRNCjp(this.getAttributeMap(), e.Attributes),
+					Au.tULcvQqWBYjOU(this.getAttributeMap(), e.Attributes),
 				e.ActiveEffects)
 			) {
 				let t = e.ActiveEffects;
@@ -17062,41 +17062,41 @@ var Pd = 0.91,
 					(this.hurtResistantTime = this.maxHurtResistantTime),
 					(this.hurtTime = this.maxHurtTime = 10),
 					(this.attackedAtYaw = 0),
-					this.EegPBXTTFGqp() != null &&
+					this.iwBVpVDqhEXu() != null &&
 						this.playSound(
-							this.EegPBXTTFGqp(),
-							this.ZrtnMWShbTqWBt(),
+							this.iwBVpVDqhEXu(),
+							this.AGlduxQEquCMBA(),
 							(Math.random() - Math.random()) * 0.2 + 1,
 						),
 					this.attackEntityFrom(Fp.GENERIC, 0))
 				: e == 3
-					? (this.DETQYMRBjKlAC() != null &&
+					? (this.BRsaqdAexQZfa() != null &&
 							this.playSound(
-								this.DETQYMRBjKlAC(),
-								this.ZrtnMWShbTqWBt(),
+								this.BRsaqdAexQZfa(),
+								this.AGlduxQEquCMBA(),
 								(Math.random() - Math.random()) * 0.2 + 1,
 							),
 						this.setHealth(0),
 						this.onDeath(Fp.GENERIC))
 					: super.handleStatusUpdate(e);
 		}
-		qguadMtwooWVAIltFoO() {
+		PHuARmusgutUtBxQahQ() {
 			let e = this.activePotionsMap.keys();
 			for (let t of e) {
 				let e = this.activePotionsMap.get(t);
 				e.onUpdate(this)
-					? e.getDuration() % 600 == 0 && this.uMOmdTtehmEaIDRhQPPBB(e, !1)
+					? e.getDuration() % 600 == 0 && this.RIhoZBPpVXdSJYhzJhnIc(e, !1)
 					: this.world.isClient ||
-						(this.activePotionsMap.delete(t), this.UCudcpjDVEgbBaGxrqfwXo(e));
+						(this.activePotionsMap.delete(t), this.BWSqIMrBGPOVgjExOjEzvA(e));
 			}
 			this.potionsNeedUpdate &&=
-				(this.world.isClient || this.FKEHoOgzKgSbHukUDwrw(), !1);
-			let t = this.dataWatcher.YJfZLGOonfmmAktuyJuka(7),
+				(this.world.isClient || this.ZniYUWBDlGOSINoqjrjf(), !1);
+			let t = this.dataWatcher.eHjnaPmjMseFGhWmPFXjp(7),
 				n = this.dataWatcher.getWatchableObjectByte(8) > 0;
 			if (t > 0 && this.world.isClient) {
 				let e = !1;
 				if (
-					((e = this.YxOkSAcxKhg() ? rf(15) == 0 : Math.random() > 0.5),
+					((e = this.TQuOhOtfcpf() ? rf(15) == 0 : Math.random() > 0.5),
 					n && e == e && rf(5),
 					e && t > 0)
 				) {
@@ -17115,9 +17115,9 @@ var Pd = 0.91,
 				}
 			}
 		}
-		FKEHoOgzKgSbHukUDwrw() {
+		ZniYUWBDlGOSINoqjrjf() {
 			if (this.activePotionsMap.size == 0)
-				this.HbraWDJQhLzZVsRARXAhNSXEY(), this.LvBPqAYaLPhV(!1);
+				this.pDDyBAdRQYyOJnoglZpDUUQbi(), this.BapEmwqfwgdQ(!1);
 			else {
 				let e = Md.calcPotionLiquidColor(
 					Array.from(this.activePotionsMap.values()),
@@ -17127,20 +17127,20 @@ var Pd = 0.91,
 					+!!Md.getAreAmbient(Array.from(this.activePotionsMap.values())),
 				),
 					this.dataWatcher.updateObject(7, e),
-					this.LvBPqAYaLPhV(this.isPotionActive(Nd.invisibility.id));
+					this.BapEmwqfwgdQ(this.isPotionActive(Nd.invisibility.id));
 			}
 		}
-		HbraWDJQhLzZVsRARXAhNSXEY() {
+		pDDyBAdRQYyOJnoglZpDUUQbi() {
 			this.dataWatcher.updateObject(8, 0), this.dataWatcher.updateObject(7, 0);
 		}
-		TkXcrOHJzKOeOiSqGd() {
+		DFsoqpOsFaxFzoYpMd() {
 			for (let e of this.activePotionsMap.keys()) {
 				let t = this.activePotionsMap.get(e);
 				this.world.isClient ||
-					(this.activePotionsMap.delete(e), this.UCudcpjDVEgbBaGxrqfwXo(t));
+					(this.activePotionsMap.delete(e), this.BWSqIMrBGPOVgjExOjEzvA(t));
 			}
 		}
-		xtgfpzXBkBmTzLQupHOMNj() {
+		LFoClIYPbhPDVhQKPEkBQd() {
 			return Array.from(this.activePotionsMap.values());
 		}
 		isPotionActive(e) {
@@ -17150,35 +17150,35 @@ var Pd = 0.91,
 			return this.activePotionsMap.get(e.id);
 		}
 		addPotionEffect(e) {
-			this.TtMvvenQzACTOLcntL(e) &&
+			this.XSRVUHnqjMLZzrceJY(e) &&
 				(this.activePotionsMap.has(e.getPotionID())
 					? (this.activePotionsMap.get(e.getPotionID()).combine(e),
-						this.uMOmdTtehmEaIDRhQPPBB(
+						this.RIhoZBPpVXdSJYhzJhnIc(
 							this.activePotionsMap.get(e.getPotionID()),
 							!0,
 						))
 					: (this.activePotionsMap.set(e.getPotionID(), e),
-						this.xtzMJVqgqBlMooDxV(e)));
+						this.YeyrXERyfFmmugYPj(e)));
 		}
-		TtMvvenQzACTOLcntL(e) {
-			if (this.NsDKZjLdTWqxvOGyUIeC() == Td.UNDEAD) {
+		XSRVUHnqjMLZzrceJY(e) {
+			if (this.RivMJdcElFMhslKhmgJh() == Td.UNDEAD) {
 				let t = e.getPotionID();
 				if (t == Nd.regeneration.id || t == Nd.poison.id) return !1;
 			}
 			return !0;
 		}
-		UdLrWEFGaYyPao() {
-			return this.NsDKZjLdTWqxvOGyUIeC() == Td.UNDEAD;
+		SDyhbxahNGIDpn() {
+			return this.RivMJdcElFMhslKhmgJh() == Td.UNDEAD;
 		}
-		MEiGKhxZkGGagjhsPEjLjIrU(e) {
+		wKpKbuqdSWWrWFpeYRKwdBiw(e) {
 			this.activePotionsMap.delete(e);
 		}
-		bsRIQKsSCkJNRimHSa(e) {
+		PjHmcuXOUpaCnMNvPp(e) {
 			let t = this.activePotionsMap.get(e);
 			t != null &&
-				(this.activePotionsMap.delete(e), this.UCudcpjDVEgbBaGxrqfwXo(t));
+				(this.activePotionsMap.delete(e), this.BWSqIMrBGPOVgjExOjEzvA(t));
 		}
-		xtzMJVqgqBlMooDxV(e) {
+		YeyrXERyfFmmugYPj(e) {
 			(this.potionsNeedUpdate = !0),
 				this.world.isClient ||
 					Dd.potionTypes[e.getPotionID()].applyAttributesModifiersToEntity(
@@ -17187,7 +17187,7 @@ var Pd = 0.91,
 						e.getAmplifier(),
 					);
 		}
-		uMOmdTtehmEaIDRhQPPBB(e, t) {
+		RIhoZBPpVXdSJYhzJhnIc(e, t) {
 			(this.potionsNeedUpdate = !0),
 				t &&
 					!this.world.isClient &&
@@ -17202,7 +17202,7 @@ var Pd = 0.91,
 						e.getAmplifier(),
 					));
 		}
-		UCudcpjDVEgbBaGxrqfwXo(e) {
+		BWSqIMrBGPOVgjExOjEzvA(e) {
 			(this.potionsNeedUpdate = !0),
 				this.world.isClient ||
 					Dd.potionTypes[e.getPotionID()].removeAttributesModifiersFromEntity(
@@ -17214,11 +17214,11 @@ var Pd = 0.91,
 		heal(e) {
 			this.getHealth() > 0 && this.setHealth(this.getHealth() + e);
 		}
-		FZWMxIeeOfUZpXIWGmNY() {
+		fXqgmjzyfHPqhECPgVsk() {
 			return new D(this.pos.x, this.pos.y + this.getEyeHeight(), this.pos.z);
 		}
-		rbAPXJLvpZZQcWM() {}
-		vKphJTBxZQesV() {}
+		jfYOFziQHdprkFv() {}
+		QnYAFNfxNTEQA() {}
 	},
 	Id = class e extends Mu {
 		constructor(e, t) {
@@ -17329,7 +17329,7 @@ var Pd = 0.91,
 		onEntityDamaged(e, t, n) {
 			t instanceof Fd &&
 				this.damageType == 2 &&
-				t.NsDKZjLdTWqxvOGyUIeC() == Td.ARTHROPOD &&
+				t.RivMJdcElFMhslKhmgJh() == Td.ARTHROPOD &&
 				20 + rf(10 * n);
 		}
 	},
@@ -17884,7 +17884,7 @@ var Eie = class {
 				(this.age = 0),
 				(this.delayBeforeCanPickup = 0),
 				(this.health = 5),
-				t && this.nJjhmCLnrwIrzDMVJh(t),
+				t && this.KrjuwItqiWAahpojyb(t),
 				this.setSize(0.25, 0.25),
 				(this.motion.x = Math.random() * 0.2 - 0.1),
 				(this.motion.y = 0.2),
@@ -17892,19 +17892,19 @@ var Eie = class {
 				n && this.setPosition(n);
 		}
 		entityInit() {
-			this.dataWatcher.PDcBuDZkPkJrkoAKgVs(10, 5);
+			this.dataWatcher.UlqwRqpZmprCAVwPcnn(10, 5);
 		}
-		nJjhmCLnrwIrzDMVJh(e) {
+		KrjuwItqiWAahpojyb(e) {
 			this.dataWatcher.updateObject(10, e),
-				this.dataWatcher.SZLvlrvqjkZoDoIJ(10);
+				this.dataWatcher.nRHEZZXqmWjATRNs(10);
 		}
 		canTriggerWalking() {
 			return !1;
 		}
-		jyLKEbFWhSharX(e) {
+		rYDWkuFoSyrktd(e) {
 			this.delayBeforeCanPickup = e;
 		}
-		ckiADalhsfKLKtbJtdhmq() {
+		jNQLowLelMniMneKRxexI() {
 			this.delayBeforeCanPickup = 10;
 		}
 		onCollideWithPlayer(e) {
@@ -17919,7 +17919,7 @@ var Eie = class {
 			this.world.handleEvent(n),
 				!n.cancelled &&
 					e.inventory.addItemStackToInventory(t) &&
-					(e.fnkysGmZjbQZ(this, t.stackSize),
+					(e.LECfGxrZzpxv(this, t.stackSize),
 					this.world.playSoundAtEntity(
 						e,
 						`random.pop`,
@@ -17933,7 +17933,7 @@ var Eie = class {
 				this.delayBeforeCanPickup > 0 && this.delayBeforeCanPickup--,
 				this.prevPos.set(this.pos.x, this.pos.y, this.pos.z),
 				(this.motion.y -= 0.04),
-				(this.noPhysics = this.nczYfjlmYfuSJJv(
+				(this.noPhysics = this.EvYarNNvVTTOMWV(
 					this.pos.x,
 					(this.getEntityBoundingBox().min.y +
 						this.getEntityBoundingBox().max.y) /
@@ -17950,7 +17950,7 @@ var Eie = class {
 						.getBlock()
 						.getMaterial(),
 					L.lava,
-					this.world.isClient || this.uxarDimZQUlGrnCMMiThdymPA());
+					this.world.isClient || this.lXakVoapaplxdlNoezFINXOgT());
 			let e = 0.98;
 			this.onGround &&
 				(e =
@@ -17968,20 +17968,20 @@ var Eie = class {
 				(this.motion.z *= e),
 				this.onGround && (this.motion.y *= -0.5),
 				this.age != -32768 && ++this.age,
-				this.wIJXaeUtnSkUmJlmRxJ(),
+				this.gpfsOXUiWYjuVnBnsNd(),
 				this.world.isServer && this.age > jie && this.setDead();
 		}
-		rcWGeLjWbLL() {
+		giBAyaXwWUj() {
 			return this.world.getBlock(F.fromVector(this.pos)).blocksMovement();
 		}
-		uxarDimZQUlGrnCMMiThdymPA() {
+		lXakVoapaplxdlNoezFINXOgT() {
 			for (let t of this.world.getEntitiesWithinAABB(
 				null,
 				this.getEntityBoundingBox().clone().expandByScalar(0.5),
 			))
-				t instanceof e && this.SgWDjOzZvLxA(t);
+				t instanceof e && this.tlnZwqJmzUMi(t);
 		}
-		SgWDjOzZvLxA(e) {
+		tlnZwqJmzUMi(e) {
 			if (e == this) return !1;
 			if (e.isEntityAlive() && this.isEntityAlive()) {
 				let t = this.getEntityItem(),
@@ -17998,7 +17998,7 @@ var Eie = class {
 						(n.getItem().getHasSubtypes() && n.getMetadata() != t.getMetadata())
 						? !1
 						: n.stackSize < t.stackSize
-							? e.SgWDjOzZvLxA(this)
+							? e.tlnZwqJmzUMi(this)
 							: n.stackSize + t.stackSize > n.getMaxStackSize()
 								? !1
 								: ((n.stackSize += t.stackSize),
@@ -18007,7 +18007,7 @@ var Eie = class {
 										this.delayBeforeCanPickup,
 									)),
 									(e.age = Math.min(e.age, this.age)),
-									e.nJjhmCLnrwIrzDMVJh(n),
+									e.KrjuwItqiWAahpojyb(n),
 									this.setDead(),
 									!0)
 					: !1;
@@ -18016,23 +18016,23 @@ var Eie = class {
 		toJSON() {
 			return { ...super.toJSON(), type: `$item`, item: this.getEntityItem() };
 		}
-		owIyWMefpyMIEnRQmZyetkGhVkr() {
+		GRmBsoybUXVucWMfxqpbYDvwvrB() {
 			this.age = 4800;
 		}
-		wIJXaeUtnSkUmJlmRxJ() {
+		gpfsOXUiWYjuVnBnsNd() {
 			return (
 				this.world.handleMaterialAcceleration(
 					this.getEntityBoundingBox(),
 					L.water,
 					this,
 				)
-					? (this.inWater || this.VdamAGsZkjm(), (this.inWater = !0))
+					? (this.inWater || this.SUxQAQnditj(), (this.inWater = !0))
 					: (this.inWater = !1),
 				this.inWater
 			);
 		}
 		getEntityItem() {
-			return this.getDataWatcher().kUPWOsQFGVbCiGdNbzvBLfNyQtC(10) ?? new Vp();
+			return this.getDataWatcher().vYIXnwZVBrrXVXqxHGvxcifPwJG(10) ?? new Vp();
 		}
 		writeEntityToNBT(e) {
 			if (
@@ -18050,7 +18050,7 @@ var Eie = class {
 				(this.age = e.Age),
 				e.PickupDelay && (this.delayBeforeCanPickup = e.PickupDelay);
 			let t = e.Item;
-			this.nJjhmCLnrwIrzDMVJh(Vp.readFromNBT(t)),
+			this.KrjuwItqiWAahpojyb(Vp.readFromNBT(t)),
 				this.getEntityItem() === null && this.setDead();
 		}
 		attackEntityFrom(e, t) {
@@ -18231,8 +18231,8 @@ var Nie = class e {
 						n = [e[2], 16 - t[1], t[2], 16 - e[1]];
 						break;
 				}
-			(this.u = new cr(n[0], n[2]).divideScalar(16)),
-				(this.v = new cr(1, 1).sub(new cr(n[1], n[3]).divideScalar(16)));
+			(this.u = new In(n[0], n[2]).divideScalar(16)),
+				(this.v = new In(1, 1).sub(new In(n[1], n[3]).divideScalar(16)));
 		}
 		rotateGeometry(e, t = 0, n, r) {
 			let i = e.map(([e, t, r]) => [e, t, r][n]),
@@ -18768,8 +18768,8 @@ var zie = class {
 			return n < 0
 				? 0
 				: e.canHarvestBlock(this)
-					? e.iQKIVcSuWQpbdYnAjzyD(this) / n / 30
-					: e.iQKIVcSuWQpbdYnAjzyD(this) / n / 100;
+					? e.eJGlWnsqPDdFnfoMSjNI(this) / n / 30
+					: e.eJGlWnsqPDdFnfoMSjNI(this) / n / 100;
 		}
 		getItemDropped(e, t) {
 			return z.getItemByBlock(this);
@@ -18807,14 +18807,14 @@ var zie = class {
 			return null;
 		}
 		setBlockBounds(e, t, n, r, i, a) {
-			this.bbox = new ir(new D(e, t, n), new D(r, i, a));
+			this.bbox = new Cn(new D(e, t, n), new D(r, i, a));
 		}
 		getBoundingBox(e, t, n) {
 			return this.bbox;
 		}
 		setBlockBoundsBasedOnState(e, t) {}
 		getSelectedBoundingBox(e, t) {
-			return new ir(
+			return new Cn(
 				new D(
 					t.x + this.bbox.min.x,
 					t.y + this.bbox.min.y,
@@ -18832,7 +18832,7 @@ var zie = class {
 			o != null && r.intersectsBox(o) && i.push(o);
 		}
 		getCollisionBoundingBox(e, t, n) {
-			return new ir(
+			return new Cn(
 				new D(
 					t.x + this.bbox.min.x,
 					t.y + this.bbox.min.y,
@@ -19025,7 +19025,7 @@ var zie = class {
 					o = Math.random() * r + (1 - r) * 0.5,
 					s = new Wd(e, n);
 				s.setPosition(t.x + i, t.y + a, t.z + o),
-					s.ckiADalhsfKLKtbJtdhmq(),
+					s.jNQLowLelMniMneKRxexI(),
 					e.spawnEntityInWorld(s);
 			}
 		}
@@ -19092,7 +19092,7 @@ var zie = class {
 		getInventoryModel() {
 			return new qd(this.name);
 		}
-		hfqzpOfhrrzxervxtbBHhC(e) {
+		plYGOMsRLGCzQaqjjBvKfu(e) {
 			return this.resistance / 5;
 		}
 		canDropFromExplosion(e) {
@@ -20258,11 +20258,11 @@ var cf = class e extends ef {
 			return n.getProp(`open`)
 				? null
 				: n.getProp(`facing`).getAxis() == N.Z
-					? new ir(
+					? new Cn(
 							new D(t.x, t.y, t.z + 0.375),
 							new D(t.x + 1, t.y + 1.5, t.z + 0.625),
 						)
-					: new ir(
+					: new Cn(
 							new D(t.x + 0.375, t.y, t.z),
 							new D(t.x + 0.625, t.y + 1.5, t.z + 1),
 						);
@@ -20277,7 +20277,7 @@ var cf = class e extends ef {
 		}
 		getStateForPlacement(e, t, n, r, i, a, o, s) {
 			return this.defaultState
-				.withState(`facing`, s.XGtxuclsfxBtDiwTGjZ())
+				.withState(`facing`, s.tkcSfVdpVIKNwjkCVWb())
 				.withState(`open`, !1)
 				.withState(`powered`, !1)
 				.withState(`in_wall`, !1);
@@ -20759,7 +20759,7 @@ var cf = class e extends ef {
 					if (this.avoidsWater && a === -1) return null;
 					if (a !== 1) break;
 					if (
-						++i >= e.UkXQWaNTYzKGhfHj() ||
+						++i >= e.LXnvnkHFnwuxjhPt() ||
 						(n--, (o = this.openPoint(t, n, r)), n <= 0)
 					)
 						return null;
@@ -21012,7 +21012,7 @@ var Uie = class {
 				this.path.addPoint(n);
 			let a = n,
 				o = 0,
-				s = Math.min(t.BRoIrIhTCsobvG(), e.MAX_NODE_EXPANSIONS);
+				s = Math.min(t.dszAKkZMowaSwt(), e.MAX_NODE_EXPANSIONS);
 			for (; !this.path.isPathEmpty() && (++o, !(o > s)); ) {
 				let e = this.path.dequeue();
 				if (e.equals(r)) return this.createEntityPath(n, r);
@@ -21114,10 +21114,10 @@ var Uie = class {
 				(this.heightRequirement = 1),
 				(this.theEntity = e),
 				(this.worldObj = t),
-				(this.pathSearchRange = e.BRoIrIhTCsobvG()),
+				(this.pathSearchRange = e.dszAKkZMowaSwt()),
 				(this.pathFinder = this.getPathFinder());
 		}
-		ckyjmnns(e) {
+		hJMAeFLs(e) {
 			this.speed = e;
 		}
 		getPathSearchRange() {
@@ -21213,7 +21213,7 @@ var Uie = class {
 			if (this.noPath()) return;
 			let e = this.currentPath.getPosition(this.theEntity);
 			if (!e) return;
-			let t = new ir(new D(e.x, e.y, e.z), new D(e.x, e.y, e.z)).expandByScalar(
+			let t = new Cn(new D(e.x, e.y, e.z), new D(e.x, e.y, e.z)).expandByScalar(
 					0.5,
 				),
 				n = this.worldObj.getCollidingBoundingBoxes(
@@ -21223,7 +21223,7 @@ var Uie = class {
 				r = -1;
 			t = t.translate(new D(0, 1, 0));
 			for (let e of n) r = fd(e, t, r);
-			this.theEntity.JCSEGCSdOeaAD().BEctjWPED(e.x, e.y + r, e.z, this.speed);
+			this.theEntity.sRYPUBoWLjBjn().XkMStaOoo(e.x, e.y + r, e.z, this.speed);
 		}
 		pathFollow() {
 			let e = this.getEntityPosition(),
@@ -21407,7 +21407,7 @@ var Uie = class {
 			} else return !1;
 		}
 		isPositionClear(e, t, n, r, i, a, o, s, c) {
-			for (let l of F.BjvEvCbvsef(
+			for (let l of F.SutyNUnmvwM(
 				new F(e, t, n),
 				new F(e + r - 1, t + i - 1, n + a - 1),
 			)) {
@@ -21487,51 +21487,51 @@ var Uie = class {
 		addTask(e, t) {
 			this.taskEntries.set(this.taskId, new Jie(e, t, this.taskId++));
 		}
-		CzgpvNuSfK(e) {
+		MWLJsWEPLF(e) {
 			for (let t of this.taskEntries.values())
 				t.action === e &&
 					(this.executingTaskEntries.has(t.id) &&
 						(t.action.resetTask(), this.executingTaskEntries.delete(t.id)),
 					this.taskEntries.delete(t.id));
 		}
-		IkhloEbKOQvcM() {
+		GegtOWfjtlJSY() {
 			if (this.tickCount++ % this.tickRate === 0)
 				for (let e of this.taskEntries.values())
 					this.executingTaskEntries.has(e.id)
-						? (!this.BSoBei(e) || !this.LQSHYQzxsxV(e)) &&
+						? (!this.xafaWI(e) || !this.bUVbLXvVygD(e)) &&
 							(e.action.resetTask(), this.executingTaskEntries.delete(e.id))
-						: this.BSoBei(e) &&
+						: this.xafaWI(e) &&
 							e.action.shouldExecute() &&
 							(e.action.startExecuting(),
 							this.executingTaskEntries.set(e.id, e));
 			else
 				for (let e of this.executingTaskEntries.values())
-					this.LQSHYQzxsxV(e) ||
+					this.bUVbLXvVygD(e) ||
 						(e.action.resetTask(), this.executingTaskEntries.delete(e.id));
 			for (let e of this.executingTaskEntries.values()) e.action.updateTask();
 		}
-		LQSHYQzxsxV(e) {
+		bUVbLXvVygD(e) {
 			return e.action.continueExecuting();
 		}
-		BSoBei(e) {
+		xafaWI(e) {
 			for (let t of this.taskEntries.values())
 				if (t !== e) {
 					if (e.priority >= t.priority) {
 						if (
-							!this.MlQrULjdJITWbUDMWH(e, t) &&
+							!this.bgUctgBYxwaMnqekKV(e, t) &&
 							this.executingTaskEntries.has(t.id)
 						)
 							return !1;
 					} else if (
-						!t.action.pWZgYDdJulNiPMJ() &&
+						!t.action.qyHvdYuworQTuSB() &&
 						this.executingTaskEntries.has(t.id)
 					)
 						return !1;
 				}
 			return !0;
 		}
-		MlQrULjdJITWbUDMWH(e, t) {
-			return (e.action.TVKFQPHWdeBt() & t.action.TVKFQPHWdeBt()) === 0;
+		bgUctgBYxwaMnqekKV(e, t) {
+			return (e.action.zWGrrMxsVRNc() & t.action.zWGrrMxsVRNc()) === 0;
 		}
 	};
 function bf(e) {
@@ -21554,7 +21554,7 @@ var Yie = class {
 				(this.deltaLookPitch = (n * Math.PI) / 180),
 				(this.isLooking = !0);
 		}
-		XwaJXnWDmagtdVl(e, t, n, r, i) {
+		LugaEOHfsPCOvcZ(e, t, n, r, i) {
 			(this.posX = e),
 				(this.posY = t),
 				(this.posZ = n),
@@ -21562,7 +21562,7 @@ var Yie = class {
 				(this.deltaLookPitch = (i * Math.PI) / 180),
 				(this.isLooking = !0);
 		}
-		bskwhxKEmXBb() {
+		QtTJYILmKNMe() {
 			if (((this.entity.pitch = 0), this.isLooking)) {
 				this.isLooking = !1;
 				let e = this.posX - this.entity.pos.x,
@@ -21571,19 +21571,19 @@ var Yie = class {
 					r = Math.sqrt(e * e + n * n),
 					i = Math.atan2(e, n),
 					a = Math.atan2(t, r);
-				(this.entity.pitch = this.GzJgNbTNwCgtuu(
+				(this.entity.pitch = this.vRVDZhDCJKMQRs(
 					this.entity.pitch,
 					a,
 					this.deltaLookPitch,
 				)),
-					(this.entity.yaw = this.GzJgNbTNwCgtuu(
+					(this.entity.yaw = this.vRVDZhDCJKMQRs(
 						this.entity.yaw,
 						i,
 						this.deltaLookYaw,
 					));
 			}
 		}
-		GzJgNbTNwCgtuu(e, t, n) {
+		vRVDZhDCJKMQRs(e, t, n) {
 			e > Math.PI && (e -= 2 * Math.PI);
 			let r = t - e;
 			r > Math.PI ? (r -= 2 * Math.PI) : r < -Math.PI && (r += 2 * Math.PI),
@@ -21593,16 +21593,16 @@ var Yie = class {
 			for (; i < 0; ) i += 2 * Math.PI;
 			return (i %= 2 * Math.PI), i;
 		}
-		uWLXXsMILQLh() {
+		AoyeJXRlDOyC() {
 			return this.isLooking;
 		}
-		PFCuPuSopPs() {
+		PSnvoXZtDSe() {
 			return this.posX;
 		}
-		rKIxycrIMak() {
+		qvmoQqadLUi() {
 			return this.posY;
 		}
-		VwgxHRkZkeQ() {
+		qkjsIemMyHU() {
 			return this.posZ;
 		}
 	},
@@ -21610,12 +21610,12 @@ var Yie = class {
 		constructor(e) {
 			this.theLiving = e;
 		}
-		DobzoqREHfVexBwMet() {
+		TNjKPTsqZHXPirZWId() {
 			let e = this.theLiving.pos.x - this.theLiving.prevPos.x,
 				t = this.theLiving.pos.z - this.theLiving.prevPos.z;
 			if (e * e + t * t > 25e-8)
 				(this.theLiving.renderYawOffset = this.theLiving.yaw),
-					(this.theLiving.yawHead = this.CgjMLyUTPlEJHWkrGbfpZ(
+					(this.theLiving.yawHead = this.yHIYtvPfNkuUdAlvCmqvm(
 						this.theLiving.renderYawOffset,
 						this.theLiving.yawHead,
 						bf(75),
@@ -21632,14 +21632,14 @@ var Yie = class {
 							(e =
 								Math.max(1 - (this.rotationTickCounter - 10) / 10, 0) *
 								bf(75))),
-					(this.theLiving.renderYawOffset = this.CgjMLyUTPlEJHWkrGbfpZ(
+					(this.theLiving.renderYawOffset = this.yHIYtvPfNkuUdAlvCmqvm(
 						this.theLiving.yawHead,
 						this.theLiving.renderYawOffset,
 						e,
 					));
 			}
 		}
-		CgjMLyUTPlEJHWkrGbfpZ(e, t, n) {
+		yHIYtvPfNkuUdAlvCmqvm(e, t, n) {
 			let r = (e - t) % Math.PI;
 			return r < -n && (r = -n), r >= n && (r = n), e - r;
 		}
@@ -21648,11 +21648,11 @@ var Yie = class {
 		constructor(e) {
 			this.entity = e;
 		}
-		fdrVCJqYIR() {
+		GLjxwhavhK() {
 			this.isJumping = !0;
 		}
-		MLtgEx() {
-			this.entity.fdrVCJqYIR(this.isJumping), (this.isJumping = !1);
+		lenndX() {
+			this.entity.GLjxwhavhK(this.isJumping), (this.isJumping = !1);
 		}
 	},
 	xf = class {
@@ -21662,21 +21662,21 @@ var Yie = class {
 				(this.posY = e.pos.y),
 				(this.posZ = e.pos.z);
 		}
-		SWmQqxNoEi() {
+		vgFxoCtpYm() {
 			return this.update;
 		}
-		vOMlmdmm() {
+		GWZbSSuT() {
 			return this.speed;
 		}
-		BEctjWPED(e, t, n, r) {
+		XkMStaOoo(e, t, n, r) {
 			(this.posX = e),
 				(this.posY = t),
 				(this.posZ = n),
 				(this.speed = r),
 				(this.update = !0);
 		}
-		qwLKRtkeMxrgSSKGda() {
-			if ((this.entity.pwsGKmKnbtyzEO(0), this.update)) {
+		oDflxfThyKNPWJbxuh() {
+			if ((this.entity.eAZiIRVfJQZtDy(0), this.update)) {
 				this.update = !1;
 				let e = Math.floor(this.entity.getEntityBoundingBox().min.y + 0.5),
 					t = this.posX - this.entity.pos.x,
@@ -21684,20 +21684,20 @@ var Yie = class {
 					r = this.posY - e;
 				if (t * t + r * r + n * n >= 25e-8) {
 					let e = Math.atan2(t, n);
-					(this.entity.yaw = this.wYIWYxBNpd(this.entity.yaw, e, Math.PI / 6)),
-						this.entity.XrvKmJUdtOsjzO(
+					(this.entity.yaw = this.YOHbKNPBrQ(this.entity.yaw, e, Math.PI / 6)),
+						this.entity.NPBfSqoqdLdEFc(
 							this.speed *
 								this.entity
-									.getEntityAttribute(Au.sLYAdepgIImgX)
+									.getEntityAttribute(Au.NLOgYLKKWRvav)
 									.getAttributeValue(),
 						),
 						r > 0 &&
 							t * t + n * n < 1 &&
-							this.entity.UYljoYdMqaNoA().fdrVCJqYIR();
+							this.entity.rGPqajsMWMpQo().GLjxwhavhK();
 				}
 			}
 		}
-		wYIWYxBNpd(e, t, n) {
+		YOHbKNPBrQ(e, t, n) {
 			e > Math.PI && (e -= 2 * Math.PI);
 			let r = t - e;
 			r > Math.PI ? (r -= 2 * Math.PI) : r < -Math.PI && (r += 2 * Math.PI),
@@ -21724,14 +21724,14 @@ var Yie = class {
 				(this.unseenEntities = new Set()),
 				(this.entityObj = e);
 		}
-		YjnCcjREcDKyEHban() {
+		fkdPHJVKWIrmvjcSd() {
 			this.seenEntities.clear(), this.unseenEntities.clear();
 		}
-		pNAZgf(e) {
+		WpgaIx(e) {
 			if (this.seenEntities.has(e.id)) return !0;
 			if (this.unseenEntities.has(e.id)) return !1;
 			{
-				let t = this.entityObj.FqEWpSDQfcpWWBq(e);
+				let t = this.entityObj.ahHTelAIuQfnkpT(e);
 				return (
 					t ? this.seenEntities.add(e.id) : this.unseenEntities.add(e.id), t
 				);
@@ -21757,15 +21757,15 @@ var Yie = class {
 				(this.moveHelper = new xf(this)),
 				(this.jumpHelper = new Zie(this)),
 				(this.bodyHelper = new Xie(this)),
-				(this.navigator = this.nkgyQPKFljjmyzo(e)),
+				(this.navigator = this.fvSglKnxdBMBboF(e)),
 				(this.senses = new Qie(this));
 			for (let e = 0; e < this.equipmentDropChances.length; e++)
 				this.equipmentDropChances[e] = 0.085;
 		}
-		BRoIrIhTCsobvG() {
+		dszAKkZMowaSwt() {
 			return this.followRange;
 		}
-		VgHKFnimtVZGnz(e) {
+		wjKElJNOprFwKx(e) {
 			this.followRange = e;
 		}
 		applyEntityAttributes() {
@@ -21777,22 +21777,22 @@ var Yie = class {
 		applyBaseAttributes(e) {
 			for (let [t, n] of e) this.getEntityAttribute(t)?.setBaseValue(n);
 		}
-		nkgyQPKFljjmyzo(e) {
+		fvSglKnxdBMBboF(e) {
 			return new _f(this, e);
 		}
 		getLookHelper() {
 			return this.lookHelper;
 		}
-		JCSEGCSdOeaAD() {
+		sRYPUBoWLjBjn() {
 			return this.moveHelper;
 		}
-		UYljoYdMqaNoA() {
+		rGPqajsMWMpQo() {
 			return this.jumpHelper;
 		}
 		getNavigator() {
 			return this.navigator;
 		}
-		qUKVdIGCMGmzfDw() {
+		RctXfXLMPzkcETP() {
 			return this.senses;
 		}
 		getAttackTarget() {
@@ -21801,27 +21801,27 @@ var Yie = class {
 		setAttackTarget(e) {
 			this.attackTarget = e;
 		}
-		gPComoEzoSgFgf(e) {
+		AXlDqkLlHmLAAx(e) {
 			return !0;
 		}
-		BgJsSfRzMuqyK() {}
+		IrwXUfcKRLKsM() {}
 		entityInit() {
 			super.entityInit(), this.dataWatcher.addObject(15, 0);
 		}
-		pPkcjCGdSzIvxGY() {
+		IaLnaegczAAyoef() {
 			return 80;
 		}
-		sRzmrIcsixBiPwD() {
-			let e = this.PAquvlqVLZvZTe();
-			e && this.playSound(e, this.ZrtnMWShbTqWBt(), this.NRWynydclFEbm());
+		YRudAtbLGVVKptn() {
+			let e = this.nzoIAeHNdzKmjS();
+			e && this.playSound(e, this.AGlduxQEquCMBA(), this.OASmqcWnURSdi());
 		}
-		FwTbPfqjHOzMte() {
-			super.FwTbPfqjHOzMte(),
+		DKamtSrQzCEzOy() {
+			super.DKamtSrQzCEzOy(),
 				this.isEntityAlive() &&
 					Math.random() * 1e3 < this.livingSoundTime++ &&
-					!this.FVzLkJUrDUWr() &&
-					((this.livingSoundTime = -this.pPkcjCGdSzIvxGY()),
-					this.sRzmrIcsixBiPwD());
+					!this.gehUKOapsHEK() &&
+					((this.livingSoundTime = -this.IaLnaegczAAyoef()),
+					this.YRudAtbLGVVKptn());
 		}
 		getExperiencePoints(e) {
 			if (this.experienceValue > 0) {
@@ -21834,7 +21834,7 @@ var Yie = class {
 				return e;
 			} else return this.experienceValue;
 		}
-		MXRGzCfNwqDfxPAvlYSyCH() {
+		lczQuQDthTSJgZWSCDAADV() {
 			if (this.world.isClient)
 				for (let e = 0; e < 20; e++) {
 					let e = Math.random() * 0.02,
@@ -21853,26 +21853,26 @@ var Yie = class {
 			else this.world.setEntityState(this, 20);
 		}
 		handleStatusUpdate(e) {
-			e === 20 ? this.MXRGzCfNwqDfxPAvlYSyCH() : super.handleStatusUpdate(e);
+			e === 20 ? this.lczQuQDthTSJgZWSCDAADV() : super.handleStatusUpdate(e);
 		}
 		update() {
 			super.update();
 		}
-		QJqOzKAvkJMom(e, t) {
-			return this.bodyHelper.DobzoqREHfVexBwMet(), t;
+		eXybLFMouysFG(e, t) {
+			return this.bodyHelper.TNjKPTsqZHXPirZWId(), t;
 		}
-		PAquvlqVLZvZTe() {
+		nzoIAeHNdzKmjS() {
 			return this.getSoundInfo().living ?? null;
 		}
-		jwbCSeaDpyl() {
+		iZldsKnzaex() {
 			return this.getSoundInfo().drop ?? null;
 		}
-		bkIKkUIkyGbXX(e, t) {
+		ForJxEfOlkcqG(e, t) {
 			let n = this.getSoundInfo().step;
 			n && this.playSound(n, 0.15, 1);
 		}
 		dropFewItems(e, t) {
-			let n = this.jwbCSeaDpyl();
+			let n = this.iZldsKnzaex();
 			if (n != null) {
 				let e = Math.floor(Math.random() * 3);
 				t > 0 && (e += Math.floor(Math.random() * (t + 1)));
@@ -21895,16 +21895,16 @@ var Yie = class {
 					this.equipment[e] = Vp.fromNBT(t[e]);
 			}
 		}
-		pwsGKmKnbtyzEO(e) {
-			this.rutqrVROSKR = e;
+		eAZiIRVfJQZtDy(e) {
+			this.unAZjpZwBxI = e;
 		}
-		XrvKmJUdtOsjzO(e) {
-			super.XrvKmJUdtOsjzO(e), this.pwsGKmKnbtyzEO(e);
+		NPBfSqoqdLdEFc(e) {
+			super.NPBfSqoqdLdEFc(e), this.eAZiIRVfJQZtDy(e);
 		}
 		onLivingUpdate() {
 			if (
 				(super.onLivingUpdate(),
-				this.world.isServer && this.FVzLkJUrDUWr() && !this.dead)
+				this.world.isServer && this.gehUKOapsHEK() && !this.dead)
 			) {
 				let e = this.world.getClosestPlayerToEntity(this, 16);
 				e &&
@@ -21913,19 +21913,19 @@ var Yie = class {
 						30,
 						this.getVerticalFaceSpeed(),
 					),
-					this.lookHelper.bskwhxKEmXBb());
+					this.lookHelper.QtTJYILmKNMe());
 			}
 		}
-		YtwYsrfdnOVYn(e) {
+		dxVcFJokmsDXN(e) {
 			return !0;
 		}
-		nwaEtQiMyU() {
+		zCjQPsrbvW() {
 			return !0;
 		}
-		EJyEiitesdjH() {
+		cdOFDojlZcTZ() {
 			return 4096;
 		}
-		vkhIJofwhmpHJ() {
+		eQXyYAHKkEEKj() {
 			if (this.persistenceRequired) this.entityAge = 0;
 			else {
 				let e = this.world.getClosestPlayerToEntity(this, -1);
@@ -21934,33 +21934,33 @@ var Yie = class {
 						n = e.pos.y - this.pos.y,
 						r = e.pos.z - this.pos.z,
 						i = t * t + n * n + r * r;
-					this.nwaEtQiMyU() && i > this.EJyEiitesdjH() && this.setDead(),
-						this.entityAge > 600 && rf(8) == 0 && i > 1024 && this.nwaEtQiMyU()
+					this.zCjQPsrbvW() && i > this.cdOFDojlZcTZ() && this.setDead(),
+						this.entityAge > 600 && rf(8) == 0 && i > 1024 && this.zCjQPsrbvW()
 							? this.setDead()
 							: i < 1024 && (this.entityAge = 0);
 				}
 			}
 		}
-		abPWDhZMWIEMEfEGqpXHnSy() {
+		prqabDBVZwGqXEhNosyOlPX() {
 			++this.entityAge,
 				(this.ticksExisted + this.id) % e.DESPAWN_CHECK_INTERVAL === 0 &&
-					this.vkhIJofwhmpHJ(),
+					this.eQXyYAHKkEEKj(),
 				this.world.shouldTickEntityAI(this) &&
 					((this.ticksExisted + this.id) % e.SENSE_CACHE_REFRESH_INTERVAL ===
-						0 && this.senses.YjnCcjREcDKyEHban(),
-					this.targetTasks.IkhloEbKOQvcM(),
-					this.tasks.IkhloEbKOQvcM(),
+						0 && this.senses.fkdPHJVKWIrmvjcSd(),
+					this.targetTasks.GegtOWfjtlJSY(),
+					this.tasks.GegtOWfjtlJSY(),
 					this.navigator.onUpdateNavigation(),
-					this.qhINriaJuVcty(),
-					this.moveHelper.qwLKRtkeMxrgSSKGda(),
-					this.lookHelper.bskwhxKEmXBb(),
-					this.jumpHelper.MLtgEx());
+					this.DJTXJcqQUoDAJ(),
+					this.moveHelper.oDflxfThyKNPWJbxuh(),
+					this.lookHelper.QtTJYILmKNMe(),
+					this.jumpHelper.lenndX());
 		}
-		qhINriaJuVcty() {}
+		DJTXJcqQUoDAJ() {}
 		getVerticalFaceSpeed() {
 			return 40;
 		}
-		JlYHPznHkp(e, t, n) {
+		jlaeNqwEzy(e, t, n) {
 			let r = e.pos.x - this.pos.x,
 				i = e.pos.z - this.pos.z,
 				a;
@@ -21975,17 +21975,17 @@ var Yie = class {
 			let o = Math.sqrt(r * r + i * i),
 				s = (Math.atan2(i, r) * 180) / Math.PI - 90,
 				c = -((Math.atan2(a, o) * 180) / Math.PI);
-			(this.pitch = this.GzJgNbTNwCgtuu(this.pitch, c, n)),
-				(this.yaw = this.GzJgNbTNwCgtuu(this.yaw, s, t));
+			(this.pitch = this.vRVDZhDCJKMQRs(this.pitch, c, n)),
+				(this.yaw = this.vRVDZhDCJKMQRs(this.yaw, s, t));
 		}
-		GzJgNbTNwCgtuu(e, t, n) {
+		vRVDZhDCJKMQRs(e, t, n) {
 			let r = tie(t - e);
 			return r > n && (r = n), r < -n && (r = -n), e + r;
 		}
 		getCanSpawnHere() {
 			return !0;
 		}
-		pycgjKEMFwtpFG() {
+		mpNAKvnbISjsEf() {
 			return (
 				this.world.checkNoEntityCollision(this.getEntityBoundingBox(), this) &&
 				this.world.getCollidingBoundingBoxes(this, this.getEntityBoundingBox())
@@ -21993,13 +21993,13 @@ var Yie = class {
 				!this.world.isAnyLiquid(this.getEntityBoundingBox())
 			);
 		}
-		LYjBKabBUKUHlzCkWfTIB() {
+		piYPvfltJxHdXsJAUdgJy() {
 			return 1;
 		}
-		qpdKwxjRCevtroFgeNma() {
+		PVOaWLTLotWyKgcBEqGg() {
 			return 4;
 		}
-		UkXQWaNTYzKGhfHj() {
+		LXnvnkHFnwuxjhPt() {
 			if (this.getAttackTarget() == null) return 3;
 			{
 				let e = this.getHealth() - this.getMaxHealth() * 0.33;
@@ -22016,7 +22016,7 @@ var Yie = class {
 		getEquipmentInSlot(e) {
 			return this.equipment[e];
 		}
-		RCuEnxXeRkxmEFX(e) {
+		PWjTPGMErvDGhJh(e) {
 			return this.equipment[e + 1];
 		}
 		setCurrentItemOrArmor(e, t) {
@@ -22025,9 +22025,9 @@ var Yie = class {
 		getInventory() {
 			return this.equipment;
 		}
-		GpXPMpzCglIbzGOoaVMxwcDjmXljh(e) {}
-		iiNORpeEOBUHOVYRZfaryBMgQruL(e, t) {}
-		pRPTNBzhjUhlZ(e, t) {
+		pCqqCoVFmNKADwWANkbwxVMogGiba(e) {}
+		tlwNFcHrhOjreDhqekZGoBGlncmx(e, t) {}
+		QdHdaFpKnCaKT(e, t) {
 			for (let n = 0; n < this.getInventory().length; ++n) {
 				let r = this.getEquipmentInSlot(n),
 					i = this.equipmentDropChances[n] > 1;
@@ -22045,10 +22045,10 @@ var Yie = class {
 				}
 			}
 		}
-		static HXXRNUtEWfOxpFZd(e) {
+		static gbWOoNHjcnXorekG(e) {
 			return 0;
 		}
-		static nmdQEPXJQTbHeXxpEuu(e, t) {
+		static LiHnIMxzbycTDMlGYHE(e, t) {
 			switch (e) {
 				case 4:
 					if (t == 0) return z.leather_helmet;
@@ -22085,19 +22085,19 @@ var Yie = class {
 		onInitialSpawn(e, t) {
 			return t;
 		}
-		PXakOUavrjuS() {
+		trylCClKDHjL() {
 			return !1;
 		}
-		OqXUjZFTEJSYjyGvN() {
+		FfyFXvIKJYzkLknwN() {
 			this.persistenceRequired = !0;
 		}
-		kHKdLKvnxPfcccXFafcmBL(e, t) {
+		YlJFZeuAHNTFtYorRhkUIK(e, t) {
 			this.equipmentDropChances[e] = t;
 		}
-		LbEgDwCpDZrrbeQe(e) {
+		pFgzWWUWbfAMBaDe(e) {
 			this.canPickUpLoot = e;
 		}
-		SvfFSPYiaBEsNsEQFZM() {
+		KOYhgamwwYFHAqRVuxs() {
 			return this.persistenceRequired;
 		}
 		interactFirst(e) {
@@ -22110,29 +22110,29 @@ var Yie = class {
 		interact(e) {
 			return !1;
 		}
-		waMnLVYOkDmg(e, t) {}
-		RRZkdipuDgjPLrQXEiqmnw(t, n) {
+		hTuhnmgVwvOw(e, t) {}
+		LasIEuInCaQyvmKbYarvqL(t, n) {
 			let r;
 			if (t == 99) r = 0;
 			else if (((r = t - 100 + 1), r < 0 || r >= this.equipment.length))
 				return !1;
 			return n != null &&
-				e.HXXRNUtEWfOxpFZd(n) != r &&
+				e.gbWOoNHjcnXorekG(n) != r &&
 				(r != 4 || !(n.getItem() instanceof lf))
 				? !1
 				: (this.setCurrentItemOrArmor(r, n), !0);
 		}
-		CEgFKJCXwQDDn() {
-			return this.world.isServer && !this.FVzLkJUrDUWr();
+		JFPLnMIsjnmwp() {
+			return this.world.isServer && !this.gehUKOapsHEK();
 		}
-		sMjNgJF(e) {
+		IOPrUkk(e) {
 			this.dataWatcher.updateObject(15, +!!e);
 		}
-		FVzLkJUrDUWr() {
+		gehUKOapsHEK() {
 			return this.dataWatcher.getWatchableObjectByte(15) != 0;
 		}
 		isEntityInvulnerable(e) {
-			return this.FVzLkJUrDUWr() &&
+			return this.gehUKOapsHEK() &&
 				!e.equals(Fp.OUT_OF_WORLD) &&
 				!e.isCreativePlayer()
 				? !0
@@ -22183,7 +22183,7 @@ var Yie = class {
 					(this.motion.y *= -0.5)),
 				this.fuse-- <= 0
 					? (this.setDead(), this.world.isServer && this.explode())
-					: (this.wIJXaeUtnSkUmJlmRxJ(),
+					: (this.gpfsOXUiWYjuVnBnsNd(),
 						this.world.spawnParticle(
 							_u.SMOKE_NORMAL,
 							this.pos.x,
@@ -22208,7 +22208,7 @@ var Yie = class {
 						!0,
 					);
 		}
-		qbnXvRhKxZQlKt() {
+		TpvhoiskdJrpCW() {
 			return this.tntPlacedBy;
 		}
 		getEyeHeight() {
@@ -22491,7 +22491,7 @@ function iae(e) {
 }
 var Vf = class extends wd {
 		entityInit() {}
-		ZpuEXfpZcDTGcfCGnYiRv(e) {
+		sWfiRuPFlyhTdLtesLnPc(e) {
 			let t = iae(this.getEntityBoundingBox()) * 4;
 			return isNaN(t) && (t = 4), (t *= 64), e < t * t;
 		}
@@ -22595,7 +22595,7 @@ var Vf = class extends wd {
 				);
 				(this.yaw = Math.atan2(this.motion.z, this.motion.x) + Math.PI / 2),
 					(this.pitch = Math.atan2(o, this.motion.y) - Math.PI / 2);
-				let s = this.iGYVGcMhrfkvXlY();
+				let s = this.lOriqJlDVkEfJZk();
 				if (this.inWater) {
 					for (let e = 0; e < 4; ++e) {
 						let e = 0.25;
@@ -22629,13 +22629,13 @@ var Vf = class extends wd {
 					this.setPosition(this.pos.x, this.pos.y, this.pos.z);
 			} else this.setDead();
 		}
-		iGYVGcMhrfkvXlY() {
+		lOriqJlDVkEfJZk() {
 			return 0.95;
 		}
 		canBeCollidedWith() {
 			return !0;
 		}
-		RNhdtWUEsoEmcDqEEgoLAg() {
+		erPcqThcvmPfsonuHkgSpB() {
 			return 1;
 		}
 		attackEntityFrom(e, t) {
@@ -22682,7 +22682,7 @@ function oae(e) {
 		: e instanceof Vf
 			? (e.shootingEntity ?? null)
 			: e instanceof Cf
-				? e.qbnXvRhKxZQlKt()
+				? e.TpvhoiskdJrpCW()
 				: e instanceof Fd
 					? e
 					: null;
@@ -22722,8 +22722,8 @@ var sae = class {
 								if (!n.getBlock().isAir()) {
 									let e =
 										this.exploder == null
-											? n.getBlock().hfqzpOfhrrzxervxtbBHhC(null)
-											: this.exploder.hfqzpOfhrrzxervxtbBHhC(
+											? n.getBlock().plYGOMsRLGCzQaqjjBvKfu(null)
+											: this.exploder.plYGOMsRLGCzQaqjjBvKfu(
 													this,
 													this.worldObj,
 													t,
@@ -22733,7 +22733,7 @@ var sae = class {
 								}
 								c > 0 &&
 									(this.exploder == null ||
-										this.exploder.IXqYMbKSNxyiSIf(
+										this.exploder.ffuMmyvQMwuwwWf(
 											this,
 											this.worldObj,
 											t,
@@ -22756,14 +22756,14 @@ var sae = class {
 				s = Math.floor(this.explosionZ + t + 1),
 				c = this.worldObj.getEntitiesWithinAABB(
 					null,
-					new ir(new D(n, i, o), new D(r, a, s)),
+					new Cn(new D(n, i, o), new D(r, a, s)),
 				),
 				l = new D(this.explosionX, this.explosionY, this.explosionZ);
 			for (let e = 0; e < c.length; ++e) {
 				let n = c[e];
-				if (!n.pgzCUgsQTPYOmShOGUux()) {
+				if (!n.EeawRILDKOyKcxIuoNkP()) {
 					let e =
-						n.IFksSNGpRVT(this.explosionX, this.explosionY, this.explosionZ) /
+						n.YzXcWVlUgLc(this.explosionX, this.explosionY, this.explosionZ) /
 						t;
 					if (e <= 1) {
 						let r = n.pos.x - this.explosionX,
@@ -23095,7 +23095,7 @@ var qf = { lowerXZ: 0.1, upperXZ: 0.9, lowerY: 0.4, upperY: 0.6 },
 			return this.getBlock(e).isAir();
 		}
 		areaPassesCheck(e, t, n) {
-			for (let r of F.BjvEvCbvsef(e, t)) if (!n(this.getBlock(r))) return !1;
+			for (let r of F.SutyNUnmvwM(e, t)) if (!n(this.getBlock(r))) return !1;
 			return !0;
 		}
 		setBlockState(e, t, n = 3) {
@@ -23260,7 +23260,7 @@ var qf = { lowerXZ: 0.1, upperXZ: 0.9, lowerY: 0.4, upperY: 0.6 },
 			this.scanScratchPos = new F(0, 0, 0);
 		}
 		static {
-			this.entityNearScratchBox = new ir(new D(), new D());
+			this.entityNearScratchBox = new Cn(new D(), new D());
 		}
 		getCollidingBoundingBoxes(t, n) {
 			let r = n,
@@ -23293,7 +23293,7 @@ var qf = { lowerXZ: 0.1, upperXZ: 0.9, lowerY: 0.4, upperY: 0.6 },
 									n.min.y <= d &&
 									n.max.z >= l &&
 									n.min.z <= f &&
-									i.push(new ir(new D(t, s, l), new D(u, d, f)));
+									i.push(new Cn(new D(t, s, l), new D(u, d, f)));
 								continue;
 							}
 							e.collisionScratchPos.setInt(r, o, a),
@@ -23714,7 +23714,7 @@ var qf = { lowerXZ: 0.1, upperXZ: 0.9, lowerY: 0.4, upperY: 0.6 },
 		countEntities(e) {
 			let t = 0;
 			for (let n of this.loadedEntityList)
-				(!(n instanceof Sf) || !n.SvfFSPYiaBEsNsEQFZM()) &&
+				(!(n instanceof Sf) || !n.KOYhgamwwYFHAqRVuxs()) &&
 					e == n.creatureClass &&
 					++t;
 			return t;
@@ -23822,7 +23822,7 @@ var qf = { lowerXZ: 0.1, upperXZ: 0.9, lowerY: 0.4, upperY: 0.6 },
 			) {
 				(e.prevPitch = e.pitch),
 					(e.prevYaw = e.yaw),
-					t && (++e.ticksExisted, e.isRiding() ? e.hLQosuvefMOH() : e.update());
+					t && (++e.ticksExisted, e.isRiding() ? e.cdmSdnUTngXb() : e.update());
 				let n = Math.floor(e.pos.x / 16),
 					r = Math.floor(e.pos.y / 16),
 					i = Math.floor(e.pos.z / 16);
@@ -23986,7 +23986,7 @@ var qf = { lowerXZ: 0.1, upperXZ: 0.9, lowerY: 0.4, upperY: 0.6 },
 						return r.sendMessage(`This bed is occupied`), !0;
 					(n = n.withState(`occupied`, !1)), e.setBlockState(t, n, 4);
 				}
-				let i = r.XnmdqmwH(t);
+				let i = r.QHKEYtlx(t);
 				return i == Mp.OK
 					? ((n = n.withState(`occupied`, !0)), e.setBlockState(t, n, 4), !0)
 					: (i == Mp.NOT_POSSIBLE_NOW
@@ -24393,11 +24393,11 @@ var ip = class {
 					if (
 						o.getItemStack() != null &&
 						(n == 0 &&
-							(i.nVYdgYHqJFtKBtWMT(o.getItemStack()), o.setItemStack(null)),
+							(i.DjJghDmLEsZMKplSF(o.getItemStack()), o.setItemStack(null)),
 						n == 1)
 					) {
 						let e = o.getItemStack();
-						i.nVYdgYHqJFtKBtWMT(e.splitStack(1)),
+						i.DjJghDmLEsZMKplSF(e.splitStack(1)),
 							o.getItemStack().stackSize == 0 && o.setItemStack(null);
 					}
 				} else if (r == 1) {
@@ -24476,7 +24476,7 @@ var ip = class {
 						r = t == null || (e.inventory === o && e.isItemValid(t)),
 						a = -1;
 					if (
-						(r || ((a = o.mmyaFjbluXNMEythDG()), (r ||= a > -1)),
+						(r || ((a = o.TlNWjGqkwbWuThztSv()), (r ||= a > -1)),
 						e.getHasStack() && r)
 					) {
 						let r = e.getStack();
@@ -25095,7 +25095,7 @@ var ip = class {
 						: t != Bf.PEACEFUL &&
 							(this.foodLevel = Math.max(this.foodLevel - 1, 0)));
 			let n = t === Bf.HARD ? 100 : 80;
-			this.foodLevel >= 18 && e.hltpNzNFdI()
+			this.foodLevel >= 18 && e.NbKZNOTJMc()
 				? (++this.foodTimer,
 					this.foodTimer >= n &&
 						(e.heal(1), this.addExhaustion(3), (this.foodTimer = 0)))
@@ -25157,7 +25157,7 @@ var ip = class {
 		continueExecuting() {
 			return this.shouldExecute();
 		}
-		pWZgYDdJulNiPMJ() {
+		qyHvdYuworQTuSB() {
 			return !0;
 		}
 		startExecuting() {}
@@ -25166,7 +25166,7 @@ var ip = class {
 		setMutexBits(e) {
 			this.mutexBits = e;
 		}
-		TVKFQPHWdeBt() {
+		zWGrrMxsVRNc() {
 			return this.mutexBits;
 		}
 	},
@@ -25175,7 +25175,7 @@ var ip = class {
 			super(), (this.childAnimal = e), (this.moveSpeed = t);
 		}
 		shouldExecute() {
-			if (this.childAnimal.zrNmqvFLASCaL() >= 0) return !1;
+			if (this.childAnimal.dUcsjgGyCRrjC() >= 0) return !1;
 			{
 				let e = this.childAnimal.world.getEntitiesWithinAABB(
 						this.childAnimal.type,
@@ -25187,7 +25187,7 @@ var ip = class {
 					t = null,
 					n = Number.MAX_VALUE;
 				for (let r of e)
-					if (r.zrNmqvFLASCaL() >= 0) {
+					if (r.dUcsjgGyCRrjC() >= 0) {
 						let e = this.childAnimal.getDistanceSqToEntity(r);
 						e <= n && ((n = e), (t = r));
 					}
@@ -25195,7 +25195,7 @@ var ip = class {
 			}
 		}
 		continueExecuting() {
-			if (!this.parentAnimal || this.childAnimal.zrNmqvFLASCaL() >= 0)
+			if (!this.parentAnimal || this.childAnimal.dUcsjgGyCRrjC() >= 0)
 				return !1;
 			if (this.parentAnimal.isEntityAlive()) {
 				let e = this.childAnimal.getDistanceSqToEntity(this.parentAnimal);
@@ -25237,7 +25237,7 @@ var ip = class {
 			this.idleTime--,
 				this.idleEntity
 					.getLookHelper()
-					.XwaJXnWDmagtdVl(
+					.LugaEOHfsPCOvcZ(
 						this.idleEntity.pos.x + this.lookX,
 						this.idleEntity.pos.y + this.idleEntity.getEyeHeight(),
 						this.idleEntity.pos.z + this.lookZ,
@@ -25256,8 +25256,8 @@ var ip = class {
 				this.setMutexBits(3);
 		}
 		shouldExecute() {
-			if (this.theAnimal.NKgqLXIT()) {
-				let e = this.sGWqVtLYqQKnB();
+			if (this.theAnimal.xcqlzRuv()) {
+				let e = this.XMmseEXSHuHdM();
 				return e == null ? !1 : ((this.targetMate = e), !0);
 			} else return !1;
 		}
@@ -25265,7 +25265,7 @@ var ip = class {
 			return (
 				!!this.targetMate &&
 				this.targetMate.isEntityAlive() &&
-				this.targetMate.NKgqLXIT() &&
+				this.targetMate.xcqlzRuv() &&
 				this.spawnBabyDelay < 60
 			);
 		}
@@ -25287,9 +25287,9 @@ var ip = class {
 				++this.spawnBabyDelay,
 				this.spawnBabyDelay >= 60 &&
 					this.theAnimal.getDistanceSqToEntity(this.targetMate) < 9 &&
-					this.mTWtlQyhm());
+					this.lchzKJHIX());
 		}
-		sGWqVtLYqQKnB() {
+		XMmseEXSHuHdM() {
 			let e = this.theWorld.getEntitiesWithinAABB(
 					this.theAnimal.type,
 					this.theAnimal.getEntityBoundingBox().clone().expandByScalar(8),
@@ -25297,24 +25297,24 @@ var ip = class {
 				t = Number.MAX_VALUE,
 				n = null;
 			for (let r of e)
-				this.theAnimal.GQqbfZaihIX(r) &&
+				this.theAnimal.jtpZWsWkraW(r) &&
 					this.theAnimal.getDistanceSqToEntity(r) < t &&
 					((n = r), (t = this.theAnimal.getDistanceSqToEntity(r)));
 			return n;
 		}
-		mTWtlQyhm() {
+		lchzKJHIX() {
 			if (!this.targetMate) return;
 			let e = this.theAnimal.createChild(this.targetMate);
 			if (e != null) {
-				let t = this.theAnimal.HyGyCmUOXbkZdQN();
+				let t = this.theAnimal.ZtWqZIZsHUjqUHl();
 				t == null &&
-					this.targetMate.HyGyCmUOXbkZdQN() != null &&
-					(t = this.targetMate.HyGyCmUOXbkZdQN()),
-					this.theAnimal.nKunFMeyMctnT(6e3),
-					this.targetMate.nKunFMeyMctnT(6e3),
-					this.theAnimal.tWWNeZSdYCx(),
-					this.targetMate.tWWNeZSdYCx(),
-					e.nKunFMeyMctnT(-24e3),
+					this.targetMate.ZtWqZIZsHUjqUHl() != null &&
+					(t = this.targetMate.ZtWqZIZsHUjqUHl()),
+					this.theAnimal.bWZhFEZWhMgRQ(6e3),
+					this.targetMate.bWZhFEZWhMgRQ(6e3),
+					this.theAnimal.eXpIVHMihcA(),
+					this.targetMate.eXpIVHMihcA(),
+					e.bWZhFEZWhMgRQ(-24e3),
 					e.setLocationAndAngles(
 						this.theAnimal.pos.x,
 						this.theAnimal.pos.y,
@@ -25356,34 +25356,34 @@ var ip = class {
 		static {
 			this.staticVector = new D();
 		}
-		static qBtLtCIYTNFWBEFi(e, t, n) {
-			return this.cppLnzfSPvjbHspSDLuYy(e, t, n, null);
+		static pgAPPRfIQdsMEHIo(e, t, n) {
+			return this.HikQoTohRbOIEnYCtamlg(e, t, n, null);
 		}
-		static KWyHGiEgLgJvfJhzcfavMpbnYJEv(e, t, n, r) {
+		static dBjScJHlDohyHMIYWGPGlLHqkChb(e, t, n, r) {
 			return (
 				(this.staticVector = r.sub(new D(e.pos.x, e.pos.y, e.pos.z))),
-				this.cppLnzfSPvjbHspSDLuYy(e, t, n, this.staticVector)
+				this.HikQoTohRbOIEnYCtamlg(e, t, n, this.staticVector)
 			);
 		}
-		static SuIeeXswfzzqmPZlGkqvDyDBiZenB(e, t, n, r) {
+		static LkwvQHSizAFjJNIjQfjNFisYIHKRY(e, t, n, r) {
 			return (
 				(this.staticVector = new D(e.pos.x, e.pos.y, e.pos.z).sub(r)),
-				this.cppLnzfSPvjbHspSDLuYy(e, t, n, this.staticVector)
+				this.HikQoTohRbOIEnYCtamlg(e, t, n, this.staticVector)
 			);
 		}
-		static cppLnzfSPvjbHspSDLuYy(e, t, n, r) {
+		static HikQoTohRbOIEnYCtamlg(e, t, n, r) {
 			let i = !1,
 				a = 0,
 				o = 0,
 				s = 0,
 				c = -99999,
 				l;
-			if (e.cuXSjYs()) {
+			if (e.LiRHrFQ()) {
 				let n =
 						e
-							.iImTUHYuKZGiHux()
+							.opaasbpdAUVLTbZ()
 							.distanceToSquared(new F(e.pos.x, e.pos.y, e.pos.z)) + 4,
-					r = e.sdGBlzwNuinNNrQufdJuqd() + t;
+					r = e.POAVVgAengOOyiAYGOrYiI() + t;
 				l = n < r * r;
 			} else l = !1;
 			for (let u = 0; u < 10; u++) {
@@ -25391,8 +25391,8 @@ var ip = class {
 					d = rf(2 * n + 1) - n,
 					f = rf(2 * t + 1) - t;
 				if (!r || u * r.x + f * r.z >= 0) {
-					if (e.cuXSjYs() && t > 1) {
-						let n = e.iImTUHYuKZGiHux();
+					if (e.LiRHrFQ() && t > 1) {
+						let n = e.opaasbpdAUVLTbZ();
 						e.pos.x > n.x ? (u -= rf(t / 2)) : (u += rf(t / 2)),
 							e.pos.z > n.z ? (f -= rf(t / 2)) : (f += rf(t / 2));
 					}
@@ -25400,8 +25400,8 @@ var ip = class {
 						(d += Math.floor(e.pos.y)),
 						(f += Math.floor(e.pos.z));
 					let n = new F(u, d, f);
-					if (!l || e.JmfZoEaUMByQNCvMnKnTTEvZnygWPPcr(n)) {
-						let t = e.KppWIFeidfnJWSOmLg(n);
+					if (!l || e.BklmenolBpFMxAUDJIzHipxAmnWRHJMi(n)) {
+						let t = e.BIyGbmeitITrgHdNsn(n);
 						t > c && ((c = t), (a = u), (o = d), (s = f), (i = !0));
 					}
 				}
@@ -25418,12 +25418,12 @@ var ip = class {
 		}
 		shouldExecute() {
 			if (
-				this.theEntityCreature.DQaccOjhxUu() == null &&
+				this.theEntityCreature.GpZVffwkakJ() == null &&
 				!this.theEntityCreature.isBurning()
 			)
 				return !1;
 			{
-				let e = yp.qBtLtCIYTNFWBEFi(this.theEntityCreature, 5, 4);
+				let e = yp.pgAPPRfIQdsMEHIo(this.theEntityCreature, 5, 4);
 				return e == null
 					? !1
 					: ((this.randPosX = e.x),
@@ -25452,7 +25452,7 @@ var ip = class {
 			return this.theEntity.inWater || this.theEntity.inLava;
 		}
 		updateTask() {
-			Math.random() < 0.8 && this.theEntity.UYljoYdMqaNoA().fdrVCJqYIR();
+			Math.random() < 0.8 && this.theEntity.rGPqajsMWMpQo().GLjxwhavhK();
 		}
 	},
 	xp = class extends gp {
@@ -25544,10 +25544,10 @@ var ip = class {
 		shouldExecute() {
 			if (
 				!this.mustUpdate &&
-				(this.entity.ZcBfcT() >= 100 || rf(this.executionChance) != 0)
+				(this.entity.BvtKJI() >= 100 || rf(this.executionChance) != 0)
 			)
 				return !1;
-			let e = yp.qBtLtCIYTNFWBEFi(this.entity, 10, 7);
+			let e = yp.pgAPPRfIQdsMEHIo(this.entity, 10, 7);
 			return e == null
 				? !1
 				: ((this.xPosition = e.x),
@@ -25569,10 +25569,10 @@ var ip = class {
 					this.speed,
 				);
 		}
-		ixyyQdCcRg() {
+		DhiqqfGXJq() {
 			this.mustUpdate = !0;
 		}
-		cRwxiSvJvfQDqhyMIw(e) {
+		pzlPrsYgzpfURDMckw(e) {
 			this.executionChance = e;
 		}
 	},
@@ -25629,7 +25629,7 @@ var ip = class {
 		updateTask() {
 			this.theWatcher
 				.getLookHelper()
-				.XwaJXnWDmagtdVl(
+				.LugaEOHfsPCOvcZ(
 					this.closestEntity.pos.x,
 					this.closestEntity.pos.y + this.closestEntity.getEyeHeight(),
 					this.closestEntity.pos.z,
@@ -25643,14 +25643,14 @@ var ip = class {
 		constructor(e, t) {
 			super(),
 				(this.theEntity = e),
-				(this.sLYAdepgIImgX = t),
+				(this.NLOgYLKKWRvav = t),
 				this.setMutexBits(1);
 		}
 		shouldExecute() {
-			if (this.theEntity.apPnxyBCvqnddJZuJOgOWfWEZbXREZspsks()) return !1;
+			if (this.theEntity.evESJKszBTGqmyuFwVwSCRyuQnLMMwdVwrM()) return !1;
 			{
-				let e = this.theEntity.iImTUHYuKZGiHux(),
-					t = yp.KWyHGiEgLgJvfJhzcfavMpbnYJEv(
+				let e = this.theEntity.opaasbpdAUVLTbZ(),
+					t = yp.dBjScJHlDohyHMIYWGPGlLHqkChb(
 						this.theEntity,
 						16,
 						7,
@@ -25674,7 +25674,7 @@ var ip = class {
 					this.movePosX,
 					this.movePosY,
 					this.movePosZ,
-					this.sLYAdepgIImgX,
+					this.NLOgYLKKWRvav,
 				);
 		}
 	},
@@ -25686,48 +25686,48 @@ var ip = class {
 				(this.aiBase = new wp(this, 1)),
 				(this.isMovementAITaskSet = !1);
 		}
-		KppWIFeidfnJWSOmLg(e) {
+		BIyGbmeitITrgHdNsn(e) {
 			return 0;
 		}
 		getCanSpawnHere() {
 			return (
 				super.getCanSpawnHere() &&
-				this.KppWIFeidfnJWSOmLg(
+				this.BIyGbmeitITrgHdNsn(
 					new F(this.pos.x, this.getEntityBoundingBox().min.y, this.pos.z),
 				) >= 0
 			);
 		}
-		nHogmgo() {
+		snnEUXn() {
 			return !this.navigator.noPath();
 		}
-		apPnxyBCvqnddJZuJOgOWfWEZbXREZspsks() {
-			return this.JmfZoEaUMByQNCvMnKnTTEvZnygWPPcr(
+		evESJKszBTGqmyuFwVwSCRyuQnLMMwdVwrM() {
+			return this.BklmenolBpFMxAUDJIzHipxAmnWRHJMi(
 				new F(this.pos.x, this.pos.y, this.pos.z),
 			);
 		}
-		JmfZoEaUMByQNCvMnKnTTEvZnygWPPcr(e) {
+		BklmenolBpFMxAUDJIzHipxAmnWRHJMi(e) {
 			return this.maximumHomeDistance === -1
 				? !0
 				: this.homePosition.distanceToSquared(e) <
 						this.maximumHomeDistance * this.maximumHomeDistance;
 		}
-		TqAyRspdKZpHvmiPpVngN(e, t) {
+		dpXuxSbajQaoxzQbZczaJ(e, t) {
 			(this.homePosition = e), (this.maximumHomeDistance = t);
 		}
-		iImTUHYuKZGiHux() {
+		opaasbpdAUVLTbZ() {
 			return this.homePosition;
 		}
-		sdGBlzwNuinNNrQufdJuqd() {
+		POAVVgAengOOyiAYGOrYiI() {
 			return this.maximumHomeDistance;
 		}
-		jVKhAxCjVB() {
+		PpzCZFmDOn() {
 			this.maximumHomeDistance = -1;
 		}
-		cuXSjYs() {
+		LiRHrFQ() {
 			return this.maximumHomeDistance !== -1;
 		}
-		nXUWaUPtAIAZSGAjcr() {}
-		kaskXzYLIxBFi(e) {}
+		GSsuaOOWdjxKmGAnqH() {}
+		hBDQhFsBgelKE(e) {}
 	},
 	Ep = class extends Tp {
 		constructor(e) {
@@ -25743,37 +25743,37 @@ var ip = class {
 		entityInit() {
 			super.entityInit(), this.dataWatcher.addObject(12, 0);
 		}
-		zrNmqvFLASCaL() {
+		dUcsjgGyCRrjC() {
 			return this.world.isClient
 				? this.dataWatcher.getWatchableObjectByte(12)
 				: this.growingAge;
 		}
-		MbQqOhIVn(e, t) {
-			let n = this.zrNmqvFLASCaL(),
+		Bhkjixfrb(e, t) {
+			let n = this.dUcsjgGyCRrjC(),
 				r = n;
-			(n += e * 20), n > 0 && ((n = 0), r < 0 && this.iDoESYEpInrbqd());
+			(n += e * 20), n > 0 && ((n = 0), r < 0 && this.aMfYgSEAgeoMPD());
 			let i = n - r;
-			this.nKunFMeyMctnT(n),
+			this.bWZhFEZWhMgRQ(n),
 				t &&
 					((this.ageDelta += i), this.ageDelta2 === 0 && (this.ageDelta2 = 40)),
-				this.zrNmqvFLASCaL() === 0 && this.nKunFMeyMctnT(this.ageDelta);
+				this.dUcsjgGyCRrjC() === 0 && this.bWZhFEZWhMgRQ(this.ageDelta);
 		}
-		UFNFxRMRP(e) {
-			this.MbQqOhIVn(e, !1);
+		MPKFdbkQy(e) {
+			this.Bhkjixfrb(e, !1);
 		}
-		nKunFMeyMctnT(e) {
+		bWZhFEZWhMgRQ(e) {
 			this.dataWatcher.updateObject(12, Math.min(Math.max(e, -1), 1)),
 				(this.growingAge = e),
-				this.UkLrmiriEZjHiK(this.isChild());
+				this.wgvtmyKfPUDTfO(this.isChild());
 		}
 		writeEntityToNBT(e) {
 			super.writeEntityToNBT(e),
-				(e.Age = I.int(this.zrNmqvFLASCaL())),
+				(e.Age = I.int(this.dUcsjgGyCRrjC())),
 				(e.ForcedAge = I.int(this.ageDelta));
 		}
 		readEntityFromNBT(e) {
 			super.readEntityFromNBT(e),
-				this.nKunFMeyMctnT(e.Age),
+				this.bWZhFEZWhMgRQ(e.Age),
 				(this.ageDelta = e.ForcedAge);
 		}
 		onLivingUpdate() {
@@ -25790,26 +25790,26 @@ var ip = class {
 							0,
 						),
 					--this.ageDelta2),
-					this.UkLrmiriEZjHiK(this.isChild());
+					this.wgvtmyKfPUDTfO(this.isChild());
 			else {
-				let e = this.zrNmqvFLASCaL();
+				let e = this.dUcsjgGyCRrjC();
 				e < 0
-					? (++e, this.nKunFMeyMctnT(e), e === 0 && this.iDoESYEpInrbqd())
-					: e > 0 && (--e, this.nKunFMeyMctnT(e));
+					? (++e, this.bWZhFEZWhMgRQ(e), e === 0 && this.aMfYgSEAgeoMPD())
+					: e > 0 && (--e, this.bWZhFEZWhMgRQ(e));
 			}
 		}
-		iDoESYEpInrbqd() {}
+		aMfYgSEAgeoMPD() {}
 		isChild() {
-			return this.zrNmqvFLASCaL() < 0;
+			return this.dUcsjgGyCRrjC() < 0;
 		}
-		UkLrmiriEZjHiK(e) {
-			this.YtCSpmnu(e ? 0.5 : 1);
+		wgvtmyKfPUDTfO(e) {
+			this.TfxaelUX(e ? 0.5 : 1);
 		}
 		setSize(e, t) {
 			let n = this.ageWidth > 0;
-			(this.ageWidth = e), (this.ageHeight = t), n || this.YtCSpmnu(1);
+			(this.ageWidth = e), (this.ageHeight = t), n || this.TfxaelUX(1);
 		}
-		YtCSpmnu(e) {
+		TfxaelUX(e) {
 			super.setSize(this.ageWidth * e, this.ageHeight * e);
 		}
 	},
@@ -25821,10 +25821,10 @@ var ip = class {
 				(this.playerInLove = null),
 				(this.creatureClass = `animal`);
 		}
-		qhINriaJuVcty() {
-			this.zrNmqvFLASCaL() !== 0 && (this.inLove = 0), super.qhINriaJuVcty();
+		DJTXJcqQUoDAJ() {
+			this.dUcsjgGyCRrjC() !== 0 && (this.inLove = 0), super.DJTXJcqQUoDAJ();
 		}
-		dvZYjvjEDFbLlBbCXcKiM(e) {
+		vaYoHynooxpBWBJnOTtwV(e) {
 			this.tasks.addTask(e.swimmingPriority ?? 0, new bp(this)),
 				this.tasks.addTask(e.panic.priority, new Tae(this, e.panic.speed)),
 				this.tasks.addTask(e.mate.priority, new vp(this, e.mate.speed));
@@ -25859,7 +25859,7 @@ var ip = class {
 		onLivingUpdate() {
 			if (
 				(super.onLivingUpdate(),
-				this.zrNmqvFLASCaL() !== 0 && (this.inLove = 0),
+				this.dUcsjgGyCRrjC() !== 0 && (this.inLove = 0),
 				this.inLove > 0 && (this.inLove--, this.inLove % 10 == 0))
 			) {
 				let e = rd() * 0.02,
@@ -25881,7 +25881,7 @@ var ip = class {
 				? !1
 				: ((this.inLove = 0), super.attackEntityFrom(e, t));
 		}
-		KppWIFeidfnJWSOmLg(e) {
+		BIyGbmeitITrgHdNsn(e) {
 			return this.world.getBlockState(e.down()).getBlock() === B.grass_block
 				? 10
 				: this.world.getLightBrightness(e) - 0.5;
@@ -25903,10 +25903,10 @@ var ip = class {
 				super.getCanSpawnHere()
 			);
 		}
-		pPkcjCGdSzIvxGY() {
+		IaLnaegczAAyoef() {
 			return 120;
 		}
-		nwaEtQiMyU() {
+		zCjQPsrbvW() {
 			return !1;
 		}
 		getExperiencePoints(e) {
@@ -25920,15 +25920,15 @@ var ip = class {
 			if (t) {
 				if (
 					this.isBreedingItem(t) &&
-					this.zrNmqvFLASCaL() === 0 &&
+					this.dUcsjgGyCRrjC() === 0 &&
 					this.inLove <= 0
 				)
-					return this.twxVKpEsTsFoxnLemUlQ(e, t), this.qdDyOWqCx(e), !0;
+					return this.LNynYOCBxzMIeZAAgVcf(e, t), this.bFqsaWDtc(e), !0;
 				if (this.isChild() && this.isBreedingItem(t))
 					return (
-						this.twxVKpEsTsFoxnLemUlQ(e, t),
-						this.MbQqOhIVn(
-							(0, M.toInteger)(-((this.zrNmqvFLASCaL() / 20) * 0.1)),
+						this.LNynYOCBxzMIeZAAgVcf(e, t),
+						this.Bhkjixfrb(
+							(0, M.toInteger)(-((this.dUcsjgGyCRrjC() / 20) * 0.1)),
 							!0,
 						),
 						!0
@@ -25936,7 +25936,7 @@ var ip = class {
 			}
 			return super.interact(e);
 		}
-		twxVKpEsTsFoxnLemUlQ(e, t) {
+		LNynYOCBxzMIeZAAgVcf(e, t) {
 			e.abilities.creative ||
 				(t &&
 					(t.stackSize--,
@@ -25946,25 +25946,25 @@ var ip = class {
 							null,
 						)));
 		}
-		qdDyOWqCx(e) {
+		bFqsaWDtc(e) {
 			(this.inLove = 600),
 				(this.playerInLove = e),
 				this.world.setEntityState(this, 18);
 		}
-		HyGyCmUOXbkZdQN() {
+		ZtWqZIZsHUjqUHl() {
 			return this.playerInLove;
 		}
-		NKgqLXIT() {
+		xcqlzRuv() {
 			return this.inLove > 0;
 		}
-		tWWNeZSdYCx() {
+		eXpIVHMihcA() {
 			this.inLove = 0;
 		}
-		GQqbfZaihIX(e) {
+		jtpZWsWkraW(e) {
 			return e === this
 				? !1
 				: e.type === this.type
-					? this.NKgqLXIT() && e.NKgqLXIT()
+					? this.xcqlzRuv() && e.xcqlzRuv()
 					: !1;
 		}
 		handleStatusUpdate(e) {
@@ -25993,7 +25993,7 @@ var ip = class {
 				(this.type = `pig`),
 				this.setSize(0.9, 0.9),
 				this.getNavigator().setAvoidsWater(!0),
-				this.dvZYjvjEDFbLlBbCXcKiM({
+				this.vaYoHynooxpBWBJnOTtwV({
 					panic: { priority: 1, speed: 1.25 },
 					mate: { priority: 3, speed: 1 },
 					tempt: { priority: 4, speed: 1.2, item: z.carrot },
@@ -26007,7 +26007,7 @@ var ip = class {
 			super.applyEntityAttributes(),
 				this.applyBaseAttributes([
 					[Au.maxHealth, 10],
-					[Au.sLYAdepgIImgX, 0.25],
+					[Au.NLOgYLKKWRvav, 0.25],
 				]);
 		}
 		entityInit() {
@@ -26024,7 +26024,7 @@ var ip = class {
 		interact(e) {
 			return super.interact(e) ? !0 : (this.world.isClient, !1);
 		}
-		jwbCSeaDpyl() {
+		iZldsKnzaex() {
 			return this.isBurning() ? z.cooked_porkchop : z.porkchop;
 		}
 		dropFewItems(e, t) {
@@ -26034,7 +26034,7 @@ var ip = class {
 					? this.dropItem2(z.cooked_porkchop, 1)
 					: this.dropItem2(z.porkchop, 1).id;
 		}
-		DUYgltxJIQUKOACsKyv(e) {}
+		YOXOwnzgaBnUMsTcvyJ(e) {}
 		fall(e, t) {
 			super.fall(e, t);
 		}
@@ -26049,7 +26049,7 @@ var ip = class {
 		constructor() {
 			(this.flySpeed = 0.05), (this.walkSpeed = 0.1);
 		}
-		SVDuTvMFauFzmstLpusMet(e) {
+		JqqzRobkpGzcLaXDAjLDDJ(e) {
 			let t = {};
 			(t.invulnerable = I.int(+!!this.invulnerable)),
 				(t.flying = I.int(+!!this.flying)),
@@ -26060,7 +26060,7 @@ var ip = class {
 				(t.walkSpeed = I.float(this.walkSpeed)),
 				(e.abilities = t);
 		}
-		ELpXZoDLacobzkoegdTUFog(e) {
+		OnLuFpEpzdQMROZoWYMSAOo(e) {
 			let t = e.abilities;
 			t &&
 				((this.invulnerable = t.invulnerable),
@@ -26071,16 +26071,16 @@ var ip = class {
 				(this.flySpeed = t.flySpeed),
 				(this.walkSpeed = t.walkSpeed));
 		}
-		wvmPjJNdRCW() {
+		zTwGIVjjANR() {
 			return this.flySpeed;
 		}
-		URNjnnRCkaV(e) {
+		BpNtICMkgrL(e) {
 			this.flySpeed = e;
 		}
-		ZSFwKfeeVzwF() {
+		VnIITjinvgcn() {
 			return this.walkSpeed;
 		}
-		QIXClgMMHJSborUdDx(e) {
+		pnJdflOSUuDOyvOCvr(e) {
 			this.walkSpeed = e;
 		}
 	},
@@ -26124,13 +26124,13 @@ var ip = class {
 				(this.armor = Array(Oae).fill(null)),
 				(this.itemStack = null),
 				(this.inventoryChanged = !1),
-				(this.storeItemStack = this.jWtUYKRHNjCcdqnt),
+				(this.storeItemStack = this.zHxrFZdQuDVizjLg),
 				(this.setInventorySlotContents = this.setSlot);
 		}
 		get mainInventory() {
 			return this.main;
 		}
-		get DbaifMGHLXHqtE() {
+		get oQfprhIbkotHyb() {
 			return this.armor;
 		}
 		getField(e) {
@@ -26157,7 +26157,7 @@ var ip = class {
 		addItemStackToInventory(e) {
 			if (e == null || e.stackSize == 0 || e.item == null) return !1;
 			if (e.isItemDamaged()) {
-				let t = this.mmyaFjbluXNMEythDG();
+				let t = this.TlNWjGqkwbWuThztSv();
 				return t >= 0
 					? ((this.mainInventory[t] = e.clone()), (e.stackSize = 0), !0)
 					: this.player.abilities.creative
@@ -26168,7 +26168,7 @@ var ip = class {
 				for (
 					;
 					(t = e.stackSize),
-						(e.stackSize = this.TwUthOGvBlIbyghqqLLyW(e)),
+						(e.stackSize = this.CFSOvuKlZIaOCpBIsQSqJ(e)),
 						!(e.stackSize <= 0 || e.stackSize >= t);
 				);
 				return e.stackSize == t && this.player.abilities.creative
@@ -26176,11 +26176,11 @@ var ip = class {
 					: e.stackSize < t;
 			}
 		}
-		TwUthOGvBlIbyghqqLLyW(e) {
+		CFSOvuKlZIaOCpBIsQSqJ(e) {
 			let t = e.item,
 				n = e.stackSize,
 				r = this.storeItemStack(e);
-			if ((r < 0 && (r = this.mmyaFjbluXNMEythDG()), r < 0)) return n;
+			if ((r < 0 && (r = this.TlNWjGqkwbWuThztSv()), r < 0)) return n;
 			{
 				this.mainInventory[r] ??
 					((this.mainInventory[r] = new Vp(t, 0, e.getItemDamage())),
@@ -26200,7 +26200,7 @@ var ip = class {
 				);
 			}
 		}
-		jWtUYKRHNjCcdqnt(e) {
+		zHxrFZdQuDVizjLg(e) {
 			for (let t = 0; t < this.main.length; ++t)
 				if (
 					this.mainInventory[t] != null &&
@@ -26213,12 +26213,12 @@ var ip = class {
 					return t;
 			return -1;
 		}
-		mmyaFjbluXNMEythDG() {
+		TlNWjGqkwbWuThztSv() {
 			for (let e = 0; e < this.mainInventory.length; ++e)
 				if (this.mainInventory[e] == null) return e;
 			return -1;
 		}
-		anILyBaDXaTTZOASCAmcWhkDChm(e) {
+		ZhIlytCUZiwfjkZGQBLjkQlnzuI(e) {
 			for (let [t, n] of this.main.entries())
 				if (n != null && n.item.equals(e)) return t;
 			return -1;
@@ -26263,12 +26263,12 @@ var ip = class {
 				t[e]
 			);
 		}
-		*iNDUBstxuRv() {
+		*LYXrvcguNGh() {
 			for (let e of this.main) yield e;
 			for (let e of this.armor) yield e;
 		}
 		hasItem(e) {
-			return this.anILyBaDXaTTZOASCAmcWhkDChm(e) >= 0;
+			return this.ZhIlytCUZiwfjkZGQBLjkQlnzuI(e) >= 0;
 		}
 		getItemStack() {
 			return this.itemStack;
@@ -26286,7 +26286,7 @@ var ip = class {
 			let n = this.mainInventory;
 			if (
 				(e >= this.mainInventory.length &&
-					((n = this.DbaifMGHLXHqtE), (e -= this.mainInventory.length)),
+					((n = this.oQfprhIbkotHyb), (e -= this.mainInventory.length)),
 				n[e] != null)
 			)
 				if (n[e].stackSize <= t) {
@@ -26307,8 +26307,8 @@ var ip = class {
 		clear() {
 			for (let e = 0; e < this.mainInventory.length; ++e)
 				this.mainInventory[e] = null;
-			for (let e = 0; e < this.DbaifMGHLXHqtE.length; ++e)
-				this.DbaifMGHLXHqtE[e] = null;
+			for (let e = 0; e < this.oQfprhIbkotHyb.length; ++e)
+				this.oQfprhIbkotHyb[e] = null;
 		}
 		openInventory(e) {}
 		closeInventory(e) {}
@@ -26317,12 +26317,12 @@ var ip = class {
 			for (let e = 0; e < this.mainInventory.length; ++e)
 				this.mainInventory[e] != null &&
 					(t.mainInventory[e] = this.mainInventory[e].clone());
-			for (let e = 0; e < this.DbaifMGHLXHqtE.length; ++e)
-				this.DbaifMGHLXHqtE[e] != null &&
-					(t.DbaifMGHLXHqtE[e] = this.DbaifMGHLXHqtE[e].clone());
+			for (let e = 0; e < this.oQfprhIbkotHyb.length; ++e)
+				this.oQfprhIbkotHyb[e] != null &&
+					(t.oQfprhIbkotHyb[e] = this.oQfprhIbkotHyb[e].clone());
 			return t;
 		}
-		phBtGKAjUqdZjqPKVI(e) {
+		rbeNolWgTEXhlqutmR(e) {
 			if (e.getMaterial().requiresNoTool) return !0;
 			{
 				let t = this.getStackInSlot(this.currentItem);
@@ -26348,14 +26348,14 @@ var ip = class {
 							`inventory slot ${t} (${this.mainInventory[t].item?.name})`,
 						) && e.push(n);
 				}
-			for (let t = 0; t < this.DbaifMGHLXHqtE.length; ++t)
-				if (this.DbaifMGHLXHqtE[t] != null) {
+			for (let t = 0; t < this.oQfprhIbkotHyb.length; ++t)
+				if (this.oQfprhIbkotHyb[t] != null) {
 					let n = {};
 					(n.Slot = I.int(t + 100)),
-						this.DbaifMGHLXHqtE[t].writeToNBT(n),
+						this.oQfprhIbkotHyb[t].writeToNBT(n),
 						Vp.isSerializableNBT(
 							n,
-							`armor slot ${t} (${this.DbaifMGHLXHqtE[t].item?.name})`,
+							`armor slot ${t} (${this.oQfprhIbkotHyb[t].item?.name})`,
 						) && e.push(n);
 				}
 			return e;
@@ -26370,28 +26370,28 @@ var ip = class {
 						r < this.mainInventory.length &&
 						(this.mainInventory[r] = i),
 					r >= 100 &&
-						r < this.DbaifMGHLXHqtE.length + 100 &&
-						(this.DbaifMGHLXHqtE[r - 100] = i));
+						r < this.oQfprhIbkotHyb.length + 100 &&
+						(this.oQfprhIbkotHyb[r - 100] = i));
 			}
 		}
-		yLbLuCYfVWT(e) {
+		LSuxICQDOpq(e) {
 			(e /= 4), e < 1 && (e = 1);
-			for (let t = 0; t < this.DbaifMGHLXHqtE.length; ++t)
-				this.DbaifMGHLXHqtE[t] != null &&
-					this.DbaifMGHLXHqtE[t].getItem() instanceof yu &&
-					(this.DbaifMGHLXHqtE[t].damageItem(e, this.player),
-					this.DbaifMGHLXHqtE[t].stackSize == 0 &&
-						(this.DbaifMGHLXHqtE[t] = null));
+			for (let t = 0; t < this.oQfprhIbkotHyb.length; ++t)
+				this.oQfprhIbkotHyb[t] != null &&
+					this.oQfprhIbkotHyb[t].getItem() instanceof yu &&
+					(this.oQfprhIbkotHyb[t].damageItem(e, this.player),
+					this.oQfprhIbkotHyb[t].stackSize == 0 &&
+						(this.oQfprhIbkotHyb[t] = null));
 		}
-		aQfkVbDUJShP() {
+		NWYnrrQGBUiJ() {
 			for (let e = 0; e < this.mainInventory.length; ++e)
 				this.mainInventory[e] != null &&
 					(this.player.dropItem(this.mainInventory[e], !0, !1, !1),
 					(this.mainInventory[e] = null));
-			for (let e = 0; e < this.DbaifMGHLXHqtE.length; ++e)
-				this.DbaifMGHLXHqtE[e] != null &&
-					(this.player.dropItem(this.DbaifMGHLXHqtE[e], !0, !1, !1),
-					(this.DbaifMGHLXHqtE[e] = null));
+			for (let e = 0; e < this.oQfprhIbkotHyb.length; ++e)
+				this.oQfprhIbkotHyb[e] != null &&
+					(this.player.dropItem(this.oQfprhIbkotHyb[e], !0, !1, !1),
+					(this.oQfprhIbkotHyb[e] = null));
 		}
 	},
 	Aae = 0.1875,
@@ -26445,7 +26445,7 @@ var ip = class {
 				(this.homes = {}),
 				(this.guideProgress = { counters: {}, claimed: [] }),
 				(this.xpCooldown = 0),
-				(this.dropPlayerItemWithRandomChoice = this.nVYdgYHqJFtKBtWMT),
+				(this.dropPlayerItemWithRandomChoice = this.DjJghDmLEsZMKplSF),
 				e && (this.name = ud(e.username)),
 				this.setSize(0.6, 1.8),
 				hp.CREATIVE.updatePlayerAbilities(this.abilities),
@@ -26464,7 +26464,7 @@ var ip = class {
 				this.getAttributeMap()
 					.registerAttribute(Au.attackDamage)
 					.setBaseValue(1),
-				this.getEntityAttribute(Au.sLYAdepgIImgX).setBaseValue(0.1);
+				this.getEntityAttribute(Au.NLOgYLKKWRvav).setBaseValue(0.1);
 		}
 		isAdmin() {
 			return (
@@ -26473,34 +26473,34 @@ var ip = class {
 				this.profile.rank === `owner`
 			);
 		}
-		QoHTNdFeVoCy() {
+		RuSzkRxCxyLm() {
 			return this.itemInUse;
 		}
-		TWniqzzbcHFAdyDfi() {
+		jRoMfUZAKYbzRwNDE() {
 			return this.itemInUseCount;
 		}
 		isUsingItem() {
 			return this.itemInUse != null;
 		}
-		KLYNYJxHlNZqGnTrUJTf() {
+		wyQSuJTrcDuVEjWaEUny() {
 			return this.isUsingItem()
 				? this.itemInUse.getMaxItemUseDuration() - this.itemInUseCount
 				: 0;
 		}
-		OAssxdWuYFTgy() {
+		SagYtDphDVxwB() {
 			this.itemInUse != null &&
 				this.itemInUse.onPlayerStoppedUsing(
 					this.world,
 					this,
 					this.itemInUseCount,
 				),
-				this.eKvFaBdOYmwryL();
+				this.WNyLqGPxqfOSCO();
 		}
-		eKvFaBdOYmwryL() {
+		WNyLqGPxqfOSCO() {
 			(this.itemInUse = null),
 				(this.itemInUseCount = 0),
 				(this.itemInUseSlot = -1),
-				this.world.isServer && this.acnuEMWwT(!1);
+				this.world.isServer && this.sPvQKWXcp(!1);
 		}
 		isBlocking() {
 			return (
@@ -26540,13 +26540,13 @@ var ip = class {
 		getActiveItemStack() {
 			return this.inventory.main[this.inventory.currentItem];
 		}
-		HNpXIkDcvDoauigvpbCTWH() {
+		LtfNiODmfxuvbizyINwtDc() {
 			return this.inventoryEnderChest;
 		}
 		getEquipmentInSlot(e) {
 			return e == 0
 				? this.inventory.getCurrentItem()
-				: this.inventory.DbaifMGHLXHqtE[e - 1];
+				: this.inventory.oQfprhIbkotHyb[e - 1];
 		}
 		onDeath(e) {
 			super.onDeath(e),
@@ -26559,14 +26559,14 @@ var ip = class {
 						(this.motion.z = -Math.sin((this.attackedAtYaw + this.yaw) * 0.1)));
 		}
 		isSprinting() {
-			return this.QqHsDTH(3);
+			return this.mtdnsyd(3);
 		}
-		CXXgcgNxXosNtEaMHqdrYVJSoYGfbVpnU(t) {
+		TcxUBTOBiBrWheYJLsEJomBKjZErOmuwM(t) {
 			if (
 				(t instanceof e && this.team && !this.team.canAttack(t.team)) ||
 				this.isSpectator() ||
-				!t.LLsuvlQBBJzmvGvuy() ||
-				t.BdEVgNeAoNU(this) ||
+				!t.QSRWULacmykRNpuCz() ||
+				t.cQWlAXvPULl(this) ||
 				this.dead ||
 				this.getHealth() <= 0
 			)
@@ -26577,7 +26577,7 @@ var ip = class {
 			if (
 				((i =
 					t instanceof Fd
-						? Hd.func_152377_a(this.getHeldItem(), t.NsDKZjLdTWqxvOGyUIeC())
+						? Hd.func_152377_a(this.getHeldItem(), t.RivMJdcElFMhslKhmgJh())
 						: Hd.func_152377_a(this.getHeldItem(), Td.UNDEFINED)),
 				(r += Hd.getKnockbackModifier(this)),
 				this.isSprinting() && ++r,
@@ -26615,40 +26615,40 @@ var ip = class {
 								motion: { x: t.motion.x, y: t.motion.y, z: t.motion.z },
 							}),
 						),
-					a && this.KysotwHynEgVn(t),
-					this.GTzZqzXvkvblYKl(t),
+					a && this.uzxZiQiQisaWn(t),
+					this.pBlzmSPqDcYNvHE(t),
 					t instanceof Fd && Hd.applyThornEnchantments(t, this),
-					t instanceof e && t.gyfgrGCtJsArYYiVi() && this.setFire(4),
+					t instanceof e && t.TzVrKyVsZxubKIsOb() && this.setFire(4),
 					Hd.applyArthropodEnchantments(this, t);
 				let s = this.getActiveItemStack(),
 					c = t;
 				s != null &&
 					c instanceof Fd &&
 					(s.hitEntity(c, this),
-					s.stackSize <= 0 && this.pDRjIuimZWGmWPDWeePOMtJebN()),
+					s.stackSize <= 0 && this.vFTYavJLiETNewTvWTbiRsZMbY()),
 					t instanceof Fd && o > 0 && t.setFire(o * 4),
 					this.addExhaustion(0.3);
 			}
 		}
-		gyfgrGCtJsArYYiVi() {
+		TzVrKyVsZxubKIsOb() {
 			for (let e of this.inventory.armor)
 				if (!e || !e.item.name.includes(`infernium`)) return !1;
 			return !0;
 		}
-		KysotwHynEgVn(e) {}
+		uzxZiQiQisaWn(e) {}
 		jump() {
 			super.jump(),
 				this.isSprinting() ? this.addExhaustion(0.8) : this.addExhaustion(0.2);
 		}
-		DaGiMAuVfAUipSajPtcCQ() {
+		pRjmJvmWERKZKpLsZJNKF() {
 			return this.isSprinting() ? this.speedInAir * 1.3 : this.speedInAir;
 		}
-		kmmxtiSrEySMWl() {
+		lUKmUgaTGlyYSy() {
 			super.onLivingUpdate();
-			let e = this.getEntityAttribute(Au.sLYAdepgIImgX);
-			e.setBaseValue(this.abilities.ZSFwKfeeVzwF()),
-				(this.jumpMovementFactor = this.DaGiMAuVfAUipSajPtcCQ()),
-				this.XrvKmJUdtOsjzO(e.getAttributeValue()),
+			let e = this.getEntityAttribute(Au.NLOgYLKKWRvav);
+			e.setBaseValue(this.abilities.VnIITjinvgcn()),
+				(this.jumpMovementFactor = this.pRjmJvmWERKZKpLsZJNKF()),
+				this.NPBfSqoqdLdEFc(e.getAttributeValue()),
 				this.checkCollisionWithEntities();
 		}
 		checkCollisionWithEntities() {
@@ -26666,18 +26666,18 @@ var ip = class {
 			for (let e of t)
 				e.dead || (e.id != this.id && e.onCollideWithPlayer(this));
 		}
-		GjkfuJJRcN(e, t = !1) {
-			(this.atxzXhNxgN = +!!e.right + (e.left ? -1 : 0)),
-				(this.rutqrVROSKR = (e.up ? -1 : 0) + +!!e.down),
+		UZSuFpKXmw(e, t = !1) {
+			(this.zVbpZHiaYd = +!!e.right + (e.left ? -1 : 0)),
+				(this.unAZjpZwBxI = (e.up ? -1 : 0) + +!!e.down),
 				(this.yaw = e.yaw),
 				(this.pitch = e.pitch),
 				(this.jumping = e.jump),
-				e.sneak && ((this.atxzXhNxgN *= 0.3), (this.rutqrVROSKR *= 0.3)),
+				e.sneak && ((this.zVbpZHiaYd *= 0.3), (this.unAZjpZwBxI *= 0.3)),
 				e.usingItem &&
 					!this.isRiding() &&
-					((this.atxzXhNxgN *= 0.2), (this.rutqrVROSKR *= 0.2)),
-				this.KtkVPGhtvMcHraUQCM(this.jumping, this.onGround),
-				this.kmmxtiSrEySMWl(),
+					((this.zVbpZHiaYd *= 0.2), (this.unAZjpZwBxI *= 0.2)),
+				this.OewdqOVzXhbsVtuQYA(this.jumping, this.onGround),
+				this.lUKmUgaTGlyYSy(),
 				this.setPositionAndRotation(
 					this.pos.x,
 					this.pos.y,
@@ -26686,34 +26686,34 @@ var ip = class {
 					e.pitch,
 				);
 		}
-		xqIaUNKxJPaVELYqMUyFv(e, t) {
+		AYZJOzBvWadrAEvyNNDMn(e, t) {
 			if (this.isRiding()) return;
 			let n = this.pos.clone();
-			if (this.isElytraFlying()) this.YhBnLvEfZy();
+			if (this.isElytraFlying()) this.TDiLyVefpF();
 			else if (this.abilities.flying && this.ridingEntity == null) {
 				this.inWater = !1;
 				let n = this.motion.y,
 					r = this.jumpMovementFactor;
 				(this.jumpMovementFactor =
 					this.flySpeed * (this.isSprinting() ? 2 : 1)),
-					super.xqIaUNKxJPaVELYqMUyFv(e, t),
+					super.AYZJOzBvWadrAEvyNNDMn(e, t),
 					(this.motion.y = n * 0.6),
 					(this.jumpMovementFactor = r);
-			} else super.xqIaUNKxJPaVELYqMUyFv(e, t);
-			this.iiHmZxqrSiVwGdn(
+			} else super.AYZJOzBvWadrAEvyNNDMn(e, t);
+			this.ByxwEKIZrLYxhOa(
 				this.pos.x - n.x,
 				this.pos.y - n.y,
 				this.pos.z - n.z,
 			);
 		}
 		isElytraFlying() {
-			return this.QqHsDTH(7);
+			return this.mtdnsyd(7);
 		}
-		ecwALqWbHWYiRVD() {
+		qNzQFwZKoDGaPft() {
 			let e = this.inventory.armor[1];
 			return e != null && e.getItem()?.name === `elytra`;
 		}
-		KtkVPGhtvMcHraUQCM(e, t) {
+		OewdqOVzXhbsVtuQYA(e, t) {
 			let n = this.isElytraFlying(),
 				r = n;
 			r
@@ -26721,7 +26721,7 @@ var ip = class {
 						this.inWater ||
 						this.abilities.flying ||
 						this.isSpectator() ||
-						!this.ecwALqWbHWYiRVD()) &&
+						!this.qNzQFwZKoDGaPft()) &&
 					(r = !1)
 				: e &&
 					!this.elytraWasJumping &&
@@ -26729,14 +26729,14 @@ var ip = class {
 					!this.inWater &&
 					!this.abilities.flying &&
 					!this.isSpectator() &&
-					this.ecwALqWbHWYiRVD() &&
+					this.qNzQFwZKoDGaPft() &&
 					(r = !0),
 				(this.elytraWasJumping = e),
 				r || (this.fireworkBoostTicks = 0),
-				this.kDtEjGr(7, r),
+				this.eskGpoT(7, r),
 				r !== n && this.setSize(Ap, r ? jp : jae);
 		}
-		YhBnLvEfZy() {
+		TDiLyVefpF() {
 			let e = this.motion,
 				t = this.getLook(),
 				n = Math.sqrt(t.x * t.x + t.z * t.z),
@@ -26771,13 +26771,13 @@ var ip = class {
 			) {
 				let t = (r - Math.sqrt(e.x * e.x + e.z * e.z) - 2) * 4;
 				t > 0 &&
-					(this.playSound(this.zKCjCxhqCtBURoelSO(t), 1, 1),
+					(this.playSound(this.BRbYfCirTfioDoQZeb(t), 1, 1),
 					this.attackEntityFrom(Fp.FLY_INTO_WALL, t));
 			}
 		}
 		addStat(e, t) {}
-		iiHmZxqrSiVwGdn(e, t, n) {
-			if (this.fhgzMgSKTwVNQtBiWA(L.water)) {
+		ByxwEKIZrLYxhOa(e, t, n) {
+			if (this.qVelQMcPZDLVNanPTL(L.water)) {
 				let r = Math.round(Math.sqrt(e * e + t * t + n * n) * 100);
 				r > 0 && this.addExhaustion(0.015 * r * 0.01);
 			} else if (this.inWater) {
@@ -26792,10 +26792,10 @@ var ip = class {
 							: (this.sneak, this.addExhaustion(0.01 * t * 0.01)));
 				} else Math.round(Math.sqrt(e * e + n * n) * 100);
 		}
-		RxenNtlZSoRmJuD() {
+		jQLXEJDjioiGUKF() {
 			if (this.itemInUse != null) {
 				if (this.inventory.currentItem !== this.itemInUseSlot) {
-					this.eKvFaBdOYmwryL();
+					this.WNyLqGPxqfOSCO();
 					return;
 				}
 				let e = this.inventory.getCurrentItem();
@@ -26803,43 +26803,43 @@ var ip = class {
 				e.equals(this.itemInUse)
 					? (this.itemInUseCount <= 25 &&
 							this.itemInUseCount % 4 == 0 &&
-							this.zkNXWuppjOswB(e, 5),
+							this.OeLHsSAOSYInL(e, 5),
 						--this.itemInUseCount == 0 &&
 							this.world.isServer &&
 							this.onItemUseFinish())
-					: this.eKvFaBdOYmwryL();
+					: this.WNyLqGPxqfOSCO();
 			}
 		}
 		getExperiencePoints(e) {
 			let t = this.experienceLevel * 7;
 			return t > 100 ? 100 : t;
 		}
-		bLNSMscm() {
+		QUahhKSq() {
 			return !0;
 		}
-		btqPyHnUVEjyF(e) {
+		rGmxFdETHFHAm(e) {
 			let t = Number.MAX_VALUE - this.experienceTotal;
 			for (
 				e > t && (e = t),
-					this.experience += e / this.RhIejggx(),
+					this.experience += e / this.nHpuzVus(),
 					this.experienceTotal += e;
 				this.experience >= 1;
-				this.experience /= this.RhIejggx()
+				this.experience /= this.nHpuzVus()
 			)
-				(this.experience = (this.experience - 1) * this.RhIejggx()),
-					this.sFQEyOqoCWCtyHCIMf(1);
+				(this.experience = (this.experience - 1) * this.nHpuzVus()),
+					this.SpGFsIndkVHbpYVRVU(1);
 		}
-		SsJXVsbJSEiqA(e, t) {
+		hjLxcGajcTLDP(e, t) {
 			(this.experience = e), (this.experienceTotal = t | 0);
 		}
-		RhIejggx() {
+		nHpuzVus() {
 			return this.experienceLevel >= 30
 				? 112 + (this.experienceLevel - 30) * 9
 				: this.experienceLevel >= 15
 					? 37 + (this.experienceLevel - 15) * 5
 					: 7 + this.experienceLevel * 2;
 		}
-		HHMSaQUXugXxBRGNNmKpD(e) {
+		rRtnwUZndMwZbIFrgXSCy(e) {
 			(this.experienceLevel -= e),
 				this.experienceLevel < 0 &&
 					((this.experienceLevel = 0),
@@ -26847,7 +26847,7 @@ var ip = class {
 					(this.experienceTotal = 0)),
 				(this.xpSeed = rf(1));
 		}
-		sFQEyOqoCWCtyHCIMf(e) {
+		SpGFsIndkVHbpYVRVU(e) {
 			if (
 				((this.experienceLevel += e),
 				this.experienceLevel < 0 &&
@@ -26866,22 +26866,22 @@ var ip = class {
 		update() {
 			(this.noPhysics = this.mode.isSpectator()),
 				this.mode.isSpectator() && (this.onGround = !1),
-				this.RxenNtlZSoRmJuD(),
+				this.jQLXEJDjioiGUKF(),
 				this.xpCooldown > 0 && --this.xpCooldown,
 				this.isPlayerSleeping()
 					? (++this.sleepTimer,
 						this.sleepTimer > 100 && (this.sleepTimer = 100),
 						this.world.isServer &&
-							(this.nUDqVkN()
-								? this.world.isDaytime() && this.MAhQXfNxmnrx(!1, !0, !0)
-								: this.MAhQXfNxmnrx(!0, !0, !1)))
+							(this.wTBPkVM()
+								? this.world.isDaytime() && this.kptskKFCSEyB(!1, !0, !0)
+								: this.kptskKFCSEyB(!0, !0, !1)))
 					: this.sleepTimer > 0 &&
 						(++this.sleepTimer,
 						this.sleepTimer >= 110 && (this.sleepTimer = 0)),
 				rf(10) == 0 &&
 					this.inventory.hasItem(z.infernium_ingot) &&
 					this.setFire(1),
-				this.gyfgrGCtJsArYYiVi() && (this.fire = 0),
+				this.TzVrKyVsZxubKIsOb() && (this.fire = 0),
 				super.update(),
 				this.world.isServer &&
 					this.openContainer != null &&
@@ -26899,36 +26899,36 @@ var ip = class {
 					this.foodStats.setFoodLevel(this.foodStats.getFoodLevel() + 1));
 		}
 		setCurrentItemOrArmor(e, t) {
-			this.inventory.DbaifMGHLXHqtE[e - 1] = t;
+			this.inventory.oQfprhIbkotHyb[e - 1] = t;
 		}
-		yLbLuCYfVWT(e) {
-			this.inventory.yLbLuCYfVWT(e);
+		LSuxICQDOpq(e) {
+			this.inventory.LSuxICQDOpq(e);
 		}
-		kpzuSltuiOkliPfskZHX() {
+		zZjdQvRzvsajSzQZEjvu() {
 			this.setSize(0.6, 1.8),
-				super.kpzuSltuiOkliPfskZHX(),
+				super.zZjdQvRzvsajSzQZEjvu(),
 				this.setHealth(this.getMaxHealth()),
 				(this.deathTime = 0);
 		}
-		qiHxJSvPDtlr(e, t) {
+		EHPeDcaMYmjL(e, t) {
 			if (
 				this.isEntityInvulnerable(e) ||
 				(this.abilities.invulnerable && !e.canHarmInCreative())
 			)
 				return;
 			!e.isUnblockable() && this.isBlocking() && t > 0 && (t = (1 + t) * 0.5),
-				(t = this.jsKWhUPtbwRBoIwsxGLOgi(e, t)),
-				(t = this.XsGmfAjQLTHKlFjicQhMhJnjxzmuX(e, t));
+				(t = this.gBNBLdsMfNEfCoarZNiFgU(e, t)),
+				(t = this.hykpKLNrGWVwIylgzrCOQLeWPQAzb(e, t));
 			let n = t;
 			if (
-				((t = Math.max(t - this.oFdflIheFKVgDbCpkem(), 0)),
-				this.lAWVbxOTpOYVfPsyTeZ(this.oFdflIheFKVgDbCpkem() - (n - t)),
+				((t = Math.max(t - this.hwnudaSahEeXwrPpmMq(), 0)),
+				this.GFmItBTkaQdpYTdiEUB(this.hwnudaSahEeXwrPpmMq() - (n - t)),
 				t != 0)
 			) {
 				this.addExhaustion(e.getHungerDamage());
 				let n = this.getHealth();
 				this.setHealth(this.getHealth() - t),
-					this.opSHsRvjPhDTkVId().trackDamage(e, n, t);
+					this.TtZdhtLOjZIfYFnc().trackDamage(e, n, t);
 			}
 		}
 		attackEntityFrom(e, t) {
@@ -26941,7 +26941,7 @@ var ip = class {
 				return !1;
 			this.isPlayerSleeping() &&
 				this.world.isServer &&
-				this.MAhQXfNxmnrx(!0, !0, !1);
+				this.kptskKFCSEyB(!0, !0, !1);
 			let n = e.getEntity();
 			return (
 				n instanceof Rp && n.shootingEntity && (n = n.shootingEntity),
@@ -26981,24 +26981,24 @@ var ip = class {
 		closeScreen() {
 			this.openContainer = this.inventoryContainer;
 		}
-		hLQosuvefMOH() {
+		cdmSdnUTngXb() {
 			if (this.world.isServer && this.sneak)
 				this.mountEntity(null), (this.sneak = !1);
 			else {
 				let e = this.yaw,
 					t = this.pitch;
-				super.hLQosuvefMOH(),
+				super.cdmSdnUTngXb(),
 					this.ridingEntity instanceof Op &&
 						((this.pitch = t),
 						(this.yaw = e),
 						(this.renderYawOffset = this.ridingEntity.renderYawOffset));
 			}
 		}
-		IVEPBfpyPYwHlNjaJasN(e) {}
-		moEkTOMnSlsWwewBt() {
+		MbeXpadqPKeCTaWHFLeK(e) {}
+		wDLugPmngLAgTfDbD() {
 			return this.getHealth() <= 0 || this.isPlayerSleeping();
 		}
-		nVYdgYHqJFtKBtWMT(e, t = !0) {
+		DjJghDmLEsZMKplSF(e, t = !0) {
 			return this.dropItem(e, !1, !1);
 		}
 		dropItem(e, t, n, r = !0) {
@@ -27009,7 +27009,7 @@ var ip = class {
 				if (
 					(i.setPosition(new D(this.pos.x, n, this.pos.z)),
 					(i.world = this.world),
-					r ? i.jyLKEbFWhSharX(40) : i.jyLKEbFWhSharX(0),
+					r ? i.rYDWkuFoSyrktd(40) : i.rYDWkuFoSyrktd(0),
 					t)
 				) {
 					let e = Math.random() * 0.5,
@@ -27029,16 +27029,16 @@ var ip = class {
 						(i.motion.y += (Math.random() - Math.random()) * 0.1),
 						(i.motion.z += Math.sin(n) * t);
 				}
-				return this.LxoVKISfEdVbDXeVhcMfnif(i), i;
+				return this.RFHxHOwcKPLVauZguuFHjtQ(i), i;
 			}
 		}
-		LxoVKISfEdVbDXeVhcMfnif(e) {
+		RFHxHOwcKPLVauZguuFHjtQ(e) {
 			this.world.spawnEntityInWorld(e);
 		}
 		canHarvestBlock(e) {
-			return this.inventory.phBtGKAjUqdZjqPKVI(e);
+			return this.inventory.rbeNolWgTEXhlqutmR(e);
 		}
-		iQKIVcSuWQpbdYnAjzyD(e) {
+		eJGlWnsqPDdFnfoMSjNI(e) {
 			let t = this.inventory.getStrVsBlock(e);
 			if (t > 1) {
 				let e = Hd.getEfficiencyModifier(this),
@@ -27069,7 +27069,7 @@ var ip = class {
 				t *= e;
 			}
 			return (
-				this.fhgzMgSKTwVNQtBiWA(L.water) && (t /= 5),
+				this.qVelQMcPZDLVNanPTL(L.water) && (t /= 5),
 				this.onGround || (t /= 5),
 				t
 			);
@@ -27081,13 +27081,13 @@ var ip = class {
 		getFoodStats() {
 			return this.foodStats;
 		}
-		EegPBXTTFGqp() {
+		iwBVpVDqhEXu() {
 			return `game.player.hurt`;
 		}
-		UKUPNF(e) {
+		ZtJTAE(e) {
 			return (e || this.foodStats.needFood()) && !this.abilities.invulnerable;
 		}
-		hltpNzNFdI() {
+		NbKZNOTJMc() {
 			return this.getHealth() > 0 && this.getHealth() < this.getMaxHealth();
 		}
 		setItemInUse(e, t) {
@@ -27095,14 +27095,14 @@ var ip = class {
 				((this.itemInUse = e),
 				(this.itemInUseCount = t),
 				(this.itemInUseSlot = this.inventory.currentItem),
-				this.world.isServer && this.acnuEMWwT(!0));
+				this.world.isServer && this.sPvQKWXcp(!0));
 		}
-		nUDqVkN() {
+		wTBPkVM() {
 			return this.playerLocation
 				? this.world.getBlockState(this.playerLocation).getBlock() instanceof Zf
 				: !1;
 		}
-		static async xdOGhDiFaiOcYOaRjej(e, t, n) {
+		static async uipswVVAjwHXvUzPmuR(e, t, n) {
 			await e.chunkProvider.loadChunk(t.x >> 4, t.z >> 4);
 			let r = e.getBlockState(t).getBlock();
 			if (r instanceof Zf) return Zf.getSafeExitLocation(e, t, 0);
@@ -27112,7 +27112,7 @@ var ip = class {
 				return n && i ? t : null;
 			} else return null;
 		}
-		zkNXWuppjOswB(e, t) {
+		OeLHsSAOSYInL(e, t) {
 			e.getItemUseAction() == Ac.DRINK &&
 				this.playSound(`random.drink`, 0.5, Math.random() * 0.1 + 0.9),
 				e.getItemUseAction() == Ac.EAT &&
@@ -27122,12 +27122,12 @@ var ip = class {
 						(Math.random() - Math.random()) * 0.2 + 1,
 					);
 		}
-		pDRjIuimZWGmWPDWeePOMtJebN() {
+		vFTYavJLiETNewTvWTbiRsZMbY() {
 			this.inventory.setInventorySlotContents(this.inventory.currentItem, null);
 		}
 		onItemUseFinish() {
 			if (this.itemInUse != null) {
-				this.zkNXWuppjOswB(this.itemInUse, 16);
+				this.OeLHsSAOSYInL(this.itemInUse, 16);
 				let e = this.itemInUse.stackSize,
 					t = this.itemInUse.onItemUseFinish(this.world, this),
 					n =
@@ -27137,7 +27137,7 @@ var ip = class {
 				(t != this.itemInUse || (t != null && t.stackSize != e)) &&
 					((this.inventory.mainInventory[n] = t),
 					t.stackSize == 0 && (this.inventory.mainInventory[n] = null)),
-					this.eKvFaBdOYmwryL();
+					this.WNyLqGPxqfOSCO();
 			}
 		}
 		handleStatusUpdate(e) {
@@ -27145,14 +27145,14 @@ var ip = class {
 				? this.onItemUseFinish()
 				: e == 23 || e == 22 || super.handleStatusUpdate(e);
 		}
-		oFdflIheFKVgDbCpkem() {
+		hwnudaSahEeXwrPpmMq() {
 			return this.getDataWatcher().getWatchableObjectFloat(17);
 		}
-		lAWVbxOTpOYVfPsyTeZ(e) {
+		GFmItBTkaQdpYTdiEUB(e) {
 			e < 0 && (e = 0), this.getDataWatcher().updateObject(17, e);
 		}
 		getInventory() {
-			return this.inventory.DbaifMGHLXHqtE;
+			return this.inventory.oQfprhIbkotHyb;
 		}
 		playSound(e, t, n) {
 			this.profile?.vanished
@@ -27170,24 +27170,24 @@ var ip = class {
 		isPlayerSleeping() {
 			return this.sleeping;
 		}
-		ZeshJORzwhbnOxisVOx() {
+		MSCMhdPqBkQcUBpbkdc() {
 			return this.sleeping && this.sleepTimer >= 100;
 		}
-		YhVuQNLSejEls() {
+		ztpLyoSlIADOO() {
 			return this.sleepTimer;
 		}
-		ldEZELMEkkJvWO() {
+		PCmCFbxbjcgnOA() {
 			return this.spawnChunk;
 		}
-		CLCVBbSZhngBq() {
+		zUEPAdiCqkHcZ() {
 			return this.spawnForced;
 		}
-		PXBQnfJLEqBsd(e, t) {
+		yQAtTdBxJtmUd(e, t) {
 			e == null
 				? ((this.spawnChunk = null), (this.spawnForced = !1))
 				: ((this.spawnChunk = e), (this.spawnForced = t));
 		}
-		MAhQXfNxmnrx(e, t, n) {
+		kptskKFCSEyB(e, t, n) {
 			if ((this.setSize(0.6, 1.8), this.playerLocation)) {
 				let e = this.world.getBlockState(this.playerLocation);
 				if (e.getBlock() instanceof Zf) {
@@ -27204,9 +27204,9 @@ var ip = class {
 			(this.sleeping = !1),
 				this.world.isServer && t && this.world.updateAllPlayersSleepingFlag(),
 				(this.sleepTimer = e ? 0 : 100),
-				n && this.playerLocation && this.PXBQnfJLEqBsd(this.playerLocation, !1);
+				n && this.playerLocation && this.yQAtTdBxJtmUd(this.playerLocation, !1);
 		}
-		XnmdqmwH(e) {
+		QHKEYtlx(e) {
 			if (this.world.isServer) {
 				if (this.isPlayerSleeping() || !this.isEntityAlive()) return 4;
 				if (this.world.isDaytime()) return 2;
@@ -27219,7 +27219,7 @@ var ip = class {
 				if (
 					this.world.getEntitiesWithinAABB(
 						`zombie`,
-						new ir(
+						new Cn(
 							new D(e.x - 8, e.y - 5, e.z - 8),
 							new D(e.x + 8, e.y + 5, e.z + 8),
 						),
@@ -27262,7 +27262,7 @@ var ip = class {
 		isSpectator() {
 			return this.mode.isSpectator();
 		}
-		aULKSGvWBrOacYqPf() {
+		MJeXRQqDunnBwsYdX() {
 			return !1;
 		}
 		writeEntityToNBT(e) {
@@ -27310,7 +27310,7 @@ var ip = class {
 				(e.SelectedItemSlot = I.int(this.inventory.currentItem)),
 				(e.Sleeping = I.int(+!!this.sleeping)),
 				(e.SleepTimer = I.int(this.sleepTimer)),
-				this.abilities.SVDuTvMFauFzmstLpusMet(e);
+				this.abilities.JqqzRobkpGzcLaXDAjLDDJ(e);
 		}
 		readEntityFromNBT(t) {
 			super.readEntityFromNBT(t),
@@ -27325,14 +27325,14 @@ var ip = class {
 				(this.xpSeed = t.XpSeed ?? 0),
 				this.sleeping &&
 					((this.playerLocation = new F(this.pos.x, this.pos.y, this.pos.z)),
-					this.MAhQXfNxmnrx(!0, !0, !1)),
+					this.kptskKFCSEyB(!0, !0, !1)),
 				t.SpawnX &&
 					t.SpawnY &&
 					t.SpawnZ &&
 					((this.spawnChunk = new F(t.SpawnX, t.SpawnY, t.SpawnZ)),
 					(this.spawnForced = t.SpawnForced)),
 				this.foodStats.readNBT(t),
-				this.abilities.ELpXZoDLacobzkoegdTUFog(t),
+				this.abilities.OnLuFpEpzdQMROZoWYMSAOo(t),
 				(this.homes = {});
 			let n = t.Homes;
 			if (Array.isArray(n))
@@ -27360,23 +27360,23 @@ var ip = class {
 						typeof e.Quest == `string` &&
 						this.guideProgress.claimed.push(e.Quest);
 		}
-		aiClQcMxSHlgJFqhZARIOS() {
+		cPFCLqRjOxSAZuKyUtAxgW() {
 			return this.inventory.getCurrentItem();
 		}
 		interactFirst(e) {
 			let t = new vf(e, this, this.pos, null);
 			return this.world.handleEvent(t), !t.cancelled;
 		}
-		atejdhHCOQbD(e) {
+		aSfOrdNPxFFC(e) {
 			if (this.isSpectator()) return !1;
 			{
-				let t = this.aiClQcMxSHlgJFqhZARIOS(),
+				let t = this.cPFCLqRjOxSAZuKyUtAxgW(),
 					n = t == null ? null : t.clone();
 				return e.interactFirst(this)
 					? (t != null &&
-							t == this.aiClQcMxSHlgJFqhZARIOS() &&
+							t == this.cPFCLqRjOxSAZuKyUtAxgW() &&
 							(t.stackSize <= 0 && !this.abilities.creative
-								? this.pDRjIuimZWGmWPDWeePOMtJebN()
+								? this.vFTYavJLiETNewTvWTbiRsZMbY()
 								: t.stackSize < (n?.stackSize ?? 0) &&
 									this.abilities.creative &&
 									(t.stackSize = n?.stackSize ?? 0)),
@@ -27387,7 +27387,7 @@ var ip = class {
 							t?.interactWithEntity(this, e))
 						? (t.stackSize <= 0 &&
 								!this.abilities.creative &&
-								this.pDRjIuimZWGmWPDWeePOMtJebN(),
+								this.vFTYavJLiETNewTvWTbiRsZMbY(),
 							!0)
 						: !1;
 			}
@@ -27416,10 +27416,10 @@ var ip = class {
 					: ((this.profile.cosmetics.color = `white`),
 						this.actualName && (this.name = this.actualName));
 		}
-		CAWXyURiFaXKxUofR() {
+		dnKjQLmWeVrTqtdnG() {
 			return 10;
 		}
-		sZHfjcUDpyeovPppJa() {
+		nwyDQPgyMsbkJawrAy() {
 			return 80;
 		}
 	},
@@ -27731,22 +27731,22 @@ var ip = class {
 				(this.ticksInGround = 0),
 				(this.ticksInAir = 0);
 		}
-		iGYVGcMhrfkvXlY() {
+		lOriqJlDVkEfJZk() {
 			return 0.99;
 		}
-		SjKysFSdFFxKqnOO() {
+		EXjvMlpubmQsGmkd() {
 			return 0.8;
 		}
-		gvEevtLyAIoZLifzjV() {
+		lrCMmimvkcSYIvVMco() {
 			return 0.03;
 		}
-		mBLGZlQsKiAWHmWzjitdYKoveKAdLUu() {
+		ayaaPdxOLTaISHgBXXuscUdmUTQLLiO() {
 			return !1;
 		}
-		mYkXjfhclDMERtzXfKffTROO() {
+		jcWPhUgJMdhFRBXcFENmQvFe() {
 			return !0;
 		}
-		tjjBsPcryVgPhtmQZ() {
+		sEqciEyuhoiUjdGdV() {
 			for (let e = 0; e < 4; ++e) {
 				let e = 0.25;
 				this.world.spawnParticle(
@@ -27760,7 +27760,7 @@ var ip = class {
 				);
 			}
 		}
-		mShdkZBlUnK() {
+		iyNNvCgkQhm() {
 			let e = new D(this.pos.x, this.pos.y, this.pos.z),
 				t = new D(
 					this.pos.x + this.motion.x,
@@ -27771,7 +27771,7 @@ var ip = class {
 					e,
 					t,
 					!1,
-					this.mBLGZlQsKiAWHmWzjitdYKoveKAdLUu(),
+					this.ayaaPdxOLTaISHgBXXuscUdmUTQLLiO(),
 					!1,
 					this.world,
 				);
@@ -27783,7 +27783,7 @@ var ip = class {
 					this.pos.z + this.motion.z,
 				)),
 				n != null && (t = new D(n.hitVec.x, n.hitVec.y, n.hitVec.z)),
-				!this.mYkXjfhclDMERtzXfKffTROO() || this.world.isServer)
+				!this.jcWPhUgJMdhFRBXcFENmQvFe() || this.world.isServer)
 			) {
 				let r = null,
 					i = this.world.getEntitiesInAABBexcluding(
@@ -27799,7 +27799,7 @@ var ip = class {
 					if (
 						!o.noPhysics &&
 						o.canBeCollidedWith() &&
-						(!this.mYZWIaTTG(o) || this.ticksInAir >= 5)
+						(!this.czfVHYIUS(o) || this.ticksInAir >= 5)
 					) {
 						let n = _d(
 							o.getEntityBoundingBox().clone().expandByScalar(0.3),
@@ -27816,7 +27816,7 @@ var ip = class {
 			}
 			return n;
 		}
-		FHHuFBPCUvuFhyuZ() {
+		oTdyBtVFcqZnQiJr() {
 			(this.pos.x += this.motion.x),
 				(this.pos.y += this.motion.y),
 				(this.pos.z += this.motion.z);
@@ -27825,9 +27825,9 @@ var ip = class {
 			);
 			(this.yaw = Math.atan2(this.motion.x, this.motion.z)),
 				(this.pitch = Math.atan2(this.motion.y, e));
-			let t = this.iGYVGcMhrfkvXlY(),
-				n = this.gvEevtLyAIoZLifzjV();
-			this.inWater && (this.tjjBsPcryVgPhtmQZ(), (t = this.SjKysFSdFFxKqnOO())),
+			let t = this.lOriqJlDVkEfJZk(),
+				n = this.lrCMmimvkcSYIvVMco();
+			this.inWater && (this.sEqciEyuhoiUjdGdV(), (t = this.EXjvMlpubmQsGmkd())),
 				(this.motion.x *= t),
 				(this.motion.y *= t),
 				(this.motion.z *= t),
@@ -27876,7 +27876,7 @@ var ip = class {
 				(this.motion.x = -Math.sin(r) * Math.cos(this.pitch)),
 					(this.motion.z = -Math.cos(r) * Math.cos(this.pitch)),
 					(this.motion.y = Math.sin(this.pitch)),
-					this.VelaBoblLWiskYRnTKi(
+					this.nscyydmMzwZMelumicu(
 						this.motion.x,
 						this.motion.y,
 						this.motion.z,
@@ -27898,23 +27898,23 @@ var ip = class {
 						u = c / l;
 					this.setLocationAndAngles(t.pos.x + r, this.pos.y, t.pos.z + u, e, n);
 					let d = l * 0.2;
-					this.VelaBoblLWiskYRnTKi(o, s + d, c, a, i);
+					this.nscyydmMzwZMelumicu(o, s + d, c, a, i);
 				}
 			}
 		}
-		jVUQtaZOZ(e) {
+		mguJhzsTh(e) {
 			this.damage = e;
 		}
-		AipJfEPuh() {
+		tMynBKOUy() {
 			return this.damage;
 		}
-		miwkpvrFLijZkvSSRToY(e) {
+		FdVJYHJehPxrGPbwVFXx(e) {
 			this.knockbackStrength = e;
 		}
 		entityInit() {
 			this.dataWatcher.addObject(16, 0);
 		}
-		VelaBoblLWiskYRnTKi(e, t, n, r, i) {
+		nscyydmMzwZMelumicu(e, t, n, r, i) {
 			let a = Math.sqrt(e * e + t * t + n * n);
 			(e /= a),
 				(t /= a),
@@ -27934,24 +27934,24 @@ var ip = class {
 				(this.ticksInGround = 0);
 		}
 		setPositionAndRotation2(e, t, n, r, i, a) {
-			this.setPosition(e, t, n), this.edBpTfmccyY(r, i);
+			this.setPosition(e, t, n), this.AlnylFQVLYK(r, i);
 		}
-		mYZWIaTTG(e) {
+		czfVHYIUS(e) {
 			return e.id === this.shootingEntity.id;
 		}
-		gvEevtLyAIoZLifzjV() {
+		lrCMmimvkcSYIvVMco() {
 			return 0.05;
 		}
-		SjKysFSdFFxKqnOO() {
+		EXjvMlpubmQsGmkd() {
 			return 0.6;
 		}
-		mBLGZlQsKiAWHmWzjitdYKoveKAdLUu() {
+		ayaaPdxOLTaISHgBXXuscUdmUTQLLiO() {
 			return !0;
 		}
-		mYkXjfhclDMERtzXfKffTROO() {
+		jcWPhUgJMdhFRBXcFENmQvFe() {
 			return !1;
 		}
-		tjjBsPcryVgPhtmQZ() {}
+		sEqciEyuhoiUjdGdV() {}
 		update() {
 			if (this.dead) return;
 			super.update();
@@ -27976,7 +27976,7 @@ var ip = class {
 						(this.ticksInAir = 0));
 			else {
 				++this.ticksInAir;
-				let e = this.mShdkZBlUnK();
+				let e = this.iyNNvCgkQhm();
 				if (
 					(e != null &&
 						e.entity != null &&
@@ -28002,7 +28002,7 @@ var ip = class {
 					else if (e.entity != null) {
 						let t = this.motion.length(),
 							n = Math.ceil(t * this.damage);
-						this.eSwoDvHzuxFnf() &&
+						this.IPCFEfNQQHlUq() &&
 							(n += Math.floor(Math.random() * (n / 2 + 2)));
 						let r = Fp.causeArrowDamage(this, this.shootingEntity || this),
 							i = !1;
@@ -28081,12 +28081,12 @@ var ip = class {
 							),
 							(this.inGround = !0),
 							(this.arrowShake = 7),
-							this.LEaXkjSnAWvHG(!1),
+							this.jOBMZfCMJERaS(!1),
 							this.inTile.isAir() ||
 								this.inTile.onEntityCollidedWithBlock(this.world, t, this);
 					}
 				}
-				if (this.eSwoDvHzuxFnf() && this.world.isServer)
+				if (this.IPCFEfNQQHlUq() && this.world.isServer)
 					for (let e = 0; e < 4; ++e)
 						this.world.spawnParticle(
 							_u.CRIT,
@@ -28098,7 +28098,7 @@ var ip = class {
 							-this.motion.z,
 							null,
 						);
-				this.FHHuFBPCUvuFhyuZ(), this.BbUoewXKZoPBHBmAZ();
+				this.oTdyBtVFcqZnQiJr(), this.upZrUektcYdJdePZm();
 			}
 		}
 		onCollideWithPlayer(e) {
@@ -28117,20 +28117,20 @@ var ip = class {
 							0.2,
 							((Math.random() - Math.random()) * 0.7 + 1) * 2,
 						),
-						e.fnkysGmZjbQZ(this, 1),
+						e.LECfGxrZzpxv(this, 1),
 						this.setDead());
 			}
 		}
 		getEyeHeight() {
 			return 0;
 		}
-		LEaXkjSnAWvHG(e) {
+		jOBMZfCMJERaS(e) {
 			let t = this.dataWatcher.getWatchableObjectByte(16);
 			e
 				? this.dataWatcher.updateObject(16, t | 1)
 				: this.dataWatcher.updateObject(16, t & -2);
 		}
-		eSwoDvHzuxFnf() {
+		IPCFEfNQQHlUq() {
 			return (this.dataWatcher.getWatchableObjectByte(16) & 1) != 0;
 		}
 	},
@@ -28166,13 +28166,13 @@ var ip = class {
 				if (((a = (a * a + a * 2) / 3), a < 0.1)) return;
 				a > 1 && (a = 1);
 				let o = new Rp(t, n, a * 2);
-				a == 1 && o.LEaXkjSnAWvHG(!0);
+				a == 1 && o.jOBMZfCMJERaS(!0);
 				let s = new Nae(n);
 				if ((t.handleEvent(s), s.cancelled)) return;
 				let c = Hd.getEnchantmentLevel(Vd.power.effectId, e);
-				c > 0 && o.jVUQtaZOZ(o.AipJfEPuh() + c * 0.5 + 0.5);
+				c > 0 && o.mguJhzsTh(o.tMynBKOUy() + c * 0.5 + 0.5);
 				let l = Hd.getEnchantmentLevel(Vd.punch.effectId, e);
-				l > 0 && o.miwkpvrFLijZkvSSRToY(l),
+				l > 0 && o.FdVJYHJehPxrGPbwVFXx(l),
 					Hd.getEnchantmentLevel(Vd.flame.effectId, e) > 0 && o.setFire(100),
 					e.damageItem(1, n),
 					t.isClient &&
@@ -28465,12 +28465,12 @@ var ip = class {
 				this.attemptDamageItem(e)
 			) {
 				if (
-					(t.FTRJZwSZvZoOchifOkoWC(this), --this.stackSize, t instanceof Np)
+					(t.HedFSWqdWllaCcDxUsJTk(this), --this.stackSize, t instanceof Np)
 				) {
 					let e = t;
 					this.stackSize == 0 &&
 						this.getItem() instanceof zp &&
-						e.pDRjIuimZWGmWPDWeePOMtJebN();
+						e.vFTYavJLiETNewTvWTbiRsZMbY();
 				}
 				this.stackSize < 0 && (this.stackSize = 0), (this.itemDamage = 0);
 			}
@@ -28698,7 +28698,7 @@ var Hp = class extends Mc {
 		}
 		onItemRightClick(e, t, n) {
 			return (
-				n.UKUPNF(this.alwaysEdible) &&
+				n.ZtJTAE(this.alwaysEdible) &&
 					n.setItemInUse(e, this.getMaxItemUseDuration(e)),
 				e
 			);
@@ -29045,25 +29045,25 @@ var Hp = class extends Mc {
 			(this.motion.x = -Math.sin(r) * Math.cos(this.pitch) * n),
 				(this.motion.z = -Math.cos(r) * Math.cos(this.pitch) * n),
 				(this.motion.y = Math.sin(this.pitch) * n),
-				this.VelaBoblLWiskYRnTKi(
+				this.nscyydmMzwZMelumicu(
 					this.motion.x,
 					this.motion.y,
 					this.motion.z,
-					this.INsvgkJFtTC(),
+					this.CIfKcvochtM(),
 					1,
 				);
 		}
-		fUvteFhhlp() {
+		fAQytPkOaJ() {
 			return this.thrower;
 		}
 		entityInit() {}
-		INsvgkJFtTC() {
+		CIfKcvochtM() {
 			return 1.5;
 		}
-		aGiuARyXLCZna() {
+		ZeJsOryBVeNBP() {
 			return 0;
 		}
-		VelaBoblLWiskYRnTKi(e, t, n, r, i) {
+		nscyydmMzwZMelumicu(e, t, n, r, i) {
 			let a = new Bae(this, r, i);
 			this.world.handleEvent(a);
 			let o = Math.sqrt(e * e + t * t + n * n);
@@ -29096,10 +29096,10 @@ var Hp = class extends Mc {
 					return;
 				}
 			} else ++this.ticksInAir;
-			let e = this.mShdkZBlUnK();
-			e != null && this.onImpact(e), this.FHHuFBPCUvuFhyuZ();
+			let e = this.iyNNvCgkQhm();
+			e != null && this.onImpact(e), this.oTdyBtVFcqZnQiJr();
 		}
-		mYZWIaTTG(e) {
+		czfVHYIUS(e) {
 			return e === this.thrower;
 		}
 		onImpact(e) {
@@ -29116,7 +29116,7 @@ var Hp = class extends Mc {
 				(this.wingRotDelta = 1),
 				this.setSize(0.4, 0.7),
 				(this.timeUntilNextEgg = rf(6e3) + 6e3),
-				this.dvZYjvjEDFbLlBbCXcKiM({
+				this.vaYoHynooxpBWBJnOTtwV({
 					panic: { priority: 1, speed: 1.4 },
 					mate: { priority: 2, speed: 1 },
 					followParentBeforeTempt: !0,
@@ -29134,7 +29134,7 @@ var Hp = class extends Mc {
 			super.applyEntityAttributes(),
 				this.applyBaseAttributes([
 					[Au.maxHealth, 4],
-					[Au.sLYAdepgIImgX, 0.25],
+					[Au.NLOgYLKKWRvav, 0.25],
 				]);
 		}
 		onLivingUpdate() {
@@ -29149,7 +29149,7 @@ var Hp = class extends Mc {
 				(this.wingRotation += this.wingRotDelta * 2),
 				this.world.isServer &&
 					!this.isChild() &&
-					!this.jMRhIEMQFVfvwYj() &&
+					!this.OWynkPbwrfCDqnU() &&
 					--this.timeUntilNextEgg <= 0 &&
 					(this.playSound(
 						`mob.chicken.plop`,
@@ -29182,10 +29182,10 @@ var Hp = class extends Mc {
 		isBreedingItem(e) {
 			return e !== null && e.getItem() === z.wheat_seeds;
 		}
-		jMRhIEMQFVfvwYj() {
+		OWynkPbwrfCDqnU() {
 			return this.chickenJockey;
 		}
-		WZNMKfDCVdeaAWIb(e) {
+		aOxMlutghIYmSOrC(e) {
 			this.chickenJockey = e;
 		}
 	},
@@ -29210,7 +29210,7 @@ var Hp = class extends Mc {
 					rf(32) == 0 && (e = 4);
 					for (let t = 0; t < e; ++t) {
 						let e = new qp(this.world);
-						e.nKunFMeyMctnT(-24e3),
+						e.bWZhFEZWhMgRQ(-24e3),
 							e.setLocationAndAngles(
 								this.pos.x,
 								this.pos.y,
@@ -29330,13 +29330,13 @@ var Hp = class extends Mc {
 		toJSON() {
 			return { ...super.toJSON(), type: `$experience_bottle` };
 		}
-		gvEevtLyAIoZLifzjV() {
+		lrCMmimvkcSYIvVMco() {
 			return 0.07;
 		}
-		INsvgkJFtTC() {
+		CIfKcvochtM() {
 			return 0.7;
 		}
-		aGiuARyXLCZna() {
+		ZeJsOryBVeNBP() {
 			return -20;
 		}
 		onImpact(e) {
@@ -29472,7 +29472,7 @@ var em = class e extends wd {
 			(this.motion.x = -Math.sin(this.yaw) * Math.cos(this.pitch) * n),
 				(this.motion.z = -Math.cos(this.yaw) * Math.cos(this.pitch) * n),
 				(this.motion.y = Math.sin(this.pitch) * n),
-				this.VelaBoblLWiskYRnTKi(
+				this.nscyydmMzwZMelumicu(
 					this.motion.x,
 					this.motion.y,
 					this.motion.z,
@@ -29486,7 +29486,7 @@ var em = class e extends wd {
 		getEyeHeight() {
 			return 0;
 		}
-		VelaBoblLWiskYRnTKi(e, t, n, r) {
+		nscyydmMzwZMelumicu(e, t, n, r) {
 			let i = Math.sqrt(e * e + t * t + n * n) || 1;
 			(e = (e / i) * r),
 				(t = (t / i) * r),
@@ -29497,7 +29497,7 @@ var em = class e extends wd {
 		}
 		update() {
 			if ((super.update(), this.world.isServer)) {
-				let e = this.angler?.aiClQcMxSHlgJFqhZARIOS();
+				let e = this.angler?.cPFCLqRjOxSAZuKyUtAxgW();
 				if (
 					!this.angler ||
 					this.angler.dead ||
@@ -29535,7 +29535,7 @@ var em = class e extends wd {
 					(this.ticksInGround = 0),
 					(this.ticksInAir = 0);
 			} else ++this.ticksInAir;
-			let t = this.mShdkZBlUnK();
+			let t = this.iyNNvCgkQhm();
 			if (t != null)
 				if (t.entity != null) {
 					if (this.world.isServer && t.entity instanceof Fd && this.angler) {
@@ -29577,7 +29577,7 @@ var em = class e extends wd {
 					e.sliceBox.max.set(r.max.x, a, r.max.z),
 					this.world.isAABBInMaterial(e.sliceBox, L.water) && (i += 1 / 5);
 			}
-			i > 0 && this.world.isServer && this.vODZtGPxfok(i),
+			i > 0 && this.world.isServer && this.ZyYLpOscqmu(i),
 				i > 0 &&
 					this.ticksCatchable > 0 &&
 					(this.motion.y -=
@@ -29588,7 +29588,7 @@ var em = class e extends wd {
 				this.motion.multiplyScalar(a),
 				this.setPosition(this.pos);
 		}
-		vODZtGPxfok(e) {
+		ZyYLpOscqmu(e) {
 			if (this.ticksCatchable > 0) {
 				--this.ticksCatchable;
 				return;
@@ -29643,7 +29643,7 @@ var em = class e extends wd {
 			}
 			this.ticksCaughtDelay = M.default.random(100, 900);
 		}
-		mShdkZBlUnK() {
+		iyNNvCgkQhm() {
 			let e = new D(this.pos.x, this.pos.y, this.pos.z),
 				t = new D(
 					this.pos.x + this.motion.x,
@@ -29685,7 +29685,7 @@ var em = class e extends wd {
 			}
 			return n;
 		}
-		zwmmEIhbsgvPOfAYFfjx() {
+		WmbQcctPcAUQKyyYRMTc() {
 			if (!this.world.isServer) return 0;
 			let e = 0;
 			if (this.caughtEntity != null) {
@@ -29738,7 +29738,7 @@ var em = class e extends wd {
 			return { ...super.toJSON(), type: `$fishing_bobber` };
 		}
 		static {
-			this.sliceBox = new ir();
+			this.sliceBox = new Cn();
 		}
 	},
 	tm = class extends Mc {
@@ -29767,7 +29767,7 @@ var em = class e extends wd {
 			let r = n.fishEntity != null;
 			if (r) {
 				if (t.isServer) {
-					let t = n.fishEntity.zwmmEIhbsgvPOfAYFfjx();
+					let t = n.fishEntity.WmbQcctPcAUQKyyYRMTc();
 					e.damageItem(t, n);
 				}
 			} else t.isServer && t.spawnEntityInWorld(new em(t, n));
@@ -30342,7 +30342,7 @@ var rm = class extends Mc {
 			Ip.fireFromRayTrace(this, this.world, e) &&
 				(e.entity != null &&
 					e.entity.attackEntityFrom(
-						Fp.causeThrownDamage(this, this.fUvteFhhlp()),
+						Fp.causeThrownDamage(this, this.fAQytPkOaJ()),
 						0,
 					),
 				this.world.isServer && this.setDead());
@@ -30493,20 +30493,20 @@ var rm = class extends Mc {
 				(this.type = `potion`),
 				n && (this.potionDamage = n);
 		}
-		gvEevtLyAIoZLifzjV() {
+		lrCMmimvkcSYIvVMco() {
 			return 0.05;
 		}
-		INsvgkJFtTC() {
+		CIfKcvochtM() {
 			return 0.5;
 		}
-		aGiuARyXLCZna() {
+		ZeJsOryBVeNBP() {
 			return -20;
 		}
-		jsgjNJXSwIPyjzi(e) {
+		GwShxPyXsSPKbxC(e) {
 			(this.potionDamage ??= new Vp(z.potion, 1, 0)),
 				this.potionDamage.setItemDamage(e);
 		}
-		eFDXYrNMcTJGPBU() {
+		PRhTgpMDFuvFtae() {
 			return (
 				(this.potionDamage ??= new Vp(z.potion, 1, 0)),
 				this.potionDamage.getMetadata()
@@ -30699,22 +30699,22 @@ var rm = class extends Mc {
 				this.getEquipmentInSlot(4),
 			];
 		}
-		nwaEtQiMyU() {
+		zCjQPsrbvW() {
 			return !1;
 		}
-		WtoIBRKMWEo() {
+		PbjPPFroyKI() {
 			return !1;
 		}
-		GhyhdJcgWLHtSVIPS(e) {}
-		PAquvlqVLZvZTe() {
+		PgfdXjHgzTobZupxm(e) {}
+		nzoIAeHNdzKmjS() {
 			return null;
 		}
 		interactFirst(e) {
-			return this.TSngLJZPNA(e, new D(this.pos.x, this.pos.y + 1, this.pos.z));
+			return this.KzVYFtvtKP(e, new D(this.pos.x, this.pos.y + 1, this.pos.z));
 		}
-		TSngLJZPNA(e, t) {
+		KzVYFtvtKP(e, t) {
 			if (!this.world.isServer || e.isSpectator()) return !0;
-			let n = e.aiClQcMxSHlgJFqhZARIOS();
+			let n = e.cPFCLqRjOxSAZuKyUtAxgW();
 			if (n != null && n.stackSize > 0) {
 				let t = n.getItem(),
 					r = t instanceof yu ? t.armorType + 1 : +(t?.name === `player_head`),
@@ -30729,23 +30729,23 @@ var rm = class extends Mc {
 								e.inventory.currentItem,
 								null,
 							),
-						i != null && this.EWvJmljYiqoIVBQcKW(e, i)),
+						i != null && this.bvhNwQbgqVFXgDJnME(e, i)),
 					!0
 				);
 			}
-			let r = this.iXZmTsLuIJnzPMdDK(t.y - this.pos.y),
+			let r = this.rprUOXvdGqtcZbZxA(t.y - this.pos.y),
 				i = this.getEquipmentInSlot(r);
 			return (
 				(i ??= ((r = 0), this.getEquipmentInSlot(0))),
 				i != null &&
-					(this.setCurrentItemOrArmor(r, null), this.EWvJmljYiqoIVBQcKW(e, i)),
+					(this.setCurrentItemOrArmor(r, null), this.bvhNwQbgqVFXgDJnME(e, i)),
 				!0
 			);
 		}
-		iXZmTsLuIJnzPMdDK(e) {
+		rprUOXvdGqtcZbZxA(e) {
 			return e >= 1.5 ? 1 : e >= 0.9 ? 2 : e >= 0.5 ? 3 : 4;
 		}
-		EWvJmljYiqoIVBQcKW(e, t) {
+		bvhNwQbgqVFXgDJnME(e, t) {
 			e.inventory.addItemStackToInventory(t) || this.entityDropItem(t, 0);
 		}
 		attackEntityFrom(e, t) {
@@ -30755,12 +30755,12 @@ var rm = class extends Mc {
 				r = n instanceof Np && n.abilities.creative;
 			return (
 				!r && !e.isExplosion() && this.entityDropItem(new Vp(z.armor_stand), 0),
-				r || this.tPTNeAhdKclT(),
+				r || this.aNPOKHckbNXr(),
 				this.setDead(),
 				!0
 			);
 		}
-		tPTNeAhdKclT() {
+		aNPOKHckbNXr() {
 			for (let e = 0; e <= 4; ++e) {
 				let t = this.getEquipmentInSlot(e);
 				t != null &&
@@ -30778,7 +30778,7 @@ var rm = class extends Mc {
 				l = c(r) ? r : r.offset(i),
 				u = l.up();
 			if (!c(l) || !c(u)) return !1;
-			let d = new ir(
+			let d = new Cn(
 				new D(l.getX(), l.getY(), l.getZ()),
 				new D(l.getX() + 1, l.getY() + 2, l.getZ() + 1),
 			);
@@ -30834,16 +30834,16 @@ var wm = class extends wd {
 				this.dataWatcher.addObject(18, 1),
 				this.dataWatcher.addObject(19, 0);
 		}
-		kHbLYLttmHXQssA(e) {
+		PQNiDDMxPEFgavA(e) {
 			return e.getEntityBoundingBox();
 		}
 		getCollisionBoundingBox() {
 			return this.getEntityBoundingBox();
 		}
-		WtoIBRKMWEo() {
+		PbjPPFroyKI() {
 			return !0;
 		}
-		WwgpWqQdPvrbRgFVb() {
+		qXGWIQOLALoeNGBXU() {
 			return -0.3;
 		}
 		attackEntityFrom(e, t) {
@@ -30855,27 +30855,27 @@ var wm = class extends wd {
 				)
 					return !1;
 				{
-					this.HXoErwQNtyWxwhpTLcV(-this.dfcrXHdkuAPxxiQwnYp()),
-						this.yDrDDjLnekbYXKG(10),
-						this.tqWhNbMLrVNmbW(this.PBLsTKSWpybpiG() + t * 10),
+					this.RGPggtvuWpvRgpZHNyw(-this.tsOKikBflYpJVxoqPlF()),
+						this.AylPDFWzTgsLwHQ(10),
+						this.VJhqMIKTEyoZuN(this.ZUfyZtFXhJFhuZ() + t * 10),
 						this.setBeenAttacked();
 					let n =
 						e.getEntity() instanceof Np && e.getEntity().abilities.creative;
 					return (
-						(n || this.PBLsTKSWpybpiG() > 40) &&
+						(n || this.ZUfyZtFXhJFhuZ() > 40) &&
 							(this.riddenByEntity !== null &&
 								this.riddenByEntity.mountEntity(this),
-							n || this.robrdxhEOUnlrtxDdl(z.getItemByName(this.texture), 1, 0),
+							n || this.mCHgmDUJvVYmzidokY(z.getItemByName(this.texture), 1, 0),
 							this.setDead()),
 						!0
 					);
 				}
 			} else return !0;
 		}
-		BbggDWjQMLdRBZqJXtbp() {
-			this.HXoErwQNtyWxwhpTLcV(-this.dfcrXHdkuAPxxiQwnYp()),
-				this.yDrDDjLnekbYXKG(10),
-				this.tqWhNbMLrVNmbW(this.PBLsTKSWpybpiG() * 11);
+		eWfVqOxWyRCLZVVQEVqW() {
+			this.RGPggtvuWpvRgpZHNyw(-this.tsOKikBflYpJVxoqPlF()),
+				this.AylPDFWzTgsLwHQ(10),
+				this.VJhqMIKTEyoZuN(this.ZUfyZtFXhJFhuZ() * 11);
 		}
 		canBeCollidedWith() {
 			return !this.dead;
@@ -30901,13 +30901,13 @@ var wm = class extends wd {
 					c = n - this.pos.z;
 				(o || a * a + s * s + c * c > 16) &&
 					(this.setPosition(e, t, n),
-					this.edBpTfmccyY(r, i),
+					this.AlnylFQVLYK(r, i),
 					(this.motion.x = this.velocityX),
 					(this.motion.y = this.velocityY),
 					(this.motion.z = this.velocityZ));
 			}
 		}
-		qMeUKdITVHb(e, t, n) {
+		YMTjSHdjIzp(e, t, n) {
 			if (!isFinite(e) || !isFinite(t) || !isFinite(n))
 				throw Error(`Invalid velocity`);
 			(this.velocityX = e),
@@ -30918,10 +30918,10 @@ var wm = class extends wd {
 		}
 		update() {
 			super.update(),
-				this.DJRqaGzChvSMOJA() > 0 &&
-					this.yDrDDjLnekbYXKG(this.DJRqaGzChvSMOJA() - 1),
-				this.PBLsTKSWpybpiG() > 0 &&
-					this.tqWhNbMLrVNmbW(this.PBLsTKSWpybpiG() - 1),
+				this.WqXZcYeRZqBpMYP() > 0 &&
+					this.AylPDFWzTgsLwHQ(this.WqXZcYeRZqBpMYP() - 1),
+				this.ZUfyZtFXhJFhuZ() > 0 &&
+					this.VJhqMIKTEyoZuN(this.ZUfyZtFXhJFhuZ() - 1),
 				(this.prevPos.x = this.pos.x),
 				(this.prevPos.y = this.pos.y),
 				(this.prevPos.z = this.pos.z);
@@ -30978,7 +30978,7 @@ var wm = class extends wd {
 							(this.boatPitch - this.pitch) / this.boatPosRotationIncrements),
 						--this.boatPosRotationIncrements,
 						this.setPosition(e, t, n),
-						this.edBpTfmccyY(this.yaw, this.pitch);
+						this.AlnylFQVLYK(this.yaw, this.pitch);
 				} else
 					(this.motion.x *= 0.99),
 						(this.motion.y *= 0.95),
@@ -30990,7 +30990,7 @@ var wm = class extends wd {
 				let n = this.getEntityBoundingBox(),
 					r = n.min.y + ((n.max.y - n.min.y) * (e + 0)) / 5 - 0.125,
 					i = n.min.y + ((n.max.y - n.min.y) * (e + 1)) / 5 - 0.125,
-					a = new ir(new D(n.min.x, r, n.min.z), new D(n.max.x, i, n.max.z));
+					a = new Cn(new D(n.min.x, r, n.min.z), new D(n.max.x, i, n.max.z));
 				this.world.isAABBInMaterial(a, L.water) && (t += 1 / 5);
 			}
 			if (t < 1) {
@@ -31000,11 +31000,11 @@ var wm = class extends wd {
 				this.motion.y < 0 && (this.motion.y /= 2), (this.motion.y += 0.007);
 			if (this.riddenByEntity instanceof Fd) {
 				let e = this.riddenByEntity,
-					t = e.yaw - Math.PI / 2 + (-e.atxzXhNxgN * Math.PI) / 2;
+					t = e.yaw - Math.PI / 2 + (-e.zVbpZHiaYd * Math.PI) / 2;
 				(this.motion.x +=
-					Math.cos(t) * this.speedMultiplier * e.rutqrVROSKR * 0.05),
+					Math.cos(t) * this.speedMultiplier * e.unAZjpZwBxI * 0.05),
 					(this.motion.z +=
-						-Math.sin(t) * this.speedMultiplier * e.rutqrVROSKR * 0.05);
+						-Math.sin(t) * this.speedMultiplier * e.unAZjpZwBxI * 0.05);
 			}
 			let n = Math.sqrt(
 				this.motion.x * this.motion.x + this.motion.z * this.motion.z,
@@ -31046,21 +31046,21 @@ var wm = class extends wd {
 			o > s && (o = s),
 				o < -s && (o = -s),
 				(this.yaw += o),
-				this.edBpTfmccyY(this.yaw, this.pitch),
+				this.AlnylFQVLYK(this.yaw, this.pitch),
 				this.world.isServer &&
 					this.riddenByEntity !== null &&
 					this.riddenByEntity.dead &&
 					(this.riddenByEntity = null);
 		}
-		NtbrJGCswoLSVniiFRz() {
+		MkRBYLbHTmKzhIkoJkp() {
 			if (this.riddenByEntity !== null) {
 				let e = Math.cos(this.yaw) * 0.4,
 					t = -Math.sin(this.yaw) * 0.4;
 				this.riddenByEntity.setPosition(
 					this.pos.x + e,
 					this.pos.y +
-						this.WwgpWqQdPvrbRgFVb() +
-						this.riddenByEntity.jMEYRGfRWd(),
+						this.qXGWIQOLALoeNGBXU() +
+						this.riddenByEntity.LxOZNwUOEe(),
 					this.pos.z + t,
 				);
 			}
@@ -31074,7 +31074,7 @@ var wm = class extends wd {
 		readEntityFromNBT(e) {
 			super.readEntityFromNBT(e), (this.texture = e.Texture);
 		}
-		jjpjoGKOdWfbIxJRVBR() {
+		oACwpzBKZUPYBBJvtyp() {
 			return this.riddenByEntity === null;
 		}
 		interactFirst(e) {
@@ -31093,7 +31093,7 @@ var wm = class extends wd {
 					this.world.isServer &&
 						!this.dead &&
 						(this.setDead(),
-						this.robrdxhEOUnlrtxDdl(z.getItemByName(this.texture), 1, 0)),
+						this.mCHgmDUJvVYmzidokY(z.getItemByName(this.texture), 1, 0)),
 					(this.fallDistance = 0))
 				: this.world
 						.getBlockState(F.fromVector(this.pos).down())
@@ -31102,25 +31102,25 @@ var wm = class extends wd {
 					e < 0 &&
 					(this.fallDistance -= e);
 		}
-		tqWhNbMLrVNmbW(e) {
+		VJhqMIKTEyoZuN(e) {
 			this.dataWatcher.updateObject(19, e);
 		}
-		PBLsTKSWpybpiG() {
+		ZUfyZtFXhJFhuZ() {
 			return this.dataWatcher.getWatchableObjectFloat(19);
 		}
-		yDrDDjLnekbYXKG(e) {
+		AylPDFWzTgsLwHQ(e) {
 			this.dataWatcher.updateObject(17, e);
 		}
-		DJRqaGzChvSMOJA() {
-			return this.dataWatcher.YJfZLGOonfmmAktuyJuka(17);
+		WqXZcYeRZqBpMYP() {
+			return this.dataWatcher.eHjnaPmjMseFGhWmPFXjp(17);
 		}
-		HXoErwQNtyWxwhpTLcV(e) {
+		RGPggtvuWpvRgpZHNyw(e) {
 			this.dataWatcher.updateObject(18, e);
 		}
-		dfcrXHdkuAPxxiQwnYp() {
-			return this.dataWatcher.YJfZLGOonfmmAktuyJuka(18);
+		tsOKikBflYpJVxoqPlF() {
+			return this.dataWatcher.eHjnaPmjMseFGhWmPFXjp(18);
 		}
-		STCZTtTjmHUGou(e) {
+		TwUtbgKKgfpKvu(e) {
 			this.isBoatEmpty !== e &&
 				((this.isBoatEmpty = e),
 				(this.boatPosRotationIncrements = 0),
@@ -31169,7 +31169,7 @@ var wm = class extends wd {
 				for (let e = 0; e < o.length; ++e) {
 					let t = o[e];
 					if (t.canBeCollidedWith()) {
-						let e = t.RNhdtWUEsoEmcDqEEgoLAg();
+						let e = t.erPcqThcvmPfsonuHkgSpB();
 						t.getEntityBoundingBox().expandByScalar(e).containsPoint(a) &&
 							(i = !0);
 					}
@@ -31205,7 +31205,7 @@ var wm = class extends wd {
 		onItemUseFinish(e, t, n) {
 			return (
 				n.abilities.creative || e.stackSize--,
-				t.isServer && n.TkXcrOHJzKOeOiSqGd(),
+				t.isServer && n.DFsoqpOsFaxFzoYpMd(),
 				e.stackSize <= 0 ? new Vp(z.bucket) : e
 			);
 		}
@@ -31319,19 +31319,19 @@ var wm = class extends wd {
 			super(e), (this.hangingPosition = t), this.setSize(0.5, 0.5);
 		}
 		entityInit() {}
-		aXwUorAGvYXYvqeqhBdiYMMoRed(e) {
+		LmlcLYLACtkBUeXxkAusWoRtWEp(e) {
 			(this.facingDirection = e),
 				(this.prevYaw = this.yaw =
 					((this.facingDirection.index + 5) * Math.PI) / 4),
-				this.DgMysZBChkBHLGxTt();
+				this.xHWtSXtaVJRykGamw();
 		}
-		DgMysZBChkBHLGxTt() {
+		xHWtSXtaVJRykGamw() {
 			if (this.facingDirection != null) {
 				let e = this.hangingPosition.x + 0.5,
 					t = this.hangingPosition.y + 0.5,
 					n = this.hangingPosition.z + 0.5,
-					r = this.JKwZsUAhIVhwy(this.WBuHOOyDihkGSh()),
-					i = this.JKwZsUAhIVhwy(this.yUSlavhECSfWrGy());
+					r = this.MGgxUpbGqEFRc(this.yyIknEvGEbqqGl()),
+					i = this.MGgxUpbGqEFRc(this.mcKcsymKVUtOzRV());
 				(e -= this.facingDirection.getFrontOffsetX() * 0.46875),
 					(n -= this.facingDirection.getFrontOffsetZ() * 0.46875),
 					(t += i);
@@ -31341,19 +31341,19 @@ var wm = class extends wd {
 					(this.pos.x = e),
 					(this.pos.y = t),
 					(this.pos.z = n);
-				let o = this.WBuHOOyDihkGSh(),
-					s = this.yUSlavhECSfWrGy(),
-					c = this.WBuHOOyDihkGSh();
+				let o = this.yyIknEvGEbqqGl(),
+					s = this.mcKcsymKVUtOzRV(),
+					c = this.yyIknEvGEbqqGl();
 				this.facingDirection.getAxis() == N.Z ? (c = 1) : (o = 1),
 					(o /= 32),
 					(s /= 32),
 					(c /= 32),
-					this.rAiXfyylIPATJjSiUmFQ(
-						new ir(new D(e - o, t - s, n - c), new D(e + o, t + s, n + c)),
+					this.SIOdlmnwbkBCGFReLoJl(
+						new Cn(new D(e - o, t - s, n - c), new D(e + o, t + s, n + c)),
 					);
 			}
 		}
-		JKwZsUAhIVhwy(e) {
+		MGgxUpbGqEFRc(e) {
 			return e % 32 == 0 ? 0.5 : 0;
 		}
 		onUpdate() {
@@ -31365,12 +31365,12 @@ var wm = class extends wd {
 					((this.tickCounter1 = 0),
 					!this.dead &&
 						!this.onValidSurface() &&
-						(this.setDead(), this.FDpRpTeV(null)));
+						(this.setDead(), this.lmtAvoKy(null)));
 		}
 		onValidSurface() {
 			let t = this.getEntityBoundingBox(),
 				n = 0.001,
-				r = new ir(
+				r = new Cn(
 					new D(t.min.x + n, t.min.y + n, t.min.z + n),
 					new D(t.max.x - n, t.max.y - n, t.max.z - n),
 				);
@@ -31385,12 +31385,12 @@ var wm = class extends wd {
 		canBeCollidedWith() {
 			return !0;
 		}
-		BdEVgNeAoNU(e) {
+		cQWlAXvPULl(e) {
 			return e instanceof Np
 				? this.attackEntityFrom(Fp.causePlayerDamage(e), 0)
 				: !1;
 		}
-		XGtxuclsfxBtDiwTGjZ() {
+		tkcSfVdpVIKNwjkCVWb() {
 			return this.facingDirection;
 		}
 		attackEntityFrom(e, t) {
@@ -31400,20 +31400,20 @@ var wm = class extends wd {
 						this.world.isServer &&
 						(this.setDead(),
 						this.setBeenAttacked(),
-						this.FDpRpTeV(e.getEntity())),
+						this.lmtAvoKy(e.getEntity())),
 					!0);
 		}
 		moveEntity(e, t, n) {
 			this.world.isServer &&
 				!this.dead &&
 				e * e + t * t + n * n > 0 &&
-				(this.setDead(), this.FDpRpTeV(null));
+				(this.setDead(), this.lmtAvoKy(null));
 		}
 		addVelocity(e, t, n) {
 			this.world.isServer &&
 				!this.dead &&
 				e * e + t * t + n * n > 0 &&
-				(this.setDead(), this.FDpRpTeV(null));
+				(this.setDead(), this.lmtAvoKy(null));
 		}
 		fromJSON(e) {
 			(this.id = e.id),
@@ -31423,15 +31423,15 @@ var wm = class extends wd {
 					e.pos.z / 32,
 				));
 			let t = e.facing == null ? P.NORTH : P.fromIndex(e.facing);
-			this.aXwUorAGvYXYvqeqhBdiYMMoRed(t),
+			this.LmlcLYLACtkBUeXxkAusWoRtWEp(t),
 				this.prevPos.copy(this.pos),
 				(this.onGround = !1);
 		}
 		writeEntityToNBT(e) {
 			(e.Facing = I.byte(this.facingDirection.index)),
-				(e.TileX = I.int(this.sXvlGmfXvctPvGyAAG().x)),
-				(e.TileY = I.int(this.sXvlGmfXvctPvGyAAG().y)),
-				(e.TileZ = I.int(this.sXvlGmfXvctPvGyAAG().z));
+				(e.TileX = I.int(this.fGRYXOplaStVFsJHOQ().x)),
+				(e.TileY = I.int(this.fGRYXOplaStVFsJHOQ().y)),
+				(e.TileZ = I.int(this.fGRYXOplaStVFsJHOQ().z));
 		}
 		readEntityFromNBT(e) {
 			this.hangingPosition = new F(e.TileX, e.TileY, e.TileZ);
@@ -31442,9 +31442,9 @@ var wm = class extends wd {
 					: ((t = P.getHorizontal(e.Direction)),
 						(this.hangingPosition = this.hangingPosition.offset(t)))
 				: (t = P.fromIndex(e.Facing)),
-				this.aXwUorAGvYXYvqeqhBdiYMMoRed(t);
+				this.LmlcLYLACtkBUeXxkAusWoRtWEp(t);
 		}
-		EoIdaYToSQflIjeHpaRzAleR() {
+		lftTuTCnQeJjeqVlOKoxIUer() {
 			return !1;
 		}
 		setPosition(e, t, n) {
@@ -31459,9 +31459,9 @@ var wm = class extends wd {
 					(this.pos.z = e.z),
 					(this.hangingPosition = new F(e.x, e.y, e.z))),
 				this.hangingPosition.equals(r) ||
-					(this.DgMysZBChkBHLGxTt(), (this.isAirborne = !0));
+					(this.xHWtSXtaVJRykGamw(), (this.isAirborne = !0));
 		}
-		sXvlGmfXvctPvGyAAG() {
+		fGRYXOplaStVFsJHOQ() {
 			return this.hangingPosition;
 		}
 	},
@@ -31471,53 +31471,53 @@ var wm = class extends wd {
 				(this.identifier = Ud.ITEM_FRAME),
 				(this.type = `item_frame`),
 				(this.itemDropChance = 1),
-				this.aXwUorAGvYXYvqeqhBdiYMMoRed(n);
+				this.LmlcLYLACtkBUeXxkAusWoRtWEp(n);
 		}
 		entityInit() {
-			this.getDataWatcher().PDcBuDZkPkJrkoAKgVs(8, 5),
+			this.getDataWatcher().UlqwRqpZmprCAVwPcnn(8, 5),
 				this.getDataWatcher().addObject(9, 0);
 		}
-		hqnMJVAipHnfTLFohtx(e) {
+		QmvEoitVxpQnzVdRSqK(e) {
 			(e === 8 || e === 9) && this.mesh?.recreate(),
-				super.hqnMJVAipHnfTLFohtx(e);
+				super.QmvEoitVxpQnzVdRSqK(e);
 		}
-		RNhdtWUEsoEmcDqEEgoLAg() {
+		erPcqThcvmPfsonuHkgSpB() {
 			return 0;
 		}
 		attackEntityFrom(e, t) {
 			return this.isEntityInvulnerable(e)
 				? !1
-				: !e.isExplosion() && this.ijsUkmgMdamSpxwj() != null
+				: !e.isExplosion() && this.SuiTyGpikRmZRKKD() != null
 					? (this.world.isServer &&
-							(this.ddQiYouiUyLzEy(e.getEntity(), !1),
-							this.CKpBvjsEOEDrGfqH(null)),
+							(this.nKdlMIAGzMGuzc(e.getEntity(), !1),
+							this.JWpQidReXdnLiura(null)),
 						!0)
 					: super.attackEntityFrom(e, t);
 		}
-		WBuHOOyDihkGSh() {
+		yyIknEvGEbqqGl() {
 			return 12;
 		}
-		yUSlavhECSfWrGy() {
+		mcKcsymKVUtOzRV() {
 			return 12;
 		}
-		ZpuEXfpZcDTGcfCGnYiRv(e) {
+		sWfiRuPFlyhTdLtesLnPc(e) {
 			let t = 16;
 			return (t = t * 64 * this.renderDistanceWeight), e < t * t;
 		}
-		FDpRpTeV(e) {
-			this.ddQiYouiUyLzEy(e, !0);
+		lmtAvoKy(e) {
+			this.nKdlMIAGzMGuzc(e, !0);
 		}
-		ddQiYouiUyLzEy(e, t) {
-			let n = this.ijsUkmgMdamSpxwj();
+		nKdlMIAGzMGuzc(e, t) {
+			let n = this.SuiTyGpikRmZRKKD();
 			if (e instanceof Np && e.abilities.creative) {
-				this.MQoQOagdQUswXRWDzN(n);
+				this.gYoAaXoqabJcRoxwaE(n);
 				return;
 			}
 			t && this.entityDropItem(new Vp(z.item_frame), 0),
 				n != null &&
 					Math.random() < this.itemDropChance &&
 					((n = n.clone()),
-					this.MQoQOagdQUswXRWDzN(n),
+					this.gYoAaXoqabJcRoxwaE(n),
 					this.entityDropItem(n, 0));
 		}
 		entityDropItem(e, t) {
@@ -31527,42 +31527,42 @@ var wm = class extends wd {
 					e,
 					new D(this.pos.x, this.pos.y + t, this.pos.z),
 				);
-				return n.ckiADalhsfKLKtbJtdhmq(), this.world.spawnEntityInWorld(n), n;
+				return n.jNQLowLelMniMneKRxexI(), this.world.spawnEntityInWorld(n), n;
 			} else return null;
 		}
-		MQoQOagdQUswXRWDzN(e) {}
-		ijsUkmgMdamSpxwj() {
-			return this.getDataWatcher().kUPWOsQFGVbCiGdNbzvBLfNyQtC(8);
+		gYoAaXoqabJcRoxwaE(e) {}
+		SuiTyGpikRmZRKKD() {
+			return this.getDataWatcher().vYIXnwZVBrrXVXqxHGvxcifPwJG(8);
 		}
-		CKpBvjsEOEDrGfqH(e) {
-			this.tLnsxfFXVYHaJkKrHYWbSNRHgj(e, !0);
+		JWpQidReXdnLiura(e) {
+			this.qqMEEtVMJmekIQlQWQWsBXCwII(e, !0);
 		}
-		tLnsxfFXVYHaJkKrHYWbSNRHgj(e, t) {
+		qqMEEtVMJmekIQlQWQWsBXCwII(e, t) {
 			e != null && ((e = e.clone()), (e.stackSize = 1), e.setItemFrame(this)),
 				this.getDataWatcher().updateObject(8, e),
-				this.getDataWatcher().SZLvlrvqjkZoDoIJ(8),
+				this.getDataWatcher().nRHEZZXqmWjATRNs(8),
 				t &&
 					this.hangingPosition != null &&
 					this.world.updateComparatorOutputLevel(this.hangingPosition, B.air);
 		}
-		rTMxluacdcs() {
+		XTngjGIuTWG() {
 			return this.getDataWatcher().getWatchableObjectByte(9);
 		}
-		PCAuqjGqWGDSpWF(e) {
-			this.sxIqpcQETsJFN(e, !0);
+		pWKxuSWXgkycFFX(e) {
+			this.lemswQtzOOEme(e, !0);
 		}
-		sxIqpcQETsJFN(e, t) {
+		lemswQtzOOEme(e, t) {
 			this.getDataWatcher().updateObject(9, e % 8),
 				t &&
 					this.hangingPosition != null &&
 					this.world.updateComparatorOutputLevel(this.hangingPosition, B.air);
 		}
 		interactFirst(e) {
-			if (this.ijsUkmgMdamSpxwj() == null) {
+			if (this.SuiTyGpikRmZRKKD() == null) {
 				let t = e.getActiveItemStack();
 				t != null &&
 					this.world.isServer &&
-					(this.CKpBvjsEOEDrGfqH(t),
+					(this.JWpQidReXdnLiura(t),
 					!e.abilities.creative &&
 						--t.stackSize <= 0 &&
 						e.inventory.setInventorySlotContents(
@@ -31570,11 +31570,11 @@ var wm = class extends wd {
 							null,
 						));
 			} else
-				this.world.isServer && this.PCAuqjGqWGDSpWF(this.rTMxluacdcs() + 1);
+				this.world.isServer && this.pWKxuSWXgkycFFX(this.XTngjGIuTWG() + 1);
 			return !0;
 		}
-		VKVqgcbZJfURm() {
-			return this.ijsUkmgMdamSpxwj() == null ? 0 : (this.rTMxluacdcs() % 8) + 1;
+		XXpjvWgGiNuRT() {
+			return this.SuiTyGpikRmZRKKD() == null ? 0 : (this.XTngjGIuTWG() % 8) + 1;
 		}
 	},
 	ioe = class extends Mc {
@@ -31675,19 +31675,19 @@ var wm = class extends wd {
 				this.dataWatcher.addObject(18, 1),
 				this.dataWatcher.addObject(19, 0);
 		}
-		WtoIBRKMWEo() {
+		PbjPPFroyKI() {
 			return !0;
 		}
 		canBeCollidedWith() {
 			return !this.dead;
 		}
-		kHbLYLttmHXQssA(e) {
+		PQNiDDMxPEFgavA(e) {
 			return e.getEntityBoundingBox();
 		}
-		WwgpWqQdPvrbRgFVb() {
+		qXGWIQOLALoeNGBXU() {
 			return 0;
 		}
-		YCniLBDCiCs() {
+		hcTwCWzjRIv() {
 			return aoe;
 		}
 		update() {
@@ -31708,10 +31708,10 @@ var wm = class extends wd {
 				}
 				return;
 			}
-			this.DJRqaGzChvSMOJA() > 0 &&
-				this.yDrDDjLnekbYXKG(this.DJRqaGzChvSMOJA() - 1),
-				this.PBLsTKSWpybpiG() > 0 &&
-					this.tqWhNbMLrVNmbW(this.PBLsTKSWpybpiG() - 1),
+			this.WqXZcYeRZqBpMYP() > 0 &&
+				this.AylPDFWzTgsLwHQ(this.WqXZcYeRZqBpMYP() - 1),
+				this.ZUfyZtFXhJFhuZ() > 0 &&
+					this.VJhqMIKTEyoZuN(this.ZUfyZtFXhJFhuZ() - 1),
 				this.prevPos.copy(this.pos),
 				(this.motion.y -= 0.04);
 			let e = Math.floor(this.pos.x),
@@ -31726,8 +31726,8 @@ var wm = class extends wd {
 			}
 			if (
 				(Om(i.getBlock())
-					? (this.aRAldXTzislHEB(r, i), this.MdaGXLMTCBIgdQZ(r, i))
-					: (this.xpzLfhwkoxyb(), this.kyjaEAWQQgyoxmb()),
+					? (this.vlWEDjfRtySpyr(r, i), this.pjODzIrYIuWKNpr(r, i))
+					: (this.GHsAnvVgvWeu(), this.LkyBqQDiOfHVwij()),
 				this.riddenByEntity !== null &&
 					this.riddenByEntity.dead &&
 					(this.riddenByEntity = null),
@@ -31741,7 +31741,7 @@ var wm = class extends wd {
 					--this.posRotationIncrements;
 			}
 		}
-		aRAldXTzislHEB(e, t) {
+		vlWEDjfRtySpyr(e, t) {
 			(this.fallDistance = 0), (this.onGround = !0), (this.motion.y = 0);
 			let n = km[t.getProp(`shape`)] || km.north_south,
 				r = n[0],
@@ -31754,7 +31754,7 @@ var wm = class extends wd {
 			let l = o / c,
 				u = s / c,
 				d = Math.min(
-					this.YCniLBDCiCs(),
+					this.hcTwCWzjRIv(),
 					Math.hypot(this.motion.x, this.motion.z),
 				);
 			if (((this.motion.x = l * d), (this.motion.z = u * d), a)) {
@@ -31765,23 +31765,23 @@ var wm = class extends wd {
 					o = Math.hypot(n, a) || 1;
 				(this.motion.x += (n / o) * jm), (this.motion.z += (a / o) * jm);
 			}
-			this.azojdRvrVMAbMoieSvu(t, l, u, d), this.OrNhCkOCNWsxJWn(l, u);
+			this.EMykqDfxcCZfPsqeZvz(t, l, u, d), this.TuUzwHvomDBlKgz(l, u);
 			let f = Math.hypot(this.motion.x, this.motion.z);
-			f > this.YCniLBDCiCs() &&
-				((this.motion.x *= this.YCniLBDCiCs() / f),
-				(this.motion.z *= this.YCniLBDCiCs() / f)),
+			f > this.hcTwCWzjRIv() &&
+				((this.motion.x *= this.hcTwCWzjRIv() / f),
+				(this.motion.z *= this.hcTwCWzjRIv() / f)),
 				this.setPosition(
 					this.pos.x + this.motion.x,
 					this.pos.y,
 					this.pos.z + this.motion.z,
 				),
-				this.SAYuCnFTpo(e, r, i, a),
+				this.TYEVRLcamD(e, r, i, a),
 				(this.motion.x *= Am),
 				(this.motion.z *= Am),
 				(this.motion.y = 0),
-				this.azgOBXGXgHwCjIgmp(a, r, i);
+				this.MLGOzFyGbVXYEyILw(a, r, i);
 		}
-		azgOBXGXgHwCjIgmp(e, t, n) {
+		MLGOzFyGbVXYEyILw(e, t, n) {
 			if (
 				(Math.hypot(this.motion.x, this.motion.z) > Pm &&
 					(this.yaw = Math.atan2(-this.motion.x, -this.motion.z)),
@@ -31797,7 +31797,7 @@ var wm = class extends wd {
 				this.pitch = (c >= 0 ? 1 : -1) * coe;
 			} else this.pitch = 0;
 		}
-		SAYuCnFTpo(e, t, n, r) {
+		TYEVRLcamD(e, t, n, r) {
 			let i = n[0] - t[0],
 				a = n[2] - t[2],
 				o = e.x + 0.5,
@@ -31831,11 +31831,11 @@ var wm = class extends wd {
 			}
 			this.setPosition(c, e.y + u + soe, l);
 		}
-		OrNhCkOCNWsxJWn(e, t) {
+		TuUzwHvomDBlKgz(e, t) {
 			let n = this.riddenByEntity;
-			if (!(n instanceof Fd) || n.rutqrVROSKR === 0) return;
+			if (!(n instanceof Fd) || n.unAZjpZwBxI === 0) return;
 			let r = n.getLook(),
-				i = -Math.sign(n.rutqrVROSKR) * (r.x * e + r.z * t >= 0 ? 1 : -1),
+				i = -Math.sign(n.unAZjpZwBxI) * (r.x * e + r.z * t >= 0 ? 1 : -1),
 				a = this.motion.x * e + this.motion.z * t;
 			i > 0 && a < ooe
 				? ((this.motion.x += e * Nm), (this.motion.z += t * Nm))
@@ -31843,7 +31843,7 @@ var wm = class extends wd {
 					a > -0.2 &&
 					((this.motion.x -= e * Nm), (this.motion.z -= t * Nm));
 		}
-		azojdRvrVMAbMoieSvu(e, t, n, r) {
+		EMykqDfxcCZfPsqeZvz(e, t, n, r) {
 			let i = e.getBlock();
 			if (i === B.powered_rail || i === B.activator_rail) {
 				let a = e.getProp(`powered`);
@@ -31861,24 +31861,24 @@ var wm = class extends wd {
 					: ((this.motion.x *= 0.5), (this.motion.z *= 0.5));
 			}
 		}
-		MdaGXLMTCBIgdQZ(e, t) {
+		pjODzIrYIuWKNpr(e, t) {
 			if (!this.world.isServer) return;
 			let n = t.getBlock();
 			n === B.detector_rail
 				? (this.currentRail === null || !this.currentRail.equals(e)) &&
-					(this.kyjaEAWQQgyoxmb(),
+					(this.LkyBqQDiOfHVwij(),
 					n.setDetectorPowered(this.world, e, !0),
 					(this.currentRail = e))
-				: this.kyjaEAWQQgyoxmb();
+				: this.LkyBqQDiOfHVwij();
 		}
-		kyjaEAWQQgyoxmb() {
+		LkyBqQDiOfHVwij() {
 			if (!this.world.isServer || this.currentRail === null) return;
 			let e = this.world.getBlockState(this.currentRail).getBlock();
 			e === B.detector_rail &&
 				e.setDetectorPowered(this.world, this.currentRail, !1),
 				(this.currentRail = null);
 		}
-		xpzLfhwkoxyb() {
+		GHsAnvVgvWeu() {
 			let e = this.riddenByEntity === null ? 0.2 : 0.4;
 			(this.motion.x = Math.max(-e, Math.min(e, this.motion.x))),
 				(this.motion.z = Math.max(-e, Math.min(e, this.motion.z))),
@@ -31891,7 +31891,7 @@ var wm = class extends wd {
 					(this.yaw = Math.atan2(-this.motion.x, -this.motion.z)),
 				(this.pitch = 0);
 		}
-		jjpjoGKOdWfbIxJRVBR() {
+		oACwpzBKZUPYBBJvtyp() {
 			return this.texture === `minecart` && this.riddenByEntity === null;
 		}
 		interactFirst(e) {
@@ -31904,34 +31904,34 @@ var wm = class extends wd {
 				!0
 			);
 		}
-		NtbrJGCswoLSVniiFRz() {
+		MkRBYLbHTmKzhIkoJkp() {
 			this.riddenByEntity !== null &&
 				this.riddenByEntity.setPosition(
 					this.pos.x,
 					this.pos.y +
-						this.WwgpWqQdPvrbRgFVb() +
-						this.riddenByEntity.jMEYRGfRWd(),
+						this.qXGWIQOLALoeNGBXU() +
+						this.riddenByEntity.LxOZNwUOEe(),
 					this.pos.z,
 				);
 		}
 		attackEntityFrom(e, t) {
 			if (this.isEntityInvulnerable(e)) return !1;
 			if (this.world.isClient || this.dead) return !0;
-			this.HXoErwQNtyWxwhpTLcV(-this.dfcrXHdkuAPxxiQwnYp()),
-				this.yDrDDjLnekbYXKG(10),
-				this.tqWhNbMLrVNmbW(this.PBLsTKSWpybpiG() + t * 10),
+			this.RGPggtvuWpvRgpZHNyw(-this.tsOKikBflYpJVxoqPlF()),
+				this.AylPDFWzTgsLwHQ(10),
+				this.VJhqMIKTEyoZuN(this.ZUfyZtFXhJFhuZ() + t * 10),
 				this.setBeenAttacked();
 			let n = e.getEntity() instanceof Np && e.getEntity().abilities.creative;
 			return (
-				(n || this.PBLsTKSWpybpiG() > 40) &&
+				(n || this.ZUfyZtFXhJFhuZ() > 40) &&
 					(this.riddenByEntity !== null &&
 						this.riddenByEntity.mountEntity(this),
-					n || this.robrdxhEOUnlrtxDdl(z.getItemByName(this.texture), 1, 0),
+					n || this.mCHgmDUJvVYmzidokY(z.getItemByName(this.texture), 1, 0),
 					this.setDead()),
 				!0
 			);
 		}
-		tYekocPxgSiWsvRSO(e) {
+		TeWAvtlowgalMKqxz(e) {
 			this.localPredicted !== e &&
 				((this.localPredicted = e),
 				(this.posRotationIncrements = 0),
@@ -31949,7 +31949,7 @@ var wm = class extends wd {
 				(this.cartPitch = i),
 				(this.posRotationIncrements = a);
 		}
-		qMeUKdITVHb(e, t, n) {
+		YMTjSHdjIzp(e, t, n) {
 			this.motion.set(e, t, n);
 		}
 		updateFallState(e, t, n, r) {}
@@ -31962,23 +31962,23 @@ var wm = class extends wd {
 		readEntityFromNBT(e) {
 			super.readEntityFromNBT(e), e.Type && (this.texture = e.Type);
 		}
-		tqWhNbMLrVNmbW(e) {
+		VJhqMIKTEyoZuN(e) {
 			this.dataWatcher.updateObject(19, e);
 		}
-		PBLsTKSWpybpiG() {
+		ZUfyZtFXhJFhuZ() {
 			return this.dataWatcher.getWatchableObjectFloat(19);
 		}
-		yDrDDjLnekbYXKG(e) {
+		AylPDFWzTgsLwHQ(e) {
 			this.dataWatcher.updateObject(17, e);
 		}
-		DJRqaGzChvSMOJA() {
-			return this.dataWatcher.YJfZLGOonfmmAktuyJuka(17);
+		WqXZcYeRZqBpMYP() {
+			return this.dataWatcher.eHjnaPmjMseFGhWmPFXjp(17);
 		}
-		HXoErwQNtyWxwhpTLcV(e) {
+		RGPggtvuWpvRgpZHNyw(e) {
 			this.dataWatcher.updateObject(18, e);
 		}
-		dfcrXHdkuAPxxiQwnYp() {
-			return this.dataWatcher.YJfZLGOonfmmAktuyJuka(18);
+		tsOKikBflYpJVxoqPlF() {
+			return this.dataWatcher.eHjnaPmjMseFGhWmPFXjp(18);
 		}
 	},
 	uoe = class extends Mc {
@@ -32007,8 +32007,8 @@ var wm = class extends wd {
 			if (n instanceof Sf) {
 				let r = n;
 				return (
-					r.rgBxniBSEiqsdUtB(e.getDisplayName()),
-					r.OqXUjZFTEJSYjyGvN(),
+					r.abwjeBOXXaFfiYuM(e.getDisplayName()),
+					r.FfyFXvIKJYzkLknwN(),
 					--e.stackSize,
 					t.inventory.sendInventoryToServer(),
 					!0
@@ -32654,12 +32654,12 @@ var Lm = new (class e {
 					{ x: `z`, z: `x`, y: `y` }[i.name],
 				);
 				if (((r = !0), e.isServer))
-					for (let t of F.BjvEvCbvsef(p, m)) e.setBlockState(t, v, 2);
+					for (let t of F.SutyNUnmvwM(p, m)) e.setBlockState(t, v, 2);
 			}
 			return r;
 		}
 		onEntityCollidedWithBlock(e, t, n) {
-			n.ridingEntity == null && n.riddenByEntity == null && n.HERPpiIScfAa(t);
+			n.ridingEntity == null && n.riddenByEntity == null && n.RxgeciyGxayV(t);
 		}
 	},
 	zm = class extends ef {
@@ -32754,7 +32754,7 @@ var Xm = class extends ip {
 		onPickupFromSlot(e, t) {
 			if (
 				(e.abilities.creative ||
-					e.sFQEyOqoCWCtyHCIMf(-this.container.maximumCost),
+					e.SpGFsIndkVHbpYVRVU(-this.container.maximumCost),
 				this.container.inputSlots.setInventorySlotContents(0, null),
 				this.container.materialCost > 0)
 			) {
@@ -33178,7 +33178,7 @@ var Xm = class extends ip {
 					this.numPlayersUsing = 0;
 					for (let e of this.world.getEntitiesInAABBexcluding(
 						null,
-						new ir(
+						new Cn(
 							new D(this.pos.x - 5, this.pos.y - 5, this.pos.z - 5),
 							new D(this.pos.x + 1 + 5, this.pos.y + 1 + 5, this.pos.z + 1 + 5),
 						),
@@ -34237,7 +34237,7 @@ var Xm = class extends ip {
 			let r =
 					e.getEntitiesWithinAABB(
 						`EntityArrow`,
-						new ir(
+						new Cn(
 							new D(
 								t.x + this.bbox.min.x,
 								t.y + this.bbox.min.y,
@@ -34378,7 +34378,7 @@ var Xm = class extends ip {
 		getCollisionBoundingBox(e, t, n) {
 			let r = 0.0625,
 				i = (1 + n.getProp(`bites`) * 2) / 16;
-			return new ir(
+			return new Cn(
 				new D(t.x + i, t.y, t.z + r),
 				new D(t.x + 1 - r, t.y + 0.5, t.z + 1 - r),
 			);
@@ -34387,7 +34387,7 @@ var Xm = class extends ip {
 			return this.getCollisionBoundingBox(e, t, e.getBlockState(t));
 		}
 		eatCake(e, t, n, r) {
-			if (r.UKUPNF(!1)) {
+			if (r.ZtJTAE(!1)) {
 				r.getFoodStats().addStats(2, 0.1);
 				let i = n.getProp(`bites`);
 				i < 6
@@ -35034,7 +35034,7 @@ var Xm = class extends ip {
 				this.numPlayersUsing = 0;
 				for (let r of this.world.getEntitiesInAABBexcluding(
 					null,
-					new ir(
+					new Cn(
 						new D(e - 5, t - 5, n - 5),
 						new D(e + 1 + 5, t + 1 + 5, n + 1 + 5),
 					),
@@ -35512,7 +35512,7 @@ var Xm = class extends ip {
 		}
 		tryOpenEditCommandBlock(e) {
 			return e.abilities.creative
-				? (e.world.isClient && e.IVEPBfpyPYwHlNjaJasN(this), !0)
+				? (e.world.isClient && e.MbeXpadqPKeCTaWHFLeK(this), !0)
 				: !1;
 		}
 	},
@@ -36171,13 +36171,13 @@ var Xm = class extends ip {
 		fall(e, t) {
 			this.hurtEntities && Math.ceil(e - 1);
 		}
-		zeOWUOpQ() {
+		NYRAsMah() {
 			return this.world;
 		}
-		obaZsnBpFLOIWAV(e) {
+		SGMQxWzKGCPJFLr(e) {
 			this.hurtEntities = e;
 		}
-		AQsADhBtrAhYNJu() {
+		yBdggjfgOpuAcLt() {
 			return !1;
 		}
 		getBlock() {
@@ -36190,7 +36190,7 @@ var Xm = class extends ip {
 					e,
 					new D(this.pos.x, this.pos.y + t, this.pos.z),
 				);
-				return n.ckiADalhsfKLKtbJtdhmq(), this.world.spawnEntityInWorld(n), n;
+				return n.jNQLowLelMniMneKRxexI(), this.world.spawnEntityInWorld(n), n;
 			} else return null;
 		}
 	},
@@ -36398,7 +36398,7 @@ var Xm = class extends ip {
 					let a = this.func_178148_a(n, t, this.enchantLevels[t]),
 						o = n.getItem() == z.book;
 					if (a != null) {
-						e.HHMSaQUXugXxBRGNNmKpD(i);
+						e.rRtnwUZndMwZbIFrgXSCy(i);
 						for (let e = 0; e < a.length; ++e) {
 							let t = a[e];
 							o || n.addEnchantment(t.enchantmentobj, t.enchantmentLevel);
@@ -36718,7 +36718,7 @@ var Xm = class extends ip {
 			);
 		}
 		onBlockActivated(e, t, n, r, i, a, o, s) {
-			let c = r.HNpXIkDcvDoauigvpbCTWH(),
+			let c = r.LtfNiODmfxuvbizyINwtDc(),
 				l = e.getTileEntity(t);
 			if (c != null && l instanceof Kh) {
 				let n = e.getBlockState(t.up());
@@ -36777,7 +36777,7 @@ var Xm = class extends ip {
 				: new qd(`farmland`);
 		}
 		getCollisionBoundingBox(e, t, n) {
-			return new ir(new D(t.x, t.y, t.z), new D(t.x + 1, t.y + 1, t.z + 1));
+			return new Cn(new D(t.x, t.y, t.z), new D(t.x + 1, t.y + 1, t.z + 1));
 		}
 		updateTick(e, t, n) {
 			let r = n.getProp(`moisture`);
@@ -37654,11 +37654,11 @@ var Xm = class extends ip {
 						`axis`,
 						{ x: `z`, z: `x`, y: `y` }[r.name],
 					);
-					for (let t of F.BjvEvCbvsef(f, p)) e.setBlockState(t, _, 2);
+					for (let t of F.SutyNUnmvwM(f, p)) e.setBlockState(t, _, 2);
 				}
 		}
 		onEntityCollidedWithBlock(e, t, n) {
-			n.ridingEntity == null && n.riddenByEntity == null && n.HERPpiIScfAa(t);
+			n.ridingEntity == null && n.riddenByEntity == null && n.RxgeciyGxayV(t);
 		}
 	},
 	Aoe = class extends ef {
@@ -37876,14 +37876,14 @@ var Xm = class extends ip {
 				if (
 					((n = Math.min(
 						n,
-						this.IFksSNGpRVT(e.getBlockState(t.offset(r))) + 1,
+						this.YzXcWVlUgLc(e.getBlockState(t.offset(r))) + 1,
 					)),
 					n == 1)
 				)
 					break;
 			return n;
 		}
-		IFksSNGpRVT(t) {
+		YzXcWVlUgLc(t) {
 			return t.block instanceof ig
 				? 0
 				: t.block instanceof e
@@ -38142,7 +38142,7 @@ var Xm = class extends ip {
 			}
 		}
 		getCollisionBoundingBox(e, t, n) {
-			return new ir(
+			return new Cn(
 				new D(
 					t.x + this.bbox.min.x,
 					t.y + this.bbox.min.y,
@@ -38609,7 +38609,7 @@ var Xm = class extends ip {
 						i.getFrontOffsetZ() < 0
 							? (n -= i.getFrontOffsetZ() * r)
 							: (c -= i.getFrontOffsetZ() * r),
-						new ir(new D(e, t, n), new D(o, s, c))
+						new Cn(new D(e, t, n), new D(o, s, c))
 					);
 				}
 			} else return null;
@@ -38760,7 +38760,7 @@ var Xm = class extends ip {
 				o && e.scheduleUpdate(t, this, this.tickRate(e));
 		}
 		getSensitiveAABB(e) {
-			return new ir(
+			return new Cn(
 				new D(e.x + 0.125, e.y, e.z + 0.125),
 				new D(e.x + 1 - 0.125, e.y + 0.25, e.z + 1 - 0.125),
 			);
@@ -38821,7 +38821,7 @@ var Xm = class extends ip {
 					return 0;
 			}
 			if (r.length > 0) {
-				for (let e of r) if (!e.ePDGhbOhcPlAQMvhhYlcPbmQtoKmpOKZS()) return 15;
+				for (let e of r) if (!e.TgwsNUEXGWqZvzPcupnkeRUvSJRsFQmQT()) return 15;
 			}
 			return 0;
 		}
@@ -38860,12 +38860,12 @@ var Xm = class extends ip {
 		onLivingUpdate() {
 			super.onLivingUpdate();
 		}
-		PPHYhcpoCbpYJk() {
+		aTZGHMKAvVoayY() {
 			if (
 				this.world.isDaytime() &&
 				this.world.isServer &&
 				!this.isChild() &&
-				!this.FVzLkJUrDUWr()
+				!this.gehUKOapsHEK()
 			) {
 				let e = new F(this.pos.x, Math.round(this.pos.y), this.pos.z);
 				if (Math.random() * 30 < 0.6 * 2 && this.world.canSeeSky(e)) {
@@ -38875,7 +38875,7 @@ var Xm = class extends ip {
 						(t.isItemStackDamageable() &&
 							(t.setItemDamage(t.getItemDamage() + rf(2)),
 							t.getItemDamage() >= t.getMaxDamage() &&
-								(this.FTRJZwSZvZoOchifOkoWC(t),
+								(this.HedFSWqdWllaCcDxUsJTk(t),
 								this.setCurrentItemOrArmor(4, null))),
 						(e = !1)),
 						e && this.setFire(8);
@@ -38888,10 +38888,10 @@ var Xm = class extends ip {
 					this.world.getDifficulty() === Bf.PEACEFUL &&
 					this.setDead();
 		}
-		DLiUAsamgmZu() {
+		TIpbuUnxemnT() {
 			return `game.hostile.swim`;
 		}
-		KMFEAZjAeWfwwZ() {
+		gTddmdmclCaJKm() {
 			return `game.hostile.swim.splash`;
 		}
 		attackEntityFrom(e, t) {
@@ -38901,13 +38901,13 @@ var Xm = class extends ip {
 				return this.riddenByEntity !== t && this.ridingEntity !== t;
 			} else return !1;
 		}
-		EegPBXTTFGqp() {
+		iwBVpVDqhEXu() {
 			return this.getSoundInfo().hurt ?? `game.hostile.hurt`;
 		}
-		DETQYMRBjKlAC() {
+		BRsaqdAexQZfa() {
 			return this.getSoundInfo().death ?? `game.hostile.die`;
 		}
-		zKCjCxhqCtBURoelSO(e) {
+		BRbYfCirTfioDoQZeb(e) {
 			return e > 4
 				? `game.hostile.hurt.fall.big`
 				: `game.hostile.hurt.fall.small`;
@@ -38916,7 +38916,7 @@ var Xm = class extends ip {
 			let t = this.getEntityAttribute(Au.attackDamage).getAttributeValue(),
 				n = 0;
 			e instanceof Fd &&
-				((t += Hd.func_152377_a(this.getHeldItem(), e.NsDKZjLdTWqxvOGyUIeC())),
+				((t += Hd.func_152377_a(this.getHeldItem(), e.RivMJdcElFMhslKhmgJh())),
 				(n += Hd.getKnockbackModifier(this)));
 			let r = e.attackEntityFrom(Fp.causeMobDamage(this), t);
 			if (r) {
@@ -38929,14 +38929,14 @@ var Xm = class extends ip {
 					(this.motion.x *= 0.6),
 					(this.motion.z *= 0.6));
 				let t = Hd.getFireAspectModifier(this);
-				t > 0 && e.setFire(t * 4), this.YvnoDnhywWNKOnBoF(this, e);
+				t > 0 && e.setFire(t * 4), this.AaFWgTytMswBObNqj(this, e);
 			}
 			return r;
 		}
-		KppWIFeidfnJWSOmLg(e) {
+		BIyGbmeitITrgHdNsn(e) {
 			return 0.5 - this.world.getLightBrightness(e);
 		}
-		JGOZkMtEFEKjKMhEl() {
+		kaRDAsOlUUhCAKHwD() {
 			if (this.world.dimensionId !== 0) return !0;
 			let e = Math.floor(this.pos.x),
 				t = Math.floor(this.getEntityBoundingBox().min.y),
@@ -38952,7 +38952,7 @@ var Xm = class extends ip {
 		getCanSpawnHere() {
 			return (
 				this.world.getDifficulty() !== Bf.PEACEFUL &&
-				this.JGOZkMtEFEKjKMhEl() &&
+				this.kaRDAsOlUUhCAKHwD() &&
 				super.getCanSpawnHere()
 			);
 		}
@@ -38960,7 +38960,7 @@ var Xm = class extends ip {
 			super.applyEntityAttributes(),
 				this.getAttributeMap().registerAttribute(Au.attackDamage);
 		}
-		pkyVdBenOJL() {
+		PlykDvcAfyW() {
 			return !0;
 		}
 	},
@@ -38987,7 +38987,7 @@ var Xm = class extends ip {
 		}
 		resetTask() {
 			(this.attackTarget = null),
-				(this.pNAZgf = 0),
+				(this.WpgaIx = 0),
 				(this.rangedAttackTime = -1);
 		}
 		updateTask() {
@@ -38999,10 +38999,10 @@ var Xm = class extends ip {
 						this.attackTarget.pos.z,
 					),
 				),
-				t = this.entityHost.qUKVdIGCMGmzfDw().pNAZgf(this.attackTarget);
+				t = this.entityHost.RctXfXLMPzkcETP().WpgaIx(this.attackTarget);
 			if (
-				(t ? ++this.pNAZgf : (this.pNAZgf = 0),
-				e <= this.maxAttackDistance && this.pNAZgf >= 20
+				(t ? ++this.WpgaIx : (this.WpgaIx = 0),
+				e <= this.maxAttackDistance && this.WpgaIx >= 20
 					? this.entityHost.getNavigator().clearPathEntity()
 					: this.entityHost
 							.getNavigator()
@@ -39015,7 +39015,7 @@ var Xm = class extends ip {
 				if (e > this.maxAttackDistance || !t) return;
 				let n = Math.sqrt(e) / this.maxDist,
 					r = (0, M.clamp)(n, 0.1, 1);
-				this.rangedAttackEntityHost.iiNORpeEOBUHOVYRZfaryBMgQruL(
+				this.rangedAttackEntityHost.tlwNFcHrhOjreDhqekZGoBGlncmx(
 					this.attackTarget,
 					r,
 				),
@@ -39043,18 +39043,18 @@ var Xm = class extends ip {
 			let e = this.taskOwner.getAttackTarget();
 			if (e == null) return !1;
 			if (e.isEntityAlive()) {
-				let t = this.nMkfCKrqlsSbGDEcm();
+				let t = this.XrVKZhgSEvpeTRXsy();
 				if (this.taskOwner.getDistanceSqToEntity(e) > t * t) return !1;
 				if (this.shouldCheckSight) {
-					if (this.taskOwner.qUKVdIGCMGmzfDw().pNAZgf(e))
+					if (this.taskOwner.RctXfXLMPzkcETP().WpgaIx(e))
 						this.targetUnseenTicks = 0;
 					else if (++this.targetUnseenTicks > 60) return !1;
 				}
 				return !(e instanceof Np) || !e.abilities.invulnerable;
 			} else return !1;
 		}
-		nMkfCKrqlsSbGDEcm() {
-			return this.taskOwner.BRoIrIhTCsobvG() ?? 16;
+		XrVKZhgSEvpeTRXsy() {
+			return this.taskOwner.dszAKkZMowaSwt() ?? 16;
 		}
 		startExecuting() {
 			(this.targetSearchStatus = 0),
@@ -39064,30 +39064,30 @@ var Xm = class extends ip {
 		resetTask() {
 			this.taskOwner.setAttackTarget(null);
 		}
-		static zXRRYfSILfLhyecx(e, t, n, r) {
+		static gDqXmSqbNJMsDHuk(e, t, n, r) {
 			return t == null || t == e
 				? !1
 				: t.isEntityAlive()
 					? t instanceof Np && !n && t.abilities.invulnerable
 						? !1
-						: !r || e.qUKVdIGCMGmzfDw().pNAZgf(t)
+						: !r || e.RctXfXLMPzkcETP().WpgaIx(t)
 					: !1;
 		}
-		zXRRYfSILfLhyecx(t, n) {
-			return e.zXRRYfSILfLhyecx(this.taskOwner, t, n, this.shouldCheckSight) &&
-				this.taskOwner.JmfZoEaUMByQNCvMnKnTTEvZnygWPPcr(
+		gDqXmSqbNJMsDHuk(t, n) {
+			return e.gDqXmSqbNJMsDHuk(this.taskOwner, t, n, this.shouldCheckSight) &&
+				this.taskOwner.BklmenolBpFMxAUDJIzHipxAmnWRHJMi(
 					new F(t.pos.x, t.pos.y, t.pos.z),
 				)
 				? !(
 						this.nearbyOnly &&
 						(--this.targetSearchDelay <= 0 && (this.targetSearchStatus = 0),
 						this.targetSearchStatus == 0 &&
-							(this.targetSearchStatus = this.vzipLwqCuHOLqT(t) ? 1 : 2),
+							(this.targetSearchStatus = this.qdqFshlmWGsfKh(t) ? 1 : 2),
 						this.targetSearchStatus == 2)
 					)
 				: !1;
 		}
-		vzipLwqCuHOLqT(e) {
+		qdqFshlmWGsfKh(e) {
 			this.targetSearchDelay = 10 + rf(5);
 			let t = this.taskOwner.getNavigator().getPathToEntityLiving(e);
 			if (t == null) return !1;
@@ -39112,7 +39112,7 @@ var Xm = class extends ip {
 		shouldExecute() {
 			if (this.targetChance > 0 && rf(this.targetChance) !== 0) return !1;
 			{
-				let t = this.nMkfCKrqlsSbGDEcm(),
+				let t = this.XrVKZhgSEvpeTRXsy(),
 					n = this.taskOwner.world.getEntitiesWithinAABB(
 						this.targetClass,
 						this.taskOwner
@@ -39132,7 +39132,7 @@ var Xm = class extends ip {
 						)
 							continue;
 					}
-					if (!this.zXRRYfSILfLhyecx(e, !1)) continue;
+					if (!this.gDqXmSqbNJMsDHuk(e, !1)) continue;
 					let n = e.getDistanceSqToEntity(this.taskOwner);
 					n < i && ((i = n), (r = e));
 				}
@@ -39153,16 +39153,16 @@ var Xm = class extends ip {
 				this.tasks.addTask(2, new Sp(this, 1)),
 				this.tasks.addTask(3, new Cp(this, `player`, 8)),
 				this.tasks.addTask(4, new _p(this)),
-				this.TjbDxeTDbPbTk(),
+				this.lDaKYMizCiAvf(),
 				this.setSize(0.7, 1.9);
 		}
-		TjbDxeTDbPbTk() {
+		lDaKYMizCiAvf() {
 			this.targetTasks.addTask(2, new yg(this, `spider`, !0));
 		}
 		applyEntityAttributes() {
 			super.applyEntityAttributes(),
 				this.applyBaseAttributes([
-					[Au.sLYAdepgIImgX, 0.2],
+					[Au.NLOgYLKKWRvav, 0.2],
 					[Au.maxHealth, 4],
 				]);
 		}
@@ -39172,14 +39172,14 @@ var Xm = class extends ip {
 				this.getDataWatcher().addObject(13, 0),
 				this.getDataWatcher().addObject(14, 0);
 		}
-		iiNORpeEOBUHOVYRZfaryBMgQruL(e, t) {
+		tlwNFcHrhOjreDhqekZGoBGlncmx(e, t) {
 			let n = new hm(this.world, this),
 				r = e.pos.y + e.getEyeHeight() - 1.1,
 				i = e.pos.x - this.pos.x,
 				a = r - n.pos.y,
 				o = e.pos.z - this.pos.z,
 				s = Math.sqrt(i * i + o * o) * 0.2;
-			n.VelaBoblLWiskYRnTKi(i, a + s, o, 1.6, 12),
+			n.nscyydmMzwZMelumicu(i, a + s, o, 1.6, 12),
 				this.playSound(`random.bow`, 1, 1 / (Math.random() * 0.4 + 0.8)),
 				this.world.spawnEntityInWorld(n);
 		}
@@ -41602,7 +41602,7 @@ var Xm = class extends ip {
 			);
 		}
 		getCollisionBoundingBox(e, t, n) {
-			return new ir(
+			return new Cn(
 				new D(
 					t.x + this.bbox.min.x,
 					t.y + this.bbox.min.y,
@@ -41632,13 +41632,13 @@ var Xm = class extends ip {
 			(n.motion.x *= 0.4), (n.motion.z *= 0.4);
 		}
 		getCollisionBoundingBox(e, t, n) {
-			return new ir(
+			return new Cn(
 				new D(t.x, t.y, t.z),
 				new D(t.x + 1, t.y + 1 - 0.125, t.z + 1),
 			);
 		}
 		getBoundingBox(e) {
-			return new ir(new D(0, 0, 0), new D(1, 0.875, 1));
+			return new Cn(new D(0, 0, 0), new D(1, 0.875, 1));
 		}
 	},
 	Pg = class extends Yf {
@@ -65496,7 +65496,7 @@ var hCe = class {
 				: this.to - pCe(this.to - this.from, this.speed, this.time, t)
 		);
 	}
-	vOMlmdmm(e) {
+	GWZbSSuT(e) {
 		let t = e / 1e3 - this.start;
 		return t >= this.time
 			? 0
@@ -65506,7 +65506,7 @@ var hCe = class {
 		let n = Date.now(),
 			r = this.get(n);
 		return (
-			(this.speed = this.vOMlmdmm(n)),
+			(this.speed = this.GWZbSSuT(n)),
 			(this.start = n / 1e3),
 			(this.from = r),
 			(this.to = e),
@@ -68548,15 +68548,15 @@ var Uwe = { Basic: kn, Lambert: vn, Phong: bn, Standard: Cee, Toon: cee },
 		loader = new bee();
 		models = {};
 		constructor() {}
-		async UBHBcXPTcM() {
+		async rtOxuaZMgn() {
 			let e = [];
-			for (let t of Object.values(oF)) e.push(this.sicbeYb(t));
+			for (let t of Object.values(oF)) e.push(this.TYjNteD(t));
 			await Promise.all(e);
 		}
-		async sicbeYb(e) {
-			return this.ecjUlHOu(`hat`, e);
+		async TYjNteD(e) {
+			return this.hQUgCDmT(`hat`, e);
 		}
-		async ecjUlHOu(e, t) {
+		async hQUgCDmT(e, t) {
 			return new Promise((n) => {
 				let r = `models/${e}/${t}.gltf`;
 				this.loader.load(r, (e) => {
@@ -68566,7 +68566,7 @@ var Uwe = { Basic: kn, Lambert: vn, Phong: bn, Standard: Cee, Toon: cee },
 		}
 		async getModel(e) {
 			return Object.values(oF).includes(e)
-				? (this.models[e] || (await this.sicbeYb(e)), this.models[e])
+				? (this.models[e] || (await this.TYjNteD(e)), this.models[e])
 				: null;
 		}
 	},
@@ -68844,12 +68844,12 @@ var JF = `
 	QF = null;
 function $F() {
 	if (!QF) {
-		let e = new Ln(new Uint8Array(4), 1, 1, 1);
-		(e.format = Zn),
-			(e.type = Pn),
+		let e = new Fn(new Uint8Array(4), 1, 1, 1);
+		(e.format = Kn),
+			(e.type = ir),
 			(e.minFilter = wn),
 			(e.magFilter = wn),
-			(e.wrapS = e.wrapT = e.wrapR = nr),
+			(e.wrapS = e.wrapT = e.wrapR = rr),
 			(e.needsUpdate = !0),
 			(QF = e);
 	}
@@ -68945,7 +68945,7 @@ var tI = `
 				grass: E.grassWave.value,
 			};
 		}
-		static bCrpzDtDkmJjgRADEinzbwoG(t) {
+		static uQhXBpiYKWUIztcABMbQQUTY(t) {
 			(t.userData = {
 				time: { value: 2 },
 				uSunLight: { value: 1 },
@@ -69097,15 +69097,15 @@ var tI = `
 					uAmbientLight: { value: nF },
 					waterShadersEnabled: { value: 1 },
 					waterLightRefractionEnabled: { value: 0 },
-					waterTileOrigin: { value: new cr() },
-					tileSize: { value: new cr(16 / $P, 16 / eF) },
+					waterTileOrigin: { value: new In() },
+					tileSize: { value: new In(16 / $P, 16 / eF) },
 					cameraDepthBelowSurface: { value: 0 },
 					tSceneColor: { value: null },
 					tSceneDepth: { value: null },
 					tLinearViewZ: { value: null },
 					reflectionNear: { value: 0.01 },
 					reflectionFar: { value: 256 },
-					reflectionResolution: { value: new cr(1, 1) },
+					reflectionResolution: { value: new In(1, 1) },
 					reflectionProjectionMatrix: { value: new yn() },
 					reflectionViewMatrix: { value: new yn() },
 					reflectionViewMatrixInverse: { value: new yn() },
@@ -69775,42 +69775,42 @@ function cI(e) {
 	return !0;
 }
 var lI = class e {
-		loader = new qn();
+		loader = new Wn();
 		skins = {};
 		armor = {};
 		armorVersion = 0;
 		failedTextures = new Set();
 		capes = { none: { id: `none`, ratio: 1, pixels: new Uint8ClampedArray() } };
 		capeElytraMats = {};
-		async rvifvjTLvKNIkEtY() {
+		async xQpzHsPipLnySYHK() {
 			return Promise.all([
 				this.downloadSkin(`alice`),
 				this.downloadSkin(`bob`),
-				this.JRHnTsOGd(`leather`),
-				this.JRHnTsOGd(`gold`),
-				this.JRHnTsOGd(`chainmail`),
-				this.JRHnTsOGd(`iron`),
-				this.JRHnTsOGd(`diamond`),
-				this.JRHnTsOGd(`emerald`),
-				this.JRHnTsOGd(`infernium`),
+				this.cEWSFvdBG(`leather`),
+				this.cEWSFvdBG(`gold`),
+				this.cEWSFvdBG(`chainmail`),
+				this.cEWSFvdBG(`iron`),
+				this.cEWSFvdBG(`diamond`),
+				this.cEWSFvdBG(`emerald`),
+				this.cEWSFvdBG(`infernium`),
 			]);
 		}
-		async yuxqGEBHhhjwihaTPy() {
+		async MOmFrhLUnbdGRxZVDF() {
 			return Promise.all(
 				PF.map((e) =>
 					e.mob
-						? this.icPtNeF(e.folder)
-						: this.HudQgdSdNlnZznwJO(e.folder, e.name, e.ratioBase ?? 64),
+						? this.huvRdNW(e.folder)
+						: this.fnqFibILLYAdUWYyJ(e.folder, e.name, e.ratioBase ?? 64),
 				),
 			);
 		}
-		async McOgVJegaSSa() {
-			await Promise.all([this.rvifvjTLvKNIkEtY(), this.yuxqGEBHhhjwihaTPy()]);
+		async WnHOaXZMRWSt() {
+			await Promise.all([this.xQpzHsPipLnySYHK(), this.MOmFrhLUnbdGRxZVDF()]);
 		}
 		hasSkin(e) {
 			return !!this.skins[e];
 		}
-		fiEeSug(e) {
+		VpeFNLh(e) {
 			return !!this.capes[e];
 		}
 		getSkin(e) {
@@ -69825,21 +69825,21 @@ var lI = class e {
 				n
 			);
 		}
-		oImOvPA(e) {
+		zwqfBJb(e) {
 			return this.capes[e];
 		}
-		SduFxkTS(e) {
+		IbjTZEKg(e) {
 			let t = e.item;
 			return this.armor[t.material.name];
 		}
-		async icPtNeF(t) {
+		async huvRdNW(t) {
 			return new Promise((n, r) => {
 				this.loader.setPath(`textures/entity/` + t + `/`),
 					this.loader.load(
 						t + `.png`,
 						(r) => {
 							let i = { atlas: r, id: t, ratio: r.image.width / 64 };
-							e.EPzJBkROHnNaQS(i), (this.skins[t] = i), n();
+							e.VzzdVAMSzRSgaW(i), (this.skins[t] = i), n();
 						},
 						void 0,
 						function (e) {
@@ -69848,14 +69848,14 @@ var lI = class e {
 					);
 			});
 		}
-		async HudQgdSdNlnZznwJO(t, n, r = 64) {
+		async fnqFibILLYAdUWYyJ(t, n, r = 64) {
 			return new Promise((i, a) => {
 				this.loader.setPath(`textures/entity/` + t + `/`),
 					this.loader.load(
 						n + `.png`,
 						(a) => {
 							let o = { atlas: a, id: n, ratio: a.image.width / r };
-							e.EPzJBkROHnNaQS(o), (this.skins[t + `.` + n] = o), i();
+							e.VzzdVAMSzRSgaW(o), (this.skins[t + `.` + n] = o), i();
 						},
 						void 0,
 						function (e) {
@@ -69876,7 +69876,7 @@ var lI = class e {
 								(r) => {
 									let i = r.image,
 										a = { atlas: r, id: t, skinny: cI(i), ratio: i.width / 64 };
-									e.EPzJBkROHnNaQS(a), (this.skins[t] = a), n();
+									e.VzzdVAMSzRSgaW(a), (this.skins[t] = a), n();
 								},
 								void 0,
 								() => {
@@ -69895,7 +69895,7 @@ var lI = class e {
 							(n) => {
 								let i = n.image,
 									a = { atlas: n, id: t, skinny: cI(i), ratio: i.width / 64 };
-								e.EPzJBkROHnNaQS(a), (this.skins[t] = a), r();
+								e.VzzdVAMSzRSgaW(a), (this.skins[t] = a), r();
 							},
 							void 0,
 							() => {
@@ -69908,7 +69908,7 @@ var lI = class e {
 		invalidateSkin(e) {
 			delete this.skins[e], this.failedTextures.delete(`skin:` + e);
 		}
-		async gcdEdqvjFXBw(t) {
+		async xZgKwjGymbmJ(t) {
 			if (this.failedTextures.has(`cape:` + t)) return;
 			let n = dF(t);
 			return n
@@ -69918,9 +69918,9 @@ var lI = class e {
 							this.loader.load(
 								t + `.png`,
 								(r) => {
-									let i = e.HViGQrbnHSfagsgErjqZQneF(r),
+									let i = e.QHLEhKOEvNVlTeEaWfDDErpY(r),
 										a = { atlas: i, id: t, ratio: i.image.width / 64 };
-									e.EPzJBkROHnNaQS(a), (this.capes[t] = a), n();
+									e.VzzdVAMSzRSgaW(a), (this.capes[t] = a), n();
 								},
 								void 0,
 								() => {
@@ -69938,9 +69938,9 @@ var lI = class e {
 						this.loader.load(
 							n,
 							(n) => {
-								let i = e.HViGQrbnHSfagsgErjqZQneF(n),
+								let i = e.QHLEhKOEvNVlTeEaWfDDErpY(n),
 									a = { atlas: i, id: t, ratio: i.image.width / 64 };
-								e.EPzJBkROHnNaQS(a), (this.capes[t] = a), r();
+								e.VzzdVAMSzRSgaW(a), (this.capes[t] = a), r();
 							},
 							void 0,
 							() => {
@@ -69950,7 +69950,7 @@ var lI = class e {
 				})
 			);
 		}
-		static HViGQrbnHSfagsgErjqZQneF(e) {
+		static QHLEhKOEvNVlTeEaWfDDErpY(e) {
 			let t = e.image;
 			if (!t || t.width >= 64 || t.width === t.height) return e;
 			let n = Math.max(1, Math.round(64 / t.width)),
@@ -69967,15 +69967,15 @@ var lI = class e {
 				delete this.capeElytraMats[e],
 				this.failedTextures.delete(`cape:` + e);
 		}
-		TUcyNovITmNfhgbMenMJL(t) {
+		SDMiFVXrUXsjkKjbjMORg(t) {
 			if (t in this.capeElytraMats) return this.capeElytraMats[t];
 			let n = this.capes[t],
 				r = null;
 			if (n)
-				if (n.compact) r = e.yiBfahKkFjTnBphfPcfa(n) ? n.atlasMat?.map : null;
+				if (n.compact) r = e.HfmbpvPCrAreowmHmugZ(n) ? n.atlasMat?.map : null;
 				else {
-					let t = e.CfSDYZoIZaLPTo(n).elytra;
-					r = t ? e.kAfOEzDEhSrFRwLUnaNuiWR(n, t) : null;
+					let t = e.uCpAqkHIzPaQxz(n).elytra;
+					r = t ? e.EaxupRnnlpyuwOTwoOryRgE(n, t) : null;
 				}
 			let i = r
 				? new vn({
@@ -69988,7 +69988,7 @@ var lI = class e {
 				: null;
 			return (this.capeElytraMats[t] = i), i;
 		}
-		static kAfOEzDEhSrFRwLUnaNuiWR(e, t) {
+		static EaxupRnnlpyuwOTwoOryRgE(e, t) {
 			let n = e.atlasMat?.map?.image;
 			if (!n) return null;
 			let r = document.createElement(`canvas`);
@@ -70005,11 +70005,11 @@ var lI = class e {
 			let n = this.capes[t];
 			return n
 				? n.compact
-					? e.yiBfahKkFjTnBphfPcfa(n)
-					: e.CfSDYZoIZaLPTo(n).elytra != null
+					? e.HfmbpvPCrAreowmHmugZ(n)
+					: e.uCpAqkHIzPaQxz(n).elytra != null
 				: !1;
 		}
-		static CfSDYZoIZaLPTo(e) {
+		static uCpAqkHIzPaQxz(e) {
 			if (e.capeRegions) return e.capeRegions;
 			let t = Math.round(64 * (e.ratio || 1)),
 				n = e.pixels,
@@ -70044,7 +70044,7 @@ var lI = class e {
 			}
 			return (e.capeRegions = s), s;
 		}
-		static yiBfahKkFjTnBphfPcfa(e) {
+		static HfmbpvPCrAreowmHmugZ(e) {
 			let t = e.ratio || 1,
 				n = Math.round(64 * t),
 				r = Math.floor(22 * t),
@@ -70055,17 +70055,17 @@ var lI = class e {
 					if (e.pixels[(a + t * n) * 4 + 3] > 0) return !0;
 			return !1;
 		}
-		krixVCKkQgEqrLf(e, t) {
+		vkyNNfxaDPGnNhK(e, t) {
 			return `textures/models/armor/${e}_layer_${t}.png`;
 		}
-		async JRHnTsOGd(
+		async cEWSFvdBG(
 			t,
-			n = this.krixVCKkQgEqrLf(t, 1),
-			r = this.krixVCKkQgEqrLf(t, 2),
+			n = this.vkyNNfxaDPGnNhK(t, 1),
+			r = this.vkyNNfxaDPGnNhK(t, 2),
 		) {
 			let i = { id: t, isArmor: !0, ratio: 1 };
 			this.armor[t] = i;
-			let a = new qn(),
+			let a = new Wn(),
 				o = (e, t) =>
 					new Promise((n) => {
 						a.load(
@@ -70079,61 +70079,61 @@ var lI = class e {
 					});
 			await Promise.all([
 				o(n, (t) => {
-					(i.atlas = t), (i.ratio = t.image.width / 32), e.EPzJBkROHnNaQS(i);
+					(i.atlas = t), (i.ratio = t.image.width / 32), e.VzzdVAMSzRSgaW(i);
 				}),
 				o(r, (t) => {
-					(i.atlas2 = t), e.tQhlaUJmUFzhjoW(i);
+					(i.atlas2 = t), e.YbFEwZwrOEppYJx(i);
 				}),
 			]);
 		}
 		armorOverrides = new Set();
-		async kqTzbnaWcfcoXEKANCg(e) {
+		async cMzOBcBMgOQfQGCaMwo(e) {
 			let t = new Set([...this.armorOverrides, ...e.keys()]);
 			(this.armorOverrides = new Set(e.keys())),
 				await Promise.all(
 					[...t].map((t) => {
 						let n = e.get(t);
-						return this.JRHnTsOGd(
+						return this.cEWSFvdBG(
 							t,
-							n?.layer1 ?? this.krixVCKkQgEqrLf(t, 1),
-							n?.layer2 ?? this.krixVCKkQgEqrLf(t, 2),
+							n?.layer1 ?? this.vkyNNfxaDPGnNhK(t, 1),
+							n?.layer2 ?? this.vkyNNfxaDPGnNhK(t, 2),
 						);
 					}),
 				),
 				this.armorVersion++;
 		}
-		jYXzArDLjVRZuzkO(e) {
+		VRWAoIxltnKfazPV(e) {
 			return `textures/entity/${e.folder}/${e.name}.png`;
 		}
 		entityOverrides = new Set();
-		async jegqDwuMfhjiCXPOqWkc(e) {
+		async oDnpejwnwhMphVQZOhkZ(e) {
 			let t = new Set([...this.entityOverrides, ...e.keys()]);
 			(this.entityOverrides = new Set(e.keys())),
 				await Promise.all(
 					[...t].map((t) => {
 						let n = oI.get(t);
 						return n
-							? this.MUoGSBTCgvJxGDVYKJS(
+							? this.hDhNTQvaPlLXVWEJxek(
 									n,
-									e.get(t) ?? this.jYXzArDLjVRZuzkO(n),
+									e.get(t) ?? this.VRWAoIxltnKfazPV(n),
 								)
 							: Promise.resolve();
 					}),
 				);
 		}
-		MUoGSBTCgvJxGDVYKJS(t, n) {
+		hDhNTQvaPlLXVWEJxek(t, n) {
 			let r = LF(t),
 				i = t.ratioBase ?? 64;
 			return new Promise((t) => {
-				new qn().load(
+				new Wn().load(
 					n,
 					(n) => {
 						let a = n.image,
 							o = this.skins[r];
-						if (o && e.OVTlzCeleaOlrbXGfq(o, a, i)) o.atlas = n;
+						if (o && e.MlUsOEIglKmJraFRtC(o, a, i)) o.atlas = n;
 						else {
 							let t = { atlas: n, id: r, ratio: a.width / i };
-							e.EPzJBkROHnNaQS(t), (this.skins[r] = t);
+							e.VzzdVAMSzRSgaW(t), (this.skins[r] = t);
 						}
 						t();
 					},
@@ -70142,7 +70142,7 @@ var lI = class e {
 				);
 			});
 		}
-		static OVTlzCeleaOlrbXGfq(e, t, n) {
+		static MlUsOEIglKmJraFRtC(e, t, n) {
 			let r = e.atlasMat?.map,
 				i = r?.image,
 				a = i?.getContext(`2d`, { willReadFrequently: !0 });
@@ -70160,7 +70160,7 @@ var lI = class e {
 				!0
 			);
 		}
-		static EPzJBkROHnNaQS(e) {
+		static VzzdVAMSzRSgaW(e) {
 			let t = document.createElement(`canvas`),
 				n = t.getContext(`2d`, { willReadFrequently: !0 }),
 				r = e.atlas;
@@ -70185,12 +70185,12 @@ var lI = class e {
 					transparent: !0,
 					alphaTest: 0.1,
 				}));
-			let a = new qn().load(`textures/misc/enchanted_item_glint.png`);
-			(a.wrapS = In),
-				(a.wrapT = In),
+			let a = new Wn().load(`textures/misc/enchanted_item_glint.png`);
+			(a.wrapS = Xn),
+				(a.wrapT = Xn),
 				aI.addEnchantedEffect(e.atlasMatEnchant, a, 0.75);
 		}
-		static tQhlaUJmUFzhjoW(e) {
+		static YbFEwZwrOEppYJx(e) {
 			let t = document.createElement(`canvas`),
 				n = t.getContext(`2d`),
 				r = e.atlas2;
@@ -70203,12 +70203,12 @@ var lI = class e {
 				(i.magFilter = jn),
 				(e.atlasMat2 = new bn({ map: i, side: 0, transparent: !1 })),
 				(e.atlasMat2Enchant = new bn({ map: i, side: 0, transparent: !1 }));
-			let a = new qn().load(`textures/misc/enchanted_item_glint.png`);
-			(a.wrapS = In),
-				(a.wrapT = In),
+			let a = new Wn().load(`textures/misc/enchanted_item_glint.png`);
+			(a.wrapS = Xn),
+				(a.wrapT = Xn),
 				aI.addEnchantedEffect(e.atlasMat2Enchant, a, 0.75);
 		}
-		static pkDixQuco(e, t, n, r, i, a = {}, o = {}) {
+		static YgEiPhKPo(e, t, n, r, i, a = {}, o = {}) {
 			let s = o.leggings ? e.atlas2 : e.atlas,
 				c = document.createElement(`canvas`),
 				l = c.getContext(`2d`);
@@ -70293,8 +70293,8 @@ function pI(e) {
 }
 var mI = h,
 	q = new (class {
-		loader = new qn();
-		fontLoader = new fee();
+		loader = new Wn();
+		fontLoader = new mee();
 		miniblox_font;
 		old_miniblox_font;
 		atlas;
@@ -70307,7 +70307,7 @@ var mI = h,
 			return 16 * this.atlasScale;
 		}
 		materialWorld;
-		XmfJLVMuhFABYLikDCNgpXDh;
+		WuMGuCdDxBOsQJNvYgpxCUdy;
 		materialFluidWorld;
 		material;
 		materialEnchanted;
@@ -70322,7 +70322,7 @@ var mI = h,
 		particleAtlasRects = new Map();
 		glintTexture;
 		skinManager = new lI();
-		CanOkGmTQlp = new Gwe();
+		iNbbweYjLpo = new Gwe();
 		reflectionBuffer = null;
 		setReflectionBuffer(e) {
 			(this.reflectionBuffer = e),
@@ -70333,17 +70333,17 @@ var mI = h,
 		worldAssetsPromise = null;
 		menuTexturesLoaded = !1;
 		menuTexturesPromise = null;
-		async rvifvjTLvKNIkEtY(e = !0) {
+		async xQpzHsPipLnySYHK(e = !0) {
 			try {
 				await Promise.all([
 					this.loadSpritesheet(),
 					this.loadFonts(),
-					this.skinManager.rvifvjTLvKNIkEtY(),
+					this.skinManager.xQpzHsPipLnySYHK(),
 				]);
 			} catch (t) {
 				O.error(t),
 					O.error(`Failed to load menu textures. Retrying...`),
-					e && (await this.rvifvjTLvKNIkEtY(!1));
+					e && (await this.xQpzHsPipLnySYHK(!1));
 			}
 		}
 		ensureWorldAssets() {
@@ -70354,7 +70354,7 @@ var mI = h,
 		}
 		ensureMenuTextures() {
 			return (
-				(this.menuTexturesPromise ||= this.rvifvjTLvKNIkEtY().then(() => {
+				(this.menuTexturesPromise ||= this.xQpzHsPipLnySYHK().then(() => {
 					this.menuTexturesLoaded = !0;
 				})),
 				this.menuTexturesPromise
@@ -70369,8 +70369,8 @@ var mI = h,
 		async loadWorldAssets() {
 			try {
 				let e = [
-					this.skinManager.yuxqGEBHhhjwihaTPy(),
-					this.CanOkGmTQlp.UBHBcXPTcM(),
+					this.skinManager.MOmFrhLUnbdGRxZVDF(),
+					this.iNbbweYjLpo.rtOxuaZMgn(),
 				];
 				iF.forEach((t) => {
 					e.push(
@@ -70419,8 +70419,8 @@ var mI = h,
 					);
 			}
 		}
-		async McOgVJegaSSa(e = !0) {
-			await this.rvifvjTLvKNIkEtY(e), await this.ensureWorldAssets();
+		async WnHOaXZMRWSt(e = !0) {
+			await this.xQpzHsPipLnySYHK(e), await this.ensureWorldAssets();
 		}
 		buildParticleAtlas() {
 			let e = iF.filter((e) => this.particles[e]?.image);
@@ -70441,7 +70441,7 @@ var mI = h,
 					o.drawImage(this.particles[e].image, a, s, 32, 32),
 						this.particleAtlasRects.set(
 							this.particles[e],
-							new or(a / r, s / i, 32 / r, 32 / i),
+							new Tn(a / r, s / i, 32 / r, 32 / i),
 						);
 				});
 			let s = new Nn(a);
@@ -70538,10 +70538,10 @@ var mI = h,
 				},
 				n = Uwe.Lambert;
 			(this.material = new n(t)), (this.materialEnchanted = new n(t));
-			let r = new qn();
+			let r = new Wn();
 			(this.glintTexture = r.load(`textures/misc/enchanted_item_glint.png`)),
-				(this.glintTexture.wrapS = In),
-				(this.glintTexture.wrapT = In),
+				(this.glintTexture.wrapS = Xn),
+				(this.glintTexture.wrapT = Xn),
 				aI.addEnchantedEffect(this.materialEnchanted, this.glintTexture),
 				(this.materialTransparent = new n(t)),
 				(this.materialTransparent.transparent = !0),
@@ -70549,13 +70549,13 @@ var mI = h,
 				(this.materialTransparent.alphaTest = 0.1),
 				(this.atlas = e.image),
 				(this.materialWorld = this.material.clone()),
-				aI.bCrpzDtDkmJjgRADEinzbwoG(this.materialWorld),
-				(this.XmfJLVMuhFABYLikDCNgpXDh = this.materialTransparent.clone()),
-				aI.bCrpzDtDkmJjgRADEinzbwoG(this.XmfJLVMuhFABYLikDCNgpXDh),
-				(this.XmfJLVMuhFABYLikDCNgpXDh.depthWrite = !1);
+				aI.uQhXBpiYKWUIztcABMbQQUTY(this.materialWorld),
+				(this.WuMGuCdDxBOsQJNvYgpxCUdy = this.materialTransparent.clone()),
+				aI.uQhXBpiYKWUIztcABMbQQUTY(this.WuMGuCdDxBOsQJNvYgpxCUdy),
+				(this.WuMGuCdDxBOsQJNvYgpxCUdy.depthWrite = !1);
 			let i = () => {
 				(this.materialWorld.needsUpdate = !0),
-					(this.XmfJLVMuhFABYLikDCNgpXDh.needsUpdate = !0);
+					(this.WuMGuCdDxBOsQJNvYgpxCUdy.needsUpdate = !0);
 			};
 			E.grassWave.onChange(i),
 				E.dynamicLighting.onChange(i),
@@ -70595,7 +70595,7 @@ var mI = h,
 					this.materialEnchanted,
 					this.materialTransparent,
 					this.materialWorld,
-					this.XmfJLVMuhFABYLikDCNgpXDh,
+					this.WuMGuCdDxBOsQJNvYgpxCUdy,
 					this.materialFluidWorld,
 				];
 			for (let t of n) t && (t.map = e);
@@ -70609,8 +70609,8 @@ var mI = h,
 				t && t !== e && t.dispose();
 		}
 		loadSprite(e) {
-			let t = new mee(
-				new See({
+			let t = new See(
+				new _ee({
 					map: this.loader.load(`textures/${e}`),
 					color: 16777215,
 					fog: !1,
@@ -70620,8 +70620,8 @@ var mI = h,
 		}
 		fixedUpdate() {
 			this.materialTransparent &&
-				this.XmfJLVMuhFABYLikDCNgpXDh.userData &&
-				this.XmfJLVMuhFABYLikDCNgpXDh.userData.time.value++,
+				this.WuMGuCdDxBOsQJNvYgpxCUdy.userData &&
+				this.WuMGuCdDxBOsQJNvYgpxCUdy.userData.time.value++,
 				this.materialWorld &&
 					this.materialWorld.userData &&
 					this.materialWorld.userData.time.value++,
@@ -70668,8 +70668,8 @@ var mI = h,
 			(this.sunLight = e),
 				this.materialWorld?.userData?.uSunLight &&
 					(this.materialWorld.userData.uSunLight.value = e),
-				this.XmfJLVMuhFABYLikDCNgpXDh?.userData?.uSunLight &&
-					(this.XmfJLVMuhFABYLikDCNgpXDh.userData.uSunLight.value = e),
+				this.WuMGuCdDxBOsQJNvYgpxCUdy?.userData?.uSunLight &&
+					(this.WuMGuCdDxBOsQJNvYgpxCUdy.userData.uSunLight.value = e),
 				this.materialFluidWorld?.userData?.uSunLight &&
 					(this.materialFluidWorld.userData.uSunLight.value = e);
 		}
@@ -70677,8 +70677,8 @@ var mI = h,
 			(this.ambientLight = e),
 				this.materialWorld?.userData?.uAmbientLight &&
 					(this.materialWorld.userData.uAmbientLight.value = e),
-				this.XmfJLVMuhFABYLikDCNgpXDh?.userData?.uAmbientLight &&
-					(this.XmfJLVMuhFABYLikDCNgpXDh.userData.uAmbientLight.value = e),
+				this.WuMGuCdDxBOsQJNvYgpxCUdy?.userData?.uAmbientLight &&
+					(this.WuMGuCdDxBOsQJNvYgpxCUdy.userData.uAmbientLight.value = e),
 				this.materialFluidWorld?.userData?.uAmbientLight &&
 					(this.materialFluidWorld.userData.uAmbientLight.value = e);
 		}
@@ -70716,7 +70716,7 @@ var mI = h,
 			let e = this.heldLightCount;
 			for (let t of [
 				this.materialWorld,
-				this.XmfJLVMuhFABYLikDCNgpXDh,
+				this.WuMGuCdDxBOsQJNvYgpxCUdy,
 				this.materialFluidWorld,
 			]) {
 				let n = t?.userData;
@@ -70745,7 +70745,7 @@ var mI = h,
 				(t.originZ = e.originZ),
 				(t.invExtent = e.invExtent),
 				(this.giState = t);
-			for (let t of [this.materialWorld, this.XmfJLVMuhFABYLikDCNgpXDh]) {
+			for (let t of [this.materialWorld, this.WuMGuCdDxBOsQJNvYgpxCUdy]) {
 				let n = t?.userData;
 				n?.uGITex &&
 					((n.uGITex.value = e.texture),
@@ -70760,13 +70760,13 @@ var mI = h,
 		}
 		setGIEnabled(e) {
 			e || (this.giState = null);
-			for (let t of [this.materialWorld, this.XmfJLVMuhFABYLikDCNgpXDh]) {
+			for (let t of [this.materialWorld, this.WuMGuCdDxBOsQJNvYgpxCUdy]) {
 				let n = t?.userData;
 				n?.uGIEnabled && (n.uGIEnabled.value = +!!e);
 			}
 		}
 		setGIDebug(e) {
-			for (let t of [this.materialWorld, this.XmfJLVMuhFABYLikDCNgpXDh]) {
+			for (let t of [this.materialWorld, this.WuMGuCdDxBOsQJNvYgpxCUdy]) {
 				let n = t?.userData;
 				n?.uGIDebugView && (n.uGIDebugView.value = +!!e);
 			}
@@ -70775,8 +70775,8 @@ var mI = h,
 			let t = +!!e;
 			this.materialWorld?.userData?.uHasDamage &&
 				(this.materialWorld.userData.uHasDamage.value = t),
-				this.XmfJLVMuhFABYLikDCNgpXDh?.userData?.uHasDamage &&
-					(this.XmfJLVMuhFABYLikDCNgpXDh.userData.uHasDamage.value = t);
+				this.WuMGuCdDxBOsQJNvYgpxCUdy?.userData?.uHasDamage &&
+					(this.WuMGuCdDxBOsQJNvYgpxCUdy.userData.uHasDamage.value = t);
 		}
 	})(),
 	hI = new yn(),
@@ -70786,11 +70786,11 @@ var mI = h,
 	yI = new yn(),
 	bI = new yn(),
 	xI = new yn(),
-	SI = new or(),
-	CI = new or(),
+	SI = new Tn(),
+	CI = new Tn(),
 	wI = new D(),
 	TI = new D(),
-	EI = class extends Rn {
+	EI = class extends Yn {
 		root = null;
 		update() {
 			let e = this.bones,
@@ -70808,7 +70808,7 @@ var mI = h,
 			r !== null && (r.needsUpdate = !0);
 		}
 	},
-	DI = class extends Kn {
+	DI = class extends nr {
 		applyBoneTransform(e, t) {
 			let n = t,
 				r = this.skeleton,
@@ -70840,7 +70840,7 @@ function OI(e, t, n) {
 function kI(e, t) {
 	e.bind(t, yI), (e.bindMode = dee);
 }
-var J = class e extends Wn {
+var J = class e extends qn {
 		skinName;
 		root;
 		pos;
@@ -70916,26 +70916,26 @@ var J = class e extends Wn {
 				i = new Float32Array(new ArrayBuffer(e.uvs.length * 4)),
 				a = new Uint16Array(new ArrayBuffer(e.indices.length * 2));
 			n.set(e.positions), r.set(e.normals), i.set(e.uvs), a.set(e.indices);
-			let o = t ? t.geometry : new Bn();
-			if ((o.setAttribute(`position`, new Vn(n, 3)), e.colors)) {
+			let o = t ? t.geometry : new Vn();
+			if ((o.setAttribute(`position`, new Un(n, 3)), e.colors)) {
 				new Float32Array(new ArrayBuffer(e.colors.length * 4)).set(e.colors);
-				let t = new hee(e.colors, 4);
+				let t = new fee(e.colors, 4);
 				(t.normalized = !0),
 					o.setAttribute(`color`, t),
 					(o.attributes.color.needsUpdate = !0);
 			}
 			if (e.overlayUVs) {
 				let t = new Float32Array(new ArrayBuffer(e.overlayUVs.length * 4));
-				t.set(e.overlayUVs), o.setAttribute(`overlayUV`, new Vn(t, 2));
+				t.set(e.overlayUVs), o.setAttribute(`overlayUV`, new Un(t, 2));
 			}
 			if (e.animations) {
 				let t = new Uint8Array(new ArrayBuffer(e.animations.length));
-				t.set(e.animations), o.setAttribute(`animation`, new Vn(t, 2));
+				t.set(e.animations), o.setAttribute(`animation`, new Un(t, 2));
 			}
 			return (
-				o.setAttribute(`normal`, new Vn(r, 3)),
-				o.setAttribute(`uv`, new Vn(i, 2)),
-				o.setIndex(new Vn(a, 1)),
+				o.setAttribute(`normal`, new Un(r, 3)),
+				o.setAttribute(`uv`, new Un(i, 2)),
+				o.setIndex(new Un(a, 1)),
 				o.computeBoundingSphere(),
 				(o.attributes.position.needsUpdate = !0),
 				(o.attributes.normal.needsUpdate = !0),
@@ -71092,7 +71092,7 @@ var J = class e extends Wn {
 		}
 		initMeshWithGeometries(e, t = !1) {
 			let { material: n } = this.getRatioAndMaterial(this.skinName);
-			return t && (n.side = 2), new Dn(Qn(e), n);
+			return t && (n.side = 2), new Dn($n(e), n);
 		}
 		skinnedParts = [];
 		bakeSkinnedRig(e, t) {
@@ -71125,7 +71125,7 @@ var J = class e extends Wn {
 					u = new Float32Array(a * 4);
 				for (let e = 0; e < a; e++) (o[e * 4] = n), (u[e * 4] = 1);
 				r.setAttribute(`skinIndex`, new Hn(o, 4)),
-					r.setAttribute(`skinWeight`, new Vn(u, 4)),
+					r.setAttribute(`skinWeight`, new Un(u, 4)),
 					c.push(r),
 					(l ||= e.material);
 			}
@@ -71136,7 +71136,7 @@ var J = class e extends Wn {
 						t.attach(e.children[n]);
 				e.removeFromParent();
 			}
-			let u = Qn(c);
+			let u = $n(c);
 			for (let e of c) e.dispose();
 			u.computeBoundingSphere(),
 				u.boundingSphere && (u.boundingSphere.radius *= 1.6),
@@ -71415,8 +71415,8 @@ var WI = class extends J {
 		}
 		render(e, t, n) {}
 	},
-	qI = aee.prototype,
-	JI = new sr(1, 1, 1);
+	qI = oee.prototype,
+	JI = new cr(1, 1, 1);
 function YI(e) {
 	let t = e.onBeforeCompile !== qI.onBeforeCompile,
 		n;
@@ -71440,8 +71440,8 @@ function XI(e) {
 	let r = t,
 		i = YI(r);
 	return (
-		(n._litBase = r.color instanceof sr ? r.color.clone() : JI.clone()),
-		(n._litColor = new sr()),
+		(n._litBase = r.color instanceof cr ? r.color.clone() : JI.clone()),
+		(n._litColor = new cr()),
 		(i.color = n._litColor),
 		(n._litOwned = i),
 		(e.material = i),
@@ -71657,7 +71657,7 @@ var eL = `enchanting_table_book`,
 		async build() {
 			let e = q.skinManager;
 			if (
-				(e.hasSkin(sL) || (await e.HudQgdSdNlnZznwJO(aL, oL, cL)),
+				(e.hasSkin(sL) || (await e.fnqFibILLYAdUWYyJ(aL, oL, cL)),
 				!e.hasSkin(sL))
 			)
 				return;
@@ -72063,7 +72063,7 @@ var SL = class extends J {
 			let t = new Nn(this.canvas);
 			(t.minFilter = jn), (t.magFilter = jn);
 			let n = new vn({ map: t, side: 0, transparent: !0, alphaTest: 0.5 }),
-				r = new fn(1, 0.5);
+				r = new Bn(1, 0.5);
 			(this.textMesh = new Dn(r, n)),
 				(this.textMesh.matrixAutoUpdate = !1),
 				(this.textMesh.matrixWorldAutoUpdate = !0),
@@ -72279,7 +72279,7 @@ var SL = class extends J {
 		duration;
 		constructor(e, t, n = 1) {
 			(this.position = e),
-				(this.rotation = t instanceof En ? new Jn().setFromEuler(t) : t),
+				(this.rotation = t instanceof En ? new Qn().setFromEuler(t) : t),
 				(this.duration = n);
 		}
 	},
@@ -72312,22 +72312,22 @@ var SL = class extends J {
 	},
 	EL = new (class {
 		fireMesh;
-		camera = new Cn(75, window.innerWidth / window.innerHeight, 0.01, 1e7);
-		scene = new Yn();
+		camera = new fn(75, window.innerWidth / window.innerHeight, 0.01, 1e7);
+		scene = new er();
 		constructor() {
 			this.scene.add(this.camera);
-			let e = new zn(16777215, 3);
+			let e = new Rn(16777215, 3);
 			this.scene.add(e);
 		}
 	})(),
 	DL = new D(),
-	OL = new Jn(),
+	OL = new Qn(),
 	kL = new D(1.357, -0.958, -1.642),
-	AL = new Jn().setFromEuler(new En(-0.463, -1.565, 0)),
+	AL = new Qn().setFromEuler(new En(-0.463, -1.565, 0)),
 	jL = new D(0.696, 0.894, -0.405),
-	ML = new Jn().setFromEuler(new En(-1.67, 0.36, 1.467)),
+	ML = new Qn().setFromEuler(new En(-1.67, 0.36, 1.467)),
 	NL = new D(1.114, -2.674, -2.409),
-	PL = new Jn().setFromEuler(new En(-0.055, 0.775, 0.037)),
+	PL = new Qn().setFromEuler(new En(-0.055, 0.775, 0.037)),
 	FL = new wL(DL, OL, 1),
 	IL = new wL(new D(-1.595, 1.555, -1.925), new En(-0.77, -0.079, 0.267), 2),
 	LL = new wL(new D(-1.639, 0.806, -2.453), new En(-0.955, 0, 0.406), 3),
@@ -72345,18 +72345,18 @@ var SL = class extends J {
 	YL = new wL(new D(-1.595, 1.555, -1.925), new En(-0.77, -0.079, 0.267)),
 	XL = new wL(new D(-1.639, 0.806, -2.453), new En(-0.955, 0, 0.406)),
 	ZL = new D(1.199, -1.1, -1.379),
-	QL = new Jn().setFromEuler(new En(-2.999, 0.968, -3.109)),
+	QL = new Qn().setFromEuler(new En(-2.999, 0.968, -3.109)),
 	$L = new D(0.8, -0.85, -1),
-	eR = new Jn().setFromEuler(new En(2.83, -0.54, 0.47)),
+	eR = new Qn().setFromEuler(new En(2.83, -0.54, 0.47)),
 	tR = new wL(DL, OL, 1),
 	nR = new wL(new D(-0.24, -0.32, -0.44), new En(0, 0.01, 0.5), 2),
 	rR = new wL(new D(-0.34, -0.62, -0.62), new En(-0.02, 0.2, 0.74)),
 	iR = new wL(new D(-0.82, -1.04, -1.12), new En(-0.41, -0.27, 1.05), 4),
 	aR = new wL(new D(0.567, -0.958, -1.642), new En(-0.024, -0.024, 0.307), 1),
 	oR = new wL(new D(0.567, -1.658, -1.642), new En(-0.024, -0.024, 0.307), 2),
-	sR = new (class extends Wn {
-		item = new Wn();
-		fireGroup = new Wn();
+	sR = new (class extends qn {
+		item = new qn();
+		fireGroup = new qn();
 		suffocationGroup = new Dn();
 		lastSuffocationBlock;
 		mesh = new Dn();
@@ -72433,10 +72433,10 @@ var SL = class extends J {
 			let e = 0.6,
 				t = this.getSpriteMesh(`fire_0`);
 			t.position.set(e, -1, -0.8);
-			let n = new Wn();
+			let n = new qn();
 			n.rotation.set(0, 0.15 + Math.PI / 2, 0), n.add(t);
 			let r = this.getSpriteMesh(`fire_0`),
-				i = new Wn();
+				i = new qn();
 			r.position.set(e, -1, -0.2),
 				i.rotation.set(0, -0.15 + Math.PI / 2, 0),
 				i.add(r),
@@ -72445,7 +72445,7 @@ var SL = class extends J {
 		initSuffocationMesh() {
 			let e = this.getSpriteMesh(`stone`),
 				t = 0.4;
-			(e.material.color = new sr(t, t, t)),
+			(e.material.color = new cr(t, t, t)),
 				e.position.set(0.25, -0.5, -0.5),
 				this.suffocationGroup.add(e),
 				(this.suffocationGroup.rotation.y = Math.PI / 2);
@@ -72510,7 +72510,7 @@ var SL = class extends J {
 			if (
 				Y.itemInUse &&
 				Y.getActiveItemStack() &&
-				((Y.jkCMvaSZ() && Y.getActiveItemStack().item instanceof Hp) ||
+				((Y.yZHQaxsw() && Y.getActiveItemStack().item instanceof Hp) ||
 					(Y.getActiveItemStack().getItemUseAction() == Ac.DRINK &&
 						Y.getActiveItemStack().item instanceof xm))
 			) {
@@ -72543,7 +72543,7 @@ var SL = class extends J {
 					? (this.swingLength.value = 0.04)
 					: (this.swingLength.value = 0);
 				let e = n.limbSwing - n.limbSwingAmount * (1 - n.getPartialTicks()),
-					t = n.mesh.WeyqsvIOfOmVfzK(),
+					t = n.mesh.YMDTpCOJwphhEZN(),
 					r = 0.8,
 					i = Math.sin(e * r) * t * this.swingLength.value,
 					a =
@@ -72557,7 +72557,7 @@ var SL = class extends J {
 			}
 		}
 		update(e) {
-			let t = Y.NfHXHGpOJNFzQF();
+			let t = Y.gZFtxtzYhBlTBK();
 			if (!t) return;
 			let n = t.model.skin,
 				r = q.skinManager.hasSkin(n);
@@ -72593,7 +72593,7 @@ var SL = class extends J {
 			let i = Y.getActiveItemStack(),
 				a = i.item;
 			(this.rightArm.visible = !1), (this.item.visible = !0);
-			let o = i.getMaxItemUseDuration() - Y.TWniqzzbcHFAdyDfi(),
+			let o = i.getMaxItemUseDuration() - Y.jRoMfUZAKYbzRwNDE(),
 				s = $.world.entities.get(Y.id),
 				c = a.equals(z.fishing_rod) && s instanceof Np && s.fishEntity != null;
 			if (
@@ -72614,7 +72614,7 @@ var SL = class extends J {
 						this.tesr && (this.tesr.visible = !0),
 						(this.mesh.visible = !1))
 					: a.equals(z.bow)
-						? Y.QoHTNdFeVoCy()
+						? Y.RuSzkRxCxyLm()
 							? o >= 18
 								? new WI(zp.BOW_TEXTURES[3], l, this.mesh, i.hasEffect())
 								: o > 13
@@ -73270,7 +73270,7 @@ var RR = class e {
 		setCurrentItemOrArmor(e, t) {
 			e == 0
 				? (this.inventory.mainInventory[this.inventory.currentItem] = t)
-				: (this.inventory.DbaifMGHLXHqtE[e - 1] = t);
+				: (this.inventory.oQfprhIbkotHyb[e - 1] = t);
 		}
 		setPositionAndRotation2(e, t, n, r, i, a) {
 			this.otherPlayerPos.set(e, t, n),
@@ -73299,7 +73299,7 @@ var RR = class e {
 					this.otherPlayerMPPosRotationIncrements),
 					--this.otherPlayerMPPosRotationIncrements,
 					this.setPosition(e, t, n),
-					this.edBpTfmccyY(this.yaw, this.pitch);
+					this.AlnylFQVLYK(this.yaw, this.pitch);
 			} else if (!this.extrapolationSettled) {
 				if (this.motion.x === 0 && this.motion.y === 0 && this.motion.z === 0)
 					return;
@@ -73344,7 +73344,7 @@ var RR = class e {
 				((this.limbSwingAmount += (n - this.limbSwingAmount) * 0.4),
 				(this.limbSwing += this.limbSwingAmount),
 				!this.isItemInUse &&
-					this.jkCMvaSZ() &&
+					this.yZHQaxsw() &&
 					this.getActiveItemStack() != null)
 			) {
 				let e = this.inventory.mainInventory[this.inventory.currentItem];
@@ -73355,8 +73355,8 @@ var RR = class e {
 					(this.isItemInUse = !0);
 			} else
 				this.isItemInUse &&
-					!this.jkCMvaSZ() &&
-					(this.eKvFaBdOYmwryL(), (this.isItemInUse = !1));
+					!this.yZHQaxsw() &&
+					(this.WNyLqGPxqfOSCO(), (this.isItemInUse = !1));
 		}
 	},
 	KR = 1e3,
@@ -73421,7 +73421,7 @@ var $R = LN({ x: window.innerWidth / 2, y: window.innerHeight / 2 }, 10),
 					vK.leftClick(), ($R.event = 0);
 					break;
 				case 2:
-					e.preventDefault(), vK.hjpqrukIoLx(), ($R.event = 2);
+					e.preventDefault(), vK.kVkHjGGPaSO(), ($R.event = 2);
 					break;
 				case 3:
 					($R.event = 1), YR(), (vK.rightClick = !0), vK.rightClickMouse();
@@ -73437,7 +73437,7 @@ var $R = LN({ x: window.innerWidth / 2, y: window.innerHeight / 2 }, 10),
 					vK.leftClick(!0);
 					break;
 				case 2:
-					vK.hjpqrukIoLx(!0);
+					vK.kVkHjGGPaSO(!0);
 					break;
 				case 3:
 					(vK.rightClick = !1), Y.isUsingItem() && vK.onStoppedUsingItem(Y);
@@ -73529,7 +73529,7 @@ var tz = class {
 		get camera() {
 			return this.yawObject;
 		}
-		get hmcwVI() {
+		get bJScIm() {
 			return this.camera.position;
 		}
 	})(),
@@ -73638,10 +73638,10 @@ function az(e, t, n, r, i) {
 		e.closePath();
 }
 var oz = class {
-	start = new cr();
-	curr = new cr();
-	prev = new cr();
-	direction = new cr();
+	start = new In();
+	curr = new In();
+	prev = new In();
+	direction = new In();
 	moveId = null;
 	lookId = null;
 	jumping = !1;
@@ -73650,7 +73650,7 @@ var oz = class {
 	startLook = 0;
 	lastLook = 0;
 	initialLoad = !0;
-	prevTouchPos = new cr();
+	prevTouchPos = new In();
 	constructor() {
 		this.initializeEventListeners();
 	}
@@ -73782,14 +73782,14 @@ var oz = class {
 			this.prev.set(e.clientX, e.clientY),
 			(ez.x = e.clientX),
 			(ez.y = e.clientY),
-			vK.aFIeNUBxIsdqgjS(),
+			vK.pICeeoFbsKhQNxe(),
 			vK.objectMouseOver.block)
 		)
 			this.prevTouchPos.set(e.clientX, e.clientY),
 				(this.startLook = Date.now());
 		else if (vK.objectMouseOver.entity) {
 			let t = vK.objectMouseOver.entity;
-			t.jjpjoGKOdWfbIxJRVBR() || this.heldItemUsesOnEntity(t)
+			t.oACwpzBKZUPYBBJvtyp() || this.heldItemUsesOnEntity(t)
 				? (this.prevTouchPos.set(e.clientX, e.clientY),
 					(this.startLook = Date.now()))
 				: vK.leftClick();
@@ -73872,7 +73872,7 @@ var oz = class {
 		this.moveId === null &&
 			(this.direction.x !== 0 || this.direction.y !== 0) &&
 			(this.direction.setScalar(0), this.setSprint(!1));
-		let e = this.prevTouchPos.distanceTo(new cr(ez.x, ez.y));
+		let e = this.prevTouchPos.distanceTo(new In(ez.x, ez.y));
 		this.startLook && e > 25 && (this.startLook = 0),
 			this.startLook &&
 				Date.now() - this.startLook > 300 &&
@@ -82206,7 +82206,7 @@ var MDe = `modulepreload`,
 				),
 				yH(
 					() =>
-						import(`./OptionsManager-DmET_u26.js`)
+						import(`./OptionsManager-DnRoMb_m.js`)
 							.then((e) => e.n)
 							.then((e) => e.default),
 					__vite__mapDeps([0, 1]),
@@ -87252,7 +87252,7 @@ var Bke = {
 			Object.assign(this.config, e),
 				O.info(`[NetworkSimulator] config updated`, this.config);
 		}
-		yhItIkJY(e, t = `recv`) {
+		mfqwmmjh(e, t = `recv`) {
 			return this.config.enabled
 				? this.config.packetLoss > 0 && Math.random() < this.config.packetLoss
 					? !1
@@ -87270,7 +87270,7 @@ var Bke = {
 		}
 		enqueue(e, t) {
 			let n = Math.max(
-				performance.now() + this.EMiMYBKQELGI(),
+				performance.now() + this.tXJrdqgHRWCb(),
 				this.lastDeliveryAt[e],
 			);
 			(this.lastDeliveryAt[e] = n),
@@ -87284,7 +87284,7 @@ var Bke = {
 			this.draining[e] = !0;
 			let n = Math.max(0, t[0].deliverAt - performance.now()),
 				r = setTimeout(() => {
-					this.tAdfEJBpBrt(r), (this.draining[e] = !1);
+					this.LxnoNNJtYRx(r), (this.draining[e] = !1);
 					let n = t.shift();
 					try {
 						n?.action();
@@ -87296,11 +87296,11 @@ var Bke = {
 		}
 		scheduleUnordered(e, t) {
 			let n = setTimeout(() => {
-				this.tAdfEJBpBrt(n), t();
-			}, this.EMiMYBKQELGI());
+				this.LxnoNNJtYRx(n), t();
+			}, this.tXJrdqgHRWCb());
 			this.pendingTimers.push(n);
 		}
-		EMiMYBKQELGI() {
+		tXJrdqgHRWCb() {
 			let { latencyMs: e, jitterMs: t } = this.config,
 				n = t > 0 ? (Math.random() * 2 - 1) * t : 0;
 			return Math.max(0, e + n);
@@ -87314,7 +87314,7 @@ var Bke = {
 				(this.lastDeliveryAt.recv = this.lastDeliveryAt.send =
 					performance.now());
 		}
-		tAdfEJBpBrt(e) {
+		LxnoNNJtYRx(e) {
 			let t = this.pendingTimers.indexOf(e);
 			t !== -1 && this.pendingTimers.splice(t, 1);
 		}
@@ -87384,7 +87384,7 @@ var Wke = {
 									return;
 								}
 								for (let e of t)
-									pK.netSim.yhItIkJY(() => this.emit(`decoded`, e));
+									pK.netSim.mfqwmmjh(() => this.emit(`decoded`, e));
 							}),
 							(this.worker.onerror = (e) => {
 								O.error(`NetworkDecodeWorker crashed; decoding inline`, e),
@@ -87446,7 +87446,7 @@ var Wke = {
 										Rke(),
 									);
 								for (let e of r)
-									pK.netSim.yhItIkJY(() => this.emit(`decoded`, e));
+									pK.netSim.mfqwmmjh(() => this.emit(`decoded`, e));
 							} catch (e) {
 								O.error(`ClientDecoder.add`, e), CS(e);
 							}
@@ -87525,7 +87525,7 @@ var Wke = {
 		}
 		static sendPacket(e) {
 			let t = e.constructor.typeName;
-			this.netSim.yhItIkJY(() => {
+			this.netSim.mfqwmmjh(() => {
 				this.socket?.emit(t, e);
 			}, `send`);
 		}
@@ -87533,12 +87533,12 @@ var Wke = {
 	mK = new (class {
 		lastSentSlot = -1;
 		isHittingBlock = !1;
-		XCtIxIqkOOZogpCzEbu() {
+		BoVVdhmKSmfDwvsFTpP() {
 			let e = Y.inventory.currentItem;
 			e !== this.lastSentSlot &&
 				((this.lastSentSlot = e), pK.sendPacket(new UB({ slot: e })));
 		}
-		hbCbbqyLTJmYz() {
+		PpxXrQfPNuxUa() {
 			return this.isHittingBlock;
 		}
 		sendEnchantPacket(e, t) {
@@ -87548,10 +87548,10 @@ var Wke = {
 			pK.sendPacket(new uV({ windowId: e, name: t }));
 		}
 	})(),
-	hK = new ir(),
+	hK = new Cn(),
 	gK = new D(),
-	_K = new ir(),
-	Gke = new ir(new D(0, 0, 0), new D(0, 0, 0)),
+	_K = new Cn(),
+	Gke = new Cn(new D(0, 0, 0), new D(0, 0, 0)),
 	Kke = new D(),
 	qke = new D(0, 1, 0),
 	Jke = new D(),
@@ -87569,19 +87569,19 @@ var Wke = {
 		reset() {
 			this.key.leftClick = 0;
 		}
-		migVfVOacrOXcGRqaFtAI() {
+		oWMUsThselkZhDWmoriLI() {
 			return Y.abilities.creative ? 5 : 4.5;
 		}
 		leftClick(e) {
 			if (e) (this.key.leftClick = 0), (this.currBreakingLocation = null);
 			else if ((YR(), Q.isActive() || Q.isMobile)) {
-				this.aFIeNUBxIsdqgjS();
+				this.pICeeoFbsKhQNxe();
 				let t = this.punch();
 				Y.abilities.creative && !e && !t && this.mine(!0);
 			}
 		}
-		hjpqrukIoLx(e) {
-			e || (Q.isActive() && this.baFQQUMVM());
+		kVkHjGGPaSO(e) {
+			e || (Q.isActive() && this.sossukZZz());
 		}
 		rightClickMouse(e = !1) {
 			if (!$.inGame() || $.info.menus.isOpen(`inventory`)) return;
@@ -87593,14 +87593,14 @@ var Wke = {
 				this.objectMouseOver.typeOfHit === Yu.ENTITY &&
 				this.objectMouseOver.entity
 			)
-				this.YOOQmeeIlIOIhQgrDbLWVqbgvJpU(Y, this.objectMouseOver.entity);
+				this.LzjTfmcSvVoHUhCyCmpbnKIVLYXu(Y, this.objectMouseOver.entity);
 			else if (this.objectMouseOver.typeOfHit === Yu.BLOCK) {
 				let e = this.objectMouseOver,
 					n = e.block;
 				if ($.world.getBlockState(n).getBlock().material != L.air) {
 					let r = t == null ? 0 : t.stackSize;
 					if (
-						(this.DZWLDNVBPiMCVfgLCL(Y, $.world, t, n, e.side, e.hitVec) &&
+						(this.eHsKgBLtXNQTQttPWB(Y, $.world, t, n, e.side, e.hitVec) &&
 							sR.swingArm(),
 						t == null)
 					)
@@ -87614,10 +87614,10 @@ var Wke = {
 							sR.swingArm());
 				}
 			}
-			this.ElNVUGyytNi(Y, $.world, t, e) && t != null && sR.swingArm();
+			this.YPhQPadqmNa(Y, $.world, t, e) && t != null && sR.swingArm();
 		}
-		DZWLDNVBPiMCVfgLCL(e, t, n, r, i, a) {
-			mK.XCtIxIqkOOZogpCzEbu();
+		eHsKgBLtXNQTQttPWB(e, t, n, r, i, a) {
+			mK.BoVVdhmKSmfDwvsFTpP();
 			let o = a.x - r.x,
 				s = a.y - r.y,
 				c = a.z - r.z;
@@ -87645,11 +87645,11 @@ var Wke = {
 				return a && n.item.isItemBlock() && (xR.markPlaced(), Mt.light()), a;
 			}
 		}
-		ElNVUGyytNi(e, t, n, r = !1) {
+		YPhQPadqmNa(e, t, n, r = !1) {
 			if (
 				e.mode.isSpectator() ||
 				(r && n != null && n.getItemUseAction() === Ac.BLOCK) ||
-				(mK.XCtIxIqkOOZogpCzEbu(), pK.sendPacket(new pR()), n == null)
+				(mK.BoVVdhmKSmfDwvsFTpP(), pK.sendPacket(new pR()), n == null)
 			)
 				return !1;
 			let i = n.stackSize,
@@ -87660,7 +87660,7 @@ var Wke = {
 					? !1
 					: ((e.inventory.main[e.inventory.currentItem] = a), !0);
 		}
-		xXXJNoeXyNB(e, t, n, r, i) {
+		zPCNhDUptmT(e, t, n, r, i) {
 			let a = i.openContainer.getNextTransactionID(i.inventory),
 				o = i.openContainer.slotClick(t, n, r, i);
 			return (
@@ -87678,7 +87678,7 @@ var Wke = {
 			);
 		}
 		onStoppedUsingItem(e) {
-			mK.XCtIxIqkOOZogpCzEbu(),
+			mK.BoVVdhmKSmfDwvsFTpP(),
 				pK.sendPacket(
 					new hR({
 						position: F.ORIGIN.toProto(),
@@ -87686,7 +87686,7 @@ var Wke = {
 						action: cR.RELEASE_USE_ITEM,
 					}),
 				),
-				e.OAssxdWuYFTgy();
+				e.SagYtDphDVxwB();
 		}
 		select() {
 			if (Y.mode.isSpectator()) {
@@ -87742,7 +87742,7 @@ var Wke = {
 			}
 		}
 		attackEntity(e) {
-			mK.XCtIxIqkOOZogpCzEbu(),
+			mK.BoVVdhmKSmfDwvsFTpP(),
 				pK.sendPacket(
 					new gR({
 						id: e.id,
@@ -87757,12 +87757,12 @@ var Wke = {
 						sequence: Y.inputSequenceNumber,
 					}),
 				),
-				Y.CXXgcgNxXosNtEaMHqdrYVJSoYGfbVpnU(e),
+				Y.TcxUBTOBiBrWheYJLsEJomBKjZErOmuwM(e),
 				Mt.hit();
 		}
-		YOOQmeeIlIOIhQgrDbLWVqbgvJpU(e, t) {
+		LzjTfmcSvVoHUhCyCmpbnKIVLYXu(e, t) {
 			return t
-				? (mK.XCtIxIqkOOZogpCzEbu(),
+				? (mK.BoVVdhmKSmfDwvsFTpP(),
 					pK.sendPacket(
 						new gR({
 							id: t.id,
@@ -87777,7 +87777,7 @@ var Wke = {
 					!0)
 				: !1;
 		}
-		nFikApMoCodmqKifMrHJQNjZcK(e) {
+		XVjVbbUDlYPHwdWPRgTVAxTdJW(e) {
 			for (let t = 0; t < 9; t++)
 				if (Y.inventory.main[t] && Y.inventory.main[t].item.equals(e)) return t;
 			for (let e = 0; e < 9; e++) if (!Y.inventory.main[e]) return e;
@@ -87792,8 +87792,8 @@ var Wke = {
 			let e = this.getTargetedBlockCoords();
 			return e ? $.world.getBlockState(e) : null;
 		}
-		yzEgCuQwomkpKknQHqc() {
-			let e = Y.NvstfwYcR(),
+		AVbuqhPmPzCDsnSGXOE() {
+			let e = Y.PmrXjhyxc(),
 				t = Y.getLook().clone().normalize(),
 				n = ((ez.x - SR.rectLeft) / SR.rectWidth) * 2 - 1,
 				r = ((ez.y - SR.rectTop) / SR.rectHeight) * 2 - 1,
@@ -87808,11 +87808,11 @@ var Wke = {
 				f = t.add(u).add(d).normalize().multiplyScalar(100);
 			return e.clone().add(f);
 		}
-		aFIeNUBxIsdqgjS() {
+		pICeeoFbsKhQNxe() {
 			if (!$.inGame() || Y.getHealth() < 0) return;
-			let e = this.migVfVOacrOXcGRqaFtAI(),
+			let e = this.oWMUsThselkZhDWmoriLI(),
 				t = null,
-				n = Y.NvstfwYcR(),
+				n = Y.PmrXjhyxc(),
 				r = Y.getLook(),
 				i = n.clone().add(r.multiplyScalar(e)),
 				a =
@@ -87821,7 +87821,7 @@ var Wke = {
 						(Date.now() - cz.lastLook > 500 && cz.lookId == null));
 			nz.enabled || a
 				? (this.objectMouseOver = Qu(Y, $.world, e))
-				: ((i = this.yzEgCuQwomkpKknQHqc()),
+				: ((i = this.AVbuqhPmPzCDsnSGXOE()),
 					(this.objectMouseOver = Zu(n, i, !0, !1, !1, $.world)));
 			let o = e;
 			this.objectMouseOver != null &&
@@ -87858,7 +87858,7 @@ var Wke = {
 			(l < o || this.objectMouseOver == null) &&
 				(this.objectMouseOver = new Xu(Yu.ENTITY, s, null, null, t));
 		}
-		baFQQUMVM() {
+		sossukZZz() {
 			if (!Y.abilities.creative) return;
 			let e = this.getTargetedBlockState();
 			if (!e) return;
@@ -87880,7 +87880,7 @@ var Wke = {
 				n = z.getItemByBlock(t);
 			}
 			if (!n) return;
-			let i = this.nFikApMoCodmqKifMrHJQNjZcK(n),
+			let i = this.XVjVbbUDlYPHwdWPRgTVAxTdJW(n),
 				a = new Vp(n);
 			r && (a.data = r),
 				(Y.inventory.main[i] = a),
@@ -87937,7 +87937,7 @@ var Wke = {
 						let e = Y.getActiveItemStack();
 						e != null &&
 							(e.onBlockDestroyed($.world, s, i, Y),
-							e.stackSize == 0 && Y.pDRjIuimZWGmWPDWeePOMtJebN());
+							e.stackSize == 0 && Y.vFTYavJLiETNewTvWTbiRsZMbY());
 					}
 					this.key.leftClick = Date.now();
 				} else
@@ -88004,7 +88004,7 @@ var Wke = {
 					this.rightClickMouse();
 		}
 		render() {
-			this.aFIeNUBxIsdqgjS(), this.select(), this.mine();
+			this.pICeeoFbsKhQNxe(), this.select(), this.mine();
 		}
 	})(),
 	yK = 0.5,
@@ -88012,7 +88012,7 @@ var Wke = {
 	Xke = 1,
 	bK = 1.35,
 	Zke = -16 / eF,
-	Qke = class extends Fn {
+	Qke = class extends Pn {
 		_scene;
 		_camera;
 		_chunkMeshes;
@@ -88035,7 +88035,7 @@ var Wke = {
 		_time = 0;
 		_intensity = bK;
 		_occluderExclude = null;
-		_prevClearColor = new sr();
+		_prevClearColor = new cr();
 		constructor(e) {
 			super(),
 				(this._scene = e.scene),
@@ -88053,11 +88053,11 @@ var Wke = {
 					depthTest: !0,
 					side: 0,
 				}));
-			let t = { minFilter: wn, magFilter: wn, type: xn, wrapS: nr, wrapT: nr };
-			(this.emissiveTarget = new Tn(1, 1, { ...t, depthBuffer: !0 })),
-				(this.blurTargetA = new Tn(1, 1, { ...t, depthBuffer: !1 })),
-				(this.blurTargetB = new Tn(1, 1, { ...t, depthBuffer: !1 })),
-				(this.emissiveMaterial = new $n({
+			let t = { minFilter: wn, magFilter: wn, type: xn, wrapS: rr, wrapT: rr };
+			(this.emissiveTarget = new mn(1, 1, { ...t, depthBuffer: !0 })),
+				(this.blurTargetA = new mn(1, 1, { ...t, depthBuffer: !1 })),
+				(this.blurTargetB = new mn(1, 1, { ...t, depthBuffer: !1 })),
+				(this.emissiveMaterial = new Ln({
 					uniforms: {
 						map: { value: null },
 						time: { value: 0 },
@@ -88118,8 +88118,8 @@ var Wke = {
         gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0);
       }
     `;
-			(this.blurMaterial = new $n({
-				uniforms: { tDiffuse: { value: null }, direction: { value: new cr() } },
+			(this.blurMaterial = new Ln({
+				uniforms: { tDiffuse: { value: null }, direction: { value: new In() } },
 				vertexShader: n,
 				fragmentShader: `
         uniform sampler2D tDiffuse;
@@ -88137,7 +88137,7 @@ var Wke = {
 				depthTest: !1,
 				depthWrite: !1,
 			})),
-				(this.compositeMaterial = new $n({
+				(this.compositeMaterial = new Ln({
 					uniforms: {
 						tDiffuse: { value: null },
 						tBloom: { value: null },
@@ -88158,8 +88158,8 @@ var Wke = {
 					depthTest: !1,
 					depthWrite: !1,
 				})),
-				(this.blurQuad = new Un(this.blurMaterial)),
-				(this.compositeQuad = new Un(this.compositeMaterial));
+				(this.blurQuad = new Gn(this.blurMaterial)),
+				(this.compositeQuad = new Gn(this.compositeMaterial));
 		}
 		setIntensity(e) {
 			(this._intensity = e),
@@ -88328,7 +88328,7 @@ var Wke = {
     gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0);
   }
 `,
-	oAe = class extends Fn {
+	oAe = class extends Pn {
 		_lumTargets = [];
 		_adaptTargets;
 		_adaptIndex = 0;
@@ -88344,17 +88344,17 @@ var Wke = {
 				minFilter: wn,
 				magFilter: wn,
 				type: xn,
-				format: Zn,
+				format: Kn,
 				depthBuffer: !1,
 				stencilBuffer: !1,
-				wrapS: nr,
-				wrapT: nr,
+				wrapS: rr,
+				wrapT: rr,
 			};
 			for (let t = $ke; t >= 1; t = Math.floor(t / 2))
-				this._lumTargets.push(new Tn(t, t, e));
+				this._lumTargets.push(new mn(t, t, e));
 			let t = { ...e, minFilter: jn, magFilter: jn };
-			(this._adaptTargets = [new Tn(1, 1, t), new Tn(1, 1, t)]),
-				(this._luminanceMaterial = new $n({
+			(this._adaptTargets = [new mn(1, 1, t), new mn(1, 1, t)]),
+				(this._luminanceMaterial = new Ln({
 					uniforms: { tDiffuse: { value: null } },
 					vertexShader: SK,
 					fragmentShader: `
@@ -88371,7 +88371,7 @@ var Wke = {
 					depthWrite: !1,
 					blending: 0,
 				})),
-				(this._downsampleMaterial = new $n({
+				(this._downsampleMaterial = new Ln({
 					uniforms: { tDiffuse: { value: null } },
 					vertexShader: SK,
 					fragmentShader: `
@@ -88385,7 +88385,7 @@ var Wke = {
 					depthWrite: !1,
 					blending: 0,
 				})),
-				(this._adaptMaterial = new $n({
+				(this._adaptMaterial = new Ln({
 					uniforms: {
 						tCurrentLum: { value: null },
 						tPreviousAdapt: { value: null },
@@ -88416,7 +88416,7 @@ var Wke = {
 					depthWrite: !1,
 					blending: 0,
 				})),
-				(this._applyMaterial = new $n({
+				(this._applyMaterial = new Ln({
 					uniforms: {
 						tDiffuse: { value: null },
 						tAdapt: { value: null },
@@ -88453,7 +88453,7 @@ var Wke = {
 					depthWrite: !1,
 					blending: 0,
 				})),
-				(this._quad = new Un(this._luminanceMaterial));
+				(this._quad = new Gn(this._luminanceMaterial));
 		}
 		setStrength(e) {
 			this._applyMaterial.uniforms.strength.value = On.clamp(e, 0, 1);
@@ -88535,10 +88535,10 @@ var uAe = class {
 		maskMaterial;
 		compositeMaterial;
 		compositeQuad;
-		_prevClearColor = new sr();
-		_size = new cr();
+		_prevClearColor = new cr();
+		_size = new In();
 		constructor() {
-			(this.maskTarget = new Tn(1, 1, {
+			(this.maskTarget = new mn(1, 1, {
 				minFilter: wn,
 				magFilter: wn,
 				depthBuffer: !1,
@@ -88551,10 +88551,10 @@ var uAe = class {
 					depthTest: !1,
 					depthWrite: !1,
 				})),
-				(this.compositeMaterial = new $n({
+				(this.compositeMaterial = new Ln({
 					uniforms: {
 						tMask: { value: null },
-						texel: { value: new cr() },
+						texel: { value: new In() },
 						thickness: { value: CK },
 					},
 					vertexShader: `
@@ -88596,9 +88596,9 @@ var uAe = class {
 					depthTest: !1,
 					depthWrite: !1,
 				})),
-				(this.compositeQuad = new Un(this.compositeMaterial));
+				(this.compositeQuad = new Gn(this.compositeMaterial));
 		}
-		woCkMYVuxs() {
+		MwLvgKoAah() {
 			this.entries.length = 0;
 		}
 		add(e, t, n) {
@@ -88728,14 +88728,14 @@ function vAe(e) {
 function yAe(e) {
 	return 2.6 + (e / 100) * -2;
 }
-var bAe = class extends Xn {
+var bAe = class extends Zn {
 		constructor() {
 			super({
 				uniforms: {
 					tDiffuse: { value: null },
 					time: { value: 0 },
 					intensity: { value: 0 },
-					tint: { value: new sr(16391446) },
+					tint: { value: new cr(16391446) },
 				},
 				vertexShader: `
         varying vec2 vUv;
@@ -88833,7 +88833,7 @@ var bAe = class extends Xn {
 			tLinearViewZ: { value: null },
 			reflectionNear: { value: 0.01 },
 			reflectionFar: { value: 256 },
-			reflectionResolution: { value: new cr(1, 1) },
+			reflectionResolution: { value: new In(1, 1) },
 			reflectionProjectionMatrix: { value: new yn() },
 			reflectionViewMatrix: { value: new yn() },
 			reflectionViewMatrixInverse: { value: new yn() },
@@ -88848,30 +88848,30 @@ var bAe = class extends Xn {
 		_linearDepthCamera;
 		_linearDepthMaterial;
 		constructor() {
-			let e = new ar(1, 1);
+			let e = new sr(1, 1);
 			(e.type = Eee),
 				(this.depthTexture = e),
-				(e.wrapS = nr),
-				(e.wrapT = nr),
-				(this.target = new Tn(1, 1, {
+				(e.wrapS = rr),
+				(e.wrapT = rr),
+				(this.target = new mn(1, 1, {
 					minFilter: wn,
 					magFilter: wn,
 					depthTexture: e,
 					depthBuffer: !0,
 				})),
 				(this.target.texture.colorSpace = lr),
-				(this.target.texture.wrapS = nr),
-				(this.target.texture.wrapT = nr),
-				(this.linearViewZTarget = new Tn(1, 1, {
+				(this.target.texture.wrapS = rr),
+				(this.target.texture.wrapT = rr),
+				(this.linearViewZTarget = new mn(1, 1, {
 					minFilter: jn,
 					magFilter: jn,
-					type: gn,
-					format: gee,
+					type: hn,
+					format: pee,
 					depthBuffer: !1,
 				})),
-				(this.linearViewZTarget.texture.wrapS = nr),
-				(this.linearViewZTarget.texture.wrapT = nr),
-				(this._linearDepthMaterial = new $n({
+				(this.linearViewZTarget.texture.wrapS = rr),
+				(this.linearViewZTarget.texture.wrapT = rr),
+				(this._linearDepthMaterial = new Ln({
 					uniforms: {
 						tDepth: { value: e },
 						near: { value: 0.01 },
@@ -88882,15 +88882,15 @@ var bAe = class extends Xn {
 					depthTest: !1,
 					depthWrite: !1,
 				})),
-				(this._linearDepthScene = new Yn()),
+				(this._linearDepthScene = new er()),
 				this._linearDepthScene.add(
-					new Dn(new fn(2, 2), this._linearDepthMaterial),
+					new Dn(new Bn(2, 2), this._linearDepthMaterial),
 				),
 				(this._linearDepthCamera = new Mn(-1, 1, 1, -1, 0, 1));
 		}
 		configureDepthPrecision(e) {
 			e.capabilities.isWebGL2 &&
-				((this.depthTexture.type = gn), (this.depthTexture.needsUpdate = !0));
+				((this.depthTexture.type = hn), (this.depthTexture.needsUpdate = !0));
 		}
 		resize(e, t) {
 			this.target.setSize(e, t),
@@ -89000,7 +89000,7 @@ var bAe = class extends Xn {
 function EAe() {
 	if (AK) return;
 	AK = !0;
-	let e = Gn.shadowmap_pars_fragment,
+	let e = Jn.shadowmap_pars_fragment,
 		t = e.replace(TAe, wAe);
 	if (t === e) {
 		console.warn(
@@ -89008,7 +89008,7 @@ function EAe() {
 		);
 		return;
 	}
-	Gn.shadowmap_pars_fragment = t;
+	Jn.shadowmap_pars_fragment = t;
 }
 var jK = { submerged: !1, depthBelowSurface: 0, lava: !1 };
 function DAe(e, t = 0, n = !1) {
@@ -89070,12 +89070,12 @@ var LAe = class {
 			if (this.texture) return;
 			let e = this.N * this.N * this.N * 4;
 			(this.frontData = new Uint8Array(e)), (this.backData = new Uint8Array(e));
-			let t = new Ln(this.frontData, this.N, this.N, this.N);
-			(t.format = Zn),
-				(t.type = Pn),
+			let t = new Fn(this.frontData, this.N, this.N, this.N);
+			(t.format = Kn),
+				(t.type = ir),
 				(t.minFilter = wn),
 				(t.magFilter = wn),
-				(t.wrapS = t.wrapT = t.wrapR = nr),
+				(t.wrapS = t.wrapT = t.wrapR = rr),
 				(t.needsUpdate = !0),
 				(this.texture = t);
 		}
@@ -89722,11 +89722,11 @@ var LAe = class {
 	qAe = 0,
 	JAe = 0.15,
 	YAe = 0.5,
-	XAe = new sr(1, 0.95, 0.85),
+	XAe = new cr(1, 0.95, 0.85),
 	ZAe = 0.9,
 	QAe = 1.4,
 	$Ae = 6,
-	eje = class extends Fn {
+	eje = class extends Pn {
 		_raymarch;
 		_composite;
 		_quad;
@@ -89753,15 +89753,15 @@ var LAe = class {
 				minFilter: wn,
 				magFilter: wn,
 				type: xn,
-				format: Zn,
+				format: Kn,
 				depthBuffer: !1,
 				stencilBuffer: !1,
-				wrapS: nr,
-				wrapT: nr,
+				wrapS: rr,
+				wrapT: rr,
 			};
-			(this._fogTargets = [new Tn(1, 1, e), new Tn(1, 1, e)]),
-				(this._raymarch = new $n({
-					glslVersion: pn,
+			(this._fogTargets = [new mn(1, 1, e), new mn(1, 1, e)]),
+				(this._raymarch = new Ln({
+					glslVersion: aee,
 					vertexShader: BAe,
 					fragmentShader: VAe,
 					depthTest: !1,
@@ -89790,8 +89790,8 @@ var LAe = class {
 						uFogVolTex: { value: $F() },
 						uFogVolOrigin: { value: new D() },
 						uFogVolInvExtent: { value: new D(1, 1, 1) },
-						uSkyColor: { value: new sr(0.6, 0.7, 0.9) },
-						uFogColor: { value: new sr(1, 1, 1) },
+						uSkyColor: { value: new cr(0.6, 0.7, 0.9) },
+						uFogColor: { value: new cr(1, 1, 1) },
 						uSunLight: { value: 1 },
 						uGodRayEnabled: { value: 0 },
 						uSunDir: { value: new D(0, 1, 0) },
@@ -89812,7 +89812,7 @@ var LAe = class {
 						uDebugView: { value: 0 },
 					},
 				})),
-				(this._composite = new $n({
+				(this._composite = new Ln({
 					vertexShader: HAe,
 					fragmentShader: UAe,
 					depthTest: !1,
@@ -89821,19 +89821,19 @@ var LAe = class {
 						tScene: { value: null },
 						tFog: { value: null },
 						tDepth: { value: null },
-						uFogTexel: { value: new cr(1, 1) },
+						uFogTexel: { value: new In(1, 1) },
 						uNear: { value: 0.01 },
 						uFar: { value: 1e3 },
 						uMinTransmittance: { value: JAe },
 						uDebugView: { value: 0 },
 						uGodRayEnabled: { value: 0 },
-						uSunScreenPos: { value: new cr(-1, -1) },
+						uSunScreenPos: { value: new In(-1, -1) },
 						uSunOnScreen: { value: 0 },
 						uSunIntensity: { value: 1 },
 						uAspect: { value: 1 },
 					},
 				})),
-				(this._quad = new Un(this._raymarch)),
+				(this._quad = new Gn(this._raymarch)),
 				this.reconfigure(),
 				E.volumetricFog.onChange(() => this.reconfigure()),
 				E.fogDensity.onChange(() => this.reconfigure()),
@@ -90229,12 +90229,12 @@ var cje = 1,
 			(this.frontData = new Uint8Array(t)),
 				(this.backData = new Uint8Array(t)),
 				(this.blurScratch = null);
-			let n = new Ln(this.frontData, this.N, this.N, this.N);
-			(n.format = Zn),
-				(n.type = Pn),
+			let n = new Fn(this.frontData, this.N, this.N, this.N);
+			(n.format = Kn),
+				(n.type = ir),
 				(n.minFilter = wn),
 				(n.magFilter = wn),
-				(n.wrapS = n.wrapT = n.wrapR = nr),
+				(n.wrapS = n.wrapT = n.wrapR = rr),
 				(n.needsUpdate = !0),
 				(this.texture = n);
 		}
@@ -90521,15 +90521,15 @@ var cje = 1,
 		static REBUILD_INTERVAL = 10;
 		static EMISSIVE_THRESHOLD = 0.25;
 		constructor(e, t) {
-			(this.gi = t), (this.geometry = new Bn());
-			let n = new Tee({
+			(this.gi = t), (this.geometry = new Vn());
+			let n = new yee({
 				size: 0.6,
 				vertexColors: !0,
 				sizeAttenuation: !0,
 				depthWrite: !1,
 				transparent: !0,
 			});
-			(this.points = new pee(this.geometry, n)),
+			(this.points = new Tee(this.geometry, n)),
 				(this.points.visible = !1),
 				(this.points.frustumCulled = !1),
 				e.add(this.points);
@@ -90571,8 +90571,8 @@ var cje = 1,
 			this.positions.length !== c * 3 &&
 				((this.positions = new Float32Array(c * 3)),
 				(this.colors = new Float32Array(c * 3)),
-				this.geometry.setAttribute(`position`, new Vn(this.positions, 3)),
-				this.geometry.setAttribute(`color`, new Vn(this.colors, 3)));
+				this.geometry.setAttribute(`position`, new Un(this.positions, 3)),
+				this.geometry.setAttribute(`color`, new Un(this.colors, 3)));
 			let l = this.positions,
 				u = this.colors,
 				d = i / 2,
@@ -90619,7 +90619,7 @@ var cje = 1,
 		static composer;
 		static game;
 		static reflectionBuffer;
-		static drawingBufferSize = new cr();
+		static drawingBufferSize = new In();
 		static voxelGI;
 		static voxelGIDebug;
 		static giFocus = new D();
@@ -90634,9 +90634,9 @@ var cje = 1,
 		static _fogParams = {
 			depthTexture: null,
 			camera: null,
-			skyColor: new sr(),
+			skyColor: new cr(),
 			sunLight: 1,
-			fogColor: new sr(1, 1, 1),
+			fogColor: new cr(1, 1, 1),
 			fogBaseHeight: 64,
 			dimensionDensity: 1,
 			caveFactor: 1,
@@ -90653,7 +90653,7 @@ var cje = 1,
 			strength: 1.5,
 			phasePower: 1.6,
 		};
-		static _fogSkyFallback = new sr(0.6, 0.72, 0.92);
+		static _fogSkyFallback = new cr(0.6, 0.72, 0.92);
 		static set renderUnderWater(e) {
 			(jK.submerged = e), e || (jK.depthBelowSurface = 0);
 		}
@@ -90663,7 +90663,7 @@ var cje = 1,
 		static init(e) {
 			(this.game = e),
 				EAe(),
-				(this.renderer = new er({
+				(this.renderer = new tr({
 					antialias: E.antialiasing.value,
 					stencil: !0,
 					powerPreference: `high-performance`,
@@ -90684,7 +90684,7 @@ var cje = 1,
 				q.setReflectionBuffer(this.reflectionBuffer),
 				E.resolution.onChange(() => this.updateResolution()),
 				this.updateResolution(),
-				(this.composer = new yee(this.renderer)),
+				(this.composer = new vee(this.renderer)),
 				this.composer.addPass(new wee(e.gameScene.scene, e.gameScene.camera)),
 				(this.bloomPass = new Qke({
 					scene: e.gameScene.scene,
@@ -90698,11 +90698,11 @@ var cje = 1,
 				})),
 				(this.bloomPass.enabled = !1),
 				this.composer.addPass(this.bloomPass),
-				(this.colorPass = new Xn({
+				(this.colorPass = new Zn({
 					uniforms: {
 						tDiffuse: { value: null },
 						tSceneDepth: { value: null },
-						underwaterTint: { value: new sr(3034466) },
+						underwaterTint: { value: new cr(3034466) },
 						time: { value: 0 },
 						useWaterAbsorption: { value: 0 },
 						useLightRefraction: { value: 0 },
@@ -90824,15 +90824,15 @@ var cje = 1,
 				(this.portalPass.enabled = !1),
 				this.composer.addPass(this.portalPass);
 			let n = this.composer.renderTarget2;
-			(this.sceneDepthTexture = new ar(
+			(this.sceneDepthTexture = new sr(
 				Math.max(1, n.width),
 				Math.max(1, n.height),
 			)),
-				(this.sceneDepthTexture.type = gn),
+				(this.sceneDepthTexture.type = hn),
 				(this.sceneDepthTexture.minFilter = jn),
 				(this.sceneDepthTexture.magFilter = jn),
-				(this.sceneDepthTexture.wrapS = nr),
-				(this.sceneDepthTexture.wrapT = nr),
+				(this.sceneDepthTexture.wrapS = rr),
+				(this.sceneDepthTexture.wrapT = rr),
 				(n.depthTexture = this.sceneDepthTexture),
 				(this.fogPass = new eje()),
 				(this.fogPass.enabled = !1),
@@ -90917,29 +90917,29 @@ var cje = 1,
 				}
 		}
 		static buildWorldWarmGroup(e) {
-			let t = new Wn(),
+			let t = new qn(),
 				n = (e, n, r) => {
 					if (!e) return;
-					let i = new Bn();
-					i.setAttribute(`position`, new Vn(new Float32Array(9), 3)),
-						i.setAttribute(`normal`, new Vn(new Float32Array(9), 3)),
-						i.setAttribute(`uv`, new Vn(new Float32Array(6), 2)),
-						i.setAttribute(`overlayUV`, new Vn(new Float32Array(6), 2)),
-						i.setAttribute(`animation`, new Vn(new Float32Array(6), 2)),
-						i.setAttribute(`color`, new Vn(new Float32Array(12), 4)),
-						i.setAttribute(`light`, new Vn(new Float32Array(9), 3)),
-						i.setAttribute(`emissive`, new Vn(new Float32Array(3), 1)),
+					let i = new Vn();
+					i.setAttribute(`position`, new Un(new Float32Array(9), 3)),
+						i.setAttribute(`normal`, new Un(new Float32Array(9), 3)),
+						i.setAttribute(`uv`, new Un(new Float32Array(6), 2)),
+						i.setAttribute(`overlayUV`, new Un(new Float32Array(6), 2)),
+						i.setAttribute(`animation`, new Un(new Float32Array(6), 2)),
+						i.setAttribute(`color`, new Un(new Float32Array(12), 4)),
+						i.setAttribute(`light`, new Un(new Float32Array(9), 3)),
+						i.setAttribute(`emissive`, new Un(new Float32Array(3), 1)),
 						n
-							? (i.setAttribute(`fluidKind`, new Vn(new Float32Array(3), 1)),
-								i.setAttribute(`waveBlend`, new Vn(new Float32Array(3), 1)))
-							: i.setAttribute(`wave`, new Vn(new Float32Array(3), 1)),
+							? (i.setAttribute(`fluidKind`, new Un(new Float32Array(3), 1)),
+								i.setAttribute(`waveBlend`, new Un(new Float32Array(3), 1)))
+							: i.setAttribute(`wave`, new Un(new Float32Array(3), 1)),
 						i.setIndex([0, 1, 2]);
 					let a = new Dn(i, e);
 					(a.receiveShadow = r), t.add(a);
 				};
 			return (
 				n(q.materialWorld, !1, !0),
-				n(q.XmfJLVMuhFABYLikDCNgpXDh, !1, !0),
+				n(q.WuMGuCdDxBOsQJNvYgpxCUdy, !1, !0),
 				e && n(q.materialFluidWorld, !0, !1),
 				t
 			);
@@ -90966,8 +90966,8 @@ var cje = 1,
 				for (let e of this.eyeAdaptationPass?.warmupMaterials ?? []) s(e);
 			if (E.volumetricFog.value || E.godRays.value !== `Off`)
 				for (let e of this.fogPass?.warmupMaterials ?? []) s(e);
-			let c = new Wn(),
-				l = new fn(2, 2);
+			let c = new qn(),
+				l = new Bn(2, 2);
 			for (let e of o) c.add(new Dn(l, e));
 			let u = performance.now(),
 				d = this.renderer.info.programs?.length ?? 0,
@@ -91081,11 +91081,11 @@ var cje = 1,
 			]);
 		}
 		static buildItemWarmMesh() {
-			let e = new Bn();
-			e.setAttribute(`position`, new Vn(new Float32Array(9), 3)),
-				e.setAttribute(`normal`, new Vn(new Float32Array(9), 3)),
-				e.setAttribute(`uv`, new Vn(new Float32Array(6), 2)),
-				e.setAttribute(`color`, new Vn(new Float32Array(12), 4)),
+			let e = new Vn();
+			e.setAttribute(`position`, new Un(new Float32Array(9), 3)),
+				e.setAttribute(`normal`, new Un(new Float32Array(9), 3)),
+				e.setAttribute(`uv`, new Un(new Float32Array(6), 2)),
+				e.setAttribute(`color`, new Un(new Float32Array(12), 4)),
 				e.setIndex([0, 1, 2]);
 			let t = new Dn(e);
 			return (t.frustumCulled = !1), t;
@@ -91099,7 +91099,7 @@ var cje = 1,
 			);
 			if (n.length === 0) return;
 			let r = this.buildItemWarmMesh(),
-				i = new Wn();
+				i = new qn();
 			i.add(r);
 			try {
 				for (let a of n)
@@ -91120,13 +91120,13 @@ var cje = 1,
 			let { camera: n, scene: r, sun: i } = t,
 				a = this.buildSkinnedWarmMesh();
 			(a.material = zq), (a.castShadow = !0);
-			let o = new Bn();
-			o.setAttribute(`position`, new Vn(new Float32Array(9), 3)),
-				o.setAttribute(`normal`, new Vn(new Float32Array(9), 3)),
+			let o = new Vn();
+			o.setAttribute(`position`, new Un(new Float32Array(9), 3)),
+				o.setAttribute(`normal`, new Un(new Float32Array(9), 3)),
 				o.setIndex([0, 1, 2]);
 			let s = new Dn(o, zq);
 			(s.castShadow = !0), (s.frustumCulled = !1);
-			let c = new Wn();
+			let c = new qn();
 			c.add(a, s);
 			let l = i.sunlight.castShadow;
 			try {
@@ -91168,10 +91168,10 @@ var cje = 1,
 			let t = this.renderer,
 				n = this.game?.gameScene?.camera;
 			if (!t || !n) return;
-			let r = new Yn();
+			let r = new er();
 			r.add(e);
-			let i = new zn(16777215, 1),
-				a = new mn(16777215, 1);
+			let i = new Rn(16777215, 1),
+				a = new pn(16777215, 1);
 			a.position.set(0, 10, 0), (a.castShadow = !0);
 			let o = a.shadow.camera;
 			(o.left = -4),
@@ -91185,7 +91185,7 @@ var cje = 1,
 			let s = t.getRenderTarget(),
 				c = t.shadowMap.autoUpdate,
 				l = t.shadowMap.needsUpdate,
-				u = new Tn(1, 1, { depthBuffer: !0 });
+				u = new mn(1, 1, { depthBuffer: !0 });
 			try {
 				t.setRenderTarget(u),
 					(t.shadowMap.autoUpdate = !1),
@@ -91215,7 +91215,7 @@ var cje = 1,
 				o = e.shadowMap.autoUpdate,
 				s = e.shadowMap.needsUpdate,
 				c = i.sunlight.castShadow,
-				l = new Tn(1, 1, { depthBuffer: !0 });
+				l = new mn(1, 1, { depthBuffer: !0 });
 			try {
 				(i.sunlight.castShadow = !0),
 					e.setRenderTarget(l),
@@ -91245,8 +91245,8 @@ var cje = 1,
 		static async warmPasses(e) {
 			let t = e.filter((e) => !!e);
 			if (t.length === 0 || !this.renderer || !this.game?.gameScene) return;
-			let n = new Wn(),
-				r = new fn(2, 2);
+			let n = new qn(),
+				r = new Bn(2, 2);
 			for (let e of t) n.add(new Dn(r, e));
 			try {
 				await this.renderer.compileAsync(n, this.game.gameScene.camera),
@@ -91289,11 +91289,11 @@ var cje = 1,
 			if (i.length === 0) return;
 			let a = E.worldShadowsEnabled(),
 				o = E.bloom.value > 0 && !!this.bloomPass,
-				s = new Yn();
+				s = new er();
 			s.add(e);
-			let c = new zn(16777215, 1),
-				l = new mn(16777215, 1),
-				u = new mn(16777215, 1);
+			let c = new Rn(16777215, 1),
+				l = new pn(16777215, 1),
+				u = new pn(16777215, 1);
 			if ((l.position.set(0, 10, 0), (l.castShadow = a), a)) {
 				let e = l.shadow.camera;
 				(e.left = -4),
@@ -91313,7 +91313,7 @@ var cje = 1,
 			let p = t.getRenderTarget(),
 				m = t.shadowMap.autoUpdate,
 				h = t.shadowMap.needsUpdate,
-				g = new Tn(1, 1, { depthBuffer: !0 });
+				g = new mn(1, 1, { depthBuffer: !0 });
 			try {
 				if (
 					(t.setRenderTarget(g),
@@ -91349,18 +91349,18 @@ var cje = 1,
 			}
 		}
 		static buildSkinnedWarmMesh() {
-			let e = new Bn();
-			e.setAttribute(`position`, new Vn(new Float32Array(9), 3)),
-				e.setAttribute(`normal`, new Vn(new Float32Array(9), 3)),
-				e.setAttribute(`uv`, new Vn(new Float32Array(6), 2)),
+			let e = new Vn();
+			e.setAttribute(`position`, new Un(new Float32Array(9), 3)),
+				e.setAttribute(`normal`, new Un(new Float32Array(9), 3)),
+				e.setAttribute(`uv`, new Un(new Float32Array(6), 2)),
 				e.setAttribute(`skinIndex`, new Hn(new Uint16Array(12), 4)),
-				e.setAttribute(`skinWeight`, new Vn(new Float32Array(12), 4)),
+				e.setAttribute(`skinWeight`, new Un(new Float32Array(12), 4)),
 				e.setIndex([0, 1, 2]);
-			let t = new Kn(e),
+			let t = new nr(e),
 				n = new xee();
 			return (
 				t.add(n),
-				t.bind(new Rn([n])),
+				t.bind(new Yn([n])),
 				(t.receiveShadow = !0),
 				(t.castShadow = !0),
 				(t.frustumCulled = !1),
@@ -91388,7 +91388,7 @@ var cje = 1,
 			)
 				return;
 			let l = this.buildSkinnedWarmMesh(),
-				u = new Wn();
+				u = new qn();
 			u.add(l);
 			let d = E.shadowsEnabled(),
 				f = E.bloom.value > 0 && !!this.bloomPass,
@@ -91416,11 +91416,11 @@ var cje = 1,
 			let a = this.renderer,
 				o = this.game?.gameScene?.camera;
 			if (!a || !o) return;
-			let s = new Yn();
+			let s = new er();
 			s.add(t);
-			let c = new zn(16777215, 1),
-				l = new mn(16777215, 1),
-				u = new mn(16777215, 1);
+			let c = new Rn(16777215, 1),
+				l = new pn(16777215, 1),
+				u = new pn(16777215, 1);
 			if ((l.position.set(0, 10, 0), (l.castShadow = r), r)) {
 				let e = l.shadow.camera;
 				(e.left = -4),
@@ -91435,7 +91435,7 @@ var cje = 1,
 			let d = a.getRenderTarget(),
 				f = a.shadowMap.autoUpdate,
 				p = a.shadowMap.needsUpdate,
-				m = new Tn(1, 1, { depthBuffer: !0 });
+				m = new mn(1, 1, { depthBuffer: !0 });
 			try {
 				if ((a.setRenderTarget(m), (a.shadowMap.autoUpdate = !1), r))
 					for (let t of n)
@@ -91497,7 +91497,7 @@ var cje = 1,
 				this.bloomPass.enabled)
 			) {
 				this.bloomPass.setStrength(E.bloom.value / 100);
-				let e = Y.NfHXHGpOJNFzQF();
+				let e = Y.gZFtxtzYhBlTBK();
 				this.bloomPass.update(l, c?.userData?.time?.value ?? 0, e ?? null);
 			}
 			if (q.materialFluidWorld)
@@ -91847,13 +91847,13 @@ var YK = null;
 function XK() {
 	if (YK) return YK;
 	let e = document.createElement(`canvas`),
-		t = new er({ canvas: e, alpha: !0 });
+		t = new tr({ canvas: e, alpha: !0 });
 	t.setClearColor(16777215, 0), t.setSize(128, 128), (t.outputColorSpace = lr);
 	let n = new Mn(-0.85, 0.85, 0.85, -0.85);
 	n.lookAt(-1, -0.7, -1);
-	let r = new Yn();
-	r.add(n), r.add(new zn(`#FFFFFF`, 1.5));
-	let i = new mn(`white`, 1.5);
+	let r = new er();
+	r.add(n), r.add(new Rn(`#FFFFFF`, 1.5));
+	let i = new pn(`white`, 1.5);
 	return (
 		i.position.set(3, 5, 0.5),
 		r.add(i),
@@ -92638,7 +92638,7 @@ var cq = class extends oq {
 		}
 		handleMouseClick(e, t, n, r) {
 			e != null && (t = e.slotNumber),
-				vK.xXXJNoeXyNB(this.inventorySlots.windowId, t, n, r, Y);
+				vK.zPCNhDUptmT(this.inventorySlots.windowId, t, n, r, Y);
 		}
 		onGuiClosed() {
 			Y != null && this.inventorySlots.onContainerClosed(Y);
@@ -92892,7 +92892,7 @@ var Mje = class extends cq {
 		}
 		async compositeFullScreen(e, t = {}) {
 			let { domToPng: n } = await yH(async () => {
-					let { domToPng: e } = await import(`./dist-DAgTqSth.js`);
+					let { domToPng: e } = await import(`./dist-DWgZ_UBt.js`);
 					return { domToPng: e };
 				}, []),
 				r = UK.renderer.domElement,
@@ -92982,7 +92982,7 @@ var Mje = class extends cq {
 		oldMouseX;
 		oldMouseY;
 		constructor(e) {
-			super(e.inventoryContainer), Y.SXxonIgFUocGsZ();
+			super(e.inventoryContainer), Y.hjEcvwRRonZIor();
 		}
 		updateScreen() {}
 		initGui() {
@@ -93286,7 +93286,7 @@ var Lje = 200,
 				(this.pendingInputs = []),
 				this.predictedStates.clear();
 		}
-		ANtKoyvfOhEosgLKINIbgL() {
+		TWHhquEJGAPNnNAtgRcUMx() {
 			(this.pendingInputs = []), this.predictedStates.clear();
 		}
 		serverUsesInputMovement() {
@@ -93302,10 +93302,10 @@ var Lje = 200,
 				this.mode.isSpectator()
 			);
 		}
-		qcdFSVCQXmLywUIQEefBz() {
+		ygvdtndSdHtxXkzRDgbKl() {
 			(this.sentInputThisTick = !1),
-				(this.atxzXhNxgN = 0),
-				(this.rutqrVROSKR = 0);
+				(this.zVbpZHiaYd = 0),
+				(this.unAZjpZwBxI = 0);
 			let e = hq(`d`) || hq(`right`) || cz.direction.x > 0,
 				t = hq(`a`) || hq(`left`) || cz.direction.x < 0,
 				n = hq(`w`) || hq(`up`) || cz.direction.y > 0,
@@ -93336,10 +93336,10 @@ var Lje = 200,
 			i &&
 				(this.pendingInputs.push(this.currentInput),
 				pK.sendPacket(this.currentInput)),
-				this.GjkfuJJRcN(this.currentInput),
+				this.UZSuFpKXmw(this.currentInput),
 				(this.sentInputThisTick = i);
 		}
-		GNhyFjkugtSJilOmU() {
+		RNrPOmlgZEZBSTRJm() {
 			if (
 				this.sentInputThisTick &&
 				(this.predictedStates.set(this.inputSequenceNumber, Ije(this)),
@@ -93349,14 +93349,14 @@ var Lje = 200,
 				e !== void 0 && this.predictedStates.delete(e);
 			}
 		}
-		qzmCBiivnPEbrWYU(e, t, n) {
+		ekQHgaSzpOryoujT(e, t, n) {
 			(this.renderOffset.x += e - this.pos.x),
 				(this.renderOffset.y += t - this.pos.y),
 				(this.renderOffset.z += n - this.pos.z);
 			let r = this.renderOffset.length();
 			r > yq && this.renderOffset.multiplyScalar(yq / r);
 		}
-		KxIjRswuJWdrZCsMBmQndCv(e) {
+		NirVxybnQFFAgHwVkyRFchM(e) {
 			if (
 				(e.ackId != null &&
 					(e.ackId > this.lastServerAckId ||
@@ -93368,7 +93368,7 @@ var Lje = 200,
 					n = this.pos.y,
 					r = this.pos.z;
 				this.setPosition(e.x, e.y, e.z),
-					this.qzmCBiivnPEbrWYU(t, n, r),
+					this.ekQHgaSzpOryoujT(t, n, r),
 					this.motion.set(0, 0, 0),
 					e.onGround != null && (this.onGround = e.onGround),
 					(this.jumpTicks = 0),
@@ -93408,35 +93408,35 @@ var Lje = 200,
 			let n = this.jumping,
 				r = this.sneak,
 				i = -0.8,
-				a = this.rutqrVROSKR <= i;
+				a = this.unAZjpZwBxI <= i;
 			this.isUsingItem() &&
 				!this.isRiding() &&
 				this.isSprinting() &&
 				this.setSprinting(!1),
-				this.qcdFSVCQXmLywUIQEefBz(),
+				this.ygvdtndSdHtxXkzRDgbKl(),
 				this.isUsingItem() && !this.isRiding() && (this.sprintToggleTimer = 0);
 			let o = this.width * 0.35;
-			this.nczYfjlmYfuSJJv(
+			this.EvYarNNvVTTOMWV(
 				this.pos.x - o,
 				this.getEntityBoundingBox().min.y + 0.5,
 				this.pos.z + o,
 			),
-				this.nczYfjlmYfuSJJv(
+				this.EvYarNNvVTTOMWV(
 					this.pos.x - o,
 					this.getEntityBoundingBox().min.y + 0.5,
 					this.pos.z - o,
 				),
-				this.nczYfjlmYfuSJJv(
+				this.EvYarNNvVTTOMWV(
 					this.pos.x + o,
 					this.getEntityBoundingBox().min.y + 0.5,
 					this.pos.z - o,
 				),
-				this.nczYfjlmYfuSJJv(
+				this.EvYarNNvVTTOMWV(
 					this.pos.x + o,
 					this.getEntityBoundingBox().min.y + 0.5,
 					this.pos.z + o,
 				),
-				this.GNhyFjkugtSJilOmU();
+				this.RNrPOmlgZEZBSTRJm();
 			let s = this.getFoodStats().getFoodLevel() > 6 || this.abilities.mayFly,
 				c = hq(`shift`),
 				l = c;
@@ -93444,14 +93444,14 @@ var Lje = 200,
 				(c &&
 					!this.sprintKeyWasDown &&
 					(this.sprintToggled = !this.sprintToggled),
-				a && this.rutqrVROSKR > i && (this.sprintToggled = !1),
+				a && this.unAZjpZwBxI > i && (this.sprintToggled = !1),
 				(l = this.sprintToggled)),
 				(this.sprintKeyWasDown = c);
 			let u = l || cz.sprinting;
 			this.onGround &&
 				!r &&
 				!a &&
-				this.rutqrVROSKR <= i &&
+				this.unAZjpZwBxI <= i &&
 				!this.isSprinting() &&
 				s &&
 				!this.isUsingItem() &&
@@ -93459,13 +93459,13 @@ var Lje = 200,
 					? (this.sprintToggleTimer = 7)
 					: this.setSprinting(!0)),
 				!this.isSprinting() &&
-					this.rutqrVROSKR <= i &&
+					this.unAZjpZwBxI <= i &&
 					s &&
 					!this.isUsingItem() &&
 					u &&
 					this.setSprinting(!0),
 				this.isSprinting() &&
-					(this.rutqrVROSKR > i || this.isCollidedHorizontally || !s) &&
+					(this.unAZjpZwBxI > i || this.isCollidedHorizontally || !s) &&
 					this.setSprinting(!1),
 				this.flyToggleTimer > 0 && this.flyToggleTimer--,
 				this.abilities.mayFly &&
@@ -93500,7 +93500,7 @@ var Lje = 200,
 							.translate(new D(0, 1, 0))
 							.expandByVector(new D(0.15, -0.1, 0.15)),
 					);
-				e.length > 0 && t.length <= 0 && this.rutqrVROSKR < 0
+				e.length > 0 && t.length <= 0 && this.unAZjpZwBxI < 0
 					? (this.jumping = !0)
 					: (this.jumping = !1);
 			}
@@ -93512,33 +93512,33 @@ var Lje = 200,
 					!this.mode.isSpectator() &&
 					(this.abilities.flying = !1);
 		}
-		nczYfjlmYfuSJJv(e, t, n) {
+		EvYarNNvVTTOMWV(e, t, n) {
 			return this.noPhysics || $.serverInfo.serverCategory === `blockhunt`
 				? !1
-				: super.nczYfjlmYfuSJJv(e, t, n);
+				: super.EvYarNNvVTTOMWV(e, t, n);
 		}
 		updateFallState(e, t, n, r) {
-			this.inWater || this.wIJXaeUtnSkUmJlmRxJ(),
+			this.inWater || this.gpfsOXUiWYjuVnBnsNd(),
 				super.updateFallState(e, t, n, r);
 		}
-		UYMjARkSAglhoZFlwuQeJysrG(e) {
+		pclZzIXjhaipwvJtfUlXMwXzC(e) {
 			let t = e.up();
 			for (; t.y < 256; ) {
 				if (!$.world.getBlockState(t).getBlock().equals(B.water))
-					return t.y - nz.hmcwVI.y;
+					return t.y - nz.bJScIm.y;
 				t = t.up();
 			}
-			return 256 - nz.hmcwVI.y;
+			return 256 - nz.bJScIm.y;
 		}
-		oqxUaqJYfduLPFUd() {
+		RqzPQtwGolHOHXiX() {
 			Y.headInBlock = null;
-			let e = F.fromVector(nz.hmcwVI),
+			let e = F.fromVector(nz.bJScIm),
 				t = $.world.getBlockState(e),
 				n = t.getBlock();
 			n.setBlockBoundsBasedOnState($.world, e);
 			let r = n.equals(B.water),
 				i = n.material === L.lava;
-			DAe(r || i, r ? this.UYMjARkSAglhoZFlwuQeJysrG(e) : 0, i),
+			DAe(r || i, r ? this.pclZzIXjhaipwvJtfUlXMwXzC(e) : 0, i),
 				n.isFullCube(t) &&
 					(n.blocksMovement() &&
 						n
@@ -93547,16 +93547,16 @@ var Lje = 200,
 						(Y.headInBlock = n),
 					(Y.lastHeadInBlock = n));
 		}
-		kLQcqOSuBrRrTj() {
+		RMNhnPqunHqgdr() {
 			let e = 1;
 			this.abilities.flying && (e *= 1.1);
-			let t = this.getEntityAttribute(Au.sLYAdepgIImgX);
+			let t = this.getEntityAttribute(Au.NLOgYLKKWRvav);
 			if (
-				((e *= (t.getAttributeValue() / this.abilities.ZSFwKfeeVzwF() + 1) / 2),
+				((e *= (t.getAttributeValue() / this.abilities.VnIITjinvgcn() + 1) / 2),
 				(isNaN(e) || !isFinite(e)) && (e = 1),
-				this.isUsingItem() && this.QoHTNdFeVoCy().getItem() == z.bow)
+				this.isUsingItem() && this.RuSzkRxCxyLm().getItem() == z.bow)
 			) {
-				let t = this.KLYNYJxHlNZqGnTrUJTf() / 20;
+				let t = this.wyQSuJTrcDuVEjWaEUny() / 20;
 				t > 1 ? (t = 1) : (t *= t), (e *= 1 - t * 0.15);
 			}
 			return Math.min(e, 2);
@@ -93564,10 +93564,10 @@ var Lje = 200,
 		fixedUpdate() {
 			!$.inGame() ||
 				this.getHealth() <= 0 ||
-				(mK.XCtIxIqkOOZogpCzEbu(),
-				this.FwTbPfqjHOzMte(),
+				(mK.BoVVdhmKSmfDwvsFTpP(),
+				this.DKamtSrQzCEzOy(),
 				this.onLivingUpdate(),
-				this.oqxUaqJYfduLPFUd(),
+				this.RqzPQtwGolHOHXiX(),
 				this.renderOffset.multiplyScalar(Rje),
 				this.renderOffset.lengthSq() < 1e-6 && this.renderOffset.set(0, 0, 0),
 				this.renderPos.copy(this.pos).add(this.renderOffset),
@@ -93733,7 +93733,7 @@ var xq = class extends J {
 			let t = q.skinManager,
 				n = `atlasMat`;
 			e.includes(`leggings`) && (n = `atlasMat2`);
-			let r = t.SduFxkTS(new Vp(z.leather_helmet))[n],
+			let r = t.IbjTZEKg(new Vp(z.leather_helmet))[n],
 				i = r?.map?.image ? r.map.image.width / 64 : 1,
 				a = [],
 				o = [],
@@ -93859,11 +93859,11 @@ var xq = class extends J {
 				((i =
 					t === `leggings`
 						? e.isItemEnchanted()
-							? q.skinManager.SduFxkTS(e).atlasMat2Enchant
-							: q.skinManager.SduFxkTS(e).atlasMat2
+							? q.skinManager.IbjTZEKg(e).atlasMat2Enchant
+							: q.skinManager.IbjTZEKg(e).atlasMat2
 						: e.isItemEnchanted()
-							? q.skinManager.SduFxkTS(e).atlasMatEnchant
-							: q.skinManager.SduFxkTS(e).atlasMat),
+							? q.skinManager.IbjTZEKg(e).atlasMatEnchant
+							: q.skinManager.IbjTZEKg(e).atlasMat),
 				i &&
 					!e.isItemEnchanted() &&
 					i.transparent &&
@@ -93880,14 +93880,14 @@ var xq = class extends J {
 		}
 		createColoredMaterial(e, t) {
 			let n = e.clone();
-			return (n.color = new sr(t)), n;
+			return (n.color = new cr(t)), n;
 		}
 		addHead(e) {
 			(e.meshes.head = this.initMesh(`head`)),
 				(e.armorMesh.helmet = this.initArmorMesh(`head`)),
 				e.meshes.head.geometry.translate(0, 0.25, 0),
 				e.armorMesh.helmet.geometry.translate(0, 0.25, 0),
-				(e.headPivot = new Wn()),
+				(e.headPivot = new qn()),
 				e.headPivot.add(e.meshes.head, e.armorMesh.helmet),
 				(e.neck = new An()),
 				e.neck.add(e.headPivot),
@@ -93898,7 +93898,7 @@ var xq = class extends J {
 				(e.armorMesh.chestplate = this.initArmorMesh(`torso`)),
 				(e.armorMesh.leggingsWaist = this.initArmorMesh(`leggingsWaist`)),
 				e.armorMesh.leggingsWaist.geometry.translate(0, -3.5 / 16, 0),
-				(e.torso = new Wn()),
+				(e.torso = new qn()),
 				e.torso.add(
 					e.meshes.torso,
 					e.armorMesh.chestplate,
@@ -93991,9 +93991,9 @@ var xq = class extends J {
 				e.rightHip.add(e.rightHipJoint);
 		}
 		assembleBody(e) {
-			(e.skeleton = new Wn()),
+			(e.skeleton = new qn()),
 				(e.skeleton.position.y = el),
-				(e.body = new Wn()),
+				(e.body = new qn()),
 				e.body.add(e.torso),
 				e.body.add(e.leftShoulder),
 				e.body.add(e.rightShoulder),
@@ -94057,12 +94057,12 @@ var xq = class extends J {
 							d = new Float32Array(l * 4);
 						for (let e = 0; e < l; e++) (u[e * 4] = s), (d[e * 4] = 1);
 						c.setAttribute(`skinIndex`, new Hn(u, 4)),
-							c.setAttribute(`skinWeight`, new Vn(d, 4)),
+							c.setAttribute(`skinWeight`, new Un(d, 4)),
 							a.push(c),
 							t.removeFromParent();
 					}
 					if (a.length === 0) return;
-					let s = Qn(a);
+					let s = $n(a);
 					for (let e of a) e.dispose();
 					s.computeBoundingSphere(),
 						s.boundingSphere && (s.boundingSphere.radius *= 1.6);
@@ -94124,7 +94124,7 @@ var xq = class extends J {
 				l(o.head, 0, r, 0),
 				c.length)
 			) {
-				e.lodBody = a(Qn(c), e.torso, t);
+				e.lodBody = a($n(c), e.torso, t);
 				for (let e of c) e.dispose();
 			}
 			let u = {},
@@ -94132,7 +94132,7 @@ var xq = class extends J {
 					let r = n.filter((e) => !!e);
 					if (
 						r.length !== 0 &&
-						((u[t] = a(r.length === 1 ? r[0] : Qn(r), e.torso)), r.length > 1)
+						((u[t] = a(r.length === 1 ? r[0] : $n(r), e.torso)), r.length > 1)
 					)
 						for (let e of r) e.dispose();
 				};
@@ -94186,7 +94186,7 @@ var xq = class extends J {
 			this.generateGeometry(`wing`, e, n, r, i, a, 1);
 			let o = J.setGeometry({ positions: n, normals: r, uvs: i, indices: a });
 			o.translate(-0.625 / 2, -1.25 / 2, Uje / 2), t && o.scale(-1, 1, 1);
-			let s = new Wn();
+			let s = new qn();
 			return s.add(new Dn(o, e)), s;
 		}
 	};
@@ -94197,7 +94197,7 @@ function Sq(e, t, n, r) {
 var Kje = class extends J {
 		constructor(e) {
 			super();
-			let t = q.skinManager.oImOvPA(e);
+			let t = q.skinManager.zwqfBJb(e);
 			if (!t || !t.atlasMat) return;
 			let n = t.atlasMat.map;
 			if (!n) return;
@@ -94206,7 +94206,7 @@ var Kje = class extends J {
 				a = r.height,
 				o = i / 64,
 				s = !t.compact,
-				c = s ? lI.CfSDYZoIZaLPTo(t).cape : null,
+				c = s ? lI.uCpAqkHIzPaQxz(t).cape : null,
 				l = c ? c.x : 0,
 				u = c ? c.y : 0,
 				d = c ? c.w : 11 * o,
@@ -94257,8 +94257,8 @@ var Kje = class extends J {
 			let t = e.entity.profile.cosmetics.cape;
 			!t ||
 				t === `none` ||
-				(q.skinManager.fiEeSug(t) || (await q.skinManager.gcdEdqvjFXBw(t)),
-				q.skinManager.fiEeSug(t) &&
+				(q.skinManager.VpeFNLh(t) || (await q.skinManager.xZgKwjGymbmJ(t)),
+				q.skinManager.VpeFNLh(t) &&
 					((e.capeMesh = new Kje(t)),
 					(e.capeMesh.position.z = 0.15),
 					EK(e.capeMesh),
@@ -94269,8 +94269,8 @@ var Kje = class extends J {
 				n = e.entity.profile.cosmetics.cape;
 			if (
 				(lF(n) &&
-					(q.skinManager.fiEeSug(n) || (await q.skinManager.gcdEdqvjFXBw(n)),
-					(t = q.skinManager.TUcyNovITmNfhgbMenMJL(n) ?? void 0)),
+					(q.skinManager.VpeFNLh(n) || (await q.skinManager.xZgKwjGymbmJ(n)),
+					(t = q.skinManager.SDMiFVXrUXsjkKjbjMORg(n) ?? void 0)),
 				(t ||= await q.getElytraMaterial()),
 				!t)
 			)
@@ -94284,7 +94284,7 @@ var Kje = class extends J {
 		async addHat(e) {
 			let t = e.entity.profile.cosmetics.hat;
 			if (!t || t === `none`) return;
-			let n = await q.CanOkGmTQlp.getModel(t);
+			let n = await q.iNbbweYjLpo.getModel(t);
 			if (!n) return;
 			let r = n.clone();
 			(r.position.y = 8 / 16),
@@ -94325,14 +94325,14 @@ function Tq(e, t, n) {
 			n != null && (e = `\\bold\\\\${nl[n]}\\(${n})\\reset\\ ` + e),
 			e);
 }
-var Eq = class extends Wn {
-		lSOqqyLnZuyS(e, t = 0) {
+var Eq = class extends qn {
+		jFjOIRLOeNCP(e, t = 0) {
 			this.debugSizeOverride = e === null ? null : { width: e, height: t };
 		}
-		get NmpoCiyOAH() {
+		get FXRAIENdgD() {
 			return this.debugSizeOverride?.width ?? this.entity.width;
 		}
-		get dOrugFJvtXx() {
+		get MtwXZwEDrUU() {
 			return this.debugSizeOverride?.height ?? this.entity.height;
 		}
 		set debug(e) {
@@ -94340,8 +94340,8 @@ var Eq = class extends Wn {
 		}
 		constructor(e) {
 			super(),
-				(this.rotYaw = new Jn()),
-				(this.rotPitch = new Jn()),
+				(this.rotYaw = new Qn()),
+				(this.rotPitch = new Qn()),
 				(this.debugVisible = !1),
 				(this.debugSizeOverride = null),
 				(this.entity = e),
@@ -94350,7 +94350,7 @@ var Eq = class extends Wn {
 		render() {
 			this.position.lerp(this.entity.pos, Hc);
 		}
-		nhkitubQqkbCJOq() {
+		yfDqwztjZkvYjpG() {
 			this.position.distanceTo(this.entity.pos) > 16
 				? this.position.copy(this.entity.pos)
 				: this.position.lerp(this.entity.pos, Hc);
@@ -94362,13 +94362,13 @@ var Eq = class extends Wn {
 	Dq = new (class {
 		current = new Map();
 		next = new Map();
-		woCkMYVuxs() {
+		MwLvgKoAah() {
 			this.next = new Map();
 		}
 		submit(e, t) {
 			this.next.set(e, t);
 		}
-		thMXzzoo() {
+		DxUEPKXJ() {
 			this.current = this.next;
 		}
 	})(),
@@ -94382,27 +94382,27 @@ var Eq = class extends Wn {
 	nMe = new En(-0.133, 1.57, 2.512),
 	Oq = new D(0, -0.15, -0.4),
 	kq = new En(-2.2, -Math.PI / 2, -0.133),
-	rMe = new Jn()
+	rMe = new Qn()
 		.setFromEuler(kq)
-		.multiply(new Jn().setFromAxisAngle(new D(0, 0, 1), (3 * Math.PI) / 2)),
+		.multiply(new Qn().setFromAxisAngle(new D(0, 0, 1), (3 * Math.PI) / 2)),
 	iMe = new D(-0.148, -4.445, -5.059).divideScalar(16),
 	aMe = new En(-1.455, 0, 0),
 	Aq = new D(0, 1, 0),
 	jq = new D(1, 0, 0),
-	Mq = new Jn(),
-	oMe = new Jn(),
-	Nq = new sr(1, 1, 1),
-	sMe = new sr(1, 0.5, 0.5),
-	cMe = new Jn(),
-	lMe = new Jn(),
-	uMe = new Jn(),
+	Mq = new Qn(),
+	oMe = new Qn(),
+	Nq = new cr(1, 1, 1),
+	sMe = new cr(1, 0.5, 0.5),
+	cMe = new Qn(),
+	lMe = new Qn(),
+	uMe = new Qn(),
 	dMe = new D(),
 	fMe = new D(),
 	pMe = 1024,
 	mMe = 900,
 	Pq = class extends Eq {
-		nameTag = new Wn();
-		skeleton = new Wn();
+		nameTag = new qn();
+		skeleton = new qn();
 		torso = new An();
 		leftElbowJoint = new An();
 		rightElbowJoint = new An();
@@ -94417,9 +94417,9 @@ var Eq = class extends Wn {
 		rightHip = new An();
 		leftHipJoint = new An();
 		rightHipJoint = new An();
-		headPivot = new Wn();
+		headPivot = new qn();
 		neck = new An();
-		body = new Wn();
+		body = new qn();
 		armorMesh = {};
 		meshes = {};
 		skinnedBody;
@@ -94500,14 +94500,14 @@ var Eq = class extends Wn {
 				this
 			);
 		}
-		nNEitQKYRXsRDn(e) {
+		EMVkokHcyzUoCQ(e) {
 			let t = this.handMesh;
 			return !t || !t.visible
 				? null
 				: (t.updateWorldMatrix(!0, !1),
 					e.set(0, 0.45, 0).applyMatrix4(t.matrixWorld));
 		}
-		ubexcbiWbEwqAmLAFo() {
+		xibvKafiGFQplivEtM() {
 			let e = this.item;
 			e != null &&
 				(this.handTesr &&
@@ -94572,16 +94572,16 @@ var Eq = class extends Wn {
 						? new WI(tm.CAST_TEXTURE, n, this.handMesh, e.hasEffect())
 						: (!t.isItemBlock() || !t.block.hasTileEntity()) &&
 							new WI(e, n, this.handMesh, e.hasEffect()),
-				this.ubexcbiWbEwqAmLAFo());
+				this.xibvKafiGFQplivEtM());
 		}
-		KlGHGQVKaZNzbTr(e, t = 1) {
+		oTIdJQlXbnalenR(e, t = 1) {
 			if (!this.skeleton) return;
 			let n = this.entity.id !== Y.id && !this.fakePlayer,
 				r = (r) => {
 					let i = r.material;
 					e &&
 						(n
-							? (r.userData._litTint || (r.userData._litTint = new sr())).copy(
+							? (r.userData._litTint || (r.userData._litTint = new cr())).copy(
 									e,
 								)
 							: (i.color = e)),
@@ -94603,35 +94603,35 @@ var Eq = class extends Wn {
 				this.neck.quaternion.copy(this.rotYaw),
 				this.headPivot.quaternion.copy(this.rotPitch);
 		}
-		WeyqsvIOfOmVfzK() {
+		YMDTpCOJwphhEZN() {
 			let e = this.entity.getPartialTicks(),
 				t =
 					this.entity.prevLimbSwingAmount +
 					(this.entity.limbSwingAmount - this.entity.prevLimbSwingAmount) * e;
 			return t > 1 && (t = 1), this.entity.sneak && t > 0.5 && (t = 0.5), t;
 		}
-		FDTprRPUWL(e = new D()) {
+		CIbUNKuxEY(e = new D()) {
 			return this.body.getWorldDirection(e), e;
 		}
-		HwaIASkkDqExI() {
-			(this.nameTagText = this.entity.HipeNCdhZKkgulTK() || ``),
+		BooqqkjIoSyvX() {
+			(this.nameTagText = this.entity.hKtjHuPEjPfhLXzJ() || ``),
 				(this.nameTagColor = `white`),
 				(this.nameTagOpacity = 1);
 		}
-		VmBiSJoBfbgNax() {
+		IglsgftKBKDtRq() {
 			return 0.4 + this.entity.height;
 		}
-		TSPNEMRpCMzIhI() {
+		lftelpRwywFepF() {
 			return !0;
 		}
-		XzyMOyDJxXbmo() {
+		VdNZJWgSMpwVb() {
 			if (
 				this.renderArmorOnly ||
 				this.fakePlayer ||
 				(this.entity.id === Y.id &&
 					Y.perspective === Bq.Perspective.FIRST_PERSON) ||
 				!this.nameTagText ||
-				!this.TSPNEMRpCMzIhI()
+				!this.lftelpRwywFepF()
 			)
 				return;
 			let e = this.position;
@@ -94639,12 +94639,12 @@ var Eq = class extends Wn {
 				text: this.nameTagText,
 				color: this.nameTagColor,
 				x: e.x,
-				y: e.y + this.VmBiSJoBfbgNax(),
+				y: e.y + this.IglsgftKBKDtRq(),
 				z: e.z,
 				opacity: this.nameTagOpacity,
 			});
 		}
-		wTpEdsdxSry() {
+		CzAAhBsKHbh() {
 			let e = E.entities.value;
 			if (
 				e === `Normal` ||
@@ -94662,7 +94662,7 @@ var Eq = class extends Wn {
 				this.fastLOD
 			);
 		}
-		YumBMBnt(e) {
+		mQoIkHvL(e) {
 			this.lodFar = e;
 			let t = this.entity instanceof Np && this.entity.isSpectator(),
 				n = this.renderArmorOnly;
@@ -94683,24 +94683,24 @@ var Eq = class extends Wn {
 					this.lodArmor[n].visible =
 						e && !t && !!this.lodArmor[n].userData._equipped;
 		}
-		wmtxjjNEqCNXilfvYM(e) {
+		cSBIVQSNuVgtNfSXed(e) {
 			let t = this.renderArmorOnly !== e;
 			(this.renderArmorOnly = e),
-				e ? this.xTFeHJzVakeuhi() : t && this.iXghlzeXstAynoxKrgHt();
+				e ? this.hBEgweCXOaexoH() : t && this.yhcdbSjlutmlFLteYdHT();
 		}
-		xTFeHJzVakeuhi() {
+		hBEgweCXOaexoH() {
 			this.skinnedBody && (this.skinnedBody.visible = !1),
 				this.lodBody && (this.lodBody.visible = !1);
 			for (let e in this.skinnedRig) this.skinnedRig[e].visible = !1;
 			for (let e in this.meshes) this.meshes[e].visible = !1;
 		}
-		iXghlzeXstAynoxKrgHt() {
+		yhcdbSjlutmlFLteYdHT() {
 			if (!this.skinnedBody) {
 				let e = this.entity instanceof Np && this.entity.isSpectator();
 				for (let t in this.meshes) this.meshes[t].visible = !e || t === `head`;
 			}
 			for (let e in this.skinnedRig) this.skinnedRig[e].visible = !0;
-			this.YumBMBnt(this.lodFar);
+			this.mQoIkHvL(this.lodFar);
 		}
 		render() {
 			let {
@@ -94714,22 +94714,22 @@ var Eq = class extends Wn {
 				rightElbowJoint: s,
 			} = this;
 			if (Y.id != this.entity.id && !this.visible) return;
-			let c = this.wTpEdsdxSry();
-			c !== this.lodFar && this.YumBMBnt(c),
-				this.entity.HipeNCdhZKkgulTK() !== this.prevCustomName &&
-					(this.HwaIASkkDqExI(),
-					(this.prevCustomName = this.entity.HipeNCdhZKkgulTK()));
+			let c = this.CzAAhBsKHbh();
+			c !== this.lodFar && this.mQoIkHvL(c),
+				this.entity.hKtjHuPEjPfhLXzJ() !== this.prevCustomName &&
+					(this.BooqqkjIoSyvX(),
+					(this.prevCustomName = this.entity.hKtjHuPEjPfhLXzJ()));
 			let l = this.entity.mesh,
 				u = this.entity.hurtTime > 0 || this.entity.deathTime > 0;
 			u !== this.prevHurtTint &&
-				(l.KlGHGQVKaZNzbTr(u ? sMe : Nq), (this.prevHurtTint = u)),
+				(l.oTIdJQlXbnalenR(u ? sMe : Nq), (this.prevHurtTint = u)),
 				this.renderPositionAndRotation(),
-				this.XzyMOyDJxXbmo();
+				this.VdNZJWgSMpwVb();
 			let d =
 					(this.entity.id === Y.id && Y.ridingEntity) ||
 					this.entity.ridingEntity,
 				f = this.entity.getPartialTicks(),
-				p = d ? 0 : this.WeyqsvIOfOmVfzK();
+				p = d ? 0 : this.YMDTpCOJwphhEZN();
 			if (d) {
 				this.body.quaternion.slerp(
 					Mq.setFromAxisAngle(Aq, d.yaw + Math.PI / 2),
@@ -94760,7 +94760,7 @@ var Eq = class extends Wn {
 							.sub(this.entity.pos)
 							.setY(0)
 							.normalize(),
-						a = this.FDTprRPUWL(fMe),
+						a = this.CIbUNKuxEY(fMe),
 						o = lMe.setFromUnitVectors(a, i),
 						s = uMe.copy(this.body.quaternion).premultiply(o),
 						c = Math.abs(r - n) + 0.2;
@@ -94792,11 +94792,11 @@ var Eq = class extends Wn {
 			let te = (e) => ((e + 1) / 2) * p * 0.5 + (m ? S : 0);
 			(o.rotation.x = te(w)), (s.rotation.x = te(T));
 		}
-		JKWWuNvyWZBNxzOogom(e, t) {
+		uPFBGmwPqECKqNbAqVV(e, t) {
 			return e.ticksExisted + t;
 		}
 	},
-	Fq = new Jn(),
+	Fq = new Qn(),
 	Iq = new D(),
 	Lq = class extends Pq {
 		model;
@@ -94819,7 +94819,7 @@ var Eq = class extends Wn {
 			);
 		}
 		render() {
-			this.HwaIASkkDqExI(), this.skeleton.quaternion.identity(), super.render();
+			this.BooqqkjIoSyvX(), this.skeleton.quaternion.identity(), super.render();
 			let { leftHip: e, rightHip: t, leftShoulder: n, rightShoulder: r } = this,
 				i = this.entity.profile.cosmetics.skin ?? ``,
 				a = q.skinManager.skins[i] ? q.skinManager.skins[i].skinny : !1,
@@ -94860,12 +94860,12 @@ var Eq = class extends Wn {
 				? u instanceof wm && (this.skeleton.position.y -= 4 / 16)
 				: ((e.rotation.y = 0), (t.rotation.y = 0));
 			let d = this.entity.getPartialTicks(),
-				f = this.JKWWuNvyWZBNxzOogom(this.entity, d);
+				f = this.uPFBGmwPqECKqNbAqVV(this.entity, d);
 			(r.rotation.z += Math.cos(f * 0.09) * 0.05 + 0.05),
 				(n.rotation.z -= Math.cos(f * 0.09) * 0.05 + 0.05),
 				(r.rotation.x -= Math.sin(f * 0.067) * 0.05),
 				(n.rotation.x += Math.sin(f * 0.067) * 0.05);
-			let p = this.WeyqsvIOfOmVfzK();
+			let p = this.YMDTpCOJwphhEZN();
 			this.capeMesh &&
 				((this.capeMesh.rotation.x -= p),
 				(this.capeMesh.rotation.x -= Math.cos(f * 0.09) * 0.05 + 0.05));
@@ -94874,7 +94874,7 @@ var Eq = class extends Wn {
 			this.glideAmount += (+!!h - this.glideAmount) * Math.min(1, $.delta * 8);
 			let g = this.glideAmount;
 			if (
-				(h ? this.lSOqqyLnZuyS(Ap, jp) : this.lSOqqyLnZuyS(m.width, m.height),
+				(h ? this.jFjOIRLOeNCP(Ap, jp) : this.jFjOIRLOeNCP(m.width, m.height),
 				g > 0.001)
 			) {
 				this.body.getWorldQuaternion(Fq),
@@ -94913,7 +94913,7 @@ var Eq = class extends Wn {
 			}
 			if (this.elytraMesh) {
 				let e = m.mode == hp.SPECTATOR,
-					t = m.ecwALqWbHWYiRVD() && !e;
+					t = m.qNzQFwZKoDGaPft() && !e;
 				if (
 					((this.elytraMesh.visible = t),
 					this.capeMesh && (this.capeMesh.visible = !t && !e),
@@ -94926,9 +94926,9 @@ var Eq = class extends Wn {
 				}
 			}
 			this.capeMesh &&
-				this.entity.YxOkSAcxKhg() &&
+				this.entity.TQuOhOtfcpf() &&
 				(this.capeMesh.visible = !1),
-				this.ubexcbiWbEwqAmLAFo(),
+				this.xibvKafiGFQplivEtM(),
 				!this.lodFar &&
 					(this.entity.punching
 						? ((this.punchingT += $.delta * 4),
@@ -94936,7 +94936,7 @@ var Eq = class extends Wn {
 						: this.punchingT < 1
 							? (this.punchingT += $.delta * 4)
 							: (this.punchingT = 1),
-					this.entity.jkCMvaSZ()
+					this.entity.yZHQaxsw()
 						? r.rotation.set(Math.PI / 3, 0, 0)
 						: this.entity.isBlocking() && r.rotation.set(Math.PI / 4, 0, 0),
 					this.punchingT != 1 &&
@@ -94956,10 +94956,10 @@ var Eq = class extends Wn {
 					this.neck.quaternion.copy(this.rotYaw),
 					this.headPivot.quaternion.copy(this.rotPitch));
 		}
-		FDTprRPUWL(e = new D()) {
+		CIbUNKuxEY(e = new D()) {
 			return this.body.getWorldDirection(e), e;
 		}
-		bEFAQUuPXOfxBAqjxwqK(e) {
+		tDxcUZMkQOThezYnGSAS(e) {
 			let t = this;
 			for (let n in t.meshes)
 				t.meshes[n].visible = t.skinnedBody && n !== `head` ? !1 : e;
@@ -94973,16 +94973,16 @@ var Eq = class extends Wn {
 				this.capeMesh && (this.capeMesh.visible = e),
 				this.elytraMesh && (this.elytraMesh.visible = e),
 				this.hatMesh && (this.hatMesh.visible = e),
-				this.lodFar && this.YumBMBnt(!0);
+				this.lodFar && this.mQoIkHvL(!0);
 		}
-		WPpKXceKZXKUFc(e) {
+		ZKnMGMebsLZfJq(e) {
 			let t = this;
 			this.entity.setGamemode(e),
 				this.entity.mode.isSpectator()
-					? (this.bEFAQUuPXOfxBAqjxwqK(!1),
+					? (this.tDxcUZMkQOThezYnGSAS(!1),
 						t.meshes.head && (t.meshes.head.visible = !0),
-						this.KlGHGQVKaZNzbTr(null, 0.5))
-					: (this.bEFAQUuPXOfxBAqjxwqK(!0), this.KlGHGQVKaZNzbTr(null, 1));
+						this.oTIdJQlXbnalenR(null, 0.5))
+					: (this.tDxcUZMkQOThezYnGSAS(!0), this.oTIdJQlXbnalenR(null, 1));
 			let n = t.meshes.head;
 			if (n) {
 				let e = n.material,
@@ -94991,7 +94991,7 @@ var Eq = class extends Wn {
 			}
 			this.updateArmor();
 		}
-		HwaIASkkDqExI() {
+		BooqqkjIoSyvX() {
 			let e = `white`,
 				t = 1;
 			this.entity.mode == hp.SPECTATOR
@@ -95012,10 +95012,10 @@ var Eq = class extends Wn {
 			} else this.nameTagText = i;
 			(this.nameTagColor = e), (this.nameTagOpacity = t);
 		}
-		VmBiSJoBfbgNax() {
+		IglsgftKBKDtRq() {
 			return 0.7 + el;
 		}
-		TSPNEMRpCMzIhI() {
+		lftelpRwywFepF() {
 			return (
 				!this.entity.sneak &&
 				!E.streamerMode.value &&
@@ -95047,13 +95047,13 @@ var Eq = class extends Wn {
 		static Perspective = Rq;
 		perspective = e.Perspective.FIRST_PERSON;
 		deltaFov = LN(0, 150);
-		portalTint = new sr(16391446);
+		portalTint = new cr(16391446);
 		selectBox;
 		headInBlock;
 		lastHeadInBlock;
 		biome = `WIP`;
 		lastReportedPos = new D();
-		pvHxIoBIygOvxbi;
+		qAXyOslKajjfpgH;
 		lastReportedPitch;
 		serverSneakState;
 		serverSprintState;
@@ -95090,7 +95090,7 @@ var Eq = class extends Wn {
 				(this.dimension = t.dimension ?? 0),
 				(this.game.world.dimensionId = this.dimension);
 		}
-		DVkbSsKQJYpHwzMBtDFy(e = !1) {
+		ybZrwcNPQBKOKaohXzTW(e = !1) {
 			if (!(this.openContainer instanceof pp) && !e) return;
 			let t = !1;
 			for (let e = 0; e < 4; e++) {
@@ -95119,7 +95119,7 @@ var Eq = class extends Wn {
 			}
 			let n = 0;
 			for (let e of Y.inventory.armor)
-				e && e.item instanceof yu && (n += e.item.QhzlVaHJiinRkouulH || 0);
+				e && e.item instanceof yu && (n += e.item.rbuvBSyyXWdTnOivan || 0);
 			let r = this.world.getPlayerById(this.id);
 			n !== this.prevDefencePoints &&
 				((this.prevDefencePoints = n), (this.game.info.armor = n), (t = !0)),
@@ -95140,18 +95140,18 @@ var Eq = class extends Wn {
 							KK(),
 							Mt.death())
 						: e > 0 && e < t && Mt.hurt(),
-				this.bVAGYLqIYHFuGNqbabDi();
+				this.MFwafYYmUcQwSOSBHASr();
 		}
 		lowHealthPulse = null;
 		static LOW_HEALTH = 6;
-		bVAGYLqIYHFuGNqbabDi() {
+		MFwafYYmUcQwSOSBHASr() {
 			let t = this.getHealth(),
 				n = t > 0 && t <= e.LOW_HEALTH;
 			n && this.lowHealthPulse == null
 				? (this.lowHealthPulse = setInterval(() => {
 						let t = this.getHealth();
 						if (!this.game.inGame() || t <= 0 || t > e.LOW_HEALTH) {
-							this.bVAGYLqIYHFuGNqbabDi();
+							this.MFwafYYmUcQwSOSBHASr();
 							return;
 						}
 						Mt.lowHealth();
@@ -95160,8 +95160,8 @@ var Eq = class extends Wn {
 					this.lowHealthPulse != null &&
 					(clearInterval(this.lowHealthPulse), (this.lowHealthPulse = null));
 		}
-		hqnMJVAipHnfTLFohtx(e) {
-			e == 17 && (this.game.info.absorption = this.oFdflIheFKVgDbCpkem());
+		QmvEoitVxpQnzVdRSqK(e) {
+			e == 17 && (this.game.info.absorption = this.hwnudaSahEeXwrPpmMq());
 		}
 		setGamemode(e) {
 			return (
@@ -95172,7 +95172,7 @@ var Eq = class extends Wn {
 				!0
 			);
 		}
-		XAytsNkcPvDnBohbe(e = !1) {
+		EaiqIyxYWoPMkWfwj(e = !1) {
 			(this.pos.x = (this.boundingBox.min.x + this.boundingBox.max.x) / 2),
 				(this.pos.y = this.boundingBox.min.y),
 				(this.pos.z = (this.boundingBox.min.z + this.boundingBox.max.z) / 2),
@@ -95183,41 +95183,41 @@ var Eq = class extends Wn {
 						this.pos.z,
 					);
 		}
-		twwuiVqguTEn() {
+		kwOcbRQbNArT() {
 			if (this.selectBox) return;
-			let e = new ir(new D(), new D(1, 1, 1));
-			(this.selectBox = new vee(e, new sr(`white`))),
+			let e = new Cn(new D(), new D(1, 1, 1));
+			(this.selectBox = new gee(e, new cr(`white`))),
 				(this.selectBox.name = `wireframe`),
 				this.game.gameScene.scene.add(this.selectBox);
 		}
-		CEgFKJCXwQDDn() {
+		JFPLnMIsjnmwp() {
 			return !0;
 		}
 		respawn(e) {
 			(!e || !e.notDeath) &&
-				(this.setHealth(this.getMaxHealth()), this.eKvFaBdOYmwryL()),
-				this.game.world.getPlayerById(this.id)?.kpzuSltuiOkliPfskZHX();
+				(this.setHealth(this.getMaxHealth()), this.WNyLqGPxqfOSCO()),
+				this.game.world.getPlayerById(this.id)?.zZjdQvRzvsajSzQZEjvu();
 		}
 		sendRespawnPacket() {
 			pK.sendPacket(new XCe());
 		}
 		setPosition(e, t, n) {
 			super.setPosition(e, t, n),
-				this.XAytsNkcPvDnBohbe(!0),
+				this.EaiqIyxYWoPMkWfwj(!0),
 				(this.fallDistance = 0);
 		}
-		tvNGjCOoVfSkvdt() {
+		ZbNxKjeIJPZIxVD() {
 			let e = this.game.gameScene.camera,
 				t;
 			E.dynamicFOV.value
-				? ((this.deltaFov.value = E.fov.value * this.kLQcqOSuBrRrTj()),
+				? ((this.deltaFov.value = E.fov.value * this.RMNhnPqunHqgdr()),
 					(t = this.deltaFov.value))
 				: (t = E.fov.value),
 				e.fov !== t && ((e.fov = t), e.updateProjectionMatrix());
 		}
-		LxoVKISfEdVbDXeVhcMfnif(e) {}
-		LFTuxEUICGlY(e) {
-			this.tvNGjCOoVfSkvdt();
+		RFHxHOwcKPLVauZguuFHjtQ(e) {}
+		RDseohrHYFto(e) {
+			this.ZbNxKjeIJPZIxVD();
 			let t =
 				this.sneak &&
 				!this.abilities.flying &&
@@ -95243,10 +95243,10 @@ var Eq = class extends Wn {
 					this.game.gameScene.camera.getWorldPosition(gMe);
 				let t = _Me;
 				this.game.gameScene.camera.getWorldDirection(t), t.negate();
-				let n = nz.hmcwVI,
+				let n = nz.bJScIm,
 					r = Zu(
 						n,
-						vMe.copy(nz.hmcwVI).add(t.multiplyScalar(8)),
+						vMe.copy(nz.bJScIm).add(t.multiplyScalar(8)),
 						!1,
 						!0,
 						!0,
@@ -95272,14 +95272,14 @@ var Eq = class extends Wn {
 						(e.mesh.visible = !0)),
 				(sR.currentActiveItem = null));
 		}
-		JYTivxepaGmGAjcZEGMlBOk() {
+		LywVTHnXYlBaNXJmoilCdrd() {
 			let e = this.world.getVoxelBrightness(
 				this.pos.x,
 				this.pos.y + this.getEyeHeight(),
 				this.pos.z,
 			);
 			if (E.dynamicLighting.value && E.lighting.value !== `Classic`) {
-				let t = this.SSiqcWDWETKBtu();
+				let t = this.AoxcXDSfbiKjCp();
 				if (t > 0) {
 					let n = nF + (1 - nF) * (t / 15);
 					e = Math.max(e, n);
@@ -95287,11 +95287,11 @@ var Eq = class extends Wn {
 			}
 			QI(sR, e);
 		}
-		SSiqcWDWETKBtu() {
+		AoxcXDSfbiKjCp() {
 			let e = this.getActiveItemStack();
 			return e ? XP(e.item) : 0;
 		}
-		evQtoBtNacdYNTPg() {
+		GImqKLbEgLPcuvPp() {
 			let e = this.game.world.getPlayerById(this.id);
 			if (!e?.mesh) return;
 			let t = this.perspective === 0,
@@ -95323,7 +95323,7 @@ var Eq = class extends Wn {
 						}
 				});
 		}
-		dTnqMNBfYXakvjWe() {
+		DuIcBGhHoFyysoZQ() {
 			(this.punching = (Date.now() - sR.lastPunch) / 120 < 1),
 				(this.yaw = nz.yaw),
 				(this.pitch = nz.pitch);
@@ -95334,14 +95334,14 @@ var Eq = class extends Wn {
 				(hq(`ctrl`) && hc.ControlLeft != `ctrl`) ||
 				cz.sneaking;
 		}
-		EpkKYRaOBzBsFPLpqLYbdNi() {
+		xykKjUZMesjsmhNzoJakBCj() {
 			if (!this.serverUsesPosLookMovement()) return;
 			let e = this.pos.x - this.lastReportedPos.x,
 				t = this.getEntityBoundingBox().min.y - this.lastReportedPos.y,
 				n = this.pos.z - this.lastReportedPos.z,
 				r = e * e + t * t + n * n > 9e-4,
 				i =
-					this.yaw - this.pvHxIoBIygOvxbi !== 0 ||
+					this.yaw - this.qAXyOslKajjfpgH !== 0 ||
 					this.pitch - this.lastReportedPitch !== 0;
 			if (!r && !i && this.onGround && this.positionUpdateTicks < 20) {
 				++this.positionUpdateTicks;
@@ -95361,11 +95361,11 @@ var Eq = class extends Wn {
 				i &&
 					((a.yaw = Y.yaw),
 					(a.pitch = Y.pitch),
-					(this.pvHxIoBIygOvxbi = this.yaw),
+					(this.qAXyOslKajjfpgH = this.yaw),
 					(this.lastReportedPitch = this.pitch)),
 				pK.sendPacket(new vP(a));
 		}
-		xecdWjZfvbW() {
+		mbnGEOUsTTN() {
 			let e = { id: Y.id },
 				t = !1;
 			Y.sneak !== Y.serverSneakState &&
@@ -95378,30 +95378,30 @@ var Eq = class extends Wn {
 					((Y.serverPunchState = Y.punching),
 					(e.punching = Y.punching),
 					(t = !0)),
-				Y.atxzXhNxgN !== Y.serverMoveStrafe &&
-					((Y.serverMoveStrafe = Y.atxzXhNxgN),
-					(e.atxzXhNxgN = Y.atxzXhNxgN),
+				Y.zVbpZHiaYd !== Y.serverMoveStrafe &&
+					((Y.serverMoveStrafe = Y.zVbpZHiaYd),
+					(e.zVbpZHiaYd = Y.zVbpZHiaYd),
 					(t = !0)),
-				Y.rutqrVROSKR !== Y.serverMoveForward &&
-					((Y.serverMoveForward = Y.rutqrVROSKR),
-					(e.rutqrVROSKR = Y.rutqrVROSKR),
+				Y.unAZjpZwBxI !== Y.serverMoveForward &&
+					((Y.serverMoveForward = Y.unAZjpZwBxI),
+					(e.unAZjpZwBxI = Y.unAZjpZwBxI),
 					(t = !0)),
 				t && pK.sendPacket(new PN(e));
 		}
-		wyfLuNpRKsxGX() {
+		LivVfAxNxWrca() {
 			let e = {};
 			Y.abilities.flying != Y.serverFlyState &&
 				((Y.serverFlyState = Y.abilities.flying),
 				(e.isFlying = Y.abilities.flying)),
 				Object.keys(e).length && pK.sendPacket(new _P(e));
 		}
-		wdNbAcCOkZLvyJcZaDJpd() {
-			this.EpkKYRaOBzBsFPLpqLYbdNi(), this.wyfLuNpRKsxGX();
+		knjXwLwmPhqYpkWOhwlCI() {
+			this.xykKjUZMesjsmhNzoJakBCj(), this.LivVfAxNxWrca();
 		}
 		fixedUpdate() {
 			super.fixedUpdate(),
 				vK.update(),
-				this.RxenNtlZSoRmJuD(),
+				this.jQLXEJDjioiGUKF(),
 				this.isRiding()
 					? this.serverUsesPosLookMovement() &&
 						pK.sendPacket(
@@ -95412,8 +95412,8 @@ var Eq = class extends Wn {
 								onGround: this.onGround,
 							}),
 						)
-					: this.wdNbAcCOkZLvyJcZaDJpd(),
-				this.xecdWjZfvbW(),
+					: this.knjXwLwmPhqYpkWOhwlCI(),
+				this.mbnGEOUsTTN(),
 				this.effects.update(this.perspective !== e.Perspective.FIRST_PERSON);
 			let t = F.fromVector(this.pos),
 				n = this.world.getBlock(t),
@@ -95431,13 +95431,13 @@ var Eq = class extends Wn {
 							: this.timeInPortal === 80 && Mt.heavy())
 				: (this.timeInPortal = Math.max(0, this.timeInPortal - 8));
 		}
-		hLQosuvefMOH() {
+		cdmSdnUTngXb() {
 			this.ridingEntity != null &&
 				(this.motion.set(0, 0, 0),
 				(this.fallDistance = 0),
-				this.ridingEntity.NtbrJGCswoLSVniiFRz(),
+				this.ridingEntity.MkRBYLbHTmKzhIkoJkp(),
 				nz.fixedUpdate(this.pos),
-				this.oqxUaqJYfduLPFUd(),
+				this.RqzPQtwGolHOHXiX(),
 				this.game.world
 					.getPlayerById(this.id)
 					?.setPositionAndRotation2(
@@ -95449,9 +95449,9 @@ var Eq = class extends Wn {
 						1,
 					));
 		}
-		IPGSNEGaaqjJUeYu(e) {
-			let t = this.atxzXhNxgN,
-				n = this.rutqrVROSKR,
+		ulKjorpvZAcwrqyk(e) {
+			let t = this.zVbpZHiaYd,
+				n = this.unAZjpZwBxI,
 				r = t * t + n * n;
 			if (r >= 1e-4) {
 				(r = Math.sqrt(r)), r < 1 && (r = 1), (r = 1 / r), (t *= r), (n *= r);
@@ -95461,32 +95461,32 @@ var Eq = class extends Wn {
 			}
 			return new D(0, 0, 0);
 		}
-		etvoyTDmWjKO(e) {
+		EttJHzwKSZxX(e) {
 			this.getHealth() <= 0 ||
 				(vK.render(),
 				sR.update(),
-				this.JYTivxepaGmGAjcZEGMlBOk(),
-				this.LFTuxEUICGlY(e),
-				this.dTnqMNBfYXakvjWe(),
-				this.ZpzZfCDJlSgDyWdRWjmfhg(),
-				this.DVkbSsKQJYpHwzMBtDFy(),
-				this.evQtoBtNacdYNTPg());
+				this.LywVTHnXYlBaNXJmoilCdrd(),
+				this.RDseohrHYFto(e),
+				this.DuIcBGhHoFyysoZQ(),
+				this.ovfMBaCgyxALWuttQtnjuX(),
+				this.ybZrwcNPQBKOKaohXzTW(),
+				this.GImqKLbEgLPcuvPp());
 		}
-		ZpzZfCDJlSgDyWdRWjmfhg() {
-			let e = nz.hmcwVI;
+		ovfMBaCgyxALWuttQtnjuX() {
+			let e = nz.bJScIm;
 			isFinite(e.x) &&
 				isFinite(e.y) &&
 				isFinite(e.z) &&
 				ZP.Howler.pos(e.x, e.y, e.z),
 				ZP.Howler.orientation(-Math.cos(nz.yaw), 0, -Math.sin(nz.yaw), 0, 1, 0);
 		}
-		NvstfwYcR() {
-			return nz.hmcwVI;
+		PmrXjhyxc() {
+			return nz.bJScIm;
 		}
 		attackEntityFrom(e, t) {
 			if (e === Fp.FALL && this.mode.isSurvival() && this.getHealth() > 0) {
-				let n = this.XsGmfAjQLTHKlFjicQhMhJnjxzmuX(e, t);
-				n = Math.max(0, n - this.oFdflIheFKVgDbCpkem());
+				let n = this.hykpKLNrGWVwIylgzrCOQLeWPQAzb(e, t);
+				n = Math.max(0, n - this.hwnudaSahEeXwrPpmMq());
 				let r = this.getHealth() - n;
 				n > 0 && r > 0 && this.setHealth(r);
 			}
@@ -95505,7 +95505,7 @@ var Eq = class extends Wn {
 						? iq.displayGuiScreen(new Aje(this.inventory, e))
 						: iq.displayGuiScreen(new lq(this.inventory, e));
 		}
-		eceWkecvxySNy(e) {
+		aLQjHqUoOuBHa(e) {
 			iq.displayGuiScreen(new Pje(e));
 		}
 		displayGui(e) {
@@ -95519,10 +95519,10 @@ var Eq = class extends Wn {
 		}
 		closeScreen() {
 			pK.sendPacket(new gP({ windowId: this.openContainer.windowId })),
-				this.AHehdVgSsCenrLQPYKidSeN(),
-				this.SXxonIgFUocGsZ();
+				this.sQacinaBOCQSGYNAHruSgRM(),
+				this.hjEcvwRRonZIor();
 		}
-		SXxonIgFUocGsZ() {
+		hjEcvwRRonZIor() {
 			if (this.game) {
 				for (let [e, t] of Y.inventory.armor.entries())
 					this.game.info.inventoryItems[3 - e] = t;
@@ -95530,7 +95530,7 @@ var Eq = class extends Wn {
 					this.game.info.inventoryItems[e + 4] = t;
 			}
 		}
-		AHehdVgSsCenrLQPYKidSeN() {
+		sQacinaBOCQSGYNAHruSgRM() {
 			this.inventory.setItemStack(null),
 				super.closeScreen(),
 				iq.displayGuiScreen(null);
@@ -95538,14 +95538,14 @@ var Eq = class extends Wn {
 		setItemInUse(e, t) {
 			(this.lastItemUseTime = performance.now()), super.setItemInUse(e, t);
 		}
-		KysotwHynEgVn(e) {
+		uzxZiQiQisaWn(e) {
 			this.game.gameScene.effectRenderer.emitParticleAtEntity(
 				this.game.world,
 				e,
 				_u.CRIT,
 			);
 		}
-		urwXsVRZRgdqBHkhajeLj(e) {
+		HOlwDvgIkQJZyEHIbSapV(e) {
 			this.game.gameScene.effectRenderer.emitParticleAtEntity(
 				this.game.world,
 				e,
@@ -95554,7 +95554,7 @@ var Eq = class extends Wn {
 				Mt.strong();
 		}
 		xpInitialized = !1;
-		HqGrGoaZgd(e, t, n) {
+		uVsrIQsPNs(e, t, n) {
 			let r = this.experienceLevel;
 			(this.experience = e),
 				(this.experienceTotal = t),
@@ -95565,14 +95565,14 @@ var Eq = class extends Wn {
 		openShop() {
 			pK.sendPacket(new QP({}));
 		}
-		IVEPBfpyPYwHlNjaJasN(e) {
+		MbeXpadqPKeCTaWHFLeK(e) {
 			if (this.game.serverInfo.serverCategory === `creative`) return;
 			let t = e.getPosition(),
 				n = this.world.getTileEntity(t);
 			n && (this.currentTile = n),
 				this.game.info.menus.open(`commandBlockEditor`, t);
 		}
-		NfHXHGpOJNFzQF() {
+		gZFtxtzYhBlTBK() {
 			for (let e of this.world.playersIterator())
 				if (e.id === this.id) return e.mesh;
 		}
@@ -96234,7 +96234,7 @@ var nJ = ne[C].atlasImage,
 			let r = t ?? this.armorOverridesForPack(e);
 			n?.length && (this.activeArmorBlobUrls = n);
 			try {
-				await q.skinManager.kqTzbnaWcfcoXEKANCg(r), cNe();
+				await q.skinManager.cMzOBcBMgOQfQGCaMwo(r), cNe();
 			} catch (e) {
 				O.warn(`Failed to apply texture pack armor.`, e);
 			}
@@ -96260,7 +96260,7 @@ var nJ = ne[C].atlasImage,
 			let r = t ?? this.entityOverridesForPack(e);
 			n?.length && (this.activeEntityBlobUrls = n);
 			try {
-				await q.skinManager.jegqDwuMfhjiCXPOqWkc(r);
+				await q.skinManager.oDnpejwnwhMphVQZOhkZ(r);
 			} catch (e) {
 				O.warn(`Failed to apply texture pack entity textures.`, e);
 			}
@@ -96780,7 +96780,7 @@ function xNe(e, t) {
 var gJ = class {
 		static signUp = async (e) => {
 			let { default: t } = await yH(async () => {
-				let { default: e } = await import(`./fp.esm-BBBNtG1G.js`);
+				let { default: e } = await import(`./fp.esm-bPTjoWo3.js`);
 				return { default: e };
 			}, []);
 			window.__fpjs_d_m = !0;
@@ -96879,8 +96879,10 @@ function SNe(e) {
 				}, 3e3);
 			})),
 			e.party.inParty &&
-				(O.info(`Queueing for public lobby (survival) for instant multiplayer`),
-				e.queue(`survival`, {}));
+				(O.info(
+					`Queueing for public lobby (peaceful survival) for instant multiplayer`,
+				),
+				e.queue(`survival`, { difficulty: `peaceful` }));
 	}
 	function v() {
 		vE.userRequest(`/accounts/inventory`, {}, f)
@@ -97056,7 +97058,7 @@ var vJ = `966152754886225980`,
 			let e, t;
 			try {
 				({ DiscordSDK: e, patchUrlMappings: t } = await yH(
-					() => import(`./output-j9dxJKY9.js`),
+					() => import(`./output-D4djaj-o.js`),
 					__vite__mapDeps([2, 1]),
 				));
 			} catch (e) {
@@ -98713,7 +98715,7 @@ var qNe = n(() => {
 						}
 						return r;
 					}),
-					(g.prototype.btAycKlwjy = function (t) {
+					(g.prototype.SyiScxcjXw = function (t) {
 						var n = this.toggles.find(function (e) {
 								return e.name === t;
 							}),
@@ -99168,15 +99170,15 @@ var qNe = n(() => {
 		}
 		fall(e, t) {}
 		updateFallState(e, t, n, r) {}
-		xqIaUNKxJPaVELYqMUyFv(e, t) {
+		AYZJOzBvWadrAEvyNNDMn(e, t) {
 			if (this.isInWater())
-				this.VmJptHdVyb(e, t, 0.02),
+				this.LTIctsnhrg(e, t, 0.02),
 					this.moveEntity(this.motion.x, this.motion.y, this.motion.z),
 					(this.motion.x *= 0.8),
 					(this.motion.y *= 0.8),
 					(this.motion.z *= 0.8);
-			else if (this.tfumiyDB())
-				this.VmJptHdVyb(e, t, 0.02),
+			else if (this.NomvXcuL())
+				this.LTIctsnhrg(e, t, 0.02),
 					this.moveEntity(this.motion.x, this.motion.y, this.motion.z),
 					(this.motion.x *= 0.5),
 					(this.motion.y *= 0.5),
@@ -99193,7 +99195,7 @@ var qNe = n(() => {
 				}
 				let r = 0.16277136 / (n * n * n);
 				if (
-					(this.VmJptHdVyb(e, t, this.onGround ? 0.1 * r : 0.02),
+					(this.LTIctsnhrg(e, t, this.onGround ? 0.1 * r : 0.02),
 					(n = 0.91),
 					this.onGround)
 				) {
@@ -99229,7 +99231,7 @@ var qNe = n(() => {
 			super(), (this.entity = e), e instanceof Tp;
 		}
 		shouldExecute() {
-			let t = this.CgbPnkvvSPWjQ(),
+			let t = this.iTBkAaxhKDwKu(),
 				n = this.entity.world.getEntitiesWithinAABB(
 					`player`,
 					this.entity
@@ -99256,7 +99258,7 @@ var qNe = n(() => {
 			)
 				return !1;
 			{
-				let t = this.CgbPnkvvSPWjQ();
+				let t = this.iTBkAaxhKDwKu();
 				return this.entity.getDistanceSqToEntity(e) > t * t
 					? !1
 					: !(e instanceof Np) || !e.abilities.creative;
@@ -99268,7 +99270,7 @@ var qNe = n(() => {
 		resetTask() {
 			this.entity.setAttackTarget(null), super.startExecuting();
 		}
-		CgbPnkvvSPWjQ() {
+		iTBkAaxhKDwKu() {
 			return 16;
 		}
 	},
@@ -99287,13 +99289,13 @@ var qNe = n(() => {
 				this.tasks.addTask(7, new rPe(this)),
 				this.targetTasks.addTask(1, new tPe(this));
 		}
-		mxunTdZYirH() {
+		SWZnNfwiLTj() {
 			return this.dataWatcher.getWatchableObjectByte(16) !== 0;
 		}
-		cjUCzyQyxzSM(e) {
+		DiOuvDcVediD(e) {
 			this.dataWatcher.updateObject(16, +!!e);
 		}
-		xMTVWCSakeiTdFzvzCf() {
+		ZQfdszmqVNaExYTJfPJ() {
 			return this.explosionStrength;
 		}
 		update() {
@@ -99319,7 +99321,7 @@ var qNe = n(() => {
 					[Au.followRange, 100],
 				]);
 		}
-		CdhpUxIRTzOeeCyUvvNtEECBV() {
+		dMJGeAKUkOznAgbMKVXdjOAeV() {
 			return !1;
 		}
 		getSoundInfo() {
@@ -99336,7 +99338,7 @@ var qNe = n(() => {
 			n = rf(3) + rf(1 + t);
 			for (let e = 0; e < n; ++e) this.dropItem2(z.gunpowder, 1);
 		}
-		ZrtnMWShbTqWBt() {
+		AGlduxQEquCMBA() {
 			return 10;
 		}
 		getCanSpawnHere() {
@@ -99346,7 +99348,7 @@ var qNe = n(() => {
 				this.world.getDifficulty() !== Bf.PEACEFUL
 			);
 		}
-		qpdKwxjRCevtroFgeNma() {
+		PVOaWLTLotWyKgcBEqGg() {
 			return 1;
 		}
 		writeEntityToNBT(e) {
@@ -99370,14 +99372,14 @@ var qNe = n(() => {
 			this.attackTimer = 0;
 		}
 		resetTask() {
-			this.parentEntity.cjUCzyQyxzSM(!1);
+			this.parentEntity.DiOuvDcVediD(!1);
 		}
 		updateTask() {
 			let e = this.parentEntity.getAttackTarget();
 			if (e) {
 				if (
 					e.getDistanceSqToEntity(this.parentEntity) < 4096 &&
-					this.parentEntity.FqEWpSDQfcpWWBq(e)
+					this.parentEntity.ahHTelAIuQfnkpT(e)
 				) {
 					let t = this.parentEntity.world;
 					if ((this.attackTimer++, this.attackTimer === 20)) {
@@ -99389,7 +99391,7 @@ var qNe = n(() => {
 								(0.5 + this.parentEntity.pos.y + this.parentEntity.height / 2),
 							a = e.pos.z - (this.parentEntity.pos.z + n.z * 4),
 							o = new Qp(t, this.parentEntity, r, i, a);
-						(o.explosionPower = this.parentEntity.xMTVWCSakeiTdFzvzCf()),
+						(o.explosionPower = this.parentEntity.ZQfdszmqVNaExYTJfPJ()),
 							(o.pos.x = this.parentEntity.pos.x + n.x * 4),
 							(o.pos.y =
 								this.parentEntity.pos.y + this.parentEntity.height / 2 + 0.5),
@@ -99398,7 +99400,7 @@ var qNe = n(() => {
 							(this.attackTimer = -40);
 					}
 				} else this.attackTimer > 0 && this.attackTimer--;
-				this.parentEntity.cjUCzyQyxzSM(this.attackTimer > 10);
+				this.parentEntity.DiOuvDcVediD(this.attackTimer > 10);
 			}
 		}
 	},
@@ -99431,8 +99433,8 @@ var qNe = n(() => {
 			super(), (this.parentEntity = e), this.setMutexBits(1);
 		}
 		shouldExecute() {
-			let e = this.parentEntity.JCSEGCSdOeaAD();
-			if (e.SWmQqxNoEi()) {
+			let e = this.parentEntity.sRYPUBoWLjBjn();
+			if (e.vgFxoCtpYm()) {
 				let t = e.getX() - this.parentEntity.pos.x,
 					n = e.getY() - this.parentEntity.pos.y,
 					r = e.getZ() - this.parentEntity.pos.z,
@@ -99447,14 +99449,14 @@ var qNe = n(() => {
 			let e = this.parentEntity.pos.x + (Math.random() * 2 - 1) * 16,
 				t = this.parentEntity.pos.y + (Math.random() * 2 - 1) * 16,
 				n = this.parentEntity.pos.z + (Math.random() * 2 - 1) * 16;
-			this.parentEntity.JCSEGCSdOeaAD().BEctjWPED(e, t, n, 1);
+			this.parentEntity.sRYPUBoWLjBjn().XkMStaOoo(e, t, n, 1);
 		}
 	},
 	oPe = class extends xf {
 		constructor(e) {
 			super(e), (this.courseChangeCooldown = 0), (this.parentEntity = e);
 		}
-		qwLKRtkeMxrgSSKGda() {
+		oDflxfThyKNPWJbxuh() {
 			if (this.update) {
 				let e = this.posX - this.parentEntity.pos.x,
 					t = this.posY - this.parentEntity.pos.y,
@@ -99463,14 +99465,14 @@ var qNe = n(() => {
 				this.courseChangeCooldown-- <= 0 &&
 					((this.courseChangeCooldown += rf(5) + 2),
 					(r = Math.sqrt(r)),
-					this.pycgjKEMFwtpFG(this.posX, this.posY, this.posZ, r)
+					this.mpNAKvnbISjsEf(this.posX, this.posY, this.posZ, r)
 						? ((this.parentEntity.motion.x += (e / r) * 0.1),
 							(this.parentEntity.motion.y += (t / r) * 0.1),
 							(this.parentEntity.motion.z += (n / r) * 0.1))
 						: (this.update = !1));
 			}
 		}
-		pycgjKEMFwtpFG(e, t, n, r) {
+		mpNAKvnbISjsEf(e, t, n, r) {
 			let i = (e - this.parentEntity.pos.x) / r,
 				a = (t - this.parentEntity.pos.y) / r,
 				o = (n - this.parentEntity.pos.z) / r,
@@ -99513,7 +99515,7 @@ var qNe = n(() => {
 			let e = this.attacker.getAttackTarget();
 			return e && e.isEntityAlive()
 				? this.longMemory
-					? this.attacker.JmfZoEaUMByQNCvMnKnTTEvZnygWPPcr(
+					? this.attacker.BklmenolBpFMxAUDJIzHipxAmnWRHJMi(
 							new F(e.pos.x, e.pos.y, e.pos.z),
 						)
 					: !this.attacker.getNavigator().noPath()
@@ -99534,9 +99536,9 @@ var qNe = n(() => {
 			let t = this.attacker.pos.distanceToSquared(
 					new D(e.pos.x, e.getEntityBoundingBox().min.y, e.pos.z),
 				),
-				n = this.eedsnFYPuFfzzhKKFIuMz(e);
+				n = this.JtLejwzNoSprtuCbfZBZe(e);
 			this.delayCounter--,
-				(this.longMemory || this.attacker.qUKVdIGCMGmzfDw().pNAZgf(e)) &&
+				(this.longMemory || this.attacker.RctXfXLMPzkcETP().WpgaIx(e)) &&
 					this.delayCounter <= 0 &&
 					((this.targetX === 0 && this.targetY === 0 && this.targetZ === 0) ||
 						e.pos.distanceToSquared(
@@ -99559,7 +99561,7 @@ var qNe = n(() => {
 					this.attackTick <= 0 &&
 					((this.attackTick = 20), this.attacker.attackEntityAsMob(e));
 		}
-		eedsnFYPuFfzzhKKFIuMz(e) {
+		JtLejwzNoSprtuCbfZBZe(e) {
 			return this.attacker.width * 2 * this.attacker.width * 2 + e.width;
 		}
 	},
@@ -99572,20 +99574,20 @@ var qNe = n(() => {
 		}
 		shouldExecute() {
 			return (
-				this.taskOwner.QYQtwWCIXszbiMP() !== this.revengeTimerOld &&
-				this.zXRRYfSILfLhyecx(this.taskOwner.DQaccOjhxUu(), !1)
+				this.taskOwner.LXMDPIBmwlcoHAs() !== this.revengeTimerOld &&
+				this.gDqXmSqbNJMsDHuk(this.taskOwner.GpZVffwkakJ(), !1)
 			);
 		}
 		startExecuting() {
 			if (
-				(this.taskOwner.setAttackTarget(this.taskOwner.DQaccOjhxUu()),
-				(this.revengeTimerOld = this.taskOwner.QYQtwWCIXszbiMP()),
+				(this.taskOwner.setAttackTarget(this.taskOwner.GpZVffwkakJ()),
+				(this.revengeTimerOld = this.taskOwner.LXMDPIBmwlcoHAs()),
 				this.entityCallsForHelp)
 			) {
-				let e = this.nMkfCKrqlsSbGDEcm(),
+				let e = this.XrVKZhgSEvpeTRXsy(),
 					t = this.taskOwner.world.getEntitiesWithinAABB(
 						this.taskOwner.type,
-						new ir(
+						new Cn(
 							new D(
 								this.taskOwner.pos.x,
 								this.taskOwner.pos.y,
@@ -99610,12 +99612,12 @@ var qNe = n(() => {
 								t = !0;
 								break;
 							}
-						t || this.mnrtIUsjagukAQQbExWXg(e, this.taskOwner.DQaccOjhxUu());
+						t || this.ZfhrDxktOOeBWpAaIuzyE(e, this.taskOwner.GpZVffwkakJ());
 					}
 			}
 			super.startExecuting();
 		}
-		mnrtIUsjagukAQQbExWXg(e, t) {
+		ZfhrDxktOOeBWpAaIuzyE(e, t) {
 			e.setAttackTarget(t);
 		}
 	},
@@ -99633,24 +99635,24 @@ var qNe = n(() => {
 				this.targetTasks.addTask(1, new tY(this, !1, null)),
 				this.targetTasks.addTask(2, new yg(this, `player`, !0)),
 				this.targetTasks.addTask(3, new yg(this, `golem`, !0)),
-				e != null && e.isServer && this.daetASNzqtlIi();
+				e != null && e.isServer && this.mmCTcJLjAgrBJ();
 		}
 		applyEntityAttributes() {
 			super.applyEntityAttributes(),
-				this.applyBaseAttributes([[Au.sLYAdepgIImgX, 0.25]]);
+				this.applyBaseAttributes([[Au.NLOgYLKKWRvav, 0.25]]);
 		}
 		entityInit() {
 			super.entityInit(), this.dataWatcher.addObject(13, 0);
 		}
 		attackEntityAsMob(e) {
 			return super.attackEntityAsMob(e)
-				? (this.pfUmkCMQEQJglsw() == 1 && e instanceof Fd, !0)
+				? (this.mYbNTvzjwGvukyh() == 1 && e instanceof Fd, !0)
 				: !1;
 		}
 		onLivingUpdate() {
-			this.PPHYhcpoCbpYJk(),
+			this.aTZGHMKAvVoayY(),
 				this.world.isClient &&
-					this.pfUmkCMQEQJglsw() == 1 &&
+					this.mYbNTvzjwGvukyh() == 1 &&
 					this.setSize(0.72, 2.535),
 				super.onLivingUpdate();
 		}
@@ -99669,7 +99671,7 @@ var qNe = n(() => {
 			return { drop: z.arrow };
 		}
 		dropFewItems(e, t) {
-			if (this.pfUmkCMQEQJglsw() == 1) {
+			if (this.mYbNTvzjwGvukyh() == 1) {
 				let e = rf(3 + t) - 1;
 				for (let t = 0; t < e; ++t) this.dropItem2(z.coal, 1);
 			} else {
@@ -99679,61 +99681,61 @@ var qNe = n(() => {
 			let n = rf(3 + t);
 			for (let e = 0; e < n; ++e) this.dropItem2(z.bone, 1);
 		}
-		gPQHfMRdvoGgs() {
-			this.pfUmkCMQEQJglsw();
+		buNPTPFBASuxj() {
+			this.mYbNTvzjwGvukyh();
 		}
-		GpXPMpzCglIbzGOoaVMxwcDjmXljh(e) {
-			super.GpXPMpzCglIbzGOoaVMxwcDjmXljh(e),
+		pCqqCoVFmNKADwWANkbwxVMogGiba(e) {
+			super.pCqqCoVFmNKADwWANkbwxVMogGiba(e),
 				this.setCurrentItemOrArmor(0, new Vp(z.bow));
 		}
 		onInitialSpawn(e, t) {
 			return (
 				(t = super.onInitialSpawn(e, t)),
 				this.tasks.addTask(4, this.aiArrowAttack),
-				this.GpXPMpzCglIbzGOoaVMxwcDjmXljh(e),
+				this.pCqqCoVFmNKADwWANkbwxVMogGiba(e),
 				t
 			);
 		}
-		daetASNzqtlIi() {
-			this.tasks.CzgpvNuSfK(this.aiAttackOnCollide),
-				this.tasks.CzgpvNuSfK(this.aiArrowAttack);
+		mmCTcJLjAgrBJ() {
+			this.tasks.MWLJsWEPLF(this.aiAttackOnCollide),
+				this.tasks.MWLJsWEPLF(this.aiArrowAttack);
 			let e = this.getHeldItem();
 			e != null && e.getItem() == z.bow
 				? this.tasks.addTask(4, this.aiArrowAttack)
 				: this.tasks.addTask(4, this.aiAttackOnCollide);
 		}
-		iiNORpeEOBUHOVYRZfaryBMgQruL(e, t) {
+		tlwNFcHrhOjreDhqekZGoBGlncmx(e, t) {
 			let n = new Rp(this.world, this, e, 1.6, 5),
 				r = Hd.getEnchantmentLevel(Vd.power.effectId, this.getHeldItem()),
 				i = Hd.getEnchantmentLevel(Vd.punch.effectId, this.getHeldItem());
-			n.jVUQtaZOZ(
+			n.mguJhzsTh(
 				t * 2 +
 					rd() * 0.25 +
 					this.world.getDifficulty().getDifficultyId() * 0.11,
 			),
-				r > 0 && n.jVUQtaZOZ(n.AipJfEPuh() + r * 0.5 + 0.5),
-				i > 0 && n.miwkpvrFLijZkvSSRToY(i),
+				r > 0 && n.mguJhzsTh(n.tMynBKOUy() + r * 0.5 + 0.5),
+				i > 0 && n.FdVJYHJehPxrGPbwVFXx(i),
 				(Hd.getEnchantmentLevel(Vd.flame.effectId, this.getHeldItem()) > 0 ||
-					this.pfUmkCMQEQJglsw() == 1) &&
+					this.mYbNTvzjwGvukyh() == 1) &&
 					n.setFire(100),
 				this.playSound(`random.bow`, 1, 1 / (Math.random() * 0.4 + 0.8)),
 				this.world.spawnEntityInWorld(n);
 		}
-		pfUmkCMQEQJglsw() {
+		mYbNTvzjwGvukyh() {
 			return this.dataWatcher.getWatchableObjectByte(13);
 		}
-		bDJIYdakpmnRUFq(e) {
+		GcXlblYJIyulFhM(e) {
 			this.dataWatcher.updateObject(13, e),
 				e == 1 ? this.setSize(0.72, 2.535) : this.setSize(0.6, 1.95);
 		}
 		setCurrentItemOrArmor(e, t) {
 			super.setCurrentItemOrArmor(e, t),
-				this.world.isServer && e == 0 && this.daetASNzqtlIi();
+				this.world.isServer && e == 0 && this.mmCTcJLjAgrBJ();
 		}
 		getEyeHeight() {
-			return this.pfUmkCMQEQJglsw() == 1 ? super.getEyeHeight() : 1.74;
+			return this.mYbNTvzjwGvukyh() == 1 ? super.getEyeHeight() : 1.74;
 		}
-		jMEYRGfRWd() {
+		LxOZNwUOEe() {
 			return this.isChild() ? 0 : -0.35;
 		}
 	},
@@ -99744,7 +99746,7 @@ var qNe = n(() => {
 		shouldExecute() {
 			let e = this.swellingCreeper.getAttackTarget();
 			return (
-				this.swellingCreeper.tEERYwoNWIfaceY() > 0 ||
+				this.swellingCreeper.duwZjdnRdnSLMEi() > 0 ||
 				(e != null && this.swellingCreeper.getDistanceSqToEntity(e) < 9)
 			);
 		}
@@ -99758,12 +99760,12 @@ var qNe = n(() => {
 		updateTask() {
 			this.creeperAttackTarget == null ||
 			this.swellingCreeper.getDistanceSqToEntity(this.creeperAttackTarget) > 49
-				? this.swellingCreeper.yTiOPfdsSboHhvZ(-1)
+				? this.swellingCreeper.DrezAFeJPInQaBM(-1)
 				: this.swellingCreeper
-							.qUKVdIGCMGmzfDw()
-							.pNAZgf(this.creeperAttackTarget)
-					? this.swellingCreeper.yTiOPfdsSboHhvZ(1)
-					: this.swellingCreeper.yTiOPfdsSboHhvZ(-1);
+							.RctXfXLMPzkcETP()
+							.WpgaIx(this.creeperAttackTarget)
+					? this.swellingCreeper.DrezAFeJPInQaBM(1)
+					: this.swellingCreeper.DrezAFeJPInQaBM(-1);
 		}
 	},
 	cPe = class e extends gg {
@@ -99788,9 +99790,9 @@ var qNe = n(() => {
 		}
 		applyEntityAttributes() {
 			super.applyEntityAttributes(),
-				this.applyBaseAttributes([[Au.sLYAdepgIImgX, 0.25]]);
+				this.applyBaseAttributes([[Au.NLOgYLKKWRvav, 0.25]]);
 		}
-		UkXQWaNTYzKGhfHj() {
+		LXnvnkHFnwuxjhPt() {
 			return this.getAttackTarget() == null ? 3 : 3 + (this.getHealth() - 1);
 		}
 		fall(e, t) {
@@ -99810,8 +99812,8 @@ var qNe = n(() => {
 		update() {
 			if (this.isEntityAlive()) {
 				(this.lastActiveTime = this.timeSinceIgnited),
-					this.alSmuXEati() && this.yTiOPfdsSboHhvZ(1);
-				let e = this.tEERYwoNWIfaceY();
+					this.FjHqnbbvKA() && this.DrezAFeJPInQaBM(1);
+				let e = this.duwZjdnRdnSLMEi();
 				e > 0 &&
 					this.timeSinceIgnited == 0 &&
 					this.playSound(`creeper.primed`, 1, 0.5),
@@ -99834,27 +99836,27 @@ var qNe = n(() => {
 				t.getEntity() instanceof nY ||
 					(t.getEntity() instanceof e &&
 						t.getEntity() != this &&
-						t.getEntity().IWqmtCFTNp() &&
-						t.getEntity().nCqZNxLnTfG() &&
-						t.getEntity().qKvDAYMhGxlSXb());
+						t.getEntity().XuMhEyCwsb() &&
+						t.getEntity().sGHycrUSZrB() &&
+						t.getEntity().VjEIJiVajrNFdq());
 		}
 		attackEntityAsMob(e) {
 			return !0;
 		}
-		IWqmtCFTNp() {
+		XuMhEyCwsb() {
 			return this.dataWatcher.getWatchableObjectByte(17) == 1;
 		}
-		fGJddRuwwGAeCehaIjTViVii(e) {
+		SRXUSyIHXOZZrBbogTkaqjhS(e) {
 			return (
 				(this.lastActiveTime +
 					(this.timeSinceIgnited - this.lastActiveTime) * e) /
 				(this.fuseTime - 2)
 			);
 		}
-		tEERYwoNWIfaceY() {
+		duwZjdnRdnSLMEi() {
 			return this.dataWatcher.getWatchableObjectByte(16);
 		}
-		yTiOPfdsSboHhvZ(e) {
+		DrezAFeJPInQaBM(e) {
 			this.dataWatcher.updateObject(16, e);
 		}
 		interact(e) {
@@ -99874,7 +99876,7 @@ var qNe = n(() => {
 		explode() {
 			if (this.world.isServer) {
 				let e = this.world.getMobGriefing(),
-					t = this.IWqmtCFTNp() ? 1 : 0.4;
+					t = this.XuMhEyCwsb() ? 1 : 0.4;
 				this.world.createExplosion(
 					this,
 					this.pos.x,
@@ -99886,16 +99888,16 @@ var qNe = n(() => {
 					this.setDead();
 			}
 		}
-		alSmuXEati() {
+		FjHqnbbvKA() {
 			return this.dataWatcher.getWatchableObjectByte(18) != 0;
 		}
 		ignite() {
 			this.dataWatcher.updateObject(18, 1);
 		}
-		nCqZNxLnTfG() {
+		sGHycrUSZrB() {
 			return this.field_175494_bm < 1 && !0;
 		}
-		qKvDAYMhGxlSXb() {
+		VjEIJiVajrNFdq() {
 			++this.field_175494_bm;
 		}
 	},
@@ -99928,10 +99930,10 @@ var qNe = n(() => {
 					: !1;
 		}
 		updateTask() {
-			this.slime.JlYHPznHkp(this.slime.getAttackTarget(), 10, 10),
+			this.slime.jlaeNqwEzy(this.slime.getAttackTarget(), 10, 10),
 				this.slime
-					.JCSEGCSdOeaAD()
-					.qEKqoDfozWypH(this.slime.yaw, this.slime.HRuxQQXZtMDoACp());
+					.sRYPUBoWLjBjn()
+					.qpHbUsTxPblkf(this.slime.yaw, this.slime.ENxdSNhPFXQjOdc());
 		}
 	},
 	uPe = class extends gp {
@@ -99945,13 +99947,13 @@ var qNe = n(() => {
 		shouldExecute() {
 			return (
 				this.slime.getAttackTarget() == null &&
-				(this.slime.onGround || this.slime.isInWater() || this.slime.tfumiyDB())
+				(this.slime.onGround || this.slime.isInWater() || this.slime.NomvXcuL())
 			);
 		}
 		updateTask() {
 			--this.field_179460_c <= 0 &&
 				((this.field_179460_c = 40 + rf(60)), (this.field_179459_b = rf(360))),
-				this.slime.JCSEGCSdOeaAD().qEKqoDfozWypH(this.field_179459_b, !1);
+				this.slime.sRYPUBoWLjBjn().qpHbUsTxPblkf(this.field_179459_b, !1);
 		}
 	},
 	dPe = class extends gp {
@@ -99962,11 +99964,11 @@ var qNe = n(() => {
 				e.getNavigator().setCanSwim(!0);
 		}
 		shouldExecute() {
-			return this.slime.isInWater() || this.slime.tfumiyDB();
+			return this.slime.isInWater() || this.slime.NomvXcuL();
 		}
 		updateTask() {
-			Math.random() < 0.8 && this.slime.UYljoYdMqaNoA().fdrVCJqYIR(),
-				this.slime.JCSEGCSdOeaAD().ckyjmnns(1.2);
+			Math.random() < 0.8 && this.slime.rGPqajsMWMpQo().GLjxwhavhK(),
+				this.slime.sRYPUBoWLjBjn().hJMAeFLs(1.2);
 		}
 	},
 	fPe = class extends gp {
@@ -99977,7 +99979,7 @@ var qNe = n(() => {
 			return !0;
 		}
 		updateTask() {
-			this.slime.JCSEGCSdOeaAD().ckyjmnns(1);
+			this.slime.sRYPUBoWLjBjn().hJMAeFLs(1);
 		}
 	},
 	pPe = class extends xf {
@@ -99988,14 +99990,14 @@ var qNe = n(() => {
 				(this.field_179923_j = !1),
 				(this.slime = e);
 		}
-		qEKqoDfozWypH(e, t) {
+		qpHbUsTxPblkf(e, t) {
 			(this.field_179922_g = e), (this.field_179923_j = t);
 		}
-		ckyjmnns(e) {
+		hJMAeFLs(e) {
 			(this.speed = e), (this.update = !0);
 		}
-		qwLKRtkeMxrgSSKGda() {
-			(this.entity.yaw = this.wYIWYxBNpd(
+		oDflxfThyKNPWJbxuh() {
+			(this.entity.yaw = this.YOHbKNPBrQ(
 				this.entity.yaw,
 				this.field_179922_g,
 				30,
@@ -100005,31 +100007,31 @@ var qNe = n(() => {
 				this.update
 					? ((this.update = !1),
 						this.entity.onGround
-							? (this.entity.XrvKmJUdtOsjzO(
+							? (this.entity.NPBfSqoqdLdEFc(
 									this.speed *
 										this.entity
-											.getEntityAttribute(Au.sLYAdepgIImgX)
+											.getEntityAttribute(Au.NLOgYLKKWRvav)
 											.getAttributeValue(),
 								),
 								this.field_179924_h-- <= 0
-									? ((this.field_179924_h = this.slime.TLbbatwbqWyp()),
+									? ((this.field_179924_h = this.slime.cTvluEmZhcli()),
 										this.field_179923_j && (this.field_179924_h /= 3),
-										this.slime.UYljoYdMqaNoA().fdrVCJqYIR(),
-										this.slime.nZvobElXFZTVDMnO() &&
+										this.slime.rGPqajsMWMpQo().GLjxwhavhK(),
+										this.slime.IEcWUlDcmZhvEtlp() &&
 											this.slime.playSound(
-												this.slime.suCAXiRXcfgT(),
-												this.slime.ZrtnMWShbTqWBt(),
+												this.slime.pemyDuCDWkuv(),
+												this.slime.AGlduxQEquCMBA(),
 												((Math.random() - Math.random()) * 0.2 + 1) * 0.8,
 											))
-									: ((this.slime.atxzXhNxgN = this.slime.rutqrVROSKR = 0),
-										this.entity.XrvKmJUdtOsjzO(0)))
-							: this.entity.XrvKmJUdtOsjzO(
+									: ((this.slime.zVbpZHiaYd = this.slime.unAZjpZwBxI = 0),
+										this.entity.NPBfSqoqdLdEFc(0)))
+							: this.entity.NPBfSqoqdLdEFc(
 									this.speed *
 										this.entity
-											.getEntityAttribute(Au.sLYAdepgIImgX)
+											.getEntityAttribute(Au.NLOgYLKKWRvav)
 											.getAttributeValue(),
 								))
-					: this.entity.pwsGKmKnbtyzEO(0);
+					: this.entity.eAZiIRVfJQZtDy(0);
 		}
 	},
 	mPe = class e extends Sf {
@@ -100050,87 +100052,87 @@ var qNe = n(() => {
 		entityInit() {
 			super.entityInit(), this.dataWatcher.addObject(16, 1);
 		}
-		nGRFaBUHiwqN(e) {
+		YZwNKaDXDQUg(e) {
 			this.dataWatcher.updateObject(16, e),
 				this.setSize(0.51 * e, 0.51 * e),
 				this.setPosition(this.pos.x, this.pos.y, this.pos.z),
 				this.getEntityAttribute(Au.maxHealth).setBaseValue(e * e),
-				this.getEntityAttribute(Au.sLYAdepgIImgX).setBaseValue(0.2 + 0.1 * e),
+				this.getEntityAttribute(Au.NLOgYLKKWRvav).setBaseValue(0.2 + 0.1 * e),
 				this.setHealth(this.getMaxHealth()),
 				(this.experienceValue = e);
 		}
-		vQaMAiZUrfGt() {
+		LFcCJwiHdBxC() {
 			return this.dataWatcher.getWatchableObjectByte(16);
 		}
-		XXwRGYkgNROyBmY() {
+		VwVGBnIxMlCZden() {
 			return _u.SLIME;
 		}
-		suCAXiRXcfgT() {
-			return `mob.slime.` + (this.vQaMAiZUrfGt() > 1 ? `big` : `small`);
+		pemyDuCDWkuv() {
+			return `mob.slime.` + (this.LFcCJwiHdBxC() > 1 ? `big` : `small`);
 		}
 		update() {
 			if (
 				(this.world.isServer &&
 					this.world.getDifficulty() == Bf.PEACEFUL &&
-					this.vQaMAiZUrfGt() > 0 &&
+					this.LFcCJwiHdBxC() > 0 &&
 					(this.dead = !0),
 				(this.squishFactor += (this.squishAmount - this.squishFactor) * 0.5),
 				(this.prevSquishFactor = this.squishFactor),
 				super.update(),
 				this.onGround && !this.wasOnGround)
 			) {
-				let e = this.vQaMAiZUrfGt();
+				let e = this.LFcCJwiHdBxC();
 				for (let t = 0; t < e * 8; ++t) {
 					let t = Math.random() * Math.PI * 2,
 						n = Math.random() * 0.5 + 0.5,
 						r = Math.sin(t) * e * 0.5 * n,
 						i = Math.cos(t) * e * 0.5 * n,
 						a = this.world,
-						o = this.XXwRGYkgNROyBmY(),
+						o = this.VwVGBnIxMlCZden(),
 						s = this.pos.x + r,
 						c = this.pos.z + i;
 					a.spawnParticle(o, s, this.getEntityBoundingBox().min.y, c, 0, 0, 0);
 				}
-				this.wJEVALWOEYPfKZeu() &&
+				this.akaMGHqbrYySmwmm() &&
 					this.world.playSoundAtEntity(
 						this,
-						this.suCAXiRXcfgT(),
-						this.ZrtnMWShbTqWBt(),
+						this.pemyDuCDWkuv(),
+						this.AGlduxQEquCMBA(),
 						((Math.random() - Math.random()) * 0.2 + 1) / 0.8,
 					),
 					(this.squishAmount = -0.5);
 			} else !this.onGround && this.wasOnGround && (this.squishAmount = 1);
-			(this.wasOnGround = this.onGround), this.hFzXzEYyKepXNZIRC();
+			(this.wasOnGround = this.onGround), this.WjLAsRvbGGEuDyFEy();
 		}
-		hFzXzEYyKepXNZIRC() {
+		WjLAsRvbGGEuDyFEy() {
 			this.squishAmount *= 0.6;
 		}
-		TLbbatwbqWyp() {
+		cTvluEmZhcli() {
 			return rf(20) + 10;
 		}
-		gnQaVtaOpCPTtO() {
+		kVFGxdhqNmFukC() {
 			return new e(this.world);
 		}
-		hqnMJVAipHnfTLFohtx(e) {
+		QmvEoitVxpQnzVdRSqK(e) {
 			if (e == 16) {
-				let e = this.vQaMAiZUrfGt();
+				let e = this.LFcCJwiHdBxC();
 				this.setSize(0.51 * e, 0.51 * e),
 					(this.yaw = this.yawHead),
 					(this.renderYawOffset = this.yawHead),
-					this.isInWater() && rf(20) == 0 && this.VdamAGsZkjm();
+					this.isInWater() && rf(20) == 0 && this.SUxQAQnditj();
 			}
-			super.hqnMJVAipHnfTLFohtx(e);
+			super.QmvEoitVxpQnzVdRSqK(e);
 		}
 		setDead() {
-			let e = this.vQaMAiZUrfGt();
+			let e = this.LFcCJwiHdBxC();
 			if (this.world.isServer && e > 1 && this.getHealth() <= 0) {
 				let t = 2 + rf(3);
 				for (let n = 0; n < t; ++n) {
 					let t = (((n % 2) - 0.5) * e) / 4,
 						r = ((n / 2 - 0.5) * e) / 4,
-						i = this.gnQaVtaOpCPTtO();
-					this.SvfFSPYiaBEsNsEQFZM() && i.OqXUjZFTEJSYjyGvN(),
-						i.nGRFaBUHiwqN(e / 2),
+						i = this.kVFGxdhqNmFukC();
+					this.KOYhgamwwYFHAqRVuxs() && i.FfyFXvIKJYzkLknwN(),
+						i.YZwNKaDXDQUg(e / 2),
 						i.setLocationAndAngles(
 							this.pos.x + t,
 							this.pos.y + 0.5,
@@ -100143,15 +100145,15 @@ var qNe = n(() => {
 			}
 			super.setDead();
 		}
-		XngVCDJroIxeEatwfmND(e) {}
+		pSvuYLGoCWijlxvnoEaX(e) {}
 		onCollideWithPlayer(e) {
-			this.HRuxQQXZtMDoACp() && this.txYxTrNpiDytB(e);
+			this.ENxdSNhPFXQjOdc() && this.gMNvFokyBOYVg(e);
 		}
-		txYxTrNpiDytB(e) {
-			let t = this.vQaMAiZUrfGt();
-			this.FqEWpSDQfcpWWBq(e) &&
+		gMNvFokyBOYVg(e) {
+			let t = this.LFcCJwiHdBxC();
+			this.ahHTelAIuQfnkpT(e) &&
 				this.getDistanceSqToEntity(e) < 0.6 * t * 0.6 * t &&
-				e.attackEntityFrom(Fp.causeMobDamage(this), this.qvfiNwqpFneDWoIoP()) &&
+				e.attackEntityFrom(Fp.causeMobDamage(this), this.qulVYGsdGajhdJIWU()) &&
 				this.playSound(
 					`mob.attack`,
 					1,
@@ -100161,35 +100163,35 @@ var qNe = n(() => {
 		getEyeHeight() {
 			return 0.625 * this.height;
 		}
-		HRuxQQXZtMDoACp() {
-			return this.vQaMAiZUrfGt() > 1;
+		ENxdSNhPFXQjOdc() {
+			return this.LFcCJwiHdBxC() > 1;
 		}
-		qvfiNwqpFneDWoIoP() {
-			return this.vQaMAiZUrfGt();
+		qulVYGsdGajhdJIWU() {
+			return this.LFcCJwiHdBxC();
 		}
-		EegPBXTTFGqp() {
-			return `mob.slime.` + (this.vQaMAiZUrfGt() > 1 ? `big` : `small`);
+		iwBVpVDqhEXu() {
+			return `mob.slime.` + (this.LFcCJwiHdBxC() > 1 ? `big` : `small`);
 		}
-		DETQYMRBjKlAC() {
-			return `mob.slime.` + (this.vQaMAiZUrfGt() > 1 ? `big` : `small`);
+		BRsaqdAexQZfa() {
+			return `mob.slime.` + (this.LFcCJwiHdBxC() > 1 ? `big` : `small`);
 		}
-		jwbCSeaDpyl() {
-			return this.vQaMAiZUrfGt() == 1 ? z.slime_ball : null;
+		iZldsKnzaex() {
+			return this.LFcCJwiHdBxC() == 1 ? z.slime_ball : null;
 		}
 		getCanSpawnHere() {
 			return !1;
 		}
-		ZrtnMWShbTqWBt() {
-			return 0.4 * this.vQaMAiZUrfGt();
+		AGlduxQEquCMBA() {
+			return 0.4 * this.LFcCJwiHdBxC();
 		}
 		getVerticalFaceSpeed() {
 			return 0;
 		}
-		nZvobElXFZTVDMnO() {
-			return this.vQaMAiZUrfGt() > 0;
+		IEcWUlDcmZhvEtlp() {
+			return this.LFcCJwiHdBxC() > 0;
 		}
-		wJEVALWOEYPfKZeu() {
-			return this.vQaMAiZUrfGt() > 2;
+		akaMGHqbrYySmwmm() {
+			return this.LFcCJwiHdBxC() > 2;
 		}
 		jump() {
 			(this.motion.y = 0.41999998688697815), (this.isAirborne = !0);
@@ -100198,7 +100200,7 @@ var qNe = n(() => {
 			let n = rf(3);
 			n < 2 && Math.random() < 0.5 && ++n;
 			let r = 1 << n;
-			return this.nGRFaBUHiwqN(r), super.onInitialSpawn(e, t);
+			return this.YZwNKaDXDQUg(r), super.onInitialSpawn(e, t);
 		}
 	},
 	hPe = class extends _f {
@@ -100237,8 +100239,8 @@ var qNe = n(() => {
 						).toVec3(),
 					) >= e)
 					? this.theEntity
-							.JCSEGCSdOeaAD()
-							.BEctjWPED(
+							.sRYPUBoWLjBjn()
+							.XkMStaOoo(
 								this.targetPosition.getX(),
 								this.targetPosition.getY(),
 								this.targetPosition.getZ(),
@@ -100288,7 +100290,7 @@ var qNe = n(() => {
 		continueExecuting() {
 			return super.continueExecuting();
 		}
-		vMwvrtyqHbhHy(e) {
+		JLPWLiCBvdfQz(e) {
 			return 4 + e.width;
 		}
 	},
@@ -100315,10 +100317,10 @@ var qNe = n(() => {
 				this.targetTasks.addTask(1, new tY(this, !1)),
 				this.targetTasks.addTask(2, new _Pe(this, `player`));
 		}
-		WwgpWqQdPvrbRgFVb() {
+		qXGWIQOLALoeNGBXU() {
 			return this.height * 0.5;
 		}
-		nkgyQPKFljjmyzo(e) {
+		fvSglKnxdBMBboF(e) {
 			return new hPe(this, e);
 		}
 		entityInit() {
@@ -100327,13 +100329,13 @@ var qNe = n(() => {
 		update() {
 			super.update(),
 				this.world.isServer &&
-					this.ZQLmfwocdcqhiSNikblPwuy(this.isCollidedHorizontally);
+					this.RKwSPwuTTfgELYHhHNStkOb(this.isCollidedHorizontally);
 		}
 		applyEntityAttributes() {
 			super.applyEntityAttributes(),
 				this.applyBaseAttributes([
 					[Au.maxHealth, 16],
-					[Au.sLYAdepgIImgX, 0.30000001192092896],
+					[Au.NLOgYLKKWRvav, 0.30000001192092896],
 				]);
 		}
 		getSoundInfo() {
@@ -100343,21 +100345,21 @@ var qNe = n(() => {
 			super.dropFewItems(e, t), e && (rf(3) === 0 || rf(1 + t));
 		}
 		isOnLadder() {
-			return this.rFEaEToQWfiKaThLKlhgmd();
+			return this.KiobpiSCXhWQBRGhUTysts();
 		}
-		vLGHfJFy() {}
-		NsDKZjLdTWqxvOGyUIeC() {
+		RsTezoek() {}
+		RivMJdcElFMhslKhmgJh() {
 			return Td.ARTHROPOD;
 		}
-		TtMvvenQzACTOLcntL(e) {
+		XSRVUHnqjMLZzrceJY(e) {
 			return e.getPotionID() === Nd.poison.id
 				? !1
-				: super.TtMvvenQzACTOLcntL(e);
+				: super.XSRVUHnqjMLZzrceJY(e);
 		}
-		rFEaEToQWfiKaThLKlhgmd() {
+		KiobpiSCXhWQBRGhUTysts() {
 			return (this.dataWatcher.getWatchableObjectByte(16) & 1) != 0;
 		}
-		ZQLmfwocdcqhiSNikblPwuy(e) {
+		RKwSPwuTTfgELYHhHNStkOb(e) {
 			let t = this.dataWatcher.getWatchableObjectByte(16);
 			e ? (t |= 1) : (t &= -2), this.dataWatcher.updateObject(16, t);
 		}
@@ -100389,10 +100391,10 @@ var qNe = n(() => {
 				this.tasks.addTask(7, new Sp(this, 1)),
 				this.tasks.addTask(8, new Cp(this, `player`, 8)),
 				this.tasks.addTask(8, new _p(this)),
-				this.TjbDxeTDbPbTk(),
+				this.lDaKYMizCiAvf(),
 				this.setSize(0.6, 1.95);
 		}
-		TjbDxeTDbPbTk() {
+		lDaKYMizCiAvf() {
 			this.tasks.addTask(4, new eY(this, `villager`, 1, !0)),
 				this.tasks.addTask(4, new eY(this, `golem`, 1, !0)),
 				this.targetTasks.addTask(1, new tY(this, !0, `zombie_cowman`)),
@@ -100404,7 +100406,7 @@ var qNe = n(() => {
 			super.applyEntityAttributes(),
 				this.applyBaseAttributes([
 					[Au.followRange, 35],
-					[Au.sLYAdepgIImgX, 0.23],
+					[Au.NLOgYLKKWRvav, 0.23],
 					[Au.attackDamage, 3],
 				]);
 		}
@@ -100414,11 +100416,11 @@ var qNe = n(() => {
 				this.getDataWatcher().addObject(13, 0),
 				this.getDataWatcher().addObject(14, 0);
 		}
-		FAOnJyxeCXwWyplegV() {
-			let e = super.FAOnJyxeCXwWyplegV() + 2;
+		DPAhMatAClFRmOWJYO() {
+			let e = super.DPAhMatAClFRmOWJYO() + 2;
 			return e > 20 && (e = 20), e;
 		}
-		HjOqXRcLxGpJaAqswFJ(e) {
+		pnqPMGoUtduCDWAGSKM(e) {
 			this.isBreakDoorsTaskSet != e && (this.isBreakDoorsTaskSet = e);
 		}
 		isChild() {
@@ -100431,14 +100433,14 @@ var qNe = n(() => {
 				super.getExperiencePoints(e)
 			);
 		}
-		FPQhEAZCDd() {
+		XXaryDdwVx() {
 			return this.getDataWatcher().getWatchableObjectByte(13) == 1;
 		}
-		RbtmNekAuhP(e) {
+		QZcIvPgvXmC(e) {
 			this.getDataWatcher().updateObject(13, +!!e);
 		}
 		onLivingUpdate() {
-			this.PPHYhcpoCbpYJk(), super.onLivingUpdate();
+			this.aTZGHMKAvVoayY(), super.onLivingUpdate();
 		}
 		attackEntityFrom(e, t) {
 			if (super.attackEntityFrom(e, t)) {
@@ -100449,10 +100451,10 @@ var qNe = n(() => {
 			} else return !1;
 		}
 		update() {
-			if (this.world.isServer && this.liXbQvXQHZvq()) {
-				let e = this.zOFJeMmYjNiznNSfbhfpHj();
+			if (this.world.isServer && this.byqgiqKVvYwH()) {
+				let e = this.TeJfAoxKahvnNkzFdBPuqn();
 				(this.conversionTime -= e),
-					this.conversionTime <= 0 && this.lWsKJfJZcmrwyOGWY();
+					this.conversionTime <= 0 && this.qrLexLulqRSaAxDcr();
 			}
 			super.update();
 		}
@@ -100476,7 +100478,7 @@ var qNe = n(() => {
 				drop: z.rotten_flesh,
 			};
 		}
-		gPQHfMRdvoGgs() {
+		buNPTPFBASuxj() {
 			switch (rf(3)) {
 				case 0:
 					this.dropItem2(z.iron_ingot, 1);
@@ -100488,39 +100490,39 @@ var qNe = n(() => {
 					this.dropItem2(z.potato, 1);
 			}
 		}
-		MKHzIVGExuFS(e) {
-			super.MKHzIVGExuFS(e);
+		gkzufWPlADNe(e) {
+			super.gkzufWPlADNe(e);
 		}
 		getEyeHeight() {
 			let e = 1.74;
 			return this.isChild() && (e -= 0.81), e;
 		}
 		handleStatusUpdate(e) {
-			e == 16 ? this.aKqGvuzf() : super.handleStatusUpdate(e);
+			e == 16 ? this.GWtuhFWO() : super.handleStatusUpdate(e);
 		}
-		nwaEtQiMyU() {
-			return !this.liXbQvXQHZvq();
+		zCjQPsrbvW() {
+			return !this.byqgiqKVvYwH();
 		}
-		liXbQvXQHZvq() {
+		byqgiqKVvYwH() {
 			return this.getDataWatcher().getWatchableObjectByte(14) == 1;
 		}
-		lWsKJfJZcmrwyOGWY() {}
-		zOFJeMmYjNiznNSfbhfpHj() {
+		qrLexLulqRSaAxDcr() {}
+		TeJfAoxKahvnNkzFdBPuqn() {
 			return 1;
 		}
-		XPWtshhSnCRN(e) {
-			this.kySCwzOxMiuA(e ? 0.5 : 1);
+		DjpKtBEXpsXV(e) {
+			this.dtGsGCCBMLKz(e ? 0.5 : 1);
 		}
 		setSize(e, t) {
 			let n = this.zombieWidth > 0 && this.zombieHeight > 0;
 			(this.zombieWidth = e),
 				(this.zombieHeight = t),
-				n || this.kySCwzOxMiuA(1);
+				n || this.dtGsGCCBMLKz(1);
 		}
-		kySCwzOxMiuA(e) {
+		dtGsGCCBMLKz(e) {
 			super.setSize(this.zombieWidth * e, this.zombieHeight * e);
 		}
-		jMEYRGfRWd() {
+		LxOZNwUOEe() {
 			return this.isChild() ? 0 : -0.35;
 		}
 		onDeath(e) {
@@ -100578,15 +100580,15 @@ var oY = [
 				this.setCurrentItemOrArmor(0, new Vp(z.golden_sword)),
 				this.addPotionEffect(new jd(Nd.regeneration.id, 1e6, 2));
 		}
-		GNKDXFmwv() {
+		rJZnwjnCi() {
 			return this.getDataWatcher().getWatchableObjectByte(16) == 1;
 		}
-		BRQkdAlYQc(e) {
+		xIWAsMKRCZ(e) {
 			this.getDataWatcher().updateObject(16, +!!e);
 		}
-		qPJckzOuiOv() {
+		eFiobIdQkBg() {
 			(this.barterTimer = bPe),
-				this.BRQkdAlYQc(!0),
+				this.xIWAsMKRCZ(!0),
 				this.playSound(
 					`random.orb`,
 					0.6,
@@ -100597,7 +100599,7 @@ var oY = [
 			let t = e.inventory.getCurrentItem();
 			return t != null && t.getItem() == z.gold_ingot
 				? (this.world.isServer &&
-						!this.GNKDXFmwv() &&
+						!this.rJZnwjnCi() &&
 						(e.abilities.creative ||
 							(--t.stackSize <= 0 &&
 								e.inventory.setInventorySlotContents(
@@ -100605,15 +100607,15 @@ var oY = [
 									null,
 								),
 							e.world.updatePlayerInventory(e.id)),
-						this.qPJckzOuiOv()),
+						this.eFiobIdQkBg()),
 					!0)
 				: super.interact(e);
 		}
 		attackEntityAsMob(e) {
-			return this.GNKDXFmwv() ? !1 : super.attackEntityAsMob(e);
+			return this.rJZnwjnCi() ? !1 : super.attackEntityAsMob(e);
 		}
-		moEkTOMnSlsWwewBt() {
-			return this.GNKDXFmwv() || super.moEkTOMnSlsWwewBt();
+		wDLugPmngLAgTfDbD() {
+			return this.rJZnwjnCi() || super.wDLugPmngLAgTfDbD();
 		}
 		update() {
 			super.update(),
@@ -100621,23 +100623,23 @@ var oY = [
 					(this.barterTimer > 0
 						? --this.barterTimer <= 0 &&
 							((this.barterTimer = 0),
-							this.BRQkdAlYQc(!1),
-							this.BiYVJQhSlRemFbnu())
-						: this.ticksExisted % xPe == 0 && this.dyWdRDpQFPdTKCAU());
+							this.xIWAsMKRCZ(!1),
+							this.nwQvkjbWMzqpEQFK())
+						: this.ticksExisted % xPe == 0 && this.VaXKQVDHxXfHPOmh());
 		}
-		dyWdRDpQFPdTKCAU() {
+		VaXKQVDHxXfHPOmh() {
 			let e = this.getEntityBoundingBox().clone().expandByScalar(SPe);
 			for (let t of this.world.getEntitiesWithinAABB(null, e)) {
 				if (!(t instanceof Wd) || !t.isEntityAlive()) continue;
 				let e = t.getEntityItem();
 				if (!(e == null || e.getItem() != z.gold_ingot)) {
-					--e.stackSize <= 0 ? t.setDead() : t.nJjhmCLnrwIrzDMVJh(e),
-						this.qPJckzOuiOv();
+					--e.stackSize <= 0 ? t.setDead() : t.KrjuwItqiWAahpojyb(e),
+						this.eFiobIdQkBg();
 					return;
 				}
 			}
 		}
-		BiYVJQhSlRemFbnu() {
+		nwQvkjbWMzqpEQFK() {
 			let e = 0;
 			for (let t of oY) e += t.weight;
 			let t = rf(e),
@@ -100655,7 +100657,7 @@ var oY = [
 					((Math.random() - Math.random()) * 0.7 + 1) * 2,
 				);
 		}
-		gPQHfMRdvoGgs() {
+		buNPTPFBASuxj() {
 			switch (rf(3)) {
 				case 0:
 					this.dropItem2(z.gold_ingot, 1);
@@ -100677,7 +100679,7 @@ var oY = [
 				this.setMutexBits(3);
 		}
 		shouldExecute() {
-			let e = this.theWolf.lLNbpItx();
+			let e = this.theWolf.ViDNRKmC();
 			return e == null ||
 				e.isSpectator?.() ||
 				this.theWolf.isSitting() ||
@@ -100722,9 +100724,9 @@ var oY = [
 						.getNavigator()
 						.tryMoveToEntityLiving(e, this.moveSpeed) ||
 						(this.theWolf.getDistanceSqToEntity(e) >= 144 &&
-							this.iOATeMXszkTttga(e))));
+							this.VSowaFpgoIkSoIN(e))));
 		}
-		iOATeMXszkTttga(e) {
+		VSowaFpgoIkSoIN(e) {
 			let t = Math.floor(e.pos.x) - 2 + rf(5),
 				n = Math.floor(e.pos.y),
 				r = Math.floor(e.pos.z) - 2 + rf(5);
@@ -100747,18 +100749,18 @@ var oY = [
 		}
 		shouldExecute() {
 			if (!this.theWolf.isTamed()) return !1;
-			let e = this.theWolf.lLNbpItx();
+			let e = this.theWolf.ViDNRKmC();
 			return e == null
 				? !1
-				: ((this.theTarget = e.DQaccOjhxUu()),
-					e.QYQtwWCIXszbiMP() !== this.timestamp &&
-						this.zXRRYfSILfLhyecx(this.theTarget, !1) &&
-						this.theWolf.jHpAFiDpHACKyKVRYz(this.theTarget, e));
+				: ((this.theTarget = e.GpZVffwkakJ()),
+					e.LXMDPIBmwlcoHAs() !== this.timestamp &&
+						this.gDqXmSqbNJMsDHuk(this.theTarget, !1) &&
+						this.theWolf.XFpmCpAxsMDotCVUhW(this.theTarget, e));
 		}
 		startExecuting() {
 			this.taskOwner.setAttackTarget(this.theTarget);
-			let e = this.theWolf.lLNbpItx();
-			e != null && (this.timestamp = e.QYQtwWCIXszbiMP()),
+			let e = this.theWolf.ViDNRKmC();
+			e != null && (this.timestamp = e.LXMDPIBmwlcoHAs()),
 				super.startExecuting();
 		}
 	},
@@ -100771,18 +100773,18 @@ var oY = [
 		}
 		shouldExecute() {
 			if (!this.theWolf.isTamed()) return !1;
-			let e = this.theWolf.lLNbpItx();
+			let e = this.theWolf.ViDNRKmC();
 			return e == null
 				? !1
-				: ((this.theTarget = e.sXiykMfhDdVXQkZ()),
-					e.ekUKYRVyzoGKnTPShha() !== this.timestamp &&
-						this.zXRRYfSILfLhyecx(this.theTarget, !1) &&
-						this.theWolf.jHpAFiDpHACKyKVRYz(this.theTarget, e));
+				: ((this.theTarget = e.bxdRTeWSGqFVAfF()),
+					e.aSOfNxmPuAEwGyGXniy() !== this.timestamp &&
+						this.gDqXmSqbNJMsDHuk(this.theTarget, !1) &&
+						this.theWolf.XFpmCpAxsMDotCVUhW(this.theTarget, e));
 		}
 		startExecuting() {
 			this.taskOwner.setAttackTarget(this.theTarget);
-			let e = this.theWolf.lLNbpItx();
-			e != null && (this.timestamp = e.ekUKYRVyzoGKnTPShha()),
+			let e = this.theWolf.ViDNRKmC();
+			e != null && (this.timestamp = e.aSOfNxmPuAEwGyGXniy()),
 				super.startExecuting();
 		}
 	},
@@ -100804,12 +100806,12 @@ var oY = [
 		}
 		startExecuting() {
 			this.theEntity.getNavigator().clearPathEntity(),
-				this.theEntity.iFtWhhINOw(!0);
+				this.theEntity.sRNBIuuyeL(!0);
 		}
 		resetTask() {
-			this.theEntity.iFtWhhINOw(!1);
+			this.theEntity.sRNBIuuyeL(!1);
 		}
-		iFtWhhINOw(e) {
+		sRNBIuuyeL(e) {
 			this.isSittingFlag = e;
 		}
 	},
@@ -100835,40 +100837,40 @@ var oY = [
 		isTamed() {
 			return (this.dataWatcher.getWatchableObjectByte(16) & pY) !== 0;
 		}
-		xWDqwIpy(e) {
+		kYhoATRp(e) {
 			let t = this.dataWatcher.getWatchableObjectByte(16);
 			this.dataWatcher.updateObject(16, e ? t | pY : t & -5);
 		}
 		isSitting() {
 			return (this.dataWatcher.getWatchableObjectByte(16) & fY) !== 0;
 		}
-		iFtWhhINOw(e) {
+		sRNBIuuyeL(e) {
 			let t = this.dataWatcher.getWatchableObjectByte(16);
 			this.dataWatcher.updateObject(16, e ? t | fY : t & -2);
 		}
-		QKilnoeDWf() {
-			return this.dataWatcher.CprFqBszoeHwMtNHxkWSJkTH(17);
+		afzXzBdccS() {
+			return this.dataWatcher.DvNVuElyRwbtHpKWTEANZDRI(17);
 		}
-		SZKazLAwpc(e) {
+		sqhDtwDcKx(e) {
 			this.dataWatcher.updateObject(17, e);
 		}
 		isOwner(e) {
-			let t = this.QKilnoeDWf();
+			let t = this.afzXzBdccS();
 			return !!t && t === e.profile?.uuid;
 		}
-		lLNbpItx() {
-			let e = this.QKilnoeDWf();
+		ViDNRKmC() {
+			let e = this.afzXzBdccS();
 			if (!e) return null;
 			for (let t of this.world.playersIterator())
 				if (t.profile?.uuid === e) return t;
 			return null;
 		}
-		jHpAFiDpHACKyKVRYz(t, n) {
+		XFpmCpAxsMDotCVUhW(t, n) {
 			return !(
 				t == null ||
 				t === n ||
 				t.type === `creeper` ||
-				(t instanceof e && t.isTamed() && t.lLNbpItx() === n)
+				(t instanceof e && t.isTamed() && t.ViDNRKmC() === n)
 			);
 		}
 		attackEntityAsMob(e) {
@@ -100876,13 +100878,13 @@ var oY = [
 					this.getEntityAttribute(Au.attackDamage).getAttributeValue(),
 				),
 				n = e.attackEntityFrom(Fp.causeMobDamage(this), t);
-			return n && this.YvnoDnhywWNKOnBoF(this, e), n;
+			return n && this.AaFWgTytMswBObNqj(this, e), n;
 		}
 		attackEntityFrom(e, t) {
 			if (this.isEntityInvulnerable(e)) return !1;
 			let n = e.getEntity();
 			return (
-				this.aiSit.iFtWhhINOw(!1),
+				this.aiSit.sRNBIuuyeL(!1),
 				n != null &&
 					!(n instanceof Np) &&
 					!(n instanceof Rp) &&
@@ -100892,10 +100894,10 @@ var oY = [
 		}
 		handleStatusUpdate(e) {
 			e === 6 || e === 7
-				? this.XGxPKHBBffRLCM(e === 7)
+				? this.aeXXIMvjpeKPQU(e === 7)
 				: super.handleStatusUpdate(e);
 		}
-		XGxPKHBBffRLCM(e) {
+		aeXXIMvjpeKPQU(e) {
 			let t = e ? _u.HEART : _u.SMOKE_NORMAL;
 			for (let e = 0; e < 7; e++) {
 				let e = rd() * 0.02,
@@ -100914,15 +100916,15 @@ var oY = [
 		}
 		writeEntityToNBT(e) {
 			super.writeEntityToNBT(e),
-				(e.OwnerUUID = I.string(this.QKilnoeDWf() ?? ``)),
+				(e.OwnerUUID = I.string(this.afzXzBdccS() ?? ``)),
 				(e.Sitting = I.int(+!!this.isSitting()));
 		}
 		readEntityFromNBT(e) {
 			super.readEntityFromNBT(e);
 			let t = e.OwnerUUID;
-			t && (this.SZKazLAwpc(t), this.xWDqwIpy(!0));
+			t && (this.sqhDtwDcKx(t), this.kYhoATRp(!0));
 			let n = e.Sitting === 1;
-			this.aiSit.iFtWhhINOw(n), this.iFtWhhINOw(n);
+			this.aiSit.sRNBIuuyeL(n), this.sRNBIuuyeL(n);
 		}
 	},
 	wPe = 14,
@@ -100965,13 +100967,13 @@ var oY = [
 				this.targetTasks.addTask(2, new lY(this)),
 				this.targetTasks.addTask(3, new tY(this, !0)),
 				this.targetTasks.addTask(4, new dY(this, `rabbit`, !1)),
-				this.world.isServer && this.gQayCmMjxT(rf(_Y.length));
+				this.world.isServer && this.GCRudZQCxG(rf(_Y.length));
 		}
 		applyEntityAttributes() {
 			super.applyEntityAttributes(),
 				this.getAttributeMap().registerAttribute(Au.attackDamage),
 				this.applyBaseAttributes([
-					[Au.sLYAdepgIImgX, 0.3],
+					[Au.NLOgYLKKWRvav, 0.3],
 					[Au.maxHealth, 10],
 					[Au.attackDamage, 3],
 				]);
@@ -100981,26 +100983,26 @@ var oY = [
 				this.dataWatcher.addObject(hY, 0),
 				this.dataWatcher.addObject(gY, wPe);
 		}
-		btAycKlwjy() {
-			let e = this.dataWatcher.YJfZLGOonfmmAktuyJuka(hY);
+		SyiScxcjXw() {
+			let e = this.dataWatcher.eHjnaPmjMseFGhWmPFXjp(hY);
 			return e >= 0 && e < _Y.length ? e : 0;
 		}
-		gQayCmMjxT(e) {
+		GCRudZQCxG(e) {
 			this.dataWatcher.updateObject(hY, e);
 		}
-		NKVqseyOrlGIFs() {
+		JnoWzkQZXUbBpV() {
 			return this.dataWatcher.getWatchableObjectByte(gY) & 15;
 		}
-		imiBleYsOXuAxU(e) {
+		bJaOxZWuxxglYK(e) {
 			this.dataWatcher.updateObject(gY, e & 15);
 		}
-		uqPsOEqax(e) {
+		VLjniItcD(e) {
 			return e == null
 				? !1
 				: (vY.length === 0 && vY.push(z.cod, z.salmon), vY.includes(e));
 		}
 		isBreedingItem(e) {
-			return e != null && this.uqPsOEqax(e.getItem());
+			return e != null && this.VLjniItcD(e.getItem());
 		}
 		interact(e) {
 			let t = e.inventory.getCurrentItem();
@@ -101008,19 +101010,19 @@ var oY = [
 				this.isOwner(e) &&
 					!this.world.isClient &&
 					!this.isBreedingItem(t) &&
-					(this.aiSit.iFtWhhINOw(!this.isSitting()),
+					(this.aiSit.sRNBIuuyeL(!this.isSitting()),
 					this.setAttackTarget(null),
 					this.getNavigator().clearPathEntity());
-			else if (t != null && this.uqPsOEqax(t.getItem()))
+			else if (t != null && this.VLjniItcD(t.getItem()))
 				return (
-					this.twxVKpEsTsFoxnLemUlQ(e, t),
+					this.LNynYOCBxzMIeZAAgVcf(e, t),
 					this.world.isClient ||
 						(rf(3) === 0
-							? (this.xWDqwIpy(!0),
+							? (this.kYhoATRp(!0),
 								this.getNavigator().clearPathEntity(),
 								this.setAttackTarget(null),
-								this.aiSit.iFtWhhINOw(!0),
-								this.SZKazLAwpc(e.profile?.uuid ?? ``),
+								this.aiSit.sRNBIuuyeL(!0),
+								this.sqhDtwDcKx(e.profile?.uuid ?? ``),
 								this.world.setEntityState(this, 7))
 							: this.world.setEntityState(this, 6)),
 					!0
@@ -101029,18 +101031,18 @@ var oY = [
 		}
 		createChild(t) {
 			let n = new e(this.world);
-			n.gQayCmMjxT(this.btAycKlwjy());
-			let r = this.QKilnoeDWf();
-			return r && (n.SZKazLAwpc(r), n.xWDqwIpy(!0)), n;
+			n.GCRudZQCxG(this.SyiScxcjXw());
+			let r = this.afzXzBdccS();
+			return r && (n.sqhDtwDcKx(r), n.kYhoATRp(!0)), n;
 		}
-		GQqbfZaihIX(t) {
+		jtpZWsWkraW(t) {
 			if (t === this || !this.isTamed() || !(t instanceof e)) return !1;
 			let n = t;
 			return !n.isTamed() || n.isSitting()
 				? !1
-				: this.NKgqLXIT() && n.NKgqLXIT();
+				: this.xcqlzRuv() && n.xcqlzRuv();
 		}
-		PAquvlqVLZvZTe() {
+		nzoIAeHNdzKmjS() {
 			return this.isTamed() && rf(4) === 0 ? `mob.cat.purr` : `mob.cat.meow`;
 		}
 		getSoundInfo() {
@@ -101051,13 +101053,13 @@ var oY = [
 		}
 		writeEntityToNBT(e) {
 			super.writeEntityToNBT(e),
-				(e.CatType = I.int(this.btAycKlwjy())),
-				(e.CollarColor = I.int(this.NKVqseyOrlGIFs()));
+				(e.CatType = I.int(this.SyiScxcjXw())),
+				(e.CollarColor = I.int(this.JnoWzkQZXUbBpV()));
 		}
 		readEntityFromNBT(e) {
 			super.readEntityFromNBT(e),
-				e.CatType != null && this.gQayCmMjxT(e.CatType),
-				e.CollarColor != null && this.imiBleYsOXuAxU(e.CollarColor);
+				e.CatType != null && this.GCRudZQCxG(e.CatType),
+				e.CollarColor != null && this.bJaOxZWuxxglYK(e.CollarColor);
 		}
 	},
 	EPe = class e extends Dp {
@@ -101067,7 +101069,7 @@ var oY = [
 				(this.type = `cow`),
 				this.setSize(0.9, 1.3),
 				this.getNavigator().setAvoidsWater(!0),
-				this.dvZYjvjEDFbLlBbCXcKiM({
+				this.vaYoHynooxpBWBJnOTtwV({
 					panic: { priority: 1, speed: 2 },
 					mate: { priority: 2, speed: 1 },
 					tempt: { priority: 3, speed: 1.25, item: z.wheat },
@@ -101081,7 +101083,7 @@ var oY = [
 			super.applyEntityAttributes(),
 				this.applyBaseAttributes([
 					[Au.maxHealth, 10],
-					[Au.sLYAdepgIImgX, 0.2],
+					[Au.NLOgYLKKWRvav, 0.2],
 				]);
 		}
 		getSoundInfo() {
@@ -101157,7 +101159,7 @@ var oY = [
 		continueExecuting() {
 			return this.eatingGrassTimer > 0;
 		}
-		fMFJGWYChUADKqWoYTS() {
+		oBVmQTZiGDUphPRYeun() {
 			return this.eatingGrassTimer;
 		}
 		updateTask() {
@@ -101173,7 +101175,7 @@ var oY = [
 				(this.entityAIEatGrass = new DPe(this)),
 				this.setSize(0.9, 1.3),
 				this.getNavigator().setAvoidsWater(!0),
-				this.dvZYjvjEDFbLlBbCXcKiM({
+				this.vaYoHynooxpBWBJnOTtwV({
 					panic: { priority: 1, speed: 1.25 },
 					mate: { priority: 2, speed: 1 },
 					tempt: { priority: 3, speed: 1.1, item: z.wheat },
@@ -101184,9 +101186,9 @@ var oY = [
 					lookIdle: { priority: 8 },
 				});
 		}
-		qhINriaJuVcty() {
-			(this.sheepTimer = this.entityAIEatGrass.fMFJGWYChUADKqWoYTS()),
-				super.qhINriaJuVcty();
+		DJTXJcqQUoDAJ() {
+			(this.sheepTimer = this.entityAIEatGrass.oBVmQTZiGDUphPRYeun()),
+				super.DJTXJcqQUoDAJ();
 		}
 		onLivingUpdate() {
 			this.world.isClient &&
@@ -101197,14 +101199,14 @@ var oY = [
 			super.applyEntityAttributes(),
 				this.applyBaseAttributes([
 					[Au.maxHealth, 8],
-					[Au.sLYAdepgIImgX, 0.23],
+					[Au.NLOgYLKKWRvav, 0.23],
 				]);
 		}
 		entityInit() {
 			super.entityInit(), this.dataWatcher.addObject(16, 0);
 		}
 		dropFewItems(e, t) {
-			this.SqWvplFPcm() ||
+			this.etSOCCZlIe() ||
 				this.entityDropItem(new Vp(z.getItemByBlock(B.white_wool), 1), 0);
 			let n = rf(2) + 1 + rf(1 + t);
 			for (let e = 0; e < n; ++e)
@@ -101215,7 +101217,7 @@ var oY = [
 		handleStatusUpdate(e) {
 			e == 10 ? (this.sheepTimer = 40) : super.handleStatusUpdate(e);
 		}
-		iYhiIooGORwwxXeSMdiWx(e) {
+		zPVuCffsxaFgaUDbzcpZA(e) {
 			return this.sheepTimer <= 0
 				? 0
 				: this.sheepTimer >= 4 && this.sheepTimer <= 36
@@ -101224,7 +101226,7 @@ var oY = [
 						? (this.sheepTimer - e) / 4
 						: -(this.sheepTimer - 40 - e) / 4;
 		}
-		ZhHTwpwYcEvAeQjZkiwew(e) {
+		xTVFutwxcDMYsYRsvOefk(e) {
 			if (this.sheepTimer > 4 && this.sheepTimer <= 36) {
 				let t = (this.sheepTimer - 4 - e) / 32;
 				return Math.PI / 5 + ((Math.PI * 7) / 100) * Math.sin(t * 28.7);
@@ -101236,11 +101238,11 @@ var oY = [
 			if (
 				t != null &&
 				t.getItem() == z.shears &&
-				!this.SqWvplFPcm() &&
+				!this.etSOCCZlIe() &&
 				!this.isChild()
 			) {
 				if (!this.world.isClient) {
-					this.GSonfQuewo(!0);
+					this.YJXZVtztzf(!0);
 					let e = 1 + rf(3);
 					for (let t = 0; t < e; ++t) {
 						let e = this.entityDropItem(
@@ -101257,10 +101259,10 @@ var oY = [
 			return super.interact(e);
 		}
 		writeEntityToNBT(e) {
-			super.writeEntityToNBT(e), (e.Sheared = I.int(+!!this.SqWvplFPcm()));
+			super.writeEntityToNBT(e), (e.Sheared = I.int(+!!this.etSOCCZlIe()));
 		}
 		readEntityFromNBT(e) {
-			super.readEntityFromNBT(e), this.GSonfQuewo(e.Sheared);
+			super.readEntityFromNBT(e), this.YJXZVtztzf(e.Sheared);
 		}
 		getSoundInfo() {
 			return {
@@ -101271,10 +101273,10 @@ var oY = [
 				drop: z.getItemByBlock(B.white_wool),
 			};
 		}
-		SqWvplFPcm() {
+		etSOCCZlIe() {
 			return (this.dataWatcher.getWatchableObjectByte(16) & 16) != 0;
 		}
-		GSonfQuewo(e) {
+		YJXZVtztzf(e) {
 			let t = this.dataWatcher.getWatchableObjectByte(16);
 			e
 				? this.dataWatcher.updateObject(16, t | 16)
@@ -101283,8 +101285,8 @@ var oY = [
 		createChild(t) {
 			return new e(this.world);
 		}
-		BgJsSfRzMuqyK() {
-			this.GSonfQuewo(!1), this.isChild() && this.UFNFxRMRP(60);
+		IrwXUfcKRLKsM() {
+			this.YJXZVtztzf(!1), this.isChild() && this.MPKFdbkQy(60);
 		}
 		getEyeHeight() {
 			return 0.95 * this.height;
@@ -101304,7 +101306,7 @@ var oY = [
 					this.theWolf,
 					this.minPlayerDistance,
 				)),
-				this.player == null ? !1 : this.EfOfkNzfXVhRThxFGWfvlFT(this.player)
+				this.player == null ? !1 : this.yVEdsoVZfpqXhDnzlfWbbtj(this.player)
 			);
 		}
 		continueExecuting() {
@@ -101315,20 +101317,20 @@ var oY = [
 						this.minPlayerDistance * this.minPlayerDistance
 						? !1
 						: this.timeoutCounter > 0 &&
-							this.EfOfkNzfXVhRThxFGWfvlFT(this.player)
+							this.yVEdsoVZfpqXhDnzlfWbbtj(this.player)
 					: !1;
 		}
 		startExecuting() {
-			this.theWolf.oDtyMpKHEu(!0), (this.timeoutCounter = 40 + rf(40));
+			this.theWolf.ItTXYmpdHl(!0), (this.timeoutCounter = 40 + rf(40));
 		}
 		resetTask() {
-			this.theWolf.oDtyMpKHEu(!1), (this.player = null);
+			this.theWolf.ItTXYmpdHl(!1), (this.player = null);
 		}
 		updateTask() {
 			this.player != null &&
 				(this.theWolf
 					.getLookHelper()
-					.XwaJXnWDmagtdVl(
+					.LugaEOHfsPCOvcZ(
 						this.player.pos.x,
 						this.player.pos.y + this.player.getEyeHeight(),
 						this.player.pos.z,
@@ -101337,7 +101339,7 @@ var oY = [
 					),
 				--this.timeoutCounter);
 		}
-		EfOfkNzfXVhRThxFGWfvlFT(e) {
+		yVEdsoVZfpqXhDnzlfWbbtj(e) {
 			let t = e.getActiveItemStack();
 			return t == null
 				? !1
@@ -101380,7 +101382,7 @@ var oY = [
 			super.applyEntityAttributes(),
 				this.getAttributeMap().registerAttribute(Au.attackDamage),
 				this.applyBaseAttributes([
-					[Au.sLYAdepgIImgX, 0.3],
+					[Au.NLOgYLKKWRvav, 0.3],
 					[Au.maxHealth, 8],
 					[Au.attackDamage, 2],
 				]);
@@ -101391,31 +101393,31 @@ var oY = [
 				this.dataWatcher.addObject(bY, 0),
 				this.dataWatcher.addObject(xY, APe);
 		}
-		xWDqwIpy(e) {
-			super.xWDqwIpy(e),
+		kYhoATRp(e) {
+			super.kYhoATRp(e),
 				this.getEntityAttribute(Au.maxHealth)?.setBaseValue(e ? 20 : 8),
 				this.getEntityAttribute(Au.attackDamage)?.setBaseValue(e ? 4 : 2);
 		}
-		uxgdqLG() {
+		QosUvnI() {
 			return (this.dataWatcher.getWatchableObjectByte(16) & SY) !== 0;
 		}
-		RONxzjMT(e) {
+		bcmfebti(e) {
 			let t = this.dataWatcher.getWatchableObjectByte(16);
 			this.dataWatcher.updateObject(16, e ? t | SY : t & -3);
 		}
-		egBMASRAE() {
+		RbuvzzoZg() {
 			return this.dataWatcher.getWatchableObjectByte(bY) === 1;
 		}
-		oDtyMpKHEu(e) {
+		ItTXYmpdHl(e) {
 			this.dataWatcher.updateObject(bY, +!!e);
 		}
-		NKVqseyOrlGIFs() {
+		JnoWzkQZXUbBpV() {
 			return this.dataWatcher.getWatchableObjectByte(xY) & 15;
 		}
-		imiBleYsOXuAxU(e) {
+		bJaOxZWuxxglYK(e) {
 			this.dataWatcher.updateObject(xY, e & 15);
 		}
-		fnqlRnHMAs(e) {
+		HXGgJHZqoN(e) {
 			return e == null
 				? !1
 				: (CY.length === 0 &&
@@ -101435,34 +101437,34 @@ var oY = [
 					CY.includes(e));
 		}
 		isBreedingItem(e) {
-			return this.isTamed() && e != null && this.fnqlRnHMAs(e.getItem());
+			return this.isTamed() && e != null && this.HXGgJHZqoN(e.getItem());
 		}
 		interact(e) {
 			let t = e.inventory.getCurrentItem();
 			if (this.isTamed()) {
 				if (
 					t != null &&
-					this.fnqlRnHMAs(t.getItem()) &&
+					this.HXGgJHZqoN(t.getItem()) &&
 					this.getHealth() < this.getMaxHealth()
 				)
-					return this.twxVKpEsTsFoxnLemUlQ(e, t), this.heal(4), !0;
+					return this.LNynYOCBxzMIeZAAgVcf(e, t), this.heal(4), !0;
 				this.isOwner(e) &&
 					!this.world.isClient &&
 					!this.isBreedingItem(t) &&
-					(this.aiSit.iFtWhhINOw(!this.isSitting()),
+					(this.aiSit.sRNBIuuyeL(!this.isSitting()),
 					this.setAttackTarget(null),
 					this.getNavigator().clearPathEntity());
-			} else if (t != null && t.getItem() === z.bone && !this.uxgdqLG())
+			} else if (t != null && t.getItem() === z.bone && !this.QosUvnI())
 				return (
-					this.twxVKpEsTsFoxnLemUlQ(e, t),
+					this.LNynYOCBxzMIeZAAgVcf(e, t),
 					this.world.isClient ||
 						(rf(3) === 0
-							? (this.xWDqwIpy(!0),
+							? (this.kYhoATRp(!0),
 								this.getNavigator().clearPathEntity(),
 								this.setAttackTarget(null),
-								this.aiSit.iFtWhhINOw(!0),
+								this.aiSit.sRNBIuuyeL(!0),
 								this.setHealth(20),
-								this.SZKazLAwpc(e.profile?.uuid ?? ``),
+								this.sqhDtwDcKx(e.profile?.uuid ?? ``),
 								this.world.setEntityState(this, 7))
 							: this.world.setEntityState(this, 6)),
 					!0
@@ -101470,7 +101472,7 @@ var oY = [
 			return super.interact(e);
 		}
 		setAttackTarget(e) {
-			super.setAttackTarget(e), this.isTamed() || this.RONxzjMT(e != null);
+			super.setAttackTarget(e), this.isTamed() || this.bcmfebti(e != null);
 		}
 		onLivingUpdate() {
 			super.onLivingUpdate(),
@@ -101479,18 +101481,18 @@ var oY = [
 		}
 		createChild(t) {
 			let n = new e(this.world),
-				r = this.QKilnoeDWf();
-			return r && (n.SZKazLAwpc(r), n.xWDqwIpy(!0)), n;
+				r = this.afzXzBdccS();
+			return r && (n.sqhDtwDcKx(r), n.kYhoATRp(!0)), n;
 		}
-		GQqbfZaihIX(t) {
+		jtpZWsWkraW(t) {
 			if (t === this || !this.isTamed() || !(t instanceof e)) return !1;
 			let n = t;
 			return !n.isTamed() || n.isSitting()
 				? !1
-				: this.NKgqLXIT() && n.NKgqLXIT();
+				: this.xcqlzRuv() && n.xcqlzRuv();
 		}
-		PAquvlqVLZvZTe() {
-			return this.uxgdqLG()
+		nzoIAeHNdzKmjS() {
+			return this.QosUvnI()
 				? `mob.wolf.growl`
 				: rf(3) === 0
 					? this.isTamed() && this.dataWatcher.getWatchableObjectFloat(yY) < 10
@@ -101511,13 +101513,13 @@ var oY = [
 		}
 		writeEntityToNBT(e) {
 			super.writeEntityToNBT(e),
-				(e.Angry = I.int(+!!this.uxgdqLG())),
-				(e.CollarColor = I.int(this.NKVqseyOrlGIFs()));
+				(e.Angry = I.int(+!!this.QosUvnI())),
+				(e.CollarColor = I.int(this.JnoWzkQZXUbBpV()));
 		}
 		readEntityFromNBT(e) {
 			super.readEntityFromNBT(e),
-				this.RONxzjMT(e.Angry === 1),
-				e.CollarColor != null && this.imiBleYsOXuAxU(e.CollarColor);
+				this.bcmfebti(e.Angry === 1),
+				e.CollarColor != null && this.bJaOxZWuxxglYK(e.CollarColor);
 		}
 	};
 function MPe(e, t) {
@@ -101735,20 +101737,20 @@ var wY = new Set(),
 				e.REGISTRY.map((e) => [e.className, e.ctor]),
 			);
 		}
-		static QhuYeSQAJiusXkFYGUh() {
+		static HlBxzIUWvPQVlhvzCCa() {
 			let t = {};
 			for (let n of e.REGISTRY) n.clientSpawnable && (t[n.id] = n.ctor);
 			return t;
 		}
-		static htjaMwporalphC() {
+		static sAJDYFOoOfMltS() {
 			return e.REGISTRY.filter((e) => e.summonable).map((e) => e.summonName);
 		}
-		static cmXzSHyLxhMNxbngL() {
+		static ZiSJmAEboHkxLSqWp() {
 			let t = {};
 			for (let n of e.REGISTRY) n.scriptSpawnable && (t[n.summonName] = n.ctor);
 			return t;
 		}
-		static WUiTdhofGPQsHVZCW() {
+		static SZjilMDQBIcXCbolg() {
 			return e.REGISTRY.filter((e) => e.scriptSpawnable).map(
 				(e) => e.summonName,
 			);
@@ -101767,7 +101769,7 @@ var wY = new Set(),
 				throw Error(`Failed to create entity ${t} because of ${e}`);
 			}
 		}
-		static abPuHctzZjqlDFTrWSHBAFTWc(t, n) {
+		static HjDOucwoziNNtrKLcGMdImHZI(t, n) {
 			let r = t.replace(`Entity`, ``);
 			return e.createEntityByName(r, n);
 		}
@@ -101968,7 +101970,7 @@ var IPe = class e {
 			let e = this.cameraState,
 				t = this.game;
 			if (!e || !t) return;
-			let n = nz.hmcwVI,
+			let n = nz.bJScIm,
 				r = t.gameScene.camera;
 			e.writeLook(nz.yaw, nz.pitch),
 				e.writeFrame({
@@ -102228,7 +102230,7 @@ var IPe = class e {
 				(e.armorMesh.helmet = this.initArmorMesh(`head`)),
 				e.meshes.head.geometry.translate(0, 0.25, 0),
 				e.armorMesh.helmet.geometry.translate(0, 0.25, 0),
-				(e.headPivot = new Wn()),
+				(e.headPivot = new qn()),
 				e.headPivot.add(e.meshes.head, e.armorMesh.helmet),
 				(e.neck = new An()),
 				e.neck.add(e.headPivot),
@@ -102241,7 +102243,7 @@ var IPe = class e {
 				(e.armorMesh.chestplate = this.initArmorMesh(`torso`)),
 				(e.armorMesh.leggingsWaist = this.initArmorMesh(`leggingsWaist`)),
 				e.armorMesh.leggingsWaist.geometry.translate(0, -3.5 / 16, 0),
-				(e.torso = new Wn()),
+				(e.torso = new qn()),
 				e.torso.add(
 					e.meshes.torso,
 					e.armorMesh.chestplate,
@@ -102422,7 +102424,7 @@ var IPe = class e {
 				this.entity.setPosition(e.pos.x, e.pos.y, e.pos.z),
 				this.add(new KPe(this));
 		}
-		WzUQVlYDaMc() {
+		VbDbLDWDmxf() {
 			let e = this.entity,
 				t = e.getPartialTicks();
 			t < 0 ? (t = 0) : t > 1 && (t = 1),
@@ -102435,10 +102437,10 @@ var IPe = class e {
 			this.quaternion.setFromAxisAngle(Aq, e.prevYaw + n * t);
 		}
 		render() {
-			this.WzUQVlYDaMc();
+			this.VbDbLDWDmxf();
 		}
-		nhkitubQqkbCJOq() {
-			this.WzUQVlYDaMc();
+		yfDqwztjZkvYjpG() {
+			this.VbDbLDWDmxf();
 		}
 	},
 	JPe = class extends J {
@@ -102575,7 +102577,7 @@ var IPe = class e {
 		}
 	},
 	YPe = `cat.tabby`,
-	MY = new Jn(),
+	MY = new Qn(),
 	XPe = class extends kY {
 		collar;
 		bodyTilt;
@@ -102587,7 +102589,7 @@ var IPe = class e {
 				this.add(this.getModel()),
 				(this.collar = new jY(this)),
 				this.add(this.collar),
-				this.LPFtBqPYHixXgjruZutaI();
+				this.aOegOEsraGAEAPYwGDXgT();
 		}
 		getModel() {
 			return new JPe(this);
@@ -102596,12 +102598,12 @@ var IPe = class e {
 			super.recreate(),
 				(this.collar = new jY(this)),
 				this.add(this.collar),
-				this.LPFtBqPYHixXgjruZutaI();
+				this.aOegOEsraGAEAPYwGDXgT();
 		}
-		LPFtBqPYHixXgjruZutaI() {
-			this.variantMaterials = _Y.map((e) => this.wroYweaGuLQLQAf(`cat.${e}`));
+		aOegOEsraGAEAPYwGDXgT() {
+			this.variantMaterials = _Y.map((e) => this.qyBlZMMHYtASOdL(`cat.${e}`));
 		}
-		wroYweaGuLQLQAf(e) {
+		qyBlZMMHYtASOdL(e) {
 			let t = q.skinManager.getSkin(e)?.atlasMat;
 			return (
 				t && t.transparent && ((t.transparent = !1), (t.needsUpdate = !0)), t
@@ -102614,15 +102616,15 @@ var IPe = class e {
 			let e = this.skinnedRig[YPe];
 			if (e) {
 				let t =
-					this.variantMaterials[this.entity.btAycKlwjy()] ??
+					this.variantMaterials[this.entity.SyiScxcjXw()] ??
 					this.variantMaterials[0];
 				t && e.material !== t && (e.material = t);
 			}
 			let t = this.skinnedRig[`cat.cat_collar`];
 			t && (t.visible = this.entity.isTamed() && e?.visible !== !1),
-				this.VKuhBGGZZtZT(this.entity.isSitting());
+				this.bdzhvflmOOPF(this.entity.isSitting());
 		}
-		VKuhBGGZZtZT(e) {
+		bdzhvflmOOPF(e) {
 			let {
 				leftShoulder: t,
 				rightShoulder: n,
@@ -102922,7 +102924,7 @@ var IPe = class e {
 		}
 	},
 	nFe = class extends kY {
-		flashColor = new sr();
+		flashColor = new cr();
 		constructor(e) {
 			super(e), this.add(this.getModel());
 		}
@@ -102936,23 +102938,23 @@ var IPe = class e {
 		render() {
 			super.render();
 			let e = this.entity.getPartialTicks(),
-				t = this.entity.fGJddRuwwGAeCehaIjTViVii(e),
+				t = this.entity.SRXUSyIHXOZZrBbogTkaqjhS(e),
 				n = 1 + Math.sin(t * 100) * t * 0.01;
 			(t = (0, M.clamp)(t, 0, 1)), (t *= t), (t *= t);
 			let r = (1 + t * 0.4) * n,
 				i = (1 + t * 0.1) / n;
 			if (
 				(this.scale.set(r, i, r),
-				(t = this.entity.fGJddRuwwGAeCehaIjTViVii(e)),
+				(t = this.entity.SRXUSyIHXOZZrBbogTkaqjhS(e)),
 				t > 0)
 			) {
-				if ((0, M.toInteger)(t * 10) % 2 == 0) this.KlGHGQVKaZNzbTr(Nq);
+				if ((0, M.toInteger)(t * 10) % 2 == 0) this.oTIdJQlXbnalenR(Nq);
 				else {
 					let e = (0, M.toInteger)(t * 0.2 * 255);
 					(e = (0, M.clamp)(e, 0, 255)),
 						(e /= 16),
 						(e += 1),
-						this.KlGHGQVKaZNzbTr(this.flashColor.setRGB(e, e, e));
+						this.oTIdJQlXbnalenR(this.flashColor.setRGB(e, e, e));
 				}
 				this.prevHurtTint = null;
 			}
@@ -102991,15 +102993,15 @@ var IPe = class e {
 		camForward = new D();
 		constructor(e) {
 			super(e);
-			let t = new Wn(),
-				n = new Dn(new hn(PY, PY / 2, PY), new kn({ color: 13639712 }));
+			let t = new qn(),
+				n = new Dn(new or(PY, PY / 2, PY), new kn({ color: 13639712 }));
 			n.position.y = PY / 4;
-			let r = new Dn(new hn(PY, PY / 2, PY), new kn({ color: 15790320 }));
+			let r = new Dn(new or(PY, PY / 2, PY), new kn({ color: 15790320 }));
 			(r.position.y = -0.12 / 4), t.add(n, r), this.add(t);
-			let i = new Bn();
-			(this.linePositions = new Vn(new Float32Array(6), 3)),
+			let i = new Vn();
+			(this.linePositions = new Un(new Float32Array(6), 3)),
 				i.setAttribute(`position`, this.linePositions),
-				(this.line = new oee(i, new see({ color: 0 }))),
+				(this.line = new _n(i, new see({ color: 0 }))),
 				(this.line.frustumCulled = !1),
 				this.add(this.line);
 		}
@@ -103008,8 +103010,8 @@ var IPe = class e {
 			let e = this.entity.angler;
 			e &&
 				(e.id === Y.id && Y.perspective === Bq.Perspective.FIRST_PERSON
-					? this.wORyuDNEVgfMlK()
-					: (e.mesh instanceof Pq && e.mesh.nNEitQKYRXsRDn(this.handWorld)) ||
+					? this.NCwlrfBJtaeFFF()
+					: (e.mesh instanceof Pq && e.mesh.EMVkokHcyzUoCQ(this.handWorld)) ||
 						(this.handWorld.copy(e.mesh?.position ?? e.pos),
 						(this.handWorld.y += e.getEyeHeight() - 0.3)),
 				this.linePositions.setXYZ(0, 0, 0, 0),
@@ -103021,7 +103023,7 @@ var IPe = class e {
 				),
 				(this.linePositions.needsUpdate = !0));
 		}
-		wORyuDNEVgfMlK() {
+		NCwlrfBJtaeFFF() {
 			let e = $.gameScene.camera;
 			e.updateWorldMatrix(!0, !1);
 			let t = e.matrixWorld.elements;
@@ -103079,75 +103081,75 @@ var IPe = class e {
 		inner;
 		constructor(e) {
 			super(e),
-				(this.inner = new Wn()),
+				(this.inner = new qn()),
 				this.add(this.inner),
-				this.QFQlDTyEBu(e),
+				this.MgZkIYRSKh(e),
 				this.add(this.inner),
 				this.position.copy(e.pos);
 		}
-		QFQlDTyEBu(e) {
+		MgZkIYRSKh(e) {
 			let t = e.getEntityItem().stackSize,
 				n = e.getEntityItem().item;
 			n.isItemBlock() && n.block.getRenderType() == $d.TESR
-				? this.vzrdvUHwLDW()
+				? this.qXbCCQUrWLu()
 				: n instanceof sm
-					? (this.GcKFGqOEzOP(),
+					? (this.aUfPHLaREko(),
 						t > 1 &&
 							this.inner.children.length < 3 &&
-							this.GcKFGqOEzOP(0.2, -0.6, 0.8),
+							this.aUfPHLaREko(0.2, -0.6, 0.8),
 						t > 16 &&
 							this.inner.children.length < 4 &&
-							this.GcKFGqOEzOP(-0.1, -1, -0.8),
+							this.aUfPHLaREko(-0.1, -1, -0.8),
 						t > 32 &&
 							this.inner.children.length < 5 &&
-							this.GcKFGqOEzOP(0.5, 0.5, 1.6),
+							this.aUfPHLaREko(0.5, 0.5, 1.6),
 						t > 48 &&
 							this.inner.children.length < 6 &&
-							this.GcKFGqOEzOP(-0.6, 0.2, -1.6))
+							this.aUfPHLaREko(-0.6, 0.2, -1.6))
 					: e.getEntityItem().item.drawAsBlock()
-						? (this.jTVgshqMtGkJ(),
+						? (this.gxUAnTjBpnLC(),
 							t > 1 &&
 								this.inner.children.length < 3 &&
-								this.jTVgshqMtGkJ(1, 0.5, -1),
+								this.gxUAnTjBpnLC(1, 0.5, -1),
 							t > 16 &&
 								this.inner.children.length < 4 &&
-								this.jTVgshqMtGkJ(0.5, -0.5, 1),
+								this.gxUAnTjBpnLC(0.5, -0.5, 1),
 							t > 32 &&
 								this.inner.children.length < 5 &&
-								this.jTVgshqMtGkJ(-0.5, 1, 0.5),
+								this.gxUAnTjBpnLC(-0.5, 1, 0.5),
 							t > 48 &&
 								this.inner.children.length < 6 &&
-								this.jTVgshqMtGkJ(-1, -1, -0.5))
-						: (this.SmtZyBDUbdL(),
+								this.gxUAnTjBpnLC(-1, -1, -0.5))
+						: (this.hgwaSzzTQSt(),
 							t > 1 &&
 								this.inner.children.length < 3 &&
-								this.SmtZyBDUbdL(0.2, -0.6, 0.8),
+								this.hgwaSzzTQSt(0.2, -0.6, 0.8),
 							t > 16 &&
 								this.inner.children.length < 4 &&
-								this.SmtZyBDUbdL(-0.1, -1, -0.8),
+								this.hgwaSzzTQSt(-0.1, -1, -0.8),
 							t > 32 &&
 								this.inner.children.length < 5 &&
-								this.SmtZyBDUbdL(0.5, 0.5, 1.6),
+								this.hgwaSzzTQSt(0.5, 0.5, 1.6),
 							t > 48 &&
 								this.inner.children.length < 6 &&
-								this.SmtZyBDUbdL(-0.6, 0.2, -1.6));
+								this.hgwaSzzTQSt(-0.6, 0.2, -1.6));
 		}
-		vzrdvUHwLDW() {
+		qXbCCQUrWLu() {
 			let e = this.entity.getEntityItem().item,
 				t = CL.getTileEntityMesh(e.block);
 			t && (t.scale.setScalar(0.25), t.updateMatrix(), this.inner.add(t));
 		}
-		SmtZyBDUbdL(e = 0, t = 0, n = 0) {
+		hgwaSzzTQSt(e = 0, t = 0, n = 0) {
 			let r = this.entity.getEntityItem(),
 				i = new WI(r, 0.5, void 0, r.hasEffect());
 			i.position.sub(new D(e / 16, t / 16 - 0.25, n / 16)), this.inner.add(i);
 		}
-		jTVgshqMtGkJ(e = 0, t = 0, n = 0) {
+		gxUAnTjBpnLC(e = 0, t = 0, n = 0) {
 			let r = new WI(this.entity.getEntityItem(), 0.25);
 			r.position.sub(new D(e / 16 + 0.125, t / 16, n / 16 + 0.125)),
 				this.inner.add(r);
 		}
-		GcKFGqOEzOP(e = 0, t = 0, n = 0) {
+		aUfPHLaREko(e = 0, t = 0, n = 0) {
 			let r = this.entity.getEntityItem(),
 				i = new WI(r, 0.25, void 0, r.hasEffect());
 			i.position.sub(new D(e / 16, t / 16 - 0.125, n / 16)), this.inner.add(i);
@@ -103171,20 +103173,20 @@ var IPe = class e {
 		}
 	},
 	hFe = class extends Eq {
-		frameGroup = new Wn();
-		itemHolder = new Wn();
+		frameGroup = new qn();
+		itemHolder = new qn();
 		constructor(e) {
 			super(e),
 				this.frameGroup.add(new mFe()),
 				this.itemHolder.position.set(0, 0, 0.0825),
 				this.frameGroup.add(this.itemHolder),
 				this.add(this.frameGroup),
-				this.oKTlCZisYFkTUe(),
-				this.wngfmCifV(),
-				this.lSOqqyLnZuyS(0.75, 0.75),
+				this.NUaRgmdatKukDe(),
+				this.YFROrtQiW(),
+				this.jFjOIRLOeNCP(0.75, 0.75),
 				this.position.copy(e.pos);
 		}
-		oKTlCZisYFkTUe() {
+		NUaRgmdatKukDe() {
 			let e = this.entity.facingDirection;
 			e &&
 				(this.frameGroup.rotation.set(0, 0, 0),
@@ -103196,11 +103198,11 @@ var IPe = class e {
 							e.getFrontOffsetZ(),
 						)));
 		}
-		wngfmCifV() {
+		YFROrtQiW() {
 			this.itemHolder.clear(),
 				(this.itemHolder.rotation.z =
-					-this.entity.rTMxluacdcs() * (Math.PI / 4));
-			let e = this.entity.ijsUkmgMdamSpxwj();
+					-this.entity.XTngjGIuTWG() * (Math.PI / 4));
+			let e = this.entity.SuiTyGpikRmZRKKD();
 			if (e == null) return;
 			let t = e.item.isItemBlock() && e.item.drawAsBlock(),
 				n = t ? 0.4 : 0.5,
@@ -103208,7 +103210,7 @@ var IPe = class e {
 			t && r.position.set(-n / 2, -n / 2, -n / 2), this.itemHolder.add(r);
 		}
 		recreate() {
-			this.oKTlCZisYFkTUe(), this.wngfmCifV();
+			this.NUaRgmdatKukDe(), this.YFROrtQiW();
 		}
 	},
 	gFe = class extends J {
@@ -103245,7 +103247,7 @@ var IPe = class e {
 				this.entity.setPosition(e.pos.x, e.pos.y, e.pos.z),
 				this.add(new gFe(this));
 		}
-		WzUQVlYDaMc() {
+		VbDbLDWDmxf() {
 			let e = this.entity,
 				t = e.getPartialTicks();
 			t < 0 ? (t = 0) : t > 1 && (t = 1),
@@ -103284,7 +103286,7 @@ var IPe = class e {
 			super.assembleBody(e), e.body.add(e.neck);
 		}
 	},
-	FY = new Jn(),
+	FY = new Qn(),
 	xFe = class extends kY {
 		constructor(e) {
 			super(e), this.add(this.getModel());
@@ -103388,9 +103390,9 @@ var IPe = class e {
 			super.recreate(), (this.layer = new LY(this)), this.add(this.layer);
 		}
 		render() {
-			super.render(), this.smmiTPwXZQdlnRyKexSR(!this.entity.SqWvplFPcm());
+			super.render(), this.CJoCkurTJQUyNLvMRCfM(!this.entity.etSOCCZlIe());
 		}
-		smmiTPwXZQdlnRyKexSR(e) {
+		CJoCkurTJQUyNLvMRCfM(e) {
 			let t = this.skinnedRig[`sheep.sheep_fur`];
 			if (t) {
 				t.visible = e;
@@ -103434,7 +103436,7 @@ var IPe = class e {
 		}
 		addBodyParts(e) {
 			(e.meshes.body = this.initMesh(`body`)),
-				(e.meshes.body.position.y = e.entity.vQaMAiZUrfGt() / 4);
+				(e.meshes.body.position.y = e.entity.LFcCJwiHdBxC() / 4);
 		}
 		assembleBody(e) {
 			e.body.clear(), e.body.add(e.meshes.body), e.add(e.body);
@@ -103450,7 +103452,7 @@ var IPe = class e {
 		render() {
 			super.render();
 			let e = this.entity.getPartialTicks(),
-				t = this.entity.vQaMAiZUrfGt(),
+				t = this.entity.LFcCJwiHdBxC(),
 				n =
 					1 /
 					((this.entity.prevSquishFactor +
@@ -103528,7 +103530,7 @@ var IPe = class e {
 		addHead(e) {
 			(e.meshes.head = this.initMesh(`head`)),
 				e.meshes.head.position.set(0, 0, -6 / 16),
-				(e.headPivot = new Wn()),
+				(e.headPivot = new qn()),
 				e.headPivot.add(e.meshes.head),
 				(e.headPivot.position.z = -4 / 16),
 				(e.neck = new An()),
@@ -103621,8 +103623,8 @@ var IPe = class e {
 			(r.position.x -= 0.5), (r.position.z -= 0.5), this.add(r);
 		}
 	},
-	MFe = new sr(16777215),
-	NFe = new sr(0),
+	MFe = new cr(16777215),
+	NFe = new cr(0),
 	PFe = class extends Eq {
 		constructor(e) {
 			super(e);
@@ -103657,7 +103659,7 @@ var IPe = class e {
 		}
 		render() {
 			super.render(),
-				this.inner.lookAt(this.entity.thrower.FZWMxIeeOfUZpXIWGmNY());
+				this.inner.lookAt(this.entity.thrower.fXqgmjzyfHPqhECPgVsk());
 		}
 	},
 	FFe = class extends J {
@@ -103810,7 +103812,7 @@ var IPe = class e {
 				this.add(this.getModel()),
 				(this.collar = new zY(this)),
 				this.add(this.collar),
-				this.GGHjqNzBLcURyiADsS();
+				this.cdyQcwjrRBzlnKwzVD();
 		}
 		getModel() {
 			return new FFe(this);
@@ -103819,16 +103821,16 @@ var IPe = class e {
 			super.recreate(),
 				(this.collar = new zY(this)),
 				this.add(this.collar),
-				this.GGHjqNzBLcURyiADsS();
+				this.cdyQcwjrRBzlnKwzVD();
 		}
-		GGHjqNzBLcURyiADsS() {
+		cdyQcwjrRBzlnKwzVD() {
 			this.bodyMaterials = {
-				normal: this.wroYweaGuLQLQAf(`wolf`),
-				angry: this.wroYweaGuLQLQAf(`wolf.wolf_angry`),
-				tame: this.wroYweaGuLQLQAf(`wolf.wolf_tame`),
+				normal: this.qyBlZMMHYtASOdL(`wolf`),
+				angry: this.qyBlZMMHYtASOdL(`wolf.wolf_angry`),
+				tame: this.qyBlZMMHYtASOdL(`wolf.wolf_tame`),
 			};
 		}
-		wroYweaGuLQLQAf(e) {
+		qyBlZMMHYtASOdL(e) {
 			let t = q.skinManager.getSkin(e)?.atlasMat;
 			return (
 				t && t.transparent && ((t.transparent = !1), (t.needsUpdate = !0)), t
@@ -103840,16 +103842,16 @@ var IPe = class e {
 			if (e) {
 				let t = this.entity.isTamed()
 					? this.bodyMaterials.tame
-					: this.entity.uxgdqLG()
+					: this.entity.QosUvnI()
 						? this.bodyMaterials.angry
 						: this.bodyMaterials.normal;
 				t && e.material !== t && (e.material = t);
 			}
 			let t = this.skinnedRig[`wolf.wolf_collar`];
 			t && (t.visible = this.entity.isTamed() && e?.visible !== !1),
-				this.VKuhBGGZZtZT(this.entity.isSitting());
+				this.bdzhvflmOOPF(this.entity.isSitting());
 		}
-		VKuhBGGZZtZT(e) {
+		bdzhvflmOOPF(e) {
 			let {
 				leftShoulder: t,
 				rightShoulder: n,
@@ -103911,7 +103913,7 @@ var IPe = class e {
 		}
 		render() {
 			super.render();
-			let e = this.entity.GNKDXFmwv();
+			let e = this.entity.rJZnwjnCi();
 			e !== this.lastTrading &&
 				((this.lastTrading = e),
 				e
@@ -103925,12 +103927,12 @@ var IPe = class e {
 	BY = 16777215,
 	UFe = 4,
 	VY = new F(0, 0, 0),
-	HY = new _ee(),
+	HY = new hee(),
 	UY = new yn(),
 	WY = new yn(),
-	GY = new tr(),
+	GY = new zn(),
 	KY = new D(),
-	WFe = TY.QhuYeSQAJiusXkFYGUh();
+	WFe = TY.HlBxzIUWvPQVlhvzCCa();
 new D();
 var GFe = {
 		[Ud.ITEM]: pFe,
@@ -103967,29 +103969,29 @@ var GFe = {
 		_showHitboxes = !1;
 		hidePlayers = !1;
 		set debug(e) {
-			(this._debug = e), this.XCNwnrvcloQGAkXIpUHEJ();
+			(this._debug = e), this.nQfsTYfaIjlJwEIkytKHy();
 		}
 		get debug() {
 			return this._debug;
 		}
 		set showHitboxes(e) {
-			(this._showHitboxes = e), this.XCNwnrvcloQGAkXIpUHEJ();
+			(this._showHitboxes = e), this.nQfsTYfaIjlJwEIkytKHy();
 		}
 		get showHitboxes() {
 			return this._showHitboxes;
 		}
-		get TxewckKtEcbbvZo() {
+		get vfMbsoDGyzzKlVA() {
 			return this._debug || this._showHitboxes;
 		}
-		XCNwnrvcloQGAkXIpUHEJ() {
-			let e = this.TxewckKtEcbbvZo;
+		nQfsTYfaIjlJwEIkytKHy() {
+			let e = this.vfMbsoDGyzzKlVA;
 			$.world.entities.forEach((t) => {
 				t.mesh.debug = e;
 			});
 		}
-		UgmeThUFUnVlqB() {
-			if ((this.alwtsYqrbDPPZYtGYiWS(), kK.woCkMYVuxs(), OY.active)) {
-				$.world.entities.forEach((e) => e.mesh?.nhkitubQqkbCJOq());
+		voVZXTvhLqzFTi() {
+			if ((this.pSIGVDzaCgWVauUlFFOn(), kK.MwLvgKoAah(), OY.active)) {
+				$.world.entities.forEach((e) => e.mesh?.yfDqwztjZkvYjpG());
 				return;
 			}
 			let e = $.gameScene.camera;
@@ -103997,14 +103999,14 @@ var GFe = {
 				WY.copy(e.matrixWorld).invert(),
 				UY.multiplyMatrices(e.projectionMatrix, WY),
 				HY.setFromProjectionMatrix(UY),
-				Dq.woCkMYVuxs(),
+				Dq.MwLvgKoAah(),
 				$.world.entities.forEach((e) => {
 					let t = e.mesh;
 					if (!t) return;
 					if (e.id === Y.id) {
 						if ((t.render(), Y.perspective !== Bq.Perspective.FIRST_PERSON)) {
 							$I(t);
-							let e = this.wwjmBI(Y);
+							let e = this.xrFIrq(Y);
 							t.visible && e && kK.add(t, e.getColor() ?? BY, e.getAmplifier());
 						}
 						return;
@@ -104016,18 +104018,18 @@ var GFe = {
 							(GY.radius = n + 1),
 							!HY.intersectsSphere(GY))
 						) {
-							t.nhkitubQqkbCJOq();
+							t.yfDqwztjZkvYjpG();
 							return;
 						}
 					}
 					t.render(), $I(t);
-					let n = this.wwjmBI(e);
+					let n = this.xrFIrq(e);
 					t.visible && n && kK.add(t, n.getColor() ?? BY, n.getAmplifier());
 				}),
-				Dq.thMXzzoo();
+				Dq.DxUEPKXJ();
 			let t = $.gameScene.debugHitboxRenderer;
-			t.woCkMYVuxs(),
-				this.TxewckKtEcbbvZo &&
+			t.MwLvgKoAah(),
+				this.vfMbsoDGyzzKlVA &&
 					$.world.entities.forEach((e) => {
 						let n = e.mesh;
 						!n ||
@@ -104035,28 +104037,28 @@ var GFe = {
 							!n.debugVisible ||
 							(e.id === Y.id &&
 								Y.perspective === Bq.Perspective.FIRST_PERSON) ||
-							(e.id !== Y.id && e.vEpqdbbqBuXmkKSPCCa(Y)) ||
-							t.submit(n.position, n.NmpoCiyOAH, n.dOrugFJvtXx);
+							(e.id !== Y.id && e.oEEQBuQbNqtMNAHjAki(Y)) ||
+							t.submit(n.position, n.FXRAIENdgD, n.MtwXZwEDrUU);
 					}),
-				t.thMXzzoo();
+				t.DxUEPKXJ();
 		}
-		wwjmBI(e) {
+		xrFIrq(e) {
 			return !(e instanceof Fd) || !e.isPotionActive(Nd.glowing)
 				? null
 				: e.getActivePotionEffect(Nd.glowing);
 		}
-		alwtsYqrbDPPZYtGYiWS() {
+		pSIGVDzaCgWVauUlFFOn() {
 			$.gameScene.camera.getWorldPosition(KY),
 				q.beginHeldLights(KY.x, KY.y, KY.z),
 				E.dynamicLighting.value &&
 					E.lighting.value !== `Classic` &&
-					(this.OPHuCYjntNfgzo(Y),
+					(this.ebHcrCVHXKfOyI(Y),
 					$.world.entities.forEach((e) => {
-						e.id !== Y.id && this.OPHuCYjntNfgzo(e);
+						e.id !== Y.id && this.ebHcrCVHXKfOyI(e);
 					})),
 				q.commitHeldLights();
 		}
-		OPHuCYjntNfgzo(e) {
+		ebHcrCVHXKfOyI(e) {
 			if (!(e instanceof Fd)) return;
 			let t = e.getHeldItem();
 			if (!t) return;
@@ -104067,25 +104069,25 @@ var GFe = {
 		fixedUpdate() {
 			$.world.entities.forEach((e) => {
 				e.ticksExisted++,
-					!(e instanceof Np) && (e.mesh.visible = this.itbPUGtLIPjlfXysvr(e));
+					!(e instanceof Np) && (e.mesh.visible = this.YaRroxHqSxdnedyMFO(e));
 			});
 			let e = E.fastRender.value;
 			for (let t of $.world.playersIterator()) {
 				if (t.id == Y.id) continue;
-				let n = this.itbPUGtLIPjlfXysvr(t, !0),
-					r = n && t.vEpqdbbqBuXmkKSPCCa(Y);
-				(t.mesh.visible = n), t.mesh.wmtxjjNEqCNXilfvYM(r);
-				let i = !r && !e && !t.mesh.wTpEdsdxSry();
+				let n = this.YaRroxHqSxdnedyMFO(t, !0),
+					r = n && t.oEEQBuQbNqtMNAHjAki(Y);
+				(t.mesh.visible = n), t.mesh.cSBIVQSNuVgtNfSXed(r);
+				let i = !r && !e && !t.mesh.CzAAhBsKHbh();
 				t.mesh.hatMesh && (t.mesh.hatMesh.visible = i),
 					t.mesh.capeMesh && (t.mesh.capeMesh.visible = i && !t.isSpectator());
 			}
 		}
-		itbPUGtLIPjlfXysvr(e, t = !1) {
+		YaRroxHqSxdnedyMFO(e, t = !1) {
 			if (Y.id == e.id) return !0;
 			if (
 				this.hidePlayers ||
 				(VY.set(e.pos.x, e.pos.y, e.pos.z), !e.world.isBlockLoaded(VY)) ||
-				(!t && e.vEpqdbbqBuXmkKSPCCa(Y)) ||
+				(!t && e.oEEQBuQbNqtMNAHjAki(Y)) ||
 				(e instanceof Np && e.isSpectator() && !Y.isSpectator())
 			)
 				return !1;
@@ -104100,13 +104102,13 @@ var GFe = {
 		addEntity(e, t) {
 			let n = $.world.entities.get(e.id);
 			n && $.world.removeEntity(n);
-			let r = this.zDWrxbdgKfKB(e, t);
+			let r = this.nvcadOMYnorh(e, t);
 			r &&
 				(r.fromJSON(e),
-				(r.mesh = this.nHRnkQhmKE(r)),
+				(r.mesh = this.pDJFHAzWsd(r)),
 				$.world.spawnEntityInWorld(r));
 		}
-		zDWrxbdgKfKB(e, t) {
+		nvcadOMYnorh(e, t) {
 			let n = WFe[e.type];
 			if (n) return new n(t);
 			switch (e.type) {
@@ -104173,12 +104175,12 @@ var GFe = {
 					throw Error(`Unknown entity type ${e.type}`);
 			}
 		}
-		ZuzViubJSglayA() {
+		VtaPTBUsqpTNXK() {
 			$.world.entities.forEach((e) => {
 				e.id !== Y.id && e.mesh?.recreate();
 			});
 		}
-		nHRnkQhmKE(e) {
+		pDJFHAzWsd(e) {
 			let t = e.identifier,
 				n = GFe[t];
 			if (n) return new n(e);
@@ -104194,18 +104196,18 @@ var GFe = {
 				case Ud.POTION:
 					return new RY(e, e.potionDamage);
 				case Ud.PLAYER:
-					return this.QbezMCpYxBlOJGR(e);
+					return this.VWWHnPsugZGhtdA(e);
 				default:
 					return;
 			}
 		}
-		QbezMCpYxBlOJGR(e) {
+		VWWHnPsugZGhtdA(e) {
 			let t = new Lq(e);
 			return (
 				(e.mesh = t),
-				t.WPpKXceKZXKUFc(e.mode),
+				t.ZKnMGMebsLZfJq(e.mode),
 				t.updateArmor(),
-				t.HwaIASkkDqExI(),
+				t.BooqqkjIoSyvX(),
 				t
 			);
 		}
@@ -104222,9 +104224,9 @@ var GFe = {
 				}),
 				(t.profile.rank = e.rank ?? ``),
 				(t.profile.discordBoosting = e.discordBoosting ?? !1),
-				(t.mesh = this.QbezMCpYxBlOJGR(t)),
+				(t.mesh = this.VWWHnPsugZGhtdA(t)),
 				(t.effects = new WP($.world, t)),
-				(t.mesh.visible = this.itbPUGtLIPjlfXysvr(t)),
+				(t.mesh.visible = this.YaRroxHqSxdnedyMFO(t)),
 				$.world.addPlayer(t);
 		}
 	})(),
@@ -104766,7 +104768,7 @@ var EX = class e {
 		static tryExecuteClientside(t, n) {
 			let r = t.removeExtraSpaces().split(` `);
 			if (r[0] == `reload`)
-				return n.chunkRenderManager.reload(), qY.ZuzViubJSglayA(), !0;
+				return n.chunkRenderManager.reload(), qY.VtaPTBUsqpTNXK(), !0;
 			if (r[0] == `screenshot` || r[0] == `ss`) {
 				let e = r[1];
 				return (
@@ -105995,7 +105997,7 @@ var MX = new (class {
 						: t?.profile.username;
 			n && (e.name = n),
 				this.playerDataMap.set(e.id, e),
-				t && e.name && ((t.name = e.name), t.mesh.HwaIASkkDqExI()),
+				t && e.name && ((t.name = e.name), t.mesh.BooqqkjIoSyvX()),
 				e.uuid === this.game.player.profile.uuid
 					? (this.game.serverInfo.permissionLevel = e.permissionLevel)
 					: e.persistent &&
@@ -106696,7 +106698,7 @@ var MX = new (class {
 				if (
 					(this.options.interpolation.defaultVariables &&
 						(c = { ...this.options.interpolation.defaultVariables, ...c }),
-					(e = this.interpolator.WzUQVlYDaMc(
+					(e = this.interpolator.VbDbLDWDmxf(
 						e,
 						c,
 						n.lng || this.language || r.usedLng,
@@ -107417,7 +107419,7 @@ var MX = new (class {
 					`${this.nestingPrefix}(.+?)${this.nestingSuffix}`,
 				));
 		}
-		WzUQVlYDaMc(e, t, n, r) {
+		VbDbLDWDmxf(e, t, n, r) {
 			let i,
 				a,
 				o,
@@ -107515,7 +107517,7 @@ var MX = new (class {
 					if (e.indexOf(n) < 0) return e;
 					let r = e.split(RegExp(`${n}[ ]*{`)),
 						i = `{${r[1]}`;
-					(e = r[0]), (i = this.WzUQVlYDaMc(i, a));
+					(e = r[0]), (i = this.VbDbLDWDmxf(i, a));
 					let o = i.match(/'/g),
 						s = i.match(/"/g);
 					((o && o.length % 2 == 0 && !s) || s.length % 2 != 0) &&
@@ -108428,7 +108430,7 @@ var MX = new (class {
 				? `rtl`
 				: `ltr`;
 		}
-		static gnQaVtaOpCPTtO() {
+		static kVFGxdhqNmFukC() {
 			return new e(
 				arguments.length > 0 && arguments[0] !== void 0 ? arguments[0] : {},
 				arguments.length > 1 ? arguments[1] : void 0,
@@ -108478,9 +108480,9 @@ var MX = new (class {
 			};
 		}
 	},
-	sZ = oZ.gnQaVtaOpCPTtO();
-(sZ.gnQaVtaOpCPTtO = oZ.gnQaVtaOpCPTtO),
-	sZ.gnQaVtaOpCPTtO,
+	sZ = oZ.kVFGxdhqNmFukC();
+(sZ.kVFGxdhqNmFukC = oZ.kVFGxdhqNmFukC),
+	sZ.kVFGxdhqNmFukC,
 	sZ.dir,
 	sZ.init,
 	sZ.loadResources,
@@ -108894,7 +108896,7 @@ function aLe(e, t, n, r, i, a) {
 				i.children &&
 				i.children[0] &&
 				i.children[0].content &&
-				n.services.interpolator.WzUQVlYDaMc(
+				n.services.interpolator.VbDbLDWDmxf(
 					i.children[0].content,
 					d,
 					n.language,
@@ -108912,7 +108914,7 @@ function aLe(e, t, n, r, i, a) {
 						!!e &&
 						Object.hasOwnProperty.call(e, i.name);
 				if (typeof g == `string`) {
-					let e = n.services.interpolator.WzUQVlYDaMc(g, d, n.language);
+					let e = n.services.interpolator.VbDbLDWDmxf(g, d, n.language);
 					t.push(e);
 				} else if (xZ(g) || v) p(g, f(g, i, c), t, u);
 				else if (y) p(g, m(l, i.children, c), t, u);
@@ -108940,9 +108942,9 @@ function aLe(e, t, n, r, i, a) {
 				let e = r.transWrapTextNodes,
 					o = a
 						? r.unescape(
-								n.services.interpolator.WzUQVlYDaMc(i.content, d, n.language),
+								n.services.interpolator.VbDbLDWDmxf(i.content, d, n.language),
 							)
-						: n.services.interpolator.WzUQVlYDaMc(i.content, d, n.language);
+						: n.services.interpolator.VbDbLDWDmxf(i.content, d, n.language);
 				e
 					? t.push((0, j.createElement)(e, { key: `${i.name}-${u}` }, o))
 					: t.push(o);
@@ -109772,17 +109774,17 @@ var uLe = r({
 		social: VZ,
 	},
 	dLe = Object.assign({
-		"./locales/de.json": () => yH(() => import(`./de-BhTJ-zMN.js`), []),
+		"./locales/de.json": () => yH(() => import(`./de-gRqvUWaT.js`), []),
 		"./locales/en.json": () =>
 			yH(() => Promise.resolve().then(() => uLe), void 0),
-		"./locales/es.json": () => yH(() => import(`./es-ChtI-dBj.js`), []),
-		"./locales/fr.json": () => yH(() => import(`./fr-BxmpJjcY.js`), []),
-		"./locales/ja.json": () => yH(() => import(`./ja-H7g4GnlU.js`), []),
-		"./locales/ko.json": () => yH(() => import(`./ko-CCMt4lre.js`), []),
-		"./locales/pt-BR.json": () => yH(() => import(`./pt-BR-ByAmXUcM.js`), []),
-		"./locales/ru.json": () => yH(() => import(`./ru-DkYwCDHv.js`), []),
-		"./locales/tr.json": () => yH(() => import(`./tr-Ieeltid4.js`), []),
-		"./locales/zh-CN.json": () => yH(() => import(`./zh-CN-Df9X9nWu.js`), []),
+		"./locales/es.json": () => yH(() => import(`./es-ytmStomy.js`), []),
+		"./locales/fr.json": () => yH(() => import(`./fr-B_jatahx.js`), []),
+		"./locales/ja.json": () => yH(() => import(`./ja-k42eFeHF.js`), []),
+		"./locales/ko.json": () => yH(() => import(`./ko-4zS3RLT2.js`), []),
+		"./locales/pt-BR.json": () => yH(() => import(`./pt-BR-DFLRSKsR.js`), []),
+		"./locales/ru.json": () => yH(() => import(`./ru-CzJd__38.js`), []),
+		"./locales/tr.json": () => yH(() => import(`./tr-XzAal1LB.js`), []),
+		"./locales/zh-CN.json": () => yH(() => import(`./zh-CN-Cd5JQRAK.js`), []),
 	});
 sZ.use(sLe).init({
 	lng: `en`,
@@ -109851,7 +109853,7 @@ var pLe = 300 * 1e3,
 			this.inFlight = !0;
 			try {
 				let { default: e } = await yH(async () => {
-					let { default: e } = await import(`./fp.esm-BBBNtG1G.js`);
+					let { default: e } = await import(`./fp.esm-bPTjoWo3.js`);
 					return { default: e };
 				}, []);
 				window.__fpjs_d_m = !0;
@@ -110513,36 +110515,36 @@ var ZZ = 64,
 				side: 2,
 			})),
 				(this.inner = new Dn(
-					this.IyLbMhxrK(e.EvhvxEykasVhuA()),
+					this.lWjiwFBNO(e.unmSDHhPKBbPAy()),
 					this.orbMaterial,
 				)),
 				(this.inner.position.y = eQ),
 				this.add(this.inner);
 		}
-		IyLbMhxrK(e) {
+		lWjiwFBNO(e) {
 			let t = e % $Z,
 				n = Math.floor(e / $Z),
 				r = (t * QZ) / ZZ,
 				i = (t * QZ + QZ) / ZZ,
 				a = 1 - (n * QZ) / ZZ,
 				o = 1 - (n * QZ + QZ) / ZZ,
-				s = new Bn();
+				s = new Vn();
 			return (
 				s.setAttribute(
 					`position`,
-					new _n([-0.25, -0.25, 0, eQ, -0.25, 0, eQ, eQ, 0, -0.25, eQ, 0], 3),
+					new gn([-0.25, -0.25, 0, eQ, -0.25, 0, eQ, eQ, 0, -0.25, eQ, 0], 3),
 				),
-				s.setAttribute(`uv`, new _n([r, o, i, o, i, a, r, a], 2)),
+				s.setAttribute(`uv`, new gn([r, o, i, o, i, a, r, a], 2)),
 				s.setAttribute(
 					`normal`,
-					new _n([0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1], 3),
+					new gn([0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1], 3),
 				),
 				s.setIndex([0, 1, 2, 0, 2, 3]),
 				s
 			);
 		}
 		render() {
-			super.render(), this.inner.lookAt(Y.FZWMxIeeOfUZpXIWGmNY());
+			super.render(), this.inner.lookAt(Y.fXqgmjzyfHPqhECPgVsk());
 			let e = (this.entity.xpColor + this.entity.getPartialTicks()) / 2;
 			(this.orbMaterial.color.r = (Math.sin(e) + 1) * 0.5),
 				(this.orbMaterial.color.g = 1),
@@ -110557,7 +110559,7 @@ var ZZ = 64,
 			let t = new Nn(this.canvas);
 			(t.minFilter = jn), (t.magFilter = jn);
 			let n = new vn({ map: t, side: 0, transparent: !0, alphaTest: 0.5 }),
-				r = new fn(5, 6 * 0.25);
+				r = new Bn(5, 6 * 0.25);
 			(this.textMesh = new Dn(r, n)),
 				this.add(this.textMesh),
 				this.textMesh.rotateY(Math.PI);
@@ -111461,13 +111463,13 @@ var nQ = [1, -1, 0, 0, 0, 0],
 			let n = this.chunkTileEntityMap.get(e) ?? null;
 			return n == null && t && (n = this.createNewTileEntity(e)), n;
 		}
-		DgJUkkIIWMg() {
+		OataORtJGcv() {
 			(this.isChunkLoaded = !0),
 				this.world.addTileEntities(
 					Array.from(this.chunkTileEntityMap.values()),
 				);
 			for (let e = 0; e < this.entityLists.length; ++e) {
-				for (let t of this.entityLists[e]) t.DgJUkkIIWMg();
+				for (let t of this.entityLists[e]) t.OataORtJGcv();
 				this.world.loadEntities(this.entityLists[e]);
 			}
 		}
@@ -111744,7 +111746,7 @@ var nQ = [1, -1, 0, 0, 0, 0],
 		}
 		addTileEntity(e, t) {}
 		removeTileEntity(e) {}
-		DgJUkkIIWMg() {}
+		OataORtJGcv() {}
 		onChunkUnload() {}
 		getEntitiesWithinAABBForEntity(e, t, n, r) {}
 		isEmpty() {
@@ -112145,7 +112147,7 @@ Reason: the server has crashed`)
 		}),
 		pK.on(`CPacketTabComplete`, (t) => e.chat.autoCompleteReceived(t)),
 		pK.on(`CPacketPlayerReconciliation`, (t) => {
-			e.player.KxIjRswuJWdrZCsMBmQndCv(t);
+			e.player.NirVxybnQFFAgHwVkyRFchM(t);
 		}),
 		pK.on(`CPacketRespawn`, async (t) => {
 			t.client
@@ -112179,16 +112181,16 @@ Reason: the server has crashed`)
 			let n = t.data.map((e) => xd.fromProto(e));
 			if (Y.id === t.id)
 				for (let e of n)
-					e.dHseuQsfGPZXvG() === 0 &&
+					e.lpjkeDTsaPgRFq() === 0 &&
 						typeof e.getObject() == `number` &&
-						e.XkTwRYxSN((e.getObject() & -9) | (Y.isSprinting() ? 8 : 0));
+						e.xqVbPbVZK((e.getObject() & -9) | (Y.isSprinting() ? 8 : 0));
 			let r = e.world.entities.get(t.id);
 			if (r != null && t.data != null)
-				r.getDataWatcher().impFdgdcCyXjffQdcYxadSXqdMxJ(n);
+				r.getDataWatcher().AJAirNZtwlYaJJVUgsLpgTrUNQkQ(n);
 			else
 				for (let r of e.world.entitySpawnQueue)
-					r.id == t.id && r.getDataWatcher().impFdgdcCyXjffQdcYxadSXqdMxJ(n);
-			Y.id === t.id && Y.getDataWatcher().impFdgdcCyXjffQdcYxadSXqdMxJ(n);
+					r.id == t.id && r.getDataWatcher().AJAirNZtwlYaJJVUgsLpgTrUNQkQ(n);
+			Y.id === t.id && Y.getDataWatcher().AJAirNZtwlYaJJVUgsLpgTrUNQkQ(n);
 		}),
 		pK.on(`CPacketSoundEffect`, (e) => {
 			bt.play(
@@ -112293,7 +112295,7 @@ Reason: the server has crashed`)
 				Y.displayGUIChest(t), (Y.openContainer.windowId = e.windowId);
 			} else if (e.guiID === `invsee`) {
 				let t = new op(e.title ?? `Inventory`, e.size ?? 36);
-				Y.eceWkecvxySNy(t), (Y.openContainer.windowId = e.windowId);
+				Y.aLQjHqUoOuBHa(t), (Y.openContainer.windowId = e.windowId);
 			} else if (e.guiID === `villager`) Y.openContainer.windowId = e.windowId;
 			else if (!e.size)
 				Y.displayGui(new TLe(e.guiID, e.title)),
@@ -112304,7 +112306,7 @@ Reason: the server has crashed`)
 			}
 		}),
 		pK.on(`CPacketCloseWindow`, (e) => {
-			Y.AHehdVgSsCenrLQPYKidSeN();
+			Y.sQacinaBOCQSGYNAHruSgRM();
 		}),
 		pK.on(`CPacketWindowProperty`, (t) => {
 			t.varIndex == null ||
@@ -112322,7 +112324,7 @@ Reason: the server has crashed`)
 		}),
 		pK.on(`CPacketConfirmTransaction`, (t) => {
 			let n = null;
-			if (t.windowId == 0) (n = Y.inventoryContainer), Y.SXxonIgFUocGsZ();
+			if (t.windowId == 0) (n = Y.inventoryContainer), Y.hjEcvwRRonZIor();
 			else if (t.windowId == Y.openContainer.windowId) {
 				n = Y.openContainer;
 				for (let t of n.inventorySlots)
@@ -112389,12 +112391,12 @@ Reason: the server has crashed`)
 			if (n != null) {
 				if (t.mode != null) {
 					let e = hp.fromId(t.mode);
-					n.mesh.WPpKXceKZXKUFc(e), t.id == Y.id && Y.setGamemode(e);
+					n.mesh.ZKnMGMebsLZfJq(e), t.id == Y.id && Y.setGamemode(e);
 				}
 				t.rank != null && (n.profile.rank = t.rank),
 					t.color !== void 0 && (n.profile.cosmetics.color = t.color),
 					t.hidePlayers != null && (qY.hidePlayers = t.hidePlayers),
-					n.mesh.HwaIASkkDqExI();
+					n.mesh.BooqqkjIoSyvX();
 			}
 		}),
 		pK.on(`CPacketEntityPositionAndRotation`, (t) => {
@@ -112436,10 +112438,10 @@ Reason: the server has crashed`)
 		pK.on(`CPacketEntityVelocity`, (t) => {
 			let n = e.world.entities.get(t.id);
 			n != null &&
-				(n.qMeUKdITVHb(t.motion.x, t.motion.y, t.motion.z),
+				(n.YMTjSHdjIzp(t.motion.x, t.motion.y, t.motion.z),
 				n.id == Y.id &&
-					(Y.qMeUKdITVHb(t.motion.x, t.motion.y, t.motion.z),
-					e.player.ANtKoyvfOhEosgLKINIbgL()));
+					(Y.YMTjSHdjIzp(t.motion.x, t.motion.y, t.motion.z),
+					e.player.TWHhquEJGAPNnNAtgRcUMx()));
 		}),
 		pK.on(`CPacketEntityAction`, (t) => {
 			let n = e.world.getPlayerById(t.id);
@@ -112597,7 +112599,7 @@ Reason: the server has crashed`)
 				(t.type == 0 ||
 					t.type == 1 ||
 					(t.type == 2
-						? (Y.MAhQXfNxmnrx(!1, !1, !1), iq.displayGuiScreen(null))
+						? (Y.kptskKFCSEyB(!1, !1, !1), iq.displayGuiScreen(null))
 						: t.type == 4
 							? e.gameScene.effectRenderer.emitParticleAtEntity(
 									e.world,
@@ -112616,7 +112618,7 @@ Reason: the server has crashed`)
 				((Y.motion.x += t.playerPos.x ?? 0),
 				(Y.motion.y += t.playerPos.y ?? 0),
 				(Y.motion.z += t.playerPos.z ?? 0),
-				e.player.ANtKoyvfOhEosgLKINIbgL());
+				e.player.TWHhquEJGAPNnNAtgRcUMx());
 		}),
 		pK.on(`CPacketChangeServers`, (t) => {
 			t.url != null &&
@@ -112659,7 +112661,7 @@ Reason: the server has crashed`)
 		pK.on(`CPacketUseBed`, (e) => {
 			if (!(e.id == null || e.bedPos == null) && e.id === Y.id) {
 				let t = F.fromProto(e.bedPos);
-				Y.XnmdqmwH(t), iq.displayGuiScreen(new NLe());
+				Y.QHKEYtlx(t), iq.displayGuiScreen(new NLe());
 			}
 		}),
 		pK.on(`CPacketQueueNext`, (t) => {
@@ -112688,7 +112690,7 @@ Reason: the server has crashed`)
 			t.experience == null ||
 				t.experienceTotal == null ||
 				t.level == null ||
-				(Y.HqGrGoaZgd(t.experience, t.experienceTotal, t.level),
+				(Y.uVsrIQsPNs(t.experience, t.experienceTotal, t.level),
 				(e.info.xp = {
 					experience: t.experience,
 					experienceTotal: t.experienceTotal,
@@ -112723,10 +112725,10 @@ Reason: the server has crashed`)
 				i = Y.id == t.id,
 				a = Fd.sprintingSpeedBoostModifier.getName();
 			for (let e of t.data) {
-				let t = r.rMcHswwhfhyoKlIAUomzhwfXpu(e.id);
+				let t = r.KaUOqZlYGoVzSJFLkOgfmuQFdt(e.id);
 				(t ??= r.registerAttribute(new ku(null, e.id, 0, 0, Number.MAX_VALUE))),
 					t.setBaseValue(e.value),
-					t.LozIVdjqsHAKluWLdi();
+					t.UafVCDcWlSosJlXnCo();
 				let n = i && e.id == `generic.movementSpeed`;
 				for (let r of e.modifiers) {
 					if (n && r.id == a) continue;
@@ -112766,7 +112768,7 @@ Reason: the server has crashed`)
 				Y.id == n.id && (r = Y),
 				r &&
 					r instanceof Fd &&
-					(r.MEiGKhxZkGGagjhsPEjLjIrU(n.effectId),
+					(r.wKpKbuqdSWWrWFpeYRKwdBiw(n.effectId),
 					r.activePotionsMap.size === 0 && clearInterval(t),
 					(e.info.effectsUpdate += 1));
 		}),
@@ -112826,13 +112828,13 @@ Reason: the server has crashed`)
 						? ((n = Y),
 							r instanceof wm
 								? (Y.ridingEntity !== r && e.info.boatExitHintNonce++,
-									r.STCZTtTjmHUGou(!1))
+									r.TwUtbgKKgfpKvu(!1))
 								: Y.ridingEntity instanceof wm &&
-									Y.ridingEntity.STCZTtTjmHUGou(!0),
+									Y.ridingEntity.TwUtbgKKgfpKvu(!0),
 							Y.ridingEntity instanceof Fm &&
-								Y.ridingEntity.tYekocPxgSiWsvRSO(!1),
-							r instanceof Fm && r.tYekocPxgSiWsvRSO(!0))
-						: r instanceof wm && r.STCZTtTjmHUGou(!0),
+								Y.ridingEntity.TeWAvtlowgalMKqxz(!1),
+							r instanceof Fm && r.TeWAvtlowgalMKqxz(!0))
+						: r instanceof wm && r.TwUtbgKKgfpKvu(!0),
 					n == null)
 				)
 					return;
@@ -113803,7 +113805,7 @@ var kQ = i((e, t) => {
 						return d.current.isEnabled(e);
 					},
 					x = function (e) {
-						return d.current.btAycKlwjy(e);
+						return d.current.SyiScxcjXw(e);
 					},
 					S = function (e, t, n) {
 						return d.current.on(e, t, n);
@@ -113814,7 +113816,7 @@ var kQ = i((e, t) => {
 								on: S,
 								updateContext: y,
 								isEnabled: b,
-								btAycKlwjy: x,
+								SyiScxcjXw: x,
 								client: d.current,
 								flagsReady: p,
 								flagsError: g,
@@ -113879,7 +113881,7 @@ var kQ = i((e, t) => {
 			},
 			d = function (e) {
 				var t = (0, i.useContext)(a),
-					n = t.btAycKlwjy,
+					n = t.SyiScxcjXw,
 					r = t.client,
 					o = (0, i.useState)(n(e)),
 					s = o[0],
@@ -122503,8 +122505,8 @@ var VBe = ({ dayLabel: e, reward: t, state: n, onClaim: r }) => {
 	c2 = 2e3,
 	WBe = new (class {
 		renderer = null;
-		scene = new Yn();
-		camera = new Cn(40, 1, 0.01, 100);
+		scene = new er();
+		camera = new fn(40, 1, 0.01, 100);
 		cache = {};
 		size = 128;
 		init() {
@@ -122512,7 +122514,7 @@ var VBe = ({ dayLabel: e, reward: t, state: n, onClaim: r }) => {
 			let e = document.createElement(`canvas`);
 			(e.width = this.size),
 				(e.height = this.size),
-				(this.renderer = new er({
+				(this.renderer = new tr({
 					canvas: e,
 					alpha: !0,
 					antialias: !0,
@@ -122520,24 +122522,24 @@ var VBe = ({ dayLabel: e, reward: t, state: n, onClaim: r }) => {
 				})),
 				this.renderer.setClearColor(0, 0),
 				(this.renderer.outputColorSpace = lr),
-				this.scene.add(new zn(16777215, 2.2));
-			let t = new mn(16777215, 1.1);
+				this.scene.add(new Rn(16777215, 2.2));
+			let t = new pn(16777215, 1.1);
 			t.position.set(1, 1.5, 2), this.scene.add(t);
 		}
 		async render(e) {
 			if (!e || e === `none`) return null;
 			if (this.cache[e]) return this.cache[e];
 			try {
-				let t = await q.CanOkGmTQlp.getModel(e);
+				let t = await q.iNbbweYjLpo.getModel(e);
 				if (!t) return null;
 				this.init();
 				let n = this.renderer;
 				if (!n) return null;
 				let r = t.clone(!0),
-					i = new ir().setFromObject(r),
+					i = new Cn().setFromObject(r),
 					a = new D();
 				i.getCenter(a), r.position.sub(a);
-				let o = new tr();
+				let o = new zn();
 				i.getBoundingSphere(o);
 				let s = o.radius || 0.5;
 				this.scene.add(r);
@@ -122561,7 +122563,7 @@ var VBe = ({ dayLabel: e, reward: t, state: n, onClaim: r }) => {
 		size = 1;
 		scale = { setScalar: (e) => void (this.size = e) };
 		position = new D();
-		material = { map: null, color: new sr(1, 1, 1) };
+		material = { map: null, color: new cr(1, 1, 1) };
 		constructor(e) {
 			this.material.map = e;
 		}
@@ -122725,7 +122727,7 @@ var VBe = ({ dayLabel: e, reward: t, state: n, onClaim: r }) => {
 		nextTextureIndexX() {
 			++this.particleTextureIndexX;
 		}
-		LLsuvlQBBJzmvGvuy() {
+		QSRWULacmykRNpuCz() {
 			return !1;
 		}
 	},
@@ -123666,18 +123668,18 @@ var aVe = 2048,
 			if (!e) return !1;
 			this.allocate(aVe);
 			let t = new uee();
-			t.setAttribute(`position`, new Vn(oVe, 3)),
-				t.setAttribute(`uv`, new Vn(sVe, 2)),
-				t.setIndex(new Vn(cVe, 1)),
+			t.setAttribute(`position`, new Un(oVe, 3)),
+				t.setAttribute(`uv`, new Un(sVe, 2)),
+				t.setIndex(new Un(cVe, 1)),
 				t.setAttribute(`aOffset`, this.aOffset),
 				t.setAttribute(`aScale`, this.aScale),
 				t.setAttribute(`aColor`, this.aColor),
 				t.setAttribute(`aUV`, this.aUV),
 				(t.instanceCount = 0),
-				(t.boundingSphere = new tr(new D(), 1 / 0));
+				(t.boundingSphere = new zn(new D(), 1 / 0));
 			let n = new Dn(
 				t,
-				new $n({
+				new Ln({
 					uniforms: {
 						uAtlas: { value: e },
 						uHeldLightCount: { value: 0 },
@@ -123712,10 +123714,10 @@ var aVe = 2048,
 				(this.scales = new Float32Array(e)),
 				(this.colors = new Float32Array(e * 3)),
 				(this.uvs = new Float32Array(e * 4)),
-				(this.aOffset = new Sn(this.offsets, 3).setUsage(rr)),
-				(this.aScale = new Sn(this.scales, 1).setUsage(rr)),
-				(this.aColor = new Sn(this.colors, 3).setUsage(rr)),
-				(this.aUV = new Sn(this.uvs, 4).setUsage(rr));
+				(this.aOffset = new Sn(this.offsets, 3).setUsage(ar)),
+				(this.aScale = new Sn(this.scales, 1).setUsage(ar)),
+				(this.aColor = new Sn(this.colors, 3).setUsage(ar)),
+				(this.aUV = new Sn(this.uvs, 4).setUsage(ar));
 		}
 		grow() {
 			let e = Math.min(this.capacity * 2, x2);
@@ -123842,10 +123844,10 @@ var mVe = class {
 				(this.colors = new Uint8Array(e * 4)),
 				(this.indices = new Uint32Array(Math.floor(e / 4) * 6)),
 				pVe(this.indices, e),
-				(this.posAttr = new Vn(this.positions, 3).setUsage(rr)),
-				(this.normAttr = new Vn(this.normals, 3).setUsage(rr)),
-				(this.uvAttr = new Vn(this.uvs, 2).setUsage(rr)),
-				(this.colAttr = new Vn(this.colors, 4).setUsage(rr)),
+				(this.posAttr = new Un(this.positions, 3).setUsage(ar)),
+				(this.normAttr = new Un(this.normals, 3).setUsage(ar)),
+				(this.uvAttr = new Un(this.uvs, 2).setUsage(ar)),
+				(this.colAttr = new Un(this.colors, 4).setUsage(ar)),
 				(this.colAttr.normalized = !0);
 		}
 		ensureMesh() {
@@ -123853,14 +123855,14 @@ var mVe = class {
 			let e = q.materialTransparent;
 			if (!e || !e.map) return !1;
 			this.allocate(fVe);
-			let t = new Bn();
+			let t = new Vn();
 			t.setAttribute(`position`, this.posAttr),
 				t.setAttribute(`normal`, this.normAttr),
 				t.setAttribute(`uv`, this.uvAttr),
 				t.setAttribute(`color`, this.colAttr),
-				t.setIndex(new Vn(this.indices, 1)),
+				t.setIndex(new Un(this.indices, 1)),
 				t.setDrawRange(0, 0),
-				(t.boundingSphere = new tr(new D(), 1 / 0));
+				(t.boundingSphere = new zn(new D(), 1 / 0));
 			let n = new Dn(t, e);
 			return (
 				(n.frustumCulled = !1),
@@ -123895,7 +123897,7 @@ var mVe = class {
 					this.geometry.setAttribute(`normal`, this.normAttr),
 					this.geometry.setAttribute(`uv`, this.uvAttr),
 					this.geometry.setAttribute(`color`, this.colAttr),
-					this.geometry.setIndex(new Vn(this.indices, 1))),
+					this.geometry.setIndex(new Un(this.indices, 1))),
 				!0
 			);
 		}
@@ -124211,7 +124213,7 @@ var mVe = class {
 		display = o2.SKIN;
 		running = !1;
 		previewElytra = !1;
-		positionOnScreen = new cr();
+		positionOnScreen = new In();
 		fakePlayer;
 		constructor(e, t) {
 			let n = new GR(`account3d`, ``, new lQ($, e, 0));
@@ -124265,7 +124267,7 @@ var mVe = class {
 					(this.headPivot.rotation.x = 0);
 				return;
 			}
-			let t = new cr(0, 0);
+			let t = new In(0, 0);
 			Q.isMobile ||
 				(t.set($R.x, $R.y).sub(this.positionOnScreen),
 				(t.x /= SR.width),
@@ -124280,11 +124282,11 @@ var mVe = class {
 	hVe = 500,
 	gVe = 0.22,
 	T2 = class {
-		scene = new Yn();
-		entityMeshes = new Wn();
+		scene = new er();
+		entityMeshes = new qn();
 		effectRenderer = new C2(this.entityMeshes, !0);
 		accountRenderer;
-		camera = new Cn(90, 1);
+		camera = new fn(90, 1);
 		defaultProfile;
 		guiPlayer;
 		offscreen = null;
@@ -124299,7 +124301,7 @@ var mVe = class {
 		lastEffectTickTime = 0;
 		trailScroll = 0;
 		constructor(e) {
-			this.scene.add(new zn(`white`, 2.5)),
+			this.scene.add(new Rn(`white`, 2.5)),
 				this.scene.add(this.entityMeshes),
 				(e ??= new zR()),
 				(this.defaultProfile = e.copy()),
@@ -124340,7 +124342,7 @@ var mVe = class {
 				i === 0 ||
 				((e.width = e.clientWidth),
 				(e.height = e.clientHeight),
-				(this.accountRenderer = new er({ alpha: !0, canvas: e })),
+				(this.accountRenderer = new tr({ alpha: !0, canvas: e })),
 				this.accountRenderer.setPixelRatio(window.devicePixelRatio),
 				(this.accountRenderer.outputColorSpace = lr),
 				(this.camera.aspect = r / i),
@@ -124375,7 +124377,7 @@ var mVe = class {
 			(e.limbSwing = 0),
 				(e.limbSwingAmount = 0),
 				(e.prevLimbSwingAmount = 0),
-				e.kDtEjGr(3, !1),
+				e.eskGpoT(3, !1),
 				(this.guiPlayer.running = this.isPreviewingTrail()),
 				this.guiPlayer.running && e.pos.copy(w2.TRAIL_RUN_POS);
 		}
@@ -124428,7 +124430,7 @@ var mVe = class {
 		ensureOffscreenRenderer() {
 			this.accountRenderer ??
 				((this.offscreen = document.createElement(`canvas`)),
-				(this.accountRenderer = new er({
+				(this.accountRenderer = new tr({
 					alpha: !0,
 					canvas: this.offscreen,
 					preserveDrawingBuffer: !0,
@@ -124518,7 +124520,7 @@ var mVe = class {
 				w2.TRAIL_RUN_POS.y,
 				w2.TRAIL_RUN_POS.z - this.trailScroll,
 			),
-				e.kDtEjGr(3, !0),
+				e.eskGpoT(3, !0),
 				(e.prevLimbSwingAmount = e.limbSwingAmount),
 				(e.limbSwingAmount += (1 - e.limbSwingAmount) * 0.4),
 				(e.limbSwing += e.limbSwingAmount),
@@ -124588,7 +124590,7 @@ var wVe = new (class {
 		try {
 			let e = document.createElement(`canvas`);
 			(e.width = O2), (e.height = O2);
-			let t = new er({
+			let t = new tr({
 				canvas: e,
 				alpha: !0,
 				antialias: !0,
@@ -124716,12 +124718,12 @@ var k2 = new Map(),
 async function AVe(e) {
 	if (!e || e === `none`) return null;
 	if (F2[e]) return F2[e];
-	q.skinManager.fiEeSug(e) || (await q.skinManager.gcdEdqvjFXBw(e));
-	let t = q.skinManager.oImOvPA(e),
+	q.skinManager.VpeFNLh(e) || (await q.skinManager.xZgKwjGymbmJ(e));
+	let t = q.skinManager.zwqfBJb(e),
 		n = t?.atlas?.image;
 	if (!n) return null;
 	let r = t.ratio || 1,
-		i = t.compact ? null : lI.CfSDYZoIZaLPTo(t).cape,
+		i = t.compact ? null : lI.uCpAqkHIzPaQxz(t).cape,
 		a = i ? i.x : 1 * r,
 		o = i ? i.y : 1 * r,
 		s = i ? i.w : 10 * r,
@@ -129860,7 +129862,7 @@ var C3 = ({ skin: e, uuid: t, size: n = `32px` }) => {
 	aUe = `/textures/lootchest/0001.webp`,
 	oUe = H0(() =>
 		yH(
-			() => import(`./AccountAvatarHead-DawLyifC.js`),
+			() => import(`./AccountAvatarHead-DpELHEsd.js`),
 			__vite__mapDeps([3, 1, 4, 0]),
 		),
 	);
@@ -139863,9 +139865,10 @@ function T8() {
 var E8 = 8,
 	D8 = `Trending`,
 	O8 = [`0.78rem`, `0.85rem`],
-	k8 = [D8, `Most Players`, `Newest`, `A → Z`],
+	k8 = [D8, `Most Players`, `Most Played`, `Newest`, `A → Z`],
 	PGe = {
 		"Most Players": (e, t) => t.playerCount - e.playerCount,
+		"Most Played": (e, t) => (t.plays ?? 0) - (e.plays ?? 0),
 		Newest: (e, t) => (t.timeAllocated ?? 0) - (e.timeAllocated ?? 0),
 		"A → Z": (e, t) => (e.worldName ?? ``).localeCompare(t.worldName ?? ``),
 	};
@@ -154379,29 +154382,29 @@ var P9 = ({ label: e, count: t }) =>
 	},
 	V9 = H0(() =>
 		yH(
-			() => import(`./GuiHud-DClbABeu.js`),
+			() => import(`./GuiHud-BI7vl3va.js`),
 			__vite__mapDeps([5, 1, 4, 0, 6, 7]),
 		),
 	),
 	sYe = H0(() =>
 		yH(
-			() => import(`./ReferralInvite-CALFfopx.js`),
+			() => import(`./ReferralInvite-BB_FLHUE.js`),
 			__vite__mapDeps([8, 1, 4, 0]),
 		),
 	),
 	cYe = H0(() => yH(() => Promise.resolve().then(() => BRe), void 0)),
 	lYe = H0(() =>
-		yH(() => import(`./EULA-EJgOr6ox.js`), __vite__mapDeps([9, 1, 4, 0])),
+		yH(() => import(`./EULA-CmmGnACm.js`), __vite__mapDeps([9, 1, 4, 0])),
 	),
 	uYe = H0(() =>
-		yH(() => import(`./Privacy-DC6nS6fT.js`), __vite__mapDeps([10, 1, 4, 0])),
+		yH(() => import(`./Privacy-BeiwnO7R.js`), __vite__mapDeps([10, 1, 4, 0])),
 	),
 	dYe = H0(() => yH(() => Promise.resolve().then(() => OBe), void 0)),
 	fYe = H0(() =>
-		yH(() => import(`./Rules-C6KTtS0l.js`), __vite__mapDeps([11, 1, 4, 0])),
+		yH(() => import(`./Rules-DpmGr-XY.js`), __vite__mapDeps([11, 1, 4, 0])),
 	),
 	pYe = H0(() =>
-		yH(() => import(`./Tutorial-BCD_1ElJ.js`), __vite__mapDeps([12, 1, 4, 0])),
+		yH(() => import(`./Tutorial-CSlrbzyZ.js`), __vite__mapDeps([12, 1, 4, 0])),
 	),
 	mYe = () => {
 		rz.useMountHooks();
@@ -155379,7 +155382,7 @@ var Q = class e {
 				(Y.game = this),
 				(this.bootPromise ||= yH(
 					async () => {
-						let { bootEngine: e } = await import(`./bootEngine-DoGhQtlc.js`);
+						let { bootEngine: e } = await import(`./bootEngine-D6yaOrXa.js`);
 						return { bootEngine: e };
 					},
 					__vite__mapDeps([13, 1, 0, 6]),
@@ -155572,8 +155575,8 @@ var Q = class e {
 					this.pumpFixedUpdates();
 				let r = Math.min(this.tickAccumulator / 50, 1),
 					i = performance.now();
-				SH.measure(`frame`, `player.update`, () => Y.etvoyTDmWjKO(this.delta)),
-					SH.measure(`frame`, `entities.render`, () => qY.UgmeThUFUnVlqB()),
+				SH.measure(`frame`, `player.update`, () => Y.EttJHzwKSZxX(this.delta)),
+					SH.measure(`frame`, `entities.render`, () => qY.voVZXTvhLqzFTi()),
 					OY.active ||
 						(SH.measure(`frame`, `tileEntities.render`, () =>
 							this.gameScene.tileEntityRenderer.renderTileEntities(),
@@ -156480,4 +156483,4 @@ export {
 	W as zr,
 	x$ as zt,
 };
-//# sourceMappingURL=index-B375XA5q.js.map
+//# sourceMappingURL=index-CKlHcXnY.js.map
