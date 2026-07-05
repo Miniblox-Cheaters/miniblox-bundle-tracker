@@ -3,20 +3,20 @@ const __vite__mapDeps = (
 	m = __vite__mapDeps,
 	d = m.f ||
 		(m.f = [
-			"assets/OptionsManager-ChSO_Hp-.js",
-			"assets/rolldown-runtime-mcp7jSCV.js",
-			"assets/output-Brq5AOr2.js",
-			"assets/AccountAvatarHead-CDWAagRJ.js",
-			"assets/dist-CSXNypUn.js",
-			"assets/GuiHud-B80w_t_X.js",
-			"assets/three-BNCcVoCF.js",
-			"assets/gamedata-D2D6S8mh.js",
-			"assets/ReferralInvite-DfQd9FyF.js",
-			"assets/EULA-DeqPZFqt.js",
-			"assets/Privacy-D_c6HSwq.js",
-			"assets/Rules-Cxk6D3AI.js",
-			"assets/Tutorial-COi09SQh.js",
-			"assets/bootEngine-UWpvi0RR.js",
+			"assets/OptionsManager-5s1SAfJR.js",
+			"assets/rolldown-runtime-Dvpnu9NL.js",
+			"assets/output-6A_SdrST.js",
+			"assets/AccountAvatarHead-BGgPcXIZ.js",
+			"assets/dist-DrQ3jAHw.js",
+			"assets/GuiHud-C4C1elaS.js",
+			"assets/three-DYMSHzdZ.js",
+			"assets/gamedata-CpMjvboN.js",
+			"assets/ReferralInvite-CFgTe_h2.js",
+			"assets/EULA-Cx55bOH0.js",
+			"assets/Privacy-DqtNmBIm.js",
+			"assets/Rules-HmcqSO-D.js",
+			"assets/Tutorial-Cf1-EccK.js",
+			"assets/bootEngine-F677_3Xt.js",
 		]),
 ) => i.map((i) => d[i]);
 (function () {
@@ -31,15 +31,15 @@ const __vite__mapDeps = (
 						: typeof self < `u`
 							? self
 							: {};
-		e.SENTRY_RELEASE = { id: `3.46.48` };
+		e.SENTRY_RELEASE = { id: `3.46.51` };
 		var t = new e.Error().stack;
 		t &&
 			((e._sentryDebugIds = e._sentryDebugIds || {}),
-			(e._sentryDebugIds[t] = `e076aebb-990d-4003-9b02-21eabaaf590e`),
-			(e._sentryDebugIdIdentifier = `sentry-dbid-e076aebb-990d-4003-9b02-21eabaaf590e`));
+			(e._sentryDebugIds[t] = `07ed973d-39ac-41be-8acf-27b410c14657`),
+			(e._sentryDebugIdIdentifier = `sentry-dbid-07ed973d-39ac-41be-8acf-27b410c14657`));
 	} catch {}
 })();
-import { a as e, i as t, n, r, t as i } from "./rolldown-runtime-mcp7jSCV.js";
+import { a as e, i as t, n, r, t as i } from "./rolldown-runtime-Dvpnu9NL.js";
 import {
 	A as a,
 	C as o,
@@ -71,7 +71,7 @@ import {
 	w as ae,
 	x as oe,
 	y as se,
-} from "./OptionsManager-ChSO_Hp-.js";
+} from "./OptionsManager-5s1SAfJR.js";
 import {
 	$ as ce,
 	$t as le,
@@ -170,34 +170,34 @@ import {
 	s as Jt,
 	st as Yt,
 	t as Xt,
-	tn as eee,
-	tt as tee,
-	u as Zt,
-	ut as nee,
-	v as Qt,
-	vt as $t,
-	w as en,
-	wt as ree,
-	x as tn,
-	xt as nn,
-	y as rn,
-	yt as an,
-	z as on,
-	zt as sn,
-} from "./dist-CSXNypUn.js";
+	tn as Zt,
+	tt as eee,
+	u as Qt,
+	ut as tee,
+	v as $t,
+	vt as en,
+	w as tn,
+	wt as nee,
+	x as nn,
+	xt as rn,
+	y as an,
+	yt as on,
+	z as sn,
+	zt as cn,
+} from "./dist-DrQ3jAHw.js";
 import {
-	a as cn,
-	i as iee,
-	n as ln,
-	r as un,
-	t as dn,
-} from "./gamedata-D2D6S8mh.js";
+	a as ln,
+	i as ree,
+	n as un,
+	r as dn,
+	t as fn,
+} from "./gamedata-CpMjvboN.js";
 import {
-	$ as fn,
-	A as pn,
+	$ as pn,
+	A as iee,
 	B as mn,
 	C as hn,
-	Ct as gn,
+	Ct as AxisAlignedBoundingBox,
 	D as _n,
 	E as vn,
 	F as aee,
@@ -222,53 +222,53 @@ import {
 	Y as Mn,
 	Z as Nn,
 	_ as Pn,
-	_t as dee,
-	a as Fn,
-	at as In,
-	b as Ln,
-	bt as Rn,
-	c as fee,
+	_t as Fn,
+	a as In,
+	at as Ln,
+	b as Rn,
+	bt as D,
+	c as dee,
 	ct as zn,
 	d as Bn,
-	dt as Vn,
-	et as pee,
-	g as Hn,
-	gt as Un,
-	h as Wn,
-	ht as Gn,
-	i as Kn,
-	it as qn,
-	j as Jn,
-	k as mee,
-	l as Yn,
-	lt as Xn,
-	m as hee,
-	mt as gee,
+	et as fee,
+	ft as pee,
+	g as Vn,
+	gt as mee,
+	h as Hn,
+	ht as Un,
+	i as Wn,
+	it as Gn,
+	j as Kn,
+	k as hee,
+	l as qn,
+	lt as Jn,
+	m as gee,
+	mt as Yn,
 	n as _ee,
-	nt as Zn,
+	nt as Xn,
 	o as vee,
-	ot as AxisAlignedBoundingBox,
+	ot as Zn,
 	p as yee,
 	pt as bee,
-	q as $n,
-	r as er,
-	rt as tr,
-	s as nr,
-	st as rr,
+	q as Qn,
+	r as $n,
+	rt as er,
+	s as tr,
+	st as nr,
 	t as xee,
 	tt as See,
-	u as ir,
-	ut as ar,
-	v as or,
-	vt as sr,
-	w as cr,
-	wt as lr,
-	x as ur,
-	xt as D,
-	y as dr,
-	yt as Cee,
+	u as rr,
+	ut as ir,
+	v as ar,
+	vt as Cee,
+	w as or,
+	wt as sr,
+	x as cr,
+	xt as lr,
+	y as ur,
+	yt as dr,
 	z as fr,
-} from "./three-BNCcVoCF.js";
+} from "./three-DYMSHzdZ.js";
 (function () {
 	let e = document.createElement(`link`).relList;
 	if (e && e.supports && e.supports(`modulepreload`)) return;
@@ -2002,7 +2002,7 @@ function _r() {
 					? self
 					: jee;
 }
-var vr = Object.assign,
+var vr = Object.assiAxisAlignedBoundingBox,
 	yr = Object.getOwnPropertyDescriptor,
 	br = Object.defineProperty,
 	xr = Object.prototype,
@@ -2131,8 +2131,8 @@ function Hr(e, t, n) {
 }
 function Ur() {
 	return (
-		(Ur = Object.assign
-			? Object.assign.bind()
+		(Ur = Object.assiAxisAlignedBoundingBox
+			? Object.assiAxisAlignedBoundingBox.bind()
 			: function (e) {
 					for (var t = 1; t < arguments.length; t++) {
 						var n = arguments[t];
@@ -2220,7 +2220,7 @@ function Xr(e) {
 	function t(t, n) {
 		Zr(t, n, e);
 	}
-	return Object.assign(t, e);
+	return Object.assiAxisAlignedBoundingBox(t, e);
 }
 function Zr(e, t, n) {
 	Br(e, Yr) || Mr(e, Yr, Ur({}, e[Yr])), qee(n) || (e[Yr][t] = n);
@@ -2605,7 +2605,7 @@ var xi = vr(bi, {
 		var n = Ar(t) ? t : {};
 		return (n.get = e), (n.name ||= e.name || ``), new Mi(n);
 	};
-Object.assign(wi, Ci), (wi.struct = Xr(_te));
+Object.assiAxisAlignedBoundingBox(wi, Ci), (wi.struct = Xr(_te));
 var Ti = 0,
 	vte = 1,
 	yte = yr(function () {}, `name`)?.configurable ?? !1,
@@ -3315,9 +3315,9 @@ function pa(e) {
 	};
 }
 var ma = pa(!1);
-Object.assign(ma, da);
+Object.assiAxisAlignedBoundingBox(ma, da);
 var ha = pa(!0);
-Object.assign(ha, fa), (ma.bound = Xr(Ite)), (ha.bound = Xr(Lte));
+Object.assiAxisAlignedBoundingBox(ha, fa), (ma.bound = Xr(Ite)), (ha.bound = Xr(Lte));
 function ga(e) {
 	return Oi(e.name || ua, !1, e, this, void 0);
 }
@@ -3359,8 +3359,8 @@ function Rte(e, t) {
 		e(o);
 	}
 	return (
-		((n = t) != null && (r = n.signal) != null && r.aborted) || o.schedule_(),
-		o.getDisposer_(t?.signal)
+		((n = t) != null && (r = n.siAxisAlignedBoundingBoxal) != null && r.aborted) || o.schedule_(),
+		o.getDisposer_(t?.siAxisAlignedBoundingBoxal)
 	);
 }
 var zte = function (e) {
@@ -3457,7 +3457,7 @@ function wa() {
 wa.prototype = Object.create(Error.prototype);
 var Ta = si(`flow`),
 	Yte = si(`flow.bound`, { bound: !0 }),
-	Ea = Object.assign(function (e, t) {
+	Ea = Object.assiAxisAlignedBoundingBox(function (e, t) {
 		if (Or(t)) return Zr(e, t, Ta);
 		var n = e,
 			r = n.name || `<unnamed flow>`,
@@ -5265,7 +5265,7 @@ function Po(e, t) {
 	if (!e) throw Error(t);
 }
 var hne = 34028234663852886e22,
-	gne = -34028234663852886e22,
+	AxisAlignedBoundingBoxe = -34028234663852886e22,
 	_ne = 4294967295,
 	vne = 2147483647,
 	yne = -2147483648;
@@ -5281,7 +5281,7 @@ function Io(e) {
 }
 function Lo(e) {
 	if (typeof e != `number`) throw Error(`invalid float 32: ` + typeof e);
-	if (Number.isFinite(e) && (e > hne || e < gne))
+	if (Number.isFinite(e) && (e > hne || e < AxisAlignedBoundingBoxe))
 		throw Error(`invalid float 32: ` + e);
 }
 var Ro = Symbol(`@bufbuild/protobuf/enum-type`);
@@ -5326,7 +5326,7 @@ function xne(e, t, n) {
 function Vo(e) {
 	return `localName` in e
 		? e
-		: Object.assign(Object.assign({}, e), { localName: e.name });
+		: Object.assiAxisAlignedBoundingBox(Object.assiAxisAlignedBoundingBox({}, e), { localName: e.name });
 }
 var k = class {
 	equals(e) {
@@ -5388,7 +5388,7 @@ function Sne(e, t, n, r) {
 		}[i];
 	return (
 		Object.setPrototypeOf(a.prototype, new k()),
-		Object.assign(a, {
+		Object.assiAxisAlignedBoundingBox(a, {
 			runtime: e,
 			typeName: t,
 			fields: e.util.newFieldList(n),
@@ -5947,10 +5947,10 @@ var is = Symbol(`@bufbuild/protobuf/unknown-fields`),
 	as = { readUnknownFields: !0, readerFactory: (e) => new kne(e) },
 	os = { writeUnknownFields: !0, writerFactory: () => new One() };
 function Ane(e) {
-	return e ? Object.assign(Object.assign({}, as), e) : as;
+	return e ? Object.assiAxisAlignedBoundingBox(Object.assiAxisAlignedBoundingBox({}, as), e) : as;
 }
 function jne(e) {
-	return e ? Object.assign(Object.assign({}, os), e) : os;
+	return e ? Object.assiAxisAlignedBoundingBox(Object.assiAxisAlignedBoundingBox({}, os), e) : os;
 }
 function ss() {
 	return {
@@ -6155,7 +6155,7 @@ function ps(e, t, n, r) {
 	e.join();
 }
 function Nne() {
-	return Object.assign(Object.assign({}, ss()), {
+	return Object.assiAxisAlignedBoundingBox(Object.assiAxisAlignedBoundingBox({}, ss()), {
 		writeMessage(e, t, n) {
 			let r = e.getType();
 			for (let i of r.fields.byNumber()) {
@@ -6257,7 +6257,7 @@ var gs = {
 			return n && ((t += ms[i]), (t += `=`), n == 1 && (t += `=`)), t;
 		},
 	},
-	_s = { ignoreUnknownFields: !1 },
+	_s = { iAxisAlignedBoundingBoxoreUnknownFields: !1 },
 	vs = {
 		emitDefaultValues: !1,
 		enumAsInteger: !1,
@@ -6265,10 +6265,10 @@ var gs = {
 		prettySpaces: 0,
 	};
 function Pne(e) {
-	return e ? Object.assign(Object.assign({}, _s), e) : _s;
+	return e ? Object.assiAxisAlignedBoundingBox(Object.assiAxisAlignedBoundingBox({}, _s), e) : _s;
 }
 function Fne(e) {
-	return e ? Object.assign(Object.assign({}, vs), e) : vs;
+	return e ? Object.assiAxisAlignedBoundingBox(Object.assiAxisAlignedBoundingBox({}, vs), e) : vs;
 }
 function ys(e) {
 	let t = e(Ine, Cs);
@@ -6285,7 +6285,7 @@ function ys(e) {
 			for (let [a, o] of Object.entries(t)) {
 				let t = e.fields.findJsonName(a);
 				if (!t) {
-					if (!n.ignoreUnknownFields)
+					if (!n.iAxisAlignedBoundingBoxoreUnknownFields)
 						throw Error(
 							`cannot decode message ${e.typeName} from JSON: key "${a}" is unknown`,
 						);
@@ -6322,7 +6322,7 @@ function ys(e) {
 								a = t.T.fromJson(i, n);
 								break;
 							case `enum`:
-								if (((a = Ss(t.T, i, n.ignoreUnknownFields)), a === void 0))
+								if (((a = Ss(t.T, i, n.iAxisAlignedBoundingBoxoreUnknownFields)), a === void 0))
 									continue;
 								break;
 							case `scalar`:
@@ -6359,7 +6359,7 @@ function ys(e) {
 								s = t.V.T.fromJson(a, n);
 								break;
 							case `enum`:
-								if (((s = Ss(t.V.T, a, n.ignoreUnknownFields)), s === void 0))
+								if (((s = Ss(t.V.T, a, n.iAxisAlignedBoundingBoxoreUnknownFields)), s === void 0))
 									continue;
 								break;
 							case `scalar`:
@@ -6418,7 +6418,7 @@ function ys(e) {
 										(c[s] = r.fieldWrapper.unwrapField(c[s])));
 							break;
 						case `enum`:
-							let i = Ss(t.T, o, n.ignoreUnknownFields);
+							let i = Ss(t.T, o, n.iAxisAlignedBoundingBoxoreUnknownFields);
 							i !== void 0 && (c[s] = i);
 							break;
 						case `scalar`:
@@ -6705,7 +6705,7 @@ function ws() {
 								case `enum`:
 									if (r.V.T === Uo.BYTES)
 										for (let [e, t] of Object.entries(a[n])) i[n][e] = Es(t);
-									else Object.assign(i[n], a[n]);
+									else Object.assiAxisAlignedBoundingBox(i[n], a[n]);
 									break;
 								case `message`:
 									let e = r.V.T;
@@ -6946,7 +6946,7 @@ var Ms = new Set([`constructor`, `toString`, `toJSON`, `valueOf`]),
 		`proto3`,
 		Lne(),
 		Nne(),
-		Object.assign(Object.assign({}, ws()), {
+		Object.assiAxisAlignedBoundingBox(Object.assiAxisAlignedBoundingBox({}, ws()), {
 			newFieldList(e) {
 				return new Ds(e, zs);
 			},
@@ -7002,7 +7002,7 @@ function zs(e) {
 	return t;
 }
 function Bs() {
-	return Object.assign(Object.assign({}, ss()), {
+	return Object.assiAxisAlignedBoundingBox(Object.assiAxisAlignedBoundingBox({}, ss()), {
 		writeMessage(e, t, n) {
 			let r = e.getType(),
 				i;
@@ -7111,7 +7111,7 @@ var A = Ho(
 	`proto2`,
 	Vs(),
 	Bs(),
-	Object.assign(Object.assign({}, ws()), {
+	Object.assiAxisAlignedBoundingBox(Object.assiAxisAlignedBoundingBox({}, ws()), {
 		newFieldList(e) {
 			return new Ds(e, Rne);
 		},
@@ -7353,7 +7353,7 @@ var Wne = class {
 				(this.velocity = Qs()),
 				(this.acceleration = Qs()),
 				(this.ttl = 1 / 0),
-				Object.assign(this, e);
+				Object.assiAxisAlignedBoundingBox(this, e);
 		}
 		update(e) {
 			this.advance(e);
@@ -7631,13 +7631,13 @@ function Kne(e) {
 var oc = class extends rc.class {
 	init({
 		text: e = ``,
-		textAlign: t = ``,
+		textAliAxisAlignedBoundingBox: t = ``,
 		lineHeight: n = 1,
 		font: r = Ks().font,
 		...i
 	} = {}) {
 		(e = `` + e),
-			super.init({ text: e, textAlign: t, lineHeight: n, font: r, ...i }),
+			super.init({ text: e, textAliAxisAlignedBoundingBox: t, lineHeight: n, font: r, ...i }),
 			this._p();
 	}
 	get width() {
@@ -7704,14 +7704,14 @@ var oc = class extends rc.class {
 	}
 	draw() {
 		let e = 0,
-			t = this.textAlign,
+			t = this.textAliAxisAlignedBoundingBox,
 			n = this.context;
-		(t = this.textAlign || (n.canvas.dir === `rtl` ? `right` : `left`)),
+		(t = this.textAliAxisAlignedBoundingBox || (n.canvas.dir === `rtl` ? `right` : `left`)),
 			(e =
 				t === `right` ? this.width : t === `center` ? (this.width / 2) | 0 : 0),
 			this._s.map((r, i) => {
 				(n.textBaseline = `top`),
-					(n.textAlign = t),
+					(n.textAliAxisAlignedBoundingBox = t),
 					(n.fillStyle = this.color),
 					(n.font = this.font),
 					n.fillText(r, e, this._fs * this.lineHeight * i);
@@ -7845,7 +7845,7 @@ var Yne = {
 	dc = class extends rc.class {
 		init({
 			flow: e = `column`,
-			align: t = `start`,
+			aliAxisAlignedBoundingBox: t = `start`,
 			justify: n = `start`,
 			colGap: r = 0,
 			rowGap: i = 0,
@@ -7857,7 +7857,7 @@ var Yne = {
 			return (
 				super.init({
 					flow: e,
-					align: t,
+					aliAxisAlignedBoundingBox: t,
 					justify: n,
 					colGap: r,
 					rowGap: i,
@@ -7935,7 +7935,7 @@ var Yne = {
 					if (e && !f.includes(e)) {
 						f.push(e);
 						let o = uc[e.justifySelf || this.justify](this._rtl),
-							s = uc[e.alignSelf || this.align](),
+							s = uc[e.aliAxisAlignedBoundingBoxSelf || this.aliAxisAlignedBoundingBox](),
 							l = e.colSpan || 1,
 							u = t[a];
 						if (l > 1 && a + l <= this._nc)
@@ -7994,7 +7994,7 @@ function Zne(e) {
 		n = mc[t];
 	(hc[t] = !1), _c(n, e);
 }
-function AxisAlignedBoundingBoxe() {
+function Qne() {
 	hc = {};
 }
 function $ne() {
@@ -8006,7 +8006,7 @@ function $ne() {
 	for (e = 0; e < 10; e++) gc[48 + e] = gc[`Digit` + e] = `` + e;
 	window.addEventListener(`keydown`, Xne),
 		window.addEventListener(`keyup`, Zne),
-		window.addEventListener(`blur`, AxisAlignedBoundingBoxe);
+		window.addEventListener(`blur`, Qne);
 }
 function vc(e, t, { handler: n = `keydown`, preventDefault: r = !0 } = {}) {
 	let i = n == `keydown` ? pc : mc;
@@ -8351,7 +8351,7 @@ var tre = i((e) => {
 		);
 	})(jc || {}),
 	Mc = new Map();
-for (let e of cn) Mc.set(e.name, e);
+for (let e of ln) Mc.set(e.name, e);
 var Nc = class {
 		constructor(e) {
 			(this.hasSubtypes = !1),
@@ -8928,7 +8928,7 @@ for (let e = -1; e <= 1; e++)
 var Wc = { north: 0, east: Math.PI / 2, south: Math.PI, west: -Math.PI / 2 },
 	Gc = 1024 * 1024,
 	Kc = [`eggwars`, `skywars`, `pvp`, `kitpvp`, `oitq`, `duels_bridge`],
-	qc = `3.46.48`,
+	qc = `3.46.51`,
 	Jc = `production`;
 if (
 	[`development`, `local`, `staging`, `production`].indexOf(`production`) === -1
@@ -9104,7 +9104,7 @@ var al = {
 		3: `Inappropriate Name`,
 		4: `Spamming`,
 	},
-	ure = `22346454309-4g8oqmbsukjgn9v6p7jonqkqps9jr9np.apps.googleusercontent.com`,
+	ure = `22346454309-4g8oqmbsukjAxisAlignedBoundingBox9v6p7jonqkqps9jr9np.apps.googleusercontent.com`,
 	ol = `session_v1`;
 `${Jc}`;
 var dre = `localhost:3002`,
@@ -9243,7 +9243,7 @@ var dre = `localhost:3002`,
 		clone() {
 			return new e(this.x, this.y, this.z);
 		}
-		static YRkZFdeXFeG(e, t) {
+		static lMNyJGSYvgM(e, t) {
 			return { [Symbol.iterator]: () => pre(e, t) };
 		}
 	};
@@ -9779,9 +9779,9 @@ var ul = class e extends k {
 							properties: {
 								name: { $ref: `definitions#/definitions/fieldName` },
 								size: { type: `number` },
-								signed: { type: `boolean` },
+								siAxisAlignedBoundingBoxed: { type: `boolean` },
 							},
-							required: [`name`, `size`, `signed`],
+							required: [`name`, `size`, `siAxisAlignedBoundingBoxed`],
 							additionalProperties: !1,
 						},
 						additionalItems: !1,
@@ -9950,7 +9950,7 @@ var ul = class e extends k {
 				a = 0,
 				o = {};
 			return (
-				(o.value = n.reduce((n, { size: r, signed: o, name: c }) => {
+				(o.value = n.reduce((n, { size: r, siAxisAlignedBoundingBoxed: o, name: c }) => {
 					let l = r,
 						u = 0;
 					for (; l > 0; ) {
@@ -9971,7 +9971,7 @@ var ul = class e extends k {
 			let i = 0,
 				a = 0;
 			return (
-				r.forEach(({ size: r, signed: o, name: s }) => {
+				r.forEach(({ size: r, siAxisAlignedBoundingBoxed: o, name: s }) => {
 					let c = e[s];
 					if ((!o && c < 0) || (o && c < -(1 << (r - 1))))
 						throw Error(e + ` < ` + o ? -(1 << (r - 1)) : 0);
@@ -11601,7 +11601,7 @@ async function Nre(e, t, n) {
 	else if (t === !0 || t === `little`) r = `little`;
 	else if (t === `big`) r = `big`;
 	else if (t === `littleVarint`) r = `littleVarint`;
-	else if (t) throw Error(`Unrecognized format: ` + t);
+	else if (t) throw Error(`UnrecoAxisAlignedBoundingBoxized format: ` + t);
 	if (
 		((e.startOffset = e.startOffset || 0),
 		!r && !e.startOffset && ou(e) && ((e.startOffset += 8), (r = `little`)),
@@ -12108,7 +12108,7 @@ var lu = {
 		constructor(t, n, r, i = 0) {
 			(this.particleName = t),
 				(this.particleID = n),
-				(this.shouldIgnoreRange = r),
+				(this.shouldIAxisAlignedBoundingBoxoreRange = r),
 				(this.argumentCount = i),
 				e.PARTICLES.set(n, this),
 				e.PARTICLE_BY_NAME.set(t, this),
@@ -12129,8 +12129,8 @@ var lu = {
 		getArgumentCount() {
 			return this.argumentCount;
 		}
-		getShouldIgnoreRange() {
-			return this.shouldIgnoreRange;
+		getShouldIAxisAlignedBoundingBoxoreRange() {
+			return this.shouldIAxisAlignedBoundingBoxoreRange;
 		}
 		hasArguments() {
 			return this.argumentCount > 0;
@@ -12222,7 +12222,7 @@ var lu = {
 				(this.material = t),
 				(this.armorType = r),
 				(this.renderIndex = n),
-				(this.xqnKDrNhjjkihNXKqy = t.damageReductionAmount[r]),
+				(this.aYzPzWldJmAWUrxUyi = t.damageReductionAmount[r]),
 				(this.toughness = t.toughness);
 		}
 		getArmorMaterial() {
@@ -12610,13 +12610,13 @@ var lu = {
 		getName() {
 			return this.name;
 		}
-		FySwCOhsdqeU() {
+		HyDiPPssDjDo() {
 			return this.operation;
 		}
-		MHPZuyMbO() {
+		JNMkvEhhA() {
 			return this.amount;
 		}
-		bVPFFFya(e) {
+		gqVKLGYH(e) {
 			return (this.isSaved = e), this;
 		}
 		equals(e) {
@@ -12658,13 +12658,13 @@ var lu = {
 		getAttributeUnlocalizedName() {
 			return this.unlocalizedName;
 		}
-		DmKKscvyclcaasi() {
+		MZoKOTfzGHzljRS() {
 			return this.defaultValue;
 		}
-		GjKAWXWKTAiMBa() {
+		eiOqcVcbaRkmMa() {
 			return this.shouldWatch;
 		}
-		ZqKsrAQjKdzkYr(e) {
+		kqfXmAUvHvLVvd(e) {
 			return (this.shouldWatch = e), this;
 		}
 		getAttribute() {
@@ -12689,21 +12689,21 @@ var lu = {
 			if (n < r) throw `Default value cannot be lower than minimum value!`;
 			if (n > i) throw `Default value cannot be bigger than maximum value!`;
 		}
-		AOOdKecTuicJUa(e) {
+		rQeNQWHRFswSiV(e) {
 			return (this.description = e), this;
 		}
-		MeqdJTTbeFrLBX() {
+		ntnkYMNhdXDILh() {
 			return this.description;
 		}
-		WSqcbKglIt(e) {
+		VmEbxrtVOW(e) {
 			return (e = (0, M.clamp)(e, this.minimumValue, this.maximumValue)), e;
 		}
 	},
 	ku = class e {
 		static {
 			this.maxHealth = new Ou(null, `generic.maxHealth`, 20, 0, 1024)
-				.AOOdKecTuicJUa(`Max Health`)
-				.ZqKsrAQjKdzkYr(!0);
+				.rQeNQWHRFswSiV(`Max Health`)
+				.kqfXmAUvHvLVvd(!0);
 		}
 		static {
 			this.followRange = new Ou(
@@ -12712,7 +12712,7 @@ var lu = {
 				32,
 				0,
 				2048,
-			).AOOdKecTuicJUa(`Follow Range`);
+			).rQeNQWHRFswSiV(`Follow Range`);
 		}
 		static {
 			this.knockbackResistance = new Ou(
@@ -12721,68 +12721,68 @@ var lu = {
 				0,
 				0,
 				1,
-			).AOOdKecTuicJUa(`Knockback Resistance`);
+			).rQeNQWHRFswSiV(`Knockback Resistance`);
 		}
 		static {
-			this.eAwmWnqQCXQCI = new Ou(null, `generic.movementSpeed`, 0.7, 0, 1024)
-				.AOOdKecTuicJUa(`Movement Speed`)
-				.ZqKsrAQjKdzkYr(!0);
+			this.UNrmpQxnutSuc = new Ou(null, `generic.movementSpeed`, 0.7, 0, 1024)
+				.rQeNQWHRFswSiV(`Movement Speed`)
+				.kqfXmAUvHvLVvd(!0);
 		}
 		static {
 			this.attackDamage = new Ou(null, `generic.attackDamage`, 2, 0, 2048);
 		}
-		static oAowZTvPMZJFeSHumVRTdpuwEn(t) {
+		static guXYQBzaIOvjbBRWKlqALxOIBW(t) {
 			let n = [];
-			for (let r of t.RstmtojGEdCNcaEA())
-				n.push(e.sNTGPXdhCFFCcuXliHeylCqOkfT(r));
+			for (let r of t.tXkJCUpOzDLwRtuE())
+				n.push(e.whwhIhMccEwDSizkNBFbpJSCBIV(r));
 			return I.list(I.comp(n));
 		}
-		static sNTGPXdhCFFCcuXliHeylCqOkfT(t) {
+		static whwhIhMccEwDSizkNBFbpJSCBIV(t) {
 			let n = {},
 				r = t.getAttribute();
 			(n.Name = I.string(r.getAttributeUnlocalizedName())),
-				(n.Base = I.double(t.DTdLrAqzOVWn()));
-			let i = t.owGNOAOCbwran();
+				(n.Base = I.double(t.kKCBucRYmNwL()));
+			let i = t.iJtuqLuXRTkUa();
 			if (i != null && i.length > 0) {
 				let t = [];
-				for (let n of i) n.isSaved && t.push(e.qdNuXZwHJUUdnsJmoGEKnyZkiFI(n));
+				for (let n of i) n.isSaved && t.push(e.TlZzGfiKWKoYwqfQEDjXLdsozqs(n));
 				n.Modifiers = I.list(I.comp(t));
 			}
 			return n;
 		}
-		static qdNuXZwHJUUdnsJmoGEKnyZkiFI(e) {
+		static TlZzGfiKWKoYwqfQEDjXLdsozqs(e) {
 			let t = {};
 			return (
 				(t.Name = I.string(e.getName())),
-				(t.Amount = I.double(e.MHPZuyMbO())),
-				(t.Operation = I.int(e.FySwCOhsdqeU())),
+				(t.Amount = I.double(e.JNMkvEhhA())),
+				(t.Operation = I.int(e.HyDiPPssDjDo())),
 				(t.UUID = I.string(e.getID())),
 				t
 			);
 		}
-		static MreEQCwKhDbpJ(t, n) {
+		static XNGxtfGrbvWWP(t, n) {
 			for (let r = 0; r < n.length; ++r) {
 				let i = n[r],
 					a = i.Name.replace(`${sl}:`, ``),
-					o = t.PrAeWVlmmtZEvdlgUCIrdZmxkT(a);
+					o = t.lgNphCqmZWTvTBKLbsPLdIcZQE(a);
 				o == null
-					? O.info(`Ignoring unknown attribute '${a}'`)
-					: e.MvxHIyxIfEcFbMRoScLYvzPoAnhnYbUYV(o, i);
+					? O.info(`IAxisAlignedBoundingBoxoring unknown attribute '${a}'`)
+					: e.BRaFFhxYQPUGOXcXbRDgJIFWQLoirIMFU(o, i);
 			}
 		}
-		static MvxHIyxIfEcFbMRoScLYvzPoAnhnYbUYV(t, n) {
+		static BRaFFhxYQPUGOXcXbRDgJIFWQLoirIMFU(t, n) {
 			if ((t.setBaseValue(n.Base), n.Modifiers)) {
 				let r = n.Modifiers;
 				for (let n = 0; n < r.length; ++n) {
-					let i = e.RAWrJGMFFwiDmLGBKEHcbliADOzB(r[n]);
+					let i = e.VaNhtYTbBTDeBKJnqpebHDodAzBP(r[n]);
 					if (i != null) {
-						let e = t.sNxOjMhwpHO(i.getID());
+						let e = t.yZegssUZEvc(i.getID());
 						e != null && t.removeModifier(e.getID()), t.applyModifier(i);
 					}
 				}
 			}
 		}
-		static RAWrJGMFFwiDmLGBKEHcbliADOzB(e) {
+		static VaNhtYTbBTDeBKJnqpebHDodAzBP(e) {
 			let t = e.UUID;
 			try {
 				return new Du(t, e.Name, e.Amount, e.Operation);
@@ -13247,7 +13247,7 @@ var Ru = class extends Rc {
 		getDamageSrc() {
 			return this.damageSrc;
 		}
-		MnKNgFhID() {
+		CqgdVVQsC() {
 			return this.damage;
 		}
 		isLivingDamageSrc() {
@@ -13328,7 +13328,7 @@ var Ru = class extends Rc {
 					((this.field_94552_d = !0),
 					(this.field_152775_d = this.fighter.ticksExisted),
 					(this.field_152776_e = this.field_152775_d),
-					this.fighter.JlKyjMfClYyIXGt());
+					this.fighter.QePLqZzBFMFNVye());
 		}
 		getDeathMessage() {
 			if (this.combatEntries.length == 0)
@@ -13445,7 +13445,7 @@ var Ru = class extends Rc {
 				(this.field_94553_e = !1),
 					(this.field_94552_d = !1),
 					(this.field_152776_e = this.fighter.ticksExisted),
-					e && this.fighter.YbtgnAZUNMRFe(),
+					e && this.fighter.XLPHQaqJnUkxm(),
 					(this.combatEntries.length = 0);
 			}
 		}
@@ -13552,7 +13552,7 @@ function qu(e, t, n, r, i, a) {
 	return i ? h : null;
 }
 function Ju(e, t, n, r = !1) {
-	let i = e.eZNOQQMvp();
+	let i = e.JGcTZgeqO();
 	return qu(i, i.clone().add(e.getLook().multiplyScalar(n)), r, !1, !1, t);
 }
 function sie(e, t) {
@@ -13834,22 +13834,22 @@ var _d = class e {
 				(this.objectType = e),
 				(this.watched = !0);
 		}
-		rtKYHNsVlYmjYW() {
+		ePfXTJIGqigqgz() {
 			return this.dataValueId;
 		}
-		YbtWgEImb(e) {
+		kJdhPhoIR(e) {
 			this.watchedObject = e;
 		}
 		getObject() {
 			return this.watchedObject;
 		}
-		AYsijEPsayjiZ() {
+		OOrOGdwNQUhcC() {
 			return this.objectType;
 		}
-		KMuAoddEa() {
+		PcXwVymtE() {
 			return this.watched;
 		}
-		oyCnUcUbPY(e) {
+		yVEIZuyELc(e) {
 			this.watched = e;
 		}
 		static fromProto(t) {
@@ -13904,29 +13904,29 @@ var _d = class e {
 				this.watchedObjects.set(e, n), (this.isBlank = !1);
 			}
 		}
-		izxTfpEIcGGOShBODjS(e, t) {
+		cxJZBDfZSCEAQWwuzqt(e, t) {
 			let n = new _d(t, e, null);
 			this.watchedObjects.set(e, n), (this.isBlank = !1);
 		}
 		getWatchableObjectByte(e) {
-			return this.HTQYzWunzVLdsCsR(e).getObject();
+			return this.RRWRYuZnyebtjwFE(e).getObject();
 		}
-		LsHPqIMXpbPYUHWQxhmgVmc(e) {
-			return this.HTQYzWunzVLdsCsR(e).getObject();
+		hMMTpqbmbuacgaurwxvcNGU(e) {
+			return this.RRWRYuZnyebtjwFE(e).getObject();
 		}
-		TZFJNwmXciwTIMSQzXBDB(e) {
-			return this.HTQYzWunzVLdsCsR(e).getObject();
+		YFWpRaHdBLDaQukqdayiD(e) {
+			return this.RRWRYuZnyebtjwFE(e).getObject();
 		}
 		getWatchableObjectFloat(e) {
-			return this.HTQYzWunzVLdsCsR(e).getObject();
+			return this.RRWRYuZnyebtjwFE(e).getObject();
 		}
-		qxvCVbMZJAFFYgTUMtImZboc(e) {
-			return this.HTQYzWunzVLdsCsR(e).getObject();
+		HCRCAnAlorucNEYjHIJCsHeq(e) {
+			return this.RRWRYuZnyebtjwFE(e).getObject();
 		}
-		ZJwdHJdIURvAfGhADxcTfXNcpJL(e) {
-			return this.HTQYzWunzVLdsCsR(e).getObject();
+		SzFJpXoBCYTQYYrKPtLZdNdPYKp(e) {
+			return this.RRWRYuZnyebtjwFE(e).getObject();
 		}
-		HTQYzWunzVLdsCsR(e) {
+		RRWRYuZnyebtjwFE(e) {
 			let t;
 			try {
 				t = this.watchedObjects.get(e);
@@ -13935,45 +13935,45 @@ var _d = class e {
 			}
 			return t;
 		}
-		GLkKhhwceqGevJywVFBFtDzwmVd(e) {
-			return this.HTQYzWunzVLdsCsR(e).getObject();
+		AcytWZuKkosUWbXlRPVDBNRIobG(e) {
+			return this.RRWRYuZnyebtjwFE(e).getObject();
 		}
 		updateObject(e, t) {
-			let n = this.HTQYzWunzVLdsCsR(e);
+			let n = this.RRWRYuZnyebtjwFE(e);
 			M.default.isEqual(t, n.getObject()) ||
-				(n.YbtWgEImb(t),
-				this.owner.ZrsPMlSQJkwxhxfKdye(e),
-				n.oyCnUcUbPY(!0),
+				(n.kJdhPhoIR(t),
+				this.owner.RJdRWndYzhlODldjtPa(e),
+				n.yVEIZuyELc(!0),
 				(this.objectChanged = !0));
 		}
-		QAGNGxyLrArpljzE(e) {
-			(this.HTQYzWunzVLdsCsR(e).watched = !0), (this.objectChanged = !0);
+		IkgtxwJwcbLMsbMZ(e) {
+			(this.RRWRYuZnyebtjwFE(e).watched = !0), (this.objectChanged = !0);
 		}
-		XgYofhLtOxxPuCTn() {
+		HLBMEwOmxFzeCXOr() {
 			return this.objectChanged;
 		}
-		AlBMDdWzhx() {
+		jEzvezQVIT() {
 			let e;
 			if (this.objectChanged)
 				for (let t of this.watchedObjects.values())
-					t.KMuAoddEa() && (t.oyCnUcUbPY(!1), (e ??= []), e.push(t));
+					t.PcXwVymtE() && (t.yVEIZuyELc(!1), (e ??= []), e.push(t));
 			return (this.objectChanged = !1), e;
 		}
-		LOlhjppTUvkLH() {
+		nHhSXfAEHYrli() {
 			let e;
 			for (let t of this.watchedObjects.values()) (e ??= []), e.push(t);
 			return e;
 		}
-		gPDpPWqTSFIgEbeglcLUVLvIiggi(e) {
+		OqJeUTyebUczjKUxufzGLUzhsuHu(e) {
 			for (let t of e) {
-				let e = this.watchedObjects.get(t.rtKYHNsVlYmjYW());
+				let e = this.watchedObjects.get(t.ePfXTJIGqigqgz());
 				e != null &&
-					(e.YbtWgEImb(t.getObject()),
-					this.owner.ZrsPMlSQJkwxhxfKdye(t.rtKYHNsVlYmjYW()));
+					(e.kJdhPhoIR(t.getObject()),
+					this.owner.RJdRWndYzhlODldjtPa(t.ePfXTJIGqigqgz()));
 			}
 			this.objectChanged = !0;
 		}
-		nSwsyZIUnC() {
+		ZkrEQpywpu() {
 			return this.isBlank;
 		}
 	},
@@ -14097,7 +14097,7 @@ var _d = class e {
 		static {
 			this.uuidCounter = 0;
 		}
-		static OwVjOrjcUPBA() {
+		static GVkVgqlZKNAi() {
 			return `${Date.now().toString(36)}-${(e.uuidCounter++).toString(36)}-${Math.random().toString(36).slice(2, 10)}`;
 		}
 		static {
@@ -14119,7 +14119,7 @@ var _d = class e {
 				(this._movePrev = new D()),
 				(this._moveDeltaPos = new D()),
 				(this.id = e.nextEntityID++),
-				(this.uuid = e.OwVjOrjcUPBA()),
+				(this.uuid = e.GVkVgqlZKNAi()),
 				(this.pos = new D()),
 				(this.prevPos = new D()),
 				(this.serverPos = new D()),
@@ -14163,7 +14163,7 @@ var _d = class e {
 				this.dataWatcher.addObject(4, 0),
 				this.entityInit();
 		}
-		UCEZBpdjIxaXq() {
+		CxuhYqGRrDzPn() {
 			this.setDead();
 		}
 		getDisplayName() {
@@ -14175,14 +14175,14 @@ var _d = class e {
 		isInWater() {
 			return this.inWater;
 		}
-		IHPgvsRs() {
+		UcihMIIo() {
 			return this.inLava;
 		}
-		mtrQfaVg() {
+		dUbFFSAE() {
 			return this.getFlag(4);
 		}
-		rpEODVEJk(e) {
-			this.kkuhTtf(4, e);
+		SQAqGUQuF(e) {
+			this.kfdiKOv(4, e);
 		}
 		entityInit() {}
 		getDataWatcher() {
@@ -14191,32 +14191,32 @@ var _d = class e {
 		getFlag(e) {
 			return (this.dataWatcher.getWatchableObjectByte(0) & (1 << e)) != 0;
 		}
-		kkuhTtf(e, t) {
+		kfdiKOv(e, t) {
 			let n = this.dataWatcher.getWatchableObjectByte(0);
 			t
 				? this.dataWatcher.updateObject(0, n | (1 << e))
 				: this.dataWatcher.updateObject(0, n & ~(1 << e));
 		}
-		VdSTulosoRJUsjlU() {
-			return this.dataWatcher.qxvCVbMZJAFFYgTUMtImZboc(2);
+		DJoetASSrKfWJqTF() {
+			return this.dataWatcher.HCRCAnAlorucNEYjHIJCsHeq(2);
 		}
-		IbygoVOqgFGXPfjV(e) {
+		rWOUQMSwUHBzMkKr(e) {
 			this.dataWatcher.updateObject(2, e);
 		}
-		lFtbzHrxsKTavmJZMrgngq() {
+		tZpmSkqHftfmOLxJChuFCP() {
 			return this.dataWatcher.getWatchableObjectByte(3) === 1;
 		}
-		kHkiEBFLiQqRRIPledrzrk(e) {
+		gFWWNlruGCdLjlTbMRlbUz(e) {
 			this.dataWatcher.updateObject(3, +!!e);
 		}
-		ZrsPMlSQJkwxhxfKdye(e) {}
+		RJdRWndYzhlODldjtPa(e) {}
 		equals(t) {
 			return t instanceof e ? t.id === this.id : !1;
 		}
 		getEntityBoundingBox() {
 			return this.boundingBox;
 		}
-		oCPFMPQRVNyUtEXeJu() {
+		tGpCqDTKVgoSEJhcCM() {
 			return this.yaw;
 		}
 		setSize(e, t) {
@@ -14225,9 +14225,9 @@ var _d = class e {
 			let n = this.getEntityBoundingBox(),
 				r = n.min,
 				i = n.min.clone().add(new D(e, t, e));
-			this.ReeVnUWiyTdaBcmnNyJe(new AxisAlignedBoundingBox(r, i));
+			this.kjzyjLUrlOzEsFVxymHV(new AxisAlignedBoundingBox(r, i));
 		}
-		puewcoUBFLa(e, t, n) {
+		xkqvKMqhUoL(e, t, n) {
 			this.motion.set(e, t, n);
 		}
 		setPositionAndUpdate(e, t, n) {
@@ -14240,7 +14240,7 @@ var _d = class e {
 			let r = this.width / 2,
 				i = new D(this.pos.x - r, this.pos.y, this.pos.z - r),
 				a = new D(this.pos.x + r, this.pos.y + this.height, this.pos.z + r);
-			this.ReeVnUWiyTdaBcmnNyJe(new AxisAlignedBoundingBox(i, a));
+			this.kjzyjLUrlOzEsFVxymHV(new AxisAlignedBoundingBox(i, a));
 		}
 		setPositionAndRotation(e, t, n, r, i) {
 			this.prevPos.set(e, t, n),
@@ -14250,13 +14250,13 @@ var _d = class e {
 				(this.prevYaw = r),
 				(this.prevPitch = i),
 				this.setPosition(this.pos),
-				this.lZtwWlpkKOS(this.yaw, this.pitch);
+				this.vmvCXvZBbtI(this.yaw, this.pitch);
 		}
 		static {
 			this.positionOffset = new D(-0.03125, 0, -0.03125);
 		}
 		setPositionAndRotation2(t, n, r, i, a, o, s = !1) {
-			this.setPosition(t, n, r), this.lZtwWlpkKOS(i, a);
+			this.setPosition(t, n, r), this.vmvCXvZBbtI(i, a);
 			let c = this.world.getCollidingBoundingBoxes(
 				this,
 				this.getEntityBoundingBox().clone().expandByVector(e.positionOffset),
@@ -14267,7 +14267,7 @@ var _d = class e {
 				(n += e - this.getEntityBoundingBox().min.y), this.setPosition(t, n, r);
 			}
 		}
-		lZtwWlpkKOS(e, t) {
+		vmvCXvZBbtI(e, t) {
 			(this.yaw = e), (this.pitch = t);
 		}
 		setLocationAndAngles(e, t, n, r = 0, i = 0) {
@@ -14276,10 +14276,10 @@ var _d = class e {
 				(this.pitch = i),
 				this.setPosition(new D(e, t, n));
 		}
-		xNpgqPDhIl(e) {
+		QeCuWlYCQy(e) {
 			return this.getEntityBoundingBox().clone().translate(e);
 		}
-		TtORusHYHoSyftt(e, t, n) {
+		eJPYbxBvhaPzNxq(e, t, n) {
 			let r = this.getEntityBoundingBox();
 			return (
 				this._queryBox.min.set(r.min.x + e, r.min.y + t, r.min.z + n),
@@ -14287,10 +14287,10 @@ var _d = class e {
 				this._queryBox
 			);
 		}
-		ReeVnUWiyTdaBcmnNyJe(e) {
+		kjzyjLUrlOzEsFVxymHV(e) {
 			this.boundingBox = e;
 		}
-		yOiPkmiLRKOZeBOll() {
+		cwxemeABtDDQNgORy() {
 			(this.pos.x = (this.boundingBox.min.x + this.boundingBox.max.x) / 2),
 				(this.pos.y = this.boundingBox.min.y),
 				(this.pos.z = (this.boundingBox.min.z + this.boundingBox.max.z) / 2);
@@ -14302,12 +14302,12 @@ var _d = class e {
 			return (performance.now() - this.lastUpdate) / 50;
 		}
 		update() {
-			this.cgQkUAnofbFSdU(), (this.lastUpdate = performance.now());
+			this.ryrCDImKmrtIHZ(), (this.lastUpdate = performance.now());
 		}
 		kill() {
 			this.setDead();
 		}
-		chtOmKztiESKGpCZlNfH() {
+		FDratlgmGWMQtJfXGKAW() {
 			if (this.world != null) {
 				for (
 					;
@@ -14323,13 +14323,13 @@ var _d = class e {
 				(this.motion.x = this.motion.y = this.motion.z = 0), (this.pitch = 0);
 			}
 		}
-		LrQLhRUtOwkcStOftW() {
+		JcafPpCuIUUFvhwVnM() {
 			return 0;
 		}
-		OPniVYBU(e) {
+		dZkInMmw(e) {
 			this.world = e;
 		}
-		TgVVvXvzwYAmKWTBa(e) {
+		kaPejWPvinxkriUvz(e) {
 			if (this.dead || this.world.isClient) return;
 			let t = this.world.getServer(),
 				n = this.world.getConfigurationManager(),
@@ -14344,9 +14344,9 @@ var _d = class e {
 				this.world.removeEntity(this),
 				(this.dead = !1),
 				n.transferEntityToWorld(this, r, i, a, !0);
-			let o = n.eCZHzQHmlNpefUpVDKVmBTdgF(this.constructor.name, a);
+			let o = n.hZldwafIUpSvgIlemBvZNoavd(this.constructor.name, a);
 			if (o != null) {
-				if ((o.eQGvXkpURcYXBrn(this), r == 1 && e == 1)) {
+				if ((o.ZWKmqggXLBgWPiQ(this), r == 1 && e == 1)) {
 					let e = this.world.getTopSolidOrLiquidBlock(a.getSpawnPoint());
 					o.setLocationAndAngles(
 						e.x + 0.5,
@@ -14360,13 +14360,13 @@ var _d = class e {
 			}
 			(this.dead = !0), i.resetUpdateEntityTick(), a.resetUpdateEntityTick();
 		}
-		eQGvXkpURcYXBrn(e) {
+		ZWKmqggXLBgWPiQ(e) {
 			let t = {};
 			e.writeToNBT(t),
 				this.readFromNBT(t),
 				(this.timeUntilPortal = e.timeUntilPortal);
 		}
-		cgQkUAnofbFSdU() {
+		ryrCDImKmrtIHZ() {
 			if (
 				(this.ridingEntity != null &&
 					this.ridingEntity.dead &&
@@ -14377,20 +14377,20 @@ var _d = class e {
 				(this.inLava = !1),
 				this.world.isServer)
 			) {
-				let e = this.LrQLhRUtOwkcStOftW();
+				let e = this.JcafPpCuIUUFvhwVnM();
 				this.inPortal
 					? (this.ridingEntity == null &&
 							this.portalCounter++ >= e &&
 							((this.portalCounter = e),
-							(this.timeUntilPortal = this.fsavKVuGwJzplUlGB()),
+							(this.timeUntilPortal = this.wKoIEqCxTnDvaizAs()),
 							this instanceof Pp &&
-								this.TgVVvXvzwYAmKWTBa(this.getPortalDestinationDimension())),
+								this.kaPejWPvinxkriUvz(this.getPortalDestinationDimension())),
 						(this.inPortal = !1))
 					: (this.portalCounter > 0 && (this.portalCounter -= 4),
 						this.portalCounter < 0 && (this.portalCounter = 0)),
 					this.timeUntilPortal > 0 && --this.timeUntilPortal;
 			}
-			this.lmXWleCazlfJFvUFMrx(),
+			this.zqPkxmzZEVAnEpkRTxw(),
 				this.world.isClient ||
 					(this.fire > 0 &&
 						(this.immuneToFire
@@ -14399,7 +14399,7 @@ var _d = class e {
 								this.fire--))),
 				this.inLava &&
 					((this.fallDistance *= 0.5),
-					this.world.isServer && this.POZdVUAFhGFoofxUP()),
+					this.world.isServer && this.OOODmskEgkFtXevHT()),
 				this.pos.y < -64 && this.kill();
 		}
 		setCurrentItemOrArmor(e, t) {}
@@ -14423,7 +14423,7 @@ var _d = class e {
 				e.pitch && (this.pitch = e.pitch),
 				(this.onGround = e.onGround == 1);
 		}
-		WqAQFEfAKbbp(e, t) {
+		JRVuBlXnzLzA(e, t) {
 			let n,
 				r = -0.999999;
 			for (
@@ -14431,7 +14431,7 @@ var _d = class e {
 				t.x != 0 &&
 				this.world.getCollidingBoundingBoxes(
 					this,
-					this.TtORusHYHoSyftt(t.x, r, 0),
+					this.eJPYbxBvhaPzNxq(t.x, r, 0),
 				).length == 0;
 				e.x = t.x
 			)
@@ -14441,7 +14441,7 @@ var _d = class e {
 				t.z != 0 &&
 				this.world.getCollidingBoundingBoxes(
 					this,
-					this.TtORusHYHoSyftt(0, r, t.z),
+					this.eJPYbxBvhaPzNxq(0, r, t.z),
 				).length == 0;
 				e.z = t.z
 			)
@@ -14452,7 +14452,7 @@ var _d = class e {
 				t.z != 0 &&
 				this.world.getCollidingBoundingBoxes(
 					this,
-					this.TtORusHYHoSyftt(t.x, r, t.z),
+					this.eJPYbxBvhaPzNxq(t.x, r, t.z),
 				).length == 0;
 				e.z = t.z
 			)
@@ -14460,10 +14460,10 @@ var _d = class e {
 					(e.x = t.x),
 					t.z < n && t.z >= -n ? (t.z = 0) : t.z > 0 ? (t.z -= n) : (t.z += n);
 		}
-		joGwKiBQUV(e, t, n) {
+		jRNBwJyPTB(e, t, n) {
 			let r = n.clone(),
 				i = this.getEntityBoundingBox();
-			this.ReeVnUWiyTdaBcmnNyJe(e), (n.y = this.stepHeight);
+			this.kjzyjLUrlOzEsFVxymHV(e), (n.y = this.stepHeight);
 			let a = this.world.getCollidingBoundingBoxes(
 					this,
 					md(this.getEntityBoundingBox(), t.x, n.y, t.z, this._queryBox),
@@ -14490,18 +14490,18 @@ var _d = class e {
 			for (let e of a) m = ld(e, d, m);
 			gd(d, 0, 0, m),
 				l * l + u * u > p * p + m * m
-					? ((n.x = l), (n.z = u), (n.y = -c), this.ReeVnUWiyTdaBcmnNyJe(o))
-					: ((n.x = p), (n.z = m), (n.y = -f), this.ReeVnUWiyTdaBcmnNyJe(d));
+					? ((n.x = l), (n.z = u), (n.y = -c), this.kjzyjLUrlOzEsFVxymHV(o))
+					: ((n.x = p), (n.z = m), (n.y = -f), this.kjzyjLUrlOzEsFVxymHV(d));
 			for (let e of a) n.y = cd(e, this.getEntityBoundingBox(), n.y);
 			let h = this.getEntityBoundingBox().clone();
 			return (
 				gd(h, 0, n.y, 0),
-				this.ReeVnUWiyTdaBcmnNyJe(h),
+				this.kjzyjLUrlOzEsFVxymHV(h),
 				r.x * r.x + r.z * r.z >= n.x * n.x + n.z * n.z
 					? ((n.x = r.x),
 						(n.y = r.y),
 						(n.z = r.z),
-						this.ReeVnUWiyTdaBcmnNyJe(i),
+						this.kjzyjLUrlOzEsFVxymHV(i),
 						!1)
 					: !0
 			);
@@ -14515,7 +14515,7 @@ var _d = class e {
 		static {
 			this.waterScratchBox = new AxisAlignedBoundingBox();
 		}
-		lmXWleCazlfJFvUFMrx() {
+		zqPkxmzZEVAnEpkRTxw() {
 			return (
 				this.world &&
 				this.world.handleMaterialAcceleration(
@@ -14526,7 +14526,7 @@ var _d = class e {
 					L.water,
 					this,
 				)
-					? (this.inWater || this.ZNRLlkwTVzJ(),
+					? (this.inWater || this.EifdMlhBMLi(),
 						(this.fallDistance = 0),
 						(this.inWater = !0),
 						(this.fire = 0))
@@ -14547,10 +14547,10 @@ var _d = class e {
 				: e < 0 && (this.fallDistance -= e);
 		}
 		handleStatusUpdate(e) {}
-		qbXTAswgDfe() {
+		dvcIiBvoPKK() {
 			return !1;
 		}
-		YmmECvTB() {
+		pZLCCFMi() {
 			return this.dataWatcher.getWatchableObjectByte(4) == 1;
 		}
 		isOnLadder() {
@@ -14559,7 +14559,7 @@ var _d = class e {
 			let n = this.world.getBlockState(t).block;
 			return n === B.ladder || n === B.vine || n === B.iron_ladder;
 		}
-		nJFNaEuKIkTOJM() {
+		TLgsvoyvTcNVUI() {
 			let t = e.groundScratchPos;
 			return (
 				t.set(this.pos.x, this.getEntityBoundingBox().min.y, this.pos.z),
@@ -14569,16 +14569,16 @@ var _d = class e {
 		canTriggerWalking() {
 			return !0;
 		}
-		lORudRVhuJBBdZyhtppVtjgy(e, t, n) {
-			return this.IIRDRFlZUGSedDOqPnEmm(this.TtORusHYHoSyftt(e, t, n));
+		TtWaAJvGPREIQCCZlOhYfoBB(e, t, n) {
+			return this.XCQHKfFqIAVUVwyVBosRR(this.eJPYbxBvhaPzNxq(e, t, n));
 		}
-		IIRDRFlZUGSedDOqPnEmm(e) {
+		XCQHKfFqIAVUVwyVBosRR(e) {
 			return (
 				this.world.getCollidingBoundingBoxes(this, e).length == 0 &&
 				!this.world.isAnyLiquid(e)
 			);
 		}
-		pqNYvdzfdA(e, t, n) {
+		pXqvfmRnNb(e, t, n) {
 			let r = e * e + t * t;
 			if ((isFinite(n) || (n = 0), r >= 1e-4)) {
 				(r = Math.sqrt(r)), r < 1 && (r = 1), (r = n / r), (e *= r), (t *= r);
@@ -14593,10 +14593,10 @@ var _d = class e {
 				return;
 			}
 			if (this.noPhysics) {
-				this.ReeVnUWiyTdaBcmnNyJe(
+				this.kjzyjLUrlOzEsFVxymHV(
 					this.getEntityBoundingBox().translate(this.motion),
 				),
-					this.yOiPkmiLRKOZeBOll();
+					this.cwxemeABtDDQNgORy();
 				return;
 			}
 			let i = this._moveDelta.set(t, n, r),
@@ -14613,7 +14613,7 @@ var _d = class e {
 					((this.inCloud = !1), (i.x *= yd), (i.y *= yd), (i.z *= yd));
 			let o = this._moveSaved.copy(i),
 				s = this.onGround && this.sneak;
-			s && this.WqAQFEfAKbbp(o, i);
+			s && this.JRVuBlXnzLzA(o, i);
 			let c = this.getEntityBoundingBox(),
 				l =
 					i.x === 0 && i.y === 0 && i.z === 0
@@ -14624,7 +14624,7 @@ var _d = class e {
 							);
 			for (let e of l) i.y = cd(e, c, i.y);
 			let u = c.clone();
-			gd(u, 0, i.y, 0), this.ReeVnUWiyTdaBcmnNyJe(u);
+			gd(u, 0, i.y, 0), this.kjzyjLUrlOzEsFVxymHV(u);
 			let d = this.onGround || (o.y != i.y && o.y < 0);
 			for (let e of l) i.x = sd(e, u, i.x);
 			gd(u, i.x, 0, 0);
@@ -14634,8 +14634,8 @@ var _d = class e {
 			this.stepHeight > 0 &&
 				f &&
 				(o.x != i.x || o.z != i.z) &&
-				this.joGwKiBQUV(c, o, i),
-				this.yOiPkmiLRKOZeBOll(),
+				this.jRNBwJyPTB(c, o, i),
+				this.cwxemeABtDDQNgORy(),
 				(this.isCollidedHorizontally = i.x != o.x || i.z != o.z),
 				(this.isCollidedVertically = i.y != o.y),
 				(this.onGround = this.isCollidedVertically && o.y < 0),
@@ -14699,12 +14699,12 @@ var _d = class e {
 								this.playSound(e.getStepSound(), e.volume * 0.15, e.frequency));
 				}
 			}
-			this.xtwUburwFVrQZJhwY();
+			this.tUzSgCHdiKCGdQbVM();
 			let h = this.inWater;
 			this.world.isFlammableWithin(
 				this.getEntityBoundingBox().clone().expandByVector(e.waterPadding),
 			)
-				? (this.bzTXUlRQNSpCac(1),
+				? (this.atrozebTflHGie(1),
 					h ||
 						(++this.fire,
 						this.fire == 0
@@ -14723,7 +14723,7 @@ var _d = class e {
 		playSound(e, t, n) {
 			this.world.playSoundAtEntity(this, e, t, n);
 		}
-		qIkhZJDGRfAHUDwVAYpf(e) {
+		QlZTOkoWbOedXiGldvew(e) {
 			let t = 0.8;
 			if (
 				e.riddenByEntity !== this &&
@@ -14755,14 +14755,14 @@ var _d = class e {
 				(this.motion.z += n),
 				(this.isAirborne = !0);
 		}
-		bzTXUlRQNSpCac(e) {
+		atrozebTflHGie(e) {
 			this.immuneToFire || this.attackEntityFrom(Ip.IN_FIRE, e);
 		}
 		setFire(e) {
 			let t = e * 20;
 			this.fire < t && (this.fire = t);
 		}
-		xtwUburwFVrQZJhwY() {
+		tUzSgCHdiKCGdQbVM() {
 			let t = this.getEntityBoundingBox(),
 				n = Math.floor(t.min.x + 0.001),
 				r = Math.floor(t.min.y + 0.001),
@@ -14781,12 +14781,12 @@ var _d = class e {
 							i.onEntityCollidedWithBlock(this.world, new F(t, n, r), this);
 					}
 		}
-		SuTJWLFxHMXaIXSU(e) {
+		QiknJyyHAuggHhyN(e) {
 			let t = this.world.getBlockState(e),
 				n = this.world.getBlockState(e.up());
 			return !t.getBlock().isFullCube(t) && !n.getBlock().isFullCube(n);
 		}
-		XpXGVHIPSpMJGwAINZULQIQXC() {
+		sWNdlFjURyQMvGDUDHFUIGjqb() {
 			let e = new F(-(2 ** 53 - 1), -(2 ** 53 - 1), -(2 ** 53 - 1));
 			for (let t = 0; t < 8; ++t) {
 				let n = Math.floor(
@@ -14806,24 +14806,24 @@ var _d = class e {
 			}
 			return !1;
 		}
-		nXIsIhcaWZXkxWyzuT(e) {
+		GoFgDwPIsJhtBQUUDv(e) {
 			let t = this.pos.y + this.getEyeHeight(),
 				n = new F(this.pos.x, t, this.pos.z);
 			return this.world.getBlockState(n).getBlock().type == `liquid`;
 		}
-		GGUxaAuNbGvmqgs(e, t, n) {
+		riKimPyBmnPzBqM(e, t, n) {
 			let r = new F(e, t, n),
 				i = e - r.x,
 				a = n - r.z;
-			if (!this.SuTJWLFxHMXaIXSU(r)) {
+			if (!this.QiknJyyHAuggHhyN(r)) {
 				let e = -1,
 					t = 9999;
-				this.SuTJWLFxHMXaIXSU(r.west()) && i < t && ((t = i), (e = 0)),
-					this.SuTJWLFxHMXaIXSU(r.east()) &&
+				this.QiknJyyHAuggHhyN(r.west()) && i < t && ((t = i), (e = 0)),
+					this.QiknJyyHAuggHhyN(r.east()) &&
 						1 - i < t &&
 						((t = 1 - i), (e = 1)),
-					this.SuTJWLFxHMXaIXSU(r.north()) && a < t && ((t = a), (e = 4)),
-					this.SuTJWLFxHMXaIXSU(r.south()) &&
+					this.QiknJyyHAuggHhyN(r.north()) && a < t && ((t = a), (e = 4)),
+					this.QiknJyyHAuggHhyN(r.south()) &&
 						1 - a < t &&
 						((t = 1 - a), (e = 5));
 				let n = 0.1;
@@ -14849,14 +14849,14 @@ var _d = class e {
 		canCommandSenderUseCommand(e, t) {
 			return !0;
 		}
-		eZNOQQMvp() {
+		JGcTZgeqO() {
 			let e = this.pos.clone();
 			return (e.y += this.getEyeHeight()), e;
 		}
-		sJIprGRZnPevqsBzi() {
+		ehLgaMlKSBMbluyqR() {
 			return !0;
 		}
-		CvzQlPpJzXt(e) {
+		PoazQRwvZJZ(e) {
 			return !1;
 		}
 		attackEntityFrom(e, t) {
@@ -14870,8 +14870,8 @@ var _d = class e {
 				this.invulnerable && !e.equals(Ip.OUT_OF_WORLD) && !e.isCreativePlayer()
 			);
 		}
-		SZgSAZePduPg(e) {}
-		POZdVUAFhGFoofxUP() {
+		iZXsGnhoUpTJ(e) {}
+		OOODmskEgkFtXevHT() {
 			this.immuneToFire ||
 				(this.attackEntityFrom(Ip.LAVA, 4), this.setFire(15));
 		}
@@ -14882,46 +14882,46 @@ var _d = class e {
 			return !this.dead;
 		}
 		setEntityState(e, t) {}
-		ZcketohDXNL() {}
+		aUxLtiygMYN() {}
 		dropItem2(e, t) {
-			return this.tMiqGQpPxYTJDfFrks(e, t, 0);
+			return this.NwqhKAMLDcVbIFgbza(e, t, 0);
 		}
-		tMiqGQpPxYTJDfFrks(e, t, n) {
+		NwqhKAMLDcVbIFgbza(e, t, n) {
 			return this.entityDropItem(new Hp(e, t, 0), n);
 		}
 		getDistanceSqToEntity(e) {
 			return this.pos.distanceToSquared(e.pos);
 		}
 		setSprinting(e) {
-			this.kkuhTtf(3, e);
+			this.kfdiKOv(3, e);
 		}
 		isSprinting() {
 			return !1;
 		}
-		VwRZQmoamPN() {
+		drQhETLOcXW() {
 			return this.getFlag(5);
 		}
-		DJGeSqVIqgkglgUhOWp(e) {
-			return this.VwRZQmoamPN();
+		SrhVjDJXOFNanseijhz(e) {
+			return this.drQhETLOcXW();
 		}
-		rlzCsbXoVbJb(e) {
-			this.kkuhTtf(5, e);
+		jFneTrKEjuRS(e) {
+			this.kfdiKOv(5, e);
 		}
 		entityDropItem(e, t) {
 			if (e.stackSize != 0 && e.getItem() != null) {
 				let n = this.world.getEntityItem(e, this.pos, t);
 				return n
-					? (n.tispSNlcbPDenpvtkmhGM(),
+					? (n.otbIqyhjuSaLVlLMJRNtP(),
 						n.setPosition(new D(this.pos.x, this.pos.y + t, this.pos.z)),
 						this.world.spawnEntityInWorld(n),
 						n)
 					: null;
 			} else return null;
 		}
-		zfvpqFkGWJUMyMwUJEHDbwqfUWAYRlBnk() {
+		aJTEZQLpQigGBuZkEfLQbfntCFcArmgtK() {
 			return !1;
 		}
-		cCItSFWJcZopDLLcwSl() {
+		gprxAeNsBJdUmUcKjWB() {
 			return P.getHorizontal(
 				Math.floor((((this.yaw * 180) / Math.PI) * 4) / 360 + 0.5) & 3,
 			);
@@ -14929,22 +14929,22 @@ var _d = class e {
 		getPosition() {
 			return new F(this.pos.x, this.pos.y + 0.5, this.pos.z);
 		}
-		SbAPncysMxBpIFxDSqTsLB(e, t, n, r) {
-			return r.getBlock().SbAPncysMxBpIFxDSqTsLB(this);
+		mNekefLbmyLdiSHxuYbqGx(e, t, n, r) {
+			return r.getBlock().mNekefLbmyLdiSHxuYbqGx(this);
 		}
-		WnSVSzhGUfyICFQ(e, t, n, r, i) {
+		pSdriuIAYrTmlJJ(e, t, n, r, i) {
 			return !0;
 		}
-		ZFFSlMvnTnrtDEVDWxyz() {
+		gIFtCpcUeUbwxCTHkGXy() {
 			return !1;
 		}
-		zWPXYBJCPWI(e, t, n) {
+		WzJwJRUaNWx(e, t, n) {
 			let r = this.pos.x - e,
 				i = this.pos.y - t,
 				a = this.pos.z - n;
 			return Math.sqrt(r * r + i * i + a * a);
 		}
-		ZNRLlkwTVzJ() {
+		EifdMlhBMLi() {
 			let e =
 				Math.sqrt(
 					this.motion.x * this.motion.x * 0.2 +
@@ -14989,7 +14989,7 @@ var _d = class e {
 					);
 			}
 		}
-		MYsvtrgDpLtUBNLm() {
+		kTlvLrvuazZVAOUx() {
 			return 3;
 		}
 		writeEntityToNBT(e) {}
@@ -15004,20 +15004,20 @@ var _d = class e {
 				(e.FallDistance = I.float(this.fallDistance)),
 				(e.Fire = Wu(this.fire)),
 				(e.OnGround = I.byte(+!!this.onGround)),
-				this.VdSTulosoRJUsjlU() != null &&
-					this.VdSTulosoRJUsjlU().length > 0 &&
-					((e.CustomName = I.string(this.VdSTulosoRJUsjlU())),
-					(e.CustomNameVisible = I.byte(+!!this.lFtbzHrxsKTavmJZMrgngq()))),
+				this.DJoetASSrKfWJqTF() != null &&
+					this.DJoetASSrKfWJqTF().length > 0 &&
+					((e.CustomName = I.string(this.DJoetASSrKfWJqTF())),
+					(e.CustomNameVisible = I.byte(+!!this.tZpmSkqHftfmOLxJChuFCP()))),
 				(e.Dimension = I.int(this.dimension)),
 				(e.PortalCooldown = I.int(this.timeUntilPortal)),
 				(e.UUID = I.string(this.uuid)),
-				this.ITNNvRucdJxvZNHGg() && (e.RuntimeId = I.int(this.id)),
+				this.UCDFfgDMqYygRXQrH() && (e.RuntimeId = I.int(this.id)),
 				this.writeEntityToNBT(e);
 		}
-		ITNNvRucdJxvZNHGg() {
+		UCDFfgDMqYygRXQrH() {
 			return !0;
 		}
-		LkIOwbehIgJWMWtBeZHeZb() {
+		sqwVVmJxfkiMHJRmIvNhQr() {
 			return 0.1;
 		}
 		readFromNBT(t) {
@@ -15034,8 +15034,8 @@ var _d = class e {
 				this.motion.set(r[0], r[1], r[2]),
 				t.CustomName &&
 					t.CustomName.length > 0 &&
-					this.IbygoVOqgFGXPfjV(t.CustomName),
-				this.kHkiEBFLiQqRRIPledrzrk(!!t.CustomNameVisible),
+					this.rWOUQMSwUHBzMkKr(t.CustomName),
+				this.gFWWNlruGCdLjlTbMRlbUz(!!t.CustomNameVisible),
 				(this.yaw = i[0]),
 				(this.pitch = i[1]),
 				(this.prevYaw = this.yaw),
@@ -15046,7 +15046,7 @@ var _d = class e {
 				(this.dimension = c),
 				(this.timeUntilPortal = l),
 				typeof t.UUID == `string` && t.UUID.length > 0 && (this.uuid = t.UUID),
-				this.ITNNvRucdJxvZNHGg() &&
+				this.UCDFfgDMqYygRXQrH() &&
 					typeof t.RuntimeId == `number` &&
 					t.RuntimeId >= 0)
 			) {
@@ -15056,7 +15056,7 @@ var _d = class e {
 			}
 			this.readEntityFromNBT(t);
 		}
-		DjLxsAdpErp() {
+		gsnLexTUOoB() {
 			return this.dimension == 0;
 		}
 		hasDaylightSky() {
@@ -15065,39 +15065,39 @@ var _d = class e {
 		interactFirst(e) {
 			return !1;
 		}
-		pDwwZFUPwIhfpMQWkcv() {
+		kWZPJoHcpYfmEByUjop() {
 			return !1;
 		}
-		wjuUClKtvzQPmxBSc(e, t) {
+		ZIcvEgwbchnJpSRTK(e, t) {
 			t instanceof jd && Rd.applyThornEnchantments(t, e),
 				Rd.applyArthropodEnchantments(e, t);
 		}
 		isRiding() {
 			return this.ridingEntity != null;
 		}
-		mINSlcXsir() {
+		tfsNPJIkDn() {
 			return 0;
 		}
-		fGDcEubBcNPGGTsvO() {
+		UVNnSRcdgzJKxWHAi() {
 			return this.height * 0.75;
 		}
-		LwgcAWFGPgOyaovPGOC() {
+		TOQVdovXEvLaSJWTakx() {
 			this.riddenByEntity?.setPosition(
 				this.pos.x,
 				this.pos.y +
-					this.fGDcEubBcNPGGTsvO() +
-					this.riddenByEntity.mINSlcXsir(),
+					this.UVNnSRcdgzJKxWHAi() +
+					this.riddenByEntity.tfsNPJIkDn(),
 				this.pos.z,
 			);
 		}
-		TJZuMsFaUPCg() {
+		AINWPKFQWluW() {
 			this.ridingEntity?.dead
 				? (this.ridingEntity = null)
 				: ((this.motion.x = 0),
 					(this.motion.y = 0),
 					(this.motion.z = 0),
 					this.update(),
-					this.ridingEntity != null && this.ridingEntity.LwgcAWFGPgOyaovPGOC());
+					this.ridingEntity != null && this.ridingEntity.TOQVdovXEvLaSJWTakx());
 		}
 		mountEntity(e) {
 			if (e == null)
@@ -15124,15 +15124,15 @@ var _d = class e {
 				(this.ridingEntity = e), (e.riddenByEntity = this);
 			}
 		}
-		ZNmqrigECYcW(e) {
+		eOdWaaoOHUgD(e) {
 			this.timeUntilPortal > 0
-				? (this.timeUntilPortal = this.fsavKVuGwJzplUlGB())
+				? (this.timeUntilPortal = this.wKoIEqCxTnDvaizAs())
 				: (this.world.isServer &&
 						(!this.portalBlock || !e.equals(this.portalBlock)) &&
 						(this.portalBlock = e),
 					(this.inPortal = !0));
 		}
-		fsavKVuGwJzplUlGB() {
+		wKoIEqCxTnDvaizAs() {
 			return 60;
 		}
 		getPortalDestinationDimension() {
@@ -15159,17 +15159,17 @@ var _d = class e {
 				(this.attributesByName = new Map()),
 				(this.attributesMap = new Ac());
 		}
-		qqkcLMRmIFqcHyJsljUK(e) {
+		cVkmDBgmFcMGUCIKwiPU(e) {
 			return this.attributes.get(e);
 		}
-		PrAeWVlmmtZEvdlgUCIrdZmxkT(e) {
+		lgNphCqmZWTvTBKLbsPLdIcZQE(e) {
 			return this.attributesByName.get(e);
 		}
 		registerAttribute(e) {
 			if (this.attributesByName.has(e.getAttributeUnlocalizedName()))
 				throw `Attribute is already registered!`;
 			{
-				let t = this.AZZRmgqGxISMDdMIDPyaWzm(e);
+				let t = this.VMmErWtwEbQQXhgDtQkqaxo(e);
 				this.attributesByName.set(e.getAttributeUnlocalizedName(), t),
 					this.attributes.set(e, t);
 				for (let t = e.getAttribute(); t != null; t = t.getAttribute())
@@ -15177,19 +15177,19 @@ var _d = class e {
 				return t;
 			}
 		}
-		RstmtojGEdCNcaEA() {
+		tXkJCUpOzDLwRtuE() {
 			return this.attributesByName.values();
 		}
-		gmAcDaedgnYCVzG(e) {}
-		ygDxxjEgxuCvUXNyaetyAijL(e) {
+		MnyHBenqFeJYltt(e) {}
+		DNkIHvhCfRAxOyaKVxIXpHXB(e) {
 			for (let [t, n] of e.entries)
 				for (let e of n.values())
-					this.PrAeWVlmmtZEvdlgUCIrdZmxkT(t)?.removeModifier(e.getID());
+					this.lgNphCqmZWTvTBKLbsPLdIcZQE(t)?.removeModifier(e.getID());
 		}
-		NBQVvntkHJZSPycClicOIDR(e) {
+		CZapubpdGrtZNzplOkvBDYZ(e) {
 			for (let [t, n] of e.entries)
 				for (let e of n.values()) {
-					let n = this.PrAeWVlmmtZEvdlgUCIrdZmxkT(t);
+					let n = this.lgNphCqmZWTvTBKLbsPLdIcZQE(t);
 					n != null && (n.removeModifier(e.getID()), n.applyModifier(e));
 				}
 		}
@@ -15202,85 +15202,85 @@ var _d = class e {
 				(this.needsUpdate = !0),
 				(this.attributeMap = e),
 				(this.genericAttribute = t),
-				(this.baseValue = t.DmKKscvyclcaasi());
+				(this.baseValue = t.MZoKOTfzGHzljRS());
 			for (let e = 0; e < 3; ++e) this.mapByOperation.set(e, new Set());
 		}
 		getAttribute() {
 			return this.genericAttribute;
 		}
-		DTdLrAqzOVWn() {
+		kKCBucRYmNwL() {
 			return this.baseValue;
 		}
 		setBaseValue(e) {
-			e != this.DTdLrAqzOVWn() && ((this.baseValue = e), this.nlmQaEZvMpIHa());
+			e != this.kKCBucRYmNwL() && ((this.baseValue = e), this.qgHjIBTiuTmFu());
 		}
-		KbMXuWNFkVumZHggCzpLxKC(e) {
+		dPkXVYYiHiuzUkKhNfovCUi(e) {
 			return this.mapByOperation.get(e) ?? new Set();
 		}
-		owGNOAOCbwran() {
+		iJtuqLuXRTkUa() {
 			let e = [];
 			for (let t = 0; t < 3; ++t)
-				e = e.concat(Array.from(this.KbMXuWNFkVumZHggCzpLxKC(t)));
+				e = e.concat(Array.from(this.dPkXVYYiHiuzUkKhNfovCUi(t)));
 			return e;
 		}
-		sNxOjMhwpHO(e) {
+		yZegssUZEvc(e) {
 			return this.mapByUUID.get(e);
 		}
-		PPqUImzSwLi(e) {
+		TDKMfovPFyT(e) {
 			return this.mapByUUID.get(e.getID()) != null;
 		}
 		applyModifier(e) {
-			if (this.sNxOjMhwpHO(e.getID()) != null)
+			if (this.yZegssUZEvc(e.getID()) != null)
 				throw `Modifier is already applied on this attribute!`;
 			{
 				let t = this.mapByName.get(e.getName());
 				t ?? ((t = new Set()), this.mapByName.set(e.getName(), t));
-				let n = this.mapByOperation.get(e.FySwCOhsdqeU());
-				if (!n) throw `Operation ${e.FySwCOhsdqeU()} is not valid!`;
+				let n = this.mapByOperation.get(e.HyDiPPssDjDo());
+				if (!n) throw `Operation ${e.HyDiPPssDjDo()} is not valid!`;
 				n.add(e),
 					t.add(e),
 					this.mapByUUID.set(e.getID(), e),
-					this.nlmQaEZvMpIHa();
+					this.qgHjIBTiuTmFu();
 			}
 		}
-		nlmQaEZvMpIHa() {
-			(this.needsUpdate = !0), this.attributeMap.gmAcDaedgnYCVzG(this);
+		qgHjIBTiuTmFu() {
+			(this.needsUpdate = !0), this.attributeMap.MnyHBenqFeJYltt(this);
 		}
 		removeModifier(e) {
 			for (let t = 0; t < 3; ++t)
-				this.mapByOperation.get(t)?.delete(this.sNxOjMhwpHO(e));
+				this.mapByOperation.get(t)?.delete(this.yZegssUZEvc(e));
 			let t = this.mapByName.get(e);
 			t != null &&
-				(t.delete(this.sNxOjMhwpHO(e)), t.size < 1 && this.mapByName.delete(e)),
+				(t.delete(this.yZegssUZEvc(e)), t.size < 1 && this.mapByName.delete(e)),
 				this.mapByUUID.delete(e),
-				this.nlmQaEZvMpIHa();
+				this.qgHjIBTiuTmFu();
 		}
-		bxywCXHyKJydeQKwTH() {
-			let e = this.owGNOAOCbwran();
+		blvxEHzUtaqZIwnOht() {
+			let e = this.iJtuqLuXRTkUa();
 			if (e != null) for (let t of e) this.removeModifier(t.getID());
 		}
 		getAttributeValue() {
 			return (
-				(this.needsUpdate &&= ((this.cachedValue = this.EkTHnVffatts()), !1)),
+				(this.needsUpdate &&= ((this.cachedValue = this.rpuLlqsXojvV()), !1)),
 				this.cachedValue
 			);
 		}
-		EkTHnVffatts() {
-			let e = this.DTdLrAqzOVWn();
-			for (let t of this.mukdGbBZpIxjPFmaBXRwl(0)) e += t.MHPZuyMbO();
+		rpuLlqsXojvV() {
+			let e = this.kKCBucRYmNwL();
+			for (let t of this.vcCYmmquNkFdyjPPKHUpy(0)) e += t.JNMkvEhhA();
 			let t = e;
-			for (let n of this.mukdGbBZpIxjPFmaBXRwl(1)) t += e * n.MHPZuyMbO();
-			for (let e of this.mukdGbBZpIxjPFmaBXRwl(2)) t *= 1 + e.MHPZuyMbO();
-			return this.genericAttribute.WSqcbKglIt(t);
+			for (let n of this.vcCYmmquNkFdyjPPKHUpy(1)) t += e * n.JNMkvEhhA();
+			for (let e of this.vcCYmmquNkFdyjPPKHUpy(2)) t *= 1 + e.JNMkvEhhA();
+			return this.genericAttribute.VmEbxrtVOW(t);
 		}
-		mukdGbBZpIxjPFmaBXRwl(e) {
+		vcCYmmquNkFdyjPPKHUpy(e) {
 			let t = new Set();
-			for (let n of this.KbMXuWNFkVumZHggCzpLxKC(e)) t.add(n);
+			for (let n of this.dPkXVYYiHiuzUkKhNfovCUi(e)) t.add(n);
 			let n = this.genericAttribute.getAttribute();
 			for (; n; ) {
-				let r = this.attributeMap.qqkcLMRmIFqcHyJsljUK(n);
+				let r = this.attributeMap.cVkmDBgmFcMGUCIKwiPU(n);
 				if (r) {
-					for (let n of r.KbMXuWNFkVumZHggCzpLxKC(e)) t.add(n);
+					for (let n of r.dPkXVYYiHiuzUkKhNfovCUi(e)) t.add(n);
 					n = n.getAttribute();
 				} else break;
 			}
@@ -15293,37 +15293,37 @@ var _d = class e {
 				(this.attributeInstanceSet = new Set()),
 				(this.descriptionToAttributeInstanceMap = new Map());
 		}
-		qqkcLMRmIFqcHyJsljUK(e) {
-			return super.qqkcLMRmIFqcHyJsljUK(e);
+		cVkmDBgmFcMGUCIKwiPU(e) {
+			return super.cVkmDBgmFcMGUCIKwiPU(e);
 		}
-		PrAeWVlmmtZEvdlgUCIrdZmxkT(e) {
-			let t = super.PrAeWVlmmtZEvdlgUCIrdZmxkT(e);
+		lgNphCqmZWTvTBKLbsPLdIcZQE(e) {
+			let t = super.lgNphCqmZWTvTBKLbsPLdIcZQE(e);
 			return (t ??= this.descriptionToAttributeInstanceMap.get(e)), t;
 		}
 		registerAttribute(e) {
 			let t = super.registerAttribute(e);
 			return (
 				e instanceof Ou &&
-					e.MeqdJTTbeFrLBX() != null &&
-					this.descriptionToAttributeInstanceMap.set(e.MeqdJTTbeFrLBX(), t),
+					e.ntnkYMNhdXDILh() != null &&
+					this.descriptionToAttributeInstanceMap.set(e.ntnkYMNhdXDILh(), t),
 				t
 			);
 		}
-		AZZRmgqGxISMDdMIDPyaWzm(e) {
+		VMmErWtwEbQQXhgDtQkqaxo(e) {
 			return new gie(this, e);
 		}
-		gmAcDaedgnYCVzG(e) {
-			e.getAttribute().GjKAWXWKTAiMBa() && this.attributeInstanceSet.add(e);
+		MnyHBenqFeJYltt(e) {
+			e.getAttribute().eiOqcVcbaRkmMa() && this.attributeInstanceSet.add(e);
 			for (let t of this.attributesMap.get(e.getAttribute()))
-				this.qqkcLMRmIFqcHyJsljUK(t)?.nlmQaEZvMpIHa();
+				this.cVkmDBgmFcMGUCIKwiPU(t)?.qgHjIBTiuTmFu();
 		}
-		wZTjCcsrHAhRKkFtWNAwAJO() {
+		yseBNPLhZQaGtLUWxjrPlVM() {
 			return this.attributeInstanceSet;
 		}
-		LMzcaQSPtWHfzTrqWwea() {
+		RZnIYEGnPBrjPfbyRzXS() {
 			let e = new Set();
-			for (let t of this.RstmtojGEdCNcaEA())
-				t.getAttribute().GjKAWXWKTAiMBa() && e.add(t);
+			for (let t of this.tXkJCUpOzDLwRtuE())
+				t.getAttribute().eiOqcVcbaRkmMa() && e.add(t);
 			return e;
 		}
 	},
@@ -15366,7 +15366,7 @@ var _d = class e {
 					(this.motion.x = (Math.random() - Math.random()) * 0.2),
 					(this.motion.z = (Math.random() - Math.random()) * 0.2),
 					this.playSound(`random.fizz`, 0.4, 2 + Math.random() * 0.4)),
-				this.GGUxaAuNbGvmqgs(
+				this.riKimPyBmnPzBqM(
 					this.pos.x,
 					(this.getEntityBoundingBox().min.y +
 						this.getEntityBoundingBox().max.y) /
@@ -15419,14 +15419,14 @@ var _d = class e {
 				++this.xpOrbAge,
 				this.xpOrbAge >= 6e3 && this.setDead();
 		}
-		lmXWleCazlfJFvUFMrx() {
+		zqPkxmzZEVAnEpkRTxw() {
 			return this.world.handleMaterialAcceleration(
 				this.getEntityBoundingBox(),
 				L.water,
 				this,
 			);
 		}
-		bzTXUlRQNSpCac(e) {
+		atrozebTflHGie(e) {
 			this.attackEntityFrom(Ip.IN_FIRE, e);
 		}
 		attackEntityFrom(e, t) {
@@ -15458,14 +15458,14 @@ var _d = class e {
 						0.1,
 						0.5 * ((Math.random() - Math.random()) * 0.7 + 1.8),
 					),
-					e.YWGaNKsEOSxG(this, 1),
-					e.aBfXzJIWtPZDV(this.xpValue),
+					e.DmUZakaNjjmz(this, 1),
+					e.YftjwvlNjBdBv(this.xpValue),
 					this.setDead()));
 		}
-		yMYLjCzbSL() {
+		sbkysUnrCs() {
 			return this.xpValue;
 		}
-		wvAxisAlignedBoundingBoxormalizeAngleBHvLDnormalizeAngleHn() {
+		NkEiTUBczJCxSv() {
 			return this.xpValue >= 2477
 				? 10
 				: this.xpValue >= 1237
@@ -15509,7 +15509,7 @@ var _d = class e {
 													? 3
 													: 1;
 		}
-		sJIprGRZnPevqsBzi() {
+		ehLgaMlKSBMbluyqR() {
 			return !1;
 		}
 	},
@@ -15592,11 +15592,11 @@ var _d = class e {
 		}
 		removeAttributesModifiersFromEntity(e, t, n) {
 			for (let [e, n] of this.attributeModifierMap.entries())
-				t.qqkcLMRmIFqcHyJsljUK(e)?.removeModifier(n.getID());
+				t.cVkmDBgmFcMGUCIKwiPU(e)?.removeModifier(n.getID());
 		}
 		applyAttributesModifiersToEntity(e, t, n) {
 			for (let [e, r] of this.attributeModifierMap.entries()) {
-				let i = t.qqkcLMRmIFqcHyJsljUK(e);
+				let i = t.cVkmDBgmFcMGUCIKwiPU(e);
 				if (i != null) {
 					let e = r;
 					i.removeModifier(r.getID()),
@@ -15605,14 +15605,14 @@ var _d = class e {
 								e.getID(),
 								this.getName() + ` ` + n,
 								this.getAttributeModifierAmount(n, e),
-								e.FySwCOhsdqeU(),
+								e.HyDiPPssDjDo(),
 							),
 						);
 				}
 			}
 		}
 		getAttributeModifierAmount(e, t) {
-			return t.MHPZuyMbO() * (e + 1);
+			return t.JNMkvEhhA() * (e + 1);
 		}
 	},
 	vie = class extends Cd {
@@ -15620,11 +15620,11 @@ var _d = class e {
 			super(e, t, n, r);
 		}
 		removeAttributesModifiersFromEntity(e, t, n) {
-			e.GALKgBiyMMrSYweqNbA(e.BLLuIKatBgaHewiQxEe() - 4 * (n + 1)),
+			e.BmCtIdqszlDQIDxEJZR(e.ERvLKgJoRqlOQznMspj() - 4 * (n + 1)),
 				super.removeAttributesModifiersFromEntity(e, t, n);
 		}
 		applyAttributesModifiersToEntity(e, t, n) {
-			e.GALKgBiyMMrSYweqNbA(e.BLLuIKatBgaHewiQxEe() + 4 * (n + 1)),
+			e.BmCtIdqszlDQIDxEJZR(e.ERvLKgJoRqlOQznMspj() + 4 * (n + 1)),
 				super.applyAttributesModifiersToEntity(e, t, n);
 		}
 	},
@@ -15649,12 +15649,12 @@ var _d = class e {
 	},
 	yie = class extends Td {
 		performEffect(e, t) {
-			e.UucwawcCkLzUsr()
+			e.qKjGtHuyGsxAPq()
 				? e.heal(Math.max(4 << t, 0))
 				: e.attackEntityFrom(Ip.MAGIC, 6 << t);
 		}
 		affectEntity(e, t, n, r, i) {
-			if (n.UucwawcCkLzUsr()) {
+			if (n.qKjGtHuyGsxAPq()) {
 				let e = (0, M.toInteger)(i * (4 << r) + 0.5);
 				n.heal(e);
 			} else {
@@ -15667,12 +15667,12 @@ var _d = class e {
 	},
 	bie = class extends Td {
 		performEffect(e, t) {
-			e.UucwawcCkLzUsr()
+			e.qKjGtHuyGsxAPq()
 				? e.attackEntityFrom(Ip.MAGIC, 6 << t)
 				: e.heal(Math.max(4 << t, 0));
 		}
 		affectEntity(e, t, n, r, i) {
-			if (n.UucwawcCkLzUsr()) {
+			if (n.qKjGtHuyGsxAPq()) {
 				let a = (0, M.toInteger)(i * (6 << r) + 0.5);
 				e == null
 					? n.attackEntityFrom(Ip.MAGIC, a)
@@ -15958,7 +15958,7 @@ var Die = {
 			this.potionRequirements = new Map();
 		}
 		static {
-			this.ptJgnlrNuXSxJwhp = new Map();
+			this.skUnhtHYTCRNZeUw = new Map();
 		}
 		static {
 			this.DATAVALUE_COLORS = new Map();
@@ -16140,7 +16140,7 @@ var Die = {
 						let a = e.parsePotionEffects(n, 0, n.length, t);
 						if (a > 0) {
 							let n = 0,
-								o = e.ptJgnlrNuXSxJwhp.get(i.getId());
+								o = e.skUnhtHYTCRNZeUw.get(i.getId());
 							o != null &&
 								((n = e.parsePotionEffects(o, 0, o.length, t)),
 								n < 0 && (n = 0)),
@@ -16168,7 +16168,7 @@ var Die = {
 				.setPotionName(`potion.moveSpeed`)
 				.setIconIndex(0, 0)
 				.registerPotionAttributeModifier(
-					ku.eAwmWnqQCXQCI,
+					ku.UNrmpQxnutSuc,
 					`91AEAA56-376B-4498-935B-2F7F68070635`,
 					0.2,
 					2,
@@ -16179,7 +16179,7 @@ var Die = {
 				.setPotionName(`potion.moveSlowdown`)
 				.setIconIndex(1, 0)
 				.registerPotionAttributeModifier(
-					ku.eAwmWnqQCXQCI,
+					ku.UNrmpQxnutSuc,
 					`7107DE5E-7CE8-4030-940E-514C1F160890`,
 					-0.15,
 					2,
@@ -16333,15 +16333,15 @@ Od.potionRequirements.set(kd.regeneration.getId(), `0 & !1 & !2 & !3 & 0+6`),
 	Od.potionRequirements.set(kd.invisibility.getId(), `!0 & 1 & 2 & 3 & 2+6`),
 	Od.potionRequirements.set(kd.waterBreathing.getId(), `0 & !1 & 2 & 3 & 2+6`),
 	Od.potionRequirements.set(kd.jump.getId(), `0 & 1 & !2 & 3 & 3+6`),
-	Od.ptJgnlrNuXSxJwhp.set(kd.moveSpeed.getId(), `5`),
-	Od.ptJgnlrNuXSxJwhp.set(kd.digSpeed.getId(), `5`),
-	Od.ptJgnlrNuXSxJwhp.set(kd.damageBoost.getId(), `5`),
-	Od.ptJgnlrNuXSxJwhp.set(kd.regeneration.getId(), `5`),
-	Od.ptJgnlrNuXSxJwhp.set(kd.harm.getId(), `5`),
-	Od.ptJgnlrNuXSxJwhp.set(kd.heal.getId(), `5`),
-	Od.ptJgnlrNuXSxJwhp.set(kd.resistance.getId(), `5`),
-	Od.ptJgnlrNuXSxJwhp.set(kd.poison.getId(), `5`),
-	Od.ptJgnlrNuXSxJwhp.set(kd.jump.getId(), `5`);
+	Od.skUnhtHYTCRNZeUw.set(kd.moveSpeed.getId(), `5`),
+	Od.skUnhtHYTCRNZeUw.set(kd.digSpeed.getId(), `5`),
+	Od.skUnhtHYTCRNZeUw.set(kd.damageBoost.getId(), `5`),
+	Od.skUnhtHYTCRNZeUw.set(kd.regeneration.getId(), `5`),
+	Od.skUnhtHYTCRNZeUw.set(kd.harm.getId(), `5`),
+	Od.skUnhtHYTCRNZeUw.set(kd.heal.getId(), `5`),
+	Od.skUnhtHYTCRNZeUw.set(kd.resistance.getId(), `5`),
+	Od.skUnhtHYTCRNZeUw.set(kd.poison.getId(), `5`),
+	Od.skUnhtHYTCRNZeUw.set(kd.jump.getId(), `5`);
 var Ad = 0.91,
 	jd = class e extends bd {
 		static {
@@ -16350,7 +16350,7 @@ var Ad = 0.91,
 				`Sprinting speed boost`,
 				0.3,
 				2,
-			).bVPFFFya(!1);
+			).gqVKLGYH(!1);
 		}
 		constructor(e) {
 			super(e),
@@ -16358,7 +16358,7 @@ var Ad = 0.91,
 				(this.jumping = !1),
 				(this.jumpTicks = 0),
 				(this.initialJumpVelocity = 0.42),
-				(this.WtjwRKKoMH = 0),
+				(this.ehLnHaYjaS = 0),
 				(this.moveForward = 0),
 				(this.prevLimbSwingAmount = 0),
 				(this.limbSwingAmount = 0),
@@ -16389,7 +16389,7 @@ var Ad = 0.91,
 				this.applyEntityAttributes(),
 				this.dataWatcher.updateObject(6, this.getMaxHealth());
 		}
-		UCEZBpdjIxaXq() {
+		CxuhYqGRrDzPn() {
 			this.attackEntityFrom(Ip.OUT_OF_WORLD, Number.MAX_VALUE);
 		}
 		entityInit() {
@@ -16401,15 +16401,15 @@ var Ad = 0.91,
 		applyEntityAttributes() {
 			this.getAttributeMap().registerAttribute(ku.maxHealth),
 				this.getAttributeMap().registerAttribute(ku.knockbackResistance),
-				this.getAttributeMap().registerAttribute(ku.eAwmWnqQCXQCI);
+				this.getAttributeMap().registerAttribute(ku.UNrmpQxnutSuc);
 		}
 		getEntityAttribute(e) {
-			return this.getAttributeMap().qqkcLMRmIFqcHyJsljUK(e);
+			return this.getAttributeMap().cVkmDBgmFcMGUCIKwiPU(e);
 		}
 		getAttributeMap() {
 			return (this.attributeMap ??= new _ie()), this.attributeMap;
 		}
-		PiWpPPWPXuHcUeLd() {
+		naABKOSEToGbBvtn() {
 			return this._combatTracker;
 		}
 		lastDamager() {
@@ -16424,30 +16424,30 @@ var Ad = 0.91,
 		getHeldItem() {
 			return this.getEquipmentInSlot(0);
 		}
-		cgQkUAnofbFSdU() {
-			super.cgQkUAnofbFSdU();
+		ryrCDImKmrtIHZ() {
+			super.ryrCDImKmrtIHZ();
 			let t = this instanceof Pp;
 			this.dead ||
-				(this.XpXGVHIPSpMJGwAINZULQIQXC() &&
+				(this.sWNdlFjURyQMvGDUDHFUIGjqb() &&
 					this.attackEntityFrom(Ip.IN_WALL, 1));
 			let n = t && !1;
 			this.dead ||
-				(this.nXIsIhcaWZXkxWyzuT(L.water)
-					? (!this.uLXfeOWpPqLvwNrJCeil() &&
+				(this.GoFgDwPIsJhtBQUUDv(L.water)
+					? (!this.cJzecDawbiAQWdkAwEOo() &&
 							!n &&
-							(this.qdJoqZMpP(this.DhLlqXfjNvnGFXzmtPcy(this.gXNhkclQz())),
-							this.gXNhkclQz() == -20 &&
-								(this.qdJoqZMpP(0), this.attackEntityFrom(Ip.DROWN, 2))),
+							(this.oxcJGNOfY(this.UCQbImbYiuvfTGMDiIQi(this.WKfzLltKN())),
+							this.WKfzLltKN() == -20 &&
+								(this.oxcJGNOfY(0), this.attackEntityFrom(Ip.DROWN, 2))),
 						this.world.isServer &&
 							this.isRiding() &&
 							this.ridingEntity instanceof e &&
 							this.mountEntity(null))
-					: this.qdJoqZMpP(300)),
+					: this.oxcJGNOfY(300)),
 				this.hurtTime > 0 && --this.hurtTime,
 				this.hurtResistantTime > 0 &&
 					!this.netHandler &&
 					--this.hurtResistantTime,
-				this.getHealth() <= 0 && this.AxisAlignedBoundingBoxaGDciHcBynz(),
+				this.getHealth() <= 0 && this.hjjkWTnBrGtCR(),
 				this.recentlyHit > 0
 					? --this.recentlyHit
 					: (this.attackingPlayer = null),
@@ -16457,9 +16457,9 @@ var Ad = 0.91,
 				this.entityLivingToAttack != null &&
 					(this.entityLivingToAttack.isEntityAlive()
 						? this.ticksExisted - this.revengeTimer > 100 &&
-							this.FEzhuaHkorHsJYdO(null)
-						: this.FEzhuaHkorHsJYdO(null)),
-				this.HMupFzAUvNVPcDxyYQN(),
+							this.bVtiYlEnbobYtGFI(null)
+						: this.bVtiYlEnbobYtGFI(null)),
+				this.HCejluQyfkjnrAamqBC(),
 				(this.prevRenderYawOffset = this.renderYawOffset),
 				(this.prevRotationYawHead = this.yawHead),
 				(this.prevYaw = this.yaw),
@@ -16468,29 +16468,29 @@ var Ad = 0.91,
 		isChild() {
 			return !1;
 		}
-		xgxajGby() {
+		DhUaMZZX() {
 			return !1;
 		}
 		getExperiencePoints(e) {
 			return 0;
 		}
-		AxisAlignedBoundingBoxaGDciHcBynz() {
+		hjjkWTnBrGtCR() {
 			++this.deathTime, this.deathTime;
 		}
-		qdJoqZMpP(e) {
+		oxcJGNOfY(e) {
 			this.oxygen = e;
 		}
-		gXNhkclQz() {
+		WKfzLltKN() {
 			return this.oxygen;
 		}
-		DhLlqXfjNvnGFXzmtPcy(e) {
+		UCQbImbYiuvfTGMDiIQi(e) {
 			return e - 1;
 		}
-		uLXfeOWpPqLvwNrJCeil() {
+		cJzecDawbiAQWdkAwEOo() {
 			return !1;
 		}
 		updateFallState(e, t, n, r) {
-			this.inWater || this.lmXWleCazlfJFvUFMrx(),
+			this.inWater || this.zqPkxmzZEVAnEpkRTxw(),
 				super.updateFallState(e, t, n, r);
 		}
 		static {
@@ -16499,39 +16499,39 @@ var Ad = 0.91,
 		static {
 			this.collideScratchBox = new AxisAlignedBoundingBox();
 		}
-		mCnMxRRWpVDTanqnfgcQQpnry() {
+		ibTTWQDPvIGNwhpgMOBtPaHgM() {
 			let t = e.collideScratchBox
 					.copy(this.getEntityBoundingBox())
 					.expandByVector(e.collidePadding),
 				n = this.world.getEntitiesInAABBexcluding(this, t);
-			for (let e of n) e.qbXTAswgDfe() && this.UxRcfwsweCGeAjcVG(e);
+			for (let e of n) e.dvcIiBvoPKK() && this.SWUXfPLWyCPjVkSHq(e);
 		}
-		qbXTAswgDfe() {
+		dvcIiBvoPKK() {
 			return this.getHealth() > 0;
 		}
-		mSdEGMIhTBC() {
+		kGrTCHtbfVD() {
 			return this.entityLivingToAttack;
 		}
-		jRFItkqynlMjYqc() {
+		KUBKfLuJIwNuLhX() {
 			return this.revengeTimer;
 		}
-		FEzhuaHkorHsJYdO(e) {
+		bVtiYlEnbobYtGFI(e) {
 			(this.entityLivingToAttack = e), (this.revengeTimer = this.ticksExisted);
 		}
-		hXqSBEuGVNDbOGB() {
+		SHRSzckLyjhhLpL() {
 			return this.lastAttacker;
 		}
-		tQTMDbyyngaJzZKXlFW() {
+		IOjzaThBKJdPcwMHJzw() {
 			return this.lastAttackerTime;
 		}
-		kEpAAgtrkkRRXrh(t) {
+		VAnZxdjrBlMmLRm(t) {
 			t instanceof e ? (this.lastAttacker = t) : (this.lastAttacker = null),
 				(this.lastAttackerTime = this.ticksExisted);
 		}
-		UODOeg() {
+		qTLGYR() {
 			return this.entityAge;
 		}
-		UxRcfwsweCGeAjcVG(e) {
+		SWUXfPLWyCPjVkSHq(e) {
 			if (this.noPhysics || e.noPhysics) return;
 			let t = e.pos.x - this.pos.x,
 				n = e.pos.z - this.pos.z,
@@ -16548,7 +16548,7 @@ var Ad = 0.91,
 					(this.motion.z += -n);
 			}
 		}
-		hEDegRKHWS(e) {
+		nEcpMcbTYb(e) {
 			this.jumping = e;
 		}
 		jump() {
@@ -16563,15 +16563,15 @@ var Ad = 0.91,
 		}
 		setSprinting(t) {
 			super.setSprinting(t);
-			let n = this.getEntityAttribute(ku.eAwmWnqQCXQCI);
-			n.sNxOjMhwpHO(`sprint`) != null &&
+			let n = this.getEntityAttribute(ku.UNrmpQxnutSuc);
+			n.yZegssUZEvc(`sprint`) != null &&
 				n.removeModifier(e.sprintingSpeedBoostModifier.getID()),
 				t && n.applyModifier(e.sprintingSpeedBoostModifier);
 		}
-		YWGaNKsEOSxG(e, t) {
+		DmUZakaNjjmz(e, t) {
 			!e.dead && this.world.isServer;
 		}
-		obdqbaHnxoQLoSa(e) {
+		bHlSoffXqDXTGkh(e) {
 			return (
 				qu(
 					new D(this.pos.x, this.pos.y + this.getEyeHeight(), this.pos.z),
@@ -16583,25 +16583,25 @@ var Ad = 0.91,
 				) == null
 			);
 		}
-		OkbdEZolbahya() {
+		wozFRbmPWWFMw() {
 			return this.world.isServer;
 		}
-		EYUhaqXnEwpzoFKAH() {
+		fqfjJNQBtLMfMTrYw() {
 			return this.getHealth() <= 0;
 		}
-		FKUqICcUcjeWXclHGSNzbfo() {}
-		QmEvvfMzhFzxgcDhjGbJa(e) {
+		lLdZZHCMcbIKiWoyPdNXcXh() {}
+		uJjnKDoNeSpxGKTsZqCnV(e) {
 			this.playSound(`random.break`, 0.8, 0.8 + Math.random() * 0.4);
 			for (let e = 0; e < 5; ++e);
 		}
 		update() {
 			super.update(),
 				this.world.isServer &&
-					(this.jSjaGhKUfZuYu(),
-					this.ticksExisted % 20 == 0 && this.PiWpPPWPXuHcUeLd().reset()),
+					(this.baOmbCMoDTQEF(),
+					this.ticksExisted % 20 == 0 && this.naABKOSEToGbBvtn().reset()),
 				this.onLivingUpdate();
 		}
-		jSjaGhKUfZuYu() {
+		baOmbCMoDTQEF() {
 			if (!this.world.isServer) return;
 			let e = [];
 			for (let t = 0; t < 5; ++t) {
@@ -16611,11 +16611,11 @@ var Ad = 0.91,
 				let i = t == 0 ? 1 : t + 2;
 				e.push(new Iu({ slot: i, item: r ? r.toProto() : Hp.PB_EMPTY })),
 					n != null &&
-						this.attributeMap.ygDxxjEgxuCvUXNyaetyAijL(
+						this.attributeMap.DNkIHvhCfRAxOyaKVxIXpHXB(
 							n.getAttributeModifiers(),
 						),
 					r != null &&
-						this.attributeMap.NBQVvntkHJZSPycClicOIDR(
+						this.attributeMap.CZapubpdGrtZNzplOkvBDYZ(
 							r.getAttributeModifiers(),
 						),
 					(this.previousEquipment[t] = r == null ? null : r.clone());
@@ -16627,16 +16627,16 @@ var Ad = 0.91,
 		}
 		mountEntity(e) {
 			this.ridingEntity != null && e == null
-				? (this.world.isServer && this.hFrZcMLRaeCAMT(this.ridingEntity),
+				? (this.world.isServer && this.KvuFchCiXFSuUR(this.ridingEntity),
 					this.ridingEntity != null &&
 						(this.ridingEntity.riddenByEntity = null),
 					(this.ridingEntity = null))
 				: super.mountEntity(e);
 		}
-		TJZuMsFaUPCg() {
-			super.TJZuMsFaUPCg(), (this.fallDistance = 0);
+		AINWPKFQWluW() {
+			super.AINWPKFQWluW(), (this.fallDistance = 0);
 		}
-		hFrZcMLRaeCAMT(e) {
+		KvuFchCiXFSuUR(e) {
 			let t = this.pos.x,
 				n = this.getEntityBoundingBox().min.y + this.height,
 				r = this.pos.z;
@@ -16705,14 +16705,14 @@ var Ad = 0.91,
 						(this.newPitch - this.pitch) / this.newPosRotationIncrements),
 					--this.newPosRotationIncrements,
 					this.setPosition(e, t, n),
-					this.lZtwWlpkKOS(this.yaw, this.pitch);
+					this.vmvCXvZBbtI(this.yaw, this.pitch);
 			}
 			Math.abs(this.motion.x) < 0.005 && (this.motion.x = 0),
 				Math.abs(this.motion.y) < 0.005 && (this.motion.y = 0),
 				Math.abs(this.motion.z) < 0.005 && (this.motion.z = 0),
-				this.EYUhaqXnEwpzoFKAH()
-					? ((this.jumping = !1), (this.WtjwRKKoMH = 0), (this.moveForward = 0))
-					: this.OkbdEZolbahya() && this.FKUqICcUcjeWXclHGSNzbfo(),
+				this.fqfjJNQBtLMfMTrYw()
+					? ((this.jumping = !1), (this.ehLnHaYjaS = 0), (this.moveForward = 0))
+					: this.wozFRbmPWWFMw() && this.lLdZZHCMcbIKiWoyPdNXcXh(),
 				this.jumping
 					? this.inWater || this.inLava
 						? (this.motion.y += 0.05)
@@ -16721,14 +16721,14 @@ var Ad = 0.91,
 							(this.jump(), (this.jumpTicks = 10))
 					: (this.jumpTicks = 0),
 				this.isRiding() ||
-					((this.WtjwRKKoMH *= 0.98), (this.moveForward *= 0.98)),
-				this.hoqJIksUwbaQHaMKlPEus(this.WtjwRKKoMH, this.moveForward),
+					((this.ehLnHaYjaS *= 0.98), (this.moveForward *= 0.98)),
+				this.HXdEIBTdHpEvcDVpuZvhf(this.ehLnHaYjaS, this.moveForward),
 				this.world.isServer &&
 					this.doEntityCollision &&
-					this.mCnMxRRWpVDTanqnfgcQQpnry();
+					this.ibTTWQDPvIGNwhpgMOBtPaHgM();
 		}
-		hoqJIksUwbaQHaMKlPEus(e, t) {
-			if (this.OkbdEZolbahya())
+		HXdEIBTdHpEvcDVpuZvhf(e, t) {
+			if (this.wozFRbmPWWFMw())
 				if (this.inWater) {
 					let n = this.pos.y,
 						r = 0.8,
@@ -16738,15 +16738,15 @@ var Ad = 0.91,
 						this.onGround || (a *= 0.5),
 						a > 0 &&
 							((r += ((0.546 - r) * a) / 3),
-							(i += ((this.ExbIaiLqJTOCaR() * 1 - i) * a) / 3)),
-						this.pqNYvdzfdA(e, t, i),
+							(i += ((this.IwHTaQdohlaHYk() * 1 - i) * a) / 3)),
+						this.pXqvfmRnNb(e, t, i),
 						this.moveEntity(this.motion.x, this.motion.y, this.motion.z),
 						(this.motion.x *= r),
 						(this.motion.y *= 0.8),
 						(this.motion.z *= r),
 						(this.motion.y -= 0.02),
 						this.isCollidedHorizontally &&
-							this.lORudRVhuJBBdZyhtppVtjgy(
+							this.TtWaAJvGPREIQCCZlOhYfoBB(
 								this.motion.x,
 								this.motion.y + 0.6 - this.pos.y + n,
 								this.motion.z,
@@ -16763,9 +16763,9 @@ var Ad = 0.91,
 					}
 					let a = 0.16277136 / (i * i * i),
 						o = this.onGround
-							? this.ExbIaiLqJTOCaR() * a
+							? this.IwHTaQdohlaHYk() * a
 							: this.jumpMovementFactor;
-					if ((this.pqNYvdzfdA(e, t, o), this.isOnLadder())) {
+					if ((this.pXqvfmRnNb(e, t, o), this.isOnLadder())) {
 						let e = 0.15;
 						(this.motion.x = (0, M.clamp)(this.motion.x, -0.15, e)),
 							(this.motion.z = (0, M.clamp)(this.motion.z, -0.15, e)),
@@ -16776,7 +16776,7 @@ var Ad = 0.91,
 					this.moveEntity(this.motion.x, this.motion.y, this.motion.z),
 						this.isCollidedHorizontally &&
 							this.isOnLadder() &&
-							(this.motion.y = this.nJFNaEuKIkTOJM()),
+							(this.motion.y = this.TLgsvoyvTcNVUI()),
 						(this.motion.y -= 0.08),
 						(this.motion.y *= 0.98),
 						(this.motion.x *= i),
@@ -16789,33 +16789,33 @@ var Ad = 0.91,
 			(this.limbSwingAmount += (i - this.limbSwingAmount) * 0.4),
 				(this.limbSwing += this.limbSwingAmount);
 		}
-		ExbIaiLqJTOCaR() {
+		IwHTaQdohlaHYk() {
 			return this.landMovementFactor;
 		}
-		etCAZJbRaJNeBM(e) {
+		npwzFfMkTreHhB(e) {
 			this.landMovementFactor = e;
 		}
 		attackEntityAsMob(e) {
-			return this.kEpAAgtrkkRRXrh(e), !1;
+			return this.VAnZxdjrBlMmLRm(e), !1;
 		}
 		getEquipmentInSlot(e) {
 			throw Error(`getEquipmentInSlot Method not implemented.`);
 		}
-		tsLiikyaLZAWgTFJNP() {
+		WntfhkXqbYTOXUSwXz() {
 			let e = 0;
 			for (let t of this.getInventory()) {
 				let n = t.getItem();
 				if (t != null && n instanceof xu) {
-					let t = n.xqnKDrNhjjkihNXKqy;
+					let t = n.aYzPzWldJmAWUrxUyi;
 					e += t;
 				}
 			}
 			return e;
 		}
-		jHZeGgKUnTy(e) {}
-		cdvQJTMGrDNzoueaisKACY(e, t) {
+		pGLYzZmROas(e) {}
+		vtbnONJyTjrTczHMuPZkNZ(e, t) {
 			if (!e.isUnblockable()) {
-				this.jHZeGgKUnTy(t);
+				this.pGLYzZmROas(t);
 				let e = 0,
 					n = 0;
 				for (let t of this.getInventory().filter(
@@ -16824,13 +16824,13 @@ var Ad = 0.91,
 					if (!t) continue;
 					let r = t.item;
 					r instanceof xu &&
-						((e += r.xqnKDrNhjjkihNXKqy), (n += r.toughness || 0));
+						((e += r.aYzPzWldJmAWUrxUyi), (n += r.toughness || 0));
 				}
 				t *= 1 - Math.min(20, Math.max(e / 5, e - (4 * t) / (n + 8))) / 25;
 			}
 			return t;
 		}
-		mHGrMFkNxsdWDnVWPkEBgFkOnDdNT(e, t) {
+		jVpFSweoBYMrprysyxuetzsqZNMfv(e, t) {
 			if (e.isDamageAbsolute()) return t;
 			if (this.isPotionActive(kd.resistance) && e != Ip.OUT_OF_WORLD) {
 				let e =
@@ -16848,26 +16848,26 @@ var Ad = 0.91,
 				return t;
 			}
 		}
-		uVIBeaNNaNUS(e, t) {
+		JXJySMcbYLoY(e, t) {
 			if (this.isEntityInvulnerable(e)) return;
-			(t = this.cdvQJTMGrDNzoueaisKACY(e, t)),
-				(t = this.mHGrMFkNxsdWDnVWPkEBgFkOnDdNT(e, t));
+			(t = this.vtbnONJyTjrTczHMuPZkNZ(e, t)),
+				(t = this.jVpFSweoBYMrprysyxuetzsqZNMfv(e, t));
 			let n = t;
 			if (
-				((t = Math.max(t - this.BLLuIKatBgaHewiQxEe(), 0)),
-				this.GALKgBiyMMrSYweqNbA(this.BLLuIKatBgaHewiQxEe() - (n - t)),
+				((t = Math.max(t - this.ERvLKgJoRqlOQznMspj(), 0)),
+				this.BmCtIdqszlDQIDxEJZR(this.ERvLKgJoRqlOQznMspj() - (n - t)),
 				t != 0)
 			) {
 				let n = this.getHealth();
 				this.setHealth(this.getHealth() - Math.floor(t)),
-					this.PiWpPPWPXuHcUeLd().trackDamage(e, n, t),
-					this.GALKgBiyMMrSYweqNbA(this.BLLuIKatBgaHewiQxEe() - t);
+					this.naABKOSEToGbBvtn().trackDamage(e, n, t),
+					this.BmCtIdqszlDQIDxEJZR(this.ERvLKgJoRqlOQznMspj() - t);
 			}
 		}
-		BLLuIKatBgaHewiQxEe() {
+		ERvLKgJoRqlOQznMspj() {
 			return this.absorptionAmount;
 		}
-		GALKgBiyMMrSYweqNbA(e) {
+		BmCtIdqszlDQIDxEJZR(e) {
 			e < 0 && (e = 0), (this.absorptionAmount = e);
 		}
 		knockback(e, t, n, r) {
@@ -16887,7 +16887,7 @@ var Ad = 0.91,
 					this.motion.y > 0.4 && (this.motion.y = 0.4);
 			}
 		}
-		xUIeLyTteVILWzTQxKKj() {
+		MFxPOFlWfovShdoaUbfQ() {
 			return xd.UNDEFINED;
 		}
 		setBeenAttacked() {
@@ -16895,7 +16895,7 @@ var Ad = 0.91,
 				Math.random() >=
 				this.getEntityAttribute(ku.knockbackResistance).getAttributeValue();
 		}
-		UIQLpQQgeriGQiFCn() {
+		xgamEtjXdzOELHxAI() {
 			return !1;
 		}
 		attackEntityFrom(t, n) {
@@ -16905,7 +16905,7 @@ var Ad = 0.91,
 					this.getHealth() <= 0 ||
 					(t.isFireDamage() &&
 						(this.isPotionActive(kd.fireResistance) ||
-							this.UIQLpQQgeriGQiFCn()))
+							this.xgamEtjXdzOELHxAI()))
 				)
 					return !1;
 				t == Ip.FALLING_BLOCK &&
@@ -16931,11 +16931,11 @@ var Ad = 0.91,
 				let a = t.getEntity(),
 					o = a ? new Bc(a, this, t, i) : new zc(this, t, i);
 				if ((this.world.handleEvent(o), o.cancelled)) return !1;
-				this.uVIBeaNNaNUS(t, o.damage), (this.attackedAtYaw = 0);
+				this.JXJySMcbYLoY(t, o.damage), (this.attackedAtYaw = 0);
 				let s = t.getEntity();
 				if (
 					(s &&
-						(s instanceof e && this.FEzhuaHkorHsJYdO(s),
+						(s instanceof e && this.bVtiYlEnbobYtGFI(s),
 						s instanceof Pp &&
 							((this.recentlyHit = 100), (this.attackingPlayer = s))),
 					r)
@@ -16956,21 +16956,21 @@ var Ad = 0.91,
 						this.knockback(s, n, e, t);
 					} else this.attackedAtYaw = Math.random() * 2 * 180;
 				if (this.getHealth() <= 0) {
-					let e = this.gouKMNFCdgbjV();
+					let e = this.QuJuhCNgbsKSb();
 					r &&
 						e != null &&
-						this.playSound(e, this.wlCioWlebprXvo(), this.DuCZlkMASxbnm()),
+						this.playSound(e, this.nwYBOcehuUBUra(), this.vZeaYsxUvWUYK()),
 						this.onDeath(t);
 				} else {
-					let e = this.ChOZkxoyuHUI();
+					let e = this.mvRCETWznABF();
 					r &&
 						e != null &&
-						this.playSound(e, this.wlCioWlebprXvo(), this.DuCZlkMASxbnm());
+						this.playSound(e, this.nwYBOcehuUBUra(), this.vZeaYsxUvWUYK());
 				}
 				return !0;
 			}
 		}
-		DuCZlkMASxbnm() {
+		vZeaYsxUvWUYK() {
 			return this.isChild()
 				? (Math.random() - Math.random()) * 0.2 + 1.5
 				: (Math.random() - Math.random()) * 0.2 + 1;
@@ -16988,26 +16988,26 @@ var Ad = 0.91,
 			let t = e.getEntity();
 			if (
 				(this.lastDamager(),
-				t?.SZgSAZePduPg(this),
+				t?.iZXsGnhoUpTJ(this),
 				this.setDead(),
 				this.world.isServer &&
 					!(this instanceof Pp) &&
 					this.world.handleEvent(new Ru(this, [])),
-				this.PiWpPPWPXuHcUeLd().reset(),
+				this.naABKOSEToGbBvtn().reset(),
 				this.world.isServer)
 			) {
 				let e = 0;
 				t instanceof Pp && (e = Rd.getLootingModifier(t)),
-					this.SfjlxaYTKMh() &&
+					this.ikdUuDSIyzA() &&
 						(this.dropFewItems(this.recentlyHit > 0, e),
 						this.recentlyHit > 0 &&
 							Math.random() < 0.025 + e * 0.01 &&
-							this.okMbrEXPVcDJK());
+							this.iKOuFnLQokDhm());
 			}
 			if (
 				this.world.isServer &&
-				(this.recentlyHit > 0 || this.xgxajGby()) &&
-				this.SfjlxaYTKMh()
+				(this.recentlyHit > 0 || this.DhUaMZZX()) &&
+				this.ikdUuDSIyzA()
 			) {
 				let e = this.getExperiencePoints(this.attackingPlayer);
 				for (; e > 0; ) {
@@ -17028,7 +17028,7 @@ var Ad = 0.91,
 			let a = this.attackEntityFrom(Ip.FALL, i);
 			if (this.world.isServer) {
 				if (!a) return;
-				this.world.playSoundAtEntity(this, this.ZmJwdaaAXBUHBzqVCX(i), 1, 1);
+				this.world.playSoundAtEntity(this, this.SCCcGlmLwEIUgmFTgi(i), 1, 1);
 			}
 			let o = Math.floor(this.pos.x),
 				s = Math.floor(this.pos.y - 0.2),
@@ -17037,7 +17037,7 @@ var Ad = 0.91,
 			l.sound &&
 				this.world.playSoundAtEntity(this, l.sound.getStepSound(), 0.5, 0.75);
 		}
-		ZmJwdaaAXBUHBzqVCX(e) {
+		SCCcGlmLwEIUgmFTgi(e) {
 			return e > 4
 				? `game.player.hurt.fall.big`
 				: `game.player.hurt.fall.small`;
@@ -17045,15 +17045,15 @@ var Ad = 0.91,
 		getSoundInfo() {
 			return {};
 		}
-		ChOZkxoyuHUI() {
+		mvRCETWznABF() {
 			return this.getSoundInfo().hurt ?? `game.neutral.hurt`;
 		}
-		gouKMNFCdgbjV() {
+		QuJuhCNgbsKSb() {
 			return this.getSoundInfo().death ?? `game.neutral.die`;
 		}
-		okMbrEXPVcDJK() {}
+		iKOuFnLQokDhm() {}
 		dropFewItems(e, t) {}
-		SfjlxaYTKMh() {
+		ikdUuDSIyzA() {
 			return !this.isChild();
 		}
 		canBeCollidedWith() {
@@ -17062,7 +17062,7 @@ var Ad = 0.91,
 		getInventory() {
 			return null;
 		}
-		wlCioWlebprXvo() {
+		nwYBOcehuUBUra() {
 			return this.getSoundInfo().soundVolume ?? 1;
 		}
 		kill() {
@@ -17074,14 +17074,14 @@ var Ad = 0.91,
 				(e.HurtTime = Wu(this.hurtTime)),
 				(e.HurtByTimestamp = I.int(this.revengeTimer)),
 				(e.DeathTime = Wu(this.deathTime)),
-				(e.AbsorptionAmount = I.float(this.BLLuIKatBgaHewiQxEe()));
+				(e.AbsorptionAmount = I.float(this.ERvLKgJoRqlOQznMspj()));
 			for (let e of this.getInventory())
 				e != null &&
-					this.attributeMap.ygDxxjEgxuCvUXNyaetyAijL(e.getAttributeModifiers());
-			e.Attributes = ku.oAowZTvPMZJFeSHumVRTdpuwEn(this.getAttributeMap());
+					this.attributeMap.DNkIHvhCfRAxOyaKVxIXpHXB(e.getAttributeModifiers());
+			e.Attributes = ku.guXYQBzaIOvjbBRWKlqALxOIBW(this.getAttributeMap());
 			for (let e of this.getInventory())
 				e != null &&
-					this.attributeMap.NBQVvntkHJZSPycClicOIDR(e.getAttributeModifiers());
+					this.attributeMap.CZapubpdGrtZNzplOkvBDYZ(e.getAttributeModifiers());
 			if (this.activePotionsMap.size > 0) {
 				let t = [];
 				for (let e of this.activePotionsMap.values())
@@ -17091,11 +17091,11 @@ var Ad = 0.91,
 		}
 		readEntityFromNBT(e) {
 			if (
-				(this.GALKgBiyMMrSYweqNbA(e.AbsorptionAmount),
+				(this.BmCtIdqszlDQIDxEJZR(e.AbsorptionAmount),
 				e.Attributes &&
 					this.world != null &&
 					!this.world.isClient &&
-					ku.MreEQCwKhDbpJ(this.getAttributeMap(), e.Attributes),
+					ku.XNGxtfGrbvWWP(this.getAttributeMap(), e.Attributes),
 				e.ActiveEffects)
 			) {
 				let t = e.ActiveEffects;
@@ -17119,41 +17119,41 @@ var Ad = 0.91,
 					(this.hurtResistantTime = this.maxHurtResistantTime),
 					(this.hurtTime = this.maxHurtTime = 10),
 					(this.attackedAtYaw = 0),
-					this.ChOZkxoyuHUI() != null &&
+					this.mvRCETWznABF() != null &&
 						this.playSound(
-							this.ChOZkxoyuHUI(),
-							this.wlCioWlebprXvo(),
+							this.mvRCETWznABF(),
+							this.nwYBOcehuUBUra(),
 							(Math.random() - Math.random()) * 0.2 + 1,
 						),
 					this.attackEntityFrom(Ip.GENERIC, 0))
 				: e == 3
-					? (this.gouKMNFCdgbjV() != null &&
+					? (this.QuJuhCNgbsKSb() != null &&
 							this.playSound(
-								this.gouKMNFCdgbjV(),
-								this.wlCioWlebprXvo(),
+								this.QuJuhCNgbsKSb(),
+								this.nwYBOcehuUBUra(),
 								(Math.random() - Math.random()) * 0.2 + 1,
 							),
 						this.setHealth(0),
 						this.onDeath(Ip.GENERIC))
 					: super.handleStatusUpdate(e);
 		}
-		HMupFzAUvNVPcDxyYQN() {
+		HCejluQyfkjnrAamqBC() {
 			let e = this.activePotionsMap.keys();
 			for (let t of e) {
 				let e = this.activePotionsMap.get(t);
 				e.onUpdate(this)
-					? e.getDuration() % 600 == 0 && this.cRraHxcuXHjaosKelVRwJ(e, !1)
+					? e.getDuration() % 600 == 0 && this.EhDBZXZZlbtVBsNdojWUU(e, !1)
 					: this.world.isClient ||
-						(this.activePotionsMap.delete(t), this.RgfSxIYswcgxuxpiznKBHm(e));
+						(this.activePotionsMap.delete(t), this.zcRmLmBUjREZhKOKkHEajJ(e));
 			}
 			this.potionsNeedUpdate &&=
-				(this.world.isClient || this.zaLIHLeQtfEapIOUitvp(), !1);
-			let t = this.dataWatcher.TZFJNwmXciwTIMSQzXBDB(7),
+				(this.world.isClient || this.csrjQSXeLrDdsudrstER(), !1);
+			let t = this.dataWatcher.YFWpRaHdBLDaQukqdayiD(7),
 				n = this.dataWatcher.getWatchableObjectByte(8) > 0;
 			if (t > 0 && this.world.isClient) {
 				let e = !1;
 				if (
-					((e = this.VwRZQmoamPN() ? af(15) == 0 : Math.random() > 0.5),
+					((e = this.drQhETLOcXW() ? af(15) == 0 : Math.random() > 0.5),
 					n && e == e && af(5),
 					e && t > 0)
 				) {
@@ -17172,9 +17172,9 @@ var Ad = 0.91,
 				}
 			}
 		}
-		zaLIHLeQtfEapIOUitvp() {
+		csrjQSXeLrDdsudrstER() {
 			if (this.activePotionsMap.size == 0)
-				this.AbPtNErsegnaESqKZjewrnQMb(), this.rlzCsbXoVbJb(!1);
+				this.VaRedaIIEOoIkhlmSwdMAxisAlignedBoundingBoxyyc(), this.jFneTrKEjuRS(!1);
 			else {
 				let e = Od.calcPotionLiquidColor(
 					Array.from(this.activePotionsMap.values()),
@@ -17184,20 +17184,20 @@ var Ad = 0.91,
 					+!!Od.getAreAmbient(Array.from(this.activePotionsMap.values())),
 				),
 					this.dataWatcher.updateObject(7, e),
-					this.rlzCsbXoVbJb(this.isPotionActive(kd.invisibility.id));
+					this.jFneTrKEjuRS(this.isPotionActive(kd.invisibility.id));
 			}
 		}
-		AbPtNErsegnaESqKZjewrnQMb() {
+		VaRedaIIEOoIkhlmSwdMAxisAlignedBoundingBoxyyc() {
 			this.dataWatcher.updateObject(8, 0), this.dataWatcher.updateObject(7, 0);
 		}
-		ENLfEzrupYbmLMczAL() {
+		ciKwdvjEwKUpMqDMCM() {
 			for (let e of this.activePotionsMap.keys()) {
 				let t = this.activePotionsMap.get(e);
 				this.world.isClient ||
-					(this.activePotionsMap.delete(e), this.RgfSxIYswcgxuxpiznKBHm(t));
+					(this.activePotionsMap.delete(e), this.zcRmLmBUjREZhKOKkHEajJ(t));
 			}
 		}
-		ROSfpazXoZpyscKopHyjvh() {
+		YIJohEfYjdhbTXEXBuEQJP() {
 			return Array.from(this.activePotionsMap.values());
 		}
 		isPotionActive(e) {
@@ -17207,35 +17207,35 @@ var Ad = 0.91,
 			return this.activePotionsMap.get(e.id);
 		}
 		addPotionEffect(e) {
-			this.AVYFuuGEOzrMLuJOym(e) &&
+			this.dQXiWjwLqCrZjnAfHY(e) &&
 				(this.activePotionsMap.has(e.getPotionID())
 					? (this.activePotionsMap.get(e.getPotionID()).combine(e),
-						this.cRraHxcuXHjaosKelVRwJ(
+						this.EhDBZXZZlbtVBsNdojWUU(
 							this.activePotionsMap.get(e.getPotionID()),
 							!0,
 						))
 					: (this.activePotionsMap.set(e.getPotionID(), e),
-						this.QpqBuPhvRKFaImHAD(e)));
+						this.rrmmvATxbWPqUuoTE(e)));
 		}
-		AVYFuuGEOzrMLuJOym(e) {
-			if (this.xUIeLyTteVILWzTQxKKj() == xd.UNDEAD) {
+		dQXiWjwLqCrZjnAfHY(e) {
+			if (this.MFxPOFlWfovShdoaUbfQ() == xd.UNDEAD) {
 				let t = e.getPotionID();
 				if (t == kd.regeneration.id || t == kd.poison.id) return !1;
 			}
 			return !0;
 		}
-		UucwawcCkLzUsr() {
-			return this.xUIeLyTteVILWzTQxKKj() == xd.UNDEAD;
+		qKjGtHuyGsxAPq() {
+			return this.MFxPOFlWfovShdoaUbfQ() == xd.UNDEAD;
 		}
-		ZjWCxhlUdyTJghPnNlypuTDk(e) {
+		vLgehEzNRQzBNtMBmiQmnZDM(e) {
 			this.activePotionsMap.delete(e);
 		}
-		tQguvpYTpkPIrchmUS(e) {
+		CozFNvOQNUrgsbLUMU(e) {
 			let t = this.activePotionsMap.get(e);
 			t != null &&
-				(this.activePotionsMap.delete(e), this.RgfSxIYswcgxuxpiznKBHm(t));
+				(this.activePotionsMap.delete(e), this.zcRmLmBUjREZhKOKkHEajJ(t));
 		}
-		QpqBuPhvRKFaImHAD(e) {
+		rrmmvATxbWPqUuoTE(e) {
 			(this.potionsNeedUpdate = !0),
 				this.world.isClient ||
 					Cd.potionTypes[e.getPotionID()].applyAttributesModifiersToEntity(
@@ -17244,7 +17244,7 @@ var Ad = 0.91,
 						e.getAmplifier(),
 					);
 		}
-		cRraHxcuXHjaosKelVRwJ(e, t) {
+		EhDBZXZZlbtVBsNdojWUU(e, t) {
 			(this.potionsNeedUpdate = !0),
 				t &&
 					!this.world.isClient &&
@@ -17259,7 +17259,7 @@ var Ad = 0.91,
 						e.getAmplifier(),
 					));
 		}
-		RgfSxIYswcgxuxpiznKBHm(e) {
+		zcRmLmBUjREZhKOKkHEajJ(e) {
 			(this.potionsNeedUpdate = !0),
 				this.world.isClient ||
 					Cd.potionTypes[e.getPotionID()].removeAttributesModifiersFromEntity(
@@ -17271,11 +17271,11 @@ var Ad = 0.91,
 		heal(e) {
 			this.getHealth() > 0 && this.setHealth(this.getHealth() + e);
 		}
-		JWrPeWcCZjryXjCEmAmF() {
+		kPLZcFgUihgMLvbDhxdD() {
 			return new D(this.pos.x, this.pos.y + this.getEyeHeight(), this.pos.z);
 		}
-		JlKyjMfClYyIXGt() {}
-		YbtgnAZUNMRFe() {}
+		QePLqZzBFMFNVye() {}
+		XLPHQaqJnUkxm() {}
 	},
 	Md = class e extends ju {
 		constructor(e, t) {
@@ -17386,7 +17386,7 @@ var Ad = 0.91,
 		onEntityDamaged(e, t, n) {
 			t instanceof jd &&
 				this.damageType == 2 &&
-				t.xUIeLyTteVILWzTQxKKj() == xd.ARTHROPOD &&
+				t.MFxPOFlWfovShdoaUbfQ() == xd.ARTHROPOD &&
 				20 + af(10 * n);
 		}
 	},
@@ -17941,7 +17941,7 @@ var Nie = class {
 				(this.age = 0),
 				(this.delayBeforeCanPickup = 0),
 				(this.health = 5),
-				t && this.rifgcrHwzRmjZfyDSG(t),
+				t && this.cGtwzQcnormalizeAnglejCQxUokpt(t),
 				this.setSize(0.25, 0.25),
 				(this.motion.x = Math.random() * 0.2 - 0.1),
 				(this.motion.y = 0.2),
@@ -17949,19 +17949,19 @@ var Nie = class {
 				n && this.setPosition(n);
 		}
 		entityInit() {
-			this.dataWatcher.izxTfpEIcGGOShBODjS(10, 5);
+			this.dataWatcher.cxJZBDfZSCEAQWwuzqt(10, 5);
 		}
-		rifgcrHwzRmjZfyDSG(e) {
+		cGtwzQcnormalizeAnglejCQxUokpt(e) {
 			this.dataWatcher.updateObject(10, e),
-				this.dataWatcher.QAGNGxyLrArpljzE(10);
+				this.dataWatcher.IkgtxwJwcbLMsbMZ(10);
 		}
 		canTriggerWalking() {
 			return !1;
 		}
-		nzWJMMPEBeVazc(e) {
+		DlOXHqtesKZAKq(e) {
 			this.delayBeforeCanPickup = e;
 		}
-		tispSNlcbPDenpvtkmhGM() {
+		otbIqyhjuSaLVlLMJRNtP() {
 			this.delayBeforeCanPickup = 10;
 		}
 		onCollideWithPlayer(e) {
@@ -17976,7 +17976,7 @@ var Nie = class {
 			this.world.handleEvent(n),
 				!n.cancelled &&
 					e.inventory.addItemStackToInventory(t) &&
-					(e.YWGaNKsEOSxG(this, t.stackSize),
+					(e.DmUZakaNjjmz(this, t.stackSize),
 					this.world.playSoundAtEntity(
 						e,
 						`random.pop`,
@@ -17990,7 +17990,7 @@ var Nie = class {
 				this.delayBeforeCanPickup > 0 && this.delayBeforeCanPickup--,
 				this.prevPos.set(this.pos.x, this.pos.y, this.pos.z),
 				(this.motion.y -= 0.04),
-				(this.noPhysics = this.GGUxaAuNbGvmqgs(
+				(this.noPhysics = this.riKimPyBmnPzBqM(
 					this.pos.x,
 					(this.getEntityBoundingBox().min.y +
 						this.getEntityBoundingBox().max.y) /
@@ -18007,7 +18007,7 @@ var Nie = class {
 						.getBlock()
 						.getMaterial(),
 					L.lava,
-					this.world.isClient || this.oDxSxUhDCcbZEkmmHfuQccXYp());
+					this.world.isClient || this.CxbUCCbbdusLzmnJePrdwvLBU());
 			let e = 0.98;
 			this.onGround &&
 				(e =
@@ -18025,20 +18025,20 @@ var Nie = class {
 				(this.motion.z *= e),
 				this.onGround && (this.motion.y *= -0.5),
 				this.age != -32768 && ++this.age,
-				this.lmXWleCazlfJFvUFMrx(),
+				this.zqPkxmzZEVAnEpkRTxw(),
 				this.world.isServer && this.age > Vd && this.setDead();
 		}
-		YcoiNZGZtMa() {
+		PfDpBAVWEah() {
 			return this.world.getBlock(F.fromVector(this.pos)).blocksMovement();
 		}
-		oDxSxUhDCcbZEkmmHfuQccXYp() {
+		CxbUCCbbdusLzmnJePrdwvLBU() {
 			for (let t of this.world.getEntitiesWithinAABB(
 				null,
 				this.getEntityBoundingBox().clone().expandByScalar(0.5),
 			))
-				t instanceof e && this.CoGdBKZLTpFn(t);
+				t instanceof e && this.DjXoZfwFdAyJ(t);
 		}
-		CoGdBKZLTpFn(e) {
+		DjXoZfwFdAyJ(e) {
 			if (e == this) return !1;
 			if (e.isEntityAlive() && this.isEntityAlive()) {
 				let t = this.getEntityItem(),
@@ -18055,7 +18055,7 @@ var Nie = class {
 						(n.getItem().getHasSubtypes() && n.getMetadata() != t.getMetadata())
 						? !1
 						: n.stackSize < t.stackSize
-							? e.CoGdBKZLTpFn(this)
+							? e.DjXoZfwFdAyJ(this)
 							: n.stackSize + t.stackSize > n.getMaxStackSize()
 								? !1
 								: ((n.stackSize += t.stackSize),
@@ -18064,7 +18064,7 @@ var Nie = class {
 										this.delayBeforeCanPickup,
 									)),
 									(e.age = Math.min(e.age, this.age)),
-									e.rifgcrHwzRmjZfyDSG(n),
+									e.cGtwzQcnormalizeAnglejCQxUokpt(n),
 									this.setDead(),
 									!0)
 					: !1;
@@ -18073,23 +18073,23 @@ var Nie = class {
 		toJSON() {
 			return { ...super.toJSON(), type: `$item`, item: this.getEntityItem() };
 		}
-		ABjSzcibbRxBGAtPcFYBmBcxyqk() {
+		DIAzsYkwjMEHMaRFHUgMrAsxZWn() {
 			this.age = 4800;
 		}
-		lmXWleCazlfJFvUFMrx() {
+		zqPkxmzZEVAnEpkRTxw() {
 			return (
 				this.world.handleMaterialAcceleration(
 					this.getEntityBoundingBox(),
 					L.water,
 					this,
 				)
-					? (this.inWater || this.ZNRLlkwTVzJ(), (this.inWater = !0))
+					? (this.inWater || this.EifdMlhBMLi(), (this.inWater = !0))
 					: (this.inWater = !1),
 				this.inWater
 			);
 		}
 		getEntityItem() {
-			return this.getDataWatcher().ZJwdHJdIURvAfGhADxcTfXNcpJL(10) ?? new Hp();
+			return this.getDataWatcher().SzFJpXoBCYTQYYrKPtLZdNdPYKp(10) ?? new Hp();
 		}
 		writeEntityToNBT(e) {
 			if (
@@ -18107,7 +18107,7 @@ var Nie = class {
 				(this.age = e.Age),
 				e.PickupDelay && (this.delayBeforeCanPickup = e.PickupDelay);
 			let t = e.Item;
-			this.rifgcrHwzRmjZfyDSG(Hp.readFromNBT(t)),
+			this.cGtwzQcnormalizeAnglejCQxUokpt(Hp.readFromNBT(t)),
 				this.getEntityItem() === null && this.setDead();
 		}
 		attackEntityFrom(e, t) {
@@ -18123,7 +18123,7 @@ var Nie = class {
 		}
 	},
 	Ud = new Map();
-for (let e of iee) Ud.set(e.name, e);
+for (let e of ree) Ud.set(e.name, e);
 function Wd(e) {
 	let t = Ud.get(e);
 	if (!t) throw Error(`Block data for ${e} does not exist in blocks.json`);
@@ -18288,8 +18288,8 @@ var Gd = class e {
 						n = [e[2], 16 - t[1], t[2], 16 - e[1]];
 						break;
 				}
-			(this.u = new Rn(n[0], n[2]).divideScalar(16)),
-				(this.v = new Rn(1, 1).sub(new Rn(n[1], n[3]).divideScalar(16)));
+			(this.u = new dr(n[0], n[2]).divideScalar(16)),
+				(this.v = new dr(1, 1).sub(new dr(n[1], n[3]).divideScalar(16)));
 		}
 		rotateGeometry(e, t = 0, n, r) {
 			let i = e.map(([e, t, r]) => [e, t, r][n]),
@@ -18464,10 +18464,10 @@ var Gd = class e {
 				(this.faces = []),
 				(this.sway = !1),
 				(this.useUVLock = !1),
-				un[t] == null)
+				dn[t] == null)
 			)
 				throw Error(`No model found for ${t}`);
-			let r = JSON.parse(JSON.stringify(un[this.name]));
+			let r = JSON.parse(JSON.stringify(dn[this.name]));
 			if (
 				((Kd.has(this.name) || (r.parent && Kd.has(r.parent))) &&
 					(this.sway = !0),
@@ -18828,8 +18828,8 @@ var Vie = class {
 			return n < 0
 				? 0
 				: e.canHarvestBlock(this)
-					? e.eAFkjcfESBZIujdYupFq(this) / n / 30
-					: e.eAFkjcfESBZIujdYupFq(this) / n / 100;
+					? e.cEyTSsPxadmscQnHpQxe(this) / n / 30
+					: e.cEyTSsPxadmscQnHpQxe(this) / n / 100;
 		}
 		getItemDropped(e, t) {
 			return z.getItemByBlock(this);
@@ -19085,7 +19085,7 @@ var Vie = class {
 					o = Math.random() * r + (1 - r) * 0.5,
 					s = new Hd(e, n);
 				s.setPosition(t.x + i, t.y + a, t.z + o),
-					s.tispSNlcbPDenpvtkmhGM(),
+					s.otbIqyhjuSaLVlLMJRNtP(),
 					e.spawnEntityInWorld(s);
 			}
 		}
@@ -19152,7 +19152,7 @@ var Vie = class {
 		getInventoryModel() {
 			return new qd(this.name);
 		}
-		SbAPncysMxBpIFxDSqTsLB(e) {
+		mNekefLbmyLdiSHxuYbqGx(e) {
 			return this.resistance / 5;
 		}
 		canDropFromExplosion(e) {
@@ -19618,7 +19618,7 @@ var of = class e extends tf {
 		}
 		isBlocked(e, t, n) {
 			let r = e.getBlockState(t).block;
-			return !(r instanceof rf) && !r.name.includes(`sign`) && r != B.ladder
+			return !(r instanceof rf) && !r.name.includes(`siAxisAlignedBoundingBox`) && r != B.ladder
 				? r.material.blocksMovement()
 				: !0;
 		}
@@ -20337,7 +20337,7 @@ var lf = class e extends tf {
 		}
 		getStateForPlacement(e, t, n, r, i, a, o, s) {
 			return this.defaultState
-				.withState(`facing`, s.cCItSFWJcZopDLLcwSl())
+				.withState(`facing`, s.gprxAeNsBJdUmUcKjWB())
 				.withState(`open`, !1)
 				.withState(`powered`, !1)
 				.withState(`in_wall`, !1);
@@ -20724,7 +20724,7 @@ var lf = class e extends tf {
 		hashCode() {
 			return this.hash;
 		}
-		isAssigned() {
+		isAssiAxisAlignedBoundingBoxed() {
 			return this.index >= 0;
 		}
 	},
@@ -20819,7 +20819,7 @@ var lf = class e extends tf {
 					if (this.avoidsWater && a === -1) return null;
 					if (a !== 1) break;
 					if (
-						++i >= e.MYsvtrgDpLtUBNLm() ||
+						++i >= e.kTlvLrvuazZVAOUx() ||
 						(n--, (o = this.openPoint(t, n, r)), n <= 0)
 					)
 						return null;
@@ -21072,7 +21072,7 @@ var Gie = class {
 				this.path.addPoint(n);
 			let a = n,
 				o = 0,
-				s = Math.min(t.yywRtnlQSXcmKc(), e.MAX_NODE_EXPANSIONS);
+				s = Math.min(t.TOSsshiithavSX(), e.MAX_NODE_EXPANSIONS);
 			for (; !this.path.isPathEmpty() && (++o, !(o > s)); ) {
 				let e = this.path.dequeue();
 				if (e.equals(r)) return this.createEntityPath(n, r);
@@ -21089,11 +21089,11 @@ var Gie = class {
 					let n = this.pathOptions[t],
 						a = e.totalPathDistance + e.distanceToSquared(n);
 					a < i * 2 &&
-						(!n.isAssigned() || a < n.totalPathDistance) &&
+						(!n.isAssiAxisAlignedBoundingBoxed() || a < n.totalPathDistance) &&
 						((n.previous = e),
 						(n.totalPathDistance = a),
 						(n.distanceToNext = n.distanceToSquared(r)),
-						n.isAssigned()
+						n.isAssiAxisAlignedBoundingBoxed()
 							? this.path.changeDistance(
 									n,
 									n.totalPathDistance + n.distanceToNext,
@@ -21174,10 +21174,10 @@ var Gie = class {
 				(this.heightRequirement = 1),
 				(this.theEntity = e),
 				(this.worldObj = t),
-				(this.pathSearchRange = e.yywRtnlQSXcmKc()),
+				(this.pathSearchRange = e.TOSsshiithavSX()),
 				(this.pathFinder = this.getPathFinder());
 		}
-		uWAnKGLf(e) {
+		htvjPEtA(e) {
 			this.speed = e;
 		}
 		getPathSearchRange() {
@@ -21283,7 +21283,7 @@ var Gie = class {
 				r = -1;
 			t = t.translate(new D(0, 1, 0));
 			for (let e of n) r = cd(e, t, r);
-			this.theEntity.omVGZKOHDekBe().kwQekZoHY(e.x, e.y + r, e.z, this.speed);
+			this.theEntity.GYOFgTXHRiYUG().YUCcLGdnK(e.x, e.y + r, e.z, this.speed);
 		}
 		pathFollow() {
 			let e = this.getEntityPosition(),
@@ -21467,7 +21467,7 @@ var Gie = class {
 			} else return !1;
 		}
 		isPositionClear(e, t, n, r, i, a, o, s, c) {
-			for (let l of F.YRkZFdeXFeG(
+			for (let l of F.lMNyJGSYvgM(
 				new F(e, t, n),
 				new F(e + r - 1, t + i - 1, n + a - 1),
 			)) {
@@ -21547,51 +21547,51 @@ var Gie = class {
 		addTask(e, t) {
 			this.taskEntries.set(this.taskId, new Xie(e, t, this.taskId++));
 		}
-		hYLMnsFsZS(e) {
+		nBvjjDMtKP(e) {
 			for (let t of this.taskEntries.values())
 				t.action === e &&
 					(this.executingTaskEntries.has(t.id) &&
 						(t.action.resetTask(), this.executingTaskEntries.delete(t.id)),
 					this.taskEntries.delete(t.id));
 		}
-		EUrMjtALHQXNV() {
+		FUhWsshzzrqXh() {
 			if (this.tickCount++ % this.tickRate === 0)
 				for (let e of this.taskEntries.values())
 					this.executingTaskEntries.has(e.id)
-						? (!this.Fcmnjj(e) || !this.yLTcfotaalW(e)) &&
+						? (!this.kEFMhU(e) || !this.hUhvDfFvyLl(e)) &&
 							(e.action.resetTask(), this.executingTaskEntries.delete(e.id))
-						: this.Fcmnjj(e) &&
+						: this.kEFMhU(e) &&
 							e.action.shouldExecute() &&
 							(e.action.startExecuting(),
 							this.executingTaskEntries.set(e.id, e));
 			else
 				for (let e of this.executingTaskEntries.values())
-					this.yLTcfotaalW(e) ||
+					this.hUhvDfFvyLl(e) ||
 						(e.action.resetTask(), this.executingTaskEntries.delete(e.id));
 			for (let e of this.executingTaskEntries.values()) e.action.updateTask();
 		}
-		yLTcfotaalW(e) {
+		hUhvDfFvyLl(e) {
 			return e.action.continueExecuting();
 		}
-		Fcmnjj(e) {
+		kEFMhU(e) {
 			for (let t of this.taskEntries.values())
 				if (t !== e) {
 					if (e.priority >= t.priority) {
 						if (
-							!this.MrgUPCdsOLdSdkWhla(e, t) &&
+							!this.ttcYcATAgRoQXgYcmx(e, t) &&
 							this.executingTaskEntries.has(t.id)
 						)
 							return !1;
 					} else if (
-						!t.action.ltAPnUsrzoPVOoc() &&
+						!t.action.KigTJqdqtMktCGD() &&
 						this.executingTaskEntries.has(t.id)
 					)
 						return !1;
 				}
 			return !0;
 		}
-		MrgUPCdsOLdSdkWhla(e, t) {
-			return (e.action.MBiyvkQohvgY() & t.action.MBiyvkQohvgY()) === 0;
+		ttcYcATAgRoQXgYcmx(e, t) {
+			return (e.action.VegXuiCCHJbw() & t.action.VegXuiCCHJbw()) === 0;
 		}
 	};
 function xf(e) {
@@ -21614,7 +21614,7 @@ var Zie = class {
 				(this.deltaLookPitch = (n * Math.PI) / 180),
 				(this.isLooking = !0);
 		}
-		okkoItnDaVpcWlJ(e, t, n, r, i) {
+		MmsXsOqWRCtoYMO(e, t, n, r, i) {
 			(this.posX = e),
 				(this.posY = t),
 				(this.posZ = n),
@@ -21622,7 +21622,7 @@ var Zie = class {
 				(this.deltaLookPitch = (i * Math.PI) / 180),
 				(this.isLooking = !0);
 		}
-		ABRIkIhyreEL() {
+		yvmFWnwMvciB() {
 			if (((this.entity.pitch = 0), this.isLooking)) {
 				this.isLooking = !1;
 				let e = this.posX - this.entity.pos.x,
@@ -21631,19 +21631,19 @@ var Zie = class {
 					r = Math.sqrt(e * e + n * n),
 					i = Math.atan2(e, n),
 					a = Math.atan2(t, r);
-				(this.entity.pitch = this.hUEmStZgNWwaNE(
+				(this.entity.pitch = this.VnlzWKXSebdVau(
 					this.entity.pitch,
 					a,
 					this.deltaLookPitch,
 				)),
-					(this.entity.yaw = this.hUEmStZgNWwaNE(
+					(this.entity.yaw = this.VnlzWKXSebdVau(
 						this.entity.yaw,
 						i,
 						this.deltaLookYaw,
 					));
 			}
 		}
-		hUEmStZgNWwaNE(e, t, n) {
+		VnlzWKXSebdVau(e, t, n) {
 			e > Math.PI && (e -= 2 * Math.PI);
 			let r = t - e;
 			r > Math.PI ? (r -= 2 * Math.PI) : r < -Math.PI && (r += 2 * Math.PI),
@@ -21653,16 +21653,16 @@ var Zie = class {
 			for (; i < 0; ) i += 2 * Math.PI;
 			return (i %= 2 * Math.PI), i;
 		}
-		EbdHIrFvwkDy() {
+		lszMExaCFMoX() {
 			return this.isLooking;
 		}
-		yoOzOGMuzlP() {
+		rntkrRmyaAB() {
 			return this.posX;
 		}
-		IRiKLvNiFih() {
+		tmzqHETbpjB() {
 			return this.posY;
 		}
-		REFfJOyczPs() {
+		LIrNbdPLZYB() {
 			return this.posZ;
 		}
 	},
@@ -21670,12 +21670,12 @@ var Zie = class {
 		constructor(e) {
 			this.theLiving = e;
 		}
-		RvmYpMCSawggegXZCN() {
+		ZYspZGjZJqtZtJqBeV() {
 			let e = this.theLiving.pos.x - this.theLiving.prevPos.x,
 				t = this.theLiving.pos.z - this.theLiving.prevPos.z;
 			if (e * e + t * t > 25e-8)
 				(this.theLiving.renderYawOffset = this.theLiving.yaw),
-					(this.theLiving.yawHead = this.zAGQCKjwkAYaMYpUwPtZi(
+					(this.theLiving.yawHead = this.cOeGWodYITThnpcDblmGp(
 						this.theLiving.renderYawOffset,
 						this.theLiving.yawHead,
 						xf(75),
@@ -21692,14 +21692,14 @@ var Zie = class {
 							(e =
 								Math.max(1 - (this.rotationTickCounter - 10) / 10, 0) *
 								xf(75))),
-					(this.theLiving.renderYawOffset = this.zAGQCKjwkAYaMYpUwPtZi(
+					(this.theLiving.renderYawOffset = this.cOeGWodYITThnpcDblmGp(
 						this.theLiving.yawHead,
 						this.theLiving.renderYawOffset,
 						e,
 					));
 			}
 		}
-		zAGQCKjwkAYaMYpUwPtZi(e, t, n) {
+		cOeGWodYITThnpcDblmGp(e, t, n) {
 			let r = (e - t) % Math.PI;
 			return r < -n && (r = -n), r >= n && (r = n), e - r;
 		}
@@ -21708,11 +21708,11 @@ var Zie = class {
 		constructor(e) {
 			this.entity = e;
 		}
-		hEDegRKHWS() {
+		nEcpMcbTYb() {
 			this.isJumping = !0;
 		}
-		EhqIvg() {
-			this.entity.hEDegRKHWS(this.isJumping), (this.isJumping = !1);
+		UzvkME() {
+			this.entity.nEcpMcbTYb(this.isJumping), (this.isJumping = !1);
 		}
 	},
 	Sf = class {
@@ -21722,21 +21722,21 @@ var Zie = class {
 				(this.posY = e.pos.y),
 				(this.posZ = e.pos.z);
 		}
-		DLhXgBAwtj() {
+		fJmJNaTvwi() {
 			return this.update;
 		}
-		HYDZZDVo() {
+		mteIGbmJ() {
 			return this.speed;
 		}
-		kwQekZoHY(e, t, n, r) {
+		YUCcLGdnK(e, t, n, r) {
 			(this.posX = e),
 				(this.posY = t),
 				(this.posZ = n),
 				(this.speed = r),
 				(this.update = !0);
 		}
-		OhGBjeTFIufEpniLqn() {
-			if ((this.entity.wTcAFaiQygPebR(0), this.update)) {
+		chNceHexdZKaIEXsLy() {
+			if ((this.entity.NrEFjDZLwESiGv(0), this.update)) {
 				this.update = !1;
 				let e = Math.floor(this.entity.getEntityBoundingBox().min.y + 0.5),
 					t = this.posX - this.entity.pos.x,
@@ -21744,20 +21744,20 @@ var Zie = class {
 					r = this.posY - e;
 				if (t * t + r * r + n * n >= 25e-8) {
 					let e = Math.atan2(t, n);
-					(this.entity.yaw = this.kjbtBwPiPi(this.entity.yaw, e, Math.PI / 6)),
-						this.entity.etCAZJbRaJNeBM(
+					(this.entity.yaw = this.dHbteHwuiC(this.entity.yaw, e, Math.PI / 6)),
+						this.entity.npwzFfMkTreHhB(
 							this.speed *
 								this.entity
-									.getEntityAttribute(ku.eAwmWnqQCXQCI)
+									.getEntityAttribute(ku.UNrmpQxnutSuc)
 									.getAttributeValue(),
 						),
 						r > 0 &&
 							t * t + n * n < 1 &&
-							this.entity.EoxxvYRKvkbuN().hEDegRKHWS();
+							this.entity.JHNulzDSifGmW().nEcpMcbTYb();
 				}
 			}
 		}
-		kjbtBwPiPi(e, t, n) {
+		dHbteHwuiC(e, t, n) {
 			e > Math.PI && (e -= 2 * Math.PI);
 			let r = t - e;
 			r > Math.PI ? (r -= 2 * Math.PI) : r < -Math.PI && (r += 2 * Math.PI),
@@ -21784,14 +21784,14 @@ var Zie = class {
 				(this.unseenEntities = new Set()),
 				(this.entityObj = e);
 		}
-		vwEqFfJpggfbwoqCR() {
+		DFJrtDqpntIBqvZqh() {
 			this.seenEntities.clear(), this.unseenEntities.clear();
 		}
-		AYvdZe(e) {
+		tWEdLn(e) {
 			if (this.seenEntities.has(e.id)) return !0;
 			if (this.unseenEntities.has(e.id)) return !1;
 			{
-				let t = this.entityObj.obdqbaHnxoQLoSa(e);
+				let t = this.entityObj.bHlSoffXqDXTGkh(e);
 				return (
 					t ? this.seenEntities.add(e.id) : this.unseenEntities.add(e.id), t
 				);
@@ -21817,15 +21817,15 @@ var Zie = class {
 				(this.moveHelper = new Sf(this)),
 				(this.jumpHelper = new $ie(this)),
 				(this.bodyHelper = new Qie(this)),
-				(this.navigator = this.VMpYdonBfQIbhFF(e)),
+				(this.navigator = this.DUnFXxKtOSUOznp(e)),
 				(this.senses = new eae(this));
 			for (let e = 0; e < this.equipmentDropChances.length; e++)
 				this.equipmentDropChances[e] = 0.085;
 		}
-		yywRtnlQSXcmKc() {
+		TOSsshiithavSX() {
 			return this.followRange;
 		}
-		KSNFdpjclZFgaT(e) {
+		rFPAQetldtXOCw(e) {
 			this.followRange = e;
 		}
 		applyEntityAttributes() {
@@ -21837,22 +21837,22 @@ var Zie = class {
 		applyBaseAttributes(e) {
 			for (let [t, n] of e) this.getEntityAttribute(t)?.setBaseValue(n);
 		}
-		VMpYdonBfQIbhFF(e) {
+		DUnFXxKtOSUOznp(e) {
 			return new vf(this, e);
 		}
 		getLookHelper() {
 			return this.lookHelper;
 		}
-		omVGZKOHDekBe() {
+		GYOFgTXHRiYUG() {
 			return this.moveHelper;
 		}
-		EoxxvYRKvkbuN() {
+		JHNulzDSifGmW() {
 			return this.jumpHelper;
 		}
 		getNavigator() {
 			return this.navigator;
 		}
-		tsOoVXjMMjzEdyL() {
+		TddqfZHWqdomIiG() {
 			return this.senses;
 		}
 		getAttackTarget() {
@@ -21861,27 +21861,27 @@ var Zie = class {
 		setAttackTarget(e) {
 			this.attackTarget = e;
 		}
-		tRdGsUVBwDejgg(e) {
+		VsMtjVUAVkUCXF(e) {
 			return !0;
 		}
-		YSjEAGfMYgJMM() {}
+		pPGEEbRuUxxHB() {}
 		entityInit() {
 			super.entityInit(), this.dataWatcher.addObject(15, 0);
 		}
-		ZbaEuNmPGvxyCMC() {
+		QPuwOWnWXERWTaU() {
 			return 80;
 		}
-		sVjaZXEhIKqHRDm() {
-			let e = this.iGJwUXChBxitaR();
-			e && this.playSound(e, this.wlCioWlebprXvo(), this.DuCZlkMASxbnm());
+		rjqoHMEErizBNYJ() {
+			let e = this.yQCDdpbbfFUAhU();
+			e && this.playSound(e, this.nwYBOcehuUBUra(), this.vZeaYsxUvWUYK());
 		}
-		cgQkUAnofbFSdU() {
-			super.cgQkUAnofbFSdU(),
+		ryrCDImKmrtIHZ() {
+			super.ryrCDImKmrtIHZ(),
 				this.isEntityAlive() &&
 					Math.random() * 1e3 < this.livingSoundTime++ &&
-					!this.CqKlmSYXUXcX() &&
-					((this.livingSoundTime = -this.ZbaEuNmPGvxyCMC()),
-					this.sVjaZXEhIKqHRDm());
+					!this.SWRGodxkeNPZ() &&
+					((this.livingSoundTime = -this.QPuwOWnWXERWTaU()),
+					this.rjqoHMEErizBNYJ());
 		}
 		getExperiencePoints(e) {
 			if (this.experienceValue > 0) {
@@ -21894,7 +21894,7 @@ var Zie = class {
 				return e;
 			} else return this.experienceValue;
 		}
-		FdAEPPZuKYKsmSPqktphBa() {
+		YWnIiTEUQIRpJvftylsVNM() {
 			if (this.world.isClient)
 				for (let e = 0; e < 20; e++) {
 					let e = Math.random() * 0.02,
@@ -21913,26 +21913,26 @@ var Zie = class {
 			else this.world.setEntityState(this, 20);
 		}
 		handleStatusUpdate(e) {
-			e === 20 ? this.FdAEPPZuKYKsmSPqktphBa() : super.handleStatusUpdate(e);
+			e === 20 ? this.YWnIiTEUQIRpJvftylsVNM() : super.handleStatusUpdate(e);
 		}
 		update() {
 			super.update();
 		}
-		qmvzvPCZCLnVw(e, t) {
-			return this.bodyHelper.RvmYpMCSawggegXZCN(), t;
+		fzTawvXzwgrie(e, t) {
+			return this.bodyHelper.ZYspZGjZJqtZtJqBeV(), t;
 		}
-		iGJwUXChBxitaR() {
+		yQCDdpbbfFUAhU() {
 			return this.getSoundInfo().living ?? null;
 		}
-		RumkiZEbYll() {
+		NEkzaJOxjoQ() {
 			return this.getSoundInfo().drop ?? null;
 		}
-		MyxgavYxYEgOW(e, t) {
+		SSVUwvzplmpVJ(e, t) {
 			let n = this.getSoundInfo().step;
 			n && this.playSound(n, 0.15, 1);
 		}
 		dropFewItems(e, t) {
-			let n = this.RumkiZEbYll();
+			let n = this.NEkzaJOxjoQ();
 			if (n != null) {
 				let e = Math.floor(Math.random() * 3);
 				t > 0 && (e += Math.floor(Math.random() * (t + 1)));
@@ -21955,16 +21955,16 @@ var Zie = class {
 					this.equipment[e] = Hp.fromNBT(t[e]);
 			}
 		}
-		wTcAFaiQygPebR(e) {
+		NrEFjDZLwESiGv(e) {
 			this.moveForward = e;
 		}
-		etCAZJbRaJNeBM(e) {
-			super.etCAZJbRaJNeBM(e), this.wTcAFaiQygPebR(e);
+		npwzFfMkTreHhB(e) {
+			super.npwzFfMkTreHhB(e), this.NrEFjDZLwESiGv(e);
 		}
 		onLivingUpdate() {
 			if (
 				(super.onLivingUpdate(),
-				this.world.isServer && this.CqKlmSYXUXcX() && !this.dead)
+				this.world.isServer && this.SWRGodxkeNPZ() && !this.dead)
 			) {
 				let e = this.world.getClosestPlayerToEntity(this, 16);
 				e &&
@@ -21973,19 +21973,19 @@ var Zie = class {
 						30,
 						this.getVerticalFaceSpeed(),
 					),
-					this.lookHelper.ABRIkIhyreEL());
+					this.lookHelper.yvmFWnwMvciB());
 			}
 		}
-		xcCEDjgxrVzmQ(e) {
+		YhRlQwQkrHEkX(e) {
 			return !0;
 		}
-		xvnormalizeAnglekxdnWX() {
+		kZJrCIWVcR() {
 			return !0;
 		}
-		YVNgpEEMZZAu() {
+		echKziDjEEIV() {
 			return 4096;
 		}
-		rXzwWWTLEgPGG() {
+		yAMIlcoGKzbLH() {
 			if (this.persistenceRequired) this.entityAge = 0;
 			else {
 				let e = this.world.getClosestPlayerToEntity(this, -1);
@@ -21994,33 +21994,33 @@ var Zie = class {
 						n = e.pos.y - this.pos.y,
 						r = e.pos.z - this.pos.z,
 						i = t * t + n * n + r * r;
-					this.xvnormalizeAnglekxdnWX() && i > this.YVNgpEEMZZAu() && this.setDead(),
-						this.entityAge > 600 && af(8) == 0 && i > 1024 && this.xvnormalizeAnglekxdnWX()
+					this.kZJrCIWVcR() && i > this.echKziDjEEIV() && this.setDead(),
+						this.entityAge > 600 && af(8) == 0 && i > 1024 && this.kZJrCIWVcR()
 							? this.setDead()
 							: i < 1024 && (this.entityAge = 0);
 				}
 			}
 		}
-		FKUqICcUcjeWXclHGSNzbfo() {
+		lLdZZHCMcbIKiWoyPdNXcXh() {
 			++this.entityAge,
 				(this.ticksExisted + this.id) % e.DESPAWN_CHECK_INTERVAL === 0 &&
-					this.rXzwWWTLEgPGG(),
+					this.yAMIlcoGKzbLH(),
 				this.world.shouldTickEntityAI(this) &&
 					((this.ticksExisted + this.id) % e.SENSE_CACHE_REFRESH_INTERVAL ===
-						0 && this.senses.vwEqFfJpggfbwoqCR(),
-					this.targetTasks.EUrMjtALHQXNV(),
-					this.tasks.EUrMjtALHQXNV(),
+						0 && this.senses.DFJrtDqpntIBqvZqh(),
+					this.targetTasks.FUhWsshzzrqXh(),
+					this.tasks.FUhWsshzzrqXh(),
 					this.navigator.onUpdateNavigation(),
-					this.woTDzyhpNKzZS(),
-					this.moveHelper.OhGBjeTFIufEpniLqn(),
-					this.lookHelper.ABRIkIhyreEL(),
-					this.jumpHelper.EhqIvg());
+					this.wGJSjmfhWYNTs(),
+					this.moveHelper.chNceHexdZKaIEXsLy(),
+					this.lookHelper.yvmFWnwMvciB(),
+					this.jumpHelper.UzvkME());
 		}
-		woTDzyhpNKzZS() {}
+		wGJSjmfhWYNTs() {}
 		getVerticalFaceSpeed() {
 			return 40;
 		}
-		kQAXkXKIqR(e, t, n) {
+		ecSLODxdUS(e, t, n) {
 			let r = e.pos.x - this.pos.x,
 				i = e.pos.z - this.pos.z,
 				a;
@@ -22035,17 +22035,17 @@ var Zie = class {
 			let o = Math.sqrt(r * r + i * i),
 				s = (Math.atan2(i, r) * 180) / Math.PI - 90,
 				c = -((Math.atan2(a, o) * 180) / Math.PI);
-			(this.pitch = this.hUEmStZgNWwaNE(this.pitch, c, n)),
-				(this.yaw = this.hUEmStZgNWwaNE(this.yaw, s, t));
+			(this.pitch = this.VnlzWKXSebdVau(this.pitch, c, n)),
+				(this.yaw = this.VnlzWKXSebdVau(this.yaw, s, t));
 		}
-		hUEmStZgNWwaNE(e, t, n) {
+		VnlzWKXSebdVau(e, t, n) {
 			let r = cie(t - e);
 			return r > n && (r = n), r < -n && (r = -n), e + r;
 		}
 		getCanSpawnHere() {
 			return !0;
 		}
-		jkZIWzBUiBvRWG() {
+		CzHGQazyrKABCk() {
 			return (
 				this.world.checkNoEntityCollision(this.getEntityBoundingBox(), this) &&
 				this.world.getCollidingBoundingBoxes(this, this.getEntityBoundingBox())
@@ -22053,13 +22053,13 @@ var Zie = class {
 				!this.world.isAnyLiquid(this.getEntityBoundingBox())
 			);
 		}
-		eYxLaTFSCBXzkZfdQYYYW() {
+		NsNzsEoORVhXTeZyYYicC() {
 			return 1;
 		}
-		XHYaVNAWlnAxisAlignedBoundingBoxKlERDbYg() {
+		AiGLhnfvdWxGRHCaXRkH() {
 			return 4;
 		}
-		MYsvtrgDpLtUBNLm() {
+		kTlvLrvuazZVAOUx() {
 			if (this.getAttackTarget() == null) return 3;
 			{
 				let e = this.getHealth() - this.getMaxHealth() * 0.33;
@@ -22076,7 +22076,7 @@ var Zie = class {
 		getEquipmentInSlot(e) {
 			return this.equipment[e];
 		}
-		VccHfHuQKsXgJqy(e) {
+		rGrDZYFYNNrQPML(e) {
 			return this.equipment[e + 1];
 		}
 		setCurrentItemOrArmor(e, t) {
@@ -22085,9 +22085,9 @@ var Zie = class {
 		getInventory() {
 			return this.equipment;
 		}
-		NBHgXSprLKWCQOLrVJpcdJXXVHCtX(e) {}
-		hQQAFXUQEIexVRdxIWXMOzRioJVa(e, t) {}
-		htBLSJUYuANsj(e, t) {
+		vcZOdxIPVqXgwWaiFxAAIlGUnDXcd(e) {}
+		gNhHSZKoURvKfrGtYvjsgthLhrqx(e, t) {}
+		jGmCkJWpPbDhp(e, t) {
 			for (let n = 0; n < this.getInventory().length; ++n) {
 				let r = this.getEquipmentInSlot(n),
 					i = this.equipmentDropChances[n] > 1;
@@ -22105,10 +22105,10 @@ var Zie = class {
 				}
 			}
 		}
-		static EKXPZZPDviYWtvei(e) {
+		static mgkFRhxVFuXqRSIM(e) {
 			return 0;
 		}
-		static dfNgiWbLtxYzTbDvuYa(e, t) {
+		static OiapBfnhWieNDBFCxhz(e, t) {
 			switch (e) {
 				case 4:
 					if (t == 0) return z.leather_helmet;
@@ -22145,19 +22145,19 @@ var Zie = class {
 		onInitialSpawn(e, t) {
 			return t;
 		}
-		kpuzVzUAevZW() {
+		qsvqgfIhXkJj() {
 			return !1;
 		}
-		zhiEcBmBIwTugUkEI() {
+		swnRaJqzCFUaKRwFd() {
 			this.persistenceRequired = !0;
 		}
-		srtdjJGOSkzvHrOoLoXhvm(e, t) {
+		clXqlIAYMHVTtUXouAhswy(e, t) {
 			this.equipmentDropChances[e] = t;
 		}
-		pYJyLcBXJosxNTzB(e) {
+		uYveJhKtyCpNIuWE(e) {
 			this.canPickUpLoot = e;
 		}
-		giUyoHDNIOestHnwQzh() {
+		yTXlxVlcxsKQoZuWDXj() {
 			return this.persistenceRequired;
 		}
 		interactFirst(e) {
@@ -22170,29 +22170,29 @@ var Zie = class {
 		interact(e) {
 			return !1;
 		}
-		wvmZMdEipWSr(e, t) {}
-		vDHqmSNNqQfwrbIWTmIgGB(t, n) {
+		DHmaCbdrFDVs(e, t) {}
+		KTHFIXSusENvBeQmnOGqFb(t, n) {
 			let r;
 			if (t == 99) r = 0;
 			else if (((r = t - 100 + 1), r < 0 || r >= this.equipment.length))
 				return !1;
 			return n != null &&
-				e.EKXPZZPDviYWtvei(n) != r &&
+				e.mgkFRhxVFuXqRSIM(n) != r &&
 				(r != 4 || !(n.getItem() instanceof uf))
 				? !1
 				: (this.setCurrentItemOrArmor(r, n), !0);
 		}
-		OkbdEZolbahya() {
-			return this.world.isServer && !this.CqKlmSYXUXcX();
+		wozFRbmPWWFMw() {
+			return this.world.isServer && !this.SWRGodxkeNPZ();
 		}
-		eROVdrt(e) {
+		sIwEyJW(e) {
 			this.dataWatcher.updateObject(15, +!!e);
 		}
-		CqKlmSYXUXcX() {
+		SWRGodxkeNPZ() {
 			return this.dataWatcher.getWatchableObjectByte(15) != 0;
 		}
 		isEntityInvulnerable(e) {
-			return this.CqKlmSYXUXcX() &&
+			return this.SWRGodxkeNPZ() &&
 				!e.equals(Ip.OUT_OF_WORLD) &&
 				!e.isCreativePlayer()
 				? !0
@@ -22243,7 +22243,7 @@ var Zie = class {
 					(this.motion.y *= -0.5)),
 				this.fuse-- <= 0
 					? (this.setDead(), this.world.isServer && this.explode())
-					: (this.lmXWleCazlfJFvUFMrx(),
+					: (this.zqPkxmzZEVAnEpkRTxw(),
 						this.world.spawnParticle(
 							vu.SMOKE_NORMAL,
 							this.pos.x,
@@ -22268,7 +22268,7 @@ var Zie = class {
 						!0,
 					);
 		}
-		zjuNXFpcfVZNME() {
+		FcWxbTEJLEUXPx() {
 			return this.tntPlacedBy;
 		}
 		getEyeHeight() {
@@ -22551,7 +22551,7 @@ function oae(e) {
 }
 var Hf = class extends bd {
 		entityInit() {}
-		NArIDuqlvWKDAaKVWtRVs(e) {
+		kRLwAolDFAjZqVgwRahUv(e) {
 			let t = oae(this.getEntityBoundingBox()) * 4;
 			return isNaN(t) && (t = 4), (t *= 64), e < t * t;
 		}
@@ -22655,7 +22655,7 @@ var Hf = class extends bd {
 				);
 				(this.yaw = Math.atan2(this.motion.z, this.motion.x) + Math.PI / 2),
 					(this.pitch = Math.atan2(o, this.motion.y) - Math.PI / 2);
-				let s = this.ncOIECjeaeiZAuM();
+				let s = this.sKJSUyfXWAAFWgU();
 				if (this.inWater) {
 					for (let e = 0; e < 4; ++e) {
 						let e = 0.25;
@@ -22689,13 +22689,13 @@ var Hf = class extends bd {
 					this.setPosition(this.pos.x, this.pos.y, this.pos.z);
 			} else this.setDead();
 		}
-		ncOIECjeaeiZAuM() {
+		sKJSUyfXWAAFWgU() {
 			return 0.95;
 		}
 		canBeCollidedWith() {
 			return !0;
 		}
-		LkIOwbehIgJWMWtBeZHeZb() {
+		sqwVVmJxfkiMHJRmIvNhQr() {
 			return 1;
 		}
 		attackEntityFrom(e, t) {
@@ -22742,7 +22742,7 @@ function cae(e) {
 		: e instanceof Hf
 			? (e.shootingEntity ?? null)
 			: e instanceof wf
-				? e.zjuNXFpcfVZNME()
+				? e.FcWxbTEJLEUXPx()
 				: e instanceof jd
 					? e
 					: null;
@@ -22782,8 +22782,8 @@ var lae = class {
 								if (!n.getBlock().isAir()) {
 									let e =
 										this.exploder == null
-											? n.getBlock().SbAPncysMxBpIFxDSqTsLB(null)
-											: this.exploder.SbAPncysMxBpIFxDSqTsLB(
+											? n.getBlock().mNekefLbmyLdiSHxuYbqGx(null)
+											: this.exploder.mNekefLbmyLdiSHxuYbqGx(
 													this,
 													this.worldObj,
 													t,
@@ -22793,7 +22793,7 @@ var lae = class {
 								}
 								c > 0 &&
 									(this.exploder == null ||
-										this.exploder.WnSVSzhGUfyICFQ(
+										this.exploder.pSdriuIAYrTmlJJ(
 											this,
 											this.worldObj,
 											t,
@@ -22821,9 +22821,9 @@ var lae = class {
 				l = new D(this.explosionX, this.explosionY, this.explosionZ);
 			for (let e = 0; e < c.length; ++e) {
 				let n = c[e];
-				if (!n.ZFFSlMvnTnrtDEVDWxyz()) {
+				if (!n.gIFtCpcUeUbwxCTHkGXy()) {
 					let e =
-						n.zWPXYBJCPWI(this.explosionX, this.explosionY, this.explosionZ) /
+						n.WzJwJRUaNWx(this.explosionX, this.explosionY, this.explosionZ) /
 						t;
 					if (e <= 1) {
 						let r = n.pos.x - this.explosionX,
@@ -23155,7 +23155,7 @@ var Jf = { lowerXZ: 0.1, upperXZ: 0.9, lowerY: 0.4, upperY: 0.6 },
 			return this.getBlock(e).isAir();
 		}
 		areaPassesCheck(e, t, n) {
-			for (let r of F.YRkZFdeXFeG(e, t)) if (!n(this.getBlock(r))) return !1;
+			for (let r of F.lMNyJGSYvgM(e, t)) if (!n(this.getBlock(r))) return !1;
 			return !0;
 		}
 		setBlockState(e, t, n = 3) {
@@ -23774,7 +23774,7 @@ var Jf = { lowerXZ: 0.1, upperXZ: 0.9, lowerY: 0.4, upperY: 0.6 },
 		countEntities(e) {
 			let t = 0;
 			for (let n of this.loadedEntityList)
-				(!(n instanceof Cf) || !n.giUyoHDNIOestHnwQzh()) &&
+				(!(n instanceof Cf) || !n.yTXlxVlcxsKQoZuWDXj()) &&
 					e == n.creatureClass &&
 					++t;
 			return t;
@@ -23882,7 +23882,7 @@ var Jf = { lowerXZ: 0.1, upperXZ: 0.9, lowerY: 0.4, upperY: 0.6 },
 			) {
 				(e.prevPitch = e.pitch),
 					(e.prevYaw = e.yaw),
-					t && (++e.ticksExisted, e.isRiding() ? e.TJZuMsFaUPCg() : e.update());
+					t && (++e.ticksExisted, e.isRiding() ? e.AINWPKFQWluW() : e.update());
 				let n = Math.floor(e.pos.x / 16),
 					r = Math.floor(e.pos.y / 16),
 					i = Math.floor(e.pos.z / 16);
@@ -24046,7 +24046,7 @@ var Jf = { lowerXZ: 0.1, upperXZ: 0.9, lowerY: 0.4, upperY: 0.6 },
 						return r.sendMessage(`This bed is occupied`), !0;
 					(n = n.withState(`occupied`, !1)), e.setBlockState(t, n, 4);
 				}
-				let i = r.ifJblRIo(t);
+				let i = r.azlDPMCp(t);
 				return i == Np.OK
 					? ((n = n.withState(`occupied`, !0)), e.setBlockState(t, n, 4), !0)
 					: (i == Np.NOT_POSSIBLE_NOW
@@ -24187,8 +24187,8 @@ function hae(e) {
 }
 function gae() {
 	($f = new Map()), (ep = new Map());
-	for (let e in ln) {
-		let t = ln[e];
+	for (let e in un) {
+		let t = un[e];
 		for (let e of t)
 			if (e.ingredients) {
 				let t = [...e.ingredients].sort((e, t) => e - t).join(`,`);
@@ -24453,11 +24453,11 @@ var ap = class {
 					if (
 						o.getItemStack() != null &&
 						(n == 0 &&
-							(i.PADoXyBwHcEbsqmTx(o.getItemStack()), o.setItemStack(null)),
+							(i.PaAWjTBFkrcMhMtpq(o.getItemStack()), o.setItemStack(null)),
 						n == 1)
 					) {
 						let e = o.getItemStack();
-						i.PADoXyBwHcEbsqmTx(e.splitStack(1)),
+						i.PaAWjTBFkrcMhMtpq(e.splitStack(1)),
 							o.getItemStack().stackSize == 0 && o.setItemStack(null);
 					}
 				} else if (r == 1) {
@@ -24536,7 +24536,7 @@ var ap = class {
 						r = t == null || (e.inventory === o && e.isItemValid(t)),
 						a = -1;
 					if (
-						(r || ((a = o.RhgXKVcwddEGpSoijs()), (r ||= a > -1)),
+						(r || ((a = o.pESrQeKYLbYcPqNRrb()), (r ||= a > -1)),
 						e.getHasStack() && r)
 					) {
 						let r = e.getStack();
@@ -25155,7 +25155,7 @@ var ap = class {
 						: t != Vf.PEACEFUL &&
 							(this.foodLevel = Math.max(this.foodLevel - 1, 0)));
 			let n = t === Vf.HARD ? 100 : 80;
-			this.foodLevel >= 18 && e.oJZIUdcRkt()
+			this.foodLevel >= 18 && e.ROCLaqNxLj()
 				? (++this.foodTimer,
 					this.foodTimer >= n &&
 						(e.heal(1), this.addExhaustion(3), (this.foodTimer = 0)))
@@ -25217,7 +25217,7 @@ var ap = class {
 		continueExecuting() {
 			return this.shouldExecute();
 		}
-		ltAPnUsrzoPVOoc() {
+		KigTJqdqtMktCGD() {
 			return !0;
 		}
 		startExecuting() {}
@@ -25226,7 +25226,7 @@ var ap = class {
 		setMutexBits(e) {
 			this.mutexBits = e;
 		}
-		MBiyvkQohvgY() {
+		VegXuiCCHJbw() {
 			return this.mutexBits;
 		}
 	},
@@ -25235,7 +25235,7 @@ var ap = class {
 			super(), (this.childAnimal = e), (this.moveSpeed = t);
 		}
 		shouldExecute() {
-			if (this.childAnimal.rGqmXEtoewuJn() >= 0) return !1;
+			if (this.childAnimal.cgtUSYpxusitd() >= 0) return !1;
 			{
 				let e = this.childAnimal.world.getEntitiesWithinAABB(
 						this.childAnimal.type,
@@ -25247,7 +25247,7 @@ var ap = class {
 					t = null,
 					n = Number.MAX_VALUE;
 				for (let r of e)
-					if (r.rGqmXEtoewuJn() >= 0) {
+					if (r.cgtUSYpxusitd() >= 0) {
 						let e = this.childAnimal.getDistanceSqToEntity(r);
 						e <= n && ((n = e), (t = r));
 					}
@@ -25255,7 +25255,7 @@ var ap = class {
 			}
 		}
 		continueExecuting() {
-			if (!this.parentAnimal || this.childAnimal.rGqmXEtoewuJn() >= 0)
+			if (!this.parentAnimal || this.childAnimal.cgtUSYpxusitd() >= 0)
 				return !1;
 			if (this.parentAnimal.isEntityAlive()) {
 				let e = this.childAnimal.getDistanceSqToEntity(this.parentAnimal);
@@ -25297,7 +25297,7 @@ var ap = class {
 			this.idleTime--,
 				this.idleEntity
 					.getLookHelper()
-					.okkoItnDaVpcWlJ(
+					.MmsXsOqWRCtoYMO(
 						this.idleEntity.pos.x + this.lookX,
 						this.idleEntity.pos.y + this.idleEntity.getEyeHeight(),
 						this.idleEntity.pos.z + this.lookZ,
@@ -25316,8 +25316,8 @@ var ap = class {
 				this.setMutexBits(3);
 		}
 		shouldExecute() {
-			if (this.theAnimal.sPGQvgwn()) {
-				let e = this.FPZzScfGTxAiI();
+			if (this.theAnimal.GxIhTOZb()) {
+				let e = this.EhFyUGbLWIjjj();
 				return e == null ? !1 : ((this.targetMate = e), !0);
 			} else return !1;
 		}
@@ -25325,7 +25325,7 @@ var ap = class {
 			return (
 				!!this.targetMate &&
 				this.targetMate.isEntityAlive() &&
-				this.targetMate.sPGQvgwn() &&
+				this.targetMate.GxIhTOZb() &&
 				this.spawnBabyDelay < 60
 			);
 		}
@@ -25347,9 +25347,9 @@ var ap = class {
 				++this.spawnBabyDelay,
 				this.spawnBabyDelay >= 60 &&
 					this.theAnimal.getDistanceSqToEntity(this.targetMate) < 9 &&
-					this.bvsFsgxvg());
+					this.XermRxizu());
 		}
-		FPZzScfGTxAiI() {
+		EhFyUGbLWIjjj() {
 			let e = this.theWorld.getEntitiesWithinAABB(
 					this.theAnimal.type,
 					this.theAnimal.getEntityBoundingBox().clone().expandByScalar(8),
@@ -25357,24 +25357,24 @@ var ap = class {
 				t = Number.MAX_VALUE,
 				n = null;
 			for (let r of e)
-				this.theAnimal.EJYaKLFzYCH(r) &&
+				this.theAnimal.WZGikgcJSoy(r) &&
 					this.theAnimal.getDistanceSqToEntity(r) < t &&
 					((n = r), (t = this.theAnimal.getDistanceSqToEntity(r)));
 			return n;
 		}
-		bvsFsgxvg() {
+		XermRxizu() {
 			if (!this.targetMate) return;
 			let e = this.theAnimal.createChild(this.targetMate);
 			if (e != null) {
-				let t = this.theAnimal.DjEQDqUGCJEtOCc();
+				let t = this.theAnimal.onLxMziZnFdMZyy();
 				t == null &&
-					this.targetMate.DjEQDqUGCJEtOCc() != null &&
-					(t = this.targetMate.DjEQDqUGCJEtOCc()),
-					this.theAnimal.OworCVIMOpqQZ(6e3),
-					this.targetMate.OworCVIMOpqQZ(6e3),
-					this.theAnimal.DeQoVKtjbYR(),
-					this.targetMate.DeQoVKtjbYR(),
-					e.OworCVIMOpqQZ(-24e3),
+					this.targetMate.onLxMziZnFdMZyy() != null &&
+					(t = this.targetMate.onLxMziZnFdMZyy()),
+					this.theAnimal.JdcgKitRMPjbm(6e3),
+					this.targetMate.JdcgKitRMPjbm(6e3),
+					this.theAnimal.pcGYaAiEDtt(),
+					this.targetMate.pcGYaAiEDtt(),
+					e.JdcgKitRMPjbm(-24e3),
 					e.setLocationAndAngles(
 						this.theAnimal.pos.x,
 						this.theAnimal.pos.y,
@@ -25416,34 +25416,34 @@ var ap = class {
 		static {
 			this.staticVector = new D();
 		}
-		static XKJFdFRaFOBykbrb(e, t, n) {
-			return this.waTKVYLlqydkhOEySeLNn(e, t, n, null);
+		static UZiNMolKiMNAyNqW(e, t, n) {
+			return this.oxiJluKaOJVCVaTvjToKW(e, t, n, null);
 		}
-		static IzAqQcZRwqBokoGbLYzGxMnMdjnx(e, t, n, r) {
+		static uKiYZPpeoKEhNlhGaPdSagfKMxmA(e, t, n, r) {
 			return (
 				(this.staticVector = r.sub(new D(e.pos.x, e.pos.y, e.pos.z))),
-				this.waTKVYLlqydkhOEySeLNn(e, t, n, this.staticVector)
+				this.oxiJluKaOJVCVaTvjToKW(e, t, n, this.staticVector)
 			);
 		}
-		static RbHZxPaRCjoWOHEzKEoSgTftTOtOA(e, t, n, r) {
+		static GYwStJFRbLHsCUwCJEPSSpVrjHXmh(e, t, n, r) {
 			return (
 				(this.staticVector = new D(e.pos.x, e.pos.y, e.pos.z).sub(r)),
-				this.waTKVYLlqydkhOEySeLNn(e, t, n, this.staticVector)
+				this.oxiJluKaOJVCVaTvjToKW(e, t, n, this.staticVector)
 			);
 		}
-		static waTKVYLlqydkhOEySeLNn(e, t, n, r) {
+		static oxiJluKaOJVCVaTvjToKW(e, t, n, r) {
 			let i = !1,
 				a = 0,
 				o = 0,
 				s = 0,
 				c = -99999,
 				l;
-			if (e.WTEfWVR()) {
+			if (e.FPzpmXj()) {
 				let n =
 						e
-							.PDNtvfUufkqfyIv()
+							.gFOcXnVHTgkzfPP()
 							.distanceToSquared(new F(e.pos.x, e.pos.y, e.pos.z)) + 4,
-					r = e.ZNRhxEfQOzORDJwfxGoCpW() + t;
+					r = e.DmmdFiswyHowyXGsXFLuDT() + t;
 				l = n < r * r;
 			} else l = !1;
 			for (let u = 0; u < 10; u++) {
@@ -25451,8 +25451,8 @@ var ap = class {
 					d = af(2 * n + 1) - n,
 					f = af(2 * t + 1) - t;
 				if (!r || u * r.x + f * r.z >= 0) {
-					if (e.WTEfWVR() && t > 1) {
-						let n = e.PDNtvfUufkqfyIv();
+					if (e.FPzpmXj() && t > 1) {
+						let n = e.gFOcXnVHTgkzfPP();
 						e.pos.x > n.x ? (u -= af(t / 2)) : (u += af(t / 2)),
 							e.pos.z > n.z ? (f -= af(t / 2)) : (f += af(t / 2));
 					}
@@ -25460,8 +25460,8 @@ var ap = class {
 						(d += Math.floor(e.pos.y)),
 						(f += Math.floor(e.pos.z));
 					let n = new F(u, d, f);
-					if (!l || e.OnuDbTOJSsvctCRuCbXpNBFTKxqDRZoL(n)) {
-						let t = e.cHjBhTTpwkzxvCQaDz(n);
+					if (!l || e.KsMoCUYDAWUKdekZTpQTYEaLWAwROlug(n)) {
+						let t = e.FOQKWIPhFrYIOAPmzw(n);
 						t > c && ((c = t), (a = u), (o = d), (s = f), (i = !0));
 					}
 				}
@@ -25478,12 +25478,12 @@ var ap = class {
 		}
 		shouldExecute() {
 			if (
-				this.theEntityCreature.mSdEGMIhTBC() == null &&
+				this.theEntityCreature.kGrTCHtbfVD() == null &&
 				!this.theEntityCreature.isBurning()
 			)
 				return !1;
 			{
-				let e = bp.XKJFdFRaFOBykbrb(this.theEntityCreature, 5, 4);
+				let e = bp.UZiNMolKiMNAyNqW(this.theEntityCreature, 5, 4);
 				return e == null
 					? !1
 					: ((this.randPosX = e.x),
@@ -25512,7 +25512,7 @@ var ap = class {
 			return this.theEntity.inWater || this.theEntity.inLava;
 		}
 		updateTask() {
-			Math.random() < 0.8 && this.theEntity.EoxxvYRKvkbuN().hEDegRKHWS();
+			Math.random() < 0.8 && this.theEntity.JHNulzDSifGmW().nEcpMcbTYb();
 		}
 	},
 	Sp = class extends _p {
@@ -25604,10 +25604,10 @@ var ap = class {
 		shouldExecute() {
 			if (
 				!this.mustUpdate &&
-				(this.entity.UODOeg() >= 100 || af(this.executionChance) != 0)
+				(this.entity.qTLGYR() >= 100 || af(this.executionChance) != 0)
 			)
 				return !1;
-			let e = bp.XKJFdFRaFOBykbrb(this.entity, 10, 7);
+			let e = bp.UZiNMolKiMNAyNqW(this.entity, 10, 7);
 			return e == null
 				? !1
 				: ((this.xPosition = e.x),
@@ -25629,10 +25629,10 @@ var ap = class {
 					this.speed,
 				);
 		}
-		hrBEEMYyNl() {
+		EPBfIJZQaP() {
 			this.mustUpdate = !0;
 		}
-		CgMOoVQsGnYEDzyuTh(e) {
+		JHOLHgQhYIhMscxKBd(e) {
 			this.executionChance = e;
 		}
 	},
@@ -25689,7 +25689,7 @@ var ap = class {
 		updateTask() {
 			this.theWatcher
 				.getLookHelper()
-				.okkoItnDaVpcWlJ(
+				.MmsXsOqWRCtoYMO(
 					this.closestEntity.pos.x,
 					this.closestEntity.pos.y + this.closestEntity.getEyeHeight(),
 					this.closestEntity.pos.z,
@@ -25703,14 +25703,14 @@ var ap = class {
 		constructor(e, t) {
 			super(),
 				(this.theEntity = e),
-				(this.eAwmWnqQCXQCI = t),
+				(this.UNrmpQxnutSuc = t),
 				this.setMutexBits(1);
 		}
 		shouldExecute() {
-			if (this.theEntity.bpawKohOIfbHSWCbsHFZxgvQKuvOPkHFhMU()) return !1;
+			if (this.theEntity.HTRQEarYTThazbPrNZAVRGoVaitrZKiFxpp()) return !1;
 			{
-				let e = this.theEntity.PDNtvfUufkqfyIv(),
-					t = bp.IzAqQcZRwqBokoGbLYzGxMnMdjnx(
+				let e = this.theEntity.gFOcXnVHTgkzfPP(),
+					t = bp.uKiYZPpeoKEhNlhGaPdSagfKMxmA(
 						this.theEntity,
 						16,
 						7,
@@ -25734,7 +25734,7 @@ var ap = class {
 					this.movePosX,
 					this.movePosY,
 					this.movePosZ,
-					this.eAwmWnqQCXQCI,
+					this.UNrmpQxnutSuc,
 				);
 		}
 	},
@@ -25746,48 +25746,48 @@ var ap = class {
 				(this.aiBase = new Tp(this, 1)),
 				(this.isMovementAITaskSet = !1);
 		}
-		cHjBhTTpwkzxvCQaDz(e) {
+		FOQKWIPhFrYIOAPmzw(e) {
 			return 0;
 		}
 		getCanSpawnHere() {
 			return (
 				super.getCanSpawnHere() &&
-				this.cHjBhTTpwkzxvCQaDz(
+				this.FOQKWIPhFrYIOAPmzw(
 					new F(this.pos.x, this.getEntityBoundingBox().min.y, this.pos.z),
 				) >= 0
 			);
 		}
-		CwcIcjE() {
+		WOwfIhr() {
 			return !this.navigator.noPath();
 		}
-		bpawKohOIfbHSWCbsHFZxgvQKuvOPkHFhMU() {
-			return this.OnuDbTOJSsvctCRuCbXpNBFTKxqDRZoL(
+		HTRQEarYTThazbPrNZAVRGoVaitrZKiFxpp() {
+			return this.KsMoCUYDAWUKdekZTpQTYEaLWAwROlug(
 				new F(this.pos.x, this.pos.y, this.pos.z),
 			);
 		}
-		OnuDbTOJSsvctCRuCbXpNBFTKxqDRZoL(e) {
+		KsMoCUYDAWUKdekZTpQTYEaLWAwROlug(e) {
 			return this.maximumHomeDistance === -1
 				? !0
 				: this.homePosition.distanceToSquared(e) <
 						this.maximumHomeDistance * this.maximumHomeDistance;
 		}
-		zfdHaYSCDJOvoMxFDxsRl(e, t) {
+		GCPqrxZhKdjLRrNaNstml(e, t) {
 			(this.homePosition = e), (this.maximumHomeDistance = t);
 		}
-		PDNtvfUufkqfyIv() {
+		gFOcXnVHTgkzfPP() {
 			return this.homePosition;
 		}
-		ZNRhxEfQOzORDJwfxGoCpW() {
+		DmmdFiswyHowyXGsXFLuDT() {
 			return this.maximumHomeDistance;
 		}
-		CXcsumvXpQ() {
+		VIAxisAlignedBoundingBoxRLPshG() {
 			this.maximumHomeDistance = -1;
 		}
-		WTEfWVR() {
+		FPzpmXj() {
 			return this.maximumHomeDistance !== -1;
 		}
-		WTOHSWMLqNELjIsmwt() {}
-		zCUwOyvJCJTJj(e) {}
+		joycdKcrrKzSKkhcGW() {}
+		riOdGbplXKTvx(e) {}
 	},
 	Dp = class extends Ep {
 		constructor(e) {
@@ -25803,37 +25803,37 @@ var ap = class {
 		entityInit() {
 			super.entityInit(), this.dataWatcher.addObject(12, 0);
 		}
-		rGqmXEtoewuJn() {
+		cgtUSYpxusitd() {
 			return this.world.isClient
 				? this.dataWatcher.getWatchableObjectByte(12)
 				: this.growingAge;
 		}
-		WSuQQROfg(e, t) {
-			let n = this.rGqmXEtoewuJn(),
+		aSqTDngiP(e, t) {
+			let n = this.cgtUSYpxusitd(),
 				r = n;
-			(n += e * 20), n > 0 && ((n = 0), r < 0 && this.eOSptxkyNFtNcR());
+			(n += e * 20), n > 0 && ((n = 0), r < 0 && this.wCkguSexmctjom());
 			let i = n - r;
-			this.OworCVIMOpqQZ(n),
+			this.JdcgKitRMPjbm(n),
 				t &&
 					((this.ageDelta += i), this.ageDelta2 === 0 && (this.ageDelta2 = 40)),
-				this.rGqmXEtoewuJn() === 0 && this.OworCVIMOpqQZ(this.ageDelta);
+				this.cgtUSYpxusitd() === 0 && this.JdcgKitRMPjbm(this.ageDelta);
 		}
-		IyYPiWzyN(e) {
-			this.WSuQQROfg(e, !1);
+		lfIDtpNsE(e) {
+			this.aSqTDngiP(e, !1);
 		}
-		OworCVIMOpqQZ(e) {
+		JdcgKitRMPjbm(e) {
 			this.dataWatcher.updateObject(12, Math.min(Math.max(e, -1), 1)),
 				(this.growingAge = e),
-				this.VGsicYSTjRXCUh(this.isChild());
+				this.faXUGjsyhedNjy(this.isChild());
 		}
 		writeEntityToNBT(e) {
 			super.writeEntityToNBT(e),
-				(e.Age = I.int(this.rGqmXEtoewuJn())),
+				(e.Age = I.int(this.cgtUSYpxusitd())),
 				(e.ForcedAge = I.int(this.ageDelta));
 		}
 		readEntityFromNBT(e) {
 			super.readEntityFromNBT(e),
-				this.OworCVIMOpqQZ(e.Age),
+				this.JdcgKitRMPjbm(e.Age),
 				(this.ageDelta = e.ForcedAge);
 		}
 		onLivingUpdate() {
@@ -25850,26 +25850,26 @@ var ap = class {
 							0,
 						),
 					--this.ageDelta2),
-					this.VGsicYSTjRXCUh(this.isChild());
+					this.faXUGjsyhedNjy(this.isChild());
 			else {
-				let e = this.rGqmXEtoewuJn();
+				let e = this.cgtUSYpxusitd();
 				e < 0
-					? (++e, this.OworCVIMOpqQZ(e), e === 0 && this.eOSptxkyNFtNcR())
-					: e > 0 && (--e, this.OworCVIMOpqQZ(e));
+					? (++e, this.JdcgKitRMPjbm(e), e === 0 && this.wCkguSexmctjom())
+					: e > 0 && (--e, this.JdcgKitRMPjbm(e));
 			}
 		}
-		eOSptxkyNFtNcR() {}
+		wCkguSexmctjom() {}
 		isChild() {
-			return this.rGqmXEtoewuJn() < 0;
+			return this.cgtUSYpxusitd() < 0;
 		}
-		VGsicYSTjRXCUh(e) {
-			this.kZybPLKY(e ? 0.5 : 1);
+		faXUGjsyhedNjy(e) {
+			this.oqjebDEb(e ? 0.5 : 1);
 		}
 		setSize(e, t) {
 			let n = this.ageWidth > 0;
-			(this.ageWidth = e), (this.ageHeight = t), n || this.kZybPLKY(1);
+			(this.ageWidth = e), (this.ageHeight = t), n || this.oqjebDEb(1);
 		}
-		kZybPLKY(e) {
+		oqjebDEb(e) {
 			super.setSize(this.ageWidth * e, this.ageHeight * e);
 		}
 	},
@@ -25881,10 +25881,10 @@ var ap = class {
 				(this.playerInLove = null),
 				(this.creatureClass = `animal`);
 		}
-		woTDzyhpNKzZS() {
-			this.rGqmXEtoewuJn() !== 0 && (this.inLove = 0), super.woTDzyhpNKzZS();
+		wGJSjmfhWYNTs() {
+			this.cgtUSYpxusitd() !== 0 && (this.inLove = 0), super.wGJSjmfhWYNTs();
 		}
-		dKVzYNOhafitnyYBxhBHR(e) {
+		nIKToQjomhsjFDWdvuaxL(e) {
 			this.tasks.addTask(e.swimmingPriority ?? 0, new xp(this)),
 				this.tasks.addTask(e.panic.priority, new Dae(this, e.panic.speed)),
 				this.tasks.addTask(e.mate.priority, new yp(this, e.mate.speed));
@@ -25919,7 +25919,7 @@ var ap = class {
 		onLivingUpdate() {
 			if (
 				(super.onLivingUpdate(),
-				this.rGqmXEtoewuJn() !== 0 && (this.inLove = 0),
+				this.cgtUSYpxusitd() !== 0 && (this.inLove = 0),
 				this.inLove > 0 && (this.inLove--, this.inLove % 10 == 0))
 			) {
 				let e = $u() * 0.02,
@@ -25941,7 +25941,7 @@ var ap = class {
 				? !1
 				: ((this.inLove = 0), super.attackEntityFrom(e, t));
 		}
-		cHjBhTTpwkzxvCQaDz(e) {
+		FOQKWIPhFrYIOAPmzw(e) {
 			return this.world.getBlockState(e.down()).getBlock() === B.grass_block
 				? 10
 				: this.world.getLightBrightness(e) - 0.5;
@@ -25963,10 +25963,10 @@ var ap = class {
 				super.getCanSpawnHere()
 			);
 		}
-		ZbaEuNmPGvxyCMC() {
+		QPuwOWnWXERWTaU() {
 			return 120;
 		}
-		xvnormalizeAnglekxdnWX() {
+		kZJrCIWVcR() {
 			return !1;
 		}
 		getExperiencePoints(e) {
@@ -25980,15 +25980,15 @@ var ap = class {
 			if (t) {
 				if (
 					this.isBreedingItem(t) &&
-					this.rGqmXEtoewuJn() === 0 &&
+					this.cgtUSYpxusitd() === 0 &&
 					this.inLove <= 0
 				)
-					return this.yhRSDdQzfyIhGvgAdvrI(e, t), this.xaPJjhZSZ(e), !0;
+					return this.okwWgVcDgUrYUMWaAKei(e, t), this.iCBQKUyUO(e), !0;
 				if (this.isChild() && this.isBreedingItem(t))
 					return (
-						this.yhRSDdQzfyIhGvgAdvrI(e, t),
-						this.WSuQQROfg(
-							(0, M.toInteger)(-((this.rGqmXEtoewuJn() / 20) * 0.1)),
+						this.okwWgVcDgUrYUMWaAKei(e, t),
+						this.aSqTDngiP(
+							(0, M.toInteger)(-((this.cgtUSYpxusitd() / 20) * 0.1)),
 							!0,
 						),
 						!0
@@ -25996,7 +25996,7 @@ var ap = class {
 			}
 			return super.interact(e);
 		}
-		yhRSDdQzfyIhGvgAdvrI(e, t) {
+		okwWgVcDgUrYUMWaAKei(e, t) {
 			e.abilities.creative ||
 				(t &&
 					(t.stackSize--,
@@ -26006,25 +26006,25 @@ var ap = class {
 							null,
 						)));
 		}
-		xaPJjhZSZ(e) {
+		iCBQKUyUO(e) {
 			(this.inLove = 600),
 				(this.playerInLove = e),
 				this.world.setEntityState(this, 18);
 		}
-		DjEQDqUGCJEtOCc() {
+		onLxMziZnFdMZyy() {
 			return this.playerInLove;
 		}
-		sPGQvgwn() {
+		GxIhTOZb() {
 			return this.inLove > 0;
 		}
-		DeQoVKtjbYR() {
+		pcGYaAiEDtt() {
 			this.inLove = 0;
 		}
-		EJYaKLFzYCH(e) {
+		WZGikgcJSoy(e) {
 			return e === this
 				? !1
 				: e.type === this.type
-					? this.sPGQvgwn() && e.sPGQvgwn()
+					? this.GxIhTOZb() && e.GxIhTOZb()
 					: !1;
 		}
 		handleStatusUpdate(e) {
@@ -26053,7 +26053,7 @@ var ap = class {
 				(this.type = `pig`),
 				this.setSize(0.9, 0.9),
 				this.getNavigator().setAvoidsWater(!0),
-				this.dKVzYNOhafitnyYBxhBHR({
+				this.nIKToQjomhsjFDWdvuaxL({
 					panic: { priority: 1, speed: 1.25 },
 					mate: { priority: 3, speed: 1 },
 					tempt: { priority: 4, speed: 1.2, item: z.carrot },
@@ -26067,7 +26067,7 @@ var ap = class {
 			super.applyEntityAttributes(),
 				this.applyBaseAttributes([
 					[ku.maxHealth, 10],
-					[ku.eAwmWnqQCXQCI, 0.25],
+					[ku.UNrmpQxnutSuc, 0.25],
 				]);
 		}
 		entityInit() {
@@ -26084,7 +26084,7 @@ var ap = class {
 		interact(e) {
 			return super.interact(e) ? !0 : (this.world.isClient, !1);
 		}
-		RumkiZEbYll() {
+		NEkzaJOxjoQ() {
 			return this.isBurning() ? z.cooked_porkchop : z.porkchop;
 		}
 		dropFewItems(e, t) {
@@ -26094,7 +26094,7 @@ var ap = class {
 					? this.dropItem2(z.cooked_porkchop, 1)
 					: this.dropItem2(z.porkchop, 1).id;
 		}
-		bZTJnLPDaFALOKtXkFz(e) {}
+		gBLHikMELIlfuGpJGjm(e) {}
 		fall(e, t) {
 			super.fall(e, t);
 		}
@@ -26109,7 +26109,7 @@ var ap = class {
 		constructor() {
 			(this.flySpeed = 0.05), (this.walkSpeed = 0.1);
 		}
-		sUqfjMPQtMLTkFTKpkenMs(e) {
+		CsCjWgcMwaLJporVJEXejf(e) {
 			let t = {};
 			(t.invulnerable = I.int(+!!this.invulnerable)),
 				(t.flying = I.int(+!!this.flying)),
@@ -26120,7 +26120,7 @@ var ap = class {
 				(t.walkSpeed = I.float(this.walkSpeed)),
 				(e.abilities = t);
 		}
-		MBxqiIHQQDMEaGTJUULHVPV(e) {
+		TyRxMjxTfYZZNgPOmrGBPGs(e) {
 			let t = e.abilities;
 			t &&
 				((this.invulnerable = t.invulnerable),
@@ -26131,16 +26131,16 @@ var ap = class {
 				(this.flySpeed = t.flySpeed),
 				(this.walkSpeed = t.walkSpeed));
 		}
-		GyLqFGKjdUu() {
+		sDuGlQdHwpY() {
 			return this.flySpeed;
 		}
-		hPHuGgKWJXZ(e) {
+		HglPPLELeDT(e) {
 			this.flySpeed = e;
 		}
-		qvSSghVBunCa() {
+		xYMFblxzSohU() {
 			return this.walkSpeed;
 		}
-		mafWXdDGbdUJgxuhem(e) {
+		GxlpfSKakvIzYeVlDv(e) {
 			this.walkSpeed = e;
 		}
 	},
@@ -26184,13 +26184,13 @@ var ap = class {
 				(this.armor = Array(Aae).fill(null)),
 				(this.itemStack = null),
 				(this.inventoryChanged = !1),
-				(this.storeItemStack = this.xjKwSSyBLMmxLbes),
+				(this.storeItemStack = this.NaFLulzLWdfbuCFi),
 				(this.setInventorySlotContents = this.setSlot);
 		}
 		get mainInventory() {
 			return this.main;
 		}
-		get jWJBGiJnMUVIkc() {
+		get rWfLPzHTCWCzBE() {
 			return this.armor;
 		}
 		getField(e) {
@@ -26217,7 +26217,7 @@ var ap = class {
 		addItemStackToInventory(e) {
 			if (e == null || e.stackSize == 0 || e.item == null) return !1;
 			if (e.isItemDamaged()) {
-				let t = this.RhgXKVcwddEGpSoijs();
+				let t = this.pESrQeKYLbYcPqNRrb();
 				return t >= 0
 					? ((this.mainInventory[t] = e.clone()), (e.stackSize = 0), !0)
 					: this.player.abilities.creative
@@ -26228,7 +26228,7 @@ var ap = class {
 				for (
 					;
 					(t = e.stackSize),
-						(e.stackSize = this.OmJyEJPOAdCrhDqqwjxsc(e)),
+						(e.stackSize = this.jRDHYliizAkwYeDYNELjv(e)),
 						!(e.stackSize <= 0 || e.stackSize >= t);
 				);
 				return e.stackSize == t && this.player.abilities.creative
@@ -26236,11 +26236,11 @@ var ap = class {
 					: e.stackSize < t;
 			}
 		}
-		OmJyEJPOAdCrhDqqwjxsc(e) {
+		jRDHYliizAkwYeDYNELjv(e) {
 			let t = e.item,
 				n = e.stackSize,
 				r = this.storeItemStack(e);
-			if ((r < 0 && (r = this.RhgXKVcwddEGpSoijs()), r < 0)) return n;
+			if ((r < 0 && (r = this.pESrQeKYLbYcPqNRrb()), r < 0)) return n;
 			{
 				this.mainInventory[r] ??
 					((this.mainInventory[r] = new Hp(t, 0, e.getItemDamage())),
@@ -26260,7 +26260,7 @@ var ap = class {
 				);
 			}
 		}
-		xjKwSSyBLMmxLbes(e) {
+		NaFLulzLWdfbuCFi(e) {
 			for (let t = 0; t < this.main.length; ++t)
 				if (
 					this.mainInventory[t] != null &&
@@ -26273,12 +26273,12 @@ var ap = class {
 					return t;
 			return -1;
 		}
-		RhgXKVcwddEGpSoijs() {
+		pESrQeKYLbYcPqNRrb() {
 			for (let e = 0; e < this.mainInventory.length; ++e)
 				if (this.mainInventory[e] == null) return e;
 			return -1;
 		}
-		qWMCHbGRKzpmKufvQpXNhrcZcBS(e) {
+		TRsfkGMwiVyyIfVoRMGSZzOBLSz(e) {
 			for (let [t, n] of this.main.entries())
 				if (n != null && n.item.equals(e)) return t;
 			return -1;
@@ -26323,12 +26323,12 @@ var ap = class {
 				t[e]
 			);
 		}
-		*lHlthnKJLQV() {
+		*GOTHCIqTuXt() {
 			for (let e of this.main) yield e;
 			for (let e of this.armor) yield e;
 		}
 		hasItem(e) {
-			return this.qWMCHbGRKzpmKufvQpXNhrcZcBS(e) >= 0;
+			return this.TRsfkGMwiVyyIfVoRMGSZzOBLSz(e) >= 0;
 		}
 		getItemStack() {
 			return this.itemStack;
@@ -26346,7 +26346,7 @@ var ap = class {
 			let n = this.mainInventory;
 			if (
 				(e >= this.mainInventory.length &&
-					((n = this.jWJBGiJnMUVIkc), (e -= this.mainInventory.length)),
+					((n = this.rWfLPzHTCWCzBE), (e -= this.mainInventory.length)),
 				n[e] != null)
 			)
 				if (n[e].stackSize <= t) {
@@ -26367,8 +26367,8 @@ var ap = class {
 		clear() {
 			for (let e = 0; e < this.mainInventory.length; ++e)
 				this.mainInventory[e] = null;
-			for (let e = 0; e < this.jWJBGiJnMUVIkc.length; ++e)
-				this.jWJBGiJnMUVIkc[e] = null;
+			for (let e = 0; e < this.rWfLPzHTCWCzBE.length; ++e)
+				this.rWfLPzHTCWCzBE[e] = null;
 		}
 		openInventory(e) {}
 		closeInventory(e) {}
@@ -26377,12 +26377,12 @@ var ap = class {
 			for (let e = 0; e < this.mainInventory.length; ++e)
 				this.mainInventory[e] != null &&
 					(t.mainInventory[e] = this.mainInventory[e].clone());
-			for (let e = 0; e < this.jWJBGiJnMUVIkc.length; ++e)
-				this.jWJBGiJnMUVIkc[e] != null &&
-					(t.jWJBGiJnMUVIkc[e] = this.jWJBGiJnMUVIkc[e].clone());
+			for (let e = 0; e < this.rWfLPzHTCWCzBE.length; ++e)
+				this.rWfLPzHTCWCzBE[e] != null &&
+					(t.rWfLPzHTCWCzBE[e] = this.rWfLPzHTCWCzBE[e].clone());
 			return t;
 		}
-		YzXgyoOyRvmNFFoTlS(e) {
+		RZmxPiGoazBfpSKdpX(e) {
 			if (e.getMaterial().requiresNoTool) return !0;
 			{
 				let t = this.getStackInSlot(this.currentItem);
@@ -26408,14 +26408,14 @@ var ap = class {
 							`inventory slot ${t} (${this.mainInventory[t].item?.name})`,
 						) && e.push(n);
 				}
-			for (let t = 0; t < this.jWJBGiJnMUVIkc.length; ++t)
-				if (this.jWJBGiJnMUVIkc[t] != null) {
+			for (let t = 0; t < this.rWfLPzHTCWCzBE.length; ++t)
+				if (this.rWfLPzHTCWCzBE[t] != null) {
 					let n = {};
 					(n.Slot = I.int(t + 100)),
-						this.jWJBGiJnMUVIkc[t].writeToNBT(n),
+						this.rWfLPzHTCWCzBE[t].writeToNBT(n),
 						Hp.isSerializableNBT(
 							n,
-							`armor slot ${t} (${this.jWJBGiJnMUVIkc[t].item?.name})`,
+							`armor slot ${t} (${this.rWfLPzHTCWCzBE[t].item?.name})`,
 						) && e.push(n);
 				}
 			return e;
@@ -26430,28 +26430,28 @@ var ap = class {
 						r < this.mainInventory.length &&
 						(this.mainInventory[r] = i),
 					r >= 100 &&
-						r < this.jWJBGiJnMUVIkc.length + 100 &&
-						(this.jWJBGiJnMUVIkc[r - 100] = i));
+						r < this.rWfLPzHTCWCzBE.length + 100 &&
+						(this.rWfLPzHTCWCzBE[r - 100] = i));
 			}
 		}
-		jHZeGgKUnTy(e) {
+		pGLYzZmROas(e) {
 			(e /= 4), e < 1 && (e = 1);
-			for (let t = 0; t < this.jWJBGiJnMUVIkc.length; ++t)
-				this.jWJBGiJnMUVIkc[t] != null &&
-					this.jWJBGiJnMUVIkc[t].getItem() instanceof xu &&
-					(this.jWJBGiJnMUVIkc[t].damageItem(e, this.player),
-					this.jWJBGiJnMUVIkc[t].stackSize == 0 &&
-						(this.jWJBGiJnMUVIkc[t] = null));
+			for (let t = 0; t < this.rWfLPzHTCWCzBE.length; ++t)
+				this.rWfLPzHTCWCzBE[t] != null &&
+					this.rWfLPzHTCWCzBE[t].getItem() instanceof xu &&
+					(this.rWfLPzHTCWCzBE[t].damageItem(e, this.player),
+					this.rWfLPzHTCWCzBE[t].stackSize == 0 &&
+						(this.rWfLPzHTCWCzBE[t] = null));
 		}
-		FUAMRqZfcBNV() {
+		uSolRfvdkcQp() {
 			for (let e = 0; e < this.mainInventory.length; ++e)
 				this.mainInventory[e] != null &&
 					(this.player.dropItem(this.mainInventory[e], !0, !1, !1),
 					(this.mainInventory[e] = null));
-			for (let e = 0; e < this.jWJBGiJnMUVIkc.length; ++e)
-				this.jWJBGiJnMUVIkc[e] != null &&
-					(this.player.dropItem(this.jWJBGiJnMUVIkc[e], !0, !1, !1),
-					(this.jWJBGiJnMUVIkc[e] = null));
+			for (let e = 0; e < this.rWfLPzHTCWCzBE.length; ++e)
+				this.rWfLPzHTCWCzBE[e] != null &&
+					(this.player.dropItem(this.rWfLPzHTCWCzBE[e], !0, !1, !1),
+					(this.rWfLPzHTCWCzBE[e] = null));
 		}
 	},
 	Mae = 0.1875,
@@ -26505,7 +26505,7 @@ var ap = class {
 				(this.homes = {}),
 				(this.guideProgress = { counters: {}, claimed: [] }),
 				(this.xpCooldown = 0),
-				(this.dropPlayerItemWithRandomChoice = this.PADoXyBwHcEbsqmTx),
+				(this.dropPlayerItemWithRandomChoice = this.PaAWjTBFkrcMhMtpq),
 				e && (this.name = od(e.username)),
 				this.setSize(0.6, 1.8),
 				gp.CREATIVE.updatePlayerAbilities(this.abilities),
@@ -26524,7 +26524,7 @@ var ap = class {
 				this.getAttributeMap()
 					.registerAttribute(ku.attackDamage)
 					.setBaseValue(1),
-				this.getEntityAttribute(ku.eAwmWnqQCXQCI).setBaseValue(0.1);
+				this.getEntityAttribute(ku.UNrmpQxnutSuc).setBaseValue(0.1);
 		}
 		isAdmin() {
 			return (
@@ -26533,34 +26533,34 @@ var ap = class {
 				this.profile.rank === `owner`
 			);
 		}
-		swMiAwPeNfyf() {
+		RDtnihVGojCP() {
 			return this.itemInUse;
 		}
-		JYgvnBhtmDszAYCoJ() {
+		xlELoMKnSVRzVoNVp() {
 			return this.itemInUseCount;
 		}
 		isUsingItem() {
 			return this.itemInUse != null;
 		}
-		UNIUFAGakcqGQOUmFCAw() {
+		nXJbVpCveeoQMpgqFmVA() {
 			return this.isUsingItem()
 				? this.itemInUse.getMaxItemUseDuration() - this.itemInUseCount
 				: 0;
 		}
-		lEHUwJAIBSZfq() {
+		jXyAswstWqqak() {
 			this.itemInUse != null &&
 				this.itemInUse.onPlayerStoppedUsing(
 					this.world,
 					this,
 					this.itemInUseCount,
 				),
-				this.gwAitYPKycVMVw();
+				this.BcgsaSGdkxAlWP();
 		}
-		gwAitYPKycVMVw() {
+		BcgsaSGdkxAlWP() {
 			(this.itemInUse = null),
 				(this.itemInUseCount = 0),
 				(this.itemInUseSlot = -1),
-				this.world.isServer && this.rpEODVEJk(!1);
+				this.world.isServer && this.SQAqGUQuF(!1);
 		}
 		isBlocking() {
 			return (
@@ -26600,13 +26600,13 @@ var ap = class {
 		getActiveItemStack() {
 			return this.inventory.main[this.inventory.currentItem];
 		}
-		bgcNdKbIlaACdexAQsFLma() {
+		nZbleRiVxRCMrflKKanoKz() {
 			return this.inventoryEnderChest;
 		}
 		getEquipmentInSlot(e) {
 			return e == 0
 				? this.inventory.getCurrentItem()
-				: this.inventory.jWJBGiJnMUVIkc[e - 1];
+				: this.inventory.rWfLPzHTCWCzBE[e - 1];
 		}
 		onDeath(e) {
 			super.onDeath(e),
@@ -26621,12 +26621,12 @@ var ap = class {
 		isSprinting() {
 			return this.getFlag(3);
 		}
-		uBwOIvcOIwwmaALTvFbqEZNSKZZIsFhrT(t) {
+		YUdZzNLwUnBkriLexiuIBGEtksgSKcDtb(t) {
 			if (
 				(t instanceof e && this.team && !this.team.canAttack(t.team)) ||
 				this.isSpectator() ||
-				!t.sJIprGRZnPevqsBzi() ||
-				t.CvzQlPpJzXt(this) ||
+				!t.ehLgaMlKSBMbluyqR() ||
+				t.PoazQRwvZJZ(this) ||
 				this.dead ||
 				this.getHealth() <= 0
 			)
@@ -26637,7 +26637,7 @@ var ap = class {
 			if (
 				((i =
 					t instanceof jd
-						? Rd.func_152377_a(this.getHeldItem(), t.xUIeLyTteVILWzTQxKKj())
+						? Rd.func_152377_a(this.getHeldItem(), t.MFxPOFlWfovShdoaUbfQ())
 						: Rd.func_152377_a(this.getHeldItem(), xd.UNDEFINED)),
 				(r += Rd.getKnockbackModifier(this)),
 				this.isSprinting() && ++r,
@@ -26675,40 +26675,40 @@ var ap = class {
 								motion: { x: t.motion.x, y: t.motion.y, z: t.motion.z },
 							}),
 						),
-					a && this.weDmMSXkuzRfd(t),
-					this.kEpAAgtrkkRRXrh(t),
+					a && this.sfCihqHYHjTKO(t),
+					this.VAnZxdjrBlMmLRm(t),
 					t instanceof jd && Rd.applyThornEnchantments(t, this),
-					t instanceof e && t.UIQLpQQgeriGQiFCn() && this.setFire(4),
+					t instanceof e && t.xgamEtjXdzOELHxAI() && this.setFire(4),
 					Rd.applyArthropodEnchantments(this, t);
 				let s = this.getActiveItemStack(),
 					c = t;
 				s != null &&
 					c instanceof jd &&
 					(s.hitEntity(c, this),
-					s.stackSize <= 0 && this.QPycmqqBffxgBkBOUFyKqwinyR()),
+					s.stackSize <= 0 && this.tThxDsKdEoebDvBunrSaobVuFo()),
 					t instanceof jd && o > 0 && t.setFire(o * 4),
 					this.addExhaustion(0.3);
 			}
 		}
-		UIQLpQQgeriGQiFCn() {
+		xgamEtjXdzOELHxAI() {
 			for (let e of this.inventory.armor)
 				if (!e || !e.item.name.includes(`infernium`)) return !1;
 			return !0;
 		}
-		weDmMSXkuzRfd(e) {}
+		sfCihqHYHjTKO(e) {}
 		jump() {
 			super.jump(),
 				this.isSprinting() ? this.addExhaustion(0.8) : this.addExhaustion(0.2);
 		}
-		kldnhlVrVOHSxdiAxisAlignedBoundingBoxxUzx() {
+		jzVXRKAsbhKNhNTafZWyD() {
 			return this.isSprinting() ? this.speedInAir * 1.3 : this.speedInAir;
 		}
-		aofqfrJBRELgAu() {
+		ffoCgtmKejmrvs() {
 			super.onLivingUpdate();
-			let e = this.getEntityAttribute(ku.eAwmWnqQCXQCI);
-			e.setBaseValue(this.abilities.qvSSghVBunCa()),
-				(this.jumpMovementFactor = this.kldnhlVrVOHSxdiAxisAlignedBoundingBoxxUzx()),
-				this.etCAZJbRaJNeBM(e.getAttributeValue()),
+			let e = this.getEntityAttribute(ku.UNrmpQxnutSuc);
+			e.setBaseValue(this.abilities.xYMFblxzSohU()),
+				(this.jumpMovementFactor = this.jzVXRKAsbhKNhNTafZWyD()),
+				this.npwzFfMkTreHhB(e.getAttributeValue()),
 				this.checkCollisionWithEntities();
 		}
 		checkCollisionWithEntities() {
@@ -26726,18 +26726,18 @@ var ap = class {
 			for (let e of t)
 				e.dead || (e.id != this.id && e.onCollideWithPlayer(this));
 		}
-		DeYzpyfYoc(e, t = !1) {
-			(this.WtjwRKKoMH = +!!e.right + (e.left ? -1 : 0)),
+		zHPmrfzFab(e, t = !1) {
+			(this.ehLnHaYjaS = +!!e.right + (e.left ? -1 : 0)),
 				(this.moveForward = (e.up ? -1 : 0) + +!!e.down),
 				(this.yaw = e.yaw),
 				(this.pitch = e.pitch),
 				(this.jumping = e.jump),
-				e.sneak && ((this.WtjwRKKoMH *= 0.3), (this.moveForward *= 0.3)),
+				e.sneak && ((this.ehLnHaYjaS *= 0.3), (this.moveForward *= 0.3)),
 				e.usingItem &&
 					!this.isRiding() &&
-					((this.WtjwRKKoMH *= 0.2), (this.moveForward *= 0.2)),
-				this.XDQiDpUfaJQccbSGEj(this.jumping, this.onGround),
-				this.aofqfrJBRELgAu(),
+					((this.ehLnHaYjaS *= 0.2), (this.moveForward *= 0.2)),
+				this.UCAoZQfOjTkjCdHGfo(this.jumping, this.onGround),
+				this.ffoCgtmKejmrvs(),
 				this.setPositionAndRotation(
 					this.pos.x,
 					this.pos.y,
@@ -26746,21 +26746,21 @@ var ap = class {
 					e.pitch,
 				);
 		}
-		hoqJIksUwbaQHaMKlPEus(e, t) {
+		HXdEIBTdHpEvcDVpuZvhf(e, t) {
 			if (this.isRiding()) return;
 			let n = this.pos.clone();
-			if (this.isElytraFlying()) this.yMbbANcTyx();
+			if (this.isElytraFlying()) this.yYzJBGobBj();
 			else if (this.abilities.flying && this.ridingEntity == null) {
 				this.inWater = !1;
 				let n = this.motion.y,
 					r = this.jumpMovementFactor;
 				(this.jumpMovementFactor =
 					this.flySpeed * (this.isSprinting() ? 2 : 1)),
-					super.hoqJIksUwbaQHaMKlPEus(e, t),
+					super.HXdEIBTdHpEvcDVpuZvhf(e, t),
 					(this.motion.y = n * 0.6),
 					(this.jumpMovementFactor = r);
-			} else super.hoqJIksUwbaQHaMKlPEus(e, t);
-			this.tHlXWYYWHpoRNUf(
+			} else super.HXdEIBTdHpEvcDVpuZvhf(e, t);
+			this.AOeLfzvWpaFQyJd(
 				this.pos.x - n.x,
 				this.pos.y - n.y,
 				this.pos.z - n.z,
@@ -26769,11 +26769,11 @@ var ap = class {
 		isElytraFlying() {
 			return this.getFlag(7);
 		}
-		jspVDhJeCrbPkvB() {
+		hgEhhgLxlygRxih() {
 			let e = this.inventory.armor[1];
 			return e != null && e.getItem()?.name === `elytra`;
 		}
-		XDQiDpUfaJQccbSGEj(e, t) {
+		UCAoZQfOjTkjCdHGfo(e, t) {
 			let n = this.isElytraFlying(),
 				r = n;
 			r
@@ -26781,7 +26781,7 @@ var ap = class {
 						this.inWater ||
 						this.abilities.flying ||
 						this.isSpectator() ||
-						!this.jspVDhJeCrbPkvB()) &&
+						!this.hgEhhgLxlygRxih()) &&
 					(r = !1)
 				: e &&
 					!this.elytraWasJumping &&
@@ -26789,14 +26789,14 @@ var ap = class {
 					!this.inWater &&
 					!this.abilities.flying &&
 					!this.isSpectator() &&
-					this.jspVDhJeCrbPkvB() &&
+					this.hgEhhgLxlygRxih() &&
 					(r = !0),
 				(this.elytraWasJumping = e),
 				r || (this.fireworkBoostTicks = 0),
-				this.kkuhTtf(7, r),
+				this.kfdiKOv(7, r),
 				r !== n && this.setSize(jp, r ? Mp : Nae);
 		}
-		yMbbANcTyx() {
+		yYzJBGobBj() {
 			let e = this.motion,
 				t = this.getLook(),
 				n = Math.sqrt(t.x * t.x + t.z * t.z),
@@ -26831,13 +26831,13 @@ var ap = class {
 			) {
 				let t = (r - Math.sqrt(e.x * e.x + e.z * e.z) - 2) * 4;
 				t > 0 &&
-					(this.playSound(this.ZmJwdaaAXBUHBzqVCX(t), 1, 1),
+					(this.playSound(this.SCCcGlmLwEIUgmFTgi(t), 1, 1),
 					this.attackEntityFrom(Ip.FLY_INTO_WALL, t));
 			}
 		}
 		addStat(e, t) {}
-		tHlXWYYWHpoRNUf(e, t, n) {
-			if (this.nXIsIhcaWZXkxWyzuT(L.water)) {
+		AOeLfzvWpaFQyJd(e, t, n) {
+			if (this.GoFgDwPIsJhtBQUUDv(L.water)) {
 				let r = Math.round(Math.sqrt(e * e + t * t + n * n) * 100);
 				r > 0 && this.addExhaustion(0.015 * r * 0.01);
 			} else if (this.inWater) {
@@ -26852,10 +26852,10 @@ var ap = class {
 							: (this.sneak, this.addExhaustion(0.01 * t * 0.01)));
 				} else Math.round(Math.sqrt(e * e + n * n) * 100);
 		}
-		IGoEtwLgkfLtuxz() {
+		bnywnTTmuSustai() {
 			if (this.itemInUse != null) {
 				if (this.inventory.currentItem !== this.itemInUseSlot) {
-					this.gwAitYPKycVMVw();
+					this.BcgsaSGdkxAlWP();
 					return;
 				}
 				let e = this.inventory.getCurrentItem();
@@ -26863,43 +26863,43 @@ var ap = class {
 				e.equals(this.itemInUse)
 					? (this.itemInUseCount <= 25 &&
 							this.itemInUseCount % 4 == 0 &&
-							this.ogNygrcSOkkgx(e, 5),
+							this.LvlCQwKgMFhRd(e, 5),
 						--this.itemInUseCount == 0 &&
 							this.world.isServer &&
 							this.onItemUseFinish())
-					: this.gwAitYPKycVMVw();
+					: this.BcgsaSGdkxAlWP();
 			}
 		}
 		getExperiencePoints(e) {
 			let t = this.experienceLevel * 7;
 			return t > 100 ? 100 : t;
 		}
-		xgxajGby() {
+		DhUaMZZX() {
 			return !0;
 		}
-		aBfXzJIWtPZDV(e) {
+		YftjwvlNjBdBv(e) {
 			let t = Number.MAX_VALUE - this.experienceTotal;
 			for (
 				e > t && (e = t),
-					this.experience += e / this.HKLglEUi(),
+					this.experience += e / this.WSQgTbtO(),
 					this.experienceTotal += e;
 				this.experience >= 1;
-				this.experience /= this.HKLglEUi()
+				this.experience /= this.WSQgTbtO()
 			)
-				(this.experience = (this.experience - 1) * this.HKLglEUi()),
-					this.zcUlFdsdhFlexKUJMA(1);
+				(this.experience = (this.experience - 1) * this.WSQgTbtO()),
+					this.CMmbFzEZgfmOJryCUL(1);
 		}
-		xzbElTtQxqmtc(e, t) {
+		iseyeDMhtGNsP(e, t) {
 			(this.experience = e), (this.experienceTotal = t | 0);
 		}
-		HKLglEUi() {
+		WSQgTbtO() {
 			return this.experienceLevel >= 30
 				? 112 + (this.experienceLevel - 30) * 9
 				: this.experienceLevel >= 15
 					? 37 + (this.experienceLevel - 15) * 5
 					: 7 + this.experienceLevel * 2;
 		}
-		nCCxyotdYgOAYUOfBChvA(e) {
+		kmQmjrMROZtACFyURXrMf(e) {
 			(this.experienceLevel -= e),
 				this.experienceLevel < 0 &&
 					((this.experienceLevel = 0),
@@ -26907,7 +26907,7 @@ var ap = class {
 					(this.experienceTotal = 0)),
 				(this.xpSeed = af(1));
 		}
-		zcUlFdsdhFlexKUJMA(e) {
+		CMmbFzEZgfmOJryCUL(e) {
 			if (
 				((this.experienceLevel += e),
 				this.experienceLevel < 0 &&
@@ -26926,22 +26926,22 @@ var ap = class {
 		update() {
 			(this.noPhysics = this.mode.isSpectator()),
 				this.mode.isSpectator() && (this.onGround = !1),
-				this.IGoEtwLgkfLtuxz(),
+				this.bnywnTTmuSustai(),
 				this.xpCooldown > 0 && --this.xpCooldown,
 				this.isPlayerSleeping()
 					? (++this.sleepTimer,
 						this.sleepTimer > 100 && (this.sleepTimer = 100),
 						this.world.isServer &&
-							(this.JDEPrLj()
-								? this.world.isDaytime() && this.ZtTXpsDyEBYz(!1, !0, !0)
-								: this.ZtTXpsDyEBYz(!0, !0, !1)))
+							(this.sIeNVNX()
+								? this.world.isDaytime() && this.kkRFpFZTGMcI(!1, !0, !0)
+								: this.kkRFpFZTGMcI(!0, !0, !1)))
 					: this.sleepTimer > 0 &&
 						(++this.sleepTimer,
 						this.sleepTimer >= 110 && (this.sleepTimer = 0)),
 				af(10) == 0 &&
 					this.inventory.hasItem(z.infernium_ingot) &&
 					this.setFire(1),
-				this.UIQLpQQgeriGQiFCn() && (this.fire = 0),
+				this.xgamEtjXdzOELHxAI() && (this.fire = 0),
 				super.update(),
 				this.world.isServer &&
 					this.openContainer != null &&
@@ -26959,36 +26959,36 @@ var ap = class {
 					this.foodStats.setFoodLevel(this.foodStats.getFoodLevel() + 1));
 		}
 		setCurrentItemOrArmor(e, t) {
-			this.inventory.jWJBGiJnMUVIkc[e - 1] = t;
+			this.inventory.rWfLPzHTCWCzBE[e - 1] = t;
 		}
-		jHZeGgKUnTy(e) {
-			this.inventory.jHZeGgKUnTy(e);
+		pGLYzZmROas(e) {
+			this.inventory.pGLYzZmROas(e);
 		}
-		chtOmKztiESKGpCZlNfH() {
+		FDratlgmGWMQtJfXGKAW() {
 			this.setSize(0.6, 1.8),
-				super.chtOmKztiESKGpCZlNfH(),
+				super.FDratlgmGWMQtJfXGKAW(),
 				this.setHealth(this.getMaxHealth()),
 				(this.deathTime = 0);
 		}
-		uVIBeaNNaNUS(e, t) {
+		JXJySMcbYLoY(e, t) {
 			if (
 				this.isEntityInvulnerable(e) ||
 				(this.abilities.invulnerable && !e.canHarmInCreative())
 			)
 				return;
 			!e.isUnblockable() && this.isBlocking() && t > 0 && (t = (1 + t) * 0.5),
-				(t = this.cdvQJTMGrDNzoueaisKACY(e, t)),
-				(t = this.mHGrMFkNxsdWDnVWPkEBgFkOnDdNT(e, t));
+				(t = this.vtbnONJyTjrTczHMuPZkNZ(e, t)),
+				(t = this.jVpFSweoBYMrprysyxuetzsqZNMfv(e, t));
 			let n = t;
 			if (
-				((t = Math.max(t - this.BLLuIKatBgaHewiQxEe(), 0)),
-				this.GALKgBiyMMrSYweqNbA(this.BLLuIKatBgaHewiQxEe() - (n - t)),
+				((t = Math.max(t - this.ERvLKgJoRqlOQznMspj(), 0)),
+				this.BmCtIdqszlDQIDxEJZR(this.ERvLKgJoRqlOQznMspj() - (n - t)),
 				t != 0)
 			) {
 				this.addExhaustion(e.getHungerDamage());
 				let n = this.getHealth();
 				this.setHealth(this.getHealth() - t),
-					this.PiWpPPWPXuHcUeLd().trackDamage(e, n, t);
+					this.naABKOSEToGbBvtn().trackDamage(e, n, t);
 			}
 		}
 		attackEntityFrom(e, t) {
@@ -27001,7 +27001,7 @@ var ap = class {
 				return !1;
 			this.isPlayerSleeping() &&
 				this.world.isServer &&
-				this.ZtTXpsDyEBYz(!0, !0, !1);
+				this.kkRFpFZTGMcI(!0, !0, !1);
 			let n = e.getEntity();
 			return (
 				n instanceof zp && n.shootingEntity && (n = n.shootingEntity),
@@ -27037,28 +27037,28 @@ var ap = class {
 		}
 		displayGUIChest(e) {}
 		displayGui(e) {}
-		openEditSign(e) {}
+		openEditSiAxisAlignedBoundingBox(e) {}
 		closeScreen() {
 			this.openContainer = this.inventoryContainer;
 		}
-		TJZuMsFaUPCg() {
+		AINWPKFQWluW() {
 			if (this.world.isServer && this.sneak)
 				this.mountEntity(null), (this.sneak = !1);
 			else {
 				let e = this.yaw,
 					t = this.pitch;
-				super.TJZuMsFaUPCg(),
+				super.AINWPKFQWluW(),
 					this.ridingEntity instanceof kp &&
 						((this.pitch = t),
 						(this.yaw = e),
 						(this.renderYawOffset = this.ridingEntity.renderYawOffset));
 			}
 		}
-		boXjDLnormalizeAngleMQObOtIPAkPT(e) {}
-		EYUhaqXnEwpzoFKAH() {
+		YleboiNkQdFKpKrRgomX(e) {}
+		fqfjJNQBtLMfMTrYw() {
 			return this.getHealth() <= 0 || this.isPlayerSleeping();
 		}
-		PADoXyBwHcEbsqmTx(e, t = !0) {
+		PaAWjTBFkrcMhMtpq(e, t = !0) {
 			return this.dropItem(e, !1, !1);
 		}
 		dropItem(e, t, n, r = !0) {
@@ -27069,7 +27069,7 @@ var ap = class {
 				if (
 					(i.setPosition(new D(this.pos.x, n, this.pos.z)),
 					(i.world = this.world),
-					r ? i.nzWJMMPEBeVazc(40) : i.nzWJMMPEBeVazc(0),
+					r ? i.DlOXHqtesKZAKq(40) : i.DlOXHqtesKZAKq(0),
 					t)
 				) {
 					let e = Math.random() * 0.5,
@@ -27089,16 +27089,16 @@ var ap = class {
 						(i.motion.y += (Math.random() - Math.random()) * 0.1),
 						(i.motion.z += Math.sin(n) * t);
 				}
-				return this.AjJCqZzCOGVTLZVuOUgzHoy(i), i;
+				return this.PhIhADHeWVwMoEqusiQXYlh(i), i;
 			}
 		}
-		AjJCqZzCOGVTLZVuOUgzHoy(e) {
+		PhIhADHeWVwMoEqusiQXYlh(e) {
 			this.world.spawnEntityInWorld(e);
 		}
 		canHarvestBlock(e) {
-			return this.inventory.YzXgyoOyRvmNFFoTlS(e);
+			return this.inventory.RZmxPiGoazBfpSKdpX(e);
 		}
-		eAFkjcfESBZIujdYupFq(e) {
+		cEyTSsPxadmscQnHpQxe(e) {
 			let t = this.inventory.getStrVsBlock(e);
 			if (t > 1) {
 				let e = Rd.getEfficiencyModifier(this),
@@ -27129,7 +27129,7 @@ var ap = class {
 				t *= e;
 			}
 			return (
-				this.nXIsIhcaWZXkxWyzuT(L.water) && (t /= 5),
+				this.GoFgDwPIsJhtBQUUDv(L.water) && (t /= 5),
 				this.onGround || (t /= 5),
 				t
 			);
@@ -27141,13 +27141,13 @@ var ap = class {
 		getFoodStats() {
 			return this.foodStats;
 		}
-		ChOZkxoyuHUI() {
+		mvRCETWznABF() {
 			return `game.player.hurt`;
 		}
-		YZfPdZ(e) {
+		tDnVhJ(e) {
 			return (e || this.foodStats.needFood()) && !this.abilities.invulnerable;
 		}
-		oJZIUdcRkt() {
+		ROCLaqNxLj() {
 			return this.getHealth() > 0 && this.getHealth() < this.getMaxHealth();
 		}
 		setItemInUse(e, t) {
@@ -27155,14 +27155,14 @@ var ap = class {
 				((this.itemInUse = e),
 				(this.itemInUseCount = t),
 				(this.itemInUseSlot = this.inventory.currentItem),
-				this.world.isServer && this.rpEODVEJk(!0));
+				this.world.isServer && this.SQAqGUQuF(!0));
 		}
-		JDEPrLj() {
+		sIeNVNX() {
 			return this.playerLocation
 				? this.world.getBlockState(this.playerLocation).getBlock() instanceof Qf
 				: !1;
 		}
-		static async xkLPBcPeSPjqDIoYIZH(e, t, n) {
+		static async VAsknljfjKUBkWhWWLo(e, t, n) {
 			await e.chunkProvider.loadChunk(t.x >> 4, t.z >> 4);
 			let r = e.getBlockState(t).getBlock();
 			if (r instanceof Qf) return Qf.getSafeExitLocation(e, t, 0);
@@ -27172,7 +27172,7 @@ var ap = class {
 				return n && i ? t : null;
 			} else return null;
 		}
-		ogNygrcSOkkgx(e, t) {
+		LvlCQwKgMFhRd(e, t) {
 			e.getItemUseAction() == jc.DRINK &&
 				this.playSound(`random.drink`, 0.5, Math.random() * 0.1 + 0.9),
 				e.getItemUseAction() == jc.EAT &&
@@ -27182,12 +27182,12 @@ var ap = class {
 						(Math.random() - Math.random()) * 0.2 + 1,
 					);
 		}
-		QPycmqqBffxgBkBOUFyKqwinyR() {
+		tThxDsKdEoebDvBunrSaobVuFo() {
 			this.inventory.setInventorySlotContents(this.inventory.currentItem, null);
 		}
 		onItemUseFinish() {
 			if (this.itemInUse != null) {
-				this.ogNygrcSOkkgx(this.itemInUse, 16);
+				this.LvlCQwKgMFhRd(this.itemInUse, 16);
 				let e = this.itemInUse.stackSize,
 					t = this.itemInUse.onItemUseFinish(this.world, this),
 					n =
@@ -27197,7 +27197,7 @@ var ap = class {
 				(t != this.itemInUse || (t != null && t.stackSize != e)) &&
 					((this.inventory.mainInventory[n] = t),
 					t.stackSize == 0 && (this.inventory.mainInventory[n] = null)),
-					this.gwAitYPKycVMVw();
+					this.BcgsaSGdkxAlWP();
 			}
 		}
 		handleStatusUpdate(e) {
@@ -27205,14 +27205,14 @@ var ap = class {
 				? this.onItemUseFinish()
 				: e == 23 || e == 22 || super.handleStatusUpdate(e);
 		}
-		BLLuIKatBgaHewiQxEe() {
+		ERvLKgJoRqlOQznMspj() {
 			return this.getDataWatcher().getWatchableObjectFloat(17);
 		}
-		GALKgBiyMMrSYweqNbA(e) {
+		BmCtIdqszlDQIDxEJZR(e) {
 			e < 0 && (e = 0), this.getDataWatcher().updateObject(17, e);
 		}
 		getInventory() {
-			return this.inventory.jWJBGiJnMUVIkc;
+			return this.inventory.rWfLPzHTCWCzBE;
 		}
 		playSound(e, t, n) {
 			this.profile?.vanished
@@ -27230,24 +27230,24 @@ var ap = class {
 		isPlayerSleeping() {
 			return this.sleeping;
 		}
-		IQbfNIUUYxACEJRdsdc() {
+		QjCEgGRhspmvvfmlEEp() {
 			return this.sleeping && this.sleepTimer >= 100;
 		}
-		WXiEfSvoIvCFj() {
+		ThnIFGtAZgFyj() {
 			return this.sleepTimer;
 		}
-		FTqxNXeAAGcbjS() {
+		qeenxBcZdXCemR() {
 			return this.spawnChunk;
 		}
-		ksMlcdQOZRLGJ() {
+		dIpRRCpwYFREc() {
 			return this.spawnForced;
 		}
-		wxblsNZJaaAuP(e, t) {
+		oJpBWHHeCWuFg(e, t) {
 			e == null
 				? ((this.spawnChunk = null), (this.spawnForced = !1))
 				: ((this.spawnChunk = e), (this.spawnForced = t));
 		}
-		ZtTXpsDyEBYz(e, t, n) {
+		kkRFpFZTGMcI(e, t, n) {
 			if ((this.setSize(0.6, 1.8), this.playerLocation)) {
 				let e = this.world.getBlockState(this.playerLocation);
 				if (e.getBlock() instanceof Qf) {
@@ -27264,9 +27264,9 @@ var ap = class {
 			(this.sleeping = !1),
 				this.world.isServer && t && this.world.updateAllPlayersSleepingFlag(),
 				(this.sleepTimer = e ? 0 : 100),
-				n && this.playerLocation && this.wxblsNZJaaAuP(this.playerLocation, !1);
+				n && this.playerLocation && this.oJpBWHHeCWuFg(this.playerLocation, !1);
 		}
-		ifJblRIo(e) {
+		azlDPMCp(e) {
 			if (this.world.isServer) {
 				if (this.isPlayerSleeping() || !this.isEntityAlive()) return 4;
 				if (this.world.isDaytime()) return 2;
@@ -27322,7 +27322,7 @@ var ap = class {
 		isSpectator() {
 			return this.mode.isSpectator();
 		}
-		ITNNvRucdJxvZNHGg() {
+		UCDFfgDMqYygRXQrH() {
 			return !1;
 		}
 		writeEntityToNBT(e) {
@@ -27370,7 +27370,7 @@ var ap = class {
 				(e.SelectedItemSlot = I.int(this.inventory.currentItem)),
 				(e.Sleeping = I.int(+!!this.sleeping)),
 				(e.SleepTimer = I.int(this.sleepTimer)),
-				this.abilities.sUqfjMPQtMLTkFTKpkenMs(e);
+				this.abilities.CsCjWgcMwaLJporVJEXejf(e);
 		}
 		readEntityFromNBT(t) {
 			super.readEntityFromNBT(t),
@@ -27385,14 +27385,14 @@ var ap = class {
 				(this.xpSeed = t.XpSeed ?? 0),
 				this.sleeping &&
 					((this.playerLocation = new F(this.pos.x, this.pos.y, this.pos.z)),
-					this.ZtTXpsDyEBYz(!0, !0, !1)),
+					this.kkRFpFZTGMcI(!0, !0, !1)),
 				t.SpawnX &&
 					t.SpawnY &&
 					t.SpawnZ &&
 					((this.spawnChunk = new F(t.SpawnX, t.SpawnY, t.SpawnZ)),
 					(this.spawnForced = t.SpawnForced)),
 				this.foodStats.readNBT(t),
-				this.abilities.MBxqiIHQQDMEaGTJUULHVPV(t),
+				this.abilities.TyRxMjxTfYZZNgPOmrGBPGs(t),
 				(this.homes = {});
 			let n = t.Homes;
 			if (Array.isArray(n))
@@ -27420,23 +27420,23 @@ var ap = class {
 						typeof e.Quest == `string` &&
 						this.guideProgress.claimed.push(e.Quest);
 		}
-		nAZhtEsJuhDbfClweMjmrM() {
+		TVrIbPLkvukeDyJAynScdt() {
 			return this.inventory.getCurrentItem();
 		}
 		interactFirst(e) {
 			let t = new yf(e, this, this.pos, null);
 			return this.world.handleEvent(t), !t.cancelled;
 		}
-		ODCCbyGOLpJo(e) {
+		zZAeqCHqDxZd(e) {
 			if (this.isSpectator()) return !1;
 			{
-				let t = this.nAZhtEsJuhDbfClweMjmrM(),
+				let t = this.TVrIbPLkvukeDyJAynScdt(),
 					n = t == null ? null : t.clone();
 				return e.interactFirst(this)
 					? (t != null &&
-							t == this.nAZhtEsJuhDbfClweMjmrM() &&
+							t == this.TVrIbPLkvukeDyJAynScdt() &&
 							(t.stackSize <= 0 && !this.abilities.creative
-								? this.QPycmqqBffxgBkBOUFyKqwinyR()
+								? this.tThxDsKdEoebDvBunrSaobVuFo()
 								: t.stackSize < (n?.stackSize ?? 0) &&
 									this.abilities.creative &&
 									(t.stackSize = n?.stackSize ?? 0)),
@@ -27447,7 +27447,7 @@ var ap = class {
 							t?.interactWithEntity(this, e))
 						? (t.stackSize <= 0 &&
 								!this.abilities.creative &&
-								this.QPycmqqBffxgBkBOUFyKqwinyR(),
+								this.tThxDsKdEoebDvBunrSaobVuFo(),
 							!0)
 						: !1;
 			}
@@ -27476,10 +27476,10 @@ var ap = class {
 					: ((this.profile.cosmetics.color = `white`),
 						this.actualName && (this.name = this.actualName));
 		}
-		fsavKVuGwJzplUlGB() {
+		wKoIEqCxTnDvaizAs() {
 			return 10;
 		}
-		LrQLhRUtOwkcStOftW() {
+		JcafPpCuIUUFvhwVnM() {
 			return 80;
 		}
 	},
@@ -27560,7 +27560,7 @@ var ap = class {
 		"death.attack.fireworks.player": `%1$s went off with a bang whilst fighting %2$s`,
 		"death.attack.fireworks.item": `%1$s went off with a bang due to a firework fired from %3$s by %2$s`,
 		"death.attack.badRespawnPoint.message": `%1$s was killed by %2$s`,
-		"death.attack.badRespawnPoint.link": `Intentional Game Design`,
+		"death.attack.badRespawnPoint.link": `Intentional Game DesiAxisAlignedBoundingBox`,
 		"death.attack.sweetBerryBush": `%1$s was poked to death by a sweet berry bush`,
 		"death.attack.sweetBerryBush.player": `%1$s was poked to death by a sweet berry bush whilst trying to escape %2$s`,
 		"death.attack.sting": `%1$s was stung to death`,
@@ -27791,22 +27791,22 @@ var ap = class {
 				(this.ticksInGround = 0),
 				(this.ticksInAir = 0);
 		}
-		ncOIECjeaeiZAuM() {
+		sKJSUyfXWAAFWgU() {
 			return 0.99;
 		}
-		ULoiaBLukKovqzLU() {
+		GsBdazeJSvlbijCI() {
 			return 0.8;
 		}
-		HlxRlOnhgseRwZMqNh() {
+		xhTjUelpdHMAiqRukm() {
 			return 0.03;
 		}
-		JZbOEOVrgxZvJwKdnoBmeTRuFeDJXKr() {
+		ugxnLxWptQCIxJJeQfDXhgeonKMeCyF() {
 			return !1;
 		}
-		ZxDREwEgSahYWbKMEpiEFzbJ() {
+		cHugffqYZgTkBHTSqmsLMOoN() {
 			return !0;
 		}
-		ZbXSuNSwzycnosGgJ() {
+		CUENnLceQBOkFarXH() {
 			for (let e = 0; e < 4; ++e) {
 				let e = 0.25;
 				this.world.spawnParticle(
@@ -27820,7 +27820,7 @@ var ap = class {
 				);
 			}
 		}
-		fRZzlBthPbe() {
+		SDCeJRtTvTc() {
 			let e = new D(this.pos.x, this.pos.y, this.pos.z),
 				t = new D(
 					this.pos.x + this.motion.x,
@@ -27831,7 +27831,7 @@ var ap = class {
 					e,
 					t,
 					!1,
-					this.JZbOEOVrgxZvJwKdnoBmeTRuFeDJXKr(),
+					this.ugxnLxWptQCIxJJeQfDXhgeonKMeCyF(),
 					!1,
 					this.world,
 				);
@@ -27843,7 +27843,7 @@ var ap = class {
 					this.pos.z + this.motion.z,
 				)),
 				n != null && (t = new D(n.hitVec.x, n.hitVec.y, n.hitVec.z)),
-				!this.ZxDREwEgSahYWbKMEpiEFzbJ() || this.world.isServer)
+				!this.cHugffqYZgTkBHTSqmsLMOoN() || this.world.isServer)
 			) {
 				let r = null,
 					i = this.world.getEntitiesInAABBexcluding(
@@ -27859,7 +27859,7 @@ var ap = class {
 					if (
 						!o.noPhysics &&
 						o.canBeCollidedWith() &&
-						(!this.pmTUIUHDg(o) || this.ticksInAir >= 5)
+						(!this.nzoayVnZj(o) || this.ticksInAir >= 5)
 					) {
 						let n = pd(
 							o.getEntityBoundingBox().clone().expandByScalar(0.3),
@@ -27876,7 +27876,7 @@ var ap = class {
 			}
 			return n;
 		}
-		kLOxANZBlZnPgVFR() {
+		NsRcXgmYjoFzZZYQ() {
 			(this.pos.x += this.motion.x),
 				(this.pos.y += this.motion.y),
 				(this.pos.z += this.motion.z);
@@ -27885,9 +27885,9 @@ var ap = class {
 			);
 			(this.yaw = Math.atan2(this.motion.x, this.motion.z)),
 				(this.pitch = Math.atan2(this.motion.y, e));
-			let t = this.ncOIECjeaeiZAuM(),
-				n = this.HlxRlOnhgseRwZMqNh();
-			this.inWater && (this.ZbXSuNSwzycnosGgJ(), (t = this.ULoiaBLukKovqzLU())),
+			let t = this.sKJSUyfXWAAFWgU(),
+				n = this.xhTjUelpdHMAiqRukm();
+			this.inWater && (this.CUENnLceQBOkFarXH(), (t = this.GsBdazeJSvlbijCI())),
 				(this.motion.x *= t),
 				(this.motion.y *= t),
 				(this.motion.z *= t),
@@ -27936,7 +27936,7 @@ var ap = class {
 				(this.motion.x = -Math.sin(r) * Math.cos(this.pitch)),
 					(this.motion.z = -Math.cos(r) * Math.cos(this.pitch)),
 					(this.motion.y = Math.sin(this.pitch)),
-					this.mYMSqwJfwCFDUpBQkkU(
+					this.PzgIqjLZqxigSOLPGxb(
 						this.motion.x,
 						this.motion.y,
 						this.motion.z,
@@ -27958,23 +27958,23 @@ var ap = class {
 						u = c / l;
 					this.setLocationAndAngles(t.pos.x + r, this.pos.y, t.pos.z + u, e, n);
 					let d = l * 0.2;
-					this.mYMSqwJfwCFDUpBQkkU(o, s + d, c, a, i);
+					this.PzgIqjLZqxigSOLPGxb(o, s + d, c, a, i);
 				}
 			}
 		}
-		RzdBQPLjO(e) {
+		SXAKNzNRt(e) {
 			this.damage = e;
 		}
-		MnKNgFhID() {
+		CqgdVVQsC() {
 			return this.damage;
 		}
-		lWUYGZxVDwTukCSBbbWp(e) {
+		deIqvVyAvKPNwtOoLmuK(e) {
 			this.knockbackStrength = e;
 		}
 		entityInit() {
 			this.dataWatcher.addObject(16, 0);
 		}
-		mYMSqwJfwCFDUpBQkkU(e, t, n, r, i) {
+		PzgIqjLZqxigSOLPGxb(e, t, n, r, i) {
 			let a = Math.sqrt(e * e + t * t + n * n);
 			(e /= a),
 				(t /= a),
@@ -27994,24 +27994,24 @@ var ap = class {
 				(this.ticksInGround = 0);
 		}
 		setPositionAndRotation2(e, t, n, r, i, a) {
-			this.setPosition(e, t, n), this.lZtwWlpkKOS(r, i);
+			this.setPosition(e, t, n), this.vmvCXvZBbtI(r, i);
 		}
-		pmTUIUHDg(e) {
+		nzoayVnZj(e) {
 			return e.id === this.shootingEntity.id;
 		}
-		HlxRlOnhgseRwZMqNh() {
+		xhTjUelpdHMAiqRukm() {
 			return 0.05;
 		}
-		ULoiaBLukKovqzLU() {
+		GsBdazeJSvlbijCI() {
 			return 0.6;
 		}
-		JZbOEOVrgxZvJwKdnoBmeTRuFeDJXKr() {
+		ugxnLxWptQCIxJJeQfDXhgeonKMeCyF() {
 			return !0;
 		}
-		ZxDREwEgSahYWbKMEpiEFzbJ() {
+		cHugffqYZgTkBHTSqmsLMOoN() {
 			return !1;
 		}
-		ZbXSuNSwzycnosGgJ() {}
+		CUENnLceQBOkFarXH() {}
 		update() {
 			if (this.dead) return;
 			super.update();
@@ -28036,7 +28036,7 @@ var ap = class {
 						(this.ticksInAir = 0));
 			else {
 				++this.ticksInAir;
-				let e = this.fRZzlBthPbe();
+				let e = this.SDCeJRtTvTc();
 				if (
 					(e != null &&
 						e.entity != null &&
@@ -28062,7 +28062,7 @@ var ap = class {
 					else if (e.entity != null) {
 						let t = this.motion.length(),
 							n = Math.ceil(t * this.damage);
-						this.gSjrLvsJqFIsG() &&
+						this.FbGLUKereiYle() &&
 							(n += Math.floor(Math.random() * (n / 2 + 2)));
 						let r = Ip.causeArrowDamage(this, this.shootingEntity || this),
 							i = !1;
@@ -28141,12 +28141,12 @@ var ap = class {
 							),
 							(this.inGround = !0),
 							(this.arrowShake = 7),
-							this.ocSeilmKCFQrF(!1),
+							this.LPSUEZYmZbOjl(!1),
 							this.inTile.isAir() ||
 								this.inTile.onEntityCollidedWithBlock(this.world, t, this);
 					}
 				}
-				if (this.gSjrLvsJqFIsG() && this.world.isServer)
+				if (this.FbGLUKereiYle() && this.world.isServer)
 					for (let e = 0; e < 4; ++e)
 						this.world.spawnParticle(
 							vu.CRIT,
@@ -28158,7 +28158,7 @@ var ap = class {
 							-this.motion.z,
 							null,
 						);
-				this.kLOxANZBlZnPgVFR(), this.xtwUburwFVrQZJhwY();
+				this.NsRcXgmYjoFzZZYQ(), this.tUzSgCHdiKCGdQbVM();
 			}
 		}
 		onCollideWithPlayer(e) {
@@ -28177,20 +28177,20 @@ var ap = class {
 							0.2,
 							((Math.random() - Math.random()) * 0.7 + 1) * 2,
 						),
-						e.YWGaNKsEOSxG(this, 1),
+						e.DmUZakaNjjmz(this, 1),
 						this.setDead());
 			}
 		}
 		getEyeHeight() {
 			return 0;
 		}
-		ocSeilmKCFQrF(e) {
+		LPSUEZYmZbOjl(e) {
 			let t = this.dataWatcher.getWatchableObjectByte(16);
 			e
 				? this.dataWatcher.updateObject(16, t | 1)
 				: this.dataWatcher.updateObject(16, t & -2);
 		}
-		gSjrLvsJqFIsG() {
+		FbGLUKereiYle() {
 			return (this.dataWatcher.getWatchableObjectByte(16) & 1) != 0;
 		}
 	},
@@ -28226,13 +28226,13 @@ var ap = class {
 				if (((a = (a * a + a * 2) / 3), a < 0.1)) return;
 				a > 1 && (a = 1);
 				let o = new zp(t, n, a * 2);
-				a == 1 && o.ocSeilmKCFQrF(!0);
+				a == 1 && o.LPSUEZYmZbOjl(!0);
 				let s = new Fae(n);
 				if ((t.handleEvent(s), s.cancelled)) return;
 				let c = Rd.getEnchantmentLevel(Ld.power.effectId, e);
-				c > 0 && o.RzdBQPLjO(o.MnKNgFhID() + c * 0.5 + 0.5);
+				c > 0 && o.SXAKNzNRt(o.CqgdVVQsC() + c * 0.5 + 0.5);
 				let l = Rd.getEnchantmentLevel(Ld.punch.effectId, e);
-				l > 0 && o.lWUYGZxVDwTukCSBbbWp(l),
+				l > 0 && o.deIqvVyAvKPNwtOoLmuK(l),
 					Rd.getEnchantmentLevel(Ld.flame.effectId, e) > 0 && o.setFire(100),
 					e.damageItem(1, n),
 					t.isClient &&
@@ -28525,12 +28525,12 @@ var ap = class {
 				this.attemptDamageItem(e)
 			) {
 				if (
-					(t.QmEvvfMzhFzxgcDhjGbJa(this), --this.stackSize, t instanceof Pp)
+					(t.uJjnKDoNeSpxGKTsZqCnV(this), --this.stackSize, t instanceof Pp)
 				) {
 					let e = t;
 					this.stackSize == 0 &&
 						this.getItem() instanceof Bp &&
-						e.QPycmqqBffxgBkBOUFyKqwinyR();
+						e.tThxDsKdEoebDvBunrSaobVuFo();
 				}
 				this.stackSize < 0 && (this.stackSize = 0), (this.itemDamage = 0);
 			}
@@ -28758,7 +28758,7 @@ var Up = class extends Nc {
 		}
 		onItemRightClick(e, t, n) {
 			return (
-				n.YZfPdZ(this.alwaysEdible) &&
+				n.tDnVhJ(this.alwaysEdible) &&
 					n.setItemInUse(e, this.getMaxItemUseDuration(e)),
 				e
 			);
@@ -29105,25 +29105,25 @@ var Up = class extends Nc {
 			(this.motion.x = -Math.sin(r) * Math.cos(this.pitch) * n),
 				(this.motion.z = -Math.cos(r) * Math.cos(this.pitch) * n),
 				(this.motion.y = Math.sin(this.pitch) * n),
-				this.mYMSqwJfwCFDUpBQkkU(
+				this.PzgIqjLZqxigSOLPGxb(
 					this.motion.x,
 					this.motion.y,
 					this.motion.z,
-					this.VsquLIRgwLK(),
+					this.kHqagiktmGQ(),
 					1,
 				);
 		}
-		iHUvhHVJBH() {
+		oxBukPThsp() {
 			return this.thrower;
 		}
 		entityInit() {}
-		VsquLIRgwLK() {
+		kHqagiktmGQ() {
 			return 1.5;
 		}
-		TjmkLwMOKleMf() {
+		dkrYUhFAPSDct() {
 			return 0;
 		}
-		mYMSqwJfwCFDUpBQkkU(e, t, n, r, i) {
+		PzgIqjLZqxigSOLPGxb(e, t, n, r, i) {
 			let a = new Hae(this, r, i);
 			this.world.handleEvent(a);
 			let o = Math.sqrt(e * e + t * t + n * n);
@@ -29156,10 +29156,10 @@ var Up = class extends Nc {
 					return;
 				}
 			} else ++this.ticksInAir;
-			let e = this.fRZzlBthPbe();
-			e != null && this.onImpact(e), this.kLOxANZBlZnPgVFR();
+			let e = this.SDCeJRtTvTc();
+			e != null && this.onImpact(e), this.NsRcXgmYjoFzZZYQ();
 		}
-		pmTUIUHDg(e) {
+		nzoayVnZj(e) {
 			return e === this.thrower;
 		}
 		onImpact(e) {
@@ -29176,7 +29176,7 @@ var Up = class extends Nc {
 				(this.wingRotDelta = 1),
 				this.setSize(0.4, 0.7),
 				(this.timeUntilNextEgg = af(6e3) + 6e3),
-				this.dKVzYNOhafitnyYBxhBHR({
+				this.nIKToQjomhsjFDWdvuaxL({
 					panic: { priority: 1, speed: 1.4 },
 					mate: { priority: 2, speed: 1 },
 					followParentBeforeTempt: !0,
@@ -29194,7 +29194,7 @@ var Up = class extends Nc {
 			super.applyEntityAttributes(),
 				this.applyBaseAttributes([
 					[ku.maxHealth, 4],
-					[ku.eAwmWnqQCXQCI, 0.25],
+					[ku.UNrmpQxnutSuc, 0.25],
 				]);
 		}
 		onLivingUpdate() {
@@ -29209,7 +29209,7 @@ var Up = class extends Nc {
 				(this.wingRotation += this.wingRotDelta * 2),
 				this.world.isServer &&
 					!this.isChild() &&
-					!this.pCyCSeWoRtarTiC() &&
+					!this.eylOLVIftCSTLJq() &&
 					--this.timeUntilNextEgg <= 0 &&
 					(this.playSound(
 						`mob.chicken.plop`,
@@ -29242,10 +29242,10 @@ var Up = class extends Nc {
 		isBreedingItem(e) {
 			return e !== null && e.getItem() === z.wheat_seeds;
 		}
-		pCyCSeWoRtarTiC() {
+		eylOLVIftCSTLJq() {
 			return this.chickenJockey;
 		}
-		sFYlKHrfyiNJBRfV(e) {
+		oXBdfxJMkzrvQoAB(e) {
 			this.chickenJockey = e;
 		}
 	},
@@ -29270,7 +29270,7 @@ var Up = class extends Nc {
 					af(32) == 0 && (e = 4);
 					for (let t = 0; t < e; ++t) {
 						let e = new Jp(this.world);
-						e.OworCVIMOpqQZ(-24e3),
+						e.JdcgKitRMPjbm(-24e3),
 							e.setLocationAndAngles(
 								this.pos.x,
 								this.pos.y,
@@ -29390,13 +29390,13 @@ var Up = class extends Nc {
 		toJSON() {
 			return { ...super.toJSON(), type: `$experience_bottle` };
 		}
-		HlxRlOnhgseRwZMqNh() {
+		xhTjUelpdHMAiqRukm() {
 			return 0.07;
 		}
-		VsquLIRgwLK() {
+		kHqagiktmGQ() {
 			return 0.7;
 		}
-		TjmkLwMOKleMf() {
+		dkrYUhFAPSDct() {
 			return -20;
 		}
 		onImpact(e) {
@@ -29532,7 +29532,7 @@ var tm = class e extends bd {
 			(this.motion.x = -Math.sin(this.yaw) * Math.cos(this.pitch) * n),
 				(this.motion.z = -Math.cos(this.yaw) * Math.cos(this.pitch) * n),
 				(this.motion.y = Math.sin(this.pitch) * n),
-				this.mYMSqwJfwCFDUpBQkkU(
+				this.PzgIqjLZqxigSOLPGxb(
 					this.motion.x,
 					this.motion.y,
 					this.motion.z,
@@ -29546,7 +29546,7 @@ var tm = class e extends bd {
 		getEyeHeight() {
 			return 0;
 		}
-		mYMSqwJfwCFDUpBQkkU(e, t, n, r) {
+		PzgIqjLZqxigSOLPGxb(e, t, n, r) {
 			let i = Math.sqrt(e * e + t * t + n * n) || 1;
 			(e = (e / i) * r),
 				(t = (t / i) * r),
@@ -29557,7 +29557,7 @@ var tm = class e extends bd {
 		}
 		update() {
 			if ((super.update(), this.world.isServer)) {
-				let e = this.angler?.nAZhtEsJuhDbfClweMjmrM();
+				let e = this.angler?.TVrIbPLkvukeDyJAynScdt();
 				if (
 					!this.angler ||
 					this.angler.dead ||
@@ -29595,7 +29595,7 @@ var tm = class e extends bd {
 					(this.ticksInGround = 0),
 					(this.ticksInAir = 0);
 			} else ++this.ticksInAir;
-			let t = this.fRZzlBthPbe();
+			let t = this.SDCeJRtTvTc();
 			if (t != null)
 				if (t.entity != null) {
 					if (this.world.isServer && t.entity instanceof jd && this.angler) {
@@ -29637,7 +29637,7 @@ var tm = class e extends bd {
 					e.sliceBox.max.set(r.max.x, a, r.max.z),
 					this.world.isAABBInMaterial(e.sliceBox, L.water) && (i += 1 / 5);
 			}
-			i > 0 && this.world.isServer && this.QImEpjjZHrg(i),
+			i > 0 && this.world.isServer && this.IYtPtKOvFwA(i),
 				i > 0 &&
 					this.ticksCatchable > 0 &&
 					(this.motion.y -=
@@ -29648,7 +29648,7 @@ var tm = class e extends bd {
 				this.motion.multiplyScalar(a),
 				this.setPosition(this.pos);
 		}
-		QImEpjjZHrg(e) {
+		IYtPtKOvFwA(e) {
 			if (this.ticksCatchable > 0) {
 				--this.ticksCatchable;
 				return;
@@ -29703,7 +29703,7 @@ var tm = class e extends bd {
 			}
 			this.ticksCaughtDelay = M.default.random(100, 900);
 		}
-		fRZzlBthPbe() {
+		SDCeJRtTvTc() {
 			let e = new D(this.pos.x, this.pos.y, this.pos.z),
 				t = new D(
 					this.pos.x + this.motion.x,
@@ -29745,7 +29745,7 @@ var tm = class e extends bd {
 			}
 			return n;
 		}
-		CzHrEtzsFiNBexoPdmkW() {
+		SNebXvBoMVysHZNGKdii() {
 			if (!this.world.isServer) return 0;
 			let e = 0;
 			if (this.caughtEntity != null) {
@@ -29827,7 +29827,7 @@ var tm = class e extends bd {
 			let r = n.fishEntity != null;
 			if (r) {
 				if (t.isServer) {
-					let t = n.fishEntity.CzHrEtzsFiNBexoPdmkW();
+					let t = n.fishEntity.SNebXvBoMVysHZNGKdii();
 					e.damageItem(t, n);
 				}
 			} else t.isServer && t.spawnEntityInWorld(new tm(t, n));
@@ -29853,7 +29853,7 @@ var tm = class e extends bd {
 						e === B.soul_sand || e === B.soul_soil ? B.soul_fire : B.fire
 					).getStateForPlacement(n, r, i, a, o, s, 0, t);
 				n.playSoundAtPositionClientSidePredicted(
-					`fire.ignite`,
+					`fire.iAxisAlignedBoundingBoxite`,
 					1,
 					Math.random() * 0.4 + 0.8,
 					r.toVec3(),
@@ -30187,7 +30187,7 @@ var im = class extends Nc {
 			this.runtime = A;
 		}
 		static {
-			this.typeName = `CPacketUpdateSign`;
+			this.typeName = `CPacketUpdateSiAxisAlignedBoundingBox`;
 		}
 		static {
 			this.fields = A.util.newFieldList(() => [
@@ -30211,15 +30211,15 @@ var im = class extends Nc {
 	pm = class extends pu {
 		constructor(...e) {
 			super(...e),
-				(this.name = `sign`),
-				(this.signText = [``, ``, ``, ``]),
+				(this.name = `siAxisAlignedBoundingBox`),
+				(this.siAxisAlignedBoundingBoxText = [``, ``, ``, ``]),
 				(this.lineBeingEdited = -1),
 				(this.isEditable = !0);
 		}
 		writeToNBT(e) {
 			super.writeToNBT(e);
 			for (let t = 0; t < 4; ++t) {
-				let n = JSON.stringify({ text: this.signText[t] });
+				let n = JSON.stringify({ text: this.siAxisAlignedBoundingBoxText[t] });
 				e[`Text${t}`] = I.string(n);
 			}
 		}
@@ -30230,16 +30230,16 @@ var im = class extends Nc {
 			for (let n = 0; n < 4; ++n) {
 				let r = e[`Text${n + t}`];
 				try {
-					this.signText[n] = JSON.parse(r).text;
+					this.siAxisAlignedBoundingBoxText[n] = JSON.parse(r).text;
 				} catch {
-					this.signText[n] = `error loading text`;
+					this.siAxisAlignedBoundingBoxText[n] = `error loading text`;
 				}
 			}
 		}
 		getDescriptionPacket() {
 			return new fm({
 				pos: this.pos.toProto(),
-				lines: this.signText.map((e) => e || ``),
+				lines: this.siAxisAlignedBoundingBoxText.map((e) => e || ``),
 			});
 		}
 		func_183000_F() {
@@ -30263,13 +30263,13 @@ var im = class extends Nc {
 	},
 	mm = class extends Nc {
 		constructor(e) {
-			super(`${e}_sign`), (this.type = e);
+			super(`${e}_siAxisAlignedBoundingBox`), (this.type = e);
 		}
 		applyCopiedText(e, t) {
-			let n = t.data?.signText;
+			let n = t.data?.siAxisAlignedBoundingBoxText;
 			if (!Array.isArray(n) || !n.some((e) => e)) return !1;
 			for (let e of n) if (typeof e != `string` || e.length >= 19) return !1;
-			for (let t = 0; t < 4; ++t) e.signText[t] = n[t] ?? ``;
+			for (let t = 0; t < 4; ++t) e.siAxisAlignedBoundingBoxText[t] = n[t] ?? ``;
 			return e.markDirty(), !0;
 		}
 		onItemUse(e, t, n, r, i, a, o, s) {
@@ -30277,14 +30277,14 @@ var im = class extends Nc {
 			if (n.getBlockState(r).getBlock().material.isSolid()) {
 				if (
 					((r = r.offset(i)),
-					!t.canPlayerEdit(r, i, e) || !B.oak_sign.canPlaceBlockAt(n, r))
+					!t.canPlayerEdit(r, i, e) || !B.oak_siAxisAlignedBoundingBox.canPlaceBlockAt(n, r))
 				)
 					return !1;
 				if (n.isClient)
 					return (
 						t.abilities.creative || --e.stackSize,
 						n.playPlaceSoundAtPositionClientSidePredicted(
-							B.fromName(this.type + `_sign`).sound,
+							B.fromName(this.type + `_siAxisAlignedBoundingBox`).sound,
 							r.toVec3(),
 							t,
 						),
@@ -30296,7 +30296,7 @@ var im = class extends Nc {
 							i = Math.floor(((360 - e) * 16) / 360 + 0.5) & 15;
 						n.setBlockState(
 							r,
-							B.fromName(this.type + `_sign`).defaultState.withState(
+							B.fromName(this.type + `_siAxisAlignedBoundingBox`).defaultState.withState(
 								`rotation`,
 								i,
 							),
@@ -30305,14 +30305,14 @@ var im = class extends Nc {
 					} else
 						n.setBlockState(
 							r,
-							B.fromName(this.type + `_wall_sign`).defaultState.withState(
+							B.fromName(this.type + `_wall_siAxisAlignedBoundingBox`).defaultState.withState(
 								`facing`,
 								i,
 							),
 							3,
 						);
 					n.playPlaceSoundAtPositionClientSidePredicted(
-						B.fromName(this.type + `_sign`).sound,
+						B.fromName(this.type + `_siAxisAlignedBoundingBox`).sound,
 						r.toVec3(),
 						t,
 					),
@@ -30322,7 +30322,7 @@ var im = class extends Nc {
 						let i = a;
 						this.applyCopiedText(i, e)
 							? n.markTileEntityForUpdate(r)
-							: uf.setTileEntityJSON(n, t, r, e) || t.openEditSign(i);
+							: uf.setTileEntityJSON(n, t, r, e) || t.openEditSiAxisAlignedBoundingBox(i);
 					}
 					return !0;
 				}
@@ -30402,7 +30402,7 @@ var im = class extends Nc {
 			Lp.fireFromRayTrace(this, this.world, e) &&
 				(e.entity != null &&
 					e.entity.attackEntityFrom(
-						Ip.causeThrownDamage(this, this.iHUvhHVJBH()),
+						Ip.causeThrownDamage(this, this.oxBukPThsp()),
 						0,
 					),
 				this.world.isServer && this.setDead());
@@ -30513,20 +30513,20 @@ var im = class extends Nc {
 				(this.type = `potion`),
 				n && (this.potionDamage = n);
 		}
-		HlxRlOnhgseRwZMqNh() {
+		xhTjUelpdHMAiqRukm() {
 			return 0.05;
 		}
-		VsquLIRgwLK() {
+		kHqagiktmGQ() {
 			return 0.5;
 		}
-		TjmkLwMOKleMf() {
+		dkrYUhFAPSDct() {
 			return -20;
 		}
-		PZKomfHxpPmbZTJ(e) {
+		WspZWNtpqRugNtH(e) {
 			(this.potionDamage ??= new Hp(z.potion, 1, 0)),
 				this.potionDamage.setItemDamage(e);
 		}
-		KKRJtfPUNmXmFwg() {
+		oNqVHKdwloDdseM() {
 			return (
 				(this.potionDamage ??= new Hp(z.potion, 1, 0)),
 				this.potionDamage.getMetadata()
@@ -30719,22 +30719,22 @@ var im = class extends Nc {
 				this.getEquipmentInSlot(4),
 			];
 		}
-		xvnormalizeAnglekxdnWX() {
+		kZJrCIWVcR() {
 			return !1;
 		}
-		qbXTAswgDfe() {
+		dvcIiBvoPKK() {
 			return !1;
 		}
-		UxRcfwsweCGeAjcVG(e) {}
-		iGJwUXChBxitaR() {
+		SWUXfPLWyCPjVkSHq(e) {}
+		yQCDdpbbfFUAhU() {
 			return null;
 		}
 		interactFirst(e) {
-			return this.AHWTDhCMtD(e, new D(this.pos.x, this.pos.y + 1, this.pos.z));
+			return this.MzdfDudGmT(e, new D(this.pos.x, this.pos.y + 1, this.pos.z));
 		}
-		AHWTDhCMtD(e, t) {
+		MzdfDudGmT(e, t) {
 			if (!this.world.isServer || e.isSpectator()) return !0;
-			let n = e.nAZhtEsJuhDbfClweMjmrM();
+			let n = e.TVrIbPLkvukeDyJAynScdt();
 			if (n != null && n.stackSize > 0) {
 				let t = n.getItem(),
 					r = t instanceof xu ? t.armorType + 1 : +(t?.name === `player_head`),
@@ -30749,23 +30749,23 @@ var im = class extends Nc {
 								e.inventory.currentItem,
 								null,
 							),
-						i != null && this.HwVMoghLwyxxFIiDVj(e, i)),
+						i != null && this.trkDwUEuhdqyKUvydX(e, i)),
 					!0
 				);
 			}
-			let r = this.OQcheIyojzSfFBDDA(t.y - this.pos.y),
+			let r = this.AaQLYPbhfkmbJngYq(t.y - this.pos.y),
 				i = this.getEquipmentInSlot(r);
 			return (
 				(i ??= ((r = 0), this.getEquipmentInSlot(0))),
 				i != null &&
-					(this.setCurrentItemOrArmor(r, null), this.HwVMoghLwyxxFIiDVj(e, i)),
+					(this.setCurrentItemOrArmor(r, null), this.trkDwUEuhdqyKUvydX(e, i)),
 				!0
 			);
 		}
-		OQcheIyojzSfFBDDA(e) {
+		AaQLYPbhfkmbJngYq(e) {
 			return e >= 1.5 ? 1 : e >= 0.9 ? 2 : e >= 0.5 ? 3 : 4;
 		}
-		HwVMoghLwyxxFIiDVj(e, t) {
+		trkDwUEuhdqyKUvydX(e, t) {
 			e.inventory.addItemStackToInventory(t) || this.entityDropItem(t, 0);
 		}
 		attackEntityFrom(e, t) {
@@ -30775,12 +30775,12 @@ var im = class extends Nc {
 				r = n instanceof Pp && n.abilities.creative;
 			return (
 				!r && !e.isExplosion() && this.entityDropItem(new Hp(z.armor_stand), 0),
-				r || this.rvgyeNeQfKAI(),
+				r || this.kfBhzQJxWtNb(),
 				this.setDead(),
 				!0
 			);
 		}
-		rvgyeNeQfKAI() {
+		kfBhzQJxWtNb() {
 			for (let e = 0; e <= 4; ++e) {
 				let t = this.getEquipmentInSlot(e);
 				t != null &&
@@ -30854,16 +30854,16 @@ var wm = class extends bd {
 				this.dataWatcher.addObject(18, 1),
 				this.dataWatcher.addObject(19, 0);
 		}
-		oRAnnAijjVybkPU(e) {
+		jZFHRIEtqDUkTTE(e) {
 			return e.getEntityBoundingBox();
 		}
 		getCollisionBoundingBox() {
 			return this.getEntityBoundingBox();
 		}
-		qbXTAswgDfe() {
+		dvcIiBvoPKK() {
 			return !0;
 		}
-		fGDcEubBcNPGGTsvO() {
+		UVNnSRcdgzJKxWHAi() {
 			return -0.3;
 		}
 		attackEntityFrom(e, t) {
@@ -30875,27 +30875,27 @@ var wm = class extends bd {
 				)
 					return !1;
 				{
-					this.tVMtzunEecSSSbuJsSA(-this.LrOOHqYqehiersNgsrk()),
-						this.ltGrEfAgrngJOYu(10),
-						this.ogyCUzyQCMkTQX(this.ailKiouDAgPYRj() + t * 10),
+					this.ovcPqMHpFtaQctDCkWc(-this.WtxkSUlkXibHVloYrZi()),
+						this.bjmpHlfcgVrCRDm(10),
+						this.AoIWvPaEIwYdCt(this.CHBQAKNSualzgL() + t * 10),
 						this.setBeenAttacked();
 					let n =
 						e.getEntity() instanceof Pp && e.getEntity().abilities.creative;
 					return (
-						(n || this.ailKiouDAgPYRj() > 40) &&
+						(n || this.CHBQAKNSualzgL() > 40) &&
 							(this.riddenByEntity !== null &&
 								this.riddenByEntity.mountEntity(this),
-							n || this.tMiqGQpPxYTJDfFrks(z.getItemByName(this.texture), 1, 0),
+							n || this.NwqhKAMLDcVbIFgbza(z.getItemByName(this.texture), 1, 0),
 							this.setDead()),
 						!0
 					);
 				}
 			} else return !0;
 		}
-		FGetNSNIwujTqNoKOstw() {
-			this.tVMtzunEecSSSbuJsSA(-this.LrOOHqYqehiersNgsrk()),
-				this.ltGrEfAgrngJOYu(10),
-				this.ogyCUzyQCMkTQX(this.ailKiouDAgPYRj() * 11);
+		PoNuyGYoDXuHRhrvUTDF() {
+			this.ovcPqMHpFtaQctDCkWc(-this.WtxkSUlkXibHVloYrZi()),
+				this.bjmpHlfcgVrCRDm(10),
+				this.AoIWvPaEIwYdCt(this.CHBQAKNSualzgL() * 11);
 		}
 		canBeCollidedWith() {
 			return !this.dead;
@@ -30921,13 +30921,13 @@ var wm = class extends bd {
 					c = n - this.pos.z;
 				(o || a * a + s * s + c * c > 16) &&
 					(this.setPosition(e, t, n),
-					this.lZtwWlpkKOS(r, i),
+					this.vmvCXvZBbtI(r, i),
 					(this.motion.x = this.velocityX),
 					(this.motion.y = this.velocityY),
 					(this.motion.z = this.velocityZ));
 			}
 		}
-		puewcoUBFLa(e, t, n) {
+		xkqvKMqhUoL(e, t, n) {
 			if (!isFinite(e) || !isFinite(t) || !isFinite(n))
 				throw Error(`Invalid velocity`);
 			(this.velocityX = e),
@@ -30938,10 +30938,10 @@ var wm = class extends bd {
 		}
 		update() {
 			super.update(),
-				this.NBtBIJRinaPFDeh() > 0 &&
-					this.ltGrEfAgrngJOYu(this.NBtBIJRinaPFDeh() - 1),
-				this.ailKiouDAgPYRj() > 0 &&
-					this.ogyCUzyQCMkTQX(this.ailKiouDAgPYRj() - 1),
+				this.ovAbjPdrLlyfbdT() > 0 &&
+					this.bjmpHlfcgVrCRDm(this.ovAbjPdrLlyfbdT() - 1),
+				this.CHBQAKNSualzgL() > 0 &&
+					this.AoIWvPaEIwYdCt(this.CHBQAKNSualzgL() - 1),
 				(this.prevPos.x = this.pos.x),
 				(this.prevPos.y = this.pos.y),
 				(this.prevPos.z = this.pos.z);
@@ -30998,7 +30998,7 @@ var wm = class extends bd {
 							(this.boatPitch - this.pitch) / this.boatPosRotationIncrements),
 						--this.boatPosRotationIncrements,
 						this.setPosition(e, t, n),
-						this.lZtwWlpkKOS(this.yaw, this.pitch);
+						this.vmvCXvZBbtI(this.yaw, this.pitch);
 				} else
 					(this.motion.x *= 0.99),
 						(this.motion.y *= 0.95),
@@ -31020,7 +31020,7 @@ var wm = class extends bd {
 				this.motion.y < 0 && (this.motion.y /= 2), (this.motion.y += 0.007);
 			if (this.riddenByEntity instanceof jd) {
 				let e = this.riddenByEntity,
-					t = e.yaw - Math.PI / 2 + (-e.WtjwRKKoMH * Math.PI) / 2;
+					t = e.yaw - Math.PI / 2 + (-e.ehLnHaYjaS * Math.PI) / 2;
 				(this.motion.x +=
 					Math.cos(t) * this.speedMultiplier * e.moveForward * 0.05),
 					(this.motion.z +=
@@ -31066,21 +31066,21 @@ var wm = class extends bd {
 			o > s && (o = s),
 				o < -s && (o = -s),
 				(this.yaw += o),
-				this.lZtwWlpkKOS(this.yaw, this.pitch),
+				this.vmvCXvZBbtI(this.yaw, this.pitch),
 				this.world.isServer &&
 					this.riddenByEntity !== null &&
 					this.riddenByEntity.dead &&
 					(this.riddenByEntity = null);
 		}
-		LwgcAWFGPgOyaovPGOC() {
+		TOQVdovXEvLaSJWTakx() {
 			if (this.riddenByEntity !== null) {
 				let e = Math.cos(this.yaw) * 0.4,
 					t = -Math.sin(this.yaw) * 0.4;
 				this.riddenByEntity.setPosition(
 					this.pos.x + e,
 					this.pos.y +
-						this.fGDcEubBcNPGGTsvO() +
-						this.riddenByEntity.mINSlcXsir(),
+						this.UVNnSRcdgzJKxWHAi() +
+						this.riddenByEntity.tfsNPJIkDn(),
 					this.pos.z + t,
 				);
 			}
@@ -31094,7 +31094,7 @@ var wm = class extends bd {
 		readEntityFromNBT(e) {
 			super.readEntityFromNBT(e), (this.texture = e.Texture);
 		}
-		pDwwZFUPwIhfpMQWkcv() {
+		kWZPJoHcpYfmEByUjop() {
 			return this.riddenByEntity === null;
 		}
 		interactFirst(e) {
@@ -31113,7 +31113,7 @@ var wm = class extends bd {
 					this.world.isServer &&
 						!this.dead &&
 						(this.setDead(),
-						this.tMiqGQpPxYTJDfFrks(z.getItemByName(this.texture), 1, 0)),
+						this.NwqhKAMLDcVbIFgbza(z.getItemByName(this.texture), 1, 0)),
 					(this.fallDistance = 0))
 				: this.world
 						.getBlockState(F.fromVector(this.pos).down())
@@ -31122,25 +31122,25 @@ var wm = class extends bd {
 					e < 0 &&
 					(this.fallDistance -= e);
 		}
-		ogyCUzyQCMkTQX(e) {
+		AoIWvPaEIwYdCt(e) {
 			this.dataWatcher.updateObject(19, e);
 		}
-		ailKiouDAgPYRj() {
+		CHBQAKNSualzgL() {
 			return this.dataWatcher.getWatchableObjectFloat(19);
 		}
-		ltGrEfAgrngJOYu(e) {
+		bjmpHlfcgVrCRDm(e) {
 			this.dataWatcher.updateObject(17, e);
 		}
-		NBtBIJRinaPFDeh() {
-			return this.dataWatcher.TZFJNwmXciwTIMSQzXBDB(17);
+		ovAbjPdrLlyfbdT() {
+			return this.dataWatcher.YFWpRaHdBLDaQukqdayiD(17);
 		}
-		tVMtzunEecSSSbuJsSA(e) {
+		ovcPqMHpFtaQctDCkWc(e) {
 			this.dataWatcher.updateObject(18, e);
 		}
-		LrOOHqYqehiersNgsrk() {
-			return this.dataWatcher.TZFJNwmXciwTIMSQzXBDB(18);
+		WtxkSUlkXibHVloYrZi() {
+			return this.dataWatcher.YFWpRaHdBLDaQukqdayiD(18);
 		}
-		YwZuhrpMpXpAPh(e) {
+		kKxJBLdwtFkrmG(e) {
 			this.isBoatEmpty !== e &&
 				((this.isBoatEmpty = e),
 				(this.boatPosRotationIncrements = 0),
@@ -31189,7 +31189,7 @@ var wm = class extends bd {
 				for (let e = 0; e < o.length; ++e) {
 					let t = o[e];
 					if (t.canBeCollidedWith()) {
-						let e = t.LkIOwbehIgJWMWtBeZHeZb();
+						let e = t.sqwVVmJxfkiMHJRmIvNhQr();
 						t.getEntityBoundingBox().expandByScalar(e).containsPoint(a) &&
 							(i = !0);
 					}
@@ -31225,7 +31225,7 @@ var wm = class extends bd {
 		onItemUseFinish(e, t, n) {
 			return (
 				n.abilities.creative || e.stackSize--,
-				t.isServer && n.ENLfEzrupYbmLMczAL(),
+				t.isServer && n.ciKwdvjEwKUpMqDMCM(),
 				e.stackSize <= 0 ? new Hp(z.bucket) : e
 			);
 		}
@@ -31339,19 +31339,19 @@ var wm = class extends bd {
 			super(e), (this.hangingPosition = t), this.setSize(0.5, 0.5);
 		}
 		entityInit() {}
-		GCyQubVsyigelPvaqRaMTMHAHNW(e) {
+		QxnXHvODvZYUWtDhsjftKZVRIVX(e) {
 			(this.facingDirection = e),
 				(this.prevYaw = this.yaw =
 					((this.facingDirection.index + 5) * Math.PI) / 4),
-				this.AYChNiUfTdjpTjURq();
+				this.QwktAglzkqjCdBIkC();
 		}
-		AYChNiUfTdjpTjURq() {
+		QwktAglzkqjCdBIkC() {
 			if (this.facingDirection != null) {
 				let e = this.hangingPosition.x + 0.5,
 					t = this.hangingPosition.y + 0.5,
 					n = this.hangingPosition.z + 0.5,
-					r = this.EbQoxDFXZWAus(this.crqRRInneDRqZv()),
-					i = this.EbQoxDFXZWAus(this.mzFDBmyOWsKbWjd());
+					r = this.RlfWRVzNQUXxD(this.OBkXqpTIGRxTBs()),
+					i = this.RlfWRVzNQUXxD(this.TvxtCgJQoxYCGEu());
 				(e -= this.facingDirection.getFrontOffsetX() * 0.46875),
 					(n -= this.facingDirection.getFrontOffsetZ() * 0.46875),
 					(t += i);
@@ -31361,19 +31361,19 @@ var wm = class extends bd {
 					(this.pos.x = e),
 					(this.pos.y = t),
 					(this.pos.z = n);
-				let o = this.crqRRInneDRqZv(),
-					s = this.mzFDBmyOWsKbWjd(),
-					c = this.crqRRInneDRqZv();
+				let o = this.OBkXqpTIGRxTBs(),
+					s = this.TvxtCgJQoxYCGEu(),
+					c = this.OBkXqpTIGRxTBs();
 				this.facingDirection.getAxis() == N.Z ? (c = 1) : (o = 1),
 					(o /= 32),
 					(s /= 32),
 					(c /= 32),
-					this.ReeVnUWiyTdaBcmnNyJe(
+					this.kjzyjLUrlOzEsFVxymHV(
 						new AxisAlignedBoundingBox(new D(e - o, t - s, n - c), new D(e + o, t + s, n + c)),
 					);
 			}
 		}
-		EbQoxDFXZWAus(e) {
+		RlfWRVzNQUXxD(e) {
 			return e % 32 == 0 ? 0.5 : 0;
 		}
 		onUpdate() {
@@ -31385,7 +31385,7 @@ var wm = class extends bd {
 					((this.tickCounter1 = 0),
 					!this.dead &&
 						!this.onValidSurface() &&
-						(this.setDead(), this.JiAECxNd(null)));
+						(this.setDead(), this.GQgwOMlH(null)));
 		}
 		onValidSurface() {
 			let t = this.getEntityBoundingBox(),
@@ -31405,12 +31405,12 @@ var wm = class extends bd {
 		canBeCollidedWith() {
 			return !0;
 		}
-		CvzQlPpJzXt(e) {
+		PoazQRwvZJZ(e) {
 			return e instanceof Pp
 				? this.attackEntityFrom(Ip.causePlayerDamage(e), 0)
 				: !1;
 		}
-		cCItSFWJcZopDLLcwSl() {
+		gprxAeNsBJdUmUcKjWB() {
 			return this.facingDirection;
 		}
 		attackEntityFrom(e, t) {
@@ -31420,20 +31420,20 @@ var wm = class extends bd {
 						this.world.isServer &&
 						(this.setDead(),
 						this.setBeenAttacked(),
-						this.JiAECxNd(e.getEntity())),
+						this.GQgwOMlH(e.getEntity())),
 					!0);
 		}
 		moveEntity(e, t, n) {
 			this.world.isServer &&
 				!this.dead &&
 				e * e + t * t + n * n > 0 &&
-				(this.setDead(), this.JiAECxNd(null));
+				(this.setDead(), this.GQgwOMlH(null));
 		}
 		addVelocity(e, t, n) {
 			this.world.isServer &&
 				!this.dead &&
 				e * e + t * t + n * n > 0 &&
-				(this.setDead(), this.JiAECxNd(null));
+				(this.setDead(), this.GQgwOMlH(null));
 		}
 		fromJSON(e) {
 			(this.id = e.id),
@@ -31443,15 +31443,15 @@ var wm = class extends bd {
 					e.pos.z / 32,
 				));
 			let t = e.facing == null ? P.NORTH : P.fromIndex(e.facing);
-			this.GCyQubVsyigelPvaqRaMTMHAHNW(t),
+			this.QxnXHvODvZYUWtDhsjftKZVRIVX(t),
 				this.prevPos.copy(this.pos),
 				(this.onGround = !1);
 		}
 		writeEntityToNBT(e) {
 			(e.Facing = I.byte(this.facingDirection.index)),
-				(e.TileX = I.int(this.DXtCkSwhtISFxHliri().x)),
-				(e.TileY = I.int(this.DXtCkSwhtISFxHliri().y)),
-				(e.TileZ = I.int(this.DXtCkSwhtISFxHliri().z));
+				(e.TileX = I.int(this.FaBKBfEpbLsmUnbGSh().x)),
+				(e.TileY = I.int(this.FaBKBfEpbLsmUnbGSh().y)),
+				(e.TileZ = I.int(this.FaBKBfEpbLsmUnbGSh().z));
 		}
 		readEntityFromNBT(e) {
 			this.hangingPosition = new F(e.TileX, e.TileY, e.TileZ);
@@ -31462,9 +31462,9 @@ var wm = class extends bd {
 					: ((t = P.getHorizontal(e.Direction)),
 						(this.hangingPosition = this.hangingPosition.offset(t)))
 				: (t = P.fromIndex(e.Facing)),
-				this.GCyQubVsyigelPvaqRaMTMHAHNW(t);
+				this.QxnXHvODvZYUWtDhsjftKZVRIVX(t);
 		}
-		ulZHkXeystuTTTrUiBYpcCEX() {
+		YsOdLEqUHkHOMrtBtfGzAghC() {
 			return !1;
 		}
 		setPosition(e, t, n) {
@@ -31479,9 +31479,9 @@ var wm = class extends bd {
 					(this.pos.z = e.z),
 					(this.hangingPosition = new F(e.x, e.y, e.z))),
 				this.hangingPosition.equals(r) ||
-					(this.AYChNiUfTdjpTjURq(), (this.isAirborne = !0));
+					(this.QwktAglzkqjCdBIkC(), (this.isAirborne = !0));
 		}
-		DXtCkSwhtISFxHliri() {
+		FaBKBfEpbLsmUnbGSh() {
 			return this.hangingPosition;
 		}
 	},
@@ -31491,53 +31491,53 @@ var wm = class extends bd {
 				(this.identifier = Bd.ITEM_FRAME),
 				(this.type = `item_frame`),
 				(this.itemDropChance = 1),
-				this.GCyQubVsyigelPvaqRaMTMHAHNW(n);
+				this.QxnXHvODvZYUWtDhsjftKZVRIVX(n);
 		}
 		entityInit() {
-			this.getDataWatcher().izxTfpEIcGGOShBODjS(8, 5),
+			this.getDataWatcher().cxJZBDfZSCEAQWwuzqt(8, 5),
 				this.getDataWatcher().addObject(9, 0);
 		}
-		ZrsPMlSQJkwxhxfKdye(e) {
+		RJdRWndYzhlODldjtPa(e) {
 			(e === 8 || e === 9) && this.mesh?.recreate(),
-				super.ZrsPMlSQJkwxhxfKdye(e);
+				super.RJdRWndYzhlODldjtPa(e);
 		}
-		LkIOwbehIgJWMWtBeZHeZb() {
+		sqwVVmJxfkiMHJRmIvNhQr() {
 			return 0;
 		}
 		attackEntityFrom(e, t) {
 			return this.isEntityInvulnerable(e)
 				? !1
-				: !e.isExplosion() && this.kIXJaZBknyBEHJOy() != null
+				: !e.isExplosion() && this.TOXtTrEArvzocGpN() != null
 					? (this.world.isServer &&
-							(this.arwKGiAxQQwppf(e.getEntity(), !1),
-							this.XCqFbRihMazZSZhD(null)),
+							(this.StsvfyhZxynjgt(e.getEntity(), !1),
+							this.itfzpwpwDmoRWZkV(null)),
 						!0)
 					: super.attackEntityFrom(e, t);
 		}
-		crqRRInneDRqZv() {
+		OBkXqpTIGRxTBs() {
 			return 12;
 		}
-		mzFDBmyOWsKbWjd() {
+		TvxtCgJQoxYCGEu() {
 			return 12;
 		}
-		NArIDuqlvWKDAaKVWtRVs(e) {
+		kRLwAolDFAjZqVgwRahUv(e) {
 			let t = 16;
 			return (t = t * 64 * this.renderDistanceWeight), e < t * t;
 		}
-		JiAECxNd(e) {
-			this.arwKGiAxQQwppf(e, !0);
+		GQgwOMlH(e) {
+			this.StsvfyhZxynjgt(e, !0);
 		}
-		arwKGiAxQQwppf(e, t) {
-			let n = this.kIXJaZBknyBEHJOy();
+		StsvfyhZxynjgt(e, t) {
+			let n = this.TOXtTrEArvzocGpN();
 			if (e instanceof Pp && e.abilities.creative) {
-				this.HANCzMgVoQkzSkVTNo(n);
+				this.xhZZolLXzBqKPsYlUa(n);
 				return;
 			}
 			t && this.entityDropItem(new Hp(z.item_frame), 0),
 				n != null &&
 					Math.random() < this.itemDropChance &&
 					((n = n.clone()),
-					this.HANCzMgVoQkzSkVTNo(n),
+					this.xhZZolLXzBqKPsYlUa(n),
 					this.entityDropItem(n, 0));
 		}
 		entityDropItem(e, t) {
@@ -31547,42 +31547,42 @@ var wm = class extends bd {
 					e,
 					new D(this.pos.x, this.pos.y + t, this.pos.z),
 				);
-				return n.tispSNlcbPDenpvtkmhGM(), this.world.spawnEntityInWorld(n), n;
+				return n.otbIqyhjuSaLVlLMJRNtP(), this.world.spawnEntityInWorld(n), n;
 			} else return null;
 		}
-		HANCzMgVoQkzSkVTNo(e) {}
-		kIXJaZBknyBEHJOy() {
-			return this.getDataWatcher().ZJwdHJdIURvAfGhADxcTfXNcpJL(8);
+		xhZZolLXzBqKPsYlUa(e) {}
+		TOXtTrEArvzocGpN() {
+			return this.getDataWatcher().SzFJpXoBCYTQYYrKPtLZdNdPYKp(8);
 		}
-		XCqFbRihMazZSZhD(e) {
-			this.pAVpljkubCiIXgXxGnWGTcTpZr(e, !0);
+		itfzpwpwDmoRWZkV(e) {
+			this.pPTMUtPkvriVMXoGWJDrPfyPCE(e, !0);
 		}
-		pAVpljkubCiIXgXxGnWGTcTpZr(e, t) {
+		pPTMUtPkvriVMXoGWJDrPfyPCE(e, t) {
 			e != null && ((e = e.clone()), (e.stackSize = 1), e.setItemFrame(this)),
 				this.getDataWatcher().updateObject(8, e),
-				this.getDataWatcher().QAGNGxyLrArpljzE(8),
+				this.getDataWatcher().IkgtxwJwcbLMsbMZ(8),
 				t &&
 					this.hangingPosition != null &&
 					this.world.updateComparatorOutputLevel(this.hangingPosition, B.air);
 		}
-		ZpQyzoCWDSc() {
+		DlCtppqhYyP() {
 			return this.getDataWatcher().getWatchableObjectByte(9);
 		}
-		oBCSkxiUFlaAqGO(e) {
-			this.YXVSBUAtosAsi(e, !0);
+		lfXaCvaMLZLAjrh(e) {
+			this.ouXPcEBdhOqeL(e, !0);
 		}
-		YXVSBUAtosAsi(e, t) {
+		ouXPcEBdhOqeL(e, t) {
 			this.getDataWatcher().updateObject(9, e % 8),
 				t &&
 					this.hangingPosition != null &&
 					this.world.updateComparatorOutputLevel(this.hangingPosition, B.air);
 		}
 		interactFirst(e) {
-			if (this.kIXJaZBknyBEHJOy() == null) {
+			if (this.TOXtTrEArvzocGpN() == null) {
 				let t = e.getActiveItemStack();
 				t != null &&
 					this.world.isServer &&
-					(this.XCqFbRihMazZSZhD(t),
+					(this.itfzpwpwDmoRWZkV(t),
 					!e.abilities.creative &&
 						--t.stackSize <= 0 &&
 						e.inventory.setInventorySlotContents(
@@ -31590,11 +31590,11 @@ var wm = class extends bd {
 							null,
 						));
 			} else
-				this.world.isServer && this.oBCSkxiUFlaAqGO(this.ZpQyzoCWDSc() + 1);
+				this.world.isServer && this.lfXaCvaMLZLAjrh(this.DlCtppqhYyP() + 1);
 			return !0;
 		}
-		rSyrIkswUqnwr() {
-			return this.kIXJaZBknyBEHJOy() == null ? 0 : (this.ZpQyzoCWDSc() % 8) + 1;
+		rsPkuEBtgOGfO() {
+			return this.TOXtTrEArvzocGpN() == null ? 0 : (this.DlCtppqhYyP() % 8) + 1;
 		}
 	},
 	Mm = class extends Nc {
@@ -31695,19 +31695,19 @@ var wm = class extends bd {
 				this.dataWatcher.addObject(18, 1),
 				this.dataWatcher.addObject(19, 0);
 		}
-		qbXTAswgDfe() {
+		dvcIiBvoPKK() {
 			return !0;
 		}
 		canBeCollidedWith() {
 			return !this.dead;
 		}
-		oRAnnAijjVybkPU(e) {
+		jZFHRIEtqDUkTTE(e) {
 			return e.getEntityBoundingBox();
 		}
-		fGDcEubBcNPGGTsvO() {
+		UVNnSRcdgzJKxWHAi() {
 			return 0;
 		}
-		tNiKSolHNKo() {
+		JUqsLnaOosa() {
 			return Fm;
 		}
 		update() {
@@ -31728,10 +31728,10 @@ var wm = class extends bd {
 				}
 				return;
 			}
-			this.NBtBIJRinaPFDeh() > 0 &&
-				this.ltGrEfAgrngJOYu(this.NBtBIJRinaPFDeh() - 1),
-				this.ailKiouDAgPYRj() > 0 &&
-					this.ogyCUzyQCMkTQX(this.ailKiouDAgPYRj() - 1),
+			this.ovAbjPdrLlyfbdT() > 0 &&
+				this.bjmpHlfcgVrCRDm(this.ovAbjPdrLlyfbdT() - 1),
+				this.CHBQAKNSualzgL() > 0 &&
+					this.AoIWvPaEIwYdCt(this.CHBQAKNSualzgL() - 1),
 				this.prevPos.copy(this.pos),
 				(this.motion.y -= 0.04);
 			let e = Math.floor(this.pos.x),
@@ -31746,8 +31746,8 @@ var wm = class extends bd {
 			}
 			if (
 				(Nm(i.getBlock())
-					? (this.bhdcXfuMLZDrok(r, i), this.LArlPLeqSsBFWKd(r, i))
-					: (this.PBtfqRtHWZxt(), this.PjKoDfDXvYFTqgF()),
+					? (this.uHELlAjCuccDUr(r, i), this.WBYdXHTDZgYRSxl(r, i))
+					: (this.hYWAOopLUaUO(), this.ZctHNBVskrTYlgr()),
 				this.riddenByEntity !== null &&
 					this.riddenByEntity.dead &&
 					(this.riddenByEntity = null),
@@ -31761,7 +31761,7 @@ var wm = class extends bd {
 					--this.posRotationIncrements;
 			}
 		}
-		bhdcXfuMLZDrok(e, t) {
+		uHELlAjCuccDUr(e, t) {
 			(this.fallDistance = 0), (this.onGround = !0), (this.motion.y = 0);
 			let n = Pm[t.getProp(`shape`)] || Pm.north_south,
 				r = n[0],
@@ -31774,7 +31774,7 @@ var wm = class extends bd {
 			let l = o / c,
 				u = s / c,
 				d = Math.min(
-					this.tNiKSolHNKo(),
+					this.JUqsLnaOosa(),
 					Math.hypot(this.motion.x, this.motion.z),
 				);
 			if (((this.motion.x = l * d), (this.motion.z = u * d), a)) {
@@ -31785,23 +31785,23 @@ var wm = class extends bd {
 					o = Math.hypot(n, a) || 1;
 				(this.motion.x += (n / o) * Lm), (this.motion.z += (a / o) * Lm);
 			}
-			this.fPOtdfoxhfFsjcIyjVy(t, l, u, d), this.rgNEwyQUKyAkOZt(l, u);
+			this.zJIFSCDtYlBoSwcFBPY(t, l, u, d), this.ahhXLeAkslMJUht(l, u);
 			let f = Math.hypot(this.motion.x, this.motion.z);
-			f > this.tNiKSolHNKo() &&
-				((this.motion.x *= this.tNiKSolHNKo() / f),
-				(this.motion.z *= this.tNiKSolHNKo() / f)),
+			f > this.JUqsLnaOosa() &&
+				((this.motion.x *= this.JUqsLnaOosa() / f),
+				(this.motion.z *= this.JUqsLnaOosa() / f)),
 				this.setPosition(
 					this.pos.x + this.motion.x,
 					this.pos.y,
 					this.pos.z + this.motion.z,
 				),
-				this.tiLNjMEJPr(e, r, i, a),
+				this.apWtDMoaWa(e, r, i, a),
 				(this.motion.x *= Im),
 				(this.motion.z *= Im),
 				(this.motion.y = 0),
-				this.JUEglzuBTQskAIDyU(a, r, i);
+				this.vhvACLYaOaPqhbWFE(a, r, i);
 		}
-		JUEglzuBTQskAIDyU(e, t, n) {
+		vhvACLYaOaPqhbWFE(e, t, n) {
 			if (
 				(Math.hypot(this.motion.x, this.motion.z) > Um &&
 					(this.yaw = Math.atan2(-this.motion.x, -this.motion.z)),
@@ -31817,7 +31817,7 @@ var wm = class extends bd {
 				this.pitch = (c >= 0 ? 1 : -1) * Hm;
 			} else this.pitch = 0;
 		}
-		tiLNjMEJPr(e, t, n, r) {
+		apWtDMoaWa(e, t, n, r) {
 			let i = n[0] - t[0],
 				a = n[2] - t[2],
 				o = e.x + 0.5,
@@ -31851,11 +31851,11 @@ var wm = class extends bd {
 			}
 			this.setPosition(c, e.y + u + Vm, l);
 		}
-		rgNEwyQUKyAkOZt(e, t) {
+		ahhXLeAkslMJUht(e, t) {
 			let n = this.riddenByEntity;
 			if (!(n instanceof jd) || n.moveForward === 0) return;
 			let r = n.getLook(),
-				i = -Math.sign(n.moveForward) * (r.x * e + r.z * t >= 0 ? 1 : -1),
+				i = -Math.siAxisAlignedBoundingBox(n.moveForward) * (r.x * e + r.z * t >= 0 ? 1 : -1),
 				a = this.motion.x * e + this.motion.z * t;
 			i > 0 && a < Bm
 				? ((this.motion.x += e * zm), (this.motion.z += t * zm))
@@ -31863,7 +31863,7 @@ var wm = class extends bd {
 					a > -0.2 &&
 					((this.motion.x -= e * zm), (this.motion.z -= t * zm));
 		}
-		fPOtdfoxhfFsjcIyjVy(e, t, n, r) {
+		zJIFSCDtYlBoSwcFBPY(e, t, n, r) {
 			let i = e.getBlock();
 			if (i === B.powered_rail || i === B.activator_rail) {
 				let a = e.getProp(`powered`);
@@ -31881,24 +31881,24 @@ var wm = class extends bd {
 					: ((this.motion.x *= 0.5), (this.motion.z *= 0.5));
 			}
 		}
-		LArlPLeqSsBFWKd(e, t) {
+		WBYdXHTDZgYRSxl(e, t) {
 			if (!this.world.isServer) return;
 			let n = t.getBlock();
 			n === B.detector_rail
 				? (this.currentRail === null || !this.currentRail.equals(e)) &&
-					(this.PjKoDfDXvYFTqgF(),
+					(this.ZctHNBVskrTYlgr(),
 					n.setDetectorPowered(this.world, e, !0),
 					(this.currentRail = e))
-				: this.PjKoDfDXvYFTqgF();
+				: this.ZctHNBVskrTYlgr();
 		}
-		PjKoDfDXvYFTqgF() {
+		ZctHNBVskrTYlgr() {
 			if (!this.world.isServer || this.currentRail === null) return;
 			let e = this.world.getBlockState(this.currentRail).getBlock();
 			e === B.detector_rail &&
 				e.setDetectorPowered(this.world, this.currentRail, !1),
 				(this.currentRail = null);
 		}
-		PBtfqRtHWZxt() {
+		hYWAOopLUaUO() {
 			let e = this.riddenByEntity === null ? 0.2 : 0.4;
 			(this.motion.x = Math.max(-e, Math.min(e, this.motion.x))),
 				(this.motion.z = Math.max(-e, Math.min(e, this.motion.z))),
@@ -31911,7 +31911,7 @@ var wm = class extends bd {
 					(this.yaw = Math.atan2(-this.motion.x, -this.motion.z)),
 				(this.pitch = 0);
 		}
-		pDwwZFUPwIhfpMQWkcv() {
+		kWZPJoHcpYfmEByUjop() {
 			return this.texture === `minecart` && this.riddenByEntity === null;
 		}
 		interactFirst(e) {
@@ -31924,34 +31924,34 @@ var wm = class extends bd {
 				!0
 			);
 		}
-		LwgcAWFGPgOyaovPGOC() {
+		TOQVdovXEvLaSJWTakx() {
 			this.riddenByEntity !== null &&
 				this.riddenByEntity.setPosition(
 					this.pos.x,
 					this.pos.y +
-						this.fGDcEubBcNPGGTsvO() +
-						this.riddenByEntity.mINSlcXsir(),
+						this.UVNnSRcdgzJKxWHAi() +
+						this.riddenByEntity.tfsNPJIkDn(),
 					this.pos.z,
 				);
 		}
 		attackEntityFrom(e, t) {
 			if (this.isEntityInvulnerable(e)) return !1;
 			if (this.world.isClient || this.dead) return !0;
-			this.tVMtzunEecSSSbuJsSA(-this.LrOOHqYqehiersNgsrk()),
-				this.ltGrEfAgrngJOYu(10),
-				this.ogyCUzyQCMkTQX(this.ailKiouDAgPYRj() + t * 10),
+			this.ovcPqMHpFtaQctDCkWc(-this.WtxkSUlkXibHVloYrZi()),
+				this.bjmpHlfcgVrCRDm(10),
+				this.AoIWvPaEIwYdCt(this.CHBQAKNSualzgL() + t * 10),
 				this.setBeenAttacked();
 			let n = e.getEntity() instanceof Pp && e.getEntity().abilities.creative;
 			return (
-				(n || this.ailKiouDAgPYRj() > 40) &&
+				(n || this.CHBQAKNSualzgL() > 40) &&
 					(this.riddenByEntity !== null &&
 						this.riddenByEntity.mountEntity(this),
-					n || this.tMiqGQpPxYTJDfFrks(z.getItemByName(this.texture), 1, 0),
+					n || this.NwqhKAMLDcVbIFgbza(z.getItemByName(this.texture), 1, 0),
 					this.setDead()),
 				!0
 			);
 		}
-		gSqXmRVYWORNzlUHO(e) {
+		ciRrLxnVTRPoBqPXM(e) {
 			this.localPredicted !== e &&
 				((this.localPredicted = e),
 				(this.posRotationIncrements = 0),
@@ -31969,7 +31969,7 @@ var wm = class extends bd {
 				(this.cartPitch = i),
 				(this.posRotationIncrements = a);
 		}
-		puewcoUBFLa(e, t, n) {
+		xkqvKMqhUoL(e, t, n) {
 			this.motion.set(e, t, n);
 		}
 		updateFallState(e, t, n, r) {}
@@ -31982,23 +31982,23 @@ var wm = class extends bd {
 		readEntityFromNBT(e) {
 			super.readEntityFromNBT(e), e.Type && (this.texture = e.Type);
 		}
-		ogyCUzyQCMkTQX(e) {
+		AoIWvPaEIwYdCt(e) {
 			this.dataWatcher.updateObject(19, e);
 		}
-		ailKiouDAgPYRj() {
+		CHBQAKNSualzgL() {
 			return this.dataWatcher.getWatchableObjectFloat(19);
 		}
-		ltGrEfAgrngJOYu(e) {
+		bjmpHlfcgVrCRDm(e) {
 			this.dataWatcher.updateObject(17, e);
 		}
-		NBtBIJRinaPFDeh() {
-			return this.dataWatcher.TZFJNwmXciwTIMSQzXBDB(17);
+		ovAbjPdrLlyfbdT() {
+			return this.dataWatcher.YFWpRaHdBLDaQukqdayiD(17);
 		}
-		tVMtzunEecSSSbuJsSA(e) {
+		ovcPqMHpFtaQctDCkWc(e) {
 			this.dataWatcher.updateObject(18, e);
 		}
-		LrOOHqYqehiersNgsrk() {
-			return this.dataWatcher.TZFJNwmXciwTIMSQzXBDB(18);
+		WtxkSUlkXibHVloYrZi() {
+			return this.dataWatcher.YFWpRaHdBLDaQukqdayiD(18);
 		}
 	},
 	Km = class extends Nc {
@@ -32027,8 +32027,8 @@ var wm = class extends bd {
 			if (n instanceof Cf) {
 				let r = n;
 				return (
-					r.IbygoVOqgFGXPfjV(e.getDisplayName()),
-					r.zhiEcBmBIwTugUkEI(),
+					r.rWOUQMSwUHBzMkKr(e.getDisplayName()),
+					r.swnRaJqzCFUaKRwFd(),
 					--e.stackSize,
 					t.inventory.sendInventoryToServer(),
 					!0
@@ -32360,12 +32360,12 @@ var wm = class extends bd {
 				(e.wheat = e.add(new Nc(`wheat`))),
 				(e.bowl = e.add(new Nc(`bowl`))),
 				(e.gunpowder = e.add(new Nc(`gunpowder`))),
-				(e.acacia_sign = e.add(new mm(`acacia`))),
-				(e.birch_sign = e.add(new mm(`birch`))),
-				(e.dark_oak_sign = e.add(new mm(`dark_oak`))),
-				(e.jungle_sign = e.add(new mm(`jungle`))),
-				(e.oak_sign = e.add(new mm(`oak`))),
-				(e.spruce_sign = e.add(new mm(`spruce`))),
+				(e.acacia_siAxisAlignedBoundingBox = e.add(new mm(`acacia`))),
+				(e.birch_siAxisAlignedBoundingBox = e.add(new mm(`birch`))),
+				(e.dark_oak_siAxisAlignedBoundingBox = e.add(new mm(`dark_oak`))),
+				(e.jungle_siAxisAlignedBoundingBox = e.add(new mm(`jungle`))),
+				(e.oak_siAxisAlignedBoundingBox = e.add(new mm(`oak`))),
+				(e.spruce_siAxisAlignedBoundingBox = e.add(new mm(`spruce`))),
 				(e.player_head = e.add(new cm()));
 			for (let t of Jm) e[`${t}_dye`] = e.add(new Vae(t));
 			(e.bone = e.add(new Nc(`bone`))),
@@ -32674,12 +32674,12 @@ var Ym = new (class e {
 					{ x: `z`, z: `x`, y: `y` }[i.name],
 				);
 				if (((r = !0), e.isServer))
-					for (let t of F.YRkZFdeXFeG(p, m)) e.setBlockState(t, v, 2);
+					for (let t of F.lMNyJGSYvgM(p, m)) e.setBlockState(t, v, 2);
 			}
 			return r;
 		}
 		onEntityCollidedWithBlock(e, t, n) {
-			n.ridingEntity == null && n.riddenByEntity == null && n.ZNmqrigECYcW(t);
+			n.ridingEntity == null && n.riddenByEntity == null && n.eOdWaaoOHUgD(t);
 		}
 	},
 	Zm = class extends tf {
@@ -32707,7 +32707,7 @@ function Qm(e) {
 }
 var $m = new Set([`anvil`, `chipped_anvil`, `damaged_anvil`]),
 	eh = new Map();
-for (let e of cn)
+for (let e of ln)
 	e.repairWith && e.repairWith.length && eh.set(e.name, e.repairWith);
 function th(e) {
 	let t = e && e.data ? e.data.RepairCost : void 0;
@@ -32774,7 +32774,7 @@ var dh = class extends ap {
 		onPickupFromSlot(e, t) {
 			if (
 				(e.abilities.creative ||
-					e.zcUlFdsdhFlexKUJMA(-this.container.maximumCost),
+					e.CMmbFzEZgfmOJryCUL(-this.container.maximumCost),
 				this.container.inputSlots.setInventorySlotContents(0, null),
 				this.container.materialCost > 0)
 			) {
@@ -34407,7 +34407,7 @@ var dh = class extends ap {
 			return this.getCollisionBoundingBox(e, t, e.getBlockState(t));
 		}
 		eatCake(e, t, n, r) {
-			if (r.YZfPdZ(!1)) {
+			if (r.tDnVhJ(!1)) {
 				r.getFoodStats().addStats(2, 0.1);
 				let i = n.getProp(`bites`);
 				i < 6
@@ -35530,7 +35530,7 @@ var dh = class extends ap {
 		}
 		tryOpenEditCommandBlock(e) {
 			return e.abilities.creative
-				? (e.world.isClient && e.boXjDLnormalizeAngleMQObOtIPAkPT(this), !0)
+				? (e.world.isClient && e.YleboiNkQdFKpKrRgomX(this), !0)
 				: !1;
 		}
 	},
@@ -36189,13 +36189,13 @@ var dh = class extends ap {
 		fall(e, t) {
 			this.hurtEntities && Math.ceil(e - 1);
 		}
-		FNufWrfn() {
+		aLKsZzKa() {
 			return this.world;
 		}
-		zlttbbpGkJciRab(e) {
+		FBNPuJLzdsIApqq(e) {
 			this.hurtEntities = e;
 		}
-		VeydqFQGOvGOJUF() {
+		zvqDfQyNwHzGcBg() {
 			return !1;
 		}
 		getBlock() {
@@ -36208,7 +36208,7 @@ var dh = class extends ap {
 					e,
 					new D(this.pos.x, this.pos.y + t, this.pos.z),
 				);
-				return n.tispSNlcbPDenpvtkmhGM(), this.world.spawnEntityInWorld(n), n;
+				return n.otbIqyhjuSaLVlLMJRNtP(), this.world.spawnEntityInWorld(n), n;
 			} else return null;
 		}
 	},
@@ -36416,7 +36416,7 @@ var dh = class extends ap {
 					let a = this.func_178148_a(n, t, this.enchantLevels[t]),
 						o = n.getItem() == z.book;
 					if (a != null) {
-						e.nCCxyotdYgOAYUOfBChvA(i);
+						e.kmQmjrMROZtACFyURXrMf(i);
 						for (let e = 0; e < a.length; ++e) {
 							let t = a[e];
 							o || n.addEnchantment(t.enchantmentobj, t.enchantmentLevel);
@@ -36736,7 +36736,7 @@ var dh = class extends ap {
 			);
 		}
 		onBlockActivated(e, t, n, r, i, a, o, s) {
-			let c = r.bgcNdKbIlaACdexAQsFLma(),
+			let c = r.nZbleRiVxRCMrflKKanoKz(),
 				l = e.getTileEntity(t);
 			if (c != null && l instanceof Zh) {
 				let n = e.getBlockState(t.up());
@@ -37672,11 +37672,11 @@ var dh = class extends ap {
 						`axis`,
 						{ x: `z`, z: `x`, y: `y` }[r.name],
 					);
-					for (let t of F.YRkZFdeXFeG(f, p)) e.setBlockState(t, _, 2);
+					for (let t of F.lMNyJGSYvgM(f, p)) e.setBlockState(t, _, 2);
 				}
 		}
 		onEntityCollidedWithBlock(e, t, n) {
-			n.ridingEntity == null && n.riddenByEntity == null && n.ZNmqrigECYcW(t);
+			n.ridingEntity == null && n.riddenByEntity == null && n.eOdWaaoOHUgD(t);
 		}
 	},
 	Eoe = class extends tf {
@@ -37876,16 +37876,35 @@ var dh = class extends ap {
 				(n.getProp(`distance`) === `7` &&
 					(e.setAir(t), this.dropBlockAsItem(e, t, n, 0)));
 		}
+		static {
+			this.MAX_DISTANCE_UPDATES = 8192;
+		}
 		onNeighborBlockChange(t, n, r, i) {
-			if (
-				!(t.isClient || r.getProp(`persistent`)) &&
-				(i instanceof lg || i instanceof e || i instanceof Zm)
-			) {
-				let e = parseInt(r.getProp(`distance`)),
-					i = this.findDistance(t, n),
-					a = r.withState(`distance`, String(i));
-				a !== r && t.setBlockState(n, a, 3),
-					i == 7 && t.scheduleUpdate(n, this, e * 5 + (0, M.random)(10, 20));
+			t.isClient ||
+				r.getProp(`persistent`) ||
+				((i instanceof lg || i instanceof e || i instanceof Zm) &&
+					e.relaxDistances(t, n));
+		}
+		static relaxDistances(t, n) {
+			let r = [n];
+			for (let n = 0; n < r.length && n < e.MAX_DISTANCE_UPDATES; n++) {
+				let i = r[n],
+					a = t.getBlockState(i),
+					o = a.block;
+				if (!(o instanceof e) || a.getProp(`persistent`)) continue;
+				let s = parseInt(a.getProp(`distance`)),
+					c = o.findDistance(t, i);
+				if (c !== s) {
+					let n = a.withState(`distance`, String(c));
+					if (n !== a) {
+						t.setBlockState(i, n, 2);
+						for (let n of P.VALUES) {
+							let a = i.offset(n);
+							t.getBlockState(a).block instanceof e && r.push(a);
+						}
+					}
+				}
+				c == 7 && t.scheduleUpdate(i, o, s * 5 + (0, M.random)(10, 20));
 			}
 		}
 		findDistance(e, t) {
@@ -37894,14 +37913,14 @@ var dh = class extends ap {
 				if (
 					((n = Math.min(
 						n,
-						this.zWPXYBJCPWI(e.getBlockState(t.offset(r))) + 1,
+						this.WzJwJRUaNWx(e.getBlockState(t.offset(r))) + 1,
 					)),
 					n == 1)
 				)
 					break;
 			return n;
 		}
-		zWPXYBJCPWI(t) {
+		WzJwJRUaNWx(t) {
 			return t.block instanceof lg
 				? 0
 				: t.block instanceof e
@@ -38839,7 +38858,7 @@ var dh = class extends ap {
 					return 0;
 			}
 			if (r.length > 0) {
-				for (let e of r) if (!e.zfvpqFkGWJUMyMwUJEHDbwqfUWAYRlBnk()) return 15;
+				for (let e of r) if (!e.aJTEZQLpQigGBuZkEfLQbfntCFcArmgtK()) return 15;
 			}
 			return 0;
 		}
@@ -38878,12 +38897,12 @@ var dh = class extends ap {
 		onLivingUpdate() {
 			super.onLivingUpdate();
 		}
-		ukZFSiOjhBAeDg() {
+		HtOrPffoDZxcLI() {
 			if (
 				this.world.isDaytime() &&
 				this.world.isServer &&
 				!this.isChild() &&
-				!this.CqKlmSYXUXcX()
+				!this.SWRGodxkeNPZ()
 			) {
 				let e = new F(this.pos.x, Math.round(this.pos.y), this.pos.z);
 				if (Math.random() * 30 < 0.6 * 2 && this.world.canSeeSky(e)) {
@@ -38893,7 +38912,7 @@ var dh = class extends ap {
 						(t.isItemStackDamageable() &&
 							(t.setItemDamage(t.getItemDamage() + af(2)),
 							t.getItemDamage() >= t.getMaxDamage() &&
-								(this.QmEvvfMzhFzxgcDhjGbJa(t),
+								(this.uJjnKDoNeSpxGKTsZqCnV(t),
 								this.setCurrentItemOrArmor(4, null))),
 						(e = !1)),
 						e && this.setFire(8);
@@ -38906,10 +38925,10 @@ var dh = class extends ap {
 					this.world.getDifficulty() === Vf.PEACEFUL &&
 					this.setDead();
 		}
-		eOiCowJgASKY() {
+		NWCXAxisAlignedBoundingBoxzYImdV() {
 			return `game.hostile.swim`;
 		}
-		dSDpRfdTFQaWoT() {
+		CgmkEjvOkRZEkH() {
 			return `game.hostile.swim.splash`;
 		}
 		attackEntityFrom(e, t) {
@@ -38919,13 +38938,13 @@ var dh = class extends ap {
 				return this.riddenByEntity !== t && this.ridingEntity !== t;
 			} else return !1;
 		}
-		ChOZkxoyuHUI() {
+		mvRCETWznABF() {
 			return this.getSoundInfo().hurt ?? `game.hostile.hurt`;
 		}
-		gouKMNFCdgbjV() {
+		QuJuhCNgbsKSb() {
 			return this.getSoundInfo().death ?? `game.hostile.die`;
 		}
-		ZmJwdaaAXBUHBzqVCX(e) {
+		SCCcGlmLwEIUgmFTgi(e) {
 			return e > 4
 				? `game.hostile.hurt.fall.big`
 				: `game.hostile.hurt.fall.small`;
@@ -38934,7 +38953,7 @@ var dh = class extends ap {
 			let t = this.getEntityAttribute(ku.attackDamage).getAttributeValue(),
 				n = 0;
 			e instanceof jd &&
-				((t += Rd.func_152377_a(this.getHeldItem(), e.xUIeLyTteVILWzTQxKKj())),
+				((t += Rd.func_152377_a(this.getHeldItem(), e.MFxPOFlWfovShdoaUbfQ())),
 				(n += Rd.getKnockbackModifier(this)));
 			let r = e.attackEntityFrom(Ip.causeMobDamage(this), t);
 			if (r) {
@@ -38947,14 +38966,14 @@ var dh = class extends ap {
 					(this.motion.x *= 0.6),
 					(this.motion.z *= 0.6));
 				let t = Rd.getFireAspectModifier(this);
-				t > 0 && e.setFire(t * 4), this.wjuUClKtvzQPmxBSc(this, e);
+				t > 0 && e.setFire(t * 4), this.ZIcvEgwbchnJpSRTK(this, e);
 			}
 			return r;
 		}
-		cHjBhTTpwkzxvCQaDz(e) {
+		FOQKWIPhFrYIOAPmzw(e) {
 			return 0.5 - this.world.getLightBrightness(e);
 		}
-		pUYBJhjnlJpeqUajP() {
+		ihGosWTFSmWGLhggx() {
 			if (this.world.dimensionId !== 0) return !0;
 			let e = Math.floor(this.pos.x),
 				t = Math.floor(this.getEntityBoundingBox().min.y),
@@ -38970,7 +38989,7 @@ var dh = class extends ap {
 		getCanSpawnHere() {
 			return (
 				this.world.getDifficulty() !== Vf.PEACEFUL &&
-				this.pUYBJhjnlJpeqUajP() &&
+				this.ihGosWTFSmWGLhggx() &&
 				super.getCanSpawnHere()
 			);
 		}
@@ -38978,7 +38997,7 @@ var dh = class extends ap {
 			super.applyEntityAttributes(),
 				this.getAttributeMap().registerAttribute(ku.attackDamage);
 		}
-		SfjlxaYTKMh() {
+		ikdUuDSIyzA() {
 			return !0;
 		}
 	},
@@ -39005,7 +39024,7 @@ var dh = class extends ap {
 		}
 		resetTask() {
 			(this.attackTarget = null),
-				(this.AYvdZe = 0),
+				(this.tWEdLn = 0),
 				(this.rangedAttackTime = -1);
 		}
 		updateTask() {
@@ -39017,10 +39036,10 @@ var dh = class extends ap {
 						this.attackTarget.pos.z,
 					),
 				),
-				t = this.entityHost.tsOoVXjMMjzEdyL().AYvdZe(this.attackTarget);
+				t = this.entityHost.TddqfZHWqdomIiG().tWEdLn(this.attackTarget);
 			if (
-				(t ? ++this.AYvdZe : (this.AYvdZe = 0),
-				e <= this.maxAttackDistance && this.AYvdZe >= 20
+				(t ? ++this.tWEdLn : (this.tWEdLn = 0),
+				e <= this.maxAttackDistance && this.tWEdLn >= 20
 					? this.entityHost.getNavigator().clearPathEntity()
 					: this.entityHost
 							.getNavigator()
@@ -39033,7 +39052,7 @@ var dh = class extends ap {
 				if (e > this.maxAttackDistance || !t) return;
 				let n = Math.sqrt(e) / this.maxDist,
 					r = (0, M.clamp)(n, 0.1, 1);
-				this.rangedAttackEntityHost.hQQAFXUQEIexVRdxIWXMOzRioJVa(
+				this.rangedAttackEntityHost.gNhHSZKoURvKfrGtYvjsgthLhrqx(
 					this.attackTarget,
 					r,
 				),
@@ -39061,18 +39080,18 @@ var dh = class extends ap {
 			let e = this.taskOwner.getAttackTarget();
 			if (e == null) return !1;
 			if (e.isEntityAlive()) {
-				let t = this.NHiGBcjsIFEpVnoRW();
+				let t = this.xBAKUBnmBoKJDGcui();
 				if (this.taskOwner.getDistanceSqToEntity(e) > t * t) return !1;
 				if (this.shouldCheckSight) {
-					if (this.taskOwner.tsOoVXjMMjzEdyL().AYvdZe(e))
+					if (this.taskOwner.TddqfZHWqdomIiG().tWEdLn(e))
 						this.targetUnseenTicks = 0;
 					else if (++this.targetUnseenTicks > 60) return !1;
 				}
 				return !(e instanceof Pp) || !e.abilities.invulnerable;
 			} else return !1;
 		}
-		NHiGBcjsIFEpVnoRW() {
-			return this.taskOwner.yywRtnlQSXcmKc() ?? 16;
+		xBAKUBnmBoKJDGcui() {
+			return this.taskOwner.TOSsshiithavSX() ?? 16;
 		}
 		startExecuting() {
 			(this.targetSearchStatus = 0),
@@ -39082,30 +39101,30 @@ var dh = class extends ap {
 		resetTask() {
 			this.taskOwner.setAttackTarget(null);
 		}
-		static RFzNStQFtaYFqxni(e, t, n, r) {
+		static rDwIkRzaGymWWijp(e, t, n, r) {
 			return t == null || t == e
 				? !1
 				: t.isEntityAlive()
 					? t instanceof Pp && !n && t.abilities.invulnerable
 						? !1
-						: !r || e.tsOoVXjMMjzEdyL().AYvdZe(t)
+						: !r || e.TddqfZHWqdomIiG().tWEdLn(t)
 					: !1;
 		}
-		RFzNStQFtaYFqxni(t, n) {
-			return e.RFzNStQFtaYFqxni(this.taskOwner, t, n, this.shouldCheckSight) &&
-				this.taskOwner.OnuDbTOJSsvctCRuCbXpNBFTKxqDRZoL(
+		rDwIkRzaGymWWijp(t, n) {
+			return e.rDwIkRzaGymWWijp(this.taskOwner, t, n, this.shouldCheckSight) &&
+				this.taskOwner.KsMoCUYDAWUKdekZTpQTYEaLWAwROlug(
 					new F(t.pos.x, t.pos.y, t.pos.z),
 				)
 				? !(
 						this.nearbyOnly &&
 						(--this.targetSearchDelay <= 0 && (this.targetSearchStatus = 0),
 						this.targetSearchStatus == 0 &&
-							(this.targetSearchStatus = this.UPoqqxnJeLHzpJ(t) ? 1 : 2),
+							(this.targetSearchStatus = this.WWNXfkGZdcfSwh(t) ? 1 : 2),
 						this.targetSearchStatus == 2)
 					)
 				: !1;
 		}
-		UPoqqxnJeLHzpJ(e) {
+		WWNXfkGZdcfSwh(e) {
 			this.targetSearchDelay = 10 + af(5);
 			let t = this.taskOwner.getNavigator().getPathToEntityLiving(e);
 			if (t == null) return !1;
@@ -39130,7 +39149,7 @@ var dh = class extends ap {
 		shouldExecute() {
 			if (this.targetChance > 0 && af(this.targetChance) !== 0) return !1;
 			{
-				let t = this.NHiGBcjsIFEpVnoRW(),
+				let t = this.xBAKUBnmBoKJDGcui(),
 					n = this.taskOwner.world.getEntitiesWithinAABB(
 						this.targetClass,
 						this.taskOwner
@@ -39150,7 +39169,7 @@ var dh = class extends ap {
 						)
 							continue;
 					}
-					if (!this.RFzNStQFtaYFqxni(e, !1)) continue;
+					if (!this.rDwIkRzaGymWWijp(e, !1)) continue;
 					let n = e.getDistanceSqToEntity(this.taskOwner);
 					n < i && ((i = n), (r = e));
 				}
@@ -39171,16 +39190,16 @@ var dh = class extends ap {
 				this.tasks.addTask(2, new Cp(this, 1)),
 				this.tasks.addTask(3, new wp(this, `player`, 8)),
 				this.tasks.addTask(4, new vp(this)),
-				this.cIxhoKPoZXkfX(),
+				this.BQHsSXfojlMCB(),
 				this.setSize(0.7, 1.9);
 		}
-		cIxhoKPoZXkfX() {
+		BQHsSXfojlMCB() {
 			this.targetTasks.addTask(2, new wg(this, `spider`, !0));
 		}
 		applyEntityAttributes() {
 			super.applyEntityAttributes(),
 				this.applyBaseAttributes([
-					[ku.eAwmWnqQCXQCI, 0.2],
+					[ku.UNrmpQxnutSuc, 0.2],
 					[ku.maxHealth, 4],
 				]);
 		}
@@ -39190,14 +39209,14 @@ var dh = class extends ap {
 				this.getDataWatcher().addObject(13, 0),
 				this.getDataWatcher().addObject(14, 0);
 		}
-		hQQAFXUQEIexVRdxIWXMOzRioJVa(e, t) {
+		gNhHSZKoURvKfrGtYvjsgthLhrqx(e, t) {
 			let n = new gm(this.world, this),
 				r = e.pos.y + e.getEyeHeight() - 1.1,
 				i = e.pos.x - this.pos.x,
 				a = r - n.pos.y,
 				o = e.pos.z - this.pos.z,
 				s = Math.sqrt(i * i + o * o) * 0.2;
-			n.mYMSqwJfwCFDUpBQkkU(i, a + s, o, 1.6, 12),
+			n.PzgIqjLZqxigSOLPGxb(i, a + s, o, 1.6, 12),
 				this.playSound(`random.bow`, 1, 1 / (Math.random() * 0.4 + 0.8)),
 				this.world.spawnEntityInWorld(n);
 		}
@@ -39270,19 +39289,19 @@ var dh = class extends ap {
 	},
 	Eg = class extends pu {
 		constructor(...e) {
-			super(...e), (this.name = `comparator`), (this.outputSignal = 0);
+			super(...e), (this.name = `comparator`), (this.outputSiAxisAlignedBoundingBoxal = 0);
 		}
 		writeToNBT(e) {
-			super.writeToNBT(e), (e.OutputSignal = I.int(this.outputSignal));
+			super.writeToNBT(e), (e.OutputSiAxisAlignedBoundingBoxal = I.int(this.outputSiAxisAlignedBoundingBoxal));
 		}
 		readFromNBT(e) {
-			(this.outputSignal = e.OutputSignal ?? 0), super.readFromNBT(e);
+			(this.outputSiAxisAlignedBoundingBoxal = e.OutputSiAxisAlignedBoundingBoxal ?? 0), super.readFromNBT(e);
 		}
-		getOutputSignal() {
-			return this.outputSignal;
+		getOutputSiAxisAlignedBoundingBoxal() {
+			return this.outputSiAxisAlignedBoundingBoxal;
 		}
-		setOutputSignal(e) {
-			this.outputSignal = e;
+		setOutputSiAxisAlignedBoundingBoxal(e) {
+			this.outputSiAxisAlignedBoundingBoxal = e;
 		}
 	},
 	Dg = class e extends tf {
@@ -39326,7 +39345,7 @@ var dh = class extends ap {
 			return e.isRedstoneEnabled() &&
 				this.isPowered(n) &&
 				n.getProp(`facing`) == r
-				? this.getActiveSignal(e, t, n)
+				? this.getActiveSiAxisAlignedBoundingBoxal(e, t, n)
 				: 0;
 		}
 		onNeighborBlockChange(e, t, n, r) {
@@ -39419,7 +39438,7 @@ var dh = class extends ap {
 		canPowerSide(e) {
 			return e.canProvidePower();
 		}
-		getActiveSignal(e, t, n) {
+		getActiveSiAxisAlignedBoundingBoxal(e, t, n) {
 			return 15;
 		}
 		static isRedstoneRepeaterBlockID(e) {
@@ -39500,9 +39519,9 @@ var dh = class extends ap {
 		isPowered(e) {
 			return e.getProp(`powered`);
 		}
-		getActiveSignal(e, t, n) {
+		getActiveSiAxisAlignedBoundingBoxal(e, t, n) {
 			let r = e.getTileEntity(t);
-			return r instanceof Eg ? r.getOutputSignal() : 0;
+			return r instanceof Eg ? r.getOutputSiAxisAlignedBoundingBoxal() : 0;
 		}
 		calculateOutput(e, t, n) {
 			return n.getProp(`mode`) == `subtract`
@@ -39562,7 +39581,7 @@ var dh = class extends ap {
 			if (!e.isBlockTickPending(t, this)) {
 				let r = this.calculateOutput(e, t, n),
 					i = e.getTileEntity(t);
-				(r != (i instanceof Eg ? i.getOutputSignal() : 0) ||
+				(r != (i instanceof Eg ? i.getOutputSiAxisAlignedBoundingBoxal() : 0) ||
 					this.isPowered(n) != this.shouldBePowered(e, t, n)) &&
 					(this.isFacingTowardsRepeater(e, t, n)
 						? e.updateBlockTick(t, this, 2, -1)
@@ -39575,7 +39594,7 @@ var dh = class extends ap {
 				a = 0;
 			if (i instanceof Eg) {
 				let e = i;
-				(a = e.getOutputSignal()), e.setOutputSignal(r);
+				(a = e.getOutputSiAxisAlignedBoundingBoxal()), e.setOutputSiAxisAlignedBoundingBoxal(r);
 			}
 			if (a != r || n.getProp(`mode`) == `compare`) {
 				let r = this.shouldBePowered(e, t, n),
@@ -40152,7 +40171,7 @@ var dh = class extends ap {
 		}
 		constructor() {
 			super(`redstone_wire`, L.circuits, R.stone),
-				(this.ignoreUpdateHack = !1),
+				(this.iAxisAlignedBoundingBoxoreUpdateHack = !1),
 				(this.hasActualState = !0),
 				(this.canProvidePowerFlag = !0),
 				(this.blocksNeedingUpdate = new Set()),
@@ -40309,7 +40328,7 @@ var dh = class extends ap {
 			}
 		}
 		onBlockAdded(e, t, n) {
-			if (!this.ignoreUpdateHack && e.isServer) {
+			if (!this.iAxisAlignedBoundingBoxoreUpdateHack && e.isServer) {
 				this.updateSurroundingRedstone(e, t, n);
 				for (let n of Fc.getVertical())
 					e.notifyNeighborsOfStateChange(t.offset(n), this);
@@ -41688,14 +41707,14 @@ var dh = class extends ap {
 			return new pm();
 		}
 		getItemDropped(e, t) {
-			return z.getItemByName(e.block.type + `_sign`);
+			return z.getItemByName(e.block.type + `_siAxisAlignedBoundingBox`);
 		}
 		onBlockActivated(e, t, n, r, i, a, o, s) {
 			if (e.isClient) return !0;
 			{
 				let n = e.getTileEntity(t);
 				return (
-					n instanceof pm && r.abilities.mayEdit && r.openEditSign(n),
+					n instanceof pm && r.abilities.mayEdit && r.openEditSiAxisAlignedBoundingBox(n),
 					n instanceof pm ? n.executeCommand(r) : !1
 				);
 			}
@@ -41706,7 +41725,7 @@ var dh = class extends ap {
 	},
 	Bg = class extends zg {
 		constructor(e) {
-			super(e + `_sign`, e);
+			super(e + `_siAxisAlignedBoundingBox`, e);
 		}
 		onNeighborBlockChange(e, t, n, r) {
 			e.getBlockState(t.down()).block.material.isSolid() || e.setAir(t),
@@ -42022,7 +42041,7 @@ var dh = class extends ap {
 			this.FACING = new Yd(`facing`, Fc.getHorizontal());
 		}
 		constructor(e) {
-			super(e + `_wall_sign`, e);
+			super(e + `_wall_siAxisAlignedBoundingBox`, e);
 		}
 		setBlockBoundsBasedOnState(e, t) {
 			let n = e.getBlockState(t).getProp(`facing`),
@@ -43652,40 +43671,40 @@ var B = class e {
 		this.barrel = e.add(new Ch());
 	}
 	static {
-		this.acacia_sign = e.add(new Bg(`acacia`));
+		this.acacia_siAxisAlignedBoundingBox = e.add(new Bg(`acacia`));
 	}
 	static {
-		this.birch_sign = e.add(new Bg(`birch`));
+		this.birch_siAxisAlignedBoundingBox = e.add(new Bg(`birch`));
 	}
 	static {
-		this.dark_oak_sign = e.add(new Bg(`dark_oak`));
+		this.dark_oak_siAxisAlignedBoundingBox = e.add(new Bg(`dark_oak`));
 	}
 	static {
-		this.jungle_sign = e.add(new Bg(`jungle`));
+		this.jungle_siAxisAlignedBoundingBox = e.add(new Bg(`jungle`));
 	}
 	static {
-		this.oak_sign = e.add(new Bg(`oak`));
+		this.oak_siAxisAlignedBoundingBox = e.add(new Bg(`oak`));
 	}
 	static {
-		this.spruce_sign = e.add(new Bg(`spruce`));
+		this.spruce_siAxisAlignedBoundingBox = e.add(new Bg(`spruce`));
 	}
 	static {
-		this.acacia_wall_sign = e.add(new Gg(`acacia`));
+		this.acacia_wall_siAxisAlignedBoundingBox = e.add(new Gg(`acacia`));
 	}
 	static {
-		this.birch_wall_sign = e.add(new Gg(`birch`));
+		this.birch_wall_siAxisAlignedBoundingBox = e.add(new Gg(`birch`));
 	}
 	static {
-		this.dark_oak_wall_sign = e.add(new Gg(`dark_oak`));
+		this.dark_oak_wall_siAxisAlignedBoundingBox = e.add(new Gg(`dark_oak`));
 	}
 	static {
-		this.jungle_wall_sign = e.add(new Gg(`jungle`));
+		this.jungle_wall_siAxisAlignedBoundingBox = e.add(new Gg(`jungle`));
 	}
 	static {
-		this.oak_wall_sign = e.add(new Gg(`oak`));
+		this.oak_wall_siAxisAlignedBoundingBox = e.add(new Gg(`oak`));
 	}
 	static {
-		this.spruce_wall_sign = e.add(new Gg(`spruce`));
+		this.spruce_wall_siAxisAlignedBoundingBox = e.add(new Gg(`spruce`));
 	}
 	static {
 		this.player_head = e.add(new cse());
@@ -44580,7 +44599,7 @@ var Zse = (e, t, n, { allOwnKeys: r } = {}) => (
 				__proto__: null,
 				value: t.prototype,
 			}),
-			n && Object.assign(e.prototype, n);
+			n && Object.assiAxisAlignedBoundingBox(e.prototype, n);
 	},
 	ece = (e, t, n, r) => {
 		let i,
@@ -45102,7 +45121,7 @@ var z_ = class e extends Error {
 			}),
 			(s.name = t.name),
 			t.status != null && s.status == null && (s.status = t.status),
-			o && Object.assign(s, o),
+			o && Object.assiAxisAlignedBoundingBox(s, o),
 			s
 		);
 	}
@@ -45253,7 +45272,7 @@ function U_(e, t, n) {
 		}
 		return B_(e) ? !0 : (t.append(H_(i, n, a), d(e)), !1);
 	}
-	let h = Object.assign(Pce, {
+	let h = Object.assiAxisAlignedBoundingBox(Pce, {
 		defaultVisitor: m,
 		convertValue: d,
 		isVisitable: B_,
@@ -45923,7 +45942,7 @@ var ile =
 					f && f(),
 						p && p(),
 						r.cancelToken && r.cancelToken.unsubscribe(l),
-						r.signal && r.signal.removeEventListener(`abort`, l);
+						r.siAxisAlignedBoundingBoxal && r.siAxisAlignedBoundingBoxal.removeEventListener(`abort`, l);
 				}
 				let h = new XMLHttpRequest();
 				h.open(r.method.toUpperCase(), r.url, !0), (h.timeout = r.timeout);
@@ -46006,7 +46025,7 @@ var ile =
 						(([u, f] = lv(s)),
 						h.upload.addEventListener(`progress`, u),
 						h.upload.addEventListener(`loadend`, f)),
-					(r.cancelToken || r.signal) &&
+					(r.cancelToken || r.siAxisAlignedBoundingBoxal) &&
 						((l = (t) => {
 							h &&=
 								(n(!t || t.type ? new sv(null, e, h) : t),
@@ -46015,8 +46034,8 @@ var ile =
 								null);
 						}),
 						r.cancelToken && r.cancelToken.subscribe(l),
-						r.signal &&
-							(r.signal.aborted ? l() : r.signal.addEventListener(`abort`, l)));
+						r.siAxisAlignedBoundingBoxal &&
+							(r.siAxisAlignedBoundingBoxal.aborted ? l() : r.siAxisAlignedBoundingBoxal.addEventListener(`abort`, l)));
 				let _ = Wce(r.url);
 				if (_ && !$_.protocols.includes(_)) {
 					n(new z_(`Unsupported protocol ` + _ + `:`, z_.ERR_BAD_REQUEST, e)),
@@ -46056,7 +46075,7 @@ var ile =
 					null);
 			};
 		e.forEach((e) => e.addEventListener(`abort`, i, { once: !0 }));
-		let { signal: s } = n;
+		let { siAxisAlignedBoundingBoxal: s } = n;
 		return (s.unsubscribe = () => V.asap(o)), s;
 	},
 	ole = function* (e, t) {
@@ -46257,7 +46276,7 @@ var yv = `1.18.1`,
 					url: t,
 					method: n,
 					data: s,
-					signal: l,
+					siAxisAlignedBoundingBoxal: l,
 					cancelToken: d,
 					timeout: _,
 					onDownloadProgress: v,
@@ -46274,7 +46293,7 @@ var yv = `1.18.1`,
 				ne = (t) => (V.hasOwnProp(e, t) ? e[t] : void 0),
 				E = i || fetch;
 			b = b ? (b + ``).toLowerCase() : `text`;
-			let re = ale([l, d && d.toAbortSignal()], _),
+			let re = ale([l, d && d.toAbortSiAxisAlignedBoundingBoxal()], _),
 				ie = null,
 				ae =
 					re &&
@@ -46375,7 +46394,7 @@ var yv = `1.18.1`,
 				x.set(`User-Agent`, `axios/` + yv, !1);
 				let ue = {
 					...C,
-					signal: re,
+					siAxisAlignedBoundingBoxal: re,
 					method: n.toUpperCase(),
 					headers: N_(x.normalize()),
 					body: s,
@@ -46580,7 +46599,7 @@ var Dv = { getAdapter: gle, adapters: Tv };
 function Ov(e) {
 	if (
 		(e.cancelToken && e.cancelToken.throwIfRequested(),
-		e.signal && e.signal.aborted)
+		e.siAxisAlignedBoundingBoxal && e.siAxisAlignedBoundingBoxal.aborted)
 	)
 		throw new sv(null, e);
 }
@@ -46903,15 +46922,15 @@ var vle = class e {
 		let t = this._listeners.indexOf(e);
 		t !== -1 && this._listeners.splice(t, 1);
 	}
-	toAbortSignal() {
+	toAbortSiAxisAlignedBoundingBoxal() {
 		let e = new AbortController(),
 			t = (t) => {
 				e.abort(t);
 			};
 		return (
 			this.subscribe(t),
-			(e.signal.unsubscribe = () => this.unsubscribe(t)),
-			e.signal
+			(e.siAxisAlignedBoundingBoxal.unsubscribe = () => this.unsubscribe(t)),
+			e.siAxisAlignedBoundingBoxal
 		);
 	}
 	static source() {
@@ -47614,7 +47633,7 @@ function Yle(e) {
 			duration: 0,
 			status: `ok`,
 			errors: 0,
-			ignoreDuration: !1,
+			iAxisAlignedBoundingBoxoreDuration: !1,
 			toJSON: () => Zle(n),
 		};
 	return e && ib(n, e), n;
@@ -47628,12 +47647,12 @@ function ib(e, t = {}) {
 				(e.did = t.user.id || t.user.email || t.user.username)),
 		(e.timestamp = t.timestamp || tb()),
 		t.abnormal_mechanism && (e.abnormal_mechanism = t.abnormal_mechanism),
-		t.ignoreDuration && (e.ignoreDuration = t.ignoreDuration),
+		t.iAxisAlignedBoundingBoxoreDuration && (e.iAxisAlignedBoundingBoxoreDuration = t.iAxisAlignedBoundingBoxoreDuration),
 		t.sid && (e.sid = t.sid.length === 32 ? t.sid : qy()),
 		t.init !== void 0 && (e.init = t.init),
 		!e.did && t.did && (e.did = `${t.did}`),
 		typeof t.started == `number` && (e.started = t.started),
-		e.ignoreDuration)
+		e.iAxisAlignedBoundingBoxoreDuration)
 	)
 		e.duration = void 0;
 	else if (typeof t.duration == `number`) e.duration = t.duration;
@@ -48061,7 +48080,7 @@ var mb = (e) => e instanceof Promise && !e[hb],
 					})
 				: (t[r] = i);
 		}
-		return n && Object.assign(t, { [hb]: !0 }), t;
+		return n && Object.assiAxisAlignedBoundingBox(t, { [hb]: !0 }), t;
 	},
 	rue = class {
 		constructor(e, t) {
@@ -48681,7 +48700,7 @@ function mx() {
 	Mue ||=
 		(Gv(() => {
 			console.warn(
-				"[Sentry] Returning null from `beforeSendSpan` is disallowed. To drop certain spans, configure the respective integrations directly or use `ignoreSpans`.",
+				"[Sentry] Returning null from `beforeSendSpan` is disallowed. To drop certain spans, configure the respective integrations directly or use `iAxisAlignedBoundingBoxoreSpans`.",
 			);
 		}),
 		!0);
@@ -48707,7 +48726,7 @@ function gx(e) {
 }
 function _x(e) {
 	Yv.log(
-		`Ignoring span ${e.op} - ${e.description} because it matches \`ignoreSpans\`.`,
+		`IAxisAlignedBoundingBoxoring span ${e.op} - ${e.description} because it matches \`iAxisAlignedBoundingBoxoreSpans\`.`,
 	);
 }
 function vx(e, t) {
@@ -49012,7 +49031,7 @@ function ede(e, t) {
 			...(n(r) && { trace: r }),
 			...(!!a && i && { dsn: Hb(i) }),
 		},
-		{ beforeSendSpan: s, ignoreSpans: c } = t?.getOptions() || {},
+		{ beforeSendSpan: s, iAxisAlignedBoundingBoxoreSpans: c } = t?.getOptions() || {},
 		l = c?.length
 			? e.filter((e) => {
 					let t = $b(e);
@@ -49383,9 +49402,9 @@ function cde({
 	}
 	let a = wb();
 	if (fde(a, t)) {
-		Kx(r) || a?.recordDroppedEvent(`ignored`, `span`);
+		Kx(r) || a?.recordDroppedEvent(`iAxisAlignedBoundingBoxored`, `span`);
 		let t = new bx({
-			dropReason: `ignored`,
+			dropReason: `iAxisAlignedBoundingBoxored`,
 			traceId: e?.spanContext().traceId ?? r.getPropagationContext().traceId,
 		});
 		return Lb(t, r, i), t;
@@ -49496,7 +49515,7 @@ function dde(e, t) {
 	return (r ? r.getOptions() : {}).parentSpanIsAlwaysRootSpan ? dx(n) : n;
 }
 function fde(e, t) {
-	let n = e?.getOptions().ignoreSpans;
+	let n = e?.getOptions().iAxisAlignedBoundingBoxoreSpans;
 	return !e || !Lx(e) || !n?.length
 		? !1
 		: vx(
@@ -49546,7 +49565,7 @@ function Jx(e, t = {}) {
 				o = ux(g).filter((e) => e !== g),
 				s = $b(g);
 			if (!o.length || !f) return S(a), Reflect.apply(e, t, [a, ...i]);
-			let c = p.getOptions().ignoreSpans,
+			let c = p.getOptions().iAxisAlignedBoundingBoxoreSpans,
 				u = o?.reduce(
 					(e, t) => {
 						let n = $b(t);
@@ -50231,7 +50250,7 @@ function TS(e, t, n) {
 	}
 	if (typeof t.processEvent == `function`) {
 		let n = t.processEvent.bind(t),
-			r = Object.assign((t, r) => n(t, r, e), { id: t.name });
+			r = Object.assiAxisAlignedBoundingBox((t, r) => n(t, r, e), { id: t.name });
 		e.addEventProcessor(r);
 	}
 	[`processSpan`, `processSegmentSpan`].forEach((n) => {
@@ -50733,11 +50752,11 @@ var vfe = class {
 		(this._options.enableLogs =
 			this._options.enableLogs ?? this._options._experiments?.enableLogs),
 			this._options.enableLogs &&
-				qS(this, `afterCaptureLog`, `flushLogs`, bfe, OS),
+				qS(this, `afterCaptureLog`, `flushLogs`, xfe, OS),
 			(this._options.enableMetrics ??
 				this._options._experiments?.enableMetrics ??
 				!0) &&
-				qS(this, `afterCaptureMetric`, `flushMetrics`, QS, AS);
+				qS(this, `afterCaptureMetric`, `flushMetrics`, ZS, AS);
 	}
 	captureException(e, t, n) {
 		let r = qy();
@@ -50959,7 +50978,7 @@ var vfe = class {
 	_captureEvent(e, t = {}, n = xb(), r = Sb()) {
 		return (
 			Rv &&
-				XS(e) &&
+				YS(e) &&
 				Yv.log(`Captured error event \`${LS(e)[0] || `<unknown>`}\``),
 			this._processEvent(e, t, n, r).then(
 				(e) => e.event_id,
@@ -50977,8 +50996,8 @@ var vfe = class {
 	_processEvent(e, t, n, r) {
 		let i = this.getOptions(),
 			{ sampleRate: a } = i,
-			o = ZS(e),
-			s = XS(e),
+			o = XS(e),
+			s = YS(e),
 			c = `before send for type \`${e.type || `error`}\``,
 			l = a === void 0 ? void 0 : Gb(a);
 		if (s && typeof l == `number` && Py() > l)
@@ -50998,7 +51017,7 @@ var vfe = class {
 						(this.recordDroppedEvent(`event_processor`, u),
 						WS("An event processor returned `null`, will not send event."))
 					);
-				return t.data?.__sentry__ === !0 ? e : yfe(YS(this, i, e, t), c);
+				return t.data?.__sentry__ === !0 ? e : yfe(bfe(this, i, e, t), c);
 			})
 			.then((i) => {
 				if (i === null) {
@@ -51092,12 +51111,12 @@ function yfe(e, t) {
 	if (!xy(e) && e !== null) throw US(n);
 	return e;
 }
-function YS(e, t, n, r) {
-	let { beforeSend: i, beforeSendTransaction: a, ignoreSpans: o } = t,
+function bfe(e, t, n, r) {
+	let { beforeSend: i, beforeSendTransaction: a, iAxisAlignedBoundingBoxoreSpans: o } = t,
 		s = !Dx(t.beforeSendSpan) && t.beforeSendSpan,
 		c = n;
-	if (XS(c) && i) return i(c, r);
-	if (ZS(c)) {
+	if (YS(c) && i) return i(c, r);
+	if (XS(c)) {
 		if (s || o) {
 			let t = ffe(c);
 			if (
@@ -51142,35 +51161,35 @@ function YS(e, t, n, r) {
 	}
 	return c;
 }
-function XS(e) {
+function YS(e) {
 	return e.type === void 0;
 }
-function ZS(e) {
+function XS(e) {
 	return e.type === `transaction`;
 }
+function ZS(e) {
+	let t = 0;
+	return e.name && (t += e.name.length * 2), (t += 8), t + QS(e.attributes);
+}
+function xfe(e) {
+	let t = 0;
+	return e.message && (t += e.message.length * 2), t + QS(e.attributes);
+}
 function QS(e) {
-	let t = 0;
-	return e.name && (t += e.name.length * 2), (t += 8), t + $S(e.attributes);
-}
-function bfe(e) {
-	let t = 0;
-	return e.message && (t += e.message.length * 2), t + $S(e.attributes);
-}
-function $S(e) {
 	if (!e) return 0;
 	let t = 0;
 	return (
 		Object.values(e).forEach((e) => {
 			Array.isArray(e)
-				? (t += e.length * eC(e[0]))
+				? (t += e.length * $S(e[0]))
 				: by(e)
-					? (t += eC(e))
+					? (t += $S(e))
 					: (t += 100);
 		}),
 		t
 	);
 }
-function eC(e) {
+function $S(e) {
 	return typeof e == `string`
 		? e.length * 2
 		: typeof e == `number`
@@ -51179,7 +51198,7 @@ function eC(e) {
 				? 4
 				: 0;
 }
-function xfe(e, t) {
+function Sfe(e, t) {
 	t.debug === !0 &&
 		(Rv
 			? Yv.enable()
@@ -51190,25 +51209,25 @@ function xfe(e, t) {
 				})),
 		xb().update(t.initialScope);
 	let n = new e(t);
-	return Sfe(n), n.init(), n;
-}
-function Sfe(e) {
-	xb().setClient(e);
+	return Cfe(n), n.init(), n;
 }
 function Cfe(e) {
+	xb().setClient(e);
+}
+function wfe(e) {
 	`aggregates` in e
 		? e.attrs?.ip_address === void 0 &&
 			(e.attrs = { ...e.attrs, ip_address: `{{auto}}` })
 		: e.ipAddress === void 0 && (e.ipAddress = `{{auto}}`);
 }
-function tC(e, t, n = [t], r = `npm`) {
+function eC(e, t, n = [t], r = `npm`) {
 	let i = ((e._metadata = e._metadata || {}).sdk = e._metadata.sdk || {});
 	i.name ||
 		((i.name = `sentry.javascript.${t}`),
 		(i.packages = n.map((e) => ({ name: `${r}:@sentry/${e}`, version: Bv }))),
 		(i.version = Bv));
 }
-function nC(e = {}) {
+function tC(e = {}) {
 	let t = e.client || wb();
 	if (!Vde() || !t) return {};
 	let n = vb(Vv());
@@ -51217,22 +51236,14 @@ function nC(e = {}) {
 		i = e.span || px(),
 		a = xx(i) && !gx(t.getOptions());
 	if (!i && due()) return {};
-	let o = i && !a ? Fue(i) : wfe(r),
+	let o = i && !a ? Fue(i) : Tfe(r),
 		s = yue(i ? Ex(i) : Tx(t, r));
 	if (!Kb.test(o))
 		return Yv.warn(`Invalid sentry-trace data. Cannot generate trace data`), {};
 	let c = { "sentry-trace": o, baggage: s };
 	return (
-		e.propagateTraceparent && (c.traceparent = i && !a ? Iue(i) : Tfe(r)), c
+		e.propagateTraceparent && (c.traceparent = i && !a ? Iue(i) : Efe(r)), c
 	);
-}
-function wfe(e) {
-	let {
-		traceId: t,
-		sampled: n,
-		propagationSpanId: r,
-	} = e.getPropagationContext();
-	return qb(t, r, n);
 }
 function Tfe(e) {
 	let {
@@ -51240,40 +51251,48 @@ function Tfe(e) {
 		sampled: n,
 		propagationSpanId: r,
 	} = e.getPropagationContext();
+	return qb(t, r, n);
+}
+function Efe(e) {
+	let {
+		traceId: t,
+		sampled: n,
+		propagationSpanId: r,
+	} = e.getPropagationContext();
 	return Jb(t, r, n);
 }
-var Efe = 100;
-function rC(e, t) {
+var Dfe = 100;
+function nC(e, t) {
 	let n = wb(),
 		r = Sb();
 	if (!n) return;
-	let { beforeBreadcrumb: i = null, maxBreadcrumbs: a = Efe } = n.getOptions();
+	let { beforeBreadcrumb: i = null, maxBreadcrumbs: a = Dfe } = n.getOptions();
 	if (a <= 0) return;
 	let o = { timestamp: eb(), ...e },
 		s = i ? Gv(() => i(o, t)) : o;
 	s !== null &&
 		(n.emit && n.emit(`beforeAddBreadcrumb`, s, t), r.addBreadcrumb(s, a));
 }
-var iC,
-	Dfe = `FunctionToString`,
-	aC = new WeakMap(),
-	Ofe = ES(() => ({
-		name: Dfe,
+var rC,
+	Ofe = `FunctionToString`,
+	iC = new WeakMap(),
+	kfe = ES(() => ({
+		name: Ofe,
 		setupOnce() {
-			iC = Function.prototype.toString;
+			rC = Function.prototype.toString;
 			try {
 				Function.prototype.toString = function (...e) {
 					let t = ky(this),
-						n = aC.has(wb()) && t !== void 0 ? t : this;
-					return iC.apply(n, e);
+						n = iC.has(wb()) && t !== void 0 ? t : this;
+					return rC.apply(n, e);
 				};
 			} catch {}
 		},
 		setup(e) {
-			aC.set(e, !0);
+			iC.set(e, !0);
 		},
 	})),
-	kfe = [
+	Afe = [
 		/^Script error\.?$/,
 		/^Javascript error: Script error\.? on line 0$/,
 		/^ResizeObserver loop completed with undelivered notifications.$/,
@@ -51286,95 +51305,95 @@ var iC,
 		/Object Not Found Matching Id:\d+, MethodName:simulateEvent/,
 		/^Java exception was raised during method invocation$/,
 	],
-	Afe = `EventFilters`,
-	jfe = ES((e = {}) => {
+	jfe = `EventFilters`,
+	Mfe = ES((e = {}) => {
 		let t;
 		return {
-			name: Afe,
+			name: jfe,
 			setup(n) {
-				t = oC(e, n.getOptions());
+				t = aC(e, n.getOptions());
 			},
 			processEvent(n, r, i) {
-				return (t ||= oC(e, i.getOptions())), Nfe(n, t) ? null : n;
+				return (t ||= aC(e, i.getOptions())), Pfe(n, t) ? null : n;
 			},
 		};
 	}),
-	Mfe = ES((e = {}) => ({ ...jfe(e), name: `InboundFilters` }));
-function oC(e = {}, t = {}) {
+	Nfe = ES((e = {}) => ({ ...Mfe(e), name: `InboundFilters` }));
+function aC(e = {}, t = {}) {
 	return {
 		allowUrls: [...(e.allowUrls || []), ...(t.allowUrls || [])],
 		denyUrls: [...(e.denyUrls || []), ...(t.denyUrls || [])],
-		ignoreErrors: [
-			...(e.ignoreErrors || []),
-			...(t.ignoreErrors || []),
-			...(e.disableErrorDefaults ? [] : kfe),
+		iAxisAlignedBoundingBoxoreErrors: [
+			...(e.iAxisAlignedBoundingBoxoreErrors || []),
+			...(t.iAxisAlignedBoundingBoxoreErrors || []),
+			...(e.disableErrorDefaults ? [] : Afe),
 		],
-		ignoreTransactions: [
-			...(e.ignoreTransactions || []),
-			...(t.ignoreTransactions || []),
+		iAxisAlignedBoundingBoxoreTransactions: [
+			...(e.iAxisAlignedBoundingBoxoreTransactions || []),
+			...(t.iAxisAlignedBoundingBoxoreTransactions || []),
 		],
 	};
 }
-function Nfe(e, t) {
+function Pfe(e, t) {
 	if (!e.type) {
-		if (Pfe(e, t.ignoreErrors))
+		if (Ffe(e, t.iAxisAlignedBoundingBoxoreErrors))
 			return (
 				Rv &&
-					Yv.warn(`Event dropped due to being matched by \`ignoreErrors\` option.
+					Yv.warn(`Event dropped due to being matched by \`iAxisAlignedBoundingBoxoreErrors\` option.
 Event: ${Yy(e)}`),
 				!0
 			);
-		if (zfe(e))
+		if (Bfe(e))
 			return (
 				Rv &&
 					Yv.warn(`Event dropped due to not having an error message, error type or stacktrace.
 Event: ${Yy(e)}`),
 				!0
 			);
-		if (Ife(e, t.denyUrls))
+		if (Lfe(e, t.denyUrls))
 			return (
 				Rv &&
 					Yv.warn(`Event dropped due to being matched by \`denyUrls\` option.
 Event: ${Yy(e)}.
-Url: ${sC(e)}`),
+Url: ${oC(e)}`),
 				!0
 			);
-		if (!Lfe(e, t.allowUrls))
+		if (!Rfe(e, t.allowUrls))
 			return (
 				Rv &&
 					Yv.warn(`Event dropped due to not being matched by \`allowUrls\` option.
 Event: ${Yy(e)}.
-Url: ${sC(e)}`),
+Url: ${oC(e)}`),
 				!0
 			);
-	} else if (e.type === `transaction` && Ffe(e, t.ignoreTransactions))
+	} else if (e.type === `transaction` && Ife(e, t.iAxisAlignedBoundingBoxoreTransactions))
 		return (
 			Rv &&
-				Yv.warn(`Event dropped due to being matched by \`ignoreTransactions\` option.
+				Yv.warn(`Event dropped due to being matched by \`iAxisAlignedBoundingBoxoreTransactions\` option.
 Event: ${Yy(e)}`),
 			!0
 		);
 	return !1;
 }
-function Pfe(e, t) {
+function Ffe(e, t) {
 	return t?.length ? LS(e).some((e) => Gy(e, t)) : !1;
 }
-function Ffe(e, t) {
+function Ife(e, t) {
 	if (!t?.length) return !1;
 	let n = e.transaction;
 	return n ? Gy(n, t) : !1;
 }
-function Ife(e, t) {
+function Lfe(e, t) {
 	if (!t?.length) return !1;
-	let n = sC(e);
+	let n = oC(e);
 	return n ? Gy(n, t) : !1;
 }
-function Lfe(e, t) {
+function Rfe(e, t) {
 	if (!t?.length) return !0;
-	let n = sC(e);
+	let n = oC(e);
 	return n ? Gy(n, t) : !0;
 }
-function Rfe(e = []) {
+function zfe(e = []) {
 	for (let t = e.length - 1; t >= 0; t--) {
 		let n = e[t];
 		if (n && n.filename !== `<anonymous>` && n.filename !== `[native code]`)
@@ -51382,7 +51401,7 @@ function Rfe(e = []) {
 	}
 	return null;
 }
-function sC(e) {
+function oC(e) {
 	try {
 		let t = [...(e.exception?.values ?? [])]
 			.reverse()
@@ -51390,12 +51409,12 @@ function sC(e) {
 				(e) =>
 					e.mechanism?.parent_id === void 0 && e.stacktrace?.frames?.length,
 			)?.stacktrace?.frames;
-		return t ? Rfe(t) : null;
+		return t ? zfe(t) : null;
 	} catch {
 		return Rv && Yv.error(`Cannot extract url for event ${Yy(e)}`), null;
 	}
 }
-function zfe(e) {
+function Bfe(e) {
 	return e.exception?.values?.length
 		? !e.message &&
 				!e.exception.values.some(
@@ -51403,14 +51422,14 @@ function zfe(e) {
 				)
 		: !1;
 }
-function Bfe(e, t, n, r, i, a) {
+function Vfe(e, t, n, r, i, a) {
 	if (!i.exception?.values || !a || !wy(a.originalException, Error)) return;
 	let o =
 		i.exception.values.length > 0
 			? i.exception.values[i.exception.values.length - 1]
 			: void 0;
 	o &&
-		(i.exception.values = cC(
+		(i.exception.values = sC(
 			e,
 			t,
 			r,
@@ -51421,41 +51440,41 @@ function Bfe(e, t, n, r, i, a) {
 			0,
 		));
 }
-function cC(e, t, n, r, i, a, o, s) {
+function sC(e, t, n, r, i, a, o, s) {
 	if (a.length >= n + 1) return a;
 	let c = [...a];
 	if (wy(r[i], Error)) {
-		uC(o, s, r);
+		lC(o, s, r);
 		let a = e(t, r[i]),
 			l = c.length;
-		dC(a, i, l, s), (c = cC(e, t, n, r[i], i, [a, ...c], a, l));
+		uC(a, i, l, s), (c = sC(e, t, n, r[i], i, [a, ...c], a, l));
 	}
 	return (
-		lC(r) &&
+		cC(r) &&
 			r.errors.forEach((a, l) => {
 				if (wy(a, Error)) {
-					uC(o, s, r);
+					lC(o, s, r);
 					let u = e(t, a),
 						d = c.length;
-					dC(u, `errors[${l}]`, d, s), (c = cC(e, t, n, a, i, [u, ...c], u, d));
+					uC(u, `errors[${l}]`, d, s), (c = sC(e, t, n, a, i, [u, ...c], u, d));
 				}
 			}),
 		c
 	);
 }
-function lC(e) {
+function cC(e) {
 	return Array.isArray(e.errors);
 }
-function uC(e, t, n) {
+function lC(e, t, n) {
 	e.mechanism = {
 		handled: !0,
 		type: `auto.core.linked_errors`,
-		...(lC(n) && { is_exception_group: !0 }),
+		...(cC(n) && { is_exception_group: !0 }),
 		...e.mechanism,
 		exception_id: t,
 	};
 }
-function dC(e, t, n, r) {
+function uC(e, t, n, r) {
 	e.mechanism = {
 		handled: !0,
 		...e.mechanism,
@@ -51465,23 +51484,23 @@ function dC(e, t, n, r) {
 		parent_id: r,
 	};
 }
-function Vfe(e) {
+function Hfe(e) {
 	return (
 		my(e) &&
 		`__sentry_fetch_url_host__` in e &&
 		typeof e.__sentry_fetch_url_host__ == `string`
 	);
 }
-function fC(e) {
-	return Vfe(e) ? `${e.message} (${e.__sentry_fetch_url_host__})` : e.message;
+function dC(e) {
+	return Hfe(e) ? `${e.message} (${e.__sentry_fetch_url_host__})` : e.message;
 }
-var pC = new Set([]);
-function Hfe(e) {
+var fC = new Set([]);
+function Ufe(e) {
 	let t = `console`,
 		n = oy(t, e);
-	return sy(t, Ufe), n;
+	return sy(t, Wfe), n;
 }
-function Ufe() {
+function Wfe() {
 	`console` in zv &&
 		xle.forEach(function (e) {
 			e in zv.console &&
@@ -51491,7 +51510,7 @@ function Ufe() {
 						function (...t) {
 							let n = t[0],
 								r = Wv[e],
-								i = pC.size && typeof n == `string` && Gy(n, pC);
+								i = fC.size && typeof n == `string` && Gy(n, fC);
 							i || cy(`console`, { args: t, level: e }),
 								(!i || (Rv && Yv.isEnabled())) && r?.apply(zv.console, t);
 						}
@@ -51499,22 +51518,22 @@ function Ufe() {
 				});
 		});
 }
-function Wfe(e) {
+function Gfe(e) {
 	return e === `warn`
 		? `warning`
 		: [`fatal`, `error`, `warning`, `log`, `info`, `debug`].includes(e)
 			? e
 			: `log`;
 }
-var Gfe = `Dedupe`,
-	Kfe = ES(() => {
+var Kfe = `Dedupe`,
+	qfe = ES(() => {
 		let e;
 		return {
-			name: Gfe,
+			name: Kfe,
 			processEvent(t) {
 				if (t.type) return t;
 				try {
-					if (qfe(t, e))
+					if (Jfe(t, e))
 						return (
 							Rv &&
 								Yv.warn(
@@ -51527,10 +51546,10 @@ var Gfe = `Dedupe`,
 			},
 		};
 	});
-function qfe(e, t) {
-	return t ? !!(Jfe(e, t) || Yfe(e, t)) : !1;
-}
 function Jfe(e, t) {
+	return t ? !!(Yfe(e, t) || Xfe(e, t)) : !1;
+}
+function Yfe(e, t) {
 	let n = e.message,
 		r = t.message;
 	return !(
@@ -51538,23 +51557,23 @@ function Jfe(e, t) {
 		(n && !r) ||
 		(!n && r) ||
 		n !== r ||
-		!hC(e, t) ||
-		!mC(e, t)
+		!mC(e, t) ||
+		!pC(e, t)
 	);
 }
-function Yfe(e, t) {
-	let n = gC(t),
-		r = gC(e);
+function Xfe(e, t) {
+	let n = hC(t),
+		r = hC(e);
 	return !(
 		!n ||
 		!r ||
 		n.type !== r.type ||
 		n.value !== r.value ||
-		!hC(e, t) ||
-		!mC(e, t)
+		!mC(e, t) ||
+		!pC(e, t)
 	);
 }
-function mC(e, t) {
+function pC(e, t) {
 	let n = ry(e),
 		r = ry(t);
 	if (!n && !r) return !0;
@@ -51573,7 +51592,7 @@ function mC(e, t) {
 	}
 	return !0;
 }
-function hC(e, t) {
+function mC(e, t) {
 	let n = e.fingerprint,
 		r = t.fingerprint;
 	if (!n && !r) return !0;
@@ -51585,12 +51604,12 @@ function hC(e, t) {
 		return !1;
 	}
 }
-function gC(e) {
+function hC(e) {
 	return e.exception?.values?.[0];
 }
-var Xfe = `ConversationId`,
-	Zfe = ES(() => ({
-		name: Xfe,
+var Zfe = `ConversationId`,
+	Qfe = ES(() => ({
+		name: Zfe,
 		setup(e) {
 			e.on(`spanStart`, (e) => {
 				let t = xb().getScopeData(),
@@ -51609,7 +51628,7 @@ var Xfe = `ConversationId`,
 			});
 		},
 	}));
-function Qfe(e, t, n, r, i) {
+function $fe(e, t, n, r, i) {
 	if (!e.fetchData) return;
 	let { method: a, url: o } = e.fetchData,
 		s = gx() && t(o);
@@ -51617,14 +51636,14 @@ function Qfe(e, t, n, r, i) {
 		let t = e.fetchData.__span;
 		if (!t) return;
 		let n = r[t];
-		n && (s && (tpe(n, e), $fe(n, e, i)), delete r[t]);
+		n && (s && (npe(n, e), epe(n, e, i)), delete r[t]);
 		return;
 	}
 	let { spanOrigin: c = `auto.http.browser`, propagateTraceparent: l = !1 } =
 			typeof i == `object` ? i : { spanOrigin: i },
 		u = wb(),
 		d = !!px() || (!!u && Lx(u)),
-		f = s && d ? Hx(ipe(o, a, c)) : new bx();
+		f = s && d ? Hx(ape(o, a, c)) : new bx();
 	if (
 		(s && !d && u?.recordDroppedEvent(`no_parent_span`, `span`),
 		(e.fetchData.__span = f.spanContext().spanId),
@@ -51633,7 +51652,7 @@ function Qfe(e, t, n, r, i) {
 	) {
 		let t = e.args[0],
 			n = { ...(e.args[1] || {}) },
-			r = epe(t, n, gx() && d ? f : void 0, l);
+			r = tpe(t, n, gx() && d ? f : void 0, l);
 		r && ((e.args[1] = n), (n.headers = r));
 	}
 	if (u) {
@@ -51647,21 +51666,21 @@ function Qfe(e, t, n, r, i) {
 	}
 	return f;
 }
-function $fe(e, t, n) {
+function epe(e, t, n) {
 	(typeof n == `object` && n ? n.onRequestSpanEnd : void 0)?.(e, {
 		headers: t.response?.headers,
 		error: t.error,
 	});
 }
-function epe(e, t, n, r) {
-	let i = nC({ span: n, propagateTraceparent: r }),
+function tpe(e, t, n, r) {
+	let i = tC({ span: n, propagateTraceparent: r }),
 		a = i[`sentry-trace`],
 		o = i.baggage,
 		s = i.traceparent;
 	if (!a) return;
 	let c = t.headers || (Ty(e) ? e.headers : void 0);
 	if (!c) return { ...i };
-	if (npe(c)) {
+	if (rpe(c)) {
 		let e = new Headers(c);
 		if (
 			(e.get(`sentry-trace`) || e.set(`sentry-trace`, a),
@@ -51669,10 +51688,10 @@ function epe(e, t, n, r) {
 			o)
 		) {
 			let t = e.get(`baggage`);
-			t ? _C(t) || e.set(`baggage`, `${t},${o}`) : e.set(`baggage`, o);
+			t ? gC(t) || e.set(`baggage`, `${t},${o}`) : e.set(`baggage`, o);
 		}
 		return e;
-	} else if (rpe(c)) {
+	} else if (ipe(c)) {
 		let e = [...c];
 		e.find((e) => e[0] === `sentry-trace`) || e.push([`sentry-trace`, a]),
 			r &&
@@ -51680,7 +51699,7 @@ function epe(e, t, n, r) {
 				!e.find((e) => e[0] === `traceparent`) &&
 				e.push([`traceparent`, s]);
 		let t = c.find(
-			(e) => e[0] === `baggage` && typeof e[1] == `string` && _C(e[1]),
+			(e) => e[0] === `baggage` && typeof e[1] == `string` && gC(e[1]),
 		);
 		return o && !t && e.push([`baggage`, o]), e;
 	} else {
@@ -51688,16 +51707,16 @@ function epe(e, t, n, r) {
 			t = `traceparent` in c ? c.traceparent : void 0,
 			n = `baggage` in c ? c.baggage : void 0,
 			i = n ? (Array.isArray(n) ? [...n] : [n]) : [],
-			l = n && (Array.isArray(n) ? n.find((e) => _C(e)) : _C(n));
+			l = n && (Array.isArray(n) ? n.find((e) => gC(e)) : gC(n));
 		o && !l && i.push(o);
-		let u = Object.assign({}, c, {
+		let u = Object.assiAxisAlignedBoundingBox({}, c, {
 			"sentry-trace": e ?? a,
 			baggage: i.length > 0 ? i.join(`,`) : void 0,
 		});
 		return r && s && !t && (u.traceparent = s), u;
 	}
 }
-function tpe(e, t) {
+function npe(e, t) {
 	if (t.response) {
 		Pb(e, t.response.status);
 		let n = t.response?.headers?.get(`content-length`);
@@ -51708,28 +51727,28 @@ function tpe(e, t) {
 	} else t.error && e.setStatus({ code: 2, message: `internal_error` });
 	e.end();
 }
-function _C(e) {
+function gC(e) {
 	return typeof e == `string`
 		? e.split(`,`).some((e) => e.trim().startsWith(zb))
 		: !1;
 }
-function npe(e) {
+function rpe(e) {
 	return typeof Headers < `u` && wy(e, Headers);
 }
-function rpe(e) {
+function ipe(e) {
 	return Array.isArray(e)
 		? e.every(
 				(e) => Array.isArray(e) && e.length === 2 && typeof e[0] == `string`,
 			)
 		: !1;
 }
-function ipe(e, t, n) {
+function ape(e, t, n) {
 	if (e.startsWith(`data:`))
-		return { name: `${t} ${nS(e)}`, attributes: vC(e, void 0, t, n) };
+		return { name: `${t} ${nS(e)}`, attributes: _C(e, void 0, t, n) };
 	let r = $x(e);
-	return { name: `${t} ${r ? eS(r) : e}`, attributes: vC(e, r, t, n) };
+	return { name: `${t} ${r ? eS(r) : e}`, attributes: _C(e, r, t, n) };
 }
-function vC(e, t, n, r) {
+function _C(e, t, n, r) {
 	let i = {
 		url: nS(e),
 		type: `fetch`,
@@ -51745,41 +51764,41 @@ function vC(e, t, n, r) {
 		i
 	);
 }
-function yC(e) {
+function vC(e) {
 	if (e !== void 0) {
 		if (e >= 400 && e < 500) return `warning`;
 		if (e >= 500) return `error`;
 	}
 }
-var bC = zv;
-function ape() {
-	return `history` in bC && !!bC.history;
-}
+var yC = zv;
 function ope() {
-	if (!(`fetch` in bC)) return !1;
+	return `history` in yC && !!yC.history;
+}
+function spe() {
+	if (!(`fetch` in yC)) return !1;
 	try {
 		return new Headers(), new Request(`data:,`), new Response(), !0;
 	} catch {
 		return !1;
 	}
 }
-function xC(e) {
+function bC(e) {
 	return (
 		e && /^function\s+\w+\(\)\s+\{\s+\[native code\]\s+\}$/.test(e.toString())
 	);
 }
-function spe() {
+function cpe() {
 	if (typeof EdgeRuntime == `string`) return !0;
-	if (!ope()) return !1;
-	if (xC(bC.fetch)) return !0;
+	if (!spe()) return !1;
+	if (bC(yC.fetch)) return !0;
 	let e = !1,
-		t = bC.document;
+		t = yC.document;
 	if (t && typeof t.createElement == `function`)
 		try {
 			let n = t.createElement(`iframe`);
 			(n.hidden = !0),
 				t.head.appendChild(n),
-				n.contentWindow?.fetch && (e = xC(n.contentWindow.fetch)),
+				n.contentWindow?.fetch && (e = bC(n.contentWindow.fetch)),
 				t.head.removeChild(n);
 		} catch (e) {
 			Rv &&
@@ -51790,28 +51809,28 @@ function spe() {
 		}
 	return e;
 }
-function SC(e, t) {
+function xC(e, t) {
 	let n = `fetch`,
 		r = oy(n, e);
-	return sy(n, () => CC(void 0, t)), r;
+	return sy(n, () => SC(void 0, t)), r;
 }
-function cpe(e) {
+function lpe(e) {
 	let t = `fetch-body-resolved`,
 		n = oy(t, e);
-	return sy(t, () => CC(upe)), n;
+	return sy(t, () => SC(dpe)), n;
 }
-function CC(e, t = !1) {
-	(t && !spe()) ||
+function SC(e, t = !1) {
+	(t && !cpe()) ||
 		Ey(zv, `fetch`, function (t) {
 			return function (...n) {
 				let r = Error(),
-					{ method: i, url: a } = dpe(n),
+					{ method: i, url: a } = fpe(n),
 					o = {
 						args: n,
 						fetchData: { method: i, url: a },
 						startTimestamp: tb() * 1e3,
 						virtualError: r,
-						headers: fpe(n),
+						headers: ppe(n),
 					};
 				return (
 					e || cy(`fetch`, { ...o }),
@@ -51849,7 +51868,7 @@ function CC(e, t = !1) {
 			};
 		});
 }
-async function lpe(e, t) {
+async function upe(e, t) {
 	if (e?.body) {
 		let n = e.body,
 			r = n.getReader(),
@@ -51874,51 +51893,51 @@ async function lpe(e, t) {
 		clearTimeout(i), r.releaseLock(), n.cancel().then(null, () => {});
 	}
 }
-function upe(e) {
+function dpe(e) {
 	let t;
 	try {
 		t = e.clone();
 	} catch {
 		return;
 	}
-	lpe(t, () => {
+	upe(t, () => {
 		cy(`fetch-body-resolved`, { endTimestamp: tb() * 1e3, response: e });
 	});
 }
-function wC(e, t) {
+function CC(e, t) {
 	return !!e && typeof e == `object` && !!e[t];
 }
-function TC(e) {
+function wC(e) {
 	return typeof e == `string`
 		? e
 		: e
-			? wC(e, `url`)
+			? CC(e, `url`)
 				? e.url
 				: e.toString
 					? e.toString()
 					: ``
 			: ``;
 }
-function dpe(e) {
+function fpe(e) {
 	if (e.length === 0) return { method: `GET`, url: `` };
 	if (e.length === 2) {
 		let [t, n] = e;
 		return {
-			url: TC(t),
-			method: wC(n, `method`)
+			url: wC(t),
+			method: CC(n, `method`)
 				? String(n.method).toUpperCase()
-				: Ty(t) && wC(t, `method`)
+				: Ty(t) && CC(t, `method`)
 					? String(t.method).toUpperCase()
 					: `GET`,
 		};
 	}
 	let t = e[0];
 	return {
-		url: TC(t),
-		method: wC(t, `method`) ? String(t.method).toUpperCase() : `GET`,
+		url: wC(t),
+		method: CC(t, `method`) ? String(t.method).toUpperCase() : `GET`,
 	};
 }
-function fpe(e) {
+function ppe(e) {
 	let [t, n] = e;
 	try {
 		if (typeof n == `object` && n && `headers` in n && n.headers)
@@ -51926,16 +51945,16 @@ function fpe(e) {
 		if (Ty(t)) return new Headers(t.headers);
 	} catch {}
 }
-var EC = zv;
-function DC() {
+var TC = zv;
+function EC() {
 	try {
-		return EC.document.location.href;
+		return TC.document.location.href;
 	} catch {
 		return ``;
 	}
 }
-function OC(e, t = 5) {
-	if (!EC.HTMLElement) return null;
+function DC(e, t = 5) {
+	if (!TC.HTMLElement) return null;
 	let n = e;
 	for (let e = 0; e < t; e++) {
 		if (!n) return null;
@@ -51947,18 +51966,18 @@ function OC(e, t = 5) {
 	}
 	return null;
 }
-var kC = zv,
-	AC = 0;
-function jC() {
-	return AC > 0;
+var OC = zv,
+	kC = 0;
+function AC() {
+	return kC > 0;
 }
-function MC() {
-	AC++,
+function jC() {
+	kC++,
 		setTimeout(() => {
-			AC--;
+			kC--;
 		});
 }
-function NC(e, t = {}) {
+function MC(e, t = {}) {
 	function n(e) {
 		return typeof e == `function`;
 	}
@@ -51975,11 +51994,11 @@ function NC(e, t = {}) {
 	let r = function (...n) {
 		zv._sentryWrappedDepth = (zv._sentryWrappedDepth || 0) + 1;
 		try {
-			let r = n.map((e) => NC(e, t));
+			let r = n.map((e) => MC(e, t));
 			return e.apply(this, r);
 		} catch (e) {
 			throw (
-				(MC(),
+				(jC(),
 				Cb((r) => {
 					r.addEventProcessor(
 						(e) => (
@@ -52011,18 +52030,18 @@ function NC(e, t = {}) {
 	} catch {}
 	return r;
 }
-function PC() {
-	let e = DC(),
-		{ referrer: t } = kC.document || {},
-		{ userAgent: n } = kC.navigator || {};
+function NC() {
+	let e = EC(),
+		{ referrer: t } = OC.document || {},
+		{ userAgent: n } = OC.navigator || {};
 	return {
 		url: e,
 		headers: { ...(t && { Referer: t }), ...(n && { "User-Agent": n }) },
 	};
 }
-function FC(e, t) {
-	let n = RC(e, t),
-		r = { type: UC(t), value: WC(t) };
+function PC(e, t) {
+	let n = LC(e, t),
+		r = { type: HC(t), value: UC(t) };
 	return (
 		n.length && (r.stacktrace = { frames: n }),
 		r.type === void 0 &&
@@ -52031,98 +52050,98 @@ function FC(e, t) {
 		r
 	);
 }
-function IC(e, t, n, r) {
+function FC(e, t, n, r) {
 	let i = wb()?.getOptions().normalizeDepth,
-		a = ppe(t),
+		a = XC(t),
 		o = { __serialized__: zy(t, i) };
-	if (a) return { exception: { values: [FC(e, a)] }, extra: o };
+	if (a) return { exception: { values: [PC(e, a)] }, extra: o };
 	let s = {
 		exception: {
 			values: [
 				{
 					type: Sy(t) ? t.constructor.name : r ? `UnhandledRejection` : `Error`,
-					value: YC(t, { isUnhandledRejection: r }),
+					value: JC(t, { isUnhandledRejection: r }),
 				},
 			],
 		},
 		extra: o,
 	};
 	if (n) {
-		let t = RC(e, n);
+		let t = LC(e, n);
 		t.length && (s.exception.values[0].stacktrace = { frames: t });
 	}
 	return s;
 }
-function LC(e, t) {
-	return { exception: { values: [FC(e, t)] } };
+function IC(e, t) {
+	return { exception: { values: [PC(e, t)] } };
 }
-function RC(e, t) {
+function LC(e, t) {
 	let n = t.stacktrace || t.stack || ``,
-		r = BC(t),
-		i = VC(t);
+		r = zC(t),
+		i = BC(t);
 	try {
 		return e(n, r, i);
 	} catch {}
 	return [];
 }
-var zC = /Minified React error #\d+;/i;
-function BC(e) {
-	return e && zC.test(e.message) ? 1 : 0;
+var RC = /Minified React error #\d+;/i;
+function zC(e) {
+	return e && RC.test(e.message) ? 1 : 0;
 }
-function VC(e) {
+function BC(e) {
 	return typeof e.framesToPop == `number` ? e.framesToPop : 0;
 }
-function HC(e) {
+function VC(e) {
 	return typeof WebAssembly < `u` && WebAssembly.Exception !== void 0
 		? e instanceof WebAssembly.Exception
 		: !1;
 }
-function UC(e) {
+function HC(e) {
 	let t = e?.name;
-	return !t && HC(e)
+	return !t && VC(e)
 		? e.message && Array.isArray(e.message) && e.message.length == 2
 			? e.message[0]
 			: `WebAssembly.Exception`
 		: t;
 }
-function WC(e) {
+function UC(e) {
 	let t = e?.message;
-	return HC(e)
+	return VC(e)
 		? Array.isArray(e.message) && e.message.length == 2
 			? e.message[1]
 			: `wasm exception`
 		: t
 			? t.error && typeof t.error.message == `string`
-				? fC(t.error)
-				: fC(e)
+				? dC(t.error)
+				: dC(e)
 			: `No error message`;
 }
-function GC(e, t, n, r) {
-	let i = qC(e, t, n?.syntheticException || void 0, r);
+function WC(e, t, n, r) {
+	let i = KC(e, t, n?.syntheticException || void 0, r);
 	return (
 		Zy(i), (i.level = `error`), n?.event_id && (i.event_id = n.event_id), sS(i)
 	);
 }
-function KC(e, t, n = `info`, r, i) {
-	let a = JC(e, t, r?.syntheticException || void 0, i);
+function GC(e, t, n = `info`, r, i) {
+	let a = qC(e, t, r?.syntheticException || void 0, i);
 	return (a.level = n), r?.event_id && (a.event_id = r.event_id), sS(a);
 }
-function qC(e, t, n, r, i) {
+function KC(e, t, n, r, i) {
 	let a;
-	if (gy(t) && t.error) return LC(e, t.error);
+	if (gy(t) && t.error) return IC(e, t.error);
 	if (_y(t) || Mle(t)) {
 		let i = t;
 		if (`stack` in t) {
-			a = LC(e, t);
+			a = IC(e, t);
 			let i = a.exception?.values?.[0];
 			if (r && n && i && !i.stacktrace) {
-				let t = RC(e, n);
+				let t = LC(e, n);
 				t.length && ((i.stacktrace = { frames: t }), Zy(a, { synthetic: !0 }));
 			}
 		} else {
 			let t = i.name || (_y(i) ? `DOMError` : `DOMException`),
 				o = i.message ? `${t}: ${i.message}` : t;
-			(a = JC(e, o, n, r)), Xy(a, o);
+			(a = qC(e, o, n, r)), Xy(a, o);
 		}
 		return (
 			`code` in i && (a.tags = { ...a.tags, "DOMException.code": `${i.code}` }),
@@ -52130,18 +52149,18 @@ function qC(e, t, n, r, i) {
 		);
 	}
 	return my(t)
-		? LC(e, t)
+		? IC(e, t)
 		: xy(t) || Sy(t)
-			? ((a = IC(e, t, n, i)), Zy(a, { synthetic: !0 }), a)
-			: ((a = JC(e, t, n, r)),
+			? ((a = FC(e, t, n, i)), Zy(a, { synthetic: !0 }), a)
+			: ((a = qC(e, t, n, r)),
 				Xy(a, `${t}`, void 0),
 				Zy(a, { synthetic: !0 }),
 				a);
 }
-function JC(e, t, n, r) {
+function qC(e, t, n, r) {
 	let i = {};
 	if (r && n) {
-		let r = RC(e, n);
+		let r = LC(e, n);
 		r.length &&
 			(i.exception = { values: [{ value: t, stacktrace: { frames: r } }] }),
 			Zy(i, { synthetic: !0 });
@@ -52152,28 +52171,28 @@ function JC(e, t, n, r) {
 	}
 	return (i.message = t), i;
 }
-function YC(e, { isUnhandledRejection: t }) {
+function JC(e, { isUnhandledRejection: t }) {
 	let n = Ple(e),
 		r = t ? `promise rejection` : `exception`;
 	return gy(e)
 		? `Event \`ErrorEvent\` captured as ${r} with message \`${e.message}\``
 		: Sy(e)
-			? `Event \`${XC(e)}\` (type=${e.type}) captured as ${r}`
+			? `Event \`${YC(e)}\` (type=${e.type}) captured as ${r}`
 			: `Object captured as ${r} with keys: ${n}`;
 }
-function XC(e) {
+function YC(e) {
 	try {
 		let t = Object.getPrototypeOf(e);
 		return t ? t.constructor.name : void 0;
 	} catch {}
 }
-function ppe(e) {
+function XC(e) {
 	return Object.values(e).find((e) => e instanceof Error);
 }
 var mpe = class extends vfe {
 	constructor(e) {
 		let t = hpe(e);
-		tC(t, `browser`, [`browser`], kC.SENTRY_SDK_SOURCE || Xde()), super(t);
+		eC(t, `browser`, [`browser`], OC.SENTRY_SDK_SOURCE || Xde()), super(t);
 		let { userInfo: n } = this.getDataCollectionOptions();
 		t._metadata?.sdk &&
 			(t._metadata.sdk.settings = {
@@ -52187,19 +52206,19 @@ var mpe = class extends vfe {
 				enableMetrics: o,
 			} = this._options,
 			s = o ?? a?.enableMetrics ?? !0;
-		kC.document &&
+		OC.document &&
 			(r || i || s) &&
-			kC.document.addEventListener(`visibilitychange`, () => {
-				kC.document.visibilityState === `hidden` &&
+			OC.document.addEventListener(`visibilitychange`, () => {
+				OC.document.visibilityState === `hidden` &&
 					(r && this._flushOutcomes(), i && OS(this), s && AS(this));
 			}),
-			n && this.on(`beforeSendSession`, Cfe);
+			n && this.on(`beforeSendSession`, wfe);
 	}
 	eventFromException(e, t) {
-		return GC(this._options.stackParser, e, t, this._options.attachStacktrace);
+		return WC(this._options.stackParser, e, t, this._options.attachStacktrace);
 	}
 	eventFromMessage(e, t = `info`, n) {
-		return KC(
+		return GC(
 			this._options.stackParser,
 			e,
 			t,
@@ -52218,7 +52237,7 @@ function hpe(e) {
 		release:
 			typeof __SENTRY_RELEASE__ == `string`
 				? __SENTRY_RELEASE__
-				: kC.SENTRY_RELEASE?.id,
+				: OC.SENTRY_RELEASE?.id,
 		sendClientReports: !0,
 		parentSpanIsAlwaysRootSpan: !0,
 		...e,
@@ -53064,7 +53083,7 @@ function rme() {
 							startTime: e,
 							attributes: { [Db]: `auto.ui.browser.metrics` },
 						},
-						a = OC(n.target);
+						a = DC(n.target);
 					a && (i.attributes[`ui.component_name`] = a), Vw(t, e, e + r, i);
 				}
 		}
@@ -53110,8 +53129,8 @@ function cme(e, t) {
 	if (!n?.getEntries || !r) return;
 	let {
 			spanStreamingEnabled: i,
-			ignorePerformanceApiSpans: a,
-			ignoreResourceSpans: o,
+			iAxisAlignedBoundingBoxorePerformanceApiSpans: a,
+			iAxisAlignedBoundingBoxoreResourceSpans: o,
 		} = t,
 		s = Ww(r),
 		c = n.getEntries(),
@@ -53732,7 +53751,7 @@ function Rme() {
 				t = dT;
 			(dT = e), t !== e && cy(`history`, { from: t, to: e });
 		}),
-		!ape())
+		!ope())
 	)
 		return;
 	function e(e) {
@@ -53761,7 +53780,7 @@ function Bme(e) {
 	let t = pT[e];
 	if (t) return t;
 	let n = QC[e];
-	if (xC(n)) return (pT[e] = n.bind(QC));
+	if (bC(n)) return (pT[e] = n.bind(QC));
 	let r = QC.document;
 	if (r && typeof r.createElement == `function`)
 		try {
@@ -53992,10 +54011,10 @@ var Xme = /^\s*at (\S+?)(?::(\d+))(?::(\d+))\s*$/i,
 		return {
 			name: ihe,
 			setup(e) {
-				t.console && Hfe(che(e)),
+				t.console && Ufe(che(e)),
 					t.dom && Nme(she(e, t.dom)),
 					t.xhr && hT(lhe(e)),
-					t.fetch && SC(uhe(e)),
+					t.fetch && xC(uhe(e)),
 					t.history && fT(dhe(e)),
 					t.sentry && e.on(`beforeSendEvent`, ohe(e));
 			},
@@ -54004,7 +54023,7 @@ var Xme = /^\s*at (\S+?)(?::(\d+))(?::(\d+))\s*$/i,
 function ohe(e) {
 	return function (t) {
 		wb() === e &&
-			rC(
+			nC(
 				{
 					category: `sentry.${t.type === `transaction` ? `transaction` : `event`}`,
 					event_id: t.event_id,
@@ -54036,14 +54055,14 @@ function she(e, t) {
 		try {
 			let e = n.event,
 				t = fhe(e) ? e.target : e;
-			(r = zw(t, { keyAttrs: a, maxStringLength: o })), (i = OC(t));
+			(r = zw(t, { keyAttrs: a, maxStringLength: o })), (i = DC(t));
 		} catch {
 			r = `<unknown>`;
 		}
 		if (r.length === 0) return;
 		let s = { category: `ui.${n.name}`, message: r };
 		i && (s.data = { "ui.component_name": i }),
-			rC(s, { event: n.event, name: n.name, global: n.global });
+			nC(s, { event: n.event, name: n.name, global: n.global });
 	};
 }
 function che(e) {
@@ -54052,7 +54071,7 @@ function che(e) {
 		let n = {
 			category: `console`,
 			data: { arguments: t.args, logger: `console` },
-			level: Wfe(t.level),
+			level: Gfe(t.level),
 			message: Uy(t.args, ` `),
 		};
 		if (t.level === `assert`)
@@ -54060,7 +54079,7 @@ function che(e) {
 				(n.message = `Assertion failed: ${Uy(t.args.slice(1), ` `) || `console.assert`}`),
 					(n.data.arguments = t.args.slice(1));
 			else return;
-		rC(n, { input: t.args, level: t.level });
+		nC(n, { input: t.args, level: t.level });
 	};
 }
 function lhe(e) {
@@ -54072,8 +54091,8 @@ function lhe(e) {
 		let { method: a, url: o, status_code: s, body: c } = i,
 			l = { method: a, url: o, status_code: s },
 			u = { xhr: t.xhr, input: c, startTimestamp: n, endTimestamp: r },
-			d = { category: `xhr`, data: l, type: `http`, level: yC(s) };
-		e.emit(`beforeOutgoingRequestBreadcrumb`, d, u), rC(d, u);
+			d = { category: `xhr`, data: l, type: `http`, level: vC(s) };
+		e.emit(`beforeOutgoingRequestBreadcrumb`, d, u), nC(d, u);
 	};
 }
 function uhe(e) {
@@ -54097,7 +54116,7 @@ function uhe(e) {
 						level: `error`,
 						type: `http`,
 					};
-				e.emit(`beforeOutgoingRequestBreadcrumb`, a, i), rC(a, i);
+				e.emit(`beforeOutgoingRequestBreadcrumb`, a, i), nC(a, i);
 			} else {
 				let i = t.response,
 					a = { ...t.fetchData, status_code: i?.status },
@@ -54111,9 +54130,9 @@ function uhe(e) {
 						category: `fetch`,
 						data: a,
 						type: `http`,
-						level: yC(a.status_code),
+						level: vC(a.status_code),
 					};
-				e.emit(`beforeOutgoingRequestBreadcrumb`, s, o), rC(s, o);
+				e.emit(`beforeOutgoingRequestBreadcrumb`, s, o), nC(s, o);
 			}
 	};
 }
@@ -54122,13 +54141,13 @@ function dhe(e) {
 		if (wb() !== e) return;
 		let n = t.from,
 			r = t.to,
-			i = tS(kC.location.href),
+			i = tS(OC.location.href),
 			a = n ? tS(n) : void 0,
 			o = tS(r);
 		a?.path || (a = i),
 			i.protocol === o.protocol && i.host === o.host && (r = o.relative),
 			i.protocol === a.protocol && i.host === a.host && (n = a.relative),
-			rC({ category: `navigation`, data: { from: n, to: r } });
+			nC({ category: `navigation`, data: { from: n, to: r } });
 	};
 }
 function fhe(e) {
@@ -54152,11 +54171,11 @@ var phe =
 		return {
 			name: mhe,
 			setupOnce() {
-				t.setTimeout && Ey(kC, `setTimeout`, bT),
-					t.setInterval && Ey(kC, `setInterval`, bT),
-					t.requestAnimationFrame && Ey(kC, `requestAnimationFrame`, ghe),
+				t.setTimeout && Ey(OC, `setTimeout`, bT),
+					t.setInterval && Ey(OC, `setInterval`, bT),
+					t.requestAnimationFrame && Ey(OC, `requestAnimationFrame`, ghe),
 					t.XMLHttpRequest &&
-						`XMLHttpRequest` in kC &&
+						`XMLHttpRequest` in OC &&
 						Ey(XMLHttpRequest.prototype, `send`, _he);
 				let e = t.eventTarget;
 				e && (Array.isArray(e) ? e : phe).forEach((e) => vhe(e, t));
@@ -54167,7 +54186,7 @@ function bT(e) {
 	return function (...t) {
 		let n = t[0];
 		return (
-			(t[0] = NC(n, {
+			(t[0] = MC(n, {
 				mechanism: {
 					handled: !1,
 					type: `auto.browser.browserapierrors.${ny(e)}`,
@@ -54180,7 +54199,7 @@ function bT(e) {
 function ghe(e) {
 	return function (t) {
 		return e.apply(this, [
-			NC(t, {
+			MC(t, {
 				mechanism: {
 					data: { handler: ny(e) },
 					handled: !1,
@@ -54206,7 +54225,7 @@ function _he(e) {
 								},
 							},
 							r = ky(t);
-						return r && (n.mechanism.data.handler = ny(r)), NC(t, n);
+						return r && (n.mechanism.data.handler = ny(r)), MC(t, n);
 					});
 			}),
 			e.apply(this, t)
@@ -54214,13 +54233,13 @@ function _he(e) {
 	};
 }
 function vhe(e, t) {
-	let n = kC[e]?.prototype;
+	let n = OC[e]?.prototype;
 	n?.hasOwnProperty?.(`addEventListener`) &&
 		(Ey(n, `addEventListener`, function (n) {
 			return function (r, i, a) {
 				try {
 					yhe(i) &&
-						(i.handleEvent = NC(i.handleEvent, {
+						(i.handleEvent = MC(i.handleEvent, {
 							mechanism: {
 								data: { handler: ny(i), target: e },
 								handled: !1,
@@ -54232,7 +54251,7 @@ function vhe(e, t) {
 					t.unregisterOriginalCallbacks && bhe(this, r, i),
 					n.apply(this, [
 						r,
-						NC(i, {
+						MC(i, {
 							mechanism: {
 								data: { handler: ny(i), target: e },
 								handled: !1,
@@ -54271,14 +54290,14 @@ var xhe = ES((e = {}) => {
 		return {
 			name: `BrowserSession`,
 			setupOnce() {
-				if (kC.document === void 0) {
+				if (OC.document === void 0) {
 					gT &&
 						Yv.warn(
 							"Using the `browserSessionIntegration` in non-browser environments is not supported.",
 						);
 					return;
 				}
-				vS({ ignoreDuration: !0 }), xS();
+				vS({ iAxisAlignedBoundingBoxoreDuration: !0 }), xS();
 				let e = Sb(),
 					n = e.getUser();
 				e.addScopeListener((e) => {
@@ -54288,7 +54307,7 @@ var xhe = ES((e = {}) => {
 				}),
 					t === `route` &&
 						fT(({ from: e, to: t }) => {
-							e !== t && (vS({ ignoreDuration: !0 }), xS());
+							e !== t && (vS({ iAxisAlignedBoundingBoxoreDuration: !0 }), xS());
 						});
 			},
 		};
@@ -54316,7 +54335,7 @@ var xhe = ES((e = {}) => {
 	}));
 function xT() {
 	try {
-		let e = kC.Intl;
+		let e = OC.Intl;
 		if (!e) return;
 		let t = e.DateTimeFormat().resolvedOptions();
 		return { locale: t.locale, timezone: t.timeZone, calendar: t.calendar };
@@ -54341,9 +54360,9 @@ var whe = `GlobalHandlers`,
 function Ehe(e) {
 	uy((t) => {
 		let { stackParser: n, attachStacktrace: r } = CT();
-		if (wb() !== e || jC()) return;
+		if (wb() !== e || AC()) return;
 		let { msg: i, url: a, line: o, column: s, error: c } = t,
-			l = Ahe(qC(n, c || i, void 0, r, !1), a, o, s);
+			l = Ahe(KC(n, c || i, void 0, r, !1), a, o, s);
 		(l.level = `error`),
 			_S(l, {
 				originalException: c,
@@ -54357,9 +54376,9 @@ function Ehe(e) {
 function Dhe(e) {
 	fy((t) => {
 		let { stackParser: n, attachStacktrace: r } = CT();
-		if (wb() !== e || jC()) return;
+		if (wb() !== e || AC()) return;
 		let i = Ohe(t),
-			a = by(i) ? khe(i) : qC(n, i, void 0, r, !0);
+			a = by(i) ? khe(i) : KC(n, i, void 0, r, !0);
 		(a.level = `error`),
 			_S(a, {
 				originalException: i,
@@ -54401,7 +54420,7 @@ function Ahe(e, t, n, r) {
 			c.push({
 				colno: r,
 				lineno: n,
-				filename: jhe(t) ?? DC(),
+				filename: jhe(t) ?? EC(),
 				function: `?`,
 				in_app: !0,
 			}),
@@ -54421,14 +54440,14 @@ function jhe(e) {
 var Mhe = ES(() => ({
 		name: `HttpContext`,
 		preprocessEvent(e) {
-			if (!kC.navigator && !kC.location && !kC.document) return;
-			let t = PC(),
+			if (!OC.navigator && !OC.location && !OC.document) return;
+			let t = NC(),
 				n = { ...t.headers, ...e.request?.headers };
 			e.request = { ...t, ...e.request, headers: n };
 		},
 		processSegmentSpan(e) {
-			if (!kC.navigator && !kC.location && !kC.document) return;
-			let t = PC();
+			if (!OC.navigator && !OC.location && !OC.document) return;
+			let t = NC();
 			rS(e, {
 				"url.full": t.url || void 0,
 				"http.request.header.user_agent": t.headers[`User-Agent`],
@@ -54445,7 +54464,7 @@ var Mhe = ES(() => ({
 		return {
 			name: Fhe,
 			preprocessEvent(e, r, i) {
-				Bfe(FC, i.getOptions().stackParser, n, t, e, r);
+				Vfe(PC, i.getOptions().stackParser, n, t, e, r);
 			},
 		};
 	}),
@@ -54474,12 +54493,12 @@ function zhe() {
 		: !1;
 }
 function Bhe() {
-	if (kC.window === void 0) return !1;
-	let e = kC;
+	if (OC.window === void 0) return !1;
+	let e = OC;
 	if (e.nw || !(e.chrome || e.browser)?.runtime?.id) return !1;
-	let t = DC();
+	let t = EC();
 	return !(
-		kC === kC.top &&
+		OC === OC.top &&
 		/^(?:chrome-extension|moz-extension|ms-browser-extension|safari-web-extension):\/\//.test(
 			t,
 		)
@@ -54487,14 +54506,14 @@ function Bhe() {
 }
 function Vhe(e) {
 	return [
-		Mfe(),
-		Ofe(),
-		Zfe(),
+		Nfe(),
+		kfe(),
+		Qfe(),
 		hhe(),
 		ahe(),
 		The(),
 		Ihe(),
-		Kfe(),
+		qfe(),
 		Mhe(),
 		Che(),
 		xhe(),
@@ -54513,10 +54532,10 @@ function Hhe(e = {}) {
 			}),
 			transport: e.transport || qme,
 		};
-	return Ly(wT), xfe(mpe, r);
+	return Ly(wT), Sfe(mpe, r);
 }
 function TT(e = {}) {
-	let t = kC.document,
+	let t = OC.document,
 		n = t?.head || t?.body;
 	if (!n) {
 		gT && Yv.error(`[showReportDialog] Global document not defined`);
@@ -54533,7 +54552,7 @@ function TT(e = {}) {
 			user: { ...r.getUser(), ...e.user },
 			eventId: e.eventId || Bde(),
 		},
-		o = kC.document.createElement(`script`);
+		o = OC.document.createElement(`script`);
 	(o.async = !0), (o.crossOrigin = `anonymous`), (o.src = Gde(i, a));
 	let { onLoad: s, onClose: c } = a;
 	if ((s && (o.onload = s), c)) {
@@ -54542,10 +54561,10 @@ function TT(e = {}) {
 				try {
 					c();
 				} finally {
-					kC.removeEventListener(`message`, e);
+					OC.removeEventListener(`message`, e);
 				}
 		};
-		kC.addEventListener(`message`, e);
+		OC.addEventListener(`message`, e);
 	}
 	n.appendChild(o);
 }
@@ -54554,7 +54573,7 @@ function Uhe(e) {
 }
 function ET(e) {
 	try {
-		return new URL(e, kC.location.origin).href;
+		return new URL(e, OC.location.origin).href;
 	} catch {
 		return;
 	}
@@ -54595,8 +54614,8 @@ function Ghe(e, t) {
 		d = {},
 		f = e.getOptions().propagateTraceparent;
 	n &&
-		SC((t) => {
-			let n = Qfe(t, l, u, d, { propagateTraceparent: f, onRequestSpanEnd: c });
+		xC((t) => {
+			let n = $fe(t, l, u, d, { propagateTraceparent: f, onRequestSpanEnd: c });
 			if (n) {
 				let r = ET(t.fetchData.url),
 					i = r ? tS(r).host : void 0;
@@ -54640,7 +54659,7 @@ function kT(e, t) {
 	});
 }
 function qhe(e, t) {
-	let n = DC();
+	let n = EC();
 	if (n) {
 		let r, i;
 		try {
@@ -54710,7 +54729,7 @@ function Yhe(e, t, n) {
 		"sentry-trace": r,
 		baggage: i,
 		traceparent: a,
-	} = nC({ span: t, propagateTraceparent: n });
+	} = tC({ span: t, propagateTraceparent: n });
 	r && Xhe(e, r, i, a);
 }
 function Xhe(e, t, n, r) {
@@ -54738,7 +54757,7 @@ var AT = new WeakMap(),
 	$he = ES(() => ({
 		name: `FetchStreamPerformance`,
 		setup() {
-			cpe((e) => {
+			lpe((e) => {
 				if (e.response) {
 					let t = AT.get(e.response);
 					if (t && e.endTimestamp) {
@@ -54748,7 +54767,7 @@ var AT = new WeakMap(),
 					}
 				}
 			}),
-				SC((e) => {
+				xC((e) => {
 					if (e.endTimestamp && e.response) {
 						let t = e.response.headers?.get(`content-type`) || ``;
 						if (
@@ -54781,7 +54800,7 @@ var AT = new WeakMap(),
 	})),
 	ege = `WebVitals`,
 	tge = ES((e = {}) => {
-		let t = new Set(e.ignore ?? []);
+		let t = new Set(e.iAxisAlignedBoundingBoxore ?? []);
 		return {
 			name: ege,
 			setup(n) {
@@ -54820,12 +54839,12 @@ var AT = new WeakMap(),
 		};
 	});
 function nge() {
-	kC.document
-		? kC.document.addEventListener(`visibilitychange`, () => {
+	OC.document
+		? OC.document.addEventListener(`visibilitychange`, () => {
 				let e = px();
 				if (!e) return;
 				let t = dx(e);
-				if (kC.document.hidden && t) {
+				if (OC.document.hidden && t) {
 					let e = `cancelled`,
 						{ op: n, status: r } = $b(t);
 					gT &&
@@ -54907,14 +54926,14 @@ function age(e, t, n) {
 }
 function oge(e) {
 	try {
-		kC.sessionStorage.setItem(MT, JSON.stringify(e));
+		OC.sessionStorage.setItem(MT, JSON.stringify(e));
 	} catch (e) {
 		gT && Yv.warn(`Could not store previous trace in sessionStorage`, e);
 	}
 }
 function sge() {
 	try {
-		let e = kC.sessionStorage?.getItem(MT);
+		let e = OC.sessionStorage?.getItem(MT);
 		return JSON.parse(e);
 	} catch {
 		return;
@@ -54927,7 +54946,7 @@ var cge = `BrowserTracing`,
 	lge =
 		/Googlebot|Google-InspectionTool|Storebot-Google|Bingbot|Slurp|DuckDuckBot|Baiduspider|YandexBot|Facebot|facebookexternalhit|LinkedInBot|Twitterbot|Applebot/i;
 function uge() {
-	let e = kC.navigator;
+	let e = OC.navigator;
 	return e?.userAgent ? lge.test(e.userAgent) : !1;
 }
 var dge = {
@@ -54938,8 +54957,8 @@ var dge = {
 		enableLongTask: !0,
 		enableLongAnimationFrame: !0,
 		enableInp: !0,
-		ignoreResourceSpans: [],
-		ignorePerformanceApiSpans: [],
+		iAxisAlignedBoundingBoxoreResourceSpans: [],
+		iAxisAlignedBoundingBoxorePerformanceApiSpans: [],
 		detectRedirects: !0,
 		linkPreviousTrace: `in-memory`,
 		consistentTraceSampling: !1,
@@ -54955,7 +54974,7 @@ var dge = {
 				);
 			});
 		let t = { name: void 0, source: void 0 },
-			n = kC.document,
+			n = OC.document,
 			{
 				enableInp: r,
 				enableLongTask: i,
@@ -54975,8 +54994,8 @@ var dge = {
 				trackFetchStreamPerformance: g,
 				shouldCreateSpanForRequest: _,
 				enableHTTPTimings: v,
-				ignoreResourceSpans: y,
-				ignorePerformanceApiSpans: b,
+				iAxisAlignedBoundingBoxoreResourceSpans: y,
+				iAxisAlignedBoundingBoxorePerformanceApiSpans: b,
 				instrumentPageLoad: x,
 				instrumentNavigation: S,
 				detectRedirects: C,
@@ -55007,8 +55026,8 @@ var dge = {
 				disableAutoFinish: a,
 				beforeSpanEnd: (t) => {
 					cme(t, {
-						ignoreResourceSpans: y,
-						ignorePerformanceApiSpans: b,
+						iAxisAlignedBoundingBoxoreResourceSpans: y,
+						iAxisAlignedBoundingBoxorePerformanceApiSpans: b,
 						spanStreamingEnabled: Lx(e),
 					}),
 						RT(e, void 0);
@@ -55113,7 +55132,7 @@ var dge = {
 							a = xb();
 						a.setPropagationContext(i),
 							gx() || (a.getPropagationContext().propagationSpanId = sb()),
-							a.setSDKProcessingMetadata({ normalizedRequest: PC() }),
+							a.setSDKProcessingMetadata({ normalizedRequest: NC() }),
 							ae(e, { op: `pageload`, ...n });
 					}),
 					e.on(`endPageloadSpan`, () => {
@@ -55126,23 +55145,23 @@ var dge = {
 					!e.getIntegrationByName?.(`WebVitals`) &&
 					e.addIntegration(
 						tge({
-							ignore: r ? [] : [`inp`],
+							iAxisAlignedBoundingBoxore: r ? [] : [`inp`],
 							_experiments: {
 								enableStandaloneClsSpans: s,
 								enableStandaloneLcpSpans: c,
 							},
 						}),
 					);
-				let n = DC();
+				let n = EC();
 				if (
 					(w !== `off` &&
 						ige(e, { linkPreviousTrace: w, consistentTraceSampling: T }),
-					kC.location)
+					OC.location)
 				) {
 					if (x) {
 						let t = rb();
 						pge(e, {
-							name: kC.location.pathname,
+							name: OC.location.pathname,
 							startTime: t ? t / 1e3 : void 0,
 							attributes: { [Tb]: `url`, [Db]: `auto.pageload.browser` },
 						});
@@ -55160,7 +55179,7 @@ var dge = {
 							mge(
 								e,
 								{
-									name: i?.pathname || kC.location.pathname,
+									name: i?.pathname || OC.location.pathname,
 									attributes: { [Tb]: `url`, [Db]: `auto.navigation.browser` },
 								},
 								{ url: t, isRedirect: o },
@@ -55196,23 +55215,23 @@ function mge(e, t, n) {
 		a.setTransactionName(t.name),
 		r &&
 			!i &&
-			a.setSDKProcessingMetadata({ normalizedRequest: { ...PC(), url: r } }),
+			a.setSDKProcessingMetadata({ normalizedRequest: { ...NC(), url: r } }),
 		LT(e)
 	);
 }
 function PT(e) {
 	return (
-		kC.document?.querySelector(`meta[name=${e}]`)?.getAttribute(`content`) ||
+		OC.document?.querySelector(`meta[name=${e}]`)?.getAttribute(`content`) ||
 		void 0
 	);
 }
 function FT(e) {
-	return kC.performance
+	return OC.performance
 		?.getEntriesByType?.(`navigation`)[0]
 		?.serverTiming?.find((t) => t.name === e)?.description;
 }
 function hge(e, t, n, r, i) {
-	let a = kC.document,
+	let a = OC.document,
 		o;
 	a &&
 		addEventListener(
@@ -55410,7 +55429,7 @@ var UT = (e) => e?.constructor.name === `Array`,
 		min: yge,
 		max: bge,
 		pow: xge,
-		sign: Sge,
+		siAxisAlignedBoundingBox: Sge,
 	} = Math,
 	qT = (e) => Number.isNaN(e),
 	JT = (e) => (qT(e) ? 0 : e),
@@ -55966,13 +55985,13 @@ function nD(e) {
 	function p(e) {
 		a?.(d(e));
 	}
-	c = nn(
+	c = rn(
 		et(
 			t,
 			`pointerdown`,
 			(e) => {
 				l(),
-					(l = nn(
+					(l = rn(
 						et(
 							s,
 							`pointerup`,
@@ -55983,7 +56002,7 @@ function nD(e) {
 						),
 						et(s, `pointercancel`, p, { passive: !a, once: !0 }),
 					)),
-					nee(n) && e.pointerType === `mouse` && e.preventDefault(),
+					tee(n) && e.pointerType === `mouse` && e.preventDefault(),
 					f(e);
 			},
 			{ passive: !i },
@@ -55991,7 +56010,7 @@ function nD(e) {
 		et(n, `focus`, m),
 	);
 	function m() {
-		u = nn(
+		u = rn(
 			et(n, `keydown`, (e) => {
 				o(e) &&
 					(l(),
@@ -56060,7 +56079,7 @@ var aD = iD({ box: `border-box` }),
 		wordWrap: `normal`,
 	};
 function sD(e, t, n) {
-	let { signal: r } = t;
+	let { siAxisAlignedBoundingBoxal: r } = t;
 	return [
 		new Promise((t, i) => {
 			let a = setTimeout(() => {
@@ -56687,7 +56706,7 @@ function Zge(e, t) {
 		if (!Ft(r) || !r.isConnected || dt(e, r) || Yge(e, t) || (s && pE(e, r)))
 			return !1;
 		let i = c.querySelector(`[aria-controls="${e.id}"]`);
-		return (i && MD(t, on(i))) || MD(t, on(e)) ? !1 : !n?.(r);
+		return (i && MD(t, sn(i))) || MD(t, sn(e)) ? !1 : !n?.(r);
 	}
 	let p = new Set(),
 		m = Ct(e?.getRootNode()),
@@ -57752,7 +57771,7 @@ function x_e(e) {
 function S_e(e) {
 	return !(
 		e.metaKey ||
-		(!tee() && e.altKey) ||
+		(!eee() && e.altKey) ||
 		e.ctrlKey ||
 		e.key === `Control` ||
 		e.key === `Shift` ||
@@ -57915,15 +57934,15 @@ function A_e(e, t) {
 		m = a(`indeterminate`),
 		h = r.get(`checked`),
 		g = {
-			"data-active": an(r.get(`active`)),
-			"data-focus": an(d),
-			"data-focus-visible": an(f),
-			"data-readonly": an(c),
-			"data-hover": an(r.get(`hovered`)),
-			"data-disabled": an(s),
+			"data-active": on(r.get(`active`)),
+			"data-focus": on(d),
+			"data-focus-visible": on(f),
+			"data-readonly": on(c),
+			"data-hover": on(r.get(`hovered`)),
+			"data-disabled": on(s),
 			"data-state": m ? `indeterminate` : p ? `checked` : `unchecked`,
-			"data-invalid": an(u),
-			"data-required": an(l),
+			"data-invalid": on(u),
+			"data-required": on(l),
 		};
 	return {
 		checked: p,
@@ -58430,7 +58449,7 @@ var U_e = 50,
 				data: {
 					[p]: ie,
 					centerOffset: re - ie - oe,
-					...(ae && { alignmentOffset: oe }),
+					...(ae && { aliAxisAlignedBoundingBoxmentOffset: oe }),
 				},
 				reset: ae,
 			};
@@ -58458,10 +58477,10 @@ var U_e = 50,
 							fallbackPlacements: d,
 							fallbackStrategy: f = `bestFit`,
 							fallbackAxisSideDirection: p = `none`,
-							flipAlignment: m = !0,
+							flipAliAxisAlignedBoundingBoxment: m = !0,
 							...h
 						} = xO(e, t);
-					if ((n = i.arrow) != null && n.alignmentOffset) return {};
+					if ((n = i.arrow) != null && n.aliAxisAlignedBoundingBoxmentOffset) return {};
 					let g = SO(r),
 						_ = EO(o),
 						v = SO(o) === o,
@@ -58485,7 +58504,7 @@ var U_e = 50,
 							t = S[e];
 						if (
 							t &&
-							(!(u === `alignment` && _ !== EO(t)) ||
+							(!(u === `aliAxisAlignedBoundingBoxment` && _ !== EO(t)) ||
 								T.every((e) =>
 									EO(e.placement) === _ ? e.overflows[0] > 0 : !0,
 								))
@@ -58588,13 +58607,13 @@ async function J_e(e, t) {
 		{
 			mainAxis: f,
 			crossAxis: p,
-			alignmentAxis: m,
+			aliAxisAlignedBoundingBoxmentAxis: m,
 		} = typeof d == `number`
-			? { mainAxis: d, crossAxis: 0, alignmentAxis: null }
+			? { mainAxis: d, crossAxis: 0, aliAxisAlignedBoundingBoxmentAxis: null }
 			: {
 					mainAxis: d.mainAxis || 0,
 					crossAxis: d.crossAxis || 0,
-					alignmentAxis: d.alignmentAxis,
+					aliAxisAlignedBoundingBoxmentAxis: d.aliAxisAlignedBoundingBoxmentAxis,
 				};
 	return (
 		s && typeof m == `number` && (p = s === `end` ? m * -1 : m),
@@ -58613,7 +58632,7 @@ var Y_e = function (e) {
 						s = await J_e(t, e);
 					return a === o.offset?.placement &&
 						(n = o.arrow) != null &&
-						n.alignmentOffset
+						n.aliAxisAlignedBoundingBoxmentOffset
 						? {}
 						: { x: r + s.x, y: i + s.y, data: { ...s, placement: a } };
 				},
@@ -58869,7 +58888,7 @@ function ek(e) {
 }
 function tk(e) {
 	if (zO(e) === `html`) return e;
-	let t = e.assignedSlot || e.parentNode || (GO(e) && e.host) || VO(e);
+	let t = e.assiAxisAlignedBoundingBoxedSlot || e.parentNode || (GO(e) && e.host) || VO(e);
 	return GO(t) ? t.host : t;
 }
 function nk(e) {
@@ -59404,7 +59423,7 @@ var jve = {
 					let { x: r, y: i } = n.arrow,
 						a = t.split(`-`)[0];
 					return (
-						Object.assign(e.style, {
+						Object.assiAxisAlignedBoundingBox(e.style, {
 							left: r == null ? `` : `${r}px`,
 							top: i == null ? `` : `${i}px`,
 							[a]: `calc(100% + ${xk.arrowOffset.reference})`,
@@ -59416,7 +59435,7 @@ var jve = {
 	};
 function Nve(e) {
 	let [t, n] = e.split(`-`);
-	return { side: t, align: n, hasAlign: n != null };
+	return { side: t, aliAxisAlignedBoundingBox: n, hasAliAxisAlignedBoundingBox: n != null };
 }
 function Pve(e) {
 	return e.split(`-`)[0];
@@ -59458,12 +59477,12 @@ function Lve(e, t) {
 			let r = (e?.clientHeight || 0) / 2,
 				i = t.offset?.mainAxis ?? t.gutter,
 				a = typeof i == `number` ? i + r : (i ?? r),
-				{ hasAlign: o } = Nve(n),
+				{ hasAliAxisAlignedBoundingBox: o } = Nve(n),
 				s = o ? void 0 : t.shift;
 			return kt({
 				crossAxis: t.offset?.crossAxis ?? s,
 				mainAxis: a,
-				alignmentAxis: t.shift,
+				aliAxisAlignedBoundingBoxmentAxis: t.shift,
 			});
 		});
 }
@@ -59579,7 +59598,7 @@ function Gve(e, t, n = {}) {
 			let e = i();
 			return !e && !n.getAnchorRect ? null : Ove(e, n.getAnchorRect);
 		},
-		o = Object.assign({}, Fve, n),
+		o = Object.assiAxisAlignedBoundingBox({}, Fve, n),
 		s = [],
 		c = null,
 		l,
@@ -59778,7 +59797,7 @@ function $ve(e, t) {
 				"aria-expanded": n == null ? c : c && i,
 				"data-state": c ? `open` : `closed`,
 				"aria-controls": Ak(o),
-				"data-current": an(i),
+				"data-current": on(i),
 				onClick(e) {
 					e.defaultPrevented ||
 						r({
@@ -60212,7 +60231,7 @@ var lye = he({
 			isIndeterminate: ({ context: e }) => e.get(`value`) === null,
 			percent({ context: e, prop: t }) {
 				let n = e.get(`value`);
-				return sn(n) ? ZT(n, t(`min`), t(`max`)) * 100 : -1;
+				return cn(n) ? ZT(n, t(`min`), t(`max`)) * 100 : -1;
 			},
 			formatter: lE(
 				({ prop: e }) => [e(`locale`), e(`formatOptions`)],
@@ -60250,7 +60269,7 @@ var lye = he({
 			},
 		},
 	}),
-	Bk = (e) => sn(e) && !isNaN(e),
+	Bk = (e) => cn(e) && !isNaN(e),
 	uye = (e, t) => Bk(e) && e <= t,
 	dye = (e, t) => Bk(e) && e >= t,
 	fye = (e, t) => e + (t - e) / 2,
@@ -60302,15 +60321,15 @@ function bye(e, t) {
 	function d(e) {
 		let t = u(e);
 		return {
-			"data-focus": an(t.focused),
-			"data-focus-visible": an(t.focusVisible),
-			"data-disabled": an(t.disabled),
-			"data-readonly": an(l),
+			"data-focus": on(t.focused),
+			"data-focus-visible": on(t.focusVisible),
+			"data-disabled": on(t.disabled),
+			"data-readonly": on(l),
 			"data-state": t.checked ? `checked` : `unchecked`,
-			"data-hover": an(t.hovered),
-			"data-invalid": an(t.invalid),
+			"data-hover": on(t.hovered),
+			"data-invalid": on(t.invalid),
 			"data-orientation": a(`orientation`),
-			"data-ssr": an(n.get(`ssr`)),
+			"data-ssr": on(n.get(`ssr`)),
 		};
 	}
 	let f = () => {
@@ -60327,7 +60346,7 @@ function bye(e, t) {
 		},
 		getRootProps() {
 			return t.element({
-				...en.root.attrs,
+				...tn.root.attrs,
 				role: `radiogroup`,
 				id: Vk(o),
 				"aria-labelledby": Hk(o),
@@ -60335,9 +60354,9 @@ function bye(e, t) {
 				"aria-disabled": s || void 0,
 				"aria-readonly": l || void 0,
 				"data-orientation": a(`orientation`),
-				"data-disabled": an(s),
-				"data-invalid": an(c),
-				"data-required": an(a(`required`)),
+				"data-disabled": on(s),
+				"data-invalid": on(c),
+				"data-required": on(a(`required`)),
 				"aria-orientation": a(`orientation`),
 				dir: a(`dir`),
 				style: { position: `relative` },
@@ -60345,12 +60364,12 @@ function bye(e, t) {
 		},
 		getLabelProps() {
 			return t.element({
-				...en.label.attrs,
+				...tn.label.attrs,
 				dir: a(`dir`),
 				"data-orientation": a(`orientation`),
-				"data-disabled": an(s),
-				"data-invalid": an(c),
-				"data-required": an(a(`required`)),
+				"data-disabled": on(s),
+				"data-invalid": on(c),
+				"data-required": on(a(`required`)),
 				id: Hk(o),
 				onClick: f,
 			});
@@ -60359,7 +60378,7 @@ function bye(e, t) {
 		getItemProps(e) {
 			let n = u(e);
 			return t.label({
-				...en.item.attrs,
+				...tn.item.attrs,
 				dir: a(`dir`),
 				id: Uk(o, e.value),
 				htmlFor: Wk(o, e.value),
@@ -60388,7 +60407,7 @@ function bye(e, t) {
 		},
 		getItemTextProps(e) {
 			return t.element({
-				...en.itemText.attrs,
+				...tn.itemText.attrs,
 				dir: a(`dir`),
 				id: Gk(o, e.value),
 				...d(e),
@@ -60397,10 +60416,10 @@ function bye(e, t) {
 		getItemControlProps(e) {
 			let n = u(e);
 			return t.element({
-				...en.itemControl.attrs,
+				...tn.itemControl.attrs,
 				dir: a(`dir`),
 				id: pye(o, e.value),
-				"data-active": an(n.active),
+				"data-active": on(n.active),
 				"aria-hidden": !0,
 				...d(e),
 			});
@@ -60461,10 +60480,10 @@ function bye(e, t) {
 				i = n.get(`animateIndicator`);
 			return t.element({
 				id: Kk(o),
-				...en.indicator.attrs,
+				...tn.indicator.attrs,
 				dir: a(`dir`),
 				hidden: n.get(`value`) == null || xye(e),
-				"data-disabled": an(s),
+				"data-disabled": on(s),
 				"data-orientation": a(`orientation`),
 				onTransitionEnd(e) {
 					Oe(e) === e.currentTarget && r({ type: `INDICATOR_TRANSITION_END` });
@@ -60656,7 +60675,7 @@ var xye = (e) =>
 			Mye(
 				{ x: t.x - (s?.x ?? 0), y: t.y - (s?.y ?? 0) },
 				o,
-				jye(n.get(`thumbSize`), r(`thumbAlignment`), r(`orientation`)),
+				jye(n.get(`thumbSize`), r(`thumbAliAxisAlignedBoundingBoxment`), r(`orientation`)),
 			).getPercentValue({
 				orientation: r(`orientation`),
 				dir: r(`dir`),
@@ -60756,7 +60775,7 @@ function zye(e, t) {
 }
 function Bye(e, t, n) {
 	let { computed: r, prop: i } = e;
-	return i(`thumbAlignment`) === `center`
+	return i(`thumbAliAxisAlignedBoundingBoxment`) === `center`
 		? `${t}%`
 		: `calc(${t}% - ${r(`isVertical`) ? Rye(e, n) : zye(e, n)}px)`;
 }
@@ -60768,7 +60787,7 @@ function aA(e) {
 	let { computed: t, prop: n } = e,
 		r = `visible`;
 	return (
-		n(`thumbAlignment`) === `contain` &&
+		n(`thumbAliAxisAlignedBoundingBoxment`) === `contain` &&
 			!t(`hasMeasuredThumbSize`) &&
 			(r = `hidden`),
 		r
@@ -61015,11 +61034,11 @@ function Qye(e, t) {
 			return t.label({
 				...me.label.attrs,
 				dir: a(`dir`),
-				"data-disabled": an(m),
+				"data-disabled": on(m),
 				"data-orientation": a(`orientation`),
-				"data-invalid": an(h),
-				"data-dragging": an(p),
-				"data-focus": an(f),
+				"data-invalid": on(h),
+				"data-dragging": on(p),
+				"data-focus": on(f),
 				id: $k(s),
 				htmlFor: Zk(s, 0),
 				onClick(e) {
@@ -61031,11 +61050,11 @@ function Qye(e, t) {
 		getRootProps() {
 			return t.element({
 				...me.root.attrs,
-				"data-disabled": an(m),
+				"data-disabled": on(m),
 				"data-orientation": a(`orientation`),
-				"data-dragging": an(p),
-				"data-invalid": an(h),
-				"data-focus": an(f),
+				"data-dragging": on(p),
+				"data-invalid": on(h),
+				"data-focus": on(f),
 				id: Yk(s),
 				dir: a(`dir`),
 				style: Hye(e),
@@ -61045,10 +61064,10 @@ function Qye(e, t) {
 			return t.element({
 				...me.valueText.attrs,
 				dir: a(`dir`),
-				"data-disabled": an(m),
+				"data-disabled": on(m),
 				"data-orientation": a(`orientation`),
-				"data-invalid": an(h),
-				"data-focus": an(f),
+				"data-invalid": on(h),
+				"data-focus": on(f),
 				id: Eye(s),
 			});
 		},
@@ -61057,11 +61076,11 @@ function Qye(e, t) {
 				...me.track.attrs,
 				dir: a(`dir`),
 				id: wye(s),
-				"data-disabled": an(m),
-				"data-invalid": an(h),
-				"data-dragging": an(p),
+				"data-disabled": on(m),
+				"data-invalid": on(h),
+				"data-dragging": on(p),
 				"data-orientation": a(`orientation`),
-				"data-focus": an(f),
+				"data-focus": on(f),
 				style: { position: `relative` },
 			});
 		},
@@ -61078,12 +61097,12 @@ function Qye(e, t) {
 				"data-index": i,
 				"data-name": o,
 				id: Xk(s, i),
-				"data-disabled": an(m),
+				"data-disabled": on(m),
 				"data-orientation": a(`orientation`),
-				"data-focus": an(f && d === i),
-				"data-dragging": an(p && d === i),
+				"data-focus": on(f && d === i),
+				"data-dragging": on(p && d === i),
 				draggable: !1,
-				"aria-disabled": $t(m),
+				"aria-disabled": en(m),
 				"aria-label": x,
 				"aria-labelledby": S ?? $k(s),
 				"aria-orientation": a(`orientation`),
@@ -61161,10 +61180,10 @@ function Qye(e, t) {
 				id: Tye(s),
 				...me.range.attrs,
 				dir: a(`dir`),
-				"data-dragging": an(p),
-				"data-focus": an(f),
-				"data-invalid": an(h),
-				"data-disabled": an(m),
+				"data-dragging": on(p),
+				"data-focus": on(f),
+				"data-invalid": on(h),
+				"data-disabled": on(m),
 				"data-orientation": a(`orientation`),
 				style: Lye(e),
 			});
@@ -61174,11 +61193,11 @@ function Qye(e, t) {
 				...me.control.attrs,
 				dir: a(`dir`),
 				id: Qk(s),
-				"data-dragging": an(p),
-				"data-disabled": an(m),
+				"data-dragging": on(p),
+				"data-disabled": on(m),
 				"data-orientation": a(`orientation`),
-				"data-invalid": an(h),
-				"data-focus": an(f),
+				"data-invalid": on(h),
+				"data-focus": on(f),
 				style: Vye(),
 				onPointerDown(e) {
 					g &&
@@ -61217,7 +61236,7 @@ function Qye(e, t) {
 					dir: a(`dir`),
 					"data-orientation": a(`orientation`),
 					"data-value": n.value,
-					"data-disabled": an(m),
+					"data-disabled": on(m),
 					"data-state": i,
 					style: r,
 				})
@@ -61257,7 +61276,7 @@ var $ye = (e, t) => e?.width === t?.width && e?.height === t?.height,
 				a = e.minStepsBetweenThumbs ?? 0;
 			return {
 				dir: `ltr`,
-				thumbAlignment: `contain`,
+				thumbAliAxisAlignedBoundingBoxment: `contain`,
 				origin: `start`,
 				orientation: `horizontal`,
 				thumbCollisionBehavior: `none`,
@@ -61439,7 +61458,7 @@ var $ye = (e, t) => e?.width === t?.width && e?.height === t?.height,
 					});
 				},
 				trackThumbSize({ context: e, scope: t, prop: n }) {
-					if (n(`thumbAlignment`) !== `contain` || n(`thumbSize`)) return;
+					if (n(`thumbAliAxisAlignedBoundingBoxment`) !== `contain` || n(`thumbSize`)) return;
 					let r = (t) => {
 							let n = Fe(Pye(t), [`width`, `height`]);
 							$ye(e.get(`thumbSize`), n) || e.set(`thumbSize`, n);
@@ -61668,7 +61687,7 @@ function abe(e, t) {
 	return (
 		d && (m = `flex-end`),
 		f && (m = `flex-start`),
-		(p.alignItems = m),
+		(p.aliAxisAlignedBoundingBoxItems = m),
 		u.includes(`top`) &&
 			(p.top = `max(env(safe-area-inset-top, 0px), ${c.top})`),
 		u.includes(`bottom`) &&
@@ -61709,12 +61728,12 @@ function obe(e, t) {
 			"--y": `100%`,
 			"--x": `0`,
 		},
-		y = (e) => Object.assign(v, e);
+		y = (e) => Object.assiAxisAlignedBoundingBox(v, e);
 	return (
 		c === `top`
-			? y({ top: `0`, "--sign": `-1`, "--y": `-100%`, "--lift": `1` })
+			? y({ top: `0`, "--siAxisAlignedBoundingBox": `-1`, "--y": `-100%`, "--lift": `1` })
 			: c === `bottom` &&
-				y({ bottom: `0`, "--sign": `1`, "--y": `100%`, "--lift": `-1` }),
+				y({ bottom: `0`, "--siAxisAlignedBoundingBox": `1`, "--y": `100%`, "--lift": `-1` }),
 		l &&
 			(y({ "--y": `0`, "--opacity": `1` }),
 			h &&
@@ -61731,7 +61750,7 @@ function obe(e, t) {
 				"--scale": `calc(-1 * var(--base-scale))`,
 				"--height": `var(--first-height)`,
 			}),
-			t || y({ "--y": `calc(var(--sign) * 40%)` })),
+			t || y({ "--y": `calc(var(--siAxisAlignedBoundingBox) * 40%)` })),
 		p &&
 			h &&
 			!t &&
@@ -61751,7 +61770,7 @@ function sbe(e, t) {
 	return (
 		n(`frontmost`) &&
 			!t &&
-			((e) => Object.assign(r, e))({
+			((e) => Object.assiAxisAlignedBoundingBox(r, e))({
 				height: `calc(var(--initial-height) + 80%)`,
 			}),
 		r
@@ -61790,21 +61809,21 @@ function lbe(e, t) {
 				id: nbe(u),
 				"data-placement": u,
 				"data-side": d,
-				"data-align": f,
+				"data-aliAxisAlignedBoundingBox": f,
 				"aria-live": `polite`,
 				"aria-relevant": `additions text`,
 				"aria-atomic": `false`,
 				style: abe(e, u),
 				onMouseEnter() {
-					a.get(`ignoreMouseTimer`).isActive() ||
+					a.get(`iAxisAlignedBoundingBoxoreMouseTimer`).isActive() ||
 						i({ type: `REGION.POINTER_ENTER`, placement: u });
 				},
 				onMouseMove() {
-					a.get(`ignoreMouseTimer`).isActive() ||
+					a.get(`iAxisAlignedBoundingBoxoreMouseTimer`).isActive() ||
 						i({ type: `REGION.POINTER_ENTER`, placement: u });
 				},
 				onMouseLeave() {
-					a.get(`ignoreMouseTimer`).isActive() ||
+					a.get(`iAxisAlignedBoundingBoxoreMouseTimer`).isActive() ||
 						i({ type: `REGION.POINTER_LEAVE`, placement: u });
 				},
 				onFocus(e) {
@@ -61822,7 +61841,7 @@ function lbe(e, t) {
 		},
 	};
 }
-var { guards: ube, createMachine: dbe } = ree(),
+var { guards: ube, createMachine: dbe } = nee(),
 	{ and: fbe } = ube,
 	pbe = dbe({
 		props({ props: e }) {
@@ -61836,7 +61855,7 @@ var { guards: ube, createMachine: dbe } = ree(),
 				lastFocusedEl: null,
 				isFocusWithin: !1,
 				isPointerWithin: !1,
-				ignoreMouseTimer: Qe.create(),
+				iAxisAlignedBoundingBoxoreMouseTimer: Qe.create(),
 				dismissableCleanup: void 0,
 			};
 		},
@@ -61895,7 +61914,7 @@ var { guards: ube, createMachine: dbe } = ree(),
 				actions: [
 					`removeToast`,
 					`removeHeight`,
-					`ignoreMouseEventsTemporarily`,
+					`iAxisAlignedBoundingBoxoreMouseEventsTemporarily`,
 				],
 			},
 			"TOAST.PAUSE": { actions: [`pauseToasts`] },
@@ -62054,11 +62073,11 @@ var { guards: ube, createMachine: dbe } = ree(),
 						e.set(`lastFocusedEl`, null),
 						e.set(`isFocusWithin`, !1));
 				},
-				ignoreMouseEventsTemporarily({ refs: e }) {
-					e.get(`ignoreMouseTimer`).request();
+				iAxisAlignedBoundingBoxoreMouseEventsTemporarily({ refs: e }) {
+					e.get(`iAxisAlignedBoundingBoxoreMouseTimer`).request();
 				},
 				clearMouseEventTimer({ refs: e }) {
-					e.get(`ignoreMouseTimer`).cancel();
+					e.get(`iAxisAlignedBoundingBoxoreMouseTimer`).cancel();
 				},
 			},
 		},
@@ -62102,14 +62121,14 @@ function mbe(e, t) {
 				"data-state": l ? `open` : `closed`,
 				"data-type": m,
 				"data-placement": p,
-				"data-align": b,
+				"data-aliAxisAlignedBoundingBox": b,
 				"data-side": y,
-				"data-mounted": an(d),
-				"data-paused": an(u),
-				"data-first": an(f),
-				"data-sibling": an(!f),
-				"data-stack": an(h),
-				"data-overlap": an(!h),
+				"data-mounted": on(d),
+				"data-paused": on(u),
+				"data-first": on(f),
+				"data-sibling": on(!f),
+				"data-stack": on(h),
+				"data-overlap": on(!h),
 				role: `status`,
 				"aria-atomic": `true`,
 				"aria-describedby": _ ? yA(a) : void 0,
@@ -62603,9 +62622,9 @@ function Ebe(e, t) {
 				id: s,
 				"data-ownedby": a.id,
 				"data-value": n,
-				"data-current": an(r),
+				"data-current": on(r),
 				dir: o(`dir`),
-				"data-expanded": an(u),
+				"data-expanded": on(u),
 				"data-state": u ? `open` : `closed`,
 				"aria-describedby": u ? m : void 0,
 				onClick(e) {
@@ -62714,7 +62733,7 @@ function Ebe(e, t) {
 				dir: o(`dir`),
 				hidden: !u,
 				"data-state": u ? `open` : `closed`,
-				"data-instant": an(r),
+				"data-instant": on(r),
 				role: l ? void 0 : `tooltip`,
 				id: l ? void 0 : m,
 				"data-placement": f,
@@ -63323,9 +63342,9 @@ var zbe = (e = {}) => {
 					id: g,
 					ref: h,
 					role: `group`,
-					"data-disabled": an(a),
-					"data-invalid": an(o),
-					"data-readonly": an(s),
+					"data-disabled": on(a),
+					"data-invalid": on(o),
+					"data-readonly": on(s),
 				}),
 				[a, o, s, g],
 			),
@@ -63334,10 +63353,10 @@ var zbe = (e = {}) => {
 				() => () => ({
 					...ve.label.attrs,
 					id: y,
-					"data-disabled": an(a),
-					"data-invalid": an(o),
-					"data-readonly": an(s),
-					"data-required": an(c),
+					"data-disabled": on(a),
+					"data-invalid": on(o),
+					"data-readonly": on(s),
+					"data-required": on(c),
 					htmlFor: S ?? m,
 				}),
 				[a, o, s, c, m, y, S],
@@ -63345,10 +63364,10 @@ var zbe = (e = {}) => {
 			w = (0, j.useMemo)(
 				() => () => ({
 					"aria-describedby": b,
-					"aria-invalid": $t(o),
-					"data-invalid": an(o),
-					"data-required": an(c),
-					"data-readonly": an(s),
+					"aria-invalid": en(o),
+					"data-invalid": on(o),
+					"data-required": on(c),
+					"data-readonly": on(s),
 					id: m,
 					required: c,
 					disabled: a,
@@ -63360,7 +63379,7 @@ var zbe = (e = {}) => {
 			ee = (0, j.useMemo)(() => () => ({ ...w(), ...ve.textarea.attrs }), [w]),
 			te = (0, j.useMemo)(() => () => ({ ...w(), ...ve.select.attrs }), [w]),
 			ne = (0, j.useMemo)(
-				() => () => ({ id: v, ...ve.helperText.attrs, "data-disabled": an(a) }),
+				() => () => ({ id: v, ...ve.helperText.attrs, "data-disabled": on(a) }),
 				[a, v],
 			),
 			E = (0, j.useMemo)(
@@ -63962,7 +63981,7 @@ var pxe = (e) => {
 				`origin`,
 				`readOnly`,
 				`step`,
-				`thumbAlignment`,
+				`thumbAliAxisAlignedBoundingBoxment`,
 				`thumbCollisionBehavior`,
 				`thumbSize`,
 				`value`,
@@ -64228,7 +64247,7 @@ var yM = Be({
 				d: `M18.7071 6.70711C19.0976 6.31658 19.0976 5.68342 18.7071 5.29289C18.3166 4.90237 17.6834 4.90237 17.2929 5.29289L12 10.5858L6.70711 5.29289C6.31658 4.90237 5.68342 4.90237 5.29289 5.29289C4.90237 5.68342 4.90237 6.31658 5.29289 6.70711L10.5858 12L5.29289 17.2929C4.90237 17.6834 4.90237 18.3166 5.29289 18.7071C5.68342 19.0976 6.31658 19.0976 6.70711 18.7071L12 13.4142L17.2929 18.7071C17.6834 19.0976 18.3166 19.0976 18.7071 18.7071C19.0976 18.3166 19.0976 17.6834 18.7071 17.2929L13.4142 12L18.7071 6.70711Z`,
 			}),
 		}),
-	Dxe = Qt({
+	Dxe = $t({
 		"& > *:not(style)": {
 			overflow: `hidden`,
 			position: `absolute`,
@@ -64238,7 +64257,7 @@ var yM = Be({
 			left: `0`,
 			display: `flex`,
 			justifyContent: `center`,
-			alignItems: `center`,
+			aliAxisAlignedBoundingBoxItems: `center`,
 			width: `100%`,
 			height: `100%`,
 		},
@@ -64255,7 +64274,7 @@ var yM = Be({
 				height: 0,
 				content: `""`,
 				display: `block`,
-				paddingBottom: rn(n, (e) => `${(1 / e) * 100}%`),
+				paddingBottom: an(n, (e) => `${(1 / e) * 100}%`),
 			},
 			...a,
 			css: [Dxe, e.css],
@@ -64317,7 +64336,7 @@ var Oxe = at(`div`, {
 	CM = (0, j.memo)(
 		(0, j.forwardRef)(function (e, t) {
 			let {
-					align: n = `center`,
+					aliAxisAlignedBoundingBox: n = `center`,
 					justify: r = `flex-start`,
 					children: i,
 					wrap: a,
@@ -64351,7 +64370,7 @@ var Oxe = at(`div`, {
 				}, [i, o]);
 			return (0, U.jsx)(Oxe, {
 				ref: t,
-				alignItems: n,
+				aliAxisAlignedBoundingBoxItems: n,
 				justifyContent: r,
 				flexWrap: a,
 				...s,
@@ -64364,7 +64383,7 @@ CM.displayName = `Group`;
 var { PropsProvider: kxe, withContext: Axe } = Ce({ key: `badge` }),
 	wM = Axe(`span`),
 	TM = at(`div`, {
-		base: { display: `flex`, alignItems: `center`, justifyContent: `center` },
+		base: { display: `flex`, aliAxisAlignedBoundingBoxItems: `center`, justifyContent: `center` },
 		variants: { inline: { true: { display: `inline-flex` } } },
 	});
 TM.displayName = `Center`;
@@ -64488,7 +64507,7 @@ function Pxe(e) {
 				borderTopWidth: 0,
 			},
 		};
-	return { "&": rn(n, (e) => r[e]) };
+	return { "&": an(n, (e) => r[e]) };
 }
 function Fxe(e) {
 	return j.Children.toArray(e).filter((e) => (0, j.isValidElement)(e));
@@ -64496,7 +64515,7 @@ function Fxe(e) {
 var PM = (0, j.forwardRef)(function (e, t) {
 	let {
 			direction: n = `column`,
-			align: r,
+			aliAxisAlignedBoundingBox: r,
 			justify: i,
 			gap: a = `0.5rem`,
 			wrap: o,
@@ -64525,7 +64544,7 @@ var PM = (0, j.forwardRef)(function (e, t) {
 	return (0, U.jsx)(at.div, {
 		ref: t,
 		display: `flex`,
-		alignItems: r,
+		aliAxisAlignedBoundingBoxItems: r,
 		justifyContent: i,
 		flexDirection: n,
 		flexWrap: o,
@@ -64629,7 +64648,7 @@ Xxe({
 var BM = (0, j.forwardRef)(function (e, t) {
 	let {
 		direction: n,
-		align: r,
+		aliAxisAlignedBoundingBox: r,
 		justify: i,
 		wrap: a,
 		basis: o,
@@ -64644,7 +64663,7 @@ var BM = (0, j.forwardRef)(function (e, t) {
 		css: {
 			display: l ? `inline-flex` : `flex`,
 			flexDirection: n,
-			alignItems: r,
+			aliAxisAlignedBoundingBoxItems: r,
 			justifyContent: i,
 			flexWrap: a,
 			flexBasis: o,
@@ -64656,7 +64675,7 @@ var BM = (0, j.forwardRef)(function (e, t) {
 });
 BM.displayName = `Flex`;
 function VM(e) {
-	return rn(e, (e) => (e === `auto` ? `auto` : `span ${e}/span ${e}`));
+	return an(e, (e) => (e === `auto` ? `auto` : `span ${e}/span ${e}`));
 }
 var HM = (0, j.forwardRef)(function (e, t) {
 	let {
@@ -64672,7 +64691,7 @@ var HM = (0, j.forwardRef)(function (e, t) {
 		} = e,
 		d = (0, j.useMemo)(
 			() =>
-				eee({
+				Zt({
 					gridArea: n,
 					gridColumn: VM(r),
 					gridRow: VM(s),
@@ -64687,11 +64706,11 @@ var HM = (0, j.forwardRef)(function (e, t) {
 });
 HM.displayName = `GridItem`;
 var G = (0, j.forwardRef)(function (e, t) {
-	return (0, U.jsx)(PM, { align: `center`, ...e, direction: `row`, ref: t });
+	return (0, U.jsx)(PM, { aliAxisAlignedBoundingBox: `center`, ...e, direction: `row`, ref: t });
 });
 G.displayName = `HStack`;
 var UM = (0, j.forwardRef)(function (e, t) {
-	let { align: n, fit: r = `cover`, ...i } = e;
+	let { aliAxisAlignedBoundingBox: n, fit: r = `cover`, ...i } = e;
 	return (0, U.jsx)(at.img, {
 		ref: t,
 		objectFit: r,
@@ -64712,7 +64731,7 @@ var { withContext: rSe, PropsProvider: iSe } = Ce({ key: `input` }),
 	KM = at(`div`, {
 		base: {
 			display: `flex`,
-			alignItems: `center`,
+			aliAxisAlignedBoundingBoxItems: `center`,
 			justifyContent: `center`,
 			position: `absolute`,
 			zIndex: 2,
@@ -64899,13 +64918,13 @@ function OSe(e) {
 	return typeof e == `number` ? `${e}px` : e;
 }
 function kSe(e, t) {
-	return rn(e, (e) => {
+	return an(e, (e) => {
 		let n = t.tokens.getVar(`sizes.${e}`, OSe(e));
 		return e === null ? null : `repeat(auto-fit, minmax(${n}, 1fr))`;
 	});
 }
 function ASe(e) {
-	return rn(e, (e) => (e === null ? null : `repeat(${e}, minmax(0, 1fr))`));
+	return an(e, (e) => (e === null ? null : `repeat(${e}, minmax(0, 1fr))`));
 }
 var {
 	withProvider: uN,
@@ -64953,7 +64972,7 @@ var VSe = dN(nM.Control, `control`, { forwardAsChild: !0 });
 nM.Context;
 var HSe = nM.HiddenInput,
 	fN = at(`div`, {
-		base: { flex: 1, justifySelf: `stretch`, alignSelf: `stretch` },
+		base: { flex: 1, justifySelf: `stretch`, aliAxisAlignedBoundingBoxSelf: `stretch` },
 	});
 fN.displayName = `Spacer`;
 var {
@@ -65009,17 +65028,17 @@ var _N = hN(yM.Root, { defaultProps: { lazyMount: !0, unmountOnExit: !0 } }),
 	});
 yM.Context;
 var K = (0, j.forwardRef)(function (e, t) {
-	return (0, U.jsx)(PM, { align: `center`, ...e, direction: `column`, ref: t });
+	return (0, U.jsx)(PM, { aliAxisAlignedBoundingBox: `center`, ...e, direction: `column`, ref: t });
 });
 K.displayName = `VStack`;
 var bN = (0, j.forwardRef)(function (e, t) {
-	let { gap: n = `0.5rem`, justify: r, direction: i, align: a, ...o } = e;
+	let { gap: n = `0.5rem`, justify: r, direction: i, aliAxisAlignedBoundingBox: a, ...o } = e;
 	return (0, U.jsx)(at.div, {
 		ref: t,
 		display: `flex`,
 		flexWrap: `wrap`,
 		justifyContent: r,
-		alignItems: a,
+		aliAxisAlignedBoundingBoxItems: a,
 		flexDirection: i,
 		gap: n,
 		...o,
@@ -65027,7 +65046,7 @@ var bN = (0, j.forwardRef)(function (e, t) {
 	});
 });
 bN.displayName = `Wrap`;
-var sCe = Qt({ display: `flex`, alignItems: `flex-start` }),
+var sCe = $t({ display: `flex`, aliAxisAlignedBoundingBoxItems: `flex-start` }),
 	xN = (0, j.forwardRef)(function (e, t) {
 		return (0, U.jsx)(at.div, {
 			ref: t,
@@ -65121,7 +65140,7 @@ var TN = ({ sx: e, ...t }) => {
 								target: `_blank`,
 								rel: `noopener noreferrer`,
 								textDecoration: `underline`,
-								textShadow: s ? `0 0 8px ${n}` : Zt,
+								textShadow: s ? `0 0 8px ${n}` : Qt,
 								color: n === `white` ? `teal.500` : n,
 								children: u.slice(1, u.length - 1),
 							},
@@ -65136,7 +65155,7 @@ var TN = ({ sx: e, ...t }) => {
 							fontWeight: r,
 							fontStyle: a,
 							textDecoration: i,
-							textShadow: c || l ? `none` : s ? `0 0 8px ${n}` : Zt,
+							textShadow: c || l ? `none` : s ? `0 0 8px ${n}` : Qt,
 							...t,
 							color: c || l ? `transparent` : n,
 							css: l ? CN() : c ? SN(n) : e,
@@ -65214,7 +65233,7 @@ var DN = [
 		]),
 	),
 	fCe = () =>
-		(0, U.jsx)(tn, {
+		(0, U.jsx)(nn, {
 			children: DN.map((e) =>
 				(0, U.jsx)(
 					$Se,
@@ -65303,7 +65322,7 @@ function AN(e) {
 		m: 3,
 		px: 6,
 		py: 4,
-		textAlign: `center`,
+		textAliAxisAlignedBoundingBox: `center`,
 		border: `3px solid ${e.accent ?? pCe}`,
 		borderRadius: 0,
 		layerStyle: `acrylic`,
@@ -65512,7 +65531,7 @@ var _Ce = class {
 				: this.to - hCe(this.to - this.from, this.speed, this.time, t)
 		);
 	}
-	HYDZZDVo(e) {
+	mteIGbmJ(e) {
 		let t = e / 1e3 - this.start;
 		return t >= this.time
 			? 0
@@ -65522,7 +65541,7 @@ var _Ce = class {
 		let n = Date.now(),
 			r = this.get(n);
 		return (
-			(this.speed = this.HYDZZDVo(n)),
+			(this.speed = this.mteIGbmJ(n)),
 			(this.start = n / 1e3),
 			(this.from = r),
 			(this.to = e),
@@ -67041,7 +67060,7 @@ var LN = i((e, t) => {
 		plotsDashboard: { blocksGameplay: !0, suppressesEscapeMenu: !0 },
 		optimizationSuggestion: { blocksGameplay: !0, suppressesEscapeMenu: !0 },
 		fullscreenSuggestion: { blocksGameplay: !0, suppressesEscapeMenu: !0 },
-		signEditor: { blocksGameplay: !0, suppressesEscapeMenu: !0 },
+		siAxisAlignedBoundingBoxEditor: { blocksGameplay: !0, suppressesEscapeMenu: !0 },
 		commandBlockEditor: { blocksGameplay: !0, suppressesEscapeMenu: !0 },
 		scriptEditor: {
 			blocksGameplay: !0,
@@ -67114,7 +67133,7 @@ var LN = i((e, t) => {
 		returningToGame = !1;
 		shiftDown = !1;
 		altDown = !1;
-		showDiscordSignup = null;
+		showDiscordSiAxisAlignedBoundingBoxup = null;
 		inPlotsWorld = !1;
 		plotsData = null;
 		guideData = null;
@@ -67194,7 +67213,7 @@ function dP(e, t, n = 0) {
 	}
 	return !1;
 }
-var KCe = `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BRIGCA0QABgKMBgAIJsCChISEAoHCHQQLBiaARACGAAgmwIKEhIQCgcIbBAuGJoBEAIYACCbAgoSEhAKBwhuEC4YmgEQAhgAIJsCChISEAoHCHAQLhiaARACGAAgmwIKEhIQCgcIchAuGJoBEAIYACCbAgoSEhAKBwh0EC4YmgEQAhgAIJsCChISEAoHCGwQMBiaARACGAAgmwIKEhIQCgcIbhAwGJoBEAIYACCbAgoSEhAKBwhwEDAYmgEQAhgAIJsCChISEAoHCHIQMBiaARACGAAgmwIKEhIQCgcIdBAwGJoBEAIYACCbAgoSEhAKBwhsEDIYmgEQAhgAIJsCChISEAoHCG4QMhiaARACGAAgmwIKEhIQCgcIcBAyGJoBEAIYACCbAgoSEhAKBwhyEDIYmgEQAhgAIJsCChISEAoHCHQQMhiaARACGAAgmwIKEhIQCgcIbBA0GJoBEAIYACCbAgoSEhAKBwhuEDQYmgEQAhgAIJsCChISEAoHCHAQNBiaARACGAAgmwIKEhIQCgcIchA0GJoBEAIYACCbAgoSEhAKBwh0EDQYmgEQAhgAIJsCChISEAoHCGwQNhiaARACGAAgmwIKEhIQCgcIbhA2GJoBEAIYACCbAgoSEhAKBwhwEDYYmgEQAhgAIJsCChISEAoHCHIQNhiaARACGAAgmwIKEhIQCgcIdBA2GJoBEAIYACCbAgoSEhAKBwhsEDgYmgEQAhgAIJsCChISEAoHCG4QOBiaARACGAAgmwIKEhIQCgcIcBA4GJoBEAIYACCbAgoSEhAKBwhyEDgYmgEQAhgAIJsCChISEAoHCGwQOhiaARACGAAgmwIKEhIQCgcIbhA6GJoBEAIYACCbAgoSEhAKBwhwEDoYmgEQAhgAIJsCChISEAoHCHIQOhiaARACGAAgmwIKEhIQCgcIbBA8GJoBEAIYACCbAgoSEhAKBwhuEDwYmgEQAhgAIJsCChISEAoHCHAQPBiaARACGAAgmwIKEhIQCgcIchA8GJoBEAIYACCbAgoSEhAKBwhsED4YmgEQAhgAIJsCChISEAoHCG4QPhiaARACGAAgmwIKEhIQCgcIcBA+GJoBEAIYACCbAgoSEhAKBwhsEEAYmgEQAhgAIJsCChISEAoHCG4QQBiaARACGAAgmwIKEhIQCgcIcBBAGJoBEAIYACCbAgoSEhAKBwhsEEIYmgEQAhgAIJsCChISEAoHCG4QQhiaARACGAAgmwIKEhIQCgcIbBBEGJoBEAIYACCbAgoSEhAKBwhuEEQYmgEQAhgAIJsCChISEAoHCGwQRhiaARACGAAgmwIKEhIQCgcIbBBIGJoBEAIYACCbAgoSEhAKBwhsEBYYnAEQAhgAIJsREg8KBghaEBwYQhACGAAgmwIKERIPCgYIXBAcGEIQAhgAIJsCChESDwoGCFIQHhhCEAIYACCbAgoREg8KBghWEB4YQhACGAAgmwIKERIPCgYIWBAeGEIQAhgAIJsCChESDwoGCFoQHhhCEAIYACCbAgoREg8KBghcEB4YQhACGAAgmwIKERIPCgYIWBAcGEAQAhgAIJsCChESDwoGCFQQHBhAEAIYACCbAgoREg8KBghUEB4YQBACGAAgmwIKERIPCgYIUhAcGEIQAhgAIJsCChESDwoGCFwQGBhAEAIYACCbAgoREg8KBghcEBoYQBACGAAgmwIKERIPCgYIUhAcGEAQAhgAIJsCChESDwoGCFoQGhhCEAIYACCbAgoREg8KBghcEBoYQhACGAAgmwIKERIPCgYIUhAgGEIQAhgAIJsCChESDwoGCFIQIhhCEAIYACCbAgoREg8KBghaEBgYQBACGAAgmwIKERIPCgYIWhAaGEAQAhgAIJsCChESDwoGCFYQHBhAEAIYACCbAgoREg8KBghYEBoYQhACGAAgmwIKERIPCgYIVBAcGEIQAhgAIJsCChESDwoGCFYQHBhCEAIYACCbAgoREg8KBghYEBwYQhACGAAgmwIKERIPCgYIVBAeGEIQAhgAIJsCChESDwoGCFQQGhhAEAIYACCbAgoREg8KBghSEBoYQhACGAAgmwIKERIPCgYIUhAaGEAQAhgAIJsCChESDwoGCFQQGBhAEAIYACCbAgoREg8KBghYEBoYQBACGAAgmwIKERIPCgYIVBAaGEIQAhgAIJsCChESDwoGCFoQFBhAEAIYACCbAgoREg8KBghcEBQYQBACGAAgmwIKERIPCgYIWhAWGEAQAhgAIJsCChESDwoGCFwQFhhAEAIYACCbAgoREg8KBghaEBQYQhACGAAgmwIKERIPCgYIXBAUGEIQAhgAIJsCChESDwoGCFoQFhhCEAIYACCbAgoREg8KBghcEBYYQhACGAAgmwIKERIPCgYIVBAYGEIQAhgAIJsCChESDwoGCFoQGBhCEAIYACCbAgoREg8KBghcEBgYQhACGAAgmwIKERIPCgYIUhAYGEAQAhgAIJsCChESDwoGCFIQGBhCEAIYACCbAgoJygMGCJBOEJBOCgwaCgjPCxAjGBggiAEKJcICIgoNbW9iLnNoZWVwLnNheRIHCHcQwAwYbB0AAIA/JU+0hz8KD4IBDAiDoPoRIM4BKAAwAQoJUgcI7KL6ESAAChISEAoHCAYQFBjQAhACGAAgmwIKEhIQCgcICBAUGNACEAIYACCbAgoMGgoIzwsQABgcIMgCChGCAQ4Ih8cIEgYIABAAGBkwAQoRggEOEAIYABIGCAwQAhgAEgYIEBACGAAKIXofCLOf+hESGAoRZ2VuZXJpYy5tYXhIZWFsdGgVAAAgQQodygIaCLSf+hEQEhoHCCAQgDIYICUAAAAALQAAAAAKY2phCLSf+hESBggAEAIYABIHCAEQAhjYBBIGCAIQBCoAEgYIAxACGAASBggEEAIYABIJCAYQAyUAAKBBEgYIBxACGAASBggIEAIYABIGCAkQAhgAEgYIDxACGAASBggNEAIYAAoheh8ItJ/6ERIYChFnZW5lcmljLm1heEhlYWx0aBUAAKBBCiPCAiAKCXN0ZXAuc2FuZBIJCKI3EJAIGP5KHZqZGT4lAACAPwoM+gIJCNiqAy0AAFZDChISEAoHCIABEFAYNRACGAAgmwIKDoIBCwjd/xsg/gEoTDABCgZSBAgAIAEKC8oDCAjouAcQ6LgHCg0aCwgAEJ8PGIACIMUMCgoaCAgqEBoYASABCibCAiMKDm1vYi56b21iaWUuc2F5EgcIbBDADBgnHQAAgD8lckqKPwoxygIuCOYrEAMaCQivBhCABhjDDSUEE86/Lag9fb8yDw1ZEFe/FRyxo78d49AGvUC1JAo2ajQI5isSBggAEAIYABIHCAEQAhjYBBIGCAIQBCoAEgYIAxACGAASBggEEAIYABIGCBAQAhgACgiKAQUIlCQQAgoNagsImBQSBggAEAIYAAoQag4IlCQSCQgGEAMlAACAPwoXkgEUCJQkEg8NAAAAABUukKC9HQAAAAAKFYIBEgiBJRIGCAAQABgAIPYBKBcwAAoUggERCIIlEgYIABAAGAAgAyhjMAAKFIIBEQjBJRIGCAAQABgAIDwofTAAChSCAREI0ScSBggAEAAYACAHKGUwAAoUggERCNInEgYIABAAGAAgGyh9MAAKFIIBEQiXKBIGCAAQABgAIGwoZzAAChWCARIIsCkSBggAEAAYACCpASh9MAAKFIIBEQizKRIGCAAQABgAIAMofTAAChWCARIItCkSBggAEAAYACDhAShjMAAKEIIBDQj9KRIGCBMQABgOMAEKFYIBEgj/KRIGCAAQABgAIMgBKGUwAAoUggERCIAqEgYIABAAGAAgYyh/MAAKFIIBEQjHKhIGCAAQABgAIBwoezAAChWCARII5isSBggAEAAYACCDAShRMAAKB1IFCJgUGAAKDKICCQ0K16M9EC4YAAoachgIABIICKgBEJoCGAclAACgQS0AAIDAMAAKC4IBCAgBIFooKzABCg+CAQwIKBIGCAQQABgLMAEKEvoDDwgCEEEY////////////AQoRggEOCNXKHhIGCAAQChgAMAAKGJIBFQjE+B4SDw2V9Iy8FQAAAAAdgRIQCgcIdBBIGJ4BEAIYACCbAgoSqgIPCAAQABoJCAEQzwUYASgECgVCAwjZLQoQggENCMEsEgYIDBAAGAQwAQoQggENCKYfEgYIDBAAGBgwAQoQggENCPssEgYIDBAWGBgwAAoQag4I+ywSCQgGEAMlhevRQAoXkgEUCPssEg8NuojmPRXr5Iw+HcFFWT4KFIIBEQifLRIGCBQQABgRIEsoBzABChWCARII8yISBggVEAAYDCC4BSgFMAEKB1IFCMEsIAAKC/oCCAj7LBWF69FACg+CAQwIABIGCBYQABgEMAEKBlIECAAgAQoSggEPCPKS+hESBggVEAAYAjABCglSBwizivoRIAAKG3IZCNUYEggIvQYQoAYYbiUAAHBCLQAAgMEwAQoH+gMECA8QAQoH+gMECA8QAgoH+gMECA8QAwoH+gMECA8QBAoH+gMECA0QBwoH+gMECA0QCAoH+gMECAsQCQoH+gMECAsQCgoRggEOCODpLBIGCA0QYRgCMAEKH3IdCNToLBILCLC9ChCAIBiq5R4lAAB0Qy0AAAAAMAEKCVIHCKSamAMgAQoSggEPCLqYywESBggIEAYYADAACgmyAwYIBBACGCoKCrIDBwgEEAAYvwcKCDoGCAQQABgBCgmyAwYIBBACGCsKCrIDBwgEEAAYvgcKFYIBEgi7CRIGCAgQFxgQILUOKAkwAAoVggESCKYLEgYIDhAAGBgg2Q0oHDABChtyGQgXEgkI6B0AxisAlignedBoundingBoxAQYnBIlAADYRC0AAODAMAAKB1IFCP0DIAEKEYoEDgoGCFQQFBg7EK7BHBgBCgoaCAgqEBgYASAaCgoaCAgrEBgYASAYCgoaCAgrEBYYASAaCgoaCAgrEAYYASAKChGCAQ4I7/8BEgYIBxAAGAAwAQoIUgYI7/8BIAEKCPoDBQgGEIIECghSBgjRvQIgAAoRggEOCNG9AhIGCA4QLxhnMAAKCcoDBgiEaxCEawoMagoIaBIGCAAQAhgQCgZSBAhoGAEKExIRCggIyAIQhAEYORACGAAgmwIKExIRCggIygIQhAEYORACGAAgmwIKExIRCggIzAIQhAEYORACGAAgmwIKExIRCggIyAIQhAEYNxACGAAgmwIKExIRCggIygIQhAEYNxACGAAgmwIKExIRCggIzAIQhAEYNxACGAAgmwIKExIRCggIyAIQhAEYNRACGAAgmwIKExIRCggIygIQhAEYNRACGAAgmwIKExIRCggIzAIQhAEYNRACGAAgmwIKExIRCggIygIQhAEYMxACGAAgmwIKExIRCggIzAIQhAEYMxACGAAgmwIKExIRCggIxAIQhAEYMRACGAAgmwIKExIRCggIxgIQhAEYMRAQAhgAIJsCChISEAoHCHAQJBigARACGAAgmwIKEhIQCgcIbBAmGKABEAIYACCbAgoSEhAKBwhuECYYoAEQAhgAIJsCChISEAoHCHAQJhigARACGAAgmwIKEhIQCgcIbBAoGKABEAIYACCbAgoSEhAKBwhuECgYoAEQAhgAIJsCChISEAoHCHAQKBigARACGAAgmwIKEhIQCgcIbBAqGKABEAIYACCbAgoSEhAKBwhuECoYoAEQAhgAIJsCChISEAoHCGwQLBigARACGAAgmwIKEhIQCgcIbhAsGKABEAIYACCbAgoSEhAKBwhsEC4YoAEQAhgAIJsCChISEAoHCG4QLhigARACGAAgmwIKEhIQCgcIbBAwGKABEAIYACCbAgoSEhAKBwhuEDAYoAEQAhgAIJsCChISEAoHCGwQMhigARACGAAgmwIKEhIQCgcIbBA0GKABEAIYACCbAgoSEhAKBwhsEDYYoAEQAhgAIJsCChISEAoHCGwQFhii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`,
+var KCe = `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GAAgmwIKEhIQCgcIcBBAGJoBEAIYACCbAgoSEhAKBwhsEEIYmgEQAhgAIJsCChISEAoHCG4QQhiaARACGAAgmwIKEhIQCgcIbBBEGJoBEAIYACCbAgoSEhAKBwhuEEQYmgEQAhgAIJsCChISEAoHCGwQRhiaARACGAAgmwIKEhIQCgcIbBBIGJoBEAIYACCbAgoSEhAKBwhsEBYYnAEQAhgAIJsREg8KBghaEBwYQhACGAAgmwIKERIPCgYIXBAcGEIQAhgAIJsCChESDwoGCFIQHhhCEAIYACCbAgoREg8KBghWEB4YQhACGAAgmwIKERIPCgYIWBAeGEIQAhgAIJsCChESDwoGCFoQHhhCEAIYACCbAgoREg8KBghcEB4YQhACGAAgmwIKERIPCgYIWBAcGEAQAhgAIJsCChESDwoGCFQQHBhAEAIYACCbAgoREg8KBghUEB4YQBACGAAgmwIKERIPCgYIUhAcGEIQAhgAIJsCChESDwoGCFwQGBhAEAIYACCbAgoREg8KBghcEBoYQBACGAAgmwIKERIPCgYIUhAcGEAQAhgAIJsCChESDwoGCFoQGhhCEAIYACCbAgoREg8KBghcEBoYQhACGAAgmwIKERIPCgYIUhAgGEIQAhgAIJsCChESDwoGCFIQIhhCEAIYACCbAgoREg8KBghaEBgYQBACGAAgmwIKERIPCgYIWhAaGEAQAhgAIJsCChESDwoGCFYQHBhAEAIYACCbAgoREg8KBghYEBoYQhACGAAgmwIKERIPCgYIVBAcGEIQAhgAIJsCChESDwoGCFYQHBhCEAIYACCbAgoREg8KBghYEBwYQhACGAAgmwIKERIPCgYIVBAeGEIQAhgAIJsCChESDwoGCFQQGhhAEAIYACCbAgoREg8KBghSEBoYQhACGAAgmwIKERIPCgYIUhAaGEAQAhgAIJsCChESDwoGCFQQGBhAEAIYACCbAgoREg8KBghYEBoYQBACGAAgmwIKERIPCgYIVBAaGEIQAhgAIJsCChESDwoGCFoQFBhAEAIYACCbAgoREg8KBghcEBQYQBACGAAgmwIKERIPCgYIWhAWGEAQAhgAIJsCChESDwoGCFwQFhhAEAIYACCbAgoREg8KBghaEBQYQhACGAAgmwIKERIPCgYIXBAUGEIQAhgAIJsCChESDwoGCFoQFhhCEAIYACCbAgoREg8KBghcEBYYQhACGAAgmwIKERIPCgYIVBAYGEIQAhgAIJsCChESDwoGCFoQGBhCEAIYACCbAgoREg8KBghcEBgYQhACGAAgmwIKERIPCgYIUhAYGEAQAhgAIJsCChESDwoGCFIQGBhCEAIYACCbAgoJygMGCJBOEJBOCgwaCgjPCxAjGBggiAEKJcICIgoNbW9iLnNoZWVwLnNheRIHCHcQwAwYbB0AAIA/JU+0hz8KD4IBDAiDoPoRIM4BKAAwAQoJUgcI7KL6ESAAChISEAoHCAYQFBjQAhACGAAgmwIKEhIQCgcICBAUGNACEAIYACCbAgoMGgoIzwsQABgcIMgCChGCAQ4Ih8cIEgYIABAAGBkwAQoRggEOEAIYABIGCAwQAhgAEgYIEBACGAAKIXofCLOf+hESGAoRZ2VuZXJpYy5tYXhIZWFsdGgVAAAgQQodygIaCLSf+hEQEhoHCCAQgDIYICUAAAAALQAAAAAKY2phCLSf+hESBggAEAIYABIHCAEQAhjYBBIGCAIQBCoAEgYIAxACGAASBggEEAIYABIJCAYQAyUAAKBBEgYIBxACGAASBggIEAIYABIGCAkQAhgAEgYIDxACGAASBggNEAIYAAoheh8ItJ/6ERIYChFnZW5lcmljLm1heEhlYWx0aBUAAKBBCiPCAiAKCXN0ZXAuc2FuZBIJCKI3EJAIGP5KHZqZGT4lAACAPwoM+gIJCNiqAy0AAFZDChISEAoHCIABEFAYNRACGAAgmwIKDoIBCwjd/xsg/gEoTDABCgZSBAgAIAEKC8oDCAjouAcQ6LgHCg0aCwgAEJ8PGIACIMUMCgoaCAgqEBoYASABCibCAiMKDm1vYi56b21iaWUuc2F5EgcIbBDADBAxisAlignedBoundingBoxHQAAgD8lckqKPwoxygIuCOYrEAMaCQivBhCABhjDDSUEE86/Lag9fb8yDw1ZEFe/FRyxo78d49AGvUC1JAo2ajQI5isSBggAEAIYABIHCAEQAhjYBBIGCAIQBCoAEgYIAxACGAASBggEEAIYABIGCBAQAhgACgiKAQUIlCQQAgoNagsImBQSBggAEAIYAAoQag4IlCQSCQgGEAMlAACAPwoXkgEUCJQkEg8NAAAAABUukKC9HQAAAAAKFYIBEgiBJRIGCAAQABgAIPYBKBcwAAoUggERCIIlEgYIABAAGAAgAyhjMAAKFIIBEQjBJRIGCAAQABgAIDwofTAAChSCAREI0ScSBggAEAAYACAHKGUwAAoUggERCNInEgYIABAAGAAgGyh9MAAKFIIBEQiXKBIGCAAQABgAIGwoZzAAChWCARIIsCkSBggAEAAYACCpASh9MAAKFIIBEQizKRIGCAAQABgAIAMofTAAChWCARIItCkSBggAEAAYACDhAShjMAAKEIIBDQj9KRIGCBMQABgOMAEKFYIBEgj/KRIGCAAQABgAIMgBKGUwAAoUggERCIAqEgYIABAAGAAgYyh/MAAKFIIBEQjHKhIGCAAQABgAIBwoezAAChWCARII5isSBggAEAAYACCDAShRMAAKB1IFCJgUGAAKDKICCQ0K16M9EC4YAAoachgIABIICKgBEJoCGAclAACgQS0AAIDAMAAKC4IBCAgBIFooKzABCg+CAQwIKBIGCAQQABgLMAEKEvoDDwgCEEEY////////////AQoRggEOCNXKHhIGCAAQChgAMAAKGJIBFQjE+B4SDw2V9Iy8FQAAAAAdgRIQCgcIdBBIGJ4BEAIYACCbAgoSqgIPCAAQABoJCAEQzwUYASgECgVCAwjZLQoQggENCMEsEgYIDBAAGAQwAQoQggENCKYfEgYIDBAAGBgwAQoQggENCPssEgYIDBAWGBgwAAoQag4I+ywSCQgGEAMlhevRQAoXkgEUCPssEg8NuojmPRXr5Iw+HcFFWT4KFIIBEQifLRIGCBQQABgRIEsoBzABChWCARII8yISBggVEAAYDCC4BSgFMAEKB1IFCMEsIAAKC/oCCAj7LBWF69FACg+CAQwIABIGCBYQABgEMAEKBlIECAAgAQoSggEPCPKS+hESBggVEAAYAjABCglSBwizivoRIAAKG3IZCNUYEggIvQYQoAYYbiUAAHBCLQAAgMEwAQoH+gMECA8QAQoH+gMECA8QAgoH+gMECA8QAwoH+gMECA8QBAoH+gMECA0QBwoH+gMECA0QCAoH+gMECAsQCQoH+gMECAsQCgoRggEOCODpLBIGCA0QYRgCMAEKH3IdCNToLBILCLC9ChCAIBiq5R4lAAB0Qy0AAAAAMAEKCVIHCKSamAMgAQoSggEPCLqYywESBggIEAYYADAACgmyAwYIBBACGCoKCrIDBwgEEAAYvwcKCDoGCAQQABgBCgmyAwYIBBACGCsKCrIDBwgEEAAYvgcKFYIBEgi7CRIGCAgQFxgQILUOKAkwAAoVggESCKYLEgYIDhAAGBgg2Q0oHDABChtyGQgXEgkI6B0QnAQYnBIlAADYRC0AAODAMAAKB1IFCP0DIAEKEYoEDgoGCFQQFBg7EK7BHBgBCgoaCAgqEBgYASAaCgoaCAgrEBgYASAYCgoaCAgrEBYYASAaCgoaCAgrEAYYASAKChGCAQ4I7/8BEgYIBxAAGAAwAQoIUgYI7/8BIAEKCPoDBQgGEIIECghSBgjRvQIgAAoRggEOCNG9AhIGCA4QLxhnMAAKCcoDBgiEaxCEawoMagoIaBIGCAAQAhgQCgZSBAhoGAEKExIRCggIyAIQhAEYORACGAAgmwIKExIRCggIygIQhAEYORACGAAgmwIKExIRCggIzAIQhAEYORACGAAgmwIKExIRCggIyAIQhAEYNxACGAAgmwIKExIRCggIygIQhAEYNxACGAAgmwIKExIRCggIzAIQhAEYNxACGAAgmwIKExIRCggIyAIQhAEYNRACGAAgmwIKExIRCggIygIQhAEYNRACGAAgmwIKExIRCggIzAIQhAEYNRACGAAgmwIKExIRCggIygIQhAEYMxACGAAgmwIKExIRCggIzAIQhAEYMxACGAAgmwIKExIRCggIxAIQhAEYMRACGAAgmwIKExIRCggIxgIQhAEYMRAQAhgAIJsCChISEAoHCHAQJBigARACGAAgmwIKEhIQCgcIbBAmGKABEAIYACCbAgoSEhAKBwhuECYYoAEQAhgAIJsCChISEAoHCHAQJhigARACGAAgmwIKEhIQCgcIbBAoGKABEAIYACCbAgoSEhAKBwhuECgYoAEQAhgAIJsCChISEAoHCHAQKBigARACGAAgmwIKEhIQCgcIbBAqGKABEAIYACCbAgoSEhAKBwhuECoYoAEQAhgAIJsCChISEAoHCGwQLBigARACGAAgmwIKEhIQCgcIbhAsGKABEAIYACCbAgoSEhAKBwhsEC4YoAEQAhgAIJsCChISEAoHCG4QLhigARACGAAgmwIKEhIQCgcIbBAwGKABEAIYACCbAgoSEhAKBwhuEDAYoAEQAhgAIJsCChISEAoHCGwQMhigARACGAAgmwIKEhIQCgcIbBA0GKABEAIYACCbAgoSEhAKBwhsEDYYoAEQAhgAIJsCChISEAoHCGwQFhiiARACGAAgmwIKEhIQCgcIbhAWGKIBEAIYACCbAgoSEhAKBwhwEBYYogEQAhgAIJsCChISEAoHCGwQGBiiARACGAAgmwIKEhIQCgcIbhAYGKIBEAIYACCbAgoSEhAKBwhwEBgYogEQAhgAIJsCChISEAoHCGwQGhiiARACGAAgmwIKEhIQCgcIbhAaGKIBEAIYACCbAgoSEhAKBwhwEBoYogEQAhgAIJsCChISEAoHCGwQHBiiARACGAAgmwIKEhIQCgcIbhAcGKIBEAIYACCbAgoSEhAKBwhwEBwYogEQAhgAIJsCChISEAoHCGwQHhiiARACGAAgmwIKEhIQCgcIbhAeGKIBEAIYACCbAgoSEhAKBwhsECAYogEQAhgAIJsCChISEAoHCG4QIBiiARACGAAgmwIKEhIQCgcIbBAiGKIBEAIYACCbAgoSEhAKBwhuECIYogEQAhgAIJsCChISEAoHCGwQJBiiARACGAAgmwIKEhIQCgcIbhAkGKIBEAIYACCbAgoSEhAKBwhsECYYogEQAhgAIJsCChISEAoHCG4QJhiiARACGAAgmwIKEhIQCgcIbBAoGKIBEAIYACCbAgoSEhAKBwhuECgYogEQAhgAIJsCChISEAoHCGwQKhiiARACGAAgmwIKEhIQCgcIbhAqGKIBEAIYACCbAgoSEhAKBwhsECwYogEQAhgAIJsCChISEAoHCGwQLhiiARACGAAgmwIKEhIQCgcIbBAwGKIBEAIYACCbAgoSEhAKBwhsEDIYogEQAhgAIJsCChISEAoHCGwQFhikARACGAAgmwIKEhIQCgcIbhAWGKQBEAIYACCbAgoSEhAKBwhsEBgYpAEQAhgACAASAggAEgIIABIuCAEQ4gUYASIjeyJVbmJyZWFrYWJsZSI6dHJ1ZSwiY29sb3IiOiJhcXVhIn0oABIuCAEQ4wUYASIjeyJVbmJyZWFrYWJsZSI6dHJ1ZSwiY29sb3IiOiJhcXVhIn0oABIfCAEQ7AUYASIUeyJVbmJyZWFrYWJsZSI6dHJ1ZX0oABIfCAEQ7QUYASIUeyJVbmJyZWFrYWJsZSI6dHJ1ZX0oAAoSqgIPCAAQAhoJCAEQtAUYECgAChKqAg8IABAIGgkIARCgARhAKAAKOcoCNgiIGhABGgkI4DYQoB4Y3xAlAAAAAC0AAAAAMg8NBwfCPRXNzEw+HUqRhb06CQgBELQFGAEoAAo/aj0IiBoSBggAEAIYABIHCAEQAhjYBBIGCAIQBCoAEgYIAxACGAASBggEEAIYABIPCAoQBToJCAEQtAUYASgACheSARQIiBoSDw0HB8I9Fc3MTD4dSpGFvQoKygMHCLyGAxDgXQoRqgIOCAAQFRoICAEQZhguKAAKEYoEDgoGCFwQFhhtEK7BHBgGCgf6AwQIEBAeCAxisAlignedBoundingBox6AwYItAQQzgIKCxoJCAAQdRgCIJsBCiPCAiAKnormalizeAngleRpZy5ncmF2ZWwSCAinBxAYGNcJHQAAgD8lAACAPwoJygMGCODfARAACgiKAQUI4hMQAgopwgImChBnYW1lLnBsYXllci5odXJ0EggIWBCkARi7Ah0AAIA/JWJldT8KJsICIwoNcmFuZG9tLmJvd2hpdBIICFgQpAEYuwIdAACAPyVfS5s/CgVCAwjBOgoFQgMIsToKBUIDCNItChWCARII4hMSBggIEAkYBSC2FygRMAAKEGoOCOITEgkIBhADJeF6YEEKF5IBFAjiExIPDSj3mT4V9ciRPh0FDIc+ChWCARIIqxMSBggUEAAYCCCLASgZMAEKDYIBCgjEFSDOCigbMAEKFYIBEgjjLRIGCAAQABgAIOYBKH8wAAoVggESCKkyEgYIABAAGAAg9gEoZTAAChWCARII1zQSBggAEAAYACCFAShrMAAKFYIBEgjVNhIGCAAQABgAIMgBKB8wAAoVggESCNY2EgYIABAAGAAgtAEoZTAAChWCARIIijgSBggAEAAYACCZAShfMAAKFYIBEgi9OBIGCAAQABgAILABKBswAAoUggERCJA5EgYIABAAGAAgLigZMAAKFYIBEgjvORIGCAAQABgAILYBKBswAAoXkgEUCL06Eg8N9x6YPRUmyz69HXbIqb0KEIIBDQi9OhIGCBgQChgbMAAKFmoUCL06Eg8IChAFOgkIARC7BhgDKAAKB1IFCKsTIAEKC/oCCAjiExXhemBBCiLCAh8KCXN0ZXAud29vZBIICAoREg8KBghYECIYSBACGAAgmwIKERIPCgYIWhAiGEgQAhgAIJsCChESDwoGCFwQIhhIEAIYACCbAgoREg8KBghSEBQYShACGAAgmwIK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`,
 	qCe = `5feeb6473fddc729`;
 function JCe(e) {
 	try {
@@ -68480,15 +68499,15 @@ var XP = Vt(),
 			return A.util.equals(e, t, n);
 		}
 	},
-	QP = dn.meta.size.w,
-	$P = dn.meta.size.h,
+	QP = fn.meta.size.w,
+	$P = fn.meta.size.h,
 	eF = 16 / 16,
 	tF = 0.035,
 	Wwe = 0.5496666666666666;
 function nF(e) {
 	return e === -1 ? Wwe : tF;
 }
-var Gwe = { Basic: An, Lambert: yn, Phong: xn, Standard: $n, Toon: see },
+var Gwe = { Basic: An, Lambert: yn, Phong: xn, Standard: Qn, Toon: see },
 	Kwe = [`arrow`, `enchanting_table_book`, `experience_orb`],
 	rF =
 		`barrier.critical_hit.drip_fall.drip_hang.drip_land.flame.generic_0.generic_1.generic_2.generic_3.generic_4.generic_5.generic_6.generic_7.lava.note.splash_0.splash_1.splash_2.splash_3.glint.heart.angry.sga_a.sga_b.sga_c.sga_d.sga_e.sga_f.sga_g.sga_h.sga_i.sga_j.sga_k.sga_l.sga_m.sga_n.sga_o.sga_p.sga_q.sga_r.sga_s.sga_t.sga_u.sga_v.sga_w.sga_x.sga_y.sga_z.soul_fire_flame`.split(
@@ -68567,15 +68586,15 @@ var Gwe = { Basic: An, Lambert: yn, Phong: xn, Standard: $n, Toon: see },
 		loader = new vee();
 		models = {};
 		constructor() {}
-		async PyqrmgwYNl() {
+		async nEYMLivAjN() {
 			let e = [];
-			for (let t of Object.values(aF)) e.push(this.lZGhPJG(t));
+			for (let t of Object.values(aF)) e.push(this.XhoxNIO(t));
 			await Promise.all(e);
 		}
-		async lZGhPJG(e) {
-			return this.iJfpsinQ(`hat`, e);
+		async XhoxNIO(e) {
+			return this.DiUcIzSW(`hat`, e);
 		}
-		async iJfpsinQ(e, t) {
+		async DiUcIzSW(e, t) {
 			return new Promise((n) => {
 				let r = `models/${e}/${t}.gltf`;
 				this.loader.load(r, (e) => {
@@ -68585,7 +68604,7 @@ var Gwe = { Basic: An, Lambert: yn, Phong: xn, Standard: $n, Toon: see },
 		}
 		async getModel(e) {
 			return Object.values(aF).includes(e)
-				? (this.models[e] || (await this.lZGhPJG(e)), this.models[e])
+				? (this.models[e] || (await this.XhoxNIO(e)), this.models[e])
 				: null;
 		}
 	},
@@ -68863,12 +68882,12 @@ var BF = `
 	WF = null;
 function GF() {
 	if (!WF) {
-		let e = new Ln(new Uint8Array(4), 1, 1, 1);
-		(e.format = tr),
-			(e.type = sr),
+		let e = new Rn(new Uint8Array(4), 1, 1, 1);
+		(e.format = er),
+			(e.type = Fn),
 			(e.minFilter = Tn),
 			(e.magFilter = Tn),
-			(e.wrapS = e.wrapT = e.wrapR = or),
+			(e.wrapS = e.wrapT = e.wrapR = ar),
 			(e.needsUpdate = !0),
 			(WF = e);
 	}
@@ -68964,7 +68983,7 @@ var qF = `
 				grass: E.grassWave.value,
 			};
 		}
-		static AfViMXRviTMfldqNbNRvaKRf(t) {
+		static FPONlRRgpUZQzviuoRLBaHwM(t) {
 			(t.userData = {
 				time: { value: 2 },
 				uSunLight: { value: 1 },
@@ -69116,15 +69135,15 @@ var qF = `
 					uAmbientLight: { value: tF },
 					waterShadersEnabled: { value: 1 },
 					waterLightRefractionEnabled: { value: 0 },
-					waterTileOrigin: { value: new Rn() },
-					tileSize: { value: new Rn(16 / QP, 16 / $P) },
+					waterTileOrigin: { value: new dr() },
+					tileSize: { value: new dr(16 / QP, 16 / $P) },
 					cameraDepthBelowSurface: { value: 0 },
 					tSceneColor: { value: null },
 					tSceneDepth: { value: null },
 					tLinearViewZ: { value: null },
 					reflectionNear: { value: 0.01 },
 					reflectionFar: { value: 256 },
-					reflectionResolution: { value: new Rn(1, 1) },
+					reflectionResolution: { value: new dr(1, 1) },
 					reflectionProjectionMatrix: { value: new bn() },
 					reflectionViewMatrix: { value: new bn() },
 					reflectionViewMatrixInverse: { value: new bn() },
@@ -69661,7 +69680,7 @@ var qF = `
         // position / time of day never changes the stored value. Mapping the top of that range to
         // 0..1 yields a clean "is this water under open sky" factor — 1 outdoors, 0 underground —
         // which drives both the day/night response and the sky/sun reflections. Cave water then
-        // ignores the sun entirely and is lit by block light alone.
+        // iAxisAlignedBoundingBoxores the sun entirely and is lit by block light alone.
         float skyVis = smoothstep(0.7, 0.97, clamp(vLight.x / ${YF}, 0.0, 1.0));
         #ifdef USE_WATER_SHADERS
         float isWater = step(vColor.r, 0.49) * step(0.5, waterShadersEnabled);
@@ -69794,42 +69813,42 @@ function eI(e) {
 	return !0;
 }
 var tI = class e {
-		loader = new Gn();
+		loader = new Yn();
 		skins = {};
 		armor = {};
 		armorVersion = 0;
 		failedTextures = new Set();
 		capes = { none: { id: `none`, ratio: 1, pixels: new Uint8ClampedArray() } };
 		capeElytraMats = {};
-		async LqROYsUkCaxrGbmh() {
+		async qRTJjaofnbypbuhq() {
 			return Promise.all([
 				this.downloadSkin(`alice`),
 				this.downloadSkin(`bob`),
-				this.yxTYxiByw(`leather`),
-				this.yxTYxiByw(`gold`),
-				this.yxTYxiByw(`chainmail`),
-				this.yxTYxiByw(`iron`),
-				this.yxTYxiByw(`diamond`),
-				this.yxTYxiByw(`emerald`),
-				this.yxTYxiByw(`infernium`),
+				this.RNvudJXCi(`leather`),
+				this.RNvudJXCi(`gold`),
+				this.RNvudJXCi(`chainmail`),
+				this.RNvudJXCi(`iron`),
+				this.RNvudJXCi(`diamond`),
+				this.RNvudJXCi(`emerald`),
+				this.RNvudJXCi(`infernium`),
 			]);
 		}
-		async zJKVHaUMNSvaSeeDOZ() {
+		async fxJgYsdEAPGENChRsK() {
 			return Promise.all(
 				EF.map((e) =>
 					e.mob
-						? this.cGlMQaj(e.folder)
-						: this.NUpeIrRAwinrVcvvc(e.folder, e.name, e.ratioBase ?? 64),
+						? this.FYwUILh(e.folder)
+						: this.PPamzeRmIPrKmnVab(e.folder, e.name, e.ratioBase ?? 64),
 				),
 			);
 		}
-		async eWdsBDGKofWz() {
-			await Promise.all([this.LqROYsUkCaxrGbmh(), this.zJKVHaUMNSvaSeeDOZ()]);
+		async NXCWVglidqje() {
+			await Promise.all([this.qRTJjaofnbypbuhq(), this.fxJgYsdEAPGENChRsK()]);
 		}
 		hasSkin(e) {
 			return !!this.skins[e];
 		}
-		mRtJkgo(e) {
+		YzGRiZY(e) {
 			return !!this.capes[e];
 		}
 		getSkin(e) {
@@ -69844,10 +69863,10 @@ var tI = class e {
 				n
 			);
 		}
-		gvUbPwQ(e) {
+		bualodz(e) {
 			return this.capes[e];
 		}
-		ufVXvBmW(e) {
+		OuzFpqWd(e) {
 			let t = e.item;
 			return this.armor[t.material.name];
 		}
@@ -69859,7 +69878,7 @@ var tI = class e {
 			}
 			return !1;
 		}
-		async cGlMQaj(t) {
+		async FYwUILh(t) {
 			if (!(this.isEntityOverridden(t) && this.skins[t]))
 				return new Promise((n, r) => {
 					this.loader.setPath(`textures/entity/` + t + `/`),
@@ -69867,7 +69886,7 @@ var tI = class e {
 							t + `.png`,
 							(r) => {
 								let i = { atlas: r, id: t, ratio: r.image.width / 64 };
-								e.VxsJYRsqNgtmlZ(i), (this.skins[t] = i), n();
+								e.yiYOtntrWDKSzr(i), (this.skins[t] = i), n();
 							},
 							void 0,
 							function (e) {
@@ -69876,7 +69895,7 @@ var tI = class e {
 						);
 				});
 		}
-		async NUpeIrRAwinrVcvvc(t, n, r = 64) {
+		async PPamzeRmIPrKmnVab(t, n, r = 64) {
 			if (!(this.isEntityOverridden(t + `.` + n) && this.skins[t + `.` + n]))
 				return new Promise((i, a) => {
 					this.loader.setPath(`textures/entity/` + t + `/`),
@@ -69884,7 +69903,7 @@ var tI = class e {
 							n + `.png`,
 							(a) => {
 								let o = { atlas: a, id: n, ratio: a.image.width / r };
-								e.VxsJYRsqNgtmlZ(o), (this.skins[t + `.` + n] = o), i();
+								e.yiYOtntrWDKSzr(o), (this.skins[t + `.` + n] = o), i();
 							},
 							void 0,
 							function (e) {
@@ -69905,7 +69924,7 @@ var tI = class e {
 								(r) => {
 									let i = r.image,
 										a = { atlas: r, id: t, skinny: eI(i), ratio: i.width / 64 };
-									e.VxsJYRsqNgtmlZ(a), (this.skins[t] = a), n();
+									e.yiYOtntrWDKSzr(a), (this.skins[t] = a), n();
 								},
 								void 0,
 								() => {
@@ -69924,7 +69943,7 @@ var tI = class e {
 							(n) => {
 								let i = n.image,
 									a = { atlas: n, id: t, skinny: eI(i), ratio: i.width / 64 };
-								e.VxsJYRsqNgtmlZ(a), (this.skins[t] = a), r();
+								e.yiYOtntrWDKSzr(a), (this.skins[t] = a), r();
 							},
 							void 0,
 							() => {
@@ -69937,7 +69956,7 @@ var tI = class e {
 		invalidateSkin(e) {
 			delete this.skins[e], this.failedTextures.delete(`skin:` + e);
 		}
-		async DfhTcyYlrMIb(t) {
+		async SWnyNwYnGXle(t) {
 			if (this.failedTextures.has(`cape:` + t)) return;
 			let n = uF(t);
 			return n
@@ -69947,9 +69966,9 @@ var tI = class e {
 							this.loader.load(
 								t + `.png`,
 								(r) => {
-									let i = e.rXkOnZRBZysQmEAAOwpXwBZt(r),
+									let i = e.QSkarhuTpTfQavhklkPrHhrw(r),
 										a = { atlas: i, id: t, ratio: i.image.width / 64 };
-									e.VxsJYRsqNgtmlZ(a), (this.capes[t] = a), n();
+									e.yiYOtntrWDKSzr(a), (this.capes[t] = a), n();
 								},
 								void 0,
 								() => {
@@ -69967,9 +69986,9 @@ var tI = class e {
 						this.loader.load(
 							n,
 							(n) => {
-								let i = e.rXkOnZRBZysQmEAAOwpXwBZt(n),
+								let i = e.QSkarhuTpTfQavhklkPrHhrw(n),
 									a = { atlas: i, id: t, ratio: i.image.width / 64 };
-								e.VxsJYRsqNgtmlZ(a), (this.capes[t] = a), r();
+								e.yiYOtntrWDKSzr(a), (this.capes[t] = a), r();
 							},
 							void 0,
 							() => {
@@ -69979,7 +69998,7 @@ var tI = class e {
 				})
 			);
 		}
-		static rXkOnZRBZysQmEAAOwpXwBZt(e) {
+		static QSkarhuTpTfQavhklkPrHhrw(e) {
 			let t = e.image;
 			if (!t || t.width >= 64 || t.width === t.height) return e;
 			let n = Math.max(1, Math.round(64 / t.width)),
@@ -69996,15 +70015,15 @@ var tI = class e {
 				delete this.capeElytraMats[e],
 				this.failedTextures.delete(`cape:` + e);
 		}
-		ishhwjLOiDkFoyvtgecNC(t) {
+		KfgBALivwUTeaIrHptuvM(t) {
 			if (t in this.capeElytraMats) return this.capeElytraMats[t];
 			let n = this.capes[t],
 				r = null;
 			if (n)
-				if (n.compact) r = e.yXrXpkFASKTkKnYYgBkj(n) ? n.atlasMat?.map : null;
+				if (n.compact) r = e.TAHSuPAeoWEBUlrrsAKs(n) ? n.atlasMat?.map : null;
 				else {
-					let t = e.pkNfplJkrXKRhq(n).elytra;
-					r = t ? e.zWVXapzVtxeqbMvFYpGnMaX(n, t) : null;
+					let t = e.PehatQEfmThjqe(n).elytra;
+					r = t ? e.EInGeWmKIJRuecLeLCwnfEo(n, t) : null;
 				}
 			let i = r
 				? new yn({
@@ -70017,7 +70036,7 @@ var tI = class e {
 				: null;
 			return (this.capeElytraMats[t] = i), i;
 		}
-		static zWVXapzVtxeqbMvFYpGnMaX(e, t) {
+		static EInGeWmKIJRuecLeLCwnfEo(e, t) {
 			let n = e.atlasMat?.map?.image;
 			if (!n) return null;
 			let r = document.createElement(`canvas`);
@@ -70034,11 +70053,11 @@ var tI = class e {
 			let n = this.capes[t];
 			return n
 				? n.compact
-					? e.yXrXpkFASKTkKnYYgBkj(n)
-					: e.pkNfplJkrXKRhq(n).elytra != null
+					? e.TAHSuPAeoWEBUlrrsAKs(n)
+					: e.PehatQEfmThjqe(n).elytra != null
 				: !1;
 		}
-		static pkNfplJkrXKRhq(e) {
+		static PehatQEfmThjqe(e) {
 			if (e.capeRegions) return e.capeRegions;
 			let t = Math.round(64 * (e.ratio || 1)),
 				n = e.pixels,
@@ -70073,7 +70092,7 @@ var tI = class e {
 			}
 			return (e.capeRegions = s), s;
 		}
-		static yXrXpkFASKTkKnYYgBkj(e) {
+		static TAHSuPAeoWEBUlrrsAKs(e) {
 			let t = e.ratio || 1,
 				n = Math.round(64 * t),
 				r = Math.floor(22 * t),
@@ -70084,17 +70103,17 @@ var tI = class e {
 					if (e.pixels[(a + t * n) * 4 + 3] > 0) return !0;
 			return !1;
 		}
-		RmTUWAkIUyMXJpI(e, t) {
+		hiooHzCbadJKhHj(e, t) {
 			return `textures/models/armor/${e}_layer_${t}.png`;
 		}
-		async yxTYxiByw(
+		async RNvudJXCi(
 			t,
-			n = this.RmTUWAkIUyMXJpI(t, 1),
-			r = this.RmTUWAkIUyMXJpI(t, 2),
+			n = this.hiooHzCbadJKhHj(t, 1),
+			r = this.hiooHzCbadJKhHj(t, 2),
 		) {
 			let i = { id: t, isArmor: !0, ratio: 1 };
 			this.armor[t] = i;
-			let a = new Gn(),
+			let a = new Yn(),
 				o = (e, t) =>
 					new Promise((n) => {
 						a.load(
@@ -70108,61 +70127,61 @@ var tI = class e {
 					});
 			await Promise.all([
 				o(n, (t) => {
-					(i.atlas = t), (i.ratio = t.image.width / 32), e.VxsJYRsqNgtmlZ(i);
+					(i.atlas = t), (i.ratio = t.image.width / 32), e.yiYOtntrWDKSzr(i);
 				}),
 				o(r, (t) => {
-					(i.atlas2 = t), e.hsZtLptlbCeiQpS(i);
+					(i.atlas2 = t), e.vIBfkXTeuzFCJLT(i);
 				}),
 			]);
 		}
 		armorOverrides = new Set();
-		async bUdTVpoZHptKqKYRzOJ(e) {
+		async BtYadhLgLJBRcUemPMW(e) {
 			let t = new Set([...this.armorOverrides, ...e.keys()]);
 			(this.armorOverrides = new Set(e.keys())),
 				await Promise.all(
 					[...t].map((t) => {
 						let n = e.get(t);
-						return this.yxTYxiByw(
+						return this.RNvudJXCi(
 							t,
-							n?.layer1 ?? this.RmTUWAkIUyMXJpI(t, 1),
-							n?.layer2 ?? this.RmTUWAkIUyMXJpI(t, 2),
+							n?.layer1 ?? this.hiooHzCbadJKhHj(t, 1),
+							n?.layer2 ?? this.hiooHzCbadJKhHj(t, 2),
 						);
 					}),
 				),
 				this.armorVersion++;
 		}
-		ViguJnMxXMLKdufF(e) {
+		dLQbEgeFhFNYstAv(e) {
 			return `textures/entity/${e.folder}/${e.name}.png`;
 		}
 		entityOverrides = new Set();
-		async dqZqOyXNbfpAiSXVIfMY(e) {
+		async TMEMgYhbwKwBvjCFXcsV(e) {
 			let t = new Set([...this.entityOverrides, ...e.keys()]);
 			(this.entityOverrides = new Set(e.keys())),
 				await Promise.all(
 					[...t].map((t) => {
 						let n = QF.get(t);
 						return n
-							? this.oJGeNgpxnpWlvfsITtL(
+							? this.iSeCoMwHIeAoiLlWQtq(
 									n,
-									e.get(t) ?? this.ViguJnMxXMLKdufF(n),
+									e.get(t) ?? this.dLQbEgeFhFNYstAv(n),
 								)
 							: Promise.resolve();
 					}),
 				);
 		}
-		oJGeNgpxnpWlvfsITtL(t, n) {
+		iSeCoMwHIeAoiLlWQtq(t, n) {
 			let r = kF(t),
 				i = t.ratioBase ?? 64;
 			return new Promise((t) => {
-				new Gn().load(
+				new Yn().load(
 					n,
 					(n) => {
 						let a = n.image,
 							o = this.skins[r];
-						if (o && e.yAvDeWxjLTVJtizpYO(o, a, i)) o.atlas = n;
+						if (o && e.sSyukZrSnvcpJTGfqs(o, a, i)) o.atlas = n;
 						else {
 							let t = { atlas: n, id: r, ratio: a.width / i };
-							e.VxsJYRsqNgtmlZ(t), (this.skins[r] = t);
+							e.yiYOtntrWDKSzr(t), (this.skins[r] = t);
 						}
 						t();
 					},
@@ -70171,7 +70190,7 @@ var tI = class e {
 				);
 			});
 		}
-		static yAvDeWxjLTVJtizpYO(e, t, n) {
+		static sSyukZrSnvcpJTGfqs(e, t, n) {
 			let r = e.atlasMat?.map,
 				i = r?.image,
 				a = i?.getContext(`2d`, { willReadFrequently: !0 });
@@ -70189,7 +70208,7 @@ var tI = class e {
 				!0
 			);
 		}
-		static VxsJYRsqNgtmlZ(e) {
+		static yiYOtntrWDKSzr(e) {
 			let t = document.createElement(`canvas`),
 				n = t.getContext(`2d`, { willReadFrequently: !0 }),
 				r = e.atlas;
@@ -70214,12 +70233,12 @@ var tI = class e {
 					transparent: !0,
 					alphaTest: 0.1,
 				}));
-			let a = new Gn().load(`textures/misc/enchanted_item_glint.png`);
-			(a.wrapS = In),
-				(a.wrapT = In),
+			let a = new Yn().load(`textures/misc/enchanted_item_glint.png`);
+			(a.wrapS = Ln),
+				(a.wrapT = Ln),
 				ZF.addEnchantedEffect(e.atlasMatEnchant, a, 0.75);
 		}
-		static hsZtLptlbCeiQpS(e) {
+		static vIBfkXTeuzFCJLT(e) {
 			let t = document.createElement(`canvas`),
 				n = t.getContext(`2d`),
 				r = e.atlas2;
@@ -70232,12 +70251,12 @@ var tI = class e {
 				(i.magFilter = Mn),
 				(e.atlasMat2 = new xn({ map: i, side: 0, transparent: !1 })),
 				(e.atlasMat2Enchant = new xn({ map: i, side: 0, transparent: !1 }));
-			let a = new Gn().load(`textures/misc/enchanted_item_glint.png`);
-			(a.wrapS = In),
-				(a.wrapT = In),
+			let a = new Yn().load(`textures/misc/enchanted_item_glint.png`);
+			(a.wrapS = Ln),
+				(a.wrapT = Ln),
 				ZF.addEnchantedEffect(e.atlasMat2Enchant, a, 0.75);
 		}
-		static wWaInRYLP(e, t, n, r, i, a = {}, o = {}) {
+		static DyhxdVhov(e, t, n, r, i, a = {}, o = {}) {
 			let s = o.leggings ? e.atlas2 : e.atlas,
 				c = document.createElement(`canvas`),
 				l = c.getContext(`2d`);
@@ -70299,10 +70318,10 @@ var tI = class e {
 		sea_lantern: 5,
 	},
 	rI = new Map();
-(globalThis.SpriteData = dn),
+(globalThis.SpriteData = fn),
 	(globalThis.spriteMap = rI),
-	Object.keys(dn.frames).forEach((e) => {
-		let t = dn.frames[e],
+	Object.keys(fn.frames).forEach((e) => {
+		let t = fn.frames[e],
 			n = e.replace(`.png`, ``);
 		rI.set(n, {
 			x: t.frame.x / 16,
@@ -70322,8 +70341,8 @@ function aI(e) {
 }
 var oI = h,
 	q = new (class {
-		loader = new Gn();
-		fontLoader = new fee();
+		loader = new Yn();
+		fontLoader = new dee();
 		miniblox_font;
 		old_miniblox_font;
 		atlas;
@@ -70351,28 +70370,28 @@ var oI = h,
 		particleAtlasRects = new Map();
 		glintTexture;
 		skinManager = new tI();
-		FdOLqaNnlTN = new qwe();
+		TZlUaafecch = new qwe();
 		reflectionBuffer = null;
 		setReflectionBuffer(e) {
 			(this.reflectionBuffer = e),
 				this.materialFluidWorld?.userData &&
-					(Object.assign(this.materialFluidWorld.userData, e.uniforms),
+					(Object.assiAxisAlignedBoundingBox(this.materialFluidWorld.userData, e.uniforms),
 					(this.materialFluidWorld.needsUpdate = !0));
 		}
 		worldAssetsPromise = null;
 		menuTexturesLoaded = !1;
 		menuTexturesPromise = null;
-		async LqROYsUkCaxrGbmh(e = !0) {
+		async qRTJjaofnbypbuhq(e = !0) {
 			try {
 				await Promise.all([
 					this.loadSpritesheet(),
 					this.loadFonts(),
-					this.skinManager.LqROYsUkCaxrGbmh(),
+					this.skinManager.qRTJjaofnbypbuhq(),
 				]);
 			} catch (t) {
 				O.error(t),
 					O.error(`Failed to load menu textures. Retrying...`),
-					e && (await this.LqROYsUkCaxrGbmh(!1));
+					e && (await this.qRTJjaofnbypbuhq(!1));
 			}
 		}
 		ensureWorldAssets() {
@@ -70383,7 +70402,7 @@ var oI = h,
 		}
 		ensureMenuTextures() {
 			return (
-				(this.menuTexturesPromise ||= this.LqROYsUkCaxrGbmh().then(() => {
+				(this.menuTexturesPromise ||= this.qRTJjaofnbypbuhq().then(() => {
 					this.menuTexturesLoaded = !0;
 				})),
 				this.menuTexturesPromise
@@ -70398,8 +70417,8 @@ var oI = h,
 		async loadWorldAssets() {
 			try {
 				let e = [
-					this.skinManager.zJKVHaUMNSvaSeeDOZ(),
-					this.FdOLqaNnlTN.PyqrmgwYNl(),
+					this.skinManager.fxJgYsdEAPGENChRsK(),
+					this.TZlUaafecch.nEYMLivAjN(),
 				];
 				rF.forEach((t) => {
 					e.push(
@@ -70448,8 +70467,8 @@ var oI = h,
 					);
 			}
 		}
-		async eWdsBDGKofWz(e = !0) {
-			await this.LqROYsUkCaxrGbmh(e), await this.ensureWorldAssets();
+		async NXCWVglidqje(e = !0) {
+			await this.qRTJjaofnbypbuhq(e), await this.ensureWorldAssets();
 		}
 		buildParticleAtlas() {
 			let e = rF.filter((e) => this.particles[e]?.image);
@@ -70470,7 +70489,7 @@ var oI = h,
 					o.drawImage(this.particles[e].image, a, s, 32, 32),
 						this.particleAtlasRects.set(
 							this.particles[e],
-							new En(a / r, s / i, 32 / r, 32 / i),
+							new lr(a / r, s / i, 32 / r, 32 / i),
 						);
 				});
 			let s = new Pn(a);
@@ -70567,10 +70586,10 @@ var oI = h,
 				},
 				n = Gwe.Lambert;
 			(this.material = new n(t)), (this.materialEnchanted = new n(t));
-			let r = new Gn();
+			let r = new Yn();
 			(this.glintTexture = r.load(`textures/misc/enchanted_item_glint.png`)),
-				(this.glintTexture.wrapS = In),
-				(this.glintTexture.wrapT = In),
+				(this.glintTexture.wrapS = Ln),
+				(this.glintTexture.wrapT = Ln),
 				ZF.addEnchantedEffect(this.materialEnchanted, this.glintTexture),
 				(this.materialTransparent = new n(t)),
 				(this.materialTransparent.transparent = !0),
@@ -70578,9 +70597,9 @@ var oI = h,
 				(this.materialTransparent.alphaTest = 0.1),
 				(this.atlas = e.image),
 				(this.materialWorld = this.material.clone()),
-				ZF.AfViMXRviTMfldqNbNRvaKRf(this.materialWorld),
+				ZF.FPONlRRgpUZQzviuoRLBaHwM(this.materialWorld),
 				(this.materialTransparentWorld = this.materialTransparent.clone()),
-				ZF.AfViMXRviTMfldqNbNRvaKRf(this.materialTransparentWorld),
+				ZF.FPONlRRgpUZQzviuoRLBaHwM(this.materialTransparentWorld),
 				(this.materialTransparentWorld.depthWrite = !1);
 			let i = () => {
 				(this.materialWorld.needsUpdate = !0),
@@ -70638,8 +70657,8 @@ var oI = h,
 				t && t !== e && t.dispose();
 		}
 		loadSprite(e) {
-			let t = new bee(
-				new gee({
+			let t = new pee(
+				new bee({
 					map: this.loader.load(`textures/${e}`),
 					color: 16777215,
 					fog: !1,
@@ -70815,11 +70834,11 @@ var oI = h,
 	dI = new bn(),
 	fI = new bn(),
 	pI = new bn(),
-	mI = new En(),
-	hI = new En(),
+	mI = new lr(),
+	hI = new lr(),
 	gI = new D(),
 	_I = new D(),
-	vI = class extends Xn {
+	vI = class extends zn {
 		root = null;
 		update() {
 			let e = this.bones,
@@ -70837,7 +70856,7 @@ var oI = h,
 			r !== null && (r.needsUpdate = !0);
 		}
 	},
-	yI = class extends ar {
+	yI = class extends Jn {
 		applyBoneTransform(e, t) {
 			let n = t,
 				r = this.skeleton,
@@ -70869,7 +70888,7 @@ function bI(e, t, n) {
 function xI(e, t) {
 	e.bind(t, dI), (e.bindMode = uee);
 }
-var J = class e extends Jn {
+var J = class e extends Kn {
 		skinName;
 		root;
 		pos;
@@ -70945,26 +70964,26 @@ var J = class e extends Jn {
 				i = new Float32Array(new ArrayBuffer(e.uvs.length * 4)),
 				a = new Uint16Array(new ArrayBuffer(e.indices.length * 2));
 			n.set(e.positions), r.set(e.normals), i.set(e.uvs), a.set(e.indices);
-			let o = t ? t.geometry : new Hn();
-			if ((o.setAttribute(`position`, new Wn(n, 3)), e.colors)) {
+			let o = t ? t.geometry : new Vn();
+			if ((o.setAttribute(`position`, new Hn(n, 3)), e.colors)) {
 				new Float32Array(new ArrayBuffer(e.colors.length * 4)).set(e.colors);
-				let t = new dee(e.colors, 4);
+				let t = new mee(e.colors, 4);
 				(t.normalized = !0),
 					o.setAttribute(`color`, t),
 					(o.attributes.color.needsUpdate = !0);
 			}
 			if (e.overlayUVs) {
 				let t = new Float32Array(new ArrayBuffer(e.overlayUVs.length * 4));
-				t.set(e.overlayUVs), o.setAttribute(`overlayUV`, new Wn(t, 2));
+				t.set(e.overlayUVs), o.setAttribute(`overlayUV`, new Hn(t, 2));
 			}
 			if (e.animations) {
 				let t = new Uint8Array(new ArrayBuffer(e.animations.length));
-				t.set(e.animations), o.setAttribute(`animation`, new Wn(t, 2));
+				t.set(e.animations), o.setAttribute(`animation`, new Hn(t, 2));
 			}
 			return (
-				o.setAttribute(`normal`, new Wn(r, 3)),
-				o.setAttribute(`uv`, new Wn(i, 2)),
-				o.setIndex(new Wn(a, 1)),
+				o.setAttribute(`normal`, new Hn(r, 3)),
+				o.setAttribute(`uv`, new Hn(i, 2)),
+				o.setIndex(new Hn(a, 1)),
 				o.computeBoundingSphere(),
 				(o.attributes.position.needsUpdate = !0),
 				(o.attributes.normal.needsUpdate = !0),
@@ -71121,7 +71140,7 @@ var J = class e extends Jn {
 		}
 		initMeshWithGeometries(e, t = !1) {
 			let { material: n } = this.getRatioAndMaterial(this.skinName);
-			return t && (n.side = 2), new On(nr(e), n);
+			return t && (n.side = 2), new On(tr(e), n);
 		}
 		skinnedParts = [];
 		bakeSkinnedRig(e, t) {
@@ -71154,7 +71173,7 @@ var J = class e extends Jn {
 					u = new Float32Array(a * 4);
 				for (let e = 0; e < a; e++) (o[e * 4] = n), (u[e * 4] = 1);
 				r.setAttribute(`skinIndex`, new Un(o, 4)),
-					r.setAttribute(`skinWeight`, new Wn(u, 4)),
+					r.setAttribute(`skinWeight`, new Hn(u, 4)),
 					c.push(r),
 					(l ||= e.material);
 			}
@@ -71165,7 +71184,7 @@ var J = class e extends Jn {
 						t.attach(e.children[n]);
 				e.removeFromParent();
 			}
-			let u = nr(c);
+			let u = tr(c);
 			for (let e of c) e.dispose();
 			u.computeBoundingSphere(),
 				u.boundingSphere && (u.boundingSphere.radius *= 1.6),
@@ -71447,7 +71466,7 @@ var II = class extends J {
 		render(e, t, n) {}
 	},
 	zI = mn.prototype,
-	BI = new dr(1, 1, 1);
+	BI = new ur(1, 1, 1);
 function VI(e) {
 	let t = e.onBeforeCompile !== zI.onBeforeCompile,
 		n;
@@ -71471,8 +71490,8 @@ function HI(e) {
 	let r = t,
 		i = VI(r);
 	return (
-		(n._litBase = r.color instanceof dr ? r.color.clone() : BI.clone()),
-		(n._litColor = new dr()),
+		(n._litBase = r.color instanceof ur ? r.color.clone() : BI.clone()),
+		(n._litColor = new ur()),
 		(i.color = n._litColor),
 		(n._litOwned = i),
 		(e.material = i),
@@ -71688,7 +71707,7 @@ var KI = `enchanting_table_book`,
 		async build() {
 			let e = q.skinManager;
 			if (
-				(e.hasSkin($I) || (await e.NUpeIrRAwinrVcvvc(ZI, QI, eL)),
+				(e.hasSkin($I) || (await e.PPamzeRmIPrKmnVab(ZI, QI, eL)),
 				!e.hasSkin($I))
 			)
 				return;
@@ -71838,7 +71857,7 @@ function oL(e, t, n, r, i, a, o, s, c = 1, l = !1, u = 1, d = `#000000`) {
 		(i instanceof Object && (p = i),
 		f.beginPath(),
 		(f.font = p.font || i || `20px Arial`),
-		(f.textAlign = p.align || o || `default`),
+		(f.textAliAxisAlignedBoundingBox = p.aliAxisAlignedBoundingBox || o || `default`),
 		(f.globalAlpha = c),
 		(f.textBaseline = p.baseline || s || `default`),
 		l)
@@ -72058,20 +72077,20 @@ var mL = class extends J {
 		textMesh;
 		lines = [];
 		constructor(e, t) {
-			super(), this.addSign(e), this.updateText(t.signText, e);
+			super(), this.addSiAxisAlignedBoundingBox(e), this.updateText(t.siAxisAlignedBoundingBoxText, e);
 		}
 		needsRendering() {
 			return !0;
 		}
-		addSign(e) {
-			let t = `signs/` + e.block.type;
-			this.parts.signBoard = J.addBoxSpritesheet(0, 0, 24, 12, 2, t);
-			let n = this.initGeometry(`signBoard`),
+		addSiAxisAlignedBoundingBox(e) {
+			let t = `siAxisAlignedBoundingBoxs/` + e.block.type;
+			this.parts.siAxisAlignedBoundingBoxBoard = J.addBoxSpritesheet(0, 0, 24, 12, 2, t);
+			let n = this.initGeometry(`siAxisAlignedBoundingBoxBoard`),
 				r = [n];
 			if (e.getProp(`facing`) == null) {
 				n.translate(0, 13 / 16, 0),
-					(this.parts.signPost = J.addBoxSpritesheet(0, 14, 2, 14, 2, t));
-				let i = this.initGeometry(`signPost`);
+					(this.parts.siAxisAlignedBoundingBoxPost = J.addBoxSpritesheet(0, 14, 2, 14, 2, t));
+				let i = this.initGeometry(`siAxisAlignedBoundingBoxPost`);
 				r.push(i);
 				let a = this.initMeshWithGeometries(r);
 				a.geometry.scale(2 / 3, 2 / 3, 2 / 3);
@@ -72094,7 +72113,7 @@ var mL = class extends J {
 			let t = new Pn(this.canvas);
 			(t.minFilter = Mn), (t.magFilter = Mn);
 			let n = new yn({ map: t, side: 0, transparent: !0, alphaTest: 0.5 }),
-				r = new fn(1, 0.5);
+				r = new pn(1, 0.5);
 			(this.textMesh = new On(r, n)),
 				(this.textMesh.matrixAutoUpdate = !1),
 				(this.textMesh.matrixWorldAutoUpdate = !0),
@@ -72164,7 +72183,7 @@ var mL = class extends J {
 				}
 				case `ender_chest`:
 					return new XI(t.getProp(`facing`));
-				case `sign`:
+				case `siAxisAlignedBoundingBox`:
 					return new mL(t, e);
 				case `piston`:
 					return new nL(t, e);
@@ -72310,7 +72329,7 @@ var mL = class extends J {
 		duration;
 		constructor(e, t, n = 1) {
 			(this.position = e),
-				(this.rotation = t instanceof Dn ? new Zn().setFromEuler(t) : t),
+				(this.rotation = t instanceof Dn ? new Xn().setFromEuler(t) : t),
 				(this.duration = n);
 		}
 	},
@@ -72344,7 +72363,7 @@ var mL = class extends J {
 	vL = new (class {
 		fireMesh;
 		camera = new wn(75, window.innerWidth / window.innerHeight, 0.01, 1e7);
-		scene = new rr();
+		scene = new Zn();
 		constructor() {
 			this.scene.add(this.camera);
 			let e = new Bn(16777215, 3);
@@ -72352,13 +72371,13 @@ var mL = class extends J {
 		}
 	})(),
 	yL = new D(),
-	bL = new Zn(),
+	bL = new Xn(),
 	xL = new D(1.357, -0.958, -1.642),
-	SL = new Zn().setFromEuler(new Dn(-0.463, -1.565, 0)),
+	SL = new Xn().setFromEuler(new Dn(-0.463, -1.565, 0)),
 	CL = new D(0.696, 0.894, -0.405),
-	wL = new Zn().setFromEuler(new Dn(-1.67, 0.36, 1.467)),
+	wL = new Xn().setFromEuler(new Dn(-1.67, 0.36, 1.467)),
 	TL = new D(1.114, -2.674, -2.409),
-	EL = new Zn().setFromEuler(new Dn(-0.055, 0.775, 0.037)),
+	EL = new Xn().setFromEuler(new Dn(-0.055, 0.775, 0.037)),
 	DL = new gL(yL, bL, 1),
 	OL = new gL(new D(-1.595, 1.555, -1.925), new Dn(-0.77, -0.079, 0.267), 2),
 	kL = new gL(new D(-1.639, 0.806, -2.453), new Dn(-0.955, 0, 0.406), 3),
@@ -72376,18 +72395,18 @@ var mL = class extends J {
 	VL = new gL(new D(-1.595, 1.555, -1.925), new Dn(-0.77, -0.079, 0.267)),
 	HL = new gL(new D(-1.639, 0.806, -2.453), new Dn(-0.955, 0, 0.406)),
 	UL = new D(1.199, -1.1, -1.379),
-	WL = new Zn().setFromEuler(new Dn(-2.999, 0.968, -3.109)),
+	WL = new Xn().setFromEuler(new Dn(-2.999, 0.968, -3.109)),
 	GL = new D(0.8, -0.85, -1),
-	KL = new Zn().setFromEuler(new Dn(2.83, -0.54, 0.47)),
+	KL = new Xn().setFromEuler(new Dn(2.83, -0.54, 0.47)),
 	qL = new gL(yL, bL, 1),
 	JL = new gL(new D(-0.24, -0.32, -0.44), new Dn(0, 0.01, 0.5), 2),
 	YL = new gL(new D(-0.34, -0.62, -0.62), new Dn(-0.02, 0.2, 0.74)),
 	XL = new gL(new D(-0.82, -1.04, -1.12), new Dn(-0.41, -0.27, 1.05), 4),
 	ZL = new gL(new D(0.567, -0.958, -1.642), new Dn(-0.024, -0.024, 0.307), 1),
 	QL = new gL(new D(0.567, -1.658, -1.642), new Dn(-0.024, -0.024, 0.307), 2),
-	$L = new (class extends Jn {
-		item = new Jn();
-		fireGroup = new Jn();
+	$L = new (class extends Kn {
+		item = new Kn();
+		fireGroup = new Kn();
 		suffocationGroup = new On();
 		lastSuffocationBlock;
 		mesh = new On();
@@ -72464,10 +72483,10 @@ var mL = class extends J {
 			let e = 0.6,
 				t = this.getSpriteMesh(`fire_0`);
 			t.position.set(e, -1, -0.8);
-			let n = new Jn();
+			let n = new Kn();
 			n.rotation.set(0, 0.15 + Math.PI / 2, 0), n.add(t);
 			let r = this.getSpriteMesh(`fire_0`),
-				i = new Jn();
+				i = new Kn();
 			r.position.set(e, -1, -0.2),
 				i.rotation.set(0, -0.15 + Math.PI / 2, 0),
 				i.add(r),
@@ -72476,7 +72495,7 @@ var mL = class extends J {
 		initSuffocationMesh() {
 			let e = this.getSpriteMesh(`stone`),
 				t = 0.4;
-			(e.material.color = new dr(t, t, t)),
+			(e.material.color = new ur(t, t, t)),
 				e.position.set(0.25, -0.5, -0.5),
 				this.suffocationGroup.add(e),
 				(this.suffocationGroup.rotation.y = Math.PI / 2);
@@ -72541,7 +72560,7 @@ var mL = class extends J {
 			if (
 				Y.itemInUse &&
 				Y.getActiveItemStack() &&
-				((Y.mtrQfaVg() && Y.getActiveItemStack().item instanceof Up) ||
+				((Y.dUbFFSAE() && Y.getActiveItemStack().item instanceof Up) ||
 					(Y.getActiveItemStack().getItemUseAction() == jc.DRINK &&
 						Y.getActiveItemStack().item instanceof xm))
 			) {
@@ -72574,7 +72593,7 @@ var mL = class extends J {
 					? (this.swingLength.value = 0.04)
 					: (this.swingLength.value = 0);
 				let e = n.limbSwing - n.limbSwingAmount * (1 - n.getPartialTicks()),
-					t = n.mesh.xFBaQkidISAvZQj(),
+					t = n.mesh.PXLcEFbyzGDXEpO(),
 					r = 0.8,
 					i = Math.sin(e * r) * t * this.swingLength.value,
 					a =
@@ -72588,7 +72607,7 @@ var mL = class extends J {
 			}
 		}
 		update(e) {
-			let t = Y.NAGGredIRgPPpP();
+			let t = Y.GemuQbNnSvxDlK();
 			if (!t) return;
 			let n = t.model.skin,
 				r = q.skinManager.hasSkin(n);
@@ -72624,7 +72643,7 @@ var mL = class extends J {
 			let i = Y.getActiveItemStack(),
 				a = i.item;
 			(this.rightArm.visible = !1), (this.item.visible = !0);
-			let o = i.getMaxItemUseDuration() - Y.JYgvnBhtmDszAYCoJ(),
+			let o = i.getMaxItemUseDuration() - Y.xlELoMKnSVRzVoNVp(),
 				s = $.world.entities.get(Y.id),
 				c = a.equals(z.fishing_rod) && s instanceof Pp && s.fishEntity != null;
 			if (
@@ -72645,7 +72664,7 @@ var mL = class extends J {
 						this.tesr && (this.tesr.visible = !0),
 						(this.mesh.visible = !1))
 					: a.equals(z.bow)
-						? Y.swMiAwPeNfyf()
+						? Y.RDtnihVGojCP()
 							? o >= 18
 								? new II(Bp.BOW_TEXTURES[3], l, this.mesh, i.hasEffect())
 								: o > 13
@@ -73301,7 +73320,7 @@ var AR = class e {
 		setCurrentItemOrArmor(e, t) {
 			e == 0
 				? (this.inventory.mainInventory[this.inventory.currentItem] = t)
-				: (this.inventory.jWJBGiJnMUVIkc[e - 1] = t);
+				: (this.inventory.rWfLPzHTCWCzBE[e - 1] = t);
 		}
 		setPositionAndRotation2(e, t, n, r, i, a) {
 			this.otherPlayerPos.set(e, t, n),
@@ -73330,7 +73349,7 @@ var AR = class e {
 					this.otherPlayerMPPosRotationIncrements),
 					--this.otherPlayerMPPosRotationIncrements,
 					this.setPosition(e, t, n),
-					this.lZtwWlpkKOS(this.yaw, this.pitch);
+					this.vmvCXvZBbtI(this.yaw, this.pitch);
 			} else if (!this.extrapolationSettled) {
 				if (this.motion.x === 0 && this.motion.y === 0 && this.motion.z === 0)
 					return;
@@ -73375,7 +73394,7 @@ var AR = class e {
 				((this.limbSwingAmount += (n - this.limbSwingAmount) * 0.4),
 				(this.limbSwing += this.limbSwingAmount),
 				!this.isItemInUse &&
-					this.mtrQfaVg() &&
+					this.dUbFFSAE() &&
 					this.getActiveItemStack() != null)
 			) {
 				let e = this.inventory.mainInventory[this.inventory.currentItem];
@@ -73386,8 +73405,8 @@ var AR = class e {
 					(this.isItemInUse = !0);
 			} else
 				this.isItemInUse &&
-					!this.mtrQfaVg() &&
-					(this.gwAitYPKycVMVw(), (this.isItemInUse = !1));
+					!this.dUbFFSAE() &&
+					(this.BcgsaSGdkxAlWP(), (this.isItemInUse = !1));
 		}
 	},
 	RR = 1e3,
@@ -73408,7 +73427,7 @@ var UR = 0,
 document.addEventListener(`wheel`, function (e) {
 	if (!$.inGame()) return;
 	let t = (e.wheelDelta ?? 0) / 120;
-	Math.sign(t) != WR && (UR = 0), (UR += t), (WR = Math.sign(t));
+	Math.siAxisAlignedBoundingBox(t) != WR && (UR = 0), (UR += t), (WR = Math.siAxisAlignedBoundingBox(t));
 	let n = 0,
 		r = 50 / E.scrollSensitivity.value;
 	if (
@@ -73452,7 +73471,7 @@ var GR = IN({ x: window.innerWidth / 2, y: window.innerHeight / 2 }, 10),
 					vK.leftClick(), (GR.event = 0);
 					break;
 				case 2:
-					e.preventDefault(), vK.ngdafdDRXRO(), (GR.event = 2);
+					e.preventDefault(), vK.lfpHxSsTmOl(), (GR.event = 2);
 					break;
 				case 3:
 					(GR.event = 1), VR(), (vK.rightClick = !0), vK.rightClickMouse();
@@ -73468,7 +73487,7 @@ var GR = IN({ x: window.innerWidth / 2, y: window.innerHeight / 2 }, 10),
 					vK.leftClick(!0);
 					break;
 				case 2:
-					vK.ngdafdDRXRO(!0);
+					vK.lfpHxSsTmOl(!0);
 					break;
 				case 3:
 					(vK.rightClick = !1), Y.isUsingItem() && vK.onStoppedUsingItem(Y);
@@ -73560,7 +73579,7 @@ var qR = class {
 		get camera() {
 			return this.yawObject;
 		}
-		get CqNJfh() {
+		get WMOLyH() {
 			return this.camera.position;
 		}
 	})(),
@@ -73669,10 +73688,10 @@ function ZR(e, t, n, r, i) {
 		e.closePath();
 }
 var QR = class {
-	start = new Rn();
-	curr = new Rn();
-	prev = new Rn();
-	direction = new Rn();
+	start = new dr();
+	curr = new dr();
+	prev = new dr();
+	direction = new dr();
 	moveId = null;
 	lookId = null;
 	jumping = !1;
@@ -73681,7 +73700,7 @@ var QR = class {
 	startLook = 0;
 	lastLook = 0;
 	initialLoad = !0;
-	prevTouchPos = new Rn();
+	prevTouchPos = new dr();
 	constructor() {
 		this.initializeEventListeners();
 	}
@@ -73813,14 +73832,14 @@ var QR = class {
 			this.prev.set(e.clientX, e.clientY),
 			(KR.x = e.clientX),
 			(KR.y = e.clientY),
-			vK.pKCubPYuImBWBil(),
+			vK.kXrfsMtnnwcrUim(),
 			vK.objectMouseOver.block)
 		)
 			this.prevTouchPos.set(e.clientX, e.clientY),
 				(this.startLook = Date.now());
 		else if (vK.objectMouseOver.entity) {
 			let t = vK.objectMouseOver.entity;
-			t.pDwwZFUPwIhfpMQWkcv() || this.heldItemUsesOnEntity(t)
+			t.kWZPJoHcpYfmEByUjop() || this.heldItemUsesOnEntity(t)
 				? (this.prevTouchPos.set(e.clientX, e.clientY),
 					(this.startLook = Date.now()))
 				: vK.leftClick();
@@ -73903,7 +73922,7 @@ var QR = class {
 		this.moveId === null &&
 			(this.direction.x !== 0 || this.direction.y !== 0) &&
 			(this.direction.setScalar(0), this.setSprint(!1));
-		let e = this.prevTouchPos.distanceTo(new Rn(KR.x, KR.y));
+		let e = this.prevTouchPos.distanceTo(new dr(KR.x, KR.y));
 		this.startLook && e > 25 && (this.startLook = 0),
 			this.startLook &&
 				Date.now() - this.startLook > 300 &&
@@ -74209,7 +74228,7 @@ function ETe(e) {
 			return { sec: n, nsec: r };
 		default:
 			throw new rz(
-				`Unrecognized data size for timestamp (expected 4, 8, or 12): ${e.length}`,
+				`UnrecoAxisAlignedBoundingBoxized data size for timestamp (expected 4, 8, or 12): ${e.length}`,
 			);
 	}
 }
@@ -74292,7 +74311,7 @@ var ATe = 2048,
 				(this.initialBufferSize = e?.initialBufferSize ?? ATe),
 				(this.sortKeys = e?.sortKeys ?? !1),
 				(this.forceFloat32 = e?.forceFloat32 ?? !1),
-				(this.ignoreUndefined = e?.ignoreUndefined ?? !1),
+				(this.iAxisAlignedBoundingBoxoreUndefined = e?.iAxisAlignedBoundingBoxoreUndefined ?? !1),
 				(this.forceIntegerToFloat = e?.forceIntegerToFloat ?? !1),
 				(this.pos = 0),
 				(this.view = new DataView(new ArrayBuffer(this.initialBufferSize))),
@@ -74408,7 +74427,7 @@ var ATe = 2048,
 				else if (typeof e == `object`) this.encodeMap(e, t);
 				else
 					throw Error(
-						`Unrecognized object: ${Object.prototype.toString.apply(e)}`,
+						`UnrecoAxisAlignedBoundingBoxized object: ${Object.prototype.toString.apply(e)}`,
 					);
 			}),
 			(e.prototype.encodeBinary = function (e) {
@@ -74439,7 +74458,7 @@ var ATe = 2048,
 			(e.prototype.encodeMap = function (e, t) {
 				var n = Object.keys(e);
 				this.sortKeys && n.sort();
-				var r = this.ignoreUndefined
+				var r = this.iAxisAlignedBoundingBoxoreUndefined
 					? this.countWithoutUndefined(e, n)
 					: n.length;
 				if (r < 16) this.writeU8(128 + r);
@@ -74449,7 +74468,7 @@ var ATe = 2048,
 				for (var i = 0, a = n; i < a.length; i++) {
 					var o = a[i],
 						s = e[o];
-					(this.ignoreUndefined && s === void 0) ||
+					(this.iAxisAlignedBoundingBoxoreUndefined && s === void 0) ||
 						(this.encodeString(o), this.doEncode(s, t + 1));
 				}
 			}),
@@ -75106,7 +75125,7 @@ var _z = RangeError,
 					} else if (e === 201) {
 						var n = this.lookU32();
 						t = this.decodeExtension(n, 4);
-					} else throw new rz(`Unrecognized type byte: ${lz(e)}`);
+					} else throw new rz(`UnrecoAxisAlignedBoundingBoxized type byte: ${lz(e)}`);
 					this.complete();
 					for (var i = this.stack; i.length > 0; ) {
 						var a = i[i.length - 1];
@@ -75154,7 +75173,7 @@ var _z = RangeError,
 						return this.readU32();
 					default:
 						if (e < 160) return e - 144;
-						throw new rz(`Unrecognized array type byte: ${lz(e)}`);
+						throw new rz(`UnrecoAxisAlignedBoundingBoxized array type byte: ${lz(e)}`);
 				}
 			}),
 			(e.prototype.pushMapState = function (e) {
@@ -75287,7 +75306,7 @@ function WTe(e) {
 }
 function GTe(e) {
 	let t = { ...e };
-	tC(t, `react`), zde(`react`, { version: j.version });
+	eC(t, `react`), zde(`react`, { version: j.version });
 	let n = Hhe(t);
 	return Ly(KTe), n;
 }
@@ -75458,7 +75477,7 @@ var Dz = class extends j.Component {
 		return this.props.children;
 	}
 };
-Object.assign(Dz, {
+Object.assiAxisAlignedBoundingBox(Dz, {
 	defaultProps: { disabled: !1, includeRender: !0, includeUpdates: !0 },
 });
 function sEe(e, t) {
@@ -77014,11 +77033,11 @@ var oB = class e extends k {
 			this.runtime = A;
 		}
 		static {
-			this.typeName = `CPacketSignEditorOpen`;
+			this.typeName = `CPacketSiAxisAlignedBoundingBoxEditorOpen`;
 		}
 		static {
 			this.fields = A.util.newFieldList(() => [
-				{ no: 1, name: `signPosition`, kind: `message`, T: Hc },
+				{ no: 1, name: `siAxisAlignedBoundingBoxPosition`, kind: `message`, T: Hc },
 			]);
 		}
 		static fromBinary(t, n) {
@@ -78220,7 +78239,7 @@ var oB = class e extends k {
 			this.runtime = A;
 		}
 		static {
-			this.typeName = `SPacketUpdateSign`;
+			this.typeName = `SPacketUpdateSiAxisAlignedBoundingBox`;
 		}
 		static {
 			this.fields = A.util.newFieldList(() => [
@@ -79181,7 +79200,7 @@ var oB = class e extends k {
 				},
 				{
 					no: 39,
-					name: `CPacketSignEditorOpen`,
+					name: `CPacketSiAxisAlignedBoundingBoxEditorOpen`,
 					kind: `message`,
 					T: bB,
 					oneof: `packet`,
@@ -79258,7 +79277,7 @@ var oB = class e extends k {
 				},
 				{
 					no: 50,
-					name: `CPacketUpdateSign`,
+					name: `CPacketUpdateSiAxisAlignedBoundingBox`,
 					kind: `message`,
 					T: fm,
 					oneof: `packet`,
@@ -79836,7 +79855,7 @@ var oB = class e extends k {
 		CPacketScoreboard: _B,
 		CPacketServerInfo: eB,
 		CPacketSetSlot: yB,
-		CPacketSignEditorOpen: bB,
+		CPacketSiAxisAlignedBoundingBoxEditorOpen: bB,
 		CPacketSoundEffect: xB,
 		CPacketSpawnEntity: SB,
 		CPacketSpawnPlayer: wB,
@@ -79846,7 +79865,7 @@ var oB = class e extends k {
 		CPacketUpdateHealth: DB,
 		CPacketUpdateLeaderboard: OB,
 		CPacketUpdateScoreboard: kB,
-		CPacketUpdateSign: fm,
+		CPacketUpdateSiAxisAlignedBoundingBox: fm,
 		CPacketUpdateStatus: AB,
 		CPacketWindowItems: jB,
 		CPacketWindowProperty: MB,
@@ -79892,7 +79911,7 @@ var oB = class e extends k {
 		SPacketPlayerPosLook: _P,
 		SPacketRespawn: _Ee,
 		SPacketTabComplete: vEe,
-		SPacketUpdateSign: HB,
+		SPacketUpdateSiAxisAlignedBoundingBox: HB,
 		SPacketUseEntity: cR,
 		SPacketUpdateCommandBlock: cV,
 		SPacketQueueNext: PN,
@@ -80580,7 +80599,7 @@ var yDe = (function () {
 		}
 		request(e = {}) {
 			return (
-				Object.assign(e, { xd: this.xd }, this.opts), new WV(KV, this.uri(), e)
+				Object.assiAxisAlignedBoundingBox(e, { xd: this.xd }, this.opts), new WV(KV, this.uri(), e)
 			);
 		}
 	};
@@ -80865,7 +80884,7 @@ var QV = class e extends IV {
 				let t = e.prototype.name;
 				this.transports.push(t), (this._transportsByName[t] = e);
 			}),
-			(this.opts = Object.assign(
+			(this.opts = Object.assiAxisAlignedBoundingBox(
 				{
 					path: `/engine.io`,
 					agent: !1,
@@ -80908,9 +80927,9 @@ var QV = class e extends IV {
 			this._open();
 	}
 	createTransport(e) {
-		let t = Object.assign({}, this.opts.query);
+		let t = Object.assiAxisAlignedBoundingBox({}, this.opts.query);
 		(t.EIO = 4), (t.transport = e), this.id && (t.sid = this.id);
-		let n = Object.assign(
+		let n = Object.assiAxisAlignedBoundingBox(
 			{},
 			this.opts,
 			{
@@ -81532,7 +81551,7 @@ var BDe = Object.freeze({
 				(this.io = e),
 				(this.nsp = t),
 				n && n.auth && (this.auth = n.auth),
-				(this._opts = Object.assign({}, n)),
+				(this._opts = Object.assiAxisAlignedBoundingBox({}, n)),
 				this.io._autoConnect && this.open();
 		}
 		get disconnected() {
@@ -81625,7 +81644,7 @@ var BDe = Object.freeze({
 				tryCount: 0,
 				pending: !1,
 				args: e,
-				flags: Object.assign({ fromQueue: !0 }, this.flags),
+				flags: Object.assiAxisAlignedBoundingBox({ fromQueue: !0 }, this.flags),
 			};
 			e.push(
 				(e, ...r) => (
@@ -81664,7 +81683,7 @@ var BDe = Object.freeze({
 			this.packet({
 				type: aH.CONNECT,
 				data: this._pid
-					? Object.assign({ pid: this._pid, offset: this._lastOffset }, e)
+					? Object.assiAxisAlignedBoundingBox({ pid: this._pid, offset: this._lastOffset }, e)
 					: e,
 			});
 		}
@@ -82104,7 +82123,7 @@ function fH(e, t) {
 		c.socket(n.path, t)
 	);
 }
-Object.assign(fH, { Manager: uH, Socket: cH, io: fH, connect: fH });
+Object.assiAxisAlignedBoundingBox(fH, { Manager: uH, Socket: cH, io: fH, connect: fH });
 var VDe = `modulepreload`,
 	HDe = function (e) {
 		return `/` + e;
@@ -82289,7 +82308,7 @@ var VDe = `modulepreload`,
 				),
 				mH(
 					() =>
-						import(`./OptionsManager-ChSO_Hp-.js`)
+						import(`./OptionsManager-5s1SAfJR.js`)
 							.then((e) => e.n)
 							.then((e) => e.default),
 					__vite__mapDeps([0, 1]),
@@ -82573,7 +82592,7 @@ var VDe = `modulepreload`,
 	vH,
 	yH =
 		typeof TextDecoder < `u`
-			? new TextDecoder(`utf-8`, { ignoreBOM: !0, fatal: !0 })
+			? new TextDecoder(`utf-8`, { iAxisAlignedBoundingBoxoreBOM: !0, fatal: !0 })
 			: {
 					decode: () => {
 						throw Error(`TextDecoder not available`);
@@ -83054,7 +83073,7 @@ var nOe = LH().then(() => WDe),
 			(t.exports = o);
 	}),
 	iOe = i((e, t) => {
-		t.exports = `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`;
+		t.exports = `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`;
 	}),
 	aOe = i((e) => {
 		var t = hr();
@@ -84527,7 +84546,7 @@ var yU = (e) => (e < 256 ? uU[e] : uU[256 + (e >>> 7)]),
 					e.dyn_dtree[yU(t) * 2]++),
 			e.sym_next === e.sym_end
 		),
-		_tr_align: (e) => {
+		_tr_aliAxisAlignedBoundingBox: (e) => {
 			xU(e, KH << 1, 3), SU(e, tU, cU), gOe(e);
 		},
 	},
@@ -84609,7 +84628,7 @@ var yU = (e) => (e < 256 ? uU[e] : uU[256 + (e >>> 7)]),
 		_tr_stored_block: RU,
 		_tr_flush_block: DOe,
 		_tr_tally: zU,
-		_tr_align: OOe,
+		_tr_aliAxisAlignedBoundingBox: OOe,
 	} = wOe,
 	{
 		Z_NO_FLUSH: BU,
@@ -85580,7 +85599,7 @@ var EW = (e) => {
 	},
 	XOe = (e, t) => Object.prototype.hasOwnProperty.call(e, t),
 	jW = {
-		assign: function (e) {
+		assiAxisAlignedBoundingBox: function (e) {
 			let t = Array.prototype.slice.call(arguments, 1);
 			for (; t.length; ) {
 				let n = t.shift();
@@ -85741,7 +85760,7 @@ var FW = $Oe,
 		Z_DEFLATED: ske,
 	} = LU;
 function RW(e) {
-	this.options = jW.assign(
+	this.options = jW.assiAxisAlignedBoundingBox(
 		{
 			level: ake,
 			method: ske,
@@ -87053,7 +87072,7 @@ var kke = Oke,
 		Z_MEM_ERROR: Nke,
 	} = LU;
 function ZG(e) {
-	this.options = jW.assign(
+	this.options = jW.assiAxisAlignedBoundingBox(
 		{ chunkSize: 1024 * 64, windowBits: 15, to: `` },
 		e || {},
 	);
@@ -87380,10 +87399,10 @@ var $ke = {
 			}
 		}
 		set(e) {
-			Object.assign(this.config, e),
+			Object.assiAxisAlignedBoundingBox(this.config, e),
 				O.info(`[NetworkSimulator] config updated`, this.config);
 		}
-		rzDcqffj(e, t = `recv`) {
+		KAeqRmiS(e, t = `recv`) {
 			return this.config.enabled
 				? this.config.packetLoss > 0 && Math.random() < this.config.packetLoss
 					? !1
@@ -87401,7 +87420,7 @@ var $ke = {
 		}
 		enqueue(e, t) {
 			let n = Math.max(
-				performance.now() + this.kEGXOKUkxbLj(),
+				performance.now() + this.HhPyGZBzVSzz(),
 				this.lastDeliveryAt[e],
 			);
 			(this.lastDeliveryAt[e] = n),
@@ -87415,7 +87434,7 @@ var $ke = {
 			this.draining[e] = !0;
 			let n = Math.max(0, t[0].deliverAt - performance.now()),
 				r = setTimeout(() => {
-					this.PJOeBgKEejp(r), (this.draining[e] = !1);
+					this.pJlUABFXcjl(r), (this.draining[e] = !1);
 					let n = t.shift();
 					try {
 						n?.action();
@@ -87427,11 +87446,11 @@ var $ke = {
 		}
 		scheduleUnordered(e, t) {
 			let n = setTimeout(() => {
-				this.PJOeBgKEejp(n), t();
-			}, this.kEGXOKUkxbLj());
+				this.pJlUABFXcjl(n), t();
+			}, this.HhPyGZBzVSzz());
 			this.pendingTimers.push(n);
 		}
-		kEGXOKUkxbLj() {
+		HhPyGZBzVSzz() {
 			let { latencyMs: e, jitterMs: t } = this.config,
 				n = t > 0 ? (Math.random() * 2 - 1) * t : 0;
 			return Math.max(0, e + n);
@@ -87445,7 +87464,7 @@ var $ke = {
 				(this.lastDeliveryAt.recv = this.lastDeliveryAt.send =
 					performance.now());
 		}
-		PJOeBgKEejp(e) {
+		pJlUABFXcjl(e) {
 			let t = this.pendingTimers.indexOf(e);
 			t !== -1 && this.pendingTimers.splice(t, 1);
 		}
@@ -87518,7 +87537,7 @@ var rAe = {
 									return;
 								}
 								for (let e of t)
-									pK.netSim.rzDcqffj(() => this.emit(`decoded`, e));
+									pK.netSim.KAeqRmiS(() => this.emit(`decoded`, e));
 							}),
 							(this.worker.onerror = (e) => {
 								O.error(`NetworkDecodeWorker crashed; decoding inline`, e),
@@ -87584,7 +87603,7 @@ var rAe = {
 										this.inlinePrimeCtx,
 									);
 								for (let e of r)
-									pK.netSim.rzDcqffj(() => this.emit(`decoded`, e));
+									pK.netSim.KAeqRmiS(() => this.emit(`decoded`, e));
 							} catch (e) {
 								O.error(`ClientDecoder.add`, e), hS(e);
 							}
@@ -87672,7 +87691,7 @@ var rAe = {
 		}
 		static sendPacket(e) {
 			let t = e.constructor.typeName;
-			this.netSim.rzDcqffj(() => {
+			this.netSim.KAeqRmiS(() => {
 				this.socket?.emit(t, e);
 			}, `send`);
 		}
@@ -87680,12 +87699,12 @@ var rAe = {
 	mK = new (class {
 		lastSentSlot = -1;
 		isHittingBlock = !1;
-		ofQsURLeQblUpqltGAz() {
+		nqArFPJJRvdYrCYFBdE() {
 			let e = Y.inventory.currentItem;
 			e !== this.lastSentSlot &&
 				((this.lastSentSlot = e), pK.sendPacket(new RB({ slot: e })));
 		}
-		XfxJBlEOuTRme() {
+		DQSigIrzMBYno() {
 			return this.isHittingBlock;
 		}
 		sendEnchantPacket(e, t) {
@@ -87716,19 +87735,19 @@ var rAe = {
 		reset() {
 			this.key.leftClick = 0;
 		}
-		JQXgqtfwRautNaAODbbMz() {
+		VolLbJFbIcgErWEzdejvT() {
 			return Y.abilities.creative ? 5 : 4.5;
 		}
 		leftClick(e) {
 			if (e) (this.key.leftClick = 0), (this.currBreakingLocation = null);
 			else if ((VR(), Q.isActive() || Q.isMobile)) {
-				this.pKCubPYuImBWBil();
+				this.kXrfsMtnnwcrUim();
 				let t = this.punch();
 				Y.abilities.creative && !e && !t && this.mine(!0);
 			}
 		}
-		ngdafdDRXRO(e) {
-			e || (Q.isActive() && this.PFEkNHLKR());
+		lfpHxSsTmOl(e) {
+			e || (Q.isActive() && this.LIQQKaoxJ());
 		}
 		rightClickMouse(e = !1) {
 			if (!$.inGame() || $.info.menus.isOpen(`inventory`)) return;
@@ -87740,14 +87759,14 @@ var rAe = {
 				this.objectMouseOver.typeOfHit === Gu.ENTITY &&
 				this.objectMouseOver.entity
 			)
-				this.KcoiknuKXufrMjrkoTfgOoyLsWoM(Y, this.objectMouseOver.entity);
+				this.hlLRIFnmzttCZhngbhwaUBndSxDJ(Y, this.objectMouseOver.entity);
 			else if (this.objectMouseOver.typeOfHit === Gu.BLOCK) {
 				let e = this.objectMouseOver,
 					n = e.block;
 				if ($.world.getBlockState(n).getBlock().material != L.air) {
 					let r = t == null ? 0 : t.stackSize;
 					if (
-						(this.vEmCHetWjDokhvXSER(Y, $.world, t, n, e.side, e.hitVec) &&
+						(this.eSHzMhgrHHZnQKWiBc(Y, $.world, t, n, e.side, e.hitVec) &&
 							$L.swingArm(),
 						t == null)
 					)
@@ -87761,10 +87780,10 @@ var rAe = {
 							$L.swingArm());
 				}
 			}
-			this.ExuVvEvKPtd(Y, $.world, t, e) && t != null && $L.swingArm();
+			this.EbyPXWIJPWf(Y, $.world, t, e) && t != null && $L.swingArm();
 		}
-		vEmCHetWjDokhvXSER(e, t, n, r, i, a) {
-			mK.ofQsURLeQblUpqltGAz();
+		eSHzMhgrHHZnQKWiBc(e, t, n, r, i, a) {
+			mK.nqArFPJJRvdYrCYFBdE();
 			let o = a.x - r.x,
 				s = a.y - r.y,
 				c = a.z - r.z;
@@ -87792,11 +87811,11 @@ var rAe = {
 				return a && n.item.isItemBlock() && (pR.markPlaced(), Mt.light()), a;
 			}
 		}
-		ExuVvEvKPtd(e, t, n, r = !1) {
+		EbyPXWIJPWf(e, t, n, r = !1) {
 			if (
 				e.mode.isSpectator() ||
 				(r && n != null && n.getItemUseAction() === jc.BLOCK) ||
-				(mK.ofQsURLeQblUpqltGAz(), pK.sendPacket(new aR()), n == null)
+				(mK.nqArFPJJRvdYrCYFBdE(), pK.sendPacket(new aR()), n == null)
 			)
 				return !1;
 			let i = n.stackSize,
@@ -87825,7 +87844,7 @@ var rAe = {
 			);
 		}
 		onStoppedUsingItem(e) {
-			mK.ofQsURLeQblUpqltGAz(),
+			mK.nqArFPJJRvdYrCYFBdE(),
 				pK.sendPacket(
 					new sR({
 						position: F.ORIGIN.toProto(),
@@ -87833,7 +87852,7 @@ var rAe = {
 						action: eR.RELEASE_USE_ITEM,
 					}),
 				),
-				e.lEHUwJAIBSZfq();
+				e.jXyAswstWqqak();
 		}
 		select() {
 			if (Y.mode.isSpectator()) {
@@ -87889,7 +87908,7 @@ var rAe = {
 			}
 		}
 		attackEntity(e) {
-			mK.ofQsURLeQblUpqltGAz(),
+			mK.nqArFPJJRvdYrCYFBdE(),
 				pK.sendPacket(
 					new cR({
 						id: e.id,
@@ -87904,12 +87923,12 @@ var rAe = {
 						sequence: Y.inputSequenceNumber,
 					}),
 				),
-				Y.uBwOIvcOIwwmaALTvFbqEZNSKZZIsFhrT(e),
+				Y.YUdZzNLwUnBkriLexiuIBGEtksgSKcDtb(e),
 				Mt.hit();
 		}
-		KcoiknuKXufrMjrkoTfgOoyLsWoM(e, t) {
+		hlLRIFnmzttCZhngbhwaUBndSxDJ(e, t) {
 			return t
-				? (mK.ofQsURLeQblUpqltGAz(),
+				? (mK.nqArFPJJRvdYrCYFBdE(),
 					pK.sendPacket(
 						new cR({
 							id: t.id,
@@ -87924,7 +87943,7 @@ var rAe = {
 					!0)
 				: !1;
 		}
-		NTBYsvgRGyfZvMAvmFCMGSHJxQ(e) {
+		wNdELdWiSPICHWlGtWvTEvRdob(e) {
 			for (let t = 0; t < 9; t++)
 				if (Y.inventory.main[t] && Y.inventory.main[t].item.equals(e)) return t;
 			for (let e = 0; e < 9; e++) if (!Y.inventory.main[e]) return e;
@@ -87939,8 +87958,8 @@ var rAe = {
 			let e = this.getTargetedBlockCoords();
 			return e ? $.world.getBlockState(e) : null;
 		}
-		ucuVEBGukDufwGwcUYG() {
-			let e = Y.eZNOQQMvp(),
+		BQGsFXoizMOCHJzidcK() {
+			let e = Y.JGcTZgeqO(),
 				t = Y.getLook().clone().normalize(),
 				n = ((KR.x - mR.rectLeft) / mR.rectWidth) * 2 - 1,
 				r = ((KR.y - mR.rectTop) / mR.rectHeight) * 2 - 1,
@@ -87955,11 +87974,11 @@ var rAe = {
 				f = t.add(u).add(d).normalize().multiplyScalar(100);
 			return e.clone().add(f);
 		}
-		pKCubPYuImBWBil() {
+		kXrfsMtnnwcrUim() {
 			if (!$.inGame() || Y.getHealth() < 0) return;
-			let e = this.JQXgqtfwRautNaAODbbMz(),
+			let e = this.VolLbJFbIcgErWEzdejvT(),
 				t = null,
-				n = Y.eZNOQQMvp(),
+				n = Y.JGcTZgeqO(),
 				r = Y.getLook(),
 				i = n.clone().add(r.multiplyScalar(e)),
 				a =
@@ -87968,7 +87987,7 @@ var rAe = {
 						(Date.now() - ez.lastLook > 500 && ez.lookId == null));
 			JR.enabled || a
 				? (this.objectMouseOver = Ju(Y, $.world, e))
-				: ((i = this.ucuVEBGukDufwGwcUYG()),
+				: ((i = this.BQGsFXoizMOCHJzidcK()),
 					(this.objectMouseOver = qu(n, i, !0, !1, !1, $.world)));
 			let o = e;
 			this.objectMouseOver != null &&
@@ -88005,7 +88024,7 @@ var rAe = {
 			(l < o || this.objectMouseOver == null) &&
 				(this.objectMouseOver = new Ku(Gu.ENTITY, s, null, null, t));
 		}
-		PFEkNHLKR() {
+		LIQQKaoxJ() {
 			if (!Y.abilities.creative) return;
 			let e = this.getTargetedBlockState();
 			if (!e) return;
@@ -88017,17 +88036,17 @@ var rAe = {
 				let e = $.world.getTileEntity(this.getTargetedBlockCoords());
 				e instanceof sm && (r = { skinOwner: e.skinOwner });
 			} else if (t instanceof zg) {
-				n = z.getItemByName(t.type + `_sign`);
+				n = z.getItemByName(t.type + `_siAxisAlignedBoundingBox`);
 				let e = $.world.getTileEntity(this.getTargetedBlockCoords());
 				e instanceof pm &&
-					e.signText.some((e) => e) &&
-					(r = { signText: [...e.signText] });
+					e.siAxisAlignedBoundingBoxText.some((e) => e) &&
+					(r = { siAxisAlignedBoundingBoxText: [...e.siAxisAlignedBoundingBoxText] });
 			} else {
 				if (!t.hasItemForm()) return;
 				n = z.getItemByBlock(t);
 			}
 			if (!n) return;
-			let i = this.NTBYsvgRGyfZvMAvmFCMGSHJxQ(n),
+			let i = this.wNdELdWiSPICHWlGtWvTEvRdob(n),
 				a = new Hp(n);
 			r && (a.data = r),
 				(Y.inventory.main[i] = a),
@@ -88084,7 +88103,7 @@ var rAe = {
 						let e = Y.getActiveItemStack();
 						e != null &&
 							(e.onBlockDestroyed($.world, s, i, Y),
-							e.stackSize == 0 && Y.QPycmqqBffxgBkBOUFyKqwinyR());
+							e.stackSize == 0 && Y.tThxDsKdEoebDvBunrSaobVuFo());
 					}
 					this.key.leftClick = Date.now();
 				} else
@@ -88151,7 +88170,7 @@ var rAe = {
 					this.rightClickMouse();
 		}
 		render() {
-			this.pKCubPYuImBWBil(), this.select(), this.mine();
+			this.kXrfsMtnnwcrUim(), this.select(), this.mine();
 		}
 	})(),
 	yK = 0.5,
@@ -88159,7 +88178,7 @@ var rAe = {
 	lAe = 1,
 	bK = 1.35,
 	uAe = -16 / $P,
-	dAe = class extends Fn {
+	dAe = class extends In {
 		_scene;
 		_camera;
 		_chunkMeshes;
@@ -88182,7 +88201,7 @@ var rAe = {
 		_time = 0;
 		_intensity = bK;
 		_occluderExclude = null;
-		_prevClearColor = new dr();
+		_prevClearColor = new ur();
 		constructor(e) {
 			super(),
 				(this._scene = e.scene),
@@ -88200,11 +88219,11 @@ var rAe = {
 					depthTest: !0,
 					side: 0,
 				}));
-			let t = { minFilter: Tn, magFilter: Tn, type: Sn, wrapS: or, wrapT: or };
-			(this.emissiveTarget = new gn(1, 1, { ...t, depthBuffer: !0 })),
-				(this.blurTargetA = new gn(1, 1, { ...t, depthBuffer: !1 })),
-				(this.blurTargetB = new gn(1, 1, { ...t, depthBuffer: !1 })),
-				(this.emissiveMaterial = new zn({
+			let t = { minFilter: Tn, magFilter: Tn, type: Sn, wrapS: ar, wrapT: ar };
+			(this.emissiveTarget = new En(1, 1, { ...t, depthBuffer: !0 })),
+				(this.blurTargetA = new En(1, 1, { ...t, depthBuffer: !1 })),
+				(this.blurTargetB = new En(1, 1, { ...t, depthBuffer: !1 })),
+				(this.emissiveMaterial = new nr({
 					uniforms: {
 						map: { value: null },
 						time: { value: 0 },
@@ -88265,8 +88284,8 @@ var rAe = {
         gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0);
       }
     `;
-			(this.blurMaterial = new zn({
-				uniforms: { tDiffuse: { value: null }, direction: { value: new Rn() } },
+			(this.blurMaterial = new nr({
+				uniforms: { tDiffuse: { value: null }, direction: { value: new dr() } },
 				vertexShader: n,
 				fragmentShader: `
         uniform sampler2D tDiffuse;
@@ -88284,7 +88303,7 @@ var rAe = {
 				depthTest: !1,
 				depthWrite: !1,
 			})),
-				(this.compositeMaterial = new zn({
+				(this.compositeMaterial = new nr({
 					uniforms: {
 						tDiffuse: { value: null },
 						tBloom: { value: null },
@@ -88305,8 +88324,8 @@ var rAe = {
 					depthTest: !1,
 					depthWrite: !1,
 				})),
-				(this.blurQuad = new Kn(this.blurMaterial)),
-				(this.compositeQuad = new Kn(this.compositeMaterial));
+				(this.blurQuad = new Wn(this.blurMaterial)),
+				(this.compositeQuad = new Wn(this.compositeMaterial));
 		}
 		setIntensity(e) {
 			(this._intensity = e),
@@ -88475,7 +88494,7 @@ var rAe = {
     gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0);
   }
 `,
-	yAe = class extends Fn {
+	yAe = class extends In {
 		_lumTargets = [];
 		_adaptTargets;
 		_adaptIndex = 0;
@@ -88491,17 +88510,17 @@ var rAe = {
 				minFilter: Tn,
 				magFilter: Tn,
 				type: Sn,
-				format: tr,
+				format: er,
 				depthBuffer: !1,
 				stencilBuffer: !1,
-				wrapS: or,
-				wrapT: or,
+				wrapS: ar,
+				wrapT: ar,
 			};
 			for (let t = fAe; t >= 1; t = Math.floor(t / 2))
-				this._lumTargets.push(new gn(t, t, e));
+				this._lumTargets.push(new En(t, t, e));
 			let t = { ...e, minFilter: Mn, magFilter: Mn };
-			(this._adaptTargets = [new gn(1, 1, t), new gn(1, 1, t)]),
-				(this._luminanceMaterial = new zn({
+			(this._adaptTargets = [new En(1, 1, t), new En(1, 1, t)]),
+				(this._luminanceMaterial = new nr({
 					uniforms: { tDiffuse: { value: null } },
 					vertexShader: SK,
 					fragmentShader: `
@@ -88518,7 +88537,7 @@ var rAe = {
 					depthWrite: !1,
 					blending: 0,
 				})),
-				(this._downsampleMaterial = new zn({
+				(this._downsampleMaterial = new nr({
 					uniforms: { tDiffuse: { value: null } },
 					vertexShader: SK,
 					fragmentShader: `
@@ -88532,7 +88551,7 @@ var rAe = {
 					depthWrite: !1,
 					blending: 0,
 				})),
-				(this._adaptMaterial = new zn({
+				(this._adaptMaterial = new nr({
 					uniforms: {
 						tCurrentLum: { value: null },
 						tPreviousAdapt: { value: null },
@@ -88563,7 +88582,7 @@ var rAe = {
 					depthWrite: !1,
 					blending: 0,
 				})),
-				(this._applyMaterial = new zn({
+				(this._applyMaterial = new nr({
 					uniforms: {
 						tDiffuse: { value: null },
 						tAdapt: { value: null },
@@ -88600,7 +88619,7 @@ var rAe = {
 					depthWrite: !1,
 					blending: 0,
 				})),
-				(this._quad = new Kn(this._luminanceMaterial));
+				(this._quad = new Wn(this._luminanceMaterial));
 		}
 		setStrength(e) {
 			this._applyMaterial.uniforms.strength.value = kn.clamp(e, 0, 1);
@@ -88682,10 +88701,10 @@ var CAe = class {
 		maskMaterial;
 		compositeMaterial;
 		compositeQuad;
-		_prevClearColor = new dr();
-		_size = new Rn();
+		_prevClearColor = new ur();
+		_size = new dr();
 		constructor() {
-			(this.maskTarget = new gn(1, 1, {
+			(this.maskTarget = new En(1, 1, {
 				minFilter: Tn,
 				magFilter: Tn,
 				depthBuffer: !1,
@@ -88698,10 +88717,10 @@ var CAe = class {
 					depthTest: !1,
 					depthWrite: !1,
 				})),
-				(this.compositeMaterial = new zn({
+				(this.compositeMaterial = new nr({
 					uniforms: {
 						tMask: { value: null },
-						texel: { value: new Rn() },
+						texel: { value: new dr() },
 						thickness: { value: CK },
 					},
 					vertexShader: `
@@ -88743,9 +88762,9 @@ var CAe = class {
 					depthTest: !1,
 					depthWrite: !1,
 				})),
-				(this.compositeQuad = new Kn(this.compositeMaterial));
+				(this.compositeQuad = new Wn(this.compositeMaterial));
 		}
-		OFfnYTzSBB() {
+		QeGsSofTZG() {
 			this.entries.length = 0;
 		}
 		add(e, t, n) {
@@ -88875,14 +88894,14 @@ function jAe(e) {
 function MAe(e) {
 	return 2.6 + (e / 100) * -2;
 }
-var NAe = class extends er {
+var NAe = class extends $n {
 		constructor() {
 			super({
 				uniforms: {
 					tDiffuse: { value: null },
 					time: { value: 0 },
 					intensity: { value: 0 },
-					tint: { value: new dr(16391446) },
+					tint: { value: new ur(16391446) },
 				},
 				vertexShader: `
         varying vec2 vUv;
@@ -88922,16 +88941,16 @@ var NAe = class extends er {
           float b = texture2D(tDiffuse, sampleUv - fringe).b;
           vec3 color = vec3(r, g, b);
 
-          // Colour wash toward the portal tint, strongest at the edges (vignette) so the centre
+          // Colour wash toward the portal tint, strongest at the edges (viAxisAlignedBoundingBoxette) so the centre
           // stays a touch clearer — this replaces the old flat coloured overlay. A gentle pulse
           // keeps it alive.
           float pulse = 0.85 + 0.15 * sin(time * 2.0);
-          float vignette = smoothstep(0.15, 0.9, dist);
-          float tintAmount = clamp(intensity * (0.30 + 0.45 * vignette) * pulse, 0.0, 0.92);
+          float viAxisAlignedBoundingBoxette = smoothstep(0.15, 0.9, dist);
+          float tintAmount = clamp(intensity * (0.30 + 0.45 * viAxisAlignedBoundingBoxette) * pulse, 0.0, 0.92);
           color = mix(color, tint, tintAmount);
 
           // Slight darkening toward the rim to sell the tunnel-vision.
-          color *= 1.0 - intensity * vignette * 0.25;
+          color *= 1.0 - intensity * viAxisAlignedBoundingBoxette * 0.25;
 
           gl_FragColor = vec4(color, 1.0);
         }
@@ -88980,7 +88999,7 @@ var NAe = class extends er {
 			tLinearViewZ: { value: null },
 			reflectionNear: { value: 0.01 },
 			reflectionFar: { value: 256 },
-			reflectionResolution: { value: new Rn(1, 1) },
+			reflectionResolution: { value: new dr(1, 1) },
 			reflectionProjectionMatrix: { value: new bn() },
 			reflectionViewMatrix: { value: new bn() },
 			reflectionViewMatrixInverse: { value: new bn() },
@@ -88995,30 +89014,30 @@ var NAe = class extends er {
 		_linearDepthCamera;
 		_linearDepthMaterial;
 		constructor() {
-			let e = new ur(1, 1);
+			let e = new cr(1, 1);
 			(e.type = Cee),
 				(this.depthTexture = e),
-				(e.wrapS = or),
-				(e.wrapT = or),
-				(this.target = new gn(1, 1, {
+				(e.wrapS = ar),
+				(e.wrapT = ar),
+				(this.target = new En(1, 1, {
 					minFilter: Tn,
 					magFilter: Tn,
 					depthTexture: e,
 					depthBuffer: !0,
 				})),
 				(this.target.texture.colorSpace = fr),
-				(this.target.texture.wrapS = or),
-				(this.target.texture.wrapT = or),
-				(this.linearViewZTarget = new gn(1, 1, {
+				(this.target.texture.wrapS = ar),
+				(this.target.texture.wrapT = ar),
+				(this.linearViewZTarget = new En(1, 1, {
 					minFilter: Mn,
 					magFilter: Mn,
 					type: _n,
-					format: qn,
+					format: Gn,
 					depthBuffer: !1,
 				})),
-				(this.linearViewZTarget.texture.wrapS = or),
-				(this.linearViewZTarget.texture.wrapT = or),
-				(this._linearDepthMaterial = new zn({
+				(this.linearViewZTarget.texture.wrapS = ar),
+				(this.linearViewZTarget.texture.wrapT = ar),
+				(this._linearDepthMaterial = new nr({
 					uniforms: {
 						tDepth: { value: e },
 						near: { value: 0.01 },
@@ -89029,9 +89048,9 @@ var NAe = class extends er {
 					depthTest: !1,
 					depthWrite: !1,
 				})),
-				(this._linearDepthScene = new rr()),
+				(this._linearDepthScene = new Zn()),
 				this._linearDepthScene.add(
-					new On(new fn(2, 2), this._linearDepthMaterial),
+					new On(new pn(2, 2), this._linearDepthMaterial),
 				),
 				(this._linearDepthCamera = new Nn(-1, 1, 1, -1, 0, 1));
 		}
@@ -89147,7 +89166,7 @@ var NAe = class extends er {
 function zAe() {
 	if (AK) return;
 	AK = !0;
-	let e = Yn.shadowmap_pars_fragment,
+	let e = qn.shadowmap_pars_fragment,
 		t = e.replace(RAe, LAe);
 	if (t === e) {
 		console.warn(
@@ -89155,7 +89174,7 @@ function zAe() {
 		);
 		return;
 	}
-	Yn.shadowmap_pars_fragment = t;
+	qn.shadowmap_pars_fragment = t;
 }
 var jK = { submerged: !1, depthBelowSurface: 0, lava: !1 };
 function BAe(e, t = 0, n = !1) {
@@ -89217,12 +89236,12 @@ var XAe = class {
 			if (this.texture) return;
 			let e = this.N * this.N * this.N * 4;
 			(this.frontData = new Uint8Array(e)), (this.backData = new Uint8Array(e));
-			let t = new Ln(this.frontData, this.N, this.N, this.N);
-			(t.format = tr),
-				(t.type = sr),
+			let t = new Rn(this.frontData, this.N, this.N, this.N);
+			(t.format = er),
+				(t.type = Fn),
 				(t.minFilter = Tn),
 				(t.magFilter = Tn),
-				(t.wrapS = t.wrapT = t.wrapR = or),
+				(t.wrapS = t.wrapT = t.wrapR = ar),
 				(t.needsUpdate = !0),
 				(this.texture = t);
 		}
@@ -89448,7 +89467,7 @@ var XAe = class {
   //
   // Reconstructing at the FAR PLANE (a sky pixel, depth ~ 1.0) is numerically dangerous: with
   // far = 1e7 the perspective w resolves to clip.z*(near-far) + (far+near), the difference of two
-  // ~1e7 float32 values, which catastrophically cancels to near-zero noise whose sign and magnitude
+  // ~1e7 float32 values, which catastrophically cancels to near-zero noise whose siAxisAlignedBoundingBox and maAxisAlignedBoundingBoxitude
   // depend on the GPU's rounding. On ANGLE/D3D11 (Windows Chrome) it lands positive and the sky
   // renders; on ANGLE/Metal (macOS Chrome) it can round to zero or negative, so the divide explodes
   // to Inf and viewPos.xyz / viewDist becomes Inf/Inf = NaN — the NaN poisons the in-scattered
@@ -89461,7 +89480,7 @@ var XAe = class {
   // view points for a pixel are all collinear with the camera origin, so the ray direction is
   // identical at any depth — but mid-depth keeps w well clear of zero, free of the far-plane
   // cancellation. The true depth is used only for the DISTANCE (guarded divide), which the caller
-  // ignores for sky pixels (it marches to uMaxDistance instead).
+  // iAxisAlignedBoundingBoxores for sky pixels (it marches to uMaxDistance instead).
   void reconstruct(vec2 uv, float depth, out float viewDist, out vec3 rayDir) {
     vec2 ndc = uv * 2.0 - 1.0;
 
@@ -89471,7 +89490,7 @@ var XAe = class {
     rayDir = normalize(mat3(uCameraMatrixWorld) * dirView);
 
     // Surface distance from the true depth. length(v/w) == length(v)/|w|, so dividing by the guarded
-    // |w| keeps the magnitude correct while making a far-plane sky pixel's ~0 w resolve to a large-
+    // |w| keeps the maAxisAlignedBoundingBoxitude correct while making a far-plane sky pixel's ~0 w resolve to a large-
     // but-finite distance instead of Inf/NaN (it is unused for sky, but must never go non-finite).
     vec4 viewPos = uInvProjection * vec4(ndc, depth * 2.0 - 1.0, 1.0);
     viewDist = length(viewPos.xyz) / max(abs(viewPos.w), 1e-6);
@@ -89869,11 +89888,11 @@ var XAe = class {
 	oje = 0,
 	sje = 0.15,
 	cje = 0.5,
-	lje = new dr(1, 0.95, 0.85),
+	lje = new ur(1, 0.95, 0.85),
 	uje = 0.9,
 	dje = 1.4,
 	fje = 6,
-	pje = class extends Fn {
+	pje = class extends In {
 		_raymarch;
 		_composite;
 		_quad;
@@ -89900,15 +89919,15 @@ var XAe = class {
 				minFilter: Tn,
 				magFilter: Tn,
 				type: Sn,
-				format: tr,
+				format: er,
 				depthBuffer: !1,
 				stencilBuffer: !1,
-				wrapS: or,
-				wrapT: or,
+				wrapS: ar,
+				wrapT: ar,
 			};
-			(this._fogTargets = [new gn(1, 1, e), new gn(1, 1, e)]),
-				(this._raymarch = new zn({
-					glslVersion: pn,
+			(this._fogTargets = [new En(1, 1, e), new En(1, 1, e)]),
+				(this._raymarch = new nr({
+					glslVersion: iee,
 					vertexShader: $Ae,
 					fragmentShader: eje,
 					depthTest: !1,
@@ -89937,8 +89956,8 @@ var XAe = class {
 						uFogVolTex: { value: GF() },
 						uFogVolOrigin: { value: new D() },
 						uFogVolInvExtent: { value: new D(1, 1, 1) },
-						uSkyColor: { value: new dr(0.6, 0.7, 0.9) },
-						uFogColor: { value: new dr(1, 1, 1) },
+						uSkyColor: { value: new ur(0.6, 0.7, 0.9) },
+						uFogColor: { value: new ur(1, 1, 1) },
 						uSunLight: { value: 1 },
 						uGodRayEnabled: { value: 0 },
 						uSunDir: { value: new D(0, 1, 0) },
@@ -89959,7 +89978,7 @@ var XAe = class {
 						uDebugView: { value: 0 },
 					},
 				})),
-				(this._composite = new zn({
+				(this._composite = new nr({
 					vertexShader: tje,
 					fragmentShader: nje,
 					depthTest: !1,
@@ -89968,19 +89987,19 @@ var XAe = class {
 						tScene: { value: null },
 						tFog: { value: null },
 						tDepth: { value: null },
-						uFogTexel: { value: new Rn(1, 1) },
+						uFogTexel: { value: new dr(1, 1) },
 						uNear: { value: 0.01 },
 						uFar: { value: 1e3 },
 						uMinTransmittance: { value: sje },
 						uDebugView: { value: 0 },
 						uGodRayEnabled: { value: 0 },
-						uSunScreenPos: { value: new Rn(-1, -1) },
+						uSunScreenPos: { value: new dr(-1, -1) },
 						uSunOnScreen: { value: 0 },
 						uSunIntensity: { value: 1 },
 						uAspect: { value: 1 },
 					},
 				})),
-				(this._quad = new Kn(this._raymarch)),
+				(this._quad = new Wn(this._raymarch)),
 				this.reconfigure(),
 				E.volumetricFog.onChange(() => this.reconfigure()),
 				E.fogDensity.onChange(() => this.reconfigure()),
@@ -90376,12 +90395,12 @@ var xje = 1,
 			(this.frontData = new Uint8Array(t)),
 				(this.backData = new Uint8Array(t)),
 				(this.blurScratch = null);
-			let n = new Ln(this.frontData, this.N, this.N, this.N);
-			(n.format = tr),
-				(n.type = sr),
+			let n = new Rn(this.frontData, this.N, this.N, this.N);
+			(n.format = er),
+				(n.type = Fn),
 				(n.minFilter = Tn),
 				(n.magFilter = Tn),
-				(n.wrapS = n.wrapT = n.wrapR = or),
+				(n.wrapS = n.wrapT = n.wrapR = ar),
 				(n.needsUpdate = !0),
 				(this.texture = n);
 		}
@@ -90668,7 +90687,7 @@ var xje = 1,
 		static REBUILD_INTERVAL = 10;
 		static EMISSIVE_THRESHOLD = 0.25;
 		constructor(e, t) {
-			(this.gi = t), (this.geometry = new Hn());
+			(this.gi = t), (this.geometry = new Vn());
 			let n = new See({
 				size: 0.6,
 				vertexColors: !0,
@@ -90676,7 +90695,7 @@ var xje = 1,
 				depthWrite: !1,
 				transparent: !0,
 			});
-			(this.points = new pee(this.geometry, n)),
+			(this.points = new fee(this.geometry, n)),
 				(this.points.visible = !1),
 				(this.points.frustumCulled = !1),
 				e.add(this.points);
@@ -90718,8 +90737,8 @@ var xje = 1,
 			this.positions.length !== c * 3 &&
 				((this.positions = new Float32Array(c * 3)),
 				(this.colors = new Float32Array(c * 3)),
-				this.geometry.setAttribute(`position`, new Wn(this.positions, 3)),
-				this.geometry.setAttribute(`color`, new Wn(this.colors, 3)));
+				this.geometry.setAttribute(`position`, new Hn(this.positions, 3)),
+				this.geometry.setAttribute(`color`, new Hn(this.colors, 3)));
 			let l = this.positions,
 				u = this.colors,
 				d = i / 2,
@@ -90766,7 +90785,7 @@ var xje = 1,
 		static composer;
 		static game;
 		static reflectionBuffer;
-		static drawingBufferSize = new Rn();
+		static drawingBufferSize = new dr();
 		static voxelGI;
 		static voxelGIDebug;
 		static giFocus = new D();
@@ -90781,9 +90800,9 @@ var xje = 1,
 		static _fogParams = {
 			depthTexture: null,
 			camera: null,
-			skyColor: new dr(),
+			skyColor: new ur(),
 			sunLight: 1,
-			fogColor: new dr(1, 1, 1),
+			fogColor: new ur(1, 1, 1),
 			fogBaseHeight: 64,
 			dimensionDensity: 1,
 			caveFactor: 1,
@@ -90800,7 +90819,7 @@ var xje = 1,
 			strength: 1.5,
 			phasePower: 1.6,
 		};
-		static _fogSkyFallback = new dr(0.6, 0.72, 0.92);
+		static _fogSkyFallback = new ur(0.6, 0.72, 0.92);
 		static set renderUnderWater(e) {
 			(jK.submerged = e), e || (jK.depthBelowSurface = 0);
 		}
@@ -90810,7 +90829,7 @@ var xje = 1,
 		static init(e) {
 			(this.game = e),
 				zAe(),
-				(this.renderer = new ir({
+				(this.renderer = new rr({
 					antialias: E.antialiasing.value,
 					stencil: !0,
 					powerPreference: `high-performance`,
@@ -90845,11 +90864,11 @@ var xje = 1,
 				})),
 				(this.bloomPass.enabled = !1),
 				this.composer.addPass(this.bloomPass),
-				(this.colorPass = new er({
+				(this.colorPass = new $n({
 					uniforms: {
 						tDiffuse: { value: null },
 						tSceneDepth: { value: null },
-						underwaterTint: { value: new dr(3034466) },
+						underwaterTint: { value: new ur(3034466) },
 						time: { value: 0 },
 						useWaterAbsorption: { value: 0 },
 						useLightRefraction: { value: 0 },
@@ -90904,14 +90923,14 @@ var xje = 1,
 
             // Lava counterpart to the underwater murk: a near-opaque molten overlay (vanilla-style)
             // so you can only see a block or two. Depth-free — needs no scene-depth capture — with a
-            // vignette so the very centre stays slightly clearer and a slow flicker to keep it alive.
+            // viAxisAlignedBoundingBoxette so the very centre stays slightly clearer and a slow flicker to keep it alive.
             vec3 applyLavaOverlay(vec3 sceneRgb, vec2 uv, float t) {
               vec3 lavaNear = vec3(1.0, 0.42, 0.12);
               vec3 lavaEdge = vec3(0.5, 0.1, 0.02);
-              float vignette = smoothstep(0.0, 0.7, length(uv - 0.5));
-              vec3 molten = mix(lavaNear, lavaEdge, vignette);
+              float viAxisAlignedBoundingBoxette = smoothstep(0.0, 0.7, length(uv - 0.5));
+              vec3 molten = mix(lavaNear, lavaEdge, viAxisAlignedBoundingBoxette);
               molten *= 0.92 + 0.08 * sin(t * 0.25 + uv.x * 8.0 + uv.y * 6.0);
-              float opacity = mix(0.85, 0.97, vignette); // centre ~15% visible, edges almost opaque
+              float opacity = mix(0.85, 0.97, viAxisAlignedBoundingBoxette); // centre ~15% visible, edges almost opaque
               return mix(sceneRgb, molten, opacity);
             }
 
@@ -90971,15 +90990,15 @@ var xje = 1,
 				(this.portalPass.enabled = !1),
 				this.composer.addPass(this.portalPass);
 			let n = this.composer.renderTarget2;
-			(this.sceneDepthTexture = new ur(
+			(this.sceneDepthTexture = new cr(
 				Math.max(1, n.width),
 				Math.max(1, n.height),
 			)),
 				(this.sceneDepthTexture.type = _n),
 				(this.sceneDepthTexture.minFilter = Mn),
 				(this.sceneDepthTexture.magFilter = Mn),
-				(this.sceneDepthTexture.wrapS = or),
-				(this.sceneDepthTexture.wrapT = or),
+				(this.sceneDepthTexture.wrapS = ar),
+				(this.sceneDepthTexture.wrapT = ar),
 				(n.depthTexture = this.sceneDepthTexture),
 				(this.fogPass = new pje()),
 				(this.fogPass.enabled = !1),
@@ -91064,22 +91083,22 @@ var xje = 1,
 				}
 		}
 		static buildWorldWarmGroup(e) {
-			let t = new Jn(),
+			let t = new Kn(),
 				n = (e, n, r) => {
 					if (!e) return;
-					let i = new Hn();
-					i.setAttribute(`position`, new Wn(new Float32Array(9), 3)),
-						i.setAttribute(`normal`, new Wn(new Float32Array(9), 3)),
-						i.setAttribute(`uv`, new Wn(new Float32Array(6), 2)),
-						i.setAttribute(`overlayUV`, new Wn(new Float32Array(6), 2)),
-						i.setAttribute(`animation`, new Wn(new Float32Array(6), 2)),
-						i.setAttribute(`color`, new Wn(new Float32Array(12), 4)),
-						i.setAttribute(`light`, new Wn(new Float32Array(9), 3)),
-						i.setAttribute(`emissive`, new Wn(new Float32Array(3), 1)),
+					let i = new Vn();
+					i.setAttribute(`position`, new Hn(new Float32Array(9), 3)),
+						i.setAttribute(`normal`, new Hn(new Float32Array(9), 3)),
+						i.setAttribute(`uv`, new Hn(new Float32Array(6), 2)),
+						i.setAttribute(`overlayUV`, new Hn(new Float32Array(6), 2)),
+						i.setAttribute(`animation`, new Hn(new Float32Array(6), 2)),
+						i.setAttribute(`color`, new Hn(new Float32Array(12), 4)),
+						i.setAttribute(`light`, new Hn(new Float32Array(9), 3)),
+						i.setAttribute(`emissive`, new Hn(new Float32Array(3), 1)),
 						n
-							? (i.setAttribute(`fluidKind`, new Wn(new Float32Array(3), 1)),
-								i.setAttribute(`waveBlend`, new Wn(new Float32Array(3), 1)))
-							: i.setAttribute(`wave`, new Wn(new Float32Array(3), 1)),
+							? (i.setAttribute(`fluidKind`, new Hn(new Float32Array(3), 1)),
+								i.setAttribute(`waveBlend`, new Hn(new Float32Array(3), 1)))
+							: i.setAttribute(`wave`, new Hn(new Float32Array(3), 1)),
 						i.setIndex([0, 1, 2]);
 					let a = new On(i, e);
 					(a.receiveShadow = r), t.add(a);
@@ -91113,8 +91132,8 @@ var xje = 1,
 				for (let e of this.eyeAdaptationPass?.warmupMaterials ?? []) s(e);
 			if (E.volumetricFog.value || E.godRays.value !== `Off`)
 				for (let e of this.fogPass?.warmupMaterials ?? []) s(e);
-			let c = new Jn(),
-				l = new fn(2, 2);
+			let c = new Kn(),
+				l = new pn(2, 2);
 			for (let e of o) c.add(new On(l, e));
 			let u = performance.now(),
 				d = this.renderer.info.programs?.length ?? 0,
@@ -91228,11 +91247,11 @@ var xje = 1,
 			]);
 		}
 		static buildItemWarmMesh() {
-			let e = new Hn();
-			e.setAttribute(`position`, new Wn(new Float32Array(9), 3)),
-				e.setAttribute(`normal`, new Wn(new Float32Array(9), 3)),
-				e.setAttribute(`uv`, new Wn(new Float32Array(6), 2)),
-				e.setAttribute(`color`, new Wn(new Float32Array(12), 4)),
+			let e = new Vn();
+			e.setAttribute(`position`, new Hn(new Float32Array(9), 3)),
+				e.setAttribute(`normal`, new Hn(new Float32Array(9), 3)),
+				e.setAttribute(`uv`, new Hn(new Float32Array(6), 2)),
+				e.setAttribute(`color`, new Hn(new Float32Array(12), 4)),
 				e.setIndex([0, 1, 2]);
 			let t = new On(e);
 			return (t.frustumCulled = !1), t;
@@ -91246,7 +91265,7 @@ var xje = 1,
 			);
 			if (n.length === 0) return;
 			let r = this.buildItemWarmMesh(),
-				i = new Jn();
+				i = new Kn();
 			i.add(r);
 			try {
 				for (let a of n)
@@ -91267,13 +91286,13 @@ var xje = 1,
 			let { camera: n, scene: r, sun: i } = t,
 				a = this.buildSkinnedWarmMesh();
 			(a.material = zq), (a.castShadow = !0);
-			let o = new Hn();
-			o.setAttribute(`position`, new Wn(new Float32Array(9), 3)),
-				o.setAttribute(`normal`, new Wn(new Float32Array(9), 3)),
+			let o = new Vn();
+			o.setAttribute(`position`, new Hn(new Float32Array(9), 3)),
+				o.setAttribute(`normal`, new Hn(new Float32Array(9), 3)),
 				o.setIndex([0, 1, 2]);
 			let s = new On(o, zq);
 			(s.castShadow = !0), (s.frustumCulled = !1);
-			let c = new Jn();
+			let c = new Kn();
 			c.add(a, s);
 			let l = i.sunlight.castShadow;
 			try {
@@ -91315,7 +91334,7 @@ var xje = 1,
 			let t = this.renderer,
 				n = this.game?.gameScene?.camera;
 			if (!t || !n) return;
-			let r = new rr();
+			let r = new Zn();
 			r.add(e);
 			let i = new Bn(16777215, 1),
 				a = new hn(16777215, 1);
@@ -91332,7 +91351,7 @@ var xje = 1,
 			let s = t.getRenderTarget(),
 				c = t.shadowMap.autoUpdate,
 				l = t.shadowMap.needsUpdate,
-				u = new gn(1, 1, { depthBuffer: !0 });
+				u = new En(1, 1, { depthBuffer: !0 });
 			try {
 				t.setRenderTarget(u),
 					(t.shadowMap.autoUpdate = !1),
@@ -91362,7 +91381,7 @@ var xje = 1,
 				o = e.shadowMap.autoUpdate,
 				s = e.shadowMap.needsUpdate,
 				c = i.sunlight.castShadow,
-				l = new gn(1, 1, { depthBuffer: !0 });
+				l = new En(1, 1, { depthBuffer: !0 });
 			try {
 				(i.sunlight.castShadow = !0),
 					e.setRenderTarget(l),
@@ -91392,8 +91411,8 @@ var xje = 1,
 		static async warmPasses(e) {
 			let t = e.filter((e) => !!e);
 			if (t.length === 0 || !this.renderer || !this.game?.gameScene) return;
-			let n = new Jn(),
-				r = new fn(2, 2);
+			let n = new Kn(),
+				r = new pn(2, 2);
 			for (let e of t) n.add(new On(r, e));
 			try {
 				await this.renderer.compileAsync(n, this.game.gameScene.camera),
@@ -91436,7 +91455,7 @@ var xje = 1,
 			if (i.length === 0) return;
 			let a = E.worldShadowsEnabled(),
 				o = E.bloom.value > 0 && !!this.bloomPass,
-				s = new rr();
+				s = new Zn();
 			s.add(e);
 			let c = new Bn(16777215, 1),
 				l = new hn(16777215, 1),
@@ -91460,7 +91479,7 @@ var xje = 1,
 			let p = t.getRenderTarget(),
 				m = t.shadowMap.autoUpdate,
 				h = t.shadowMap.needsUpdate,
-				g = new gn(1, 1, { depthBuffer: !0 });
+				g = new En(1, 1, { depthBuffer: !0 });
 			try {
 				if (
 					(t.setRenderTarget(g),
@@ -91496,18 +91515,18 @@ var xje = 1,
 			}
 		}
 		static buildSkinnedWarmMesh() {
-			let e = new Hn();
-			e.setAttribute(`position`, new Wn(new Float32Array(9), 3)),
-				e.setAttribute(`normal`, new Wn(new Float32Array(9), 3)),
-				e.setAttribute(`uv`, new Wn(new Float32Array(6), 2)),
+			let e = new Vn();
+			e.setAttribute(`position`, new Hn(new Float32Array(9), 3)),
+				e.setAttribute(`normal`, new Hn(new Float32Array(9), 3)),
+				e.setAttribute(`uv`, new Hn(new Float32Array(6), 2)),
 				e.setAttribute(`skinIndex`, new Un(new Uint16Array(12), 4)),
-				e.setAttribute(`skinWeight`, new Wn(new Float32Array(12), 4)),
+				e.setAttribute(`skinWeight`, new Hn(new Float32Array(12), 4)),
 				e.setIndex([0, 1, 2]);
-			let t = new ar(e),
+			let t = new Jn(e),
 				n = new yee();
 			return (
 				t.add(n),
-				t.bind(new Xn([n])),
+				t.bind(new zn([n])),
 				(t.receiveShadow = !0),
 				(t.castShadow = !0),
 				(t.frustumCulled = !1),
@@ -91535,7 +91554,7 @@ var xje = 1,
 			)
 				return;
 			let l = this.buildSkinnedWarmMesh(),
-				u = new Jn();
+				u = new Kn();
 			u.add(l);
 			let d = E.shadowsEnabled(),
 				f = E.bloom.value > 0 && !!this.bloomPass,
@@ -91563,7 +91582,7 @@ var xje = 1,
 			let a = this.renderer,
 				o = this.game?.gameScene?.camera;
 			if (!a || !o) return;
-			let s = new rr();
+			let s = new Zn();
 			s.add(t);
 			let c = new Bn(16777215, 1),
 				l = new hn(16777215, 1),
@@ -91582,7 +91601,7 @@ var xje = 1,
 			let d = a.getRenderTarget(),
 				f = a.shadowMap.autoUpdate,
 				p = a.shadowMap.needsUpdate,
-				m = new gn(1, 1, { depthBuffer: !0 });
+				m = new En(1, 1, { depthBuffer: !0 });
 			try {
 				if ((a.setRenderTarget(m), (a.shadowMap.autoUpdate = !1), r))
 					for (let t of n)
@@ -91644,7 +91663,7 @@ var xje = 1,
 				this.bloomPass.enabled)
 			) {
 				this.bloomPass.setStrength(E.bloom.value / 100);
-				let e = Y.NAGGredIRgPPpP();
+				let e = Y.GemuQbNnSvxDlK();
 				this.bloomPass.update(l, c?.userData?.time?.value ?? 0, e ?? null);
 			}
 			if (q.materialFluidWorld)
@@ -91994,11 +92013,11 @@ var YK = null;
 function XK() {
 	if (YK) return YK;
 	let e = document.createElement(`canvas`),
-		t = new ir({ canvas: e, alpha: !0 });
+		t = new rr({ canvas: e, alpha: !0 });
 	t.setClearColor(16777215, 0), t.setSize(128, 128), (t.outputColorSpace = fr);
 	let n = new Nn(-0.85, 0.85, 0.85, -0.85);
 	n.lookAt(-1, -0.7, -1);
-	let r = new rr();
+	let r = new Zn();
 	r.add(n), r.add(new Bn(`#FFFFFF`, 1.5));
 	let i = new hn(`white`, 1.5);
 	return (
@@ -92335,7 +92354,7 @@ var nq = document.getElementById(`canvas-hud`).getContext(`2d`),
 				(r instanceof Object && (d = r),
 				aq.beginPath(),
 				(aq.font = d.font || r || `20px Arial`),
-				(aq.textAlign = d.align || a || `default`),
+				(aq.textAliAxisAlignedBoundingBox = d.aliAxisAlignedBoundingBox || a || `default`),
 				(aq.globalAlpha = s),
 				(aq.textBaseline = d.baseline || o || `default`),
 				c)
@@ -92412,7 +92431,7 @@ var cq = class extends oq {
 		dragSplitting;
 		dragSplittingLimit;
 		dragSplittingButton;
-		ignoreMouseUp;
+		iAxisAlignedBoundingBoxoreMouseUp;
 		dragSplittingRemnant;
 		lastClickTime;
 		lastClickSlot;
@@ -92512,7 +92531,7 @@ var cq = class extends oq {
 					this.lastClickSlot.slotNumber == e.slotNumber &&
 					i - this.lastClickTime < 250 &&
 					this.lastClickButton == t),
-				(this.ignoreMouseUp = !1),
+				(this.iAxisAlignedBoundingBoxoreMouseUp = !1),
 				t == 0 || t == 1 || r)
 			) {
 				let r = -1;
@@ -92533,7 +92552,7 @@ var cq = class extends oq {
 								: r == -999 && (i = 4),
 								this.handleMouseClick(e, r, t, i);
 						}
-						this.ignoreMouseUp = !0;
+						this.iAxisAlignedBoundingBoxoreMouseUp = !0;
 					} else
 						(this.dragSplitting = !0),
 							(this.dragSplittingButton = t),
@@ -92561,7 +92580,7 @@ var cq = class extends oq {
 					this.lastClickSlot.slotNumber == i.slotNumber &&
 					a - this.lastClickTime < 250 &&
 					this.lastClickButton == n),
-				(this.ignoreMouseUp = !1),
+				(this.iAxisAlignedBoundingBoxoreMouseUp = !1),
 				n == 0 || n == 1 || r)
 			) {
 				let r = this.guiLeft,
@@ -92589,7 +92608,7 @@ var cq = class extends oq {
 								: s == -999 && (t = 4),
 								this.handleMouseClick(i, s, n, t);
 						}
-						this.ignoreMouseUp = !0;
+						this.iAxisAlignedBoundingBoxoreMouseUp = !0;
 					} else
 						(this.dragSplitting = !0),
 							(this.dragSplittingButton = n),
@@ -92652,11 +92671,11 @@ var cq = class extends oq {
 				if (this.dragSplitting && this.dragSplittingButton != t) {
 					(this.dragSplitting = !1),
 						this.dragSplittingSlots.clear(),
-						(this.ignoreMouseUp = !0);
+						(this.iAxisAlignedBoundingBoxoreMouseUp = !0);
 					return;
 				}
-				if (this.ignoreMouseUp) {
-					this.ignoreMouseUp = !1;
+				if (this.iAxisAlignedBoundingBoxoreMouseUp) {
+					this.iAxisAlignedBoundingBoxoreMouseUp = !1;
 					return;
 				}
 				if (this.dragSplitting && this.dragSplittingSlots.size > 0) {
@@ -92725,11 +92744,11 @@ var cq = class extends oq {
 				if (this.dragSplitting && this.dragSplittingButton != n) {
 					(this.dragSplitting = !1),
 						this.dragSplittingSlots.clear(),
-						(this.ignoreMouseUp = !0);
+						(this.iAxisAlignedBoundingBoxoreMouseUp = !0);
 					return;
 				}
-				if (this.ignoreMouseUp) {
-					this.ignoreMouseUp = !1;
+				if (this.iAxisAlignedBoundingBoxoreMouseUp) {
+					this.iAxisAlignedBoundingBoxoreMouseUp = !1;
 					return;
 				}
 				if (this.dragSplitting && this.dragSplittingSlots.size > 0) {
@@ -93028,7 +93047,7 @@ var Gje = class extends cq {
 		}
 		async compositeFullScreen(e, t = {}) {
 			let { domToPng: n } = await mH(async () => {
-					let { domToPng: e } = await import(`./dist-NusTCjaN.js`);
+					let { domToPng: e } = await import(`./dist-8EYOKJl2.js`);
 					return { domToPng: e };
 				}, []),
 				r = UK.renderer.domElement,
@@ -93118,7 +93137,7 @@ var Gje = class extends cq {
 		oldMouseX;
 		oldMouseY;
 		constructor(e) {
-			super(e.inventoryContainer), Y.FpYVzKjDsQQrJQ();
+			super(e.inventoryContainer), Y.TGISKuiVJWASRI();
 		}
 		updateScreen() {}
 		initGui() {
@@ -93422,7 +93441,7 @@ var Xje = 200,
 				(this.pendingInputs = []),
 				this.predictedStates.clear();
 		}
-		okZngWxMdIcbGYKchUsdGV() {
+		jxPVGSWqJnWjGIeGjUZOjV() {
 			(this.pendingInputs = []), this.predictedStates.clear();
 		}
 		serverUsesInputMovement() {
@@ -93438,9 +93457,9 @@ var Xje = 200,
 				this.mode.isSpectator()
 			);
 		}
-		nFRYqLHsMiFqndbZQvgFq() {
+		ehnScOvUHXlbesenXBPbo() {
 			(this.sentInputThisTick = !1),
-				(this.WtjwRKKoMH = 0),
+				(this.ehLnHaYjaS = 0),
 				(this.moveForward = 0);
 			let e = hq(`d`) || hq(`right`) || ez.direction.x > 0,
 				t = hq(`a`) || hq(`left`) || ez.direction.x < 0,
@@ -93472,10 +93491,10 @@ var Xje = 200,
 			i &&
 				(this.pendingInputs.push(this.currentInput),
 				pK.sendPacket(this.currentInput)),
-				this.DeYzpyfYoc(this.currentInput),
+				this.zHPmrfzFab(this.currentInput),
 				(this.sentInputThisTick = i);
 		}
-		nXkyLhOPeNJDoIVqZ() {
+		MsVtJDRkxseZXEylL() {
 			if (
 				this.sentInputThisTick &&
 				(this.predictedStates.set(this.inputSequenceNumber, Yje(this)),
@@ -93485,14 +93504,14 @@ var Xje = 200,
 				e !== void 0 && this.predictedStates.delete(e);
 			}
 		}
-		IaaLYzVPWJoOMOuq(e, t, n) {
+		yBQoVqbNfpuuHefs(e, t, n) {
 			(this.renderOffset.x += e - this.pos.x),
 				(this.renderOffset.y += t - this.pos.y),
 				(this.renderOffset.z += n - this.pos.z);
 			let r = this.renderOffset.length();
 			r > yq && this.renderOffset.multiplyScalar(yq / r);
 		}
-		uLdbjBvfZfmqgRftUkGnVkn(e) {
+		WNQhXdAqLquCUUXNXXfypCa(e) {
 			if (
 				(e.ackId != null &&
 					(e.ackId > this.lastServerAckId ||
@@ -93504,7 +93523,7 @@ var Xje = 200,
 					n = this.pos.y,
 					r = this.pos.z;
 				this.setPosition(e.x, e.y, e.z),
-					this.IaaLYzVPWJoOMOuq(t, n, r),
+					this.yBQoVqbNfpuuHefs(t, n, r),
 					this.motion.set(0, 0, 0),
 					e.onGround != null && (this.onGround = e.onGround),
 					(this.jumpTicks = 0),
@@ -93549,30 +93568,30 @@ var Xje = 200,
 				!this.isRiding() &&
 				this.isSprinting() &&
 				this.setSprinting(!1),
-				this.nFRYqLHsMiFqndbZQvgFq(),
+				this.ehnScOvUHXlbesenXBPbo(),
 				this.isUsingItem() && !this.isRiding() && (this.sprintToggleTimer = 0);
 			let o = this.width * 0.35;
-			this.GGUxaAuNbGvmqgs(
+			this.riKimPyBmnPzBqM(
 				this.pos.x - o,
 				this.getEntityBoundingBox().min.y + 0.5,
 				this.pos.z + o,
 			),
-				this.GGUxaAuNbGvmqgs(
+				this.riKimPyBmnPzBqM(
 					this.pos.x - o,
 					this.getEntityBoundingBox().min.y + 0.5,
 					this.pos.z - o,
 				),
-				this.GGUxaAuNbGvmqgs(
+				this.riKimPyBmnPzBqM(
 					this.pos.x + o,
 					this.getEntityBoundingBox().min.y + 0.5,
 					this.pos.z - o,
 				),
-				this.GGUxaAuNbGvmqgs(
+				this.riKimPyBmnPzBqM(
 					this.pos.x + o,
 					this.getEntityBoundingBox().min.y + 0.5,
 					this.pos.z + o,
 				),
-				this.nXkyLhOPeNJDoIVqZ();
+				this.MsVtJDRkxseZXEylL();
 			let s = this.getFoodStats().getFoodLevel() > 6 || this.abilities.mayFly,
 				c = hq(`shift`),
 				l = c;
@@ -93648,33 +93667,33 @@ var Xje = 200,
 					!this.mode.isSpectator() &&
 					(this.abilities.flying = !1);
 		}
-		GGUxaAuNbGvmqgs(e, t, n) {
+		riKimPyBmnPzBqM(e, t, n) {
 			return this.noPhysics || $.serverInfo.serverCategory === `blockhunt`
 				? !1
-				: super.GGUxaAuNbGvmqgs(e, t, n);
+				: super.riKimPyBmnPzBqM(e, t, n);
 		}
 		updateFallState(e, t, n, r) {
-			this.inWater || this.lmXWleCazlfJFvUFMrx(),
+			this.inWater || this.zqPkxmzZEVAnEpkRTxw(),
 				super.updateFallState(e, t, n, r);
 		}
-		OcUlzfXFGHvhZqMFbybVXqDYR(e) {
+		JkMyVxlsGhayDeyzuqZIiQazc(e) {
 			let t = e.up();
 			for (; t.y < 256; ) {
 				if (!$.world.getBlockState(t).getBlock().equals(B.water))
-					return t.y - JR.CqNJfh.y;
+					return t.y - JR.WMOLyH.y;
 				t = t.up();
 			}
-			return 256 - JR.CqNJfh.y;
+			return 256 - JR.WMOLyH.y;
 		}
-		qSdJBkfsZXujiexV() {
+		JtdBmBBWNzaWCSSh() {
 			Y.headInBlock = null;
-			let e = F.fromVector(JR.CqNJfh),
+			let e = F.fromVector(JR.WMOLyH),
 				t = $.world.getBlockState(e),
 				n = t.getBlock();
 			n.setBlockBoundsBasedOnState($.world, e);
 			let r = n.equals(B.water),
 				i = n.material === L.lava;
-			BAe(r || i, r ? this.OcUlzfXFGHvhZqMFbybVXqDYR(e) : 0, i),
+			BAe(r || i, r ? this.JkMyVxlsGhayDeyzuqZIiQazc(e) : 0, i),
 				n.isFullCube(t) &&
 					(n.blocksMovement() &&
 						n
@@ -93683,16 +93702,16 @@ var Xje = 200,
 						(Y.headInBlock = n),
 					(Y.lastHeadInBlock = n));
 		}
-		cxrnHQIofKzCjz() {
+		wOuTmnvVhiriIs() {
 			let e = 1;
 			this.abilities.flying && (e *= 1.1);
-			let t = this.getEntityAttribute(ku.eAwmWnqQCXQCI);
+			let t = this.getEntityAttribute(ku.UNrmpQxnutSuc);
 			if (
-				((e *= (t.getAttributeValue() / this.abilities.qvSSghVBunCa() + 1) / 2),
+				((e *= (t.getAttributeValue() / this.abilities.xYMFblxzSohU() + 1) / 2),
 				(isNaN(e) || !isFinite(e)) && (e = 1),
-				this.isUsingItem() && this.swMiAwPeNfyf().getItem() == z.bow)
+				this.isUsingItem() && this.RDtnihVGojCP().getItem() == z.bow)
 			) {
-				let t = this.UNIUFAGakcqGQOUmFCAw() / 20;
+				let t = this.nXJbVpCveeoQMpgqFmVA() / 20;
 				t > 1 ? (t = 1) : (t *= t), (e *= 1 - t * 0.15);
 			}
 			return Math.min(e, 2);
@@ -93700,10 +93719,10 @@ var Xje = 200,
 		fixedUpdate() {
 			!$.inGame() ||
 				this.getHealth() <= 0 ||
-				(mK.ofQsURLeQblUpqltGAz(),
-				this.cgQkUAnofbFSdU(),
+				(mK.nqArFPJJRvdYrCYFBdE(),
+				this.ryrCDImKmrtIHZ(),
 				this.onLivingUpdate(),
-				this.qSdJBkfsZXujiexV(),
+				this.JtdBmBBWNzaWCSSh(),
 				this.renderOffset.multiplyScalar(Zje),
 				this.renderOffset.lengthSq() < 1e-6 && this.renderOffset.set(0, 0, 0),
 				this.renderPos.copy(this.pos).add(this.renderOffset),
@@ -93869,7 +93888,7 @@ var xq = class extends J {
 			let t = q.skinManager,
 				n = `atlasMat`;
 			e.includes(`leggings`) && (n = `atlasMat2`);
-			let r = t.ufVXvBmW(new Hp(z.leather_helmet))[n],
+			let r = t.OuzFpqWd(new Hp(z.leather_helmet))[n],
 				i = r?.map?.image ? r.map.image.width / 64 : 1,
 				a = [],
 				o = [],
@@ -93995,11 +94014,11 @@ var xq = class extends J {
 				((i =
 					t === `leggings`
 						? e.isItemEnchanted()
-							? q.skinManager.ufVXvBmW(e).atlasMat2Enchant
-							: q.skinManager.ufVXvBmW(e).atlasMat2
+							? q.skinManager.OuzFpqWd(e).atlasMat2Enchant
+							: q.skinManager.OuzFpqWd(e).atlasMat2
 						: e.isItemEnchanted()
-							? q.skinManager.ufVXvBmW(e).atlasMatEnchant
-							: q.skinManager.ufVXvBmW(e).atlasMat),
+							? q.skinManager.OuzFpqWd(e).atlasMatEnchant
+							: q.skinManager.OuzFpqWd(e).atlasMat),
 				i &&
 					!e.isItemEnchanted() &&
 					i.transparent &&
@@ -94023,14 +94042,14 @@ var xq = class extends J {
 		}
 		createColoredMaterial(e, t) {
 			let n = e.clone();
-			return (n.color = new dr(t)), n;
+			return (n.color = new ur(t)), n;
 		}
 		addHead(e) {
 			(e.meshes.head = this.initMesh(`head`)),
 				(e.armorMesh.helmet = this.initArmorMesh(`head`)),
 				e.meshes.head.geometry.translate(0, 0.25, 0),
 				e.armorMesh.helmet.geometry.translate(0, 0.25, 0),
-				(e.headPivot = new Jn()),
+				(e.headPivot = new Kn()),
 				e.headPivot.add(e.meshes.head, e.armorMesh.helmet),
 				(e.neck = new jn()),
 				e.neck.add(e.headPivot),
@@ -94041,7 +94060,7 @@ var xq = class extends J {
 				(e.armorMesh.chestplate = this.initArmorMesh(`torso`)),
 				(e.armorMesh.leggingsWaist = this.initArmorMesh(`leggingsWaist`)),
 				e.armorMesh.leggingsWaist.geometry.translate(0, -3.5 / 16, 0),
-				(e.torso = new Jn()),
+				(e.torso = new Kn()),
 				e.torso.add(
 					e.meshes.torso,
 					e.armorMesh.chestplate,
@@ -94134,9 +94153,9 @@ var xq = class extends J {
 				e.rightHip.add(e.rightHipJoint);
 		}
 		assembleBody(e) {
-			(e.skeleton = new Jn()),
+			(e.skeleton = new Kn()),
 				(e.skeleton.position.y = tl),
-				(e.body = new Jn()),
+				(e.body = new Kn()),
 				e.body.add(e.torso),
 				e.body.add(e.leftShoulder),
 				e.body.add(e.rightShoulder),
@@ -94200,12 +94219,12 @@ var xq = class extends J {
 							d = new Float32Array(l * 4);
 						for (let e = 0; e < l; e++) (u[e * 4] = s), (d[e * 4] = 1);
 						c.setAttribute(`skinIndex`, new Un(u, 4)),
-							c.setAttribute(`skinWeight`, new Wn(d, 4)),
+							c.setAttribute(`skinWeight`, new Hn(d, 4)),
 							a.push(c),
 							t.removeFromParent();
 					}
 					if (a.length === 0) return;
-					let s = nr(a);
+					let s = tr(a);
 					for (let e of a) e.dispose();
 					s.computeBoundingSphere(),
 						s.boundingSphere && (s.boundingSphere.radius *= 1.6);
@@ -94267,7 +94286,7 @@ var xq = class extends J {
 				l(o.head, 0, r, 0),
 				c.length)
 			) {
-				e.lodBody = a(nr(c), e.torso, t);
+				e.lodBody = a(tr(c), e.torso, t);
 				for (let e of c) e.dispose();
 			}
 			let u = {},
@@ -94275,7 +94294,7 @@ var xq = class extends J {
 					let r = n.filter((e) => !!e);
 					if (
 						r.length !== 0 &&
-						((u[t] = a(r.length === 1 ? r[0] : nr(r), e.torso)), r.length > 1)
+						((u[t] = a(r.length === 1 ? r[0] : tr(r), e.torso)), r.length > 1)
 					)
 						for (let e of r) e.dispose();
 				};
@@ -94329,7 +94348,7 @@ var xq = class extends J {
 			this.generateGeometry(`wing`, e, n, r, i, a, 1);
 			let o = J.setGeometry({ positions: n, normals: r, uvs: i, indices: a });
 			o.translate(-0.625 / 2, -1.25 / 2, nMe / 2), t && o.scale(-1, 1, 1);
-			let s = new Jn();
+			let s = new Kn();
 			return s.add(new On(o, e)), s;
 		}
 	};
@@ -94340,7 +94359,7 @@ function Sq(e, t, n, r) {
 var aMe = class extends J {
 		constructor(e) {
 			super();
-			let t = q.skinManager.gvUbPwQ(e);
+			let t = q.skinManager.bualodz(e);
 			if (!t || !t.atlasMat) return;
 			let n = t.atlasMat.map;
 			if (!n) return;
@@ -94349,7 +94368,7 @@ var aMe = class extends J {
 				a = r.height,
 				o = i / 64,
 				s = !t.compact,
-				c = s ? tI.pkNfplJkrXKRhq(t).cape : null,
+				c = s ? tI.PehatQEfmThjqe(t).cape : null,
 				l = c ? c.x : 0,
 				u = c ? c.y : 0,
 				d = c ? c.w : 11 * o,
@@ -94400,8 +94419,8 @@ var aMe = class extends J {
 			let t = e.entity.profile.cosmetics.cape;
 			!t ||
 				t === `none` ||
-				(q.skinManager.mRtJkgo(t) || (await q.skinManager.DfhTcyYlrMIb(t)),
-				q.skinManager.mRtJkgo(t) &&
+				(q.skinManager.YzGRiZY(t) || (await q.skinManager.SWnyNwYnGXle(t)),
+				q.skinManager.YzGRiZY(t) &&
 					((e.capeMesh = new aMe(t)),
 					(e.capeMesh.position.z = 0.15),
 					EK(e.capeMesh),
@@ -94412,8 +94431,8 @@ var aMe = class extends J {
 				n = e.entity.profile.cosmetics.cape;
 			if (
 				(cF(n) &&
-					(q.skinManager.mRtJkgo(n) || (await q.skinManager.DfhTcyYlrMIb(n)),
-					(t = q.skinManager.ishhwjLOiDkFoyvtgecNC(n) ?? void 0)),
+					(q.skinManager.YzGRiZY(n) || (await q.skinManager.SWnyNwYnGXle(n)),
+					(t = q.skinManager.KfgBALivwUTeaIrHptuvM(n) ?? void 0)),
 				(t ||= await q.getElytraMaterial()),
 				!t)
 			)
@@ -94427,7 +94446,7 @@ var aMe = class extends J {
 		async addHat(e) {
 			let t = e.entity.profile.cosmetics.hat;
 			if (!t || t === `none`) return;
-			let n = await q.FdOLqaNnlTN.getModel(t);
+			let n = await q.TZlUaafecch.getModel(t);
 			if (!n) return;
 			let r = n.clone();
 			(r.position.y = 8 / 16),
@@ -94468,14 +94487,14 @@ function Tq(e, t, n) {
 			n != null && (e = `\\bold\\\\${rl[n]}\\(${n})\\reset\\ ` + e),
 			e);
 }
-var Eq = class extends Jn {
-		KyKnldiBZFVD(e, t = 0) {
+var Eq = class extends Kn {
+		faZZTZoWSjPB(e, t = 0) {
 			this.debugSizeOverride = e === null ? null : { width: e, height: t };
 		}
-		get DssRtGWHRf() {
+		get VWwmcXDtnH() {
 			return this.debugSizeOverride?.width ?? this.entity.width;
 		}
-		get NmtOhAHIWzu() {
+		get GmZfHBswLtA() {
 			return this.debugSizeOverride?.height ?? this.entity.height;
 		}
 		set debug(e) {
@@ -94483,8 +94502,8 @@ var Eq = class extends Jn {
 		}
 		constructor(e) {
 			super(),
-				(this.rotYaw = new Zn()),
-				(this.rotPitch = new Zn()),
+				(this.rotYaw = new Xn()),
+				(this.rotPitch = new Xn()),
 				(this.debugVisible = !1),
 				(this.debugSizeOverride = null),
 				(this.entity = e),
@@ -94493,7 +94512,7 @@ var Eq = class extends Jn {
 		render() {
 			this.position.lerp(this.entity.pos, Uc);
 		}
-		BBjaHmFVsDhCqBA() {
+		FinOVHifSZuFLwl() {
 			this.position.distanceTo(this.entity.pos) > 16
 				? this.position.copy(this.entity.pos)
 				: this.position.lerp(this.entity.pos, Uc);
@@ -94505,13 +94524,13 @@ var Eq = class extends Jn {
 	Dq = new (class {
 		current = new Map();
 		next = new Map();
-		OFfnYTzSBB() {
+		QeGsSofTZG() {
 			this.next = new Map();
 		}
 		submit(e, t) {
 			this.next.set(e, t);
 		}
-		OXTJnRuC() {
+		tEiCFrxv() {
 			this.current = this.next;
 		}
 	})(),
@@ -94525,27 +94544,27 @@ var Eq = class extends Jn {
 	hMe = new Dn(-0.133, 1.57, 2.512),
 	Oq = new D(0, -0.15, -0.4),
 	kq = new Dn(-2.2, -Math.PI / 2, -0.133),
-	gMe = new Zn()
+	gMe = new Xn()
 		.setFromEuler(kq)
-		.multiply(new Zn().setFromAxisAngle(new D(0, 0, 1), (3 * Math.PI) / 2)),
+		.multiply(new Xn().setFromAxisAngle(new D(0, 0, 1), (3 * Math.PI) / 2)),
 	_Me = new D(-0.148, -4.445, -5.059).divideScalar(16),
 	vMe = new Dn(-1.455, 0, 0),
 	Aq = new D(0, 1, 0),
 	jq = new D(1, 0, 0),
-	Mq = new Zn(),
-	yMe = new Zn(),
-	Nq = new dr(1, 1, 1),
-	bMe = new dr(1, 0.5, 0.5),
-	xMe = new Zn(),
-	SMe = new Zn(),
-	CMe = new Zn(),
+	Mq = new Xn(),
+	yMe = new Xn(),
+	Nq = new ur(1, 1, 1),
+	bMe = new ur(1, 0.5, 0.5),
+	xMe = new Xn(),
+	SMe = new Xn(),
+	CMe = new Xn(),
 	wMe = new D(),
 	TMe = new D(),
 	EMe = 1024,
 	DMe = 900,
 	Pq = class extends Eq {
-		nameTag = new Jn();
-		skeleton = new Jn();
+		nameTag = new Kn();
+		skeleton = new Kn();
 		torso = new jn();
 		leftElbowJoint = new jn();
 		rightElbowJoint = new jn();
@@ -94560,9 +94579,9 @@ var Eq = class extends Jn {
 		rightHip = new jn();
 		leftHipJoint = new jn();
 		rightHipJoint = new jn();
-		headPivot = new Jn();
+		headPivot = new Kn();
 		neck = new jn();
-		body = new Jn();
+		body = new Kn();
 		armorMesh = {};
 		meshes = {};
 		skinnedBody;
@@ -94643,14 +94662,14 @@ var Eq = class extends Jn {
 				this
 			);
 		}
-		llBIJoLnSqaGYD(e) {
+		XEGYAqZarSKveZ(e) {
 			let t = this.handMesh;
 			return !t || !t.visible
 				? null
 				: (t.updateWorldMatrix(!0, !1),
 					e.set(0, 0.45, 0).applyMatrix4(t.matrixWorld));
 		}
-		ByYfKmkcVGOAwgsDHo() {
+		WCCZfpgVynpYZomqUN() {
 			let e = this.item;
 			e != null &&
 				(this.handTesr &&
@@ -94715,16 +94734,16 @@ var Eq = class extends Jn {
 						? new II(nm.CAST_TEXTURE, n, this.handMesh, e.hasEffect())
 						: (!t.isItemBlock() || !t.block.hasTileEntity()) &&
 							new II(e, n, this.handMesh, e.hasEffect()),
-				this.ByYfKmkcVGOAwgsDHo());
+				this.WCCZfpgVynpYZomqUN());
 		}
-		hZLuQBhxQhJKBbN(e, t = 1) {
+		ELlosAgNJRImAdX(e, t = 1) {
 			if (!this.skeleton) return;
 			let n = this.entity.id !== Y.id && !this.fakePlayer,
 				r = (r) => {
 					let i = r.material;
 					e &&
 						(n
-							? (r.userData._litTint || (r.userData._litTint = new dr())).copy(
+							? (r.userData._litTint || (r.userData._litTint = new ur())).copy(
 									e,
 								)
 							: (i.color = e)),
@@ -94746,35 +94765,35 @@ var Eq = class extends Jn {
 				this.neck.quaternion.copy(this.rotYaw),
 				this.headPivot.quaternion.copy(this.rotPitch);
 		}
-		xFBaQkidISAvZQj() {
+		PXLcEFbyzGDXEpO() {
 			let e = this.entity.getPartialTicks(),
 				t =
 					this.entity.prevLimbSwingAmount +
 					(this.entity.limbSwingAmount - this.entity.prevLimbSwingAmount) * e;
 			return t > 1 && (t = 1), this.entity.sneak && t > 0.5 && (t = 0.5), t;
 		}
-		rVBDUWZxvb(e = new D()) {
+		tBhNHwFoYm(e = new D()) {
 			return this.body.getWorldDirection(e), e;
 		}
-		DHrOEIFwobaNe() {
-			(this.nameTagText = this.entity.VdSTulosoRJUsjlU() || ``),
+		YwZTkgQZeOgVn() {
+			(this.nameTagText = this.entity.DJoetASSrKfWJqTF() || ``),
 				(this.nameTagColor = `white`),
 				(this.nameTagOpacity = 1);
 		}
-		vSqWXGDPslYbNb() {
+		sEvuuRUpcDKNNY() {
 			return 0.4 + this.entity.height;
 		}
-		VtyoGHRXlzGUdF() {
+		sbyOkDsYWsZahU() {
 			return !0;
 		}
-		BBhrdIQTJwilU() {
+		bdJxdrdPfkBYi() {
 			if (
 				this.renderArmorOnly ||
 				this.fakePlayer ||
 				(this.entity.id === Y.id &&
 					Y.perspective === Bq.Perspective.FIRST_PERSON) ||
 				!this.nameTagText ||
-				!this.VtyoGHRXlzGUdF()
+				!this.sbyOkDsYWsZahU()
 			)
 				return;
 			let e = this.position;
@@ -94782,12 +94801,12 @@ var Eq = class extends Jn {
 				text: this.nameTagText,
 				color: this.nameTagColor,
 				x: e.x,
-				y: e.y + this.vSqWXGDPslYbNb(),
+				y: e.y + this.sEvuuRUpcDKNNY(),
 				z: e.z,
 				opacity: this.nameTagOpacity,
 			});
 		}
-		LxmkOQLwfbn() {
+		sonowvqiNpr() {
 			let e = E.entities.value;
 			if (
 				e === `Normal` ||
@@ -94805,7 +94824,7 @@ var Eq = class extends Jn {
 				this.fastLOD
 			);
 		}
-		hUpdwHiq(e) {
+		ZGqrMrns(e) {
 			this.lodFar = e;
 			let t = this.entity instanceof Pp && this.entity.isSpectator(),
 				n = this.renderArmorOnly;
@@ -94826,24 +94845,24 @@ var Eq = class extends Jn {
 					this.lodArmor[n].visible =
 						e && !t && !!this.lodArmor[n].userData._equipped;
 		}
-		kwJfYWKYYDAeFmoeWK(e) {
+		QaPYBBFlAZKdVjbLNP(e) {
 			let t = this.renderArmorOnly !== e;
 			(this.renderArmorOnly = e),
-				e ? this.WdSVRymzZCZQSL() : t && this.kQhbkUfiSmKOZHnOrKOD();
+				e ? this.ALDUzxbEWwnLSA() : t && this.jRucZovVVBeTSVJZhGBu();
 		}
-		WdSVRymzZCZQSL() {
+		ALDUzxbEWwnLSA() {
 			this.skinnedBody && (this.skinnedBody.visible = !1),
 				this.lodBody && (this.lodBody.visible = !1);
 			for (let e in this.skinnedRig) this.skinnedRig[e].visible = !1;
 			for (let e in this.meshes) this.meshes[e].visible = !1;
 		}
-		kQhbkUfiSmKOZHnOrKOD() {
+		jRucZovVVBeTSVJZhGBu() {
 			if (!this.skinnedBody) {
 				let e = this.entity instanceof Pp && this.entity.isSpectator();
 				for (let t in this.meshes) this.meshes[t].visible = !e || t === `head`;
 			}
 			for (let e in this.skinnedRig) this.skinnedRig[e].visible = !0;
-			this.hUpdwHiq(this.lodFar);
+			this.ZGqrMrns(this.lodFar);
 		}
 		render() {
 			let {
@@ -94857,22 +94876,22 @@ var Eq = class extends Jn {
 				rightElbowJoint: s,
 			} = this;
 			if (Y.id != this.entity.id && !this.visible) return;
-			let c = this.LxmkOQLwfbn();
-			c !== this.lodFar && this.hUpdwHiq(c),
-				this.entity.VdSTulosoRJUsjlU() !== this.prevCustomName &&
-					(this.DHrOEIFwobaNe(),
-					(this.prevCustomName = this.entity.VdSTulosoRJUsjlU()));
+			let c = this.sonowvqiNpr();
+			c !== this.lodFar && this.ZGqrMrns(c),
+				this.entity.DJoetASSrKfWJqTF() !== this.prevCustomName &&
+					(this.YwZTkgQZeOgVn(),
+					(this.prevCustomName = this.entity.DJoetASSrKfWJqTF()));
 			let l = this.entity.mesh,
 				u = this.entity.hurtTime > 0 || this.entity.deathTime > 0;
 			u !== this.prevHurtTint &&
-				(l.hZLuQBhxQhJKBbN(u ? bMe : Nq), (this.prevHurtTint = u)),
+				(l.ELlosAgNJRImAdX(u ? bMe : Nq), (this.prevHurtTint = u)),
 				this.renderPositionAndRotation(),
-				this.BBhrdIQTJwilU();
+				this.bdJxdrdPfkBYi();
 			let d =
 					(this.entity.id === Y.id && Y.ridingEntity) ||
 					this.entity.ridingEntity,
 				f = this.entity.getPartialTicks(),
-				p = d ? 0 : this.xFBaQkidISAvZQj();
+				p = d ? 0 : this.PXLcEFbyzGDXEpO();
 			if (d) {
 				this.body.quaternion.slerp(
 					Mq.setFromAxisAngle(Aq, d.yaw + Math.PI / 2),
@@ -94903,7 +94922,7 @@ var Eq = class extends Jn {
 							.sub(this.entity.pos)
 							.setY(0)
 							.normalize(),
-						a = this.rVBDUWZxvb(TMe),
+						a = this.tBhNHwFoYm(TMe),
 						o = SMe.setFromUnitVectors(a, i),
 						s = CMe.copy(this.body.quaternion).premultiply(o),
 						c = Math.abs(r - n) + 0.2;
@@ -94935,11 +94954,11 @@ var Eq = class extends Jn {
 			let te = (e) => ((e + 1) / 2) * p * 0.5 + (m ? S : 0);
 			(o.rotation.x = te(w)), (s.rotation.x = te(T));
 		}
-		DIqsqKggGEXIiWvxmCW(e, t) {
+		AHIYiCWeTZOGDFLHDsI(e, t) {
 			return e.ticksExisted + t;
 		}
 	},
-	Fq = new Zn(),
+	Fq = new Xn(),
 	Iq = new D(),
 	Lq = class extends Pq {
 		model;
@@ -94962,7 +94981,7 @@ var Eq = class extends Jn {
 			);
 		}
 		render() {
-			this.DHrOEIFwobaNe(), this.skeleton.quaternion.identity(), super.render();
+			this.YwZTkgQZeOgVn(), this.skeleton.quaternion.identity(), super.render();
 			let { leftHip: e, rightHip: t, leftShoulder: n, rightShoulder: r } = this,
 				i = this.entity.profile.cosmetics.skin ?? ``,
 				a = q.skinManager.skins[i] ? q.skinManager.skins[i].skinny : !1,
@@ -95003,12 +95022,12 @@ var Eq = class extends Jn {
 				? u instanceof wm && (this.skeleton.position.y -= 4 / 16)
 				: ((e.rotation.y = 0), (t.rotation.y = 0));
 			let d = this.entity.getPartialTicks(),
-				f = this.DIqsqKggGEXIiWvxmCW(this.entity, d);
+				f = this.AHIYiCWeTZOGDFLHDsI(this.entity, d);
 			(r.rotation.z += Math.cos(f * 0.09) * 0.05 + 0.05),
 				(n.rotation.z -= Math.cos(f * 0.09) * 0.05 + 0.05),
 				(r.rotation.x -= Math.sin(f * 0.067) * 0.05),
 				(n.rotation.x += Math.sin(f * 0.067) * 0.05);
-			let p = this.xFBaQkidISAvZQj();
+			let p = this.PXLcEFbyzGDXEpO();
 			this.capeMesh &&
 				((this.capeMesh.rotation.x -= p),
 				(this.capeMesh.rotation.x -= Math.cos(f * 0.09) * 0.05 + 0.05));
@@ -95017,7 +95036,7 @@ var Eq = class extends Jn {
 			this.glideAmount += (+!!h - this.glideAmount) * Math.min(1, $.delta * 8);
 			let g = this.glideAmount;
 			if (
-				(h ? this.KyKnldiBZFVD(jp, Mp) : this.KyKnldiBZFVD(m.width, m.height),
+				(h ? this.faZZTZoWSjPB(jp, Mp) : this.faZZTZoWSjPB(m.width, m.height),
 				g > 0.001)
 			) {
 				this.body.getWorldQuaternion(Fq),
@@ -95056,7 +95075,7 @@ var Eq = class extends Jn {
 			}
 			if (this.elytraMesh) {
 				let e = m.mode == gp.SPECTATOR,
-					t = m.jspVDhJeCrbPkvB() && !e;
+					t = m.hgEhhgLxlygRxih() && !e;
 				if (
 					((this.elytraMesh.visible = t),
 					this.capeMesh && (this.capeMesh.visible = !t && !e),
@@ -95069,9 +95088,9 @@ var Eq = class extends Jn {
 				}
 			}
 			this.capeMesh &&
-				this.entity.VwRZQmoamPN() &&
+				this.entity.drQhETLOcXW() &&
 				(this.capeMesh.visible = !1),
-				this.ByYfKmkcVGOAwgsDHo(),
+				this.WCCZfpgVynpYZomqUN(),
 				!this.lodFar &&
 					(this.entity.punching
 						? ((this.punchingT += $.delta * 4),
@@ -95079,7 +95098,7 @@ var Eq = class extends Jn {
 						: this.punchingT < 1
 							? (this.punchingT += $.delta * 4)
 							: (this.punchingT = 1),
-					this.entity.mtrQfaVg()
+					this.entity.dUbFFSAE()
 						? r.rotation.set(Math.PI / 3, 0, 0)
 						: this.entity.isBlocking() && r.rotation.set(Math.PI / 4, 0, 0),
 					this.punchingT != 1 &&
@@ -95099,10 +95118,10 @@ var Eq = class extends Jn {
 					this.neck.quaternion.copy(this.rotYaw),
 					this.headPivot.quaternion.copy(this.rotPitch));
 		}
-		rVBDUWZxvb(e = new D()) {
+		tBhNHwFoYm(e = new D()) {
 			return this.body.getWorldDirection(e), e;
 		}
-		lrWCfJjncFjzZiKGDZbe(e) {
+		cxgHORAoxWrfzdvbfcQO(e) {
 			let t = this;
 			for (let n in t.meshes)
 				t.meshes[n].visible = t.skinnedBody && n !== `head` ? !1 : e;
@@ -95116,16 +95135,16 @@ var Eq = class extends Jn {
 				this.capeMesh && (this.capeMesh.visible = e),
 				this.elytraMesh && (this.elytraMesh.visible = e),
 				this.hatMesh && (this.hatMesh.visible = e),
-				this.lodFar && this.hUpdwHiq(!0);
+				this.lodFar && this.ZGqrMrns(!0);
 		}
-		wHtHldFmnEajZy(e) {
+		mjbbAEbkRcggeB(e) {
 			let t = this;
 			this.entity.setGamemode(e),
 				this.entity.mode.isSpectator()
-					? (this.lrWCfJjncFjzZiKGDZbe(!1),
+					? (this.cxgHORAoxWrfzdvbfcQO(!1),
 						t.meshes.head && (t.meshes.head.visible = !0),
-						this.hZLuQBhxQhJKBbN(null, 0.5))
-					: (this.lrWCfJjncFjzZiKGDZbe(!0), this.hZLuQBhxQhJKBbN(null, 1));
+						this.ELlosAgNJRImAdX(null, 0.5))
+					: (this.cxgHORAoxWrfzdvbfcQO(!0), this.ELlosAgNJRImAdX(null, 1));
 			let n = t.meshes.head;
 			if (n) {
 				let e = n.material,
@@ -95134,7 +95153,7 @@ var Eq = class extends Jn {
 			}
 			this.updateArmor();
 		}
-		DHrOEIFwobaNe() {
+		YwZTkgQZeOgVn() {
 			let e = `white`,
 				t = 1;
 			this.entity.mode == gp.SPECTATOR
@@ -95155,10 +95174,10 @@ var Eq = class extends Jn {
 			} else this.nameTagText = i;
 			(this.nameTagColor = e), (this.nameTagOpacity = t);
 		}
-		vSqWXGDPslYbNb() {
+		sEvuuRUpcDKNNY() {
 			return 0.7 + tl;
 		}
-		VtyoGHRXlzGUdF() {
+		sbyOkDsYWsZahU() {
 			return (
 				!this.entity.sneak &&
 				!E.streamerMode.value &&
@@ -95190,7 +95209,7 @@ var Eq = class extends Jn {
 		static Perspective = Rq;
 		perspective = e.Perspective.FIRST_PERSON;
 		deltaFov = IN(0, 150);
-		portalTint = new dr(16391446);
+		portalTint = new ur(16391446);
 		selectBox;
 		headInBlock;
 		lastHeadInBlock;
@@ -95233,7 +95252,7 @@ var Eq = class extends Jn {
 				(this.dimension = t.dimension ?? 0),
 				(this.game.world.dimensionId = this.dimension);
 		}
-		kwVnyuOfJbeMlqDAhdow(e = !1) {
+		VgHUIzwsPhXSvWAksxZS(e = !1) {
 			if (!(this.openContainer instanceof mp) && !e) return;
 			let t = !1,
 				n = !1;
@@ -95257,7 +95276,7 @@ var Eq = class extends Jn {
 			}
 			let r = 0;
 			for (let e of Y.inventory.armor)
-				e && e.item instanceof xu && (r += e.item.xqnKDrNhjjkihNXKqy || 0);
+				e && e.item instanceof xu && (r += e.item.aYzPzWldJmAWUrxUyi || 0);
 			let i = this.world.getPlayerById(this.id);
 			r !== this.prevDefencePoints &&
 				((this.prevDefencePoints = r), (this.game.info.armor = r), (t = !0)),
@@ -95275,22 +95294,22 @@ var Eq = class extends Jn {
 						? ((this.showDeathScreen = !0),
 							(this.game.info.showDeathScreen = !0),
 							this.game.info.menus.close(`commandBlockEditor`),
-							this.game.info.menus.close(`signEditor`),
+							this.game.info.menus.close(`siAxisAlignedBoundingBoxEditor`),
 							KK(),
 							Mt.death())
 						: e > 0 && e < t && Mt.hurt(),
-				this.LsKZzNORnzqOuVoYDYju();
+				this.ZjDRmJREIIwpkeobvuJZ();
 		}
 		lowHealthPulse = null;
 		static LOW_HEALTH = 6;
-		LsKZzNORnzqOuVoYDYju() {
+		ZjDRmJREIIwpkeobvuJZ() {
 			let t = this.getHealth(),
 				n = t > 0 && t <= e.LOW_HEALTH;
 			n && this.lowHealthPulse == null
 				? (this.lowHealthPulse = setInterval(() => {
 						let t = this.getHealth();
 						if (!this.game.inGame() || t <= 0 || t > e.LOW_HEALTH) {
-							this.LsKZzNORnzqOuVoYDYju();
+							this.ZjDRmJREIIwpkeobvuJZ();
 							return;
 						}
 						Mt.lowHealth();
@@ -95299,8 +95318,8 @@ var Eq = class extends Jn {
 					this.lowHealthPulse != null &&
 					(clearInterval(this.lowHealthPulse), (this.lowHealthPulse = null));
 		}
-		ZrsPMlSQJkwxhxfKdye(e) {
-			e == 17 && (this.game.info.absorption = this.BLLuIKatBgaHewiQxEe());
+		RJdRWndYzhlODldjtPa(e) {
+			e == 17 && (this.game.info.absorption = this.ERvLKgJoRqlOQznMspj());
 		}
 		setGamemode(e) {
 			return (
@@ -95311,7 +95330,7 @@ var Eq = class extends Jn {
 				!0
 			);
 		}
-		yOiPkmiLRKOZeBOll(e = !1) {
+		cwxemeABtDDQNgORy(e = !1) {
 			(this.pos.x = (this.boundingBox.min.x + this.boundingBox.max.x) / 2),
 				(this.pos.y = this.boundingBox.min.y),
 				(this.pos.z = (this.boundingBox.min.z + this.boundingBox.max.z) / 2),
@@ -95322,41 +95341,41 @@ var Eq = class extends Jn {
 						this.pos.z,
 					);
 		}
-		TARGltZgKasT() {
+		vsCpImmRfHUa() {
 			if (this.selectBox) return;
 			let e = new AxisAlignedBoundingBox(new D(), new D(1, 1, 1));
-			(this.selectBox = new hee(e, new dr(`white`))),
+			(this.selectBox = new gee(e, new ur(`white`))),
 				(this.selectBox.name = `wireframe`),
 				this.game.gameScene.scene.add(this.selectBox);
 		}
-		OkbdEZolbahya() {
+		wozFRbmPWWFMw() {
 			return !0;
 		}
 		respawn(e) {
 			(!e || !e.notDeath) &&
-				(this.setHealth(this.getMaxHealth()), this.gwAitYPKycVMVw()),
-				this.game.world.getPlayerById(this.id)?.chtOmKztiESKGpCZlNfH();
+				(this.setHealth(this.getMaxHealth()), this.BcgsaSGdkxAlWP()),
+				this.game.world.getPlayerById(this.id)?.FDratlgmGWMQtJfXGKAW();
 		}
 		sendRespawnPacket() {
 			pK.sendPacket(new QCe());
 		}
 		setPosition(e, t, n) {
 			super.setPosition(e, t, n),
-				this.yOiPkmiLRKOZeBOll(!0),
+				this.cwxemeABtDDQNgORy(!0),
 				(this.fallDistance = 0);
 		}
-		ddJWExPYzpdnqAy() {
+		CJDwgXlLavrPRKY() {
 			let e = this.game.gameScene.camera,
 				t;
 			E.dynamicFOV.value
-				? ((this.deltaFov.value = E.fov.value * this.cxrnHQIofKzCjz()),
+				? ((this.deltaFov.value = E.fov.value * this.wOuTmnvVhiriIs()),
 					(t = this.deltaFov.value))
 				: (t = E.fov.value),
 				e.fov !== t && ((e.fov = t), e.updateProjectionMatrix());
 		}
-		AjJCqZzCOGVTLZVuOUgzHoy(e) {}
-		TyXZvpTsMGYw(e) {
-			this.ddJWExPYzpdnqAy();
+		PhIhADHeWVwMoEqusiQXYlh(e) {}
+		THqCJAOtNupw(e) {
+			this.CJDwgXlLavrPRKY();
 			let t =
 				this.sneak &&
 				!this.abilities.flying &&
@@ -95365,7 +95384,7 @@ var Eq = class extends Jn {
 				(JR.update(t),
 				Math.abs(this.game.gameScene.camera.rotation.z) > 0.1
 					? (this.game.gameScene.camera.rotation.z -=
-							Math.sign(this.game.gameScene.camera.rotation.z) * e * 1.5)
+							Math.siAxisAlignedBoundingBox(this.game.gameScene.camera.rotation.z) * e * 1.5)
 					: (this.game.gameScene.camera.rotation.z = 0),
 				this.isPlayerSleeping())
 			) {
@@ -95382,10 +95401,10 @@ var Eq = class extends Jn {
 					this.game.gameScene.camera.getWorldPosition(kMe);
 				let t = AMe;
 				this.game.gameScene.camera.getWorldDirection(t), t.negate();
-				let n = JR.CqNJfh,
+				let n = JR.WMOLyH,
 					r = qu(
 						n,
-						jMe.copy(JR.CqNJfh).add(t.multiplyScalar(8)),
+						jMe.copy(JR.WMOLyH).add(t.multiplyScalar(8)),
 						!1,
 						!0,
 						!0,
@@ -95411,14 +95430,14 @@ var Eq = class extends Jn {
 						(e.mesh.visible = !0)),
 				($L.currentActiveItem = null));
 		}
-		JARVjSySGatyrImPAQzFwzp() {
+		tvvATpISBpyWFmxETtNzKVf() {
 			let e = this.world.getVoxelBrightness(
 				this.pos.x,
 				this.pos.y + this.getEyeHeight(),
 				this.pos.z,
 			);
 			if (E.dynamicLighting.value && E.lighting.value !== `Classic`) {
-				let t = this.KQEmMlslnMCKcC();
+				let t = this.bSWVTqwfvtxGKb();
 				if (t > 0) {
 					let n = tF + (1 - tF) * (t / 15);
 					e = Math.max(e, n);
@@ -95426,11 +95445,11 @@ var Eq = class extends Jn {
 			}
 			WI($L, e);
 		}
-		KQEmMlslnMCKcC() {
+		bSWVTqwfvtxGKb() {
 			let e = this.getActiveItemStack();
 			return e ? YP(e.item) : 0;
 		}
-		yFzqnRJZadxznSjr() {
+		qXZHBwWvVUnkmaPE() {
 			let e = this.game.world.getPlayerById(this.id);
 			if (!e?.mesh) return;
 			let t = this.perspective === 0,
@@ -95462,7 +95481,7 @@ var Eq = class extends Jn {
 						}
 				});
 		}
-		QsHlObeswuLHPCDu() {
+		XTHiFDvtvyVpLLLk() {
 			(this.punching = (Date.now() - $L.lastPunch) / 120 < 1),
 				(this.yaw = JR.yaw),
 				(this.pitch = JR.pitch);
@@ -95473,7 +95492,7 @@ var Eq = class extends Jn {
 				(hq(`ctrl`) && gc.ControlLeft != `ctrl`) ||
 				ez.sneaking;
 		}
-		TuNEuhgvTTlulrtHHQGGwSk() {
+		jSXQXpROaTZxmtuVAzOiWPE() {
 			if (!this.serverUsesPosLookMovement()) return;
 			let e = this.pos.x - this.lastReportedPos.x,
 				t = this.getEntityBoundingBox().min.y - this.lastReportedPos.y,
@@ -95504,7 +95523,7 @@ var Eq = class extends Jn {
 					(this.lastReportedPitch = this.pitch)),
 				pK.sendPacket(new _P(a));
 		}
-		ryPyQwOSUDz() {
+		fYtsjlLTnGc() {
 			let e = { id: Y.id },
 				t = !1;
 			Y.sneak !== Y.serverSneakState &&
@@ -95517,9 +95536,9 @@ var Eq = class extends Jn {
 					((Y.serverPunchState = Y.punching),
 					(e.punching = Y.punching),
 					(t = !0)),
-				Y.WtjwRKKoMH !== Y.serverMoveStrafe &&
-					((Y.serverMoveStrafe = Y.WtjwRKKoMH),
-					(e.WtjwRKKoMH = Y.WtjwRKKoMH),
+				Y.ehLnHaYjaS !== Y.serverMoveStrafe &&
+					((Y.serverMoveStrafe = Y.ehLnHaYjaS),
+					(e.ehLnHaYjaS = Y.ehLnHaYjaS),
 					(t = !0)),
 				Y.moveForward !== Y.serverMoveForward &&
 					((Y.serverMoveForward = Y.moveForward),
@@ -95527,20 +95546,20 @@ var Eq = class extends Jn {
 					(t = !0)),
 				t && pK.sendPacket(new NN(e));
 		}
-		ctHpRFyPzOpZQ() {
+		TVxbUPJEMqarY() {
 			let e = {};
 			Y.abilities.flying != Y.serverFlyState &&
 				((Y.serverFlyState = Y.abilities.flying),
 				(e.isFlying = Y.abilities.flying)),
 				Object.keys(e).length && pK.sendPacket(new gP(e));
 		}
-		frQqdwtyVsSRbvNbOWWBr() {
-			this.TuNEuhgvTTlulrtHHQGGwSk(), this.ctHpRFyPzOpZQ();
+		PJQdFJsexlWTAQdzRPUIw() {
+			this.jSXQXpROaTZxmtuVAzOiWPE(), this.TVxbUPJEMqarY();
 		}
 		fixedUpdate() {
 			super.fixedUpdate(),
 				vK.update(),
-				this.IGoEtwLgkfLtuxz(),
+				this.bnywnTTmuSustai(),
 				this.isRiding()
 					? this.serverUsesPosLookMovement() &&
 						pK.sendPacket(
@@ -95551,8 +95570,8 @@ var Eq = class extends Jn {
 								onGround: this.onGround,
 							}),
 						)
-					: this.frQqdwtyVsSRbvNbOWWBr(),
-				this.ryPyQwOSUDz(),
+					: this.PJQdFJsexlWTAQdzRPUIw(),
+				this.fYtsjlLTnGc(),
 				this.effects.update(this.perspective !== e.Perspective.FIRST_PERSON);
 			let t = F.fromVector(this.pos),
 				n = this.world.getBlock(t),
@@ -95570,13 +95589,13 @@ var Eq = class extends Jn {
 							: this.timeInPortal === 80 && Mt.heavy())
 				: (this.timeInPortal = Math.max(0, this.timeInPortal - 8));
 		}
-		TJZuMsFaUPCg() {
+		AINWPKFQWluW() {
 			this.ridingEntity != null &&
 				(this.motion.set(0, 0, 0),
 				(this.fallDistance = 0),
-				this.ridingEntity.LwgcAWFGPgOyaovPGOC(),
+				this.ridingEntity.TOQVdovXEvLaSJWTakx(),
 				JR.fixedUpdate(this.pos),
-				this.qSdJBkfsZXujiexV(),
+				this.JtdBmBBWNzaWCSSh(),
 				this.game.world
 					.getPlayerById(this.id)
 					?.setPositionAndRotation2(
@@ -95588,8 +95607,8 @@ var Eq = class extends Jn {
 						1,
 					));
 		}
-		wWrpDtYDLhpcrUGZ(e) {
-			let t = this.WtjwRKKoMH,
+		aKOqqNxWMtVwmgVr(e) {
+			let t = this.ehLnHaYjaS,
 				n = this.moveForward,
 				r = t * t + n * n;
 			if (r >= 1e-4) {
@@ -95600,39 +95619,39 @@ var Eq = class extends Jn {
 			}
 			return new D(0, 0, 0);
 		}
-		ormGdWfRhaic(e) {
+		mzqpnnNAVcWC(e) {
 			this.getHealth() <= 0 ||
 				(vK.render(),
 				$L.update(),
-				this.JARVjSySGatyrImPAQzFwzp(),
-				this.TyXZvpTsMGYw(e),
-				this.QsHlObeswuLHPCDu(),
-				this.BnDcMnkawkGJgKVQKSyfkD(),
-				this.kwVnyuOfJbeMlqDAhdow(),
-				this.yFzqnRJZadxznSjr());
+				this.tvvATpISBpyWFmxETtNzKVf(),
+				this.THqCJAOtNupw(e),
+				this.XTHiFDvtvyVpLLLk(),
+				this.GpOeaLVfyqOXONJDMOnFtK(),
+				this.VgHUIzwsPhXSvWAksxZS(),
+				this.qXZHBwWvVUnkmaPE());
 		}
-		BnDcMnkawkGJgKVQKSyfkD() {
-			let e = JR.CqNJfh;
+		GpOeaLVfyqOXONJDMOnFtK() {
+			let e = JR.WMOLyH;
 			isFinite(e.x) &&
 				isFinite(e.y) &&
 				isFinite(e.z) &&
 				XP.Howler.pos(e.x, e.y, e.z),
 				XP.Howler.orientation(-Math.cos(JR.yaw), 0, -Math.sin(JR.yaw), 0, 1, 0);
 		}
-		eZNOQQMvp() {
-			return JR.CqNJfh;
+		JGcTZgeqO() {
+			return JR.WMOLyH;
 		}
 		attackEntityFrom(e, t) {
 			if (e === Ip.FALL && this.mode.isSurvival() && this.getHealth() > 0) {
-				let n = this.mHGrMFkNxsdWDnVWPkEBgFkOnDdNT(e, t);
-				n = Math.max(0, n - this.BLLuIKatBgaHewiQxEe());
+				let n = this.jVpFSweoBYMrprysyxuetzsqZNMfv(e, t);
+				n = Math.max(0, n - this.ERvLKgJoRqlOQznMspj());
 				let r = this.getHealth() - n;
 				n > 0 && r > 0 && this.setHealth(r);
 			}
 			return !1;
 		}
-		openEditSign(e) {
-			(this.currentTile = e), this.game.info.menus.open(`signEditor`, e.pos);
+		openEditSiAxisAlignedBoundingBox(e) {
+			(this.currentTile = e), this.game.info.menus.open(`siAxisAlignedBoundingBoxEditor`, e.pos);
 		}
 		displayGUIChest(e) {
 			let t = e.createContainer === void 0 ? `container` : e.getGuiID();
@@ -95644,7 +95663,7 @@ var Eq = class extends Jn {
 						? iq.displayGuiScreen(new Uje(this.inventory, e))
 						: iq.displayGuiScreen(new lq(this.inventory, e));
 		}
-		OCEDopHTvFvBL(e) {
+		rAJuTWqqdCGSX(e) {
 			iq.displayGuiScreen(new qje(e));
 		}
 		displayGui(e) {
@@ -95658,13 +95677,13 @@ var Eq = class extends Jn {
 		}
 		closeScreen() {
 			pK.sendPacket(new hP({ windowId: this.openContainer.windowId })),
-				this.gaTRgJNgaYowhSLHNawsxaT(),
-				this.FpYVzKjDsQQrJQ();
+				this.oBAZvTDFxCkvuWIfDcDaIxM(),
+				this.TGISKuiVJWASRI();
 		}
-		FpYVzKjDsQQrJQ() {
+		TGISKuiVJWASRI() {
 			this.game && this.game.info.touchInventory();
 		}
-		gaTRgJNgaYowhSLHNawsxaT() {
+		oBAZvTDFxCkvuWIfDcDaIxM() {
 			this.inventory.setItemStack(null),
 				super.closeScreen(),
 				iq.displayGuiScreen(null);
@@ -95672,14 +95691,14 @@ var Eq = class extends Jn {
 		setItemInUse(e, t) {
 			(this.lastItemUseTime = performance.now()), super.setItemInUse(e, t);
 		}
-		weDmMSXkuzRfd(e) {
+		sfCihqHYHjTKO(e) {
 			this.game.gameScene.effectRenderer.emitParticleAtEntity(
 				this.game.world,
 				e,
 				vu.CRIT,
 			);
 		}
-		ikhPcYCWQIjCPQesXoIZt(e) {
+		lDTXFPSBlZFdGMHpwAekl(e) {
 			this.game.gameScene.effectRenderer.emitParticleAtEntity(
 				this.game.world,
 				e,
@@ -95688,7 +95707,7 @@ var Eq = class extends Jn {
 				Mt.strong();
 		}
 		xpInitialized = !1;
-		QSOPrReWlm(e, t, n) {
+		qEwJnRYIZj(e, t, n) {
 			let r = this.experienceLevel;
 			(this.experience = e),
 				(this.experienceTotal = t),
@@ -95699,14 +95718,14 @@ var Eq = class extends Jn {
 		openShop() {
 			pK.sendPacket(new ZP({}));
 		}
-		boXjDLnormalizeAngleMQObOtIPAkPT(e) {
+		YleboiNkQdFKpKrRgomX(e) {
 			if (this.game.serverInfo.serverCategory === `creative`) return;
 			let t = e.getPosition(),
 				n = this.world.getTileEntity(t);
 			n && (this.currentTile = n),
 				this.game.info.menus.open(`commandBlockEditor`, t);
 		}
-		NAGGredIRgPPpP() {
+		GemuQbNnSvxDlK() {
 			for (let e of this.world.playersIterator())
 				if (e.id === this.id) return e.mesh;
 		}
@@ -95770,9 +95789,9 @@ function FMe(e) {
 	});
 }
 var Hq = 16,
-	Uq = dn.meta.size.w,
-	Wq = dn.meta.size.h,
-	Gq = dn.frames;
+	Uq = fn.meta.size.w,
+	Wq = fn.meta.size.h,
+	Gq = fn.frames;
 function IMe(e) {
 	let t = new Map();
 	for (let { name: n, width: r } of e) {
@@ -96053,7 +96072,7 @@ function rNe(e) {
 	return o;
 }
 var iNe = new Set([`orange`]),
-	Zq = Object.keys(dn.frames)
+	Zq = Object.keys(fn.frames)
 		.map((e) => e.replace(/\.png$/i, ``))
 		.filter((e) => !iNe.has(e)),
 	Qq = vF.flatMap((e) => yF.map((t) => CF(e, t))),
@@ -96371,7 +96390,7 @@ var nJ = ne[C].atlasImage,
 			let r = t ?? this.armorOverridesForPack(e);
 			n?.length && (this.activeArmorBlobUrls = n);
 			try {
-				await q.skinManager.bUdTVpoZHptKqKYRzOJ(r), xNe();
+				await q.skinManager.BtYadhLgLJBRcUemPMW(r), xNe();
 			} catch (e) {
 				O.warn(`Failed to apply texture pack armor.`, e);
 			}
@@ -96397,7 +96416,7 @@ var nJ = ne[C].atlasImage,
 			let r = t ?? this.entityOverridesForPack(e);
 			n?.length && (this.activeEntityBlobUrls = n);
 			try {
-				await q.skinManager.dqZqOyXNbfpAiSXVIfMY(r);
+				await q.skinManager.TMEMgYhbwKwBvjCFXcsV(r);
 			} catch (e) {
 				O.warn(`Failed to apply texture pack entity textures.`, e);
 			}
@@ -96750,12 +96769,12 @@ var fJ = class e {
 				O.info(`Linked CrazyGames account`, e);
 			} catch (e) {
 				O.warn(
-					`Could not link CrazyGames profile to the signed-in account; keeping the session`,
+					`Could not link CrazyGames profile to the siAxisAlignedBoundingBoxed-in account; keeping the session`,
 					e,
 				),
-					t === `signin` &&
+					t === `siAxisAlignedBoundingBoxin` &&
 						jN({
-							description: `Signed in. Your CrazyGames profile is linked to a different account, so it wasn't attached to this one.`,
+							description: `SiAxisAlignedBoundingBoxed in. Your CrazyGames profile is linked to a different account, so it wasn't attached to this one.`,
 							status: `info`,
 						});
 			}
@@ -96775,7 +96794,7 @@ var fJ = class e {
 					`Automatically creating a new account.`,
 				);
 				try {
-					let e = await gJ.signUp({
+					let e = await gJ.siAxisAlignedBoundingBoxUp({
 						username: r.username,
 						type: `crazygames`,
 						token: i,
@@ -96790,7 +96809,7 @@ var fJ = class e {
 							description: `Failed to create a new account: ${e}`,
 							status: `error`,
 						}),
-						YR.navigate(`/signup/finish`),
+						YR.navigate(`/siAxisAlignedBoundingBoxup/finish`),
 						Promise.resolve()
 					);
 				}
@@ -96914,29 +96933,29 @@ function PNe(e, t) {
 		);
 }
 var gJ = class {
-		static signUp = async (e) => {
+		static siAxisAlignedBoundingBoxUp = async (e) => {
 			let { default: t } = await mH(async () => {
-				let { default: e } = await import(`./fp.esm-CLWQMn0D.js`);
+				let { default: e } = await import(`./fp.esm-CoqeGJPK.js`);
 				return { default: e };
 			}, []);
 			window.__fpjs_d_m = !0;
 			let n = await (await t.load({})).get(),
 				r = n.confidence.score.toString(),
 				i = n.visitorId;
-			return await VT.publicRequest(`/accounts/signup`, {
+			return await VT.publicRequest(`/accounts/siAxisAlignedBoundingBoxup`, {
 				...e,
 				nonce: i,
 				ctree: r,
 			});
 		};
-		static signIn = async (e) => {
-			let t = await VT.publicRequest(`/accounts/signin`, {
+		static siAxisAlignedBoundingBoxIn = async (e) => {
+			let t = await VT.publicRequest(`/accounts/siAxisAlignedBoundingBoxin`, {
 				...e,
 				turnstile: await sJ(),
 			});
 			$.party.updateSession(t.session),
 				Xc() || localStorage.setItem(ol, t.session),
-				O.info(`Signed in.`);
+				O.info(`SiAxisAlignedBoundingBoxed in.`);
 		};
 		static upgradeGuest = async (e) => {
 			let t = await VT.userRequest(`/accounts/guest/upgrade`, e);
@@ -96987,7 +97006,7 @@ function FNe(e) {
 			})
 			.catch((e) => {
 				Xc()
-					? (o(null), i(!1), O.info(`Not signed in (no session cookie)`))
+					? (o(null), i(!1), O.info(`Not siAxisAlignedBoundingBoxed in (no session cookie)`))
 					: (i(e), o(null), O.error(`Failed to load account: ${e}`));
 			})
 			.finally(() => e.markAccountLoaded());
@@ -97031,18 +97050,18 @@ function FNe(e) {
 	let y = async (e, t = {}) => {
 			n(!0);
 			try {
-				await gJ.signIn(e),
+				await gJ.siAxisAlignedBoundingBoxIn(e),
 					fJ
-						.linkAccount(`signin`)
+						.linkAccount(`siAxisAlignedBoundingBoxin`)
 						.then(g)
 						.catch((e) => {
-							O.error(`CrazyGames.linkAccount failed after sign-in`, e);
+							O.error(`CrazyGames.linkAccount failed after siAxisAlignedBoundingBox-in`, e);
 						}),
 					t.onSuccess?.();
 			} catch (e) {
 				n(!1),
-					e.toString().includes(`sign up now`)
-						? t.onNeedsSignup?.()
+					e.toString().includes(`siAxisAlignedBoundingBox up now`)
+						? t.onNeedsSiAxisAlignedBoundingBoxup?.()
 						: (c(e), t.onError?.(e));
 			}
 		},
@@ -97161,12 +97180,12 @@ function FNe(e) {
 		error: r,
 		setError: i,
 		profile: a,
-		signout: b,
+		siAxisAlignedBoundingBoxout: b,
 		updateProfile: () => g(),
 		updateInventory: () => v(),
-		signin: y,
-		signInError: s,
-		setSignInError: c,
+		siAxisAlignedBoundingBoxin: y,
+		siAxisAlignedBoundingBoxInError: s,
+		setSiAxisAlignedBoundingBoxInError: c,
 		servers: C,
 		modeTrending: T,
 		modePlays: te,
@@ -97184,8 +97203,8 @@ var vJ = `966152754886225980`,
 		static discord_code = ``;
 		static suggested_username = ``;
 		static isAuthenticated = !1;
-		static isSignedIn = !1;
-		static isSignedUp = !1;
+		static isSiAxisAlignedBoundingBoxedIn = !1;
+		static isSiAxisAlignedBoundingBoxedUp = !1;
 		static hadSession = !1;
 		static discordSdk;
 		static startTime = Date.now();
@@ -97193,7 +97212,7 @@ var vJ = `966152754886225980`,
 			let e, t;
 			try {
 				({ DiscordSDK: e, patchUrlMappings: t } = await mH(
-					() => import(`./output-Brq5AOr2.js`),
+					() => import(`./output-6A_SdrST.js`),
 					__vite__mapDeps([2, 1]),
 				));
 			} catch (e) {
@@ -97219,7 +97238,7 @@ var vJ = `966152754886225980`,
 					await this.discordSdk.commands.encourageHardwareAcceleration();
 				O.info(`Hardware acceleration is ${e ? `enabled` : `disabled`}`);
 				let n = await this.acquireDiscordAccessToken();
-				await this.setDiscordActivity(), n || this.attemptDiscordSignin();
+				await this.setDiscordActivity(), n || this.attemptDiscordSiAxisAlignedBoundingBoxin();
 			} catch (e) {
 				O.error(`Discord SDK authentication failed:`, e.message || e);
 			} finally {
@@ -97248,18 +97267,18 @@ var vJ = `966152754886225980`,
 				if (
 					((this.discord_access_token = t.access_token),
 					(this.suggested_username = t.suggested_username || ``),
-					!this.isSignedIn)
+					!this.isSiAxisAlignedBoundingBoxedIn)
 				) {
 					if (
 						(O.info(
-							`User is not signed in. Attempting to authenticate with Discord...`,
+							`User is not siAxisAlignedBoundingBoxed in. Attempting to authenticate with Discord...`,
 						),
 						!(await this.discordSdk.commands.authenticate({
 							access_token: this.discord_access_token,
 						})))
 					)
 						throw Error(`Failed to authenticate with Discord`);
-					this.isSignedIn = !0;
+					this.isSiAxisAlignedBoundingBoxedIn = !0;
 				}
 				(this.isAuthenticated = !0),
 					t.session_token &&
@@ -97280,10 +97299,10 @@ var vJ = `966152754886225980`,
 					},
 				}));
 		}
-		static async attemptDiscordSignin() {
+		static async attemptDiscordSiAxisAlignedBoundingBoxin() {
 			try {
 				if (
-					(O.info(`Attempting Discord sign-in...`),
+					(O.info(`Attempting Discord siAxisAlignedBoundingBox-in...`),
 					localStorage.getItem(`session_v1`) != null)
 				) {
 					O.info(`User is already logged in.`);
@@ -97300,35 +97319,35 @@ var vJ = `966152754886225980`,
 					return;
 				}
 				if (await this.acquireDiscordAccessToken()) {
-					O.info(`Signed in via Discord (existing miniblox session).`);
+					O.info(`SiAxisAlignedBoundingBoxed in via Discord (existing miniblox session).`);
 					return;
 				}
 				try {
-					await gJ.signIn({
+					await gJ.siAxisAlignedBoundingBoxIn({
 						type: `discord`,
 						token: this.discord_access_token,
 					});
 				} catch {
 					O.info(
-						`Failed to sign in with Discord. Prompting user to sign up...`,
+						`Failed to siAxisAlignedBoundingBox in with Discord. Prompting user to siAxisAlignedBoundingBox up...`,
 					),
-						($.info.showDiscordSignup = this.suggested_username);
+						($.info.showDiscordSiAxisAlignedBoundingBoxup = this.suggested_username);
 				}
 			} catch (e) {
-				O.error(`Failed during Discord sign-in process:`, e.message || e);
+				O.error(`Failed during Discord siAxisAlignedBoundingBox-in process:`, e.message || e);
 			}
 		}
-		static async attemptSignup(e) {
+		static async attemptSiAxisAlignedBoundingBoxup(e) {
 			if (!this.discord_access_token)
-				throw Error(`Discord access token is required for signup.`);
-			let t = await gJ.signUp({
+				throw Error(`Discord access token is required for siAxisAlignedBoundingBoxup.`);
+			let t = await gJ.siAxisAlignedBoundingBoxUp({
 				username: e,
 				type: `discord`,
 				token: this.discord_access_token,
 			});
 			Xc() || localStorage.setItem(ol, t.session),
-				(this.isSignedUp = !0),
-				O.info(`User ${e} successfully signed up via Discord.`),
+				(this.isSiAxisAlignedBoundingBoxedUp = !0),
+				O.info(`User ${e} successfully siAxisAlignedBoundingBoxed up via Discord.`),
 				jN({
 					description: `Successfully created a new account!`,
 					status: `success`,
@@ -97458,11 +97477,11 @@ var vJ = `966152754886225980`,
 	}),
 	RNe = i((e) => {
 		var t =
-				(e && e.__assign) ||
+				(e && e.__assiAxisAlignedBoundingBox) ||
 				function () {
 					return (
 						(t =
-							Object.assign ||
+							Object.assiAxisAlignedBoundingBox ||
 							function (e) {
 								for (var t, n = 1, r = arguments.length; n < r; n++)
 									for (var i in ((t = arguments[n]), t))
@@ -98460,11 +98479,11 @@ var oPe = n(() => {
 	}),
 	lPe = i((e) => {
 		var n =
-			(e && e.__assign) ||
+			(e && e.__assiAxisAlignedBoundingBox) ||
 			function () {
 				return (
 					(n =
-						Object.assign ||
+						Object.assiAxisAlignedBoundingBox ||
 						function (e) {
 							for (var t, n = 1, r = arguments.length; n < r; n++)
 								for (var i in ((t = arguments[n]), t))
@@ -98565,11 +98584,11 @@ var oPe = n(() => {
 					};
 				})(),
 			n =
-				(e && e.__assign) ||
+				(e && e.__assiAxisAlignedBoundingBox) ||
 				function () {
 					return (
 						(n =
-							Object.assign ||
+							Object.assiAxisAlignedBoundingBox ||
 							function (e) {
 								for (var t, n = 1, r = arguments.length; n < r; n++)
 									for (var i in ((t = arguments[n]), t))
@@ -98851,7 +98870,7 @@ var oPe = n(() => {
 						}
 						return r;
 					}),
-					(g.prototype.vrmDhpxIDd = function (t) {
+					(g.prototype.uToOJmKRMW = function (t) {
 						var n = this.toggles.find(function (e) {
 								return e.name === t;
 							}),
@@ -99305,15 +99324,15 @@ var oPe = n(() => {
 		}
 		fall(e, t) {}
 		updateFallState(e, t, n, r) {}
-		hoqJIksUwbaQHaMKlPEus(e, t) {
+		HXdEIBTdHpEvcDVpuZvhf(e, t) {
 			if (this.isInWater())
-				this.pqNYvdzfdA(e, t, 0.02),
+				this.pXqvfmRnNb(e, t, 0.02),
 					this.moveEntity(this.motion.x, this.motion.y, this.motion.z),
 					(this.motion.x *= 0.8),
 					(this.motion.y *= 0.8),
 					(this.motion.z *= 0.8);
-			else if (this.IHPgvsRs())
-				this.pqNYvdzfdA(e, t, 0.02),
+			else if (this.UcihMIIo())
+				this.pXqvfmRnNb(e, t, 0.02),
 					this.moveEntity(this.motion.x, this.motion.y, this.motion.z),
 					(this.motion.x *= 0.5),
 					(this.motion.y *= 0.5),
@@ -99330,7 +99349,7 @@ var oPe = n(() => {
 				}
 				let r = 0.16277136 / (n * n * n);
 				if (
-					(this.pqNYvdzfdA(e, t, this.onGround ? 0.1 * r : 0.02),
+					(this.pXqvfmRnNb(e, t, this.onGround ? 0.1 * r : 0.02),
 					(n = 0.91),
 					this.onGround)
 				) {
@@ -99366,7 +99385,7 @@ var oPe = n(() => {
 			super(), (this.entity = e), e instanceof Ep;
 		}
 		shouldExecute() {
-			let t = this.aKMKQrKakCJSA(),
+			let t = this.WyGOuFEQwFmmt(),
 				n = this.entity.world.getEntitiesWithinAABB(
 					`player`,
 					this.entity
@@ -99393,7 +99412,7 @@ var oPe = n(() => {
 			)
 				return !1;
 			{
-				let t = this.aKMKQrKakCJSA();
+				let t = this.WyGOuFEQwFmmt();
 				return this.entity.getDistanceSqToEntity(e) > t * t
 					? !1
 					: !(e instanceof Pp) || !e.abilities.creative;
@@ -99405,7 +99424,7 @@ var oPe = n(() => {
 		resetTask() {
 			this.entity.setAttackTarget(null), super.startExecuting();
 		}
-		aKMKQrKakCJSA() {
+		WyGOuFEQwFmmt() {
 			return 16;
 		}
 	},
@@ -99424,13 +99443,13 @@ var oPe = n(() => {
 				this.tasks.addTask(7, new gPe(this)),
 				this.targetTasks.addTask(1, new mPe(this));
 		}
-		zvUduDbHmHz() {
+		MfMQWltcwxC() {
 			return this.dataWatcher.getWatchableObjectByte(16) !== 0;
 		}
-		sNAqnpVwnfGj(e) {
+		QXEheUWOWXaW(e) {
 			this.dataWatcher.updateObject(16, +!!e);
 		}
-		gYCWKXCcYaDMMmxxHab() {
+		pkcBGBejuhONkdMlAbN() {
 			return this.explosionStrength;
 		}
 		update() {
@@ -99456,7 +99475,7 @@ var oPe = n(() => {
 					[ku.followRange, 100],
 				]);
 		}
-		XpXGVHIPSpMJGwAINZULQIQXC() {
+		sWNdlFjURyQMvGDUDHFUIGjqb() {
 			return !1;
 		}
 		getSoundInfo() {
@@ -99473,7 +99492,7 @@ var oPe = n(() => {
 			n = af(3) + af(1 + t);
 			for (let e = 0; e < n; ++e) this.dropItem2(z.gunpowder, 1);
 		}
-		wlCioWlebprXvo() {
+		nwYBOcehuUBUra() {
 			return 10;
 		}
 		getCanSpawnHere() {
@@ -99483,7 +99502,7 @@ var oPe = n(() => {
 				this.world.getDifficulty() !== Vf.PEACEFUL
 			);
 		}
-		XHYaVNAWlnAxisAlignedBoundingBoxKlERDbYg() {
+		AiGLhnfvdWxGRHCaXRkH() {
 			return 1;
 		}
 		writeEntityToNBT(e) {
@@ -99507,14 +99526,14 @@ var oPe = n(() => {
 			this.attackTimer = 0;
 		}
 		resetTask() {
-			this.parentEntity.sNAqnpVwnfGj(!1);
+			this.parentEntity.QXEheUWOWXaW(!1);
 		}
 		updateTask() {
 			let e = this.parentEntity.getAttackTarget();
 			if (e) {
 				if (
 					e.getDistanceSqToEntity(this.parentEntity) < 4096 &&
-					this.parentEntity.obdqbaHnxoQLoSa(e)
+					this.parentEntity.bHlSoffXqDXTGkh(e)
 				) {
 					let t = this.parentEntity.world;
 					if ((this.attackTimer++, this.attackTimer === 20)) {
@@ -99526,7 +99545,7 @@ var oPe = n(() => {
 								(0.5 + this.parentEntity.pos.y + this.parentEntity.height / 2),
 							a = e.pos.z - (this.parentEntity.pos.z + n.z * 4),
 							o = new $p(t, this.parentEntity, r, i, a);
-						(o.explosionPower = this.parentEntity.gYCWKXCcYaDMMmxxHab()),
+						(o.explosionPower = this.parentEntity.pkcBGBejuhONkdMlAbN()),
 							(o.pos.x = this.parentEntity.pos.x + n.x * 4),
 							(o.pos.y =
 								this.parentEntity.pos.y + this.parentEntity.height / 2 + 0.5),
@@ -99535,7 +99554,7 @@ var oPe = n(() => {
 							(this.attackTimer = -40);
 					}
 				} else this.attackTimer > 0 && this.attackTimer--;
-				this.parentEntity.sNAqnpVwnfGj(this.attackTimer > 10);
+				this.parentEntity.QXEheUWOWXaW(this.attackTimer > 10);
 			}
 		}
 	},
@@ -99568,8 +99587,8 @@ var oPe = n(() => {
 			super(), (this.parentEntity = e), this.setMutexBits(1);
 		}
 		shouldExecute() {
-			let e = this.parentEntity.omVGZKOHDekBe();
-			if (e.DLhXgBAwtj()) {
+			let e = this.parentEntity.GYOFgTXHRiYUG();
+			if (e.fJmJNaTvwi()) {
 				let t = e.getX() - this.parentEntity.pos.x,
 					n = e.getY() - this.parentEntity.pos.y,
 					r = e.getZ() - this.parentEntity.pos.z,
@@ -99584,14 +99603,14 @@ var oPe = n(() => {
 			let e = this.parentEntity.pos.x + (Math.random() * 2 - 1) * 16,
 				t = this.parentEntity.pos.y + (Math.random() * 2 - 1) * 16,
 				n = this.parentEntity.pos.z + (Math.random() * 2 - 1) * 16;
-			this.parentEntity.omVGZKOHDekBe().kwQekZoHY(e, t, n, 1);
+			this.parentEntity.GYOFgTXHRiYUG().YUCcLGdnK(e, t, n, 1);
 		}
 	},
 	yPe = class extends Sf {
 		constructor(e) {
 			super(e), (this.courseChangeCooldown = 0), (this.parentEntity = e);
 		}
-		OhGBjeTFIufEpniLqn() {
+		chNceHexdZKaIEXsLy() {
 			if (this.update) {
 				let e = this.posX - this.parentEntity.pos.x,
 					t = this.posY - this.parentEntity.pos.y,
@@ -99600,14 +99619,14 @@ var oPe = n(() => {
 				this.courseChangeCooldown-- <= 0 &&
 					((this.courseChangeCooldown += af(5) + 2),
 					(r = Math.sqrt(r)),
-					this.jkZIWzBUiBvRWG(this.posX, this.posY, this.posZ, r)
+					this.CzHGQazyrKABCk(this.posX, this.posY, this.posZ, r)
 						? ((this.parentEntity.motion.x += (e / r) * 0.1),
 							(this.parentEntity.motion.y += (t / r) * 0.1),
 							(this.parentEntity.motion.z += (n / r) * 0.1))
 						: (this.update = !1));
 			}
 		}
-		jkZIWzBUiBvRWG(e, t, n, r) {
+		CzHGQazyrKABCk(e, t, n, r) {
 			let i = (e - this.parentEntity.pos.x) / r,
 				a = (t - this.parentEntity.pos.y) / r,
 				o = (n - this.parentEntity.pos.z) / r,
@@ -99650,7 +99669,7 @@ var oPe = n(() => {
 			let e = this.attacker.getAttackTarget();
 			return e && e.isEntityAlive()
 				? this.longMemory
-					? this.attacker.OnuDbTOJSsvctCRuCbXpNBFTKxqDRZoL(
+					? this.attacker.KsMoCUYDAWUKdekZTpQTYEaLWAwROlug(
 							new F(e.pos.x, e.pos.y, e.pos.z),
 						)
 					: !this.attacker.getNavigator().noPath()
@@ -99671,9 +99690,9 @@ var oPe = n(() => {
 			let t = this.attacker.pos.distanceToSquared(
 					new D(e.pos.x, e.getEntityBoundingBox().min.y, e.pos.z),
 				),
-				n = this.SbKWbbaiToEHAPwcGgtre(e);
+				n = this.SUMinIdscxFLoBiVSsBHx(e);
 			this.delayCounter--,
-				(this.longMemory || this.attacker.tsOoVXjMMjzEdyL().AYvdZe(e)) &&
+				(this.longMemory || this.attacker.TddqfZHWqdomIiG().tWEdLn(e)) &&
 					this.delayCounter <= 0 &&
 					((this.targetX === 0 && this.targetY === 0 && this.targetZ === 0) ||
 						e.pos.distanceToSquared(
@@ -99696,7 +99715,7 @@ var oPe = n(() => {
 					this.attackTick <= 0 &&
 					((this.attackTick = 20), this.attacker.attackEntityAsMob(e));
 		}
-		SbKWbbaiToEHAPwcGgtre(e) {
+		SUMinIdscxFLoBiVSsBHx(e) {
 			return this.attacker.width * 2 * this.attacker.width * 2 + e.width;
 		}
 	},
@@ -99709,17 +99728,17 @@ var oPe = n(() => {
 		}
 		shouldExecute() {
 			return (
-				this.taskOwner.jRFItkqynlMjYqc() !== this.revengeTimerOld &&
-				this.RFzNStQFtaYFqxni(this.taskOwner.mSdEGMIhTBC(), !1)
+				this.taskOwner.KUBKfLuJIwNuLhX() !== this.revengeTimerOld &&
+				this.rDwIkRzaGymWWijp(this.taskOwner.kGrTCHtbfVD(), !1)
 			);
 		}
 		startExecuting() {
 			if (
-				(this.taskOwner.setAttackTarget(this.taskOwner.mSdEGMIhTBC()),
-				(this.revengeTimerOld = this.taskOwner.jRFItkqynlMjYqc()),
+				(this.taskOwner.setAttackTarget(this.taskOwner.kGrTCHtbfVD()),
+				(this.revengeTimerOld = this.taskOwner.KUBKfLuJIwNuLhX()),
 				this.entityCallsForHelp)
 			) {
-				let e = this.NHiGBcjsIFEpVnoRW(),
+				let e = this.xBAKUBnmBoKJDGcui(),
 					t = this.taskOwner.world.getEntitiesWithinAABB(
 						this.taskOwner.type,
 						new AxisAlignedBoundingBox(
@@ -99747,12 +99766,12 @@ var oPe = n(() => {
 								t = !0;
 								break;
 							}
-						t || this.ELGSofayVczFoRbMELuqI(e, this.taskOwner.mSdEGMIhTBC());
+						t || this.KzGPSgPETiOJrhDtSjDsE(e, this.taskOwner.kGrTCHtbfVD());
 					}
 			}
 			super.startExecuting();
 		}
-		ELGSofayVczFoRbMELuqI(e, t) {
+		KzGPSgPETiOJrhDtSjDsE(e, t) {
 			e.setAttackTarget(t);
 		}
 	},
@@ -99770,24 +99789,24 @@ var oPe = n(() => {
 				this.targetTasks.addTask(1, new tY(this, !1, null)),
 				this.targetTasks.addTask(2, new wg(this, `player`, !0)),
 				this.targetTasks.addTask(3, new wg(this, `golem`, !0)),
-				e != null && e.isServer && this.jlBUphoYjVNWz();
+				e != null && e.isServer && this.CGvrGDHJzrGyR();
 		}
 		applyEntityAttributes() {
 			super.applyEntityAttributes(),
-				this.applyBaseAttributes([[ku.eAwmWnqQCXQCI, 0.25]]);
+				this.applyBaseAttributes([[ku.UNrmpQxnutSuc, 0.25]]);
 		}
 		entityInit() {
 			super.entityInit(), this.dataWatcher.addObject(13, 0);
 		}
 		attackEntityAsMob(e) {
 			return super.attackEntityAsMob(e)
-				? (this.ORVAawjpUYQUqDB() == 1 && e instanceof jd, !0)
+				? (this.DgDbneJqlJDuLor() == 1 && e instanceof jd, !0)
 				: !1;
 		}
 		onLivingUpdate() {
-			this.ukZFSiOjhBAeDg(),
+			this.HtOrPffoDZxcLI(),
 				this.world.isClient &&
-					this.ORVAawjpUYQUqDB() == 1 &&
+					this.DgDbneJqlJDuLor() == 1 &&
 					this.setSize(0.72, 2.535),
 				super.onLivingUpdate();
 		}
@@ -99806,7 +99825,7 @@ var oPe = n(() => {
 			return { drop: z.arrow };
 		}
 		dropFewItems(e, t) {
-			if (this.ORVAawjpUYQUqDB() == 1) {
+			if (this.DgDbneJqlJDuLor() == 1) {
 				let e = af(3 + t) - 1;
 				for (let t = 0; t < e; ++t) this.dropItem2(z.coal, 1);
 			} else {
@@ -99816,61 +99835,61 @@ var oPe = n(() => {
 			let n = af(3 + t);
 			for (let e = 0; e < n; ++e) this.dropItem2(z.bone, 1);
 		}
-		okMbrEXPVcDJK() {
-			this.ORVAawjpUYQUqDB();
+		iKOuFnLQokDhm() {
+			this.DgDbneJqlJDuLor();
 		}
-		NBHgXSprLKWCQOLrVJpcdJXXVHCtX(e) {
-			super.NBHgXSprLKWCQOLrVJpcdJXXVHCtX(e),
+		vcZOdxIPVqXgwWaiFxAAIlGUnDXcd(e) {
+			super.vcZOdxIPVqXgwWaiFxAAIlGUnDXcd(e),
 				this.setCurrentItemOrArmor(0, new Hp(z.bow));
 		}
 		onInitialSpawn(e, t) {
 			return (
 				(t = super.onInitialSpawn(e, t)),
 				this.tasks.addTask(4, this.aiArrowAttack),
-				this.NBHgXSprLKWCQOLrVJpcdJXXVHCtX(e),
+				this.vcZOdxIPVqXgwWaiFxAAIlGUnDXcd(e),
 				t
 			);
 		}
-		jlBUphoYjVNWz() {
-			this.tasks.hYLMnsFsZS(this.aiAttackOnCollide),
-				this.tasks.hYLMnsFsZS(this.aiArrowAttack);
+		CGvrGDHJzrGyR() {
+			this.tasks.nBvjjDMtKP(this.aiAttackOnCollide),
+				this.tasks.nBvjjDMtKP(this.aiArrowAttack);
 			let e = this.getHeldItem();
 			e != null && e.getItem() == z.bow
 				? this.tasks.addTask(4, this.aiArrowAttack)
 				: this.tasks.addTask(4, this.aiAttackOnCollide);
 		}
-		hQQAFXUQEIexVRdxIWXMOzRioJVa(e, t) {
+		gNhHSZKoURvKfrGtYvjsgthLhrqx(e, t) {
 			let n = new zp(this.world, this, e, 1.6, 5),
 				r = Rd.getEnchantmentLevel(Ld.power.effectId, this.getHeldItem()),
 				i = Rd.getEnchantmentLevel(Ld.punch.effectId, this.getHeldItem());
-			n.RzdBQPLjO(
+			n.SXAKNzNRt(
 				t * 2 +
 					$u() * 0.25 +
 					this.world.getDifficulty().getDifficultyId() * 0.11,
 			),
-				r > 0 && n.RzdBQPLjO(n.MnKNgFhID() + r * 0.5 + 0.5),
-				i > 0 && n.lWUYGZxVDwTukCSBbbWp(i),
+				r > 0 && n.SXAKNzNRt(n.CqgdVVQsC() + r * 0.5 + 0.5),
+				i > 0 && n.deIqvVyAvKPNwtOoLmuK(i),
 				(Rd.getEnchantmentLevel(Ld.flame.effectId, this.getHeldItem()) > 0 ||
-					this.ORVAawjpUYQUqDB() == 1) &&
+					this.DgDbneJqlJDuLor() == 1) &&
 					n.setFire(100),
 				this.playSound(`random.bow`, 1, 1 / (Math.random() * 0.4 + 0.8)),
 				this.world.spawnEntityInWorld(n);
 		}
-		ORVAawjpUYQUqDB() {
+		DgDbneJqlJDuLor() {
 			return this.dataWatcher.getWatchableObjectByte(13);
 		}
-		pMbAEtUImLJyOIi(e) {
+		toessNDXEtwIKdY(e) {
 			this.dataWatcher.updateObject(13, e),
 				e == 1 ? this.setSize(0.72, 2.535) : this.setSize(0.6, 1.95);
 		}
 		setCurrentItemOrArmor(e, t) {
 			super.setCurrentItemOrArmor(e, t),
-				this.world.isServer && e == 0 && this.jlBUphoYjVNWz();
+				this.world.isServer && e == 0 && this.CGvrGDHJzrGyR();
 		}
 		getEyeHeight() {
-			return this.ORVAawjpUYQUqDB() == 1 ? super.getEyeHeight() : 1.74;
+			return this.DgDbneJqlJDuLor() == 1 ? super.getEyeHeight() : 1.74;
 		}
-		mINSlcXsir() {
+		tfsNPJIkDn() {
 			return this.isChild() ? 0 : -0.35;
 		}
 	},
@@ -99881,7 +99900,7 @@ var oPe = n(() => {
 		shouldExecute() {
 			let e = this.swellingCreeper.getAttackTarget();
 			return (
-				this.swellingCreeper.ucJrTmmRRCdtTye() > 0 ||
+				this.swellingCreeper.cTcELyEDrOVmZdm() > 0 ||
 				(e != null && this.swellingCreeper.getDistanceSqToEntity(e) < 9)
 			);
 		}
@@ -99895,12 +99914,12 @@ var oPe = n(() => {
 		updateTask() {
 			this.creeperAttackTarget == null ||
 			this.swellingCreeper.getDistanceSqToEntity(this.creeperAttackTarget) > 49
-				? this.swellingCreeper.FGLjsjoymaDbraN(-1)
+				? this.swellingCreeper.VyYfNYCJIllJUJY(-1)
 				: this.swellingCreeper
-							.tsOoVXjMMjzEdyL()
-							.AYvdZe(this.creeperAttackTarget)
-					? this.swellingCreeper.FGLjsjoymaDbraN(1)
-					: this.swellingCreeper.FGLjsjoymaDbraN(-1);
+							.TddqfZHWqdomIiG()
+							.tWEdLn(this.creeperAttackTarget)
+					? this.swellingCreeper.VyYfNYCJIllJUJY(1)
+					: this.swellingCreeper.VyYfNYCJIllJUJY(-1);
 		}
 	},
 	xPe = class e extends xg {
@@ -99909,7 +99928,7 @@ var oPe = n(() => {
 				(this.identifier = Bd.CREEPER),
 				(this.type = `creeper`),
 				(this.lastActiveTime = 0),
-				(this.timeSinceIgnited = 0),
+				(this.timeSinceIAxisAlignedBoundingBoxited = 0),
 				(this.fuseTime = 30),
 				(this.explosionRadius = 3),
 				(this.field_175494_bm = 0),
@@ -99925,18 +99944,18 @@ var oPe = n(() => {
 		}
 		applyEntityAttributes() {
 			super.applyEntityAttributes(),
-				this.applyBaseAttributes([[ku.eAwmWnqQCXQCI, 0.25]]);
+				this.applyBaseAttributes([[ku.UNrmpQxnutSuc, 0.25]]);
 		}
-		MYsvtrgDpLtUBNLm() {
+		kTlvLrvuazZVAOUx() {
 			return this.getAttackTarget() == null ? 3 : 3 + (this.getHealth() - 1);
 		}
 		fall(e, t) {
 			super.fall(e, t),
-				(this.timeSinceIgnited = (0, M.toInteger)(
-					this.timeSinceIgnited + e * 1.5,
+				(this.timeSinceIAxisAlignedBoundingBoxited = (0, M.toInteger)(
+					this.timeSinceIAxisAlignedBoundingBoxited + e * 1.5,
 				)),
-				this.timeSinceIgnited > this.fuseTime - 5 &&
-					(this.timeSinceIgnited = this.fuseTime - 5);
+				this.timeSinceIAxisAlignedBoundingBoxited > this.fuseTime - 5 &&
+					(this.timeSinceIAxisAlignedBoundingBoxited = this.fuseTime - 5);
 		}
 		entityInit() {
 			super.entityInit(),
@@ -99946,16 +99965,16 @@ var oPe = n(() => {
 		}
 		update() {
 			if (this.isEntityAlive()) {
-				(this.lastActiveTime = this.timeSinceIgnited),
-					this.tmLYvDwnpy() && this.FGLjsjoymaDbraN(1);
-				let e = this.ucJrTmmRRCdtTye();
+				(this.lastActiveTime = this.timeSinceIAxisAlignedBoundingBoxited),
+					this.qqRrMiWEPK() && this.VyYfNYCJIllJUJY(1);
+				let e = this.cTcELyEDrOVmZdm();
 				e > 0 &&
-					this.timeSinceIgnited == 0 &&
+					this.timeSinceIAxisAlignedBoundingBoxited == 0 &&
 					this.playSound(`creeper.primed`, 1, 0.5),
-					(this.timeSinceIgnited += e),
-					this.timeSinceIgnited < 0 && (this.timeSinceIgnited = 0),
-					this.timeSinceIgnited >= this.fuseTime &&
-						((this.timeSinceIgnited = this.fuseTime), this.explode());
+					(this.timeSinceIAxisAlignedBoundingBoxited += e),
+					this.timeSinceIAxisAlignedBoundingBoxited < 0 && (this.timeSinceIAxisAlignedBoundingBoxited = 0),
+					this.timeSinceIAxisAlignedBoundingBoxited >= this.fuseTime &&
+						((this.timeSinceIAxisAlignedBoundingBoxited = this.fuseTime), this.explode());
 			}
 			super.update();
 		}
@@ -99971,27 +99990,27 @@ var oPe = n(() => {
 				t.getEntity() instanceof nY ||
 					(t.getEntity() instanceof e &&
 						t.getEntity() != this &&
-						t.getEntity().RMgJgLvYSf() &&
-						t.getEntity().AAnRqRZcZub() &&
-						t.getEntity().rjaoAuUYqYRcxb());
+						t.getEntity().GXBrmnVRlH() &&
+						t.getEntity().FiZuSOxIize() &&
+						t.getEntity().IcdjWVWRMhFFvw());
 		}
 		attackEntityAsMob(e) {
 			return !0;
 		}
-		RMgJgLvYSf() {
+		GXBrmnVRlH() {
 			return this.dataWatcher.getWatchableObjectByte(17) == 1;
 		}
-		WJssvkHkkdGimjZRuexJiJAr(e) {
+		tnIHWLUjOGwSIaujczKMCdjD(e) {
 			return (
 				(this.lastActiveTime +
-					(this.timeSinceIgnited - this.lastActiveTime) * e) /
+					(this.timeSinceIAxisAlignedBoundingBoxited - this.lastActiveTime) * e) /
 				(this.fuseTime - 2)
 			);
 		}
-		ucJrTmmRRCdtTye() {
+		cTcELyEDrOVmZdm() {
 			return this.dataWatcher.getWatchableObjectByte(16);
 		}
-		FGLjsjoymaDbraN(e) {
+		VyYfNYCJIllJUJY(e) {
 			this.dataWatcher.updateObject(16, e);
 		}
 		interact(e) {
@@ -99999,19 +100018,19 @@ var oPe = n(() => {
 			return t != null &&
 				t.getItem() == z.flint_and_steel &&
 				(this.world.playSoundAtPosition(
-					`fire.ignite`,
+					`fire.iAxisAlignedBoundingBoxite`,
 					1,
 					Math.random() * 0.4 + 0.8,
 					this.pos.clone().addScalar(0.5),
 				),
 				this.world.isServer)
-				? (this.ignite(), t.damageItem(1, e), !0)
+				? (this.iAxisAlignedBoundingBoxite(), t.damageItem(1, e), !0)
 				: super.interact(e);
 		}
 		explode() {
 			if (this.world.isServer) {
 				let e = this.world.getMobGriefing(),
-					t = this.RMgJgLvYSf() ? 1 : 0.4;
+					t = this.GXBrmnVRlH() ? 1 : 0.4;
 				this.world.createExplosion(
 					this,
 					this.pos.x,
@@ -100023,16 +100042,16 @@ var oPe = n(() => {
 					this.setDead();
 			}
 		}
-		tmLYvDwnpy() {
+		qqRrMiWEPK() {
 			return this.dataWatcher.getWatchableObjectByte(18) != 0;
 		}
-		ignite() {
+		iAxisAlignedBoundingBoxite() {
 			this.dataWatcher.updateObject(18, 1);
 		}
-		AAnRqRZcZub() {
+		FiZuSOxIize() {
 			return this.field_175494_bm < 1 && !0;
 		}
-		rjaoAuUYqYRcxb() {
+		IcdjWVWRMhFFvw() {
 			++this.field_175494_bm;
 		}
 	},
@@ -100065,10 +100084,10 @@ var oPe = n(() => {
 					: !1;
 		}
 		updateTask() {
-			this.slime.kQAXkXKIqR(this.slime.getAttackTarget(), 10, 10),
+			this.slime.ecSLODxdUS(this.slime.getAttackTarget(), 10, 10),
 				this.slime
-					.omVGZKOHDekBe()
-					.tNNAYOTiWEdQw(this.slime.yaw, this.slime.RLavMyGNxhvTbrK());
+					.GYOFgTXHRiYUG()
+					.PUYuDyZCqwUek(this.slime.yaw, this.slime.IoEjalCDFRMdlDo());
 		}
 	},
 	CPe = class extends _p {
@@ -100082,13 +100101,13 @@ var oPe = n(() => {
 		shouldExecute() {
 			return (
 				this.slime.getAttackTarget() == null &&
-				(this.slime.onGround || this.slime.isInWater() || this.slime.IHPgvsRs())
+				(this.slime.onGround || this.slime.isInWater() || this.slime.UcihMIIo())
 			);
 		}
 		updateTask() {
 			--this.field_179460_c <= 0 &&
 				((this.field_179460_c = 40 + af(60)), (this.field_179459_b = af(360))),
-				this.slime.omVGZKOHDekBe().tNNAYOTiWEdQw(this.field_179459_b, !1);
+				this.slime.GYOFgTXHRiYUG().PUYuDyZCqwUek(this.field_179459_b, !1);
 		}
 	},
 	wPe = class extends _p {
@@ -100099,11 +100118,11 @@ var oPe = n(() => {
 				e.getNavigator().setCanSwim(!0);
 		}
 		shouldExecute() {
-			return this.slime.isInWater() || this.slime.IHPgvsRs();
+			return this.slime.isInWater() || this.slime.UcihMIIo();
 		}
 		updateTask() {
-			Math.random() < 0.8 && this.slime.EoxxvYRKvkbuN().hEDegRKHWS(),
-				this.slime.omVGZKOHDekBe().uWAnKGLf(1.2);
+			Math.random() < 0.8 && this.slime.JHNulzDSifGmW().nEcpMcbTYb(),
+				this.slime.GYOFgTXHRiYUG().htvjPEtA(1.2);
 		}
 	},
 	TPe = class extends _p {
@@ -100114,7 +100133,7 @@ var oPe = n(() => {
 			return !0;
 		}
 		updateTask() {
-			this.slime.omVGZKOHDekBe().uWAnKGLf(1);
+			this.slime.GYOFgTXHRiYUG().htvjPEtA(1);
 		}
 	},
 	EPe = class extends Sf {
@@ -100125,14 +100144,14 @@ var oPe = n(() => {
 				(this.field_179923_j = !1),
 				(this.slime = e);
 		}
-		tNNAYOTiWEdQw(e, t) {
+		PUYuDyZCqwUek(e, t) {
 			(this.field_179922_g = e), (this.field_179923_j = t);
 		}
-		uWAnKGLf(e) {
+		htvjPEtA(e) {
 			(this.speed = e), (this.update = !0);
 		}
-		OhGBjeTFIufEpniLqn() {
-			(this.entity.yaw = this.kjbtBwPiPi(
+		chNceHexdZKaIEXsLy() {
+			(this.entity.yaw = this.dHbteHwuiC(
 				this.entity.yaw,
 				this.field_179922_g,
 				30,
@@ -100142,31 +100161,31 @@ var oPe = n(() => {
 				this.update
 					? ((this.update = !1),
 						this.entity.onGround
-							? (this.entity.etCAZJbRaJNeBM(
+							? (this.entity.npwzFfMkTreHhB(
 									this.speed *
 										this.entity
-											.getEntityAttribute(ku.eAwmWnqQCXQCI)
+											.getEntityAttribute(ku.UNrmpQxnutSuc)
 											.getAttributeValue(),
 								),
 								this.field_179924_h-- <= 0
-									? ((this.field_179924_h = this.slime.YRRAnvXgCJSL()),
+									? ((this.field_179924_h = this.slime.sIbJATXIBeuB()),
 										this.field_179923_j && (this.field_179924_h /= 3),
-										this.slime.EoxxvYRKvkbuN().hEDegRKHWS(),
-										this.slime.UoRrIblpSPxrBCku() &&
+										this.slime.JHNulzDSifGmW().nEcpMcbTYb(),
+										this.slime.QDpAiRMDNwjICnUQ() &&
 											this.slime.playSound(
-												this.slime.BcnyHVrMyqyk(),
-												this.slime.wlCioWlebprXvo(),
+												this.slime.erbxOmxUdpbb(),
+												this.slime.nwYBOcehuUBUra(),
 												((Math.random() - Math.random()) * 0.2 + 1) * 0.8,
 											))
-									: ((this.slime.WtjwRKKoMH = this.slime.moveForward = 0),
-										this.entity.etCAZJbRaJNeBM(0)))
-							: this.entity.etCAZJbRaJNeBM(
+									: ((this.slime.ehLnHaYjaS = this.slime.moveForward = 0),
+										this.entity.npwzFfMkTreHhB(0)))
+							: this.entity.npwzFfMkTreHhB(
 									this.speed *
 										this.entity
-											.getEntityAttribute(ku.eAwmWnqQCXQCI)
+											.getEntityAttribute(ku.UNrmpQxnutSuc)
 											.getAttributeValue(),
 								))
-					: this.entity.wTcAFaiQygPebR(0);
+					: this.entity.NrEFjDZLwESiGv(0);
 		}
 	},
 	DPe = class e extends Cf {
@@ -100187,87 +100206,87 @@ var oPe = n(() => {
 		entityInit() {
 			super.entityInit(), this.dataWatcher.addObject(16, 1);
 		}
-		KZxWCPNTpzxN(e) {
+		ObHtHkjskdKE(e) {
 			this.dataWatcher.updateObject(16, e),
 				this.setSize(0.51 * e, 0.51 * e),
 				this.setPosition(this.pos.x, this.pos.y, this.pos.z),
 				this.getEntityAttribute(ku.maxHealth).setBaseValue(e * e),
-				this.getEntityAttribute(ku.eAwmWnqQCXQCI).setBaseValue(0.2 + 0.1 * e),
+				this.getEntityAttribute(ku.UNrmpQxnutSuc).setBaseValue(0.2 + 0.1 * e),
 				this.setHealth(this.getMaxHealth()),
 				(this.experienceValue = e);
 		}
-		WDllwCBOJgYe() {
+		OZdgjVTRiqkX() {
 			return this.dataWatcher.getWatchableObjectByte(16);
 		}
-		ckqlCitqGjAqfTD() {
+		fMsOFexKsqZBskw() {
 			return vu.SLIME;
 		}
-		BcnyHVrMyqyk() {
-			return `mob.slime.` + (this.WDllwCBOJgYe() > 1 ? `big` : `small`);
+		erbxOmxUdpbb() {
+			return `mob.slime.` + (this.OZdgjVTRiqkX() > 1 ? `big` : `small`);
 		}
 		update() {
 			if (
 				(this.world.isServer &&
 					this.world.getDifficulty() == Vf.PEACEFUL &&
-					this.WDllwCBOJgYe() > 0 &&
+					this.OZdgjVTRiqkX() > 0 &&
 					(this.dead = !0),
 				(this.squishFactor += (this.squishAmount - this.squishFactor) * 0.5),
 				(this.prevSquishFactor = this.squishFactor),
 				super.update(),
 				this.onGround && !this.wasOnGround)
 			) {
-				let e = this.WDllwCBOJgYe();
+				let e = this.OZdgjVTRiqkX();
 				for (let t = 0; t < e * 8; ++t) {
 					let t = Math.random() * Math.PI * 2,
 						n = Math.random() * 0.5 + 0.5,
 						r = Math.sin(t) * e * 0.5 * n,
 						i = Math.cos(t) * e * 0.5 * n,
 						a = this.world,
-						o = this.ckqlCitqGjAqfTD(),
+						o = this.fMsOFexKsqZBskw(),
 						s = this.pos.x + r,
 						c = this.pos.z + i;
 					a.spawnParticle(o, s, this.getEntityBoundingBox().min.y, c, 0, 0, 0);
 				}
-				this.smlTKpeFeWjGruoH() &&
+				this.WhTSUHsMVszhAOzD() &&
 					this.world.playSoundAtEntity(
 						this,
-						this.BcnyHVrMyqyk(),
-						this.wlCioWlebprXvo(),
+						this.erbxOmxUdpbb(),
+						this.nwYBOcehuUBUra(),
 						((Math.random() - Math.random()) * 0.2 + 1) / 0.8,
 					),
 					(this.squishAmount = -0.5);
 			} else !this.onGround && this.wasOnGround && (this.squishAmount = 1);
-			(this.wasOnGround = this.onGround), this.zDhxItnHOovQRnjTV();
+			(this.wasOnGround = this.onGround), this.TclcIBbRGleJHsRFA();
 		}
-		zDhxItnHOovQRnjTV() {
+		TclcIBbRGleJHsRFA() {
 			this.squishAmount *= 0.6;
 		}
-		YRRAnvXgCJSL() {
+		sIbJATXIBeuB() {
 			return af(20) + 10;
 		}
-		DfcasReBRLVYPB() {
+		KeUGoXDfEsASKg() {
 			return new e(this.world);
 		}
-		ZrsPMlSQJkwxhxfKdye(e) {
+		RJdRWndYzhlODldjtPa(e) {
 			if (e == 16) {
-				let e = this.WDllwCBOJgYe();
+				let e = this.OZdgjVTRiqkX();
 				this.setSize(0.51 * e, 0.51 * e),
 					(this.yaw = this.yawHead),
 					(this.renderYawOffset = this.yawHead),
-					this.isInWater() && af(20) == 0 && this.ZNRLlkwTVzJ();
+					this.isInWater() && af(20) == 0 && this.EifdMlhBMLi();
 			}
-			super.ZrsPMlSQJkwxhxfKdye(e);
+			super.RJdRWndYzhlODldjtPa(e);
 		}
 		setDead() {
-			let e = this.WDllwCBOJgYe();
+			let e = this.OZdgjVTRiqkX();
 			if (this.world.isServer && e > 1 && this.getHealth() <= 0) {
 				let t = 2 + af(3);
 				for (let n = 0; n < t; ++n) {
 					let t = (((n % 2) - 0.5) * e) / 4,
 						r = ((n / 2 - 0.5) * e) / 4,
-						i = this.DfcasReBRLVYPB();
-					this.giUyoHDNIOestHnwQzh() && i.zhiEcBmBIwTugUkEI(),
-						i.KZxWCPNTpzxN(e / 2),
+						i = this.KeUGoXDfEsASKg();
+					this.yTXlxVlcxsKQoZuWDXj() && i.swnRaJqzCFUaKRwFd(),
+						i.ObHtHkjskdKE(e / 2),
 						i.setLocationAndAngles(
 							this.pos.x + t,
 							this.pos.y + 0.5,
@@ -100280,15 +100299,15 @@ var oPe = n(() => {
 			}
 			super.setDead();
 		}
-		qIkhZJDGRfAHUDwVAYpf(e) {}
+		QlZTOkoWbOedXiGldvew(e) {}
 		onCollideWithPlayer(e) {
-			this.RLavMyGNxhvTbrK() && this.ZgyjfpUhgIESz(e);
+			this.IoEjalCDFRMdlDo() && this.fhabEewImoJKY(e);
 		}
-		ZgyjfpUhgIESz(e) {
-			let t = this.WDllwCBOJgYe();
-			this.obdqbaHnxoQLoSa(e) &&
+		fhabEewImoJKY(e) {
+			let t = this.OZdgjVTRiqkX();
+			this.bHlSoffXqDXTGkh(e) &&
 				this.getDistanceSqToEntity(e) < 0.6 * t * 0.6 * t &&
-				e.attackEntityFrom(Ip.causeMobDamage(this), this.sNstWDzkCVdMcaSqp()) &&
+				e.attackEntityFrom(Ip.causeMobDamage(this), this.ddGlumgGRAjJFzRvd()) &&
 				this.playSound(
 					`mob.attack`,
 					1,
@@ -100298,35 +100317,35 @@ var oPe = n(() => {
 		getEyeHeight() {
 			return 0.625 * this.height;
 		}
-		RLavMyGNxhvTbrK() {
-			return this.WDllwCBOJgYe() > 1;
+		IoEjalCDFRMdlDo() {
+			return this.OZdgjVTRiqkX() > 1;
 		}
-		sNstWDzkCVdMcaSqp() {
-			return this.WDllwCBOJgYe();
+		ddGlumgGRAjJFzRvd() {
+			return this.OZdgjVTRiqkX();
 		}
-		ChOZkxoyuHUI() {
-			return `mob.slime.` + (this.WDllwCBOJgYe() > 1 ? `big` : `small`);
+		mvRCETWznABF() {
+			return `mob.slime.` + (this.OZdgjVTRiqkX() > 1 ? `big` : `small`);
 		}
-		gouKMNFCdgbjV() {
-			return `mob.slime.` + (this.WDllwCBOJgYe() > 1 ? `big` : `small`);
+		QuJuhCNgbsKSb() {
+			return `mob.slime.` + (this.OZdgjVTRiqkX() > 1 ? `big` : `small`);
 		}
-		RumkiZEbYll() {
-			return this.WDllwCBOJgYe() == 1 ? z.slime_ball : null;
+		NEkzaJOxjoQ() {
+			return this.OZdgjVTRiqkX() == 1 ? z.slime_ball : null;
 		}
 		getCanSpawnHere() {
 			return !1;
 		}
-		wlCioWlebprXvo() {
-			return 0.4 * this.WDllwCBOJgYe();
+		nwYBOcehuUBUra() {
+			return 0.4 * this.OZdgjVTRiqkX();
 		}
 		getVerticalFaceSpeed() {
 			return 0;
 		}
-		UoRrIblpSPxrBCku() {
-			return this.WDllwCBOJgYe() > 0;
+		QDpAiRMDNwjICnUQ() {
+			return this.OZdgjVTRiqkX() > 0;
 		}
-		smlTKpeFeWjGruoH() {
-			return this.WDllwCBOJgYe() > 2;
+		WhTSUHsMVszhAOzD() {
+			return this.OZdgjVTRiqkX() > 2;
 		}
 		jump() {
 			(this.motion.y = 0.41999998688697815), (this.isAirborne = !0);
@@ -100335,7 +100354,7 @@ var oPe = n(() => {
 			let n = af(3);
 			n < 2 && Math.random() < 0.5 && ++n;
 			let r = 1 << n;
-			return this.KZxWCPNTpzxN(r), super.onInitialSpawn(e, t);
+			return this.ObHtHkjskdKE(r), super.onInitialSpawn(e, t);
 		}
 	},
 	OPe = class extends vf {
@@ -100374,8 +100393,8 @@ var oPe = n(() => {
 						).toVec3(),
 					) >= e)
 					? this.theEntity
-							.omVGZKOHDekBe()
-							.kwQekZoHY(
+							.GYOFgTXHRiYUG()
+							.YUCcLGdnK(
 								this.targetPosition.getX(),
 								this.targetPosition.getY(),
 								this.targetPosition.getZ(),
@@ -100425,7 +100444,7 @@ var oPe = n(() => {
 		continueExecuting() {
 			return super.continueExecuting();
 		}
-		dVLmtgRKWEkrQ(e) {
+		ycyCtstzBPlgv(e) {
 			return 4 + e.width;
 		}
 	},
@@ -100452,10 +100471,10 @@ var oPe = n(() => {
 				this.targetTasks.addTask(1, new tY(this, !1)),
 				this.targetTasks.addTask(2, new APe(this, `player`));
 		}
-		fGDcEubBcNPGGTsvO() {
+		UVNnSRcdgzJKxWHAi() {
 			return this.height * 0.5;
 		}
-		VMpYdonBfQIbhFF(e) {
+		DUnFXxKtOSUOznp(e) {
 			return new OPe(this, e);
 		}
 		entityInit() {
@@ -100464,13 +100483,13 @@ var oPe = n(() => {
 		update() {
 			super.update(),
 				this.world.isServer &&
-					this.XCdsmhqqEeWlLQrdjIduonY(this.isCollidedHorizontally);
+					this.mhUVyljfUkISiugNmVjDOnc(this.isCollidedHorizontally);
 		}
 		applyEntityAttributes() {
 			super.applyEntityAttributes(),
 				this.applyBaseAttributes([
 					[ku.maxHealth, 16],
-					[ku.eAwmWnqQCXQCI, 0.30000001192092896],
+					[ku.UNrmpQxnutSuc, 0.30000001192092896],
 				]);
 		}
 		getSoundInfo() {
@@ -100480,21 +100499,21 @@ var oPe = n(() => {
 			super.dropFewItems(e, t), e && (af(3) === 0 || af(1 + t));
 		}
 		isOnLadder() {
-			return this.eTuCYMluPMyBQUEcTVfhiQ();
+			return this.HatymalBCXhPaGTtbmedMu();
 		}
-		UByDYgAa() {}
-		xUIeLyTteVILWzTQxKKj() {
+		KmXTlxsh() {}
+		MFxPOFlWfovShdoaUbfQ() {
 			return xd.ARTHROPOD;
 		}
-		AVYFuuGEOzrMLuJOym(e) {
+		dQXiWjwLqCrZjnAfHY(e) {
 			return e.getPotionID() === kd.poison.id
 				? !1
-				: super.AVYFuuGEOzrMLuJOym(e);
+				: super.dQXiWjwLqCrZjnAfHY(e);
 		}
-		eTuCYMluPMyBQUEcTVfhiQ() {
+		HatymalBCXhPaGTtbmedMu() {
 			return (this.dataWatcher.getWatchableObjectByte(16) & 1) != 0;
 		}
-		XCdsmhqqEeWlLQrdjIduonY(e) {
+		mhUVyljfUkISiugNmVjDOnc(e) {
 			let t = this.dataWatcher.getWatchableObjectByte(16);
 			e ? (t |= 1) : (t &= -2), this.dataWatcher.updateObject(16, t);
 		}
@@ -100526,10 +100545,10 @@ var oPe = n(() => {
 				this.tasks.addTask(7, new Cp(this, 1)),
 				this.tasks.addTask(8, new wp(this, `player`, 8)),
 				this.tasks.addTask(8, new vp(this)),
-				this.cIxhoKPoZXkfX(),
+				this.BQHsSXfojlMCB(),
 				this.setSize(0.6, 1.95);
 		}
-		cIxhoKPoZXkfX() {
+		BQHsSXfojlMCB() {
 			this.tasks.addTask(4, new eY(this, `villager`, 1, !0)),
 				this.tasks.addTask(4, new eY(this, `golem`, 1, !0)),
 				this.targetTasks.addTask(1, new tY(this, !0, `zombie_cowman`)),
@@ -100541,7 +100560,7 @@ var oPe = n(() => {
 			super.applyEntityAttributes(),
 				this.applyBaseAttributes([
 					[ku.followRange, 35],
-					[ku.eAwmWnqQCXQCI, 0.23],
+					[ku.UNrmpQxnutSuc, 0.23],
 					[ku.attackDamage, 3],
 				]);
 		}
@@ -100551,11 +100570,11 @@ var oPe = n(() => {
 				this.getDataWatcher().addObject(13, 0),
 				this.getDataWatcher().addObject(14, 0);
 		}
-		tsLiikyaLZAWgTFJNP() {
-			let e = super.tsLiikyaLZAWgTFJNP() + 2;
+		WntfhkXqbYTOXUSwXz() {
+			let e = super.WntfhkXqbYTOXUSwXz() + 2;
 			return e > 20 && (e = 20), e;
 		}
-		qJomecGGNOUpjbSGWAR(e) {
+		qPLkAnAlALdxYDJuwuN(e) {
 			this.isBreakDoorsTaskSet != e && (this.isBreakDoorsTaskSet = e);
 		}
 		isChild() {
@@ -100568,14 +100587,14 @@ var oPe = n(() => {
 				super.getExperiencePoints(e)
 			);
 		}
-		tRUlHveHxY() {
+		RZgYBzvtsB() {
 			return this.getDataWatcher().getWatchableObjectByte(13) == 1;
 		}
-		nXmdHqqlRMz(e) {
+		EiSFylLqxUh(e) {
 			this.getDataWatcher().updateObject(13, +!!e);
 		}
 		onLivingUpdate() {
-			this.ukZFSiOjhBAeDg(), super.onLivingUpdate();
+			this.HtOrPffoDZxcLI(), super.onLivingUpdate();
 		}
 		attackEntityFrom(e, t) {
 			if (super.attackEntityFrom(e, t)) {
@@ -100586,10 +100605,10 @@ var oPe = n(() => {
 			} else return !1;
 		}
 		update() {
-			if (this.world.isServer && this.bZhInZVLcPPW()) {
-				let e = this.sdbXqYJbrmfpqEkawAkfEh();
+			if (this.world.isServer && this.ZSJDCEfnSUCO()) {
+				let e = this.WxlcFeZuvRRwlknYmVjnlt();
 				(this.conversionTime -= e),
-					this.conversionTime <= 0 && this.tSGDDIICPZvTkvdpX();
+					this.conversionTime <= 0 && this.YeFGAtYtNzrlFhPOD();
 			}
 			super.update();
 		}
@@ -100613,7 +100632,7 @@ var oPe = n(() => {
 				drop: z.rotten_flesh,
 			};
 		}
-		okMbrEXPVcDJK() {
+		iKOuFnLQokDhm() {
 			switch (af(3)) {
 				case 0:
 					this.dropItem2(z.iron_ingot, 1);
@@ -100625,39 +100644,39 @@ var oPe = n(() => {
 					this.dropItem2(z.potato, 1);
 			}
 		}
-		SZgSAZePduPg(e) {
-			super.SZgSAZePduPg(e);
+		iZXsGnhoUpTJ(e) {
+			super.iZXsGnhoUpTJ(e);
 		}
 		getEyeHeight() {
 			let e = 1.74;
 			return this.isChild() && (e -= 0.81), e;
 		}
 		handleStatusUpdate(e) {
-			e == 16 ? this.YmmECvTB() : super.handleStatusUpdate(e);
+			e == 16 ? this.pZLCCFMi() : super.handleStatusUpdate(e);
 		}
-		xvnormalizeAnglekxdnWX() {
-			return !this.bZhInZVLcPPW();
+		kZJrCIWVcR() {
+			return !this.ZSJDCEfnSUCO();
 		}
-		bZhInZVLcPPW() {
+		ZSJDCEfnSUCO() {
 			return this.getDataWatcher().getWatchableObjectByte(14) == 1;
 		}
-		tSGDDIICPZvTkvdpX() {}
-		sdbXqYJbrmfpqEkawAkfEh() {
+		YeFGAtYtNzrlFhPOD() {}
+		WxlcFeZuvRRwlknYmVjnlt() {
 			return 1;
 		}
-		FXoMpXCaAwgi(e) {
-			this.DxSaOhSshedn(e ? 0.5 : 1);
+		KTmZyqWRLkEb(e) {
+			this.eLfiVlfbwXRS(e ? 0.5 : 1);
 		}
 		setSize(e, t) {
 			let n = this.zombieWidth > 0 && this.zombieHeight > 0;
 			(this.zombieWidth = e),
 				(this.zombieHeight = t),
-				n || this.DxSaOhSshedn(1);
+				n || this.eLfiVlfbwXRS(1);
 		}
-		DxSaOhSshedn(e) {
+		eLfiVlfbwXRS(e) {
 			super.setSize(this.zombieWidth * e, this.zombieHeight * e);
 		}
-		mINSlcXsir() {
+		tfsNPJIkDn() {
 			return this.isChild() ? 0 : -0.35;
 		}
 		onDeath(e) {
@@ -100715,15 +100734,15 @@ var oY = [
 				this.setCurrentItemOrArmor(0, new Hp(z.golden_sword)),
 				this.addPotionEffect(new Dd(kd.regeneration.id, 1e6, 2));
 		}
-		SNhMbiPho() {
+		YWIRJjLhm() {
 			return this.getDataWatcher().getWatchableObjectByte(16) == 1;
 		}
-		gcsUuJyrcS(e) {
+		gNFloDsnPP(e) {
 			this.getDataWatcher().updateObject(16, +!!e);
 		}
-		EIkjAMuozzx() {
+		LdFdoObJTWV() {
 			(this.barterTimer = NPe),
-				this.gcsUuJyrcS(!0),
+				this.gNFloDsnPP(!0),
 				this.playSound(
 					`random.orb`,
 					0.6,
@@ -100734,7 +100753,7 @@ var oY = [
 			let t = e.inventory.getCurrentItem();
 			return t != null && t.getItem() == z.gold_ingot
 				? (this.world.isServer &&
-						!this.SNhMbiPho() &&
+						!this.YWIRJjLhm() &&
 						(e.abilities.creative ||
 							(--t.stackSize <= 0 &&
 								e.inventory.setInventorySlotContents(
@@ -100742,15 +100761,15 @@ var oY = [
 									null,
 								),
 							e.world.updatePlayerInventory(e.id)),
-						this.EIkjAMuozzx()),
+						this.LdFdoObJTWV()),
 					!0)
 				: super.interact(e);
 		}
 		attackEntityAsMob(e) {
-			return this.SNhMbiPho() ? !1 : super.attackEntityAsMob(e);
+			return this.YWIRJjLhm() ? !1 : super.attackEntityAsMob(e);
 		}
-		EYUhaqXnEwpzoFKAH() {
-			return this.SNhMbiPho() || super.EYUhaqXnEwpzoFKAH();
+		fqfjJNQBtLMfMTrYw() {
+			return this.YWIRJjLhm() || super.fqfjJNQBtLMfMTrYw();
 		}
 		update() {
 			super.update(),
@@ -100758,23 +100777,23 @@ var oY = [
 					(this.barterTimer > 0
 						? --this.barterTimer <= 0 &&
 							((this.barterTimer = 0),
-							this.gcsUuJyrcS(!1),
-							this.nKmaNerYSACzeXPk())
-						: this.ticksExisted % PPe == 0 && this.xImDIdAfKqnzQkQQ());
+							this.gNFloDsnPP(!1),
+							this.uAsMUPPEStZMDBkR())
+						: this.ticksExisted % PPe == 0 && this.cGRGktDEDOebEaTd());
 		}
-		xImDIdAfKqnzQkQQ() {
+		cGRGktDEDOebEaTd() {
 			let e = this.getEntityBoundingBox().clone().expandByScalar(FPe);
 			for (let t of this.world.getEntitiesWithinAABB(null, e)) {
 				if (!(t instanceof Hd) || !t.isEntityAlive()) continue;
 				let e = t.getEntityItem();
 				if (!(e == null || e.getItem() != z.gold_ingot)) {
-					--e.stackSize <= 0 ? t.setDead() : t.rifgcrHwzRmjZfyDSG(e),
-						this.EIkjAMuozzx();
+					--e.stackSize <= 0 ? t.setDead() : t.cGtwzQcnormalizeAnglejCQxUokpt(e),
+						this.LdFdoObJTWV();
 					return;
 				}
 			}
 		}
-		nKmaNerYSACzeXPk() {
+		uAsMUPPEStZMDBkR() {
 			let e = 0;
 			for (let t of oY) e += t.weight;
 			let t = af(e),
@@ -100792,7 +100811,7 @@ var oY = [
 					((Math.random() - Math.random()) * 0.7 + 1) * 2,
 				);
 		}
-		okMbrEXPVcDJK() {
+		iKOuFnLQokDhm() {
 			switch (af(3)) {
 				case 0:
 					this.dropItem2(z.gold_ingot, 1);
@@ -100814,7 +100833,7 @@ var oY = [
 				this.setMutexBits(3);
 		}
 		shouldExecute() {
-			let e = this.theWolf.lfZcOIVU();
+			let e = this.theWolf.lrRNfPwX();
 			return e == null ||
 				e.isSpectator?.() ||
 				this.theWolf.isSitting() ||
@@ -100859,9 +100878,9 @@ var oY = [
 						.getNavigator()
 						.tryMoveToEntityLiving(e, this.moveSpeed) ||
 						(this.theWolf.getDistanceSqToEntity(e) >= 144 &&
-							this.uViQNOLtvuiVMil(e))));
+							this.iMBWFvCKjeahrVi(e))));
 		}
-		uViQNOLtvuiVMil(e) {
+		iMBWFvCKjeahrVi(e) {
 			let t = Math.floor(e.pos.x) - 2 + af(5),
 				n = Math.floor(e.pos.y),
 				r = Math.floor(e.pos.z) - 2 + af(5);
@@ -100884,18 +100903,18 @@ var oY = [
 		}
 		shouldExecute() {
 			if (!this.theWolf.isTamed()) return !1;
-			let e = this.theWolf.lfZcOIVU();
+			let e = this.theWolf.lrRNfPwX();
 			return e == null
 				? !1
-				: ((this.theTarget = e.mSdEGMIhTBC()),
-					e.jRFItkqynlMjYqc() !== this.timestamp &&
-						this.RFzNStQFtaYFqxni(this.theTarget, !1) &&
-						this.theWolf.upgzKcFlNpelcuMCjt(this.theTarget, e));
+				: ((this.theTarget = e.kGrTCHtbfVD()),
+					e.KUBKfLuJIwNuLhX() !== this.timestamp &&
+						this.rDwIkRzaGymWWijp(this.theTarget, !1) &&
+						this.theWolf.wtLzmYIhDgZnqvIsfk(this.theTarget, e));
 		}
 		startExecuting() {
 			this.taskOwner.setAttackTarget(this.theTarget);
-			let e = this.theWolf.lfZcOIVU();
-			e != null && (this.timestamp = e.jRFItkqynlMjYqc()),
+			let e = this.theWolf.lrRNfPwX();
+			e != null && (this.timestamp = e.KUBKfLuJIwNuLhX()),
 				super.startExecuting();
 		}
 	},
@@ -100908,18 +100927,18 @@ var oY = [
 		}
 		shouldExecute() {
 			if (!this.theWolf.isTamed()) return !1;
-			let e = this.theWolf.lfZcOIVU();
+			let e = this.theWolf.lrRNfPwX();
 			return e == null
 				? !1
-				: ((this.theTarget = e.hXqSBEuGVNDbOGB()),
-					e.tQTMDbyyngaJzZKXlFW() !== this.timestamp &&
-						this.RFzNStQFtaYFqxni(this.theTarget, !1) &&
-						this.theWolf.upgzKcFlNpelcuMCjt(this.theTarget, e));
+				: ((this.theTarget = e.SHRSzckLyjhhLpL()),
+					e.IOjzaThBKJdPcwMHJzw() !== this.timestamp &&
+						this.rDwIkRzaGymWWijp(this.theTarget, !1) &&
+						this.theWolf.wtLzmYIhDgZnqvIsfk(this.theTarget, e));
 		}
 		startExecuting() {
 			this.taskOwner.setAttackTarget(this.theTarget);
-			let e = this.theWolf.lfZcOIVU();
-			e != null && (this.timestamp = e.tQTMDbyyngaJzZKXlFW()),
+			let e = this.theWolf.lrRNfPwX();
+			e != null && (this.timestamp = e.IOjzaThBKJdPcwMHJzw()),
 				super.startExecuting();
 		}
 	},
@@ -100941,12 +100960,12 @@ var oY = [
 		}
 		startExecuting() {
 			this.theEntity.getNavigator().clearPathEntity(),
-				this.theEntity.edATrVAcgk(!0);
+				this.theEntity.LWpxpYYPmP(!0);
 		}
 		resetTask() {
-			this.theEntity.edATrVAcgk(!1);
+			this.theEntity.LWpxpYYPmP(!1);
 		}
-		edATrVAcgk(e) {
+		LWpxpYYPmP(e) {
 			this.isSittingFlag = e;
 		}
 	},
@@ -100972,40 +100991,40 @@ var oY = [
 		isTamed() {
 			return (this.dataWatcher.getWatchableObjectByte(16) & pY) !== 0;
 		}
-		jPIDpxCq(e) {
+		LJzdFiXD(e) {
 			let t = this.dataWatcher.getWatchableObjectByte(16);
 			this.dataWatcher.updateObject(16, e ? t | pY : t & -5);
 		}
 		isSitting() {
 			return (this.dataWatcher.getWatchableObjectByte(16) & fY) !== 0;
 		}
-		edATrVAcgk(e) {
+		LWpxpYYPmP(e) {
 			let t = this.dataWatcher.getWatchableObjectByte(16);
 			this.dataWatcher.updateObject(16, e ? t | fY : t & -2);
 		}
-		nwqDqWaitI() {
-			return this.dataWatcher.qxvCVbMZJAFFYgTUMtImZboc(17);
+		bxUCssaAPF() {
+			return this.dataWatcher.HCRCAnAlorucNEYjHIJCsHeq(17);
 		}
-		hgRpidnHus(e) {
+		GHsSOTldCy(e) {
 			this.dataWatcher.updateObject(17, e);
 		}
 		isOwner(e) {
-			let t = this.nwqDqWaitI();
+			let t = this.bxUCssaAPF();
 			return !!t && t === e.profile?.uuid;
 		}
-		lfZcOIVU() {
-			let e = this.nwqDqWaitI();
+		lrRNfPwX() {
+			let e = this.bxUCssaAPF();
 			if (!e) return null;
 			for (let t of this.world.playersIterator())
 				if (t.profile?.uuid === e) return t;
 			return null;
 		}
-		upgzKcFlNpelcuMCjt(t, n) {
+		wtLzmYIhDgZnqvIsfk(t, n) {
 			return !(
 				t == null ||
 				t === n ||
 				t.type === `creeper` ||
-				(t instanceof e && t.isTamed() && t.lfZcOIVU() === n)
+				(t instanceof e && t.isTamed() && t.lrRNfPwX() === n)
 			);
 		}
 		attackEntityAsMob(e) {
@@ -101013,13 +101032,13 @@ var oY = [
 					this.getEntityAttribute(ku.attackDamage).getAttributeValue(),
 				),
 				n = e.attackEntityFrom(Ip.causeMobDamage(this), t);
-			return n && this.wjuUClKtvzQPmxBSc(this, e), n;
+			return n && this.ZIcvEgwbchnJpSRTK(this, e), n;
 		}
 		attackEntityFrom(e, t) {
 			if (this.isEntityInvulnerable(e)) return !1;
 			let n = e.getEntity();
 			return (
-				this.aiSit.edATrVAcgk(!1),
+				this.aiSit.LWpxpYYPmP(!1),
 				n != null &&
 					!(n instanceof Pp) &&
 					!(n instanceof zp) &&
@@ -101029,10 +101048,10 @@ var oY = [
 		}
 		handleStatusUpdate(e) {
 			e === 6 || e === 7
-				? this.QrfUyehqlFHnzB(e === 7)
+				? this.LvVFVavoqorPTi(e === 7)
 				: super.handleStatusUpdate(e);
 		}
-		QrfUyehqlFHnzB(e) {
+		LvVFVavoqorPTi(e) {
 			let t = e ? vu.HEART : vu.SMOKE_NORMAL;
 			for (let e = 0; e < 7; e++) {
 				let e = $u() * 0.02,
@@ -101051,15 +101070,15 @@ var oY = [
 		}
 		writeEntityToNBT(e) {
 			super.writeEntityToNBT(e),
-				(e.OwnerUUID = I.string(this.nwqDqWaitI() ?? ``)),
+				(e.OwnerUUID = I.string(this.bxUCssaAPF() ?? ``)),
 				(e.Sitting = I.int(+!!this.isSitting()));
 		}
 		readEntityFromNBT(e) {
 			super.readEntityFromNBT(e);
 			let t = e.OwnerUUID;
-			t && (this.hgRpidnHus(t), this.jPIDpxCq(!0));
+			t && (this.GHsSOTldCy(t), this.LJzdFiXD(!0));
 			let n = e.Sitting === 1;
-			this.aiSit.edATrVAcgk(n), this.edATrVAcgk(n);
+			this.aiSit.LWpxpYYPmP(n), this.LWpxpYYPmP(n);
 		}
 	},
 	LPe = 14,
@@ -101102,13 +101121,13 @@ var oY = [
 				this.targetTasks.addTask(2, new lY(this)),
 				this.targetTasks.addTask(3, new tY(this, !0)),
 				this.targetTasks.addTask(4, new dY(this, `rabbit`, !1)),
-				this.world.isServer && this.cUczCvnFDe(af(_Y.length));
+				this.world.isServer && this.ntuyEALsMm(af(_Y.length));
 		}
 		applyEntityAttributes() {
 			super.applyEntityAttributes(),
 				this.getAttributeMap().registerAttribute(ku.attackDamage),
 				this.applyBaseAttributes([
-					[ku.eAwmWnqQCXQCI, 0.3],
+					[ku.UNrmpQxnutSuc, 0.3],
 					[ku.maxHealth, 10],
 					[ku.attackDamage, 3],
 				]);
@@ -101118,26 +101137,26 @@ var oY = [
 				this.dataWatcher.addObject(hY, 0),
 				this.dataWatcher.addObject(gY, LPe);
 		}
-		vrmDhpxIDd() {
-			let e = this.dataWatcher.TZFJNwmXciwTIMSQzXBDB(hY);
+		uToOJmKRMW() {
+			let e = this.dataWatcher.YFWpRaHdBLDaQukqdayiD(hY);
 			return e >= 0 && e < _Y.length ? e : 0;
 		}
-		cUczCvnFDe(e) {
+		ntuyEALsMm(e) {
 			this.dataWatcher.updateObject(hY, e);
 		}
-		qORnyWMqbSPJEV() {
+		cSFFmpsOhvIerZ() {
 			return this.dataWatcher.getWatchableObjectByte(gY) & 15;
 		}
-		yLQoMFCCsQrbjC(e) {
+		ZWqzboFEEATkJc(e) {
 			this.dataWatcher.updateObject(gY, e & 15);
 		}
-		qczFLrYlj(e) {
+		hlmsYgLNY(e) {
 			return e == null
 				? !1
 				: (vY.length === 0 && vY.push(z.cod, z.salmon), vY.includes(e));
 		}
 		isBreedingItem(e) {
-			return e != null && this.qczFLrYlj(e.getItem());
+			return e != null && this.hlmsYgLNY(e.getItem());
 		}
 		interact(e) {
 			let t = e.inventory.getCurrentItem();
@@ -101145,19 +101164,19 @@ var oY = [
 				this.isOwner(e) &&
 					!this.world.isClient &&
 					!this.isBreedingItem(t) &&
-					(this.aiSit.edATrVAcgk(!this.isSitting()),
+					(this.aiSit.LWpxpYYPmP(!this.isSitting()),
 					this.setAttackTarget(null),
 					this.getNavigator().clearPathEntity());
-			else if (t != null && this.qczFLrYlj(t.getItem()))
+			else if (t != null && this.hlmsYgLNY(t.getItem()))
 				return (
-					this.yhRSDdQzfyIhGvgAdvrI(e, t),
+					this.okwWgVcDgUrYUMWaAKei(e, t),
 					this.world.isClient ||
 						(af(3) === 0
-							? (this.jPIDpxCq(!0),
+							? (this.LJzdFiXD(!0),
 								this.getNavigator().clearPathEntity(),
 								this.setAttackTarget(null),
-								this.aiSit.edATrVAcgk(!0),
-								this.hgRpidnHus(e.profile?.uuid ?? ``),
+								this.aiSit.LWpxpYYPmP(!0),
+								this.GHsSOTldCy(e.profile?.uuid ?? ``),
 								this.world.setEntityState(this, 7))
 							: this.world.setEntityState(this, 6)),
 					!0
@@ -101166,18 +101185,18 @@ var oY = [
 		}
 		createChild(t) {
 			let n = new e(this.world);
-			n.cUczCvnFDe(this.vrmDhpxIDd());
-			let r = this.nwqDqWaitI();
-			return r && (n.hgRpidnHus(r), n.jPIDpxCq(!0)), n;
+			n.ntuyEALsMm(this.uToOJmKRMW());
+			let r = this.bxUCssaAPF();
+			return r && (n.GHsSOTldCy(r), n.LJzdFiXD(!0)), n;
 		}
-		EJYaKLFzYCH(t) {
+		WZGikgcJSoy(t) {
 			if (t === this || !this.isTamed() || !(t instanceof e)) return !1;
 			let n = t;
 			return !n.isTamed() || n.isSitting()
 				? !1
-				: this.sPGQvgwn() && n.sPGQvgwn();
+				: this.GxIhTOZb() && n.GxIhTOZb();
 		}
-		iGJwUXChBxitaR() {
+		yQCDdpbbfFUAhU() {
 			return this.isTamed() && af(4) === 0 ? `mob.cat.purr` : `mob.cat.meow`;
 		}
 		getSoundInfo() {
@@ -101188,13 +101207,13 @@ var oY = [
 		}
 		writeEntityToNBT(e) {
 			super.writeEntityToNBT(e),
-				(e.CatType = I.int(this.vrmDhpxIDd())),
-				(e.CollarColor = I.int(this.qORnyWMqbSPJEV()));
+				(e.CatType = I.int(this.uToOJmKRMW())),
+				(e.CollarColor = I.int(this.cSFFmpsOhvIerZ()));
 		}
 		readEntityFromNBT(e) {
 			super.readEntityFromNBT(e),
-				e.CatType != null && this.cUczCvnFDe(e.CatType),
-				e.CollarColor != null && this.yLQoMFCCsQrbjC(e.CollarColor);
+				e.CatType != null && this.ntuyEALsMm(e.CatType),
+				e.CollarColor != null && this.ZWqzboFEEATkJc(e.CollarColor);
 		}
 	},
 	zPe = class e extends Op {
@@ -101204,7 +101223,7 @@ var oY = [
 				(this.type = `cow`),
 				this.setSize(0.9, 1.3),
 				this.getNavigator().setAvoidsWater(!0),
-				this.dKVzYNOhafitnyYBxhBHR({
+				this.nIKToQjomhsjFDWdvuaxL({
 					panic: { priority: 1, speed: 2 },
 					mate: { priority: 2, speed: 1 },
 					tempt: { priority: 3, speed: 1.25, item: z.wheat },
@@ -101218,7 +101237,7 @@ var oY = [
 			super.applyEntityAttributes(),
 				this.applyBaseAttributes([
 					[ku.maxHealth, 10],
-					[ku.eAwmWnqQCXQCI, 0.2],
+					[ku.UNrmpQxnutSuc, 0.2],
 				]);
 		}
 		getSoundInfo() {
@@ -101294,7 +101313,7 @@ var oY = [
 		continueExecuting() {
 			return this.eatingGrassTimer > 0;
 		}
-		cytfBogkBQIRuzbxNVz() {
+		dUnormalizeAngleHmqIXCMHmWvRiTo() {
 			return this.eatingGrassTimer;
 		}
 		updateTask() {
@@ -101310,7 +101329,7 @@ var oY = [
 				(this.entityAIEatGrass = new BPe(this)),
 				this.setSize(0.9, 1.3),
 				this.getNavigator().setAvoidsWater(!0),
-				this.dKVzYNOhafitnyYBxhBHR({
+				this.nIKToQjomhsjFDWdvuaxL({
 					panic: { priority: 1, speed: 1.25 },
 					mate: { priority: 2, speed: 1 },
 					tempt: { priority: 3, speed: 1.1, item: z.wheat },
@@ -101321,9 +101340,9 @@ var oY = [
 					lookIdle: { priority: 8 },
 				});
 		}
-		woTDzyhpNKzZS() {
-			(this.sheepTimer = this.entityAIEatGrass.cytfBogkBQIRuzbxNVz()),
-				super.woTDzyhpNKzZS();
+		wGJSjmfhWYNTs() {
+			(this.sheepTimer = this.entityAIEatGrass.dUnormalizeAngleHmqIXCMHmWvRiTo()),
+				super.wGJSjmfhWYNTs();
 		}
 		onLivingUpdate() {
 			this.world.isClient &&
@@ -101334,14 +101353,14 @@ var oY = [
 			super.applyEntityAttributes(),
 				this.applyBaseAttributes([
 					[ku.maxHealth, 8],
-					[ku.eAwmWnqQCXQCI, 0.23],
+					[ku.UNrmpQxnutSuc, 0.23],
 				]);
 		}
 		entityInit() {
 			super.entityInit(), this.dataWatcher.addObject(16, 0);
 		}
 		dropFewItems(e, t) {
-			this.nXKlWPkELz() ||
+			this.ftOnSZVMFa() ||
 				this.entityDropItem(new Hp(z.getItemByBlock(B.white_wool), 1), 0);
 			let n = af(2) + 1 + af(1 + t);
 			for (let e = 0; e < n; ++e)
@@ -101352,7 +101371,7 @@ var oY = [
 		handleStatusUpdate(e) {
 			e == 10 ? (this.sheepTimer = 40) : super.handleStatusUpdate(e);
 		}
-		ozUPwgEkLSyTQByksBmPM(e) {
+		oQOQCpZufJaQXYZfkGFkO(e) {
 			return this.sheepTimer <= 0
 				? 0
 				: this.sheepTimer >= 4 && this.sheepTimer <= 36
@@ -101361,7 +101380,7 @@ var oY = [
 						? (this.sheepTimer - e) / 4
 						: -(this.sheepTimer - 40 - e) / 4;
 		}
-		veSbDXuWwNDpGpiQpxjoi(e) {
+		ULbdUkUUKrDlnwWwiHtSm(e) {
 			if (this.sheepTimer > 4 && this.sheepTimer <= 36) {
 				let t = (this.sheepTimer - 4 - e) / 32;
 				return Math.PI / 5 + ((Math.PI * 7) / 100) * Math.sin(t * 28.7);
@@ -101373,11 +101392,11 @@ var oY = [
 			if (
 				t != null &&
 				t.getItem() == z.shears &&
-				!this.nXKlWPkELz() &&
+				!this.ftOnSZVMFa() &&
 				!this.isChild()
 			) {
 				if (!this.world.isClient) {
-					this.cCdNKZpXYB(!0);
+					this.szLBwMOGAs(!0);
 					let e = 1 + af(3);
 					for (let t = 0; t < e; ++t) {
 						let e = this.entityDropItem(
@@ -101394,10 +101413,10 @@ var oY = [
 			return super.interact(e);
 		}
 		writeEntityToNBT(e) {
-			super.writeEntityToNBT(e), (e.Sheared = I.int(+!!this.nXKlWPkELz()));
+			super.writeEntityToNBT(e), (e.Sheared = I.int(+!!this.ftOnSZVMFa()));
 		}
 		readEntityFromNBT(e) {
-			super.readEntityFromNBT(e), this.cCdNKZpXYB(e.Sheared);
+			super.readEntityFromNBT(e), this.szLBwMOGAs(e.Sheared);
 		}
 		getSoundInfo() {
 			return {
@@ -101408,10 +101427,10 @@ var oY = [
 				drop: z.getItemByBlock(B.white_wool),
 			};
 		}
-		nXKlWPkELz() {
+		ftOnSZVMFa() {
 			return (this.dataWatcher.getWatchableObjectByte(16) & 16) != 0;
 		}
-		cCdNKZpXYB(e) {
+		szLBwMOGAs(e) {
 			let t = this.dataWatcher.getWatchableObjectByte(16);
 			e
 				? this.dataWatcher.updateObject(16, t | 16)
@@ -101420,8 +101439,8 @@ var oY = [
 		createChild(t) {
 			return new e(this.world);
 		}
-		YSjEAGfMYgJMM() {
-			this.cCdNKZpXYB(!1), this.isChild() && this.IyYPiWzyN(60);
+		pPGEEbRuUxxHB() {
+			this.szLBwMOGAs(!1), this.isChild() && this.lfIDtpNsE(60);
 		}
 		getEyeHeight() {
 			return 0.95 * this.height;
@@ -101441,7 +101460,7 @@ var oY = [
 					this.theWolf,
 					this.minPlayerDistance,
 				)),
-				this.player == null ? !1 : this.vOrRtGnoVUImxKbkWgmotqA(this.player)
+				this.player == null ? !1 : this.mhXntRvnrvxyhCtFMRSqslZ(this.player)
 			);
 		}
 		continueExecuting() {
@@ -101452,20 +101471,20 @@ var oY = [
 						this.minPlayerDistance * this.minPlayerDistance
 						? !1
 						: this.timeoutCounter > 0 &&
-							this.vOrRtGnoVUImxKbkWgmotqA(this.player)
+							this.mhXntRvnrvxyhCtFMRSqslZ(this.player)
 					: !1;
 		}
 		startExecuting() {
-			this.theWolf.kXhHwgwyZL(!0), (this.timeoutCounter = 40 + af(40));
+			this.theWolf.FLafqNgvZu(!0), (this.timeoutCounter = 40 + af(40));
 		}
 		resetTask() {
-			this.theWolf.kXhHwgwyZL(!1), (this.player = null);
+			this.theWolf.FLafqNgvZu(!1), (this.player = null);
 		}
 		updateTask() {
 			this.player != null &&
 				(this.theWolf
 					.getLookHelper()
-					.okkoItnDaVpcWlJ(
+					.MmsXsOqWRCtoYMO(
 						this.player.pos.x,
 						this.player.pos.y + this.player.getEyeHeight(),
 						this.player.pos.z,
@@ -101474,7 +101493,7 @@ var oY = [
 					),
 				--this.timeoutCounter);
 		}
-		vOrRtGnoVUImxKbkWgmotqA(e) {
+		mhXntRvnrvxyhCtFMRSqslZ(e) {
 			let t = e.getActiveItemStack();
 			return t == null
 				? !1
@@ -101517,7 +101536,7 @@ var oY = [
 			super.applyEntityAttributes(),
 				this.getAttributeMap().registerAttribute(ku.attackDamage),
 				this.applyBaseAttributes([
-					[ku.eAwmWnqQCXQCI, 0.3],
+					[ku.UNrmpQxnutSuc, 0.3],
 					[ku.maxHealth, 8],
 					[ku.attackDamage, 2],
 				]);
@@ -101528,31 +101547,31 @@ var oY = [
 				this.dataWatcher.addObject(bY, 0),
 				this.dataWatcher.addObject(xY, UPe);
 		}
-		jPIDpxCq(e) {
-			super.jPIDpxCq(e),
+		LJzdFiXD(e) {
+			super.LJzdFiXD(e),
 				this.getEntityAttribute(ku.maxHealth)?.setBaseValue(e ? 20 : 8),
 				this.getEntityAttribute(ku.attackDamage)?.setBaseValue(e ? 4 : 2);
 		}
-		nDWyBbH() {
+		phhICtU() {
 			return (this.dataWatcher.getWatchableObjectByte(16) & SY) !== 0;
 		}
-		vwVmDABk(e) {
+		lyRhUFkG(e) {
 			let t = this.dataWatcher.getWatchableObjectByte(16);
 			this.dataWatcher.updateObject(16, e ? t | SY : t & -3);
 		}
-		AqBXWBRAX() {
+		pcAWHqliT() {
 			return this.dataWatcher.getWatchableObjectByte(bY) === 1;
 		}
-		kXhHwgwyZL(e) {
+		FLafqNgvZu(e) {
 			this.dataWatcher.updateObject(bY, +!!e);
 		}
-		qORnyWMqbSPJEV() {
+		cSFFmpsOhvIerZ() {
 			return this.dataWatcher.getWatchableObjectByte(xY) & 15;
 		}
-		yLQoMFCCsQrbjC(e) {
+		ZWqzboFEEATkJc(e) {
 			this.dataWatcher.updateObject(xY, e & 15);
 		}
-		HhTKFzToBX(e) {
+		ymVhjdYqvo(e) {
 			return e == null
 				? !1
 				: (CY.length === 0 &&
@@ -101572,34 +101591,34 @@ var oY = [
 					CY.includes(e));
 		}
 		isBreedingItem(e) {
-			return this.isTamed() && e != null && this.HhTKFzToBX(e.getItem());
+			return this.isTamed() && e != null && this.ymVhjdYqvo(e.getItem());
 		}
 		interact(e) {
 			let t = e.inventory.getCurrentItem();
 			if (this.isTamed()) {
 				if (
 					t != null &&
-					this.HhTKFzToBX(t.getItem()) &&
+					this.ymVhjdYqvo(t.getItem()) &&
 					this.getHealth() < this.getMaxHealth()
 				)
-					return this.yhRSDdQzfyIhGvgAdvrI(e, t), this.heal(4), !0;
+					return this.okwWgVcDgUrYUMWaAKei(e, t), this.heal(4), !0;
 				this.isOwner(e) &&
 					!this.world.isClient &&
 					!this.isBreedingItem(t) &&
-					(this.aiSit.edATrVAcgk(!this.isSitting()),
+					(this.aiSit.LWpxpYYPmP(!this.isSitting()),
 					this.setAttackTarget(null),
 					this.getNavigator().clearPathEntity());
-			} else if (t != null && t.getItem() === z.bone && !this.nDWyBbH())
+			} else if (t != null && t.getItem() === z.bone && !this.phhICtU())
 				return (
-					this.yhRSDdQzfyIhGvgAdvrI(e, t),
+					this.okwWgVcDgUrYUMWaAKei(e, t),
 					this.world.isClient ||
 						(af(3) === 0
-							? (this.jPIDpxCq(!0),
+							? (this.LJzdFiXD(!0),
 								this.getNavigator().clearPathEntity(),
 								this.setAttackTarget(null),
-								this.aiSit.edATrVAcgk(!0),
+								this.aiSit.LWpxpYYPmP(!0),
 								this.setHealth(20),
-								this.hgRpidnHus(e.profile?.uuid ?? ``),
+								this.GHsSOTldCy(e.profile?.uuid ?? ``),
 								this.world.setEntityState(this, 7))
 							: this.world.setEntityState(this, 6)),
 					!0
@@ -101607,7 +101626,7 @@ var oY = [
 			return super.interact(e);
 		}
 		setAttackTarget(e) {
-			super.setAttackTarget(e), this.isTamed() || this.vwVmDABk(e != null);
+			super.setAttackTarget(e), this.isTamed() || this.lyRhUFkG(e != null);
 		}
 		onLivingUpdate() {
 			super.onLivingUpdate(),
@@ -101616,18 +101635,18 @@ var oY = [
 		}
 		createChild(t) {
 			let n = new e(this.world),
-				r = this.nwqDqWaitI();
-			return r && (n.hgRpidnHus(r), n.jPIDpxCq(!0)), n;
+				r = this.bxUCssaAPF();
+			return r && (n.GHsSOTldCy(r), n.LJzdFiXD(!0)), n;
 		}
-		EJYaKLFzYCH(t) {
+		WZGikgcJSoy(t) {
 			if (t === this || !this.isTamed() || !(t instanceof e)) return !1;
 			let n = t;
 			return !n.isTamed() || n.isSitting()
 				? !1
-				: this.sPGQvgwn() && n.sPGQvgwn();
+				: this.GxIhTOZb() && n.GxIhTOZb();
 		}
-		iGJwUXChBxitaR() {
-			return this.nDWyBbH()
+		yQCDdpbbfFUAhU() {
+			return this.phhICtU()
 				? `mob.wolf.growl`
 				: af(3) === 0
 					? this.isTamed() && this.dataWatcher.getWatchableObjectFloat(yY) < 10
@@ -101648,13 +101667,13 @@ var oY = [
 		}
 		writeEntityToNBT(e) {
 			super.writeEntityToNBT(e),
-				(e.Angry = I.int(+!!this.nDWyBbH())),
-				(e.CollarColor = I.int(this.qORnyWMqbSPJEV()));
+				(e.Angry = I.int(+!!this.phhICtU())),
+				(e.CollarColor = I.int(this.cSFFmpsOhvIerZ()));
 		}
 		readEntityFromNBT(e) {
 			super.readEntityFromNBT(e),
-				this.vwVmDABk(e.Angry === 1),
-				e.CollarColor != null && this.yLQoMFCCsQrbjC(e.CollarColor);
+				this.lyRhUFkG(e.Angry === 1),
+				e.CollarColor != null && this.ZWqzboFEEATkJc(e.CollarColor);
 		}
 	};
 function GPe(e, t) {
@@ -101872,20 +101891,20 @@ var wY = new Set(),
 				e.REGISTRY.map((e) => [e.className, e.ctor]),
 			);
 		}
-		static AxKNVmLqKEqXLsnVFOy() {
+		static eSrcgpQYummKIvFPYBo() {
 			let t = {};
 			for (let n of e.REGISTRY) n.clientSpawnable && (t[n.id] = n.ctor);
 			return t;
 		}
-		static ymEmBntqnzWKKs() {
+		static WlCEszgIATSVqF() {
 			return e.REGISTRY.filter((e) => e.summonable).map((e) => e.summonName);
 		}
-		static avgQYabWrfVJZmlcO() {
+		static daTZWONnwhZwklRdX() {
 			let t = {};
 			for (let n of e.REGISTRY) n.scriptSpawnable && (t[n.summonName] = n.ctor);
 			return t;
 		}
-		static dllJJtFxvFqUlhRbH() {
+		static xBYlBlutVybomQiUe() {
 			return e.REGISTRY.filter((e) => e.scriptSpawnable).map(
 				(e) => e.summonName,
 			);
@@ -101904,7 +101923,7 @@ var wY = new Set(),
 				throw Error(`Failed to create entity ${t} because of ${e}`);
 			}
 		}
-		static eCZHzQHmlNpefUpVDKVmBTdgF(t, n) {
+		static hZldwafIUpSvgIlemBvZNoavd(t, n) {
 			let r = t.replace(`Entity`, ``);
 			return e.createEntityByName(r, n);
 		}
@@ -102105,7 +102124,7 @@ var YPe = class e {
 			let e = this.cameraState,
 				t = this.game;
 			if (!e || !t) return;
-			let n = JR.CqNJfh,
+			let n = JR.WMOLyH,
 				r = t.gameScene.camera;
 			e.writeLook(JR.yaw, JR.pitch),
 				e.writeFrame({
@@ -102365,7 +102384,7 @@ var YPe = class e {
 				(e.armorMesh.helmet = this.initArmorMesh(`head`)),
 				e.meshes.head.geometry.translate(0, 0.25, 0),
 				e.armorMesh.helmet.geometry.translate(0, 0.25, 0),
-				(e.headPivot = new Jn()),
+				(e.headPivot = new Kn()),
 				e.headPivot.add(e.meshes.head, e.armorMesh.helmet),
 				(e.neck = new jn()),
 				e.neck.add(e.headPivot),
@@ -102378,7 +102397,7 @@ var YPe = class e {
 				(e.armorMesh.chestplate = this.initArmorMesh(`torso`)),
 				(e.armorMesh.leggingsWaist = this.initArmorMesh(`leggingsWaist`)),
 				e.armorMesh.leggingsWaist.geometry.translate(0, -3.5 / 16, 0),
-				(e.torso = new Jn()),
+				(e.torso = new Kn()),
 				e.torso.add(
 					e.meshes.torso,
 					e.armorMesh.chestplate,
@@ -102559,7 +102578,7 @@ var YPe = class e {
 				this.entity.setPosition(e.pos.x, e.pos.y, e.pos.z),
 				this.add(new aFe(this));
 		}
-		czeVrTANRpP() {
+		kKcLkoXYiyg() {
 			let e = this.entity,
 				t = e.getPartialTicks();
 			t < 0 ? (t = 0) : t > 1 && (t = 1),
@@ -102572,10 +102591,10 @@ var YPe = class e {
 			this.quaternion.setFromAxisAngle(Aq, e.prevYaw + n * t);
 		}
 		render() {
-			this.czeVrTANRpP();
+			this.kKcLkoXYiyg();
 		}
-		BBjaHmFVsDhCqBA() {
-			this.czeVrTANRpP();
+		FinOVHifSZuFLwl() {
+			this.kKcLkoXYiyg();
 		}
 	},
 	sFe = class extends J {
@@ -102712,7 +102731,7 @@ var YPe = class e {
 		}
 	},
 	cFe = `cat.tabby`,
-	MY = new Zn(),
+	MY = new Xn(),
 	lFe = class extends kY {
 		collar;
 		bodyTilt;
@@ -102724,7 +102743,7 @@ var YPe = class e {
 				this.add(this.getModel()),
 				(this.collar = new jY(this)),
 				this.add(this.collar),
-				this.FGEpnfeCysUPOQAJgLRjg();
+				this.bKqsMvVcXtLxmhFPeSbds();
 		}
 		getModel() {
 			return new sFe(this);
@@ -102733,12 +102752,12 @@ var YPe = class e {
 			super.recreate(),
 				(this.collar = new jY(this)),
 				this.add(this.collar),
-				this.FGEpnfeCysUPOQAJgLRjg();
+				this.bKqsMvVcXtLxmhFPeSbds();
 		}
-		FGEpnfeCysUPOQAJgLRjg() {
-			this.variantMaterials = _Y.map((e) => this.nNRGJEnFzrFRyDf(`cat.${e}`));
+		bKqsMvVcXtLxmhFPeSbds() {
+			this.variantMaterials = _Y.map((e) => this.cwauiibpedarUsf(`cat.${e}`));
 		}
-		nNRGJEnFzrFRyDf(e) {
+		cwauiibpedarUsf(e) {
 			let t = q.skinManager.getSkin(e)?.atlasMat;
 			return (
 				t && t.transparent && ((t.transparent = !1), (t.needsUpdate = !0)), t
@@ -102751,15 +102770,15 @@ var YPe = class e {
 			let e = this.skinnedRig[cFe];
 			if (e) {
 				let t =
-					this.variantMaterials[this.entity.vrmDhpxIDd()] ??
+					this.variantMaterials[this.entity.uToOJmKRMW()] ??
 					this.variantMaterials[0];
 				t && e.material !== t && (e.material = t);
 			}
 			let t = this.skinnedRig[`cat.cat_collar`];
 			t && (t.visible = this.entity.isTamed() && e?.visible !== !1),
-				this.DmpnHVJglxPX(this.entity.isSitting());
+				this.tFSeFBtiLKni(this.entity.isSitting());
 		}
-		DmpnHVJglxPX(e) {
+		tFSeFBtiLKni(e) {
 			let {
 				leftShoulder: t,
 				rightShoulder: n,
@@ -103059,7 +103078,7 @@ var YPe = class e {
 		}
 	},
 	hFe = class extends kY {
-		flashColor = new dr();
+		flashColor = new ur();
 		constructor(e) {
 			super(e), this.add(this.getModel());
 		}
@@ -103073,23 +103092,23 @@ var YPe = class e {
 		render() {
 			super.render();
 			let e = this.entity.getPartialTicks(),
-				t = this.entity.WJssvkHkkdGimjZRuexJiJAr(e),
+				t = this.entity.tnIHWLUjOGwSIaujczKMCdjD(e),
 				n = 1 + Math.sin(t * 100) * t * 0.01;
 			(t = (0, M.clamp)(t, 0, 1)), (t *= t), (t *= t);
 			let r = (1 + t * 0.4) * n,
 				i = (1 + t * 0.1) / n;
 			if (
 				(this.scale.set(r, i, r),
-				(t = this.entity.WJssvkHkkdGimjZRuexJiJAr(e)),
+				(t = this.entity.tnIHWLUjOGwSIaujczKMCdjD(e)),
 				t > 0)
 			) {
-				if ((0, M.toInteger)(t * 10) % 2 == 0) this.hZLuQBhxQhJKBbN(Nq);
+				if ((0, M.toInteger)(t * 10) % 2 == 0) this.ELlosAgNJRImAdX(Nq);
 				else {
 					let e = (0, M.toInteger)(t * 0.2 * 255);
 					(e = (0, M.clamp)(e, 0, 255)),
 						(e /= 16),
 						(e += 1),
-						this.hZLuQBhxQhJKBbN(this.flashColor.setRGB(e, e, e));
+						this.ELlosAgNJRImAdX(this.flashColor.setRGB(e, e, e));
 				}
 				this.prevHurtTint = null;
 			}
@@ -103128,13 +103147,13 @@ var YPe = class e {
 		camForward = new D();
 		constructor(e) {
 			super(e);
-			let t = new Jn(),
-				n = new On(new lr(PY, PY / 2, PY), new An({ color: 13639712 }));
+			let t = new Kn(),
+				n = new On(new sr(PY, PY / 2, PY), new An({ color: 13639712 }));
 			n.position.y = PY / 4;
-			let r = new On(new lr(PY, PY / 2, PY), new An({ color: 15790320 }));
+			let r = new On(new sr(PY, PY / 2, PY), new An({ color: 15790320 }));
 			(r.position.y = -0.12 / 4), t.add(n, r), this.add(t);
-			let i = new Hn();
-			(this.linePositions = new Wn(new Float32Array(6), 3)),
+			let i = new Vn();
+			(this.linePositions = new Hn(new Float32Array(6), 3)),
 				i.setAttribute(`position`, this.linePositions),
 				(this.line = new aee(i, new oee({ color: 0 }))),
 				(this.line.frustumCulled = !1),
@@ -103145,8 +103164,8 @@ var YPe = class e {
 			let e = this.entity.angler;
 			e &&
 				(e.id === Y.id && Y.perspective === Bq.Perspective.FIRST_PERSON
-					? this.wfXccmvoeRBrHm()
-					: (e.mesh instanceof Pq && e.mesh.llBIJoLnSqaGYD(this.handWorld)) ||
+					? this.TROSzMMmQLdmZE()
+					: (e.mesh instanceof Pq && e.mesh.XEGYAqZarSKveZ(this.handWorld)) ||
 						(this.handWorld.copy(e.mesh?.position ?? e.pos),
 						(this.handWorld.y += e.getEyeHeight() - 0.3)),
 				this.linePositions.setXYZ(0, 0, 0, 0),
@@ -103158,7 +103177,7 @@ var YPe = class e {
 				),
 				(this.linePositions.needsUpdate = !0));
 		}
-		wfXccmvoeRBrHm() {
+		TROSzMMmQLdmZE() {
 			let e = $.gameScene.camera;
 			e.updateWorldMatrix(!0, !1);
 			let t = e.matrixWorld.elements;
@@ -103216,75 +103235,75 @@ var YPe = class e {
 		inner;
 		constructor(e) {
 			super(e),
-				(this.inner = new Jn()),
+				(this.inner = new Kn()),
 				this.add(this.inner),
-				this.zaGcWHKtLf(e),
+				this.jsBYQDjrDu(e),
 				this.add(this.inner),
 				this.position.copy(e.pos);
 		}
-		zaGcWHKtLf(e) {
+		jsBYQDjrDu(e) {
 			let t = e.getEntityItem().stackSize,
 				n = e.getEntityItem().item;
 			n.isItemBlock() && n.block.getRenderType() == ef.TESR
-				? this.zLDDqfUkwMS()
+				? this.VrBEaJUkxcZ()
 				: n instanceof cm
-					? (this.FqbEtcKPhuh(),
+					? (this.AZdJsWuOyFV(),
 						t > 1 &&
 							this.inner.children.length < 3 &&
-							this.FqbEtcKPhuh(0.2, -0.6, 0.8),
+							this.AZdJsWuOyFV(0.2, -0.6, 0.8),
 						t > 16 &&
 							this.inner.children.length < 4 &&
-							this.FqbEtcKPhuh(-0.1, -1, -0.8),
+							this.AZdJsWuOyFV(-0.1, -1, -0.8),
 						t > 32 &&
 							this.inner.children.length < 5 &&
-							this.FqbEtcKPhuh(0.5, 0.5, 1.6),
+							this.AZdJsWuOyFV(0.5, 0.5, 1.6),
 						t > 48 &&
 							this.inner.children.length < 6 &&
-							this.FqbEtcKPhuh(-0.6, 0.2, -1.6))
+							this.AZdJsWuOyFV(-0.6, 0.2, -1.6))
 					: e.getEntityItem().item.drawAsBlock()
-						? (this.VOKMjAgiOlkf(),
+						? (this.PpMDoqySuXex(),
 							t > 1 &&
 								this.inner.children.length < 3 &&
-								this.VOKMjAgiOlkf(1, 0.5, -1),
+								this.PpMDoqySuXex(1, 0.5, -1),
 							t > 16 &&
 								this.inner.children.length < 4 &&
-								this.VOKMjAgiOlkf(0.5, -0.5, 1),
+								this.PpMDoqySuXex(0.5, -0.5, 1),
 							t > 32 &&
 								this.inner.children.length < 5 &&
-								this.VOKMjAgiOlkf(-0.5, 1, 0.5),
+								this.PpMDoqySuXex(-0.5, 1, 0.5),
 							t > 48 &&
 								this.inner.children.length < 6 &&
-								this.VOKMjAgiOlkf(-1, -1, -0.5))
-						: (this.EchywNiTMuA(),
+								this.PpMDoqySuXex(-1, -1, -0.5))
+						: (this.afIZrIvaJzG(),
 							t > 1 &&
 								this.inner.children.length < 3 &&
-								this.EchywNiTMuA(0.2, -0.6, 0.8),
+								this.afIZrIvaJzG(0.2, -0.6, 0.8),
 							t > 16 &&
 								this.inner.children.length < 4 &&
-								this.EchywNiTMuA(-0.1, -1, -0.8),
+								this.afIZrIvaJzG(-0.1, -1, -0.8),
 							t > 32 &&
 								this.inner.children.length < 5 &&
-								this.EchywNiTMuA(0.5, 0.5, 1.6),
+								this.afIZrIvaJzG(0.5, 0.5, 1.6),
 							t > 48 &&
 								this.inner.children.length < 6 &&
-								this.EchywNiTMuA(-0.6, 0.2, -1.6));
+								this.afIZrIvaJzG(-0.6, 0.2, -1.6));
 		}
-		zLDDqfUkwMS() {
+		VrBEaJUkxcZ() {
 			let e = this.entity.getEntityItem().item,
 				t = hL.getTileEntityMesh(e.block);
 			t && (t.scale.setScalar(0.25), t.updateMatrix(), this.inner.add(t));
 		}
-		EchywNiTMuA(e = 0, t = 0, n = 0) {
+		afIZrIvaJzG(e = 0, t = 0, n = 0) {
 			let r = this.entity.getEntityItem(),
 				i = new II(r, 0.5, void 0, r.hasEffect());
 			i.position.sub(new D(e / 16, t / 16 - 0.25, n / 16)), this.inner.add(i);
 		}
-		VOKMjAgiOlkf(e = 0, t = 0, n = 0) {
+		PpMDoqySuXex(e = 0, t = 0, n = 0) {
 			let r = new II(this.entity.getEntityItem(), 0.25);
 			r.position.sub(new D(e / 16 + 0.125, t / 16, n / 16 + 0.125)),
 				this.inner.add(r);
 		}
-		FqbEtcKPhuh(e = 0, t = 0, n = 0) {
+		AZdJsWuOyFV(e = 0, t = 0, n = 0) {
 			let r = this.entity.getEntityItem(),
 				i = new II(r, 0.25, void 0, r.hasEffect());
 			i.position.sub(new D(e / 16, t / 16 - 0.125, n / 16)), this.inner.add(i);
@@ -103308,20 +103327,20 @@ var YPe = class e {
 		}
 	},
 	OFe = class extends Eq {
-		frameGroup = new Jn();
-		itemHolder = new Jn();
+		frameGroup = new Kn();
+		itemHolder = new Kn();
 		constructor(e) {
 			super(e),
 				this.frameGroup.add(new DFe()),
 				this.itemHolder.position.set(0, 0, 0.0825),
 				this.frameGroup.add(this.itemHolder),
 				this.add(this.frameGroup),
-				this.YsLvaFuWmAQgFz(),
-				this.JNhSMCvTL(),
-				this.KyKnldiBZFVD(0.75, 0.75),
+				this.IUGkpsEgCOpzPr(),
+				this.hvpQkKHff(),
+				this.faZZTZoWSjPB(0.75, 0.75),
 				this.position.copy(e.pos);
 		}
-		YsLvaFuWmAQgFz() {
+		IUGkpsEgCOpzPr() {
 			let e = this.entity.facingDirection;
 			e &&
 				(this.frameGroup.rotation.set(0, 0, 0),
@@ -103333,11 +103352,11 @@ var YPe = class e {
 							e.getFrontOffsetZ(),
 						)));
 		}
-		JNhSMCvTL() {
+		hvpQkKHff() {
 			this.itemHolder.clear(),
 				(this.itemHolder.rotation.z =
-					-this.entity.ZpQyzoCWDSc() * (Math.PI / 4));
-			let e = this.entity.kIXJaZBknyBEHJOy();
+					-this.entity.DlCtppqhYyP() * (Math.PI / 4));
+			let e = this.entity.TOXtTrEArvzocGpN();
 			if (e == null) return;
 			let t = e.item.isItemBlock() && e.item.drawAsBlock(),
 				n = t ? 0.4 : 0.5,
@@ -103345,7 +103364,7 @@ var YPe = class e {
 			t && r.position.set(-n / 2, -n / 2, -n / 2), this.itemHolder.add(r);
 		}
 		recreate() {
-			this.YsLvaFuWmAQgFz(), this.JNhSMCvTL();
+			this.IUGkpsEgCOpzPr(), this.hvpQkKHff();
 		}
 	},
 	kFe = class extends J {
@@ -103382,7 +103401,7 @@ var YPe = class e {
 				this.entity.setPosition(e.pos.x, e.pos.y, e.pos.z),
 				this.add(new kFe(this));
 		}
-		czeVrTANRpP() {
+		kKcLkoXYiyg() {
 			let e = this.entity,
 				t = e.getPartialTicks();
 			t < 0 ? (t = 0) : t > 1 && (t = 1),
@@ -103421,7 +103440,7 @@ var YPe = class e {
 			super.assembleBody(e), e.body.add(e.neck);
 		}
 	},
-	FY = new Zn(),
+	FY = new Xn(),
 	PFe = class extends kY {
 		constructor(e) {
 			super(e), this.add(this.getModel());
@@ -103525,9 +103544,9 @@ var YPe = class e {
 			super.recreate(), (this.layer = new LY(this)), this.add(this.layer);
 		}
 		render() {
-			super.render(), this.rvJbAZXaYeaOcUWFeFYp(!this.entity.nXKlWPkELz());
+			super.render(), this.mrAAymZxUQZnelBalzhf(!this.entity.ftOnSZVMFa());
 		}
-		rvJbAZXaYeaOcUWFeFYp(e) {
+		mrAAymZxUQZnelBalzhf(e) {
 			let t = this.skinnedRig[`sheep.sheep_fur`];
 			if (t) {
 				t.visible = e;
@@ -103571,7 +103590,7 @@ var YPe = class e {
 		}
 		addBodyParts(e) {
 			(e.meshes.body = this.initMesh(`body`)),
-				(e.meshes.body.position.y = e.entity.WDllwCBOJgYe() / 4);
+				(e.meshes.body.position.y = e.entity.OZdgjVTRiqkX() / 4);
 		}
 		assembleBody(e) {
 			e.body.clear(), e.body.add(e.meshes.body), e.add(e.body);
@@ -103587,7 +103606,7 @@ var YPe = class e {
 		render() {
 			super.render();
 			let e = this.entity.getPartialTicks(),
-				t = this.entity.WDllwCBOJgYe(),
+				t = this.entity.OZdgjVTRiqkX(),
 				n =
 					1 /
 					((this.entity.prevSquishFactor +
@@ -103665,7 +103684,7 @@ var YPe = class e {
 		addHead(e) {
 			(e.meshes.head = this.initMesh(`head`)),
 				e.meshes.head.position.set(0, 0, -6 / 16),
-				(e.headPivot = new Jn()),
+				(e.headPivot = new Kn()),
 				e.headPivot.add(e.meshes.head),
 				(e.headPivot.position.z = -4 / 16),
 				(e.neck = new jn()),
@@ -103758,8 +103777,8 @@ var YPe = class e {
 			(r.position.x -= 0.5), (r.position.z -= 0.5), this.add(r);
 		}
 	},
-	GFe = new dr(16777215),
-	KFe = new dr(0),
+	GFe = new ur(16777215),
+	KFe = new ur(0),
 	qFe = class extends Eq {
 		constructor(e) {
 			super(e);
@@ -103794,7 +103813,7 @@ var YPe = class e {
 		}
 		render() {
 			super.render(),
-				this.inner.lookAt(this.entity.thrower.JWrPeWcCZjryXjCEmAmF());
+				this.inner.lookAt(this.entity.thrower.kPLZcFgUihgMLvbDhxdD());
 		}
 	},
 	JFe = class extends J {
@@ -103947,7 +103966,7 @@ var YPe = class e {
 				this.add(this.getModel()),
 				(this.collar = new zY(this)),
 				this.add(this.collar),
-				this.aEKNscVgripHxPiLdK();
+				this.liJIzWMZfiJEDgDwNw();
 		}
 		getModel() {
 			return new JFe(this);
@@ -103956,16 +103975,16 @@ var YPe = class e {
 			super.recreate(),
 				(this.collar = new zY(this)),
 				this.add(this.collar),
-				this.aEKNscVgripHxPiLdK();
+				this.liJIzWMZfiJEDgDwNw();
 		}
-		aEKNscVgripHxPiLdK() {
+		liJIzWMZfiJEDgDwNw() {
 			this.bodyMaterials = {
-				normal: this.nNRGJEnFzrFRyDf(`wolf`),
-				angry: this.nNRGJEnFzrFRyDf(`wolf.wolf_angry`),
-				tame: this.nNRGJEnFzrFRyDf(`wolf.wolf_tame`),
+				normal: this.cwauiibpedarUsf(`wolf`),
+				angry: this.cwauiibpedarUsf(`wolf.wolf_angry`),
+				tame: this.cwauiibpedarUsf(`wolf.wolf_tame`),
 			};
 		}
-		nNRGJEnFzrFRyDf(e) {
+		cwauiibpedarUsf(e) {
 			let t = q.skinManager.getSkin(e)?.atlasMat;
 			return (
 				t && t.transparent && ((t.transparent = !1), (t.needsUpdate = !0)), t
@@ -103977,16 +103996,16 @@ var YPe = class e {
 			if (e) {
 				let t = this.entity.isTamed()
 					? this.bodyMaterials.tame
-					: this.entity.nDWyBbH()
+					: this.entity.phhICtU()
 						? this.bodyMaterials.angry
 						: this.bodyMaterials.normal;
 				t && e.material !== t && (e.material = t);
 			}
 			let t = this.skinnedRig[`wolf.wolf_collar`];
 			t && (t.visible = this.entity.isTamed() && e?.visible !== !1),
-				this.DmpnHVJglxPX(this.entity.isSitting());
+				this.tFSeFBtiLKni(this.entity.isSitting());
 		}
-		DmpnHVJglxPX(e) {
+		tFSeFBtiLKni(e) {
 			let {
 				leftShoulder: t,
 				rightShoulder: n,
@@ -104048,7 +104067,7 @@ var YPe = class e {
 		}
 		render() {
 			super.render();
-			let e = this.entity.SNhMbiPho();
+			let e = this.entity.YWIRJjLhm();
 			e !== this.lastTrading &&
 				((this.lastTrading = e),
 				e
@@ -104062,12 +104081,12 @@ var YPe = class e {
 	BY = 16777215,
 	nIe = 4,
 	VY = new F(0, 0, 0),
-	HY = new mee(),
+	HY = new hee(),
 	UY = new bn(),
 	WY = new bn(),
-	GY = new Vn(),
+	GY = new ir(),
 	KY = new D(),
-	rIe = TY.AxKNVmLqKEqXLsnVFOy();
+	rIe = TY.eSrcgpQYummKIvFPYBo();
 new D();
 var iIe = {
 		[Bd.ITEM]: EFe,
@@ -104104,29 +104123,29 @@ var iIe = {
 		_showHitboxes = !1;
 		hidePlayers = !1;
 		set debug(e) {
-			(this._debug = e), this.yaXmWCUyLgpZruGehlxDC();
+			(this._debug = e), this.dcPzLLnmjcSnqdaxRrsIG();
 		}
 		get debug() {
 			return this._debug;
 		}
 		set showHitboxes(e) {
-			(this._showHitboxes = e), this.yaXmWCUyLgpZruGehlxDC();
+			(this._showHitboxes = e), this.dcPzLLnmjcSnqdaxRrsIG();
 		}
 		get showHitboxes() {
 			return this._showHitboxes;
 		}
-		get CBfYMEPyNCPFPtY() {
+		get dQeFXtlxLGbRlWC() {
 			return this._debug || this._showHitboxes;
 		}
-		yaXmWCUyLgpZruGehlxDC() {
-			let e = this.CBfYMEPyNCPFPtY;
+		dcPzLLnmjcSnqdaxRrsIG() {
+			let e = this.dQeFXtlxLGbRlWC;
 			$.world.entities.forEach((t) => {
 				t.mesh && (t.mesh.debug = e);
 			});
 		}
-		IUOBHPhGnRTozh() {
-			if ((this.iqWnvjItCitdUGyQDxpR(), kK.OFfnYTzSBB(), OY.active)) {
-				$.world.entities.forEach((e) => e.mesh?.BBjaHmFVsDhCqBA());
+		UcUaIrlhAQhblr() {
+			if ((this.JrFcPzgmjdXajwBftGpW(), kK.QeGsSofTZG(), OY.active)) {
+				$.world.entities.forEach((e) => e.mesh?.FinOVHifSZuFLwl());
 				return;
 			}
 			let e = $.gameScene.camera;
@@ -104134,14 +104153,14 @@ var iIe = {
 				WY.copy(e.matrixWorld).invert(),
 				UY.multiplyMatrices(e.projectionMatrix, WY),
 				HY.setFromProjectionMatrix(UY),
-				Dq.OFfnYTzSBB(),
+				Dq.QeGsSofTZG(),
 				$.world.entities.forEach((e) => {
 					let t = e.mesh;
 					if (!t) return;
 					if (e.id === Y.id) {
 						if ((t.render(), Y.perspective !== Bq.Perspective.FIRST_PERSON)) {
 							GI(t);
-							let e = this.XvHWuF(Y);
+							let e = this.WcWuyp(Y);
 							t.visible && e && kK.add(t, e.getColor() ?? BY, e.getAmplifier());
 						}
 						return;
@@ -104153,18 +104172,18 @@ var iIe = {
 							(GY.radius = n + 1),
 							!HY.intersectsSphere(GY))
 						) {
-							t.BBjaHmFVsDhCqBA();
+							t.FinOVHifSZuFLwl();
 							return;
 						}
 					}
 					t.render(), GI(t);
-					let n = this.XvHWuF(e);
+					let n = this.WcWuyp(e);
 					t.visible && n && kK.add(t, n.getColor() ?? BY, n.getAmplifier());
 				}),
-				Dq.OXTJnRuC();
+				Dq.tEiCFrxv();
 			let t = $.gameScene.debugHitboxRenderer;
-			t.OFfnYTzSBB(),
-				this.CBfYMEPyNCPFPtY &&
+			t.QeGsSofTZG(),
+				this.dQeFXtlxLGbRlWC &&
 					$.world.entities.forEach((e) => {
 						let n = e.mesh;
 						!n ||
@@ -104172,28 +104191,28 @@ var iIe = {
 							!n.debugVisible ||
 							(e.id === Y.id &&
 								Y.perspective === Bq.Perspective.FIRST_PERSON) ||
-							(e.id !== Y.id && e.DJGeSqVIqgkglgUhOWp(Y)) ||
-							t.submit(n.position, n.DssRtGWHRf, n.NmtOhAHIWzu);
+							(e.id !== Y.id && e.SrhVjDJXOFNanseijhz(Y)) ||
+							t.submit(n.position, n.VWwmcXDtnH, n.GmZfHBswLtA);
 					}),
-				t.OXTJnRuC();
+				t.tEiCFrxv();
 		}
-		XvHWuF(e) {
+		WcWuyp(e) {
 			return !(e instanceof jd) || !e.isPotionActive(kd.glowing)
 				? null
 				: e.getActivePotionEffect(kd.glowing);
 		}
-		iqWnvjItCitdUGyQDxpR() {
+		JrFcPzgmjdXajwBftGpW() {
 			$.gameScene.camera.getWorldPosition(KY),
 				q.beginHeldLights(KY.x, KY.y, KY.z),
 				E.dynamicLighting.value &&
 					E.lighting.value !== `Classic` &&
-					(this.HPTBioYfFkdinz(Y),
+					(this.QxdGvUdgwEabhd(Y),
 					$.world.entities.forEach((e) => {
-						e.id !== Y.id && this.HPTBioYfFkdinz(e);
+						e.id !== Y.id && this.QxdGvUdgwEabhd(e);
 					})),
 				q.commitHeldLights();
 		}
-		HPTBioYfFkdinz(e) {
+		QxdGvUdgwEabhd(e) {
 			if (!(e instanceof jd)) return;
 			let t = e.getHeldItem();
 			if (!t) return;
@@ -104206,25 +104225,25 @@ var iIe = {
 				e.ticksExisted++,
 					!(e instanceof Pp) &&
 						e.mesh &&
-						(e.mesh.visible = this.bhihJIbHxEarJkESyT(e));
+						(e.mesh.visible = this.iGdKrUZafcTcfwdPiQ(e));
 			});
 			let e = E.fastRender.value;
 			for (let t of $.world.playersIterator()) {
 				if (t.id == Y.id) continue;
-				let n = this.bhihJIbHxEarJkESyT(t, !0),
-					r = n && t.DJGeSqVIqgkglgUhOWp(Y);
-				(t.mesh.visible = n), t.mesh.kwJfYWKYYDAeFmoeWK(r);
-				let i = !r && !e && !t.mesh.LxmkOQLwfbn();
+				let n = this.iGdKrUZafcTcfwdPiQ(t, !0),
+					r = n && t.SrhVjDJXOFNanseijhz(Y);
+				(t.mesh.visible = n), t.mesh.QaPYBBFlAZKdVjbLNP(r);
+				let i = !r && !e && !t.mesh.sonowvqiNpr();
 				t.mesh.hatMesh && (t.mesh.hatMesh.visible = i),
 					t.mesh.capeMesh && (t.mesh.capeMesh.visible = i && !t.isSpectator());
 			}
 		}
-		bhihJIbHxEarJkESyT(e, t = !1) {
+		iGdKrUZafcTcfwdPiQ(e, t = !1) {
 			if (Y.id == e.id) return !0;
 			if (
 				this.hidePlayers ||
 				(VY.set(e.pos.x, e.pos.y, e.pos.z), !e.world.isBlockLoaded(VY)) ||
-				(!t && e.DJGeSqVIqgkglgUhOWp(Y)) ||
+				(!t && e.SrhVjDJXOFNanseijhz(Y)) ||
 				(e instanceof Pp && e.isSpectator() && !Y.isSpectator())
 			)
 				return !1;
@@ -104239,13 +104258,13 @@ var iIe = {
 		addEntity(e, t) {
 			let n = $.world.entities.get(e.id);
 			n && $.world.removeEntity(n);
-			let r = this.FdKpCGNrvvrs(e, t);
+			let r = this.xBxiDhUJQSSm(e, t);
 			if (!r) return;
 			r.fromJSON(e);
-			let i = this.cpjJClfFJI(r);
+			let i = this.jzFFCwchoa(r);
 			i && (r.mesh = i), $.world.spawnEntityInWorld(r);
 		}
-		FdKpCGNrvvrs(e, t) {
+		xBxiDhUJQSSm(e, t) {
 			let n = rIe[e.type];
 			if (n) return new n(t);
 			switch (e.type) {
@@ -104312,12 +104331,12 @@ var iIe = {
 					throw Error(`Unknown entity type ${e.type}`);
 			}
 		}
-		ukNIrxbiJZsJpJ() {
+		TnwSWAmLSXafha() {
 			$.world.entities.forEach((e) => {
 				e.id !== Y.id && e.mesh?.recreate();
 			});
 		}
-		cpjJClfFJI(e) {
+		jzFFCwchoa(e) {
 			let t = e.identifier,
 				n = iIe[t];
 			if (n) return new n(e);
@@ -104333,20 +104352,20 @@ var iIe = {
 				case Bd.POTION:
 					return new RY(e, e.potionDamage);
 				case Bd.PLAYER:
-					return this.SOVWUlkbCeFaCKF(e);
+					return this.XNzQEZxzwdhRSVj(e);
 				case Bd.FIREWORK_ROCKET:
 					return;
 				default:
 					return;
 			}
 		}
-		SOVWUlkbCeFaCKF(e) {
+		XNzQEZxzwdhRSVj(e) {
 			let t = new Lq(e);
 			return (
 				(e.mesh = t),
-				t.wHtHldFmnEajZy(e.mode),
+				t.mjbbAEbkRcggeB(e.mode),
 				t.updateArmor(),
-				t.DHrOEIFwobaNe(),
+				t.YwZTkgQZeOgVn(),
 				t
 			);
 		}
@@ -104363,9 +104382,9 @@ var iIe = {
 				}),
 				(t.profile.rank = e.rank ?? ``),
 				(t.profile.discordBoosting = e.discordBoosting ?? !1),
-				(t.mesh = this.SOVWUlkbCeFaCKF(t)),
+				(t.mesh = this.XNzQEZxzwdhRSVj(t)),
 				(t.effects = new UP($.world, t)),
-				(t.mesh.visible = this.bhihJIbHxEarJkESyT(t)),
+				(t.mesh.visible = this.iGdKrUZafcTcfwdPiQ(t)),
 				$.world.addPlayer(t);
 		}
 	})(),
@@ -104907,7 +104926,7 @@ var EX = class e {
 		static tryExecuteClientside(t, n) {
 			let r = t.removeExtraSpaces().split(` `);
 			if (r[0] == `reload`)
-				return n.chunkRenderManager.reload(), qY.ukNIrxbiJZsJpJ(), !0;
+				return n.chunkRenderManager.reload(), qY.TnwSWAmLSXafha(), !0;
 			if (r[0] == `screenshot` || r[0] == `ss`) {
 				let e = r[1];
 				return (
@@ -104918,7 +104937,7 @@ var EX = class e {
 				);
 			} else if (r[0] == `play`) return n.cubicBezier.playVideoAd(), !0;
 			else if (r[0] == `register`)
-				return (window.location = window.location + `?path=/signup/start`), !0;
+				return (window.location = window.location + `?path=/siAxisAlignedBoundingBoxup/start`), !0;
 			else if (r[0] == `bots`)
 				return (
 					Y.isAdmin()
@@ -105391,7 +105410,7 @@ var EX = class e {
 		coffee: `☕`,
 		tea: `🍵`,
 		sake: `🍶`,
-		champagne: `🍾`,
+		champaAxisAlignedBoundingBoxe: `🍾`,
 		wine_glass: `🍷`,
 		cocktail: `🍸`,
 		tropical_drink: `🍹`,
@@ -105569,7 +105588,7 @@ var EX = class e {
 		printer: `🖨️`,
 		battery: `🔋`,
 		electric_plug: `🔌`,
-		magnet: `🧲`,
+		maAxisAlignedBoundingBoxet: `🧲`,
 		telescope: `🔭`,
 		microscope: `🔬`,
 		syringe: `💉`,
@@ -105589,9 +105608,9 @@ var EX = class e {
 		x: `❌`,
 		negative_squared_cross_mark: `❎`,
 		heavy_multiplication_x: `✖️`,
-		heavy_plus_sign: `➕`,
-		heavy_minus_sign: `➖`,
-		heavy_division_sign: `➗`,
+		heavy_plus_siAxisAlignedBoundingBox: `➕`,
+		heavy_minus_siAxisAlignedBoundingBox: `➖`,
+		heavy_division_siAxisAlignedBoundingBox: `➗`,
 		question: `❓`,
 		grey_question: `❔`,
 		exclamation: `❗`,
@@ -105601,7 +105620,7 @@ var EX = class e {
 		interrobang: `⁉️`,
 		warning: `⚠️`,
 		no_entry: `⛔`,
-		no_entry_sign: `🚫`,
+		no_entry_siAxisAlignedBoundingBox: `🚫`,
 		recycle: `♻️`,
 		white_flower: `💮`,
 		check: `✔️`,
@@ -105656,7 +105675,7 @@ var EX = class e {
 		facepalm: `🤦`,
 		shrug: `🤷`,
 		musical_score: `🎼`,
-		heavy_dollar_sign: `💲`,
+		heavy_dollar_siAxisAlignedBoundingBox: `💲`,
 		copyright: `©️`,
 		registered: `®️`,
 		tm: `™️`,
@@ -106136,7 +106155,7 @@ var MX = new (class {
 						: t?.profile.username;
 			n && (e.name = n),
 				this.playerDataMap.set(e.id, e),
-				t && e.name && ((t.name = e.name), t.mesh.DHrOEIFwobaNe()),
+				t && e.name && ((t.name = e.name), t.mesh.YwZTkgQZeOgVn()),
 				e.uuid === this.game.player.profile.uuid
 					? (this.game.serverInfo.permissionLevel = e.permissionLevel)
 					: e.persistent &&
@@ -106429,8 +106448,8 @@ var MX = new (class {
 				(this.options = t),
 				this.options.keySeparator === void 0 &&
 					(this.options.keySeparator = `.`),
-				this.options.ignoreJSONStructure === void 0 &&
-					(this.options.ignoreJSONStructure = !0);
+				this.options.iAxisAlignedBoundingBoxoreJSONStructure === void 0 &&
+					(this.options.iAxisAlignedBoundingBoxoreJSONStructure = !0);
 		}
 		addNamespaces(e) {
 			this.options.ns.indexOf(e) < 0 && this.options.ns.push(e);
@@ -106447,9 +106466,9 @@ var MX = new (class {
 						? this.options.keySeparator
 						: r.keySeparator,
 				a =
-					r.ignoreJSONStructure === void 0
-						? this.options.ignoreJSONStructure
-						: r.ignoreJSONStructure,
+					r.iAxisAlignedBoundingBoxoreJSONStructure === void 0
+						? this.options.iAxisAlignedBoundingBoxoreJSONStructure
+						: r.iAxisAlignedBoundingBoxoreJSONStructure,
 				o;
 			e.indexOf(`.`) > -1
 				? (o = e.split(`.`))
@@ -106837,7 +106856,7 @@ var MX = new (class {
 				if (
 					(this.options.interpolation.defaultVariables &&
 						(c = { ...this.options.interpolation.defaultVariables, ...c }),
-					(e = this.interpolator.czeVrTANRpP(
+					(e = this.interpolator.kKcLkoXYiyg(
 						e,
 						c,
 						n.lng || this.language || r.usedLng,
@@ -107080,7 +107099,7 @@ var MX = new (class {
 							: n.length === 3 &&
 								((n[0] = n[0].toLowerCase()),
 								n[1].length === 2 && (n[1] = n[1].toUpperCase()),
-								n[0] !== `sgn` &&
+								n[0] !== `sAxisAlignedBoundingBox` &&
 									n[2].length === 2 &&
 									(n[2] = n[2].toUpperCase()),
 								t.indexOf(n[1].toLowerCase()) > -1 &&
@@ -107558,7 +107577,7 @@ var MX = new (class {
 					`${this.nestingPrefix}(.+?)${this.nestingSuffix}`,
 				));
 		}
-		czeVrTANRpP(e, t, n, r) {
+		kKcLkoXYiyg(e, t, n, r) {
 			let i,
 				a,
 				o,
@@ -107574,7 +107593,7 @@ var MX = new (class {
 							s,
 							e,
 							this.options.keySeparator,
-							this.options.ignoreJSONStructure,
+							this.options.iAxisAlignedBoundingBoxoreJSONStructure,
 						);
 						return this.alwaysFormat
 							? this.format(i, void 0, n, { ...r, ...t, interpolationkey: e })
@@ -107589,7 +107608,7 @@ var MX = new (class {
 							s,
 							a,
 							this.options.keySeparator,
-							this.options.ignoreJSONStructure,
+							this.options.iAxisAlignedBoundingBoxoreJSONStructure,
 						),
 						o,
 						n,
@@ -107656,7 +107675,7 @@ var MX = new (class {
 					if (e.indexOf(n) < 0) return e;
 					let r = e.split(RegExp(`${n}[ ]*{`)),
 						i = `{${r[1]}`;
-					(e = r[0]), (i = this.czeVrTANRpP(i, a));
+					(e = r[0]), (i = this.kKcLkoXYiyg(i, a));
 					let o = i.match(/'/g),
 						s = i.match(/"/g);
 					((o && o.length % 2 == 0 && !s) || s.length % 2 != 0) &&
@@ -108569,7 +108588,7 @@ var MX = new (class {
 				? `rtl`
 				: `ltr`;
 		}
-		static DfcasReBRLVYPB() {
+		static KeUGoXDfEsASKg() {
 			return new e(
 				arguments.length > 0 && arguments[0] !== void 0 ? arguments[0] : {},
 				arguments.length > 1 ? arguments[1] : void 0,
@@ -108619,9 +108638,9 @@ var MX = new (class {
 			};
 		}
 	},
-	sZ = oZ.DfcasReBRLVYPB();
-(sZ.DfcasReBRLVYPB = oZ.DfcasReBRLVYPB),
-	sZ.DfcasReBRLVYPB,
+	sZ = oZ.KeUGoXDfEsASKg();
+(sZ.KeUGoXDfEsASKg = oZ.KeUGoXDfEsASKg),
+	sZ.KeUGoXDfEsASKg,
 	sZ.dir,
 	sZ.init,
 	sZ.loadResources,
@@ -108637,8 +108656,8 @@ var MX = new (class {
 	sZ.loadLanguages;
 function cZ() {
 	return (
-		(cZ = Object.assign
-			? Object.assign.bind()
+		(cZ = Object.assiAxisAlignedBoundingBox
+			? Object.assiAxisAlignedBoundingBox.bind()
 			: function (e) {
 					for (var t = 1; t < arguments.length; t++) {
 						var n = arguments[t];
@@ -108850,7 +108869,7 @@ function uLe(e, t) {
 	let n = arguments.length > 2 && arguments[2] !== void 0 ? arguments[2] : {};
 	return !t.languages || !t.languages.length
 		? (pZ(`i18n.languages were undefined or empty`, t.languages), !0)
-		: t.options.ignoreJSONStructure === void 0
+		: t.options.iAxisAlignedBoundingBoxoreJSONStructure === void 0
 			? lLe(e, t, n)
 			: t.hasLoadedNamespace(e, {
 					lng: n.lng,
@@ -108935,7 +108954,7 @@ function CZ(e) {
 }
 function _Le(e, t) {
 	let n = { ...t };
-	return (n.props = Object.assign(e.props, t.props)), n;
+	return (n.props = Object.assiAxisAlignedBoundingBox(e.props, t.props)), n;
 }
 function wZ(e, t) {
 	if (!e) return ``;
@@ -108998,7 +109017,7 @@ function vLe(e, t, n, r, i, a) {
 					? l(SZ(e))
 					: typeof e == `object` &&
 						!(0, j.isValidElement)(e) &&
-						Object.assign(c, e));
+						Object.assiAxisAlignedBoundingBox(c, e));
 		});
 	}
 	l(e);
@@ -109035,7 +109054,7 @@ function vLe(e, t, n, r, i, a) {
 				i.children &&
 				i.children[0] &&
 				i.children[0].content &&
-				n.services.interpolator.czeVrTANRpP(
+				n.services.interpolator.kKcLkoXYiyg(
 					i.children[0].content,
 					d,
 					n.language,
@@ -109053,7 +109072,7 @@ function vLe(e, t, n, r, i, a) {
 						!!e &&
 						Object.hasOwnProperty.call(e, i.name);
 				if (typeof g == `string`) {
-					let e = n.services.interpolator.czeVrTANRpP(g, d, n.language);
+					let e = n.services.interpolator.kKcLkoXYiyg(g, d, n.language);
 					t.push(e);
 				} else if (xZ(g) || v) p(g, f(g, i, c), t, u);
 				else if (y) p(g, m(l, i.children, c), t, u);
@@ -109081,9 +109100,9 @@ function vLe(e, t, n, r, i, a) {
 				let e = r.transWrapTextNodes,
 					o = a
 						? r.unescape(
-								n.services.interpolator.czeVrTANRpP(i.content, d, n.language),
+								n.services.interpolator.kKcLkoXYiyg(i.content, d, n.language),
 							)
-						: n.services.interpolator.czeVrTANRpP(i.content, d, n.language);
+						: n.services.interpolator.kKcLkoXYiyg(i.content, d, n.language);
 				e
 					? t.push((0, j.createElement)(e, { key: `${i.name}-${u}` }, o))
 					: t.push(o);
@@ -109346,7 +109365,7 @@ var CLe = r({
 		},
 	},
 	AZ = JSON.parse(
-		`{"title":{"settings":"Settings","graphics":"Graphics Settings","audio":"Audio Settings","controls":"Controls"},"nav":{"graphics":"Graphics","shaders":"Shaders","appearance":"Appearance","audio":"Audio","controls":"Controls","crosshair":"Crosshair","language":"Language","titleScreen":"Title Screen","texturePack":"Texture Packs","schematics":"Schematics","other":"Display"},"schematic":{"ownPlanetOnly":"You can only use schematics in a planet you own.","choose":"Click to choose a {{ext}} file","dropHint":"or drag & drop it here","changeFile":"click to choose a different file","hint":"The schematic is pasted at your current location.","joinWorld":"Join a world to place a schematic.","place":"Place Schematic","placing":"Sending…","sent":"Schematic sent — placing at your location.","wrongType":"Please choose a {{ext}} file.","tooLarge":"That schematic is too large (max {{max}})."},"texturePack":{"upload":"Upload Texture Pack","uploading":"Importing…","remove":"Remove pack","hint":"Upload a resource pack (.zip). Missing textures fall back to default textures.","error":"Could not load pack: {{message}}","eternusRequired":"Uploading your own texture packs requires Eternus rank or above.","coverage":{"title":"{{n}} textures aren't in this pack — using defaults for these:","allLoaded":"Nice — this pack covers everything, no fallbacks needed.","blocksItems":"Blocks & items","armor":"Armor","entities":"Entities (mobs)","groupSummary":"{{missing}}/{{total}} missing","dismiss":"Dismiss"}},"section":{"basic":"Basic","schematic":"Upload Schematic","shaders":"Shaders","titleScreen":"Title Screen","preset":"Quality Preset","display":"Display","world":"World","effects":"Effects","performance":"Performance","cameraMotion":"Camera Motion","volume":"Volume","sensitivity":"Sensitivity","gameplay":"Gameplay","touchControls":"Touch Controls","experimental":"Experimental","chatTranslation":"Chat Translation","interfaceLanguage":"Interface Language","texturePack":"Texture Pack","chat":"Chat","hud":"HUD","overlays":"Overlays","misc":"Miscellaneous","crosshairStyle":"Style","crosshairShape":"Shape"},"sectionDesc":{"preset":"Pick a ready-made balance of looks and performance, or tune each setting yourself below.","display":"Field of view, render resolution and how the game window behaves.","world":"How far you can see and what fills the sky around you.","effects":"Particles and the on-hit screen feedback.","performance":"Trade visual detail for a higher, steadier frame rate.","cameraMotion":"View bob and field-of-view shifts that react to how you move.","experimental":"Newer, in-progress options — some may change or need a reload to apply.","shaders":"Lighting, shadows and atmosphere. These are the heaviest settings on your GPU.","volume":"Separate levels for music, interface clicks and world sounds.","sensitivity":"How quickly the camera turns with your mouse, scroll wheel or touch.","gameplay":"Movement conveniences like toggle-to-sprint.","touchControls":"Size and opacity of the on-screen joystick, plus touch-only options.","crosshairStyle":"The reticle's shape, colour and outline.","crosshairShape":"Fine-tune the reticle's size, spacing and opacity.","chatTranslation":"Automatically translate incoming chat into your language, right on your device.","interfaceLanguage":"The language used across all menus and the HUD.","titleScreen":"Use one of your own in-game views as the menu background.","texturePack":"Choose how blocks and items look, or import your own resource pack.","schematic":"Paste a saved structure into a world you own.","chat":"How the chat log persists, stamps and sizes its messages.","overlays":"Interface scale and the on-screen readouts — FPS, ping, coordinates and CPS.","misc":"Other quality-of-life options that don't fit the groups above."},"value":{"unlimited":"Unlimited"},"note":{"chatTranslationUnsupported":"Your browser doesn't support on-device translation. Try the latest Chrome or Edge."},"unit":{"chunks":" chunks"},"preset":{"low":"Low","medium":"Medium","high":"High","ultra":"Ultra","epic":"Epic","custom":"Custom","recommended":"Recommended"},"titleScreen":{"description":"Use a screenshot of your current view as the menu background.","capture":"Use current view","captureNow":"Capture screenshot","reset":"Reset to default","undo":"Undo reset","customBadge":"Custom","captured":"Saved! Leave your world to see your new title screen.","resetDone":"Reset to the default — press Undo to restore it.","undone":"Restored your custom title screen.","needGame":"Join a world first to capture a title screen.","tooLarge":"Image is too large to save — try lowering the resolution scale.","failed":"Couldn't capture the screen — see the console for details."},"label":{"language":"Language","translateChat":"Translate Chat","fov":"FOV","mouseSensitivity":"Mouse Sensitivity","scrollSensitivity":"Scroll Sensitivity","touchSensitivity":"Touch Sensitivity","renderDistance":"Render Distance","particles":"Particles","damageVignette":"Damage Vignette","resolution":"Resolution Scale","antialiasing":"Antialiasing (MSAA)","invertScroll":"Invert Scroll","autoJump":"Auto Jump","toggleSprint":"Toggle Sprint","joystickSize":"Joystick Size","joystickOpacity":"Joystick Opacity","crosshairTargeting":"Crosshair Targeting","mobileButtonsXOffset":"Buttons X Offset","hapticFeedback":"Haptic Feedback","fastRender":"Fast Render","wasmMesher":"WASM Mesher","offscreenRendering":"Offscreen Rendering","checkShaderErrors":"Check Shader Errors","chunkCache":"Chunk Cache","fastEntities":"Fast Entities","entities":"Entities","maxFramerate":"Max Framerate","dynamicFOV":"Dynamic FOV","autoFullscreen":"Auto Fullscreen","hoverTooltip":"Hovered Tooltip","acrylicEffect":"Acrylic Effect","stars":"Stars","atmosphericSky":"Atmospheric Sky","godRays":"God Rays","godRaysIntensity":"God Rays Intensity","godRaysSpread":"God Rays Spread","bloom":"Bloom","eyeAdaptation":"Eye Adaptation","waterShaders":"Water Shaders","grassWave":"Grass Wave","bobbing":"Bobbing","texturePack":"Texture Pack","shadows":"Shadows","dynamicLighting":"Dynamic Lighting","globalIllumination":"Global Illumination","volumetricFog":"Volumetric Fog","fogDensity":"Fog Density","emissiveFogGlow":"Emissive Fog Glow","clouds":"Clouds","cloudHeight":"Cloud Height","masterVolume":"Master Volume","music":"Music","players":"Players","mobs":"Mobs","blocks":"Blocks","interface":"Interface","notifications":"Notifications","preserveChatLog":"Preserve Chat Log","chatTimestamps":"Chat Timestamps","alwaysShowChat":"Always Show Chat","chatMaxMessages":"Chat Max Messages","chatScale":"Chat Scale","guiScale":"GUI Scale","showDebug":"Show Debug Menu","showHitboxes":"Show Hitboxes","showFps":"Show FPS","showNetwork":"Show Network","showCoordinates":"Show Coordinates","showCps":"Show CPS","showKillFeed":"Show Kill Feed","confirmLeaveGame":"Confirm Leave Game","crosshairStyle":"Style","crosshairColor":"Color","crosshairSize":"Size","crosshairThickness":"Thickness","crosshairLength":"Length","crosshairGap":"Gap","crosshairOpacity":"Opacity","crosshairDot":"Center Dot","crosshairOutline":"Outline"},"tooltip":{"translateChat":"Automatically translate chat messages from other languages into your selected interface language, using your browser's built-in on-device translator. Messages already in your language are left unchanged; hover a translated message to see the original.","joystickSize":"Scales the on-screen movement joystick. A faint version rests in the lower-left so you can see where to place your thumb.","crosshairTargeting":"Aim with the crosshair: the highlighted block, breaking and placing all follow the centre of the screen, and holding the look thumb still breaks the highlighted block. Turn off for the classic scheme, where the select box and breaking / placing land on the exact spot your thumb touches.","mobileButtonsXOffset":"Slide the right-hand on-screen buttons (camera, jump, crouch, use item, etc.) inward from the right edge of the screen, so they sit comfortably under your thumb on larger phones and tablets. 0 keeps them in the corner.","hapticFeedback":"Vibrate on actions like sprinting, taking damage and pressing buttons. Only works on devices that support vibration (most Android phones; not iPhone).","toggleSprint":"Press your sprint key once to start sprinting instead of holding it down. You keep sprinting until you press the key again or stop moving forward.","fov":"How wide the camera sees. Higher values show more around you.","resolution":"Renders the game at a fraction of your screen resolution. Lower it for more FPS, raise it for a sharper image.","antialiasing":"Smooths jagged block edges with multisampling (MSAA). Costs some GPU, so it's off by default. It can also work around a Windows/NVIDIA driver bug that makes terrain look see-through at glancing angles. ⚠ Takes effect after a reload.","renderDistance":"How many chunks of the world load around you. Higher values look better but cost more FPS.","particles":"How many particle effects (explosions, smoke, etc.) are shown.","damageVignette":"Red glow that pulses around the edges of the screen when you're critically low on health. Turn it off if you find it distracting.","texturePack":"Swap the block, item, and UI textures. Changes apply instantly — no restart needed.","atmosphericSky":"Renders a realistic sky with sun-based atmospheric colors.","clouds":"Cloud rendering. Fast is a flat cloud layer; Fancy uses volumetric clouds. ⚠ Fancy can cause large FPS drops.","cloudHeight":"How high the cloud layer floats above the world.","stars":"Show stars in the night sky.","lighting":"Voxel lighting quality. Fancy adds smooth lighting and ambient occlusion. ⚠ Fancy can cause large FPS drops.","dynamicLighting":"Light-emitting items you hold (torches, glowstone, lanterns…) cast a soft glow on the world, entities and particles around you, like a torch in hand. Needs Lighting set above Classic.","globalIllumination":"Soft indirect lighting: nearby blocks bounce light onto each other, colored blocks bleed their color, caves and interiors are filled more naturally, and glowing blocks (lava, torches, lamps, portals, glowing ores) cast colored light onto nearby surfaces — orange lava, purple portals, and so on. Higher tiers are sharper, reach further and flicker. ⚠ Medium and High can cause FPS drops.","volumetricFog":"Dense atmospheric fog raymarched through the world: thick in the distance, mistier in caves and interiors, and heavier near the ground. ⚠ Renders an extra full-screen pass and can cause FPS drops.","fogDensity":"How thick the volumetric fog is. Lower values keep long visibility; higher values create a denser haze.","emissiveFogGlow":"Glowing blocks (lava, torches, portals, glowing ores, lamps) softly light the fog around them with their own color. Needs Volumetric Fog and Global Illumination on.","godRays":"Volumetric sun shafts scattered through the air toward the sun and carved by terrain and trees. Works from side angles and when the sun is off-screen. Low is a soft directional glow; Medium and High add occlusion shafts, and High adds temporal smoothing. ⚠ High can cause FPS drops.","godRaysIntensity":"How bright the god-ray beams are. 100% is the default; lower it for a subtler glow or raise it for stronger shafts. The shaft haziness follows Fog Density.","godRaysSpread":"How widely the glow fans out from the sun. Lower values keep it tight around the sun; higher values spread a softer glow across more of the sky.","bloom":"Light-emitting blocks (glowstone, torches, lava, lit redstone lamps, powered redstone) glow with a soft halo. Higher values glow more strongly; set to 0 to turn it off. ⚠ Can cause FPS drops.","eyeAdaptation":"Your eyes adjust to the light, like in real life: bright areas flare and then settle, while dark caves stay dark before gradually becoming visible. Higher values adapt more strongly; set to 0 to turn it off.","waterShaders":"Animated, reflective water surfaces.","shadows":"Real-time shadows from the sun. Low = players and mobs only; Medium and High also shadow the terrain, at progressively higher, sharper resolutions. ⚠ Medium and High can cause large FPS drops.","grassWave":"Makes grass and plants sway in the wind.","fastRender":"Optimizes chunk rendering for better performance. Disables water shaders.","wasmMesher":"Builds and lights chunks with the WebAssembly mesher, which is faster on most hardware. Turn it off to fall back to the JavaScript path if you see glitches or run low on memory on a low-end device. Experimental.","offscreenRendering":"Moves the entire 3D renderer onto a background thread (OffscreenCanvas), with mouse look fed through shared memory for instant response. Frees up the main thread, but needs a browser with cross-origin isolation and SharedArrayBuffer — it falls back to normal rendering when unavailable. ⚠ Experimental tech preview; takes effect after a reload.","checkShaderErrors":"Validates each shader program on first use and reports compile/link errors to the console. Costs a synchronous GPU stall during chunk loading, so keep it off when profiling. Dev-only.","chunkCache":"Caches received chunks in your browser and skips re-downloading any the server reports unchanged when you revisit or reconnect. Saves bandwidth, especially in static worlds. The server always decides what's current, so it can't show outdated terrain. Dev-only.","fastEntities":"Simplifies distant entities to improve performance.","entities":"Level of detail for other players. Fast swaps distant players (past 32 blocks) to a cheaper combined mesh; Fastest uses it at all distances; Normal keeps everyone fully detailed.","maxFramerate":"Caps how many frames per second the game renders. Unlimited draws as fast as it can. A cap cuts wasted GPU/CPU work, heat and battery use — on laptops and weaker machines that lower heat can keep the chip from throttling and actually raise sustained FPS. It never affects the game speed, input or networking.","dynamicFOV":"Subtly widens the field of view when sprinting or flying.","bobbing":"Bobs the camera and held item as you walk.","autoFullscreen":"Automatically enter fullscreen when you join a game.","hoverTooltip":"Shows the name of the block, item, or entity you are looking at near the top of the screen.","acrylicEffect":"Frosted blur and blend behind menus and HUD panels (chat, hotbar, scoreboard, tooltips). Looks nicer but layers per-frame GPU effects that can cause large FPS drops on low-end devices — turn it off for more performance; panels stay readable.","preserveChatLog":"Keep your chat history when you leave a world or get disconnected, instead of clearing it. Useful for screenshotting earlier conversations or returning to the same server. Cleared on page reload.","chatTimestamps":"Prefix each chat line with the local time (HH:MM) it arrived. Helpful for telling when something was said when you scroll back through the log.","alwaysShowChat":"Stop chat messages from fading after a few seconds — every line stays visible in the message log until it's pushed off by newer ones. Lets you read longer conversations without holding the chat open.","chatMaxMessages":"How many recent chat messages are shown in the log at once. Slide all the way to the right for \\"Unlimited\\" — every message you've received this session is kept and rendered.","chatScale":"Scale the size of the chat message log. Lower values shrink it out of the way; higher values enlarge it for readability. 100% is the default size.","guiScale":"Scale the size of the whole interface — the HUD, menus and inventory — together. Lower values shrink everything to fit more on screen; higher values enlarge it for readability. 100% is the default size.","showDebug":"Show the full F3 debug overlay: FPS, ping, jitter, draw calls, memory, your position and chunk, biome, facing, and more. Same toggle as pressing F3 in-game.","showHitboxes":"Draw the wireframe hitbox around every player and mob. Useful for lining up hits or seeing exact entity bounds. The full F3 debug overlay already shows these; this turns them on by themselves.","showFps":"Show a small frame-rate counter in the top-left corner. Hidden in F1 (no-HUD) mode and while the full F3 debug overlay is on, since that one already shows FPS.","showNetwork":"Show a small latency and jitter readout in the top-left corner. Hidden in F1 (no-HUD) mode and while the full F3 debug overlay is on, since that one already shows ping and jitter.","showCoordinates":"Show your X, Y and Z position in the top-left corner. Hidden in F1 (no-HUD) mode and while the full F3 debug overlay is on, since that one already shows your position.","showCps":"Show a small clicks-per-second counter in the top-left corner, measuring your left-click attacks and block breaks over the last second. Hidden in F1 (no-HUD) mode and while the full F3 debug overlay is on.","showKillFeed":"Show the kill feed — the death and kill announcements that pop up in the top-right corner during a match. Turn it off to clear the clutter, handy on smaller screens. Broadcasts and other server notices still show.","confirmLeaveGame":"Show a confirmation prompt when you press \\"Leave Game\\" in the escape menu, so a misclick doesn't drop you back to the title screen mid-match."}}`,
+		`{"title":{"settings":"Settings","graphics":"Graphics Settings","audio":"Audio Settings","controls":"Controls"},"nav":{"graphics":"Graphics","shaders":"Shaders","appearance":"Appearance","audio":"Audio","controls":"Controls","crosshair":"Crosshair","language":"Language","titleScreen":"Title Screen","texturePack":"Texture Packs","schematics":"Schematics","other":"Display"},"schematic":{"ownPlanetOnly":"You can only use schematics in a planet you own.","choose":"Click to choose a {{ext}} file","dropHint":"or drag & drop it here","changeFile":"click to choose a different file","hint":"The schematic is pasted at your current location.","joinWorld":"Join a world to place a schematic.","place":"Place Schematic","placing":"Sending…","sent":"Schematic sent — placing at your location.","wrongType":"Please choose a {{ext}} file.","tooLarge":"That schematic is too large (max {{max}})."},"texturePack":{"upload":"Upload Texture Pack","uploading":"Importing…","remove":"Remove pack","hint":"Upload a resource pack (.zip). Missing textures fall back to default textures.","error":"Could not load pack: {{message}}","eternusRequired":"Uploading your own texture packs requires Eternus rank or above.","coverage":{"title":"{{n}} textures aren't in this pack — using defaults for these:","allLoaded":"Nice — this pack covers everything, no fallbacks needed.","blocksItems":"Blocks & items","armor":"Armor","entities":"Entities (mobs)","groupSummary":"{{missing}}/{{total}} missing","dismiss":"Dismiss"}},"section":{"basic":"Basic","schematic":"Upload Schematic","shaders":"Shaders","titleScreen":"Title Screen","preset":"Quality Preset","display":"Display","world":"World","effects":"Effects","performance":"Performance","cameraMotion":"Camera Motion","volume":"Volume","sensitivity":"Sensitivity","gameplay":"Gameplay","touchControls":"Touch Controls","experimental":"Experimental","chatTranslation":"Chat Translation","interfaceLanguage":"Interface Language","texturePack":"Texture Pack","chat":"Chat","hud":"HUD","overlays":"Overlays","misc":"Miscellaneous","crosshairStyle":"Style","crosshairShape":"Shape"},"sectionDesc":{"preset":"Pick a ready-made balance of looks and performance, or tune each setting yourself below.","display":"Field of view, render resolution and how the game window behaves.","world":"How far you can see and what fills the sky around you.","effects":"Particles and the on-hit screen feedback.","performance":"Trade visual detail for a higher, steadier frame rate.","cameraMotion":"View bob and field-of-view shifts that react to how you move.","experimental":"Newer, in-progress options — some may change or need a reload to apply.","shaders":"Lighting, shadows and atmosphere. These are the heaviest settings on your GPU.","volume":"Separate levels for music, interface clicks and world sounds.","sensitivity":"How quickly the camera turns with your mouse, scroll wheel or touch.","gameplay":"Movement conveniences like toggle-to-sprint.","touchControls":"Size and opacity of the on-screen joystick, plus touch-only options.","crosshairStyle":"The reticle's shape, colour and outline.","crosshairShape":"Fine-tune the reticle's size, spacing and opacity.","chatTranslation":"Automatically translate incoming chat into your language, right on your device.","interfaceLanguage":"The language used across all menus and the HUD.","titleScreen":"Use one of your own in-game views as the menu background.","texturePack":"Choose how blocks and items look, or import your own resource pack.","schematic":"Paste a saved structure into a world you own.","chat":"How the chat log persists, stamps and sizes its messages.","overlays":"Interface scale and the on-screen readouts — FPS, ping, coordinates and CPS.","misc":"Other quality-of-life options that don't fit the groups above."},"value":{"unlimited":"Unlimited"},"note":{"chatTranslationUnsupported":"Your browser doesn't support on-device translation. Try the latest Chrome or Edge."},"unit":{"chunks":" chunks"},"preset":{"low":"Low","medium":"Medium","high":"High","ultra":"Ultra","epic":"Epic","custom":"Custom","recommended":"Recommended"},"titleScreen":{"description":"Use a screenshot of your current view as the menu background.","capture":"Use current view","captureNow":"Capture screenshot","reset":"Reset to default","undo":"Undo reset","customBadge":"Custom","captured":"Saved! Leave your world to see your new title screen.","resetDone":"Reset to the default — press Undo to restore it.","undone":"Restored your custom title screen.","needGame":"Join a world first to capture a title screen.","tooLarge":"Image is too large to save — try lowering the resolution scale.","failed":"Couldn't capture the screen — see the console for details."},"label":{"language":"Language","translateChat":"Translate Chat","fov":"FOV","mouseSensitivity":"Mouse Sensitivity","scrollSensitivity":"Scroll Sensitivity","touchSensitivity":"Touch Sensitivity","renderDistance":"Render Distance","particles":"Particles","damageViAxisAlignedBoundingBoxette":"Damage ViAxisAlignedBoundingBoxette","resolution":"Resolution Scale","antialiasing":"Antialiasing (MSAA)","invertScroll":"Invert Scroll","autoJump":"Auto Jump","toggleSprint":"Toggle Sprint","joystickSize":"Joystick Size","joystickOpacity":"Joystick Opacity","crosshairTargeting":"Crosshair Targeting","mobileButtonsXOffset":"Buttons X Offset","hapticFeedback":"Haptic Feedback","fastRender":"Fast Render","wasmMesher":"WASM Mesher","offscreenRendering":"Offscreen Rendering","checkShaderErrors":"Check Shader Errors","chunkCache":"Chunk Cache","fastEntities":"Fast Entities","entities":"Entities","maxFramerate":"Max Framerate","dynamicFOV":"Dynamic FOV","autoFullscreen":"Auto Fullscreen","hoverTooltip":"Hovered Tooltip","acrylicEffect":"Acrylic Effect","stars":"Stars","atmosphericSky":"Atmospheric Sky","godRays":"God Rays","godRaysIntensity":"God Rays Intensity","godRaysSpread":"God Rays Spread","bloom":"Bloom","eyeAdaptation":"Eye Adaptation","waterShaders":"Water Shaders","grassWave":"Grass Wave","bobbing":"Bobbing","texturePack":"Texture Pack","shadows":"Shadows","dynamicLighting":"Dynamic Lighting","globalIllumination":"Global Illumination","volumetricFog":"Volumetric Fog","fogDensity":"Fog Density","emissiveFogGlow":"Emissive Fog Glow","clouds":"Clouds","cloudHeight":"Cloud Height","masterVolume":"Master Volume","music":"Music","players":"Players","mobs":"Mobs","blocks":"Blocks","interface":"Interface","notifications":"Notifications","preserveChatLog":"Preserve Chat Log","chatTimestamps":"Chat Timestamps","alwaysShowChat":"Always Show Chat","chatMaxMessages":"Chat Max Messages","chatScale":"Chat Scale","guiScale":"GUI Scale","showDebug":"Show Debug Menu","showHitboxes":"Show Hitboxes","showFps":"Show FPS","showNetwork":"Show Network","showCoordinates":"Show Coordinates","showCps":"Show CPS","showKillFeed":"Show Kill Feed","confirmLeaveGame":"Confirm Leave Game","crosshairStyle":"Style","crosshairColor":"Color","crosshairSize":"Size","crosshairThickness":"Thickness","crosshairLength":"Length","crosshairGap":"Gap","crosshairOpacity":"Opacity","crosshairDot":"Center Dot","crosshairOutline":"Outline"},"tooltip":{"translateChat":"Automatically translate chat messages from other languages into your selected interface language, using your browser's built-in on-device translator. Messages already in your language are left unchanged; hover a translated message to see the original.","joystickSize":"Scales the on-screen movement joystick. A faint version rests in the lower-left so you can see where to place your thumb.","crosshairTargeting":"Aim with the crosshair: the highlighted block, breaking and placing all follow the centre of the screen, and holding the look thumb still breaks the highlighted block. Turn off for the classic scheme, where the select box and breaking / placing land on the exact spot your thumb touches.","mobileButtonsXOffset":"Slide the right-hand on-screen buttons (camera, jump, crouch, use item, etc.) inward from the right edge of the screen, so they sit comfortably under your thumb on larger phones and tablets. 0 keeps them in the corner.","hapticFeedback":"Vibrate on actions like sprinting, taking damage and pressing buttons. Only works on devices that support vibration (most Android phones; not iPhone).","toggleSprint":"Press your sprint key once to start sprinting instead of holding it down. You keep sprinting until you press the key again or stop moving forward.","fov":"How wide the camera sees. Higher values show more around you.","resolution":"Renders the game at a fraction of your screen resolution. Lower it for more FPS, raise it for a sharper image.","antialiasing":"Smooths jagged block edges with multisampling (MSAA). Costs some GPU, so it's off by default. It can also work around a Windows/NVIDIA driver bug that makes terrain look see-through at glancing angles. ⚠ Takes effect after a reload.","renderDistance":"How many chunks of the world load around you. Higher values look better but cost more FPS.","particles":"How many particle effects (explosions, smoke, etc.) are shown.","damageViAxisAlignedBoundingBoxette":"Red glow that pulses around the edges of the screen when you're critically low on health. Turn it off if you find it distracting.","texturePack":"Swap the block, item, and UI textures. Changes apply instantly — no restart needed.","atmosphericSky":"Renders a realistic sky with sun-based atmospheric colors.","clouds":"Cloud rendering. Fast is a flat cloud layer; Fancy uses volumetric clouds. ⚠ Fancy can cause large FPS drops.","cloudHeight":"How high the cloud layer floats above the world.","stars":"Show stars in the night sky.","lighting":"Voxel lighting quality. Fancy adds smooth lighting and ambient occlusion. ⚠ Fancy can cause large FPS drops.","dynamicLighting":"Light-emitting items you hold (torches, glowstone, lanterns…) cast a soft glow on the world, entities and particles around you, like a torch in hand. Needs Lighting set above Classic.","globalIllumination":"Soft indirect lighting: nearby blocks bounce light onto each other, colored blocks bleed their color, caves and interiors are filled more naturally, and glowing blocks (lava, torches, lamps, portals, glowing ores) cast colored light onto nearby surfaces — orange lava, purple portals, and so on. Higher tiers are sharper, reach further and flicker. ⚠ Medium and High can cause FPS drops.","volumetricFog":"Dense atmospheric fog raymarched through the world: thick in the distance, mistier in caves and interiors, and heavier near the ground. ⚠ Renders an extra full-screen pass and can cause FPS drops.","fogDensity":"How thick the volumetric fog is. Lower values keep long visibility; higher values create a denser haze.","emissiveFogGlow":"Glowing blocks (lava, torches, portals, glowing ores, lamps) softly light the fog around them with their own color. Needs Volumetric Fog and Global Illumination on.","godRays":"Volumetric sun shafts scattered through the air toward the sun and carved by terrain and trees. Works from side angles and when the sun is off-screen. Low is a soft directional glow; Medium and High add occlusion shafts, and High adds temporal smoothing. ⚠ High can cause FPS drops.","godRaysIntensity":"How bright the god-ray beams are. 100% is the default; lower it for a subtler glow or raise it for stronger shafts. The shaft haziness follows Fog Density.","godRaysSpread":"How widely the glow fans out from the sun. Lower values keep it tight around the sun; higher values spread a softer glow across more of the sky.","bloom":"Light-emitting blocks (glowstone, torches, lava, lit redstone lamps, powered redstone) glow with a soft halo. Higher values glow more strongly; set to 0 to turn it off. ⚠ Can cause FPS drops.","eyeAdaptation":"Your eyes adjust to the light, like in real life: bright areas flare and then settle, while dark caves stay dark before gradually becoming visible. Higher values adapt more strongly; set to 0 to turn it off.","waterShaders":"Animated, reflective water surfaces.","shadows":"Real-time shadows from the sun. Low = players and mobs only; Medium and High also shadow the terrain, at progressively higher, sharper resolutions. ⚠ Medium and High can cause large FPS drops.","grassWave":"Makes grass and plants sway in the wind.","fastRender":"Optimizes chunk rendering for better performance. Disables water shaders.","wasmMesher":"Builds and lights chunks with the WebAssembly mesher, which is faster on most hardware. Turn it off to fall back to the JavaScript path if you see glitches or run low on memory on a low-end device. Experimental.","offscreenRendering":"Moves the entire 3D renderer onto a background thread (OffscreenCanvas), with mouse look fed through shared memory for instant response. Frees up the main thread, but needs a browser with cross-origin isolation and SharedArrayBuffer — it falls back to normal rendering when unavailable. ⚠ Experimental tech preview; takes effect after a reload.","checkShaderErrors":"Validates each shader program on first use and reports compile/link errors to the console. Costs a synchronous GPU stall during chunk loading, so keep it off when profiling. Dev-only.","chunkCache":"Caches received chunks in your browser and skips re-downloading any the server reports unchanged when you revisit or reconnect. Saves bandwidth, especially in static worlds. The server always decides what's current, so it can't show outdated terrain. Dev-only.","fastEntities":"Simplifies distant entities to improve performance.","entities":"Level of detail for other players. Fast swaps distant players (past 32 blocks) to a cheaper combined mesh; Fastest uses it at all distances; Normal keeps everyone fully detailed.","maxFramerate":"Caps how many frames per second the game renders. Unlimited draws as fast as it can. A cap cuts wasted GPU/CPU work, heat and battery use — on laptops and weaker machines that lower heat can keep the chip from throttling and actually raise sustained FPS. It never affects the game speed, input or networking.","dynamicFOV":"Subtly widens the field of view when sprinting or flying.","bobbing":"Bobs the camera and held item as you walk.","autoFullscreen":"Automatically enter fullscreen when you join a game.","hoverTooltip":"Shows the name of the block, item, or entity you are looking at near the top of the screen.","acrylicEffect":"Frosted blur and blend behind menus and HUD panels (chat, hotbar, scoreboard, tooltips). Looks nicer but layers per-frame GPU effects that can cause large FPS drops on low-end devices — turn it off for more performance; panels stay readable.","preserveChatLog":"Keep your chat history when you leave a world or get disconnected, instead of clearing it. Useful for screenshotting earlier conversations or returning to the same server. Cleared on page reload.","chatTimestamps":"Prefix each chat line with the local time (HH:MM) it arrived. Helpful for telling when something was said when you scroll back through the log.","alwaysShowChat":"Stop chat messages from fading after a few seconds — every line stays visible in the message log until it's pushed off by newer ones. Lets you read longer conversations without holding the chat open.","chatMaxMessages":"How many recent chat messages are shown in the log at once. Slide all the way to the right for \\"Unlimited\\" — every message you've received this session is kept and rendered.","chatScale":"Scale the size of the chat message log. Lower values shrink it out of the way; higher values enlarge it for readability. 100% is the default size.","guiScale":"Scale the size of the whole interface — the HUD, menus and inventory — together. Lower values shrink everything to fit more on screen; higher values enlarge it for readability. 100% is the default size.","showDebug":"Show the full F3 debug overlay: FPS, ping, jitter, draw calls, memory, your position and chunk, biome, facing, and more. Same toggle as pressing F3 in-game.","showHitboxes":"Draw the wireframe hitbox around every player and mob. Useful for lining up hits or seeing exact entity bounds. The full F3 debug overlay already shows these; this turns them on by themselves.","showFps":"Show a small frame-rate counter in the top-left corner. Hidden in F1 (no-HUD) mode and while the full F3 debug overlay is on, since that one already shows FPS.","showNetwork":"Show a small latency and jitter readout in the top-left corner. Hidden in F1 (no-HUD) mode and while the full F3 debug overlay is on, since that one already shows ping and jitter.","showCoordinates":"Show your X, Y and Z position in the top-left corner. Hidden in F1 (no-HUD) mode and while the full F3 debug overlay is on, since that one already shows your position.","showCps":"Show a small clicks-per-second counter in the top-left corner, measuring your left-click attacks and block breaks over the last second. Hidden in F1 (no-HUD) mode and while the full F3 debug overlay is on.","showKillFeed":"Show the kill feed — the death and kill announcements that pop up in the top-right corner during a match. Turn it off to clear the clutter, handy on smaller screens. Broadcasts and other server notices still show.","confirmLeaveGame":"Show a confirmation prompt when you press \\"Leave Game\\" in the escape menu, so a misclick doesn't drop you back to the title screen mid-match."}}`,
 	),
 	jZ = {
 		death: {
@@ -109442,15 +109461,15 @@ var CLe = r({
 			subscriptions: `Subscriptions`,
 			playerStats: `Player Stats`,
 		},
-		notSignedIn: `Not signed in`,
-		signIn: `Sign In`,
+		notSiAxisAlignedBoundingBoxedIn: `Not siAxisAlignedBoundingBoxed in`,
+		siAxisAlignedBoundingBoxIn: `SiAxisAlignedBoundingBox In`,
 		skin: `Skin`,
 		cape: `Cape`,
 		hat: `Hat`,
 	},
 	NZ = {
 		customize: `Customize`,
-		signInToInvite: `Sign in with an account to invite friends`,
+		siAxisAlignedBoundingBoxInToInvite: `SiAxisAlignedBoundingBox in with an account to invite friends`,
 		freeRank: `Free <rank></rank> rank!`,
 	},
 	PZ = {
@@ -109744,7 +109763,7 @@ var CLe = r({
 		},
 	},
 	RZ = {
-		signInWith: `Sign in with`,
+		siAxisAlignedBoundingBoxInWith: `SiAxisAlignedBoundingBox in with`,
 		emailUsername: `Email / Username`,
 		password: `Password`,
 		forgotPassword: `Forgot your password?`,
@@ -109754,14 +109773,14 @@ var CLe = r({
 		createAccount: `Create Account`,
 		email: `Email`,
 		emailInvalid: `Email address is invalid`,
-		signin: {
+		siAxisAlignedBoundingBoxin: {
 			title: `Welcome back`,
-			subtitle: `Sign in to jump back into miniblox.`,
-			action: `Sign in`,
+			subtitle: `SiAxisAlignedBoundingBox in to jump back into miniblox.`,
+			action: `SiAxisAlignedBoundingBox in`,
 			noAccountPrompt: `New to miniblox?`,
 			createOne: `Create an account`,
 		},
-		signup: {
+		siAxisAlignedBoundingBoxup: {
 			heading: `Create an account`,
 			emailTitle: `Create your account`,
 			emailSubtitle: `Enter your email to get started — it only takes a minute.`,
@@ -109771,7 +109790,7 @@ var CLe = r({
 			doneSubtitle: `Welcome to miniblox — you're all set to play.`,
 			continue: `Continue`,
 			haveAccountPrompt: `Already have an account?`,
-			signInInstead: `Sign in`,
+			siAxisAlignedBoundingBoxInInstead: `SiAxisAlignedBoundingBox in`,
 			chooseUsername: `Choose a username`,
 			chooseUsernamePassword: `Choose a username and password`,
 			username: `Username`,
@@ -109802,7 +109821,7 @@ var CLe = r({
 			startSubtitle: `Enter your account email and we'll send you a reset link.`,
 			submitSubtitle: `Choose a new password for your account.`,
 			successTitle: `Password reset!`,
-			successSubtitle: `You can now sign in with your new password.`,
+			successSubtitle: `You can now siAxisAlignedBoundingBox in with your new password.`,
 			submit: `Submit`,
 			pleaseWait: `Please wait 30s ...`,
 			resubmit: `Resubmit`,
@@ -109913,18 +109932,18 @@ var CLe = r({
 		messages: BZ,
 		social: VZ,
 	},
-	wLe = Object.assign({
-		"./locales/de.json": () => mH(() => import(`./de-BC7WFtDd.js`), []),
+	wLe = Object.assiAxisAlignedBoundingBox({
+		"./locales/de.json": () => mH(() => import(`./de-DFLtHK-V.js`), []),
 		"./locales/en.json": () =>
 			mH(() => Promise.resolve().then(() => CLe), void 0),
-		"./locales/es.json": () => mH(() => import(`./es-D07_DfM2.js`), []),
-		"./locales/fr.json": () => mH(() => import(`./fr-D5T3lCYM.js`), []),
-		"./locales/ja.json": () => mH(() => import(`./ja-BHayGNQ2.js`), []),
-		"./locales/ko.json": () => mH(() => import(`./ko-CQgEclWN.js`), []),
-		"./locales/pt-BR.json": () => mH(() => import(`./pt-BR-DmfjFnly.js`), []),
-		"./locales/ru.json": () => mH(() => import(`./ru-DTJEJvWO.js`), []),
-		"./locales/tr.json": () => mH(() => import(`./tr-D1CqnK9N.js`), []),
-		"./locales/zh-CN.json": () => mH(() => import(`./zh-CN-BEvlkbdB.js`), []),
+		"./locales/es.json": () => mH(() => import(`./es-B4HwB6rT.js`), []),
+		"./locales/fr.json": () => mH(() => import(`./fr-Cef3v2u7.js`), []),
+		"./locales/ja.json": () => mH(() => import(`./ja-DlV3Ces4.js`), []),
+		"./locales/ko.json": () => mH(() => import(`./ko-Ds7UY62f.js`), []),
+		"./locales/pt-BR.json": () => mH(() => import(`./pt-BR-BnrEinuC.js`), []),
+		"./locales/ru.json": () => mH(() => import(`./ru-B-oDSNp7.js`), []),
+		"./locales/tr.json": () => mH(() => import(`./tr-B3Ku0yi0.js`), []),
+		"./locales/zh-CN.json": () => mH(() => import(`./zh-CN-B56op4uN.js`), []),
 	});
 sZ.use(bLe).init({
 	lng: `en`,
@@ -109993,7 +110012,7 @@ var ELe = 300 * 1e3,
 			this.inFlight = !0;
 			try {
 				let { default: e } = await mH(async () => {
-					let { default: e } = await import(`./fp.esm-CLWQMn0D.js`);
+					let { default: e } = await import(`./fp.esm-CoqeGJPK.js`);
 					return { default: e };
 				}, []);
 				window.__fpjs_d_m = !0;
@@ -110655,20 +110674,20 @@ var ZZ = 64,
 				side: 2,
 			})),
 				(this.inner = new On(
-					this.oHQvoeZBe(e.wvAxisAlignedBoundingBoxormalizeAngleBHvLDnormalizeAngleHn()),
+					this.BJMeAncOv(e.NkEiTUBczJCxSv()),
 					this.orbMaterial,
 				)),
 				(this.inner.position.y = eQ),
 				this.add(this.inner);
 		}
-		oHQvoeZBe(e) {
+		BJMeAncOv(e) {
 			let t = e % $Z,
 				n = Math.floor(e / $Z),
 				r = (t * QZ) / ZZ,
 				i = (t * QZ + QZ) / ZZ,
 				a = 1 - (n * QZ) / ZZ,
 				o = 1 - (n * QZ + QZ) / ZZ,
-				s = new Hn();
+				s = new Vn();
 			return (
 				s.setAttribute(
 					`position`,
@@ -110684,7 +110703,7 @@ var ZZ = 64,
 			);
 		}
 		render() {
-			super.render(), this.inner.lookAt(Y.JWrPeWcCZjryXjCEmAmF());
+			super.render(), this.inner.lookAt(Y.kPLZcFgUihgMLvbDhxdD());
 			let e = (this.entity.xpColor + this.entity.getPartialTicks()) / 2;
 			(this.orbMaterial.color.r = (Math.sin(e) + 1) * 0.5),
 				(this.orbMaterial.color.g = 1),
@@ -110699,7 +110718,7 @@ var ZZ = 64,
 			let t = new Pn(this.canvas);
 			(t.minFilter = Mn), (t.magFilter = Mn);
 			let n = new yn({ map: t, side: 0, transparent: !0, alphaTest: 0.5 }),
-				r = new fn(5, 6 * 0.25);
+				r = new pn(5, 6 * 0.25);
 			(this.textMesh = new On(r, n)),
 				this.add(this.textMesh),
 				this.textMesh.rotateY(Math.PI);
@@ -111232,7 +111251,7 @@ var nQ = [1, -1, 0, 0, 0, 0],
 				chest: Ph,
 				furnace: tg,
 				ender_chest: Zh,
-				sign: pm,
+				siAxisAlignedBoundingBox: pm,
 				bed: mu,
 				enchanting_table: Xh,
 				dispenser: Wh,
@@ -111603,13 +111622,13 @@ var nQ = [1, -1, 0, 0, 0, 0],
 			let n = this.chunkTileEntityMap.get(e) ?? null;
 			return n == null && t && (n = this.createNewTileEntity(e)), n;
 		}
-		ZcketohDXNL() {
+		aUxLtiygMYN() {
 			(this.isChunkLoaded = !0),
 				this.world.addTileEntities(
 					Array.from(this.chunkTileEntityMap.values()),
 				);
 			for (let e = 0; e < this.entityLists.length; ++e) {
-				for (let t of this.entityLists[e]) t.ZcketohDXNL();
+				for (let t of this.entityLists[e]) t.aUxLtiygMYN();
 				this.world.loadEntities(this.entityLists[e]);
 			}
 		}
@@ -111886,7 +111905,7 @@ var nQ = [1, -1, 0, 0, 0, 0],
 		}
 		addTileEntity(e, t) {}
 		removeTileEntity(e) {}
-		ZcketohDXNL() {}
+		aUxLtiygMYN() {}
 		onChunkUnload() {}
 		getEntitiesWithinAABBForEntity(e, t, n, r) {}
 		isEmpty() {
@@ -112288,7 +112307,7 @@ Reason: the server has crashed`)
 		}),
 		pK.on(`CPacketTabComplete`, (t) => e.chat.autoCompleteReceived(t)),
 		pK.on(`CPacketPlayerReconciliation`, (t) => {
-			e.player.uLdbjBvfZfmqgRftUkGnVkn(t);
+			e.player.WNQhXdAqLquCUUXNXXfypCa(t);
 		}),
 		pK.on(`CPacketRespawn`, async (t) => {
 			t.client
@@ -112322,16 +112341,16 @@ Reason: the server has crashed`)
 			let n = t.data.map((e) => _d.fromProto(e));
 			if (Y.id === t.id)
 				for (let e of n)
-					e.rtKYHNsVlYmjYW() === 0 &&
+					e.ePfXTJIGqigqgz() === 0 &&
 						typeof e.getObject() == `number` &&
-						e.YbtWgEImb((e.getObject() & -9) | (Y.isSprinting() ? 8 : 0));
+						e.kJdhPhoIR((e.getObject() & -9) | (Y.isSprinting() ? 8 : 0));
 			let r = e.world.entities.get(t.id);
 			if (r != null && t.data != null)
-				r.getDataWatcher().gPDpPWqTSFIgEbeglcLUVLvIiggi(n);
+				r.getDataWatcher().OqJeUTyebUczjKUxufzGLUzhsuHu(n);
 			else
 				for (let r of e.world.entitySpawnQueue)
-					r.id == t.id && r.getDataWatcher().gPDpPWqTSFIgEbeglcLUVLvIiggi(n);
-			Y.id === t.id && Y.getDataWatcher().gPDpPWqTSFIgEbeglcLUVLvIiggi(n);
+					r.id == t.id && r.getDataWatcher().OqJeUTyebUczjKUxufzGLUzhsuHu(n);
+			Y.id === t.id && Y.getDataWatcher().OqJeUTyebUczjKUxufzGLUzhsuHu(n);
 		}),
 		pK.on(`CPacketSoundEffect`, (e) => {
 			bt.play(
@@ -112436,7 +112455,7 @@ Reason: the server has crashed`)
 				Y.displayGUIChest(t), (Y.openContainer.windowId = e.windowId);
 			} else if (e.guiID === `invsee`) {
 				let t = new sp(e.title ?? `Inventory`, e.size ?? 36);
-				Y.OCEDopHTvFvBL(t), (Y.openContainer.windowId = e.windowId);
+				Y.rAJuTWqqdCGSX(t), (Y.openContainer.windowId = e.windowId);
 			} else if (e.guiID === `villager`) Y.openContainer.windowId = e.windowId;
 			else if (!e.size)
 				Y.displayGui(new RLe(e.guiID, e.title)),
@@ -112447,7 +112466,7 @@ Reason: the server has crashed`)
 			}
 		}),
 		pK.on(`CPacketCloseWindow`, (e) => {
-			Y.gaTRgJNgaYowhSLHNawsxaT();
+			Y.oBAZvTDFxCkvuWIfDcDaIxM();
 		}),
 		pK.on(`CPacketWindowProperty`, (t) => {
 			t.varIndex == null ||
@@ -112457,16 +112476,16 @@ Reason: the server has crashed`)
 					(Y.openContainer.updateProgressBar(t.varIndex, t.varValue),
 					(e.info.windowProperty[t.varIndex] = t.varValue)));
 		}),
-		pK.on(`CPacketSignEditorOpen`, (t) => {
-			let n = F.fromProto(t.signPosition),
+		pK.on(`CPacketSiAxisAlignedBoundingBoxEditorOpen`, (t) => {
+			let n = F.fromProto(t.siAxisAlignedBoundingBoxPosition),
 				r = e.world.getTileEntity(n);
 			r instanceof pm || ((r = new pm()), (r.world = e.world), r.setPos(n)),
-				Y.openEditSign(r);
+				Y.openEditSiAxisAlignedBoundingBox(r);
 		}),
 		pK.on(`CPacketConfirmTransaction`, (t) => {
 			let n = null;
 			t.windowId == 0
-				? ((n = Y.inventoryContainer), Y.FpYVzKjDsQQrJQ())
+				? ((n = Y.inventoryContainer), Y.TGISKuiVJWASRI())
 				: t.windowId == Y.openContainer.windowId &&
 					((n = Y.openContainer), e.info.touchInventory(), pR.markBought()),
 				n != null &&
@@ -112475,12 +112494,12 @@ Reason: the server has crashed`)
 						new LB({ windowId: t.windowId, actionNumber: t.uid, accepted: !0 }),
 					);
 		}),
-		pK.on(`CPacketUpdateSign`, (t) => {
+		pK.on(`CPacketUpdateSiAxisAlignedBoundingBox`, (t) => {
 			let n = F.fromProto(t.pos);
 			if (e.world.isBlockLoaded(n)) {
 				let r = e.world.getTileEntity(n);
 				if (r instanceof pm && r.getIsEditable()) {
-					(r.signText = t.lines), r.markDirty();
+					(r.siAxisAlignedBoundingBoxText = t.lines), r.markDirty();
 					let i = e.gameScene.tileEntityRenderer.tileEntityModels.get(n);
 					i instanceof mL && i.updateText(t.lines, e.world.getBlockState(n));
 				}
@@ -112529,12 +112548,12 @@ Reason: the server has crashed`)
 			if (n != null) {
 				if (t.mode != null) {
 					let e = gp.fromId(t.mode);
-					n.mesh.wHtHldFmnEajZy(e), t.id == Y.id && Y.setGamemode(e);
+					n.mesh.mjbbAEbkRcggeB(e), t.id == Y.id && Y.setGamemode(e);
 				}
 				t.rank != null && (n.profile.rank = t.rank),
 					t.color !== void 0 && (n.profile.cosmetics.color = t.color),
 					t.hidePlayers != null && (qY.hidePlayers = t.hidePlayers),
-					n.mesh.DHrOEIFwobaNe();
+					n.mesh.YwZTkgQZeOgVn();
 			}
 		}),
 		pK.on(`CPacketEntityPositionAndRotation`, (t) => {
@@ -112576,10 +112595,10 @@ Reason: the server has crashed`)
 		pK.on(`CPacketEntityVelocity`, (t) => {
 			let n = e.world.entities.get(t.id);
 			n != null &&
-				(n.puewcoUBFLa(t.motion.x, t.motion.y, t.motion.z),
+				(n.xkqvKMqhUoL(t.motion.x, t.motion.y, t.motion.z),
 				n.id == Y.id &&
-					(Y.puewcoUBFLa(t.motion.x, t.motion.y, t.motion.z),
-					e.player.okZngWxMdIcbGYKchUsdGV()));
+					(Y.xkqvKMqhUoL(t.motion.x, t.motion.y, t.motion.z),
+					e.player.jxPVGSWqJnWjGIeGjUZOjV()));
 		}),
 		pK.on(`CPacketEntityAction`, (t) => {
 			let n = e.world.getPlayerById(t.id);
@@ -112736,7 +112755,7 @@ Reason: the server has crashed`)
 				(t.type == 0 ||
 					t.type == 1 ||
 					(t.type == 2
-						? (Y.ZtTXpsDyEBYz(!1, !1, !1), iq.displayGuiScreen(null))
+						? (Y.kkRFpFZTGMcI(!1, !1, !1), iq.displayGuiScreen(null))
 						: t.type == 4
 							? e.gameScene.effectRenderer.emitParticleAtEntity(
 									e.world,
@@ -112755,7 +112774,7 @@ Reason: the server has crashed`)
 				((Y.motion.x += t.playerPos.x ?? 0),
 				(Y.motion.y += t.playerPos.y ?? 0),
 				(Y.motion.z += t.playerPos.z ?? 0),
-				e.player.okZngWxMdIcbGYKchUsdGV());
+				e.player.jxPVGSWqJnWjGIeGjUZOjV());
 		}),
 		pK.on(`CPacketChangeServers`, (t) => {
 			t.url != null &&
@@ -112798,7 +112817,7 @@ Reason: the server has crashed`)
 		pK.on(`CPacketUseBed`, (e) => {
 			if (!(e.id == null || e.bedPos == null) && e.id === Y.id) {
 				let t = F.fromProto(e.bedPos);
-				Y.ifJblRIo(t), iq.displayGuiScreen(new KLe());
+				Y.azlDPMCp(t), iq.displayGuiScreen(new KLe());
 			}
 		}),
 		pK.on(`CPacketQueueNext`, (t) => {
@@ -112827,7 +112846,7 @@ Reason: the server has crashed`)
 			t.experience == null ||
 				t.experienceTotal == null ||
 				t.level == null ||
-				(Y.QSOPrReWlm(t.experience, t.experienceTotal, t.level),
+				(Y.qEwJnRYIZj(t.experience, t.experienceTotal, t.level),
 				(e.info.xp = {
 					experience: t.experience,
 					experienceTotal: t.experienceTotal,
@@ -112862,10 +112881,10 @@ Reason: the server has crashed`)
 				i = Y.id == t.id,
 				a = jd.sprintingSpeedBoostModifier.getName();
 			for (let e of t.data) {
-				let t = r.PrAeWVlmmtZEvdlgUCIrdZmxkT(e.id);
+				let t = r.lgNphCqmZWTvTBKLbsPLdIcZQE(e.id);
 				(t ??= r.registerAttribute(new Ou(null, e.id, 0, 0, Number.MAX_VALUE))),
 					t.setBaseValue(e.value),
-					t.bxywCXHyKJydeQKwTH();
+					t.blvxEHzUtaqZIwnOht();
 				let n = i && e.id == `generic.movementSpeed`;
 				for (let r of e.modifiers) {
 					if (n && r.id == a) continue;
@@ -112905,7 +112924,7 @@ Reason: the server has crashed`)
 				Y.id == n.id && (r = Y),
 				r &&
 					r instanceof jd &&
-					(r.ZjWCxhlUdyTJghPnNlypuTDk(n.effectId),
+					(r.vLgehEzNRQzBNtMBmiQmnZDM(n.effectId),
 					r.activePotionsMap.size === 0 && clearInterval(t),
 					(e.info.effectsUpdate += 1));
 		}),
@@ -112965,13 +112984,13 @@ Reason: the server has crashed`)
 						? ((n = Y),
 							r instanceof wm
 								? (Y.ridingEntity !== r && e.info.boatExitHintNonce++,
-									r.YwZuhrpMpXpAPh(!1))
+									r.kKxJBLdwtFkrmG(!1))
 								: Y.ridingEntity instanceof wm &&
-									Y.ridingEntity.YwZuhrpMpXpAPh(!0),
+									Y.ridingEntity.kKxJBLdwtFkrmG(!0),
 							Y.ridingEntity instanceof Gm &&
-								Y.ridingEntity.gSqXmRVYWORNzlUHO(!1),
-							r instanceof Gm && r.gSqXmRVYWORNzlUHO(!0))
-						: r instanceof wm && r.YwZuhrpMpXpAPh(!0),
+								Y.ridingEntity.ciRrLxnVTRPoBqPXM(!1),
+							r instanceof Gm && r.ciRrLxnVTRPoBqPXM(!0))
+						: r instanceof wm && r.kKxJBLdwtFkrmG(!0),
 					n == null)
 				)
 					return;
@@ -113953,7 +113972,7 @@ var AQ = i((e, t) => {
 						return d.current.isEnabled(e);
 					},
 					x = function (e) {
-						return d.current.vrmDhpxIDd(e);
+						return d.current.uToOJmKRMW(e);
 					},
 					S = function (e, t, n) {
 						return d.current.on(e, t, n);
@@ -113964,7 +113983,7 @@ var AQ = i((e, t) => {
 								on: S,
 								updateContext: y,
 								isEnabled: b,
-								vrmDhpxIDd: x,
+								uToOJmKRMW: x,
 								client: d.current,
 								flagsReady: p,
 								flagsError: g,
@@ -114029,7 +114048,7 @@ var AQ = i((e, t) => {
 			},
 			d = function (e) {
 				var t = (0, i.useContext)(a),
-					n = t.vrmDhpxIDd,
+					n = t.uToOJmKRMW,
 					r = t.client,
 					o = (0, i.useState)(n(e)),
 					s = o[0],
@@ -114512,7 +114531,7 @@ var UQ = [`/assets/default-DKNlYibk.png`][Math.floor(Math.random() * 1)],
 		typeof document < `u` ? document.querySelectorAll(URe).length : 0,
 	WRe = {
 		color: `white`,
-		textShadow: Zt,
+		textShadow: Qt,
 		borderRadius: 0,
 		border: `2px solid black`,
 		px: 2,
@@ -114601,7 +114620,7 @@ var UQ = [`/assets/default-DKNlYibk.png`][Math.floor(Math.random() * 1)],
 								})
 							: t,
 					}),
-					(0, U.jsx)(tn, { children: S }),
+					(0, U.jsx)(nn, { children: S }),
 				],
 			});
 		let C = j.isValidElement(t) ? t : null,
@@ -114625,7 +114644,7 @@ var UQ = [`/assets/default-DKNlYibk.png`][Math.floor(Math.random() * 1)],
 			positioning: x,
 			children: [
 				(0, U.jsx)(vN, { asChild: !0, children: w }),
-				(0, U.jsx)(tn, { children: S }),
+				(0, U.jsx)(nn, { children: S }),
 			],
 		});
 	},
@@ -114739,13 +114758,13 @@ var XQ = (e, t, n = t) => {
 					a && (0, U.jsx)(St, { size: `sm`, color: `white` }),
 					l != null &&
 						(0, U.jsx)(`span`, {
-							style: { display: `inline-flex`, alignItems: `center` },
+							style: { display: `inline-flex`, aliAxisAlignedBoundingBoxItems: `center` },
 							children: l,
 						}),
 					n,
 					u != null &&
 						(0, U.jsx)(`span`, {
-							style: { display: `inline-flex`, alignItems: `center` },
+							style: { display: `inline-flex`, aliAxisAlignedBoundingBoxItems: `center` },
 							children: u,
 						}),
 				],
@@ -114896,7 +114915,7 @@ var QRe = zQ(function () {
 			position: `fixed`,
 			children: (0, U.jsxs)(K, {
 				gap: 4,
-				align: `center`,
+				aliAxisAlignedBoundingBox: `center`,
 				children: [
 					(0, U.jsxs)(W, { fontSize: `3xl`, children: [a, `.`.repeat(r % 4)] }),
 					(0, U.jsx)(H, {
@@ -114936,7 +114955,7 @@ var QRe = zQ(function () {
 							: (0, U.jsx)(uD, {
 									size: `md`,
 									whiteSpace: `pre`,
-									textAlign: `center`,
+									textAliAxisAlignedBoundingBox: `center`,
 									children: t.message || e.infoText,
 								}),
 						(0, U.jsx)(`br`, {}),
@@ -115004,10 +115023,10 @@ var QRe = zQ(function () {
 	},
 	u$ = (0, j.createContext)(null),
 	d$ = () => (0, j.useContext)(u$),
-	rze = { signin: `signin`, signup: `signup-email`, reset: `reset-start` };
+	rze = { siAxisAlignedBoundingBoxin: `siAxisAlignedBoundingBoxin`, siAxisAlignedBoundingBoxup: `siAxisAlignedBoundingBoxup-email`, reset: `reset-start` };
 function ize() {
 	let [e, t] = (0, j.useState)(!1),
-		[n, r] = (0, j.useState)(`signin`),
+		[n, r] = (0, j.useState)(`siAxisAlignedBoundingBoxin`),
 		[i, a] = (0, j.useState)(``),
 		[o, s] = (0, j.useState)(``);
 	return {
@@ -115073,7 +115092,7 @@ var f$ = j.createContext({}),
 				initialFocusEl: l ? () => l.current : void 0,
 				trapFocus: u,
 				...y,
-				children: (0, U.jsx)(tn, { children: f }),
+				children: (0, U.jsx)(nn, { children: f }),
 			}),
 		});
 	},
@@ -115201,7 +115220,7 @@ var y$ = (e) =>
 										children: [
 											(0, U.jsx)(W, {
 												fontSize: X.title,
-												textAlign: `center`,
+												textAliAxisAlignedBoundingBox: `center`,
 												lineHeight: 1.1,
 												children: i,
 											}),
@@ -115209,7 +115228,7 @@ var y$ = (e) =>
 												(0, U.jsx)(W, {
 													fontSize: X.small,
 													color: `whiteAlpha.700`,
-													textAlign: `center`,
+													textAliAxisAlignedBoundingBox: `center`,
 													maxW: `24em`,
 													lineHeight: 1.35,
 													children: a,
@@ -116723,7 +116742,7 @@ var k$ = {
 			`........................`,
 			`........................`,
 		],
-		FaSignInAlt: [
+		FaSiAxisAlignedBoundingBoxInAlt: [
 			`........................`,
 			`........................`,
 			`......############......`,
@@ -118158,7 +118177,7 @@ var k$ = {
 	m1 = O$(k$.FaScroll, `FaScroll`),
 	Tze = O$(k$.FaServer, `FaServer`),
 	Eze = O$(k$.FaShoppingCart, `FaShoppingCart`),
-	h1 = O$(k$.FaSignInAlt, `FaSignInAlt`),
+	h1 = O$(k$.FaSiAxisAlignedBoundingBoxInAlt, `FaSiAxisAlignedBoundingBoxInAlt`),
 	g1 = O$(k$.FaSlidersH, `FaSlidersH`);
 O$(k$.FaSnowflake, `FaSnowflake`);
 var _1 = O$(k$.FaStar, `FaStar`),
@@ -118229,9 +118248,9 @@ var q1 = {
 		css: { borderRadius: `0 !important` },
 	},
 	Y1 = {
-		"data-bwignore": !0,
-		"data-1p-ignore": !0,
-		"data-lpignore": `true`,
+		"data-bwiAxisAlignedBoundingBoxore": !0,
+		"data-1p-iAxisAlignedBoundingBoxore": !0,
+		"data-lpiAxisAlignedBoundingBoxore": `true`,
 		"data-form-type": `other`,
 	},
 	X1 = ({
@@ -118268,7 +118287,7 @@ var q1 = {
 						onClick: () => w((e) => !e),
 						style: {
 							display: `flex`,
-							alignItems: `center`,
+							aliAxisAlignedBoundingBoxItems: `center`,
 							justifyContent: `center`,
 							background: `transparent`,
 							border: `none`,
@@ -118503,7 +118522,7 @@ function Zze(e, t) {
 		);
 	if (!i) {
 		t(
-			`Couldn't open the Google sign-in window. Please allow popups and try again.`,
+			`Couldn't open the Google siAxisAlignedBoundingBox-in window. Please allow popups and try again.`,
 		);
 		return;
 	}
@@ -118524,13 +118543,13 @@ function Zze(e, t) {
 					: t(
 							typeof s.error == `string` && s.error
 								? s.error
-								: `Google sign-in failed. Please try again.`,
+								: `Google siAxisAlignedBoundingBox-in failed. Please try again.`,
 						);
 			}
 		};
 	window.addEventListener(`message`, s);
 	let c = setInterval(() => {
-		!a && i.closed && (o(), t(`Google sign-in was cancelled.`));
+		!a && i.closed && (o(), t(`Google siAxisAlignedBoundingBox-in was cancelled.`));
 	}, 500);
 }
 var Qze = `966152754886225980`,
@@ -118607,7 +118626,7 @@ function s0(e, t, n) {
 				n(
 					e
 						? `Discord login cancelled`
-						: `Discord sign-in failed. Please try again.`,
+						: `Discord siAxisAlignedBoundingBox-in failed. Please try again.`,
 					e,
 				);
 			}
@@ -118648,7 +118667,7 @@ function c0(e, t = null) {
 }
 function nBe() {
 	let e = new URLSearchParams(window.location.search).get(`path`) || ``;
-	return /^\/(oauth\/(signin|signup)|connections)\/discord$/.test(e);
+	return /^\/(oauth\/(siAxisAlignedBoundingBoxin|siAxisAlignedBoundingBoxup)|connections)\/discord$/.test(e);
 }
 function rBe() {
 	if (!nBe()) return !1;
@@ -118656,19 +118675,19 @@ function rBe() {
 		t = new URLSearchParams(window.location.search);
 	if (!c0(e.get(`access_token`), e.get(`error`) || t.get(`error`))) return !1;
 	try {
-		document.body.innerHTML = `<div style="font-family:system-ui,sans-serif;display:flex;height:100vh;align-items:center;justify-content:center;background:#1b1730;color:#efeaff">You can close this window.</div>`;
+		document.body.innerHTML = `<div style="font-family:system-ui,sans-serif;display:flex;height:100vh;aliAxisAlignedBoundingBox-items:center;justify-content:center;background:#1b1730;color:#efeaff">You can close this window.</div>`;
 	} catch {}
 	return !0;
 }
 var l0 = (e) => {
-		let { signin: t } = (0, j.useContext)(_J),
+		let { siAxisAlignedBoundingBoxin: t } = (0, j.useContext)(_J),
 			{ goToStep: n, closeAuth: r } = d$(),
 			i = (i) => {
 				sessionStorage.setItem(`oauth`, JSON.stringify(i)),
-					e.type === `signup`
-						? n(`signup-finish`)
-						: e.type === `signin` &&
-							t(i, { onSuccess: r, onNeedsSignup: () => n(`signup-finish`) });
+					e.type === `siAxisAlignedBoundingBoxup`
+						? n(`siAxisAlignedBoundingBoxup-finish`)
+						: e.type === `siAxisAlignedBoundingBoxin` &&
+							t(i, { onSuccess: r, onNeedsSiAxisAlignedBoundingBoxup: () => n(`siAxisAlignedBoundingBoxup-finish`) });
 			},
 			a = bRe({
 				onSuccess: (e) => {
@@ -118678,7 +118697,7 @@ var l0 = (e) => {
 					console.error(e),
 						jN({
 							title: `Google OAuth Error`,
-							description: `An error occurred while trying to sign in with Google. Please try again later.`,
+							description: `An error occurred while trying to siAxisAlignedBoundingBox in with Google. Please try again later.`,
 							status: `error`,
 						});
 				},
@@ -118697,7 +118716,7 @@ var l0 = (e) => {
 					: a();
 			},
 			s = () => {
-				let t = e.type === `signup` ? `signup` : `signin`;
+				let t = e.type === `siAxisAlignedBoundingBoxup` ? `siAxisAlignedBoundingBoxup` : `siAxisAlignedBoundingBoxin`;
 				s0(
 					t,
 					(e) => i({ type: `discord`, token: e }),
@@ -118803,10 +118822,10 @@ var l0 = (e) => {
 	iBe = () => {
 		let { t: e } = DZ(),
 			{
-				signin: t,
+				siAxisAlignedBoundingBoxin: t,
 				loading: n,
-				signInError: r,
-				setSignInError: i,
+				siAxisAlignedBoundingBoxInError: r,
+				setSiAxisAlignedBoundingBoxInError: i,
 			} = (0, j.useContext)(_J),
 			{ closeAuth: a, goToStep: o } = d$(),
 			[s, c] = (0, j.useState)(``),
@@ -118817,7 +118836,7 @@ var l0 = (e) => {
 			children: [
 				!Q.isCrazyGames &&
 					(0, U.jsxs)(U.Fragment, {
-						children: [(0, U.jsx)(l0, { type: `signin` }), (0, U.jsx)(u0, {})],
+						children: [(0, U.jsx)(l0, { type: `siAxisAlignedBoundingBoxin` }), (0, U.jsx)(u0, {})],
 					}),
 				(0, U.jsx)(`form`, {
 					style: { width: `100%` },
@@ -118825,7 +118844,7 @@ var l0 = (e) => {
 						e.preventDefault(),
 							t(
 								{ type: `email`, id: s, password: l },
-								{ onSuccess: a, onNeedsSignup: () => o(`signup-finish`) },
+								{ onSuccess: a, onNeedsSiAxisAlignedBoundingBoxup: () => o(`siAxisAlignedBoundingBoxup-finish`) },
 							);
 					},
 					children: (0, U.jsxs)(K, {
@@ -118849,7 +118868,7 @@ var l0 = (e) => {
 								}),
 							}),
 							(0, U.jsx)(H, {
-								alignSelf: `end`,
+								aliAxisAlignedBoundingBoxSelf: `end`,
 								children: (0, U.jsx)(W, {
 									as: `span`,
 									role: `button`,
@@ -118862,7 +118881,7 @@ var l0 = (e) => {
 									children: e(`auth.forgotPassword`),
 								}),
 							}),
-							(0, U.jsx)(K1, { alignSelf: `start`, children: r }),
+							(0, U.jsx)(K1, { aliAxisAlignedBoundingBoxSelf: `start`, children: r }),
 							(0, U.jsx)(Z, {
 								type: `submit`,
 								colorScheme: `green`,
@@ -118870,16 +118889,16 @@ var l0 = (e) => {
 								disabled: !s || !l,
 								loading: n,
 								rightIcon: (0, U.jsx)(M$, {}),
-								children: e(`auth.signin.action`),
+								children: e(`auth.siAxisAlignedBoundingBoxin.action`),
 							}),
 						],
 					}),
 				}),
 				(0, U.jsx)(d0, {
-					prompt: e(`auth.signin.noAccountPrompt`),
-					action: e(`auth.signin.createOne`),
+					prompt: e(`auth.siAxisAlignedBoundingBoxin.noAccountPrompt`),
+					action: e(`auth.siAxisAlignedBoundingBoxin.createOne`),
 					onClick: () => {
-						i(null), o(`signup-email`);
+						i(null), o(`siAxisAlignedBoundingBoxup-email`);
 					},
 				}),
 			],
@@ -118990,7 +119009,7 @@ var l0 = (e) => {
 			allow_trailing_dot: !1,
 			allow_numeric_tld: !1,
 			allow_wildcard: !1,
-			ignore_max_length: !1,
+			iAxisAlignedBoundingBoxore_max_length: !1,
 		};
 		function o(e, t) {
 			(0, n.default)(e),
@@ -119014,7 +119033,7 @@ var l0 = (e) => {
 				? !1
 				: i.every(function (e) {
 						return !(
-							(e.length > 63 && !t.ignore_max_length) ||
+							(e.length > 63 && !t.iAxisAlignedBoundingBoxore_max_length) ||
 							!/^[a-z_\u00a1-\uffff0-9-]+$/i.test(e) ||
 							/[\uff01-\uff5e]/.test(e) ||
 							/^-|-$/.test(e) ||
@@ -119089,7 +119108,7 @@ var l0 = (e) => {
 				allow_utf8_local_part: !0,
 				require_tld: !0,
 				blacklisted_chars: ``,
-				ignore_max_length: !1,
+				iAxisAlignedBoundingBoxore_max_length: !1,
 				host_blacklist: [],
 				host_whitelist: [],
 			},
@@ -119128,7 +119147,7 @@ var l0 = (e) => {
 						return !1;
 				} else if (t.require_display_name) return !1;
 			}
-			if (!t.ignore_max_length && e.length > g) return !1;
+			if (!t.iAxisAlignedBoundingBoxore_max_length && e.length > g) return !1;
 			var y = e.split(`@`),
 				b = y.pop(),
 				x = b.toLowerCase();
@@ -119150,14 +119169,14 @@ var l0 = (e) => {
 					if (!f.test(w[T])) return !1;
 			}
 			if (
-				t.ignore_max_length === !1 &&
+				t.iAxisAlignedBoundingBoxore_max_length === !1 &&
 				(!(0, i.default)(S, { max: 64 }) || !(0, i.default)(b, { max: 254 }))
 			)
 				return !1;
 			if (
 				!(0, a.default)(b, {
 					require_tld: t.require_tld,
-					ignore_max_length: t.ignore_max_length,
+					iAxisAlignedBoundingBoxore_max_length: t.iAxisAlignedBoundingBoxore_max_length,
 					allow_underscores: t.allow_underscores,
 				})
 			) {
@@ -119549,8 +119568,8 @@ var l0 = (e) => {
 			token: (e) => !0,
 			password: (e) => (0, _0.default)(e, { min: 6 }),
 		},
-		"/accounts/signin": {},
-		"/accounts/signup": {
+		"/accounts/siAxisAlignedBoundingBoxin": {},
+		"/accounts/siAxisAlignedBoundingBoxup": {
 			username: b0,
 			password: b0,
 			type: b0,
@@ -119797,7 +119816,7 @@ var l0 = (e) => {
 					!Q.isCrazyGames &&
 						(0, U.jsxs)(U.Fragment, {
 							children: [
-								(0, U.jsx)(l0, { type: `signup` }),
+								(0, U.jsx)(l0, { type: `siAxisAlignedBoundingBoxup` }),
 								(0, U.jsx)(u0, {}),
 							],
 						}),
@@ -119817,7 +119836,7 @@ var l0 = (e) => {
 									{ email: t, turnstile: await sJ() },
 									l,
 								),
-									r(`signup-verify`);
+									r(`siAxisAlignedBoundingBoxup-verify`);
 							} catch (e) {
 								s(e);
 							}
@@ -119847,15 +119866,15 @@ var l0 = (e) => {
 									disabled: !i,
 									loading: c,
 									rightIcon: (0, U.jsx)(M$, {}),
-									children: e(`auth.signup.continue`),
+									children: e(`auth.siAxisAlignedBoundingBoxup.continue`),
 								}),
 							],
 						}),
 					}),
 					(0, U.jsx)(d0, {
-						prompt: e(`auth.signup.haveAccountPrompt`),
-						action: e(`auth.signup.signInInstead`),
-						onClick: () => r(`signin`),
+						prompt: e(`auth.siAxisAlignedBoundingBoxup.haveAccountPrompt`),
+						action: e(`auth.siAxisAlignedBoundingBoxup.siAxisAlignedBoundingBoxInInstead`),
+						onClick: () => r(`siAxisAlignedBoundingBoxin`),
 					}),
 				],
 			})
@@ -119918,7 +119937,7 @@ var yBe = () => {
 								`oauth`,
 								JSON.stringify({ type: `email`, token: e.token }),
 							),
-								n(`signup-finish`);
+								n(`siAxisAlignedBoundingBoxup-finish`);
 						} catch (e) {
 							c(e);
 						}
@@ -119938,7 +119957,7 @@ var yBe = () => {
 									inputMode: `numeric`,
 								},
 								style: {
-									textAlign: `center`,
+									textAliAxisAlignedBoundingBox: `center`,
 									letterSpacing: `0.4em`,
 									paddingLeft: `0.4em`,
 									fontSize: `1.6em`,
@@ -119951,7 +119970,7 @@ var yBe = () => {
 								gap: 4,
 								children: [
 									(0, U.jsx)(Z, {
-										onClick: () => n(`signup-email`),
+										onClick: () => n(`siAxisAlignedBoundingBoxup-email`),
 										children: e(`common.back`),
 									}),
 									(0, U.jsx)(Z, {
@@ -120054,7 +120073,7 @@ var yBe = () => {
 		let { score: t, label: n, color: r } = xBe(e);
 		return (0, U.jsxs)(K, {
 			w: `full`,
-			align: `stretch`,
+			aliAxisAlignedBoundingBox: `stretch`,
 			gap: 1,
 			mt: 1,
 			children: [
@@ -120081,7 +120100,7 @@ var yBe = () => {
 					fontSize: XQ(`0.7em`, `0.8em`, `0.9em`),
 					color: r,
 					h: `1.2em`,
-					alignSelf: `end`,
+					aliAxisAlignedBoundingBoxSelf: `end`,
 					textTransform: `uppercase`,
 					children: n,
 				}),
@@ -120251,8 +120270,8 @@ var wBe = () => {
 			x = b && b.type === `email`,
 			S = x && (s.length < 6 || u.length < 6),
 			C = k0(n, i, {
-				length: e(`auth.signup.usernameLength`),
-				chars: e(`auth.signup.usernameChars`),
+				length: e(`auth.siAxisAlignedBoundingBoxup.usernameLength`),
+				chars: e(`auth.siAxisAlignedBoundingBoxup.usernameChars`),
 			});
 		return (0, U.jsx)(`form`, {
 			style: { width: `100%` },
@@ -120268,7 +120287,7 @@ var wBe = () => {
 								token: b.token,
 							});
 						else {
-							let e = await gJ.signUp({
+							let e = await gJ.siAxisAlignedBoundingBoxUp({
 								username: n,
 								password: a,
 								type: b.type,
@@ -120277,7 +120296,7 @@ var wBe = () => {
 							});
 							Xc() || localStorage.setItem(ol, e.session);
 						}
-						sessionStorage.removeItem(`oauth`), _(), t(`signup-done`);
+						sessionStorage.removeItem(`oauth`), _(), t(`siAxisAlignedBoundingBoxup-done`);
 					} catch (e) {
 						m(e);
 					} finally {
@@ -120294,7 +120313,7 @@ var wBe = () => {
 						gap: 3,
 						children: [
 							(0, U.jsx)(Z1, {
-								text: e(`auth.signup.username`),
+								text: e(`auth.siAxisAlignedBoundingBoxup.username`),
 								children: (0, U.jsx)(X1, {
 									value: n,
 									onChange: (e) => r(e.target.value.replace(` `, `_`)),
@@ -120310,25 +120329,25 @@ var wBe = () => {
 									w: `full`,
 									children: [
 										(0, U.jsxs)(Z1, {
-											text: e(`auth.signup.password`),
+											text: e(`auth.siAxisAlignedBoundingBoxup.password`),
 											children: [
 												(0, U.jsx)(X1, {
 													value: a,
 													onChange: (e) => o(e.target.value),
 													inputProps: { type: `password` },
-													errorText: e(`auth.signup.passwordTooShort`),
+													errorText: e(`auth.siAxisAlignedBoundingBoxup.passwordTooShort`),
 													error: s.length > 0 && s.length < 6,
 												}),
 												(0, U.jsx)(C0, { password: a }),
 											],
 										}),
 										(0, U.jsx)(Z1, {
-											text: e(`auth.signup.confirmPassword`),
+											text: e(`auth.siAxisAlignedBoundingBoxup.confirmPassword`),
 											children: (0, U.jsx)(X1, {
 												value: c,
 												onChange: (e) => l(e.target.value),
 												inputProps: { type: `password` },
-												errorText: e(`auth.signup.passwordsNoMatch`),
+												errorText: e(`auth.siAxisAlignedBoundingBoxup.passwordsNoMatch`),
 												error: s !== u && u.length > 0,
 											}),
 										}),
@@ -120338,13 +120357,13 @@ var wBe = () => {
 								fontSize: X.caption,
 								color: `whiteAlpha.600`,
 								w: `full`,
-								children: e(`auth.signup.usernameRules`),
+								children: e(`auth.siAxisAlignedBoundingBoxup.usernameRules`),
 							}),
 						],
 					}),
 					(0, U.jsxs)(G, {
 						gap: `1em`,
-						alignSelf: `start`,
+						aliAxisAlignedBoundingBoxSelf: `start`,
 						children: [
 							(0, U.jsx)(bBe, {
 								checked: h,
@@ -120353,7 +120372,7 @@ var wBe = () => {
 							(0, U.jsx)(W, {
 								fontSize: X.caption,
 								children: (0, U.jsx)(EZ, {
-									i18nKey: `auth.signup.agreeTerms`,
+									i18nKey: `auth.siAxisAlignedBoundingBoxup.agreeTerms`,
 									components: {
 										eula: (0, U.jsx)(Xt, { to: `/eula` }),
 										privacy: (0, U.jsx)(Xt, { to: `/privacy` }),
@@ -120367,7 +120386,7 @@ var wBe = () => {
 						color: `whiteAlpha.600`,
 						w: `full`,
 						children: (0, U.jsx)(EZ, {
-							i18nKey: `auth.signup.googleNotice`,
+							i18nKey: `auth.siAxisAlignedBoundingBoxup.googleNotice`,
 							components: {
 								privacy: (0, U.jsx)(`a`, {
 									href: `https://policies.google.com/privacy`,
@@ -120382,14 +120401,14 @@ var wBe = () => {
 							},
 						}),
 					}),
-					(0, U.jsx)(K1, { alignSelf: `start`, children: p }),
+					(0, U.jsx)(K1, { aliAxisAlignedBoundingBoxSelf: `start`, children: p }),
 					(0, U.jsxs)(G, {
 						w: `full`,
 						gap: 4,
 						children: [
 							!Q.isCrazyGames &&
 								(0, U.jsx)(Z, {
-									onClick: () => t(`signup-email`),
+									onClick: () => t(`siAxisAlignedBoundingBoxup-email`),
 									children: e(`common.cancel`),
 								}),
 							(0, U.jsx)(Z, {
@@ -120397,7 +120416,7 @@ var wBe = () => {
 								colorScheme: `green`,
 								disabled: S || n.length < 3 || C.length > 0 || !h || d,
 								loading: d,
-								children: e(`auth.signup.createAccount`),
+								children: e(`auth.siAxisAlignedBoundingBoxup.createAccount`),
 							}),
 						],
 					}),
@@ -120415,7 +120434,7 @@ var wBe = () => {
 				w: `full`,
 				onClick: t,
 				rightIcon: (0, U.jsx)(M$, {}),
-				children: e(`auth.signup.backToTitle`),
+				children: e(`auth.siAxisAlignedBoundingBoxup.backToTitle`),
 			}),
 		});
 	},
@@ -120562,7 +120581,7 @@ var wBe = () => {
 					allow_utf8_local_part: !0,
 					require_tld: !0,
 					blacklisted_chars: ``,
-					ignore_max_length: !1,
+					iAxisAlignedBoundingBoxore_max_length: !1,
 					host_blacklist: [],
 				},
 				l = /^([^\x00-\x1F\x7F-\x9F\cX]+)</i,
@@ -120600,7 +120619,7 @@ var wBe = () => {
 							return !1;
 					} else if (t.require_display_name) return !1;
 				}
-				if (!t.ignore_max_length && e.length > h) return !1;
+				if (!t.iAxisAlignedBoundingBoxore_max_length && e.length > h) return !1;
 				var v = e.split(`@`),
 					y = v.pop(),
 					b = y.toLowerCase();
@@ -120618,7 +120637,7 @@ var wBe = () => {
 						if (!d.test(C[w])) return !1;
 				}
 				if (
-					t.ignore_max_length === !1 &&
+					t.iAxisAlignedBoundingBoxore_max_length === !1 &&
 					(!(0, i.default)(x, { max: 64 }) || !(0, i.default)(y, { max: 254 }))
 				)
 					return !1;
@@ -120789,11 +120808,11 @@ function N0() {
 	};
 }
 var ABe = {
-		signin: iBe,
-		"signup-email": vBe,
-		"signup-verify": yBe,
-		"signup-finish": wBe,
-		"signup-done": TBe,
+		siAxisAlignedBoundingBoxin: iBe,
+		"siAxisAlignedBoundingBoxup-email": vBe,
+		"siAxisAlignedBoundingBoxup-verify": yBe,
+		"siAxisAlignedBoundingBoxup-finish": wBe,
+		"siAxisAlignedBoundingBoxup-done": TBe,
 		"reset-start": kBe,
 		"reset-submit": () => {
 			let { t: e } = DZ(),
@@ -120826,9 +120845,9 @@ var ABe = {
 							control: r,
 							labels: {
 								password: e(`auth.reset.newPassword`),
-								confirm: e(`auth.signup.confirmPassword`),
-								tooShort: e(`auth.signup.passwordTooShort`),
-								noMatch: e(`auth.signup.passwordsNoMatch`),
+								confirm: e(`auth.siAxisAlignedBoundingBoxup.confirmPassword`),
+								tooShort: e(`auth.siAxisAlignedBoundingBoxup.passwordTooShort`),
+								noMatch: e(`auth.siAxisAlignedBoundingBoxup.passwordsNoMatch`),
 							},
 						}),
 						(0, U.jsx)(K1, { children: i }),
@@ -120852,8 +120871,8 @@ var ABe = {
 				children: (0, U.jsx)(Z, {
 					colorScheme: `green`,
 					w: `full`,
-					onClick: () => t(`signin`),
-					children: e(`account.signIn`),
+					onClick: () => t(`siAxisAlignedBoundingBoxin`),
+					children: e(`account.siAxisAlignedBoundingBoxIn`),
 				}),
 			});
 		},
@@ -120865,36 +120884,36 @@ var ABe = {
 		let { t: e } = DZ(),
 			{ isOpen: t, step: n, closeAuth: r } = d$(),
 			i = {
-				signin: {
+				siAxisAlignedBoundingBoxin: {
 					icon: (0, U.jsx)(h1, {}),
 					accent: P0,
-					title: e(`auth.signin.title`),
-					subtitle: e(`auth.signin.subtitle`),
+					title: e(`auth.siAxisAlignedBoundingBoxin.title`),
+					subtitle: e(`auth.siAxisAlignedBoundingBoxin.subtitle`),
 				},
-				"signup-email": {
+				"siAxisAlignedBoundingBoxup-email": {
 					icon: (0, U.jsx)(R1, {}),
 					accent: F0,
-					title: e(`auth.signup.emailTitle`),
-					subtitle: e(`auth.signup.emailSubtitle`),
+					title: e(`auth.siAxisAlignedBoundingBoxup.emailTitle`),
+					subtitle: e(`auth.siAxisAlignedBoundingBoxup.emailSubtitle`),
 				},
-				"signup-verify": {
+				"siAxisAlignedBoundingBoxup-verify": {
 					icon: (0, U.jsx)(d1, {}),
 					accent: F0,
-					title: e(`auth.signup.verifyTitle`),
+					title: e(`auth.siAxisAlignedBoundingBoxup.verifyTitle`),
 					subtitle: e(`auth.verify.instructions`),
 				},
-				"signup-finish": {
+				"siAxisAlignedBoundingBoxup-finish": {
 					icon: (0, U.jsx)(T1, {}),
 					accent: F0,
-					title: e(`auth.signup.finishTitle`),
-					subtitle: e(`auth.signup.finishSubtitle`),
+					title: e(`auth.siAxisAlignedBoundingBoxup.finishTitle`),
+					subtitle: e(`auth.siAxisAlignedBoundingBoxup.finishSubtitle`),
 					size: [`sm`, `lg`, `2xl`],
 				},
-				"signup-done": {
+				"siAxisAlignedBoundingBoxup-done": {
 					icon: (0, U.jsx)(w1, {}),
 					accent: P0,
-					title: e(`auth.signup.done`),
-					subtitle: e(`auth.signup.doneSubtitle`),
+					title: e(`auth.siAxisAlignedBoundingBoxup.done`),
+					subtitle: e(`auth.siAxisAlignedBoundingBoxup.doneSubtitle`),
 				},
 				"reset-start": {
 					icon: (0, U.jsx)(i1, {}),
@@ -121020,7 +121039,7 @@ function U0(e) {
 }
 var W0 = (e) => {
 		let t = Jt(),
-			{ signin: n, setSignInError: r } = (0, j.useContext)(_J),
+			{ siAxisAlignedBoundingBoxin: n, setSiAxisAlignedBoundingBoxInError: r } = (0, j.useContext)(_J),
 			{ openAuth: i } = d$(),
 			a = new URLSearchParams(window.location.toString().split(`#`).pop()),
 			o = { type: e.type, token: a.get(`access_token`) };
@@ -121029,18 +121048,18 @@ var W0 = (e) => {
 				(e.type === `discord` && c0(o.token, a.get(`error`))) ||
 					(history.replaceState(null, ``, `/`),
 					t(`/`),
-					e.flow === `signup`
+					e.flow === `siAxisAlignedBoundingBoxup`
 						? (sessionStorage.setItem(`oauth`, JSON.stringify(o)),
-							i(`signup`, { step: `signup-finish` }))
-						: e.flow === `signin` &&
+							i(`siAxisAlignedBoundingBoxup`, { step: `siAxisAlignedBoundingBoxup-finish` }))
+						: e.flow === `siAxisAlignedBoundingBoxin` &&
 							(o.token == null
-								? (r(`OAuth failed, did you click cancel?`), i(`signin`))
+								? (r(`OAuth failed, did you click cancel?`), i(`siAxisAlignedBoundingBoxin`))
 								: n(
 										{ type: o.type, token: o.token },
 										{
-											onNeedsSignup: () =>
-												i(`signup`, { step: `signup-finish` }),
-											onError: () => i(`signin`),
+											onNeedsSiAxisAlignedBoundingBoxup: () =>
+												i(`siAxisAlignedBoundingBoxup`, { step: `siAxisAlignedBoundingBoxup-finish` }),
+											onError: () => i(`siAxisAlignedBoundingBoxin`),
 										},
 									)));
 			}, []),
@@ -121119,7 +121138,7 @@ var G0 = ({ accent: e, onClose: t, children: n }) =>
 						zIndex: 2147483647,
 						maxW: [`80vw`, `sm`],
 						gap: [2, 3],
-						align: `stretch`,
+						aliAxisAlignedBoundingBox: `stretch`,
 						pointerEvents: `none`,
 						children: [
 							o &&
@@ -121260,7 +121279,7 @@ var VBe = ({
 										justifyContent: `space-between`,
 										children: [
 											(0, U.jsxs)(K, {
-												alignItems: `left`,
+												aliAxisAlignedBoundingBoxItems: `left`,
 												children: [
 													(0, U.jsx)(W, {
 														fontSize: `4xl`,
@@ -121292,11 +121311,11 @@ var VBe = ({
 											background: `rgba(0, 0, 0, 0.5)`,
 											padding: `1em`,
 										},
-										alignItems: `left`,
+										aliAxisAlignedBoundingBoxItems: `left`,
 										children: [
 											(0, U.jsx)(W, { fontSize: `xl`, children: `Rules` }),
 											(0, U.jsx)(W, {
-												children: `Send your invite link to your friends and have them sign up for an account. Once they have signed up, you will receive a free pro rank on your account!`,
+												children: `Send your invite link to your friends and have them siAxisAlignedBoundingBox up for an account. Once they have siAxisAlignedBoundingBoxed up, you will receive a free pro rank on your account!`,
 											}),
 											(0, U.jsx)(W, {
 												children: `Any fake accounts will be banned and you will be disqualified from the giveaway. You can only claim one free rank per account.`,
@@ -121419,7 +121438,7 @@ var VBe = ({
 											(0, U.jsx)(GQ, {
 												label: i?.verified
 													? ``
-													: `An account is required. Please sign up first!`,
+													: `An account is required. Please siAxisAlignedBoundingBox up first!`,
 												children: (0, U.jsx)(Z, {
 													colorScheme: `green`,
 													onClick: () => {
@@ -121469,12 +121488,12 @@ var VBe = ({
 				chars: `Username must only contain letters, numbers, and underscores`,
 			}),
 			p = () => {
-				(e.info.showDiscordSignup = null), r();
+				(e.info.showDiscordSiAxisAlignedBoundingBoxup = null), r();
 			};
 		return (
 			(0, j.useEffect)(() => {
-				e.info.showDiscordSignup ? (a(e.info.showDiscordSignup), n()) : p();
-			}, [e.info.showDiscordSignup]),
+				e.info.showDiscordSiAxisAlignedBoundingBoxup ? (a(e.info.showDiscordSiAxisAlignedBoundingBoxup), n()) : p();
+			}, [e.info.showDiscordSiAxisAlignedBoundingBoxup]),
 			(0, U.jsxs)(E$, {
 				isOpen: t,
 				onClose: p,
@@ -121492,7 +121511,7 @@ var VBe = ({
 									onSubmit: async (e) => {
 										e.preventDefault();
 										try {
-											u(!0), await yJ.attemptSignup(i), d(), p();
+											u(!0), await yJ.attemptSiAxisAlignedBoundingBoxup(i), d(), p();
 										} catch (e) {
 											c(e);
 										} finally {
@@ -122119,7 +122138,7 @@ var VBe = ({
 		1,
 	),
 	Z0 = `/assets/coin-D__IidTw.png`,
-	qBe = `data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAMAAAD04JH5AAABvFBMVEVHcEz029jMNkXRcHrNP03ObXvIOEf7+fr06ezhn6nGQFLVdoPHLz+9foTXmKHKUF7hrqzIP03v2dvWgY7CNEPdnaHQYGzOdIDDaHbCUF3Rg4/snF27WmfEUmHBUl7DQVHPe4fJXmvrx8jGZnLGf4r87KXahI/Oe4jHNUXKW2rSgYzATFvLX2zMLz/JTVvv1GjBbHrAxisAlignedBoundingBoxKXXlJ7HQFHurWfwtYPtp3HYn6jwlU/RV1f35pHgVTjSUVPjrH/hjW/wq2ryjz7/HiPzwwD/54PWHi7/gyP/gSL1wgDXHi70wwHVHSv0xAD+gST+giH/gyH/gh/XHC7yxAD3vAfQIzTUHi/THiz8gx3/gSj+6ID6hRvYHSv2wQT8gyP/6Ib5kBXlSyfWHSn+6IP4tAv5rgv2binuXyr/gyX9firQIC/TIibywwT1wwP6iBjMJjfdOiX4uAjUHif4mhLVICrzyiD5jBfJKzvzZiz10Tb4oRP4pAzWJybwxQz74mneQCb95XPNIzLrWCj5qQ3ZLyXVJCfPLDz6gij53lv4lBX95nnxxxf11kT5dSvUKiDtYybzziz8fiXoUiXyxgH9ey33hTCIQN57AAAAQXRSTlMAFfSP7rL8AwYu65r5EyPXPfUMN9ROuG9ChlyvYruauWeOI6EsrnlK77CI48T9ytl/GkPdwZiOOvjjuP7wqo7m/ZZ1er0AAAsFSURBVHja7NrvU9rIGwDwq1ahaPG031bPqdaq09qzOv3xonPzvVdx+ZE0wQBJICTyGyQBRBAtCEpBT6uoaP/i2w2gwFi9kQhvfF6VGWo+7D67z7MLv/32EA/xEA/xEA9xt9BotZquAsYnJt496Sbgj3ik/3lXAQVXlwFx1/6Lmd4vXQQAULAPjnYPYAcA0PtdBqTifW9QjGu7BABMfBPF/MdurAKCIVgGEJDBfn7aecCHubkehgFKMLq3z593ehY+Ppud6mGrADY+2D8/2/lBeNbjBXAMGDgQzPpcVwAEYFOpdRisd+6TRtsFQMrzHYVHoveHXk3Mdh6wt2VxhMPhLclMAGZzrBsAirJYDKcSIAhi4W3HAWBvy4Ai6PHsSK74+8nJt10BUCRpCJ4QtD2y2dsdgJGkgicAmNn4QMcBMAMMBksYjgAw00Th/eho5yrTsx6mlgMWgwUBAOGyx+NDjzoKsFwBAGNOES66Q4CnT/TjPXsnwVgMEiwWS/lkb1ui4a7M/vW7Xt+Bjv2DTvc4tBXM+AOHFEUtG1aDW1slWJtZekGnG9J3oh8AJ0Eq5r8QknAVkqQoUj9LBAHrI8zFYbVPDCOPHo00voDxurB+EvyHD1iFJM/zFnormalizeAngleSVLkkSV6CZVPexyoDtDNDQ3/WX0z3DaH4OxQ6rVCxAIb5i4EMZxRFcvU09L3EosWgNmBkMVJ4UV/d0/MRlo2wOw4LHHU4Alg0Gg3wJEUajWHH6g7qUVQeAa320WKEqQG02ul5hnZ513cclMhxMAcwWcYCMZGjjBRnvA/AbN+L9z1sDfBxBr4AqTWP5/Qfks9kszYcw3FTIpvNxCg4CvcBGBuMRBgQqQK+DBcKLJDOHY6wgUwnolETAkCC4E8bRfKeAIT5EvD7MGsGXuI8DHcfCMBqgWOmRLoCJ+GeAKABQIC1nZ3TsKEKwKsAE4bZsskkDwHEPQBSTAOAlkKrqyJphDX4CoBjVkyIJtykAmDUBrgYwss2AMJKB0AaY5dToITV5iYraywNe3T1AE9n9VODNL05ODijaQQYKT4WcyesLQCusnOyvZdSEfBSNzdnZ+x9Y2PV8qIA0PxTSb/fL7QClsVyMHguqQmIu1gXa79stKqA5TDJJYULzNo6BXAroCwhScUceDm4D2OhBQB3QD6JNz8ew2sAQ0jNYvTkTyW+NAFELhnwJ2S8E4DWqCYhV5QxXMauAxjuAaDV1guhVvNlbl0KkVy25dNfAoxNAHVuU2ffTUyM1y9HF/9//j0IAdH/AtB8mJj4oFFhI6ofN3rjke1g2CFS/xEw8r4QedX+IeHtoKsOsDPbQQPs/24D1DoizbuI9KrNEdBPTQ0sXALiBBwBLn14GGjZApoBLAKMjE9NDTHs59Gp8ZE2AKP9m5sRcAkwbwcdfNFmE2TsNsAX3f6CnWbtm5vz7fToo5su4KIbAQYOfXz81imAhZtGLTIgdHddkxr9p08DcZoBwN4AIPnANU9vAkjE8NSnN/1eeEQwA4b5310vETUD/f0LDGgEAAUQvQ3gtff399tB7RLx7oA+u5cgzPBvxJsBt46Ai4ANBKBVAJhdLvQ37APTT0bQMrwVQJKU5fRE2tuT9iRJSrULKKD/D1IppuezrldTA8Ak/CXACIuRWN6qx077I0Cge1CYBwzqCXvtxG0AoxGeElGgrtXhYdsGpNYlCV2EspEXIyMDtwEOeR4e15TDMgoIYNBVul6juSuALikXofDIGRl+tfh3hLghB2BfHCgW3dSyMg9wDCiHh0CAhcVXk/o7AsDaT0fY4VCa7UgE5jXciH4NwPGokFy2kMZldFI1WBweL7rPp5lI/6e7jsDaTxKOaWWHZWiGhcmwd8MqwDAZtx0uW1C5qsDTOpwCQrnMT3nv9gVfDYB64PO1WuyUGwE4PJDUqxJuQk2ikKRgx0zxh8lD3lidAsCYQRuAVdjkGQyVn6tKVCoVkQ9cPVKWrdaGuoTjEADbBdKdiCbStRyAArZtgHIVh4KCn64OMAnwZAwJjfNgSxpR/rttFwm3UU2AxVIFWBoAmHy0cdRUl62ykHXDSCdtXxNpUj0A3GBJCqa2wWJAALyW9UcHu/kN5V+XAKsNRcImYA0A0DYA7i3K/mJYdlDGajWUcdx0lF/5sWFCj23uj3Dcar2AJ9UawOUi2gZwfIwjUaERY3w6YFI+bC63kff9OMsd5VryAC5I2WbzXyahfWFf96w9AJfx+5PL6NiTLvr9NvQM+ewgn3f6nPl8/gwTWvcE/6HbzdUAzPCb8bu1hQ2AwEU0o0xB2m/9qqSA/M25tLSy5FvyOb/Bz980CbjVHyMpYx3QTjGqA4pRIcOJIiemE1gDQAnnNxnOQeMsIABaOaoC8EAmk8lmsjZT9VTcADg4Pj6TTU05oA7gtxlYjFZFUoQADIsKURhCFK+uOusVwOd0HuTQdZ3qgD/sBAJwDrFoailAX7FLAIwVCJAxU31DUBEASt9DpxUSTcFNgKX8t7ONHI6rnAMQYGYlqVQ28LcBnD9+HBxdzYFVvRwgWKAAvqL9Df8lYGllJX8Ey1P92gYuQ5ESHZ51lqZZ3V2PZpoPOl0Pw5bKFh5uRDa4994AWNo929iIVgG4KZE8dFMOCGAWdLrFO58NP+r1vZuuUpkT+XQsi1ubMrF1BJy7qDIpb8FNJrQVoxGIDD3Rf2znhP6yCuAoKiM0AvAWABT4fLs1gNIfKtXQG2n3fuBl3FXaKpcrIgcB9SSw4rmjo2Nns2BpyfdjA6u+BZ2e6wBt24DUSenkNMxlG0ZA/pbP77YCVhAAJofqADNLr4coKivUx/crJh/74PbnawE47wWwyRQI83qIE69GwCrLx84bARgejSoAtrA40h7g2czk+31GClmuAPLZ8XG+5eGtAFs2c3ju8fzVN/lSjVsyOqUAajtd7mDFt3IjwPrVH6PK8Dg3qcpXyGODRCoURgClFasClq4BKEmIChIOAY5yiS5MqvAN/cDrdwvKj3X4YtGv7DLywdK14YMA9AbBViwmT7+fbwNm6PXrqbaT0G53uRjArntEPol6Pzx34PuFAI2ASYgGeDG4zbKEF/2aYfFRu8uQZVnY2APi3CEqAEy+AWDFhehFgDMG99AP7VwE0fYyHJvXPbbTZkB7z8Piod/vN2G544OD3esMKwiQCAQyHBnco2EwPTrdTJt5+HR6enwQ3dKwcAT4GO/2C1gulzt2rlyTA7AWCMlY7N9FuvmVNQe4hIYGayopUWE5hzpPFBAkTAD20Nx8SoAJERjOXcDKJxbd/oi64kBQ7zgmzD+lyssrgCq5ABQLbOBVm9aTJqWDHBAUlOWZ1VXX0YGWFyM6gNVxUFB7jE//pEllVV4ZuaWl1HGAoYI4CPDn5U3o942Jay8EBkJncR84FmLhZUBiHbBZWBHXHukT05uX11TkpcstLm7EQEWgmRFa2wrsnPgAu+fA2iCrvCMxAhEIEcAmmWdQHGhkxje1wMvFpYiHyqvK2DXr62snT54cE5OTnB0NBOUdwOoIlhmAbqnpzM6Pi4kBKumtBwE2ajtASlGR2czMxMHHt70QBJLKy7tguTGxpry8r6KwMDKm1d7UzE4RBJhps5JHwALUS/f1BRWLnp01wLgHg7bqQGB3PCymdbIpA00Bu4BFKxQURmcBHQAFbdVZSSUgUQcaO4BByVYaCkz09fWtVKHACsgxkTYBCtN8xT8HOxQIMSoxInEYGYXYhdjZ6bvrY2D3mIyCUTAKRsEoGAWjgGoAANxBy+Y1K4DTAAAAAElFTkSuQmCC`,
+	qBe = `data:image/png;base64,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`,
 	Q0 = ({ sx: e, ...t }) =>
 		(0, U.jsx)(UM, { ...t, css: { imageRendering: `pixelated`, ...e } }),
 	$0 = `data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2016%2016'%20shape-rendering='crispEdges'%3e%3c!--%20top%20point%20--%3e%3crect%20x='7'%20y='1'%20width='2'%20height='1'%20fill='%230a3a5a'/%3e%3crect%20x='6'%20y='2'%20width='1'%20height='1'%20fill='%230a3a5a'/%3e%3crect%20x='9'%20y='2'%20width='1'%20height='1'%20fill='%230a3a5a'/%3e%3crect%20x='7'%20y='2'%20width='2'%20height='1'%20fill='%23bfeeff'/%3e%3crect%20x='5'%20y='3'%20width='1'%20height='1'%20fill='%230a3a5a'/%3e%3crect%20x='10'%20y='3'%20width='1'%20height='1'%20fill='%230a3a5a'/%3e%3crect%20x='6'%20y='3'%20width='4'%20height='1'%20fill='%23bfeeff'/%3e%3c!--%20upper%20body%20--%3e%3crect%20x='4'%20y='4'%20width='1'%20height='2'%20fill='%230a3a5a'/%3e%3crect%20x='11'%20y='4'%20width='1'%20height='2'%20fill='%230a3a5a'/%3e%3crect%20x='5'%20y='4'%20width='6'%20height='2'%20fill='%237fe0ff'/%3e%3crect%20x='5'%20y='4'%20width='1'%20height='2'%20fill='%23bfeeff'/%3e%3crect%20x='9'%20y='4'%20width='2'%20height='2'%20fill='%234fc3ee'/%3e%3c!--%20widest%20--%3e%3crect%20x='3'%20y='6'%20width='1'%20height='2'%20fill='%230a3a5a'/%3e%3crect%20x='12'%20y='6'%20width='1'%20height='2'%20fill='%230a3a5a'/%3e%3crect%20x='4'%20y='6'%20width='8'%20height='2'%20fill='%237fe0ff'/%3e%3crect%20x='4'%20y='6'%20width='1'%20height='2'%20fill='%23bfeeff'/%3e%3crect%20x='10'%20y='6'%20width='2'%20height='2'%20fill='%234fc3ee'/%3e%3c!--%20narrowing%20--%3e%3crect%20x='4'%20y='8'%20width='1'%20height='1'%20fill='%230a3a5a'/%3e%3crect%20x='11'%20y='8'%20width='1'%20height='1'%20fill='%230a3a5a'/%3e%3crect%20x='5'%20y='8'%20width='6'%20height='1'%20fill='%237fe0ff'/%3e%3crect%20x='9'%20y='8'%20width='2'%20height='1'%20fill='%234fc3ee'/%3e%3crect%20x='5'%20y='9'%20width='1'%20height='1'%20fill='%230a3a5a'/%3e%3crect%20x='10'%20y='9'%20width='1'%20height='1'%20fill='%230a3a5a'/%3e%3crect%20x='6'%20y='9'%20width='4'%20height='1'%20fill='%237fe0ff'/%3e%3crect%20x='9'%20y='9'%20width='1'%20height='1'%20fill='%234fc3ee'/%3e%3crect%20x='6'%20y='10'%20width='1'%20height='1'%20fill='%230a3a5a'/%3e%3crect%20x='9'%20y='10'%20width='1'%20height='1'%20fill='%230a3a5a'/%3e%3crect%20x='7'%20y='10'%20width='2'%20height='1'%20fill='%237fe0ff'/%3e%3crect%20x='8'%20y='10'%20width='1'%20height='1'%20fill='%234fc3ee'/%3e%3c!--%20bottom%20point%20--%3e%3crect%20x='7'%20y='11'%20width='2'%20height='1'%20fill='%230a3a5a'/%3e%3c!--%20sparkle%20--%3e%3crect%20x='12'%20y='2'%20width='1'%20height='1'%20fill='%23ffffff'/%3e%3crect%20x='11'%20y='3'%20width='3'%20height='1'%20fill='%23ffffff'/%3e%3crect%20x='12'%20y='4'%20width='1'%20height='1'%20fill='%23ffffff'/%3e%3c/svg%3e`,
@@ -122368,7 +122387,7 @@ var tVe = ({ dayLabel: e, reward: t, state: n, onClaim: r }) => {
 							}),
 				}),
 				(0, U.jsxs)(K, {
-					align: `start`,
+					aliAxisAlignedBoundingBox: `start`,
 					gap: 0,
 					flex: 1,
 					children: [
@@ -122487,7 +122506,7 @@ var tVe = ({ dayLabel: e, reward: t, state: n, onClaim: r }) => {
 			}),
 			S = xR(x[6].globalIndex, (e) => i.includes(`skin.${e}`) || !Y0[e]);
 		return (0, U.jsxs)(K, {
-			align: `stretch`,
+			aliAxisAlignedBoundingBox: `stretch`,
 			gap: 4,
 			w: `full`,
 			children: [
@@ -122519,7 +122538,7 @@ var tVe = ({ dayLabel: e, reward: t, state: n, onClaim: r }) => {
 									}),
 								}),
 								(0, U.jsxs)(K, {
-									align: `start`,
+									aliAxisAlignedBoundingBox: `start`,
 									gap: 0,
 									minW: 0,
 									children: [
@@ -122652,7 +122671,7 @@ var tVe = ({ dayLabel: e, reward: t, state: n, onClaim: r }) => {
 	l2 = 2e3,
 	iVe = new (class {
 		renderer = null;
-		scene = new rr();
+		scene = new Zn();
 		camera = new wn(40, 1, 0.01, 100);
 		cache = {};
 		size = 128;
@@ -122661,7 +122680,7 @@ var tVe = ({ dayLabel: e, reward: t, state: n, onClaim: r }) => {
 			let e = document.createElement(`canvas`);
 			(e.width = this.size),
 				(e.height = this.size),
-				(this.renderer = new ir({
+				(this.renderer = new rr({
 					canvas: e,
 					alpha: !0,
 					antialias: !0,
@@ -122677,7 +122696,7 @@ var tVe = ({ dayLabel: e, reward: t, state: n, onClaim: r }) => {
 			if (!e || e === `none`) return null;
 			if (this.cache[e]) return this.cache[e];
 			try {
-				let t = await q.FdOLqaNnlTN.getModel(e);
+				let t = await q.TZlUaafecch.getModel(e);
 				if (!t) return null;
 				this.init();
 				let n = this.renderer;
@@ -122686,7 +122705,7 @@ var tVe = ({ dayLabel: e, reward: t, state: n, onClaim: r }) => {
 					i = new AxisAlignedBoundingBox().setFromObject(r),
 					a = new D();
 				i.getCenter(a), r.position.sub(a);
-				let o = new Vn();
+				let o = new ir();
 				i.getBoundingSphere(o);
 				let s = o.radius || 0.5;
 				this.scene.add(r);
@@ -122710,7 +122729,7 @@ var tVe = ({ dayLabel: e, reward: t, state: n, onClaim: r }) => {
 		size = 1;
 		scale = { setScalar: (e) => void (this.size = e) };
 		position = new D();
-		material = { map: null, color: new dr(1, 1, 1) };
+		material = { map: null, color: new ur(1, 1, 1) };
 		constructor(e) {
 			this.material.map = e;
 		}
@@ -122874,7 +122893,7 @@ var tVe = ({ dayLabel: e, reward: t, state: n, onClaim: r }) => {
 		nextTextureIndexX() {
 			++this.particleTextureIndexX;
 		}
-		sJIprGRZnPevqsBzi() {
+		ehLgaMlKSBMbluyqR() {
 			return !1;
 		}
 	},
@@ -123815,18 +123834,18 @@ var yVe = 2048,
 			if (!e) return !1;
 			this.allocate(yVe);
 			let t = new lee();
-			t.setAttribute(`position`, new Wn(bVe, 3)),
-				t.setAttribute(`uv`, new Wn(xVe, 2)),
-				t.setIndex(new Wn(SVe, 1)),
+			t.setAttribute(`position`, new Hn(bVe, 3)),
+				t.setAttribute(`uv`, new Hn(xVe, 2)),
+				t.setIndex(new Hn(SVe, 1)),
 				t.setAttribute(`aOffset`, this.aOffset),
 				t.setAttribute(`aScale`, this.aScale),
 				t.setAttribute(`aColor`, this.aColor),
 				t.setAttribute(`aUV`, this.aUV),
 				(t.instanceCount = 0),
-				(t.boundingSphere = new Vn(new D(), 1 / 0));
+				(t.boundingSphere = new ir(new D(), 1 / 0));
 			let n = new On(
 				t,
-				new zn({
+				new nr({
 					uniforms: {
 						uAtlas: { value: e },
 						uHeldLightCount: { value: 0 },
@@ -123861,10 +123880,10 @@ var yVe = 2048,
 				(this.scales = new Float32Array(e)),
 				(this.colors = new Float32Array(e * 3)),
 				(this.uvs = new Float32Array(e * 4)),
-				(this.aOffset = new Cn(this.offsets, 3).setUsage(cr)),
-				(this.aScale = new Cn(this.scales, 1).setUsage(cr)),
-				(this.aColor = new Cn(this.colors, 3).setUsage(cr)),
-				(this.aUV = new Cn(this.uvs, 4).setUsage(cr));
+				(this.aOffset = new Cn(this.offsets, 3).setUsage(or)),
+				(this.aScale = new Cn(this.scales, 1).setUsage(or)),
+				(this.aColor = new Cn(this.colors, 3).setUsage(or)),
+				(this.aUV = new Cn(this.uvs, 4).setUsage(or));
 		}
 		grow() {
 			let e = Math.min(this.capacity * 2, S2);
@@ -123991,10 +124010,10 @@ var OVe = class {
 				(this.colors = new Uint8Array(e * 4)),
 				(this.indices = new Uint32Array(Math.floor(e / 4) * 6)),
 				DVe(this.indices, e),
-				(this.posAttr = new Wn(this.positions, 3).setUsage(cr)),
-				(this.normAttr = new Wn(this.normals, 3).setUsage(cr)),
-				(this.uvAttr = new Wn(this.uvs, 2).setUsage(cr)),
-				(this.colAttr = new Wn(this.colors, 4).setUsage(cr)),
+				(this.posAttr = new Hn(this.positions, 3).setUsage(or)),
+				(this.normAttr = new Hn(this.normals, 3).setUsage(or)),
+				(this.uvAttr = new Hn(this.uvs, 2).setUsage(or)),
+				(this.colAttr = new Hn(this.colors, 4).setUsage(or)),
 				(this.colAttr.normalized = !0);
 		}
 		ensureMesh() {
@@ -124002,14 +124021,14 @@ var OVe = class {
 			let e = q.materialTransparent;
 			if (!e || !e.map) return !1;
 			this.allocate(EVe);
-			let t = new Hn();
+			let t = new Vn();
 			t.setAttribute(`position`, this.posAttr),
 				t.setAttribute(`normal`, this.normAttr),
 				t.setAttribute(`uv`, this.uvAttr),
 				t.setAttribute(`color`, this.colAttr),
-				t.setIndex(new Wn(this.indices, 1)),
+				t.setIndex(new Hn(this.indices, 1)),
 				t.setDrawRange(0, 0),
-				(t.boundingSphere = new Vn(new D(), 1 / 0));
+				(t.boundingSphere = new ir(new D(), 1 / 0));
 			let n = new On(t, e);
 			return (
 				(n.frustumCulled = !1),
@@ -124044,7 +124063,7 @@ var OVe = class {
 					this.geometry.setAttribute(`normal`, this.normAttr),
 					this.geometry.setAttribute(`uv`, this.uvAttr),
 					this.geometry.setAttribute(`color`, this.colAttr),
-					this.geometry.setIndex(new Wn(this.indices, 1))),
+					this.geometry.setIndex(new Hn(this.indices, 1))),
 				!0
 			);
 		}
@@ -124221,7 +124240,7 @@ var OVe = class {
 			if (
 				u * u + d * d + f * f >= 256 &&
 				!this.isGuiPlayerRenderer &&
-				!t.getShouldIgnoreRange()
+				!t.getShouldIAxisAlignedBoundingBoxoreRange()
 			)
 				return;
 			let p = this.particleTypes.get(t.getParticleID());
@@ -124360,7 +124379,7 @@ var OVe = class {
 		display = s2.SKIN;
 		running = !1;
 		previewElytra = !1;
-		positionOnScreen = new Rn();
+		positionOnScreen = new dr();
 		fakePlayer;
 		constructor(e, t) {
 			let n = new LR(`account3d`, ``, new lQ($, e, 0));
@@ -124414,7 +124433,7 @@ var OVe = class {
 					(this.headPivot.rotation.x = 0);
 				return;
 			}
-			let t = new Rn(0, 0);
+			let t = new dr(0, 0);
 			Q.isMobile ||
 				(t.set(GR.x, GR.y).sub(this.positionOnScreen),
 				(t.x /= mR.width),
@@ -124429,8 +124448,8 @@ var OVe = class {
 	kVe = 500,
 	AVe = 0.22,
 	E2 = class {
-		scene = new rr();
-		entityMeshes = new Jn();
+		scene = new Zn();
+		entityMeshes = new Kn();
 		effectRenderer = new w2(this.entityMeshes, !0);
 		accountRenderer;
 		camera = new wn(90, 1);
@@ -124489,7 +124508,7 @@ var OVe = class {
 				i === 0 ||
 				((e.width = e.clientWidth),
 				(e.height = e.clientHeight),
-				(this.accountRenderer = new ir({ alpha: !0, canvas: e })),
+				(this.accountRenderer = new rr({ alpha: !0, canvas: e })),
 				this.accountRenderer.setPixelRatio(window.devicePixelRatio),
 				(this.accountRenderer.outputColorSpace = fr),
 				(this.camera.aspect = r / i),
@@ -124524,7 +124543,7 @@ var OVe = class {
 			(e.limbSwing = 0),
 				(e.limbSwingAmount = 0),
 				(e.prevLimbSwingAmount = 0),
-				e.kkuhTtf(3, !1),
+				e.kfdiKOv(3, !1),
 				(this.guiPlayer.running = this.isPreviewingTrail()),
 				this.guiPlayer.running && e.pos.copy(T2.TRAIL_RUN_POS);
 		}
@@ -124577,7 +124596,7 @@ var OVe = class {
 		ensureOffscreenRenderer() {
 			this.accountRenderer ??
 				((this.offscreen = document.createElement(`canvas`)),
-				(this.accountRenderer = new ir({
+				(this.accountRenderer = new rr({
 					alpha: !0,
 					canvas: this.offscreen,
 					preserveDrawingBuffer: !0,
@@ -124667,7 +124686,7 @@ var OVe = class {
 				T2.TRAIL_RUN_POS.y,
 				T2.TRAIL_RUN_POS.z - this.trailScroll,
 			),
-				e.kkuhTtf(3, !0),
+				e.kfdiKOv(3, !0),
 				(e.prevLimbSwingAmount = e.limbSwingAmount),
 				(e.limbSwingAmount += (1 - e.limbSwingAmount) * 0.4),
 				(e.limbSwing += e.limbSwingAmount),
@@ -124737,7 +124756,7 @@ var RVe = new (class {
 		try {
 			let e = document.createElement(`canvas`);
 			(e.width = k2), (e.height = k2);
-			let t = new ir({
+			let t = new rr({
 				canvas: e,
 				alpha: !0,
 				antialias: !0,
@@ -124865,12 +124884,12 @@ var A2 = new Map(),
 async function WVe(e) {
 	if (!e || e === `none`) return null;
 	if (I2[e]) return I2[e];
-	q.skinManager.mRtJkgo(e) || (await q.skinManager.DfhTcyYlrMIb(e));
-	let t = q.skinManager.gvUbPwQ(e),
+	q.skinManager.YzGRiZY(e) || (await q.skinManager.SWnyNwYnGXle(e));
+	let t = q.skinManager.bualodz(e),
 		n = t?.atlas?.image;
 	if (!n) return null;
 	let r = t.ratio || 1,
-		i = t.compact ? null : tI.pkNfplJkrXKRhq(t).cape,
+		i = t.compact ? null : tI.PehatQEfmThjqe(t).cape,
 		a = i ? i.x : 1 * r,
 		o = i ? i.y : 1 * r,
 		s = i ? i.w : 10 * r,
@@ -125203,7 +125222,7 @@ var K2 = 42,
 					w: o,
 					h: o,
 					display: `flex`,
-					alignItems: `center`,
+					aliAxisAlignedBoundingBoxItems: `center`,
 					justifyContent: `center`,
 					children: [
 						(0, U.jsx)(q2, {
@@ -125280,14 +125299,14 @@ var K2 = 42,
 							color: r,
 							textShadow: `0 0 8px ${i}`,
 							lineClamp: 1,
-							textAlign: `center`,
+							textAliAxisAlignedBoundingBox: `center`,
 							children: e.displayName,
 						}),
 						(0, U.jsx)(W, {
 							fontSize: t ? `sm` : `2xs`,
 							color: s ? r : `whiteAlpha.700`,
 							lineClamp: 1,
-							textAlign: `center`,
+							textAliAxisAlignedBoundingBox: `center`,
 							children: u,
 						}),
 					],
@@ -125350,7 +125369,7 @@ var K2 = 42,
 					h: `12em`,
 					overflow: `hidden`,
 					display: `flex`,
-					alignItems: `center`,
+					aliAxisAlignedBoundingBoxItems: `center`,
 					justifyContent: `center`,
 					children: [
 						(0, U.jsx)(H, {
@@ -125509,7 +125528,7 @@ var K2 = 42,
 								w: `11em`,
 								h: `11em`,
 								display: `flex`,
-								alignItems: `center`,
+								aliAxisAlignedBoundingBoxItems: `center`,
 								justifyContent: `center`,
 								children: [
 									(0, U.jsx)(q2, { color: `#ffd66e`, opacity: 0.22, spin: 26 }),
@@ -125618,7 +125637,7 @@ var K2 = 42,
 								return (0, U.jsxs)(W, {
 									fontSize: `md`,
 									color: `whiteAlpha.800`,
-									textAlign: `center`,
+									textAliAxisAlignedBoundingBox: `center`,
 									children: [
 										`You unboxed ${d.length} item${d.length === 1 ? `` : `s`}`,
 										t > 0 && ` · ${t} new`,
@@ -125690,7 +125709,7 @@ var rHe = zQ(function () {
 			title: n?.title,
 			children: (0, U.jsx)(W, {
 				whiteSpace: `pre-line`,
-				textAlign: `center`,
+				textAliAxisAlignedBoundingBox: `center`,
 				children: n?.message,
 			}),
 		});
@@ -125705,13 +125724,13 @@ var rHe = zQ(function () {
 			children: [
 				(0, U.jsxs)(G, {
 					justify: `space-between`,
-					align: `flex-start`,
+					aliAxisAlignedBoundingBox: `flex-start`,
 					gap: 3,
 					rowGap: 2,
 					flexWrap: `wrap`,
 					children: [
 						(0, U.jsxs)(K, {
-							align: `flex-start`,
+							aliAxisAlignedBoundingBox: `flex-start`,
 							gap: 0,
 							minW: 0,
 							children: [
@@ -125752,7 +125771,7 @@ function i4({
 		w: o ?? [`4em`, `12.5em`],
 		h: r ? `full` : void 0,
 		flexShrink: 0,
-		align: `stretch`,
+		aliAxisAlignedBoundingBox: `stretch`,
 		gap: 1,
 		py: 2,
 		borderRight: `thick`,
@@ -125806,7 +125825,7 @@ function i4({
 										bg: `red.500`,
 										border: `1.5px solid black`,
 										display: `flex`,
-										alignItems: `center`,
+										aliAxisAlignedBoundingBoxItems: `center`,
 										justifyContent: `center`,
 										children: (0, U.jsx)(W, {
 											fontSize: `10px`,
@@ -125949,7 +125968,7 @@ var a4 = (0, j.createContext)(null),
 						px: `0.15em`,
 						children: t,
 					}),
-				(0, U.jsx)(K, { w: `full`, gap: 2, align: `stretch`, children: n }),
+				(0, U.jsx)(K, { w: `full`, gap: 2, aliAxisAlignedBoundingBox: `stretch`, children: n }),
 			],
 		}),
 	l4 = ({ value: e, onChange: t, ...n }) =>
@@ -125981,7 +126000,7 @@ var a4 = (0, j.createContext)(null),
 		}),
 	u4 = ({ label: e, children: t, tooltip: n, tooltipWarning: r }) =>
 		(0, U.jsxs)(BM, {
-			align: `center`,
+			aliAxisAlignedBoundingBox: `center`,
 			justify: `space-between`,
 			w: `full`,
 			gap: 3,
@@ -125991,7 +126010,7 @@ var a4 = (0, j.createContext)(null),
 			bg: $2,
 			children: [
 				(0, U.jsxs)(BM, {
-					align: `center`,
+					aliAxisAlignedBoundingBox: `center`,
 					gap: 1.5,
 					flex: `1`,
 					minW: 0,
@@ -126009,13 +126028,13 @@ var a4 = (0, j.createContext)(null),
 								hasArrow: !0,
 								openDelay: 150,
 								maxW: `240px`,
-								textAlign: `center`,
+								textAliAxisAlignedBoundingBox: `center`,
 								bg: r ? `#3a2a00` : void 0,
 								color: r ? `#ffd54a` : void 0,
 								children: (0, U.jsx)(H, {
 									as: `span`,
 									display: `inline-flex`,
-									alignItems: `center`,
+									aliAxisAlignedBoundingBoxItems: `center`,
 									flexShrink: 0,
 									cursor: `help`,
 									fontSize: X.label,
@@ -126027,7 +126046,7 @@ var a4 = (0, j.createContext)(null),
 					],
 				}),
 				(0, U.jsx)(BM, {
-					align: `center`,
+					aliAxisAlignedBoundingBox: `center`,
 					justify: `flex-end`,
 					gap: 2,
 					flexShrink: 0,
@@ -126059,7 +126078,7 @@ var a4 = (0, j.createContext)(null),
 					fontWeight: 600,
 					flexShrink: 0,
 					w: r ? [`5em`, `5.5em`, `6em`] : [`2.8em`, `3.2em`, `3.6em`],
-					textAlign: `right`,
+					textAliAxisAlignedBoundingBox: `right`,
 					children: p,
 				}),
 				(0, U.jsx)(l4, {
@@ -126165,7 +126184,7 @@ function m4() {
 	let e = localStorage.getItem(p4),
 		t = e ? JSON.parse(e) : f4;
 	for (let e in gc) delete gc[e];
-	Object.assign(gc, t);
+	Object.assiAxisAlignedBoundingBox(gc, t);
 }
 function aHe() {
 	let [e, t] = (0, j.useState)(gc);
@@ -126303,7 +126322,7 @@ var v4 = {
 			opacity: n ? 0.5 : 1,
 			cursor: n ? `not-allowed` : `pointer`,
 			display: `flex`,
-			alignItems: `center`,
+			aliAxisAlignedBoundingBoxItems: `center`,
 			justifyContent: e ? `flex-start` : `flex-end`,
 			px: `0.45em`,
 			transition: `background 0.15s ease`,
@@ -126429,11 +126448,11 @@ var lHe = () => {
 			as: `button`,
 			type: `button`,
 			ref: t,
-			align: `center`,
+			aliAxisAlignedBoundingBox: `center`,
 			justify: `space-between`,
 			w: `full`,
 			gap: 3,
-			textAlign: `left`,
+			textAliAxisAlignedBoundingBox: `left`,
 			cursor: `pointer`,
 			px: [`0.75em`, `1em`, `1.25em`],
 			py: 0,
@@ -126648,7 +126667,7 @@ var C4 = j.memo(({ config: e, scale: t = 1 }) => {
 				outline: e ? `1px solid black` : void 0,
 			});
 		return (0, U.jsxs)(BM, {
-			align: `center`,
+			aliAxisAlignedBoundingBox: `center`,
 			justify: `space-between`,
 			w: `full`,
 			gap: 3,
@@ -126668,7 +126687,7 @@ var C4 = j.memo(({ config: e, scale: t = 1 }) => {
 					children: a,
 				}),
 				(0, U.jsxs)(BM, {
-					align: `center`,
+					aliAxisAlignedBoundingBox: `center`,
 					justify: `flex-end`,
 					gap: 1.5,
 					wrap: `wrap`,
@@ -126697,7 +126716,7 @@ var C4 = j.memo(({ config: e, scale: t = 1 }) => {
 							boxSize: T4,
 							flexShrink: 0,
 							display: `flex`,
-							alignItems: `center`,
+							aliAxisAlignedBoundingBoxItems: `center`,
 							justifyContent: `center`,
 							cursor: `pointer`,
 							bg: s ? `rgba(0, 0, 0, 0.35)` : r,
@@ -126732,7 +126751,7 @@ var C4 = j.memo(({ config: e, scale: t = 1 }) => {
 			type: `button`,
 			disabled: n,
 			display: `flex`,
-			alignItems: `center`,
+			aliAxisAlignedBoundingBoxItems: `center`,
 			justifyContent: `center`,
 			flexShrink: 0,
 			width: `1.6em`,
@@ -126772,7 +126791,7 @@ var C4 = j.memo(({ config: e, scale: t = 1 }) => {
 					fontSize: X.small,
 					fontWeight: 700,
 					textTransform: `uppercase`,
-					textAlign: `center`,
+					textAliAxisAlignedBoundingBox: `center`,
 					flex: `1`,
 					lineClamp: 1,
 					children: t,
@@ -126884,12 +126903,12 @@ var xHe = () => {
 		return (0, U.jsxs)(K, {
 			w: `full`,
 			gap: 1,
-			align: `stretch`,
+			aliAxisAlignedBoundingBox: `stretch`,
 			children: [
 				(0, U.jsx)(G, {
 					w: `full`,
 					gap: `0px`,
-					align: `stretch`,
+					aliAxisAlignedBoundingBox: `stretch`,
 					children: yQ.map((i) => {
 						let a = i === t,
 							o = i === n,
@@ -126906,7 +126925,7 @@ var xHe = () => {
 								minW: 0,
 								display: `flex`,
 								flexDirection: `column`,
-								alignItems: `center`,
+								aliAxisAlignedBoundingBoxItems: `center`,
 								justifyContent: `center`,
 								gap: `1px`,
 								boxSizing: `border-box`,
@@ -126946,7 +126965,7 @@ var xHe = () => {
 					(0, U.jsx)(W, {
 						fontSize: X.caption,
 						opacity: 0.7,
-						textAlign: `right`,
+						textAliAxisAlignedBoundingBox: `right`,
 						children: e(`options.preset.custom`),
 					}),
 			],
@@ -126962,7 +126981,7 @@ var xHe = () => {
 					children: (0, U.jsx)(K, {
 						w: `full`,
 						gap: 2,
-						align: `stretch`,
+						aliAxisAlignedBoundingBox: `stretch`,
 						children: t,
 					}),
 				})
@@ -127015,7 +127034,7 @@ var xHe = () => {
 					description: e(`options.sectionDesc.effects`),
 					children: [
 						(0, U.jsx)(d4, { unit: `%`, option: E.particles }),
-						(0, U.jsx)(b4, { option: E.damageVignette }),
+						(0, U.jsx)(b4, { option: E.damageViAxisAlignedBoundingBoxette }),
 					],
 				}),
 				(0, U.jsxs)(c4, {
@@ -127248,13 +127267,13 @@ var IHe = () => {
 					children: (0, U.jsx)(K, {
 						w: `full`,
 						gap: 2,
-						align: `stretch`,
+						aliAxisAlignedBoundingBox: `stretch`,
 						children: p.map((e) => {
 							let r = t === e;
 							return (0, U.jsxs)(
 								BM,
 								{
-									align: `center`,
+									aliAxisAlignedBoundingBox: `center`,
 									justify: `space-between`,
 									w: `full`,
 									gap: 3,
@@ -127409,7 +127428,7 @@ var HHe = zQ(function () {
 			children: (0, U.jsxs)(K, {
 				w: `full`,
 				gap: 3,
-				align: `stretch`,
+				aliAxisAlignedBoundingBox: `stretch`,
 				children: [
 					(0, U.jsx)(`input`, {
 						ref: r,
@@ -127526,7 +127545,7 @@ var HHe = zQ(function () {
 						loading: l,
 						disabled: !i || !g || !h,
 						children: (0, U.jsxs)(BM, {
-							align: `center`,
+							aliAxisAlignedBoundingBox: `center`,
 							justify: `center`,
 							gap: 2,
 							children: [
@@ -127626,13 +127645,13 @@ var HHe = zQ(function () {
 				(0, U.jsx)(K, {
 					w: `full`,
 					gap: 2,
-					align: `stretch`,
+					aliAxisAlignedBoundingBox: `stretch`,
 					children: s.map((t) => {
 						let i = n === t.id;
 						return (0, U.jsxs)(
 							BM,
 							{
-								align: `center`,
+								aliAxisAlignedBoundingBox: `center`,
 								justify: `space-between`,
 								w: `full`,
 								gap: 3,
@@ -127736,7 +127755,7 @@ var HHe = zQ(function () {
 									loading: r,
 									disabled: r,
 									children: (0, U.jsxs)(BM, {
-										align: `center`,
+										aliAxisAlignedBoundingBox: `center`,
 										justify: `center`,
 										gap: 2,
 										children: [
@@ -127804,7 +127823,7 @@ var HHe = zQ(function () {
 			mt: 1,
 			children: [
 				(0, U.jsxs)(BM, {
-					align: `center`,
+					aliAxisAlignedBoundingBox: `center`,
 					justify: `space-between`,
 					gap: 2,
 					mb: i > 0 ? 2 : 0,
@@ -127833,7 +127852,7 @@ var HHe = zQ(function () {
 						overflowY: `auto`,
 						pr: 1,
 						children: (0, U.jsx)(K, {
-							align: `stretch`,
+							aliAxisAlignedBoundingBox: `stretch`,
 							gap: 2,
 							children: r.map((e) =>
 								(0, U.jsxs)(
@@ -128194,7 +128213,7 @@ var ZHe = () => {
 								(0, U.jsxs)(K, {
 									flex: 1,
 									minH: 0,
-									align: `stretch`,
+									aliAxisAlignedBoundingBox: `stretch`,
 									gap: 0,
 									children: [
 										(0, U.jsx)(Q2, { title: l }),
@@ -128242,7 +128261,7 @@ function J4() {
 				Q.isCrazyGames
 					? (await fJ.showAuthPrompt(), e())
 					: Q.isDiscordActivity
-						? (await yJ.attemptDiscordSignin(), e())
+						? (await yJ.attemptDiscordSiAxisAlignedBoundingBoxin(), e())
 						: t(n);
 			} finally {
 				r(!1);
@@ -128342,7 +128361,7 @@ var eUe = {
 					(0, U.jsxs)(G, {
 						gap: 2.5,
 						mb: 3,
-						align: `center`,
+						aliAxisAlignedBoundingBox: `center`,
 						children: [
 							t &&
 								(0, U.jsx)(TM, {
@@ -128389,7 +128408,7 @@ var eUe = {
 			_hover: { borderColor: `whiteAlpha.300` },
 			children: [
 				(0, U.jsxs)(K, {
-					align: `stretch`,
+					aliAxisAlignedBoundingBox: `stretch`,
 					gap: 0,
 					minW: 0,
 					flex: 1,
@@ -128438,7 +128457,7 @@ var eUe = {
 			gap: 3,
 			px: 3,
 			py: 3,
-			textAlign: `left`,
+			textAliAxisAlignedBoundingBox: `left`,
 			bg: Y4,
 			border: `2px solid`,
 			borderColor: X4,
@@ -128457,7 +128476,7 @@ var eUe = {
 					children: e,
 				}),
 				(0, U.jsxs)(K, {
-					align: `stretch`,
+					aliAxisAlignedBoundingBox: `stretch`,
 					gap: 0,
 					minW: 0,
 					flex: 1,
@@ -128845,7 +128864,7 @@ var u3 = ({ isOpen: e, onClose: t, initialUsername: n, lockUsername: r }) => {
 														value: o,
 														disabled: !C,
 														children: (0, U.jsx)(K, {
-															alignItems: `flex-start`,
+															aliAxisAlignedBoundingBoxItems: `flex-start`,
 															children: Object.keys(al).map((e) =>
 																(0, U.jsxs)(
 																	SSe,
@@ -128875,7 +128894,7 @@ var u3 = ({ isOpen: e, onClose: t, initialUsername: n, lockUsername: r }) => {
 															...J1,
 														}),
 														(0, U.jsx)(W, {
-															textAlign: `end`,
+															textAliAxisAlignedBoundingBox: `end`,
 															children: 250 - c.length,
 														}),
 													],
@@ -128904,7 +128923,7 @@ var u3 = ({ isOpen: e, onClose: t, initialUsername: n, lockUsername: r }) => {
 																? (0, U.jsxs)(K, {
 																		w: `full`,
 																		gap: 2,
-																		alignItems: `stretch`,
+																		aliAxisAlignedBoundingBoxItems: `stretch`,
 																		children: [
 																			(0, U.jsx)(UM, {
 																				src: f.previewUrl,
@@ -128946,7 +128965,7 @@ var u3 = ({ isOpen: e, onClose: t, initialUsername: n, lockUsername: r }) => {
 																: (0, U.jsxs)(K, {
 																		w: `full`,
 																		gap: 2,
-																		align: `stretch`,
+																		aliAxisAlignedBoundingBox: `stretch`,
 																		children: [
 																			(0, U.jsx)(TM, {
 																				role: `button`,
@@ -128964,7 +128983,7 @@ var u3 = ({ isOpen: e, onClose: t, initialUsername: n, lockUsername: r }) => {
 																				},
 																				minH: `6em`,
 																				p: `1em`,
-																				textAlign: `center`,
+																				textAliAxisAlignedBoundingBox: `center`,
 																				border: `3px dashed ${g ? `#7fd3ff` : `rgba(255,255,255,0.35)`}`,
 																				bg: g
 																					? `rgba(127,211,255,0.12)`
@@ -129148,7 +129167,7 @@ var u3 = ({ isOpen: e, onClose: t, initialUsername: n, lockUsername: r }) => {
 			w: `13em`,
 			p: `1em`,
 			gap: `0.6em`,
-			align: `stretch`,
+			aliAxisAlignedBoundingBox: `stretch`,
 			justifyContent: `center`,
 			bg: $2,
 			border: `thick`,
@@ -129156,7 +129175,7 @@ var u3 = ({ isOpen: e, onClose: t, initialUsername: n, lockUsername: r }) => {
 				t &&
 					(0, U.jsxs)(W, {
 						fontSize: XQ(`1em`, `1.2em`, `1.5em`),
-						textAlign: `center`,
+						textAliAxisAlignedBoundingBox: `center`,
 						children: [
 							(0, U.jsx)(TN, { data: Tq(``, r.rank, r.level) }),
 							r.username,
@@ -129190,7 +129209,7 @@ var u3 = ({ isOpen: e, onClose: t, initialUsername: n, lockUsername: r }) => {
 		(0, U.jsx)(H, {
 			flex: r ? `1 0 auto` : void 0,
 			width: i ? `100%` : void 0,
-			textAlign: `center`,
+			textAliAxisAlignedBoundingBox: `center`,
 			whiteSpace: `nowrap`,
 			boxSizing: `border-box`,
 			userSelect: `none`,
@@ -129257,7 +129276,7 @@ var u3 = ({ isOpen: e, onClose: t, initialUsername: n, lockUsername: r }) => {
 			onClick: () => {
 				JQ(), e.select();
 			},
-			textAlign: `center`,
+			textAliAxisAlignedBoundingBox: `center`,
 			boxSizing: `border-box`,
 			fontSize: XQ(`0.8rem`, `1rem`, `1.2rem`),
 			width: `100%`,
@@ -129306,7 +129325,7 @@ var u3 = ({ isOpen: e, onClose: t, initialUsername: n, lockUsername: r }) => {
 					(0, U.jsx)(W, {
 						w: `full`,
 						lineClamp: 1,
-						textAlign: `center`,
+						textAliAxisAlignedBoundingBox: `center`,
 						fontSize: e.nameFontSize ?? [`0.7rem`, `0.78rem`, `0.85rem`],
 						color: e.custom ? `transparent` : void 0,
 						css: e.custom ? SN(_3) : void 0,
@@ -129418,14 +129437,14 @@ var pUe = ({ onClose: e, onUploaded: t }) => {
 				(0, U.jsxs)(h$, {
 					children: [
 						(0, U.jsx)(g$, {
-							textAlign: `center`,
+							textAliAxisAlignedBoundingBox: `center`,
 							children: `Upload Custom Cape`,
 						}),
 						(0, U.jsx)(y$, {}),
 						(0, U.jsx)(_$, {
 							pb: 5,
 							children: (0, U.jsxs)(G, {
-								align: `stretch`,
+								aliAxisAlignedBoundingBox: `stretch`,
 								gap: 4,
 								children: [
 									(0, U.jsxs)(K, {
@@ -129444,7 +129463,7 @@ var pUe = ({ onClose: e, onUploaded: t }) => {
 											(0, U.jsx)(W, {
 												fontSize: `xs`,
 												color: `whiteAlpha.700`,
-												textAlign: `center`,
+												textAliAxisAlignedBoundingBox: `center`,
 												children: c
 													? v && g
 														? `Elytra preview`
@@ -129455,7 +129474,7 @@ var pUe = ({ onClose: e, onUploaded: t }) => {
 									}),
 									(0, U.jsxs)(K, {
 										flex: `1`,
-										align: `stretch`,
+										aliAxisAlignedBoundingBox: `stretch`,
 										gap: `0.6em`,
 										children: [
 											(0, U.jsx)(TM, {
@@ -129474,7 +129493,7 @@ var pUe = ({ onClose: e, onUploaded: t }) => {
 												flex: `1`,
 												minH: `6em`,
 												p: `1em`,
-												textAlign: `center`,
+												textAliAxisAlignedBoundingBox: `center`,
 												border: `3px dashed ${f ? `#7fd3ff` : `rgba(255,255,255,0.35)`}`,
 												bg: f ? `rgba(127,211,255,0.12)` : `rgba(0,0,0,0.2)`,
 												_hover: { bg: `rgba(255,255,255,0.08)` },
@@ -129632,14 +129651,14 @@ var hUe = ({ onClose: e, onUploaded: t }) => {
 				(0, U.jsxs)(h$, {
 					children: [
 						(0, U.jsx)(g$, {
-							textAlign: `center`,
+							textAliAxisAlignedBoundingBox: `center`,
 							children: `Upload Custom Skin`,
 						}),
 						(0, U.jsx)(y$, {}),
 						(0, U.jsx)(_$, {
 							pb: 5,
 							children: (0, U.jsxs)(G, {
-								align: `stretch`,
+								aliAxisAlignedBoundingBox: `stretch`,
 								gap: 4,
 								children: [
 									(0, U.jsxs)(K, {
@@ -129658,14 +129677,14 @@ var hUe = ({ onClose: e, onUploaded: t }) => {
 											(0, U.jsx)(W, {
 												fontSize: `xs`,
 												color: `whiteAlpha.700`,
-												textAlign: `center`,
+												textAliAxisAlignedBoundingBox: `center`,
 												children: c ? `Preview` : `Your current skin`,
 											}),
 										],
 									}),
 									(0, U.jsxs)(K, {
 										flex: `1`,
-										align: `stretch`,
+										aliAxisAlignedBoundingBox: `stretch`,
 										gap: `0.6em`,
 										children: [
 											(0, U.jsx)(TM, {
@@ -129684,7 +129703,7 @@ var hUe = ({ onClose: e, onUploaded: t }) => {
 												flex: `1`,
 												minH: `6em`,
 												p: `1em`,
-												textAlign: `center`,
+												textAliAxisAlignedBoundingBox: `center`,
 												border: `3px dashed ${f ? `#7fd3ff` : `rgba(255,255,255,0.35)`}`,
 												bg: f ? `rgba(127,211,255,0.12)` : `rgba(0,0,0,0.2)`,
 												_hover: { bg: `rgba(255,255,255,0.08)` },
@@ -130005,7 +130024,7 @@ var w3 = ({ skin: e, uuid: t, size: n = `32px` }) => {
 	yUe = `/textures/lootchest/0001.webp`,
 	bUe = U0(() =>
 		mH(
-			() => import(`./AccountAvatarHead-CDWAagRJ.js`),
+			() => import(`./AccountAvatarHead-BGgPcXIZ.js`),
 			__vite__mapDeps([3, 1, 4, 0]),
 		),
 	);
@@ -130046,7 +130065,7 @@ var T3 = (e) => {
 	E3 = ({ icon: e, value: t, tooltip: n, onClick: r }) => {
 		let i = (0, U.jsxs)(G, {
 			gap: `0.4em`,
-			align: `center`,
+			aliAxisAlignedBoundingBox: `center`,
 			px: `0.7em`,
 			py: `0.4em`,
 			w: `full`,
@@ -130183,13 +130202,13 @@ var A3 = ({
 						gridRow: 1,
 						gridColumn: 1,
 						zIndex: 1,
-						alignSelf: `center`,
+						aliAxisAlignedBoundingBoxSelf: `center`,
 						children:
 							e.totalXpToNextLevel > 0
 								? (0, U.jsxs)(W, {
 										fontSize: n,
 										w: `full`,
-										textAlign: `center`,
+										textAliAxisAlignedBoundingBox: `center`,
 										lineHeight: 1,
 										children: [
 											a.toLocaleString(),
@@ -130200,7 +130219,7 @@ var A3 = ({
 								: (0, U.jsx)(W, {
 										fontSize: n,
 										w: `full`,
-										textAlign: `center`,
+										textAliAxisAlignedBoundingBox: `center`,
 										lineHeight: 1,
 										children: `Max Level`,
 									}),
@@ -130422,7 +130441,7 @@ var A3 = ({
 				p: `1em`,
 				w: `full`,
 				children: (0, U.jsxs)(K, {
-					alignItems: `left`,
+					aliAxisAlignedBoundingBoxItems: `left`,
 					children: [
 						(0, U.jsx)(W, { children: s }),
 						(0, U.jsxs)(W, {
@@ -130456,7 +130475,7 @@ var A3 = ({
 				w: `full`,
 				children: [
 					(0, U.jsxs)(K, {
-						alignItems: `left`,
+						aliAxisAlignedBoundingBoxItems: `left`,
 						children: [
 							(0, U.jsx)(W, { children: s }),
 							(0, U.jsxs)(W, {
@@ -130530,7 +130549,7 @@ var A3 = ({
 			(0, U.jsxs)(K, {
 				w: `full`,
 				gap: `1em`,
-				alignItems: `stretch`,
+				aliAxisAlignedBoundingBoxItems: `stretch`,
 				children: [
 					(0, U.jsx)(EUe, {
 						unsubscribeDisclosure: c,
@@ -130605,7 +130624,7 @@ var A3 = ({
 	P3 = function () {
 		return (
 			(P3 =
-				Object.assign ||
+				Object.assiAxisAlignedBoundingBox ||
 				function (e) {
 					for (var t, n = 1, r = arguments.length; n < r; n++)
 						for (var i in ((t = arguments[n]), t))
@@ -130733,7 +130752,7 @@ var z3 = ({ title: e, icon: t, defaultOpen: n = !1, children: r }) => {
 			(0, U.jsxs)(BM, {
 				as: `button`,
 				w: `full`,
-				align: `center`,
+				aliAxisAlignedBoundingBox: `center`,
 				gap: `0.6em`,
 				px: `1em`,
 				py: `0.85em`,
@@ -130891,7 +130910,7 @@ var V3 = ({
 				children: (0, U.jsx)(K, {
 					gap: 3,
 					mb: 4,
-					alignItems: `start`,
+					aliAxisAlignedBoundingBoxItems: `start`,
 					children: s.verifying
 						? (0, U.jsxs)(V3, {
 								description: (0, U.jsxs)(U.Fragment, {
@@ -131022,7 +131041,7 @@ var V3 = ({
 				children: (0, U.jsxs)(K, {
 					gap: 2,
 					mb: 4,
-					alignItems: `start`,
+					aliAxisAlignedBoundingBoxItems: `start`,
 					children: [
 						e.hasPassword &&
 							(0, U.jsx)(Z1, {
@@ -131108,7 +131127,7 @@ var V3 = ({
 				children: (0, U.jsxs)(K, {
 					gap: 2,
 					mb: 4,
-					alignItems: `start`,
+					aliAxisAlignedBoundingBoxItems: `start`,
 					children: [
 						(0, U.jsx)(Z1, {
 							text: `New Username`,
@@ -131209,11 +131228,11 @@ var LUe = () => {
 		return (0, U.jsxs)(K, {
 			w: `full`,
 			gap: `0.5em`,
-			alignItems: `stretch`,
+			aliAxisAlignedBoundingBoxItems: `stretch`,
 			children: [
 				(0, U.jsx)(W, {
 					fontWeight: `bold`,
-					alignSelf: `start`,
+					aliAxisAlignedBoundingBoxSelf: `start`,
 					children: `Active sessions`,
 				}),
 				n &&
@@ -131228,7 +131247,7 @@ var LUe = () => {
 						BM,
 						{
 							w: `full`,
-							align: `center`,
+							aliAxisAlignedBoundingBox: `center`,
 							gap: `0.5em`,
 							border: `thick`,
 							bg: `blackAlpha.400`,
@@ -131285,13 +131304,13 @@ var LUe = () => {
 						e.id,
 					),
 				),
-				i && (0, U.jsx)(W, { color: `red`, alignSelf: `start`, children: i }),
+				i && (0, U.jsx)(W, { color: `red`, aliAxisAlignedBoundingBoxSelf: `start`, children: i }),
 			],
 		});
 	},
 	H3 = 30,
 	RUe = (e) => {
-		let { profile: t, signout: n } = (0, j.useContext)(_J),
+		let { profile: t, siAxisAlignedBoundingBoxout: n } = (0, j.useContext)(_J),
 			r = Jt(),
 			[i, a] = (0, j.useState)(``),
 			o = B3(),
@@ -131331,7 +131350,7 @@ var LUe = () => {
 				children: (0, U.jsx)(K, {
 					gap: 3,
 					mb: 4,
-					alignItems: `start`,
+					aliAxisAlignedBoundingBoxItems: `start`,
 					children: o.verifying
 						? (0, U.jsxs)(V3, {
 								description: (0, U.jsxs)(U.Fragment, {
@@ -131450,7 +131469,7 @@ var LUe = () => {
 							(0, U.jsxs)(G, {
 								w: `full`,
 								justify: `space-between`,
-								align: `center`,
+								aliAxisAlignedBoundingBox: `center`,
 								children: [
 									(0, U.jsx)(W, { fontWeight: `bold`, children: `Vanish` }),
 									n && e == null
@@ -131505,7 +131524,7 @@ var LUe = () => {
 	BUe = 3,
 	VUe = ({ onClose: e }) => {
 		let t = Jt(),
-			{ profile: n, signout: r } = (0, j.useContext)(_J),
+			{ profile: n, siAxisAlignedBoundingBoxout: r } = (0, j.useContext)(_J),
 			[i, a] = (0, j.useState)(!1),
 			[s, c] = (0, j.useState)(!1),
 			l = o(n?.rank) >= BUe;
@@ -131517,7 +131536,7 @@ var LUe = () => {
 				(0, U.jsxs)(K, {
 					w: `full`,
 					gap: `1em`,
-					alignItems: `stretch`,
+					aliAxisAlignedBoundingBoxItems: `stretch`,
 					children: [
 						l && (0, U.jsx)(zUe, {}),
 						(0, U.jsx)(LUe, {}),
@@ -131540,7 +131559,7 @@ var LUe = () => {
 									fontSize: `sm`,
 									color: `gray.300`,
 									mt: `0.25em`,
-									children: `Signs you out everywhere, including this device. Use this if you think someone else has access to your account.`,
+									children: `SiAxisAlignedBoundingBoxs you out everywhere, including this device. Use this if you think someone else has access to your account.`,
 								}),
 							],
 						}),
@@ -131618,7 +131637,7 @@ var LUe = () => {
 							maxW: `30em`,
 							mx: `auto`,
 							gap: `0.9em`,
-							align: `center`,
+							aliAxisAlignedBoundingBox: `center`,
 							children: [
 								(0, U.jsxs)(H, {
 									position: `relative`,
@@ -131641,7 +131660,7 @@ var LUe = () => {
 											border: `3px ${rl[t.level]} solid`,
 											borderRadius: 6,
 											minW: `1.6em`,
-											textAlign: `center`,
+											textAliAxisAlignedBoundingBox: `center`,
 											px: `0.25em`,
 											lineHeight: 1.2,
 											children: (0, U.jsx)(W, {
@@ -131653,13 +131672,13 @@ var LUe = () => {
 								}),
 								(0, U.jsxs)(K, {
 									ref: p,
-									align: `stretch`,
+									aliAxisAlignedBoundingBox: `stretch`,
 									gap: 0,
 									minW: 0,
 									flex: 1,
 									children: [
 										(0, U.jsxs)(K, {
-											align: `stretch`,
+											aliAxisAlignedBoundingBox: `stretch`,
 											gap: `0.1em`,
 											minW: 0,
 											pt: `0.2em`,
@@ -131695,7 +131714,7 @@ var LUe = () => {
 										}),
 										(0, U.jsxs)(G, {
 											gap: `0.6em`,
-											align: `stretch`,
+											aliAxisAlignedBoundingBox: `stretch`,
 											mt: `0.6em`,
 											children: [
 												(0, U.jsx)(D3, { value: t.lootchests }),
@@ -131744,10 +131763,10 @@ var LUe = () => {
 								(0, U.jsx)(W, {
 									color: `gray.300`,
 									fontSize: X.caption,
-									alignSelf: `start`,
-									children: `Set a password to play this account outside of CrazyGames. You'll then be able to sign in on miniblox.io using your username and password.`,
+									aliAxisAlignedBoundingBoxSelf: `start`,
+									children: `Set a password to play this account outside of CrazyGames. You'll then be able to siAxisAlignedBoundingBox in on miniblox.io using your username and password.`,
 								}),
-							(0, U.jsx)(K1, { alignSelf: `start`, mt: 0, children: r }),
+							(0, U.jsx)(K1, { aliAxisAlignedBoundingBoxSelf: `start`, mt: 0, children: r }),
 						],
 					}),
 				}),
@@ -131927,7 +131946,7 @@ var ZUe = ({ row: e }) => {
 			gap: 2.5,
 			px: 3,
 			py: 2.5,
-			align: `center`,
+			aliAxisAlignedBoundingBox: `center`,
 			bg: `#14151d`,
 			border: `2px solid`,
 			borderColor: `rgba(255,255,255,0.10)`,
@@ -131942,7 +131961,7 @@ var ZUe = ({ row: e }) => {
 					children: (0, U.jsx)(RM, { as: n.icon, boxSize: 4, color: r.icon }),
 				}),
 				(0, U.jsxs)(K, {
-					align: `stretch`,
+					aliAxisAlignedBoundingBox: `stretch`,
 					gap: 0,
 					minW: 0,
 					flex: 1,
@@ -132051,7 +132070,7 @@ var nWe = 5,
 			r = t.length - n.length,
 			i = n[0].ms || 1;
 		return (0, U.jsxs)(K, {
-			align: `stretch`,
+			aliAxisAlignedBoundingBox: `stretch`,
 			gap: 2,
 			children: [
 				(0, U.jsx)(W, {
@@ -132062,7 +132081,7 @@ var nWe = 5,
 					children: `Time Played`,
 				}),
 				(0, U.jsx)(K, {
-					align: `stretch`,
+					aliAxisAlignedBoundingBox: `stretch`,
 					gap: 2,
 					children: n.map((e) => {
 						let t = tWe(e.key);
@@ -132091,7 +132110,7 @@ var nWe = 5,
 									(0, U.jsxs)(BM, {
 										position: `absolute`,
 										inset: 0,
-										align: `center`,
+										aliAxisAlignedBoundingBox: `center`,
 										justify: `space-between`,
 										gap: 2,
 										px: `0.95em`,
@@ -132121,7 +132140,7 @@ var nWe = 5,
 					(0, U.jsxs)(W, {
 						fontSize: X.micro,
 						color: `gray.500`,
-						textAlign: `right`,
+						textAliAxisAlignedBoundingBox: `right`,
 						children: [`+`, r, ` more`],
 					}),
 			],
@@ -132132,7 +132151,7 @@ var nWe = 5,
 			? (0, U.jsxs)(BM, {
 					flexWrap: `wrap`,
 					gap: 3,
-					align: `flex-start`,
+					aliAxisAlignedBoundingBox: `flex-start`,
 					children: [
 						(0, U.jsx)(H, {
 							flex: `1 1 300px`,
@@ -132147,7 +132166,7 @@ var nWe = 5,
 					],
 				})
 			: (0, U.jsx)(K, {
-					align: `stretch`,
+					aliAxisAlignedBoundingBox: `stretch`,
 					gap: 3,
 					children:
 						t.length > 0 && (0, U.jsx)(W3, { rows: t, columns: [2, 3, 4] }),
@@ -132179,7 +132198,7 @@ var nWe = 5,
 				}),
 				(0, U.jsxs)(G, {
 					gap: [3, 4],
-					align: `center`,
+					aliAxisAlignedBoundingBox: `center`,
 					position: `relative`,
 					children: [
 						(0, U.jsxs)(H, {
@@ -132205,7 +132224,7 @@ var nWe = 5,
 									border: `3px ${o} solid`,
 									borderRadius: 6,
 									minW: `1.9em`,
-									textAlign: `center`,
+									textAliAxisAlignedBoundingBox: `center`,
 									px: `0.3em`,
 									lineHeight: 1.3,
 									children: (0, U.jsx)(W, {
@@ -132217,13 +132236,13 @@ var nWe = 5,
 							],
 						}),
 						(0, U.jsxs)(K, {
-							align: `stretch`,
+							aliAxisAlignedBoundingBox: `stretch`,
 							gap: 2,
 							flex: 1,
 							minW: 0,
 							children: [
 								(0, U.jsxs)(K, {
-									align: `stretch`,
+									aliAxisAlignedBoundingBox: `stretch`,
 									gap: 0.5,
 									minW: 0,
 									children: [
@@ -132433,8 +132452,8 @@ var uWe = ({ title: e, data: t, expanded: n, onToggle: r, playtime: i }) =>
 				(0, U.jsxs)(BM, {
 					as: `button`,
 					w: `full`,
-					align: `center`,
-					textAlign: `left`,
+					aliAxisAlignedBoundingBox: `center`,
+					textAliAxisAlignedBoundingBox: `left`,
 					px: 3.5,
 					py: 3,
 					gap: 2,
@@ -132501,7 +132520,7 @@ var uWe = ({ title: e, data: t, expanded: n, onToggle: r, playtime: i }) =>
 					return n.has(e) ? n.delete(e) : n.add(e), n;
 				});
 		return (0, U.jsxs)(K, {
-			align: `stretch`,
+			aliAxisAlignedBoundingBox: `stretch`,
 			gap: 3,
 			w: `full`,
 			children: [
@@ -132541,7 +132560,7 @@ var uWe = ({ title: e, data: t, expanded: n, onToggle: r, playtime: i }) =>
 								children: [
 									h && (0, U.jsx)(J3, { profile: h }),
 									(0, U.jsxs)(BM, {
-										align: `center`,
+										aliAxisAlignedBoundingBox: `center`,
 										justify: `space-between`,
 										gap: 3,
 										children: [
@@ -132576,7 +132595,7 @@ var uWe = ({ title: e, data: t, expanded: n, onToggle: r, playtime: i }) =>
 										],
 									}),
 									(0, U.jsx)(K, {
-										align: `stretch`,
+										aliAxisAlignedBoundingBox: `stretch`,
 										gap: 2,
 										children: m.map((e) =>
 											(0, U.jsx)(
@@ -132612,7 +132631,7 @@ var uWe = ({ title: e, data: t, expanded: n, onToggle: r, playtime: i }) =>
 			{
 				profile: s,
 				loading: c,
-				signout: l,
+				siAxisAlignedBoundingBoxout: l,
 				updateInventory: u,
 				inventory: d,
 				inventoryLoading: f,
@@ -132689,17 +132708,17 @@ var uWe = ({ title: e, data: t, expanded: n, onToggle: r, playtime: i }) =>
 												children: [
 													(0, U.jsx)(W, {
 														fontSize: X.title,
-														textAlign: `center`,
+														textAliAxisAlignedBoundingBox: `center`,
 														lineHeight: 1.1,
 														children: r(`account.title`),
 													}),
 													(0, U.jsx)(W, {
 														fontSize: X.small,
 														color: `whiteAlpha.700`,
-														textAlign: `center`,
+														textAliAxisAlignedBoundingBox: `center`,
 														maxW: `20em`,
 														lineHeight: 1.35,
-														children: r(`account.notSignedIn`),
+														children: r(`account.notSiAxisAlignedBoundingBoxedIn`),
 													}),
 												],
 											}),
@@ -132713,15 +132732,15 @@ var uWe = ({ title: e, data: t, expanded: n, onToggle: r, playtime: i }) =>
 														colorScheme: `green`,
 														leftIcon: (0, U.jsx)(h1, { size: `1em` }),
 														onClick: () => {
-															t(), i(`signin`);
+															t(), i(`siAxisAlignedBoundingBoxin`);
 														},
-														children: r(`account.signIn`),
+														children: r(`account.siAxisAlignedBoundingBoxIn`),
 													}),
 													(0, U.jsx)(Z, {
 														w: `full`,
 														leftIcon: (0, U.jsx)(T1, { size: `1em` }),
 														onClick: () => {
-															t(), i(`signup`);
+															t(), i(`siAxisAlignedBoundingBoxup`);
 														},
 														children: r(`auth.createAccount`),
 													}),
@@ -132757,7 +132776,7 @@ var uWe = ({ title: e, data: t, expanded: n, onToggle: r, playtime: i }) =>
 										(0, U.jsxs)(K, {
 											flex: 1,
 											minH: 0,
-											align: `stretch`,
+											aliAxisAlignedBoundingBox: `stretch`,
 											gap: 0,
 											children: [
 												(0, U.jsx)(Q2, {
@@ -132768,7 +132787,7 @@ var uWe = ({ title: e, data: t, expanded: n, onToggle: r, playtime: i }) =>
 												(0, U.jsxs)(G, {
 													flex: 1,
 													minH: 0,
-													align: `stretch`,
+													aliAxisAlignedBoundingBox: `stretch`,
 													gap: 4,
 													px: [3, 4],
 													pb: 4,
@@ -132815,7 +132834,7 @@ var uWe = ({ title: e, data: t, expanded: n, onToggle: r, playtime: i }) =>
 																			flex: 1,
 																			loading: h,
 																			onClick: () => {
-																				m(`signin`), t();
+																				m(`siAxisAlignedBoundingBoxin`), t();
 																			},
 																			leftIcon: (0, U.jsx)(h1, { size: `1em` }),
 																			children: `Log In`,
@@ -132825,7 +132844,7 @@ var uWe = ({ title: e, data: t, expanded: n, onToggle: r, playtime: i }) =>
 																			colorScheme: `green`,
 																			loading: h,
 																			onClick: () => {
-																				m(`signup`), t();
+																				m(`siAxisAlignedBoundingBoxup`), t();
 																			},
 																			leftIcon: (0, U.jsx)(T1, { size: `1em` }),
 																			children: `Create Account`,
@@ -132841,7 +132860,7 @@ var uWe = ({ title: e, data: t, expanded: n, onToggle: r, playtime: i }) =>
 																		loading: c,
 																		w: `full`,
 																		backgroundColor: `red.800`,
-																		children: `Sign Out`,
+																		children: `SiAxisAlignedBoundingBox Out`,
 																	}),
 													}),
 											],
@@ -132944,7 +132963,7 @@ var pWe = `rgba(18, 18, 22, 0.97)`,
 			}, [e, n]),
 			!e || !t || r.length === 0
 				? null
-				: (0, U.jsx)(tn, {
+				: (0, U.jsx)(nn, {
 						container: a ?? void 0,
 						children: (0, U.jsx)(H, {
 							ref: i,
@@ -132981,7 +133000,7 @@ var pWe = `rgba(18, 18, 22, 0.97)`,
 													e.disabled || (JQ(), e.onClick?.(), n());
 												},
 												display: `flex`,
-												alignItems: `center`,
+												aliAxisAlignedBoundingBoxItems: `center`,
 												gap: 3,
 												px: 3,
 												py: 2,
@@ -133001,7 +133020,7 @@ var pWe = `rgba(18, 18, 22, 0.97)`,
 														(0, U.jsx)(H, {
 															as: `span`,
 															display: `inline-flex`,
-															alignItems: `center`,
+															aliAxisAlignedBoundingBoxItems: `center`,
 															justifyContent: `center`,
 															w: `1.25em`,
 															fontSize: `1.05em`,
@@ -133043,7 +133062,7 @@ var pWe = `rgba(18, 18, 22, 0.97)`,
 		(0, U.jsxs)(G, {
 			w: `full`,
 			gap: `0.6em`,
-			align: `center`,
+			aliAxisAlignedBoundingBox: `center`,
 			px: `0.5em`,
 			py: `0.45em`,
 			borderRadius: 6,
@@ -133095,7 +133114,7 @@ var pWe = `rgba(18, 18, 22, 0.97)`,
 					],
 				}),
 				(0, U.jsxs)(K, {
-					align: `stretch`,
+					aliAxisAlignedBoundingBox: `stretch`,
 					gap: `0`,
 					minW: 0,
 					flex: 1,
@@ -133393,7 +133412,7 @@ var u6 = ({
 					(0, U.jsxs)(BM, {
 						as: `button`,
 						w: `full`,
-						align: `center`,
+						aliAxisAlignedBoundingBox: `center`,
 						gap: 2,
 						px: 3.5,
 						py: 2.5,
@@ -133493,7 +133512,7 @@ var u6 = ({
 									}),
 								}),
 								children: (0, U.jsxs)(K, {
-									align: `stretch`,
+									aliAxisAlignedBoundingBox: `stretch`,
 									gap: 4,
 									children: [
 										u
@@ -133509,7 +133528,7 @@ var u6 = ({
 													}),
 												})
 											: (0, U.jsxs)(K, {
-													align: `stretch`,
+													aliAxisAlignedBoundingBox: `stretch`,
 													gap: 3,
 													children: [
 														d.length > 1 &&
@@ -133675,7 +133694,7 @@ var vWe = `#3ecf5b`,
 			flex: `1`,
 			minH: 0,
 			gap: 3,
-			align: `stretch`,
+			aliAxisAlignedBoundingBox: `stretch`,
 			children: [
 				(0, U.jsx)(s6, {
 					value: r,
@@ -133690,7 +133709,7 @@ var vWe = `#3ecf5b`,
 					children: (0, U.jsx)(K, {
 						w: `full`,
 						gap: `0.4em`,
-						align: `stretch`,
+						aliAxisAlignedBoundingBox: `stretch`,
 						children:
 							l.length === 0
 								? (0, U.jsx)(o6, {
@@ -133739,11 +133758,11 @@ var vWe = `#3ecf5b`,
 			flexShrink: 0,
 			children: (0, U.jsxs)(G, {
 				gap: 3,
-				align: `center`,
+				aliAxisAlignedBoundingBox: `center`,
 				justifyContent: `space-between`,
 				children: [
 					(0, U.jsxs)(K, {
-						align: `flex-start`,
+						aliAxisAlignedBoundingBox: `flex-start`,
 						gap: 0,
 						minW: 0,
 						children: [
@@ -133767,7 +133786,7 @@ var vWe = `#3ecf5b`,
 						flexShrink: 0,
 						colorScheme: `green`,
 						leftIcon: (0, U.jsx)(T1, {}),
-						onClick: () => t(`signup`),
+						onClick: () => t(`siAxisAlignedBoundingBoxup`),
 						children: `Create Account`,
 					}),
 				],
@@ -134367,7 +134386,7 @@ var C6 = ({ ts: e }) => {
 			children: (0, U.jsxs)(W, {
 				fontSize: `xs`,
 				color: `whiteAlpha.500`,
-				textAlign: `center`,
+				textAliAxisAlignedBoundingBox: `center`,
 				children: [
 					(0, U.jsx)(H, {
 						as: `span`,
@@ -134430,7 +134449,7 @@ var C6 = ({ ts: e }) => {
 					],
 				}),
 				(0, U.jsxs)(K, {
-					alignItems: `flex-start`,
+					aliAxisAlignedBoundingBoxItems: `flex-start`,
 					gap: 0,
 					minW: 0,
 					flex: 1,
@@ -134451,9 +134470,9 @@ var C6 = ({ ts: e }) => {
 				}),
 				(0, U.jsxs)(K, {
 					flexShrink: 0,
-					align: `flex-end`,
+					aliAxisAlignedBoundingBox: `flex-end`,
 					justify: `space-between`,
-					alignSelf: `stretch`,
+					aliAxisAlignedBoundingBoxSelf: `stretch`,
 					gap: 1,
 					py: 0.5,
 					children: [
@@ -134466,7 +134485,7 @@ var C6 = ({ ts: e }) => {
 							}),
 						(0, U.jsxs)(G, {
 							gap: 1.5,
-							align: `center`,
+							aliAxisAlignedBoundingBox: `center`,
 							children: [
 								e.unread > 0 &&
 									(0, U.jsx)(TM, {
@@ -134533,7 +134552,7 @@ var C6 = ({ ts: e }) => {
 					children: (0, U.jsx)(W, {
 						fontSize: `xs`,
 						color: `red.300`,
-						textAlign: `center`,
+						textAliAxisAlignedBoundingBox: `center`,
 						children: n.text,
 					}),
 				})
@@ -134579,7 +134598,7 @@ var C6 = ({ ts: e }) => {
 			w: `full`,
 			h: `full`,
 			gap: 0,
-			align: `stretch`,
+			aliAxisAlignedBoundingBox: `stretch`,
 			minW: 0,
 			children: [
 				(0, U.jsxs)(G, {
@@ -134603,7 +134622,7 @@ var C6 = ({ ts: e }) => {
 							],
 						}),
 						(0, U.jsxs)(K, {
-							align: `flex-start`,
+							aliAxisAlignedBoundingBox: `flex-start`,
 							gap: 0,
 							minW: 0,
 							children: [
@@ -134629,14 +134648,14 @@ var C6 = ({ ts: e }) => {
 									children: (0, U.jsx)(W, {
 										fontSize: `sm`,
 										color: `whiteAlpha.500`,
-										textAlign: `center`,
+										textAliAxisAlignedBoundingBox: `center`,
 										children: r(`messages.threadEmpty`),
 									}),
 								})
 							: (0, U.jsx)(K, {
 									w: `full`,
 									gap: 1.5,
-									align: `stretch`,
+									aliAxisAlignedBoundingBox: `stretch`,
 									children: e.messages.map((t, n) =>
 										(0, U.jsxs)(
 											j.Fragment,
@@ -134739,7 +134758,7 @@ var C6 = ({ ts: e }) => {
 			children: [
 				(0, U.jsx)(w6, { size: `36px` }),
 				(0, U.jsxs)(K, {
-					alignItems: `flex-start`,
+					aliAxisAlignedBoundingBoxItems: `flex-start`,
 					gap: 0,
 					minW: 0,
 					flex: 1,
@@ -134759,9 +134778,9 @@ var C6 = ({ ts: e }) => {
 				}),
 				(0, U.jsxs)(K, {
 					flexShrink: 0,
-					align: `flex-end`,
+					aliAxisAlignedBoundingBox: `flex-end`,
 					justify: `space-between`,
-					alignSelf: `stretch`,
+					aliAxisAlignedBoundingBoxSelf: `stretch`,
 					gap: 1,
 					py: 0.5,
 					children: [
@@ -134807,7 +134826,7 @@ var C6 = ({ ts: e }) => {
 			w: `full`,
 			h: `full`,
 			gap: 0,
-			align: `stretch`,
+			aliAxisAlignedBoundingBox: `stretch`,
 			minW: 0,
 			children: [
 				(0, U.jsxs)(G, {
@@ -134838,14 +134857,14 @@ var C6 = ({ ts: e }) => {
 									children: (0, U.jsx)(W, {
 										fontSize: `sm`,
 										color: `whiteAlpha.500`,
-										textAlign: `center`,
+										textAliAxisAlignedBoundingBox: `center`,
 										children: t(`messages.partyEmpty`),
 									}),
 								})
 							: (0, U.jsx)(K, {
 									w: `full`,
 									gap: 0.5,
-									align: `stretch`,
+									aliAxisAlignedBoundingBox: `stretch`,
 									userSelect: `text`,
 									cursor: `text`,
 									children: r.map((e, t) =>
@@ -134973,7 +134992,7 @@ var C6 = ({ ts: e }) => {
 							minW: d ? 0 : `180px`,
 							h: `full`,
 							gap: 0,
-							align: `stretch`,
+							aliAxisAlignedBoundingBox: `stretch`,
 							borderRight: d ? void 0 : `2px solid`,
 							borderColor: `whiteAlpha.200`,
 							children: [
@@ -134999,7 +135018,7 @@ var C6 = ({ ts: e }) => {
 									children: [
 										(0, U.jsxs)(K, {
 											gap: 1,
-											align: `stretch`,
+											aliAxisAlignedBoundingBox: `stretch`,
 											children: [
 												a.inParty &&
 													(0, U.jsx)(PWe, {
@@ -135035,13 +135054,13 @@ var C6 = ({ ts: e }) => {
 													(0, U.jsx)(W, {
 														fontSize: `sm`,
 														color: `whiteAlpha.700`,
-														textAlign: `center`,
+														textAliAxisAlignedBoundingBox: `center`,
 														children: n(`messages.empty`),
 													}),
 													(0, U.jsx)(W, {
 														fontSize: `xs`,
 														color: `whiteAlpha.500`,
-														textAlign: `center`,
+														textAliAxisAlignedBoundingBox: `center`,
 														children: n(`messages.emptyHint`),
 													}),
 												],
@@ -135070,7 +135089,7 @@ var C6 = ({ ts: e }) => {
 												children: (0, U.jsx)(W, {
 													fontSize: `sm`,
 													color: `whiteAlpha.500`,
-													textAlign: `center`,
+													textAliAxisAlignedBoundingBox: `center`,
 													children: n(`messages.selectPrompt`),
 												}),
 											}),
@@ -135106,7 +135125,7 @@ var C6 = ({ ts: e }) => {
 								children: (0, U.jsxs)(K, {
 									gap: 2,
 									mb: 4,
-									alignItems: `start`,
+									aliAxisAlignedBoundingBoxItems: `start`,
 									children: [
 										(0, U.jsx)(Z1, {
 											text: `Display Name`,
@@ -135317,7 +135336,7 @@ var RWe = 10,
 			c = s ? n.inboundRequests.filter((e) => zWe(e, s)) : n.inboundRequests;
 		return (0, U.jsxs)(K, {
 			w: `full`,
-			align: `stretch`,
+			aliAxisAlignedBoundingBox: `stretch`,
 			gap: 2,
 			children: [
 				(0, U.jsx)(T6, {
@@ -135393,7 +135412,7 @@ var RWe = 10,
 			flex: `1`,
 			minH: 0,
 			gap: 3,
-			align: `stretch`,
+			aliAxisAlignedBoundingBox: `stretch`,
 			children: [
 				(0, U.jsx)(s6, {
 					value: r,
@@ -135422,7 +135441,7 @@ var RWe = 10,
 								})
 							: (0, U.jsx)(K, {
 									w: `full`,
-									align: `stretch`,
+									aliAxisAlignedBoundingBox: `stretch`,
 									gap: 4,
 									children: (0, U.jsx)(BWe, { filter: r }),
 								}),
@@ -135612,7 +135631,7 @@ var UWe = (e, t) => Math.abs(e - t) < 1.01,
 				(this._flatMeasurements = null),
 				(this.itemSizeCache = new Map()),
 				(this.itemSizeCacheVersion = 0),
-				(this.laneAssignments = new Map()),
+				(this.laneAssiAxisAlignedBoundingBoxments = new Map()),
 				(this.pendingMin = null),
 				(this.prevLanes = void 0),
 				(this.lanesChangedFlag = !1),
@@ -135703,7 +135722,7 @@ var UWe = (e, t) => Math.abs(e - t) < 1.01,
 						isRtl: !1,
 						useScrollendEvent: !1,
 						useAnimationFrameWithResizeObserver: !1,
-						laneAssignmentMode: `estimate`,
+						laneAssiAxisAlignedBoundingBoxmentMode: `estimate`,
 						useCachedMeasurements: !1,
 					};
 					for (let n in e) {
@@ -135973,7 +135992,7 @@ var UWe = (e, t) => Math.abs(e - t) < 1.01,
 						this.options.getItemKey,
 						this.options.enabled,
 						this.options.lanes,
-						this.options.laneAssignmentMode,
+						this.options.laneAssiAxisAlignedBoundingBoxmentMode,
 					],
 					(e, t, n, r, i, a, o) => (
 						this.prevLanes !== void 0 &&
@@ -135988,7 +136007,7 @@ var UWe = (e, t) => Math.abs(e - t) < 1.01,
 							getItemKey: r,
 							enabled: i,
 							lanes: a,
-							laneAssignmentMode: o,
+							laneAssiAxisAlignedBoundingBoxmentMode: o,
 						}
 					),
 					{ key: !1 },
@@ -136003,7 +136022,7 @@ var UWe = (e, t) => Math.abs(e - t) < 1.01,
 							getItemKey: r,
 							enabled: i,
 							lanes: a,
-							laneAssignmentMode: o,
+							laneAssiAxisAlignedBoundingBoxmentMode: o,
 						},
 						s,
 					) => {
@@ -136012,18 +136031,18 @@ var UWe = (e, t) => Math.abs(e - t) < 1.01,
 							return (
 								(this.measurementsCache = []),
 								this.itemSizeCache.clear(),
-								this.laneAssignments.clear(),
+								this.laneAssiAxisAlignedBoundingBoxments.clear(),
 								[]
 							);
-						if (this.laneAssignments.size > e)
-							for (let t of this.laneAssignments.keys())
-								t >= e && this.laneAssignments.delete(t);
+						if (this.laneAssiAxisAlignedBoundingBoxments.size > e)
+							for (let t of this.laneAssiAxisAlignedBoundingBoxments.keys())
+								t >= e && this.laneAssiAxisAlignedBoundingBoxments.delete(t);
 						this.lanesChangedFlag &&
 							((this.lanesChangedFlag = !1),
 							(this.lanesSettling = !0),
 							(this.measurementsCache = []),
 							this.itemSizeCache.clear(),
-							this.laneAssignments.clear(),
+							this.laneAssiAxisAlignedBoundingBoxments.clear(),
 							(this.pendingMin = null)),
 							this.measurementsCache.length === 0 &&
 								!this.lanesSettling &&
@@ -136072,7 +136091,7 @@ var UWe = (e, t) => Math.abs(e - t) < 1.01,
 						}
 						for (let i = l; i < e; i++) {
 							let e = r(i),
-								a = this.laneAssignments.get(i),
+								a = this.laneAssiAxisAlignedBoundingBoxments.get(i),
 								s,
 								l,
 								f = o === `estimate` || c.has(e);
@@ -136088,7 +136107,7 @@ var UWe = (e, t) => Math.abs(e - t) < 1.01,
 										: this.getFurthestMeasurement(u, i);
 								(l = e ? e.end + this.options.gap : t + n),
 									(s = e ? e.lane : i % this.options.lanes),
-									this.options.lanes > 1 && f && this.laneAssignments.set(i, s);
+									this.options.lanes > 1 && f && this.laneAssiAxisAlignedBoundingBoxments.set(i, s);
 							}
 							let p = c.get(e),
 								m = typeof p == `number` ? p : this.options.estimateSize(i),
@@ -136295,7 +136314,7 @@ var UWe = (e, t) => Math.abs(e - t) < 1.01,
 					Math.max(this.getMaxScrollOffset() - this.getScrollOffset(), 0)),
 				(this.isAtEnd = (e = this.options.scrollEndThreshold) =>
 					this.getDistanceFromEnd() <= e),
-				(this.getOffsetForAlignment = (e, t, n = 0) => {
+				(this.getOffsetForAliAxisAlignedBoundingBoxment = (e, t, n = 0) => {
 					if (!this.scrollElement) return 0;
 					let r = this.getSize(),
 						i = this.getScrollOffset();
@@ -136321,17 +136340,17 @@ var UWe = (e, t) => Math.abs(e - t) < 1.01,
 						t === `end`
 							? i.end + this.options.scrollPaddingEnd
 							: i.start - this.options.scrollPaddingStart;
-					return [this.getOffsetForAlignment(a, t, i.size), t];
+					return [this.getOffsetForAliAxisAlignedBoundingBoxment(a, t, i.size), t];
 				}),
 				(this.scrollToOffset = (
 					e,
-					{ align: t = `start`, behavior: n = `auto` } = {},
+					{ aliAxisAlignedBoundingBox: t = `start`, behavior: n = `auto` } = {},
 				) => {
-					let r = this.getOffsetForAlignment(e, t),
+					let r = this.getOffsetForAliAxisAlignedBoundingBoxment(e, t),
 						i = this.now();
 					(this.scrollState = {
 						index: null,
-						align: t,
+						aliAxisAlignedBoundingBox: t,
 						behavior: n,
 						startedAt: i,
 						lastTargetOffset: r,
@@ -136342,7 +136361,7 @@ var UWe = (e, t) => Math.abs(e - t) < 1.01,
 				}),
 				(this.scrollToIndex = (
 					e,
-					{ align: t = `auto`, behavior: n = `auto` } = {},
+					{ aliAxisAlignedBoundingBox: t = `auto`, behavior: n = `auto` } = {},
 				) => {
 					e = Math.max(0, Math.min(e, this.options.count - 1));
 					let r = this.getOffsetForIndex(e, t);
@@ -136351,7 +136370,7 @@ var UWe = (e, t) => Math.abs(e - t) < 1.01,
 						o = this.now();
 					(this.scrollState = {
 						index: e,
-						align: a,
+						aliAxisAlignedBoundingBox: a,
 						behavior: n,
 						startedAt: o,
 						lastTargetOffset: i,
@@ -136365,7 +136384,7 @@ var UWe = (e, t) => Math.abs(e - t) < 1.01,
 						r = this.now();
 					(this.scrollState = {
 						index: null,
-						align: `start`,
+						aliAxisAlignedBoundingBox: `start`,
 						behavior: t,
 						startedAt: r,
 						lastTargetOffset: n,
@@ -136377,7 +136396,7 @@ var UWe = (e, t) => Math.abs(e - t) < 1.01,
 				(this.scrollToEnd = ({ behavior: e = `auto` } = {}) => {
 					if (this.options.count > 0) {
 						this.scrollToIndex(this.options.count - 1, {
-							align: `end`,
+							aliAxisAlignedBoundingBox: `end`,
 							behavior: e,
 						});
 						return;
@@ -136433,7 +136452,7 @@ var UWe = (e, t) => Math.abs(e - t) < 1.01,
 				(this.measure = () => {
 					(this.pendingMin = null),
 						this.itemSizeCache.clear(),
-						this.laneAssignments.clear(),
+						this.laneAssiAxisAlignedBoundingBoxments.clear(),
 						this.itemSizeCacheVersion++,
 						this.notify(!1);
 				}),
@@ -136469,7 +136488,7 @@ var UWe = (e, t) => Math.abs(e - t) < 1.01,
 						? void 0
 						: this.getOffsetForIndex(
 								this.scrollState.index,
-								this.scrollState.align,
+								this.scrollState.aliAxisAlignedBoundingBox,
 							),
 				t = e ? e[0] : this.scrollState.lastTargetOffset,
 				n = t !== this.scrollState.lastTargetOffset;
@@ -136609,7 +136628,7 @@ function tGe({
 		},
 		[c] = j.useState(() => {
 			let e = new $We(s);
-			return Object.assign(e, {
+			return Object.assiAxisAlignedBoundingBox(e, {
 				containerRef: (t) => {
 					let n = a.current;
 					if (((n.container = t), (n.lastSize = null), t && n.enabled)) {
@@ -136974,7 +136993,7 @@ var L6 = `#FFCD4D`,
 		return r
 			? (0, U.jsxs)(G, {
 					gap: `0.6em`,
-					align: `center`,
+					aliAxisAlignedBoundingBox: `center`,
 					px: `0.5em`,
 					py: `0.45em`,
 					borderRadius: 6,
@@ -137003,7 +137022,7 @@ var L6 = `#FFCD4D`,
 							],
 						}),
 						(0, U.jsxs)(K, {
-							align: `stretch`,
+							aliAxisAlignedBoundingBox: `stretch`,
 							gap: 0,
 							minW: 0,
 							flex: 1,
@@ -137080,11 +137099,11 @@ var L6 = `#FFCD4D`,
 						(0, U.jsxs)(G, {
 							gap: 3,
 							minW: 0,
-							alignItems: `center`,
+							aliAxisAlignedBoundingBoxItems: `center`,
 							children: [
 								(0, U.jsx)(w3, { skin: e.skin, uuid: e.uuid }),
 								(0, U.jsxs)(K, {
-									alignItems: `flex-start`,
+									aliAxisAlignedBoundingBoxItems: `flex-start`,
 									gap: 0,
 									minW: 0,
 									children: [
@@ -137156,11 +137175,11 @@ var L6 = `#FFCD4D`,
 		return (0, U.jsxs)(K, {
 			w: `full`,
 			gap: 0,
-			alignItems: `stretch`,
+			aliAxisAlignedBoundingBoxItems: `stretch`,
 			children: [
 				(0, U.jsxs)(G, {
 					justifyContent: `space-between`,
-					alignItems: `center`,
+					aliAxisAlignedBoundingBoxItems: `center`,
 					px: e ? `0.55em` : 1,
 					pt: e ? `0.7em` : 2,
 					pb: e ? `0.15em` : 1,
@@ -137218,7 +137237,7 @@ var L6 = `#FFCD4D`,
 				(0, U.jsx)(K, {
 					w: `full`,
 					gap: e ? 0 : `0.4em`,
-					alignItems: `stretch`,
+					aliAxisAlignedBoundingBoxItems: `stretch`,
 					maxH: `30vh`,
 					overflowY: `auto`,
 					children: u.map((t, n) => {
@@ -137297,7 +137316,7 @@ var L6 = `#FFCD4D`,
 		return (0, U.jsxs)(K, {
 			w: `full`,
 			h: `full`,
-			textAlign: `left`,
+			textAliAxisAlignedBoundingBox: `left`,
 			p: 10,
 			children: [
 				(0, U.jsx)(W, { children: e(`friends.empty.line1`) }),
@@ -137381,7 +137400,7 @@ var L6 = `#FFCD4D`,
 						autoFocus: !0,
 						placeholder: n(`party.codePlaceholder`),
 						style: {
-							textAlign: `center`,
+							textAliAxisAlignedBoundingBox: `center`,
 							letterSpacing: `0.15em`,
 							fontWeight: 700,
 						},
@@ -137572,7 +137591,7 @@ var L6 = `#FFCD4D`,
 			flex: `1`,
 			minH: 0,
 			gap: 3,
-			align: `stretch`,
+			aliAxisAlignedBoundingBox: `stretch`,
 			children: [
 				(0, U.jsx)(s6, {
 					value: r,
@@ -137714,7 +137733,7 @@ var mGe = ({ result: e, disabled: t }) => {
 				flex: `1`,
 				minH: 0,
 				gap: 3,
-				align: `stretch`,
+				aliAxisAlignedBoundingBox: `stretch`,
 				children: [
 					(0, U.jsx)(s6, {
 						value: n,
@@ -137767,7 +137786,7 @@ var mGe = ({ result: e, disabled: t }) => {
 												children: (0, U.jsx)(W, {
 													fontSize: `lg`,
 													pt: `3`,
-													textAlign: `center`,
+													textAliAxisAlignedBoundingBox: `center`,
 													children: e(`friends.blocked.empty`),
 												}),
 											})
@@ -137834,7 +137853,7 @@ var mGe = ({ result: e, disabled: t }) => {
 			flex: `1`,
 			minH: 0,
 			gap: 3,
-			align: `stretch`,
+			aliAxisAlignedBoundingBox: `stretch`,
 			children: [
 				(0, U.jsx)(s6, {
 					value: t,
@@ -137953,7 +137972,7 @@ var mGe = ({ result: e, disabled: t }) => {
 				(0, U.jsxs)(K, {
 					flex: 1,
 					minH: 0,
-					align: `stretch`,
+					aliAxisAlignedBoundingBox: `stretch`,
 					gap: 0,
 					children: [
 						(0, U.jsx)(Q2, { title: m }),
@@ -137967,7 +137986,7 @@ var mGe = ({ result: e, disabled: t }) => {
 							children: [
 								o &&
 									(0, U.jsx)(xWe, {
-										message: `Sign up to keep your friends and add more — your progress carries over.`,
+										message: `SiAxisAlignedBoundingBox up to keep your friends and add more — your progress carries over.`,
 									}),
 								(() => {
 									switch (p) {
@@ -138054,7 +138073,7 @@ var K6 = Object.keys(_).filter((e) => !c(e) && !d(e)),
 			as: `button`,
 			onClick: t,
 			display: `flex`,
-			alignItems: `center`,
+			aliAxisAlignedBoundingBoxItems: `center`,
 			justifyContent: `center`,
 			flexShrink: 0,
 			width: `2em`,
@@ -138110,7 +138129,7 @@ var K6 = Object.keys(_).filter((e) => !c(e) && !d(e)),
 				children: (0, U.jsxs)(K, {
 					gap: 2,
 					mb: 4,
-					alignItems: `start`,
+					aliAxisAlignedBoundingBoxItems: `start`,
 					children: [
 						(0, U.jsx)(Z1, {
 							text: t(`shop.gift.rank`),
@@ -138127,7 +138146,7 @@ var K6 = Object.keys(_).filter((e) => !c(e) && !d(e)),
 									}),
 									(0, U.jsx)(H, {
 										flex: `1`,
-										textAlign: `center`,
+										textAliAxisAlignedBoundingBox: `center`,
 										children: (0, U.jsx)(TN, {
 											fontSize: `xl`,
 											data: `\\bold\\\\glow\\\\${m(d)}\\${d.toUpperCase()}`,
@@ -138143,7 +138162,7 @@ var K6 = Object.keys(_).filter((e) => !c(e) && !d(e)),
 						_[d]?.price &&
 							(0, U.jsx)(W, {
 								fontSize: `md`,
-								alignSelf: `center`,
+								aliAxisAlignedBoundingBoxSelf: `center`,
 								color: `gray.300`,
 								children: _[d].price,
 							}),
@@ -138250,10 +138269,10 @@ var bGe = ({ isOpen: e, onClose: t, rank: n, fromRank: r, onUpgraded: i }) => {
 			children: (0, U.jsxs)(K, {
 				gap: 3,
 				mb: 4,
-				alignItems: `stretch`,
+				aliAxisAlignedBoundingBoxItems: `stretch`,
 				children: [
 					(0, U.jsx)(H, {
-						textAlign: `center`,
+						textAliAxisAlignedBoundingBox: `center`,
 						children: (0, U.jsx)(TN, {
 							fontSize: `xl`,
 							data: `\\bold\\${r.toUpperCase()}  →  \\glow\\\\${g}\\${n.toUpperCase()}`,
@@ -138270,7 +138289,7 @@ var bGe = ({ isOpen: e, onClose: t, rank: n, fromRank: r, onUpgraded: i }) => {
 						a.currency &&
 						(0, U.jsxs)(K, {
 							gap: 1,
-							alignItems: `stretch`,
+							aliAxisAlignedBoundingBoxItems: `stretch`,
 							children: [
 								(0, U.jsxs)(W, {
 									fontSize: `lg`,
@@ -138303,7 +138322,7 @@ var bGe = ({ isOpen: e, onClose: t, rank: n, fromRank: r, onUpgraded: i }) => {
 					b &&
 						(0, U.jsxs)(K, {
 							gap: 1,
-							alignItems: `stretch`,
+							aliAxisAlignedBoundingBoxItems: `stretch`,
 							children: [
 								(0, U.jsxs)(W, {
 									fontSize: `lg`,
@@ -138364,7 +138383,7 @@ var bGe = ({ isOpen: e, onClose: t, rank: n, fromRank: r, onUpgraded: i }) => {
 		bordered: a = !0,
 	}) => {
 		let o = e.map((e) => e.width ?? `1fr`).join(` `),
-			s = (t) => xGe[e[t].align ?? (t === 0 ? `left` : `center`)];
+			s = (t) => xGe[e[t].aliAxisAlignedBoundingBox ?? (t === 0 ? `left` : `center`)];
 		return (0, U.jsx)(H, {
 			w: `full`,
 			overflowX: `auto`,
@@ -138385,7 +138404,7 @@ var bGe = ({ isOpen: e, onClose: t, rank: n, fromRank: r, onUpgraded: i }) => {
 									bg: `rgba(255,255,255,0.10)`,
 									borderBottom: `medium`,
 									display: `flex`,
-									alignItems: `center`,
+									aliAxisAlignedBoundingBoxItems: `center`,
 									justifyContent: s(t),
 									fontWeight: `bold`,
 									fontSize: X.caption,
@@ -138405,7 +138424,7 @@ var bGe = ({ isOpen: e, onClose: t, rank: n, fromRank: r, onUpgraded: i }) => {
 									minW: 0,
 									bg: t % 2 == 1 ? `rgba(255,255,255,0.05)` : `transparent`,
 									display: `flex`,
-									alignItems: `center`,
+									aliAxisAlignedBoundingBoxItems: `center`,
 									justifyContent: s(r),
 									fontSize: X.caption,
 									children: e,
@@ -138492,7 +138511,7 @@ var Z6 = ({ amount: e, size: t = `16px` }) =>
 		(0, U.jsxs)(G, {
 			w: `full`,
 			justifyContent: `space-between`,
-			align: `center`,
+			aliAxisAlignedBoundingBox: `center`,
 			children: [(0, U.jsx)(uD, { size: `md`, children: e }), t],
 		}),
 	$6 = `#4f9fff`;
@@ -138526,7 +138545,7 @@ var e8 = ({ image: e, title: t, subtitle: n, rarityColor: r, onClick: i }) =>
 					(0, U.jsx)(W, {
 						w: `full`,
 						lineClamp: 1,
-						textAlign: `center`,
+						textAliAxisAlignedBoundingBox: `center`,
 						fontSize: `sm`,
 						children: t,
 					}),
@@ -138554,12 +138573,12 @@ var e8 = ({ image: e, title: t, subtitle: n, rarityColor: r, onClick: i }) =>
 			children: (0, U.jsxs)(G, {
 				w: `full`,
 				justifyContent: `space-between`,
-				align: `flex-start`,
+				aliAxisAlignedBoundingBox: `flex-start`,
 				gap: 4,
 				children: [
 					(0, U.jsxs)(G, {
 						flex: 1,
-						align: `flex-start`,
+						aliAxisAlignedBoundingBox: `flex-start`,
 						gap: 3,
 						children: [
 							(0, U.jsx)(TM, {
@@ -138570,7 +138589,7 @@ var e8 = ({ image: e, title: t, subtitle: n, rarityColor: r, onClick: i }) =>
 								children: e,
 							}),
 							(0, U.jsxs)(K, {
-								align: `flex-start`,
+								aliAxisAlignedBoundingBox: `flex-start`,
 								gap: 1,
 								children: [
 									(0, U.jsx)(W, { fontSize: X.label, children: t }),
@@ -138586,7 +138605,7 @@ var e8 = ({ image: e, title: t, subtitle: n, rarityColor: r, onClick: i }) =>
 					}),
 					(0, U.jsxs)(K, {
 						gap: 2,
-						align: `flex-end`,
+						aliAxisAlignedBoundingBox: `flex-end`,
 						minW: `8em`,
 						children: [
 							(0, U.jsx)(Z6, { amount: r }),
@@ -138817,7 +138836,7 @@ var e8 = ({ image: e, title: t, subtitle: n, rarityColor: r, onClick: i }) =>
 								children: (0, U.jsx)(a8, { ...r }),
 							}),
 							(0, U.jsx)(K, {
-								align: `flex-start`,
+								aliAxisAlignedBoundingBox: `flex-start`,
 								gap: 1,
 								w: `full`,
 								children: i.map((e, t) =>
@@ -138876,14 +138895,14 @@ var kGe = ({ onNavigate: e, onSelectCosmetic: t }) => {
 			];
 		}, []);
 		return (0, U.jsxs)(K, {
-			align: `stretch`,
+			aliAxisAlignedBoundingBox: `stretch`,
 			gap: 5,
 			w: `full`,
 			px: 4,
 			py: 4,
 			children: [
 				(0, U.jsxs)(K, {
-					align: `stretch`,
+					aliAxisAlignedBoundingBox: `stretch`,
 					gap: 2,
 					children: [
 						(0, U.jsx)(Q6, { children: `Featured` }),
@@ -138944,7 +138963,7 @@ var kGe = ({ onNavigate: e, onSelectCosmetic: t }) => {
 														(0, U.jsx)(W, {
 															fontSize: `xs`,
 															color: `gray.300`,
-															textAlign: `center`,
+															textAliAxisAlignedBoundingBox: `center`,
 															children: `Unbox a random cosmetic, or coins if it's a duplicate.`,
 														}),
 													],
@@ -138971,7 +138990,7 @@ var kGe = ({ onNavigate: e, onSelectCosmetic: t }) => {
 					],
 				}),
 				(0, U.jsxs)(K, {
-					align: `stretch`,
+					aliAxisAlignedBoundingBox: `stretch`,
 					gap: 2,
 					children: [
 						(0, U.jsx)(Q6, { children: `New & Popular` }),
@@ -139128,7 +139147,7 @@ var MGe = ({ name: e }) => {
 						(0, U.jsx)(W, {
 							fontSize: `xs`,
 							color: `gray.300`,
-							textAlign: `center`,
+							textAliAxisAlignedBoundingBox: `center`,
 							children: h,
 						}),
 						(0, U.jsx)(Z, {
@@ -139166,13 +139185,13 @@ var MGe = ({ name: e }) => {
 			columns: [
 				{
 					label: `RANK PERKS`,
-					align: `left`,
+					aliAxisAlignedBoundingBox: `left`,
 					color: `#e06fb0`,
 					width: `minmax(9em, 2.2fr)`,
 				},
 				...s8.map((e) => ({
 					label: e.toUpperCase(),
-					align: `center`,
+					aliAxisAlignedBoundingBox: `center`,
 					color: m(e),
 					width: `minmax(4.5em, 1fr)`,
 				})),
@@ -139197,7 +139216,7 @@ var MGe = ({ name: e }) => {
 		}),
 	PGe = () =>
 		(0, U.jsxs)(K, {
-			align: `stretch`,
+			aliAxisAlignedBoundingBox: `stretch`,
 			gap: 4,
 			w: `full`,
 			px: 4,
@@ -139246,7 +139265,7 @@ var MGe = ({ name: e }) => {
 			v = a.coins >= h,
 			y = !r || _ || (!g && !v) || l;
 		return (0, U.jsxs)(K, {
-			align: `stretch`,
+			aliAxisAlignedBoundingBox: `stretch`,
 			gap: 3,
 			w: `full`,
 			h: `full`,
@@ -139371,7 +139390,7 @@ var MGe = ({ name: e }) => {
 				);
 			};
 		return (0, U.jsxs)(K, {
-			align: `stretch`,
+			aliAxisAlignedBoundingBox: `stretch`,
 			gap: 3,
 			w: `full`,
 			children: [
@@ -139436,7 +139455,7 @@ var MGe = ({ name: e }) => {
 		if (!e) return null;
 		let s = e.lootchests;
 		return (0, U.jsxs)(K, {
-			align: `stretch`,
+			aliAxisAlignedBoundingBox: `stretch`,
 			gap: 3,
 			w: `full`,
 			children: [
@@ -139480,7 +139499,7 @@ var MGe = ({ name: e }) => {
 				s > 0 &&
 					(0, U.jsxs)(Z, {
 						w: `auto`,
-						alignSelf: `flex-start`,
+						aliAxisAlignedBoundingBoxSelf: `flex-start`,
 						px: 6,
 						onClick: () => o(!0),
 						children: [`Open (`, s, `)`],
@@ -139491,7 +139510,7 @@ var MGe = ({ name: e }) => {
 	LGe = () => {
 		let { profile: e } = (0, j.useContext)(_J);
 		return (0, U.jsxs)(K, {
-			align: `stretch`,
+			aliAxisAlignedBoundingBox: `stretch`,
 			gap: 4,
 			w: `full`,
 			children: [
@@ -139513,7 +139532,7 @@ var MGe = ({ name: e }) => {
 					gap: 4,
 					children: [
 						(0, U.jsxs)(K, {
-							align: `flex-start`,
+							aliAxisAlignedBoundingBox: `flex-start`,
 							gap: 0,
 							children: [
 								(0, U.jsx)(W, { fontSize: `md`, children: `Free coins` }),
@@ -139532,7 +139551,7 @@ var MGe = ({ name: e }) => {
 					border: `medium`,
 					p: 4,
 					children: (0, U.jsxs)(K, {
-						align: `flex-start`,
+						aliAxisAlignedBoundingBox: `flex-start`,
 						gap: 2,
 						children: [
 							(0, U.jsx)(uD, { size: `sm`, children: `Earn coins by` }),
@@ -139688,7 +139707,7 @@ var MGe = ({ name: e }) => {
 									flex: 1,
 									minH: 0,
 									h: `full`,
-									align: `stretch`,
+									aliAxisAlignedBoundingBox: `stretch`,
 									gap: 0,
 									children: [
 										(0, U.jsx)(Q2, {
@@ -139712,7 +139731,7 @@ var MGe = ({ name: e }) => {
 										(0, U.jsxs)(G, {
 											flex: 1,
 											minH: 0,
-											align: `stretch`,
+											aliAxisAlignedBoundingBox: `stretch`,
 											gap: 4,
 											px: [3, 4],
 											pb: 3,
@@ -140220,7 +140239,7 @@ var R8 = `transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1), filter 0.2s ease, bo
 									bottom: `0.4em`,
 									left: `0.4em`,
 									gap: `0.3em`,
-									align: `center`,
+									aliAxisAlignedBoundingBox: `center`,
 									children: [
 										(0, U.jsx)(W8, { gameMode: n.gameMode }),
 										n.scriptingEnabled &&
@@ -140264,7 +140283,7 @@ var R8 = `transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1), filter 0.2s ease, bo
 						py: `0.5em`,
 						children: (0, U.jsxs)(G, {
 							justifyContent: `space-between`,
-							alignItems: `center`,
+							aliAxisAlignedBoundingBoxItems: `center`,
 							gap: 2,
 							children: [
 								(0, U.jsx)(H, {
@@ -140383,7 +140402,7 @@ var R8 = `transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1), filter 0.2s ease, bo
 							fontSize: `xs`,
 							fontWeight: `bold`,
 							display: `flex`,
-							alignItems: `center`,
+							aliAxisAlignedBoundingBoxItems: `center`,
 							justifyContent: `center`,
 							pointerEvents: `none`,
 							zIndex: 2,
@@ -140630,14 +140649,14 @@ var R8 = `transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1), filter 0.2s ease, bo
 					children: x
 						? (0, U.jsx)(W, {
 								fontSize: `lg`,
-								textAlign: `center`,
+								textAliAxisAlignedBoundingBox: `center`,
 								py: 6,
 								children: `There are currently no planets available to join :(`,
 							})
 						: T.length === 0
 							? (0, U.jsx)(W, {
 									fontSize: `lg`,
-									textAlign: `center`,
+									textAliAxisAlignedBoundingBox: `center`,
 									py: 6,
 									children: `No planets found`,
 								})
@@ -140713,7 +140732,7 @@ var K8 = ({
 		return (0, U.jsx)(G, {
 			w: `full`,
 			gap: 2,
-			align: `stretch`,
+			aliAxisAlignedBoundingBox: `stretch`,
 			children: nKe.map((r) => {
 				let i = e === r.id;
 				return (0, U.jsxs)(
@@ -140752,9 +140771,9 @@ var K8 = ({
 								display: `flex`,
 								w: `full`,
 								h: `full`,
-								alignItems: `center`,
+								aliAxisAlignedBoundingBoxItems: `center`,
 								justifyContent: `center`,
-								textAlign: `center`,
+								textAliAxisAlignedBoundingBox: `center`,
 								fontSize: X.small,
 								fontWeight: 700,
 								textTransform: `uppercase`,
@@ -140833,7 +140852,7 @@ var K8 = ({
 								bottom: `0.4em`,
 								left: `0.4em`,
 								gap: `0.3em`,
-								align: `center`,
+								aliAxisAlignedBoundingBox: `center`,
 								children: [
 									(0, U.jsx)(W8, { gameMode: t }),
 									o &&
@@ -141013,7 +141032,7 @@ var K8 = ({
 								fontWeight: 600,
 								flexShrink: 0,
 								w: [`2.8em`, `3.2em`, `3.6em`],
-								textAlign: `right`,
+								textAliAxisAlignedBoundingBox: `right`,
 								children: d,
 							}),
 							(0, U.jsx)(l4, {
@@ -141095,7 +141114,7 @@ var K8 = ({
 			E = (0, U.jsx)(K, {
 				w: `full`,
 				gap: 2,
-				align: `stretch`,
+				aliAxisAlignedBoundingBox: `stretch`,
 				children: v.map(ee),
 			});
 		return c === `basic`
@@ -141115,7 +141134,7 @@ var K8 = ({
 				? (0, U.jsxs)(K, {
 						w: `full`,
 						gap: 2,
-						align: `stretch`,
+						aliAxisAlignedBoundingBox: `stretch`,
 						children: [x, S, C, ne.map(ee)],
 					})
 				: (0, U.jsxs)(U.Fragment, {
@@ -141139,7 +141158,7 @@ var K8 = ({
 	oKe = (e) => e.charAt(0).toUpperCase() + e.slice(1).toLowerCase(),
 	Z8 = ({ label: e, tooltip: t, children: n }) => {
 		let r = (0, U.jsxs)(BM, {
-			align: `center`,
+			aliAxisAlignedBoundingBox: `center`,
 			gap: 1.5,
 			mb: 1,
 			children: [
@@ -141168,7 +141187,7 @@ var K8 = ({
 					as: `button`,
 					type: `button`,
 					w: `full`,
-					align: `center`,
+					aliAxisAlignedBoundingBox: `center`,
 					gap: 2,
 					mb: 2,
 					px: `0.15em`,
@@ -141199,7 +141218,7 @@ var K8 = ({
 					children: (0, U.jsx)(K, {
 						w: `full`,
 						gap: 2,
-						align: `stretch`,
+						aliAxisAlignedBoundingBox: `stretch`,
 						children: t,
 					}),
 				}),
@@ -141255,7 +141274,7 @@ var K8 = ({
 						py: `4`,
 						children: (0, U.jsx)(W, {
 							fontSize: X.subheading,
-							textAlign: `center`,
+							textAliAxisAlignedBoundingBox: `center`,
 							maxW: `90%`,
 							children: u ? t2 : r(`quicklaunch.createTooltipDisabled`),
 						}),
@@ -141267,7 +141286,7 @@ var K8 = ({
 							children: [
 								(0, U.jsx)(W, {
 									fontSize: X.subheading,
-									textAlign: `center`,
+									textAliAxisAlignedBoundingBox: `center`,
 									maxW: `90%`,
 									children: r(`planet.create.overLimit`, {
 										message: ie.message,
@@ -141339,7 +141358,7 @@ var K8 = ({
 							children: [
 								(0, U.jsxs)(K, {
 									flexShrink: 0,
-									align: `stretch`,
+									aliAxisAlignedBoundingBox: `stretch`,
 									gap: 1.5,
 									mb: 3,
 									children: [
@@ -141379,7 +141398,7 @@ var K8 = ({
 											? (0, U.jsxs)(K, {
 													w: `full`,
 													gap: 4,
-													align: `stretch`,
+													aliAxisAlignedBoundingBox: `stretch`,
 													children: [
 														ue &&
 															(0, U.jsxs)(c4, {
@@ -141441,11 +141460,11 @@ var K8 = ({
 											: (0, U.jsxs)(K, {
 													w: `full`,
 													gap: 4,
-													align: `stretch`,
+													aliAxisAlignedBoundingBox: `stretch`,
 													children: [
 														(0, U.jsxs)(K, {
 															gap: 2,
-															align: `stretch`,
+															aliAxisAlignedBoundingBox: `stretch`,
 															children: [
 																(0, U.jsx)(BM, {
 																	justify: `center`,
@@ -141502,7 +141521,7 @@ var K8 = ({
 											mt: 3,
 											flexShrink: 0,
 											gap: 3,
-											align: `stretch`,
+											aliAxisAlignedBoundingBox: `stretch`,
 											children: [
 												(0, U.jsx)(Z, {
 													type: `button`,
@@ -141745,7 +141764,7 @@ var K8 = ({
 									color: `black`,
 									border: `2px solid black`,
 									display: `flex`,
-									alignItems: `center`,
+									aliAxisAlignedBoundingBoxItems: `center`,
 									justifyContent: `center`,
 									fontSize: `0.7em`,
 									zIndex: 2,
@@ -141756,7 +141775,7 @@ var K8 = ({
 								bottom: `0.4em`,
 								left: `0.4em`,
 								gap: `0.3em`,
-								align: `center`,
+								aliAxisAlignedBoundingBox: `center`,
 								children: [
 									(0, U.jsx)(W8, { gameMode: e.gameMode }),
 									(0, U.jsx)(G, {
@@ -141821,14 +141840,14 @@ var K8 = ({
 					}),
 				}),
 				(0, U.jsxs)(K, {
-					align: `stretch`,
+					aliAxisAlignedBoundingBox: `stretch`,
 					gap: `0.2em`,
 					px: `0.8em`,
 					py: `0.65em`,
 					children: [
 						(0, U.jsxs)(G, {
 							justify: `space-between`,
-							align: `center`,
+							aliAxisAlignedBoundingBox: `center`,
 							gap: `0.4em`,
 							children: [
 								(0, U.jsxs)(G, {
@@ -142070,7 +142089,7 @@ var fKe = (e) => {
 				as: `button`,
 				flexShrink: 0,
 				display: `flex`,
-				alignItems: `center`,
+				aliAxisAlignedBoundingBoxItems: `center`,
 				justifyContent: `center`,
 				boxSize: `1.9em`,
 				fontSize: X.label,
@@ -142142,7 +142161,7 @@ var fKe = (e) => {
 			},
 			_ = (e) => !e.isOwner && (t || e.uuid === r);
 		return (0, U.jsxs)(K, {
-			align: `stretch`,
+			aliAxisAlignedBoundingBox: `stretch`,
 			gap: 2,
 			w: `full`,
 			pt: 1,
@@ -142204,7 +142223,7 @@ var fKe = (e) => {
 						w: `full`,
 						gap: 2,
 						pt: 1,
-						align: `center`,
+						aliAxisAlignedBoundingBox: `center`,
 						children: [
 							(0, U.jsx)(H, {
 								flex: 1,
@@ -142316,7 +142335,7 @@ var _Ke = ({ planetId: e, isLive: t }) => {
 					: void 0
 				: `Backups require Immortal rank or above`;
 		return (0, U.jsxs)(K, {
-			align: `stretch`,
+			aliAxisAlignedBoundingBox: `stretch`,
 			gap: 2,
 			w: `full`,
 			pt: 1,
@@ -142358,7 +142377,7 @@ var _Ke = ({ planetId: e, isLive: t }) => {
 						? (0, U.jsx)(W, {
 								fontSize: `xs`,
 								color: `gray.500`,
-								textAlign: `center`,
+								textAliAxisAlignedBoundingBox: `center`,
 								py: 2,
 								children: `No backups yet.`,
 							})
@@ -142379,7 +142398,7 @@ var _Ke = ({ planetId: e, isLive: t }) => {
 											(0, U.jsxs)(K, {
 												minW: 0,
 												gap: 0,
-												align: `start`,
+												aliAxisAlignedBoundingBox: `start`,
 												children: [
 													(0, U.jsx)(W, {
 														fontSize: `sm`,
@@ -142414,7 +142433,7 @@ var _Ke = ({ planetId: e, isLive: t }) => {
 													(0, U.jsx)(H, {
 														as: `button`,
 														display: `flex`,
-														alignItems: `center`,
+														aliAxisAlignedBoundingBoxItems: `center`,
 														justifyContent: `center`,
 														boxSize: `1.9em`,
 														color: `blue.200`,
@@ -142444,7 +142463,7 @@ var _Ke = ({ planetId: e, isLive: t }) => {
 													(0, U.jsx)(H, {
 														as: `button`,
 														display: `flex`,
-														alignItems: `center`,
+														aliAxisAlignedBoundingBoxItems: `center`,
 														justifyContent: `center`,
 														boxSize: `1.9em`,
 														color: `red.300`,
@@ -142511,7 +142530,7 @@ var _Ke = ({ planetId: e, isLive: t }) => {
 					py: 1,
 					minH: `2em`,
 					display: `flex`,
-					alignItems: `center`,
+					aliAxisAlignedBoundingBoxItems: `center`,
 					children: t
 						? (0, U.jsx)(TN, {
 								data: e,
@@ -142617,7 +142636,7 @@ var _Ke = ({ planetId: e, isLive: t }) => {
 			T = jNe() && _,
 			ee = !a && !d && (r != null || p);
 		return (0, U.jsxs)(K, {
-			align: `stretch`,
+			aliAxisAlignedBoundingBox: `stretch`,
 			gap: 2,
 			children: [
 				(0, U.jsxs)(W, {
@@ -142674,7 +142693,7 @@ var _Ke = ({ planetId: e, isLive: t }) => {
 											onError: () => f(!0),
 										})
 									: (0, U.jsx)(BM, {
-											align: `center`,
+											aliAxisAlignedBoundingBox: `center`,
 											justify: `center`,
 											h: `full`,
 											color: `gray.500`,
@@ -142693,7 +142712,7 @@ var _Ke = ({ planetId: e, isLive: t }) => {
 				_
 					? (0, U.jsxs)(G, {
 							gap: 2,
-							align: `stretch`,
+							aliAxisAlignedBoundingBox: `stretch`,
 							children: [
 								(0, U.jsx)(Z, {
 									flex: 1,
@@ -142744,7 +142763,7 @@ var _Ke = ({ planetId: e, isLive: t }) => {
 							],
 						})
 					: (0, U.jsxs)(K, {
-							align: `stretch`,
+							aliAxisAlignedBoundingBox: `stretch`,
 							gap: 2,
 							children: [
 								(0, U.jsx)(H, {
@@ -142753,7 +142772,7 @@ var _Ke = ({ planetId: e, isLive: t }) => {
 									p: `0.6em`,
 									children: (0, U.jsxs)(G, {
 										gap: 2,
-										align: `flex-start`,
+										aliAxisAlignedBoundingBox: `flex-start`,
 										children: [
 											(0, U.jsx)(H, {
 												pt: `2px`,
@@ -142829,7 +142848,7 @@ var _Ke = ({ planetId: e, isLive: t }) => {
 							}),
 							(0, U.jsxs)(G, {
 								gap: 2,
-								align: `stretch`,
+								aliAxisAlignedBoundingBox: `stretch`,
 								children: [
 									(0, U.jsx)(Z, {
 										flex: 1,
@@ -143050,7 +143069,7 @@ var l5 = ({ world: e, isOpen: t, onClose: n, onSaved: r }) => {
 								(0, U.jsx)(K, {
 									w: [`4em`, `12em`],
 									flexShrink: 0,
-									align: `stretch`,
+									aliAxisAlignedBoundingBox: `stretch`,
 									gap: 1,
 									py: 2,
 									borderRight: `thick`,
@@ -143095,7 +143114,7 @@ var l5 = ({ world: e, isOpen: t, onClose: n, onSaved: r }) => {
 								(0, U.jsxs)(K, {
 									flex: 1,
 									minH: 0,
-									align: `stretch`,
+									aliAxisAlignedBoundingBox: `stretch`,
 									gap: 0,
 									children: [
 										(0, U.jsx)(H, {
@@ -143106,7 +143125,7 @@ var l5 = ({ world: e, isOpen: t, onClose: n, onSaved: r }) => {
 											pr: [`3em`, `3.5em`],
 											children: (0, U.jsx)(uD, {
 												size: `lg`,
-												textAlign: [`center`, `left`],
+												textAliAxisAlignedBoundingBox: [`center`, `left`],
 												children: me,
 											}),
 										}),
@@ -143191,7 +143210,7 @@ var l5 = ({ world: e, isOpen: t, onClose: n, onSaved: r }) => {
 													(0, U.jsxs)(K, {
 														w: `full`,
 														gap: 2,
-														align: `stretch`,
+														aliAxisAlignedBoundingBox: `stretch`,
 														children: [
 															(0, U.jsx)(W, {
 																fontSize: `xs`,
@@ -143311,7 +143330,7 @@ var l5 = ({ world: e, isOpen: t, onClose: n, onSaved: r }) => {
 					flex: 1,
 					flexDirection: `column`,
 					gap: 3,
-					textAlign: `center`,
+					textAliAxisAlignedBoundingBox: `center`,
 					px: 4,
 					color: `gray.300`,
 					children: [
@@ -143363,7 +143382,7 @@ var l5 = ({ world: e, isOpen: t, onClose: n, onSaved: r }) => {
 												flex: 1,
 												flexDirection: `column`,
 												gap: 3,
-												textAlign: `center`,
+												textAliAxisAlignedBoundingBox: `center`,
 												px: 4,
 												color: `gray.300`,
 												children: [
@@ -143432,7 +143451,7 @@ var l5 = ({ world: e, isOpen: t, onClose: n, onSaved: r }) => {
 															ie.length === 0
 																? (0, U.jsx)(W, {
 																		fontSize: `lg`,
-																		textAlign: `center`,
+																		textAliAxisAlignedBoundingBox: `center`,
 																		py: `6`,
 																		color: `gray.400`,
 																		children: r(`planet.load.noResults`, {
@@ -143595,7 +143614,7 @@ var l5 = ({ world: e, isOpen: t, onClose: n, onSaved: r }) => {
 									flex: 1,
 									minH: 0,
 									h: `full`,
-									align: `stretch`,
+									aliAxisAlignedBoundingBox: `stretch`,
 									gap: 0,
 									children: [
 										Q.isMobile
@@ -143701,7 +143720,7 @@ var l5 = ({ world: e, isOpen: t, onClose: n, onSaved: r }) => {
 									children: (0, U.jsxs)(K, {
 										w: `full`,
 										gap: `3`,
-										align: `stretch`,
+										aliAxisAlignedBoundingBox: `stretch`,
 										children: [
 											s == null
 												? (0, U.jsxs)(TM, {
@@ -143819,7 +143838,7 @@ var l5 = ({ world: e, isOpen: t, onClose: n, onSaved: r }) => {
 							placeholder: n(`quicklaunch.invite.placeholder`),
 							inputProps: { autoCapitalize: `characters`, maxLength: u5 },
 							style: {
-								textAlign: `center`,
+								textAliAxisAlignedBoundingBox: `center`,
 								letterSpacing: `0.5em`,
 								paddingLeft: `0.5em`,
 								fontSize: `1.8em`,
@@ -143907,7 +143926,7 @@ var l5 = ({ world: e, isOpen: t, onClose: n, onSaved: r }) => {
 						`bloodmoon`,
 						`inferno`,
 						`abyss`,
-						`ragnarok`,
+						`raAxisAlignedBoundingBoxarok`,
 						`obsidian`,
 						`dreadfall`,
 						`voidreach`,
@@ -144096,7 +144115,7 @@ var l5 = ({ world: e, isOpen: t, onClose: n, onSaved: r }) => {
 		bloodmoon: `🩸 Bloodmoon`,
 		inferno: `🔥 Inferno`,
 		abyss: `🕳️ Abyss`,
-		ragnarok: `⚡ Ragnarok`,
+		raAxisAlignedBoundingBoxarok: `⚡ RaAxisAlignedBoundingBoxarok`,
 		obsidian: `⬛ Obsidian`,
 		dreadfall: `💀 Dreadfall`,
 		voidreach: `🌑 Voidreach`,
@@ -144171,7 +144190,7 @@ var l5 = ({ world: e, isOpen: t, onClose: n, onSaved: r }) => {
 									w: `2.4em`,
 									h: `2.4em`,
 									display: `flex`,
-									alignItems: `center`,
+									aliAxisAlignedBoundingBoxItems: `center`,
 									justifyContent: `center`,
 									bg: t,
 									borderRadius: 6,
@@ -144179,7 +144198,7 @@ var l5 = ({ world: e, isOpen: t, onClose: n, onSaved: r }) => {
 									children: (0, U.jsx)(P$, { color: `white` }),
 								}),
 								(0, U.jsxs)(K, {
-									align: `start`,
+									aliAxisAlignedBoundingBox: `start`,
 									gap: `0.05em`,
 									minW: 0,
 									children: [
@@ -144206,7 +144225,7 @@ var l5 = ({ world: e, isOpen: t, onClose: n, onSaved: r }) => {
 							w: `2em`,
 							h: `2em`,
 							display: `flex`,
-							alignItems: `center`,
+							aliAxisAlignedBoundingBoxItems: `center`,
 							justifyContent: `center`,
 							bg: `whiteAlpha.300`,
 							borderRadius: `full`,
@@ -144251,7 +144270,7 @@ var l5 = ({ world: e, isOpen: t, onClose: n, onSaved: r }) => {
 					w: `2em`,
 					h: `2em`,
 					display: `flex`,
-					alignItems: `center`,
+					aliAxisAlignedBoundingBoxItems: `center`,
 					justifyContent: `center`,
 					bg: `rgba(0,0,0,0.35)`,
 					border: `1px solid rgba(255,255,255,0.18)`,
@@ -144332,7 +144351,7 @@ var l5 = ({ world: e, isOpen: t, onClose: n, onSaved: r }) => {
 						w: [`2.6em`, `3em`, `3.2em`],
 						h: [`2.6em`, `3em`, `3.2em`],
 						display: `flex`,
-						alignItems: `center`,
+						aliAxisAlignedBoundingBoxItems: `center`,
 						justifyContent: `center`,
 						borderRadius: 6,
 						bg: `${o}22`,
@@ -144343,7 +144362,7 @@ var l5 = ({ world: e, isOpen: t, onClose: n, onSaved: r }) => {
 					(0, U.jsxs)(K, {
 						flex: 1,
 						minW: 0,
-						align: `start`,
+						aliAxisAlignedBoundingBox: `start`,
 						gap: `0.05em`,
 						children: [
 							(0, U.jsx)(W, {
@@ -144467,7 +144486,7 @@ var l5 = ({ world: e, isOpen: t, onClose: n, onSaved: r }) => {
 				(0, U.jsxs)(K, {
 					flex: 1,
 					minW: 0,
-					align: `start`,
+					aliAxisAlignedBoundingBox: `start`,
 					gap: `0.05em`,
 					children: [
 						(0, U.jsx)(W, {
@@ -144600,14 +144619,14 @@ var l5 = ({ world: e, isOpen: t, onClose: n, onSaved: r }) => {
 						gap: `0.8em`,
 						py: `1.5em`,
 						px: `1em`,
-						textAlign: `center`,
+						textAliAxisAlignedBoundingBox: `center`,
 						children: [
 							(0, U.jsx)(H, {
 								flexShrink: 0,
 								w: `3em`,
 								h: `3em`,
 								display: `flex`,
-								alignItems: `center`,
+								aliAxisAlignedBoundingBoxItems: `center`,
 								justifyContent: `center`,
 								bg: `surface.nested`,
 								border: `thick`,
@@ -144633,7 +144652,7 @@ var l5 = ({ world: e, isOpen: t, onClose: n, onSaved: r }) => {
 						],
 					})
 				: (0, U.jsxs)(K, {
-						align: `stretch`,
+						aliAxisAlignedBoundingBox: `stretch`,
 						gap: `0.8em`,
 						children: [
 							(0, U.jsx)(MKe, {
@@ -144648,7 +144667,7 @@ var l5 = ({ world: e, isOpen: t, onClose: n, onSaved: r }) => {
 							}),
 							(0, U.jsxs)(G, {
 								gap: `0.6em`,
-								align: `center`,
+								aliAxisAlignedBoundingBox: `center`,
 								color: `whiteAlpha.600`,
 								pt: `0.1em`,
 								children: [
@@ -144671,7 +144690,7 @@ var l5 = ({ world: e, isOpen: t, onClose: n, onSaved: r }) => {
 										w: `2.2em`,
 										h: `2.2em`,
 										display: `flex`,
-										alignItems: `center`,
+										aliAxisAlignedBoundingBoxItems: `center`,
 										justifyContent: `center`,
 										bg: `surface.nested`,
 										border: `medium`,
@@ -144690,7 +144709,7 @@ var l5 = ({ world: e, isOpen: t, onClose: n, onSaved: r }) => {
 							}),
 							y.length > 0
 								? (0, U.jsx)(K, {
-										align: `stretch`,
+										aliAxisAlignedBoundingBox: `stretch`,
 										gap: `0.5em`,
 										children: y.map((r) =>
 											(0, U.jsx)(
@@ -144722,7 +144741,7 @@ var l5 = ({ world: e, isOpen: t, onClose: n, onSaved: r }) => {
 										gap: `0.4em`,
 										py: `1.4em`,
 										color: `whiteAlpha.600`,
-										textAlign: `center`,
+										textAliAxisAlignedBoundingBox: `center`,
 										children: [
 											(0, U.jsx)(H, {
 												css: {
@@ -144746,7 +144765,7 @@ var l5 = ({ world: e, isOpen: t, onClose: n, onSaved: r }) => {
 					})
 			: d.lobby
 				? (0, U.jsx)(K, {
-						align: `stretch`,
+						aliAxisAlignedBoundingBox: `stretch`,
 						gap: `0.5em`,
 						children: Object.keys(m).map((t, n) =>
 							(0, U.jsx)(
@@ -144764,12 +144783,12 @@ var l5 = ({ world: e, isOpen: t, onClose: n, onSaved: r }) => {
 						),
 					})
 				: (0, U.jsxs)(K, {
-						align: `stretch`,
+						aliAxisAlignedBoundingBox: `stretch`,
 						gap: `0.6em`,
 						children: [
 							(0, U.jsxs)(G, {
 								gap: `0.6em`,
-								align: `center`,
+								aliAxisAlignedBoundingBox: `center`,
 								color: `whiteAlpha.600`,
 								children: [
 									(0, U.jsx)(W, {
@@ -144925,7 +144944,7 @@ var l5 = ({ world: e, isOpen: t, onClose: n, onSaved: r }) => {
 							position: `absolute`,
 							top: `0.6em`,
 							left: `0.6em`,
-							align: `flex-start`,
+							aliAxisAlignedBoundingBox: `flex-start`,
 							gap: `0.35em`,
 							pointerEvents: `none`,
 							children: r.map((e) =>
@@ -144953,7 +144972,7 @@ var l5 = ({ world: e, isOpen: t, onClose: n, onSaved: r }) => {
 							position: `absolute`,
 							top: `0.4em`,
 							right: `0.4em`,
-							align: `center`,
+							aliAxisAlignedBoundingBox: `center`,
 							gap: `0.25em`,
 							pointerEvents: `none`,
 							children: [
@@ -144968,7 +144987,7 @@ var l5 = ({ world: e, isOpen: t, onClose: n, onSaved: r }) => {
 						left: 0,
 						right: 0,
 						bottom: 0,
-						align: `stretch`,
+						aliAxisAlignedBoundingBox: `stretch`,
 						gap: `0.15em`,
 						p: l ? `0.9em` : `0.6em`,
 						pointerEvents: `none`,
@@ -145114,7 +145133,7 @@ var IKe = `/assets/miniblox-icon-COX9pnDx.png`,
 			r = m(t?.rank),
 			[i] = (0, j.useState)(() => x5[Math.floor(Math.random() * x5.length)]);
 		return (0, U.jsxs)(G, {
-			align: `center`,
+			aliAxisAlignedBoundingBox: `center`,
 			gap: e ? `0.6em` : `0.7em`,
 			justify: e ? `start` : `center`,
 			children: [
@@ -145129,9 +145148,9 @@ var IKe = `/assets/miniblox-icon-COX9pnDx.png`,
 					mr: `0.5em`,
 				}),
 				(0, U.jsxs)(K, {
-					align: `start`,
+					aliAxisAlignedBoundingBox: `start`,
 					gap: `0.25em`,
-					textAlign: `left`,
+					textAliAxisAlignedBoundingBox: `left`,
 					children: [
 						(0, U.jsx)(W, {
 							fontSize: e ? X.heading : X.display,
@@ -145155,7 +145174,7 @@ var IKe = `/assets/miniblox-icon-COX9pnDx.png`,
 						}),
 						(0, U.jsxs)(G, {
 							gap: `0.5em`,
-							align: `center`,
+							aliAxisAlignedBoundingBox: `center`,
 							css: { "& svg": { width: `1em`, height: `1em` } },
 							children: [
 								(0, U.jsx)(P$, { color: `#ffd24a`, size: `1em` }),
@@ -145186,7 +145205,7 @@ var IKe = `/assets/miniblox-icon-COX9pnDx.png`,
 	qKe = `/assets/plots-CIWjpaoU.webp`,
 	JKe = `/assets/pvp-BXVB4Fcb.webp`,
 	YKe = `/assets/skywars-BPDhqFhK.webp`,
-	XKe = `/assets/spleef-CgnHYX5F.webp`,
+	XKe = `/assets/spleef-CAxisAlignedBoundingBoxHYX5F.webp`,
 	ZKe = `/assets/superflat-VDr0gVde.webp`,
 	QKe = (e) => {
 		if (!e.updatedAt) return !1;
@@ -145420,7 +145439,7 @@ var rqe = ({ sub: e, accent: t, onPlay: n }) =>
 				(0, U.jsxs)(K, {
 					flex: 1,
 					minW: 0,
-					align: `start`,
+					aliAxisAlignedBoundingBox: `start`,
 					gap: `0.05em`,
 					children: [
 						(0, U.jsx)(W, {
@@ -145520,7 +145539,7 @@ var rqe = ({ sub: e, accent: t, onPlay: n }) =>
 											px: [5, 6],
 											pb: [3, 4],
 											gap: 0.5,
-											align: `start`,
+											aliAxisAlignedBoundingBox: `start`,
 											children: [
 												(0, U.jsx)(W, {
 													fontSize: X.heading,
@@ -145542,7 +145561,7 @@ var rqe = ({ sub: e, accent: t, onPlay: n }) =>
 									px: [5, 6],
 									py: [4, 5],
 									gap: [3, 4],
-									align: `stretch`,
+									aliAxisAlignedBoundingBox: `stretch`,
 									children: [
 										!d &&
 											(0, U.jsxs)(U.Fragment, {
@@ -145555,7 +145574,7 @@ var rqe = ({ sub: e, accent: t, onPlay: n }) =>
 													}),
 													(0, U.jsxs)(K, {
 														gap: 2,
-														align: `stretch`,
+														aliAxisAlignedBoundingBox: `stretch`,
 														children: [
 															(0, U.jsx)(W, {
 																fontSize: X.body,
@@ -145567,7 +145586,7 @@ var rqe = ({ sub: e, accent: t, onPlay: n }) =>
 																	G,
 																	{
 																		gap: 3,
-																		align: `start`,
+																		aliAxisAlignedBoundingBox: `start`,
 																		children: [
 																			(0, U.jsx)(TM, {
 																				w: `1.7em`,
@@ -145597,12 +145616,12 @@ var rqe = ({ sub: e, accent: t, onPlay: n }) =>
 											}),
 										c
 											? (0, U.jsxs)(K, {
-													align: `stretch`,
+													aliAxisAlignedBoundingBox: `stretch`,
 													gap: `0.6em`,
 													children: [
 														(0, U.jsxs)(G, {
 															gap: `0.6em`,
-															align: `center`,
+															aliAxisAlignedBoundingBox: `center`,
 															color: `whiteAlpha.600`,
 															children: [
 																(0, U.jsx)(W, {
@@ -145630,7 +145649,7 @@ var rqe = ({ sub: e, accent: t, onPlay: n }) =>
 															: (0, U.jsxs)(W, {
 																	fontSize: X.small,
 																	color: `whiteAlpha.600`,
-																	textAlign: `center`,
+																	textAliAxisAlignedBoundingBox: `center`,
 																	py: `1em`,
 																	children: [
 																		`No `,
@@ -145674,7 +145693,7 @@ var rqe = ({ sub: e, accent: t, onPlay: n }) =>
 															(0, U.jsx)(W, {
 																fontSize: X.caption,
 																color: `whiteAlpha.600`,
-																textAlign: `center`,
+																textAliAxisAlignedBoundingBox: `center`,
 																children: `Free • No download • Plays in your browser`,
 															}),
 														],
@@ -146072,7 +146091,7 @@ var oqe = {
 	L5 = ({ icon: e, label: t }) =>
 		(0, U.jsxs)(G, {
 			gap: `0.5em`,
-			align: `center`,
+			aliAxisAlignedBoundingBox: `center`,
 			css: { "& svg": { width: `1.1em`, height: `1.1em` } },
 			children: [
 				e,
@@ -146100,7 +146119,7 @@ var oqe = {
 			h: `full`,
 			minH: [`4.2em`, `4.4em`, `4.6em`],
 			gap: `0.3em`,
-			align: `center`,
+			aliAxisAlignedBoundingBox: `center`,
 			justify: `center`,
 			p: `0.6em`,
 			layerStyle: `acrylic`,
@@ -146122,12 +146141,12 @@ var oqe = {
 				e,
 				(0, U.jsxs)(K, {
 					gap: `0`,
-					align: `center`,
+					aliAxisAlignedBoundingBox: `center`,
 					children: [
 						(0, U.jsx)(W, {
 							fontSize: X.small,
 							lineHeight: 1.1,
-							textAlign: `center`,
+							textAliAxisAlignedBoundingBox: `center`,
 							children: t,
 						}),
 						n &&
@@ -146135,7 +146154,7 @@ var oqe = {
 								fontSize: X.tiny,
 								color: `whiteAlpha.700`,
 								lineHeight: 1.1,
-								textAlign: `center`,
+								textAliAxisAlignedBoundingBox: `center`,
 								children: n,
 							}),
 					],
@@ -146159,7 +146178,7 @@ var oqe = {
 			transform: `translate(${e === `left` ? `-` : ``}${cqe}%, -50%)`,
 			zIndex: 2,
 			display: `flex`,
-			alignItems: `center`,
+			aliAxisAlignedBoundingBoxItems: `center`,
 			justifyContent: `center`,
 			w: z5,
 			h: z5,
@@ -146195,7 +146214,7 @@ var oqe = {
 				WebkitOverflowScrolling: `touch`,
 				scrollbarWidth: `none`,
 				"&::-webkit-scrollbar": { display: `none` },
-				"& > *": { scrollSnapAlign: `start`, minWidth: 0 },
+				"& > *": { scrollSnapAliAxisAlignedBoundingBox: `start`, minWidth: 0 },
 			},
 			children: t,
 		}),
@@ -146241,12 +146260,12 @@ var oqe = {
 			t && (JQ(), t.scrollBy({ left: e * t.clientWidth, behavior: `smooth` }));
 		};
 		return (0, U.jsxs)(K, {
-			align: `stretch`,
+			aliAxisAlignedBoundingBox: `stretch`,
 			gap: `0.7em`,
 			children: [
 				(0, U.jsxs)(G, {
 					justify: `space-between`,
-					align: `center`,
+					aliAxisAlignedBoundingBox: `center`,
 					children: [
 						(0, U.jsx)(L5, { icon: e, label: t }),
 						!i &&
@@ -146283,7 +146302,7 @@ var oqe = {
 										WebkitOverflowScrolling: `touch`,
 										scrollbarWidth: `none`,
 										"&::-webkit-scrollbar": { display: `none` },
-										"& > *": { scrollSnapAlign: `start`, minWidth: 0 },
+										"& > *": { scrollSnapAliAxisAlignedBoundingBox: `start`, minWidth: 0 },
 									},
 									children: n,
 								}),
@@ -146609,7 +146628,7 @@ var oqe = {
 			return n;
 		}, [ie, l, n?.verified, JSON.stringify(fe), pe, i, se, oe]);
 		return (0, U.jsxs)(K, {
-			align: `stretch`,
+			aliAxisAlignedBoundingBox: `stretch`,
 			gap: [`1.2em`, `1.4em`, `1.6em`],
 			w: `full`,
 			children: [
@@ -146638,7 +146657,7 @@ var oqe = {
 					children: (0, U.jsx)(S5, {}),
 				}),
 				(0, U.jsxs)(K, {
-					align: `stretch`,
+					aliAxisAlignedBoundingBox: `stretch`,
 					gap: `0.7em`,
 					children: [
 						(0, U.jsx)(L5, {
@@ -146701,7 +146720,7 @@ var oqe = {
 						rows: 1,
 					}),
 				(0, U.jsxs)(K, {
-					align: `stretch`,
+					aliAxisAlignedBoundingBox: `stretch`,
 					gap: `0.7em`,
 					children: [
 						(0, U.jsx)(L5, {
@@ -146846,7 +146865,7 @@ var W5 = zQ(function ({
 	onOpenDailyBonus: n,
 }) {
 	let r = Jt(),
-		{ loading: i, error: a, profile: o, signout: c } = j.useContext(_J),
+		{ loading: i, error: a, profile: o, siAxisAlignedBoundingBoxout: c } = j.useContext(_J),
 		l = wUe(o ? o.coins : 0, 3500, !!o),
 		{ startAuth: u, busy: d } = J4(),
 		f = (0, j.useMemo)(() => {
@@ -146871,7 +146890,7 @@ var W5 = zQ(function ({
 	let v = o?.isGuest === !0,
 		y = (0, U.jsxs)(K, {
 			gap: `0.4em`,
-			align: `stretch`,
+			aliAxisAlignedBoundingBox: `stretch`,
 			children: [
 				(0, U.jsx)(Z, {
 					h: `2.1em`,
@@ -146881,7 +146900,7 @@ var W5 = zQ(function ({
 					fontSize: X.small,
 					whiteSpace: `nowrap`,
 					loading: d,
-					onClick: () => u(`signin`),
+					onClick: () => u(`siAxisAlignedBoundingBoxin`),
 					leftIcon: (0, U.jsx)(h1, { size: `1em` }),
 					children: `Log In`,
 				}),
@@ -146894,7 +146913,7 @@ var W5 = zQ(function ({
 					whiteSpace: `nowrap`,
 					colorScheme: `green`,
 					loading: d,
-					onClick: () => u(`signup`),
+					onClick: () => u(`siAxisAlignedBoundingBoxup`),
 					leftIcon: (0, U.jsx)(T1, { size: `1em` }),
 					children: `Create Account`,
 				}),
@@ -146905,7 +146924,7 @@ var W5 = zQ(function ({
 			w: `full`,
 			display: { base: `none`, xl: `block` },
 			children: (0, U.jsxs)(K, {
-				align: `stretch`,
+				aliAxisAlignedBoundingBox: `stretch`,
 				gap: `0.7em`,
 				children: [
 					(0, U.jsx)(W, {
@@ -146920,18 +146939,18 @@ var W5 = zQ(function ({
 							G,
 							{
 								gap: `0.7em`,
-								align: `center`,
+								aliAxisAlignedBoundingBox: `center`,
 								children: [
 									(0, U.jsx)(H, {
 										flexShrink: 0,
 										w: `1.8em`,
 										display: `flex`,
-										alignItems: `center`,
+										aliAxisAlignedBoundingBoxItems: `center`,
 										justifyContent: `center`,
 										children: (0, U.jsx)(e, { size: `1.4em`, color: m5 }),
 									}),
 									(0, U.jsxs)(K, {
-										align: `stretch`,
+										aliAxisAlignedBoundingBox: `stretch`,
 										gap: 0,
 										minW: 0,
 										flex: 1,
@@ -146968,11 +146987,11 @@ var W5 = zQ(function ({
 			w: `full`,
 			children: (0, U.jsxs)(K, {
 				gap: `0.6em`,
-				align: `stretch`,
+				aliAxisAlignedBoundingBox: `stretch`,
 				children: [
 					(0, U.jsx)(W, {
 						fontSize: X.small,
-						textAlign: `center`,
+						textAliAxisAlignedBoundingBox: `center`,
 						children: x,
 					}),
 					a &&
@@ -146980,7 +146999,7 @@ var W5 = zQ(function ({
 							colorScheme: `red`,
 							onClick: () => c(r),
 							w: `full`,
-							children: `Sign Out`,
+							children: `SiAxisAlignedBoundingBox Out`,
 						}),
 				],
 			}),
@@ -146990,7 +147009,7 @@ var W5 = zQ(function ({
 			t = e > 14 ? X.small : e > 10 ? X.body : X.subheading;
 		return (0, U.jsxs)(K, {
 			gap: `0.7em`,
-			align: `stretch`,
+			aliAxisAlignedBoundingBox: `stretch`,
 			w: `full`,
 			children: [
 				(0, U.jsx)(g5, {
@@ -146998,7 +147017,7 @@ var W5 = zQ(function ({
 					w: `full`,
 					children: (0, U.jsxs)(G, {
 						gap: `0.9em`,
-						align: `center`,
+						aliAxisAlignedBoundingBox: `center`,
 						children: [
 							(0, U.jsx)(H, {
 								position: `relative`,
@@ -147015,13 +147034,13 @@ var W5 = zQ(function ({
 							}),
 							(0, U.jsxs)(K, {
 								ref: _,
-								align: `stretch`,
+								aliAxisAlignedBoundingBox: `stretch`,
 								gap: 0,
 								minW: 0,
 								flex: 1,
 								children: [
 									(0, U.jsx)(K, {
-										align: `stretch`,
+										aliAxisAlignedBoundingBox: `stretch`,
 										gap: `0.1em`,
 										minW: 0,
 										pt: `0.2em`,
@@ -147052,7 +147071,7 @@ var W5 = zQ(function ({
 		ne = te > 14 ? X.small : te > 10 ? X.body : X.subheading;
 	return (0, U.jsxs)(K, {
 		gap: `0.7em`,
-		align: `stretch`,
+		aliAxisAlignedBoundingBox: `stretch`,
 		w: `full`,
 		children: [
 			(0, U.jsx)(g5, {
@@ -147070,7 +147089,7 @@ var W5 = zQ(function ({
 				},
 				children: (0, U.jsxs)(G, {
 					gap: `0.9em`,
-					align: `center`,
+					aliAxisAlignedBoundingBox: `center`,
 					children: [
 						(0, U.jsxs)(H, {
 							position: `relative`,
@@ -147094,7 +147113,7 @@ var W5 = zQ(function ({
 									border: `3px ${w} solid`,
 									borderRadius: 6,
 									minW: `1.6em`,
-									textAlign: `center`,
+									textAliAxisAlignedBoundingBox: `center`,
 									px: `0.25em`,
 									lineHeight: 1.2,
 									children: (0, U.jsx)(W, {
@@ -147115,7 +147134,7 @@ var W5 = zQ(function ({
 										minW: `1.6em`,
 										px: `0.25em`,
 										lineHeight: 1.2,
-										align: `center`,
+										aliAxisAlignedBoundingBox: `center`,
 										justify: `center`,
 										title: `${T}-day login streak${ee ? ` • ${ee.label}` : ``}`,
 										cursor: n ? `pointer` : void 0,
@@ -147132,7 +147151,7 @@ var W5 = zQ(function ({
 											: void 0,
 										children: [
 											(0, U.jsx)(Q0, {
-												src: `data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAMAAAD04JH5AAABvFBMVEVHcEz029jMNkXRcHrNP03ObXvIOEf7+fr06ezhn6nGQFLVdoPHLz+9foTXmKHKUF7hrqzIP03v2dvWgY7CNEPdnaHQYGzOdIDDaHbCUF3Rg4/snF27WmfEUmHBUl7DQVHPe4fJXmvrx8jGZnLGf4r87KXahI/Oe4jHNUXKW2rSgYzATFvLX2zMLz/JTVvv1GjBbHrAxisAlignedBoundingBoxKXXlJ7HQFHurWfwtYPtp3HYn6jwlU/RV1f35pHgVTjSUVPjrH/hjW/wq2ryjz7/HiPzwwD/54PWHi7/gyP/gSL1wgDXHi70wwHVHSv0xAD+gST+giH/gyH/gh/XHC7yxAD3vAfQIzTUHi/THiz8gx3/gSj+6ID6hRvYHSv2wQT8gyP/6Ib5kBXlSyfWHSn+6IP4tAv5rgv2binuXyr/gyX9firQIC/TIibywwT1wwP6iBjMJjfdOiX4uAjUHif4mhLVICrzyiD5jBfJKzvzZiz10Tb4oRP4pAzWJybwxQz74mneQCb95XPNIzLrWCj5qQ3ZLyXVJCfPLDz6gij53lv4lBX95nnxxxf11kT5dSvUKiDtYybzziz8fiXoUiXyxgH9ey33hTCIQN57AAAAQXRSTlMAFfSP7rL8AwYu65r5EyPXPfUMN9ROuG9ChlyvYruauWeOI6EsrnlK77CI48T9ytl/GkPdwZiOOvjjuP7wqo7m/ZZ1er0AAAsFSURBVHja7NrvU9rIGwDwq1ahaPG031bPqdaq09qzOv3xonPzvVdx+ZE0wQBJICTyGyQBRBAtCEpBT6uoaP/i2w2gwFi9kQhvfF6VGWo+7D67z7MLv/32EA/xEA/xEA9xt9BotZquAsYnJt496Sbgj3ik/3lXAQVXlwFx1/6Lmd4vXQQAULAPjnYPYAcA0PtdBqTifW9QjGu7BABMfBPF/MdurAKCIVgGEJDBfn7aecCHubkehgFKMLq3z593ehY+Ppud6mGrADY+2D8/2/lBeNbjBXAMGDgQzPpcVwAEYFOpdRisd+6TRtsFQMrzHYVHoveHXk3Mdh6wt2VxhMPhLclMAGZzrBsAirJYDKcSIAhi4W3HAWBvy4Ai6PHsSK74+8nJt10BUCRpCJ4QtD2y2dsdgJGkgicAmNn4QMcBMAMMBksYjgAw00Th/eho5yrTsx6mlgMWgwUBAOGyx+NDjzoKsFwBAGNOES66Q4CnT/TjPXsnwVgMEiwWS/lkb1ui4a7M/vW7Xt+Bjv2DTvc4tBXM+AOHFEUtG1aDW1slWJtZekGnG9J3oh8AJ0Eq5r8QknAVkqQoUj9LBAHrI8zFYbVPDCOPHo00voDxurB+EvyHD1iFJM/zFnormalizeAngleSVLkkSV6CZVPexyoDtDNDQ3/WX0z3DaH4OxQ6rVCxAIb5i4EMZxRFcvU09L3EosWgNmBkMVJ4UV/d0/MRlo2wOw4LHHU4Alg0Gg3wJEUajWHH6g7qUVQeAa320WKEqQG02ul5hnZ513cclMhxMAcwWcYCMZGjjBRnvA/AbN+L9z1sDfBxBr4AqTWP5/Qfks9kszYcw3FTIpvNxCg4CvcBGBuMRBgQqQK+DBcKLJDOHY6wgUwnolETAkCC4E8bRfKeAIT5EvD7MGsGXuI8DHcfCMBqgWOmRLoCJ+GeAKABQIC1nZ3TsKEKwKsAE4bZsskkDwHEPQBSTAOAlkKrqyJphDX4CoBjVkyIJtykAmDUBrgYwss2AMJKB0AaY5dToITV5iYraywNe3T1AE9n9VODNL05ODijaQQYKT4WcyesLQCusnOyvZdSEfBSNzdnZ+x9Y2PV8qIA0PxTSb/fL7QClsVyMHguqQmIu1gXa79stKqA5TDJJYULzNo6BXAroCwhScUceDm4D2OhBQB3QD6JNz8ew2sAQ0jNYvTkTyW+NAFELhnwJ2S8E4DWqCYhV5QxXMauAxjuAaDV1guhVvNlbl0KkVy25dNfAoxNAHVuU2ffTUyM1y9HF/9//j0IAdH/AtB8mJj4oFFhI6ofN3rjke1g2CFS/xEw8r4QedX+IeHtoKsOsDPbQQPs/24D1DoizbuI9KrNEdBPTQ0sXALiBBwBLn14GGjZApoBLAKMjE9NDTHs59Gp8ZE2AKP9m5sRcAkwbwcdfNFmE2TsNsAX3f6CnWbtm5vz7fToo5su4KIbAQYOfXz81imAhZtGLTIgdHddkxr9p08DcZoBwN4AIPnANU9vAkjE8NSnN/1eeEQwA4b5310vETUD/f0LDGgEAAUQvQ3gtff399tB7RLx7oA+u5cgzPBvxJsBt46Ai4ANBKBVAJhdLvQ37APTT0bQMrwVQJKU5fRE2tuT9iRJSrULKKD/D1IppuezrldTA8Ak/CXACIuRWN6qx077I0Cge1CYBwzqCXvtxG0AoxGeElGgrtXhYdsGpNYlCV2EspEXIyMDtwEOeR4e15TDMgoIYNBVul6juSuALikXofDIGRl+tfh3hLghB2BfHCgW3dSyMg9wDCiHh0CAhcVXk/o7AsDaT0fY4VCa7UgE5jXciH4NwPGokFy2kMZldFI1WBweL7rPp5lI/6e7jsDaTxKOaWWHZWiGhcmwd8MqwDAZtx0uW1C5qsDTOpwCQrnMT3nv9gVfDYB64PO1WuyUGwE4PJDUqxJuQk2ikKRgx0zxh8lD3lidAsCYQRuAVdjkGQyVn6tKVCoVkQ9cPVKWrdaGuoTjEADbBdKdiCbStRyAArZtgHIVh4KCn64OMAnwZAwJjfNgSxpR/rttFwm3UU2AxVIFWBoAmHy0cdRUl62ykHXDSCdtXxNpUj0A3GBJCqa2wWJAALyW9UcHu/kN5V+XAKsNRcImYA0A0DYA7i3K/mJYdlDGajWUcdx0lF/5sWFCj23uj3Dcar2AJ9UawOUi2gZwfIwjUaERY3w6YFI+bC63kff9OMsd5VryAC5I2WbzXyahfWFf96w9AJfx+5PL6NiTLvr9NvQM+ewgn3f6nPl8/gwTWvcE/6HbzdUAzPCb8bu1hQ2AwEU0o0xB2m/9qqSA/M25tLSy5FvyOb/Bz980CbjVHyMpYx3QTjGqA4pRIcOJIiemE1gDQAnnNxnOQeMsIABaOaoC8EAmk8lmsjZT9VTcADg4Pj6TTU05oA7gtxlYjFZFUoQADIsKURhCFK+uOusVwOd0HuTQdZ3qgD/sBAJwDrFoailAX7FLAIwVCJAxU31DUBEASt9DpxUSTcFNgKX8t7ONHI6rnAMQYGYlqVQ28LcBnD9+HBxdzYFVvRwgWKAAvqL9Df8lYGllJX8Ey1P92gYuQ5ESHZ51lqZZ3V2PZpoPOl0Pw5bKFh5uRDa4994AWNo929iIVgG4KZE8dFMOCGAWdLrFO58NP+r1vZuuUpkT+XQsi1ubMrF1BJy7qDIpb8FNJrQVoxGIDD3Rf2znhP6yCuAoKiM0AvAWABT4fLs1gNIfKtXQG2n3fuBl3FXaKpcrIgcB9SSw4rmjo2Nns2BpyfdjA6u+BZ2e6wBt24DUSenkNMxlG0ZA/pbP77YCVhAAJofqADNLr4coKivUx/crJh/74PbnawE47wWwyRQI83qIE69GwCrLx84bARgejSoAtrA40h7g2czk+31GClmuAPLZ8XG+5eGtAFs2c3ju8fzVN/lSjVsyOqUAajtd7mDFt3IjwPrVH6PK8Dg3qcpXyGODRCoURgClFasClq4BKEmIChIOAY5yiS5MqvAN/cDrdwvKj3X4YtGv7DLywdK14YMA9AbBViwmT7+fbwNm6PXrqbaT0G53uRjArntEPol6Pzx34PuFAI2ASYgGeDG4zbKEF/2aYfFRu8uQZVnY2APi3CEqAEy+AWDFhehFgDMG99AP7VwE0fYyHJvXPbbTZkB7z8Piod/vN2G544OD3esMKwiQCAQyHBnco2EwPTrdTJt5+HR6enwQ3dKwcAT4GO/2C1gulzt2rlyTA7AWCMlY7N9FuvmVNQe4hIYGayopUWE5hzpPFBAkTAD20Nx8SoAJERjOXcDKJxbd/oi64kBQ7zgmzD+lyssrgCq5ABQLbOBVm9aTJqWDHBAUlOWZ1VXX0YGWFyM6gNVxUFB7jE//pEllVV4ZuaWl1HGAoYI4CPDn5U3o942Jay8EBkJncR84FmLhZUBiHbBZWBHXHukT05uX11TkpcstLm7EQEWgmRFa2wrsnPgAu+fA2iCrvCMxAhEIEcAmmWdQHGhkxje1wMvFpYiHyqvK2DXr62snT54cE5OTnB0NBOUdwOoIlhmAbqnpzM6Pi4kBKumtBwE2ajtASlGR2czMxMHHt70QBJLKy7tguTGxpry8r6KwMDKm1d7UzE4RBJhps5JHwALUS/f1BRWLnp01wLgHg7bqQGB3PCymdbIpA00Bu4BFKxQURmcBHQAFbdVZSSUgUQcaO4BByVYaCkz09fWtVKHACsgxkTYBCtN8xT8HOxQIMSoxInEYGYXYhdjZ6bvrY2D3mIyCUTAKRsEoGAWjgGoAANxBy+Y1K4DTAAAAAElFTkSuQmCC`,
+												src: `data:image/png;base64,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`,
 												alt: `login streak`,
 												width: `0.9em`,
 												height: `0.9em`,
@@ -147149,13 +147168,13 @@ var W5 = zQ(function ({
 						}),
 						(0, U.jsxs)(K, {
 							ref: _,
-							align: `stretch`,
+							aliAxisAlignedBoundingBox: `stretch`,
 							gap: 0,
 							minW: 0,
 							flex: 1,
 							children: [
 								(0, U.jsxs)(K, {
-									align: `stretch`,
+									aliAxisAlignedBoundingBox: `stretch`,
 									gap: `0.1em`,
 									minW: 0,
 									pt: `0.2em`,
@@ -147193,7 +147212,7 @@ var W5 = zQ(function ({
 								}),
 								(0, U.jsxs)(G, {
 									gap: `0.6em`,
-									align: `stretch`,
+									aliAxisAlignedBoundingBox: `stretch`,
 									mt: `0.6em`,
 									onClick: (e) => e.stopPropagation(),
 									children: [
@@ -147286,7 +147305,7 @@ var Z5 = ({ children: e, accent: t }) =>
 			border: `medium`,
 			borderColor: t ?? `blackAlpha.700`,
 			bg: `rgba(0, 0, 0, 0.35)`,
-			alignItems: `center`,
+			aliAxisAlignedBoundingBoxItems: `center`,
 			flexShrink: 0,
 			children: e,
 		}),
@@ -147346,23 +147365,23 @@ var Z5 = ({ children: e, accent: t }) =>
 			p: 3,
 			transition: `box-shadow 0.2s ease`,
 			children: (0, U.jsxs)(K, {
-				align: `stretch`,
+				aliAxisAlignedBoundingBox: `stretch`,
 				gap: 2.5,
 				children: [
 					(0, U.jsxs)(G, {
-						align: `flex-start`,
+						aliAxisAlignedBoundingBox: `flex-start`,
 						gap: 3,
 						children: [
 							(0, U.jsx)(xqe, { ready: c }),
 							(0, U.jsxs)(K, {
-								align: `flex-start`,
+								aliAxisAlignedBoundingBox: `flex-start`,
 								gap: 0.5,
 								flex: 1,
 								minW: 0,
 								children: [
 									(0, U.jsxs)(G, {
 										gap: 2,
-										align: `center`,
+										aliAxisAlignedBoundingBox: `center`,
 										w: `full`,
 										children: [
 											(0, U.jsx)(W, { fontSize: X.label, children: e.title }),
@@ -147393,7 +147412,7 @@ var Z5 = ({ children: e, accent: t }) =>
 					(0, U.jsx)(Sqe, { pct: o, label: s, ready: c }),
 					(0, U.jsxs)(G, {
 						justify: `space-between`,
-						align: `center`,
+						aliAxisAlignedBoundingBox: `center`,
 						gap: 2,
 						flexWrap: `wrap`,
 						rowGap: 2,
@@ -147507,7 +147526,7 @@ var Z5 = ({ children: e, accent: t }) =>
 		let o = n.filter((e) => !e.claimed),
 			s = n.length > 0 && o.length === 0;
 		return (0, U.jsxs)(K, {
-			align: `stretch`,
+			aliAxisAlignedBoundingBox: `stretch`,
 			gap: 2.5,
 			children: [
 				t &&
@@ -147539,7 +147558,7 @@ var Z5 = ({ children: e, accent: t }) =>
 								bgImage: J5,
 								boxShadow: Y5,
 								p: 4,
-								textAlign: `center`,
+								textAliAxisAlignedBoundingBox: `center`,
 								children: [
 									(0, U.jsx)(TM, {
 										mb: 2,
@@ -147585,7 +147604,7 @@ var Z5 = ({ children: e, accent: t }) =>
 			w: `full`,
 			gap: 3,
 			p: 3,
-			align: `center`,
+			aliAxisAlignedBoundingBox: `center`,
 			border: `thick`,
 			borderColor: t ? K5 : `black`,
 			bgColor: $2,
@@ -147602,7 +147621,7 @@ var Z5 = ({ children: e, accent: t }) =>
 					children: (0, U.jsx)(m1, { size: 22 }),
 				}),
 				(0, U.jsxs)(K, {
-					align: `flex-start`,
+					aliAxisAlignedBoundingBox: `flex-start`,
 					gap: 0,
 					flex: 1,
 					minW: 0,
@@ -147627,12 +147646,12 @@ var Z5 = ({ children: e, accent: t }) =>
 		(0, U.jsxs)(G, {
 			gap: 2,
 			justify: `center`,
-			align: `center`,
+			aliAxisAlignedBoundingBox: `center`,
 			children: [
 				(0, U.jsx)(H, {
 					as: `span`,
 					display: `inline-flex`,
-					alignItems: `center`,
+					aliAxisAlignedBoundingBoxItems: `center`,
 					children: e,
 				}),
 				t,
@@ -147640,7 +147659,7 @@ var Z5 = ({ children: e, accent: t }) =>
 					(0, U.jsx)(H, {
 						as: `span`,
 						display: `inline-flex`,
-						alignItems: `center`,
+						aliAxisAlignedBoundingBoxItems: `center`,
 						justifyContent: `center`,
 						minW: `1.5em`,
 						h: `1.5em`,
@@ -147764,7 +147783,7 @@ var Z5 = ({ children: e, accent: t }) =>
 				a && !r
 					? (0, U.jsx)(TM, { py: 10, children: (0, U.jsx)(St, {}) })
 					: (0, U.jsxs)(K, {
-							align: `stretch`,
+							aliAxisAlignedBoundingBox: `stretch`,
 							gap: 4,
 							children: [
 								(0, U.jsx)(Tqe, { readyCount: x }),
@@ -147890,14 +147909,14 @@ var Z5 = ({ children: e, accent: t }) =>
 		return (0, U.jsxs)(K, {
 			gap: 1,
 			w: o.width,
-			align: `center`,
+			aliAxisAlignedBoundingBox: `center`,
 			justify: `flex-end`,
 			minW: 0,
 			children: [
 				(0, U.jsx)(H, {
 					h: `1.3em`,
 					display: `flex`,
-					alignItems: `flex-end`,
+					aliAxisAlignedBoundingBoxItems: `flex-end`,
 					children:
 						o.crown && t && (0, U.jsx)(H$, { color: o.color, size: `1.2em` }),
 				}),
@@ -147948,7 +147967,7 @@ var Z5 = ({ children: e, accent: t }) =>
 				(0, U.jsx)(W, {
 					w: `full`,
 					truncate: !0,
-					textAlign: `center`,
+					textAliAxisAlignedBoundingBox: `center`,
 					fontWeight: `bold`,
 					color: i ? `lime` : t ? `white` : `gray.600`,
 					textShadow: i ? `0 0 8px lime` : t ? `0 0 8px ${o.glow}` : `none`,
@@ -147959,7 +147978,7 @@ var Z5 = ({ children: e, accent: t }) =>
 					color: t ? o.color : `transparent`,
 					truncate: !0,
 					w: `full`,
-					textAlign: `center`,
+					textAliAxisAlignedBoundingBox: `center`,
 					children: t ? `${(t.value ?? 0).toLocaleString()} ${n}` : `—`,
 				}),
 				r &&
@@ -147968,7 +147987,7 @@ var Z5 = ({ children: e, accent: t }) =>
 						color: `gray.400`,
 						truncate: !0,
 						w: `full`,
-						textAlign: `center`,
+						textAliAxisAlignedBoundingBox: `center`,
 						children: t ? `K/D ${n7(t.kills, t.deaths)}` : ``,
 					}),
 				(0, U.jsx)(H, {
@@ -147995,7 +148014,7 @@ var Z5 = ({ children: e, accent: t }) =>
 				});
 		return (0, U.jsxs)(G, {
 			w: `full`,
-			align: `flex-end`,
+			aliAxisAlignedBoundingBox: `flex-end`,
 			justify: `center`,
 			gap: [3, 5, 7],
 			px: [2, 3, 4],
@@ -148024,7 +148043,7 @@ var Z5 = ({ children: e, accent: t }) =>
 				(0, U.jsx)(W, {
 					w: r7.rank,
 					flexShrink: 0,
-					textAlign: `right`,
+					textAliAxisAlignedBoundingBox: `right`,
 					whiteSpace: `nowrap`,
 					color: n ? `lime` : `gray.400`,
 					children: e,
@@ -148065,7 +148084,7 @@ var Z5 = ({ children: e, accent: t }) =>
 					(0, U.jsx)(W, {
 						w: r7.kd,
 						flexShrink: 0,
-						textAlign: `right`,
+						textAliAxisAlignedBoundingBox: `right`,
 						whiteSpace: `nowrap`,
 						color: n ? `lime` : `gray.300`,
 						children: n7(t.kills, t.deaths),
@@ -148073,7 +148092,7 @@ var Z5 = ({ children: e, accent: t }) =>
 				(0, U.jsx)(W, {
 					w: r7.value,
 					flexShrink: 0,
-					textAlign: `right`,
+					textAliAxisAlignedBoundingBox: `right`,
 					whiteSpace: `nowrap`,
 					fontWeight: `bold`,
 					color: n ? `lime` : `white`,
@@ -148174,7 +148193,7 @@ var Z5 = ({ children: e, accent: t }) =>
 									flex: 1,
 									minH: 0,
 									h: `full`,
-									align: `stretch`,
+									aliAxisAlignedBoundingBox: `stretch`,
 									gap: 0,
 									children: [
 										(0, U.jsx)(Q2, {
@@ -148203,7 +148222,7 @@ var Z5 = ({ children: e, accent: t }) =>
 											w: `full`,
 											maxW: `660px`,
 											mx: `auto`,
-											align: `stretch`,
+											aliAxisAlignedBoundingBox: `stretch`,
 											gap: 3,
 											px: [3, 4],
 											pb: [3, 4],
@@ -148239,7 +148258,7 @@ var Z5 = ({ children: e, accent: t }) =>
 																		flex: 1,
 																		minH: 0,
 																		w: `full`,
-																		align: `stretch`,
+																		aliAxisAlignedBoundingBox: `stretch`,
 																		gap: 0,
 																		overflowY: `auto`,
 																		overflowX: `hidden`,
@@ -148264,7 +148283,7 @@ var Z5 = ({ children: e, accent: t }) =>
 																					(0, U.jsx)(W, {
 																						w: r7.rank,
 																						flexShrink: 0,
-																						textAlign: `right`,
+																						textAliAxisAlignedBoundingBox: `right`,
 																						children: `#`,
 																					}),
 																					(0, U.jsx)(W, {
@@ -148276,13 +148295,13 @@ var Z5 = ({ children: e, accent: t }) =>
 																						(0, U.jsx)(W, {
 																							w: r7.kd,
 																							flexShrink: 0,
-																							textAlign: `right`,
+																							textAliAxisAlignedBoundingBox: `right`,
 																							children: `K/D`,
 																						}),
 																					(0, U.jsx)(W, {
 																						w: r7.value,
 																						flexShrink: 0,
-																						textAlign: `right`,
+																						textAliAxisAlignedBoundingBox: `right`,
 																						textTransform: `uppercase`,
 																						children: v,
 																					}),
@@ -148417,11 +148436,11 @@ var Z5 = ({ children: e, accent: t }) =>
 			border: `thick`,
 			p: `0.75em`,
 			children: (0, U.jsxs)(G, {
-				align: `flex-start`,
+				aliAxisAlignedBoundingBox: `flex-start`,
 				gap: 3,
 				children: [
 					(0, U.jsxs)(K, {
-						align: `stretch`,
+						aliAxisAlignedBoundingBox: `stretch`,
 						flex: `1`,
 						minW: 0,
 						gap: 1,
@@ -148677,7 +148696,7 @@ var Z5 = ({ children: e, accent: t }) =>
 								(0, U.jsx)(y$, {}),
 								(0, U.jsx)(g$, {
 									children: (0, U.jsxs)(G, {
-										align: `baseline`,
+										aliAxisAlignedBoundingBox: `baseline`,
 										gap: 3,
 										children: [
 											(0, U.jsx)(W, { fontSize: `3xl`, children: `Reports` }),
@@ -148711,7 +148730,7 @@ var Z5 = ({ children: e, accent: t }) =>
 											children: (0, U.jsx)(K, {
 												w: `full`,
 												gap: 3,
-												align: `stretch`,
+												aliAxisAlignedBoundingBox: `stretch`,
 												children: i.map((e) =>
 													(0, U.jsx)(
 														Pqe,
@@ -148751,7 +148770,7 @@ var Z5 = ({ children: e, accent: t }) =>
 														value: g,
 														disabled: u,
 														inputMode: `numeric`,
-														textAlign: `center`,
+														textAliAxisAlignedBoundingBox: `center`,
 														w: `3.5em`,
 														h: `2em`,
 														px: 1,
@@ -148870,21 +148889,21 @@ var Z5 = ({ children: e, accent: t }) =>
 									px: [5, 6],
 									pb: [5, 6],
 									gap: [3, 4],
-									align: `stretch`,
+									aliAxisAlignedBoundingBox: `stretch`,
 									children: [
 										(0, U.jsxs)(K, {
 											gap: 1,
 											children: [
 												(0, U.jsx)(W, {
 													fontSize: X.heading,
-													textAlign: `center`,
+													textAliAxisAlignedBoundingBox: `center`,
 													lineHeight: 1.15,
 													children: `Join the Miniblox community`,
 												}),
 												(0, U.jsx)(W, {
 													fontSize: X.small,
 													color: `whiteAlpha.700`,
-													textAlign: `center`,
+													textAliAxisAlignedBoundingBox: `center`,
 													maxW: `26em`,
 													lineHeight: 1.4,
 													children: `Thousands of players are already in. Squad up, keep up with updates and grab perks you won't find anywhere else.`,
@@ -148893,13 +148912,13 @@ var Z5 = ({ children: e, accent: t }) =>
 										}),
 										(0, U.jsx)(K, {
 											gap: 2,
-											align: `stretch`,
+											aliAxisAlignedBoundingBox: `stretch`,
 											children: Lqe.map((e, t) =>
 												(0, U.jsxs)(
 													G,
 													{
 														gap: 3,
-														align: `center`,
+														aliAxisAlignedBoundingBox: `center`,
 														children: [
 															(0, U.jsx)(TM, {
 																w: `2em`,
@@ -148937,12 +148956,12 @@ var Z5 = ({ children: e, accent: t }) =>
 										}),
 										(0, U.jsxs)(K, {
 											gap: 1.5,
-											align: `stretch`,
+											aliAxisAlignedBoundingBox: `stretch`,
 											children: [
 												(0, U.jsx)(W, {
 													fontSize: X.caption,
 													color: `whiteAlpha.600`,
-													textAlign: `center`,
+													textAliAxisAlignedBoundingBox: `center`,
 													children: `or copy the invite link`,
 												}),
 												(0, U.jsxs)(G, {
@@ -149220,7 +149239,7 @@ var z7 = m7(
 		`font-face-name`,
 		`font-face-src`,
 		`font-face-uri`,
-		`foreignobject`,
+		`foreiAxisAlignedBoundingBoxobject`,
 		`hatch`,
 		`hatchpath`,
 		`mesh`,
@@ -149241,8 +149260,8 @@ var z7 = m7(
 	),
 	rJe = m7([
 		`maction`,
-		`maligngroup`,
-		`malignmark`,
+		`maliAxisAlignedBoundingBoxgroup`,
+		`maliAxisAlignedBoundingBoxmark`,
 		`mlongdiv`,
 		`mscarries`,
 		`mscarry`,
@@ -149258,17 +149277,17 @@ var z7 = m7(
 	]),
 	U7 = m7([`#text`]),
 	W7 = m7(
-		`accept.action.align.alt.autocapitalize.autocomplete.autopictureinpicture.autoplay.background.bgcolor.border.capture.cellpadding.cellspacing.checked.cite.class.clear.color.cols.colspan.command.commandfor.controls.controlslist.coords.crossorigin.datetime.decoding.default.dir.disabled.disablepictureinpicture.disableremoteplayback.download.draggable.enctype.enterkeyhint.exportparts.face.for.headers.height.hidden.high.href.hreflang.id.inert.inputmode.integrity.ismap.kind.label.lang.list.loading.loop.low.max.maxlength.media.method.min.minlength.multiple.muted.name.nonce.noshade.novalidate.nowrap.open.optimum.part.pattern.placeholder.playsinline.popover.popovertarget.popovertargetaction.poster.preload.pubdate.radiogroup.readonly.rel.required.rev.reversed.role.rows.rowspan.spellcheck.scope.selected.shape.size.sizes.slot.span.srclang.start.src.srcset.step.style.summary.tabindex.title.translate.type.usemap.valign.value.width.wrap.xmlns`.split(
+		`accept.action.aliAxisAlignedBoundingBox.alt.autocapitalize.autocomplete.autopictureinpicture.autoplay.background.bgcolor.border.capture.cellpadding.cellspacing.checked.cite.class.clear.color.cols.colspan.command.commandfor.controls.controlslist.coords.crossorigin.datetime.decoding.default.dir.disabled.disablepictureinpicture.disableremoteplayback.download.draggable.enctype.enterkeyhint.exportparts.face.for.headers.height.hidden.high.href.hreflang.id.inert.inputmode.integrity.ismap.kind.label.lang.list.loading.loop.low.max.maxlength.media.method.min.minlength.multiple.muted.name.nonce.noshade.novalidate.nowrap.open.optimum.part.pattern.placeholder.playsinline.popover.popovertarget.popovertargetaction.poster.preload.pubdate.radiogroup.readonly.rel.required.rev.reversed.role.rows.rowspan.spellcheck.scope.selected.shape.size.sizes.slot.span.srclang.start.src.srcset.step.style.summary.tabindex.title.translate.type.usemap.valiAxisAlignedBoundingBox.value.width.wrap.xmlns`.split(
 			`.`,
 		),
 	),
 	G7 = m7(
-		`accent-height.accumulate.additive.alignment-baseline.amplitude.ascent.attributename.attributetype.azimuth.basefrequency.baseline-shift.begin.bias.by.class.clip.clippathunits.clip-path.clip-rule.color.color-interpolation.color-interpolation-filters.color-profile.color-rendering.cx.cy.d.dx.dy.diffuseconstant.direction.display.divisor.dur.edgemode.elevation.end.exponent.fill.fill-opacity.fill-rule.filter.filterunits.flood-color.flood-opacity.font-family.font-size.font-size-adjust.font-stretch.font-style.font-variant.font-weight.fx.fy.g1.g2.glyph-name.glyphref.gradientunits.gradienttransform.height.href.id.image-rendering.in.in2.intercept.k.k1.k2.k3.k4.kerning.keypoints.keysplines.keytimes.lang.lengthadjust.letter-spacing.kernelmatrix.kernelunitlength.lighting-color.local.marker-end.marker-mid.marker-start.markerheight.markerunits.markerwidth.maskcontentunits.maskunits.max.mask.mask-type.media.method.mode.min.name.numoctaves.offset.operator.opacity.order.orient.orientation.origin.overflow.paint-order.path.pathlength.patterncontentunits.patterntransform.patternunits.points.preservealpha.preserveaspectratio.primitiveunits.r.rx.ry.radius.refx.refy.repeatcount.repeatdur.restart.result.rotate.scale.seed.shape-rendering.slope.specularconstant.specularexponent.spreadmethod.startoffset.stddeviation.stitchtiles.stop-color.stop-opacity.stroke-dasharray.stroke-dashoffset.stroke-linecap.stroke-linejoin.stroke-miterlimit.stroke-opacity.stroke.stroke-width.style.surfacescale.systemlanguage.tabindex.tablevalues.targetx.targety.transform.transform-origin.text-anchor.text-decoration.text-rendering.textlength.type.u1.u2.unicode.values.viewbox.visibility.version.vert-adv-y.vert-origin-x.vert-origin-y.width.word-spacing.wrap.writing-mode.xchannelselector.ychannelselector.x.x1.x2.xmlns.y.y1.y2.z.zoomandpan`.split(
+		`accent-height.accumulate.additive.aliAxisAlignedBoundingBoxment-baseline.amplitude.ascent.attributename.attributetype.azimuth.basefrequency.baseline-shift.begin.bias.by.class.clip.clippathunits.clip-path.clip-rule.color.color-interpolation.color-interpolation-filters.color-profile.color-rendering.cx.cy.d.dx.dy.diffuseconstant.direction.display.divisor.dur.edgemode.elevation.end.exponent.fill.fill-opacity.fill-rule.filter.filterunits.flood-color.flood-opacity.font-family.font-size.font-size-adjust.font-stretch.font-style.font-variant.font-weight.fx.fy.g1.g2.glyph-name.glyphref.gradientunits.gradienttransform.height.href.id.image-rendering.in.in2.intercept.k.k1.k2.k3.k4.kerning.keypoints.keysplines.keytimes.lang.lengthadjust.letter-spacing.kernelmatrix.kernelunitlength.lighting-color.local.marker-end.marker-mid.marker-start.markerheight.markerunits.markerwidth.maskcontentunits.maskunits.max.mask.mask-type.media.method.mode.min.name.numoctaves.offset.operator.opacity.order.orient.orientation.origin.overflow.paint-order.path.pathlength.patterncontentunits.patterntransform.patternunits.points.preservealpha.preserveaspectratio.primitiveunits.r.rx.ry.radius.refx.refy.repeatcount.repeatdur.restart.result.rotate.scale.seed.shape-rendering.slope.specularconstant.specularexponent.spreadmethod.startoffset.stddeviation.stitchtiles.stop-color.stop-opacity.stroke-dasharray.stroke-dashoffset.stroke-linecap.stroke-linejoin.stroke-miterlimit.stroke-opacity.stroke.stroke-width.style.surfacescale.systemlanguage.tabindex.tablevalues.targetx.targety.transform.transform-origin.text-anchor.text-decoration.text-rendering.textlength.type.u1.u2.unicode.values.viewbox.visibility.version.vert-adv-y.vert-origin-x.vert-origin-y.width.word-spacing.wrap.writing-mode.xchannelselector.ychannelselector.x.x1.x2.xmlns.y.y1.y2.z.zoomandpan`.split(
 			`.`,
 		),
 	),
 	K7 = m7(
-		`accent.accentunder.align.bevelled.close.columnalign.columnlines.columnspacing.columnspan.denomalign.depth.dir.display.displaystyle.encoding.fence.frame.height.href.id.largeop.length.linethickness.lquote.lspace.mathbackground.mathcolor.mathsize.mathvariant.maxsize.minsize.movablelimits.notation.numalign.open.rowalign.rowlines.rowspacing.rowspan.rspace.rquote.scriptlevel.scriptminsize.scriptsizemultiplier.selection.separator.separators.stretchy.subscriptshift.supscriptshift.symmetric.voffset.width.xmlns`.split(
+		`accent.accentunder.aliAxisAlignedBoundingBox.bevelled.close.columnaliAxisAlignedBoundingBox.columnlines.columnspacing.columnspan.denomaliAxisAlignedBoundingBox.depth.dir.display.displaystyle.encoding.fence.frame.height.href.id.largeop.length.linethickness.lquote.lspace.mathbackground.mathcolor.mathsize.mathvariant.maxsize.minsize.movablelimits.notation.numaliAxisAlignedBoundingBox.open.rowaliAxisAlignedBoundingBox.rowlines.rowspacing.rowspan.rspace.rquote.scriptlevel.scriptminsize.scriptsizemultiplier.selection.separator.separators.stretchy.subscriptshift.supscriptshift.symmetric.voffset.width.xmlns`.split(
 			`.`,
 		),
 	),
@@ -149501,7 +149520,7 @@ function $7() {
 		qe = null,
 		Je = I7(
 			{},
-			`annotation-xml.audio.colgroup.desc.foreignobject.head.iframe.math.mi.mn.mo.ms.mtext.noembed.noframes.noscript.plaintext.script.selectedcontent.style.svg.template.thead.title.video.xmp`.split(
+			`annotation-xml.audio.colgroup.desc.foreiAxisAlignedBoundingBoxobject.head.iframe.math.mi.mn.mo.ms.mtext.noembed.noframes.noscript.plaintext.script.selectedcontent.style.svg.template.thead.title.video.xmp`.split(
 				`.`,
 			),
 		),
@@ -150444,7 +150463,7 @@ var wJe = { "& p": { display: `inline`, m: 0 } },
 			gridTemplateColumns:
 				e.length > 1 ? `repeat(auto-fit, minmax(140px, 1fr))` : `1fr`,
 			gap: `0.6rem`,
-			alignContent: `start`,
+			aliAxisAlignedBoundingBoxContent: `start`,
 			children: e.map((e, n) =>
 				(0, U.jsx)(
 					UM,
@@ -150508,7 +150527,7 @@ var wJe = { "& p": { display: `inline`, m: 0 } },
 					(0, U.jsxs)(BM, {
 						as: `button`,
 						onClick: () => r((e) => !e),
-						align: `center`,
+						aliAxisAlignedBoundingBox: `center`,
 						gap: 1,
 						mt: 2,
 						color: `blue.200`,
@@ -150615,7 +150634,7 @@ var wJe = { "& p": { display: `inline`, m: 0 } },
 										}),
 										children: (0, U.jsxs)(K, {
 											gap: 4,
-											align: `stretch`,
+											aliAxisAlignedBoundingBox: `stretch`,
 											children: [
 												m.map(({ item: e, sections: t }) =>
 													(0, U.jsxs)(
@@ -150640,7 +150659,7 @@ var wJe = { "& p": { display: `inline`, m: 0 } },
 																	children: e.title,
 																}),
 																(0, U.jsx)(K, {
-																	align: `stretch`,
+																	aliAxisAlignedBoundingBox: `stretch`,
 																	gap: 4,
 																	children: t.map((e, t) =>
 																		(0, U.jsx)(
@@ -150658,7 +150677,7 @@ var wJe = { "& p": { display: `inline`, m: 0 } },
 																							md: `row`,
 																						},
 																						gap: [3, 4, 5],
-																						align: `start`,
+																						aliAxisAlignedBoundingBox: `start`,
 																						children: [
 																							(0, U.jsxs)(H, {
 																								flex: { md: `1.2` },
@@ -150721,7 +150740,7 @@ var wJe = { "& p": { display: `inline`, m: 0 } },
 															(0, U.jsxs)(W, {
 																fontSize: `0.9em`,
 																minW: `6em`,
-																textAlign: `center`,
+																textAliAxisAlignedBoundingBox: `center`,
 																children: [`Page `, p + 1, ` of `, f],
 															}),
 															(0, U.jsx)(Z, {
@@ -150900,7 +150919,7 @@ var zJe = ({ status: e }) => {
 		let [n, r] = (0, j.useState)(!1),
 			i = `https://${e.host}`;
 		return (0, U.jsxs)(BM, {
-			align: `center`,
+			aliAxisAlignedBoundingBox: `center`,
 			gap: 3,
 			border: `thick`,
 			bg: `rgba(255, 255, 255, 0.07)`,
@@ -151028,7 +151047,7 @@ var zJe = ({ status: e }) => {
 									}),
 									children: (0, U.jsx)(K, {
 										gap: 3,
-										align: `stretch`,
+										aliAxisAlignedBoundingBox: `stretch`,
 										children: s.map((e) =>
 											(0, U.jsx)(BJe, { mirror: e, status: c(e.host) }, e.host),
 										),
@@ -151211,7 +151230,7 @@ var p9 = `1.7em`,
 					gap: `0.1em`,
 					flexDirection: `column`,
 					justifyContent: `center`,
-					alignItems: `center`,
+					aliAxisAlignedBoundingBoxItems: `center`,
 					borderRadius: 12,
 					...(r
 						? { bg: `rgba(${h5}, 0.32)`, _hover: { bg: `rgba(${h5}, 0.32)` } }
@@ -151223,7 +151242,7 @@ var p9 = `1.7em`,
 							fontSize: `0.62em`,
 							lineHeight: 1,
 							letterSpacing: `-0.04em`,
-							textAlign: `center`,
+							textAliAxisAlignedBoundingBox: `center`,
 							whiteSpace: `nowrap`,
 							w: `full`,
 							children: t,
@@ -151341,7 +151360,7 @@ var p9 = `1.7em`,
 						mx: `auto`,
 						maxW: `34em`,
 						display: `flex`,
-						alignItems: `stretch`,
+						aliAxisAlignedBoundingBoxItems: `stretch`,
 						px: `0.2em`,
 						py: `0.15em`,
 						children: [
@@ -151699,7 +151718,7 @@ var KJe = zQ(function ({ leftOffset: e, hideMobileButton: t }) {
 										border: `none`,
 										_focus: { boxShadow: `none` },
 										textDecoration: `none`,
-										textShadow: Zt,
+										textShadow: Qt,
 										outline: `none`,
 										color: `white`,
 										_placeholder: { color: `whiteAlpha.500` },
@@ -151863,7 +151882,7 @@ var YJe = zQ(function ({ data: e, showAll: t }) {
 			],
 		});
 		return l
-			? (0, U.jsx)(tn, {
+			? (0, U.jsx)(nn, {
 					children: (0, U.jsx)(H, {
 						visibility: d ? `hidden` : `inherit`,
 						children: p,
@@ -151906,7 +151925,7 @@ var YJe = zQ(function ({ data: e, showAll: t }) {
 			title: `Partner Sites`,
 			size: `xl`,
 			children: (0, U.jsxs)(K, {
-				alignItems: `flex-start`,
+				aliAxisAlignedBoundingBoxItems: `flex-start`,
 				pb: `1em`,
 				children: [
 					(0, U.jsx)(JM, {
@@ -151991,13 +152010,13 @@ var YJe = zQ(function ({ data: e, showAll: t }) {
 		}),
 	E9 = ({ servers: e }) =>
 		(0, U.jsx)(K, {
-			align: `stretch`,
+			aliAxisAlignedBoundingBox: `stretch`,
 			gap: 2,
 			children: Object.entries(e).map(([e, t]) =>
 				(0, U.jsxs)(
 					G,
 					{
-						align: `center`,
+						aliAxisAlignedBoundingBox: `center`,
 						gap: 3,
 						p: 2,
 						borderRadius: `md`,
@@ -152059,7 +152078,7 @@ var YJe = zQ(function ({ data: e, showAll: t }) {
 		(0, U.jsx)(H, {
 			as: `span`,
 			display: `inline-flex`,
-			alignItems: `center`,
+			aliAxisAlignedBoundingBoxItems: `center`,
 			justifyContent: `center`,
 			minW: `1.9em`,
 			px: 2,
@@ -152090,7 +152109,7 @@ var YJe = zQ(function ({ data: e, showAll: t }) {
 			label: `Overview`,
 			icon: (0, U.jsx)(B$, { color: `#7fb6ff` }),
 			content: (0, U.jsxs)(K, {
-				align: `stretch`,
+				aliAxisAlignedBoundingBox: `stretch`,
 				gap: 4,
 				children: [
 					(0, U.jsx)(S9, {
@@ -152172,7 +152191,7 @@ var YJe = zQ(function ({ data: e, showAll: t }) {
 			label: `Game Modes`,
 			icon: (0, U.jsx)(U$, { color: `#6fd08a` }),
 			content: (0, U.jsxs)(K, {
-				align: `stretch`,
+				aliAxisAlignedBoundingBox: `stretch`,
 				gap: 4,
 				children: [
 					(0, U.jsx)(S9, {
@@ -152205,7 +152224,7 @@ var YJe = zQ(function ({ data: e, showAll: t }) {
 			label: `Minigames`,
 			icon: (0, U.jsx)(X$, { color: `#e0b48c` }),
 			content: (0, U.jsxs)(K, {
-				align: `stretch`,
+				aliAxisAlignedBoundingBox: `stretch`,
 				gap: 4,
 				children: [
 					(0, U.jsx)(S9, {
@@ -152220,7 +152239,7 @@ var YJe = zQ(function ({ data: e, showAll: t }) {
 			label: `Planets`,
 			icon: (0, U.jsx)(Q$, { color: `#f2c84b` }),
 			content: (0, U.jsxs)(K, {
-				align: `stretch`,
+				aliAxisAlignedBoundingBox: `stretch`,
 				gap: 4,
 				children: [
 					(0, U.jsx)(S9, {
@@ -152287,7 +152306,7 @@ var YJe = zQ(function ({ data: e, showAll: t }) {
 			label: `Social`,
 			icon: (0, U.jsx)(O1, { color: `#5aa8ff` }),
 			content: (0, U.jsxs)(K, {
-				align: `stretch`,
+				aliAxisAlignedBoundingBox: `stretch`,
 				gap: 4,
 				children: [
 					(0, U.jsx)(S9, {
@@ -152333,7 +152352,7 @@ var YJe = zQ(function ({ data: e, showAll: t }) {
 			label: `Progression`,
 			icon: (0, U.jsx)(R$, { color: `#ffcf4b` }),
 			content: (0, U.jsxs)(K, {
-				align: `stretch`,
+				aliAxisAlignedBoundingBox: `stretch`,
 				gap: 4,
 				children: [
 					(0, U.jsx)(S9, {
@@ -152385,7 +152404,7 @@ var YJe = zQ(function ({ data: e, showAll: t }) {
 			content: (0, U.jsx)(
 				() =>
 					(0, U.jsxs)(K, {
-						align: `stretch`,
+						aliAxisAlignedBoundingBox: `stretch`,
 						gap: 4,
 						children: [
 							(0, U.jsxs)(S9, {
@@ -152399,7 +152418,7 @@ var YJe = zQ(function ({ data: e, showAll: t }) {
 								children: [
 									(0, U.jsx)(C9, { children: `Mouse` }),
 									(0, U.jsxs)(K, {
-										align: `stretch`,
+										aliAxisAlignedBoundingBox: `stretch`,
 										gap: 0,
 										pt: 1,
 										children: [
@@ -152438,7 +152457,7 @@ var YJe = zQ(function ({ data: e, showAll: t }) {
 										children: [
 											(0, U.jsx)(C9, { children: e.header }),
 											(0, U.jsx)(K, {
-												align: `stretch`,
+												aliAxisAlignedBoundingBox: `stretch`,
 												gap: 0,
 												pt: 1,
 												children: e.rows.map(([e, t]) =>
@@ -152473,7 +152492,7 @@ var YJe = zQ(function ({ data: e, showAll: t }) {
 			content: (0, U.jsx)(
 				() =>
 					(0, U.jsxs)(K, {
-						align: `stretch`,
+						aliAxisAlignedBoundingBox: `stretch`,
 						gap: 4,
 						children: [
 							(0, U.jsx)(S9, {
@@ -152552,7 +152571,7 @@ var YJe = zQ(function ({ data: e, showAll: t }) {
 				(0, U.jsx)(K, {
 					w: [`4em`, `12em`],
 					flexShrink: 0,
-					align: `stretch`,
+					aliAxisAlignedBoundingBox: `stretch`,
 					gap: 1,
 					py: 2,
 					borderRight: `thick`,
@@ -152597,7 +152616,7 @@ var YJe = zQ(function ({ data: e, showAll: t }) {
 				(0, U.jsxs)(K, {
 					flex: 1,
 					minH: 0,
-					align: `stretch`,
+					aliAxisAlignedBoundingBox: `stretch`,
 					gap: 0,
 					children: [
 						(0, U.jsx)(H, {
@@ -152608,7 +152627,7 @@ var YJe = zQ(function ({ data: e, showAll: t }) {
 							pr: [`3em`, `3.5em`],
 							children: (0, U.jsx)(uD, {
 								size: `lg`,
-								textAlign: [`center`, `left`],
+								textAliAxisAlignedBoundingBox: [`center`, `left`],
 								children: n.label,
 							}),
 						}),
@@ -152745,7 +152764,7 @@ var YJe = zQ(function ({ data: e, showAll: t }) {
 					children: `You may consult this list to find the Privacy Policy for each of the advertising partners of Miniblox.`,
 				}),
 				(0, U.jsx)(`p`, {
-					children: `Third-party ad servers or ad networks uses technologies like cookies, JavaScript, or Web Beacons that are used in their respective advertisements and links that appear on Miniblox, which are sent directly to users' browser. They automatically receive your IP address when this occurs. These technologies are used to measure the effectiveness of their advertising campaigns and/or to personalize the advertising content that you see on websites that you visit.`,
+					children: `Third-party ad servers or ad networks uses technologies like cookies, JavaScript, or Web Beacons that are used in their respective advertisements and links that appear on Miniblox, which are sent directly to users' browser. They automatically receive your IP address when this occurs. These technologies are used to measure the effectiveness of their advertising campaiAxisAlignedBoundingBoxs and/or to personalize the advertising content that you see on websites that you visit.`,
 				}),
 				(0, U.jsx)(`p`, {
 					children: `Note that Miniblox has no access to or control over these cookies that are used by third-party advertisers.`,
@@ -152828,7 +152847,7 @@ var YJe = zQ(function ({ data: e, showAll: t }) {
 						(0, U.jsx)(`br`, {}),
 						`Miniblox Inc.: is the owner of all intellectual property rights (“IPRs”) in the Site and Miniblox;`,
 						(0, U.jsx)(`br`, {}),
-						`Intellectual Property: means all registered and unregistered (whether capable of registration or not) IPRs), including but not limited to copyright, design, goodwill, graphics, images, patents and trade marks;`,
+						`Intellectual Property: means all registered and unregistered (whether capable of registration or not) IPRs), including but not limited to copyright, desiAxisAlignedBoundingBox, goodwill, graphics, images, patents and trade marks;`,
 						(0, U.jsx)(`br`, {}),
 						`Site: means the URL at: https://miniblox.io;`,
 						(0, U.jsx)(`br`, {}),
@@ -152844,7 +152863,7 @@ var YJe = zQ(function ({ data: e, showAll: t }) {
 					children: [
 						`These Terms and Conditions govern the content and your use of the Site and/or Miniblox and the resulting service that we may provide to you.`,
 						(0, U.jsx)(`br`, {}),
-						`Your use of the Site and/or Miniblox (which includes viewing or accessing them in any way) signifies your acceptance of these Terms and Conditions detailed below and constitutes a legally binding acceptance of this agreement. If you do not agree to these Terms and Conditions you must not access or use our Site and/or the Miniblox and you should refrain from doing so unless you consent to these Terms and Conditions.`,
+						`Your use of the Site and/or Miniblox (which includes viewing or accessing them in any way) siAxisAlignedBoundingBoxifies your acceptance of these Terms and Conditions detailed below and constitutes a legally binding acceptance of this agreement. If you do not agree to these Terms and Conditions you must not access or use our Site and/or the Miniblox and you should refrain from doing so unless you consent to these Terms and Conditions.`,
 						(0, U.jsx)(`br`, {}),
 						`A minor (being anyone under the age of 13) should seek consent from their legal guardian before using the Site and/or Miniblox.`,
 						(0, U.jsx)(`br`, {}),
@@ -152921,7 +152940,7 @@ var YJe = zQ(function ({ data: e, showAll: t }) {
 					],
 				}),
 				(0, U.jsx)(`p`, {
-					children: `We reserve the right to remove any material, and, if we deem appropriate, to turn over to law enforcement officials, any material that is in violation of these Terms and Conditions. We also reserve the right to remove messages, or postings that do not pertain to the designated topic or theme of the service as determined by us.`,
+					children: `We reserve the right to remove any material, and, if we deem appropriate, to turn over to law enforcement officials, any material that is in violation of these Terms and Conditions. We also reserve the right to remove messages, or postings that do not pertain to the desiAxisAlignedBoundingBoxated topic or theme of the service as determined by us.`,
 				}),
 				(0, U.jsx)(`p`, {
 					children: `We also reserve the right to comply with any order or otherwise cooperate with law enforcement officials regarding the identification of any user alleged to be using the Site or Miniblox in violation of the law.`,
@@ -153185,7 +153204,7 @@ var F9 = ({ label: e, count: t }) =>
 						children: (0, U.jsxs)(G, {
 							w: `full`,
 							gap: `0.6em`,
-							align: `center`,
+							aliAxisAlignedBoundingBox: `center`,
 							px: `0.7em`,
 							py: `0.6em`,
 							borderRadius: 8,
@@ -153204,7 +153223,7 @@ var F9 = ({ label: e, count: t }) =>
 									children: (0, U.jsx)(d1, { size: 18 }),
 								}),
 								(0, U.jsxs)(K, {
-									align: `stretch`,
+									aliAxisAlignedBoundingBox: `stretch`,
 									gap: `0`,
 									minW: 0,
 									flex: 1,
@@ -153255,7 +153274,7 @@ var F9 = ({ label: e, count: t }) =>
 			children: (0, U.jsxs)(G, {
 				w: `full`,
 				gap: `0.6em`,
-				align: `center`,
+				aliAxisAlignedBoundingBox: `center`,
 				px: `0.7em`,
 				py: `0.6em`,
 				borderRadius: 8,
@@ -153274,7 +153293,7 @@ var F9 = ({ label: e, count: t }) =>
 						children: (0, U.jsx)(F1, { size: 18 }),
 					}),
 					(0, U.jsxs)(K, {
-						align: `stretch`,
+						aliAxisAlignedBoundingBox: `stretch`,
 						gap: `0`,
 						minW: 0,
 						flex: 1,
@@ -153347,7 +153366,7 @@ var F9 = ({ label: e, count: t }) =>
 				children: [
 					(0, U.jsxs)(G, {
 						justify: `space-between`,
-						align: `center`,
+						aliAxisAlignedBoundingBox: `center`,
 						px: `0.9em`,
 						py: `0.7em`,
 						flexShrink: 0,
@@ -153361,7 +153380,7 @@ var F9 = ({ label: e, count: t }) =>
 						children: [
 							(0, U.jsxs)(G, {
 								gap: `0.4em`,
-								align: `baseline`,
+								aliAxisAlignedBoundingBox: `baseline`,
 								minW: 0,
 								children: [
 									(0, U.jsx)(W, {
@@ -153471,7 +153490,7 @@ var F9 = ({ label: e, count: t }) =>
 											children: (0, U.jsx)(W, {
 												fontSize: X.tiny,
 												color: `whiteAlpha.700`,
-												textAlign: `center`,
+												textAliAxisAlignedBoundingBox: `center`,
 												children: `No friends yet. Add some to play together!`,
 											}),
 										})
@@ -153583,7 +153602,7 @@ var F9 = ({ label: e, count: t }) =>
 			role: `button`,
 			onClick: a,
 			gap: `0.7em`,
-			align: `center`,
+			aliAxisAlignedBoundingBox: `center`,
 			px: `0.6em`,
 			py: `0.45em`,
 			borderRadius: 8,
@@ -153596,7 +153615,7 @@ var F9 = ({ label: e, count: t }) =>
 					w: `1.9em`,
 					h: `1.9em`,
 					display: `flex`,
-					alignItems: `center`,
+					aliAxisAlignedBoundingBoxItems: `center`,
 					justifyContent: `center`,
 					borderRadius: 6,
 					bg: o.bg,
@@ -153750,7 +153769,7 @@ var F9 = ({ label: e, count: t }) =>
 						(0, U.jsx)(_5, { isOpen: o.open, onClose: o.onClose, minigame: s }),
 						(0, U.jsxs)(G, {
 							gap: `0.5em`,
-							align: `center`,
+							aliAxisAlignedBoundingBox: `center`,
 							px: `0.9em`,
 							py: `0.7em`,
 							flexShrink: 0,
@@ -153773,7 +153792,7 @@ var F9 = ({ label: e, count: t }) =>
 							px: `0.4em`,
 							py: `0.4em`,
 							children: (0, U.jsx)(K, {
-								align: `stretch`,
+								aliAxisAlignedBoundingBox: `stretch`,
 								gap: `0.1em`,
 								children: p.map((e, t) =>
 									(0, U.jsx)(
@@ -153811,7 +153830,7 @@ var F9 = ({ label: e, count: t }) =>
 			? null
 			: (0, U.jsxs)(K, {
 					gap: `0.6em`,
-					align: `stretch`,
+					aliAxisAlignedBoundingBox: `stretch`,
 					w: `full`,
 					children: [
 						e &&
@@ -153829,7 +153848,7 @@ var F9 = ({ label: e, count: t }) =>
 								},
 								children: (0, U.jsxs)(G, {
 									gap: `0.7em`,
-									align: `center`,
+									aliAxisAlignedBoundingBox: `center`,
 									children: [
 										(0, U.jsx)(H, {
 											flexShrink: 0,
@@ -153840,7 +153859,7 @@ var F9 = ({ label: e, count: t }) =>
 											border: `2px solid`,
 											borderColor: `whiteAlpha.200`,
 											display: `flex`,
-											alignItems: `center`,
+											aliAxisAlignedBoundingBoxItems: `center`,
 											justifyContent: `center`,
 											css: { "& svg": { width: `1.5em`, height: `1.5em` } },
 											children: (0, U.jsx)(Z$, {
@@ -153849,7 +153868,7 @@ var F9 = ({ label: e, count: t }) =>
 											}),
 										}),
 										(0, U.jsxs)(K, {
-											align: `stretch`,
+											aliAxisAlignedBoundingBox: `stretch`,
 											gap: `0.1em`,
 											minW: 0,
 											flex: 1,
@@ -153881,14 +153900,14 @@ var F9 = ({ label: e, count: t }) =>
 								_hover: { bg: `whiteAlpha.100` },
 								children: (0, U.jsxs)(G, {
 									gap: `0.7em`,
-									align: `center`,
+									aliAxisAlignedBoundingBox: `center`,
 									children: [
 										(0, U.jsx)(H, {
 											flexShrink: 0,
 											w: `2.6em`,
 											h: `2.6em`,
 											display: `flex`,
-											alignItems: `center`,
+											aliAxisAlignedBoundingBoxItems: `center`,
 											justifyContent: `center`,
 											children: (0, U.jsx)(UM, {
 												src: `/textures/lootchest/0001.webp`,
@@ -153899,7 +153918,7 @@ var F9 = ({ label: e, count: t }) =>
 											}),
 										}),
 										(0, U.jsxs)(K, {
-											align: `stretch`,
+											aliAxisAlignedBoundingBox: `stretch`,
 											gap: `0.1em`,
 											minW: 0,
 											flex: 1,
@@ -154009,7 +154028,7 @@ var F9 = ({ label: e, count: t }) =>
 				h: z9,
 				maxW: `full`,
 				flexShrink: 0,
-				alignSelf: `flex-start`,
+				aliAxisAlignedBoundingBoxSelf: `flex-start`,
 				pos: `relative`,
 				children: [
 					(0, U.jsxs)(Z, {
@@ -154024,7 +154043,7 @@ var F9 = ({ label: e, count: t }) =>
 						gap: `0.2em`,
 						flexDirection: `column`,
 						justifyContent: `center`,
-						alignItems: `center`,
+						aliAxisAlignedBoundingBoxItems: `center`,
 						borderRadius: 12,
 						transition: `background 0.15s ease, border-color 0.15s ease, transform 0.15s ease`,
 						_hover: r
@@ -154042,7 +154061,7 @@ var F9 = ({ label: e, count: t }) =>
 								fontSize: `0.75em`,
 								lineHeight: 1,
 								letterSpacing: `-0.04em`,
-								textAlign: `center`,
+								textAliAxisAlignedBoundingBox: `center`,
 								whiteSpace: `nowrap`,
 								w: `full`,
 								display: [`none`, `block`],
@@ -154172,7 +154191,7 @@ var F9 = ({ label: e, count: t }) =>
 					? (0, U.jsxs)(K, {
 							h: `full`,
 							w: `full`,
-							align: `stretch`,
+							aliAxisAlignedBoundingBox: `stretch`,
 							justify: `flex-start`,
 							gap: `0.5em`,
 							pt: 0,
@@ -154184,7 +154203,7 @@ var F9 = ({ label: e, count: t }) =>
 					: (0, U.jsxs)(K, {
 							h: `full`,
 							w: `full`,
-							align: `stretch`,
+							aliAxisAlignedBoundingBox: `stretch`,
 							justify: `flex-start`,
 							gap: `0.5em`,
 							pt: 0,
@@ -154195,7 +154214,7 @@ var F9 = ({ label: e, count: t }) =>
 							children: [
 								g,
 								(0, U.jsx)(K, {
-									align: `stretch`,
+									aliAxisAlignedBoundingBox: `stretch`,
 									gap: `0.5em`,
 									flexShrink: 0,
 									mt: `auto`,
@@ -154378,7 +154397,7 @@ var F9 = ({ label: e, count: t }) =>
 										(0, U.jsxs)(PM, {
 											display: { base: `flex`, xl: `none` },
 											direction: le ? `column` : `row`,
-											align: `center`,
+											aliAxisAlignedBoundingBox: `center`,
 											gap: `1.2em`,
 											mb: `1em`,
 											children: [
@@ -154403,7 +154422,7 @@ var F9 = ({ label: e, count: t }) =>
 											children:
 												!Q.isCrazyGames && ue && !r?.rank
 													? (0, U.jsx)(GQ, {
-															label: r ? `` : e(`title.signInToInvite`),
+															label: r ? `` : e(`title.siAxisAlignedBoundingBoxInToInvite`),
 															shouldWrapChildren: !0,
 															children: (0, U.jsx)(Z, {
 																onClick: n(`/referral`),
@@ -154520,29 +154539,29 @@ var F9 = ({ label: e, count: t }) =>
 	},
 	xYe = U0(() =>
 		mH(
-			() => import(`./GuiHud-B80w_t_X.js`),
+			() => import(`./GuiHud-C4C1elaS.js`),
 			__vite__mapDeps([5, 1, 4, 0, 6, 7]),
 		),
 	),
 	SYe = U0(() =>
 		mH(
-			() => import(`./ReferralInvite-DfQd9FyF.js`),
+			() => import(`./ReferralInvite-CFgTe_h2.js`),
 			__vite__mapDeps([8, 1, 4, 0]),
 		),
 	),
 	CYe = U0(() => mH(() => Promise.resolve().then(() => eze), void 0)),
 	wYe = U0(() =>
-		mH(() => import(`./EULA-DeqPZFqt.js`), __vite__mapDeps([9, 1, 4, 0])),
+		mH(() => import(`./EULA-Cx55bOH0.js`), __vite__mapDeps([9, 1, 4, 0])),
 	),
 	TYe = U0(() =>
-		mH(() => import(`./Privacy-D_c6HSwq.js`), __vite__mapDeps([10, 1, 4, 0])),
+		mH(() => import(`./Privacy-DqtNmBIm.js`), __vite__mapDeps([10, 1, 4, 0])),
 	),
 	EYe = U0(() => mH(() => Promise.resolve().then(() => HBe), void 0)),
 	DYe = U0(() =>
-		mH(() => import(`./Rules-Cxk6D3AI.js`), __vite__mapDeps([11, 1, 4, 0])),
+		mH(() => import(`./Rules-HmcqSO-D.js`), __vite__mapDeps([11, 1, 4, 0])),
 	),
 	OYe = U0(() =>
-		mH(() => import(`./Tutorial-COi09SQh.js`), __vite__mapDeps([12, 1, 4, 0])),
+		mH(() => import(`./Tutorial-Cf1-EccK.js`), __vite__mapDeps([12, 1, 4, 0])),
 	),
 	kYe = () => {
 		YR.useMountHooks();
@@ -154636,22 +154655,22 @@ var AYe = sEe(
 															element: (0, U.jsx)(kYe, {}),
 															children: [
 																(0, U.jsx)(Et, {
-																	path: `/oauth/signup`,
+																	path: `/oauth/siAxisAlignedBoundingBoxup`,
 																	children: (0, U.jsx)(Et, {
 																		path: `discord`,
 																		element: (0, U.jsx)(W0, {
 																			type: `discord`,
-																			flow: `signup`,
+																			flow: `siAxisAlignedBoundingBoxup`,
 																		}),
 																	}),
 																}),
 																(0, U.jsx)(Et, {
-																	path: `/oauth/signin`,
+																	path: `/oauth/siAxisAlignedBoundingBoxin`,
 																	children: (0, U.jsx)(Et, {
 																		path: `discord`,
 																		element: (0, U.jsx)(W0, {
 																			type: `discord`,
-																			flow: `signin`,
+																			flow: `siAxisAlignedBoundingBoxin`,
 																		}),
 																	}),
 																}),
@@ -154677,18 +154696,18 @@ var AYe = sEe(
 																	element: (0, U.jsx)(xYe, {}),
 																}),
 																(0, U.jsx)(Et, {
-																	path: `/signin`,
-																	element: (0, U.jsx)(L0, { mode: `signin` }),
+																	path: `/siAxisAlignedBoundingBoxin`,
+																	element: (0, U.jsx)(L0, { mode: `siAxisAlignedBoundingBoxin` }),
 																}),
 																(0, U.jsx)(Et, {
-																	path: `/signup/start`,
-																	element: (0, U.jsx)(L0, { mode: `signup` }),
+																	path: `/siAxisAlignedBoundingBoxup/start`,
+																	element: (0, U.jsx)(L0, { mode: `siAxisAlignedBoundingBoxup` }),
 																}),
 																(0, U.jsx)(Et, {
-																	path: `/signup/finish`,
+																	path: `/siAxisAlignedBoundingBoxup/finish`,
 																	element: (0, U.jsx)(L0, {
-																		mode: `signup`,
-																		step: `signup-finish`,
+																		mode: `siAxisAlignedBoundingBoxup`,
+																		step: `siAxisAlignedBoundingBoxup-finish`,
 																	}),
 																}),
 																(0, U.jsx)(Et, {
@@ -155295,7 +155314,7 @@ var G9 = (e) => Math.round(e),
 				O.warn(`loadTelemetry: gtag report failed`, e);
 			}
 			try {
-				rC({ category: `load`, message: e, level: `info`, data: t });
+				nC({ category: `load`, message: e, level: `info`, data: t });
 			} catch {}
 		}
 	})(),
@@ -155520,7 +155539,7 @@ var Q = class e {
 				(Y.game = this),
 				(this.bootPromise ||= mH(
 					async () => {
-						let { bootEngine: e } = await import(`./bootEngine-UWpvi0RR.js`);
+						let { bootEngine: e } = await import(`./bootEngine-F677_3Xt.js`);
 						return { bootEngine: e };
 					},
 					__vite__mapDeps([13, 1, 0, 6]),
@@ -155713,8 +155732,8 @@ var Q = class e {
 					this.pumpFixedUpdates();
 				let r = Math.min(this.tickAccumulator / 50, 1),
 					i = performance.now();
-				_H.measure(`frame`, `player.update`, () => Y.ormGdWfRhaic(this.delta)),
-					_H.measure(`frame`, `entities.render`, () => qY.IUOBHPhGnRTozh()),
+				_H.measure(`frame`, `player.update`, () => Y.mzqpnnNAVcWC(this.delta)),
+					_H.measure(`frame`, `entities.render`, () => qY.UcUaIrlhAQhblr()),
 					OY.active ||
 						(_H.measure(`frame`, `tileEntities.render`, () =>
 							this.gameScene.tileEntityRenderer.renderTileEntities(),
@@ -156271,7 +156290,7 @@ GTe({
 	sampleRate: 0.25,
 	release: qc,
 	denyUrls: Q9,
-	ignoreErrors: [
+	iAxisAlignedBoundingBoxoreErrors: [
 		`Extension context invalidated.`,
 		`Cannot read properties of undefined (reading 'slice')`,
 		`Non-Error promise rejection captured with value: Timeout`,
@@ -156454,7 +156473,7 @@ export {
 	FM as Pr,
 	Gze as Pt,
 	mze as Q,
-	lL as AxisAlignedBoundingBox,
+	lL as Qn,
 	gp as Qr,
 	X as Qt,
 	NVe as R,
@@ -156528,7 +156547,7 @@ export {
 	Oze as ft,
 	hWe as g,
 	fre as gi,
-	Dq as gn,
+	Dq as AxisAlignedBoundingBox,
 	jN as gr,
 	E1 as gt,
 	gWe as h,
@@ -156620,4 +156639,4 @@ export {
 	W as zr,
 	S$ as zt,
 };
-//# sourceMappingURL=index-94cnDeO4.js.map
+//# sourceMappingURL=index-ChknRhEN.js.map
