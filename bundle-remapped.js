@@ -3,38 +3,38 @@ const __vite__mapDeps = (
 	m = __vite__mapDeps,
 	d = m.f ||
 		(m.f = [
-			"assets/GuiToast-B60iCIHk.js",
-			"assets/rolldown-runtime-CL_Yyy5k.js",
-			"assets/preload-helper-D5s1j79c.js",
-			"assets/three-Cu5xQ1-E.js",
-			"assets/en-DOSvITlP.js",
-			"assets/output-B3ISIFZt.js",
-			"assets/AccountAvatarHead-DWa-nnDJ.js",
-			"assets/QuestsModal-CSKSXXsZ.js",
-			"assets/TabBar-D48nFKuK.js",
-			"assets/Leaderboards-DChW_oez.js",
-			"assets/ReportsModal-m50Ts4rj.js",
-			"assets/ImageLightbox-CSK0MjTy.js",
-			"assets/NewsModal-D-ykeYZc.js",
-			"assets/MirrorsModal-DWCx0tZZ.js",
-			"assets/Account-DpIYf2fS.js",
-			"assets/CollapsibleSection-CKQTgfH_.js",
-			"assets/CosmeticGridItem-BHYJCdbI.js",
-			"assets/Shop-DwjhmKvb.js",
-			"assets/Friends-BOJb0_lb.js",
-			"assets/SettingsModal-rmD4SyRt.js",
-			"assets/Keybinds-BTfPihbv.js",
-			"assets/GuiHud-7Uj3dDFk.js",
-			"assets/movementScriptRuntime-BTW3sD3C.js",
-			"assets/ReferralInvite-CPTjfxmQ.js",
-			"assets/EULA-Dlqe8bsa.js",
-			"assets/Privacy-BXTuSOjM.js",
-			"assets/Rules-Cect7D_A.js",
-			"assets/Tutorial-DIutmOyR.js",
-			"assets/bootEngine-DGisgSoP.js",
-			"assets/spritesheet-DSZktUhB.js",
-			"assets/blockmodels-CsuQkxzj.js",
-			"assets/recipes-v3LDbAWA.js",
+			"assets/GuiToast-DSaY1TQy.js",
+			"assets/rolldown-runtime-DH32cGVx.js",
+			"assets/preload-helper-CpomHHkO.js",
+			"assets/three-8xfUZ0-b.js",
+			"assets/en-C0e0rJ9D.js",
+			"assets/output-Cxvx3J6F.js",
+			"assets/AccountAvatarHead-QKVMuuak.js",
+			"assets/QuestsModal-Dd-_MclK.js",
+			"assets/TabBar-BjEMB9Dt.js",
+			"assets/Leaderboards-DYWMSgCb.js",
+			"assets/ReportsModal-BnT32c8a.js",
+			"assets/ImageLightbox-DUfH2IE5.js",
+			"assets/NewsModal-BzWNBnyS.js",
+			"assets/MirrorsModal-Cr86L4MV.js",
+			"assets/Account-CIDj8yNc.js",
+			"assets/CollapsibleSection-_zbm-518.js",
+			"assets/CosmeticGridItem-5_4jcSiY.js",
+			"assets/Shop-BG8zEF7D.js",
+			"assets/Friends-DfcVWI1b.js",
+			"assets/SettingsModal-CIygMbIM.js",
+			"assets/Keybinds-CBfqi5-W.js",
+			"assets/GuiHud-DjW3Lr7S.js",
+			"assets/movementScriptRuntime-Bbey94UO.js",
+			"assets/ReferralInvite-BCHVQJIo.js",
+			"assets/EULA-MmsSjudj.js",
+			"assets/Privacy-DOJiviv8.js",
+			"assets/Rules-CHQY1pBe.js",
+			"assets/Tutorial-349hiZBu.js",
+			"assets/bootEngine-DMkuOKq7.js",
+			"assets/spritesheet-CCInMKly.js",
+			"assets/blockmodels-RDZo7EL7.js",
+			"assets/recipes-CVzoljV6.js",
 		]),
 ) => i.map((i) => d[i]);
 (function () {
@@ -49,15 +49,15 @@ const __vite__mapDeps = (
 						: typeof self < `u`
 							? self
 							: {};
-		e.SENTRY_RELEASE = { id: `3.46.154` };
+		e.SENTRY_RELEASE = { id: `3.46.155` };
 		var t = new e.Error().stack;
 		t &&
 			((e._sentryDebugIds = e._sentryDebugIds || {}),
-			(e._sentryDebugIds[t] = `d1a147a7-d550-40e8-9798-9e3366bf33ef`),
-			(e._sentryDebugIdIdentifier = `sentry-dbid-d1a147a7-d550-40e8-9798-9e3366bf33ef`));
+			(e._sentryDebugIds[t] = `93ac485a-a9d7-4dae-a181-dd04c937a92a`),
+			(e._sentryDebugIdIdentifier = `sentry-dbid-93ac485a-a9d7-4dae-a181-dd04c937a92a`));
 	} catch {}
 })();
-import { a as e, i as t, n, r, t as i } from "./rolldown-runtime-CL_Yyy5k.js";
+import { a as e, i as t, n, r, t as i } from "./rolldown-runtime-DH32cGVx.js";
 import {
 	$ as a,
 	$n as o,
@@ -132,7 +132,7 @@ import {
 	Vt as Je,
 	Wt as Ye,
 	X as Xe,
-	AxisAlignedBoundingBox as Ze,
+	Xn as Ze,
 	Xt as Qe,
 	Y as $e,
 	Yn as et,
@@ -175,7 +175,7 @@ import {
 	ir as Lt,
 	it as Rt,
 	jn as zt,
-	jr as Bt,
+	AxisAlignedBoundingBox as Bt,
 	jt as Vt,
 	k as Ht,
 	kn as Ut,
@@ -205,71 +205,71 @@ import {
 	rr as pn,
 	rt as mn,
 	s as hn,
-	sn as gn,
-	sr as _n,
-	st as vn,
-	t as yn,
-	tn as bn,
-	tt as xn,
-	u as Sn,
-	un as Cn,
-	ur as wn,
-	ut as Tn,
-	v as En,
-	vn as Dn,
-	vr as On,
-	vt as kn,
-	w as An,
-	wn as jn,
-	wr as Mn,
-	wt as Nn,
-	x as Pn,
-	xn as Fn,
-	xr as In,
+	sn as eee,
+	sr as gn,
+	st as _n,
+	t as vn,
+	tn as yn,
+	tt as bn,
+	u as xn,
+	un as Sn,
+	ur as Cn,
+	ut as wn,
+	v as Tn,
+	vn as En,
+	vr as Dn,
+	vt as On,
+	w as kn,
+	wn as An,
+	wr as jn,
+	wt as Mn,
+	x as Nn,
+	xn as Pn,
+	xr as Fn,
 	xt as O,
-	y as Ln,
-	yn as Rn,
-	yr as zn,
-	yt as Bn,
-	z as Vn,
-	zn as Hn,
-	zt as Un,
-} from "./GuiToast-B60iCIHk.js";
-import { n as Wn, t as Gn } from "./gamedata-B8B6uFDj.js";
+	y as In,
+	yn as Ln,
+	yr as Rn,
+	yt as zn,
+	z as Bn,
+	zn as Vn,
+	zt as Hn,
+} from "./GuiToast-DSaY1TQy.js";
+import { n as Un, t as Wn } from "./gamedata-DyQ9mkir.js";
 import {
-	$ as Kn,
-	A as qn,
-	B as Jn,
-	C as Yn,
-	Ct as AxisAlignedBoundingBox,
-	D as Zn,
-	E as Qn,
-	F as $n,
-	G as er,
-	H as tr,
-	I as nr,
-	J as rr,
-	K as ir,
-	L as ar,
-	M as or,
-	N as sr,
-	O as cr,
-	P as lr,
-	Q as ur,
-	R as dr,
-	S as fr,
-	St as pr,
-	T as mr,
-	Tt as hr,
-	U as gr,
-	V as _r,
-	W as vr,
-	X as yr,
-	Y as br,
-	Z as xr,
-	_ as Sr,
-	_t as eee,
-	a as tee,
+	$ as Gn,
+	A as Kn,
+	B as qn,
+	C as Jn,
+	Ct as k,
+	D as Yn,
+	E as Xn,
+	F as Zn,
+	G as Qn,
+	H as $n,
+	I as er,
+	J as tr,
+	K as nr,
+	L as rr,
+	M as ir,
+	N as ar,
+	O as or,
+	P as sr,
+	Q as cr,
+	R as lr,
+	S as ur,
+	St as dr,
+	T as fr,
+	Tt as pr,
+	U as mr,
+	V as hr,
+	W as gr,
+	X as _r,
+	Y as vr,
+	Z as yr,
+	_ as br,
+	_t as xr,
+	a as Sr,
 	at as Cr,
 	b as wr,
 	bt as Tr,
@@ -278,32 +278,32 @@ import {
 	d as Or,
 	dt as kr,
 	et as Ar,
-	f as jr,
+	f as AxisAlignedBoundingBox,
 	ft as Mr,
 	g as Nr,
 	gt as Pr,
 	h as Fr,
-	ht as Ir,
-	i as Lr,
-	it as Rr,
-	j as zr,
-	k as Br,
-	l as Vr,
-	lt as Hr,
-	m as Ur,
-	mt as Wr,
-	n as Gr,
-	nt as k,
-	o as Kr,
-	ot as qr,
-	p as Jr,
-	pt as Yr,
-	q as nee,
+	ht as tee,
+	i as Ir,
+	it as Lr,
+	j as Rr,
+	k as zr,
+	l as Br,
+	lt as Vr,
+	m as Hr,
+	mt as Ur,
+	n as Wr,
+	nt as A,
+	o as Gr,
+	ot as Kr,
+	p as qr,
+	pt as Jr,
+	q as Yr,
 	r as Xr,
 	rt as Zr,
 	s as Qr,
 	st as $r,
-	t as ree,
+	t as nee,
 	tt as ei,
 	u as ti,
 	ut as ni,
@@ -312,12 +312,12 @@ import {
 	w as ai,
 	wt as oi,
 	x as si,
-	xt as A,
+	xt as ree,
 	y as ci,
 	yt as li,
 	z as ui,
-} from "./three-Cu5xQ1-E.js";
-import { t as di } from "./preload-helper-D5s1j79c.js";
+} from "./three-8xfUZ0-b.js";
+import { t as di } from "./preload-helper-CpomHHkO.js";
 (function () {
 	let e = document.createElement(`link`).relList;
 	if (e && e.supports && e.supports(`modulepreload`)) return;
@@ -8406,7 +8406,7 @@ var Fd = i((e) => {
 		);
 	})(Ld || {}),
 	Rd = new Map();
-for (let e of Wn) Rd.set(e.name, e);
+for (let e of Un) Rd.set(e.name, e);
 function zd(e) {
 	if (Rd.has(e.name))
 		throw Error(`Item data for ${e.name} is already registered`);
@@ -8759,64 +8759,64 @@ var Vd = class {
 					mn = RegExp(`[` + Zt + Et + Dt + Ft + `]`),
 					hn =
 						/[a-z][A-Z]|[A-Z]{2}[a-z]|[0-9][a-zA-Z]|[a-zA-Z][0-9]|[^a-zA-Z0-9 ]/,
-					gn =
+					eee =
 						`Array.Buffer.DataView.Date.Error.Float32Array.Float64Array.Function.Int8Array.Int16Array.Int32Array.Map.Math.Object.Promise.RegExp.Set.String.Symbol.TypeError.Uint8Array.Uint8ClampedArray.Uint16Array.Uint32Array.WeakMap._.clearTimeout.isFinite.parseInt.setTimeout`.split(
 							`.`,
 						),
-					_n = -1,
-					vn = {};
-				(vn[Re] =
+					gn = -1,
+					_n = {};
+				(_n[Re] =
+					_n[ze] =
+					_n[Be] =
+					_n[Ve] =
+					_n[He] =
+					_n[Ue] =
+					_n[We] =
+					_n[Ge] =
+					_n[Ke] =
+						!0),
+					(_n[he] =
+						_n[ge] =
+						_n[Ie] =
+						_n[ve] =
+						_n[Le] =
+						_n[ye] =
+						_n[E] =
+						_n[xe] =
+						_n[Ce] =
+						_n[we] =
+						_n[Ee] =
+						_n[ke] =
+						_n[Ae] =
+						_n[je] =
+						_n[Pe] =
+							!1);
+				var vn = {};
+				(vn[he] =
+					vn[ge] =
+					vn[Ie] =
+					vn[Le] =
+					vn[ve] =
+					vn[ye] =
+					vn[Re] =
 					vn[ze] =
 					vn[Be] =
 					vn[Ve] =
 					vn[He] =
+					vn[Ce] =
+					vn[we] =
+					vn[Ee] =
+					vn[ke] =
+					vn[Ae] =
+					vn[je] =
+					vn[Me] =
 					vn[Ue] =
 					vn[We] =
 					vn[Ge] =
 					vn[Ke] =
 						!0),
-					(vn[he] =
-						vn[ge] =
-						vn[Ie] =
-						vn[ve] =
-						vn[Le] =
-						vn[ye] =
-						vn[E] =
-						vn[xe] =
-						vn[Ce] =
-						vn[we] =
-						vn[Ee] =
-						vn[ke] =
-						vn[Ae] =
-						vn[je] =
-						vn[Pe] =
-							!1);
-				var yn = {};
-				(yn[he] =
-					yn[ge] =
-					yn[Ie] =
-					yn[Le] =
-					yn[ve] =
-					yn[ye] =
-					yn[Re] =
-					yn[ze] =
-					yn[Be] =
-					yn[Ve] =
-					yn[He] =
-					yn[Ce] =
-					yn[we] =
-					yn[Ee] =
-					yn[ke] =
-					yn[Ae] =
-					yn[je] =
-					yn[Me] =
-					yn[Ue] =
-					yn[We] =
-					yn[Ge] =
-					yn[Ke] =
-						!0),
-					(yn[E] = yn[xe] = yn[Pe] = !1);
-				var bn = {
+					(vn[E] = vn[xe] = vn[Pe] = !1);
+				var yn = {
 						À: `A`,
 						Á: `A`,
 						Â: `A`,
@@ -9008,21 +9008,21 @@ var Vd = class {
 						ŉ: `'n`,
 						ſ: `s`,
 					},
-					xn = {
+					bn = {
 						"&": `&amp;`,
 						"<": `&lt;`,
 						">": `&gt;`,
 						'"': `&quot;`,
 						"'": `&#39;`,
 					},
-					Sn = {
+					xn = {
 						"&amp;": `&`,
 						"&lt;": `<`,
 						"&gt;": `>`,
 						"&quot;": `"`,
 						"&#39;": `'`,
 					},
-					Cn = {
+					Sn = {
 						"\\": `\\`,
 						"'": `'`,
 						"\n": `n`,
@@ -9030,35 +9030,35 @@ var Vd = class {
 						"\u2028": `u2028`,
 						"\u2029": `u2029`,
 					},
-					wn = parseFloat,
-					Tn = parseInt,
-					En =
+					Cn = parseFloat,
+					wn = parseInt,
+					Tn =
 						typeof global == `object` &&
 						global &&
 						global.Object === Object &&
 						global,
-					Dn =
+					En =
 						typeof self == `object` && self && self.Object === Object && self,
-					On = En || Dn || Function(`return this`)(),
-					kn = typeof e == `object` && e && !e.nodeType && e,
-					An = kn && typeof t == `object` && t && !t.nodeType && t,
-					jn = An && An.exports === kn,
-					Mn = jn && En.process,
-					Nn = (function () {
+					Dn = Tn || En || Function(`return this`)(),
+					On = typeof e == `object` && e && !e.nodeType && e,
+					kn = On && typeof t == `object` && t && !t.nodeType && t,
+					An = kn && kn.exports === On,
+					jn = An && Tn.process,
+					Mn = (function () {
 						try {
 							return (
-								(An && An.require && An.require(`util`).types) ||
-								(Mn && Mn.binding && Mn.binding(`util`))
+								(kn && kn.require && kn.require(`util`).types) ||
+								(jn && jn.binding && jn.binding(`util`))
 							);
 						} catch {}
 					})(),
-					Pn = Nn && Nn.isArrayBuffer,
-					Fn = Nn && Nn.isDate,
-					In = Nn && Nn.isMap,
-					O = Nn && Nn.isRegExp,
-					Ln = Nn && Nn.isSet,
-					Rn = Nn && Nn.isTypedArray;
-				function zn(e, t, n) {
+					Nn = Mn && Mn.isArrayBuffer,
+					Pn = Mn && Mn.isDate,
+					Fn = Mn && Mn.isMap,
+					O = Mn && Mn.isRegExp,
+					In = Mn && Mn.isSet,
+					Ln = Mn && Mn.isTypedArray;
+				function Rn(e, t, n) {
 					switch (n.length) {
 						case 0:
 							return e.call(t);
@@ -9071,30 +9071,30 @@ var Vd = class {
 					}
 					return e.apply(t, n);
 				}
-				function Bn(e, t, n, r) {
+				function zn(e, t, n, r) {
 					for (var i = -1, a = e == null ? 0 : e.length; ++i < a; ) {
 						var o = e[i];
 						t(r, o, n(o), e);
 					}
 					return r;
 				}
-				function Vn(e, t) {
+				function Bn(e, t) {
 					for (
 						var n = -1, r = e == null ? 0 : e.length;
 						++n < r && t(e[n], n, e) !== !1;
 					);
 					return e;
 				}
-				function Hn(e, t) {
+				function Vn(e, t) {
 					for (var n = e == null ? 0 : e.length; n-- && t(e[n], n, e) !== !1; );
 					return e;
 				}
-				function Un(e, t) {
+				function Hn(e, t) {
 					for (var n = -1, r = e == null ? 0 : e.length; ++n < r; )
 						if (!t(e[n], n, e)) return !1;
 					return !0;
 				}
-				function Wn(e, t) {
+				function Un(e, t) {
 					for (
 						var n = -1, r = e == null ? 0 : e.length, i = 0, a = [];
 						++n < r;
@@ -9104,15 +9104,15 @@ var Vd = class {
 					}
 					return a;
 				}
-				function Gn(e, t) {
-					return !!(e != null && e.length) && rr(e, t, 0) > -1;
+				function Wn(e, t) {
+					return !!(e != null && e.length) && tr(e, t, 0) > -1;
 				}
-				function Kn(e, t, n) {
+				function Gn(e, t, n) {
 					for (var r = -1, i = e == null ? 0 : e.length; ++r < i; )
 						if (n(t, e[r])) return !0;
 					return !1;
 				}
-				function qn(e, t) {
+				function Kn(e, t) {
 					for (
 						var n = -1, r = e == null ? 0 : e.length, i = Array(r);
 						++n < r;
@@ -9120,35 +9120,35 @@ var Vd = class {
 						i[n] = t(e[n], n, e);
 					return i;
 				}
-				function Jn(e, t) {
+				function qn(e, t) {
 					for (var n = -1, r = t.length, i = e.length; ++n < r; )
 						e[i + n] = t[n];
 					return e;
 				}
-				function Yn(e, t, n, r) {
+				function Jn(e, t, n, r) {
 					var i = -1,
 						a = e == null ? 0 : e.length;
 					for (r && a && (n = e[++i]); ++i < a; ) n = t(n, e[i], i, e);
 					return n;
 				}
-				function AxisAlignedBoundingBox(e, t, n, r) {
+				function k(e, t, n, r) {
 					var i = e == null ? 0 : e.length;
 					for (r && i && (n = e[--i]); i--; ) n = t(n, e[i], i, e);
 					return n;
 				}
-				function Zn(e, t) {
+				function Yn(e, t) {
 					for (var n = -1, r = e == null ? 0 : e.length; ++n < r; )
 						if (t(e[n], n, e)) return !0;
 					return !1;
 				}
-				var Qn = sr(`length`);
-				function $n(e) {
+				var Xn = ar(`length`);
+				function Zn(e) {
 					return e.split(``);
 				}
-				function er(e) {
+				function Qn(e) {
 					return e.match(pt) || [];
 				}
-				function tr(e, t, n) {
+				function $n(e, t, n) {
 					var r;
 					return (
 						n(e, function (e, n, i) {
@@ -9157,36 +9157,36 @@ var Vd = class {
 						r
 					);
 				}
-				function nr(e, t, n, r) {
+				function er(e, t, n, r) {
 					for (var i = e.length, a = n + (r ? 1 : -1); r ? a-- : ++a < i; )
 						if (t(e[a], a, e)) return a;
 					return -1;
 				}
-				function rr(e, t, n) {
-					return t === t ? jr(e, t, n) : nr(e, ar, n);
+				function tr(e, t, n) {
+					return t === t ? AxisAlignedBoundingBox(e, t, n) : er(e, rr, n);
 				}
-				function ir(e, t, n, r) {
+				function nr(e, t, n, r) {
 					for (var i = n - 1, a = e.length; ++i < a; ) if (r(e[i], t)) return i;
 					return -1;
 				}
-				function ar(e) {
+				function rr(e) {
 					return e !== e;
 				}
-				function or(e, t) {
+				function ir(e, t) {
 					var n = e == null ? 0 : e.length;
-					return n ? dr(e, t) / n : ue;
+					return n ? lr(e, t) / n : ue;
 				}
-				function sr(e) {
+				function ar(e) {
 					return function (t) {
 						return t == null ? n : t[e];
 					};
 				}
-				function cr(e) {
+				function or(e) {
 					return function (t) {
 						return e == null ? n : e[t];
 					};
 				}
-				function lr(e, t, n, r, i) {
+				function sr(e, t, n, r, i) {
 					return (
 						i(e, function (e, i, a) {
 							n = r ? ((r = !1), e) : t(n, e, i, a);
@@ -9194,61 +9194,61 @@ var Vd = class {
 						n
 					);
 				}
-				function ur(e, t) {
+				function cr(e, t) {
 					var n = e.length;
 					for (e.sort(t); n--; ) e[n] = e[n].value;
 					return e;
 				}
-				function dr(e, t) {
+				function lr(e, t) {
 					for (var r, i = -1, a = e.length; ++i < a; ) {
 						var o = t(e[i]);
 						o !== n && (r = r === n ? o : r + o);
 					}
 					return r;
 				}
-				function fr(e, t) {
+				function ur(e, t) {
 					for (var n = -1, r = Array(e); ++n < e; ) r[n] = t(n);
 					return r;
 				}
-				function pr(e, t) {
-					return qn(t, function (t) {
+				function dr(e, t) {
+					return Kn(t, function (t) {
 						return [t, e[t]];
 					});
 				}
-				function mr(e) {
+				function fr(e) {
 					return e && e.slice(0, Fr(e) + 1).replace(ct, ``);
 				}
-				function hr(e) {
+				function pr(e) {
 					return function (t) {
 						return e(t);
 					};
 				}
-				function gr(e, t) {
-					return qn(t, function (t) {
+				function mr(e, t) {
+					return Kn(t, function (t) {
 						return e[t];
 					});
 				}
-				function _r(e, t) {
+				function hr(e, t) {
 					return e.has(t);
 				}
+				function gr(e, t) {
+					for (var n = -1, r = e.length; ++n < r && tr(t, e[n], 0) > -1; );
+					return n;
+				}
+				function _r(e, t) {
+					for (var n = e.length; n-- && tr(t, e[n], 0) > -1; );
+					return n;
+				}
 				function vr(e, t) {
-					for (var n = -1, r = e.length; ++n < r && rr(t, e[n], 0) > -1; );
-					return n;
-				}
-				function yr(e, t) {
-					for (var n = e.length; n-- && rr(t, e[n], 0) > -1; );
-					return n;
-				}
-				function br(e, t) {
 					for (var n = e.length, r = 0; n--; ) e[n] === t && ++r;
 					return r;
 				}
-				var xr = cr(bn),
-					Sr = cr(xn);
-				function eee(e) {
-					return `\\` + Cn[e];
+				var yr = or(yn),
+					br = or(bn);
+				function xr(e) {
+					return `\\` + Sn[e];
 				}
-				function tee(e, t) {
+				function Sr(e, t) {
 					return e == null ? n : e[t];
 				}
 				function Cr(e) {
@@ -9303,7 +9303,7 @@ var Vd = class {
 						n
 					);
 				}
-				function jr(e, t, n) {
+				function AxisAlignedBoundingBox(e, t, n) {
 					for (var r = n - 1, i = e.length; ++r < i; ) if (e[r] === t) return r;
 					return -1;
 				}
@@ -9312,28 +9312,28 @@ var Vd = class {
 					return r;
 				}
 				function Nr(e) {
-					return Cr(e) ? Lr(e) : Qn(e);
+					return Cr(e) ? Ir(e) : Xn(e);
 				}
 				function Pr(e) {
-					return Cr(e) ? Rr(e) : $n(e);
+					return Cr(e) ? Lr(e) : Zn(e);
 				}
 				function Fr(e) {
 					for (var t = e.length; t-- && lt.test(e.charAt(t)); );
 					return t;
 				}
-				var Ir = cr(Sn);
-				function Lr(e) {
+				var tee = or(xn);
+				function Ir(e) {
 					for (var t = (fn.lastIndex = 0); fn.test(e); ) ++t;
 					return t;
 				}
-				function Rr(e) {
+				function Lr(e) {
 					return e.match(fn) || [];
 				}
-				function zr(e) {
+				function Rr(e) {
 					return e.match(pn) || [];
 				}
-				var Br = (function e(t) {
-					t = t == null ? On : Br.defaults(On.Object(), t, Br.pick(On, gn));
+				var zr = (function e(t) {
+					t = t == null ? Dn : zr.defaults(Dn.Object(), t, zr.pick(Dn, eee));
 					var lt = t.Array,
 						pt = t.Date,
 						Et = t.Error,
@@ -9356,7 +9356,7 @@ var Vd = class {
 						})(),
 						Vt = Ft.toString,
 						Ht = Lt.call(kt),
-						Ut = On._,
+						Ut = Dn._,
 						Wt = At(
 							`^` +
 								Lt.call(Rt)
@@ -9367,7 +9367,7 @@ var Vd = class {
 									) +
 								`$`,
 						),
-						Gt = jn ? t.Buffer : n,
+						Gt = An ? t.Buffer : n,
 						Kt = t.Symbol,
 						qt = t.Uint8Array,
 						Jt = Gt ? Gt.allocUnsafe : n,
@@ -9384,9 +9384,9 @@ var Vd = class {
 								return e({}, ``, {}), e;
 							} catch {}
 						})(),
-						rn = t.clearTimeout !== On.clearTimeout && t.clearTimeout,
-						an = pt && pt.now !== On.Date.now && pt.now,
-						D = t.setTimeout !== On.setTimeout && t.setTimeout,
+						rn = t.clearTimeout !== Dn.clearTimeout && t.clearTimeout,
+						an = pt && pt.now !== Dn.Date.now && pt.now,
+						D = t.setTimeout !== Dn.setTimeout && t.setTimeout,
 						on = Ot.ceil,
 						sn = Ot.floor,
 						cn = kt.getOwnPropertySymbols,
@@ -9395,35 +9395,35 @@ var Vd = class {
 						pn = Nt.join,
 						mn = Dr(kt.keys, kt),
 						hn = Ot.max,
-						bn = Ot.min,
-						xn = pt.now,
-						Sn = t.parseInt,
-						Cn = Ot.random,
-						En = Nt.reverse,
-						Dn = os(t, `DataView`),
-						kn = os(t, `Map`),
-						An = os(t, `Promise`),
-						Mn = os(t, `Set`),
-						Nn = os(t, `WeakMap`),
-						Qn = os(kt, `create`),
-						$n = Nn && new Nn(),
-						cr = {},
-						jr = Bs(Dn),
+						yn = Ot.min,
+						bn = pt.now,
+						xn = t.parseInt,
+						Sn = Ot.random,
+						Tn = Nt.reverse,
+						En = os(t, `DataView`),
+						On = os(t, `Map`),
+						kn = os(t, `Promise`),
+						jn = os(t, `Set`),
+						Mn = os(t, `WeakMap`),
+						Xn = os(kt, `create`),
+						Zn = Mn && new Mn(),
+						or = {},
+						AxisAlignedBoundingBox = Bs(En),
+						Ir = Bs(On),
 						Lr = Bs(kn),
-						Rr = Bs(An),
+						Br = Bs(jn),
 						Vr = Bs(Mn),
-						Hr = Bs(Nn),
-						Ur = Kt ? Kt.prototype : n,
-						Wr = Ur ? Ur.valueOf : n,
-						Gr = Ur ? Ur.toString : n;
-					function k(e) {
-						if (vu(e) && !iu(e) && !(e instanceof Yr)) {
-							if (e instanceof Jr) return e;
+						Hr = Kt ? Kt.prototype : n,
+						Ur = Hr ? Hr.valueOf : n,
+						Wr = Hr ? Hr.toString : n;
+					function A(e) {
+						if (vu(e) && !iu(e) && !(e instanceof Jr)) {
+							if (e instanceof qr) return e;
 							if (Rt.call(e, `__wrapped__`)) return Hs(e);
 						}
-						return new Jr(e);
+						return new qr(e);
 					}
-					var Kr = (function () {
+					var Gr = (function () {
 						function e() {}
 						return function (t) {
 							if (!_u(t)) return {};
@@ -9433,26 +9433,26 @@ var Vd = class {
 							return (e.prototype = n), r;
 						};
 					})();
-					function qr() {}
-					function Jr(e, t) {
+					function Kr() {}
+					function qr(e, t) {
 						(this.__wrapped__ = e),
 							(this.__actions__ = []),
 							(this.__chain__ = !!t),
 							(this.__index__ = 0),
 							(this.__values__ = n);
 					}
-					(k.templateSettings = {
+					(A.templateSettings = {
 						escape: et,
 						evaluate: tt,
 						interpolate: nt,
 						variable: ``,
-						imports: { _: k },
+						imports: { _: A },
 					}),
-						(k.prototype = qr.prototype),
-						(k.prototype.constructor = k),
-						(Jr.prototype = Kr(qr.prototype)),
-						(Jr.prototype.constructor = Jr);
-					function Yr(e) {
+						(A.prototype = Kr.prototype),
+						(A.prototype.constructor = A),
+						(qr.prototype = Gr(Kr.prototype)),
+						(qr.prototype.constructor = qr);
+					function Jr(e) {
 						(this.__wrapped__ = e),
 							(this.__actions__ = []),
 							(this.__dir__ = 1),
@@ -9461,8 +9461,8 @@ var Vd = class {
 							(this.__takeCount__ = de),
 							(this.__views__ = []);
 					}
-					function nee() {
-						var e = new Yr(this.__wrapped__);
+					function Yr() {
+						var e = new Jr(this.__wrapped__);
 						return (
 							(e.__actions__ = _o(this.__actions__)),
 							(e.__dir__ = this.__dir__),
@@ -9475,7 +9475,7 @@ var Vd = class {
 					}
 					function Xr() {
 						if (this.__filtered__) {
-							var e = new Yr(this);
+							var e = new Jr(this);
 							(e.__dir__ = -1), (e.__filtered__ = !0);
 						} else (e = this.clone()), (e.__dir__ *= -1);
 						return e;
@@ -9494,7 +9494,7 @@ var Vd = class {
 							u = this.__iteratees__,
 							d = u.length,
 							f = 0,
-							p = bn(c, this.__takeCount__);
+							p = yn(c, this.__takeCount__);
 						if (!n || (!r && i == c && p == c)) return Qa(e, this.__actions__);
 						var m = [];
 						outer: for (; c-- && f < p; ) {
@@ -9514,7 +9514,7 @@ var Vd = class {
 						}
 						return m;
 					}
-					(Yr.prototype = Kr(qr.prototype)), (Yr.prototype.constructor = Yr);
+					(Jr.prototype = Gr(Kr.prototype)), (Jr.prototype.constructor = Jr);
 					function Qr(e) {
 						var t = -1,
 							n = e == null ? 0 : e.length;
@@ -9524,15 +9524,15 @@ var Vd = class {
 						}
 					}
 					function $r() {
-						(this.__data__ = Qn ? Qn(null) : {}), (this.size = 0);
+						(this.__data__ = Xn ? Xn(null) : {}), (this.size = 0);
 					}
-					function ree(e) {
+					function nee(e) {
 						var t = this.has(e) && delete this.__data__[e];
 						return (this.size -= +!!t), t;
 					}
 					function ei(e) {
 						var t = this.__data__;
-						if (Qn) {
+						if (Xn) {
 							var r = t[e];
 							return r === c ? n : r;
 						}
@@ -9540,16 +9540,16 @@ var Vd = class {
 					}
 					function ti(e) {
 						var t = this.__data__;
-						return Qn ? t[e] !== n : Rt.call(t, e);
+						return Xn ? t[e] !== n : Rt.call(t, e);
 					}
 					function ni(e, t) {
 						var r = this.__data__;
 						return (
-							(this.size += +!this.has(e)), (r[e] = Qn && t === n ? c : t), this
+							(this.size += +!this.has(e)), (r[e] = Xn && t === n ? c : t), this
 						);
 					}
 					(Qr.prototype.clear = $r),
-						(Qr.prototype.delete = ree),
+						(Qr.prototype.delete = nee),
 						(Qr.prototype.get = ei),
 						(Qr.prototype.has = ti),
 						(Qr.prototype.set = ni);
@@ -9581,7 +9581,7 @@ var Vd = class {
 					function si(e) {
 						return Di(this.__data__, e) > -1;
 					}
-					function A(e, t) {
+					function ree(e, t) {
 						var n = this.__data__,
 							r = Di(n, e);
 						return r < 0 ? (++this.size, n.push([e, t])) : (n[r][1] = t), this;
@@ -9590,7 +9590,7 @@ var Vd = class {
 						(ri.prototype.delete = ai),
 						(ri.prototype.get = oi),
 						(ri.prototype.has = si),
-						(ri.prototype.set = A);
+						(ri.prototype.set = ree);
 					function ci(e) {
 						var t = -1,
 							n = e == null ? 0 : e.length;
@@ -9603,7 +9603,7 @@ var Vd = class {
 						(this.size = 0),
 							(this.__data__ = {
 								hash: new Qr(),
-								map: new (kn || ri)(),
+								map: new (On || ri)(),
 								string: new Qr(),
 							});
 					}
@@ -9661,7 +9661,7 @@ var Vd = class {
 						var n = this.__data__;
 						if (n instanceof ri) {
 							var r = n.__data__;
-							if (!kn || r.length < i - 1)
+							if (!On || r.length < i - 1)
 								return r.push([e, t]), (this.size = ++n.size), this;
 							n = this.__data__ = new ci(r);
 						}
@@ -9678,7 +9678,7 @@ var Vd = class {
 							i = !n && !r && lu(e),
 							a = !n && !r && !i && Mu(e),
 							o = n || r || i || a,
-							s = o ? fr(e.length, jt) : [],
+							s = o ? ur(e.length, jt) : [],
 							c = s.length;
 						for (var l in e)
 							(t || Rt.call(e, l)) &&
@@ -9773,7 +9773,7 @@ var Vd = class {
 								if (((s = l || g ? {} : fs(e)), !c))
 									return l ? bo(e, Ai(s, e)) : yo(e, ki(s, e));
 							} else {
-								if (!yn[h]) return a ? e : {};
+								if (!vn[h]) return a ? e : {};
 								s = pee(e, h, c);
 							}
 						}
@@ -9791,7 +9791,7 @@ var Vd = class {
 									});
 						var v = m ? n : (u ? (l ? $o : Qo) : l ? md : pd)(e);
 						return (
-							Vn(v || e, function (n, i) {
+							Bn(v || e, function (n, i) {
 								v && ((i = n), (n = e[i])), Ei(s, i, Pi(n, t, r, i, e, o));
 							}),
 							s
@@ -9822,16 +9822,16 @@ var Vd = class {
 					}
 					function Ri(e, t, n, r) {
 						var a = -1,
-							o = Gn,
+							o = Wn,
 							s = !0,
 							c = e.length,
 							l = [],
 							u = t.length;
 						if (!c) return l;
-						n && (t = qn(t, hr(n))),
+						n && (t = Kn(t, pr(n))),
 							r
-								? ((o = Kn), (s = !1))
-								: t.length >= i && ((o = _r), (s = !1), (t = new pi(t)));
+								? ((o = Gn), (s = !1))
+								: t.length >= i && ((o = hr), (s = !1), (t = new pi(t)));
 						outer: for (; ++a < c; ) {
 							var d = e[a],
 								f = n == null ? d : n(d);
@@ -9893,7 +9893,7 @@ var Vd = class {
 							t > 0 && n(s)
 								? t > 1
 									? Gi(s, t - 1, n, r, i)
-									: Jn(i, s)
+									: qn(i, s)
 								: r || (i[i.length] = s);
 						}
 						return i;
@@ -9907,7 +9907,7 @@ var Vd = class {
 						return e && qi(e, t, pd);
 					}
 					function Xi(e, t) {
-						return Wn(t, function (t) {
+						return Un(t, function (t) {
 							return mu(e[t]);
 						});
 					}
@@ -9919,7 +9919,7 @@ var Vd = class {
 					}
 					function Qi(e, t, n) {
 						var r = t(e);
-						return iu(e) ? r : Jn(r, n(e));
+						return iu(e) ? r : qn(r, n(e));
 					}
 					function $i(e) {
 						return e == null
@@ -9940,11 +9940,11 @@ var Vd = class {
 						return e != null && t in kt(e);
 					}
 					function ra(e, t, n) {
-						return e >= bn(t, n) && e < hn(t, n);
+						return e >= yn(t, n) && e < hn(t, n);
 					}
 					function ia(e, t, r) {
 						for (
-							var i = r ? Kn : Gn,
+							var i = r ? Gn : Wn,
 								a = e[0].length,
 								o = e.length,
 								s = o,
@@ -9954,8 +9954,8 @@ var Vd = class {
 							s--;
 						) {
 							var d = e[s];
-							s && t && (d = qn(d, hr(t))),
-								(l = bn(d.length, l)),
+							s && t && (d = Kn(d, pr(t))),
+								(l = yn(d.length, l)),
 								(c[s] =
 									!r && (t || (a >= 120 && d.length >= 120))
 										? new pi(s && d)
@@ -9967,10 +9967,10 @@ var Vd = class {
 						outer: for (; ++f < a && u.length < l; ) {
 							var m = d[f],
 								h = t ? t(m) : m;
-							if (((m = r || m !== 0 ? m : 0), !(p ? _r(p, h) : i(u, h, r)))) {
+							if (((m = r || m !== 0 ? m : 0), !(p ? hr(p, h) : i(u, h, r)))) {
 								for (s = o; --s; ) {
 									var g = c[s];
-									if (!(g ? _r(g, h) : i(e[s], h, r))) continue outer;
+									if (!(g ? hr(g, h) : i(e[s], h, r))) continue outer;
 								}
 								p && p.push(h), u.push(m);
 							}
@@ -9988,7 +9988,7 @@ var Vd = class {
 					function oa(e, t, r) {
 						(t = ro(t, e)), (e = ks(e, t));
 						var i = e == null ? e : e[zs(lc(t))];
-						return i == null ? n : zn(i, e, r);
+						return i == null ? n : Rn(i, e, r);
 					}
 					function sa(e) {
 						return vu(e) && $i(e) == he;
@@ -10072,7 +10072,7 @@ var Vd = class {
 						return vu(e) && ls(e) == Ae;
 					}
 					function ga(e) {
-						return vu(e) && gu(e.length) && !!vn[$i(e)];
+						return vu(e) && gu(e.length) && !!_n[$i(e)];
 					}
 					function _a(e) {
 						return typeof e == `function`
@@ -10181,7 +10181,7 @@ var Vd = class {
 					}
 					function Ea(e, t, n) {
 						t = t.length
-							? qn(t, function (e) {
+							? Kn(t, function (e) {
 									return iu(e)
 										? function (t) {
 												return Zi(t, e.length === 1 ? e[0] : e);
@@ -10191,11 +10191,11 @@ var Vd = class {
 							: [pf];
 						var r = -1;
 						return (
-							(t = qn(t, hr(rs()))),
-							ur(
+							(t = Kn(t, pr(rs()))),
+							cr(
 								xa(e, function (e, n, i) {
 									return {
-										criteria: qn(t, function (t) {
+										criteria: Kn(t, function (t) {
 											return t(e);
 										}),
 										index: ++r,
@@ -10227,11 +10227,11 @@ var Vd = class {
 						};
 					}
 					function ka(e, t, n, r) {
-						var i = r ? ir : rr,
+						var i = r ? nr : tr,
 							a = -1,
 							o = t.length,
 							s = e;
-						for (e === t && (t = _o(t)), n && (s = qn(e, hr(n))); ++a < o; )
+						for (e === t && (t = _o(t)), n && (s = Kn(e, pr(n))); ++a < o; )
 							for (
 								var c = 0, l = t[a], u = n ? n(l) : l;
 								(c = i(s, u, c, r)) > -1;
@@ -10250,7 +10250,7 @@ var Vd = class {
 						return e;
 					}
 					function ja(e, t) {
-						return e + sn(Cn() * (t - e + 1));
+						return e + sn(Sn() * (t - e + 1));
 					}
 					function Ma(e, t, n, r) {
 						for (
@@ -10297,9 +10297,9 @@ var Vd = class {
 						}
 						return e;
 					}
-					var Ra = $n
+					var Ra = Zn
 							? function (e, t) {
-									return $n.set(e, t), e;
+									return Zn.set(e, t), e;
 								}
 							: pf,
 						za = nn
@@ -10380,7 +10380,7 @@ var Vd = class {
 													: f < t;
 							_ ? (a = d + 1) : (o = d);
 						}
-						return bn(o, fe);
+						return yn(o, fe);
 					}
 					function Ga(e, t) {
 						for (var n = -1, r = e.length, i = 0, a = []; ++n < r; ) {
@@ -10398,23 +10398,23 @@ var Vd = class {
 					}
 					function qa(e) {
 						if (typeof e == `string`) return e;
-						if (iu(e)) return qn(e, qa) + ``;
-						if (ju(e)) return Gr ? Gr.call(e) : ``;
+						if (iu(e)) return Kn(e, qa) + ``;
+						if (ju(e)) return Wr ? Wr.call(e) : ``;
 						var t = e + ``;
 						return t == `0` && 1 / e == -T ? `-0` : t;
 					}
 					function Ja(e, t, n) {
 						var r = -1,
-							a = Gn,
+							a = Wn,
 							o = e.length,
 							s = !0,
 							c = [],
 							l = c;
-						if (n) (s = !1), (a = Kn);
+						if (n) (s = !1), (a = Gn);
 						else if (o >= i) {
 							var u = t ? null : Ho(e);
 							if (u) return kr(u);
-							(s = !1), (a = _r), (l = new pi());
+							(s = !1), (a = hr), (l = new pi());
 						} else l = t ? [] : c;
 						outer: for (; ++r < o; ) {
 							var d = e[r],
@@ -10446,11 +10446,11 @@ var Vd = class {
 					function Qa(e, t) {
 						var n = e;
 						return (
-							n instanceof Yr && (n = n.value()),
-							Yn(
+							n instanceof Jr && (n = n.value()),
+							Jn(
 								t,
 								function (e, t) {
-									return t.func.apply(t.thisArg, Jn([e], t.args));
+									return t.func.apply(t.thisArg, qn([e], t.args));
 								},
 								n,
 							)
@@ -10488,7 +10488,7 @@ var Vd = class {
 					var ao =
 						rn ||
 						function (e) {
-							return On.clearTimeout(e);
+							return Dn.clearTimeout(e);
 						};
 					function oo(e, t) {
 						if (t) return e.slice();
@@ -10509,7 +10509,7 @@ var Vd = class {
 						return (t.lastIndex = e.lastIndex), t;
 					}
 					function uo(e) {
-						return Wr ? kt(Wr.call(e)) : {};
+						return Ur ? kt(Ur.call(e)) : {};
 					}
 					function fo(e, t) {
 						var n = t ? so(e.buffer) : e.buffer;
@@ -10617,7 +10617,7 @@ var Vd = class {
 					}
 					function xo(e, t) {
 						return function (n, r) {
-							var i = iu(n) ? Bn : Oi,
+							var i = iu(n) ? zn : Oi,
 								a = t ? t() : {};
 							return i(n, e, rs(r, 2), a);
 						};
@@ -10664,7 +10664,7 @@ var Vd = class {
 						var r = t & g,
 							i = Oo(e);
 						function a() {
-							return (this && this !== On && this instanceof a ? i : e).apply(
+							return (this && this !== Dn && this instanceof a ? i : e).apply(
 								r ? n : this,
 								arguments,
 							);
@@ -10682,7 +10682,7 @@ var Vd = class {
 					}
 					function Do(e) {
 						return function (t) {
-							return Yn(rf(N(t).replace(un, ``)), e, ``);
+							return Jn(rf(N(t).replace(un, ``)), e, ``);
 						};
 					}
 					function Oo(e) {
@@ -10706,7 +10706,7 @@ var Vd = class {
 								case 7:
 									return new e(t[0], t[1], t[2], t[3], t[4], t[5], t[6]);
 							}
-							var n = Kr(e.prototype),
+							var n = Gr(e.prototype),
 								r = e.apply(n, t);
 							return _u(r) ? r : n;
 						};
@@ -10721,8 +10721,8 @@ var Vd = class {
 								(o -= u.length),
 								o < r
 									? Bo(e, t, Mo, a.placeholder, n, s, u, n, n, r - o)
-									: zn(
-											this && this !== On && this instanceof a ? i : e,
+									: Rn(
+											this && this !== Dn && this instanceof a ? i : e,
 											this,
 											s,
 										)
@@ -10748,11 +10748,11 @@ var Vd = class {
 						return Zo(function (t) {
 							var r = t.length,
 								i = r,
-								a = Jr.prototype.thru;
+								a = qr.prototype.thru;
 							for (e && t.reverse(); i--; ) {
 								var s = t[i];
 								if (typeof s != `function`) throw new Mt(o);
-								if (a && !c && ts(s) == `wrapper`) var c = new Jr([], !0);
+								if (a && !c && ts(s) == `wrapper`) var c = new qr([], !0);
 							}
 							for (i = c ? i : r; ++i < r; ) {
 								s = t[i];
@@ -10791,7 +10791,7 @@ var Vd = class {
 								g[_] = arguments[_];
 							if (m)
 								var y = ns(x),
-									b = br(g, y);
+									b = vr(g, y);
 							if (
 								(i && (g = ho(g, i, a, m)),
 								o && (g = go(g, o, s, m)),
@@ -10807,7 +10807,7 @@ var Vd = class {
 								(n = g.length),
 								c ? (g = As(g, c)) : h && n > 1 && g.reverse(),
 								d && l < n && (g.length = l),
-								this && this !== On && this instanceof x && (ee = v || Oo(ee)),
+								this && this !== Dn && this instanceof x && (ee = v || Oo(ee)),
 								ee.apply(C, g)
 							);
 						}
@@ -10835,11 +10835,11 @@ var Vd = class {
 					function Fo(e) {
 						return Zo(function (t) {
 							return (
-								(t = qn(t, hr(rs()))),
+								(t = Kn(t, pr(rs()))),
 								Pa(function (n) {
 									var r = this;
 									return e(t, function (e) {
-										return zn(e, r, n);
+										return Rn(e, r, n);
 									});
 								})
 							);
@@ -10862,12 +10862,12 @@ var Vd = class {
 									c = -1,
 									l = r.length,
 									u = lt(l + s),
-									d = this && this !== On && this instanceof o ? a : e;
+									d = this && this !== Dn && this instanceof o ? a : e;
 								++c < l;
 							)
 								u[c] = r[c];
 							for (; s--; ) u[c++] = arguments[++t];
-							return zn(d, i ? n : this, u);
+							return Rn(d, i ? n : this, u);
 						}
 						return o;
 					}
@@ -10906,7 +10906,7 @@ var Vd = class {
 						var t = Ot[e];
 						return function (e, n) {
 							if (
-								((e = Vu(e)), (n = n == null ? 0 : bn(zu(n), 292)), n && fn(e))
+								((e = Vu(e)), (n = n == null ? 0 : yn(zu(n), 292)), n && fn(e))
 							) {
 								var r = (Wu(e) + `e`).split(`e`);
 								return (
@@ -10918,15 +10918,15 @@ var Vd = class {
 						};
 					}
 					var Ho =
-						Mn && 1 / kr(new Mn([, -0]))[1] == T
+						jn && 1 / kr(new jn([, -0]))[1] == T
 							? function (e) {
-									return new Mn(e);
+									return new jn(e);
 								}
 							: xf;
 					function Uo(e) {
 						return function (t) {
 							var n = ls(t);
-							return n == Ce ? Er(t) : n == Ae ? Ar(t) : pr(t, e(t));
+							return n == Ce ? Er(t) : n == Ae ? Ar(t) : dr(t, e(t));
 						};
 					}
 					function Wo(e, t, r, i, a, s, c, l) {
@@ -11001,8 +11001,8 @@ var Vd = class {
 							}
 							if (g) {
 								if (
-									!Zn(t, function (e, t) {
-										if (!_r(g, t) && (_ === e || a(_, e, r, i, o)))
+									!Yn(t, function (e, t) {
+										if (!hr(g, t) && (_ === e || a(_, e, r, i, o)))
 											return g.push(t);
 									})
 								) {
@@ -11049,7 +11049,7 @@ var Vd = class {
 								var u = Jo(s(e), s(t), r, i, a, o);
 								return o.delete(e), u;
 							case Me:
-								if (Wr) return Wr.call(e) == Wr.call(t);
+								if (Ur) return Ur.call(e) == Ur.call(t);
 						}
 						return !1;
 					}
@@ -11103,14 +11103,14 @@ var Vd = class {
 					function $o(e) {
 						return Qi(e, md, cs);
 					}
-					var es = $n
+					var es = Zn
 						? function (e) {
-								return $n.get(e);
+								return Zn.get(e);
 							}
 						: xf;
 					function ts(e) {
 						for (
-							var t = e.name + ``, n = cr[t], r = Rt.call(cr, t) ? n.length : 0;
+							var t = e.name + ``, n = or[t], r = Rt.call(or, t) ? n.length : 0;
 							r--;
 						) {
 							var i = n[r],
@@ -11120,10 +11120,10 @@ var Vd = class {
 						return t;
 					}
 					function ns(e) {
-						return (Rt.call(k, `placeholder`) ? k : e).placeholder;
+						return (Rt.call(A, `placeholder`) ? A : e).placeholder;
 					}
 					function rs() {
-						var e = k.iteratee || mf;
+						var e = A.iteratee || mf;
 						return (
 							(e = e === mf ? _a : e),
 							arguments.length ? e(arguments[0], arguments[1]) : e
@@ -11142,7 +11142,7 @@ var Vd = class {
 						return t;
 					}
 					function os(e, t) {
-						var r = tee(e, t);
+						var r = Sr(e, t);
 						return pa(r) ? r : n;
 					}
 					function uee(e) {
@@ -11160,38 +11160,38 @@ var Vd = class {
 									return e == null
 										? []
 										: ((e = kt(e)),
-											Wn(cn(e), function (t) {
+											Un(cn(e), function (t) {
 												return Zt.call(e, t);
 											}));
 								}
 							: Af,
 						cs = cn
 							? function (e) {
-									for (var t = []; e; ) Jn(t, ss(e)), (e = Yt(e));
+									for (var t = []; e; ) qn(t, ss(e)), (e = Yt(e));
 									return t;
 								}
 							: Af,
 						ls = $i;
-					((Dn && ls(new Dn(new ArrayBuffer(1))) != Le) ||
-						(kn && ls(new kn()) != Ce) ||
-						(An && ls(An.resolve()) != De) ||
-						(Mn && ls(new Mn()) != Ae) ||
-						(Nn && ls(new Nn()) != Pe)) &&
+					((En && ls(new En(new ArrayBuffer(1))) != Le) ||
+						(On && ls(new On()) != Ce) ||
+						(kn && ls(kn.resolve()) != De) ||
+						(jn && ls(new jn()) != Ae) ||
+						(Mn && ls(new Mn()) != Pe)) &&
 						(ls = function (e) {
 							var t = $i(e),
 								r = t == Ee ? e.constructor : n,
 								i = r ? Bs(r) : ``;
 							if (i)
 								switch (i) {
-									case jr:
+									case AxisAlignedBoundingBox:
 										return Le;
-									case Lr:
+									case Ir:
 										return Ce;
-									case Rr:
+									case Lr:
 										return De;
-									case Vr:
+									case Br:
 										return Ae;
-									case Hr:
+									case Vr:
 										return Pe;
 								}
 							return t;
@@ -11208,7 +11208,7 @@ var Vd = class {
 									t -= o;
 									break;
 								case `take`:
-									t = bn(t, e + o);
+									t = yn(t, e + o);
 									break;
 								case `takeRight`:
 									e = hn(e, t - o);
@@ -11246,7 +11246,7 @@ var Vd = class {
 					}
 					function fs(e) {
 						return typeof e.constructor == `function` && !xs(e)
-							? Kr(Yt(e))
+							? Gr(Yt(e))
 							: {};
 					}
 					function pee(e, t, n) {
@@ -11346,8 +11346,8 @@ var Vd = class {
 					}
 					function vs(e) {
 						var t = ts(e),
-							n = k[t];
-						if (typeof n != `function` || !(t in Yr.prototype)) return !1;
+							n = A[t];
+						if (typeof n != `function` || !(t in Jr.prototype)) return !1;
 						if (e === n) return !0;
 						var r = es(n);
 						return !!r && e === r[0];
@@ -11399,7 +11399,7 @@ var Vd = class {
 								(e[6] = c ? Or(e[5], u) : t[6])),
 							(s = t[7]),
 							s && (e[7] = s),
-							r & C && (e[8] = e[8] == null ? t[8] : bn(e[8], t[8])),
+							r & C && (e[8] = e[8] == null ? t[8] : yn(e[8], t[8])),
 							(e[9] ??= t[9]),
 							(e[0] = t[0]),
 							(e[1] = i),
@@ -11425,7 +11425,7 @@ var Vd = class {
 									o[i] = n[t + i];
 								i = -1;
 								for (var s = lt(t + 1); ++i < t; ) s[i] = n[i];
-								return (s[t] = r(o)), zn(e, this, s);
+								return (s[t] = r(o)), Rn(e, this, s);
 							}
 						);
 					}
@@ -11433,7 +11433,7 @@ var Vd = class {
 						return t.length < 2 ? e : Zi(e, Va(t, 0, -1));
 					}
 					function As(e, t) {
-						for (var r = e.length, i = bn(t.length, r), a = _o(e); i--; ) {
+						for (var r = e.length, i = yn(t.length, r), a = _o(e); i--; ) {
 							var o = t[i];
 							e[i] = ms(o, r) ? a[o] : n;
 						}
@@ -11450,7 +11450,7 @@ var Vd = class {
 						Ns =
 							D ||
 							function (e, t) {
-								return On.setTimeout(e, t);
+								return Dn.setTimeout(e, t);
 							},
 						Ps = Is(za);
 					function Fs(e, t, n) {
@@ -11461,7 +11461,7 @@ var Vd = class {
 						var t = 0,
 							r = 0;
 						return function () {
-							var i = xn(),
+							var i = bn(),
 								a = ie - (i - r);
 							if (((r = i), a > 0)) {
 								if (++t >= re) return arguments[0];
@@ -11508,16 +11508,16 @@ var Vd = class {
 					}
 					function Vs(e, t) {
 						return (
-							Vn(me, function (n) {
+							Bn(me, function (n) {
 								var r = `_.` + n[0];
-								t & n[1] && !Gn(e, r) && e.push(r);
+								t & n[1] && !Wn(e, r) && e.push(r);
 							}),
 							e.sort()
 						);
 					}
 					function Hs(e) {
-						if (e instanceof Yr) return e.clone();
-						var t = new Jr(e.__wrapped__, e.__chain__);
+						if (e instanceof Jr) return e.clone();
+						var t = new qr(e.__wrapped__, e.__chain__);
 						return (
 							(t.__actions__ = _o(e.__actions__)),
 							(t.__index__ = e.__index__),
@@ -11548,7 +11548,7 @@ var Vd = class {
 						if (!e) return [];
 						for (var t = lt(e - 1), n = arguments[0], r = e; r--; )
 							t[r - 1] = arguments[r];
-						return Jn(iu(n) ? _o(n) : [n], Gi(t, 1));
+						return qn(iu(n) ? _o(n) : [n], Gi(t, 1));
 					}
 					var Ks = Pa(function (e, t) {
 							return su(e) ? Ri(e, Gi(t, 1, su, !0)) : [];
@@ -11596,7 +11596,7 @@ var Vd = class {
 						var r = e == null ? 0 : e.length;
 						if (!r) return -1;
 						var i = n == null ? 0 : zu(n);
-						return i < 0 && (i = hn(r + i, 0)), nr(e, rs(t, 3), i);
+						return i < 0 && (i = hn(r + i, 0)), er(e, rs(t, 3), i);
 					}
 					function $s(e, t, r) {
 						var i = e == null ? 0 : e.length;
@@ -11604,8 +11604,8 @@ var Vd = class {
 						var a = i - 1;
 						return (
 							r !== n &&
-								((a = zu(r)), (a = r < 0 ? hn(i + a, 0) : bn(a, i - 1))),
-							nr(e, rs(t, 3), a, !0)
+								((a = zu(r)), (a = r < 0 ? hn(i + a, 0) : yn(a, i - 1))),
+							er(e, rs(t, 3), a, !0)
 						);
 					}
 					function ec(e) {
@@ -11633,18 +11633,18 @@ var Vd = class {
 						var r = e == null ? 0 : e.length;
 						if (!r) return -1;
 						var i = n == null ? 0 : zu(n);
-						return i < 0 && (i = hn(r + i, 0)), rr(e, t, i);
+						return i < 0 && (i = hn(r + i, 0)), tr(e, t, i);
 					}
 					function ic(e) {
 						return e != null && e.length ? Va(e, 0, -1) : [];
 					}
 					var ac = Pa(function (e) {
-							var t = qn(e, to);
+							var t = Kn(e, to);
 							return t.length && t[0] === e[0] ? ia(t) : [];
 						}),
 						oc = Pa(function (e) {
 							var t = lc(e),
-								r = qn(e, to);
+								r = Kn(e, to);
 							return (
 								t === lc(r) ? (t = n) : r.pop(),
 								r.length && r[0] === e[0] ? ia(r, rs(t, 2)) : []
@@ -11652,7 +11652,7 @@ var Vd = class {
 						}),
 						sc = Pa(function (e) {
 							var t = lc(e),
-								r = qn(e, to);
+								r = Kn(e, to);
 							return (
 								(t = typeof t == `function` ? t : n),
 								t && r.pop(),
@@ -11672,8 +11672,8 @@ var Vd = class {
 						var a = i;
 						return (
 							r !== n &&
-								((a = zu(r)), (a = a < 0 ? hn(i + a, 0) : bn(a, i - 1))),
-							t === t ? Mr(e, t, a) : nr(e, ar, a, !0)
+								((a = zu(r)), (a = a < 0 ? hn(i + a, 0) : yn(a, i - 1))),
+							t === t ? Mr(e, t, a) : er(e, rr, a, !0)
 						);
 					}
 					function dc(e, t) {
@@ -11695,7 +11695,7 @@ var Vd = class {
 						return (
 							Aa(
 								e,
-								qn(t, function (e) {
+								Kn(t, function (e) {
 									return ms(e, n) ? +e : e;
 								}).sort(po),
 							),
@@ -11715,7 +11715,7 @@ var Vd = class {
 						return Aa(e, i), n;
 					}
 					function vc(e) {
-						return e == null ? e : En.call(e);
+						return e == null ? e : Tn.call(e);
 					}
 					function yc(e, t, r) {
 						var i = e == null ? 0 : e.length;
@@ -11811,11 +11811,11 @@ var Vd = class {
 						if (!(e && e.length)) return [];
 						var t = 0;
 						return (
-							(e = Wn(e, function (e) {
+							(e = Un(e, function (e) {
 								if (su(e)) return (t = hn(e.length, t)), !0;
 							})),
-							fr(t, function (t) {
-								return qn(e, sr(t));
+							ur(t, function (t) {
+								return Kn(e, ar(t));
 							})
 						);
 					}
@@ -11824,23 +11824,23 @@ var Vd = class {
 						var r = zc(e);
 						return t == null
 							? r
-							: qn(r, function (e) {
-									return zn(t, n, e);
+							: Kn(r, function (e) {
+									return Rn(t, n, e);
 								});
 					}
 					var Vc = Pa(function (e, t) {
 							return su(e) ? Ri(e, t) : [];
 						}),
 						Hc = Pa(function (e) {
-							return $a(Wn(e, su));
+							return $a(Un(e, su));
 						}),
 						Uc = Pa(function (e) {
 							var t = lc(e);
-							return su(t) && (t = n), $a(Wn(e, su), rs(t, 2));
+							return su(t) && (t = n), $a(Un(e, su), rs(t, 2));
 						}),
 						yee = Pa(function (e) {
 							var t = lc(e);
-							return (t = typeof t == `function` ? t : n), $a(Wn(e, su), n, t);
+							return (t = typeof t == `function` ? t : n), $a(Un(e, su), n, t);
 						}),
 						bee = Pa(zc);
 					function Wc(e, t) {
@@ -11855,7 +11855,7 @@ var Vd = class {
 						return (r = typeof r == `function` ? (e.pop(), r) : n), Bc(e, r);
 					});
 					function Kc(e) {
-						var t = k(e);
+						var t = A(e);
 						return (t.__chain__ = !0), t;
 					}
 					function qc(e, t) {
@@ -11873,12 +11873,12 @@ var Vd = class {
 							};
 						return t > 1 ||
 							this.__actions__.length ||
-							!(i instanceof Yr) ||
+							!(i instanceof Jr) ||
 							!ms(r)
 							? this.thru(a)
 							: ((i = i.slice(r, +r + +!!t)),
 								i.__actions__.push({ func: Jc, args: [a], thisArg: n }),
-								new Jr(i, this.__chain__).thru(function (e) {
+								new qr(i, this.__chain__).thru(function (e) {
 									return t && !e.length && e.push(n), e;
 								}));
 					});
@@ -11886,7 +11886,7 @@ var Vd = class {
 						return Kc(this);
 					}
 					function Xc() {
-						return new Jr(this.value(), this.__chain__);
+						return new qr(this.value(), this.__chain__);
 					}
 					function Zc() {
 						this.__values__ === n && (this.__values__ = Lu(this.value()));
@@ -11900,7 +11900,7 @@ var Vd = class {
 						return this;
 					}
 					function $c(e) {
-						for (var t, r = this; r instanceof qr; ) {
+						for (var t, r = this; r instanceof Kr; ) {
 							var i = Hs(r);
 							(i.__index__ = 0),
 								(i.__values__ = n),
@@ -11912,13 +11912,13 @@ var Vd = class {
 					}
 					function el() {
 						var e = this.__wrapped__;
-						if (e instanceof Yr) {
+						if (e instanceof Jr) {
 							var t = e;
 							return (
-								this.__actions__.length && (t = new Yr(this)),
+								this.__actions__.length && (t = new Jr(this)),
 								(t = t.reverse()),
 								t.__actions__.push({ func: Jc, args: [vc], thisArg: n }),
-								new Jr(t, this.__chain__)
+								new qr(t, this.__chain__)
 							);
 						}
 						return this.thru(vc);
@@ -11930,11 +11930,11 @@ var Vd = class {
 						Rt.call(e, n) ? ++e[n] : ji(e, n, 1);
 					});
 					function rl(e, t, r) {
-						var i = iu(e) ? Un : Vi;
+						var i = iu(e) ? Hn : Vi;
 						return r && hs(e, t, r) && (t = n), i(e, rs(t, 3));
 					}
 					function il(e, t) {
-						return (iu(e) ? Wn : Wi)(e, rs(t, 3));
+						return (iu(e) ? Un : Wi)(e, rs(t, 3));
 					}
 					var Cee = Ao(Qs),
 						al = Ao($s);
@@ -11948,10 +11948,10 @@ var Vd = class {
 						return (r = r === n ? 1 : zu(r)), Gi(ml(e, t), r);
 					}
 					function cl(e, t) {
-						return (iu(e) ? Vn : zi)(e, rs(t, 3));
+						return (iu(e) ? Bn : zi)(e, rs(t, 3));
 					}
 					function ll(e, t) {
-						return (iu(e) ? Hn : Bi)(e, rs(t, 3));
+						return (iu(e) ? Vn : Bi)(e, rs(t, 3));
 					}
 					var ul = xo(function (e, t, n) {
 						Rt.call(e, n) ? e[n].push(t) : ji(e, n, [t]);
@@ -11961,7 +11961,7 @@ var Vd = class {
 						var i = e.length;
 						return (
 							n < 0 && (n = hn(i + n, 0)),
-							Au(e) ? n <= i && e.indexOf(t, n) > -1 : !!i && rr(e, t, n) > -1
+							Au(e) ? n <= i && e.indexOf(t, n) > -1 : !!i && tr(e, t, n) > -1
 						);
 					}
 					var fl = Pa(function (e, t, n) {
@@ -11970,7 +11970,7 @@ var Vd = class {
 								a = ou(e) ? lt(e.length) : [];
 							return (
 								zi(e, function (e) {
-									a[++r] = i ? zn(t, e, n) : oa(e, t, n);
+									a[++r] = i ? Rn(t, e, n) : oa(e, t, n);
 								}),
 								a
 							);
@@ -11979,7 +11979,7 @@ var Vd = class {
 							ji(e, n, t);
 						});
 					function ml(e, t) {
-						return (iu(e) ? qn : xa)(e, rs(t, 3));
+						return (iu(e) ? Kn : xa)(e, rs(t, 3));
 					}
 					function hl(e, t, r, i) {
 						return e == null
@@ -11998,17 +11998,17 @@ var Vd = class {
 						},
 					);
 					function _l(e, t, n) {
-						var r = iu(e) ? Yn : lr,
+						var r = iu(e) ? Jn : sr,
 							i = arguments.length < 3;
 						return r(e, rs(t, 4), n, i, zi);
 					}
 					function vl(e, t, n) {
-						var r = iu(e) ? AxisAlignedBoundingBox : lr,
+						var r = iu(e) ? k : sr,
 							i = arguments.length < 3;
 						return r(e, rs(t, 4), n, i, Bi);
 					}
 					function yl(e, t) {
-						return (iu(e) ? Wn : Wi)(e, Rl(rs(t, 3)));
+						return (iu(e) ? Un : Wi)(e, Rl(rs(t, 3)));
 					}
 					function bl(e) {
 						return (iu(e) ? Si : Fa)(e);
@@ -12029,7 +12029,7 @@ var Vd = class {
 						return t == Ce || t == Ae ? e.size : va(e).length;
 					}
 					function Cl(e, t, r) {
-						var i = iu(e) ? Zn : Ha;
+						var i = iu(e) ? Yn : Ha;
 						return r && hs(e, t, r) && (t = n), i(e, rs(t, 3));
 					}
 					var wl = Pa(function (e, t) {
@@ -12045,7 +12045,7 @@ var Vd = class {
 						Tl =
 							an ||
 							function () {
-								return On.Date.now();
+								return Dn.Date.now();
 							};
 					function El(e, t) {
 						if (typeof t != `function`) throw new Mt(o);
@@ -12133,7 +12133,7 @@ var Vd = class {
 							var n = e - u,
 								r = e - d,
 								i = t - n;
-							return p ? bn(i, s - r) : i;
+							return p ? yn(i, s - r) : i;
 						}
 						function v(e) {
 							var r = e - u,
@@ -12211,13 +12211,13 @@ var Vd = class {
 					var Bl = lee(function (e, t) {
 							t =
 								t.length == 1 && iu(t[0])
-									? qn(t[0], hr(rs()))
-									: qn(Gi(t, 1), hr(rs()));
+									? Kn(t[0], pr(rs()))
+									: Kn(Gi(t, 1), pr(rs()));
 							var n = t.length;
 							return Pa(function (r) {
-								for (var i = -1, a = bn(r.length, n); ++i < a; )
+								for (var i = -1, a = yn(r.length, n); ++i < a; )
 									r[i] = t[i].call(this, r[i]);
-								return zn(e, this, r);
+								return Rn(e, this, r);
 							});
 						}),
 						Vl = Pa(function (e, t) {
@@ -12240,7 +12240,7 @@ var Vd = class {
 							Pa(function (n) {
 								var r = n[t],
 									i = io(n, 0, t);
-								return r && Jn(i, r), zn(e, this, i);
+								return r && qn(i, r), Rn(e, this, i);
 							})
 						);
 					}
@@ -12298,7 +12298,7 @@ var Vd = class {
 									return vu(e) && Rt.call(e, `callee`) && !Zt.call(e, `callee`);
 								},
 						iu = lt.isArray,
-						au = Pn ? hr(Pn) : ca;
+						au = Nn ? pr(Nn) : ca;
 					function ou(e) {
 						return e != null && gu(e.length) && !mu(e);
 					}
@@ -12309,7 +12309,7 @@ var Vd = class {
 						return e === !0 || e === !1 || (vu(e) && $i(e) == ve);
 					}
 					var lu = ln || jf,
-						Eee = Fn ? hr(Fn) : la;
+						Eee = Pn ? pr(Pn) : la;
 					function Dee(e) {
 						return vu(e) && e.nodeType === 1 && !Eu(e);
 					}
@@ -12371,7 +12371,7 @@ var Vd = class {
 					function vu(e) {
 						return typeof e == `object` && !!e;
 					}
-					var yu = In ? hr(In) : da;
+					var yu = Fn ? pr(Fn) : da;
 					function bu(e, t) {
 						return e === t || fa(e, t, as(t));
 					}
@@ -12401,18 +12401,18 @@ var Vd = class {
 						var n = Rt.call(t, `constructor`) && t.constructor;
 						return typeof n == `function` && n instanceof n && Lt.call(n) == Ht;
 					}
-					var Du = O ? hr(O) : ma;
+					var Du = O ? pr(O) : ma;
 					function Ou(e) {
 						return hu(e) && e >= -ce && e <= ce;
 					}
-					var ku = Ln ? hr(Ln) : ha;
+					var ku = In ? pr(In) : ha;
 					function Au(e) {
 						return typeof e == `string` || (!iu(e) && vu(e) && $i(e) == je);
 					}
 					function ju(e) {
 						return typeof e == `symbol` || (vu(e) && $i(e) == Me);
 					}
-					var Mu = Rn ? hr(Rn) : ga;
+					var Mu = Ln ? pr(Ln) : ga;
 					function M(e) {
 						return e === n;
 					}
@@ -12457,10 +12457,10 @@ var Vd = class {
 							e = _u(t) ? t + `` : t;
 						}
 						if (typeof e != `string`) return e === 0 ? e : +e;
-						e = mr(e);
+						e = fr(e);
 						var n = yt.test(e);
 						return n || xt.test(e)
-							? Tn(e.slice(2), n ? 2 : 8)
+							? wn(e.slice(2), n ? 2 : 8)
 							: vt.test(e)
 								? ue
 								: +e;
@@ -12492,7 +12492,7 @@ var Vd = class {
 						}),
 						Yu = Zo(Mi);
 					function Xu(e, t) {
-						var n = Kr(e);
+						var n = Gr(e);
 						return t == null ? n : ki(n, t);
 					}
 					var Zu = Pa(function (e, t) {
@@ -12510,13 +12510,13 @@ var Vd = class {
 							return e;
 						}),
 						Qu = Pa(function (e) {
-							return e.push(n, Ko), zn(vd, n, e);
+							return e.push(n, Ko), Rn(vd, n, e);
 						});
 					function $u(e, t) {
-						return tr(e, rs(t, 3), Ji);
+						return $n(e, rs(t, 3), Ji);
 					}
 					function ed(e, t) {
-						return tr(e, rs(t, 3), Yi);
+						return $n(e, rs(t, 3), Yi);
 					}
 					function td(e, t) {
 						return e == null ? e : Ki(e, rs(t, 3), md);
@@ -12591,7 +12591,7 @@ var Vd = class {
 							var n = {};
 							if (e == null) return n;
 							var r = !1;
-							(t = qn(t, function (t) {
+							(t = Kn(t, function (t) {
 								return (t = ro(t, e)), (r ||= t.length > 1), t;
 							})),
 								vo(e, $o(e), n),
@@ -12607,7 +12607,7 @@ var Vd = class {
 					});
 					function Sd(e, t) {
 						if (e == null) return {};
-						var n = qn($o(e), function (e) {
+						var n = Kn($o(e), function (e) {
 							return [e];
 						});
 						return (
@@ -12643,10 +12643,10 @@ var Vd = class {
 							i = r || lu(e) || Mu(e);
 						if (((t = rs(t, 4)), n == null)) {
 							var a = e && e.constructor;
-							n = i ? (r ? new a() : []) : _u(e) && mu(a) ? Kr(Yt(e)) : {};
+							n = i ? (r ? new a() : []) : _u(e) && mu(a) ? Gr(Yt(e)) : {};
 						}
 						return (
-							(i ? Vn : Ji)(e, function (e, r, i) {
+							(i ? Bn : Ji)(e, function (e, r, i) {
 								return t(n, e, r, i);
 							}),
 							n
@@ -12665,10 +12665,10 @@ var Vd = class {
 						);
 					}
 					function Ad(e) {
-						return e == null ? [] : gr(e, pd(e));
+						return e == null ? [] : mr(e, pd(e));
 					}
 					function jd(e) {
-						return e == null ? [] : gr(e, md(e));
+						return e == null ? [] : mr(e, md(e));
 					}
 					function Md(e, t, r) {
 						return (
@@ -12702,8 +12702,8 @@ var Vd = class {
 							(e = t), (t = i);
 						}
 						if (r || e % 1 || t % 1) {
-							var a = Cn();
-							return bn(e + a * (t - e + wn(`1e-` + ((a + ``).length - 1))), t);
+							var a = Sn();
+							return yn(e + a * (t - e + Cn(`1e-` + ((a + ``).length - 1))), t);
 						}
 						return ja(e, t);
 					}
@@ -12714,7 +12714,7 @@ var Vd = class {
 						return nf(Wu(e).toLowerCase());
 					}
 					function N(e) {
-						return (e = Wu(e)), e && e.replace(Ct, xr).replace(dn, ``);
+						return (e = Wu(e)), e && e.replace(Ct, yr).replace(dn, ``);
 					}
 					function Nee(e, t, r) {
 						(e = Wu(e)), (t = qa(t));
@@ -12724,7 +12724,7 @@ var Vd = class {
 						return (r -= t.length), r >= 0 && e.slice(r, a) == t;
 					}
 					function Id(e) {
-						return (e = Wu(e)), e && $e.test(e) ? e.replace(Ze, Sr) : e;
+						return (e = Wu(e)), e && $e.test(e) ? e.replace(Ze, br) : e;
 					}
 					function Ld(e) {
 						return (e = Wu(e)), e && st.test(e) ? e.replace(ot, `\\$&`) : e;
@@ -12756,7 +12756,7 @@ var Vd = class {
 					function Wd(e, t, n) {
 						return (
 							n || t == null ? (t = 0) : (t &&= +t),
-							Sn(Wu(e).replace(ct, ``), t || 0)
+							xn(Wu(e).replace(ct, ``), t || 0)
 						);
 					}
 					function P(e, t, r) {
@@ -12796,15 +12796,15 @@ var Vd = class {
 						);
 					}
 					function Jd(e, t, r) {
-						var i = k.templateSettings;
+						var i = A.templateSettings;
 						r && hs(e, t, r) && (t = n), (e = Wu(e)), (t = qu({}, t, i, Go));
 						var a = qu({}, t.imports, i.imports, Go),
 							o = pd(a),
-							c = gr(a, o),
+							c = mr(a, o),
 							l,
 							u,
 							d = 0,
-							f = t.GyYKBcWVfvP || wt,
+							f = t.CTbwYGngGYZ || wt,
 							p = `__p += '`,
 							m = At(
 								(t.escape || wt).source +
@@ -12821,13 +12821,13 @@ var Vd = class {
 								`//# sourceURL=` +
 								(Rt.call(t, `sourceURL`)
 									? (t.sourceURL + ``).replace(/\s/g, ` `)
-									: `lodash.templateSources[` + ++_n + `]`) +
+									: `lodash.templateSources[` + ++gn + `]`) +
 								`
 `;
 						e.replace(m, function (t, n, r, i, a, o) {
 							return (
 								(r ||= i),
-								(p += e.slice(d, o).replace(Tt, eee)),
+								(p += e.slice(d, o).replace(Tt, xr)),
 								n &&
 									((l = !0),
 									(p +=
@@ -12903,24 +12903,24 @@ function print() { __p += __j.call(arguments, '') }
 						return Wu(e).toUpperCase();
 					}
 					function Zd(e, t, r) {
-						if (((e = Wu(e)), e && (r || t === n))) return mr(e);
+						if (((e = Wu(e)), e && (r || t === n))) return fr(e);
 						if (!e || !(t = qa(t))) return e;
 						var i = Pr(e),
 							a = Pr(t);
-						return io(i, vr(i, a), yr(i, a) + 1).join(``);
+						return io(i, gr(i, a), _r(i, a) + 1).join(``);
 					}
 					function Qd(e, t, r) {
 						if (((e = Wu(e)), e && (r || t === n)))
 							return e.slice(0, Fr(e) + 1);
 						if (!e || !(t = qa(t))) return e;
 						var i = Pr(e);
-						return io(i, 0, yr(i, Pr(t)) + 1).join(``);
+						return io(i, 0, _r(i, Pr(t)) + 1).join(``);
 					}
 					function I(e, t, r) {
 						if (((e = Wu(e)), e && (r || t === n))) return e.replace(ct, ``);
 						if (!e || !(t = qa(t))) return e;
 						var i = Pr(e);
-						return io(i, vr(i, Pr(t))).join(``);
+						return io(i, gr(i, Pr(t))).join(``);
 					}
 					function $d(e, t) {
 						var r = te,
@@ -12960,7 +12960,7 @@ function print() { __p += __j.call(arguments, '') }
 						return l + i;
 					}
 					function ef(e) {
-						return (e = Wu(e)), e && Qe.test(e) ? e.replace(Xe, Ir) : e;
+						return (e = Wu(e)), e && Qe.test(e) ? e.replace(Xe, tee) : e;
 					}
 					var tf = Do(function (e, t, n) {
 							return e + (n ? ` ` : ``) + t.toUpperCase();
@@ -12970,19 +12970,19 @@ function print() { __p += __j.call(arguments, '') }
 						return (
 							(e = Wu(e)),
 							(t = r ? n : t),
-							t === n ? (wr(e) ? zr(e) : er(e)) : e.match(t) || []
+							t === n ? (wr(e) ? Rr(e) : Qn(e)) : e.match(t) || []
 						);
 					}
 					var af = Pa(function (e, t) {
 							try {
-								return zn(e, n, t);
+								return Rn(e, n, t);
 							} catch (e) {
 								return pu(e) ? e : new Et(e);
 							}
 						}),
 						of = Zo(function (e, t) {
 							return (
-								Vn(t, function (t) {
+								Bn(t, function (t) {
 									(t = zs(t)), ji(e, t, kl(e[t], e));
 								}),
 								e
@@ -12993,7 +12993,7 @@ function print() { __p += __j.call(arguments, '') }
 							n = rs();
 						return (
 							(e = t
-								? qn(e, function (e) {
+								? Kn(e, function (e) {
 										if (typeof e[1] != `function`) throw new Mt(o);
 										return [n(e[0]), e[1]];
 									})
@@ -13001,7 +13001,7 @@ function print() { __p += __j.call(arguments, '') }
 							Pa(function (n) {
 								for (var r = -1; ++r < t; ) {
 									var i = e[r];
-									if (zn(i[0], this, n)) return zn(i[1], this, n);
+									if (Rn(i[0], this, n)) return Rn(i[1], this, n);
 								}
 							})
 						);
@@ -13050,7 +13050,7 @@ function print() { __p += __j.call(arguments, '') }
 						var a = !(_u(n) && `chain` in n) || !!n.chain,
 							o = mu(e);
 						return (
-							Vn(i, function (n) {
+							Bn(i, function (n) {
 								var r = t[n];
 								(e[n] = r),
 									o &&
@@ -13068,14 +13068,14 @@ function print() { __p += __j.call(arguments, '') }
 													n
 												);
 											}
-											return r.apply(e, Jn([this.value()], arguments));
+											return r.apply(e, qn([this.value()], arguments));
 										});
 							}),
 							e
 						);
 					}
 					function bf() {
-						return On._ === this && (On._ = Ut), this;
+						return Dn._ === this && (Dn._ = Ut), this;
 					}
 					function xf() {}
 					function Sf(e) {
@@ -13086,11 +13086,11 @@ function print() { __p += __j.call(arguments, '') }
 							})
 						);
 					}
-					var Cf = Fo(qn),
-						wf = Fo(Un),
-						Tf = Fo(Zn);
+					var Cf = Fo(Kn),
+						wf = Fo(Hn),
+						Tf = Fo(Yn);
 					function Ef(e) {
-						return gs(e) ? sr(zs(e)) : Oa(e);
+						return gs(e) ? ar(zs(e)) : Oa(e);
 					}
 					function Df(e) {
 						return function (t) {
@@ -13117,13 +13117,13 @@ function print() { __p += __j.call(arguments, '') }
 					function Ff(e, t) {
 						if (((e = zu(e)), e < 1 || e > ce)) return [];
 						var n = de,
-							r = bn(e, de);
+							r = yn(e, de);
 						(t = rs(t)), (e -= de);
-						for (var i = fr(r, t); ++n < e; ) t(n);
+						for (var i = ur(r, t); ++n < e; ) t(n);
 						return i;
 					}
 					function If(e) {
-						return iu(e) ? qn(e, zs) : ju(e) ? [e] : _o(Rs(Wu(e)));
+						return iu(e) ? Kn(e, zs) : ju(e) ? [e] : _o(Rs(Wu(e)));
 					}
 					function Lf(e) {
 						var t = ++zt;
@@ -13144,10 +13144,10 @@ function print() { __p += __j.call(arguments, '') }
 						return e && e.length ? Hi(e, rs(t, 2), ea) : n;
 					}
 					function Wf(e) {
-						return or(e, pf);
+						return ir(e, pf);
 					}
 					function Gf(e, t) {
-						return or(e, rs(t, 2));
+						return ir(e, rs(t, 2));
 					}
 					function Kf(e) {
 						return e && e.length ? Hi(e, pf, ba) : n;
@@ -13163,333 +13163,333 @@ function print() { __p += __j.call(arguments, '') }
 							return e - t;
 						}, 0);
 					function Zf(e) {
-						return e && e.length ? dr(e, pf) : 0;
+						return e && e.length ? lr(e, pf) : 0;
 					}
 					function Qf(e, t) {
-						return e && e.length ? dr(e, rs(t, 2)) : 0;
+						return e && e.length ? lr(e, rs(t, 2)) : 0;
 					}
 					return (
-						(k.after = El),
-						(k.ary = Dl),
-						(k.assign = Gu),
-						(k.assignIn = Ku),
-						(k.assignInWith = qu),
-						(k.assignWith = Ju),
-						(k.at = Yu),
-						(k.before = Ol),
-						(k.bind = kl),
-						(k.bindAll = of),
-						(k.bindKey = Al),
-						(k.castArray = Yl),
-						(k.chain = Kc),
-						(k.chunk = Us),
-						(k.compact = Ws),
-						(k.concat = Gs),
-						(k.cond = sf),
-						(k.conforms = cf),
-						(k.constant = lf),
-						(k.countBy = nl),
-						(k.create = Xu),
-						(k.curry = jl),
-						(k.curryRight = Ml),
-						(k.debounce = Nl),
-						(k.defaults = Zu),
-						(k.defaultsDeep = Qu),
-						(k.defer = Pl),
-						(k.delay = Fl),
-						(k.difference = Ks),
-						(k.differenceBy = qs),
-						(k.differenceWith = Js),
-						(k.drop = hee),
-						(k.dropRight = Ys),
-						(k.dropRightWhile = gee),
-						(k.dropWhile = Xs),
-						(k.fill = Zs),
-						(k.filter = il),
-						(k.flatMap = ol),
-						(k.flatMapDeep = wee),
-						(k.flatMapDepth = sl),
-						(k.flatten = ec),
-						(k.flattenDeep = _ee),
-						(k.flattenDepth = vee),
-						(k.flip = Il),
-						(k.flow = df),
-						(k.flowRight = ff),
-						(k.fromPairs = tc),
-						(k.functions = ad),
-						(k.functionsIn = od),
-						(k.groupBy = ul),
-						(k.initial = ic),
-						(k.intersection = ac),
-						(k.intersectionBy = oc),
-						(k.intersectionWith = sc),
-						(k.invert = ud),
-						(k.invertBy = dd),
-						(k.invokeMap = fl),
-						(k.iteratee = mf),
-						(k.keyBy = pl),
-						(k.keys = pd),
-						(k.keysIn = md),
-						(k.map = ml),
-						(k.mapKeys = hd),
-						(k.mapValues = gd),
-						(k.matches = hf),
-						(k.matchesProperty = gf),
-						(k.memoize = Ll),
-						(k.merge = _d),
-						(k.mergeWith = vd),
-						(k.method = _f),
-						(k.methodOf = vf),
-						(k.mixin = yf),
-						(k.negate = Rl),
-						(k.nthArg = Sf),
-						(k.omit = yd),
-						(k.omitBy = bd),
-						(k.once = zl),
-						(k.orderBy = hl),
-						(k.over = Cf),
-						(k.overArgs = Bl),
-						(k.overEvery = wf),
-						(k.overSome = Tf),
-						(k.partial = Vl),
-						(k.partialRight = Hl),
-						(k.partition = gl),
-						(k.pick = xd),
-						(k.pickBy = Sd),
-						(k.property = Ef),
-						(k.propertyOf = Df),
-						(k.pull = fc),
-						(k.pullAll = pc),
-						(k.pullAllBy = mc),
-						(k.pullAllWith = hc),
-						(k.pullAt = gc),
-						(k.range = Of),
-						(k.rangeRight = kf),
-						(k.rearg = Ul),
-						(k.reject = yl),
-						(k.remove = _c),
-						(k.rest = Wl),
-						(k.reverse = vc),
-						(k.sampleSize = xl),
-						(k.set = jee),
-						(k.setWith = Cd),
-						(k.shuffle = j),
-						(k.slice = yc),
-						(k.sortBy = wl),
-						(k.sortedUniq = Ec),
-						(k.sortedUniqBy = Dc),
-						(k.split = Gd),
-						(k.spread = Gl),
-						(k.tail = Oc),
-						(k.take = kc),
-						(k.takeRight = Ac),
-						(k.takeRightWhile = jc),
-						(k.takeWhile = Mc),
-						(k.tap = qc),
-						(k.throttle = Kl),
-						(k.thru = Jc),
-						(k.toArray = Lu),
-						(k.toPairs = wd),
-						(k.toPairsIn = Td),
-						(k.toPath = If),
-						(k.toPlainObject = Hu),
-						(k.transform = Ed),
-						(k.unary = ql),
-						(k.union = Nc),
-						(k.unionBy = Pc),
-						(k.unionWith = Fc),
-						(k.uniq = Ic),
-						(k.uniqBy = Lc),
-						(k.uniqWith = Rc),
-						(k.unset = Dd),
-						(k.unzip = zc),
-						(k.unzipWith = Bc),
-						(k.update = Od),
-						(k.updateWith = kd),
-						(k.values = Ad),
-						(k.valuesIn = jd),
-						(k.without = Vc),
-						(k.words = rf),
-						(k.wrap = Jl),
-						(k.xor = Hc),
-						(k.xorBy = Uc),
-						(k.xorWith = yee),
-						(k.zip = bee),
-						(k.zipObject = Wc),
-						(k.zipObjectDeep = Gc),
-						(k.zipWith = xee),
-						(k.entries = wd),
-						(k.entriesIn = Td),
-						(k.extend = Ku),
-						(k.extendWith = qu),
-						yf(k, k),
-						(k.add = Rf),
-						(k.attempt = af),
-						(k.camelCase = Pd),
-						(k.capitalize = Fd),
-						(k.ceil = zf),
-						(k.clamp = Md),
-						(k.clone = Xl),
-						(k.cloneDeep = Ql),
-						(k.cloneDeepWith = Tee),
-						(k.cloneWith = Zl),
-						(k.conformsTo = $l),
-						(k.deburr = N),
-						(k.defaultTo = uf),
-						(k.divide = Bf),
-						(k.endsWith = Nee),
-						(k.eq = eu),
-						(k.escape = Id),
-						(k.escapeRegExp = Ld),
-						(k.every = rl),
-						(k.find = Cee),
-						(k.findIndex = Qs),
-						(k.findKey = $u),
-						(k.findLast = al),
-						(k.findLastIndex = $s),
-						(k.findLastKey = ed),
-						(k.floor = Vf),
-						(k.forEach = cl),
-						(k.forEachRight = ll),
-						(k.forIn = td),
-						(k.forInRight = nd),
-						(k.forOwn = rd),
-						(k.forOwnRight = id),
-						(k.get = sd),
-						(k.gt = tu),
-						(k.gte = nu),
-						(k.has = cd),
-						(k.hasIn = ld),
-						(k.head = nc),
-						(k.identity = pf),
-						(k.includes = dl),
-						(k.indexOf = rc),
-						(k.inRange = Mee),
-						(k.invoke = fd),
-						(k.isArguments = ru),
-						(k.isArray = iu),
-						(k.isArrayBuffer = au),
-						(k.isArrayLike = ou),
-						(k.isArrayLikeObject = su),
-						(k.isBoolean = cu),
-						(k.isBuffer = lu),
-						(k.isDate = Eee),
-						(k.isElement = Dee),
-						(k.isEmpty = uu),
-						(k.isEqual = du),
-						(k.isEqualWith = fu),
-						(k.isError = pu),
-						(k.isFinite = Oee),
-						(k.isFunction = mu),
-						(k.isInteger = hu),
-						(k.isLength = gu),
-						(k.isMap = yu),
-						(k.isMatch = bu),
-						(k.isMatchWith = kee),
-						(k.isNaN = xu),
-						(k.isNative = Su),
-						(k.isNil = wu),
-						(k.isNull = Cu),
-						(k.isNumber = Tu),
-						(k.isObject = _u),
-						(k.isObjectLike = vu),
-						(k.isPlainObject = Eu),
-						(k.isRegExp = Du),
-						(k.isSafeInteger = Ou),
-						(k.isSet = ku),
-						(k.isString = Au),
-						(k.isSymbol = ju),
-						(k.isTypedArray = Mu),
-						(k.isUndefined = M),
-						(k.isWeakMap = Nu),
-						(k.isWeakSet = Pu),
-						(k.join = cc),
-						(k.kebabCase = Rd),
-						(k.last = lc),
-						(k.lastIndexOf = uc),
-						(k.lowerCase = zd),
-						(k.lowerFirst = Bd),
-						(k.lt = Fu),
-						(k.lte = Iu),
-						(k.max = Hf),
-						(k.maxBy = Uf),
-						(k.mean = Wf),
-						(k.meanBy = Gf),
-						(k.min = Kf),
-						(k.minBy = qf),
-						(k.stubArray = Af),
-						(k.stubFalse = jf),
-						(k.stubObject = Mf),
-						(k.stubString = Nf),
-						(k.stubTrue = Pf),
-						(k.multiply = Jf),
-						(k.nth = dc),
-						(k.noConflict = bf),
-						(k.noop = xf),
-						(k.now = Tl),
-						(k.pad = Vd),
-						(k.padEnd = Hd),
-						(k.padStart = Ud),
-						(k.parseInt = Wd),
-						(k.random = Nd),
-						(k.reduce = _l),
-						(k.reduceRight = vl),
-						(k.repeat = P),
-						(k.replace = F),
-						(k.result = Aee),
-						(k.round = Yf),
-						(k.runInContext = e),
-						(k.sample = bl),
-						(k.size = Sl),
-						(k.snakeCase = Pee),
-						(k.some = Cl),
-						(k.sortedIndex = bc),
-						(k.sortedIndexBy = xc),
-						(k.sortedIndexOf = Sc),
-						(k.sortedLastIndex = Cc),
-						(k.sortedLastIndexBy = wc),
-						(k.sortedLastIndexOf = Tc),
-						(k.startCase = Kd),
-						(k.startsWith = qd),
-						(k.subtract = Xf),
-						(k.sum = Zf),
-						(k.sumBy = Qf),
-						(k.template = Jd),
-						(k.times = Ff),
-						(k.toFinite = Ru),
-						(k.toInteger = zu),
-						(k.toLength = Bu),
-						(k.toLower = Yd),
-						(k.toNumber = Vu),
-						(k.toSafeInteger = Uu),
-						(k.toString = Wu),
-						(k.toUpper = Xd),
-						(k.trim = Zd),
-						(k.trimEnd = Qd),
-						(k.trimStart = I),
-						(k.truncate = $d),
-						(k.unescape = ef),
-						(k.uniqueId = Lf),
-						(k.upperCase = tf),
-						(k.upperFirst = nf),
-						(k.each = cl),
-						(k.eachRight = ll),
-						(k.first = nc),
+						(A.after = El),
+						(A.ary = Dl),
+						(A.assign = Gu),
+						(A.assignIn = Ku),
+						(A.assignInWith = qu),
+						(A.assignWith = Ju),
+						(A.at = Yu),
+						(A.before = Ol),
+						(A.bind = kl),
+						(A.bindAll = of),
+						(A.bindKey = Al),
+						(A.castArray = Yl),
+						(A.chain = Kc),
+						(A.chunk = Us),
+						(A.compact = Ws),
+						(A.concat = Gs),
+						(A.cond = sf),
+						(A.conforms = cf),
+						(A.constant = lf),
+						(A.countBy = nl),
+						(A.create = Xu),
+						(A.curry = jl),
+						(A.curryRight = Ml),
+						(A.debounce = Nl),
+						(A.defaults = Zu),
+						(A.defaultsDeep = Qu),
+						(A.defer = Pl),
+						(A.delay = Fl),
+						(A.difference = Ks),
+						(A.differenceBy = qs),
+						(A.differenceWith = Js),
+						(A.drop = hee),
+						(A.dropRight = Ys),
+						(A.dropRightWhile = gee),
+						(A.dropWhile = Xs),
+						(A.fill = Zs),
+						(A.filter = il),
+						(A.flatMap = ol),
+						(A.flatMapDeep = wee),
+						(A.flatMapDepth = sl),
+						(A.flatten = ec),
+						(A.flattenDeep = _ee),
+						(A.flattenDepth = vee),
+						(A.flip = Il),
+						(A.flow = df),
+						(A.flowRight = ff),
+						(A.fromPairs = tc),
+						(A.functions = ad),
+						(A.functionsIn = od),
+						(A.groupBy = ul),
+						(A.initial = ic),
+						(A.intersection = ac),
+						(A.intersectionBy = oc),
+						(A.intersectionWith = sc),
+						(A.invert = ud),
+						(A.invertBy = dd),
+						(A.invokeMap = fl),
+						(A.iteratee = mf),
+						(A.keyBy = pl),
+						(A.keys = pd),
+						(A.keysIn = md),
+						(A.map = ml),
+						(A.mapKeys = hd),
+						(A.mapValues = gd),
+						(A.matches = hf),
+						(A.matchesProperty = gf),
+						(A.memoize = Ll),
+						(A.merge = _d),
+						(A.mergeWith = vd),
+						(A.method = _f),
+						(A.methodOf = vf),
+						(A.mixin = yf),
+						(A.negate = Rl),
+						(A.nthArg = Sf),
+						(A.omit = yd),
+						(A.omitBy = bd),
+						(A.once = zl),
+						(A.orderBy = hl),
+						(A.over = Cf),
+						(A.overArgs = Bl),
+						(A.overEvery = wf),
+						(A.overSome = Tf),
+						(A.partial = Vl),
+						(A.partialRight = Hl),
+						(A.partition = gl),
+						(A.pick = xd),
+						(A.pickBy = Sd),
+						(A.property = Ef),
+						(A.propertyOf = Df),
+						(A.pull = fc),
+						(A.pullAll = pc),
+						(A.pullAllBy = mc),
+						(A.pullAllWith = hc),
+						(A.pullAt = gc),
+						(A.range = Of),
+						(A.rangeRight = kf),
+						(A.rearg = Ul),
+						(A.reject = yl),
+						(A.remove = _c),
+						(A.rest = Wl),
+						(A.reverse = vc),
+						(A.sampleSize = xl),
+						(A.set = jee),
+						(A.setWith = Cd),
+						(A.shuffle = j),
+						(A.slice = yc),
+						(A.sortBy = wl),
+						(A.sortedUniq = Ec),
+						(A.sortedUniqBy = Dc),
+						(A.split = Gd),
+						(A.spread = Gl),
+						(A.tail = Oc),
+						(A.take = kc),
+						(A.takeRight = Ac),
+						(A.takeRightWhile = jc),
+						(A.takeWhile = Mc),
+						(A.tap = qc),
+						(A.throttle = Kl),
+						(A.thru = Jc),
+						(A.toArray = Lu),
+						(A.toPairs = wd),
+						(A.toPairsIn = Td),
+						(A.toPath = If),
+						(A.toPlainObject = Hu),
+						(A.transform = Ed),
+						(A.unary = ql),
+						(A.union = Nc),
+						(A.unionBy = Pc),
+						(A.unionWith = Fc),
+						(A.uniq = Ic),
+						(A.uniqBy = Lc),
+						(A.uniqWith = Rc),
+						(A.unset = Dd),
+						(A.unzip = zc),
+						(A.unzipWith = Bc),
+						(A.update = Od),
+						(A.updateWith = kd),
+						(A.values = Ad),
+						(A.valuesIn = jd),
+						(A.without = Vc),
+						(A.words = rf),
+						(A.wrap = Jl),
+						(A.xor = Hc),
+						(A.xorBy = Uc),
+						(A.xorWith = yee),
+						(A.zip = bee),
+						(A.zipObject = Wc),
+						(A.zipObjectDeep = Gc),
+						(A.zipWith = xee),
+						(A.entries = wd),
+						(A.entriesIn = Td),
+						(A.extend = Ku),
+						(A.extendWith = qu),
+						yf(A, A),
+						(A.add = Rf),
+						(A.attempt = af),
+						(A.camelCase = Pd),
+						(A.capitalize = Fd),
+						(A.ceil = zf),
+						(A.clamp = Md),
+						(A.clone = Xl),
+						(A.cloneDeep = Ql),
+						(A.cloneDeepWith = Tee),
+						(A.cloneWith = Zl),
+						(A.conformsTo = $l),
+						(A.deburr = N),
+						(A.defaultTo = uf),
+						(A.divide = Bf),
+						(A.endsWith = Nee),
+						(A.eq = eu),
+						(A.escape = Id),
+						(A.escapeRegExp = Ld),
+						(A.every = rl),
+						(A.find = Cee),
+						(A.findIndex = Qs),
+						(A.findKey = $u),
+						(A.findLast = al),
+						(A.findLastIndex = $s),
+						(A.findLastKey = ed),
+						(A.floor = Vf),
+						(A.forEach = cl),
+						(A.forEachRight = ll),
+						(A.forIn = td),
+						(A.forInRight = nd),
+						(A.forOwn = rd),
+						(A.forOwnRight = id),
+						(A.get = sd),
+						(A.gt = tu),
+						(A.gte = nu),
+						(A.has = cd),
+						(A.hasIn = ld),
+						(A.head = nc),
+						(A.identity = pf),
+						(A.includes = dl),
+						(A.indexOf = rc),
+						(A.inRange = Mee),
+						(A.invoke = fd),
+						(A.isArguments = ru),
+						(A.isArray = iu),
+						(A.isArrayBuffer = au),
+						(A.isArrayLike = ou),
+						(A.isArrayLikeObject = su),
+						(A.isBoolean = cu),
+						(A.isBuffer = lu),
+						(A.isDate = Eee),
+						(A.isElement = Dee),
+						(A.isEmpty = uu),
+						(A.isEqual = du),
+						(A.isEqualWith = fu),
+						(A.isError = pu),
+						(A.isFinite = Oee),
+						(A.isFunction = mu),
+						(A.isInteger = hu),
+						(A.isLength = gu),
+						(A.isMap = yu),
+						(A.isMatch = bu),
+						(A.isMatchWith = kee),
+						(A.isNaN = xu),
+						(A.isNative = Su),
+						(A.isNil = wu),
+						(A.isNull = Cu),
+						(A.isNumber = Tu),
+						(A.isObject = _u),
+						(A.isObjectLike = vu),
+						(A.isPlainObject = Eu),
+						(A.isRegExp = Du),
+						(A.isSafeInteger = Ou),
+						(A.isSet = ku),
+						(A.isString = Au),
+						(A.isSymbol = ju),
+						(A.isTypedArray = Mu),
+						(A.isUndefined = M),
+						(A.isWeakMap = Nu),
+						(A.isWeakSet = Pu),
+						(A.join = cc),
+						(A.kebabCase = Rd),
+						(A.last = lc),
+						(A.lastIndexOf = uc),
+						(A.lowerCase = zd),
+						(A.lowerFirst = Bd),
+						(A.lt = Fu),
+						(A.lte = Iu),
+						(A.max = Hf),
+						(A.maxBy = Uf),
+						(A.mean = Wf),
+						(A.meanBy = Gf),
+						(A.min = Kf),
+						(A.minBy = qf),
+						(A.stubArray = Af),
+						(A.stubFalse = jf),
+						(A.stubObject = Mf),
+						(A.stubString = Nf),
+						(A.stubTrue = Pf),
+						(A.multiply = Jf),
+						(A.nth = dc),
+						(A.noConflict = bf),
+						(A.noop = xf),
+						(A.now = Tl),
+						(A.pad = Vd),
+						(A.padEnd = Hd),
+						(A.padStart = Ud),
+						(A.parseInt = Wd),
+						(A.random = Nd),
+						(A.reduce = _l),
+						(A.reduceRight = vl),
+						(A.repeat = P),
+						(A.replace = F),
+						(A.result = Aee),
+						(A.round = Yf),
+						(A.runInContext = e),
+						(A.sample = bl),
+						(A.size = Sl),
+						(A.snakeCase = Pee),
+						(A.some = Cl),
+						(A.sortedIndex = bc),
+						(A.sortedIndexBy = xc),
+						(A.sortedIndexOf = Sc),
+						(A.sortedLastIndex = Cc),
+						(A.sortedLastIndexBy = wc),
+						(A.sortedLastIndexOf = Tc),
+						(A.startCase = Kd),
+						(A.startsWith = qd),
+						(A.subtract = Xf),
+						(A.sum = Zf),
+						(A.sumBy = Qf),
+						(A.template = Jd),
+						(A.times = Ff),
+						(A.toFinite = Ru),
+						(A.toInteger = zu),
+						(A.toLength = Bu),
+						(A.toLower = Yd),
+						(A.toNumber = Vu),
+						(A.toSafeInteger = Uu),
+						(A.toString = Wu),
+						(A.toUpper = Xd),
+						(A.trim = Zd),
+						(A.trimEnd = Qd),
+						(A.trimStart = I),
+						(A.truncate = $d),
+						(A.unescape = ef),
+						(A.uniqueId = Lf),
+						(A.upperCase = tf),
+						(A.upperFirst = nf),
+						(A.each = cl),
+						(A.eachRight = ll),
+						(A.first = nc),
 						yf(
-							k,
+							A,
 							(function () {
 								var e = {};
 								return (
-									Ji(k, function (t, n) {
-										Rt.call(k.prototype, n) || (e[n] = t);
+									Ji(A, function (t, n) {
+										Rt.call(A.prototype, n) || (e[n] = t);
 									}),
 									e
 								);
 							})(),
 							{ chain: !1 },
 						),
-						(k.VERSION = r),
-						Vn(
+						(A.VERSION = r),
+						Bn(
 							[
 								`bind`,
 								`bindKey`,
@@ -13499,31 +13499,31 @@ function print() { __p += __j.call(arguments, '') }
 								`partialRight`,
 							],
 							function (e) {
-								k[e].placeholder = k;
+								A[e].placeholder = A;
 							},
 						),
-						Vn([`drop`, `take`], function (e, t) {
-							(Yr.prototype[e] = function (r) {
+						Bn([`drop`, `take`], function (e, t) {
+							(Jr.prototype[e] = function (r) {
 								r = r === n ? 1 : hn(zu(r), 0);
-								var i = this.__filtered__ && !t ? new Yr(this) : this.clone();
+								var i = this.__filtered__ && !t ? new Jr(this) : this.clone();
 								return (
 									i.__filtered__
-										? (i.__takeCount__ = bn(r, i.__takeCount__))
+										? (i.__takeCount__ = yn(r, i.__takeCount__))
 										: i.__views__.push({
-												size: bn(r, de),
+												size: yn(r, de),
 												type: e + (i.__dir__ < 0 ? `Right` : ``),
 											}),
 									i
 								);
 							}),
-								(Yr.prototype[e + `Right`] = function (t) {
+								(Jr.prototype[e + `Right`] = function (t) {
 									return this.reverse()[e](t).reverse();
 								});
 						}),
-						Vn([`filter`, `map`, `takeWhile`], function (e, t) {
+						Bn([`filter`, `map`, `takeWhile`], function (e, t) {
 							var n = t + 1,
 								r = n == ae || n == se;
-							Yr.prototype[e] = function (e) {
+							Jr.prototype[e] = function (e) {
 								var t = this.clone();
 								return (
 									t.__iteratees__.push({ iteratee: rs(e, 3), type: n }),
@@ -13532,68 +13532,68 @@ function print() { __p += __j.call(arguments, '') }
 								);
 							};
 						}),
-						Vn([`head`, `last`], function (e, t) {
+						Bn([`head`, `last`], function (e, t) {
 							var n = `take` + (t ? `Right` : ``);
-							Yr.prototype[e] = function () {
+							Jr.prototype[e] = function () {
 								return this[n](1).value()[0];
 							};
 						}),
-						Vn([`initial`, `tail`], function (e, t) {
+						Bn([`initial`, `tail`], function (e, t) {
 							var n = `drop` + (t ? `` : `Right`);
-							Yr.prototype[e] = function () {
-								return this.__filtered__ ? new Yr(this) : this[n](1);
+							Jr.prototype[e] = function () {
+								return this.__filtered__ ? new Jr(this) : this[n](1);
 							};
 						}),
-						(Yr.prototype.compact = function () {
+						(Jr.prototype.compact = function () {
 							return this.filter(pf);
 						}),
-						(Yr.prototype.find = function (e) {
+						(Jr.prototype.find = function (e) {
 							return this.filter(e).head();
 						}),
-						(Yr.prototype.findLast = function (e) {
+						(Jr.prototype.findLast = function (e) {
 							return this.reverse().find(e);
 						}),
-						(Yr.prototype.invokeMap = Pa(function (e, t) {
+						(Jr.prototype.invokeMap = Pa(function (e, t) {
 							return typeof e == `function`
-								? new Yr(this)
+								? new Jr(this)
 								: this.map(function (n) {
 										return oa(n, e, t);
 									});
 						})),
-						(Yr.prototype.reject = function (e) {
+						(Jr.prototype.reject = function (e) {
 							return this.filter(Rl(rs(e)));
 						}),
-						(Yr.prototype.slice = function (e, t) {
+						(Jr.prototype.slice = function (e, t) {
 							e = zu(e);
 							var r = this;
 							return r.__filtered__ && (e > 0 || t < 0)
-								? new Yr(r)
+								? new Jr(r)
 								: (e < 0 ? (r = r.takeRight(-e)) : e && (r = r.drop(e)),
 									t !== n &&
 										((t = zu(t)),
 										(r = t < 0 ? r.dropRight(-t) : r.take(t - e))),
 									r);
 						}),
-						(Yr.prototype.takeRightWhile = function (e) {
+						(Jr.prototype.takeRightWhile = function (e) {
 							return this.reverse().takeWhile(e).reverse();
 						}),
-						(Yr.prototype.toArray = function () {
+						(Jr.prototype.toArray = function () {
 							return this.take(de);
 						}),
-						Ji(Yr.prototype, function (e, t) {
+						Ji(Jr.prototype, function (e, t) {
 							var r = /^(?:filter|find|map|reject)|While$/.test(t),
 								i = /^(?:head|last)$/.test(t),
-								a = k[i ? `take` + (t == `last` ? `Right` : ``) : t],
+								a = A[i ? `take` + (t == `last` ? `Right` : ``) : t],
 								o = i || /^find/.test(t);
 							a &&
-								(k.prototype[t] = function () {
+								(A.prototype[t] = function () {
 									var t = this.__wrapped__,
 										s = i ? [1] : arguments,
-										c = t instanceof Yr,
+										c = t instanceof Jr,
 										l = s[0],
 										u = c || iu(t),
 										d = function (e) {
-											var t = a.apply(k, Jn([e], s));
+											var t = a.apply(A, qn([e], s));
 											return i && f ? t[0] : t;
 										};
 									u &&
@@ -13606,11 +13606,11 @@ function print() { __p += __j.call(arguments, '') }
 										m = o && !f,
 										h = c && !p;
 									if (!o && u) {
-										t = h ? t : new Yr(this);
+										t = h ? t : new Jr(this);
 										var g = e.apply(t, s);
 										return (
 											g.__actions__.push({ func: Jc, args: [d], thisArg: n }),
-											new Jr(g, f)
+											new qr(g, f)
 										);
 									}
 									return m && h
@@ -13619,13 +13619,13 @@ function print() { __p += __j.call(arguments, '') }
 											m ? (i ? g.value()[0] : g.value()) : g);
 								});
 						}),
-						Vn(
+						Bn(
 							[`pop`, `push`, `shift`, `sort`, `splice`, `unshift`],
 							function (e) {
 								var t = Nt[e],
 									n = /^(?:push|sort|unshift)$/.test(e) ? `tap` : `thru`,
 									r = /^(?:pop|shift)$/.test(e);
-								k.prototype[e] = function () {
+								A.prototype[e] = function () {
 									var e = arguments;
 									if (r && !this.__chain__) {
 										var i = this.value();
@@ -13637,40 +13637,40 @@ function print() { __p += __j.call(arguments, '') }
 								};
 							},
 						),
-						Ji(Yr.prototype, function (e, t) {
-							var n = k[t];
+						Ji(Jr.prototype, function (e, t) {
+							var n = A[t];
 							if (n) {
 								var r = n.name + ``;
-								Rt.call(cr, r) || (cr[r] = []),
-									cr[r].push({ name: t, func: n });
+								Rt.call(or, r) || (or[r] = []),
+									or[r].push({ name: t, func: n });
 							}
 						}),
-						(cr[Mo(n, _).name] = [{ name: `wrapper`, func: n }]),
-						(Yr.prototype.clone = nee),
-						(Yr.prototype.reverse = Xr),
-						(Yr.prototype.value = Zr),
-						(k.prototype.at = Yc),
-						(k.prototype.chain = See),
-						(k.prototype.commit = Xc),
-						(k.prototype.next = Zc),
-						(k.prototype.plant = $c),
-						(k.prototype.reverse = el),
-						(k.prototype.toJSON = k.prototype.valueOf = k.prototype.value = tl),
-						(k.prototype.first = k.prototype.head),
-						en && (k.prototype[en] = Qc),
-						k
+						(or[Mo(n, _).name] = [{ name: `wrapper`, func: n }]),
+						(Jr.prototype.clone = Yr),
+						(Jr.prototype.reverse = Xr),
+						(Jr.prototype.value = Zr),
+						(A.prototype.at = Yc),
+						(A.prototype.chain = See),
+						(A.prototype.commit = Xc),
+						(A.prototype.next = Zc),
+						(A.prototype.plant = $c),
+						(A.prototype.reverse = el),
+						(A.prototype.toJSON = A.prototype.valueOf = A.prototype.value = tl),
+						(A.prototype.first = A.prototype.head),
+						en && (A.prototype[en] = Qc),
+						A
 					);
 				})();
 				typeof define == `function` &&
 				typeof define.amd == `object` &&
 				define.amd
-					? ((On._ = Br),
+					? ((Dn._ = zr),
 						define(function () {
-							return Br;
+							return zr;
 						}))
-					: An
-						? (((An.exports = Br)._ = Br), (kn._ = Br))
-						: (On._ = Br);
+					: kn
+						? (((kn.exports = zr)._ = zr), (On._ = zr))
+						: (Dn._ = zr);
 			}).call(e);
 		})(),
 	),
@@ -13773,22 +13773,22 @@ function print() { __p += __j.call(arguments, '') }
 	},
 	F = class e {
 		static {
-			this.DOWN = new e(0, 1, -1, `down`, Ud.NEGATIVE, P.Y, new A(0, -1, 0));
+			this.DOWN = new e(0, 1, -1, `down`, Ud.NEGATIVE, P.Y, new k(0, -1, 0));
 		}
 		static {
-			this.UP = new e(1, 0, -1, `up`, Ud.POSITIVE, P.Y, new A(0, 1, 0));
+			this.UP = new e(1, 0, -1, `up`, Ud.POSITIVE, P.Y, new k(0, 1, 0));
 		}
 		static {
-			this.NORTH = new e(2, 3, 0, `north`, Ud.NEGATIVE, P.Z, new A(0, 0, -1));
+			this.NORTH = new e(2, 3, 0, `north`, Ud.NEGATIVE, P.Z, new k(0, 0, -1));
 		}
 		static {
-			this.SOUTH = new e(3, 2, 2, `south`, Ud.POSITIVE, P.Z, new A(0, 0, 1));
+			this.SOUTH = new e(3, 2, 2, `south`, Ud.POSITIVE, P.Z, new k(0, 0, 1));
 		}
 		static {
-			this.WEST = new e(4, 5, 1, `west`, Ud.NEGATIVE, P.X, new A(-1, 0, 0));
+			this.WEST = new e(4, 5, 1, `west`, Ud.NEGATIVE, P.X, new k(-1, 0, 0));
 		}
 		static {
-			this.EAST = new e(5, 4, 3, `east`, Ud.POSITIVE, P.X, new A(1, 0, 0));
+			this.EAST = new e(5, 4, 3, `east`, Ud.POSITIVE, P.X, new k(1, 0, 0));
 		}
 		static {
 			this.getByName = {
@@ -13948,13 +13948,13 @@ function print() { __p += __j.call(arguments, '') }
 		static toVector(t) {
 			switch (t) {
 				case e.EAST:
-					return new A(1, 0, 0);
+					return new k(1, 0, 0);
 				case e.WEST:
-					return new A(-1, 0, 0);
+					return new k(-1, 0, 0);
 				case e.NORTH:
-					return new A(0, 0, -1);
+					return new k(0, 0, -1);
 				case e.SOUTH:
-					return new A(0, 0, 1);
+					return new k(0, 0, 1);
 			}
 		}
 		toArray() {
@@ -14125,7 +14125,7 @@ function print() { __p += __j.call(arguments, '') }
 			return new e(n, r, i);
 		}
 		toVec3() {
-			return new A(this.x, this.y, this.z);
+			return new k(this.x, this.y, this.z);
 		}
 		toArray() {
 			return [this.x, this.y, this.z];
@@ -14143,8 +14143,8 @@ function print() { __p += __j.call(arguments, '') }
 		}
 		toAABB() {
 			return new AxisAlignedBoundingBox().setFromCenterAndSize(
-				new A(this.x + 0.5, this.y + 0.5, this.z + 0.5),
-				new A(0.5, 0.5, 0.5),
+				new k(this.x + 0.5, this.y + 0.5, this.z + 0.5),
+				new k(0.5, 0.5, 0.5),
 			);
 		}
 		set(e, t, n) {
@@ -14219,7 +14219,7 @@ function print() { __p += __j.call(arguments, '') }
 		clone() {
 			return new e(this.x, this.y, this.z);
 		}
-		static vuuHAcyHhlm(e, t) {
+		static HHbMqrKkrxe(e, t) {
 			return { [Symbol.iterator]: () => $d(e, t) };
 		}
 	};
@@ -17348,7 +17348,7 @@ var fp = {
 				(this.material = t),
 				(this.armorType = r),
 				(this.renderIndex = n),
-				(this.ftlwRgVMxZJszaefcr = t.damageReductionAmount[r]),
+				(this.hihDrbbXGHkTdJiSlc = t.damageReductionAmount[r]),
 				(this.toughness = t.toughness);
 		}
 		getArmorMaterial() {
@@ -17745,13 +17745,13 @@ var fp = {
 		getName() {
 			return this.name;
 		}
-		OnTAbgxUhgGU() {
+		CetoLsErUUpq() {
 			return this.operation;
 		}
-		TvqvYRslj() {
+		wqkLgpKDH() {
 			return this.amount;
 		}
-		YWYwmctU(e) {
+		MdIwmpfa(e) {
 			return (this.isSaved = e), this;
 		}
 		equals(e) {
@@ -17793,13 +17793,13 @@ var fp = {
 		getAttributeUnlocalizedName() {
 			return this.unlocalizedName;
 		}
-		zWmMKcpvoAfFMGi() {
+		LFwjIrkSqSfnYVa() {
 			return this.defaultValue;
 		}
-		XYyMFXBFgoJudx() {
+		DimGmIgRThtwAI() {
 			return this.shouldWatch;
 		}
-		LFYsLzlVLTtCsj(e) {
+		quBUlwTMBQIKYD(e) {
 			return (this.shouldWatch = e), this;
 		}
 		getAttribute() {
@@ -17824,21 +17824,21 @@ var fp = {
 			if (n < r) throw `Default value cannot be lower than minimum value!`;
 			if (n > i) throw `Default value cannot be bigger than maximum value!`;
 		}
-		pSaSwTVFLLispa(e) {
+		TZhFhSYlRgRHPo(e) {
 			return (this.description = e), this;
 		}
-		qUhDrvQovtlepD() {
+		vqXnHpmzBNvlgk() {
 			return this.description;
 		}
-		YjuzfIkWGY(e) {
+		NBCOOhqNoJ(e) {
 			return (e = (0, Hd.clamp)(e, this.minimumValue, this.maximumValue)), e;
 		}
 	},
 	Ep = class e {
 		static {
 			this.maxHealth = new Tp(null, `generic.maxHealth`, 20, 0, 1024)
-				.pSaSwTVFLLispa(`Max Health`)
-				.LFYsLzlVLTtCsj(!0);
+				.TZhFhSYlRgRHPo(`Max Health`)
+				.quBUlwTMBQIKYD(!0);
 		}
 		static {
 			this.followRange = new Tp(
@@ -17847,7 +17847,7 @@ var fp = {
 				32,
 				0,
 				2048,
-			).pSaSwTVFLLispa(`Follow Range`);
+			).TZhFhSYlRgRHPo(`Follow Range`);
 		}
 		static {
 			this.knockbackResistance = new Tp(
@@ -17856,68 +17856,68 @@ var fp = {
 				0,
 				0,
 				1,
-			).pSaSwTVFLLispa(`Knockback Resistance`);
+			).TZhFhSYlRgRHPo(`Knockback Resistance`);
 		}
 		static {
-			this.EaoLIuupWbDul = new Tp(null, `generic.movementSpeed`, 0.7, 0, 1024)
-				.pSaSwTVFLLispa(`Movement Speed`)
-				.LFYsLzlVLTtCsj(!0);
+			this.iyhlGlpOTgPEH = new Tp(null, `generic.movementSpeed`, 0.7, 0, 1024)
+				.TZhFhSYlRgRHPo(`Movement Speed`)
+				.quBUlwTMBQIKYD(!0);
 		}
 		static {
 			this.attackDamage = new Tp(null, `generic.attackDamage`, 2, 0, 2048);
 		}
-		static LHgtNtOsNnAveJLuSFztywnjAh(t) {
+		static ytLhgXCFPwfCZISqriVXShZmZl(t) {
 			let n = [];
-			for (let r of t.BZvHaAqDcVBkSwuB())
-				n.push(e.RenslabxsHYsuBakQidIMdsJAbC(r));
+			for (let r of t.ukTVpjJaXvottwin())
+				n.push(e.FqtPujyNSviqGNrbCVncxJazyVL(r));
 			return L.list(L.comp(n));
 		}
-		static RenslabxsHYsuBakQidIMdsJAbC(t) {
+		static FqtPujyNSviqGNrbCVncxJazyVL(t) {
 			let n = {},
 				r = t.getAttribute();
 			(n.Name = L.string(r.getAttributeUnlocalizedName())),
-				(n.Base = L.double(t.BLwFBaqrKtXk()));
-			let i = t.GiTFzTwYGvSRL();
+				(n.Base = L.double(t.bCVhOQFjsUft()));
+			let i = t.uvwaOUHKsolAZ();
 			if (i != null && i.length > 0) {
 				let t = [];
-				for (let n of i) n.isSaved && t.push(e.PRRiyRoVEcxACPwfropvzGMjuFN(n));
+				for (let n of i) n.isSaved && t.push(e.JbvztDUMHacovcrkVviphOOyYRw(n));
 				n.Modifiers = L.list(L.comp(t));
 			}
 			return n;
 		}
-		static PRRiyRoVEcxACPwfropvzGMjuFN(e) {
+		static JbvztDUMHacovcrkVviphOOyYRw(e) {
 			let t = {};
 			return (
 				(t.Name = L.string(e.getName())),
-				(t.Amount = L.double(e.TvqvYRslj())),
-				(t.Operation = L.int(e.OnTAbgxUhgGU())),
+				(t.Amount = L.double(e.wqkLgpKDH())),
+				(t.Operation = L.int(e.CetoLsErUUpq())),
 				(t.UUID = L.string(e.getID())),
 				t
 			);
 		}
-		static VbBQRBwxgwwLz(t, n) {
+		static qlqoKeZWxIOGH(t, n) {
 			for (let r = 0; r < n.length; ++r) {
 				let i = n[r],
 					a = i.Name.replace(`${xe}:`, ``),
-					o = t.PugYTLKLgPueOMqEQkZsUItuDI(a);
+					o = t.GeRyuuwLcUynDJOJhEbntTdHFd(a);
 				o == null
 					? T.info(`Ignoring unknown attribute '${a}'`)
-					: e.PTGLJlWcunpAZOMdZfgJvFtavrwOAMNHq(o, i);
+					: e.mVPdaycAoNnMfANJUxVmcmHjWzzVZoMcw(o, i);
 			}
 		}
-		static PTGLJlWcunpAZOMdZfgJvFtavrwOAMNHq(t, n) {
+		static mVPdaycAoNnMfANJUxVmcmHjWzzVZoMcw(t, n) {
 			if ((t.setBaseValue(n.Base), n.Modifiers)) {
 				let r = n.Modifiers;
 				for (let n = 0; n < r.length; ++n) {
-					let i = e.tpGCMHdvDnzlYDLeDEvUVVrNIkeT(r[n]);
+					let i = e.XNuDnNkeNqCaujTPmuPZBuZDOajD(r[n]);
 					if (i != null) {
-						let e = t.wrCAvIOPBzI(i.getID());
+						let e = t.xxsjLXyVuxp(i.getID());
 						e != null && t.removeModifier(e.getID()), t.applyModifier(i);
 					}
 				}
 			}
 		}
-		static tpGCMHdvDnzlYDLeDEvUVVrNIkeT(e) {
+		static XNuDnNkeNqCaujTPmuPZBuZDOajD(e) {
 			let t = e.UUID;
 			try {
 				return new wp(t, e.Name, e.Amount, e.Operation);
@@ -18462,7 +18462,7 @@ var Np = class e extends j {
 		getDamageSrc() {
 			return this.damageSrc;
 		}
-		zRqJivsRf() {
+		PJLGoTDHD() {
 			return this.damage;
 		}
 		isLivingDamageSrc() {
@@ -18543,7 +18543,7 @@ var Np = class e extends j {
 					((this.field_94552_d = !0),
 					(this.field_152775_d = this.fighter.ticksExisted),
 					(this.field_152776_e = this.field_152775_d),
-					this.fighter.BAUgRakDrKTuBHj());
+					this.fighter.hXJTbzdTnwwyhFR());
 		}
 		getDeathMessage() {
 			if (this.combatEntries.length == 0)
@@ -18660,7 +18660,7 @@ var Np = class e extends j {
 				(this.field_94553_e = !1),
 					(this.field_94552_d = !1),
 					(this.field_152776_e = this.fighter.ticksExisted),
-					e && this.fighter.MQzOfvLGZiiME(),
+					e && this.fighter.DfXWKGUVmLUiQ(),
 					(this.combatEntries.length = 0);
 			}
 		}
@@ -18777,12 +18777,12 @@ function zp(e, t, n, r, i, a) {
 		let te;
 		b < x && b < S
 			? ((te = o > l ? F.WEST : F.EAST),
-				(e = new A(_, e.y + ee * b, e.z + w * b)))
+				(e = new k(_, e.y + ee * b, e.z + w * b)))
 			: x < S
 				? ((te = s > u ? F.DOWN : F.UP),
-					(e = new A(e.x + C * x, v, e.z + w * x)))
+					(e = new k(e.x + C * x, v, e.z + w * x)))
 				: ((te = c > d ? F.NORTH : F.SOUTH),
-					(e = new A(e.x + C * S, e.y + ee * S, y))),
+					(e = new k(e.x + C * S, e.y + ee * S, y))),
 			(l = Math.floor(e.x) - +(te == F.EAST)),
 			(u = Math.floor(e.y) - +(te == F.UP)),
 			(d = Math.floor(e.z) - +(te == F.SOUTH)),
@@ -18798,7 +18798,7 @@ function zp(e, t, n, r, i, a) {
 	return i ? h : null;
 }
 function Bp(e, t, n, r = !1) {
-	let i = e.vKGPGWYFD();
+	let i = e.jRUJWvIuQ();
 	return zp(i, i.clone().add(e.getLook().multiplyScalar(n)), r, !1, !1, t);
 }
 var Vp = 0.001;
@@ -18936,7 +18936,7 @@ function Yp(e, t, n, r, i) {
 	);
 }
 function Xp(e, t, n, r) {
-	return Yp(e, t, n, r, new AxisAlignedBoundingBox(new A(), new A()));
+	return Yp(e, t, n, r, new AxisAlignedBoundingBox(new k(), new k()));
 }
 function Zp(e, t, n, r) {
 	return (
@@ -18956,22 +18956,22 @@ var Qp = class e {
 				(this.objectType = e),
 				(this.watched = !0);
 		}
-		ZgjClHnbiFKDSw() {
+		HKcYuuReJToXiv() {
 			return this.dataValueId;
 		}
-		lqmOqOSsV(e) {
+		fOgTqHAJE(e) {
 			this.watchedObject = e;
 		}
 		getObject() {
 			return this.watchedObject;
 		}
-		ONyOwzvzVIhQs() {
+		KNAzNpBBqVuhL() {
 			return this.objectType;
 		}
-		sQSORjQBJ() {
+		xnlstTbZr() {
 			return this.watched;
 		}
-		stKCSzrsip(e) {
+		qXPmELNTfn(e) {
 			this.watched = e;
 		}
 		static fromProto(t) {
@@ -18993,7 +18993,7 @@ var Qp = class e {
 					n = I.fromProto(t.blockPos);
 					break;
 				case 7:
-					n = new A(t.vector.x, t.vector.y, t.vector.z);
+					n = new k(t.vector.x, t.vector.y, t.vector.z);
 					break;
 				default:
 					n = t.intValue;
@@ -19014,7 +19014,7 @@ var Qp = class e {
 				this.dataTypes.set(String, 4),
 				this.dataTypes.set(V, 5),
 				this.dataTypes.set(I, 6),
-				this.dataTypes.set(A, 7);
+				this.dataTypes.set(k, 7);
 		}
 		addObject(e, t, n = !1) {
 			let r = n ? 3 : this.dataTypes.get(t.constructor);
@@ -19026,29 +19026,29 @@ var Qp = class e {
 				this.watchedObjects.set(e, n), (this.isBlank = !1);
 			}
 		}
-		svDNpQsRFJazcygKDRT(e, t) {
+		QDlilcnTpFvBhMpXKcg(e, t) {
 			let n = new Qp(t, e, null);
 			this.watchedObjects.set(e, n), (this.isBlank = !1);
 		}
 		getWatchableObjectByte(e) {
-			return this.OuRVBSLbVFQGuUhK(e).getObject();
+			return this.KDpsNtEJVBRchMAT(e).getObject();
 		}
-		umPLVklJTUyXwgebuxOvgDG(e) {
-			return this.OuRVBSLbVFQGuUhK(e).getObject();
+		biknXosyFJloYRGYnBoeFoz(e) {
+			return this.KDpsNtEJVBRchMAT(e).getObject();
 		}
-		orNquldfkGOcXTEvzbkNU(e) {
-			return this.OuRVBSLbVFQGuUhK(e).getObject();
+		RoyitaEBVbdkzRcXJnWvR(e) {
+			return this.KDpsNtEJVBRchMAT(e).getObject();
 		}
 		getWatchableObjectFloat(e) {
-			return this.OuRVBSLbVFQGuUhK(e).getObject();
+			return this.KDpsNtEJVBRchMAT(e).getObject();
 		}
-		hKhEEbthlAuSAnkHDAnlQiAW(e) {
-			return this.OuRVBSLbVFQGuUhK(e).getObject();
+		yeODEnruGxHTTnOPEnTPUHsx(e) {
+			return this.KDpsNtEJVBRchMAT(e).getObject();
 		}
-		hVJTgmbwlvRRAxisAlignedBoundingBoxSFRnRrhjKVNdQ(e) {
-			return this.OuRVBSLbVFQGuUhK(e).getObject();
+		RbLBMLMiqHOFOmoDnshgmZytHrj(e) {
+			return this.KDpsNtEJVBRchMAT(e).getObject();
 		}
-		OuRVBSLbVFQGuUhK(e) {
+		KDpsNtEJVBRchMAT(e) {
 			let t;
 			try {
 				t = this.watchedObjects.get(e);
@@ -19057,45 +19057,45 @@ var Qp = class e {
 			}
 			return t;
 		}
-		oxnpjRybNxnhTIoOfLnnZjzPGCX(e) {
-			return this.OuRVBSLbVFQGuUhK(e).getObject();
+		oAjdRqsMmzVpWKsQHYLkFNOgLSY(e) {
+			return this.KDpsNtEJVBRchMAT(e).getObject();
 		}
 		updateObject(e, t) {
-			let n = this.OuRVBSLbVFQGuUhK(e);
+			let n = this.KDpsNtEJVBRchMAT(e);
 			Hd.default.isEqual(t, n.getObject()) ||
-				(n.lqmOqOSsV(t),
-				this.owner.EXABpKtlUABRUnEtoLF(e),
-				n.stKCSzrsip(!0),
+				(n.fOgTqHAJE(t),
+				this.owner.gLYqxagsDXqcRBPzVIU(e),
+				n.qXPmELNTfn(!0),
 				(this.objectChanged = !0));
 		}
-		cxQXlrtXNKRSlift(e) {
-			(this.OuRVBSLbVFQGuUhK(e).watched = !0), (this.objectChanged = !0);
+		DcvqyVkwSaugDOrW(e) {
+			(this.KDpsNtEJVBRchMAT(e).watched = !0), (this.objectChanged = !0);
 		}
-		UBsoUNlrmIETSdXS() {
+		KClbjzzTSqgoHczc() {
 			return this.objectChanged;
 		}
-		sPfYvIcJhv() {
+		gUtqKTBZCv() {
 			let e;
 			if (this.objectChanged)
 				for (let t of this.watchedObjects.values())
-					t.sQSORjQBJ() && (t.stKCSzrsip(!1), (e ??= []), e.push(t));
+					t.xnlstTbZr() && (t.qXPmELNTfn(!1), (e ??= []), e.push(t));
 			return (this.objectChanged = !1), e;
 		}
-		EHvRROXeguyac() {
+		ShJjebzxrSzOO() {
 			let e;
 			for (let t of this.watchedObjects.values()) (e ??= []), e.push(t);
 			return e;
 		}
-		QFAqjthdpqWotIahAUcsGEMdUsRg(e) {
+		UeMZpEjtEvOAAiVEVejUsUexTEWQ(e) {
 			for (let t of e) {
-				let e = this.watchedObjects.get(t.ZgjClHnbiFKDSw());
+				let e = this.watchedObjects.get(t.HKcYuuReJToXiv());
 				e != null &&
-					(e.lqmOqOSsV(t.getObject()),
-					this.owner.EXABpKtlUABRUnEtoLF(t.ZgjClHnbiFKDSw()));
+					(e.fOgTqHAJE(t.getObject()),
+					this.owner.gLYqxagsDXqcRBPzVIU(t.HKcYuuReJToXiv()));
 			}
 			this.objectChanged = !0;
 		}
-		FWmhykrCbT() {
+		CJjOKENXnU() {
 			return this.isBlank;
 		}
 	},
@@ -19219,7 +19219,7 @@ var Qp = class e {
 		static {
 			this.uuidCounter = 0;
 		}
-		static XOhwOzNezLRm() {
+		static EVUGMStoMxqs() {
 			return `${Date.now().toString(36)}-${(e.uuidCounter++).toString(36)}-${Math.random().toString(36).slice(2, 10)}`;
 		}
 		static {
@@ -19235,17 +19235,17 @@ var Qp = class e {
 			this.MAX_FIRE_TICKS = 2e3;
 		}
 		constructor(t, n) {
-			(this._queryBox = new AxisAlignedBoundingBox(new A(), new A())),
-				(this._moveDelta = new A()),
-				(this._moveSaved = new A()),
-				(this._movePrev = new A()),
-				(this._moveDeltaPos = new A()),
+			(this._queryBox = new AxisAlignedBoundingBox(new k(), new k())),
+				(this._moveDelta = new k()),
+				(this._moveSaved = new k()),
+				(this._movePrev = new k()),
+				(this._moveDeltaPos = new k()),
 				(this.id = e.nextEntityID++),
-				(this.uuid = e.XOhwOzNezLRm()),
-				(this.pos = new A()),
-				(this.prevPos = new A()),
-				(this.serverPos = new A()),
-				(this.motion = new A()),
+				(this.uuid = e.EVUGMStoMxqs()),
+				(this.pos = new k()),
+				(this.prevPos = new k()),
+				(this.serverPos = new k()),
+				(this.motion = new k()),
 				(this.lastVelocityPacketAt = 0),
 				(this.noPhysics = !1),
 				(this.yaw = 0),
@@ -19254,7 +19254,7 @@ var Qp = class e {
 				(this.prevPitch = 0),
 				(this.ticksExisted = 0),
 				(this.dead = !1),
-				(this.boundingBox = new AxisAlignedBoundingBox(new A(), new A())),
+				(this.boundingBox = new AxisAlignedBoundingBox(new k(), new k())),
 				(this.fire = 0),
 				(this.fireResistance = 1),
 				(this.onGround = !1),
@@ -19286,7 +19286,7 @@ var Qp = class e {
 				this.dataWatcher.addObject(4, 0),
 				this.entityInit();
 		}
-		UZvlOSXhxPLte() {
+		BrToNuQmLBixg() {
 			this.setDead();
 		}
 		getDisplayName() {
@@ -19298,20 +19298,20 @@ var Qp = class e {
 		isInWater() {
 			return this.inWater;
 		}
-		sYmfnanB() {
+		RHdyMXoe() {
 			return this.inLava;
 		}
-		FPJeIkyl() {
+		acKIzIOD() {
 			return this.getFlag(4);
 		}
-		YRKafnfAB(e) {
-			this.hjTZwzK(4, e);
+		cvLJGoegU(e) {
+			this.bCFuaNN(4, e);
 		}
 		isUsingOffHand() {
 			return this.getFlag(6);
 		}
 		setUsingOffHand(e) {
-			this.hjTZwzK(6, e);
+			this.bCFuaNN(6, e);
 		}
 		entityInit() {}
 		getDataWatcher() {
@@ -19320,32 +19320,32 @@ var Qp = class e {
 		getFlag(e) {
 			return (this.dataWatcher.getWatchableObjectByte(0) & (1 << e)) != 0;
 		}
-		hjTZwzK(e, t) {
+		bCFuaNN(e, t) {
 			let n = this.dataWatcher.getWatchableObjectByte(0);
 			t
 				? this.dataWatcher.updateObject(0, n | (1 << e))
 				: this.dataWatcher.updateObject(0, n & ~(1 << e));
 		}
 		getCustomNameTag() {
-			return this.dataWatcher.hKhEEbthlAuSAnkHDAnlQiAW(2);
+			return this.dataWatcher.yeODEnruGxHTTnOPEnTPUHsx(2);
 		}
-		pPZmrfnwVLauKOeg(e) {
+		zOvSxDtpmMWBnXbI(e) {
 			this.dataWatcher.updateObject(2, e);
 		}
-		xDxTjCHGxTWyEYJgWZmPRv() {
+		kFYMuLQqKPOEnmMCeZThnM() {
 			return this.dataWatcher.getWatchableObjectByte(3) === 1;
 		}
-		ULvDefsHjzpaoQJvokKsfd(e) {
+		ZXSNMSqcXbreGiqftugHEq(e) {
 			this.dataWatcher.updateObject(3, +!!e);
 		}
-		EXABpKtlUABRUnEtoLF(e) {}
+		gLYqxagsDXqcRBPzVIU(e) {}
 		equals(t) {
 			return t instanceof e ? t.id === this.id : !1;
 		}
 		getEntityBoundingBox() {
 			return this.boundingBox;
 		}
-		HzRufFjQvxJYQHcqlp() {
+		zIdvyBvFpMujPQqIQj() {
 			return this.yaw;
 		}
 		setSize(e, t) {
@@ -19353,10 +19353,10 @@ var Qp = class e {
 			(this.width = e), (this.height = t);
 			let n = this.getEntityBoundingBox(),
 				r = n.min,
-				i = n.min.clone().add(new A(e, t, e));
-			this.KLjzfGYqLjVcEyRneJpY(new AxisAlignedBoundingBox(r, i));
+				i = n.min.clone().add(new k(e, t, e));
+			this.zKPdGFjcjHcTtjoCAGPP(new AxisAlignedBoundingBox(r, i));
 		}
-		ClKcLjUSSNT(e, t, n) {
+		lnoVLrDQLLV(e, t, n) {
 			this.motion.set(e, t, n);
 		}
 		setPositionAndUpdate(e, t, n) {
@@ -19365,11 +19365,11 @@ var Qp = class e {
 		setPosition(e, t, n) {
 			typeof e == `number` && t !== void 0 && n !== void 0
 				? this.pos.set(e, t, n)
-				: e instanceof A && this.pos.copy(e);
+				: e instanceof k && this.pos.copy(e);
 			let r = this.width / 2,
-				i = new A(this.pos.x - r, this.pos.y, this.pos.z - r),
-				a = new A(this.pos.x + r, this.pos.y + this.height, this.pos.z + r);
-			this.KLjzfGYqLjVcEyRneJpY(new AxisAlignedBoundingBox(i, a));
+				i = new k(this.pos.x - r, this.pos.y, this.pos.z - r),
+				a = new k(this.pos.x + r, this.pos.y + this.height, this.pos.z + r);
+			this.zKPdGFjcjHcTtjoCAGPP(new AxisAlignedBoundingBox(i, a));
 		}
 		setPositionAndRotation(e, t, n, r, i) {
 			this.prevPos.set(e, t, n),
@@ -19379,13 +19379,13 @@ var Qp = class e {
 				(this.prevYaw = r),
 				(this.prevPitch = i),
 				this.setPosition(this.pos),
-				this.LjORXCOakWX(this.yaw, this.pitch);
+				this.tAiwQRignzX(this.yaw, this.pitch);
 		}
 		static {
-			this.positionOffset = new A(-0.03125, 0, -0.03125);
+			this.positionOffset = new k(-0.03125, 0, -0.03125);
 		}
 		setPositionAndRotation2(t, n, r, i, a, o, s = !1) {
-			this.setPosition(t, n, r), this.LjORXCOakWX(i, a);
+			this.setPosition(t, n, r), this.tAiwQRignzX(i, a);
 			let c = this.world.getCollidingBoundingBoxes(
 				this,
 				this.getEntityBoundingBox().clone().expandByVector(e.positionOffset),
@@ -19396,19 +19396,19 @@ var Qp = class e {
 				(n += e - this.getEntityBoundingBox().min.y), this.setPosition(t, n, r);
 			}
 		}
-		LjORXCOakWX(e, t) {
+		tAiwQRignzX(e, t) {
 			(this.yaw = e), (this.pitch = t);
 		}
 		setLocationAndAngles(e, t, n, r = 0, i = 0) {
 			this.prevPos.set(e, t, n),
 				(this.yaw = r),
 				(this.pitch = i),
-				this.setPosition(new A(e, t, n));
+				this.setPosition(new k(e, t, n));
 		}
-		LGpiehDvhN(e) {
+		UzsCRNmLyN(e) {
 			return this.getEntityBoundingBox().clone().translate(e);
 		}
-		nVzFlOQVAWmxRxq(e, t, n) {
+		kXOjuwvjiuGpAPk(e, t, n) {
 			let r = this.getEntityBoundingBox();
 			return (
 				this._queryBox.min.set(r.min.x + e, r.min.y + t, r.min.z + n),
@@ -19416,10 +19416,10 @@ var Qp = class e {
 				this._queryBox
 			);
 		}
-		KLjzfGYqLjVcEyRneJpY(e) {
+		zKPdGFjcjHcTtjoCAGPP(e) {
 			this.boundingBox = e;
 		}
-		EwsuUoVZnTQeMhyyB() {
+		awpVsXwVlNCtvmkIN() {
 			(this.pos.x = (this.boundingBox.min.x + this.boundingBox.max.x) / 2),
 				(this.pos.y = this.boundingBox.min.y),
 				(this.pos.z = (this.boundingBox.min.z + this.boundingBox.max.z) / 2);
@@ -19431,12 +19431,12 @@ var Qp = class e {
 			return (performance.now() - this.lastUpdate) / 50;
 		}
 		update() {
-			this.VrfUyhkzzniFCZ(), (this.lastUpdate = performance.now());
+			this.fzfRUqrYCpqhRy(), (this.lastUpdate = performance.now());
 		}
 		kill() {
 			this.setDead();
 		}
-		KDznbTLIIYMYprBpewas() {
+		aQCipmMWzVajPELVsMZV() {
 			if (this.world != null) {
 				for (
 					;
@@ -19452,13 +19452,13 @@ var Qp = class e {
 				(this.motion.x = this.motion.y = this.motion.z = 0), (this.pitch = 0);
 			}
 		}
-		vsJISAZGSBPpbgqKRb() {
+		yfvLHSaJXQXNXyfAFR() {
 			return 0;
 		}
-		QvdTTcOu(e) {
+		VSfTfFTp(e) {
 			this.world = e;
 		}
-		CcvhxCijzrDHcdYiN(e) {
+		RnSsRNeiMMzCYMStn(e) {
 			if (this.dead || this.world.isClient) return;
 			let t = this.world.getServer(),
 				n = this.world.getConfigurationManager(),
@@ -19473,13 +19473,13 @@ var Qp = class e {
 				i.resetUpdateEntityTick(),
 				a.resetUpdateEntityTick());
 		}
-		roJnTgzaXvHVjmf(e) {
+		poPRVXIBtCoIHwu(e) {
 			let t = {};
 			e.writeToNBT(t),
 				this.readFromNBT(t),
 				(this.timeUntilPortal = e.timeUntilPortal);
 		}
-		VrfUyhkzzniFCZ() {
+		fzfRUqrYCpqhRy() {
 			if (
 				(this.ridingEntity != null &&
 					this.ridingEntity.dead &&
@@ -19490,19 +19490,19 @@ var Qp = class e {
 				(this.inLava = !1),
 				this.world.isServer)
 			) {
-				let e = this.vsJISAZGSBPpbgqKRb();
+				let e = this.yfvLHSaJXQXNXyfAFR();
 				this.inPortal
 					? (this.ridingEntity == null &&
 							this.portalCounter++ >= e &&
 							((this.portalCounter = e),
-							(this.timeUntilPortal = this.zsttgUaHNNcMQGENp()),
-							this.CcvhxCijzrDHcdYiN(this.getPortalDestinationDimension())),
+							(this.timeUntilPortal = this.OueJssExBfIWkyofr()),
+							this.RnSsRNeiMMzCYMStn(this.getPortalDestinationDimension())),
 						(this.inPortal = !1))
 					: (this.portalCounter > 0 && (this.portalCounter -= 4),
 						this.portalCounter < 0 && (this.portalCounter = 0)),
 					this.timeUntilPortal > 0 && --this.timeUntilPortal;
 			}
-			this.NcVVdJrPRBhCjwxPoOz(),
+			this.nYZUBczXkAhLmzURCVm(),
 				this.world.isClient ||
 					(this.fire > 0 &&
 						(this.immuneToFire
@@ -19511,7 +19511,7 @@ var Qp = class e {
 								this.fire--))),
 				this.inLava &&
 					((this.fallDistance *= 0.5),
-					this.world.isServer && this.CdrSXVPBJGbzTFhOZ()),
+					this.world.isServer && this.KlWxShRDhrjQdNNRD()),
 				this.pos.y < -64 && this.kill();
 		}
 		setCurrentItemOrArmor(e, t) {}
@@ -19535,7 +19535,7 @@ var Qp = class e {
 				e.pitch && (this.pitch = e.pitch),
 				(this.onGround = e.onGround == 1);
 		}
-		qtOsEucDDyfr(e, t) {
+		IiYpDSboOLue(e, t) {
 			let n,
 				r = -0.999999;
 			for (
@@ -19543,7 +19543,7 @@ var Qp = class e {
 				t.x != 0 &&
 				this.world.getCollidingBoundingBoxes(
 					this,
-					this.nVzFlOQVAWmxRxq(t.x, r, 0),
+					this.kXOjuwvjiuGpAPk(t.x, r, 0),
 				).length == 0;
 				e.x = t.x
 			)
@@ -19553,7 +19553,7 @@ var Qp = class e {
 				t.z != 0 &&
 				this.world.getCollidingBoundingBoxes(
 					this,
-					this.nVzFlOQVAWmxRxq(0, r, t.z),
+					this.kXOjuwvjiuGpAPk(0, r, t.z),
 				).length == 0;
 				e.z = t.z
 			)
@@ -19564,7 +19564,7 @@ var Qp = class e {
 				t.z != 0 &&
 				this.world.getCollidingBoundingBoxes(
 					this,
-					this.nVzFlOQVAWmxRxq(t.x, r, t.z),
+					this.kXOjuwvjiuGpAPk(t.x, r, t.z),
 				).length == 0;
 				e.z = t.z
 			)
@@ -19572,10 +19572,10 @@ var Qp = class e {
 					(e.x = t.x),
 					t.z < n && t.z >= -n ? (t.z = 0) : t.z > 0 ? (t.z -= n) : (t.z += n);
 		}
-		rADNPOlBFy(e, t, n) {
+		eDptwMJsPv(e, t, n) {
 			let r = n.clone(),
 				i = this.getEntityBoundingBox();
-			this.KLjzfGYqLjVcEyRneJpY(e), (n.y = this.stepHeight);
+			this.zKPdGFjcjHcTtjoCAGPP(e), (n.y = this.stepHeight);
 			let a = this.world.getCollidingBoundingBoxes(
 					this,
 					Yp(this.getEntityBoundingBox(), t.x, n.y, t.z, this._queryBox),
@@ -19602,32 +19602,32 @@ var Qp = class e {
 			for (let e of a) m = Wp(e, d, m);
 			Zp(d, 0, 0, m),
 				l * l + u * u > p * p + m * m
-					? ((n.x = l), (n.z = u), (n.y = -c), this.KLjzfGYqLjVcEyRneJpY(o))
-					: ((n.x = p), (n.z = m), (n.y = -f), this.KLjzfGYqLjVcEyRneJpY(d));
+					? ((n.x = l), (n.z = u), (n.y = -c), this.zKPdGFjcjHcTtjoCAGPP(o))
+					: ((n.x = p), (n.z = m), (n.y = -f), this.zKPdGFjcjHcTtjoCAGPP(d));
 			for (let e of a) n.y = Up(e, this.getEntityBoundingBox(), n.y);
 			let h = this.getEntityBoundingBox().clone();
 			return (
 				Zp(h, 0, n.y, 0),
-				this.KLjzfGYqLjVcEyRneJpY(h),
+				this.zKPdGFjcjHcTtjoCAGPP(h),
 				r.x * r.x + r.z * r.z >= n.x * n.x + n.z * n.z
 					? ((n.x = r.x),
 						(n.y = r.y),
 						(n.z = r.z),
-						this.KLjzfGYqLjVcEyRneJpY(i),
+						this.zKPdGFjcjHcTtjoCAGPP(i),
 						!1)
 					: !0
 			);
 		}
 		static {
-			this.waterPadding = new A(0.001, 0.001, 0.001).multiplyScalar(-1);
+			this.waterPadding = new k(0.001, 0.001, 0.001).multiplyScalar(-1);
 		}
 		static {
-			this.waterOffsetv = new A(0, -0.4, 0);
+			this.waterOffsetv = new k(0, -0.4, 0);
 		}
 		static {
 			this.waterScratchBox = new AxisAlignedBoundingBox();
 		}
-		NcVVdJrPRBhCjwxPoOz() {
+		nYZUBczXkAhLmzURCVm() {
 			return (
 				this.world &&
 				this.world.handleMaterialAcceleration(
@@ -19638,7 +19638,7 @@ var Qp = class e {
 					z.water,
 					this,
 				)
-					? (this.inWater || this.TYbYKeKfOul(),
+					? (this.inWater || this.NnnpOVdkRjx(),
 						(this.fallDistance = 0),
 						(this.inWater = !0),
 						(this.fire = 0))
@@ -19659,10 +19659,10 @@ var Qp = class e {
 				: e < 0 && (this.fallDistance -= e);
 		}
 		handleStatusUpdate(e) {}
-		uWYnGzlHPJi() {
+		UoKzrxFArQY() {
 			return !1;
 		}
-		egLATZzm() {
+		mkvXQhOL() {
 			return this.dataWatcher.getWatchableObjectByte(4) == 1;
 		}
 		isOnLadder() {
@@ -19671,7 +19671,7 @@ var Qp = class e {
 			let n = this.world.getBlockState(t).block;
 			return n === U.ladder || n === U.vine || n === U.iron_ladder;
 		}
-		oIrFRMsrxGNvJX() {
+		nAAEiDmpOjlGCz() {
 			let t = e.groundScratchPos;
 			return (
 				t.set(this.pos.x, this.getEntityBoundingBox().min.y, this.pos.z),
@@ -19681,16 +19681,16 @@ var Qp = class e {
 		canTriggerWalking() {
 			return !0;
 		}
-		sBtlRmxuOWTpkyconvNBDGnH(e, t, n) {
-			return this.nDlbwbsgufamXwmYHSODd(this.nVzFlOQVAWmxRxq(e, t, n));
+		rQdYuPDFvWBLiKRksPmMnFFk(e, t, n) {
+			return this.NSkiIwbLNNaocTViWABVu(this.kXOjuwvjiuGpAPk(e, t, n));
 		}
-		nDlbwbsgufamXwmYHSODd(e) {
+		NSkiIwbLNNaocTViWABVu(e) {
 			return (
 				this.world.getCollidingBoundingBoxes(this, e).length == 0 &&
 				!this.world.isAnyLiquid(e)
 			);
 		}
-		zFHHwQUNLp(e, t, n) {
+		kEXyDjhpNw(e, t, n) {
 			let r = e * e + t * t;
 			if ((isFinite(n) || (n = 0), r >= 1e-4)) {
 				(r = Math.sqrt(r)), r < 1 && (r = 1), (r = n / r), (e *= r), (t *= r);
@@ -19722,14 +19722,14 @@ var Qp = class e {
 					(this.motion.z = Math.max(-32, Math.min(32, this.motion.z)))),
 				this.noPhysics)
 			) {
-				this.KLjzfGYqLjVcEyRneJpY(
+				this.zKPdGFjcjHcTtjoCAGPP(
 					this.getEntityBoundingBox().translate(this.motion),
 				),
-					this.EwsuUoVZnTQeMhyyB();
+					this.awpVsXwVlNCtvmkIN();
 				return;
 			}
 			this instanceof Rg &&
-				this.GPVVqOLFFuTQAvPfOYvgJGhrA() &&
+				this.nUlNvKqFNgAzLPyEFIGdWrvmo() &&
 				this.ejectFromSolidBlocks();
 			let i = this._moveDelta.set(t, n, r),
 				a = this._movePrev.copy(this.pos);
@@ -19745,7 +19745,7 @@ var Qp = class e {
 					((this.inCloud = !1), (i.x *= em), (i.y *= em), (i.z *= em));
 			let o = this._moveSaved.copy(i),
 				s = this.onGround && this.sneak;
-			s && this.qtOsEucDDyfr(o, i);
+			s && this.IiYpDSboOLue(o, i);
 			let c = this.getEntityBoundingBox(),
 				l =
 					i.x === 0 && i.y === 0 && i.z === 0
@@ -19756,7 +19756,7 @@ var Qp = class e {
 							);
 			for (let e of l) i.y = Up(e, c, i.y);
 			let u = c.clone();
-			Zp(u, 0, i.y, 0), this.KLjzfGYqLjVcEyRneJpY(u);
+			Zp(u, 0, i.y, 0), this.zKPdGFjcjHcTtjoCAGPP(u);
 			let d = this.onGround || (o.y != i.y && o.y < 0);
 			for (let e of l) i.x = Hp(e, u, i.x);
 			Zp(u, i.x, 0, 0);
@@ -19766,8 +19766,8 @@ var Qp = class e {
 			this.stepHeight > 0 &&
 				f &&
 				(o.x != i.x || o.z != i.z) &&
-				this.rADNPOlBFy(c, o, i),
-				this.EwsuUoVZnTQeMhyyB(),
+				this.eDptwMJsPv(c, o, i),
+				this.awpVsXwVlNCtvmkIN(),
 				(this.isCollidedHorizontally = i.x != o.x || i.z != o.z),
 				(this.isCollidedVertically = i.y != o.y),
 				(this.onGround = this.isCollidedVertically && o.y < 0),
@@ -19831,12 +19831,12 @@ var Qp = class e {
 								this.playSound(e.getStepSound(), e.volume * 0.15, e.frequency));
 				}
 			}
-			this.ByMVhgNrovTzewqqH();
+			this.lowQQdilMcuXmSkCA();
 			let h = this.inWater;
 			this.world.isFlammableWithin(
 				this.getEntityBoundingBox().clone().expandByVector(e.waterPadding),
 			)
-				? (this.wAOSMWjkwoEPES(1),
+				? (this.kSGmXambCofeOI(1),
 					h ||
 						(++this.fire,
 						this.fire == 0
@@ -19855,7 +19855,7 @@ var Qp = class e {
 		playSound(e, t, n) {
 			this.world.playSoundAtEntity(this, e, t, n);
 		}
-		NpoTLSheiDwtFjXzzOPj(e) {
+		vXeSrYnVaPNqXUPfwOkc(e) {
 			let t = 0.8;
 			if (
 				e.riddenByEntity !== this &&
@@ -19887,15 +19887,15 @@ var Qp = class e {
 				(this.motion.z += n),
 				(this.isAirborne = !0);
 		}
-		wAOSMWjkwoEPES(e) {
+		kSGmXambCofeOI(e) {
 			this.immuneToFire || this.attackEntityFrom(Bg.IN_FIRE, e);
 		}
 		setFire(e) {
 			let t = e * 20;
 			this.fire < t && (this.fire = t);
 		}
-		eRKCjuHLIKqnvZmcRuI() {}
-		ByMVhgNrovTzewqqH() {
+		OVQXInCRyYfCSxprofD() {}
+		lowQQdilMcuXmSkCA() {
 			let t = this.getEntityBoundingBox(),
 				n = Math.floor(t.min.x + 0.001),
 				r = Math.floor(t.min.y + 0.001),
@@ -19914,12 +19914,12 @@ var Qp = class e {
 							i.onEntityCollidedWithBlock(this.world, new I(t, n, r), this);
 					}
 		}
-		WVwrPOrXUzBpIZUK(e) {
+		NkhjdSzWvNUeLQdp(e) {
 			let t = this.world.getBlockState(e),
 				n = this.world.getBlockState(e.up());
 			return !t.getBlock().isFullCube(t) && !n.getBlock().isFullCube(n);
 		}
-		GPVVqOLFFuTQAvPfOYvgJGhrA() {
+		nUlNvKqFNgAzLPyEFIGdWrvmo() {
 			let e = new I(-(2 ** 53 - 1), -(2 ** 53 - 1), -(2 ** 53 - 1));
 			for (let t = 0; t < 8; ++t) {
 				let n = Math.floor(
@@ -19939,7 +19939,7 @@ var Qp = class e {
 			}
 			return !1;
 		}
-		WVqHPcOpmdbZegNRcB(e) {
+		dWGckAEIpZylzQDnfl(e) {
 			let t = this.pos.y + this.getEyeHeight(),
 				n = new I(this.pos.x, t, this.pos.z);
 			return this.world.getBlockState(n).getBlock().type == `liquid`;
@@ -19984,8 +19984,8 @@ var Qp = class e {
 						i.clone().expandByScalar(-n),
 					).length === 0
 				) {
-					this.KLjzfGYqLjVcEyRneJpY(i),
-						this.EwsuUoVZnTQeMhyyB(),
+					this.zKPdGFjcjHcTtjoCAGPP(i),
+						this.awpVsXwVlNCtvmkIN(),
 						(this.motion.x = 0),
 						(this.motion.z = 0);
 					return;
@@ -19995,19 +19995,19 @@ var Qp = class e {
 		static {
 			this.EJECT_PROBE_SHRINK = 0.001;
 		}
-		VbSMshAXsKMWdSS(e, t, n) {
+		bTGAgkdesJOGCJZ(e, t, n) {
 			let r = new I(e, t, n),
 				i = e - r.x,
 				a = n - r.z;
-			if (!this.WVwrPOrXUzBpIZUK(r)) {
+			if (!this.NkhjdSzWvNUeLQdp(r)) {
 				let e = -1,
 					t = 9999;
-				this.WVwrPOrXUzBpIZUK(r.west()) && i < t && ((t = i), (e = 0)),
-					this.WVwrPOrXUzBpIZUK(r.east()) &&
+				this.NkhjdSzWvNUeLQdp(r.west()) && i < t && ((t = i), (e = 0)),
+					this.NkhjdSzWvNUeLQdp(r.east()) &&
 						1 - i < t &&
 						((t = 1 - i), (e = 1)),
-					this.WVwrPOrXUzBpIZUK(r.north()) && a < t && ((t = a), (e = 4)),
-					this.WVwrPOrXUzBpIZUK(r.south()) &&
+					this.NkhjdSzWvNUeLQdp(r.north()) && a < t && ((t = a), (e = 4)),
+					this.NkhjdSzWvNUeLQdp(r.south()) &&
 						1 - a < t &&
 						((t = 1 - a), (e = 5));
 				let n = 0.1;
@@ -20024,7 +20024,7 @@ var Qp = class e {
 		onCollideWithPlayer(e) {}
 		getLook() {
 			let e = Math.cos(this.pitch);
-			return new A(
+			return new k(
 				-Math.sin(this.yaw) * e,
 				Math.sin(this.pitch),
 				-Math.cos(this.yaw) * e,
@@ -20033,14 +20033,14 @@ var Qp = class e {
 		canCommandSenderUseCommand(e, t) {
 			return !0;
 		}
-		vKGPGWYFD() {
+		jRUJWvIuQ() {
 			let e = this.pos.clone();
 			return (e.y += this.getEyeHeight()), e;
 		}
-		ePgGyurwfOlOuNJnP() {
+		fwLachYqIldxEJcVH() {
 			return !0;
 		}
-		ALGRXvzzYPN(e) {
+		AhrDqckzlwp(e) {
 			return !1;
 		}
 		attackEntityFrom(e, t) {
@@ -20054,8 +20054,8 @@ var Qp = class e {
 				this.invulnerable && !e.equals(Bg.OUT_OF_WORLD) && !e.isCreativePlayer()
 			);
 		}
-		xWHzPAHOWtaQ(e) {}
-		CdrSXVPBJGbzTFhOZ() {
+		GHXGSIGYaisY(e) {}
+		KlWxShRDhrjQdNNRD() {
 			this.immuneToFire ||
 				(this.attackEntityFrom(Bg.LAVA, 4), this.setFire(15));
 		}
@@ -20069,46 +20069,46 @@ var Qp = class e {
 			return !this.dead;
 		}
 		setEntityState(e, t) {}
-		udxSAWclyQO() {}
+		qXDltNFuCUL() {}
 		dropItem2(e, t) {
-			return this.EXwzxFSmZkFSNfMfKy(e, t, 0);
+			return this.kONglyBjijHCHLjzMs(e, t, 0);
 		}
-		EXwzxFSmZkFSNfMfKy(e, t, n) {
+		kONglyBjijHCHLjzMs(e, t, n) {
 			return this.entityDropItem(new V(e, t, 0), n);
 		}
 		getDistanceSqToEntity(e) {
 			return this.pos.distanceToSquared(e.pos);
 		}
 		setSprinting(e) {
-			this.hjTZwzK(3, e);
+			this.bCFuaNN(3, e);
 		}
 		isSprinting() {
 			return !1;
 		}
-		ivIsiTZAooP() {
+		ssnfFrPtPOc() {
 			return this.getFlag(5);
 		}
-		pNvihGvwxPsPteaVzqn(e) {
-			return this.ivIsiTZAooP();
+		uwgeutXtlNUyeaWRvzK(e) {
+			return this.ssnfFrPtPOc();
 		}
-		HPGnxjuyOJaq(e) {
-			this.hjTZwzK(5, e);
+		DZANIxwAmZPB(e) {
+			this.bCFuaNN(5, e);
 		}
 		entityDropItem(e, t) {
 			if (e.stackSize != 0 && e.getItem() != null) {
 				let n = this.world.getEntityItem(e, this.pos, t);
 				return n
-					? (n.AydpEMNAsJCvEMlLIGFId(),
-						n.setPosition(new A(this.pos.x, this.pos.y + t, this.pos.z)),
+					? (n.WprPYViyqOSYdojmAauDp(),
+						n.setPosition(new k(this.pos.x, this.pos.y + t, this.pos.z)),
 						this.world.spawnEntityInWorld(n),
 						n)
 					: null;
 			} else return null;
 		}
-		OQSReiUkDhoCXTmfVCxZWQschmCRRuuUh() {
+		uOoxTBeiTquHryJhAXtxzPchuzUZOxKvg() {
 			return !1;
 		}
-		ZpGhLiSZmvfigAHWiKe() {
+		CVxsVpIMAWjPrhvzXYe() {
 			return F.getHorizontal(
 				Math.floor((((this.yaw * 180) / Math.PI) * 4) / 360 + 0.5) & 3,
 			);
@@ -20116,22 +20116,22 @@ var Qp = class e {
 		getPosition() {
 			return new I(this.pos.x, this.pos.y + 0.5, this.pos.z);
 		}
-		nXubDPrYqeYiEvwOfmPDue(e, t, n, r) {
-			return r.getBlock().nXubDPrYqeYiEvwOfmPDue(this);
+		ywhkOtzAXiOqttEOUBPyJN(e, t, n, r) {
+			return r.getBlock().ywhkOtzAXiOqttEOUBPyJN(this);
 		}
-		nomorLyvykVEMJa(e, t, n, r, i) {
+		jZRwDhLNogOjpHT(e, t, n, r, i) {
 			return !0;
 		}
-		mifeyctHenUdwcjTBuKw() {
+		RWQTsZTDTPBandqGicUu() {
 			return !1;
 		}
-		WCnTqdMsbQT(e, t, n) {
+		UuxRUXVuYkO(e, t, n) {
 			let r = this.pos.x - e,
 				i = this.pos.y - t,
 				a = this.pos.z - n;
 			return Math.sqrt(r * r + i * i + a * a);
 		}
-		TYbYKeKfOul() {
+		NnnpOVdkRjx() {
 			let e =
 				Math.sqrt(
 					this.motion.x * this.motion.x * 0.2 +
@@ -20176,7 +20176,7 @@ var Qp = class e {
 					);
 			}
 		}
-		olzNuJPCYdEkAdLg() {
+		HXaWhGqYvcczPkhd() {
 			return 3;
 		}
 		writeEntityToNBT(e) {}
@@ -20194,17 +20194,17 @@ var Qp = class e {
 				this.getCustomNameTag() != null &&
 					this.getCustomNameTag().length > 0 &&
 					((e.CustomName = L.string(this.getCustomNameTag())),
-					(e.CustomNameVisible = L.byte(+!!this.xDxTjCHGxTWyEYJgWZmPRv()))),
+					(e.CustomNameVisible = L.byte(+!!this.kFYMuLQqKPOEnmMCeZThnM()))),
 				(e.Dimension = L.int(this.dimension)),
 				(e.PortalCooldown = L.int(this.timeUntilPortal)),
 				(e.UUID = L.string(this.uuid)),
-				this.RknqRxKLyBNxjlrZv() && (e.RuntimeId = Pte(this.id)),
+				this.UJbhRsNSDAuHaCDKg() && (e.RuntimeId = Pte(this.id)),
 				this.writeEntityToNBT(e);
 		}
-		RknqRxKLyBNxjlrZv() {
+		UJbhRsNSDAuHaCDKg() {
 			return !0;
 		}
-		GTwAtnDrfDppPEdcKhlRmi() {
+		INkfyNmjqUbDGJiOzHxlIh() {
 			return 0.1;
 		}
 		readFromNBT(t) {
@@ -20221,8 +20221,8 @@ var Qp = class e {
 				this.motion.set(r[0], r[1], r[2]),
 				t.CustomName &&
 					t.CustomName.length > 0 &&
-					this.pPZmrfnwVLauKOeg(t.CustomName),
-				this.ULvDefsHjzpaoQJvokKsfd(!!t.CustomNameVisible),
+					this.zOvSxDtpmMWBnXbI(t.CustomName),
+				this.ZXSNMSqcXbreGiqftugHEq(!!t.CustomNameVisible),
 				(this.yaw = i[0]),
 				(this.pitch = i[1]),
 				(this.prevYaw = this.yaw),
@@ -20233,7 +20233,7 @@ var Qp = class e {
 				(this.dimension = c),
 				(this.timeUntilPortal = l),
 				typeof t.UUID == `string` && t.UUID.length > 0 && (this.uuid = t.UUID),
-				this.RknqRxKLyBNxjlrZv())
+				this.UJbhRsNSDAuHaCDKg())
 			) {
 				let n = Fte(t.RuntimeId);
 				n != null &&
@@ -20243,7 +20243,7 @@ var Qp = class e {
 			}
 			this.readEntityFromNBT(t);
 		}
-		YNgWOPazMQt() {
+		SVuUoFTgkyS() {
 			return this.dimension == 0;
 		}
 		hasDaylightSky() {
@@ -20252,39 +20252,39 @@ var Qp = class e {
 		interactFirst(e) {
 			return !1;
 		}
-		OdxKjYioRJwveZFMnsY() {
+		EgvBwnSXHfcmEEAkJwG() {
 			return !1;
 		}
-		eHYIoBBCpZveYjzMU(e, t) {
+		DLrleFDxrWWTLuLHk(e, t) {
 			t instanceof fm && bm.applyThornEnchantments(t, e),
 				bm.applyArthropodEnchantments(e, t);
 		}
 		isRiding() {
 			return this.ridingEntity != null;
 		}
-		SCTxYnYXqZ() {
+		warZnnhtAH() {
 			return 0;
 		}
-		JcMhMDJTSvkMvSeYb() {
+		csXqagtbRnRwjIriU() {
 			return this.height * 0.75;
 		}
-		YfJdWWSOyBcXTJPyeyx() {
+		HaoJrvVsdUxIigRDxyT() {
 			this.riddenByEntity?.setPosition(
 				this.pos.x,
 				this.pos.y +
-					this.JcMhMDJTSvkMvSeYb() +
-					this.riddenByEntity.SCTxYnYXqZ(),
+					this.csXqagtbRnRwjIriU() +
+					this.riddenByEntity.warZnnhtAH(),
 				this.pos.z,
 			);
 		}
-		swNrqDxZYpra() {
+		hygaNHyRGPHo() {
 			this.ridingEntity?.dead
 				? (this.ridingEntity = null)
 				: ((this.motion.x = 0),
 					(this.motion.y = 0),
 					(this.motion.z = 0),
 					this.update(),
-					this.ridingEntity != null && this.ridingEntity.YfJdWWSOyBcXTJPyeyx());
+					this.ridingEntity != null && this.ridingEntity.HaoJrvVsdUxIigRDxyT());
 		}
 		mountEntity(e) {
 			if (e == null)
@@ -20311,15 +20311,15 @@ var Qp = class e {
 				(this.ridingEntity = e), (e.riddenByEntity = this);
 			}
 		}
-		duBwLweuRMXU(e) {
+		DbNilcXuuYNt(e) {
 			this.timeUntilPortal > 0
-				? (this.timeUntilPortal = this.zsttgUaHNNcMQGENp())
+				? (this.timeUntilPortal = this.OueJssExBfIWkyofr())
 				: (this.world.isServer &&
 						(!this.portalBlock || !e.equals(this.portalBlock)) &&
 						(this.portalBlock = e),
 					(this.inPortal = !0));
 		}
-		zsttgUaHNNcMQGENp() {
+		OueJssExBfIWkyofr() {
 			return 60;
 		}
 		getPortalDestinationDimension() {
@@ -20346,17 +20346,17 @@ var Qp = class e {
 				(this.attributesByName = new Map()),
 				(this.attributesMap = new Id());
 		}
-		dxDYGffNWNScjeoIBbQu(e) {
+		BPLxEXavEnybHtGfVFNG(e) {
 			return this.attributes.get(e);
 		}
-		PugYTLKLgPueOMqEQkZsUItuDI(e) {
+		GeRyuuwLcUynDJOJhEbntTdHFd(e) {
 			return this.attributesByName.get(e);
 		}
 		registerAttribute(e) {
 			if (this.attributesByName.has(e.getAttributeUnlocalizedName()))
 				throw `Attribute is already registered!`;
 			{
-				let t = this.yYLAWoliwZBmbrDFLPXCWqb(e);
+				let t = this.XPJtnlqteVGIYpUNuFPManl(e);
 				this.attributesByName.set(e.getAttributeUnlocalizedName(), t),
 					this.attributes.set(e, t);
 				for (let t = e.getAttribute(); t != null; t = t.getAttribute())
@@ -20364,19 +20364,19 @@ var Qp = class e {
 				return t;
 			}
 		}
-		BZvHaAqDcVBkSwuB() {
+		ukTVpjJaXvottwin() {
 			return this.attributesByName.values();
 		}
-		SoRXVKqNMvgvUJW(e) {}
-		jCdsZpLDYsXfsvfjhBDzlSUM(e) {
+		KLrGLbyKSLeTFgT(e) {}
+		dTQzlXTLIYflLfnQCTZCBjdt(e) {
 			for (let [t, n] of e.entries)
 				for (let e of n.values())
-					this.PugYTLKLgPueOMqEQkZsUItuDI(t)?.removeModifier(e.getID());
+					this.GeRyuuwLcUynDJOJhEbntTdHFd(t)?.removeModifier(e.getID());
 		}
-		QQTHJYryYxwBngHiDAElypU(e) {
+		xsgNsgsjuNklwvDmAoSYYVh(e) {
 			for (let [t, n] of e.entries)
 				for (let e of n.values()) {
-					let n = this.PugYTLKLgPueOMqEQkZsUItuDI(t);
+					let n = this.GeRyuuwLcUynDJOJhEbntTdHFd(t);
 					n != null && (n.removeModifier(e.getID()), n.applyModifier(e));
 				}
 		}
@@ -20389,85 +20389,85 @@ var Qp = class e {
 				(this.needsUpdate = !0),
 				(this.attributeMap = e),
 				(this.genericAttribute = t),
-				(this.baseValue = t.zWmMKcpvoAfFMGi());
+				(this.baseValue = t.LFwjIrkSqSfnYVa());
 			for (let e = 0; e < 3; ++e) this.mapByOperation.set(e, new Set());
 		}
 		getAttribute() {
 			return this.genericAttribute;
 		}
-		BLwFBaqrKtXk() {
+		bCVhOQFjsUft() {
 			return this.baseValue;
 		}
 		setBaseValue(e) {
-			e != this.BLwFBaqrKtXk() && ((this.baseValue = e), this.ynlTyHHkNZcKW());
+			e != this.bCVhOQFjsUft() && ((this.baseValue = e), this.ggeDZPvvWbvJu());
 		}
-		SMmdDneRpGJNkLaMQaPKabv(e) {
+		CLJQpOkZIoKtZpIcBJaMdob(e) {
 			return this.mapByOperation.get(e) ?? new Set();
 		}
-		GiTFzTwYGvSRL() {
+		uvwaOUHKsolAZ() {
 			let e = [];
 			for (let t = 0; t < 3; ++t)
-				e = e.concat(Array.from(this.SMmdDneRpGJNkLaMQaPKabv(t)));
+				e = e.concat(Array.from(this.CLJQpOkZIoKtZpIcBJaMdob(t)));
 			return e;
 		}
-		wrCAvIOPBzI(e) {
+		xxsjLXyVuxp(e) {
 			return this.mapByUUID.get(e);
 		}
-		mZLzKMQupXx(e) {
+		gnzEvHKvvjF(e) {
 			return this.mapByUUID.get(e.getID()) != null;
 		}
 		applyModifier(e) {
-			if (this.wrCAvIOPBzI(e.getID()) != null)
+			if (this.xxsjLXyVuxp(e.getID()) != null)
 				throw `Modifier is already applied on this attribute!`;
 			{
 				let t = this.mapByName.get(e.getName());
 				t ?? ((t = new Set()), this.mapByName.set(e.getName(), t));
-				let n = this.mapByOperation.get(e.OnTAbgxUhgGU());
-				if (!n) throw `Operation ${e.OnTAbgxUhgGU()} is not valid!`;
+				let n = this.mapByOperation.get(e.CetoLsErUUpq());
+				if (!n) throw `Operation ${e.CetoLsErUUpq()} is not valid!`;
 				n.add(e),
 					t.add(e),
 					this.mapByUUID.set(e.getID(), e),
-					this.ynlTyHHkNZcKW();
+					this.ggeDZPvvWbvJu();
 			}
 		}
-		ynlTyHHkNZcKW() {
-			(this.needsUpdate = !0), this.attributeMap.SoRXVKqNMvgvUJW(this);
+		ggeDZPvvWbvJu() {
+			(this.needsUpdate = !0), this.attributeMap.KLrGLbyKSLeTFgT(this);
 		}
 		removeModifier(e) {
 			for (let t = 0; t < 3; ++t)
-				this.mapByOperation.get(t)?.delete(this.wrCAvIOPBzI(e));
+				this.mapByOperation.get(t)?.delete(this.xxsjLXyVuxp(e));
 			let t = this.mapByName.get(e);
 			t != null &&
-				(t.delete(this.wrCAvIOPBzI(e)), t.size < 1 && this.mapByName.delete(e)),
+				(t.delete(this.xxsjLXyVuxp(e)), t.size < 1 && this.mapByName.delete(e)),
 				this.mapByUUID.delete(e),
-				this.ynlTyHHkNZcKW();
+				this.ggeDZPvvWbvJu();
 		}
-		uUvNLRmOscjZKpWnKe() {
-			let e = this.GiTFzTwYGvSRL();
+		RWDYOBCCniTIRWBMbg() {
+			let e = this.uvwaOUHKsolAZ();
 			if (e != null) for (let t of e) this.removeModifier(t.getID());
 		}
 		getAttributeValue() {
 			return (
-				(this.needsUpdate &&= ((this.cachedValue = this.OXqGbnlRcCxn()), !1)),
+				(this.needsUpdate &&= ((this.cachedValue = this.VgOGHGxLbXEh()), !1)),
 				this.cachedValue
 			);
 		}
-		OXqGbnlRcCxn() {
-			let e = this.BLwFBaqrKtXk();
-			for (let t of this.xtlVRdgksihBmPXhdkfdU(0)) e += t.TvqvYRslj();
+		VgOGHGxLbXEh() {
+			let e = this.bCVhOQFjsUft();
+			for (let t of this.QdodrKqaOSWmKGXcoLiFu(0)) e += t.wqkLgpKDH();
 			let t = e;
-			for (let n of this.xtlVRdgksihBmPXhdkfdU(1)) t += e * n.TvqvYRslj();
-			for (let e of this.xtlVRdgksihBmPXhdkfdU(2)) t *= 1 + e.TvqvYRslj();
-			return this.genericAttribute.YjuzfIkWGY(t);
+			for (let n of this.QdodrKqaOSWmKGXcoLiFu(1)) t += e * n.wqkLgpKDH();
+			for (let e of this.QdodrKqaOSWmKGXcoLiFu(2)) t *= 1 + e.wqkLgpKDH();
+			return this.genericAttribute.NBCOOhqNoJ(t);
 		}
-		xtlVRdgksihBmPXhdkfdU(e) {
+		QdodrKqaOSWmKGXcoLiFu(e) {
 			let t = new Set();
-			for (let n of this.SMmdDneRpGJNkLaMQaPKabv(e)) t.add(n);
+			for (let n of this.CLJQpOkZIoKtZpIcBJaMdob(e)) t.add(n);
 			let n = this.genericAttribute.getAttribute();
 			for (; n; ) {
-				let r = this.attributeMap.dxDYGffNWNScjeoIBbQu(n);
+				let r = this.attributeMap.BPLxEXavEnybHtGfVFNG(n);
 				if (r) {
-					for (let n of r.SMmdDneRpGJNkLaMQaPKabv(e)) t.add(n);
+					for (let n of r.CLJQpOkZIoKtZpIcBJaMdob(e)) t.add(n);
 					n = n.getAttribute();
 				} else break;
 			}
@@ -20480,37 +20480,37 @@ var Qp = class e {
 				(this.attributeInstanceSet = new Set()),
 				(this.descriptionToAttributeInstanceMap = new Map());
 		}
-		dxDYGffNWNScjeoIBbQu(e) {
-			return super.dxDYGffNWNScjeoIBbQu(e);
+		BPLxEXavEnybHtGfVFNG(e) {
+			return super.BPLxEXavEnybHtGfVFNG(e);
 		}
-		PugYTLKLgPueOMqEQkZsUItuDI(e) {
-			let t = super.PugYTLKLgPueOMqEQkZsUItuDI(e);
+		GeRyuuwLcUynDJOJhEbntTdHFd(e) {
+			let t = super.GeRyuuwLcUynDJOJhEbntTdHFd(e);
 			return (t ??= this.descriptionToAttributeInstanceMap.get(e)), t;
 		}
 		registerAttribute(e) {
 			let t = super.registerAttribute(e);
 			return (
 				e instanceof Tp &&
-					e.qUhDrvQovtlepD() != null &&
-					this.descriptionToAttributeInstanceMap.set(e.qUhDrvQovtlepD(), t),
+					e.vqXnHpmzBNvlgk() != null &&
+					this.descriptionToAttributeInstanceMap.set(e.vqXnHpmzBNvlgk(), t),
 				t
 			);
 		}
-		yYLAWoliwZBmbrDFLPXCWqb(e) {
+		XPJtnlqteVGIYpUNuFPManl(e) {
 			return new Vte(this, e);
 		}
-		SoRXVKqNMvgvUJW(e) {
-			e.getAttribute().XYyMFXBFgoJudx() && this.attributeInstanceSet.add(e);
+		KLrGLbyKSLeTFgT(e) {
+			e.getAttribute().DimGmIgRThtwAI() && this.attributeInstanceSet.add(e);
 			for (let t of this.attributesMap.get(e.getAttribute()))
-				this.dxDYGffNWNScjeoIBbQu(t)?.ynlTyHHkNZcKW();
+				this.BPLxEXavEnybHtGfVFNG(t)?.ggeDZPvvWbvJu();
 		}
-		ZbBjmruCmxfIJuebHoXmAFV() {
+		MYXdsgzRqIsvghpldQNlwKD() {
 			return this.attributeInstanceSet;
 		}
-		IXJNjCNaGTKyGKVRgTvE() {
+		qyezvWewtnywTzWrTieu() {
 			let e = new Set();
-			for (let t of this.BZvHaAqDcVBkSwuB())
-				t.getAttribute().XYyMFXBFgoJudx() && e.add(t);
+			for (let t of this.ukTVpjJaXvottwin())
+				t.getAttribute().DimGmIgRThtwAI() && e.add(t);
 			return e;
 		}
 	},
@@ -20553,7 +20553,7 @@ var Qp = class e {
 					(this.motion.x = (Math.random() - Math.random()) * 0.2),
 					(this.motion.z = (Math.random() - Math.random()) * 0.2),
 					this.playSound(`random.fizz`, 0.4, 2 + Math.random() * 0.4)),
-				this.VbSMshAXsKMWdSS(
+				this.bTGAgkdesJOGCJZ(
 					this.pos.x,
 					(this.getEntityBoundingBox().min.y +
 						this.getEntityBoundingBox().max.y) /
@@ -20606,14 +20606,14 @@ var Qp = class e {
 				++this.xpOrbAge,
 				this.xpOrbAge >= 6e3 && this.setDead();
 		}
-		NcVVdJrPRBhCjwxPoOz() {
+		nYZUBczXkAhLmzURCVm() {
 			return this.world.handleMaterialAcceleration(
 				this.getEntityBoundingBox(),
 				z.water,
 				this,
 			);
 		}
-		wAOSMWjkwoEPES(e) {
+		kSGmXambCofeOI(e) {
 			this.attackEntityFrom(Bg.IN_FIRE, e);
 		}
 		attackEntityFrom(e, t) {
@@ -20647,13 +20647,13 @@ var Qp = class e {
 						0.1,
 						0.5 * ((Math.random() - Math.random()) * 0.7 + 1.8),
 					),
-					e.iRqXHccqUHKZ(this, 1);
+					e.wZEfKhqWcSRQ(this, 1);
 				let t = this.pickMendingItem(e);
 				if (t != null) {
 					let e = Math.min(this.xpValue * 2, t.itemDamage);
 					(t.itemDamage -= e), (this.xpValue -= Math.floor(e / 2));
 				}
-				this.xpValue > 0 && e.xIMFvnlVBnMwk(this.xpValue), this.setDead();
+				this.xpValue > 0 && e.WXRrNKcqxYWVj(this.xpValue), this.setDead();
 			}
 		}
 		pickMendingItem(e) {
@@ -20665,10 +20665,10 @@ var Qp = class e {
 			);
 			return t.length > 0 ? t[Math.floor(Math.random() * t.length)] : null;
 		}
-		qdTdanIMFW() {
+		MxzyrJzphN() {
 			return this.xpValue;
 		}
-		ZtVquPzqzUmMXI() {
+		RsRuVZbKLVrUeP() {
 			return this.xpValue >= 2477
 				? 10
 				: this.xpValue >= 1237
@@ -20712,7 +20712,7 @@ var Qp = class e {
 													? 3
 													: 1;
 		}
-		ePgGyurwfOlOuNJnP() {
+		fwLachYqIldxEJcVH() {
 			return !1;
 		}
 	},
@@ -20795,11 +20795,11 @@ var Qp = class e {
 		}
 		removeAttributesModifiersFromEntity(e, t, n) {
 			for (let [e, n] of this.attributeModifierMap.entries())
-				t.dxDYGffNWNScjeoIBbQu(e)?.removeModifier(n.getID());
+				t.BPLxEXavEnybHtGfVFNG(e)?.removeModifier(n.getID());
 		}
 		applyAttributesModifiersToEntity(e, t, n) {
 			for (let [e, r] of this.attributeModifierMap.entries()) {
-				let i = t.dxDYGffNWNScjeoIBbQu(e);
+				let i = t.BPLxEXavEnybHtGfVFNG(e);
 				if (i != null) {
 					let e = r;
 					i.removeModifier(r.getID()),
@@ -20808,14 +20808,14 @@ var Qp = class e {
 								e.getID(),
 								this.getName() + ` ` + n,
 								this.getAttributeModifierAmount(n, e),
-								e.OnTAbgxUhgGU(),
+								e.CetoLsErUUpq(),
 							),
 						);
 				}
 			}
 		}
 		getAttributeModifierAmount(e, t) {
-			return t.TvqvYRslj() * (e + 1);
+			return t.wqkLgpKDH() * (e + 1);
 		}
 	},
 	Ute = class extends im {
@@ -20823,11 +20823,11 @@ var Qp = class e {
 			super(e, t, n, r);
 		}
 		removeAttributesModifiersFromEntity(e, t, n) {
-			e.slAHCJmQdAucQCcZTIV(e.YXMHibKSMJXmBhyutdh() - 4 * (n + 1)),
+			e.xWaPtwiaIgSxDvgBsfJ(e.LulBzyCQpYwPnPUTevl() - 4 * (n + 1)),
 				super.removeAttributesModifiersFromEntity(e, t, n);
 		}
 		applyAttributesModifiersToEntity(e, t, n) {
-			e.slAHCJmQdAucQCcZTIV(e.YXMHibKSMJXmBhyutdh() + 4 * (n + 1)),
+			e.xWaPtwiaIgSxDvgBsfJ(e.LulBzyCQpYwPnPUTevl() + 4 * (n + 1)),
 				super.applyAttributesModifiersToEntity(e, t, n);
 		}
 	},
@@ -20852,12 +20852,12 @@ var Qp = class e {
 	},
 	Wte = class extends om {
 		performEffect(e, t) {
-			e.lKGHNrNjXGCxsI()
+			e.hGTomkAmOmJPbh()
 				? e.heal(Math.max(4 << t, 0))
 				: e.attackEntityFrom(Bg.MAGIC, 6 << t);
 		}
 		affectEntity(e, t, n, r, i) {
-			if (n.lKGHNrNjXGCxsI()) {
+			if (n.hGTomkAmOmJPbh()) {
 				let e = (0, Hd.toInteger)(i * (4 << r) + 0.5);
 				n.heal(e);
 			} else {
@@ -20870,12 +20870,12 @@ var Qp = class e {
 	},
 	Gte = class extends om {
 		performEffect(e, t) {
-			e.lKGHNrNjXGCxsI()
+			e.hGTomkAmOmJPbh()
 				? e.attackEntityFrom(Bg.MAGIC, 6 << t)
 				: e.heal(Math.max(4 << t, 0));
 		}
 		affectEntity(e, t, n, r, i) {
-			if (n.lKGHNrNjXGCxsI()) {
+			if (n.hGTomkAmOmJPbh()) {
 				let a = (0, Hd.toInteger)(i * (6 << r) + 0.5);
 				e == null
 					? n.attackEntityFrom(Bg.MAGIC, a)
@@ -21164,7 +21164,7 @@ var Qte = {
 			this.potionRequirements = new Map();
 		}
 		static {
-			this.dDJNNTcfhXVNxcUw = new Map();
+			this.MaicvlalfrspZAtG = new Map();
 		}
 		static {
 			this.DATAVALUE_COLORS = new Map();
@@ -21346,7 +21346,7 @@ var Qte = {
 						let a = e.parsePotionEffects(n, 0, n.length, t);
 						if (a > 0) {
 							let n = 0,
-								o = e.dDJNNTcfhXVNxcUw.get(i.getId());
+								o = e.MaicvlalfrspZAtG.get(i.getId());
 							o != null &&
 								((n = e.parsePotionEffects(o, 0, o.length, t)),
 								n < 0 && (n = 0)),
@@ -21428,7 +21428,7 @@ var Qte = {
 				.setPotionName(`potion.moveSpeed`)
 				.setIconIndex(0, 0)
 				.registerPotionAttributeModifier(
-					Ep.EaoLIuupWbDul,
+					Ep.iyhlGlpOTgPEH,
 					`91AEAA56-376B-4498-935B-2F7F68070635`,
 					0.2,
 					2,
@@ -21439,7 +21439,7 @@ var Qte = {
 				.setPotionName(`potion.moveSlowdown`)
 				.setIconIndex(1, 0)
 				.registerPotionAttributeModifier(
-					Ep.EaoLIuupWbDul,
+					Ep.iyhlGlpOTgPEH,
 					`7107DE5E-7CE8-4030-940E-514C1F160890`,
 					-0.15,
 					2,
@@ -21593,15 +21593,15 @@ lm.potionRequirements.set(um.regeneration.getId(), `0 & !1 & !2 & !3 & 0+6`),
 	lm.potionRequirements.set(um.invisibility.getId(), `!0 & 1 & 2 & 3 & 2+6`),
 	lm.potionRequirements.set(um.waterBreathing.getId(), `0 & !1 & 2 & 3 & 2+6`),
 	lm.potionRequirements.set(um.jump.getId(), `0 & 1 & !2 & 3 & 3+6`),
-	lm.dDJNNTcfhXVNxcUw.set(um.moveSpeed.getId(), `5`),
-	lm.dDJNNTcfhXVNxcUw.set(um.digSpeed.getId(), `5`),
-	lm.dDJNNTcfhXVNxcUw.set(um.damageBoost.getId(), `5`),
-	lm.dDJNNTcfhXVNxcUw.set(um.regeneration.getId(), `5`),
-	lm.dDJNNTcfhXVNxcUw.set(um.harm.getId(), `5`),
-	lm.dDJNNTcfhXVNxcUw.set(um.heal.getId(), `5`),
-	lm.dDJNNTcfhXVNxcUw.set(um.resistance.getId(), `5`),
-	lm.dDJNNTcfhXVNxcUw.set(um.poison.getId(), `5`),
-	lm.dDJNNTcfhXVNxcUw.set(um.jump.getId(), `5`);
+	lm.MaicvlalfrspZAtG.set(um.moveSpeed.getId(), `5`),
+	lm.MaicvlalfrspZAtG.set(um.digSpeed.getId(), `5`),
+	lm.MaicvlalfrspZAtG.set(um.damageBoost.getId(), `5`),
+	lm.MaicvlalfrspZAtG.set(um.regeneration.getId(), `5`),
+	lm.MaicvlalfrspZAtG.set(um.harm.getId(), `5`),
+	lm.MaicvlalfrspZAtG.set(um.heal.getId(), `5`),
+	lm.MaicvlalfrspZAtG.set(um.resistance.getId(), `5`),
+	lm.MaicvlalfrspZAtG.set(um.poison.getId(), `5`),
+	lm.MaicvlalfrspZAtG.set(um.jump.getId(), `5`);
 var dm = 0.91,
 	fm = class e extends tm {
 		static {
@@ -21610,7 +21610,7 @@ var dm = 0.91,
 				`Sprinting speed boost`,
 				0.3,
 				2,
-			).YWYwmctU(!1);
+			).MdIwmpfa(!1);
 		}
 		constructor(e) {
 			super(e),
@@ -21618,7 +21618,7 @@ var dm = 0.91,
 				(this.jumping = !1),
 				(this.jumpTicks = 0),
 				(this.initialJumpVelocity = 0.42),
-				(this.SeOedoBgnd = 0),
+				(this.qrBHjSOqfq = 0),
 				(this.moveForward = 0),
 				(this.prevLimbSwingAmount = 0),
 				(this.limbSwingAmount = 0),
@@ -21641,7 +21641,7 @@ var dm = 0.91,
 				(this.revengeTimer = 0),
 				(this.attackDamage = 1),
 				(this.newPosRotationIncrements = 0),
-				(this.newPos = new A()),
+				(this.newPos = new k()),
 				(this.newYaw = 0),
 				(this.newPitch = 0),
 				(this.previousEquipment = [, , , , ,]),
@@ -21649,7 +21649,7 @@ var dm = 0.91,
 				this.applyEntityAttributes(),
 				this.dataWatcher.updateObject(6, this.getMaxHealth());
 		}
-		UZvlOSXhxPLte() {
+		BrToNuQmLBixg() {
 			this.attackEntityFrom(Bg.OUT_OF_WORLD, Number.MAX_VALUE);
 		}
 		entityInit() {
@@ -21661,15 +21661,15 @@ var dm = 0.91,
 		applyEntityAttributes() {
 			this.getAttributeMap().registerAttribute(Ep.maxHealth),
 				this.getAttributeMap().registerAttribute(Ep.knockbackResistance),
-				this.getAttributeMap().registerAttribute(Ep.EaoLIuupWbDul);
+				this.getAttributeMap().registerAttribute(Ep.iyhlGlpOTgPEH);
 		}
 		getEntityAttribute(e) {
-			return this.getAttributeMap().dxDYGffNWNScjeoIBbQu(e);
+			return this.getAttributeMap().BPLxEXavEnybHtGfVFNG(e);
 		}
 		getAttributeMap() {
 			return (this.attributeMap ??= new Hte()), this.attributeMap;
 		}
-		hpFygoBfLzzEqMqJ() {
+		CICUUMomelsUDnzs() {
 			return this._combatTracker;
 		}
 		lastDamager() {
@@ -21684,30 +21684,30 @@ var dm = 0.91,
 		getHeldItem() {
 			return this.getEquipmentInSlot(0);
 		}
-		VrfUyhkzzniFCZ() {
-			super.VrfUyhkzzniFCZ();
+		fzfRUqrYCpqhRy() {
+			super.fzfRUqrYCpqhRy();
 			let t = this instanceof Rg;
 			this.dead ||
-				(this.GPVVqOLFFuTQAvPfOYvgJGhrA() &&
+				(this.nUlNvKqFNgAzLPyEFIGdWrvmo() &&
 					this.attackEntityFrom(Bg.IN_WALL, 1));
 			let n = t && !1;
 			this.dead ||
-				(this.WVqHPcOpmdbZegNRcB(z.water)
-					? (!this.VIRKMZDgUnMBuIbmyGyN() &&
+				(this.dWGckAEIpZylzQDnfl(z.water)
+					? (!this.XmEBtCQHboNRipzfYYZB() &&
 							!n &&
-							(this.dcjXigRIp(this.sHlICldbaaLFeejDNVmx(this.gnreoHrHi())),
-							this.gnreoHrHi() == -20 &&
-								(this.dcjXigRIp(0), this.attackEntityFrom(Bg.DROWN, 2))),
+							(this.ZiBqUkTwu(this.MjybRzuLOHmYvirbHqkp(this.gIkJFGURg())),
+							this.gIkJFGURg() == -20 &&
+								(this.ZiBqUkTwu(0), this.attackEntityFrom(Bg.DROWN, 2))),
 						this.world.isServer &&
 							this.isRiding() &&
 							this.ridingEntity instanceof e &&
 							this.mountEntity(null))
-					: this.dcjXigRIp(300)),
+					: this.ZiBqUkTwu(300)),
 				this.hurtTime > 0 && --this.hurtTime,
 				this.hurtResistantTime > 0 &&
 					!this.netHandler &&
 					--this.hurtResistantTime,
-				this.getHealth() <= 0 && this.ywWbWUDNaSIol(),
+				this.getHealth() <= 0 && this.binovkAIZTUXb(),
 				this.recentlyHit > 0
 					? --this.recentlyHit
 					: (this.attackingPlayer = null),
@@ -21717,9 +21717,9 @@ var dm = 0.91,
 				this.entityLivingToAttack != null &&
 					(this.entityLivingToAttack.isEntityAlive()
 						? this.ticksExisted - this.revengeTimer > 100 &&
-							this.bTClJhxolwnXvZym(null)
-						: this.bTClJhxolwnXvZym(null)),
-				this.kRXgRYQZjgdrHBIZkDz(),
+							this.wGmhYeajPVyMNsEQ(null)
+						: this.wGmhYeajPVyMNsEQ(null)),
+				this.oYLQaiKxVgYcoAZZNIW(),
 				(this.prevRenderYawOffset = this.renderYawOffset),
 				(this.prevRotationYawHead = this.yawHead),
 				(this.prevYaw = this.yaw),
@@ -21728,13 +21728,13 @@ var dm = 0.91,
 		isChild() {
 			return !1;
 		}
-		xAaIPnPr() {
+		MuVYslqc() {
 			return !1;
 		}
 		getExperiencePoints(e) {
 			return 0;
 		}
-		ywWbWUDNaSIol() {
+		binovkAIZTUXb() {
 			if (
 				(++this.deathTime,
 				this.deathTime >= 20 &&
@@ -21747,61 +21747,61 @@ var dm = 0.91,
 			}
 			this.deathTime;
 		}
-		dcjXigRIp(e) {
+		ZiBqUkTwu(e) {
 			this.oxygen = e;
 		}
-		gnreoHrHi() {
+		gIkJFGURg() {
 			return this.oxygen;
 		}
-		sHlICldbaaLFeejDNVmx(e) {
+		MjybRzuLOHmYvirbHqkp(e) {
 			return e - 1;
 		}
-		VIRKMZDgUnMBuIbmyGyN() {
+		XmEBtCQHboNRipzfYYZB() {
 			return !1;
 		}
 		updateFallState(e, t, n, r) {
-			this.inWater || this.NcVVdJrPRBhCjwxPoOz(),
+			this.inWater || this.nYZUBczXkAhLmzURCVm(),
 				super.updateFallState(e, t, n, r);
 		}
 		static {
-			this.collidePadding = new A(0.2, 0, 0.2);
+			this.collidePadding = new k(0.2, 0, 0.2);
 		}
 		static {
 			this.collideScratchBox = new AxisAlignedBoundingBox();
 		}
-		rGMRbYsrBmtAejBqlNNiNuCaD() {
+		RsEPKaOIUDPziEfTloUmnFjAU() {
 			let t = e.collideScratchBox
 					.copy(this.getEntityBoundingBox())
 					.expandByVector(e.collidePadding),
 				n = this.world.getEntitiesInAABBexcluding(this, t);
-			for (let e of n) e.uWYnGzlHPJi() && this.GIXXixXxaVAzsXjvh(e);
+			for (let e of n) e.UoKzrxFArQY() && this.RFLGTybWNZlhnyEAY(e);
 		}
-		uWYnGzlHPJi() {
+		UoKzrxFArQY() {
 			return this.getHealth() > 0;
 		}
-		vBVquRnGOBG() {
+		TAxPuwtWUdm() {
 			return this.entityLivingToAttack;
 		}
-		OQpvKvGIkrDiyOi() {
+		czjuTOYvwyXxoWT() {
 			return this.revengeTimer;
 		}
-		bTClJhxolwnXvZym(e) {
+		wGmhYeajPVyMNsEQ(e) {
 			(this.entityLivingToAttack = e), (this.revengeTimer = this.ticksExisted);
 		}
-		rvWaSvFEtoySeSO() {
+		faNjumrPPUksnMX() {
 			return this.lastAttacker;
 		}
-		KLvhVrDmlwqfTQFeGbG() {
+		WWabbGDSEjcRecdjEab() {
 			return this.lastAttackerTime;
 		}
-		gMNFmQCiNxfVkaC(t) {
+		cDEFJnfSpYAtiwg(t) {
 			t instanceof e ? (this.lastAttacker = t) : (this.lastAttacker = null),
 				(this.lastAttackerTime = this.ticksExisted);
 		}
-		tFQNVf() {
+		VxSbcA() {
 			return this.entityAge;
 		}
-		GIXXixXxaVAzsXjvh(e) {
+		RFLGTybWNZlhnyEAY(e) {
 			if (this.noPhysics || e.noPhysics) return;
 			let t = e.pos.x - this.pos.x,
 				n = e.pos.z - this.pos.z,
@@ -21818,7 +21818,7 @@ var dm = 0.91,
 					(this.motion.z += -n);
 			}
 		}
-		VjQwGQIJcb(e) {
+		tLRIHYxLcI(e) {
 			this.jumping = e;
 		}
 		jump() {
@@ -21833,19 +21833,19 @@ var dm = 0.91,
 		}
 		setSprinting(t) {
 			super.setSprinting(t);
-			let n = this.getEntityAttribute(Ep.EaoLIuupWbDul);
-			n.wrCAvIOPBzI(`sprint`) != null &&
+			let n = this.getEntityAttribute(Ep.iyhlGlpOTgPEH);
+			n.xxsjLXyVuxp(`sprint`) != null &&
 				n.removeModifier(e.sprintingSpeedBoostModifier.getID()),
 				t && n.applyModifier(e.sprintingSpeedBoostModifier);
 		}
-		iRqXHccqUHKZ(e, t) {
+		wZEfKhqWcSRQ(e, t) {
 			!e.dead && this.world.isServer;
 		}
-		JHSorjBFFfsITDv(e) {
+		qUUVYpusgDwsTvw(e) {
 			return (
 				zp(
-					new A(this.pos.x, this.pos.y + this.getEyeHeight(), this.pos.z),
-					new A(e.pos.x, e.pos.y + e.getEyeHeight(), e.pos.z),
+					new k(this.pos.x, this.pos.y + this.getEyeHeight(), this.pos.z),
+					new k(e.pos.x, e.pos.y + e.getEyeHeight(), e.pos.z),
 					!1,
 					!1,
 					!1,
@@ -21853,25 +21853,25 @@ var dm = 0.91,
 				) == null
 			);
 		}
-		hRaNUSNFkqPzj() {
+		scwhBhVsnUggx() {
 			return this.world.isServer;
 		}
-		oHyqPBfRYzqQtGuND() {
+		uZxdTUIsNJgzqkLlN() {
 			return this.getHealth() <= 0;
 		}
-		nPxwGvjVgtrFCvOyyvTxRKB() {}
-		TxLBMgczhHMPYROteUOmH(e) {
+		HJeGbsRnKZzmDbmABKGBPsU() {}
+		hMJFBhjRDlJclYuWoNfvG(e) {
 			this.playSound(`random.break`, 0.8, 0.8 + Math.random() * 0.4);
 			for (let e = 0; e < 5; ++e);
 		}
 		update() {
 			super.update(),
 				this.world.isServer &&
-					(this.jKALPatntEgGE(),
-					this.ticksExisted % 20 == 0 && this.hpFygoBfLzzEqMqJ().reset()),
+					(this.pmSqRVysSSbay(),
+					this.ticksExisted % 20 == 0 && this.CICUUMomelsUDnzs().reset()),
 				this.onLivingUpdate();
 		}
-		jKALPatntEgGE() {
+		pmSqRVysSSbay() {
 			if (!this.world.isServer) return;
 			let e = [];
 			for (let t = 0; t < 5; ++t) {
@@ -21881,11 +21881,11 @@ var dm = 0.91,
 				let i = t == 0 ? 1 : t + 2;
 				e.push(new Ote({ slot: i, item: r ? r.toProto() : V.PB_EMPTY })),
 					n != null &&
-						this.attributeMap.jCdsZpLDYsXfsvfjhBDzlSUM(
+						this.attributeMap.dTQzlXTLIYflLfnQCTZCBjdt(
 							n.getAttributeModifiers(),
 						),
 					r != null &&
-						this.attributeMap.QQTHJYryYxwBngHiDAElypU(
+						this.attributeMap.xsgNsgsjuNklwvDmAoSYYVh(
 							r.getAttributeModifiers(),
 						),
 					(this.previousEquipment[t] = r == null ? null : r.clone());
@@ -21897,16 +21897,16 @@ var dm = 0.91,
 		}
 		mountEntity(e) {
 			this.ridingEntity != null && e == null
-				? (this.world.isServer && this.HFiqQhHTeNPXAv(this.ridingEntity),
+				? (this.world.isServer && this.mzjHiwtIeAXtoz(this.ridingEntity),
 					this.ridingEntity != null &&
 						(this.ridingEntity.riddenByEntity = null),
 					(this.ridingEntity = null))
 				: super.mountEntity(e);
 		}
-		swNrqDxZYpra() {
-			super.swNrqDxZYpra(), (this.fallDistance = 0);
+		hygaNHyRGPHo() {
+			super.hygaNHyRGPHo(), (this.fallDistance = 0);
 		}
-		HFiqQhHTeNPXAv(e) {
+		mzjHiwtIeAXtoz(e) {
 			let t = this.pos.x,
 				n = this.getEntityBoundingBox().min.y + this.height,
 				r = this.pos.z;
@@ -21917,7 +21917,7 @@ var dm = 0.91,
 							o = this.pos.z + i,
 							s = this.getEntityBoundingBox()
 								.clone()
-								.translate(new A(e, 1, i));
+								.translate(new k(e, 1, i));
 						if (this.world.getEntitiesWithinAABB(null, s).length === 0) {
 							if (
 								Ih.doesBlockHaveSolidTopSurface(
@@ -21975,15 +21975,15 @@ var dm = 0.91,
 						(this.newPitch - this.pitch) / this.newPosRotationIncrements),
 					--this.newPosRotationIncrements,
 					this.setPosition(e, t, n),
-					this.LjORXCOakWX(this.yaw, this.pitch);
+					this.tAiwQRignzX(this.yaw, this.pitch);
 			}
 			if (
 				(Math.abs(this.motion.x) < 0.005 && (this.motion.x = 0),
 				Math.abs(this.motion.y) < 0.005 && (this.motion.y = 0),
 				Math.abs(this.motion.z) < 0.005 && (this.motion.z = 0),
-				this.oHyqPBfRYzqQtGuND()
-					? ((this.jumping = !1), (this.SeOedoBgnd = 0), (this.moveForward = 0))
-					: this.hRaNUSNFkqPzj() && this.nPxwGvjVgtrFCvOyyvTxRKB(),
+				this.uZxdTUIsNJgzqkLlN()
+					? ((this.jumping = !1), (this.qrBHjSOqfq = 0), (this.moveForward = 0))
+					: this.scwhBhVsnUggx() && this.HJeGbsRnKZzmDbmABKGBPsU(),
 				this.jumping
 					? this.inWater || this.inLava
 						? (this.motion.y += 0.05)
@@ -21993,19 +21993,19 @@ var dm = 0.91,
 					: (this.jumpTicks = 0),
 				this.tickEquipmentAbility(),
 				this.isRiding() ||
-					((this.SeOedoBgnd *= 0.98), (this.moveForward *= 0.98)),
-				this.bnDaqvXAiHrlfrZnzSCQl(this.SeOedoBgnd, this.moveForward),
+					((this.qrBHjSOqfq *= 0.98), (this.moveForward *= 0.98)),
+				this.NSyJTGQpHxXeqZjMpxrCu(this.qrBHjSOqfq, this.moveForward),
 				this.world.isServer &&
 					this.doEntityCollision &&
 					this.world.shouldTickEntityCollision(this))
 			) {
 				let e = performance.now();
-				this.rGMRbYsrBmtAejBqlNNiNuCaD(),
+				this.RsEPKaOIUDPziEfTloUmnFjAU(),
 					(this.world.collisionTimeThisTick += performance.now() - e);
 			}
 		}
-		bnDaqvXAiHrlfrZnzSCQl(e, t) {
-			if (this.hRaNUSNFkqPzj())
+		NSyJTGQpHxXeqZjMpxrCu(e, t) {
+			if (this.scwhBhVsnUggx())
 				if (this.inWater) {
 					let n = this.pos.y,
 						r = 0.8,
@@ -22015,15 +22015,15 @@ var dm = 0.91,
 						this.onGround || (a *= 0.5),
 						a > 0 &&
 							((r += ((0.546 - r) * a) / 3),
-							(i += ((this.uBmOqgIasComjT() * 1 - i) * a) / 3)),
-						this.zFHHwQUNLp(e, t, i),
+							(i += ((this.ZBifwbwSQyGqaN() * 1 - i) * a) / 3)),
+						this.kEXyDjhpNw(e, t, i),
 						this.moveEntity(this.motion.x, this.motion.y, this.motion.z),
 						(this.motion.x *= r),
 						(this.motion.y *= 0.8),
 						(this.motion.z *= r),
 						(this.motion.y -= 0.02),
 						this.isCollidedHorizontally &&
-							this.sBtlRmxuOWTpkyconvNBDGnH(
+							this.rQdYuPDFvWBLiKRksPmMnFFk(
 								this.motion.x,
 								this.motion.y + 0.6 - this.pos.y + n,
 								this.motion.z,
@@ -22040,9 +22040,9 @@ var dm = 0.91,
 					}
 					let a = 0.16277136 / (i * i * i),
 						o = this.onGround
-							? this.uBmOqgIasComjT() * a
+							? this.ZBifwbwSQyGqaN() * a
 							: this.jumpMovementFactor;
-					if ((this.zFHHwQUNLp(e, t, o), this.isOnLadder())) {
+					if ((this.kEXyDjhpNw(e, t, o), this.isOnLadder())) {
 						let e = 0.15;
 						(this.motion.x = (0, Hd.clamp)(this.motion.x, -0.15, e)),
 							(this.motion.z = (0, Hd.clamp)(this.motion.z, -0.15, e)),
@@ -22053,7 +22053,7 @@ var dm = 0.91,
 					this.moveEntity(this.motion.x, this.motion.y, this.motion.z),
 						this.isCollidedHorizontally &&
 							this.isOnLadder() &&
-							(this.motion.y = this.oIrFRMsrxGNvJX()),
+							(this.motion.y = this.nAAEiDmpOjlGCz()),
 						(this.motion.y -= 0.08),
 						(this.motion.y *= 0.98),
 						(this.motion.x *= i),
@@ -22066,33 +22066,33 @@ var dm = 0.91,
 			(this.limbSwingAmount += (i - this.limbSwingAmount) * 0.4),
 				(this.limbSwing += this.limbSwingAmount);
 		}
-		uBmOqgIasComjT() {
+		ZBifwbwSQyGqaN() {
 			return this.landMovementFactor;
 		}
-		JNyVSMSpqrPLPc(e) {
+		cFnmHQqMMjYIQV(e) {
 			this.landMovementFactor = e;
 		}
 		attackEntityAsMob(e) {
-			return this.gMNFmQCiNxfVkaC(e), !1;
+			return this.cDEFJnfSpYAtiwg(e), !1;
 		}
 		getEquipmentInSlot(e) {
 			throw Error(`getEquipmentInSlot Method not implemented.`);
 		}
-		GvnMoSGcJceulPBOIP() {
+		VlFafuGxgIASmwLeLN() {
 			let e = 0;
 			for (let t of this.getInventory()) {
 				let n = t.getItem();
 				if (t != null && n instanceof yp) {
-					let t = n.ftlwRgVMxZJszaefcr;
+					let t = n.hihDrbbXGHkTdJiSlc;
 					e += t;
 				}
 			}
 			return e;
 		}
-		KMFEELYYzeR(e) {}
-		MCbQQrHUYnIiSGcDGGYlfS(t, n) {
+		LwIrkSZfvNm(e) {}
+		NhZHVXqnUwdTALJtqwJDgY(t, n) {
 			if (!t.isUnblockable()) {
-				this.KMFEELYYzeR(n);
+				this.LwIrkSZfvNm(n);
 				let r = 0,
 					i = 0;
 				for (let e of this.getInventory().filter(
@@ -22101,7 +22101,7 @@ var dm = 0.91,
 					if (!e) continue;
 					let t = e.item;
 					t instanceof yp &&
-						((r += t.ftlwRgVMxZJszaefcr), (i += t.toughness || 0));
+						((r += t.hihDrbbXGHkTdJiSlc), (i += t.toughness || 0));
 				}
 				let a = t.getEntity();
 				if (a instanceof e) {
@@ -22112,7 +22112,7 @@ var dm = 0.91,
 			}
 			return n;
 		}
-		hwZwbUqyMxjhMzlVtcOTAAwcOjVto(e, t) {
+		kjdvWlAkyOBdHjlvtbGFFXdjRXxnv(e, t) {
 			if (e.isDamageAbsolute()) return t;
 			if (this.isPotionActive(um.resistance) && e != Bg.OUT_OF_WORLD) {
 				let e =
@@ -22130,26 +22130,26 @@ var dm = 0.91,
 				return t;
 			}
 		}
-		aGHvTmojiQKi(e, t) {
+		kPPHHyPZHdPQ(e, t) {
 			if (this.isEntityInvulnerable(e)) return;
-			(t = this.MCbQQrHUYnIiSGcDGGYlfS(e, t)),
-				(t = this.hwZwbUqyMxjhMzlVtcOTAAwcOjVto(e, t));
+			(t = this.NhZHVXqnUwdTALJtqwJDgY(e, t)),
+				(t = this.kjdvWlAkyOBdHjlvtbGFFXdjRXxnv(e, t));
 			let n = t;
 			if (
-				((t = Math.max(t - this.YXMHibKSMJXmBhyutdh(), 0)),
-				this.slAHCJmQdAucQCcZTIV(this.YXMHibKSMJXmBhyutdh() - (n - t)),
+				((t = Math.max(t - this.LulBzyCQpYwPnPUTevl(), 0)),
+				this.xWaPtwiaIgSxDvgBsfJ(this.LulBzyCQpYwPnPUTevl() - (n - t)),
 				t != 0)
 			) {
 				let n = this.getHealth();
 				this.setHealth(this.getHealth() - Math.floor(t)),
-					this.hpFygoBfLzzEqMqJ().trackDamage(e, n, t),
-					this.slAHCJmQdAucQCcZTIV(this.YXMHibKSMJXmBhyutdh() - t);
+					this.CICUUMomelsUDnzs().trackDamage(e, n, t),
+					this.xWaPtwiaIgSxDvgBsfJ(this.LulBzyCQpYwPnPUTevl() - t);
 			}
 		}
-		YXMHibKSMJXmBhyutdh() {
+		LulBzyCQpYwPnPUTevl() {
 			return this.absorptionAmount;
 		}
-		slAHCJmQdAucQCcZTIV(e) {
+		xWaPtwiaIgSxDvgBsfJ(e) {
 			e < 0 && (e = 0), (this.absorptionAmount = e);
 		}
 		knockback(e, t, n, r) {
@@ -22169,7 +22169,7 @@ var dm = 0.91,
 					this.motion.y > 0.4 && (this.motion.y = 0.4);
 			}
 		}
-		JoeqNGwobqyYbRvHfTsX() {
+		YPhYaefapNXVwuLEpouD() {
 			return nm.UNDEFINED;
 		}
 		setBeenAttacked() {
@@ -22177,7 +22177,7 @@ var dm = 0.91,
 				Math.random() >=
 				this.getEntityAttribute(Ep.knockbackResistance).getAttributeValue();
 		}
-		fDKtCwpjRQDZwuktH() {
+		iIelnYpwmqIEulfnH() {
 			return !1;
 		}
 		attackEntityFrom(t, n) {
@@ -22187,7 +22187,7 @@ var dm = 0.91,
 					this.getHealth() <= 0 ||
 					(t.isFireDamage() &&
 						(this.isPotionActive(um.fireResistance) ||
-							this.fDKtCwpjRQDZwuktH()))
+							this.iIelnYpwmqIEulfnH()))
 				)
 					return !1;
 				t == Bg.FALLING_BLOCK &&
@@ -22213,11 +22213,11 @@ var dm = 0.91,
 				let a = t.getEntity(),
 					o = a ? new Yd(a, this, t, i) : new Jd(this, t, i);
 				if ((this.world.handleEvent(o), o.cancelled)) return !1;
-				this.aGHvTmojiQKi(t, o.damage), (this.attackedAtYaw = 0);
+				this.kPPHHyPZHdPQ(t, o.damage), (this.attackedAtYaw = 0);
 				let s = t.getEntity();
 				if (
 					(s &&
-						(s instanceof e && this.bTClJhxolwnXvZym(s),
+						(s instanceof e && this.wGmhYeajPVyMNsEQ(s),
 						s instanceof Rg &&
 							((this.recentlyHit = 100), (this.attackingPlayer = s))),
 					r)
@@ -22238,16 +22238,16 @@ var dm = 0.91,
 						this.knockback(s, n, e, t);
 					} else this.attackedAtYaw = Math.random() * 2 * 180;
 				if (this.getHealth() <= 0 && !this.checkTotemDeathProtection(t)) {
-					let e = this.ZXrDCYhINLNPP();
+					let e = this.fqupxXcGuoVsm();
 					r &&
 						e != null &&
-						this.playSound(e, this.sunCuiFZUVAFAe(), this.qhXINNGReCNVk()),
+						this.playSound(e, this.NzTWCFzBGcNIbk(), this.znfBAMXqGcpGb()),
 						this.onDeath(t);
 				} else if (this.getHealth() > 0) {
-					let e = this.KDaayrxxatDg();
+					let e = this.osJHfaBSfSHq();
 					r &&
 						e != null &&
-						this.playSound(e, this.sunCuiFZUVAFAe(), this.qhXINNGReCNVk());
+						this.playSound(e, this.NzTWCFzBGcNIbk(), this.znfBAMXqGcpGb());
 				}
 				return !0;
 			}
@@ -22255,7 +22255,7 @@ var dm = 0.91,
 		checkTotemDeathProtection(e) {
 			return !1;
 		}
-		qhXINNGReCNVk() {
+		znfBAMXqGcpGb() {
 			return this.isChild()
 				? (Math.random() - Math.random()) * 0.2 + 1.5
 				: (Math.random() - Math.random()) * 0.2 + 1;
@@ -22276,26 +22276,26 @@ var dm = 0.91,
 			let t = e.getEntity();
 			if (
 				(this.lastDamager(),
-				t?.xWHzPAHOWtaQ(this),
+				t?.GHXGSIGYaisY(this),
 				this.setDead(),
 				this.world.isServer &&
 					!(this instanceof Rg) &&
 					this.world.handleEvent(new kte(this, [])),
-				this.hpFygoBfLzzEqMqJ().reset(),
+				this.CICUUMomelsUDnzs().reset(),
 				this.world.isServer)
 			) {
 				let e = 0;
 				t instanceof Rg && (e = bm.getLootingModifier(t)),
-					this.VWyQKIozCet() &&
+					this.mrHZYigHjMs() &&
 						(this.dropFewItems(this.recentlyHit > 0, e),
 						this.recentlyHit > 0 &&
 							Math.random() < 0.025 + e * 0.01 &&
-							this.HTUQgVJMeTEHm());
+							this.OYcsvGmGdgUbh());
 			}
 			if (
 				this.world.isServer &&
-				(this.recentlyHit > 0 || this.xAaIPnPr()) &&
-				this.VWyQKIozCet()
+				(this.recentlyHit > 0 || this.MuVYslqc()) &&
+				this.mrHZYigHjMs()
 			) {
 				let e = this.getExperiencePoints(this.attackingPlayer);
 				for (; e > 0; ) {
@@ -22316,7 +22316,7 @@ var dm = 0.91,
 			let a = this.attackEntityFrom(Bg.FALL, i);
 			if (this.world.isServer) {
 				if (!a) return;
-				this.world.playSoundAtEntity(this, this.SqGVLwPqZyLQoZFSbx(i), 1, 1);
+				this.world.playSoundAtEntity(this, this.IXuOwuzoGUgBJttmTD(i), 1, 1);
 			}
 			let o = Math.floor(this.pos.x),
 				s = Math.floor(this.pos.y - 0.2),
@@ -22325,7 +22325,7 @@ var dm = 0.91,
 			l.sound &&
 				this.world.playSoundAtEntity(this, l.sound.getStepSound(), 0.5, 0.75);
 		}
-		SqGVLwPqZyLQoZFSbx(e) {
+		IXuOwuzoGUgBJttmTD(e) {
 			return e > 4
 				? `game.player.hurt.fall.big`
 				: `game.player.hurt.fall.small`;
@@ -22333,15 +22333,15 @@ var dm = 0.91,
 		getSoundInfo() {
 			return {};
 		}
-		KDaayrxxatDg() {
+		osJHfaBSfSHq() {
 			return this.getSoundInfo().hurt ?? `game.neutral.hurt`;
 		}
-		ZXrDCYhINLNPP() {
+		fqupxXcGuoVsm() {
 			return this.getSoundInfo().death ?? `game.neutral.die`;
 		}
-		HTUQgVJMeTEHm() {}
+		OYcsvGmGdgUbh() {}
 		dropFewItems(e, t) {}
-		VWyQKIozCet() {
+		mrHZYigHjMs() {
 			return !this.isChild();
 		}
 		canBeCollidedWith() {
@@ -22357,7 +22357,7 @@ var dm = 0.91,
 		getArmorStacks() {
 			return [null, null, null, null];
 		}
-		sunCuiFZUVAFAe() {
+		NzTWCFzBGcNIbk() {
 			return this.getSoundInfo().soundVolume ?? 1;
 		}
 		kill() {
@@ -22369,14 +22369,14 @@ var dm = 0.91,
 				(e.HurtTime = Ip(this.hurtTime)),
 				(e.HurtByTimestamp = L.int(this.revengeTimer)),
 				(e.DeathTime = Ip(this.deathTime)),
-				(e.AbsorptionAmount = L.float(this.YXMHibKSMJXmBhyutdh()));
+				(e.AbsorptionAmount = L.float(this.LulBzyCQpYwPnPUTevl()));
 			for (let e of this.getInventory())
 				e != null &&
-					this.attributeMap.jCdsZpLDYsXfsvfjhBDzlSUM(e.getAttributeModifiers());
-			e.Attributes = Ep.LHgtNtOsNnAveJLuSFztywnjAh(this.getAttributeMap());
+					this.attributeMap.dTQzlXTLIYflLfnQCTZCBjdt(e.getAttributeModifiers());
+			e.Attributes = Ep.ytLhgXCFPwfCZISqriVXShZmZl(this.getAttributeMap());
 			for (let e of this.getInventory())
 				e != null &&
-					this.attributeMap.QQTHJYryYxwBngHiDAElypU(e.getAttributeModifiers());
+					this.attributeMap.xsgNsgsjuNklwvDmAoSYYVh(e.getAttributeModifiers());
 			if (this.activePotionsMap.size > 0) {
 				let t = [];
 				for (let e of this.activePotionsMap.values())
@@ -22386,11 +22386,11 @@ var dm = 0.91,
 		}
 		readEntityFromNBT(e) {
 			if (
-				(this.slAHCJmQdAucQCcZTIV(e.AbsorptionAmount),
+				(this.xWaPtwiaIgSxDvgBsfJ(e.AbsorptionAmount),
 				e.Attributes &&
 					this.world != null &&
 					!this.world.isClient &&
-					Ep.VbBQRBwxgwwLz(this.getAttributeMap(), e.Attributes),
+					Ep.qlqoKeZWxIOGH(this.getAttributeMap(), e.Attributes),
 				e.ActiveEffects)
 			) {
 				let t = e.ActiveEffects;
@@ -22414,41 +22414,41 @@ var dm = 0.91,
 					(this.hurtResistantTime = this.maxHurtResistantTime),
 					(this.hurtTime = this.maxHurtTime = 10),
 					(this.attackedAtYaw = 0),
-					this.KDaayrxxatDg() != null &&
+					this.osJHfaBSfSHq() != null &&
 						this.playSound(
-							this.KDaayrxxatDg(),
-							this.sunCuiFZUVAFAe(),
+							this.osJHfaBSfSHq(),
+							this.NzTWCFzBGcNIbk(),
 							(Math.random() - Math.random()) * 0.2 + 1,
 						),
 					this.attackEntityFrom(Bg.GENERIC, 0))
 				: e == 3
-					? (this.ZXrDCYhINLNPP() != null &&
+					? (this.fqupxXcGuoVsm() != null &&
 							this.playSound(
-								this.ZXrDCYhINLNPP(),
-								this.sunCuiFZUVAFAe(),
+								this.fqupxXcGuoVsm(),
+								this.NzTWCFzBGcNIbk(),
 								(Math.random() - Math.random()) * 0.2 + 1,
 							),
 						this.setHealth(0),
 						this.onDeath(Bg.GENERIC))
 					: super.handleStatusUpdate(e);
 		}
-		kRXgRYQZjgdrHBIZkDz() {
+		oYLQaiKxVgYcoAZZNIW() {
 			let e = this.activePotionsMap.keys();
 			for (let t of e) {
 				let e = this.activePotionsMap.get(t);
 				e.onUpdate(this)
-					? e.getDuration() % 600 == 0 && this.IzIZAiAyOIdVlkwZLFlzj(e, !1)
+					? e.getDuration() % 600 == 0 && this.kMGCmXIIrKpLsXDHXUIaS(e, !1)
 					: this.world.isClient ||
-						(this.activePotionsMap.delete(t), this.awPLkrcYAgPSBcfTUkLxlg(e));
+						(this.activePotionsMap.delete(t), this.bADhbDSNeOeqXZoqVGokBs(e));
 			}
 			this.potionsNeedUpdate &&=
-				(this.world.isClient || this.SoMyerZSKGCoSkNcyAwh(), !1);
-			let t = this.dataWatcher.orNquldfkGOcXTEvzbkNU(7),
+				(this.world.isClient || this.TEPQBahMMzTdEbDIjaiv(), !1);
+			let t = this.dataWatcher.RoyitaEBVbdkzRcXJnWvR(7),
 				n = this.dataWatcher.getWatchableObjectByte(8) > 0;
 			if (t > 0 && this.world.isClient) {
 				let e = !1;
 				if (
-					((e = this.ivIsiTZAooP() ? Gm(15) == 0 : Math.random() > 0.5),
+					((e = this.ssnfFrPtPOc() ? Gm(15) == 0 : Math.random() > 0.5),
 					n && e == e && Gm(5),
 					e && t > 0)
 				) {
@@ -22467,9 +22467,9 @@ var dm = 0.91,
 				}
 			}
 		}
-		SoMyerZSKGCoSkNcyAwh() {
+		TEPQBahMMzTdEbDIjaiv() {
 			if (this.activePotionsMap.size == 0)
-				this.HTAxMZuLgxLotfuWTZeLpdoJG(), this.HPGnxjuyOJaq(!1);
+				this.hByRgdoexAsjBENccqJXrQDsL(), this.DZANIxwAmZPB(!1);
 			else {
 				let e = lm.calcPotionLiquidColor(
 					Array.from(this.activePotionsMap.values()),
@@ -22479,20 +22479,20 @@ var dm = 0.91,
 					+!!lm.getAreAmbient(Array.from(this.activePotionsMap.values())),
 				),
 					this.dataWatcher.updateObject(7, e),
-					this.HPGnxjuyOJaq(this.isPotionActive(um.invisibility.id));
+					this.DZANIxwAmZPB(this.isPotionActive(um.invisibility.id));
 			}
 		}
-		HTAxMZuLgxLotfuWTZeLpdoJG() {
+		hByRgdoexAsjBENccqJXrQDsL() {
 			this.dataWatcher.updateObject(8, 0), this.dataWatcher.updateObject(7, 0);
 		}
-		OkqdIiTepdeYcFSfcM() {
+		QawpmpYXuOBngnsatH() {
 			for (let e of this.activePotionsMap.keys()) {
 				let t = this.activePotionsMap.get(e);
 				this.world.isClient ||
-					(this.activePotionsMap.delete(e), this.awPLkrcYAgPSBcfTUkLxlg(t));
+					(this.activePotionsMap.delete(e), this.bADhbDSNeOeqXZoqVGokBs(t));
 			}
 		}
-		lFWKJBfchTBJjUWFeWpLjg() {
+		BNxbCHxlhhOQgicSdBZKKX() {
 			return Array.from(this.activePotionsMap.values());
 		}
 		isPotionActive(e) {
@@ -22502,35 +22502,35 @@ var dm = 0.91,
 			return this.activePotionsMap.get(e.id);
 		}
 		addPotionEffect(e) {
-			this.tReVoWSclsEeEdFOwf(e) &&
+			this.sIyyNlZSlIMgfOxfCR(e) &&
 				(this.activePotionsMap.has(e.getPotionID())
 					? (this.activePotionsMap.get(e.getPotionID()).combine(e),
-						this.IzIZAiAyOIdVlkwZLFlzj(
+						this.kMGCmXIIrKpLsXDHXUIaS(
 							this.activePotionsMap.get(e.getPotionID()),
 							!0,
 						))
 					: (this.activePotionsMap.set(e.getPotionID(), e),
-						this.oLGwzTUKdkiBcMUpL(e)));
+						this.aEeynirFFfhzFATSI(e)));
 		}
-		tReVoWSclsEeEdFOwf(e) {
-			if (this.JoeqNGwobqyYbRvHfTsX() == nm.UNDEAD) {
+		sIyyNlZSlIMgfOxfCR(e) {
+			if (this.YPhYaefapNXVwuLEpouD() == nm.UNDEAD) {
 				let t = e.getPotionID();
 				if (t == um.regeneration.id || t == um.poison.id) return !1;
 			}
 			return !0;
 		}
-		lKGHNrNjXGCxsI() {
-			return this.JoeqNGwobqyYbRvHfTsX() == nm.UNDEAD;
+		hGTomkAmOmJPbh() {
+			return this.YPhYaefapNXVwuLEpouD() == nm.UNDEAD;
 		}
-		LRXKbQnfZodMHIHUiLCjqJaZ(e) {
+		lXFbaWdoBYmhiNyohGXyDpEK(e) {
 			this.activePotionsMap.delete(e);
 		}
-		lMVcQZHLHpUbTbCIvU(e) {
+		ZtatWVGdAYpKWgoneq(e) {
 			let t = this.activePotionsMap.get(e);
 			t != null &&
-				(this.activePotionsMap.delete(e), this.awPLkrcYAgPSBcfTUkLxlg(t));
+				(this.activePotionsMap.delete(e), this.bADhbDSNeOeqXZoqVGokBs(t));
 		}
-		oLGwzTUKdkiBcMUpL(e) {
+		aEeynirFFfhzFATSI(e) {
 			(this.potionsNeedUpdate = !0),
 				this.world.isClient ||
 					(im.potionTypes[e.getPotionID()].applyAttributesModifiersToEntity(
@@ -22540,7 +22540,7 @@ var dm = 0.91,
 					),
 					this.broadcastPotionEffect(e));
 		}
-		IzIZAiAyOIdVlkwZLFlzj(e, t) {
+		kMGCmXIIrKpLsXDHXUIaS(e, t) {
 			(this.potionsNeedUpdate = !0),
 				this.world.isClient ||
 					(t &&
@@ -22558,7 +22558,7 @@ var dm = 0.91,
 						)),
 					this.broadcastPotionEffect(e));
 		}
-		awPLkrcYAgPSBcfTUkLxlg(e) {
+		bADhbDSNeOeqXZoqVGokBs(e) {
 			(this.potionsNeedUpdate = !0),
 				this.world.isClient ||
 					(im.potionTypes[e.getPotionID()].removeAttributesModifiersFromEntity(
@@ -22591,11 +22591,11 @@ var dm = 0.91,
 		heal(e) {
 			this.getHealth() > 0 && this.setHealth(this.getHealth() + e);
 		}
-		aufGUWRrMjusybpZlLQW() {
-			return new A(this.pos.x, this.pos.y + this.getEyeHeight(), this.pos.z);
+		fwMEWmugjXbNvjLWTMMb() {
+			return new k(this.pos.x, this.pos.y + this.getEyeHeight(), this.pos.z);
 		}
-		BAUgRakDrKTuBHj() {}
-		MQzOfvLGZiiME() {}
+		hXJTbzdTnwwyhFR() {}
+		DfXWKGUVmLUiQ() {}
 	},
 	B = class e {
 		constructor(e, t, n) {
@@ -22808,7 +22808,7 @@ var dm = 0.91,
 		onEntityDamaged(e, t, n) {
 			t instanceof fm &&
 				this.damageType == 2 &&
-				t.JoeqNGwobqyYbRvHfTsX() == nm.ARTHROPOD &&
+				t.YPhYaefapNXVwuLEpouD() == nm.ARTHROPOD &&
 				20 + Gm(10 * n);
 		}
 	},
@@ -23548,9 +23548,9 @@ var fne = class {
 				(this.age = 0),
 				(this.delayBeforeCanPickup = 0),
 				(this.health = 5),
-				(this.newPos = new A()),
+				(this.newPos = new k()),
 				(this.newPosRotationIncrements = 0),
-				t && this.dhjvOPpALpaRQnJQSA(t),
+				t && this.iDWcyKtztNBsjUdrKG(t),
 				this.setSize(0.25, 0.25),
 				(this.motion.x = Math.random() * 0.2 - 0.1),
 				(this.motion.y = 0.2),
@@ -23558,19 +23558,19 @@ var fne = class {
 				n && this.setPosition(n);
 		}
 		entityInit() {
-			this.dataWatcher.svDNpQsRFJazcygKDRT(10, 5);
+			this.dataWatcher.QDlilcnTpFvBhMpXKcg(10, 5);
 		}
-		dhjvOPpALpaRQnJQSA(e) {
+		iDWcyKtztNBsjUdrKG(e) {
 			this.dataWatcher.updateObject(10, e),
-				this.dataWatcher.cxQXlrtXNKRSlift(10);
+				this.dataWatcher.DcvqyVkwSaugDOrW(10);
 		}
 		canTriggerWalking() {
 			return !1;
 		}
-		gzSKtpBlWSxhMR(e) {
+		cqBpwkacUrgIvg(e) {
 			this.delayBeforeCanPickup = e;
 		}
-		AydpEMNAsJCvEMlLIGFId() {
+		WprPYViyqOSYdojmAauDp() {
 			this.delayBeforeCanPickup = 10;
 		}
 		setPositionAndRotation2(e, t, n, r, i, a) {
@@ -23592,7 +23592,7 @@ var fne = class {
 			this.world.handleEvent(n),
 				!n.cancelled &&
 					e.inventory.addItemStackToInventory(t) &&
-					(e.iRqXHccqUHKZ(this, t.stackSize),
+					(e.wZEfKhqWcSRQ(this, t.stackSize),
 					this.world.playSoundAtEntity(
 						e,
 						`random.pop`,
@@ -23625,7 +23625,7 @@ var fne = class {
 			}
 			this.prevPos.set(this.pos.x, this.pos.y, this.pos.z),
 				(this.motion.y -= 0.04),
-				(this.noPhysics = this.VbSMshAXsKMWdSS(
+				(this.noPhysics = this.bTGAgkdesJOGCJZ(
 					this.pos.x,
 					(this.getEntityBoundingBox().min.y +
 						this.getEntityBoundingBox().max.y) /
@@ -23644,7 +23644,7 @@ var fne = class {
 						.getBlock()
 						.getMaterial(),
 					z.lava,
-					this.world.isClient || this.qInwwwthWnRucuXBwOnDrdLZX());
+					this.world.isClient || this.ULRbPTAiZuQrjcDlpPhuEQroK());
 			let t = 0.98;
 			this.onGround &&
 				(t =
@@ -23662,20 +23662,20 @@ var fne = class {
 				(this.motion.z *= t),
 				this.onGround && (this.motion.y *= -0.5),
 				this.age != -32768 && ++this.age,
-				this.NcVVdJrPRBhCjwxPoOz(),
+				this.nYZUBczXkAhLmzURCVm(),
 				this.world.isServer && this.age > _ne && this.setDead();
 		}
-		lLhgPGGjdhY() {
+		cDIHaiisSmE() {
 			return this.world.getBlock(I.fromVector(this.pos)).blocksMovement();
 		}
-		qInwwwthWnRucuXBwOnDrdLZX() {
+		ULRbPTAiZuQrjcDlpPhuEQroK() {
 			for (let t of this.world.getEntitiesWithinAABB(
 				null,
 				this.getEntityBoundingBox().clone().expandByScalar(0.5),
 			))
-				t instanceof e && this.MmjHCptAwCYN(t);
+				t instanceof e && this.NsRdiVQRarZs(t);
 		}
-		MmjHCptAwCYN(e) {
+		NsRdiVQRarZs(e) {
 			if (e == this) return !1;
 			if (e.isEntityAlive() && this.isEntityAlive()) {
 				let t = this.getEntityItem(),
@@ -23692,7 +23692,7 @@ var fne = class {
 						(n.getItem().getHasSubtypes() && n.getMetadata() != t.getMetadata())
 						? !1
 						: n.stackSize < t.stackSize
-							? e.MmjHCptAwCYN(this)
+							? e.NsRdiVQRarZs(this)
 							: n.stackSize + t.stackSize > n.getMaxStackSize()
 								? !1
 								: ((n.stackSize += t.stackSize),
@@ -23701,7 +23701,7 @@ var fne = class {
 										this.delayBeforeCanPickup,
 									)),
 									(e.age = Math.min(e.age, this.age)),
-									e.dhjvOPpALpaRQnJQSA(n),
+									e.iDWcyKtztNBsjUdrKG(n),
 									this.setDead(),
 									!0)
 					: !1;
@@ -23710,23 +23710,23 @@ var fne = class {
 		toJSON() {
 			return { ...super.toJSON(), type: `$item`, item: this.getEntityItem() };
 		}
-		nkehjyLsqtAYuYBlSLcnPRAbnlo() {
+		dcVRgSKTvBKytcJMAZIXhxPqsiA() {
 			this.age = 4800;
 		}
-		NcVVdJrPRBhCjwxPoOz() {
+		nYZUBczXkAhLmzURCVm() {
 			return (
 				this.world.handleMaterialAcceleration(
 					this.getEntityBoundingBox(),
 					z.water,
 					this,
 				)
-					? (this.inWater || this.TYbYKeKfOul(), (this.inWater = !0))
+					? (this.inWater || this.NnnpOVdkRjx(), (this.inWater = !0))
 					: (this.inWater = !1),
 				this.inWater
 			);
 		}
 		getEntityItem() {
-			return this.getDataWatcher().hVJTgmbwlvRRAxisAlignedBoundingBoxSFRnRrhjKVNdQ(10) ?? new V();
+			return this.getDataWatcher().RbLBMLMiqHOFOmoDnshgmZytHrj(10) ?? new V();
 		}
 		writeEntityToNBT(e) {
 			if (
@@ -23744,7 +23744,7 @@ var fne = class {
 				(this.age = e.Age),
 				e.PickupDelay && (this.delayBeforeCanPickup = e.PickupDelay);
 			let t = e.Item;
-			this.dhjvOPpALpaRQnJQSA(V.readFromNBT(t)),
+			this.iDWcyKtztNBsjUdrKG(V.readFromNBT(t)),
 				this.getEntityItem() === null && this.setDead();
 		}
 		attackEntityFrom(e, t) {
@@ -23760,7 +23760,7 @@ var fne = class {
 		}
 	},
 	Cm = new Map();
-for (let e of Gn) Cm.set(e.name, e);
+for (let e of Wn) Cm.set(e.name, e);
 function vne(e) {
 	Cm.set(e.name, e);
 }
@@ -23930,8 +23930,8 @@ var xne = class e {
 		}
 		getMinMax(e, t, n) {
 			if (
-				((this.min = new A(e[0], e[1], e[2]).divideScalar(16)),
-				(this.max = new A(t[0], t[1], t[2]).divideScalar(16)),
+				((this.min = new k(e[0], e[1], e[2]).divideScalar(16)),
+				(this.max = new k(t[0], t[1], t[2]).divideScalar(16)),
 				!n)
 			)
 				switch (this.facing) {
@@ -23948,8 +23948,8 @@ var xne = class e {
 						n = [e[2], 16 - t[1], t[2], 16 - e[1]];
 						break;
 				}
-			(this.u = new Tr(n[0], n[2]).divideScalar(16)),
-				(this.v = new Tr(1, 1).sub(new Tr(n[1], n[3]).divideScalar(16)));
+			(this.u = new dr(n[0], n[2]).divideScalar(16)),
+				(this.v = new dr(1, 1).sub(new dr(n[1], n[3]).divideScalar(16)));
 		}
 		rescaleDefaultUvs(e) {
 			if (!(e > 16) || this.u == null || this.v == null) return;
@@ -24079,7 +24079,7 @@ var xne = class e {
 		}
 		relockUV() {
 			if (!this.exists) return;
-			let t = F.fromVector(new A(this.dir[0], this.dir[1], this.dir[2])),
+			let t = F.fromVector(new k(this.dir[0], this.dir[1], this.dir[2])),
 				n = t.directionVec;
 			if (
 				Math.abs(n.x - this.dir[0]) > 0.01 ||
@@ -24090,8 +24090,8 @@ var xne = class e {
 			let r = this.vertices.map((e) => e[0]),
 				i = this.vertices.map((e) => e[1]),
 				a = this.vertices.map((e) => e[2]),
-				o = new A(Math.min(...r), Math.min(...i), Math.min(...a)),
-				s = new A(Math.max(...r), Math.max(...i), Math.max(...a)),
+				o = new k(Math.min(...r), Math.min(...i), Math.min(...a)),
+				s = new k(Math.max(...r), Math.max(...i), Math.max(...a)),
 				c = e.getPositionLayout(t, o, s),
 				l = this.getUVLayout(t);
 			this.rotateUV(l);
@@ -24542,8 +24542,8 @@ var One = class {
 			return n < 0
 				? 0
 				: e.canHarvestBlock(this)
-					? e.YxUTrdJuYcsAMDRBgvEr(this) / n / 30
-					: e.YxUTrdJuYcsAMDRBgvEr(this) / n / 100;
+					? e.TPWdsnyYJsafZOkdvcvC(this) / n / 30
+					: e.TPWdsnyYJsafZOkdvcvC(this) / n / 100;
 		}
 		getItemDropped(e, t) {
 			return H.getItemByBlock(this);
@@ -24581,7 +24581,7 @@ var One = class {
 			return null;
 		}
 		setBlockBounds(e, t, n, r, i, a) {
-			this.bbox = new AxisAlignedBoundingBox(new A(e, t, n), new A(r, i, a));
+			this.bbox = new AxisAlignedBoundingBox(new k(e, t, n), new k(r, i, a));
 		}
 		getBoundingBox(e, t, n) {
 			return this.bbox;
@@ -24589,12 +24589,12 @@ var One = class {
 		setBlockBoundsBasedOnState(e, t) {}
 		getSelectedBoundingBox(e, t) {
 			return new AxisAlignedBoundingBox(
-				new A(
+				new k(
 					t.x + this.bbox.min.x,
 					t.y + this.bbox.min.y,
 					t.z + this.bbox.min.z,
 				),
-				new A(
+				new k(
 					t.x + this.bbox.max.x,
 					t.y + this.bbox.max.y,
 					t.z + this.bbox.max.z,
@@ -24607,12 +24607,12 @@ var One = class {
 		}
 		getCollisionBoundingBox(e, t, n) {
 			return new AxisAlignedBoundingBox(
-				new A(
+				new k(
 					t.x + this.bbox.min.x,
 					t.y + this.bbox.min.y,
 					t.z + this.bbox.min.z,
 				),
-				new A(
+				new k(
 					t.x + this.bbox.max.x,
 					t.y + this.bbox.max.y,
 					t.z + this.bbox.max.z,
@@ -24711,8 +24711,8 @@ var One = class {
 		}
 		collisionRayTrace(e, t, n, r) {
 			this.setBlockBoundsBasedOnState(e, t),
-				(n = n.clone().add(new A(-t.x, -t.y, -t.z))),
-				(r = r.clone().add(new A(-t.x, -t.y, -t.z)));
+				(n = n.clone().add(new k(-t.x, -t.y, -t.z))),
+				(r = r.clone().add(new k(-t.x, -t.y, -t.z)));
 			let i = this.getBoundingBox(e.getBlockState(t), e, t),
 				a = le(n, r, i.min.x),
 				o = le(n, r, i.max.x),
@@ -24805,7 +24805,7 @@ var One = class {
 					o = Math.random() * r + (1 - r) * 0.5,
 					s = new Sm(e, n);
 				s.setPosition(t.x + i, t.y + a, t.z + o),
-					s.AydpEMNAsJCvEMlLIGFId(),
+					s.WprPYViyqOSYdojmAauDp(),
 					e.spawnEntityInWorld(s);
 			}
 		}
@@ -24872,7 +24872,7 @@ var One = class {
 		getInventoryModel() {
 			return new Pm(this.name);
 		}
-		nXubDPrYqeYiEvwOfmPDue(e) {
+		ywhkOtzAXiOqttEOUBPyJN(e) {
 			return this.resistance / 5;
 		}
 		canDropFromExplosion(e) {
@@ -25124,11 +25124,11 @@ var Km = class e extends Hm {
 		getFlowDirection(e, t) {
 			let n = this.getFlowVector(e, t);
 			if (n.x == 0 && n.z == 0) return -1e3;
-			let r = n.angleTo(new A(0, 0, 1));
+			let r = n.angleTo(new k(0, 0, 1));
 			return n.x < 0 ? r : -r;
 		}
 		getFlowVector(e, t) {
-			let n = new A(0, 0, 0),
+			let n = new k(0, 0, 0),
 				r = this.getEffectiveFlowDecay(e, t);
 			for (let i of Wd.getHorizontal()) {
 				let a = t.offset(i),
@@ -25154,7 +25154,7 @@ var Km = class e extends Hm {
 				for (let r of Wd.getHorizontal()) {
 					let i = t.offset(r);
 					if (this.isBlockSolid(e, i, r) || this.isBlockSolid(e, i.up(), r)) {
-						n = n.normalize().add(new A(0, -6, 0));
+						n = n.normalize().add(new k(0, -6, 0));
 						break;
 					}
 				}
@@ -25363,7 +25363,7 @@ var Km = class e extends Hm {
 			return this.material == z.water ? 5 : this.material == z.lava ? 30 : 0;
 		}
 		static {
-			this.soundPos = new A();
+			this.soundPos = new k();
 		}
 		randomDisplayTick(t, n, r) {
 			let i = n.x,
@@ -25938,12 +25938,12 @@ var Ym = class e extends Hm {
 				? null
 				: n.getProp(`facing`).getAxis() == P.Z
 					? new AxisAlignedBoundingBox(
-							new A(t.x, t.y, t.z + 0.375),
-							new A(t.x + 1, t.y + 1.5, t.z + 0.625),
+							new k(t.x, t.y, t.z + 0.375),
+							new k(t.x + 1, t.y + 1.5, t.z + 0.625),
 						)
 					: new AxisAlignedBoundingBox(
-							new A(t.x + 0.375, t.y, t.z),
-							new A(t.x + 0.625, t.y + 1.5, t.z + 1),
+							new k(t.x + 0.375, t.y, t.z),
+							new k(t.x + 0.625, t.y + 1.5, t.z + 1),
 						);
 		}
 		setBlockBoundsBasedOnState(e, t) {
@@ -25956,7 +25956,7 @@ var Ym = class e extends Hm {
 		}
 		getStateForPlacement(e, t, n, r, i, a, o, s) {
 			return this.defaultState
-				.withState(`facing`, s.ZpGhLiSZmvfigAHWiKe())
+				.withState(`facing`, s.CVxsVpIMAWjPrhvzXYe())
 				.withState(`open`, !1)
 				.withState(`powered`, !1)
 				.withState(`in_wall`, !1);
@@ -26438,7 +26438,7 @@ var Ym = class e extends Hm {
 					if (this.avoidsWater && a === -1) return null;
 					if (a !== 1) break;
 					if (
-						++i >= e.olzNuJPCYdEkAdLg() ||
+						++i >= e.HXaWhGqYvcczPkhd() ||
 						(n--, (o = this.openPoint(t, n, r)), n <= 0)
 					)
 						return null;
@@ -26626,7 +26626,7 @@ var Mne = class {
 		getVectorFromIndex(e, t) {
 			let n = this.points[t].x + Math.floor(e.width + 1) * 0.5,
 				r = this.points[t].y;
-			return new A(n, r, this.points[t].z + Math.floor(e.width + 1) * 0.5);
+			return new k(n, r, this.points[t].z + Math.floor(e.width + 1) * 0.5);
 		}
 		getPosition(e) {
 			return this.getVectorFromIndex(e, this.currentPathIndex);
@@ -26691,7 +26691,7 @@ var Mne = class {
 				this.path.addPoint(n);
 			let a = n,
 				o = 0,
-				s = Math.min(t.xRtCuapMiWkYEP(), e.MAX_NODE_EXPANSIONS);
+				s = Math.min(t.UpaTvnbDyGuRIO(), e.MAX_NODE_EXPANSIONS);
 			for (; !this.path.isPathEmpty() && (++o, !(o > s)); ) {
 				let e = this.path.dequeue();
 				if (e.equals(r)) return this.createEntityPath(n, r);
@@ -26789,14 +26789,14 @@ var Mne = class {
 		constructor(e, t) {
 			(this.totalTicks = 0),
 				(this.ticksAtLastPos = 0),
-				(this.lastPosCheck = new A(0, 0, 0)),
+				(this.lastPosCheck = new k(0, 0, 0)),
 				(this.heightRequirement = 1),
 				(this.theEntity = e),
 				(this.worldObj = t),
-				(this.pathSearchRange = e.xRtCuapMiWkYEP()),
+				(this.pathSearchRange = e.UpaTvnbDyGuRIO()),
 				(this.pathFinder = this.getPathFinder());
 		}
-		qbnAqVlF(e) {
+		tsVMyTiA(e) {
 			this.speed = e;
 		}
 		getPathSearchRange() {
@@ -26892,7 +26892,7 @@ var Mne = class {
 			if (this.noPath()) return;
 			let e = this.currentPath.getPosition(this.theEntity);
 			if (!e) return;
-			let t = new AxisAlignedBoundingBox(new A(e.x, e.y, e.z), new A(e.x, e.y, e.z)).expandByScalar(
+			let t = new AxisAlignedBoundingBox(new k(e.x, e.y, e.z), new k(e.x, e.y, e.z)).expandByScalar(
 					0.5,
 				),
 				n = this.worldObj.getCollidingBoundingBoxes(
@@ -26900,9 +26900,9 @@ var Mne = class {
 					Xp(t, 0, -1, 0),
 				),
 				r = -1;
-			t = t.translate(new A(0, 1, 0));
+			t = t.translate(new k(0, 1, 0));
 			for (let e of n) r = Up(e, t, r);
-			this.theEntity.dcisIgkaSUBbM().MhFcjurfk(e.x, e.y + r, e.z, this.speed);
+			this.theEntity.RskftwXstsSMU().SMvSHcpaz(e.x, e.y + r, e.z, this.speed);
 		}
 		pathFollow() {
 			let e = this.getEntityPosition(),
@@ -26976,7 +26976,7 @@ var Mne = class {
 			);
 		}
 		getEntityPosition() {
-			return new A(
+			return new k(
 				this.theEntity.pos.x,
 				this.getPathablePosY(),
 				this.theEntity.pos.z,
@@ -27086,7 +27086,7 @@ var Mne = class {
 			} else return !1;
 		}
 		isPositionClear(e, t, n, r, i, a, o, s, c) {
-			for (let l of I.vuuHAcyHhlm(
+			for (let l of I.HHbMqrKkrxe(
 				new I(e, t, n),
 				new I(e + r - 1, t + i - 1, n + a - 1),
 			)) {
@@ -27166,51 +27166,51 @@ var Mne = class {
 		addTask(e, t) {
 			this.taskEntries.set(this.taskId, new Lne(e, t, this.taskId++));
 		}
-		gUMrbVaJgj(e) {
+		TculYIflCC(e) {
 			for (let t of this.taskEntries.values())
 				t.action === e &&
 					(this.executingTaskEntries.has(t.id) &&
 						(t.action.resetTask(), this.executingTaskEntries.delete(t.id)),
 					this.taskEntries.delete(t.id));
 		}
-		kLfEUhCKUGDMN() {
+		kiTvcrXYwoksx() {
 			if (this.tickCount++ % this.tickRate === 0)
 				for (let e of this.taskEntries.values())
 					this.executingTaskEntries.has(e.id)
-						? (!this.dPXtBW(e) || !this.rNrvFBhVpEM(e)) &&
+						? (!this.PprmMq(e) || !this.nQHwFaaIEZH(e)) &&
 							(e.action.resetTask(), this.executingTaskEntries.delete(e.id))
-						: this.dPXtBW(e) &&
+						: this.PprmMq(e) &&
 							e.action.shouldExecute() &&
 							(e.action.startExecuting(),
 							this.executingTaskEntries.set(e.id, e));
 			else
 				for (let e of this.executingTaskEntries.values())
-					this.rNrvFBhVpEM(e) ||
+					this.nQHwFaaIEZH(e) ||
 						(e.action.resetTask(), this.executingTaskEntries.delete(e.id));
 			for (let e of this.executingTaskEntries.values()) e.action.updateTask();
 		}
-		rNrvFBhVpEM(e) {
+		nQHwFaaIEZH(e) {
 			return e.action.continueExecuting();
 		}
-		dPXtBW(e) {
+		PprmMq(e) {
 			for (let t of this.taskEntries.values())
 				if (t !== e) {
 					if (e.priority >= t.priority) {
 						if (
-							!this.vwHclmVYAXPVyGGrQY(e, t) &&
+							!this.OJUmGbDDPHllPpkOCy(e, t) &&
 							this.executingTaskEntries.has(t.id)
 						)
 							return !1;
 					} else if (
-						!t.action.WSvouFngGXIxGLc() &&
+						!t.action.DokhvdcHieimLPR() &&
 						this.executingTaskEntries.has(t.id)
 					)
 						return !1;
 				}
 			return !0;
 		}
-		vwHclmVYAXPVyGGrQY(e, t) {
-			return (e.action.eHsiYSQjtDVS() & t.action.eHsiYSQjtDVS()) === 0;
+		OJUmGbDDPHllPpkOCy(e, t) {
+			return (e.action.YBabqmfjpjsk() & t.action.YBabqmfjpjsk()) === 0;
 		}
 	};
 function sh(e) {
@@ -27233,7 +27233,7 @@ var Rne = class {
 				(this.deltaLookPitch = (n * Math.PI) / 180),
 				(this.isLooking = !0);
 		}
-		BHahVaunxolqqID(e, t, n, r, i) {
+		vchZmNqkYBDlbsM(e, t, n, r, i) {
 			(this.posX = e),
 				(this.posY = t),
 				(this.posZ = n),
@@ -27241,7 +27241,7 @@ var Rne = class {
 				(this.deltaLookPitch = (i * Math.PI) / 180),
 				(this.isLooking = !0);
 		}
-		BxCfvQbEQiBa() {
+		hyByPokhOTZX() {
 			if (((this.entity.pitch = 0), this.isLooking)) {
 				this.isLooking = !1;
 				let e = this.posX - this.entity.pos.x,
@@ -27250,19 +27250,19 @@ var Rne = class {
 					r = Math.sqrt(e * e + n * n),
 					i = Math.atan2(e, n),
 					a = Math.atan2(t, r);
-				(this.entity.pitch = this.vqGzGfdZqhOFol(
+				(this.entity.pitch = this.yuwjZwjxJqHEcz(
 					this.entity.pitch,
 					a,
 					this.deltaLookPitch,
 				)),
-					(this.entity.yaw = this.vqGzGfdZqhOFol(
+					(this.entity.yaw = this.yuwjZwjxJqHEcz(
 						this.entity.yaw,
 						i,
 						this.deltaLookYaw,
 					));
 			}
 		}
-		vqGzGfdZqhOFol(e, t, n) {
+		yuwjZwjxJqHEcz(e, t, n) {
 			e > Math.PI && (e -= 2 * Math.PI);
 			let r = t - e;
 			r > Math.PI ? (r -= 2 * Math.PI) : r < -Math.PI && (r += 2 * Math.PI),
@@ -27272,16 +27272,16 @@ var Rne = class {
 			for (; i < 0; ) i += 2 * Math.PI;
 			return (i %= 2 * Math.PI), i;
 		}
-		fWEqZFpfjuIS() {
+		AKRkVWmkyKmk() {
 			return this.isLooking;
 		}
-		rchyJYJtYTv() {
+		zvBNhHwjvyX() {
 			return this.posX;
 		}
-		blrlEAdQLJI() {
+		EQIzvaQGUUO() {
 			return this.posY;
 		}
-		SEWcMPkmGuK() {
+		OCljjbALuRM() {
 			return this.posZ;
 		}
 	},
@@ -27289,12 +27289,12 @@ var Rne = class {
 		constructor(e) {
 			this.theLiving = e;
 		}
-		kadoVcNvZAlGSEyFoN() {
+		TXlTyFkKoNYaNpDIOh() {
 			let e = this.theLiving.pos.x - this.theLiving.prevPos.x,
 				t = this.theLiving.pos.z - this.theLiving.prevPos.z;
 			if (e * e + t * t > 25e-8)
 				(this.theLiving.renderYawOffset = this.theLiving.yaw),
-					(this.theLiving.yawHead = this.zafbvpjOjsGscdEVvhzGD(
+					(this.theLiving.yawHead = this.LKYrUNXOUuhgvYmqdaUlb(
 						this.theLiving.renderYawOffset,
 						this.theLiving.yawHead,
 						sh(75),
@@ -27311,14 +27311,14 @@ var Rne = class {
 							(e =
 								Math.max(1 - (this.rotationTickCounter - 10) / 10, 0) *
 								sh(75))),
-					(this.theLiving.renderYawOffset = this.zafbvpjOjsGscdEVvhzGD(
+					(this.theLiving.renderYawOffset = this.LKYrUNXOUuhgvYmqdaUlb(
 						this.theLiving.yawHead,
 						this.theLiving.renderYawOffset,
 						e,
 					));
 			}
 		}
-		zafbvpjOjsGscdEVvhzGD(e, t, n) {
+		LKYrUNXOUuhgvYmqdaUlb(e, t, n) {
 			let r = (e - t) % Math.PI;
 			return r < -n && (r = -n), r >= n && (r = n), e - r;
 		}
@@ -27327,11 +27327,11 @@ var Rne = class {
 		constructor(e) {
 			this.entity = e;
 		}
-		VjQwGQIJcb() {
+		tLRIHYxLcI() {
 			this.isJumping = !0;
 		}
-		nsWWaV() {
-			this.entity.VjQwGQIJcb(this.isJumping), (this.isJumping = !1);
+		tDfiOy() {
+			this.entity.tLRIHYxLcI(this.isJumping), (this.isJumping = !1);
 		}
 	},
 	ch = class {
@@ -27341,21 +27341,21 @@ var Rne = class {
 				(this.posY = e.pos.y),
 				(this.posZ = e.pos.z);
 		}
-		WEiJBagbVO() {
+		gdxzfctvEP() {
 			return this.update;
 		}
-		TJTjqJsL() {
+		vnvuKIKN() {
 			return this.speed;
 		}
-		MhFcjurfk(e, t, n, r) {
+		SMvSHcpaz(e, t, n, r) {
 			(this.posX = e),
 				(this.posY = t),
 				(this.posZ = n),
 				(this.speed = r),
 				(this.update = !0);
 		}
-		plMMjiEaccbsqwxVko() {
-			if ((this.entity.yiMlLpLKumEGNX(0), this.update)) {
+		jEkVYTjZiEQAaJMbzp() {
+			if ((this.entity.VPoWrDYYLDiYsC(0), this.update)) {
 				this.update = !1;
 				let e = Math.floor(this.entity.getEntityBoundingBox().min.y + 0.5),
 					t = this.posX - this.entity.pos.x,
@@ -27363,20 +27363,20 @@ var Rne = class {
 					r = this.posY - e;
 				if (t * t + r * r + n * n >= 25e-8) {
 					let e = Math.atan2(t, n);
-					(this.entity.yaw = this.LnVRSZyPbw(this.entity.yaw, e, Math.PI / 6)),
-						this.entity.JNyVSMSpqrPLPc(
+					(this.entity.yaw = this.bQjSRxDJbw(this.entity.yaw, e, Math.PI / 6)),
+						this.entity.cFnmHQqMMjYIQV(
 							this.speed *
 								this.entity
-									.getEntityAttribute(Ep.EaoLIuupWbDul)
+									.getEntityAttribute(Ep.iyhlGlpOTgPEH)
 									.getAttributeValue(),
 						),
 						r > 0 &&
 							t * t + n * n < 1 &&
-							this.entity.UiMTIcsFFWIBp().VjQwGQIJcb();
+							this.entity.WEaSdbGuuOdBw().tLRIHYxLcI();
 				}
 			}
 		}
-		LnVRSZyPbw(e, t, n) {
+		bQjSRxDJbw(e, t, n) {
 			e > Math.PI && (e -= 2 * Math.PI);
 			let r = t - e;
 			r > Math.PI ? (r -= 2 * Math.PI) : r < -Math.PI && (r += 2 * Math.PI),
@@ -27403,14 +27403,14 @@ var Rne = class {
 				(this.unseenEntities = new Set()),
 				(this.entityObj = e);
 		}
-		OFoPWWYkpJTFEibBs() {
+		qnuqUzGEqejLktFer() {
 			this.seenEntities.clear(), this.unseenEntities.clear();
 		}
-		PBKQzK(e) {
+		CmMrLt(e) {
 			if (this.seenEntities.has(e.id)) return !0;
 			if (this.unseenEntities.has(e.id)) return !1;
 			{
-				let t = this.entityObj.JHSorjBFFfsITDv(e);
+				let t = this.entityObj.qUUVYpusgDwsTvw(e);
 				return (
 					t ? this.seenEntities.add(e.id) : this.unseenEntities.add(e.id), t
 				);
@@ -27439,15 +27439,15 @@ var Rne = class {
 				(this.moveHelper = new ch(this)),
 				(this.jumpHelper = new Bne(this)),
 				(this.bodyHelper = new zne(this)),
-				(this.navigator = this.ZuDMoCOYwDJNcOZ(e)),
+				(this.navigator = this.fYBEHEckEOaGvoO(e)),
 				(this.senses = new Vne(this));
 			for (let e = 0; e < this.equipmentDropChances.length; e++)
 				this.equipmentDropChances[e] = 0.085;
 		}
-		xRtCuapMiWkYEP() {
+		UpaTvnbDyGuRIO() {
 			return this.followRange;
 		}
-		SjcRuCcSLaiYWF(e) {
+		FqtFkJJbskEGBz(e) {
 			this.followRange = e;
 		}
 		applyEntityAttributes() {
@@ -27459,22 +27459,22 @@ var Rne = class {
 		applyBaseAttributes(e) {
 			for (let [t, n] of e) this.getEntityAttribute(t)?.setBaseValue(n);
 		}
-		ZuDMoCOYwDJNcOZ(e) {
+		fYBEHEckEOaGvoO(e) {
 			return new ih(this, e);
 		}
 		getLookHelper() {
 			return this.lookHelper;
 		}
-		dcisIgkaSUBbM() {
+		RskftwXstsSMU() {
 			return this.moveHelper;
 		}
-		UiMTIcsFFWIBp() {
+		WEaSdbGuuOdBw() {
 			return this.jumpHelper;
 		}
 		getNavigator() {
 			return this.navigator;
 		}
-		MiulZQbwkumNuBC() {
+		iZIUhFjMjXMAEud() {
 			return this.senses;
 		}
 		getAttackTarget() {
@@ -27483,27 +27483,27 @@ var Rne = class {
 		setAttackTarget(e) {
 			this.attackTarget = e;
 		}
-		XIaseRCZBrtefn(e) {
+		PctDjuOdcgfbfT(e) {
 			return !0;
 		}
-		HQgBZxCTsYRLJ() {}
+		xYcuhiHCYTFhM() {}
 		entityInit() {
 			super.entityInit(), this.dataWatcher.addObject(15, 0);
 		}
-		ZUrydakrEjOwAdP() {
+		LqtJqzObnUOSbsZ() {
 			return 80;
 		}
-		PqhncSyJELViBqD() {
-			let e = this.hVigaEboPvohsk();
-			e && this.playSound(e, this.sunCuiFZUVAFAe(), this.qhXINNGReCNVk());
+		UXRckpRojPHvPQa() {
+			let e = this.XopKaqZhLDDlAf();
+			e && this.playSound(e, this.NzTWCFzBGcNIbk(), this.znfBAMXqGcpGb());
 		}
-		VrfUyhkzzniFCZ() {
-			super.VrfUyhkzzniFCZ(),
+		fzfRUqrYCpqhRy() {
+			super.fzfRUqrYCpqhRy(),
 				this.isEntityAlive() &&
 					Math.random() * 1e3 < this.livingSoundTime++ &&
-					!this.uVaeyuAViNEY() &&
-					((this.livingSoundTime = -this.ZUrydakrEjOwAdP()),
-					this.PqhncSyJELViBqD());
+					!this.xHvDEsvPFFds() &&
+					((this.livingSoundTime = -this.LqtJqzObnUOSbsZ()),
+					this.UXRckpRojPHvPQa());
 		}
 		getExperiencePoints(e) {
 			if (this.experienceValue > 0) {
@@ -27516,7 +27516,7 @@ var Rne = class {
 				return e;
 			} else return this.experienceValue;
 		}
-		GmqvpBTcuajdtYymelVKDo() {
+		XXwmOPQBlGOkDCLOhENXtr() {
 			if (this.world.isClient)
 				for (let e = 0; e < 20; e++) {
 					let e = Math.random() * 0.02,
@@ -27535,26 +27535,26 @@ var Rne = class {
 			else this.world.setEntityState(this, 20);
 		}
 		handleStatusUpdate(e) {
-			e === 20 ? this.GmqvpBTcuajdtYymelVKDo() : super.handleStatusUpdate(e);
+			e === 20 ? this.XXwmOPQBlGOkDCLOhENXtr() : super.handleStatusUpdate(e);
 		}
 		update() {
 			super.update();
 		}
-		bDiRCyDYDUGfD(e, t) {
-			return this.bodyHelper.kadoVcNvZAlGSEyFoN(), t;
+		SSPqpwMcCvmfU(e, t) {
+			return this.bodyHelper.TXlTyFkKoNYaNpDIOh(), t;
 		}
-		hVigaEboPvohsk() {
+		XopKaqZhLDDlAf() {
 			return this.getSoundInfo().living ?? null;
 		}
-		pRGkSutrOlV() {
+		VOlwufAXZPT() {
 			return this.getSoundInfo().drop ?? null;
 		}
-		CPtFdshvrmYnN(e, t) {
+		sFXwGuswJIhdA(e, t) {
 			let n = this.getSoundInfo().step;
 			n && this.playSound(n, 0.15, 1);
 		}
 		dropFewItems(e, t) {
-			let n = this.pRGkSutrOlV();
+			let n = this.VOlwufAXZPT();
 			if (n != null) {
 				let e = Math.floor(Math.random() * 3);
 				t > 0 && (e += Math.floor(Math.random() * (t + 1)));
@@ -27577,16 +27577,16 @@ var Rne = class {
 					this.equipment[e] = V.fromNBT(t[e]);
 			}
 		}
-		yiMlLpLKumEGNX(e) {
+		VPoWrDYYLDiYsC(e) {
 			this.moveForward = e;
 		}
-		JNyVSMSpqrPLPc(e) {
-			super.JNyVSMSpqrPLPc(e), this.yiMlLpLKumEGNX(e);
+		cFnmHQqMMjYIQV(e) {
+			super.cFnmHQqMMjYIQV(e), this.VPoWrDYYLDiYsC(e);
 		}
 		onLivingUpdate() {
 			if (
 				(super.onLivingUpdate(),
-				this.world.isServer && this.uVaeyuAViNEY() && !this.dead)
+				this.world.isServer && this.xHvDEsvPFFds() && !this.dead)
 			) {
 				let e = this.world.getClosestPlayerToEntity(this, 16);
 				e &&
@@ -27595,19 +27595,19 @@ var Rne = class {
 						30,
 						this.getVerticalFaceSpeed(),
 					),
-					this.lookHelper.BxCfvQbEQiBa());
+					this.lookHelper.hyByPokhOTZX());
 			}
 		}
-		XBlHnAYLueOyn(e) {
+		HunbNbsymypKi(e) {
 			return !0;
 		}
-		gJvUYPhfTS() {
+		yvZJAqSxQg() {
 			return !0;
 		}
-		EnDJBzjiOmPj() {
+		QBFrzAsqpxOe() {
 			return 4096;
 		}
-		goSRvcXeQxvfC() {
+		RIjtNnjpLNdgw() {
 			if (this.persistenceRequired) this.entityAge = 0;
 			else {
 				let e = this.world.getClosestPlayerToEntity(this, -1);
@@ -27616,33 +27616,33 @@ var Rne = class {
 						n = e.pos.y - this.pos.y,
 						r = e.pos.z - this.pos.z,
 						i = t * t + n * n + r * r;
-					this.gJvUYPhfTS() && i > this.EnDJBzjiOmPj() && this.setDead(),
-						this.entityAge > 600 && Gm(8) == 0 && i > 1024 && this.gJvUYPhfTS()
+					this.yvZJAqSxQg() && i > this.QBFrzAsqpxOe() && this.setDead(),
+						this.entityAge > 600 && Gm(8) == 0 && i > 1024 && this.yvZJAqSxQg()
 							? this.setDead()
 							: i < 1024 && (this.entityAge = 0);
 				}
 			}
 		}
-		nPxwGvjVgtrFCvOyyvTxRKB() {
+		HJeGbsRnKZzmDbmABKGBPsU() {
 			++this.entityAge,
 				(this.ticksExisted + this.id) % e.DESPAWN_CHECK_INTERVAL === 0 &&
-					this.goSRvcXeQxvfC(),
+					this.RIjtNnjpLNdgw(),
 				this.world.shouldTickEntityAI(this) &&
 					((this.ticksExisted + this.id) % e.SENSE_CACHE_REFRESH_INTERVAL ===
-						0 && this.senses.OFoPWWYkpJTFEibBs(),
-					this.targetTasks.kLfEUhCKUGDMN(),
-					this.tasks.kLfEUhCKUGDMN(),
+						0 && this.senses.qnuqUzGEqejLktFer(),
+					this.targetTasks.kiTvcrXYwoksx(),
+					this.tasks.kiTvcrXYwoksx(),
 					this.navigator.onUpdateNavigation(),
-					this.kAEmeotQQyBTR(),
-					this.moveHelper.plMMjiEaccbsqwxVko(),
-					this.lookHelper.BxCfvQbEQiBa(),
-					this.jumpHelper.nsWWaV());
+					this.JwGYcDEliflXC(),
+					this.moveHelper.jEkVYTjZiEQAaJMbzp(),
+					this.lookHelper.hyByPokhOTZX(),
+					this.jumpHelper.tDfiOy());
 		}
-		kAEmeotQQyBTR() {}
+		JwGYcDEliflXC() {}
 		getVerticalFaceSpeed() {
 			return 40;
 		}
-		FAtnmrkGki(e, t, n) {
+		dHprlvNPDG(e, t, n) {
 			let r = e.pos.x - this.pos.x,
 				i = e.pos.z - this.pos.z,
 				a;
@@ -27657,17 +27657,17 @@ var Rne = class {
 			let o = Math.sqrt(r * r + i * i),
 				s = (Math.atan2(i, r) * 180) / Math.PI - 90,
 				c = -((Math.atan2(a, o) * 180) / Math.PI);
-			(this.pitch = this.vqGzGfdZqhOFol(this.pitch, c, n)),
-				(this.yaw = this.vqGzGfdZqhOFol(this.yaw, s, t));
+			(this.pitch = this.yuwjZwjxJqHEcz(this.pitch, c, n)),
+				(this.yaw = this.yuwjZwjxJqHEcz(this.yaw, s, t));
 		}
-		vqGzGfdZqhOFol(e, t, n) {
+		yuwjZwjxJqHEcz(e, t, n) {
 			let r = pn(t - e);
 			return r > n && (r = n), r < -n && (r = -n), e + r;
 		}
 		getCanSpawnHere() {
 			return !0;
 		}
-		PvZDGSjrmPfdqx() {
+		PWmOOffDcNRoDT() {
 			return (
 				this.world.checkNoEntityCollision(this.getEntityBoundingBox(), this) &&
 				this.world.getCollidingBoundingBoxes(this, this.getEntityBoundingBox())
@@ -27675,13 +27675,13 @@ var Rne = class {
 				!this.world.isAnyLiquid(this.getEntityBoundingBox())
 			);
 		}
-		FuoYQKiqeEHmfTTTvKowx() {
+		ERJSQAwXLxHBOKIPOwpVz() {
 			return 1;
 		}
-		oLdSfMzjKTfpSNDrnGNS() {
+		yOoikIIxlwFZpAMOZNmV() {
 			return 4;
 		}
-		olzNuJPCYdEkAdLg() {
+		HXaWhGqYvcczPkhd() {
 			if (this.getAttackTarget() == null) return 3;
 			{
 				let e = this.getHealth() - this.getMaxHealth() * 0.33;
@@ -27698,7 +27698,7 @@ var Rne = class {
 		getEquipmentInSlot(e) {
 			return this.equipment[e];
 		}
-		horNxaKiRaandUn(e) {
+		qHbEDcDvWralIxq(e) {
 			return this.equipment[e + 1];
 		}
 		setCurrentItemOrArmor(e, t) {
@@ -27707,9 +27707,9 @@ var Rne = class {
 		getInventory() {
 			return this.equipment;
 		}
-		keOCCRFSrPbdNcVSYcBGRnUHdqrhQ(e) {}
-		YghapVbxEMroOsBUtDapRpPUouZD(e, t) {}
-		rWkoznmKWIdoD(e, t) {
+		fexwdAzjLLxlGimctGUHSWTZdzDYL(e) {}
+		zZqfsEkAjGPeiRJSkxpLXAIVJGTy(e, t) {}
+		xgGQbhXwCdUmY(e, t) {
 			for (let n = 0; n < this.getInventory().length; ++n) {
 				let r = this.getEquipmentInSlot(n),
 					i = this.equipmentDropChances[n] > 1;
@@ -27727,10 +27727,10 @@ var Rne = class {
 				}
 			}
 		}
-		static cHVYeatCIHNrcypz(e) {
+		static rstUbtaacNUSbSEm(e) {
 			return 0;
 		}
-		static FIiuYzrjjHutFWmIkBO(e, t) {
+		static LCXbAXJiDznJpulOtkm(e, t) {
 			switch (e) {
 				case 4:
 					if (t == 0) return H.leather_helmet;
@@ -27767,19 +27767,19 @@ var Rne = class {
 		onInitialSpawn(e, t) {
 			return t;
 		}
-		vGTgNYVvBlus() {
+		MOMTUIthaFoH() {
 			return !1;
 		}
-		PgAdHWvXCPDiuoFsE() {
+		VPCjqpmQLHbKialWq() {
 			this.persistenceRequired = !0;
 		}
-		BNOxQkXRcSHXPOHosDQlyP(e, t) {
+		wHHfeAtHPrkGPyCZBIqEPw(e, t) {
 			this.equipmentDropChances[e] = t;
 		}
-		CgGRVgaAOzVzytgJ(e) {
+		TDqnbQplUHdifbZa(e) {
 			this.canPickUpLoot = e;
 		}
-		sWhZEUnhKLBgPbWSZSV() {
+		nDlMrthFLMubzNIJvUp() {
 			return this.persistenceRequired;
 		}
 		interactFirst(e) {
@@ -27792,29 +27792,29 @@ var Rne = class {
 		interact(e) {
 			return !1;
 		}
-		rxJuSxkyIHvS(e, t) {}
-		MqCBUVgxamvpOfCKLTQjib(t, n) {
+		qXGxFZGMXgOn(e, t) {}
+		lpUFlVQvyrKjGFUVaCsYcu(t, n) {
 			let r;
 			if (t == 99) r = 0;
 			else if (((r = t - 100 + 1), r < 0 || r >= this.equipment.length))
 				return !1;
 			return n != null &&
-				e.cHVYeatCIHNrcypz(n) != r &&
+				e.rstUbtaacNUSbSEm(n) != r &&
 				(r != 4 || !(n.getItem() instanceof Xm))
 				? !1
 				: (this.setCurrentItemOrArmor(r, n), !0);
 		}
-		hRaNUSNFkqPzj() {
-			return this.world.isServer && !this.uVaeyuAViNEY();
+		scwhBhVsnUggx() {
+			return this.world.isServer && !this.xHvDEsvPFFds();
 		}
-		yslHkNe(e) {
+		xdPGRpY(e) {
 			this.dataWatcher.updateObject(15, +!!e);
 		}
-		uVaeyuAViNEY() {
+		xHvDEsvPFFds() {
 			return this.dataWatcher.getWatchableObjectByte(15) != 0;
 		}
 		isEntityInvulnerable(e) {
-			return this.uVaeyuAViNEY() &&
+			return this.xHvDEsvPFFds() &&
 				!e.equals(Bg.OUT_OF_WORLD) &&
 				!e.isCreativePlayer()
 				? !0
@@ -27865,7 +27865,7 @@ var Rne = class {
 					(this.motion.y *= -0.5)),
 				this.fuse-- <= 0
 					? (this.setDead(), this.world.isServer && this.explode())
-					: (this.NcVVdJrPRBhCjwxPoOz(),
+					: (this.nYZUBczXkAhLmzURCVm(),
 						this.world.spawnParticle(
 							R.SMOKE_NORMAL,
 							this.pos.x,
@@ -27890,7 +27890,7 @@ var Rne = class {
 						!0,
 					);
 		}
-		mzWCsThwknHSkU() {
+		owfDtuWQmYIkPb() {
 			return this.tntPlacedBy;
 		}
 		getEyeHeight() {
@@ -28176,7 +28176,7 @@ function Jne(e) {
 }
 var Oh = class extends tm {
 		entityInit() {}
-		ClhRrcwhsvqbdJpColEeT(e) {
+		XyOJTlXIhDyKvOLBQKIXC(e) {
 			let t = Jne(this.getEntityBoundingBox()) * 4;
 			return isNaN(t) && (t = 4), (t *= 64), e < t * t;
 		}
@@ -28232,20 +28232,20 @@ var Oh = class extends tm {
 						(this.ticksAlive = 0),
 						(this.ticksInAir = 0);
 				} else ++this.ticksInAir;
-				let e = new A(this.pos.x, this.pos.y, this.pos.z),
-					t = new A(
+				let e = new k(this.pos.x, this.pos.y, this.pos.z),
+					t = new k(
 						this.pos.x + this.motion.x,
 						this.pos.y + this.motion.y,
 						this.pos.z + this.motion.z,
 					),
 					n = zp(e, t, null, null, null, this.world);
-				(e = new A(this.pos.x, this.pos.y, this.pos.z)),
-					(t = new A(
+				(e = new k(this.pos.x, this.pos.y, this.pos.z)),
+					(t = new k(
 						this.pos.x + this.motion.x,
 						this.pos.y + this.motion.y,
 						this.pos.z + this.motion.z,
 					)),
-					n != null && (t = new A(n.hitVec.x, n.hitVec.y, n.hitVec.z));
+					n != null && (t = new k(n.hitVec.x, n.hitVec.y, n.hitVec.z));
 				let r = null,
 					i = this.world.getEntitiesInAABBexcluding(
 						this,
@@ -28280,7 +28280,7 @@ var Oh = class extends tm {
 				);
 				(this.yaw = Math.atan2(this.motion.z, this.motion.x) + Math.PI / 2),
 					(this.pitch = Math.atan2(o, this.motion.y) - Math.PI / 2);
-				let s = this.AoNpRTNyPeRPCqy();
+				let s = this.wCXkjKIDguInPsB();
 				if (this.inWater) {
 					for (let e = 0; e < 4; ++e) {
 						let e = 0.25;
@@ -28314,13 +28314,13 @@ var Oh = class extends tm {
 					this.setPosition(this.pos.x, this.pos.y, this.pos.z);
 			} else this.setDead();
 		}
-		AoNpRTNyPeRPCqy() {
+		wCXkjKIDguInPsB() {
 			return 0.95;
 		}
 		canBeCollidedWith() {
 			return !0;
 		}
-		GTwAtnDrfDppPEdcKhlRmi() {
+		INkfyNmjqUbDGJiOzHxlIh() {
 			return 1;
 		}
 		attackEntityFrom(e, t) {
@@ -28361,13 +28361,13 @@ var Oh = class extends tm {
 				(this.blockYield = r);
 		}
 	};
-function AxisAlignedBoundingBoxe(e) {
+function Xne(e) {
 	return e == null
 		? null
 		: e instanceof Oh
 			? (e.shootingEntity ?? null)
 			: e instanceof uh
-				? e.mzWCsThwknHSkU()
+				? e.owfDtuWQmYIkPb()
 				: e instanceof fm
 					? e
 					: null;
@@ -28407,8 +28407,8 @@ var Zne = class {
 								if (!n.getBlock().isAir()) {
 									let e =
 										this.exploder == null
-											? n.getBlock().nXubDPrYqeYiEvwOfmPDue(null)
-											: this.exploder.nXubDPrYqeYiEvwOfmPDue(
+											? n.getBlock().ywhkOtzAXiOqttEOUBPyJN(null)
+											: this.exploder.ywhkOtzAXiOqttEOUBPyJN(
 													this,
 													this.worldObj,
 													t,
@@ -28418,7 +28418,7 @@ var Zne = class {
 								}
 								c > 0 &&
 									(this.exploder == null ||
-										this.exploder.nomorLyvykVEMJa(
+										this.exploder.jZRwDhLNogOjpHT(
 											this,
 											this.worldObj,
 											t,
@@ -28441,14 +28441,14 @@ var Zne = class {
 				s = Math.floor(this.explosionZ + t + 1),
 				c = this.worldObj.getEntitiesWithinAABB(
 					null,
-					new AxisAlignedBoundingBox(new A(n, i, o), new A(r, a, s)),
+					new AxisAlignedBoundingBox(new k(n, i, o), new k(r, a, s)),
 				),
-				l = new A(this.explosionX, this.explosionY, this.explosionZ);
+				l = new k(this.explosionX, this.explosionY, this.explosionZ);
 			for (let e = 0; e < c.length; ++e) {
 				let n = c[e];
-				if (!n.mifeyctHenUdwcjTBuKw()) {
+				if (!n.RWQTsZTDTPBandqGicUu()) {
 					let e =
-						n.WCnTqdMsbQT(this.explosionX, this.explosionY, this.explosionZ) /
+						n.UuxRUXVuYkO(this.explosionX, this.explosionY, this.explosionZ) /
 						t;
 					if (e <= 1) {
 						let r = n.pos.x - this.explosionX,
@@ -28472,7 +28472,7 @@ var Zne = class {
 								(n.motion.z += a * u),
 								n instanceof Rg &&
 									!n.abilities.invulnerable &&
-									this.playerKnockbackMap.set(n, new A(r * c, i * c, a * c));
+									this.playerKnockbackMap.set(n, new k(r * c, i * c, a * c));
 						}
 					}
 				}
@@ -28483,7 +28483,7 @@ var Zne = class {
 				`random.explode`,
 				0.5,
 				(1 + (Math.random() - Math.random()) * 0.2) * 0.7,
-				new A(this.explosionX, this.explosionY, this.explosionZ),
+				new k(this.explosionX, this.explosionY, this.explosionZ),
 			);
 			let t =
 				this.explosionSize >= 2 && this.isSmoking
@@ -28531,7 +28531,7 @@ var Zne = class {
 			if (this.isSmoking) {
 				let t = new Yne(
 					this.exploder,
-					new A(this.explosionX, this.explosionY, this.explosionZ),
+					new k(this.explosionX, this.explosionY, this.explosionZ),
 					this.affectedBlockPositions.map((e) => this.worldObj.getLiveBlock(e)),
 					0.5,
 				);
@@ -28573,7 +28573,7 @@ var Zne = class {
 			return { x: this.explosionX, y: this.explosionY, z: this.explosionZ };
 		}
 		getExplosivePlacedBy() {
-			return AxisAlignedBoundingBoxe(this.exploder);
+			return Xne(this.exploder);
 		}
 		func_180342_d() {
 			this.affectedBlockPositions.length = 0;
@@ -28864,7 +28864,7 @@ var Fh = { lowerXZ: 0.1, upperXZ: 0.9, lowerY: 0.4, upperY: 0.6 },
 			return this.getBlock(e).isAir();
 		}
 		areaPassesCheck(e, t, n) {
-			for (let r of I.vuuHAcyHhlm(e, t)) if (!n(this.getBlock(r))) return !1;
+			for (let r of I.HHbMqrKkrxe(e, t)) if (!n(this.getBlock(r))) return !1;
 			return !0;
 		}
 		setBlockState(e, t, n = 3) {
@@ -28980,7 +28980,7 @@ var Fh = { lowerXZ: 0.1, upperXZ: 0.9, lowerY: 0.4, upperY: 0.6 },
 			if (!e) return;
 			let r = e.getPlaceSound(),
 				{ volume: i, frequency: a } = e,
-				o = t.add(new A(0.5, 0.5, 0.5));
+				o = t.add(new k(0.5, 0.5, 0.5));
 			this.playSoundAtPositionClientSidePredicted(r, i, a, o, n);
 		}
 		spawnEntityInWorld(e) {
@@ -29028,7 +29028,7 @@ var Fh = { lowerXZ: 0.1, upperXZ: 0.9, lowerY: 0.4, upperY: 0.6 },
 			return null;
 		}
 		getEntityItem(e, t, n) {
-			return new Sm(this, e, new A(t.x, t.y + n, t.z));
+			return new Sm(this, e, new k(t.x, t.y + n, t.z));
 		}
 		getServer() {
 			throw `Not implemented`;
@@ -29088,7 +29088,7 @@ var Fh = { lowerXZ: 0.1, upperXZ: 0.9, lowerY: 0.4, upperY: 0.6 },
 			this.materialAccelPos = new I(0, 0, 0);
 		}
 		static {
-			this.materialAccelVec = new A();
+			this.materialAccelVec = new k();
 		}
 		static {
 			this.collisionScratchPos = new I(0, 0, 0);
@@ -29097,7 +29097,7 @@ var Fh = { lowerXZ: 0.1, upperXZ: 0.9, lowerY: 0.4, upperY: 0.6 },
 			this.scanScratchPos = new I(0, 0, 0);
 		}
 		static {
-			this.entityNearScratchBox = new AxisAlignedBoundingBox(new A(), new A());
+			this.entityNearScratchBox = new AxisAlignedBoundingBox(new k(), new k());
 		}
 		getCollidingBoundingBoxes(t, n) {
 			let r = n,
@@ -29130,7 +29130,7 @@ var Fh = { lowerXZ: 0.1, upperXZ: 0.9, lowerY: 0.4, upperY: 0.6 },
 									n.min.y <= d &&
 									n.max.z >= l &&
 									n.min.z <= f &&
-									i.push(new AxisAlignedBoundingBox(new A(t, s, l), new A(u, d, f)));
+									i.push(new AxisAlignedBoundingBox(new k(t, s, l), new k(u, d, f)));
 								continue;
 							}
 							e.collisionScratchPos.setInt(r, o, a),
@@ -29555,7 +29555,7 @@ var Fh = { lowerXZ: 0.1, upperXZ: 0.9, lowerY: 0.4, upperY: 0.6 },
 		countEntities(e) {
 			let t = 0;
 			for (let n of this.loadedEntityList)
-				(!(n instanceof lh) || !n.sWhZEUnhKLBgPbWSZSV()) &&
+				(!(n instanceof lh) || !n.nDlMrthFLMubzNIJvUp()) &&
 					e == n.creatureClass &&
 					++t;
 			return t;
@@ -29563,7 +29563,7 @@ var Fh = { lowerXZ: 0.1, upperXZ: 0.9, lowerY: 0.4, upperY: 0.6 },
 		countCreatureClasses() {
 			let e = new Map();
 			for (let t of this.loadedEntityList) {
-				if (t instanceof lh && t.sWhZEUnhKLBgPbWSZSV()) continue;
+				if (t instanceof lh && t.nDlMrthFLMubzNIJvUp()) continue;
 				let n = t.creatureClass;
 				n != null && e.set(n, (e.get(n) ?? 0) + 1);
 			}
@@ -29642,7 +29642,7 @@ var Fh = { lowerXZ: 0.1, upperXZ: 0.9, lowerY: 0.4, upperY: 0.6 },
 							let i = t.min.x + (t.max.x - t.min.x) * l,
 								u = t.min.y + (t.max.y - t.min.y) * n,
 								d = t.min.z + (t.max.z - t.min.z) * r;
-							zp(new A(i + a, u, d + o), e, !1, !1, !1, this) ?? ++s, ++c;
+							zp(new k(i + a, u, d + o), e, !1, !1, !1, this) ?? ++s, ++c;
 						}
 				return s / c;
 			} else return 0;
@@ -29694,7 +29694,7 @@ var Fh = { lowerXZ: 0.1, upperXZ: 0.9, lowerY: 0.4, upperY: 0.6 },
 			) {
 				(e.prevPitch = e.pitch),
 					(e.prevYaw = e.yaw),
-					t && (++e.ticksExisted, e.isRiding() ? e.swNrqDxZYpra() : e.update());
+					t && (++e.ticksExisted, e.isRiding() ? e.hygaNHyRGPHo() : e.update());
 				let n = Math.floor(e.pos.x / 16),
 					r = Math.floor(e.pos.y / 16),
 					i = Math.floor(e.pos.z / 16);
@@ -29925,7 +29925,7 @@ var Fh = { lowerXZ: 0.1, upperXZ: 0.9, lowerY: 0.4, upperY: 0.6 },
 						return r.sendMessage(`This bed is occupied`), !0;
 					(n = n.withState(`occupied`, !1)), e.setBlockState(t, n, 4);
 				}
-				let i = r.LnoTWxEU(t);
+				let i = r.LvHTUuJl(t);
 				return i == Lg.OK
 					? ((n = n.withState(`occupied`, !0)), e.setBlockState(t, n, 4), !0)
 					: (i == Lg.NOT_POSSIBLE_NOW
@@ -30493,11 +30493,11 @@ var ng = class e extends Vd {
 					if (
 						o.getItemStack() != null &&
 						(n == 0 &&
-							(i.aFDmUTFVhyWFaIIAX(o.getItemStack()), o.setItemStack(null)),
+							(i.TdEdSpivUsSjWdkZA(o.getItemStack()), o.setItemStack(null)),
 						n == 1)
 					) {
 						let e = o.getItemStack();
-						i.aFDmUTFVhyWFaIIAX(e.splitStack(1)),
+						i.TdEdSpivUsSjWdkZA(e.splitStack(1)),
 							o.getItemStack().stackSize == 0 && o.setItemStack(null);
 					}
 				} else if (r == 1) {
@@ -30576,7 +30576,7 @@ var ng = class e extends Vd {
 						r = t == null || (e.inventory === o && e.isItemValid(t)),
 						a = -1;
 					if (
-						(r || ((a = o.iEfdrEsfuCPQLXjxBA()), (r ||= a > -1)),
+						(r || ((a = o.TRKBGedAXhSXcglBsF()), (r ||= a > -1)),
 						e.getHasStack() && r)
 					) {
 						let r = e.getStack();
@@ -30973,7 +30973,7 @@ var og = class {
 	},
 	sg = 4,
 	cg = 40,
-	jre = 40,
+	AxisAlignedBoundingBoxe = 40,
 	Mre = 44,
 	Nre = 44,
 	Pre = 45,
@@ -30987,7 +30987,7 @@ var og = class {
 				(this.thePlayer = n),
 				(this.craftMatrix = new wre(this, 2, 2)),
 				(this.craftResult = new Tre());
-			let r = e.mainInventory.length + e.rgREGshdpLVqpR.length - 1;
+			let r = e.mainInventory.length + e.BxPJLLkKaPicaJ.length - 1;
 			for (let t = 0; t < 4; ++t)
 				this.addSlotToContainer(new Ore(e, r - t, 8, 8 + t * 18));
 			this.addPlayerInventorySlots(e, 84);
@@ -31040,7 +31040,7 @@ var og = class {
 					if (!this.mergeItemStack(n, sg, cg, !1)) return !1;
 				} else if (t >= lg) {
 					if (!this.mergeItemStack(n, sg, cg, !1)) return !1;
-				} else if (t >= jre && t < Mre) {
+				} else if (t >= AxisAlignedBoundingBoxe && t < Mre) {
 					if (!this.mergeItemStack(n, sg, cg, !1)) return !1;
 				} else if (t >= 0 && t < 4) {
 					if (!this.mergeItemStack(n, sg, cg, !1)) return !1;
@@ -31180,7 +31180,7 @@ var Bre = class extends Xd {
 		}
 		onItemRightClick(e, t, n) {
 			return (
-				n.JkGYCM(this.alwaysEdible) &&
+				n.BhlBaE(this.alwaysEdible) &&
 					n.setItemInUse(e, this.getMaxItemUseDuration(e)),
 				e
 			);
@@ -31518,8 +31518,8 @@ function fie(e, t, n) {
 			(a = !0)),
 		typeof n.boost == `number` &&
 			n.boost > 0 &&
-			(e.SeOedoBgnd !== 0 || e.moveForward !== 0) &&
-			(e.zFHHwQUNLp(e.SeOedoBgnd, e.moveForward, Math.min(n.boost, i)),
+			(e.qrBHjSOqfq !== 0 || e.moveForward !== 0) &&
+			(e.kEXyDjhpNw(e.qrBHjSOqfq, e.moveForward, Math.min(n.boost, i)),
 			(a = !0)),
 		a && n.thrust !== !1
 	);
@@ -31660,7 +31660,7 @@ var bg = (function (e) {
 						: n != Dh.PEACEFUL &&
 							(this.foodLevel = Math.max(this.foodLevel - 1, 0)));
 			let r = (n === Dh.HARD ? 100 : 80) / e.REGEN_STEPS;
-			this.foodLevel >= 18 && t.amfqTZpfgV()
+			this.foodLevel >= 18 && t.ddndHxLkjG()
 				? (++this.foodTimer,
 					this.foodTimer >= r &&
 						(t.heal(1 / e.REGEN_STEPS),
@@ -31724,7 +31724,7 @@ var bg = (function (e) {
 		continueExecuting() {
 			return this.shouldExecute();
 		}
-		WSvouFngGXIxGLc() {
+		DokhvdcHieimLPR() {
 			return !0;
 		}
 		startExecuting() {}
@@ -31733,7 +31733,7 @@ var bg = (function (e) {
 		setMutexBits(e) {
 			this.mutexBits = e;
 		}
-		eHsiYSQjtDVS() {
+		YBabqmfjpjsk() {
 			return this.mutexBits;
 		}
 	},
@@ -31742,19 +31742,19 @@ var bg = (function (e) {
 			super(), (this.childAnimal = e), (this.moveSpeed = t);
 		}
 		shouldExecute() {
-			if (this.childAnimal.VYMmeQHqgnWCl() >= 0) return !1;
+			if (this.childAnimal.uWaVKwYyhfbZh() >= 0) return !1;
 			{
 				let e = this.childAnimal.world.getEntitiesWithinAABB(
 						this.childAnimal.type,
 						this.childAnimal
 							.getEntityBoundingBox()
 							.clone()
-							.expandByVector(new A(8, 4, 8)),
+							.expandByVector(new k(8, 4, 8)),
 					),
 					t = null,
 					n = Number.MAX_VALUE;
 				for (let r of e)
-					if (r.VYMmeQHqgnWCl() >= 0) {
+					if (r.uWaVKwYyhfbZh() >= 0) {
 						let e = this.childAnimal.getDistanceSqToEntity(r);
 						e <= n && ((n = e), (t = r));
 					}
@@ -31762,7 +31762,7 @@ var bg = (function (e) {
 			}
 		}
 		continueExecuting() {
-			if (!this.parentAnimal || this.childAnimal.VYMmeQHqgnWCl() >= 0)
+			if (!this.parentAnimal || this.childAnimal.uWaVKwYyhfbZh() >= 0)
 				return !1;
 			if (this.parentAnimal.isEntityAlive()) {
 				let e = this.childAnimal.getDistanceSqToEntity(this.parentAnimal);
@@ -31804,7 +31804,7 @@ var bg = (function (e) {
 			this.idleTime--,
 				this.idleEntity
 					.getLookHelper()
-					.BHahVaunxolqqID(
+					.vchZmNqkYBDlbsM(
 						this.idleEntity.pos.x + this.lookX,
 						this.idleEntity.pos.y + this.idleEntity.getEyeHeight(),
 						this.idleEntity.pos.z + this.lookZ,
@@ -31823,8 +31823,8 @@ var bg = (function (e) {
 				this.setMutexBits(3);
 		}
 		shouldExecute() {
-			if (this.theAnimal.rVriSmUG()) {
-				let e = this.ogTHEIbmtRQiq();
+			if (this.theAnimal.HWCMaAoR()) {
+				let e = this.ejBVWlFCXZroS();
 				return e == null ? !1 : ((this.targetMate = e), !0);
 			} else return !1;
 		}
@@ -31832,7 +31832,7 @@ var bg = (function (e) {
 			return (
 				!!this.targetMate &&
 				this.targetMate.isEntityAlive() &&
-				this.targetMate.rVriSmUG() &&
+				this.targetMate.HWCMaAoR() &&
 				this.spawnBabyDelay < 60
 			);
 		}
@@ -31854,9 +31854,9 @@ var bg = (function (e) {
 				++this.spawnBabyDelay,
 				this.spawnBabyDelay >= 60 &&
 					this.theAnimal.getDistanceSqToEntity(this.targetMate) < 9 &&
-					this.jbRjCQnAt());
+					this.WOuJWAxZz());
 		}
-		ogTHEIbmtRQiq() {
+		ejBVWlFCXZroS() {
 			let e = this.theWorld.getEntitiesWithinAABB(
 					this.theAnimal.type,
 					this.theAnimal.getEntityBoundingBox().clone().expandByScalar(8),
@@ -31864,12 +31864,12 @@ var bg = (function (e) {
 				t = Number.MAX_VALUE,
 				n = null;
 			for (let r of e)
-				this.theAnimal.fFLqToBVHed(r) &&
+				this.theAnimal.bkUhlUEXzPa(r) &&
 					this.theAnimal.getDistanceSqToEntity(r) < t &&
 					((n = r), (t = this.theAnimal.getDistanceSqToEntity(r)));
 			return n;
 		}
-		jbRjCQnAt() {
+		WOuJWAxZz() {
 			if (
 				!this.targetMate ||
 				(this.theWorld.isServer &&
@@ -31878,15 +31878,15 @@ var bg = (function (e) {
 				return;
 			let e = this.theAnimal.createChild(this.targetMate);
 			if (e != null) {
-				let t = this.theAnimal.FzImpQCWSSqxsBn();
+				let t = this.theAnimal.UQhXGUYbLBYupEe();
 				t == null &&
-					this.targetMate.FzImpQCWSSqxsBn() != null &&
-					(t = this.targetMate.FzImpQCWSSqxsBn()),
-					this.theAnimal.rDKAyqhFfCXKV(6e3),
-					this.targetMate.rDKAyqhFfCXKV(6e3),
-					this.theAnimal.fivFnUmTNkX(),
-					this.targetMate.fivFnUmTNkX(),
-					e.rDKAyqhFfCXKV(-24e3),
+					this.targetMate.UQhXGUYbLBYupEe() != null &&
+					(t = this.targetMate.UQhXGUYbLBYupEe()),
+					this.theAnimal.wxPCBxbIUGKUt(6e3),
+					this.targetMate.wxPCBxbIUGKUt(6e3),
+					this.theAnimal.mlawLWKBfAh(),
+					this.targetMate.mlawLWKBfAh(),
+					e.wxPCBxbIUGKUt(-24e3),
 					e.setLocationAndAngles(
 						this.theAnimal.pos.x,
 						this.theAnimal.pos.y,
@@ -31926,36 +31926,36 @@ var bg = (function (e) {
 	},
 	Tg = class {
 		static {
-			this.staticVector = new A();
+			this.staticVector = new k();
 		}
-		static uGWjDGNiyvSqPftY(e, t, n) {
-			return this.XfxCgRjkwkAyymFnCySHC(e, t, n, null);
+		static AWAXseHaqDgVOuwL(e, t, n) {
+			return this.wBxhxamGymeCuDMQvoKLa(e, t, n, null);
 		}
-		static RWgunRkBXaxIFDMFkLrQuhAKpiIp(e, t, n, r) {
+		static IhnmgJyvYWxyTuHfGtmnnHEaQbrT(e, t, n, r) {
 			return (
-				(this.staticVector = r.sub(new A(e.pos.x, e.pos.y, e.pos.z))),
-				this.XfxCgRjkwkAyymFnCySHC(e, t, n, this.staticVector)
+				(this.staticVector = r.sub(new k(e.pos.x, e.pos.y, e.pos.z))),
+				this.wBxhxamGymeCuDMQvoKLa(e, t, n, this.staticVector)
 			);
 		}
-		static qjsLUVaWkJqhtRSevjlayQAIqOgRZ(e, t, n, r) {
+		static RngZTZcNSbStepSxQIBvvanuGQjlB(e, t, n, r) {
 			return (
-				(this.staticVector = new A(e.pos.x, e.pos.y, e.pos.z).sub(r)),
-				this.XfxCgRjkwkAyymFnCySHC(e, t, n, this.staticVector)
+				(this.staticVector = new k(e.pos.x, e.pos.y, e.pos.z).sub(r)),
+				this.wBxhxamGymeCuDMQvoKLa(e, t, n, this.staticVector)
 			);
 		}
-		static XfxCgRjkwkAyymFnCySHC(e, t, n, r) {
+		static wBxhxamGymeCuDMQvoKLa(e, t, n, r) {
 			let i = !1,
 				a = 0,
 				o = 0,
 				s = 0,
 				c = -99999,
 				l;
-			if (e.AydNHEV()) {
+			if (e.ILvjTYO()) {
 				let n =
 						e
-							.VYLrpaTIyfgblDo()
+							.ditQKzdttVcEZwz()
 							.distanceToSquared(new I(e.pos.x, e.pos.y, e.pos.z)) + 4,
-					r = e.QUfTEJwccYtcQiXLhHjpbA() + t;
+					r = e.QhvTQZKvQXlgYNbXKPGupX() + t;
 				l = n < r * r;
 			} else l = !1;
 			for (let u = 0; u < 10; u++) {
@@ -31963,8 +31963,8 @@ var bg = (function (e) {
 					d = Gm(2 * n + 1) - n,
 					f = Gm(2 * t + 1) - t;
 				if (!r || u * r.x + f * r.z >= 0) {
-					if (e.AydNHEV() && t > 1) {
-						let n = e.VYLrpaTIyfgblDo();
+					if (e.ILvjTYO() && t > 1) {
+						let n = e.ditQKzdttVcEZwz();
 						e.pos.x > n.x ? (u -= Gm(t / 2)) : (u += Gm(t / 2)),
 							e.pos.z > n.z ? (f -= Gm(t / 2)) : (f += Gm(t / 2));
 					}
@@ -31972,8 +31972,8 @@ var bg = (function (e) {
 						(d += Math.floor(e.pos.y)),
 						(f += Math.floor(e.pos.z));
 					let n = new I(u, d, f);
-					if (!l || e.utqtCZmcuTgnQMhCHEsRfggizFWKUrbq(n)) {
-						let t = e.wKMmeAzfbhfuhgvCah(n);
+					if (!l || e.sERiBDWLfdkxhyyGmquxQVDCMzqRYoJp(n)) {
+						let t = e.hedNlDBdCEQJqOPZGg(n);
 						t > c && ((c = t), (a = u), (o = d), (s = f), (i = !0));
 					}
 				}
@@ -31990,12 +31990,12 @@ var bg = (function (e) {
 		}
 		shouldExecute() {
 			if (
-				this.theEntityCreature.vBVquRnGOBG() == null &&
+				this.theEntityCreature.TAxPuwtWUdm() == null &&
 				!this.theEntityCreature.isBurning()
 			)
 				return !1;
 			{
-				let e = Tg.uGWjDGNiyvSqPftY(this.theEntityCreature, 5, 4);
+				let e = Tg.AWAXseHaqDgVOuwL(this.theEntityCreature, 5, 4);
 				return e == null
 					? !1
 					: ((this.randPosX = e.x),
@@ -32024,7 +32024,7 @@ var bg = (function (e) {
 			return this.theEntity.inWater || this.theEntity.inLava;
 		}
 		updateTask() {
-			Math.random() < 0.8 && this.theEntity.UiMTIcsFFWIBp().VjQwGQIJcb();
+			Math.random() < 0.8 && this.theEntity.WEaSdbGuuOdBw().tLRIHYxLcI();
 		}
 	},
 	Dg = class extends Sg {
@@ -32060,7 +32060,7 @@ var bg = (function (e) {
 				if (this.temptedEntity.pos.distanceTo(this.temptingPlayer.pos) < 36) {
 					if (
 						this.temptingPlayer.pos.distanceToSquared(
-							new A(this.targetX, this.targetY, this.targetZ),
+							new k(this.targetX, this.targetY, this.targetZ),
 						) > 0.01 ||
 						Math.abs(this.temptingPlayer.pitch - this.pitch) > sh(5) ||
 						Math.abs(this.temptingPlayer.yaw - this.yaw) > sh(5)
@@ -32116,10 +32116,10 @@ var bg = (function (e) {
 		shouldExecute() {
 			if (
 				!this.mustUpdate &&
-				(this.entity.tFQNVf() >= 100 || Gm(this.executionChance) != 0)
+				(this.entity.VxSbcA() >= 100 || Gm(this.executionChance) != 0)
 			)
 				return !1;
-			let e = Tg.uGWjDGNiyvSqPftY(this.entity, 10, 7);
+			let e = Tg.AWAXseHaqDgVOuwL(this.entity, 10, 7);
 			return e == null
 				? !1
 				: ((this.xPosition = e.x),
@@ -32141,10 +32141,10 @@ var bg = (function (e) {
 					this.speed,
 				);
 		}
-		XLOqaauBRy() {
+		MYfmPnNzMA() {
 			this.mustUpdate = !0;
 		}
-		MStpOxibVBXULkreYR(e) {
+		NROZgLyKowcoeAIKrr(e) {
 			this.executionChance = e;
 		}
 	},
@@ -32174,7 +32174,7 @@ var bg = (function (e) {
 									this.theWatcher
 										.getEntityBoundingBox()
 										.expandByVector(
-											new A(
+											new k(
 												this.maxDistanceForPlayer,
 												3,
 												this.maxDistanceForPlayer,
@@ -32201,7 +32201,7 @@ var bg = (function (e) {
 		updateTask() {
 			this.theWatcher
 				.getLookHelper()
-				.BHahVaunxolqqID(
+				.vchZmNqkYBDlbsM(
 					this.closestEntity.pos.x,
 					this.closestEntity.pos.y + this.closestEntity.getEyeHeight(),
 					this.closestEntity.pos.z,
@@ -32215,18 +32215,18 @@ var bg = (function (e) {
 		constructor(e, t) {
 			super(),
 				(this.theEntity = e),
-				(this.EaoLIuupWbDul = t),
+				(this.iyhlGlpOTgPEH = t),
 				this.setMutexBits(1);
 		}
 		shouldExecute() {
-			if (this.theEntity.OeahzKuuoYbJYLCESbhHVQWcvYClevhTzMh()) return !1;
+			if (this.theEntity.IeEoTFhKaMqYbtoOqSWVPXqFrWpBhqOUaDs()) return !1;
 			{
-				let e = this.theEntity.VYLrpaTIyfgblDo(),
-					t = Tg.RWgunRkBXaxIFDMFkLrQuhAKpiIp(
+				let e = this.theEntity.ditQKzdttVcEZwz(),
+					t = Tg.IhnmgJyvYWxyTuHfGtmnnHEaQbrT(
 						this.theEntity,
 						16,
 						7,
-						new A(e.x, e.y, e.z),
+						new k(e.x, e.y, e.z),
 					);
 				return t == null
 					? !1
@@ -32246,7 +32246,7 @@ var bg = (function (e) {
 					this.movePosX,
 					this.movePosY,
 					this.movePosZ,
-					this.EaoLIuupWbDul,
+					this.iyhlGlpOTgPEH,
 				);
 		}
 	},
@@ -32258,48 +32258,48 @@ var bg = (function (e) {
 				(this.aiBase = new Ag(this, 1)),
 				(this.isMovementAITaskSet = !1);
 		}
-		wKMmeAzfbhfuhgvCah(e) {
+		hedNlDBdCEQJqOPZGg(e) {
 			return 0;
 		}
 		getCanSpawnHere() {
 			return (
 				super.getCanSpawnHere() &&
-				this.wKMmeAzfbhfuhgvCah(
+				this.hedNlDBdCEQJqOPZGg(
 					new I(this.pos.x, this.getEntityBoundingBox().min.y, this.pos.z),
 				) >= 0
 			);
 		}
-		bfqaeLL() {
+		FiLHrnp() {
 			return !this.navigator.noPath();
 		}
-		OeahzKuuoYbJYLCESbhHVQWcvYClevhTzMh() {
-			return this.utqtCZmcuTgnQMhCHEsRfggizFWKUrbq(
+		IeEoTFhKaMqYbtoOqSWVPXqFrWpBhqOUaDs() {
+			return this.sERiBDWLfdkxhyyGmquxQVDCMzqRYoJp(
 				new I(this.pos.x, this.pos.y, this.pos.z),
 			);
 		}
-		utqtCZmcuTgnQMhCHEsRfggizFWKUrbq(e) {
+		sERiBDWLfdkxhyyGmquxQVDCMzqRYoJp(e) {
 			return this.maximumHomeDistance === -1
 				? !0
 				: this.homePosition.distanceToSquared(e) <
 						this.maximumHomeDistance * this.maximumHomeDistance;
 		}
-		lQbwPKpJTGGYhbikkRwgY(e, t) {
+		GGXeBeuJIXWjcGKzULsZj(e, t) {
 			(this.homePosition = e), (this.maximumHomeDistance = t);
 		}
-		VYLrpaTIyfgblDo() {
+		ditQKzdttVcEZwz() {
 			return this.homePosition;
 		}
-		QUfTEJwccYtcQiXLhHjpbA() {
+		QhvTQZKvQXlgYNbXKPGupX() {
 			return this.maximumHomeDistance;
 		}
-		khsmXazSsY() {
+		MUztZtjSPt() {
 			this.maximumHomeDistance = -1;
 		}
-		AydNHEV() {
+		ILvjTYO() {
 			return this.maximumHomeDistance !== -1;
 		}
-		vIlCVolVKsBACBkAjt() {}
-		AZDfqdvZyXfeK(e) {}
+		SsxPCsjWbERvLzJXpk() {}
+		aaWEGVHTSGlMd(e) {}
 	},
 	Mg = class extends jg {
 		constructor(e) {
@@ -32315,37 +32315,37 @@ var bg = (function (e) {
 		entityInit() {
 			super.entityInit(), this.dataWatcher.addObject(12, 0);
 		}
-		VYMmeQHqgnWCl() {
+		uWaVKwYyhfbZh() {
 			return this.world.isClient
 				? this.dataWatcher.getWatchableObjectByte(12)
 				: this.growingAge;
 		}
-		SInYcvJRu(e, t) {
-			let n = this.VYMmeQHqgnWCl(),
+		XiXKQTPxG(e, t) {
+			let n = this.uWaVKwYyhfbZh(),
 				r = n;
-			(n += e * 20), n > 0 && ((n = 0), r < 0 && this.YKXPswpYIjJkFs());
+			(n += e * 20), n > 0 && ((n = 0), r < 0 && this.NqihpVyxTOtESw());
 			let i = n - r;
-			this.rDKAyqhFfCXKV(n),
+			this.wxPCBxbIUGKUt(n),
 				t &&
 					((this.ageDelta += i), this.ageDelta2 === 0 && (this.ageDelta2 = 40)),
-				this.VYMmeQHqgnWCl() === 0 && this.rDKAyqhFfCXKV(this.ageDelta);
+				this.uWaVKwYyhfbZh() === 0 && this.wxPCBxbIUGKUt(this.ageDelta);
 		}
-		zcPFZQUkb(e) {
-			this.SInYcvJRu(e, !1);
+		yHGrDrYDn(e) {
+			this.XiXKQTPxG(e, !1);
 		}
-		rDKAyqhFfCXKV(e) {
+		wxPCBxbIUGKUt(e) {
 			this.dataWatcher.updateObject(12, Math.min(Math.max(e, -1), 1)),
 				(this.growingAge = e),
-				this.ofANaZVZfAXHoT(this.isChild());
+				this.QYxUOdpNaxqdCF(this.isChild());
 		}
 		writeEntityToNBT(e) {
 			super.writeEntityToNBT(e),
-				(e.Age = L.int(this.VYMmeQHqgnWCl())),
+				(e.Age = L.int(this.uWaVKwYyhfbZh())),
 				(e.ForcedAge = L.int(this.ageDelta));
 		}
 		readEntityFromNBT(e) {
 			super.readEntityFromNBT(e),
-				this.rDKAyqhFfCXKV(e.Age),
+				this.wxPCBxbIUGKUt(e.Age),
 				(this.ageDelta = e.ForcedAge);
 		}
 		onLivingUpdate() {
@@ -32362,26 +32362,26 @@ var bg = (function (e) {
 							0,
 						),
 					--this.ageDelta2),
-					this.ofANaZVZfAXHoT(this.isChild());
+					this.QYxUOdpNaxqdCF(this.isChild());
 			else {
-				let e = this.VYMmeQHqgnWCl();
+				let e = this.uWaVKwYyhfbZh();
 				e < 0
-					? (++e, this.rDKAyqhFfCXKV(e), e === 0 && this.YKXPswpYIjJkFs())
-					: e > 0 && (--e, this.rDKAyqhFfCXKV(e));
+					? (++e, this.wxPCBxbIUGKUt(e), e === 0 && this.NqihpVyxTOtESw())
+					: e > 0 && (--e, this.wxPCBxbIUGKUt(e));
 			}
 		}
-		YKXPswpYIjJkFs() {}
+		NqihpVyxTOtESw() {}
 		isChild() {
-			return this.VYMmeQHqgnWCl() < 0;
+			return this.uWaVKwYyhfbZh() < 0;
 		}
-		ofANaZVZfAXHoT(e) {
-			this.fwMHTIfe(e ? 0.5 : 1);
+		QYxUOdpNaxqdCF(e) {
+			this.tFiHuKfi(e ? 0.5 : 1);
 		}
 		setSize(e, t) {
 			let n = this.ageWidth > 0;
-			(this.ageWidth = e), (this.ageHeight = t), n || this.fwMHTIfe(1);
+			(this.ageWidth = e), (this.ageHeight = t), n || this.tFiHuKfi(1);
 		}
-		fwMHTIfe(e) {
+		tFiHuKfi(e) {
 			super.setSize(this.ageWidth * e, this.ageHeight * e);
 		}
 	},
@@ -32393,10 +32393,10 @@ var bg = (function (e) {
 				(this.playerInLove = null),
 				(this.creatureClass = `animal`);
 		}
-		kAEmeotQQyBTR() {
-			this.VYMmeQHqgnWCl() !== 0 && (this.inLove = 0), super.kAEmeotQQyBTR();
+		JwGYcDEliflXC() {
+			this.uWaVKwYyhfbZh() !== 0 && (this.inLove = 0), super.JwGYcDEliflXC();
 		}
-		aSKrOPclVeelDUPpFHHGX(e) {
+		zqOPLFvNirLpilZxCtdRt(e) {
 			this.tasks.addTask(e.swimmingPriority ?? 0, new Eg(this)),
 				this.tasks.addTask(e.panic.priority, new _ie(this, e.panic.speed)),
 				this.tasks.addTask(e.mate.priority, new wg(this, e.mate.speed));
@@ -32431,7 +32431,7 @@ var bg = (function (e) {
 		onLivingUpdate() {
 			if (
 				(super.onLivingUpdate(),
-				this.VYMmeQHqgnWCl() !== 0 && (this.inLove = 0),
+				this.uWaVKwYyhfbZh() !== 0 && (this.inLove = 0),
 				this.inLove > 0 && (this.inLove--, this.inLove % 10 == 0))
 			) {
 				let e = ln() * 0.02,
@@ -32453,7 +32453,7 @@ var bg = (function (e) {
 				? !1
 				: ((this.inLove = 0), super.attackEntityFrom(e, t));
 		}
-		wKMmeAzfbhfuhgvCah(e) {
+		hedNlDBdCEQJqOPZGg(e) {
 			return this.world.getBlockState(e.down()).getBlock() === U.grass_block
 				? 10
 				: this.world.getLightBrightness(e) - 0.5;
@@ -32475,10 +32475,10 @@ var bg = (function (e) {
 				super.getCanSpawnHere()
 			);
 		}
-		ZUrydakrEjOwAdP() {
+		LqtJqzObnUOSbsZ() {
 			return 120;
 		}
-		gJvUYPhfTS() {
+		yvZJAqSxQg() {
 			return !1;
 		}
 		getExperiencePoints(e) {
@@ -32492,15 +32492,15 @@ var bg = (function (e) {
 			if (t) {
 				if (
 					this.isBreedingItem(t) &&
-					this.VYMmeQHqgnWCl() === 0 &&
+					this.uWaVKwYyhfbZh() === 0 &&
 					this.inLove <= 0
 				)
-					return this.rocSQpMbbomeBJQwHzIb(e, t), this.zvdFnBUZN(e), !0;
+					return this.tZCTjcokBuWYlmDdvvDF(e, t), this.UkITAdYsT(e), !0;
 				if (this.isChild() && this.isBreedingItem(t))
 					return (
-						this.rocSQpMbbomeBJQwHzIb(e, t),
-						this.SInYcvJRu(
-							(0, Hd.toInteger)(-((this.VYMmeQHqgnWCl() / 20) * 0.1)),
+						this.tZCTjcokBuWYlmDdvvDF(e, t),
+						this.XiXKQTPxG(
+							(0, Hd.toInteger)(-((this.uWaVKwYyhfbZh() / 20) * 0.1)),
 							!0,
 						),
 						!0
@@ -32508,7 +32508,7 @@ var bg = (function (e) {
 			}
 			return super.interact(e);
 		}
-		rocSQpMbbomeBJQwHzIb(e, t) {
+		tZCTjcokBuWYlmDdvvDF(e, t) {
 			e.abilities.creative ||
 				(t &&
 					(t.stackSize--,
@@ -32518,25 +32518,25 @@ var bg = (function (e) {
 							null,
 						)));
 		}
-		zvdFnBUZN(e) {
+		UkITAdYsT(e) {
 			(this.inLove = 600),
 				(this.playerInLove = e),
 				this.world.setEntityState(this, 18);
 		}
-		FzImpQCWSSqxsBn() {
+		UQhXGUYbLBYupEe() {
 			return this.playerInLove;
 		}
-		rVriSmUG() {
+		HWCMaAoR() {
 			return this.inLove > 0;
 		}
-		fivFnUmTNkX() {
+		mlawLWKBfAh() {
 			this.inLove = 0;
 		}
-		fFLqToBVHed(e) {
+		bkUhlUEXzPa(e) {
 			return e === this
 				? !1
 				: e.type === this.type
-					? this.rVriSmUG() && e.rVriSmUG()
+					? this.HWCMaAoR() && e.HWCMaAoR()
 					: !1;
 		}
 		handleStatusUpdate(e) {
@@ -32565,7 +32565,7 @@ var bg = (function (e) {
 				(this.type = `pig`),
 				this.setSize(0.9, 0.9),
 				this.getNavigator().setAvoidsWater(!0),
-				this.aSKrOPclVeelDUPpFHHGX({
+				this.zqOPLFvNirLpilZxCtdRt({
 					panic: { priority: 1, speed: 1.25 },
 					mate: { priority: 3, speed: 1 },
 					tempt: { priority: 4, speed: 1.2, item: H.carrot },
@@ -32579,7 +32579,7 @@ var bg = (function (e) {
 			super.applyEntityAttributes(),
 				this.applyBaseAttributes([
 					[Ep.maxHealth, 10],
-					[Ep.EaoLIuupWbDul, 0.25],
+					[Ep.iyhlGlpOTgPEH, 0.25],
 				]);
 		}
 		entityInit() {
@@ -32596,7 +32596,7 @@ var bg = (function (e) {
 		interact(e) {
 			return super.interact(e) ? !0 : (this.world.isClient, !1);
 		}
-		pRGkSutrOlV() {
+		VOlwufAXZPT() {
 			return this.isBurning() ? H.cooked_porkchop : H.porkchop;
 		}
 		dropFewItems(e, t) {
@@ -32606,7 +32606,7 @@ var bg = (function (e) {
 					? this.dropItem2(H.cooked_porkchop, 1)
 					: this.dropItem2(H.porkchop, 1).id;
 		}
-		eRKCjuHLIKqnvZmcRuI() {}
+		OVQXInCRyYfCSxprofD() {}
 		fall(e, t) {
 			super.fall(e, t);
 		}
@@ -32621,7 +32621,7 @@ var bg = (function (e) {
 		constructor() {
 			(this.flySpeed = 0.05), (this.walkSpeed = 0.1);
 		}
-		BkOenJOSaOyUopiwOdlgAt(e) {
+		AKOnkQAOOwCIqQWEClhuUi(e) {
 			let t = {};
 			(t.invulnerable = L.int(+!!this.invulnerable)),
 				(t.flying = L.int(+!!this.flying)),
@@ -32632,7 +32632,7 @@ var bg = (function (e) {
 				(t.walkSpeed = L.float(this.walkSpeed)),
 				(e.abilities = L.comp(t));
 		}
-		cDpVWwZCzWXMVzjJszaAUVV(e) {
+		AuIFzjNfyobqBjnQBZybBMJ(e) {
 			let t = e.abilities;
 			t &&
 				((this.invulnerable = t.invulnerable),
@@ -32643,16 +32643,16 @@ var bg = (function (e) {
 				(this.flySpeed = t.flySpeed),
 				(this.walkSpeed = t.walkSpeed));
 		}
-		xwtlEEdWqWS() {
+		BSzLqqTpAYM() {
 			return this.flySpeed;
 		}
-		jAkZnVJBPUI(e) {
+		lxyiRIVFYKf(e) {
 			this.flySpeed = e;
 		}
-		edptjmtaOgvV() {
+		bHgSfDktbjWN() {
 			return this.walkSpeed;
 		}
-		zXNcSKpqHYJdWJyFrZ(e) {
+		ZxJPryxdgVHnAdtXnd(e) {
 			this.walkSpeed = e;
 		}
 	},
@@ -32708,13 +32708,13 @@ var bg = (function (e) {
 				(this.extra = Array($h()).fill(null)),
 				(this.itemStack = null),
 				(this.inventoryChanged = !1),
-				(this.storeItemStack = this.pWzXivZHlTXcPiTP),
+				(this.storeItemStack = this.cxTAYLnYvUWRKOPv),
 				(this.setInventorySlotContents = this.setSlot);
 		}
 		get mainInventory() {
 			return this.main;
 		}
-		get rgREGshdpLVqpR() {
+		get BxPJLLkKaPicaJ() {
 			return this.armor;
 		}
 		get offHandInventory() {
@@ -32781,7 +32781,7 @@ var bg = (function (e) {
 		addItemStackToInventory(e) {
 			if (e == null || e.stackSize == 0 || e.item == null) return !1;
 			if (e.isItemDamaged()) {
-				let t = this.iEfdrEsfuCPQLXjxBA();
+				let t = this.TRKBGedAXhSXcglBsF();
 				return t >= 0
 					? ((this.mainInventory[t] = e.clone()), (e.stackSize = 0), !0)
 					: this.player.abilities.creative
@@ -32792,7 +32792,7 @@ var bg = (function (e) {
 				for (
 					;
 					(t = e.stackSize),
-						(e.stackSize = this.IROkAsaMYIKzdgQYvcVOn(e)),
+						(e.stackSize = this.uhgWtcDBVueBQpPGtAwTU(e)),
 						!(e.stackSize <= 0 || e.stackSize >= t);
 				);
 				return e.stackSize == t && this.player.abilities.creative
@@ -32800,11 +32800,11 @@ var bg = (function (e) {
 					: e.stackSize < t;
 			}
 		}
-		IROkAsaMYIKzdgQYvcVOn(e) {
+		uhgWtcDBVueBQpPGtAwTU(e) {
 			let t = e.item,
 				n = e.stackSize,
 				r = this.storeItemStack(e);
-			if ((r < 0 && (r = this.iEfdrEsfuCPQLXjxBA()), r < 0)) return n;
+			if ((r < 0 && (r = this.TRKBGedAXhSXcglBsF()), r < 0)) return n;
 			{
 				this.mainInventory[r] ??
 					((this.mainInventory[r] = new V(t, 0, e.getItemDamage())),
@@ -32824,7 +32824,7 @@ var bg = (function (e) {
 				);
 			}
 		}
-		pWzXivZHlTXcPiTP(e) {
+		cxTAYLnYvUWRKOPv(e) {
 			for (let t = 0; t < this.main.length; ++t)
 				if (
 					this.mainInventory[t] != null &&
@@ -32837,12 +32837,12 @@ var bg = (function (e) {
 					return t;
 			return -1;
 		}
-		iEfdrEsfuCPQLXjxBA() {
+		TRKBGedAXhSXcglBsF() {
 			for (let e = 0; e < this.mainInventory.length; ++e)
 				if (this.mainInventory[e] == null) return e;
 			return -1;
 		}
-		fDjraFzQSFWhNqVjZUUIeMNFuTn(e) {
+		yNkATJegzadmvQwWujnHfFrjEif(e) {
 			for (let [t, n] of this.main.entries())
 				if (n != null && n.item.equals(e)) return t;
 			return -1;
@@ -32888,14 +32888,14 @@ var bg = (function (e) {
 			let [t, n] = this.sectionFor(e);
 			return t[n];
 		}
-		*vQHSKsHEnQr() {
+		*VObhXhQYuVN() {
 			for (let e of this.main) yield e;
 			for (let e of this.armor) yield e;
 			for (let e of this.offHand) yield e;
 			for (let e of this.extra) yield e;
 		}
 		hasItem(e) {
-			return this.fDjraFzQSFWhNqVjZUUIeMNFuTn(e) >= 0;
+			return this.yNkATJegzadmvQwWujnHfFrjEif(e) >= 0;
 		}
 		getItemStack() {
 			return this.itemStack;
@@ -32935,8 +32935,8 @@ var bg = (function (e) {
 		clear() {
 			for (let e = 0; e < this.mainInventory.length; ++e)
 				this.mainInventory[e] = null;
-			for (let e = 0; e < this.rgREGshdpLVqpR.length; ++e)
-				this.rgREGshdpLVqpR[e] = null;
+			for (let e = 0; e < this.BxPJLLkKaPicaJ.length; ++e)
+				this.BxPJLLkKaPicaJ[e] = null;
 			for (let e = 0; e < this.offHand.length; ++e) this.offHand[e] = null;
 			for (let e = 0; e < this.extra.length; ++e) this.extra[e] = null;
 		}
@@ -32947,9 +32947,9 @@ var bg = (function (e) {
 			for (let e = 0; e < this.mainInventory.length; ++e)
 				this.mainInventory[e] != null &&
 					(t.mainInventory[e] = this.mainInventory[e].clone());
-			for (let e = 0; e < this.rgREGshdpLVqpR.length; ++e)
-				this.rgREGshdpLVqpR[e] != null &&
-					(t.rgREGshdpLVqpR[e] = this.rgREGshdpLVqpR[e].clone());
+			for (let e = 0; e < this.BxPJLLkKaPicaJ.length; ++e)
+				this.BxPJLLkKaPicaJ[e] != null &&
+					(t.BxPJLLkKaPicaJ[e] = this.BxPJLLkKaPicaJ[e].clone());
 			for (let e = 0; e < this.offHand.length; ++e)
 				this.offHand[e] != null && (t.offHand[e] = this.offHand[e].clone());
 			t.resizeExtra(this.extra.length);
@@ -32957,7 +32957,7 @@ var bg = (function (e) {
 				this.extra[e] != null && (t.extra[e] = this.extra[e].clone());
 			return t;
 		}
-		ZVtzIzYUIixpusBAby(e) {
+		EQFxvQfkOeAPTUTWFc(e) {
 			if (e.getMaterial().requiresNoTool) return !0;
 			{
 				let t = this.getStackInSlot(this.currentItem);
@@ -32983,14 +32983,14 @@ var bg = (function (e) {
 							`inventory slot ${t} (${this.mainInventory[t].item?.name})`,
 						) && e.push(n);
 				}
-			for (let t = 0; t < this.rgREGshdpLVqpR.length; ++t)
-				if (this.rgREGshdpLVqpR[t] != null) {
+			for (let t = 0; t < this.BxPJLLkKaPicaJ.length; ++t)
+				if (this.BxPJLLkKaPicaJ[t] != null) {
 					let n = {};
 					(n.Slot = L.int(t + 100)),
-						this.rgREGshdpLVqpR[t].writeToNBT(n),
+						this.BxPJLLkKaPicaJ[t].writeToNBT(n),
 						V.isSerializableNBT(
 							n,
-							`armor slot ${t} (${this.rgREGshdpLVqpR[t].item?.name})`,
+							`armor slot ${t} (${this.BxPJLLkKaPicaJ[t].item?.name})`,
 						) && e.push(n);
 				}
 			if (this.offHand[0] != null) {
@@ -33023,8 +33023,8 @@ var bg = (function (e) {
 						r < this.mainInventory.length &&
 						(this.mainInventory[r] = i),
 					r >= 100 &&
-						r < this.rgREGshdpLVqpR.length + 100 &&
-						(this.rgREGshdpLVqpR[r - 100] = i),
+						r < this.BxPJLLkKaPicaJ.length + 100 &&
+						(this.BxPJLLkKaPicaJ[r - 100] = i),
 					r === wie && (this.offHand[0] = i),
 					r >= Pg)
 				) {
@@ -33034,24 +33034,24 @@ var bg = (function (e) {
 				}
 			}
 		}
-		KMFEELYYzeR(e) {
+		LwIrkSZfvNm(e) {
 			(e /= 4), e < 1 && (e = 1);
-			for (let t = 0; t < this.rgREGshdpLVqpR.length; ++t)
-				this.rgREGshdpLVqpR[t] != null &&
-					this.rgREGshdpLVqpR[t].getItem() instanceof yp &&
-					(this.rgREGshdpLVqpR[t].damageItem(e, this.player),
-					this.rgREGshdpLVqpR[t].stackSize == 0 &&
-						(this.rgREGshdpLVqpR[t] = null));
+			for (let t = 0; t < this.BxPJLLkKaPicaJ.length; ++t)
+				this.BxPJLLkKaPicaJ[t] != null &&
+					this.BxPJLLkKaPicaJ[t].getItem() instanceof yp &&
+					(this.BxPJLLkKaPicaJ[t].damageItem(e, this.player),
+					this.BxPJLLkKaPicaJ[t].stackSize == 0 &&
+						(this.BxPJLLkKaPicaJ[t] = null));
 		}
-		gCKTkPtguHAy() {
+		zypNfvDXRoZH() {
 			for (let e = 0; e < this.mainInventory.length; ++e)
 				this.mainInventory[e] != null &&
 					(this.player.dropItem(this.mainInventory[e], !0, !1, !1),
 					(this.mainInventory[e] = null));
-			for (let e = 0; e < this.rgREGshdpLVqpR.length; ++e)
-				this.rgREGshdpLVqpR[e] != null &&
-					(this.player.dropItem(this.rgREGshdpLVqpR[e], !0, !1, !1),
-					(this.rgREGshdpLVqpR[e] = null));
+			for (let e = 0; e < this.BxPJLLkKaPicaJ.length; ++e)
+				this.BxPJLLkKaPicaJ[e] != null &&
+					(this.player.dropItem(this.BxPJLLkKaPicaJ[e], !0, !1, !1),
+					(this.BxPJLLkKaPicaJ[e] = null));
 			for (let e = 0; e < this.offHand.length; ++e)
 				this.offHand[e] != null &&
 					(this.player.dropItem(this.offHand[e], !0, !1, !1),
@@ -33142,7 +33142,7 @@ var jie = 1e3,
 				(this.guideProgress = { counters: {}, claimed: [] }),
 				(this.xpCooldown = 0),
 				(this.abilityChannels = {}),
-				(this.dropPlayerItemWithRandomChoice = this.aFDmUTFVhyWFaIIAX),
+				(this.dropPlayerItemWithRandomChoice = this.TdEdSpivUsSjWdkZA),
 				e && (this.name = St(e.username)),
 				this.setSize(0.6, 1.8),
 				xg.CREATIVE.updatePlayerAbilities(this.abilities),
@@ -33161,7 +33161,7 @@ var jie = 1e3,
 				this.getAttributeMap()
 					.registerAttribute(Ep.attackDamage)
 					.setBaseValue(1),
-				this.getEntityAttribute(Ep.EaoLIuupWbDul).setBaseValue(0.1);
+				this.getEntityAttribute(Ep.iyhlGlpOTgPEH).setBaseValue(0.1);
 		}
 		isAdmin() {
 			return (
@@ -33170,35 +33170,35 @@ var jie = 1e3,
 				this.profile.rank === `owner`
 			);
 		}
-		wgBBWaLOvMfq() {
+		ErSvlYyKpHQF() {
 			return this.itemInUse;
 		}
-		oxaaoyYUMQnMAXmcK() {
+		VbPkuUXEGPmVfqFyO() {
 			return this.itemInUseCount;
 		}
 		isUsingItem() {
 			return this.itemInUse != null;
 		}
-		fhTsBkLUiPEISNyqJsJm() {
+		hoAfpnZfSlYdIbNIecVl() {
 			return this.isUsingItem()
 				? this.itemInUse.getMaxItemUseDuration() - this.itemInUseCount
 				: 0;
 		}
-		sdJBQUWusWtLy() {
+		SinDdozEdJNVR() {
 			this.itemInUse != null &&
 				this.itemInUse.onPlayerStoppedUsing(
 					this.world,
 					this,
 					this.itemInUseCount,
 				),
-				this.jJDerSJyXOMAtQ();
+				this.WEkNoGPDMarwJQ();
 		}
-		jJDerSJyXOMAtQ() {
+		WEkNoGPDMarwJQ() {
 			(this.itemInUse = null),
 				(this.itemInUseCount = 0),
 				(this.itemInUseSlot = -1),
 				(this.itemInUseHand = ug.MAIN_HAND),
-				this.world.isServer && (this.YRKafnfAB(!1), this.setUsingOffHand(!1));
+				this.world.isServer && (this.cvLJGoegU(!1), this.setUsingOffHand(!1));
 		}
 		isBlocking() {
 			return (
@@ -33238,13 +33238,13 @@ var jie = 1e3,
 		getActiveItemStack() {
 			return this.inventory.main[this.inventory.currentItem];
 		}
-		EwnfBUuWXsGMMvEWekftGM() {
+		qViqdZCHMqGhyKaTFaKybV() {
 			return this.inventoryEnderChest;
 		}
 		getEquipmentInSlot(e) {
 			return e == 0
 				? this.inventory.getCurrentItem()
-				: this.inventory.rgREGshdpLVqpR[e - 1];
+				: this.inventory.BxPJLLkKaPicaJ[e - 1];
 		}
 		onDeath(e) {
 			super.onDeath(e),
@@ -33259,12 +33259,12 @@ var jie = 1e3,
 		isSprinting() {
 			return this.getFlag(3);
 		}
-		CoMPhULltCKohpdFrHRFghmBwHFoDvIdw(t) {
+		zhUtQHKZnIRXxWjsAwQyFcpgmbCczaARg(t) {
 			if (
 				(t instanceof e && this.team && !this.team.canAttack(t.team)) ||
 				this.isSpectator() ||
-				!t.ePgGyurwfOlOuNJnP() ||
-				t.ALGRXvzzYPN(this) ||
+				!t.fwLachYqIldxEJcVH() ||
+				t.AhrDqckzlwp(this) ||
 				this.dead ||
 				this.getHealth() <= 0
 			)
@@ -33284,7 +33284,7 @@ var jie = 1e3,
 			if (
 				((s =
 					t instanceof fm
-						? bm.func_152377_a(this.getHeldItem(), t.JoeqNGwobqyYbRvHfTsX())
+						? bm.func_152377_a(this.getHeldItem(), t.YPhYaefapNXVwuLEpouD())
 						: bm.func_152377_a(this.getHeldItem(), nm.UNDEFINED)),
 				(o += bm.getKnockbackModifier(this)),
 				this.isSprinting() && ++o,
@@ -33358,17 +33358,17 @@ var jie = 1e3,
 								motion: { x: t.motion.x, y: t.motion.y, z: t.motion.z },
 							}),
 						),
-					r && this.HxMDqZbkmGjpE(t),
-					this.gMNFmQCiNxfVkaC(t),
+					r && this.vAkGgudcqrRPN(t),
+					this.cDEFJnfSpYAtiwg(t),
 					t instanceof fm && bm.applyThornEnchantments(t, this),
-					t instanceof e && t.fDKtCwpjRQDZwuktH() && this.setFire(4),
+					t instanceof e && t.iIelnYpwmqIEulfnH() && this.setFire(4),
 					bm.applyArthropodEnchantments(this, t);
 				let d = this.getActiveItemStack(),
 					f = t;
 				d != null &&
 					f instanceof fm &&
 					(d.hitEntity(f, this),
-					d.stackSize <= 0 && this.yzWJaWWROpHefUjZvXqxCcqsZf()),
+					d.stackSize <= 0 && this.whbiEPFxgihmvuJlmVHoWjMBdJ()),
 					t instanceof fm && u > 0 && t.setFire(u * 4),
 					this.addExhaustion(0.3);
 			}
@@ -33410,7 +33410,7 @@ var jie = 1e3,
 				this.dead ||
 				this.getHealth() <= 0 ||
 				(t instanceof e && this.team && !this.team.canAttack(t.team)) ||
-				!t.ePgGyurwfOlOuNJnP()
+				!t.fwLachYqIldxEJcVH()
 			)
 				return !1;
 			let r = this.getEntityAttribute(Ep.attackDamage).getAttributeValue();
@@ -33419,7 +33419,7 @@ var jie = 1e3,
 				r += Math.min(10, e * 8);
 			}
 			if (
-				((r += bm.func_152377_a(this.getHeldItem(), t.JoeqNGwobqyYbRvHfTsX())),
+				((r += bm.func_152377_a(this.getHeldItem(), t.YPhYaefapNXVwuLEpouD())),
 				r <= 0)
 			)
 				return !1;
@@ -33447,46 +33447,46 @@ var jie = 1e3,
 				n === `engaged` &&
 					(t.ridingEntity && t.mountEntity(null),
 					t.riddenByEntity && t.riddenByEntity.mountEntity(null)),
-				this.gMNFmQCiNxfVkaC(t),
+				this.cDEFJnfSpYAtiwg(t),
 				bm.applyThornEnchantments(t, this),
-				t instanceof e && t.fDKtCwpjRQDZwuktH() && this.setFire(4),
+				t instanceof e && t.iIelnYpwmqIEulfnH() && this.setFire(4),
 				bm.applyArthropodEnchantments(this, t);
 			let o = this.getHeldItem();
 			return (
 				o != null &&
 					(o.hitEntity(t, this),
-					o.stackSize <= 0 && this.yzWJaWWROpHefUjZvXqxCcqsZf()),
+					o.stackSize <= 0 && this.whbiEPFxgihmvuJlmVHoWjMBdJ()),
 				i > 0 && t.setFire(i * 4),
 				this.addExhaustion(0.3),
 				!0
 			);
 		}
-		fDKtCwpjRQDZwuktH() {
+		iIelnYpwmqIEulfnH() {
 			for (let e of this.inventory.armor)
 				if (!e || !e.item.name.includes(`infernium`)) return !1;
 			return !0;
 		}
-		HxMDqZbkmGjpE(e) {}
+		vAkGgudcqrRPN(e) {}
 		jump() {
 			super.jump(),
 				this.isSprinting() ? this.addExhaustion(0.8) : this.addExhaustion(0.2);
 		}
-		kkJkXbXXOPMJptXhwLJQa() {
+		ygJPzRbrNfzanIpsrzwmA() {
 			return this.isSprinting() ? this.speedInAir * 1.3 : this.speedInAir;
 		}
-		XjHGqFkEZnYVJu() {
+		FjmDcyGqMZcowW() {
 			super.onLivingUpdate();
-			let e = this.getEntityAttribute(Ep.EaoLIuupWbDul);
-			e.setBaseValue(this.abilities.edptjmtaOgvV()),
-				(this.jumpMovementFactor = this.kkJkXbXXOPMJptXhwLJQa()),
+			let e = this.getEntityAttribute(Ep.iyhlGlpOTgPEH);
+			e.setBaseValue(this.abilities.bHgSfDktbjWN()),
+				(this.jumpMovementFactor = this.ygJPzRbrNfzanIpsrzwmA()),
 				this.world.isClient
-					? this.JNyVSMSpqrPLPc(
-							this.abilities.edptjmtaOgvV() *
+					? this.cFnmHQqMMjYIQV(
+							this.abilities.bHgSfDktbjWN() *
 								mie(this) *
 								(this.isSprinting() ? 1.3 : 1) *
 								Bh(this, this.world, this.pos, this.onGround),
 						)
-					: this.JNyVSMSpqrPLPc(
+					: this.cFnmHQqMMjYIQV(
 							e.getAttributeValue() *
 								Bh(this, this.world, this.pos, this.onGround),
 						),
@@ -33499,16 +33499,16 @@ var jie = 1e3,
 				this.ridingEntity == null
 					? this.getEntityBoundingBox()
 							.clone()
-							.expandByVector(new A(1, 0.5, 1))
+							.expandByVector(new k(1, 0.5, 1))
 					: this.getEntityBoundingBox()
 							.union(this.ridingEntity.getEntityBoundingBox())
-							.expandByVector(new A(1, 0, 1));
+							.expandByVector(new k(1, 0, 1));
 			let t = this.world.getEntitiesWithinAABB(null, e);
 			for (let e of t)
 				e.dead || (e.id != this.id && e.onCollideWithPlayer(this));
 		}
-		QRMkzYvaPf(e, t = !1) {
-			(this.SeOedoBgnd = +!!e.right + (e.left ? -1 : 0)),
+		zRmvZisrUI(e, t = !1) {
+			(this.qrBHjSOqfq = +!!e.right + (e.left ? -1 : 0)),
 				(this.moveForward = (e.up ? -1 : 0) + +!!e.down);
 			let n = o(e.yaw, e.pitch, this.yaw, this.pitch);
 			if (
@@ -33518,13 +33518,13 @@ var jie = 1e3,
 				e.sneak)
 			) {
 				let e = are(this);
-				(this.SeOedoBgnd *= e), (this.moveForward *= e);
+				(this.qrBHjSOqfq *= e), (this.moveForward *= e);
 			}
 			e.usingItem &&
 				!this.isRiding() &&
-				((this.SeOedoBgnd *= 0.2), (this.moveForward *= 0.2)),
-				this.UpTwMPDQCyFFCjMCma(this.jumping, this.onGround),
-				this.XjHGqFkEZnYVJu(),
+				((this.qrBHjSOqfq *= 0.2), (this.moveForward *= 0.2)),
+				this.ALrnUmVQpnTpXvGqjG(this.jumping, this.onGround),
+				this.FjmDcyGqMZcowW(),
 				this.setPositionAndRotation(
 					this.pos.x,
 					this.pos.y,
@@ -33533,21 +33533,21 @@ var jie = 1e3,
 					e.pitch,
 				);
 		}
-		bnDaqvXAiHrlfrZnzSCQl(e, t) {
+		NSyJTGQpHxXeqZjMpxrCu(e, t) {
 			if (this.isRiding()) return;
 			let n = this.pos.clone();
-			if (this.isElytraFlying()) this.kdNFETCSBs();
+			if (this.isElytraFlying()) this.MjcsOtWhhW();
 			else if (this.abilities.flying && this.ridingEntity == null) {
 				this.inWater = !1;
 				let n = this.motion.y,
 					r = this.jumpMovementFactor;
 				(this.jumpMovementFactor =
 					this.flySpeed * (this.isSprinting() ? 2 : 1)),
-					super.bnDaqvXAiHrlfrZnzSCQl(e, t),
+					super.NSyJTGQpHxXeqZjMpxrCu(e, t),
 					(this.motion.y = n * 0.6),
 					(this.jumpMovementFactor = r);
-			} else super.bnDaqvXAiHrlfrZnzSCQl(e, t);
-			this.KvYlDQVnmmtJLuN(
+			} else super.NSyJTGQpHxXeqZjMpxrCu(e, t);
+			this.pirlIOiDxthZtut(
 				this.pos.x - n.x,
 				this.pos.y - n.y,
 				this.pos.z - n.z,
@@ -33556,7 +33556,7 @@ var jie = 1e3,
 		isElytraFlying() {
 			return this.getFlag(7);
 		}
-		CICXDQZUPOscifp() {
+		STtXJGYEODFGOwP() {
 			let e = this.inventory.armor[1];
 			return e != null && e.getItem()?.name === `elytra`;
 		}
@@ -33577,9 +33577,9 @@ var jie = 1e3,
 							(this.impactRuleFromEnvelope = !0),
 							(this.fallDistance = 0))
 						: this.elytraFallGraceTicks > 0 && this.elytraFallGraceTicks--)),
-				this.hjTZwzK(1, e);
+				this.bCFuaNN(1, e);
 		}
-		UpTwMPDQCyFFCjMCma(e, t) {
+		ALrnUmVQpnTpXvGqjG(e, t) {
 			let n = this.isElytraFlying(),
 				r = n;
 			r
@@ -33587,7 +33587,7 @@ var jie = 1e3,
 						this.inWater ||
 						this.abilities.flying ||
 						this.isSpectator() ||
-						!this.CICXDQZUPOscifp()) &&
+						!this.STtXJGYEODFGOwP()) &&
 					(r = !1)
 				: e &&
 					!this.elytraWasJumping &&
@@ -33595,11 +33595,11 @@ var jie = 1e3,
 					!this.inWater &&
 					!this.abilities.flying &&
 					!this.isSpectator() &&
-					this.CICXDQZUPOscifp() &&
+					this.STtXJGYEODFGOwP() &&
 					(r = !0),
 				(this.elytraWasJumping = e),
 				r || (this.fireworkBoostTicks = 0),
-				this.hjTZwzK(7, r),
+				this.bCFuaNN(7, r),
 				r === n
 					? !r &&
 						this.width === 0.6 &&
@@ -33607,7 +33607,7 @@ var jie = 1e3,
 						this.setSize(Fg, Die)
 					: this.setSize(Fg, r ? Oie : Die);
 		}
-		kdNFETCSBs() {
+		MjcsOtWhhW() {
 			let e = this.motion,
 				t = this.getLook(),
 				n = Math.sqrt(t.x * t.x + t.z * t.z),
@@ -33642,13 +33642,13 @@ var jie = 1e3,
 			) {
 				let t = (r - Math.sqrt(e.x * e.x + e.z * e.z) - 2) * 4;
 				t > 0 &&
-					(this.playSound(this.SqGVLwPqZyLQoZFSbx(t), 1, 1),
+					(this.playSound(this.IXuOwuzoGUgBJttmTD(t), 1, 1),
 					this.attackEntityFrom(Bg.FLY_INTO_WALL, t));
 			}
 		}
 		addStat(e, t) {}
-		KvYlDQVnmmtJLuN(e, t, n) {
-			if (this.WVqHPcOpmdbZegNRcB(z.water)) {
+		pirlIOiDxthZtut(e, t, n) {
+			if (this.dWGckAEIpZylzQDnfl(z.water)) {
 				let r = Math.round(Math.sqrt(e * e + t * t + n * n) * 100);
 				r > 0 && this.addExhaustion(0.015 * r * 0.01);
 			} else if (this.inWater) {
@@ -33663,13 +33663,13 @@ var jie = 1e3,
 							: (this.sneak, this.addExhaustion(0.01 * t * 0.01)));
 				} else Math.round(Math.sqrt(e * e + n * n) * 100);
 		}
-		dCMSqurwepbFHMZ() {
+		ggbTcBtxYXTSqKq() {
 			if (this.itemInUse != null) {
 				if (
 					this.itemInUseHand === ug.MAIN_HAND &&
 					this.inventory.currentItem !== this.itemInUseSlot
 				) {
-					this.jJDerSJyXOMAtQ();
+					this.WEkNoGPDMarwJQ();
 					return;
 				}
 				let e = this.getHeldItem(this.itemInUseHand);
@@ -33677,43 +33677,43 @@ var jie = 1e3,
 				e.equals(this.itemInUse)
 					? (this.itemInUseCount <= 25 &&
 							this.itemInUseCount % 4 == 0 &&
-							this.zinrhJfwxPyjd(e, 5),
+							this.DEaFlMGWPvKOc(e, 5),
 						--this.itemInUseCount == 0 &&
 							this.world.isServer &&
 							this.onItemUseFinish())
-					: this.jJDerSJyXOMAtQ();
+					: this.WEkNoGPDMarwJQ();
 			}
 		}
 		getExperiencePoints(e) {
 			let t = this.experienceLevel * 7;
 			return t > 100 ? 100 : t;
 		}
-		xAaIPnPr() {
+		MuVYslqc() {
 			return !0;
 		}
-		xIMFvnlVBnMwk(e) {
+		WXRrNKcqxYWVj(e) {
 			let t = Number.MAX_VALUE - this.experienceTotal;
 			for (
 				e > t && (e = t),
-					this.experience += e / this.HHDTEVfs(),
+					this.experience += e / this.QxVInPCq(),
 					this.experienceTotal += e;
 				this.experience >= 1;
-				this.experience /= this.HHDTEVfs()
+				this.experience /= this.QxVInPCq()
 			)
-				(this.experience = (this.experience - 1) * this.HHDTEVfs()),
-					this.YvbOnyMIaNJGQqtiwV(1);
+				(this.experience = (this.experience - 1) * this.QxVInPCq()),
+					this.thtzCHulQqvsuzLVda(1);
 		}
-		iwjYvvCnDzFjZ(e, t) {
+		UqAUqgTTIbdmk(e, t) {
 			(this.experience = e), (this.experienceTotal = t | 0);
 		}
-		HHDTEVfs() {
+		QxVInPCq() {
 			return this.experienceLevel >= 30
 				? 112 + (this.experienceLevel - 30) * 9
 				: this.experienceLevel >= 15
 					? 37 + (this.experienceLevel - 15) * 5
 					: 7 + this.experienceLevel * 2;
 		}
-		GnxAYdbuTRbQZhkhfDUTg(e) {
+		CoBWjlDWoxXTLxRcqJXeo(e) {
 			(this.experienceLevel -= e),
 				this.experienceLevel < 0 &&
 					((this.experienceLevel = 0),
@@ -33721,7 +33721,7 @@ var jie = 1e3,
 					(this.experienceTotal = 0)),
 				(this.xpSeed = Gm(1));
 		}
-		YvbOnyMIaNJGQqtiwV(e) {
+		thtzCHulQqvsuzLVda(e) {
 			if (
 				((this.experienceLevel += e),
 				this.experienceLevel < 0 &&
@@ -33740,22 +33740,22 @@ var jie = 1e3,
 		update() {
 			(this.noPhysics = this.mode.isSpectator()),
 				this.mode.isSpectator() && (this.onGround = !1),
-				this.dCMSqurwepbFHMZ(),
+				this.ggbTcBtxYXTSqKq(),
 				this.xpCooldown > 0 && --this.xpCooldown,
 				this.isPlayerSleeping()
 					? (++this.sleepTimer,
 						this.sleepTimer > 100 && (this.sleepTimer = 100),
 						this.world.isServer &&
-							(this.aHNXBEZ()
-								? this.world.isDaytime() && this.zNasSrnoGPLv(!1, !0, !0)
-								: this.zNasSrnoGPLv(!0, !0, !1)))
+							(this.FfyQfmB()
+								? this.world.isDaytime() && this.lvObstILfQFq(!1, !0, !0)
+								: this.lvObstILfQFq(!0, !0, !1)))
 					: this.sleepTimer > 0 &&
 						(++this.sleepTimer,
 						this.sleepTimer >= 110 && (this.sleepTimer = 0)),
 				Gm(10) == 0 &&
 					this.inventory.hasItem(H.infernium_ingot) &&
 					this.setFire(1),
-				this.fDKtCwpjRQDZwuktH() && (this.fire = 0),
+				this.iIelnYpwmqIEulfnH() && (this.fire = 0),
 				super.update(),
 				this.world.isServer &&
 					this.openContainer != null &&
@@ -33773,36 +33773,36 @@ var jie = 1e3,
 					this.foodStats.setFoodLevel(this.foodStats.getFoodLevel() + 1));
 		}
 		setCurrentItemOrArmor(e, t) {
-			this.inventory.rgREGshdpLVqpR[e - 1] = t;
+			this.inventory.BxPJLLkKaPicaJ[e - 1] = t;
 		}
-		KMFEELYYzeR(e) {
-			this.inventory.KMFEELYYzeR(e);
+		LwIrkSZfvNm(e) {
+			this.inventory.LwIrkSZfvNm(e);
 		}
-		KDznbTLIIYMYprBpewas() {
+		aQCipmMWzVajPELVsMZV() {
 			this.setSize(0.6, 1.8),
-				super.KDznbTLIIYMYprBpewas(),
+				super.aQCipmMWzVajPELVsMZV(),
 				this.setHealth(this.getMaxHealth()),
 				(this.deathTime = 0);
 		}
-		aGHvTmojiQKi(e, t) {
+		kPPHHyPZHdPQ(e, t) {
 			if (
 				this.isEntityInvulnerable(e) ||
 				(this.abilities.invulnerable && !e.canHarmInCreative())
 			)
 				return;
 			!e.isUnblockable() && this.isBlocking() && t > 0 && (t = (1 + t) * 0.5),
-				(t = this.MCbQQrHUYnIiSGcDGGYlfS(e, t)),
-				(t = this.hwZwbUqyMxjhMzlVtcOTAAwcOjVto(e, t));
+				(t = this.NhZHVXqnUwdTALJtqwJDgY(e, t)),
+				(t = this.kjdvWlAkyOBdHjlvtbGFFXdjRXxnv(e, t));
 			let n = t;
 			if (
-				((t = Math.max(t - this.YXMHibKSMJXmBhyutdh(), 0)),
-				this.slAHCJmQdAucQCcZTIV(this.YXMHibKSMJXmBhyutdh() - (n - t)),
+				((t = Math.max(t - this.LulBzyCQpYwPnPUTevl(), 0)),
+				this.xWaPtwiaIgSxDvgBsfJ(this.LulBzyCQpYwPnPUTevl() - (n - t)),
 				t != 0)
 			) {
 				this.addExhaustion(e.getHungerDamage());
 				let n = this.getHealth();
 				this.setHealth(this.getHealth() - t),
-					this.hpFygoBfLzzEqMqJ().trackDamage(e, n, t);
+					this.CICUUMomelsUDnzs().trackDamage(e, n, t);
 			}
 		}
 		attackEntityFrom(e, t) {
@@ -33815,7 +33815,7 @@ var jie = 1e3,
 				return !1;
 			this.isPlayerSleeping() &&
 				this.world.isServer &&
-				this.zNasSrnoGPLv(!0, !0, !1);
+				this.lvObstILfQFq(!0, !0, !1);
 			let n = e.getEntity();
 			return (
 				n instanceof Hg && n.shootingEntity && (n = n.shootingEntity),
@@ -33836,7 +33836,7 @@ var jie = 1e3,
 									: (this.inventory.mainInventory[this.inventory.currentItem] =
 											null)),
 							this.setHealth(1),
-							this.OkqdIiTepdeYcFSfcM(),
+							this.QawpmpYXuOBngnsatH(),
 							this.addPotionEffect(new cm(um.regeneration.getId(), 900, 1)),
 							this.addPotionEffect(new cm(um.absorption.getId(), 100, 1)),
 							this.addPotionEffect(new cm(um.fireResistance.getId(), 800, 0)),
@@ -33895,24 +33895,24 @@ var jie = 1e3,
 		closeScreen() {
 			this.openContainer = this.inventoryContainer;
 		}
-		swNrqDxZYpra() {
+		hygaNHyRGPHo() {
 			if (this.world.isServer && this.sneak)
 				this.mountEntity(null), (this.sneak = !1);
 			else {
 				let e = this.yaw,
 					t = this.pitch;
-				super.swNrqDxZYpra(),
+				super.hygaNHyRGPHo(),
 					this.ridingEntity instanceof vie &&
 						((this.pitch = t),
 						(this.yaw = e),
 						(this.renderYawOffset = this.ridingEntity.renderYawOffset));
 			}
 		}
-		FQtzdCfmyDfgiEPuFPZa(e) {}
-		oHyqPBfRYzqQtGuND() {
+		yIFgzZrDSkVbpzJOJZwb(e) {}
+		uZxdTUIsNJgzqkLlN() {
 			return this.getHealth() <= 0 || this.isPlayerSleeping();
 		}
-		aFDmUTFVhyWFaIIAX(e, t = !0) {
+		TdEdSpivUsSjWdkZA(e, t = !0) {
 			return this.dropItem(e, !1, !1);
 		}
 		dropItem(e, t, n, r = !0) {
@@ -33921,9 +33921,9 @@ var jie = 1e3,
 				let n = this.pos.y - 0.3 + this.getEyeHeight(),
 					i = new Sm(this.world, e);
 				if (
-					(i.setPosition(new A(this.pos.x, n, this.pos.z)),
+					(i.setPosition(new k(this.pos.x, n, this.pos.z)),
 					(i.world = this.world),
-					r ? i.gzSKtpBlWSxhMR(40) : i.gzSKtpBlWSxhMR(0),
+					r ? i.cqBpwkacUrgIvg(40) : i.cqBpwkacUrgIvg(0),
 					t)
 				) {
 					let e = Math.random() * 0.5,
@@ -33943,16 +33943,16 @@ var jie = 1e3,
 						(i.motion.y += (Math.random() - Math.random()) * 0.1),
 						(i.motion.z += Math.sin(n) * t);
 				}
-				return this.oIyqjXwVEPgUcmkMVIhKhTd(i), i;
+				return this.vpJAxRXgbLHSOiBLCEciuOX(i), i;
 			}
 		}
-		oIyqjXwVEPgUcmkMVIhKhTd(e) {
+		vpJAxRXgbLHSOiBLCEciuOX(e) {
 			this.world.spawnEntityInWorld(e);
 		}
 		canHarvestBlock(e) {
-			return this.inventory.ZVtzIzYUIixpusBAby(e);
+			return this.inventory.EQFxvQfkOeAPTUTWFc(e);
 		}
-		YxUTrdJuYcsAMDRBgvEr(e) {
+		TPWdsnyYJsafZOkdvcvC(e) {
 			let t = this.inventory.getStrVsBlock(e);
 			if (t > 1) {
 				let e = bm.getEfficiencyModifier(this),
@@ -33983,18 +33983,18 @@ var jie = 1e3,
 				t *= e;
 			}
 			return (
-				this.WVqHPcOpmdbZegNRcB(z.water) &&
+				this.dWGckAEIpZylzQDnfl(z.water) &&
 					!bm.getAquaAffinityModifier(this) &&
 					(t /= 5),
 				this.onGround || (t /= 5),
 				t
 			);
 		}
-		sHlICldbaaLFeejDNVmx(e) {
+		MjybRzuLOHmYvirbHqkp(e) {
 			let t = bm.getRespiration(this);
 			return t > 0 && Math.floor(Math.random() * (t + 1)) > 0
 				? e
-				: super.sHlICldbaaLFeejDNVmx(e);
+				: super.MjybRzuLOHmYvirbHqkp(e);
 		}
 		addExhaustion(e) {
 			this.abilities.invulnerable ||
@@ -34003,13 +34003,13 @@ var jie = 1e3,
 		getFoodStats() {
 			return this.foodStats;
 		}
-		KDaayrxxatDg() {
+		osJHfaBSfSHq() {
 			return `game.player.hurt`;
 		}
-		JkGYCM(e) {
+		BhlBaE(e) {
 			return (e || this.foodStats.needFood()) && !this.abilities.invulnerable;
 		}
-		amfqTZpfgV() {
+		ddndHxLkjG() {
 			return this.getHealth() > 0 && this.getHealth() < this.getMaxHealth();
 		}
 		setItemInUse(e, t, n = this.pendingUseHand) {
@@ -34020,14 +34020,14 @@ var jie = 1e3,
 				(this.itemInUseSlot =
 					n === ug.OFF_HAND ? -1 : this.inventory.currentItem),
 				this.world.isServer &&
-					(this.YRKafnfAB(!0), this.setUsingOffHand(n === ug.OFF_HAND)));
+					(this.cvLJGoegU(!0), this.setUsingOffHand(n === ug.OFF_HAND)));
 		}
-		aHNXBEZ() {
+		FfyQfmB() {
 			return this.playerLocation
 				? this.world.getBlockState(this.playerLocation).getBlock() instanceof zh
 				: !1;
 		}
-		static async NBLbyfVOAfmdCNcNCfP(e, t, n) {
+		static async nJsAQNcXuUAVkUQBumm(e, t, n) {
 			await e.chunkProvider.loadChunk(t.x >> 4, t.z >> 4);
 			let r = e.getBlockState(t).getBlock();
 			if (r instanceof zh) return zh.getSafeExitLocation(e, t, 0);
@@ -34037,7 +34037,7 @@ var jie = 1e3,
 				return n && i ? t : null;
 			} else return null;
 		}
-		zinrhJfwxPyjd(e, t) {
+		DEaFlMGWPvKOc(e, t) {
 			e.getItemUseAction() == Ld.DRINK &&
 				this.playSound(`random.drink`, 0.5, Math.random() * 0.1 + 0.9),
 				e.getItemUseAction() == Ld.EAT &&
@@ -34047,12 +34047,12 @@ var jie = 1e3,
 						(Math.random() - Math.random()) * 0.2 + 1,
 					);
 		}
-		yzWJaWWROpHefUjZvXqxCcqsZf() {
+		whbiEPFxgihmvuJlmVHoWjMBdJ() {
 			this.inventory.setInventorySlotContents(this.inventory.currentItem, null);
 		}
 		onItemUseFinish() {
 			if (this.itemInUse != null) {
-				this.zinrhJfwxPyjd(this.itemInUse, 16);
+				this.DEaFlMGWPvKOc(this.itemInUse, 16);
 				let e = this.itemInUse.stackSize,
 					t = this.itemInUse.onItemUseFinish(this.world, this),
 					n =
@@ -34067,7 +34067,7 @@ var jie = 1e3,
 								: this.inventory.currentItem;
 				(t != this.itemInUse || (t != null && t.stackSize != e)) &&
 					((n[r] = t), t.stackSize == 0 && (n[r] = null)),
-					this.jJDerSJyXOMAtQ();
+					this.WEkNoGPDMarwJQ();
 			}
 		}
 		handleStatusUpdate(e) {
@@ -34075,14 +34075,14 @@ var jie = 1e3,
 				? this.onItemUseFinish()
 				: e == 23 || e == 22 || super.handleStatusUpdate(e);
 		}
-		YXMHibKSMJXmBhyutdh() {
+		LulBzyCQpYwPnPUTevl() {
 			return this.getDataWatcher().getWatchableObjectFloat(17);
 		}
-		slAHCJmQdAucQCcZTIV(e) {
+		xWaPtwiaIgSxDvgBsfJ(e) {
 			e < 0 && (e = 0), this.getDataWatcher().updateObject(17, e);
 		}
 		getInventory() {
-			return this.inventory.rgREGshdpLVqpR;
+			return this.inventory.BxPJLLkKaPicaJ;
 		}
 		getEquippedChestStack() {
 			return this.inventory.armor[1] ?? null;
@@ -34106,24 +34106,24 @@ var jie = 1e3,
 		isPlayerSleeping() {
 			return this.sleeping;
 		}
-		uHNKAyEEEymTpLNmKnm() {
+		hrWgUxOKodmbtxRcaXF() {
 			return this.sleeping && this.sleepTimer >= 100;
 		}
-		iyiRArwvsgSvA() {
+		tHBkiFjoJemHB() {
 			return this.sleepTimer;
 		}
-		cLcQEtSjPvxtJX() {
+		gpxcRYbodrEcvI() {
 			return this.spawnChunk;
 		}
-		DwMnpoXxaaMQU() {
+		jUeoBcpaYHCYD() {
 			return this.spawnForced;
 		}
-		NiIjqLLJkEKxW(e, t) {
+		PUvbJetScaEid(e, t) {
 			e == null
 				? ((this.spawnChunk = null), (this.spawnForced = !1))
 				: ((this.spawnChunk = e), (this.spawnForced = t));
 		}
-		zNasSrnoGPLv(e, t, n) {
+		lvObstILfQFq(e, t, n) {
 			if ((this.setSize(0.6, 1.8), this.playerLocation)) {
 				let e = this.world.getBlockState(this.playerLocation);
 				if (e.getBlock() instanceof zh) {
@@ -34140,9 +34140,9 @@ var jie = 1e3,
 			(this.sleeping = !1),
 				this.world.isServer && t && this.world.updateAllPlayersSleepingFlag(),
 				(this.sleepTimer = e ? 0 : 100),
-				n && this.playerLocation && this.NiIjqLLJkEKxW(this.playerLocation, !1);
+				n && this.playerLocation && this.PUvbJetScaEid(this.playerLocation, !1);
 		}
-		LnoTWxEU(e) {
+		LvHTUuJl(e) {
 			if (this.world.isServer) {
 				if (this.isPlayerSleeping() || !this.isEntityAlive()) return 4;
 				if (this.world.isDaytime()) return 2;
@@ -34156,8 +34156,8 @@ var jie = 1e3,
 					this.world.getEntitiesWithinAABB(
 						`zombie`,
 						new AxisAlignedBoundingBox(
-							new A(e.x - 8, e.y - 5, e.z - 8),
-							new A(e.x + 8, e.y + 5, e.z + 8),
+							new k(e.x - 8, e.y - 5, e.z - 8),
+							new k(e.x + 8, e.y + 5, e.z + 8),
 						),
 					).length > 0
 				)
@@ -34198,7 +34198,7 @@ var jie = 1e3,
 		isSpectator() {
 			return this.mode.isSpectator();
 		}
-		RknqRxKLyBNxjlrZv() {
+		UJbhRsNSDAuHaCDKg() {
 			return !1;
 		}
 		writeEntityToNBT(e) {
@@ -34246,7 +34246,7 @@ var jie = 1e3,
 				(e.SelectedItemSlot = L.int(this.inventory.currentItem)),
 				(e.Sleeping = L.int(+!!this.sleeping)),
 				(e.SleepTimer = L.int(this.sleepTimer)),
-				this.abilities.BkOenJOSaOyUopiwOdlgAt(e);
+				this.abilities.AKOnkQAOOwCIqQWEClhuUi(e);
 		}
 		readEntityFromNBT(t) {
 			super.readEntityFromNBT(t),
@@ -34261,14 +34261,14 @@ var jie = 1e3,
 				(this.xpSeed = t.XpSeed ?? 0),
 				this.sleeping &&
 					((this.playerLocation = new I(this.pos.x, this.pos.y, this.pos.z)),
-					this.zNasSrnoGPLv(!0, !0, !1)),
+					this.lvObstILfQFq(!0, !0, !1)),
 				t.SpawnX &&
 					t.SpawnY &&
 					t.SpawnZ &&
 					((this.spawnChunk = new I(t.SpawnX, t.SpawnY, t.SpawnZ)),
 					(this.spawnForced = t.SpawnForced)),
 				this.foodStats.readNBT(t),
-				this.abilities.cDpVWwZCzWXMVzjJszaAUVV(t),
+				this.abilities.AuIFzjNfyobqBjnQBZybBMJ(t),
 				(this.homes = {});
 			let n = t.Homes;
 			if (Array.isArray(n))
@@ -34296,23 +34296,23 @@ var jie = 1e3,
 						typeof e.Quest == `string` &&
 						this.guideProgress.claimed.push(e.Quest);
 		}
-		qHrLWhiuDtLAIHXVxlgqEi() {
+		hDFFDtXsVpiuFJuKJmqHla() {
 			return this.inventory.getCurrentItem();
 		}
 		interactFirst(e) {
 			let t = new ah(e, this, this.pos, null);
 			return this.world.handleEvent(t), !1;
 		}
-		UElvPrIBTdGP(e) {
+		FeFDrgeDRaxS(e) {
 			if (this.isSpectator()) return !1;
 			{
-				let t = this.qHrLWhiuDtLAIHXVxlgqEi(),
+				let t = this.hDFFDtXsVpiuFJuKJmqHla(),
 					n = t == null ? null : t.clone();
 				return e.interactFirst(this)
 					? (t != null &&
-							t == this.qHrLWhiuDtLAIHXVxlgqEi() &&
+							t == this.hDFFDtXsVpiuFJuKJmqHla() &&
 							(t.stackSize <= 0 && !this.abilities.creative
-								? this.yzWJaWWROpHefUjZvXqxCcqsZf()
+								? this.whbiEPFxgihmvuJlmVHoWjMBdJ()
 								: t.stackSize < (n?.stackSize ?? 0) &&
 									this.abilities.creative &&
 									(t.stackSize = n?.stackSize ?? 0)),
@@ -34323,7 +34323,7 @@ var jie = 1e3,
 							t?.interactWithEntity(this, e))
 						? (t.stackSize <= 0 &&
 								!this.abilities.creative &&
-								this.yzWJaWWROpHefUjZvXqxCcqsZf(),
+								this.whbiEPFxgihmvuJlmVHoWjMBdJ(),
 							!0)
 						: !1;
 			}
@@ -34367,10 +34367,10 @@ var jie = 1e3,
 					(this.teamColorApplied = !1),
 					this.actualName && (this.name = this.actualName));
 		}
-		zsttgUaHNNcMQGENp() {
+		OueJssExBfIWkyofr() {
 			return 10;
 		}
-		vsJISAZGSBPpbgqKRb() {
+		yfvLHSaJXQXNXyfAFR() {
 			return this.mode.isCreative() || this.mode.isSpectator() ? 0 : 80;
 		}
 	},
@@ -34701,22 +34701,22 @@ var jie = 1e3,
 				(this.ticksInGround = 0),
 				(this.ticksInAir = 0);
 		}
-		AoNpRTNyPeRPCqy() {
+		wCXkjKIDguInPsB() {
 			return 0.99;
 		}
-		pGWvvajlffrMPqwv() {
+		wyRolvMJjYfovXSt() {
 			return 0.8;
 		}
-		QfKTrOlurnBrrsqpkz() {
+		tDCrleqXmWwgcoBEfI() {
 			return 0.03;
 		}
-		KjCVGyaGvvqOLPJkAdDdiPqLnNfyGbq() {
+		SFAluJOmdbbrgPpBbmfCTWuAjzQdtpN() {
 			return !1;
 		}
-		dHdfsmvrfJZcJXXjFBGuqngy() {
+		MDUpPDNgKnFuZVEtLYNTvbrp() {
 			return !0;
 		}
-		TLxJkWLFPKpeZZDEM() {
+		QwtKmGbfxedgvJnoT() {
 			for (let e = 0; e < 4; ++e) {
 				let e = 0.25;
 				this.world.spawnParticle(
@@ -34730,9 +34730,9 @@ var jie = 1e3,
 				);
 			}
 		}
-		LTqCQRjerym() {
-			let e = new A(this.pos.x, this.pos.y, this.pos.z),
-				t = new A(
+		oXgnshZlVVy() {
+			let e = new k(this.pos.x, this.pos.y, this.pos.z),
+				t = new k(
 					this.pos.x + this.motion.x,
 					this.pos.y + this.motion.y,
 					this.pos.z + this.motion.z,
@@ -34740,19 +34740,19 @@ var jie = 1e3,
 			return this.traceSegment(e, t);
 		}
 		traceSegment(e, t) {
-			let n = new A(e.x, e.y, e.z),
-				r = new A(t.x, t.y, t.z),
+			let n = new k(e.x, e.y, e.z),
+				r = new k(t.x, t.y, t.z),
 				i = zp(
 					n,
 					r,
 					!1,
-					this.KjCVGyaGvvqOLPJkAdDdiPqLnNfyGbq(),
+					this.SFAluJOmdbbrgPpBbmfCTWuAjzQdtpN(),
 					!1,
 					this.world,
 				);
 			if (
-				(i != null && (r = new A(i.hitVec.x, i.hitVec.y, i.hitVec.z)),
-				!this.dHdfsmvrfJZcJXXjFBGuqngy() || this.world.isServer)
+				(i != null && (r = new k(i.hitVec.x, i.hitVec.y, i.hitVec.z)),
+				!this.MDUpPDNgKnFuZVEtLYNTvbrp() || this.world.isServer)
 			) {
 				let e = null,
 					t = this.world.getEntitiesInAABBexcluding(
@@ -34768,7 +34768,7 @@ var jie = 1e3,
 					if (
 						!o.noPhysics &&
 						o.canBeCollidedWith() &&
-						(!this.mknnuutnc(o) || this.ticksInAir >= 5)
+						(!this.nrqcfIxDF(o) || this.ticksInAir >= 5)
 					) {
 						let t = Jp(
 							o.getEntityBoundingBox().clone().expandByScalar(0.3),
@@ -34785,7 +34785,7 @@ var jie = 1e3,
 			}
 			return i;
 		}
-		ygKGEJvbVWSxxwGZ() {
+		cROIcgsodFhEczKP() {
 			!isFinite(this.motion.x) ||
 			!isFinite(this.motion.y) ||
 			!isFinite(this.motion.z)
@@ -34804,9 +34804,9 @@ var jie = 1e3,
 			);
 			(this.yaw = Math.atan2(this.motion.x, this.motion.z)),
 				(this.pitch = Math.atan2(this.motion.y, e));
-			let t = this.AoNpRTNyPeRPCqy(),
-				n = this.QfKTrOlurnBrrsqpkz();
-			this.inWater && (this.TLxJkWLFPKpeZZDEM(), (t = this.pGWvvajlffrMPqwv())),
+			let t = this.wCXkjKIDguInPsB(),
+				n = this.tDCrleqXmWwgcoBEfI();
+			this.inWater && (this.QwtKmGbfxedgvJnoT(), (t = this.wyRolvMJjYfovXSt())),
 				(this.motion.x *= t),
 				(this.motion.y *= t),
 				(this.motion.z *= t),
@@ -34821,10 +34821,10 @@ var jie = 1e3,
 				(super(e),
 				(this.type = `arrow`),
 				(this.identifier = xm.ARROW),
-				(this.lastVel = new A()),
-				(this.prevVel = new A()),
-				(this.vel = new A()),
-				(this.acc = new A(0, -9.81, 0)),
+				(this.lastVel = new k()),
+				(this.prevVel = new k()),
+				(this.vel = new k()),
+				(this.acc = new k(0, -9.81, 0)),
 				(this.damage = 2),
 				(this.knockbackStrength = 0),
 				(this.arrowShake = 0),
@@ -34860,7 +34860,7 @@ var jie = 1e3,
 				(this.motion.x = -Math.sin(i) * Math.cos(this.pitch)),
 					(this.motion.z = -Math.cos(i) * Math.cos(this.pitch)),
 					(this.motion.y = Math.sin(this.pitch)),
-					this.OWLjJJerUQdmooqUPOW(
+					this.ztmWzMZTDnzVsDXbGPP(
 						this.motion.x,
 						this.motion.y,
 						this.motion.z,
@@ -34882,23 +34882,23 @@ var jie = 1e3,
 						u = c / l;
 					this.setLocationAndAngles(t.pos.x + r, this.pos.y, t.pos.z + u, e, n);
 					let d = l * 0.2;
-					this.OWLjJJerUQdmooqUPOW(o, s + d, c, a, i);
+					this.ztmWzMZTDnzVsDXbGPP(o, s + d, c, a, i);
 				}
 			}
 		}
-		oxJoVjDXy(e) {
+		SKYoWosTj(e) {
 			this.damage = e;
 		}
-		zRqJivsRf() {
+		PJLGoTDHD() {
 			return this.damage;
 		}
-		WgioDHBqHFRBDrUfiAsI(e) {
+		cBqcBWzykbkvuOdUzYbY(e) {
 			this.knockbackStrength = e;
 		}
 		entityInit() {
 			this.dataWatcher.addObject(16, 0);
 		}
-		OWLjJJerUQdmooqUPOW(e, t, n, r, i) {
+		ztmWzMZTDnzVsDXbGPP(e, t, n, r, i) {
 			let a = Math.sqrt(e * e + t * t + n * n);
 			(e /= a),
 				(t /= a),
@@ -34918,24 +34918,24 @@ var jie = 1e3,
 				(this.ticksInGround = 0);
 		}
 		setPositionAndRotation2(e, t, n, r, i, a) {
-			this.setPosition(e, t, n), this.LjORXCOakWX(r, i);
+			this.setPosition(e, t, n), this.tAiwQRignzX(r, i);
 		}
-		mknnuutnc(e) {
+		nrqcfIxDF(e) {
 			return e.id === this.shootingEntity.id;
 		}
-		QfKTrOlurnBrrsqpkz() {
+		tDCrleqXmWwgcoBEfI() {
 			return 0.05;
 		}
-		pGWvvajlffrMPqwv() {
+		wyRolvMJjYfovXSt() {
 			return 0.6;
 		}
-		KjCVGyaGvvqOLPJkAdDdiPqLnNfyGbq() {
+		SFAluJOmdbbrgPpBbmfCTWuAjzQdtpN() {
 			return !0;
 		}
-		dHdfsmvrfJZcJXXjFBGuqngy() {
+		MDUpPDNgKnFuZVEtLYNTvbrp() {
 			return !1;
 		}
-		TLxJkWLFPKpeZZDEM() {}
+		QwtKmGbfxedgvJnoT() {}
 		update() {
 			if (this.dead) return;
 			super.update();
@@ -34946,7 +34946,7 @@ var jie = 1e3,
 				n.setBlockBoundsBasedOnState(this.world, e);
 				let r = n.getCollisionBoundingBox(this.world, e, t);
 				r != null &&
-					r.containsPoint(new A(this.pos.x, this.pos.y, this.pos.z)) &&
+					r.containsPoint(new k(this.pos.x, this.pos.y, this.pos.z)) &&
 					(this.inGround = !0);
 			}
 			if ((this.arrowShake > 0 && --this.arrowShake, this.inGround))
@@ -34960,7 +34960,7 @@ var jie = 1e3,
 						(this.ticksInAir = 0));
 			else {
 				++this.ticksInAir;
-				let e = this.LTqCQRjerym();
+				let e = this.oXgnshZlVVy();
 				if (
 					(e != null &&
 						e.entity != null &&
@@ -34986,7 +34986,7 @@ var jie = 1e3,
 					else if (e.entity != null) {
 						let t = this.motion.length(),
 							n = Math.ceil(t * this.damage);
-						this.demRoLaDfXGsP() &&
+						this.PfIYqDvIRQViW() &&
 							(n += Math.floor(Math.random() * (n / 2 + 2)));
 						let r = Bg.causeArrowDamage(this, this.shootingEntity || this),
 							i = !1;
@@ -35066,13 +35066,13 @@ var jie = 1e3,
 							),
 							(this.inGround = !0),
 							(this.arrowShake = 7),
-							this.SqrSrYSnuuTEA(!1),
+							this.biDkTTxaUDQru(!1),
 							this.inTile.isAir() ||
 								(this.inTile.onEntityCollidedWithBlock(this.world, t, this),
 								this.inTile.onProjectileHit(this.world, t, e.hitVec, this));
 					}
 				}
-				if (this.demRoLaDfXGsP() && this.world.isServer)
+				if (this.PfIYqDvIRQViW() && this.world.isServer)
 					for (let e = 0; e < 4; ++e)
 						this.world.spawnParticle(
 							R.CRIT,
@@ -35085,8 +35085,8 @@ var jie = 1e3,
 							null,
 						);
 				this.arrowColor >= 0 && this.world.isClient && this.spawnColorTrail(),
-					this.ygKGEJvbVWSxxwGZ(),
-					this.ByMVhgNrovTzewqqH();
+					this.cROIcgsodFhEczKP(),
+					this.lowQQdilMcuXmSkCA();
 			}
 		}
 		onCollideWithPlayer(e) {
@@ -35105,7 +35105,7 @@ var jie = 1e3,
 							0.2,
 							((Math.random() - Math.random()) * 0.7 + 1) * 2,
 						),
-						e.iRqXHccqUHKZ(this, 1),
+						e.wZEfKhqWcSRQ(this, 1),
 						this.setDead());
 			}
 		}
@@ -35151,13 +35151,13 @@ var jie = 1e3,
 		getEyeHeight() {
 			return 0;
 		}
-		SqrSrYSnuuTEA(e) {
+		biDkTTxaUDQru(e) {
 			let t = this.dataWatcher.getWatchableObjectByte(16);
 			e
 				? this.dataWatcher.updateObject(16, t | 1)
 				: this.dataWatcher.updateObject(16, t & -2);
 		}
-		demRoLaDfXGsP() {
+		PfIYqDvIRQViW() {
 			return (this.dataWatcher.getWatchableObjectByte(16) & 1) != 0;
 		}
 	},
@@ -35285,13 +35285,13 @@ var Ug = class extends Vd {
 				if (((o = (o * o + o * 2) / 3), o < 0.1)) return;
 				o > 1 && (o = 1);
 				let s = new Hg(t, n, o * 2);
-				Kie(s, a), o == 1 && s.SqrSrYSnuuTEA(!0);
+				Kie(s, a), o == 1 && s.biDkTTxaUDQru(!0);
 				let c = new Vie(n);
 				if ((t.handleEvent(c), c.cancelled)) return;
 				let l = bm.getEnchantmentLevel(ym.power.effectId, e);
-				l > 0 && s.oxJoVjDXy(s.zRqJivsRf() + l * 0.5 + 0.5);
+				l > 0 && s.SKYoWosTj(s.PJLGoTDHD() + l * 0.5 + 0.5);
 				let u = bm.getEnchantmentLevel(ym.punch.effectId, e);
-				u > 0 && s.WgioDHBqHFRBDrUfiAsI(u),
+				u > 0 && s.cBqcBWzykbkvuOdUzYbY(u),
 					bm.getEnchantmentLevel(ym.flame.effectId, e) > 0 && s.setFire(100),
 					e.damageItem(1, n),
 					t.isClient &&
@@ -35416,14 +35416,14 @@ var Ug = class extends Vd {
 				if (
 					((n = Math.min(
 						n,
-						this.WCnTqdMsbQT(e.getBlockState(t.offset(r))) + 1,
+						this.UuxRUXVuYkO(e.getBlockState(t.offset(r))) + 1,
 					)),
 					n == 1)
 				)
 					break;
 			return n;
 		}
-		WCnTqdMsbQT(t) {
+		UuxRUXVuYkO(t) {
 			return t.block instanceof Gg
 				? 0
 				: t.block instanceof e
@@ -35819,11 +35819,11 @@ var V = class e {
 			this.isItemStackDamageable() &&
 			this.attemptDamageItem(e)
 		) {
-			if ((t.TxLBMgczhHMPYROteUOmH(this), --this.stackSize, t instanceof Rg)) {
+			if ((t.hMJFBhjRDlJclYuWoNfvG(this), --this.stackSize, t instanceof Rg)) {
 				let e = t;
 				this.stackSize == 0 &&
 					this.getItem() instanceof Ug &&
-					e.yzWJaWWROpHefUjZvXqxCcqsZf();
+					e.whbiEPFxgihmvuJlmVHoWjMBdJ();
 			}
 			this.stackSize < 0 && (this.stackSize = 0), (this.itemDamage = 0);
 		}
@@ -36288,7 +36288,7 @@ var Zie = class extends dg {
 					`random.fizz`,
 					0.5,
 					2.6 + (Math.random() - Math.random()) * 0.8,
-					new A(t.x + 0.5, t.y + 0.5, t.z + 0.5),
+					new k(t.x + 0.5, t.y + 0.5, t.z + 0.5),
 				);
 				for (let n = 0; n < 8; ++n)
 					e.spawnParticle(
@@ -36382,7 +36382,7 @@ var Zie = class extends dg {
 	},
 	Xg = class extends zie {
 		constructor(e, t) {
-			if ((super(e), (this.vel = new A()), this.setSize(0.25, 0.25), !t))
+			if ((super(e), (this.vel = new k()), this.setSize(0.25, 0.25), !t))
 				return;
 			(this.thrower = t),
 				this.setLocationAndAngles(
@@ -36402,25 +36402,25 @@ var Zie = class extends dg {
 			(this.motion.x = -Math.sin(i) * Math.cos(this.pitch) * r),
 				(this.motion.z = -Math.cos(i) * Math.cos(this.pitch) * r),
 				(this.motion.y = Math.sin(this.pitch) * r),
-				this.OWLjJJerUQdmooqUPOW(
+				this.ztmWzMZTDnzVsDXbGPP(
 					this.motion.x,
 					this.motion.y,
 					this.motion.z,
-					this.fRPiNZvODNZ(),
+					this.ICXCAPVPKzQ(),
 					1,
 				);
 		}
-		nsOKXBYSnK() {
+		ASRzCbVsrJ() {
 			return this.thrower;
 		}
 		entityInit() {}
-		fRPiNZvODNZ() {
+		ICXCAPVPKzQ() {
 			return 1.5;
 		}
-		RhZYsQJSjRZzI() {
+		NACIGeEQMuQko() {
 			return 0;
 		}
-		OWLjJJerUQdmooqUPOW(e, t, n, r, i) {
+		ztmWzMZTDnzVsDXbGPP(e, t, n, r, i) {
 			let a = new aae(this, r, i);
 			this.world.handleEvent(a);
 			let o = Math.sqrt(e * e + t * t + n * n);
@@ -36453,7 +36453,7 @@ var Zie = class extends dg {
 					return;
 				}
 			} else ++this.ticksInAir;
-			let e = this.LTqCQRjerym();
+			let e = this.oXgnshZlVVy();
 			if (e != null) {
 				if (e.block != null && e.entity == null) {
 					let t = this.world.getBlockState(e.block).getBlock();
@@ -36461,9 +36461,9 @@ var Zie = class extends dg {
 				}
 				this.onImpact(e);
 			}
-			this.ygKGEJvbVWSxxwGZ();
+			this.cROIcgsodFhEczKP();
 		}
-		mknnuutnc(e) {
+		nrqcfIxDF(e) {
 			return e === this.thrower;
 		}
 		onImpact(e) {
@@ -36480,7 +36480,7 @@ var Zie = class extends dg {
 				(this.wingRotDelta = 1),
 				this.setSize(0.4, 0.7),
 				(this.timeUntilNextEgg = Gm(6e3) + 6e3),
-				this.aSKrOPclVeelDUPpFHHGX({
+				this.zqOPLFvNirLpilZxCtdRt({
 					panic: { priority: 1, speed: 1.4 },
 					mate: { priority: 2, speed: 1 },
 					followParentBeforeTempt: !0,
@@ -36498,7 +36498,7 @@ var Zie = class extends dg {
 			super.applyEntityAttributes(),
 				this.applyBaseAttributes([
 					[Ep.maxHealth, 4],
-					[Ep.EaoLIuupWbDul, 0.25],
+					[Ep.iyhlGlpOTgPEH, 0.25],
 				]);
 		}
 		onLivingUpdate() {
@@ -36513,7 +36513,7 @@ var Zie = class extends dg {
 				(this.wingRotation += this.wingRotDelta * 2),
 				this.world.isServer &&
 					!this.isChild() &&
-					!this.dUYGNxHFXiJOACu() &&
+					!this.mgVDLjBxSkhKVJg() &&
 					--this.timeUntilNextEgg <= 0 &&
 					(this.playSound(
 						`mob.chicken.plop`,
@@ -36546,10 +36546,10 @@ var Zie = class extends dg {
 		isBreedingItem(e) {
 			return e !== null && e.getItem() === H.wheat_seeds;
 		}
-		dUYGNxHFXiJOACu() {
+		mgVDLjBxSkhKVJg() {
 			return this.chickenJockey;
 		}
-		GgEVjIkqtGDttTTI(e) {
+		HfdBmbVmhpLOfACD(e) {
 			this.chickenJockey = e;
 		}
 	},
@@ -36574,7 +36574,7 @@ var Zie = class extends dg {
 					Gm(32) == 0 && (e = 4);
 					for (let t = 0; t < e; ++t) {
 						let e = new oae(this.world);
-						e.rDKAyqhFfCXKV(-24e3),
+						e.wxPCBxbIUGKUt(-24e3),
 							e.setLocationAndAngles(
 								this.pos.x,
 								this.pos.y,
@@ -36694,13 +36694,13 @@ var Zie = class extends dg {
 		toJSON() {
 			return { ...super.toJSON(), type: `$experience_bottle` };
 		}
-		QfKTrOlurnBrrsqpkz() {
+		tDCrleqXmWwgcoBEfI() {
 			return 0.07;
 		}
-		fRPiNZvODNZ() {
+		ICXCAPVPKzQ() {
 			return 0.7;
 		}
-		RhZYsQJSjRZzI() {
+		NACIGeEQMuQko() {
 			return -20;
 		}
 		onImpact(e) {
@@ -36837,7 +36837,7 @@ var e_ = class e extends tm {
 			(this.motion.x = -Math.sin(this.yaw) * Math.cos(this.pitch) * r),
 				(this.motion.z = -Math.cos(this.yaw) * Math.cos(this.pitch) * r),
 				(this.motion.y = Math.sin(this.pitch) * r),
-				this.OWLjJJerUQdmooqUPOW(
+				this.ztmWzMZTDnzVsDXbGPP(
 					this.motion.x,
 					this.motion.y,
 					this.motion.z,
@@ -36851,7 +36851,7 @@ var e_ = class e extends tm {
 		getEyeHeight() {
 			return 0;
 		}
-		OWLjJJerUQdmooqUPOW(e, t, n, r) {
+		ztmWzMZTDnzVsDXbGPP(e, t, n, r) {
 			let i = Math.sqrt(e * e + t * t + n * n) || 1;
 			(e = (e / i) * r),
 				(t = (t / i) * r),
@@ -36862,7 +36862,7 @@ var e_ = class e extends tm {
 		}
 		update() {
 			if ((super.update(), this.world.isServer)) {
-				let e = this.angler?.qHrLWhiuDtLAIHXVxlgqEi();
+				let e = this.angler?.hDFFDtXsVpiuFJuKJmqHla();
 				if (
 					!this.angler ||
 					this.angler.dead ||
@@ -36900,7 +36900,7 @@ var e_ = class e extends tm {
 					(this.ticksInGround = 0),
 					(this.ticksInAir = 0);
 			} else ++this.ticksInAir;
-			let t = this.LTqCQRjerym();
+			let t = this.oXgnshZlVVy();
 			if (t != null)
 				if (t.entity != null) {
 					if (this.world.isServer && t.entity instanceof fm && this.angler) {
@@ -36942,7 +36942,7 @@ var e_ = class e extends tm {
 					e.sliceBox.max.set(r.max.x, a, r.max.z),
 					this.world.isAABBInMaterial(e.sliceBox, z.water) && (i += 1 / 5);
 			}
-			i > 0 && this.world.isServer && this.peUtIUROJaN(i),
+			i > 0 && this.world.isServer && this.uYaZzgAqsOQ(i),
 				i > 0 &&
 					this.ticksCatchable > 0 &&
 					(this.motion.y -=
@@ -36953,7 +36953,7 @@ var e_ = class e extends tm {
 				this.motion.multiplyScalar(a),
 				this.setPosition(this.pos);
 		}
-		peUtIUROJaN(e) {
+		uYaZzgAqsOQ(e) {
 			if (this.ticksCatchable > 0) {
 				--this.ticksCatchable;
 				return;
@@ -37018,16 +37018,16 @@ var e_ = class e extends tm {
 				1,
 			);
 		}
-		LTqCQRjerym() {
-			let e = new A(this.pos.x, this.pos.y, this.pos.z),
-				t = new A(
+		oXgnshZlVVy() {
+			let e = new k(this.pos.x, this.pos.y, this.pos.z),
+				t = new k(
 					this.pos.x + this.motion.x,
 					this.pos.y + this.motion.y,
 					this.pos.z + this.motion.z,
 				),
 				n = zp(e.clone(), t.clone(), !1, !1, !1, this.world);
 			if (
-				(n != null && (t = new A(n.hitVec.x, n.hitVec.y, n.hitVec.z)),
+				(n != null && (t = new k(n.hitVec.x, n.hitVec.y, n.hitVec.z)),
 				this.world.isServer)
 			) {
 				let r = null,
@@ -37060,7 +37060,7 @@ var e_ = class e extends tm {
 			}
 			return n;
 		}
-		gYiFeOlBmdweZRjiLZqL() {
+		FipGokioacsePQRxjslh() {
 			if (!this.world.isServer) return 0;
 			let e = 0;
 			if (this.caughtEntity != null) {
@@ -37078,7 +37078,7 @@ var e_ = class e extends tm {
 					n = new Sm(
 						this.world,
 						hae(t),
-						new A(this.pos.x, this.pos.y, this.pos.z),
+						new k(this.pos.x, this.pos.y, this.pos.z),
 					),
 					r = this.angler.pos.x - this.pos.x,
 					i = this.angler.pos.y - this.pos.y,
@@ -37142,7 +37142,7 @@ var e_ = class e extends tm {
 			let r = n.fishEntity != null;
 			if (r) {
 				if (t.isServer) {
-					let t = n.fishEntity.gYiFeOlBmdweZRjiLZqL();
+					let t = n.fishEntity.FipGokioacsePQRxjslh();
 					e.damageItem(t, n);
 				}
 			} else t.isServer && t.spawnEntityInWorld(new e_(t, n));
@@ -37204,7 +37204,7 @@ var e_ = class e extends tm {
 				? i
 				: (!n.inventory.addItemStackToInventory(i) &&
 						t.isServer &&
-						n.aFDmUTFVhyWFaIIAX(i),
+						n.TdEdSpivUsSjWdkZA(i),
 					e);
 		}
 	};
@@ -37219,7 +37219,7 @@ function vae(e, t, n, r, i, a) {
 				s.block.sound.getStepSound(),
 				(s.block.sound.volume + 1) / 2,
 				s.block.sound.frequency * 0.8,
-				new A(r.x + 0.5, r.y + 0.5, r.z + 0.5),
+				new k(r.x + 0.5, r.y + 0.5, r.z + 0.5),
 			),
 			n.isClient ? !0 : (n.setBlockState(r, s), e.damageItem(1, t), !0));
 }
@@ -37802,7 +37802,7 @@ var n_ = class extends Vd {
 			Vg.fireFromRayTrace(this, this.world, e) &&
 				(e.entity != null &&
 					e.entity.attackEntityFrom(
-						Bg.causeThrownDamage(this, this.nsOKXBYSnK()),
+						Bg.causeThrownDamage(this, this.ASRzCbVsrJ()),
 						0,
 					),
 				this.world.isServer && this.setDead());
@@ -38015,20 +38015,20 @@ var n_ = class extends Vd {
 				(this.type = `potion`),
 				n && (this.potionDamage = n);
 		}
-		QfKTrOlurnBrrsqpkz() {
+		tDCrleqXmWwgcoBEfI() {
 			return 0.05;
 		}
-		fRPiNZvODNZ() {
+		ICXCAPVPKzQ() {
 			return 0.5;
 		}
-		RhZYsQJSjRZzI() {
+		NACIGeEQMuQko() {
 			return -20;
 		}
-		NCbjXWdIEPOguvY(e) {
+		BtKgOoMhDmeHAas(e) {
 			(this.potionDamage ??= new V(H.potion, 1, 0)),
 				this.potionDamage.setItemDamage(e);
 		}
-		qEQYhhMPhrjoGWk() {
+		aZgPNTFKCXkRCTf() {
 			return (
 				(this.potionDamage ??= new V(H.potion, 1, 0)),
 				this.potionDamage.getMetadata()
@@ -38040,7 +38040,7 @@ var n_ = class extends Vd {
 				if (t != null && t.length > 0) {
 					let n = this.getEntityBoundingBox()
 							.clone()
-							.expandByVector(new A(4, 2, 4)),
+							.expandByVector(new k(4, 2, 4)),
 						r = this.world.getEntitiesWithinAABB(null, n);
 					if (r.length > 0)
 						for (let n of r) {
@@ -38256,27 +38256,27 @@ var n_ = class extends Vd {
 				this.getEquipmentInSlot(4),
 			];
 		}
-		gJvUYPhfTS() {
+		yvZJAqSxQg() {
 			return !1;
 		}
-		uWYnGzlHPJi() {
+		UoKzrxFArQY() {
 			return !1;
 		}
-		GIXXixXxaVAzsXjvh(e) {}
-		hVigaEboPvohsk() {
+		RFLGTybWNZlhnyEAY(e) {}
+		XopKaqZhLDDlAf() {
 			return null;
 		}
 		interactFirst(e) {
-			return this.qLlubkzpKa(e, new A(this.pos.x, this.pos.y + 1, this.pos.z));
+			return this.JFEXyDSvAk(e, new k(this.pos.x, this.pos.y + 1, this.pos.z));
 		}
-		qLlubkzpKa(e, t) {
+		JFEXyDSvAk(e, t) {
 			if (!this.world.isServer || e.isSpectator()) return !0;
-			let n = e.qHrLWhiuDtLAIHXVxlgqEi();
+			let n = e.hDFFDtXsVpiuFJuKJmqHla();
 			if (n != null && n.stackSize > 0) {
 				if (n.getItem()?.name === `name_tag` && n.hasDisplayName())
 					return (
-						this.pPZmrfnwVLauKOeg(n.getDisplayName()),
-						this.PgAdHWvXCPDiuoFsE(),
+						this.zOvSxDtpmMWBnXbI(n.getDisplayName()),
+						this.VPCjqpmQLHbKialWq(),
 						!e.abilities.creative &&
 							--n.stackSize <= 0 &&
 							e.inventory.setInventorySlotContents(
@@ -38298,23 +38298,23 @@ var n_ = class extends Vd {
 								e.inventory.currentItem,
 								null,
 							),
-						i != null && this.zRkZOmwnYBnhvLitDE(e, i)),
+						i != null && this.qliOQTcUHUqGLfxErV(e, i)),
 					!0
 				);
 			}
-			let r = this.QNQxTMWgIXgpiSGZc(t.y - this.pos.y),
+			let r = this.qYAVGsxFnteSIaUeM(t.y - this.pos.y),
 				i = this.getEquipmentInSlot(r);
 			return (
 				(i ??= ((r = 0), this.getEquipmentInSlot(0))),
 				i != null &&
-					(this.setCurrentItemOrArmor(r, null), this.zRkZOmwnYBnhvLitDE(e, i)),
+					(this.setCurrentItemOrArmor(r, null), this.qliOQTcUHUqGLfxErV(e, i)),
 				!0
 			);
 		}
-		QNQxTMWgIXgpiSGZc(e) {
+		qYAVGsxFnteSIaUeM(e) {
 			return e >= 1.5 ? 1 : e >= 0.9 ? 2 : e >= 0.5 ? 3 : 4;
 		}
-		zRkZOmwnYBnhvLitDE(e, t) {
+		qliOQTcUHUqGLfxErV(e, t) {
 			e.inventory.addItemStackToInventory(t) || this.entityDropItem(t, 0);
 		}
 		attackEntityFrom(e, t) {
@@ -38324,12 +38324,12 @@ var n_ = class extends Vd {
 				r = n instanceof Rg && n.abilities.creative;
 			return (
 				!r && !e.isExplosion() && this.entityDropItem(new V(H.armor_stand), 0),
-				r || this.ealysxxizsRN(),
+				r || this.cwHZpDMzBLCg(),
 				this.setDead(),
 				!0
 			);
 		}
-		ealysxxizsRN() {
+		cwHZpDMzBLCg() {
 			for (let e = 0; e <= 4; ++e) {
 				let t = this.getEquipmentInSlot(e);
 				t != null &&
@@ -38348,8 +38348,8 @@ var n_ = class extends Vd {
 				u = l.up();
 			if (!c(l) || !c(u)) return !1;
 			let d = new AxisAlignedBoundingBox(
-				new A(l.getX(), l.getY(), l.getZ()),
-				new A(l.getX() + 1, l.getY() + 2, l.getZ() + 1),
+				new k(l.getX(), l.getY(), l.getZ()),
+				new k(l.getX() + 1, l.getY() + 2, l.getZ() + 1),
 			);
 			if (n.getEntitiesWithinAABB(null, d).length > 0) return !1;
 			if (n.isServer) {
@@ -38403,16 +38403,16 @@ var S_ = class extends tm {
 				this.dataWatcher.addObject(18, 1),
 				this.dataWatcher.addObject(19, 0);
 		}
-		GeNIhGSwqQpeXFq(e) {
+		PJMkTYDyJBtmKXE(e) {
 			return e.getEntityBoundingBox();
 		}
 		getCollisionBoundingBox() {
 			return this.getEntityBoundingBox();
 		}
-		uWYnGzlHPJi() {
+		UoKzrxFArQY() {
 			return !0;
 		}
-		JcMhMDJTSvkMvSeYb() {
+		csXqagtbRnRwjIriU() {
 			return -0.3;
 		}
 		attackEntityFrom(e, t) {
@@ -38424,27 +38424,27 @@ var S_ = class extends tm {
 				)
 					return !1;
 				{
-					this.PgjUQvgswpwIivIXOkl(-this.GQfxHRhMbOAJjHdqIbG()),
-						this.wFKpuAgEBoSEWmx(10),
-						this.JTpbtWwcgxaEOZ(this.OTxYAjIdCSWijF() + t * 10),
+					this.NKkduUlLyNOxFzOaoyF(-this.vDgMkZOKQUHjbHgnOJg()),
+						this.MtWdUDLHJrdWhsc(10),
+						this.PotaXMGExDyAFP(this.GONroSuUkyiJar() + t * 10),
 						this.setBeenAttacked();
 					let n =
 						e.getEntity() instanceof Rg && e.getEntity().abilities.creative;
 					return (
-						(n || this.OTxYAjIdCSWijF() > 40) &&
+						(n || this.GONroSuUkyiJar() > 40) &&
 							(this.riddenByEntity !== null &&
 								this.riddenByEntity.mountEntity(this),
-							n || this.EXwzxFSmZkFSNfMfKy(H.getItemByName(this.texture), 1, 0),
+							n || this.kONglyBjijHCHLjzMs(H.getItemByName(this.texture), 1, 0),
 							this.setDead()),
 						!0
 					);
 				}
 			} else return !0;
 		}
-		tTkpftMbjiekVMaMihzA() {
-			this.PgjUQvgswpwIivIXOkl(-this.GQfxHRhMbOAJjHdqIbG()),
-				this.wFKpuAgEBoSEWmx(10),
-				this.JTpbtWwcgxaEOZ(this.OTxYAjIdCSWijF() * 11);
+		JoOrwLyWSbNmVUnNNtQx() {
+			this.NKkduUlLyNOxFzOaoyF(-this.vDgMkZOKQUHjbHgnOJg()),
+				this.MtWdUDLHJrdWhsc(10),
+				this.PotaXMGExDyAFP(this.GONroSuUkyiJar() * 11);
 		}
 		canBeCollidedWith() {
 			return !this.dead;
@@ -38470,13 +38470,13 @@ var S_ = class extends tm {
 					c = n - this.pos.z;
 				(o || a * a + s * s + c * c > 16) &&
 					(this.setPosition(e, t, n),
-					this.LjORXCOakWX(r, i),
+					this.tAiwQRignzX(r, i),
 					(this.motion.x = this.velocityX),
 					(this.motion.y = this.velocityY),
 					(this.motion.z = this.velocityZ));
 			}
 		}
-		ClKcLjUSSNT(e, t, n) {
+		lnoVLrDQLLV(e, t, n) {
 			if (!isFinite(e) || !isFinite(t) || !isFinite(n))
 				throw Error(`Invalid velocity`);
 			(this.velocityX = e),
@@ -38487,10 +38487,10 @@ var S_ = class extends tm {
 		}
 		update() {
 			super.update(),
-				this.RxOpedGSDdGhIxc() > 0 &&
-					this.wFKpuAgEBoSEWmx(this.RxOpedGSDdGhIxc() - 1),
-				this.OTxYAjIdCSWijF() > 0 &&
-					this.JTpbtWwcgxaEOZ(this.OTxYAjIdCSWijF() - 1),
+				this.kMtGImhCdwSXklu() > 0 &&
+					this.MtWdUDLHJrdWhsc(this.kMtGImhCdwSXklu() - 1),
+				this.GONroSuUkyiJar() > 0 &&
+					this.PotaXMGExDyAFP(this.GONroSuUkyiJar() - 1),
 				(this.prevPos.x = this.pos.x),
 				(this.prevPos.y = this.pos.y),
 				(this.prevPos.z = this.pos.z);
@@ -38547,7 +38547,7 @@ var S_ = class extends tm {
 							(this.boatPitch - this.pitch) / this.boatPosRotationIncrements),
 						--this.boatPosRotationIncrements,
 						this.setPosition(e, t, n),
-						this.LjORXCOakWX(this.yaw, this.pitch);
+						this.tAiwQRignzX(this.yaw, this.pitch);
 				} else
 					(this.motion.x *= 0.99),
 						(this.motion.y *= 0.95),
@@ -38559,7 +38559,7 @@ var S_ = class extends tm {
 				let n = this.getEntityBoundingBox(),
 					r = n.min.y + ((n.max.y - n.min.y) * (e + 0)) / 5 - 0.125,
 					i = n.min.y + ((n.max.y - n.min.y) * (e + 1)) / 5 - 0.125,
-					a = new AxisAlignedBoundingBox(new A(n.min.x, r, n.min.z), new A(n.max.x, i, n.max.z));
+					a = new AxisAlignedBoundingBox(new k(n.min.x, r, n.min.z), new k(n.max.x, i, n.max.z));
 				this.world.isAABBInMaterial(a, z.water) && (t += 1 / 5);
 			}
 			if (t < 1) {
@@ -38569,7 +38569,7 @@ var S_ = class extends tm {
 				this.motion.y < 0 && (this.motion.y /= 2), (this.motion.y += 0.007);
 			if (this.riddenByEntity instanceof fm) {
 				let e = this.riddenByEntity,
-					t = e.yaw - Math.PI / 2 + (-e.SeOedoBgnd * Math.PI) / 2;
+					t = e.yaw - Math.PI / 2 + (-e.qrBHjSOqfq * Math.PI) / 2;
 				(this.motion.x +=
 					Math.cos(t) * this.speedMultiplier * e.moveForward * 0.05),
 					(this.motion.z +=
@@ -38615,21 +38615,21 @@ var S_ = class extends tm {
 			o > s && (o = s),
 				o < -s && (o = -s),
 				(this.yaw += o),
-				this.LjORXCOakWX(this.yaw, this.pitch),
+				this.tAiwQRignzX(this.yaw, this.pitch),
 				this.world.isServer &&
 					this.riddenByEntity !== null &&
 					this.riddenByEntity.dead &&
 					(this.riddenByEntity = null);
 		}
-		YfJdWWSOyBcXTJPyeyx() {
+		HaoJrvVsdUxIigRDxyT() {
 			if (this.riddenByEntity !== null) {
 				let e = Math.cos(this.yaw) * 0.4,
 					t = -Math.sin(this.yaw) * 0.4;
 				this.riddenByEntity.setPosition(
 					this.pos.x + e,
 					this.pos.y +
-						this.JcMhMDJTSvkMvSeYb() +
-						this.riddenByEntity.SCTxYnYXqZ(),
+						this.csXqagtbRnRwjIriU() +
+						this.riddenByEntity.warZnnhtAH(),
 					this.pos.z + t,
 				);
 			}
@@ -38643,7 +38643,7 @@ var S_ = class extends tm {
 		readEntityFromNBT(e) {
 			super.readEntityFromNBT(e), (this.texture = e.Texture);
 		}
-		OdxKjYioRJwveZFMnsY() {
+		EgvBwnSXHfcmEEAkJwG() {
 			return this.riddenByEntity === null;
 		}
 		interactFirst(e) {
@@ -38662,7 +38662,7 @@ var S_ = class extends tm {
 					this.world.isServer &&
 						!this.dead &&
 						(this.setDead(),
-						this.EXwzxFSmZkFSNfMfKy(H.getItemByName(this.texture), 1, 0)),
+						this.kONglyBjijHCHLjzMs(H.getItemByName(this.texture), 1, 0)),
 					(this.fallDistance = 0))
 				: this.world
 						.getBlockState(I.fromVector(this.pos).down())
@@ -38671,25 +38671,25 @@ var S_ = class extends tm {
 					e < 0 &&
 					(this.fallDistance -= e);
 		}
-		JTpbtWwcgxaEOZ(e) {
+		PotaXMGExDyAFP(e) {
 			this.dataWatcher.updateObject(19, e);
 		}
-		OTxYAjIdCSWijF() {
+		GONroSuUkyiJar() {
 			return this.dataWatcher.getWatchableObjectFloat(19);
 		}
-		wFKpuAgEBoSEWmx(e) {
+		MtWdUDLHJrdWhsc(e) {
 			this.dataWatcher.updateObject(17, e);
 		}
-		RxOpedGSDdGhIxc() {
-			return this.dataWatcher.orNquldfkGOcXTEvzbkNU(17);
+		kMtGImhCdwSXklu() {
+			return this.dataWatcher.RoyitaEBVbdkzRcXJnWvR(17);
 		}
-		PgjUQvgswpwIivIXOkl(e) {
+		NKkduUlLyNOxFzOaoyF(e) {
 			this.dataWatcher.updateObject(18, e);
 		}
-		GQfxHRhMbOAJjHdqIbG() {
-			return this.dataWatcher.orNquldfkGOcXTEvzbkNU(18);
+		vDgMkZOKQUHjbHgnOJg() {
+			return this.dataWatcher.RoyitaEBVbdkzRcXJnWvR(18);
 		}
-		iKqeyUPgwCfPPV(e) {
+		ngApoWVCMwLeAI(e) {
 			this.isBoatEmpty !== e &&
 				((this.isBoatEmpty = e),
 				(this.boatPosRotationIncrements = 0),
@@ -38710,7 +38710,7 @@ var S_ = class extends tm {
 		onItemRightClick(e, t, n) {
 			let r = n.prevPitch + (n.pitch - n.prevPitch) * 1,
 				i = n.prevYaw + (n.yaw - n.prevYaw) * 1,
-				a = new A(
+				a = new k(
 					n.prevPos.x + (n.pos.x - n.prevPos.x) * 1,
 					n.prevPos.y + (n.pos.y - n.prevPos.y) * 1 + n.getEyeHeight(),
 					n.prevPos.z + (n.pos.z - n.prevPos.z) * 1,
@@ -38721,7 +38721,7 @@ var S_ = class extends tm {
 				l = Math.sin(r),
 				u = s * c,
 				d = o * c,
-				f = zp(a, a.clone().add(new A(u * 5, l * 5, d * 5)), !0, !1, !1, t);
+				f = zp(a, a.clone().add(new k(u * 5, l * 5, d * 5)), !0, !1, !1, t);
 			if (f === null) return e;
 			{
 				let r = n.getLook(),
@@ -38738,7 +38738,7 @@ var S_ = class extends tm {
 				for (let e = 0; e < o.length; ++e) {
 					let t = o[e];
 					if (t.canBeCollidedWith()) {
-						let e = t.GTwAtnDrfDppPEdcKhlRmi();
+						let e = t.INkfyNmjqUbDGJiOzHxlIh();
 						t.getEntityBoundingBox().expandByScalar(e).containsPoint(a) &&
 							(i = !0);
 					}
@@ -38774,7 +38774,7 @@ var S_ = class extends tm {
 		onItemUseFinish(e, t, n) {
 			return (
 				n.abilities.creative || e.stackSize--,
-				t.isServer && n.OkqdIiTepdeYcFSfcM(),
+				t.isServer && n.QawpmpYXuOBngnsatH(),
 				e.stackSize <= 0 ? new V(H.bucket) : e
 			);
 		}
@@ -38966,19 +38966,19 @@ var S_ = class extends tm {
 			super(e), (this.hangingPosition = t), this.setSize(0.5, 0.5);
 		}
 		entityInit() {}
-		AhdydzrupYurqmUNovXfLomjYlo(e) {
+		LzfTfwGNpWgJZzmPaHZzAGkfrAa(e) {
 			(this.facingDirection = e),
 				(this.prevYaw = this.yaw =
 					((this.facingDirection.index + 5) * Math.PI) / 4),
-				this.feFKFaSSBPVvUZbtM();
+				this.DcwARRewTpfiQFTNT();
 		}
-		feFKFaSSBPVvUZbtM() {
+		DcwARRewTpfiQFTNT() {
 			if (this.facingDirection != null) {
 				let e = this.hangingPosition.x + 0.5,
 					t = this.hangingPosition.y + 0.5,
 					n = this.hangingPosition.z + 0.5,
-					r = this.vbJeCMljxXopU(this.WVHrECjjSmcmWZ()),
-					i = this.vbJeCMljxXopU(this.ySSYTRDSDedvgjD());
+					r = this.RZMjQemuUfUNt(this.jKiljPdhIIxstg()),
+					i = this.RZMjQemuUfUNt(this.lNfuuaemfSdZRbg());
 				(e -= this.facingDirection.getFrontOffsetX() * 0.46875),
 					(n -= this.facingDirection.getFrontOffsetZ() * 0.46875),
 					(t += i);
@@ -38988,19 +38988,19 @@ var S_ = class extends tm {
 					(this.pos.x = e),
 					(this.pos.y = t),
 					(this.pos.z = n);
-				let o = this.WVHrECjjSmcmWZ(),
-					s = this.ySSYTRDSDedvgjD(),
-					c = this.WVHrECjjSmcmWZ();
+				let o = this.jKiljPdhIIxstg(),
+					s = this.lNfuuaemfSdZRbg(),
+					c = this.jKiljPdhIIxstg();
 				this.facingDirection.getAxis() == P.Z ? (c = 1) : (o = 1),
 					(o /= 32),
 					(s /= 32),
 					(c /= 32),
-					this.KLjzfGYqLjVcEyRneJpY(
-						new AxisAlignedBoundingBox(new A(e - o, t - s, n - c), new A(e + o, t + s, n + c)),
+					this.zKPdGFjcjHcTtjoCAGPP(
+						new AxisAlignedBoundingBox(new k(e - o, t - s, n - c), new k(e + o, t + s, n + c)),
 					);
 			}
 		}
-		vbJeCMljxXopU(e) {
+		RZMjQemuUfUNt(e) {
 			return e % 32 == 0 ? 0.5 : 0;
 		}
 		onUpdate() {
@@ -39012,14 +39012,14 @@ var S_ = class extends tm {
 					((this.tickCounter1 = 0),
 					!this.dead &&
 						!this.onValidSurface() &&
-						(this.setDead(), this.vdZdIqHM(null)));
+						(this.setDead(), this.KhtiyHrc(null)));
 		}
 		onValidSurface() {
 			let t = this.getEntityBoundingBox(),
 				n = 0.001,
 				r = new AxisAlignedBoundingBox(
-					new A(t.min.x + n, t.min.y + n, t.min.z + n),
-					new A(t.max.x - n, t.max.y - n, t.max.z - n),
+					new k(t.min.x + n, t.min.y + n, t.min.z + n),
+					new k(t.max.x - n, t.max.y - n, t.max.z - n),
 				);
 			if (this.world.getCollidingBoundingBoxes(this, r).length > 0) return !1;
 			for (let t of this.world.getEntitiesWithinAABBExcludingEntity(
@@ -39032,12 +39032,12 @@ var S_ = class extends tm {
 		canBeCollidedWith() {
 			return !0;
 		}
-		ALGRXvzzYPN(e) {
+		AhrDqckzlwp(e) {
 			return e instanceof Rg
 				? this.attackEntityFrom(Bg.causePlayerDamage(e), 0)
 				: !1;
 		}
-		ZpGhLiSZmvfigAHWiKe() {
+		CVxsVpIMAWjPrhvzXYe() {
 			return this.facingDirection;
 		}
 		attackEntityFrom(e, t) {
@@ -39047,20 +39047,20 @@ var S_ = class extends tm {
 						this.world.isServer &&
 						(this.setDead(),
 						this.setBeenAttacked(),
-						this.vdZdIqHM(e.getEntity())),
+						this.KhtiyHrc(e.getEntity())),
 					!0);
 		}
 		moveEntity(e, t, n) {
 			this.world.isServer &&
 				!this.dead &&
 				e * e + t * t + n * n > 0 &&
-				(this.setDead(), this.vdZdIqHM(null));
+				(this.setDead(), this.KhtiyHrc(null));
 		}
 		addVelocity(e, t, n) {
 			this.world.isServer &&
 				!this.dead &&
 				e * e + t * t + n * n > 0 &&
-				(this.setDead(), this.vdZdIqHM(null));
+				(this.setDead(), this.KhtiyHrc(null));
 		}
 		fromJSON(e) {
 			(this.id = e.id),
@@ -39070,15 +39070,15 @@ var S_ = class extends tm {
 					e.pos.z / 32,
 				));
 			let t = e.facing == null ? F.NORTH : F.fromIndex(e.facing);
-			this.AhdydzrupYurqmUNovXfLomjYlo(t),
+			this.LzfTfwGNpWgJZzmPaHZzAGkfrAa(t),
 				this.prevPos.copy(this.pos),
 				(this.onGround = !1);
 		}
 		writeEntityToNBT(e) {
 			(e.Facing = L.byte(this.facingDirection.index)),
-				(e.TileX = L.int(this.WUhNyJtEEHVhVOUVEr().x)),
-				(e.TileY = L.int(this.WUhNyJtEEHVhVOUVEr().y)),
-				(e.TileZ = L.int(this.WUhNyJtEEHVhVOUVEr().z));
+				(e.TileX = L.int(this.DLVdUzzfIyHsIrKdnh().x)),
+				(e.TileY = L.int(this.DLVdUzzfIyHsIrKdnh().y)),
+				(e.TileZ = L.int(this.DLVdUzzfIyHsIrKdnh().z));
 		}
 		readEntityFromNBT(e) {
 			this.hangingPosition = new I(e.TileX, e.TileY, e.TileZ);
@@ -39089,9 +39089,9 @@ var S_ = class extends tm {
 					: ((t = F.getHorizontal(e.Direction)),
 						(this.hangingPosition = this.hangingPosition.offset(t)))
 				: (t = F.fromIndex(e.Facing)),
-				this.AhdydzrupYurqmUNovXfLomjYlo(t);
+				this.LzfTfwGNpWgJZzmPaHZzAGkfrAa(t);
 		}
-		TDqcUYHCGLReVcQXVfAtfxAU() {
+		ArwACfUVoshNXpJwEyUFDHLz() {
 			return !1;
 		}
 		setPosition(e, t, n) {
@@ -39106,9 +39106,9 @@ var S_ = class extends tm {
 					(this.pos.z = e.z),
 					(this.hangingPosition = new I(e.x, e.y, e.z))),
 				this.hangingPosition.equals(r) ||
-					(this.feFKFaSSBPVvUZbtM(), (this.isAirborne = !0));
+					(this.DcwARRewTpfiQFTNT(), (this.isAirborne = !0));
 		}
-		WUhNyJtEEHVhVOUVEr() {
+		DLVdUzzfIyHsIrKdnh() {
 			return this.hangingPosition;
 		}
 	},
@@ -39118,53 +39118,53 @@ var S_ = class extends tm {
 				(this.identifier = xm.ITEM_FRAME),
 				(this.type = `item_frame`),
 				(this.itemDropChance = 1),
-				this.AhdydzrupYurqmUNovXfLomjYlo(n);
+				this.LzfTfwGNpWgJZzmPaHZzAGkfrAa(n);
 		}
 		entityInit() {
-			this.getDataWatcher().svDNpQsRFJazcygKDRT(8, 5),
+			this.getDataWatcher().QDlilcnTpFvBhMpXKcg(8, 5),
 				this.getDataWatcher().addObject(9, 0);
 		}
-		EXABpKtlUABRUnEtoLF(e) {
+		gLYqxagsDXqcRBPzVIU(e) {
 			(e === 8 || e === 9) && this.mesh?.recreate(),
-				super.EXABpKtlUABRUnEtoLF(e);
+				super.gLYqxagsDXqcRBPzVIU(e);
 		}
-		GTwAtnDrfDppPEdcKhlRmi() {
+		INkfyNmjqUbDGJiOzHxlIh() {
 			return 0;
 		}
 		attackEntityFrom(e, t) {
 			return this.isEntityInvulnerable(e)
 				? !1
-				: !e.isExplosion() && this.sFMTXPSfGFmafyGu() != null
+				: !e.isExplosion() && this.qZPZlXmhEoCZezml() != null
 					? (this.world.isServer &&
-							(this.DCYQPjCfUWKglP(e.getEntity(), !1),
-							this.IGeayzhlOGYKbDyE(null)),
+							(this.SCnxvaUiWDONZO(e.getEntity(), !1),
+							this.HtRwTvMisQuLJjKN(null)),
 						!0)
 					: super.attackEntityFrom(e, t);
 		}
-		WVHrECjjSmcmWZ() {
+		jKiljPdhIIxstg() {
 			return 12;
 		}
-		ySSYTRDSDedvgjD() {
+		lNfuuaemfSdZRbg() {
 			return 12;
 		}
-		ClhRrcwhsvqbdJpColEeT(e) {
+		XyOJTlXIhDyKvOLBQKIXC(e) {
 			let t = 16;
 			return (t = t * 64 * this.renderDistanceWeight), e < t * t;
 		}
-		vdZdIqHM(e) {
-			this.DCYQPjCfUWKglP(e, !0);
+		KhtiyHrc(e) {
+			this.SCnxvaUiWDONZO(e, !0);
 		}
-		DCYQPjCfUWKglP(e, t) {
-			let n = this.sFMTXPSfGFmafyGu();
+		SCnxvaUiWDONZO(e, t) {
+			let n = this.qZPZlXmhEoCZezml();
 			if (e instanceof Rg && e.abilities.creative) {
-				this.AcvXwyfjSaACwBEcNZ(n);
+				this.fLyeiByUiqIydrztme(n);
 				return;
 			}
 			t && this.entityDropItem(new V(H.item_frame), 0),
 				n != null &&
 					Math.random() < this.itemDropChance &&
 					((n = n.clone()),
-					this.AcvXwyfjSaACwBEcNZ(n),
+					this.fLyeiByUiqIydrztme(n),
 					this.entityDropItem(n, 0));
 		}
 		entityDropItem(e, t) {
@@ -39172,19 +39172,19 @@ var S_ = class extends tm {
 				let n = new Sm(
 					this.world,
 					e,
-					new A(this.pos.x, this.pos.y + t, this.pos.z),
+					new k(this.pos.x, this.pos.y + t, this.pos.z),
 				);
-				return n.AydpEMNAsJCvEMlLIGFId(), this.world.spawnEntityInWorld(n), n;
+				return n.WprPYViyqOSYdojmAauDp(), this.world.spawnEntityInWorld(n), n;
 			} else return null;
 		}
-		AcvXwyfjSaACwBEcNZ(e) {}
+		fLyeiByUiqIydrztme(e) {}
 		writeEntityToNBT(e) {
-			let t = this.sFMTXPSfGFmafyGu();
+			let t = this.qZPZlXmhEoCZezml();
 			if (t != null) {
 				let n = {};
 				t.writeToNBT(n),
 					(e.Item = L.comp(n)),
-					(e.ItemRotation = L.byte(this.PuIzzAjxocz())),
+					(e.ItemRotation = L.byte(this.GmUHyFrQAFX())),
 					(e.ItemDropChance = L.float(this.itemDropChance));
 			}
 			super.writeEntityToNBT(e);
@@ -39192,43 +39192,43 @@ var S_ = class extends tm {
 		readEntityFromNBT(e) {
 			let t = V.readFromNBT(e.Item);
 			t != null &&
-				(this.gpiaekEMVMHWWveAgqtxJXUfkl(t, !1),
-				this.soppAIqunDJzJ(e.ItemRotation ?? 0, !1),
+				(this.hEgJzGuyAPqRvUwPywOXSjAcTw(t, !1),
+				this.kVZnHgFLPCBLl(e.ItemRotation ?? 0, !1),
 				e.ItemDropChance != null && (this.itemDropChance = e.ItemDropChance)),
 				super.readEntityFromNBT(e);
 		}
-		sFMTXPSfGFmafyGu() {
-			return this.getDataWatcher().hVJTgmbwlvRRAxisAlignedBoundingBoxSFRnRrhjKVNdQ(8);
+		qZPZlXmhEoCZezml() {
+			return this.getDataWatcher().RbLBMLMiqHOFOmoDnshgmZytHrj(8);
 		}
-		IGeayzhlOGYKbDyE(e) {
-			this.gpiaekEMVMHWWveAgqtxJXUfkl(e, !0);
+		HtRwTvMisQuLJjKN(e) {
+			this.hEgJzGuyAPqRvUwPywOXSjAcTw(e, !0);
 		}
-		gpiaekEMVMHWWveAgqtxJXUfkl(e, t) {
+		hEgJzGuyAPqRvUwPywOXSjAcTw(e, t) {
 			e != null && ((e = e.clone()), (e.stackSize = 1), e.setItemFrame(this)),
 				this.getDataWatcher().updateObject(8, e),
-				this.getDataWatcher().cxQXlrtXNKRSlift(8),
+				this.getDataWatcher().DcvqyVkwSaugDOrW(8),
 				t &&
 					this.hangingPosition != null &&
 					this.world.updateComparatorOutputLevel(this.hangingPosition, U.air);
 		}
-		PuIzzAjxocz() {
+		GmUHyFrQAFX() {
 			return this.getDataWatcher().getWatchableObjectByte(9);
 		}
-		sBdHTAkvDbzgwYI(e) {
-			this.soppAIqunDJzJ(e, !0);
+		gSyWMEkavEgIjja(e) {
+			this.kVZnHgFLPCBLl(e, !0);
 		}
-		soppAIqunDJzJ(e, t) {
+		kVZnHgFLPCBLl(e, t) {
 			this.getDataWatcher().updateObject(9, e % 8),
 				t &&
 					this.hangingPosition != null &&
 					this.world.updateComparatorOutputLevel(this.hangingPosition, U.air);
 		}
 		interactFirst(e) {
-			if (this.sFMTXPSfGFmafyGu() == null) {
+			if (this.qZPZlXmhEoCZezml() == null) {
 				let t = e.getActiveItemStack();
 				t != null &&
 					this.world.isServer &&
-					(this.IGeayzhlOGYKbDyE(t),
+					(this.HtRwTvMisQuLJjKN(t),
 					!e.abilities.creative &&
 						--t.stackSize <= 0 &&
 						e.inventory.setInventorySlotContents(
@@ -39236,11 +39236,11 @@ var S_ = class extends tm {
 							null,
 						));
 			} else
-				this.world.isServer && this.sBdHTAkvDbzgwYI(this.PuIzzAjxocz() + 1);
+				this.world.isServer && this.gSyWMEkavEgIjja(this.GmUHyFrQAFX() + 1);
 			return !0;
 		}
-		dYiVwBeSdUKFZ() {
-			return this.sFMTXPSfGFmafyGu() == null ? 0 : (this.PuIzzAjxocz() % 8) + 1;
+		rqcCKAiQBhPSU() {
+			return this.qZPZlXmhEoCZezml() == null ? 0 : (this.GmUHyFrQAFX() % 8) + 1;
 		}
 	},
 	Fae = class extends Vd {
@@ -39341,19 +39341,19 @@ var S_ = class extends tm {
 				this.dataWatcher.addObject(18, 1),
 				this.dataWatcher.addObject(19, 0);
 		}
-		uWYnGzlHPJi() {
+		UoKzrxFArQY() {
 			return !0;
 		}
 		canBeCollidedWith() {
 			return !this.dead;
 		}
-		GeNIhGSwqQpeXFq(e) {
+		PJMkTYDyJBtmKXE(e) {
 			return e.getEntityBoundingBox();
 		}
-		JcMhMDJTSvkMvSeYb() {
+		csXqagtbRnRwjIriU() {
 			return 0;
 		}
-		eqsIWCZMnkp() {
+		wdqecKEPskA() {
 			return Iae;
 		}
 		update() {
@@ -39374,10 +39374,10 @@ var S_ = class extends tm {
 				}
 				return;
 			}
-			this.RxOpedGSDdGhIxc() > 0 &&
-				this.wFKpuAgEBoSEWmx(this.RxOpedGSDdGhIxc() - 1),
-				this.OTxYAjIdCSWijF() > 0 &&
-					this.JTpbtWwcgxaEOZ(this.OTxYAjIdCSWijF() - 1),
+			this.kMtGImhCdwSXklu() > 0 &&
+				this.MtWdUDLHJrdWhsc(this.kMtGImhCdwSXklu() - 1),
+				this.GONroSuUkyiJar() > 0 &&
+					this.PotaXMGExDyAFP(this.GONroSuUkyiJar() - 1),
 				this.prevPos.copy(this.pos),
 				(this.motion.y -= 0.04);
 			let e = Math.floor(this.pos.x),
@@ -39392,8 +39392,8 @@ var S_ = class extends tm {
 			}
 			if (
 				(O_(i.getBlock())
-					? (this.wzNUNVLdoWjkrq(r, i), this.KleKLFzNPvoEpga(r, i))
-					: (this.kJeRBleGjPah(), this.goaKBgqAApzjnBT()),
+					? (this.QoMMIdlqPtdWLa(r, i), this.ROuJuedsGqXezFH(r, i))
+					: (this.QSOqhbtAJKBE(), this.wWklWZoFibiATHL()),
 				this.riddenByEntity !== null &&
 					this.riddenByEntity.dead &&
 					(this.riddenByEntity = null),
@@ -39407,7 +39407,7 @@ var S_ = class extends tm {
 					--this.posRotationIncrements;
 			}
 		}
-		wzNUNVLdoWjkrq(e, t) {
+		QoMMIdlqPtdWLa(e, t) {
 			(this.fallDistance = 0), (this.onGround = !0), (this.motion.y = 0);
 			let n = k_[t.getProp(`shape`)] || k_.north_south,
 				r = n[0],
@@ -39420,7 +39420,7 @@ var S_ = class extends tm {
 			let l = o / c,
 				u = s / c,
 				d = Math.min(
-					this.eqsIWCZMnkp(),
+					this.wdqecKEPskA(),
 					Math.hypot(this.motion.x, this.motion.z),
 				);
 			if (((this.motion.x = l * d), (this.motion.z = u * d), a)) {
@@ -39431,23 +39431,23 @@ var S_ = class extends tm {
 					o = Math.hypot(n, a) || 1;
 				(this.motion.x += (n / o) * j_), (this.motion.z += (a / o) * j_);
 			}
-			this.CTryzkxPrwjohTzYCLl(e, t, l, u, d), this.VpqRyXFMzuDbZJv(l, u);
+			this.IolMNsbFdwLQnmixISz(e, t, l, u, d), this.QOAwNSJfSzeUFYO(l, u);
 			let f = Math.hypot(this.motion.x, this.motion.z);
-			f > this.eqsIWCZMnkp() &&
-				((this.motion.x *= this.eqsIWCZMnkp() / f),
-				(this.motion.z *= this.eqsIWCZMnkp() / f)),
+			f > this.wdqecKEPskA() &&
+				((this.motion.x *= this.wdqecKEPskA() / f),
+				(this.motion.z *= this.wdqecKEPskA() / f)),
 				this.setPosition(
 					this.pos.x + this.motion.x,
 					this.pos.y,
 					this.pos.z + this.motion.z,
 				),
-				this.zAUfJprWuC(e, r, i, a),
+				this.IVHzLrzpHW(e, r, i, a),
 				(this.motion.x *= A_),
 				(this.motion.z *= A_),
 				(this.motion.y = 0),
-				this.JnToliUpeWkgeksNq(a, r, i);
+				this.kutisWBESeCSfmraG(a, r, i);
 		}
-		JnToliUpeWkgeksNq(e, t, n) {
+		kutisWBESeCSfmraG(e, t, n) {
 			if (
 				(Math.hypot(this.motion.x, this.motion.z) > P_ &&
 					(this.yaw = Math.atan2(-this.motion.x, -this.motion.z)),
@@ -39463,7 +39463,7 @@ var S_ = class extends tm {
 				this.pitch = (c >= 0 ? 1 : -1) * zae;
 			} else this.pitch = 0;
 		}
-		zAUfJprWuC(e, t, n, r) {
+		IVHzLrzpHW(e, t, n, r) {
 			let i = n[0] - t[0],
 				a = n[2] - t[2],
 				o = e.x + 0.5,
@@ -39497,7 +39497,7 @@ var S_ = class extends tm {
 			}
 			this.setPosition(c, e.y + u + Rae, l);
 		}
-		VpqRyXFMzuDbZJv(e, t) {
+		QOAwNSJfSzeUFYO(e, t) {
 			let n = this.riddenByEntity;
 			if (!(n instanceof fm) || n.moveForward === 0) return;
 			let r = n.getLook(),
@@ -39509,7 +39509,7 @@ var S_ = class extends tm {
 					a > -0.2 &&
 					((this.motion.x -= e * N_), (this.motion.z -= t * N_));
 		}
-		CTryzkxPrwjohTzYCLl(e, t, n, r, i) {
+		IolMNsbFdwLQnmixISz(e, t, n, r, i) {
 			let a = t.getBlock();
 			if (a === U.powered_rail || a === U.activator_rail) {
 				let o = t.getProp(`powered`);
@@ -39541,24 +39541,24 @@ var S_ = class extends tm {
 			let c = o ? -1 : 1;
 			(this.motion.x += c * n * (M_ / 3)), (this.motion.z += c * r * (M_ / 3));
 		}
-		KleKLFzNPvoEpga(e, t) {
+		ROuJuedsGqXezFH(e, t) {
 			if (!this.world.isServer) return;
 			let n = t.getBlock();
 			n === U.detector_rail
 				? (this.currentRail === null || !this.currentRail.equals(e)) &&
-					(this.goaKBgqAApzjnBT(),
+					(this.wWklWZoFibiATHL(),
 					n.setDetectorPowered(this.world, e, !0),
 					(this.currentRail = e))
-				: this.goaKBgqAApzjnBT();
+				: this.wWklWZoFibiATHL();
 		}
-		goaKBgqAApzjnBT() {
+		wWklWZoFibiATHL() {
 			if (!this.world.isServer || this.currentRail === null) return;
 			let e = this.world.getBlockState(this.currentRail).getBlock();
 			e === U.detector_rail &&
 				e.setDetectorPowered(this.world, this.currentRail, !1),
 				(this.currentRail = null);
 		}
-		kJeRBleGjPah() {
+		QSOqhbtAJKBE() {
 			let e = this.riddenByEntity === null ? 0.2 : 0.4;
 			(this.motion.x = Math.max(-e, Math.min(e, this.motion.x))),
 				(this.motion.z = Math.max(-e, Math.min(e, this.motion.z))),
@@ -39571,7 +39571,7 @@ var S_ = class extends tm {
 					(this.yaw = Math.atan2(-this.motion.x, -this.motion.z)),
 				(this.pitch = 0);
 		}
-		OdxKjYioRJwveZFMnsY() {
+		EgvBwnSXHfcmEEAkJwG() {
 			return this.texture === `minecart` && this.riddenByEntity === null;
 		}
 		interactFirst(e) {
@@ -39584,34 +39584,34 @@ var S_ = class extends tm {
 				!0
 			);
 		}
-		YfJdWWSOyBcXTJPyeyx() {
+		HaoJrvVsdUxIigRDxyT() {
 			this.riddenByEntity !== null &&
 				this.riddenByEntity.setPosition(
 					this.pos.x,
 					this.pos.y +
-						this.JcMhMDJTSvkMvSeYb() +
-						this.riddenByEntity.SCTxYnYXqZ(),
+						this.csXqagtbRnRwjIriU() +
+						this.riddenByEntity.warZnnhtAH(),
 					this.pos.z,
 				);
 		}
 		attackEntityFrom(e, t) {
 			if (this.isEntityInvulnerable(e)) return !1;
 			if (this.world.isClient || this.dead) return !0;
-			this.PgjUQvgswpwIivIXOkl(-this.GQfxHRhMbOAJjHdqIbG()),
-				this.wFKpuAgEBoSEWmx(10),
-				this.JTpbtWwcgxaEOZ(this.OTxYAjIdCSWijF() + t * 10),
+			this.NKkduUlLyNOxFzOaoyF(-this.vDgMkZOKQUHjbHgnOJg()),
+				this.MtWdUDLHJrdWhsc(10),
+				this.PotaXMGExDyAFP(this.GONroSuUkyiJar() + t * 10),
 				this.setBeenAttacked();
 			let n = e.getEntity() instanceof Rg && e.getEntity().abilities.creative;
 			return (
-				(n || this.OTxYAjIdCSWijF() > 40) &&
+				(n || this.GONroSuUkyiJar() > 40) &&
 					(this.riddenByEntity !== null &&
 						this.riddenByEntity.mountEntity(this),
-					n || this.EXwzxFSmZkFSNfMfKy(H.getItemByName(this.texture), 1, 0),
+					n || this.kONglyBjijHCHLjzMs(H.getItemByName(this.texture), 1, 0),
 					this.setDead()),
 				!0
 			);
 		}
-		jgBlvXaJVAHiaALXl(e) {
+		NljjLopADbcsuphxO(e) {
 			this.localPredicted !== e &&
 				((this.localPredicted = e),
 				(this.posRotationIncrements = 0),
@@ -39629,7 +39629,7 @@ var S_ = class extends tm {
 				(this.cartPitch = i),
 				(this.posRotationIncrements = a);
 		}
-		ClKcLjUSSNT(e, t, n) {
+		lnoVLrDQLLV(e, t, n) {
 			this.motion.set(e, t, n);
 		}
 		updateFallState(e, t, n, r) {}
@@ -39642,23 +39642,23 @@ var S_ = class extends tm {
 		readEntityFromNBT(e) {
 			super.readEntityFromNBT(e), e.Type && (this.texture = e.Type);
 		}
-		JTpbtWwcgxaEOZ(e) {
+		PotaXMGExDyAFP(e) {
 			this.dataWatcher.updateObject(19, e);
 		}
-		OTxYAjIdCSWijF() {
+		GONroSuUkyiJar() {
 			return this.dataWatcher.getWatchableObjectFloat(19);
 		}
-		wFKpuAgEBoSEWmx(e) {
+		MtWdUDLHJrdWhsc(e) {
 			this.dataWatcher.updateObject(17, e);
 		}
-		RxOpedGSDdGhIxc() {
-			return this.dataWatcher.orNquldfkGOcXTEvzbkNU(17);
+		kMtGImhCdwSXklu() {
+			return this.dataWatcher.RoyitaEBVbdkzRcXJnWvR(17);
 		}
-		PgjUQvgswpwIivIXOkl(e) {
+		NKkduUlLyNOxFzOaoyF(e) {
 			this.dataWatcher.updateObject(18, e);
 		}
-		GQfxHRhMbOAJjHdqIbG() {
-			return this.dataWatcher.orNquldfkGOcXTEvzbkNU(18);
+		vDgMkZOKQUHjbHgnOJg() {
+			return this.dataWatcher.RoyitaEBVbdkzRcXJnWvR(18);
 		}
 	},
 	Vae = class extends Vd {
@@ -39687,15 +39687,15 @@ var S_ = class extends tm {
 		}
 		fall(e, t) {}
 		updateFallState(e, t, n, r) {}
-		bnDaqvXAiHrlfrZnzSCQl(e, t) {
+		NSyJTGQpHxXeqZjMpxrCu(e, t) {
 			if (this.isInWater())
-				this.zFHHwQUNLp(e, t, 0.02),
+				this.kEXyDjhpNw(e, t, 0.02),
 					this.moveEntity(this.motion.x, this.motion.y, this.motion.z),
 					(this.motion.x *= 0.8),
 					(this.motion.y *= 0.8),
 					(this.motion.z *= 0.8);
-			else if (this.sYmfnanB())
-				this.zFHHwQUNLp(e, t, 0.02),
+			else if (this.RHdyMXoe())
+				this.kEXyDjhpNw(e, t, 0.02),
 					this.moveEntity(this.motion.x, this.motion.y, this.motion.z),
 					(this.motion.x *= 0.5),
 					(this.motion.y *= 0.5),
@@ -39712,7 +39712,7 @@ var S_ = class extends tm {
 				}
 				let r = 0.16277136 / (n * n * n);
 				if (
-					(this.zFHHwQUNLp(e, t, this.onGround ? 0.1 * r : 0.02),
+					(this.kEXyDjhpNw(e, t, this.onGround ? 0.1 * r : 0.02),
 					(n = 0.91),
 					this.onGround)
 				) {
@@ -39742,13 +39742,13 @@ var S_ = class extends tm {
 	},
 	Hae = class e extends Sg {
 		static {
-			this.searchExpansion = new A();
+			this.searchExpansion = new k();
 		}
 		constructor(e) {
 			super(), (this.entity = e), e instanceof jg;
 		}
 		shouldExecute() {
-			let t = this.BrXsepwidDXyr(),
+			let t = this.yjKDFxCZbBhND(),
 				n = this.entity.world.getEntitiesWithinAABB(
 					`player`,
 					this.entity
@@ -39775,7 +39775,7 @@ var S_ = class extends tm {
 			)
 				return !1;
 			{
-				let t = this.BrXsepwidDXyr();
+				let t = this.yjKDFxCZbBhND();
 				return this.entity.getDistanceSqToEntity(e) > t * t
 					? !1
 					: !(e instanceof Rg) || !e.abilities.creative;
@@ -39787,7 +39787,7 @@ var S_ = class extends tm {
 		resetTask() {
 			this.entity.setAttackTarget(null), super.startExecuting();
 		}
-		BrXsepwidDXyr() {
+		yjKDFxCZbBhND() {
 			return 16;
 		}
 	},
@@ -39806,13 +39806,13 @@ var S_ = class extends tm {
 				this.tasks.addTask(7, new Wae(this)),
 				this.targetTasks.addTask(1, new Hae(this));
 		}
-		syACeWUgyPm() {
+		ZTfcgOiKCTD() {
 			return this.dataWatcher.getWatchableObjectByte(16) !== 0;
 		}
-		FPiJrZukFUiA(e) {
+		cRUCYQUmxxWR(e) {
 			this.dataWatcher.updateObject(16, +!!e);
 		}
-		OorZhWhyhIrrtafjlCw() {
+		NoSIiZJDNqLuBhQysYZ() {
 			return this.explosionStrength;
 		}
 		update() {
@@ -39838,7 +39838,7 @@ var S_ = class extends tm {
 					[Ep.followRange, 100],
 				]);
 		}
-		GPVVqOLFFuTQAvPfOYvgJGhrA() {
+		nUlNvKqFNgAzLPyEFIGdWrvmo() {
 			return !1;
 		}
 		getSoundInfo() {
@@ -39857,7 +39857,7 @@ var S_ = class extends tm {
 			n = Gm(2) + Gm(1 + t);
 			for (let e = 0; e < n; ++e) this.dropItem2(H.blaze_rod, 1);
 		}
-		sunCuiFZUVAFAe() {
+		NzTWCFzBGcNIbk() {
 			return 10;
 		}
 		getCanSpawnHere() {
@@ -39867,7 +39867,7 @@ var S_ = class extends tm {
 				this.world.getDifficulty() !== Dh.PEACEFUL
 			);
 		}
-		oLdSfMzjKTfpSNDrnGNS() {
+		yOoikIIxlwFZpAMOZNmV() {
 			return 1;
 		}
 		writeEntityToNBT(e) {
@@ -39891,14 +39891,14 @@ var S_ = class extends tm {
 			this.attackTimer = 0;
 		}
 		resetTask() {
-			this.parentEntity.FPiJrZukFUiA(!1);
+			this.parentEntity.cRUCYQUmxxWR(!1);
 		}
 		updateTask() {
 			let e = this.parentEntity.getAttackTarget();
 			if (e) {
 				if (
 					e.getDistanceSqToEntity(this.parentEntity) < 4096 &&
-					this.parentEntity.JHSorjBFFfsITDv(e)
+					this.parentEntity.qUUVYpusgDwsTvw(e)
 				) {
 					let t = this.parentEntity.world;
 					if ((this.attackTimer++, this.attackTimer === 20)) {
@@ -39910,7 +39910,7 @@ var S_ = class extends tm {
 								(0.5 + this.parentEntity.pos.y + this.parentEntity.height / 2),
 							a = e.pos.z - (this.parentEntity.pos.z + n.z * 4),
 							o = new Qg(t, this.parentEntity, r, i, a);
-						(o.explosionPower = this.parentEntity.OorZhWhyhIrrtafjlCw()),
+						(o.explosionPower = this.parentEntity.NoSIiZJDNqLuBhQysYZ()),
 							(o.pos.x = this.parentEntity.pos.x + n.x * 4),
 							(o.pos.y =
 								this.parentEntity.pos.y + this.parentEntity.height / 2 + 0.5),
@@ -39919,7 +39919,7 @@ var S_ = class extends tm {
 							(this.attackTimer = -40);
 					}
 				} else this.attackTimer > 0 && this.attackTimer--;
-				this.parentEntity.FPiJrZukFUiA(this.attackTimer > 10);
+				this.parentEntity.cRUCYQUmxxWR(this.attackTimer > 10);
 			}
 		}
 	},
@@ -39952,8 +39952,8 @@ var S_ = class extends tm {
 			super(), (this.parentEntity = e), this.setMutexBits(1);
 		}
 		shouldExecute() {
-			let e = this.parentEntity.dcisIgkaSUBbM();
-			if (e.WEiJBagbVO()) {
+			let e = this.parentEntity.RskftwXstsSMU();
+			if (e.gdxzfctvEP()) {
 				let t = e.getX() - this.parentEntity.pos.x,
 					n = e.getY() - this.parentEntity.pos.y,
 					r = e.getZ() - this.parentEntity.pos.z,
@@ -39968,14 +39968,14 @@ var S_ = class extends tm {
 			let e = this.parentEntity.pos.x + (Math.random() * 2 - 1) * 16,
 				t = this.parentEntity.pos.y + (Math.random() * 2 - 1) * 16,
 				n = this.parentEntity.pos.z + (Math.random() * 2 - 1) * 16;
-			this.parentEntity.dcisIgkaSUBbM().MhFcjurfk(e, t, n, 1);
+			this.parentEntity.RskftwXstsSMU().SMvSHcpaz(e, t, n, 1);
 		}
 	},
 	qae = class extends ch {
 		constructor(e) {
 			super(e), (this.courseChangeCooldown = 0), (this.parentEntity = e);
 		}
-		plMMjiEaccbsqwxVko() {
+		jEkVYTjZiEQAaJMbzp() {
 			if (this.update) {
 				let e = this.posX - this.parentEntity.pos.x,
 					t = this.posY - this.parentEntity.pos.y,
@@ -39984,21 +39984,21 @@ var S_ = class extends tm {
 				this.courseChangeCooldown-- <= 0 &&
 					((this.courseChangeCooldown += Gm(5) + 2),
 					(r = Math.sqrt(r)),
-					this.PvZDGSjrmPfdqx(this.posX, this.posY, this.posZ, r)
+					this.PWmOOffDcNRoDT(this.posX, this.posY, this.posZ, r)
 						? ((this.parentEntity.motion.x += (e / r) * 0.1),
 							(this.parentEntity.motion.y += (t / r) * 0.1),
 							(this.parentEntity.motion.z += (n / r) * 0.1))
 						: (this.update = !1));
 			}
 		}
-		PvZDGSjrmPfdqx(e, t, n, r) {
+		PWmOOffDcNRoDT(e, t, n, r) {
 			let i = (e - this.parentEntity.pos.x) / r,
 				a = (t - this.parentEntity.pos.y) / r,
 				o = (n - this.parentEntity.pos.z) / r,
 				s = this.parentEntity.getEntityBoundingBox().clone();
 			for (let e = 1; e < r; e++)
 				if (
-					((s = s.translate(new A(i, a, o))),
+					((s = s.translate(new k(i, a, o))),
 					this.parentEntity.world.getCollidingBoundingBoxes(
 						this.parentEntity,
 						s,
@@ -40015,13 +40015,13 @@ var S_ = class extends tm {
 		onLivingUpdate() {
 			super.onLivingUpdate();
 		}
-		MgmeGoEroMUISj() {
+		HHJsSarfDmQppA() {
 			if (
 				this.world.isDaytime() &&
 				this.world.isServer &&
 				!this.world.isRaining() &&
 				!this.isChild() &&
-				!this.uVaeyuAViNEY()
+				!this.xHvDEsvPFFds()
 			) {
 				let e = new I(this.pos.x, Math.round(this.pos.y), this.pos.z);
 				if (Math.random() * 30 < 0.6 * 2 && this.world.canSeeSky(e)) {
@@ -40031,7 +40031,7 @@ var S_ = class extends tm {
 						(t.isItemStackDamageable() &&
 							(t.setItemDamage(t.getItemDamage() + Gm(2)),
 							t.getItemDamage() >= t.getMaxDamage() &&
-								(this.TxLBMgczhHMPYROteUOmH(t),
+								(this.hMJFBhjRDlJclYuWoNfvG(t),
 								this.setCurrentItemOrArmor(4, null))),
 						(e = !1)),
 						e && this.setFire(8);
@@ -40044,10 +40044,10 @@ var S_ = class extends tm {
 					this.world.getDifficulty() === Dh.PEACEFUL &&
 					this.setDead();
 		}
-		CiEJAcIUJgpT() {
+		WInWqrFEFsBA() {
 			return `game.hostile.swim`;
 		}
-		nWTtrYdDgfZJaW() {
+		baQLImocRZmrfl() {
 			return `game.hostile.swim.splash`;
 		}
 		attackEntityFrom(e, t) {
@@ -40057,13 +40057,13 @@ var S_ = class extends tm {
 				return this.riddenByEntity !== t && this.ridingEntity !== t;
 			} else return !1;
 		}
-		KDaayrxxatDg() {
+		osJHfaBSfSHq() {
 			return this.getSoundInfo().hurt ?? `game.hostile.hurt`;
 		}
-		ZXrDCYhINLNPP() {
+		fqupxXcGuoVsm() {
 			return this.getSoundInfo().death ?? `game.hostile.die`;
 		}
-		SqGVLwPqZyLQoZFSbx(e) {
+		IXuOwuzoGUgBJttmTD(e) {
 			return e > 4
 				? `game.hostile.hurt.fall.big`
 				: `game.hostile.hurt.fall.small`;
@@ -40072,7 +40072,7 @@ var S_ = class extends tm {
 			let t = this.getEntityAttribute(Ep.attackDamage).getAttributeValue(),
 				n = 0;
 			e instanceof fm &&
-				((t += bm.func_152377_a(this.getHeldItem(), e.JoeqNGwobqyYbRvHfTsX())),
+				((t += bm.func_152377_a(this.getHeldItem(), e.YPhYaefapNXVwuLEpouD())),
 				(n += bm.getKnockbackModifier(this)));
 			let r = e.attackEntityFrom(Bg.causeMobDamage(this), t);
 			if (r) {
@@ -40085,14 +40085,14 @@ var S_ = class extends tm {
 					(this.motion.x *= 0.6),
 					(this.motion.z *= 0.6));
 				let t = bm.getFireAspectModifier(this);
-				t > 0 && e.setFire(t * 4), this.eHYIoBBCpZveYjzMU(this, e);
+				t > 0 && e.setFire(t * 4), this.DLrleFDxrWWTLuLHk(this, e);
 			}
 			return r;
 		}
-		wKMmeAzfbhfuhgvCah(e) {
+		hedNlDBdCEQJqOPZGg(e) {
 			return 0.5 - this.world.getLightBrightness(e);
 		}
-		fSTCXertWDUDgBDHW() {
+		rOSTaaosYeOcHnCXT() {
 			if (this.world.dimensionId !== 0) return !0;
 			let e = Math.floor(this.pos.x),
 				t = Math.floor(this.getEntityBoundingBox().min.y),
@@ -40108,7 +40108,7 @@ var S_ = class extends tm {
 		getCanSpawnHere() {
 			return (
 				this.world.getDifficulty() !== Dh.PEACEFUL &&
-				this.fSTCXertWDUDgBDHW() &&
+				this.rOSTaaosYeOcHnCXT() &&
 				super.getCanSpawnHere()
 			);
 		}
@@ -40116,7 +40116,7 @@ var S_ = class extends tm {
 			super.applyEntityAttributes(),
 				this.getAttributeMap().registerAttribute(Ep.attackDamage);
 		}
-		VWyQKIozCet() {
+		mrHZYigHjMs() {
 			return !0;
 		}
 	},
@@ -40144,7 +40144,7 @@ var S_ = class extends tm {
 		resetTask() {
 			(this.attackTarget = null),
 				this.setSwingingArms(!1),
-				(this.PBKQzK = 0),
+				(this.CmMrLt = 0),
 				(this.rangedAttackTime = -1);
 		}
 		setSwingingArms(e) {
@@ -40153,16 +40153,16 @@ var S_ = class extends tm {
 		updateTask() {
 			if (!this.attackTarget) return;
 			let e = this.entityHost.pos.distanceToSquared(
-					new A(
+					new k(
 						this.attackTarget.pos.x,
 						this.attackTarget.getEntityBoundingBox().min.y,
 						this.attackTarget.pos.z,
 					),
 				),
-				t = this.entityHost.MiulZQbwkumNuBC().PBKQzK(this.attackTarget);
+				t = this.entityHost.iZIUhFjMjXMAEud().CmMrLt(this.attackTarget);
 			if (
-				(t ? ++this.PBKQzK : (this.PBKQzK = 0),
-				e <= this.maxAttackDistance && this.PBKQzK >= 20
+				(t ? ++this.CmMrLt : (this.CmMrLt = 0),
+				e <= this.maxAttackDistance && this.CmMrLt >= 20
 					? this.entityHost.getNavigator().clearPathEntity()
 					: this.entityHost
 							.getNavigator()
@@ -40176,7 +40176,7 @@ var S_ = class extends tm {
 				if (e > this.maxAttackDistance || !t) return;
 				let n = Math.sqrt(e) / this.maxDist,
 					r = (0, Hd.clamp)(n, 0.1, 1);
-				this.rangedAttackEntityHost.YghapVbxEMroOsBUtDapRpPUouZD(
+				this.rangedAttackEntityHost.zZqfsEkAjGPeiRJSkxpLXAIVJGTy(
 					this.attackTarget,
 					r,
 				),
@@ -40219,7 +40219,7 @@ var S_ = class extends tm {
 			let e = this.attacker.getAttackTarget();
 			return e && e.isEntityAlive()
 				? this.longMemory
-					? this.attacker.utqtCZmcuTgnQMhCHEsRfggizFWKUrbq(
+					? this.attacker.sERiBDWLfdkxhyyGmquxQVDCMzqRYoJp(
 							new I(e.pos.x, e.pos.y, e.pos.z),
 						)
 					: !this.attacker.getNavigator().noPath()
@@ -40238,15 +40238,15 @@ var S_ = class extends tm {
 			let e = this.attacker.getAttackTarget();
 			this.attacker.getLookHelper().setLookPositionWithEntity(e, 30, 30);
 			let t = this.attacker.pos.distanceToSquared(
-					new A(e.pos.x, e.getEntityBoundingBox().min.y, e.pos.z),
+					new k(e.pos.x, e.getEntityBoundingBox().min.y, e.pos.z),
 				),
-				n = this.ncztaVSpoeVxeFvihVBRD(e);
+				n = this.mgTIJauAYuaxnJZqnjwlu(e);
 			this.delayCounter--,
-				(this.longMemory || this.attacker.MiulZQbwkumNuBC().PBKQzK(e)) &&
+				(this.longMemory || this.attacker.iZIUhFjMjXMAEud().CmMrLt(e)) &&
 					this.delayCounter <= 0 &&
 					((this.targetX === 0 && this.targetY === 0 && this.targetZ === 0) ||
 						e.pos.distanceToSquared(
-							new A(this.targetX, this.targetY, this.targetZ),
+							new k(this.targetX, this.targetY, this.targetZ),
 						) >= 1 ||
 						Math.random() < 0.05) &&
 					((this.targetX = e.pos.x),
@@ -40265,7 +40265,7 @@ var S_ = class extends tm {
 					this.attackTick <= 0 &&
 					((this.attackTick = 20), this.attacker.attackEntityAsMob(e));
 		}
-		ncztaVSpoeVxeFvihVBRD(e) {
+		mgTIJauAYuaxnJZqnjwlu(e) {
 			return this.attacker.width * 2 * this.attacker.width * 2 + e.width;
 		}
 	},
@@ -40280,18 +40280,18 @@ var S_ = class extends tm {
 			let e = this.taskOwner.getAttackTarget();
 			if (e == null) return !1;
 			if (e.isEntityAlive()) {
-				let t = this.vLvfKWDArbBJLknWQ();
+				let t = this.RobhepmdWAKzVDWMc();
 				if (this.taskOwner.getDistanceSqToEntity(e) > t * t) return !1;
 				if (this.shouldCheckSight) {
-					if (this.taskOwner.MiulZQbwkumNuBC().PBKQzK(e))
+					if (this.taskOwner.iZIUhFjMjXMAEud().CmMrLt(e))
 						this.targetUnseenTicks = 0;
 					else if (++this.targetUnseenTicks > 60) return !1;
 				}
 				return !(e instanceof Rg) || !e.abilities.invulnerable;
 			} else return !1;
 		}
-		vLvfKWDArbBJLknWQ() {
-			return this.taskOwner.xRtCuapMiWkYEP() ?? 16;
+		RobhepmdWAKzVDWMc() {
+			return this.taskOwner.UpaTvnbDyGuRIO() ?? 16;
 		}
 		startExecuting() {
 			(this.targetSearchStatus = 0),
@@ -40301,30 +40301,30 @@ var S_ = class extends tm {
 		resetTask() {
 			this.taskOwner.setAttackTarget(null);
 		}
-		static ZLGPSCxVbHpBqZuY(e, t, n, r) {
+		static TGuoCdKbiYqnyHzS(e, t, n, r) {
 			return t == null || t == e
 				? !1
 				: t.isEntityAlive()
 					? t instanceof Rg && !n && t.abilities.invulnerable
 						? !1
-						: !r || e.MiulZQbwkumNuBC().PBKQzK(t)
+						: !r || e.iZIUhFjMjXMAEud().CmMrLt(t)
 					: !1;
 		}
-		ZLGPSCxVbHpBqZuY(t, n) {
-			return e.ZLGPSCxVbHpBqZuY(this.taskOwner, t, n, this.shouldCheckSight) &&
-				this.taskOwner.utqtCZmcuTgnQMhCHEsRfggizFWKUrbq(
+		TGuoCdKbiYqnyHzS(t, n) {
+			return e.TGuoCdKbiYqnyHzS(this.taskOwner, t, n, this.shouldCheckSight) &&
+				this.taskOwner.sERiBDWLfdkxhyyGmquxQVDCMzqRYoJp(
 					new I(t.pos.x, t.pos.y, t.pos.z),
 				)
 				? !(
 						this.nearbyOnly &&
 						(--this.targetSearchDelay <= 0 && (this.targetSearchStatus = 0),
 						this.targetSearchStatus == 0 &&
-							(this.targetSearchStatus = this.KpAgEptpLlnvJI(t) ? 1 : 2),
+							(this.targetSearchStatus = this.sTlTlsIKcUJsmn(t) ? 1 : 2),
 						this.targetSearchStatus == 2)
 					)
 				: !1;
 		}
-		KpAgEptpLlnvJI(e) {
+		sTlTlsIKcUJsmn(e) {
 			this.targetSearchDelay = 10 + Gm(5);
 			let t = this.taskOwner.getNavigator().getPathToEntityLiving(e);
 			if (t == null) return !1;
@@ -40348,31 +40348,31 @@ var S_ = class extends tm {
 		}
 		shouldExecute() {
 			return (
-				this.taskOwner.OQpvKvGIkrDiyOi() !== this.revengeTimerOld &&
-				this.ZLGPSCxVbHpBqZuY(this.taskOwner.vBVquRnGOBG(), !1)
+				this.taskOwner.czjuTOYvwyXxoWT() !== this.revengeTimerOld &&
+				this.TGuoCdKbiYqnyHzS(this.taskOwner.TAxPuwtWUdm(), !1)
 			);
 		}
 		startExecuting() {
 			if (
-				(this.taskOwner.setAttackTarget(this.taskOwner.vBVquRnGOBG()),
-				(this.revengeTimerOld = this.taskOwner.OQpvKvGIkrDiyOi()),
+				(this.taskOwner.setAttackTarget(this.taskOwner.TAxPuwtWUdm()),
+				(this.revengeTimerOld = this.taskOwner.czjuTOYvwyXxoWT()),
 				this.entityCallsForHelp)
 			) {
-				let e = this.vLvfKWDArbBJLknWQ(),
+				let e = this.RobhepmdWAKzVDWMc(),
 					t = this.taskOwner.world.getEntitiesWithinAABB(
 						this.taskOwner.type,
 						new AxisAlignedBoundingBox(
-							new A(
+							new k(
 								this.taskOwner.pos.x,
 								this.taskOwner.pos.y,
 								this.taskOwner.pos.z,
 							),
-							new A(
+							new k(
 								this.taskOwner.pos.x + 1,
 								this.taskOwner.pos.y + 1,
 								this.taskOwner.pos.z + 1,
 							),
-						).expandByVector(new A(e, 10, e)),
+						).expandByVector(new k(e, 10, e)),
 					);
 				for (let e of t)
 					if (
@@ -40386,18 +40386,18 @@ var S_ = class extends tm {
 								t = !0;
 								break;
 							}
-						t || this.OXQHPMghpPgiDDbBwgoET(e, this.taskOwner.vBVquRnGOBG());
+						t || this.uRkcfyaEPfOYQnkhfBCyf(e, this.taskOwner.TAxPuwtWUdm());
 					}
 			}
 			super.startExecuting();
 		}
-		OXQHPMghpPgiDDbBwgoET(e, t) {
+		uRkcfyaEPfOYQnkhfBCyf(e, t) {
 			e.setAttackTarget(t);
 		}
 	},
 	H_ = class e extends B_ {
 		static {
-			this.searchExpansion = new A();
+			this.searchExpansion = new k();
 		}
 		constructor(e, t, n, r = !1, i = null, a = 10) {
 			super(e, n, r),
@@ -40408,7 +40408,7 @@ var S_ = class extends tm {
 		shouldExecute() {
 			if (this.targetChance > 0 && Gm(this.targetChance) !== 0) return !1;
 			{
-				let t = this.vLvfKWDArbBJLknWQ(),
+				let t = this.RobhepmdWAKzVDWMc(),
 					n = this.taskOwner.world.getEntitiesWithinAABB(
 						this.targetClass,
 						this.taskOwner
@@ -40430,7 +40430,7 @@ var S_ = class extends tm {
 					}
 					if (
 						(this.targetSelector != null && !this.targetSelector(e)) ||
-						!this.ZLGPSCxVbHpBqZuY(e, !1)
+						!this.TGuoCdKbiYqnyHzS(e, !1)
 					)
 						continue;
 					let n = e.getDistanceSqToEntity(this.taskOwner);
@@ -40457,11 +40457,11 @@ var S_ = class extends tm {
 				this.targetTasks.addTask(1, new V_(this, !1, null)),
 				this.targetTasks.addTask(2, new H_(this, `player`, !0)),
 				this.targetTasks.addTask(3, new H_(this, `golem`, !0)),
-				e != null && e.isServer && this.axPCijKblxOIs();
+				e != null && e.isServer && this.OSWpiOJHjJsPz();
 		}
 		applyEntityAttributes() {
 			super.applyEntityAttributes(),
-				this.applyBaseAttributes([[Ep.EaoLIuupWbDul, 0.25]]);
+				this.applyBaseAttributes([[Ep.iyhlGlpOTgPEH, 0.25]]);
 		}
 		entityInit() {
 			super.entityInit(),
@@ -40476,13 +40476,13 @@ var S_ = class extends tm {
 		}
 		attackEntityAsMob(e) {
 			return super.attackEntityAsMob(e)
-				? (this.SeslrIuOoORwqOB() == 1 && e instanceof fm, !0)
+				? (this.NiQMdECFzlHwwha() == 1 && e instanceof fm, !0)
 				: !1;
 		}
 		onLivingUpdate() {
-			this.MgmeGoEroMUISj(),
+			this.HHJsSarfDmQppA(),
 				this.world.isClient &&
-					this.SeslrIuOoORwqOB() == 1 &&
+					this.NiQMdECFzlHwwha() == 1 &&
 					this.setSize(0.72, 2.535),
 				super.onLivingUpdate();
 		}
@@ -40501,7 +40501,7 @@ var S_ = class extends tm {
 			return { drop: H.arrow };
 		}
 		dropFewItems(e, t) {
-			if (this.SeslrIuOoORwqOB() == 1) {
+			if (this.NiQMdECFzlHwwha() == 1) {
 				let e = Gm(3 + t) - 1;
 				for (let t = 0; t < e; ++t) this.dropItem2(H.coal, 1);
 			} else {
@@ -40511,61 +40511,61 @@ var S_ = class extends tm {
 			let n = Gm(3 + t);
 			for (let e = 0; e < n; ++e) this.dropItem2(H.bone, 1);
 		}
-		HTUQgVJMeTEHm() {
-			this.SeslrIuOoORwqOB();
+		OYcsvGmGdgUbh() {
+			this.NiQMdECFzlHwwha();
 		}
-		keOCCRFSrPbdNcVSYcBGRnUHdqrhQ(e) {
-			super.keOCCRFSrPbdNcVSYcBGRnUHdqrhQ(e),
+		fexwdAzjLLxlGimctGUHSWTZdzDYL(e) {
+			super.fexwdAzjLLxlGimctGUHSWTZdzDYL(e),
 				this.setCurrentItemOrArmor(0, new V(H.bow));
 		}
 		onInitialSpawn(e, t) {
 			return (
 				(t = super.onInitialSpawn(e, t)),
 				this.tasks.addTask(4, this.aiArrowAttack),
-				this.keOCCRFSrPbdNcVSYcBGRnUHdqrhQ(e),
+				this.fexwdAzjLLxlGimctGUHSWTZdzDYL(e),
 				t
 			);
 		}
-		axPCijKblxOIs() {
-			this.tasks.gUMrbVaJgj(this.aiAttackOnCollide),
-				this.tasks.gUMrbVaJgj(this.aiArrowAttack);
+		OSWpiOJHjJsPz() {
+			this.tasks.TculYIflCC(this.aiAttackOnCollide),
+				this.tasks.TculYIflCC(this.aiArrowAttack);
 			let e = this.getHeldItem();
 			e != null && e.getItem() == H.bow
 				? this.tasks.addTask(4, this.aiArrowAttack)
 				: this.tasks.addTask(4, this.aiAttackOnCollide);
 		}
-		YghapVbxEMroOsBUtDapRpPUouZD(e, t) {
+		zZqfsEkAjGPeiRJSkxpLXAIVJGTy(e, t) {
 			let n = new Hg(this.world, this, e, 1.6, 5),
 				r = bm.getEnchantmentLevel(ym.power.effectId, this.getHeldItem()),
 				i = bm.getEnchantmentLevel(ym.punch.effectId, this.getHeldItem());
-			n.oxJoVjDXy(
+			n.SKYoWosTj(
 				t * 2 +
 					ln() * 0.25 +
 					this.world.getDifficulty().getDifficultyId() * 0.11,
 			),
-				r > 0 && n.oxJoVjDXy(n.zRqJivsRf() + r * 0.5 + 0.5),
-				i > 0 && n.WgioDHBqHFRBDrUfiAsI(i),
+				r > 0 && n.SKYoWosTj(n.PJLGoTDHD() + r * 0.5 + 0.5),
+				i > 0 && n.cBqcBWzykbkvuOdUzYbY(i),
 				(bm.getEnchantmentLevel(ym.flame.effectId, this.getHeldItem()) > 0 ||
-					this.SeslrIuOoORwqOB() == 1) &&
+					this.NiQMdECFzlHwwha() == 1) &&
 					n.setFire(100),
 				this.playSound(`random.bow`, 1, 1 / (Math.random() * 0.4 + 0.8)),
 				this.world.spawnEntityInWorld(n);
 		}
-		SeslrIuOoORwqOB() {
+		NiQMdECFzlHwwha() {
 			return this.dataWatcher.getWatchableObjectByte(13);
 		}
-		SolVEIbokrTjPQs(e) {
+		zDQklOpPTBBRhBA(e) {
 			this.dataWatcher.updateObject(13, e),
 				e == 1 ? this.setSize(0.72, 2.535) : this.setSize(0.6, 1.95);
 		}
 		setCurrentItemOrArmor(e, t) {
 			super.setCurrentItemOrArmor(e, t),
-				this.world.isServer && e == 0 && this.axPCijKblxOIs();
+				this.world.isServer && e == 0 && this.OSWpiOJHjJsPz();
 		}
 		getEyeHeight() {
-			return this.SeslrIuOoORwqOB() == 1 ? super.getEyeHeight() : 1.74;
+			return this.NiQMdECFzlHwwha() == 1 ? super.getEyeHeight() : 1.74;
 		}
-		SCTxYnYXqZ() {
+		warZnnhtAH() {
 			return this.isChild() ? 0 : -0.35;
 		}
 	},
@@ -40576,7 +40576,7 @@ var S_ = class extends tm {
 		shouldExecute() {
 			let e = this.swellingCreeper.getAttackTarget();
 			return (
-				this.swellingCreeper.SWfwhSihaimddmK() > 0 ||
+				this.swellingCreeper.rQuVlshAzvQRgIt() > 0 ||
 				(e != null && this.swellingCreeper.getDistanceSqToEntity(e) < 9)
 			);
 		}
@@ -40590,12 +40590,12 @@ var S_ = class extends tm {
 		updateTask() {
 			this.creeperAttackTarget == null ||
 			this.swellingCreeper.getDistanceSqToEntity(this.creeperAttackTarget) > 49
-				? this.swellingCreeper.NcooYPJyqUzhoWF(-1)
+				? this.swellingCreeper.wZYzqxlRaaHkBmG(-1)
 				: this.swellingCreeper
-							.MiulZQbwkumNuBC()
-							.PBKQzK(this.creeperAttackTarget)
-					? this.swellingCreeper.NcooYPJyqUzhoWF(1)
-					: this.swellingCreeper.NcooYPJyqUzhoWF(-1);
+							.iZIUhFjMjXMAEud()
+							.CmMrLt(this.creeperAttackTarget)
+					? this.swellingCreeper.wZYzqxlRaaHkBmG(1)
+					: this.swellingCreeper.wZYzqxlRaaHkBmG(-1);
 		}
 	},
 	W_ = class e extends L_ {
@@ -40620,9 +40620,9 @@ var S_ = class extends tm {
 		}
 		applyEntityAttributes() {
 			super.applyEntityAttributes(),
-				this.applyBaseAttributes([[Ep.EaoLIuupWbDul, 0.25]]);
+				this.applyBaseAttributes([[Ep.iyhlGlpOTgPEH, 0.25]]);
 		}
-		olzNuJPCYdEkAdLg() {
+		HXaWhGqYvcczPkhd() {
 			return this.getAttackTarget() == null ? 3 : 3 + (this.getHealth() - 1);
 		}
 		fall(e, t) {
@@ -40642,8 +40642,8 @@ var S_ = class extends tm {
 		update() {
 			if (this.isEntityAlive()) {
 				(this.lastActiveTime = this.timeSinceIgnited),
-					this.XJkaKqmGSp() && this.NcooYPJyqUzhoWF(1);
-				let e = this.SWfwhSihaimddmK();
+					this.MLowaYXWel() && this.wZYzqxlRaaHkBmG(1);
+				let e = this.rQuVlshAzvQRgIt();
 				e > 0 &&
 					this.timeSinceIgnited == 0 &&
 					this.playSound(`creeper.primed`, 1, 0.5),
@@ -40666,31 +40666,31 @@ var S_ = class extends tm {
 				t.getEntity() instanceof U_ ||
 					(t.getEntity() instanceof e &&
 						t.getEntity() != this &&
-						t.getEntity().vUAWDGhTOd() &&
-						t.getEntity().aOqwOKaeyRT() &&
-						t.getEntity().WVfVlniixIiNhK());
+						t.getEntity().zMIwVYQghI() &&
+						t.getEntity().nBxKXFePoPy() &&
+						t.getEntity().obiMcurrHGELBv());
 		}
 		attackEntityAsMob(e) {
 			return !0;
 		}
-		vUAWDGhTOd() {
+		zMIwVYQghI() {
 			return this.dataWatcher.getWatchableObjectByte(17) == 1;
 		}
-		pEPOqrKnjWbnHaLnTRgMfYmh(e) {
+		LduFGpYfOFkZvOlGciaKAyHT(e) {
 			return (
 				(this.lastActiveTime +
 					(this.timeSinceIgnited - this.lastActiveTime) * e) /
 				(this.fuseTime - 2)
 			);
 		}
-		SWfwhSihaimddmK() {
+		rQuVlshAzvQRgIt() {
 			return this.dataWatcher.getWatchableObjectByte(16);
 		}
-		NcooYPJyqUzhoWF(e) {
+		wZYzqxlRaaHkBmG(e) {
 			this.dataWatcher.updateObject(16, e);
 		}
-		eRKCjuHLIKqnvZmcRuI() {
-			super.eRKCjuHLIKqnvZmcRuI(), this.dataWatcher.updateObject(17, 1);
+		OVQXInCRyYfCSxprofD() {
+			super.OVQXInCRyYfCSxprofD(), this.dataWatcher.updateObject(17, 1);
 		}
 		interact(e) {
 			let t = e.inventory.getCurrentItem();
@@ -40709,7 +40709,7 @@ var S_ = class extends tm {
 		explode() {
 			if (this.world.isServer) {
 				let e = this.world.getMobGriefing(),
-					t = this.vUAWDGhTOd() ? 1 : 0.4;
+					t = this.zMIwVYQghI() ? 1 : 0.4;
 				this.world.createExplosion(
 					this,
 					this.pos.x,
@@ -40721,16 +40721,16 @@ var S_ = class extends tm {
 					this.setDead();
 			}
 		}
-		XJkaKqmGSp() {
+		MLowaYXWel() {
 			return this.dataWatcher.getWatchableObjectByte(18) != 0;
 		}
 		ignite() {
 			this.dataWatcher.updateObject(18, 1);
 		}
-		aOqwOKaeyRT() {
+		nBxKXFePoPy() {
 			return this.field_175494_bm < 1 && !0;
 		}
-		WVfVlniixIiNhK() {
+		obiMcurrHGELBv() {
 			++this.field_175494_bm;
 		}
 	},
@@ -40767,7 +40767,7 @@ var S_ = class extends tm {
 			super.applyEntityAttributes(),
 				this.applyBaseAttributes([
 					[Ep.maxHealth, 100],
-					[Ep.EaoLIuupWbDul, 0.25],
+					[Ep.iyhlGlpOTgPEH, 0.25],
 					[Ep.knockbackResistance, 1],
 				]);
 		}
@@ -40825,7 +40825,7 @@ var S_ = class extends tm {
 		isPlayerCreated() {
 			return this.playerCreated;
 		}
-		gJvUYPhfTS() {
+		yvZJAqSxQg() {
 			return !this.playerCreated;
 		}
 		getSoundInfo() {
@@ -40861,16 +40861,16 @@ var S_ = class extends tm {
 				this.tasks.addTask(2, new Og(this, 1)),
 				this.tasks.addTask(3, new kg(this, `player`, 8)),
 				this.tasks.addTask(4, new Cg(this)),
-				this.CeryEBzeAKZSV(),
+				this.SLRCxIuYTNskd(),
 				this.setSize(0.7, 1.9);
 		}
-		CeryEBzeAKZSV() {
+		SLRCxIuYTNskd() {
 			this.targetTasks.addTask(2, new H_(this, `spider`, !0));
 		}
 		applyEntityAttributes() {
 			super.applyEntityAttributes(),
 				this.applyBaseAttributes([
-					[Ep.EaoLIuupWbDul, 0.2],
+					[Ep.iyhlGlpOTgPEH, 0.2],
 					[Ep.maxHealth, 4],
 				]);
 		}
@@ -40880,14 +40880,14 @@ var S_ = class extends tm {
 				this.getDataWatcher().addObject(13, 0),
 				this.getDataWatcher().addObject(14, 0);
 		}
-		YghapVbxEMroOsBUtDapRpPUouZD(e, t) {
+		zZqfsEkAjGPeiRJSkxpLXAIVJGTy(e, t) {
 			let n = new m_(this.world, this),
 				r = e.pos.y + e.getEyeHeight() - 1.1,
 				i = e.pos.x - this.pos.x,
 				a = r - n.pos.y,
 				o = e.pos.z - this.pos.z,
 				s = Math.sqrt(i * i + o * o) * 0.2;
-			n.OWLjJJerUQdmooqUPOW(i, a + s, o, 1.6, 12),
+			n.ztmWzMZTDnzVsDXbGPP(i, a + s, o, 1.6, 12),
 				this.playSound(`random.bow`, 1, 1 / (Math.random() * 0.4 + 0.8)),
 				this.world.spawnEntityInWorld(n);
 		}
@@ -41152,7 +41152,7 @@ var uv = class extends jg {
 			let r = n.size ?? { width: 0.6, height: 1.8 };
 			this.setSize(r.width, r.height),
 				this.getEntityAttribute(Ep.maxHealth)?.setBaseValue(n.health ?? 20),
-				this.getEntityAttribute(Ep.EaoLIuupWbDul)?.setBaseValue(
+				this.getEntityAttribute(Ep.iyhlGlpOTgPEH)?.setBaseValue(
 					n.speed ?? 0.25,
 				),
 				this.getEntityAttribute(Ep.attackDamage)?.setBaseValue(
@@ -41194,7 +41194,7 @@ var uv = class extends jg {
 			}
 			super.update();
 		}
-		gJvUYPhfTS() {
+		yvZJAqSxQg() {
 			return !1;
 		}
 		attackEntityAsMob(e) {
@@ -41210,13 +41210,13 @@ var uv = class extends jg {
 				step: e?.step,
 			};
 		}
-		pRGkSutrOlV() {
+		VOlwufAXZPT() {
 			let e = this.def()?.drop;
 			return e ? (H.getItemByName(e.item) ?? null) : null;
 		}
 		dropFewItems(e, t) {
 			let n = this.def()?.drop,
-				r = this.pRGkSutrOlV();
+				r = this.VOlwufAXZPT();
 			if (!n || !r) return;
 			let i = n.min ?? 0,
 				a = i + Gm(Math.max(n.max ?? 1, i) - i + 1);
@@ -41388,29 +41388,29 @@ var uoe = 200,
 		despawnsInUnloadedChunks() {
 			return !0;
 		}
-		KjCVGyaGvvqOLPJkAdDdiPqLnNfyGbq() {
+		SFAluJOmdbbrgPpBbmfCTWuAjzQdtpN() {
 			return !0;
 		}
-		dHdfsmvrfJZcJXXjFBGuqngy() {
+		MDUpPDNgKnFuZVEtLYNTvbrp() {
 			return this.def()?.bounce != null;
 		}
-		ClKcLjUSSNT(e, t, n) {
-			super.ClKcLjUSSNT(e, t, n),
+		lnoVLrDQLLV(e, t, n) {
+			super.lnoVLrDQLLV(e, t, n),
 				Math.hypot(e, t, n) > 0.05 && (this.settled = !1);
 		}
 		def() {
 			return this.kind ? pv(this.kind) : void 0;
 		}
 		friendlyFireBlocked(e) {
-			let t = this.nsOKXBYSnK()?.team;
+			let t = this.ASRzCbVsrJ()?.team;
 			if (t == null) return !1;
 			let n = e.team ?? null;
 			return !t.canAttack(n);
 		}
-		QfKTrOlurnBrrsqpkz() {
+		tDCrleqXmWwgcoBEfI() {
 			return this.def()?.gravity ?? 0.01;
 		}
-		AoNpRTNyPeRPCqy() {
+		wCXkjKIDguInPsB() {
 			return this.def()?.drag ?? 0.99;
 		}
 		toJSON() {
@@ -41437,7 +41437,7 @@ var uoe = 200,
 			let n = this.def(),
 				r = n?.penetration ?? 0;
 			if (this.world.isServer) {
-				let t = new A(
+				let t = new k(
 						this.pos.x + this.motion.x,
 						this.pos.y + this.motion.y,
 						this.pos.z + this.motion.z,
@@ -41446,7 +41446,7 @@ var uoe = 200,
 				for (; i != null; ) {
 					if (i.entity != null) {
 						if (
-							i.entity !== this.nsOKXBYSnK() &&
+							i.entity !== this.ASRzCbVsrJ() &&
 							!this.friendlyFireBlocked(i.entity)
 						) {
 							let e = (n?.damage ?? 0) * this.damageMul;
@@ -41455,7 +41455,7 @@ var uoe = 200,
 									i.entity instanceof fm &&
 									(i.entity.hurtResistantTime = 0),
 								i.entity.attackEntityFrom(
-									Bg.causeThrownDamage(this, this.nsOKXBYSnK()),
+									Bg.causeThrownDamage(this, this.ASRzCbVsrJ()),
 									e,
 								));
 						}
@@ -41511,7 +41511,7 @@ var uoe = 200,
 				m = e.z + l * d;
 			return Math.hypot(f - this.pos.x, p - this.pos.y, m - this.pos.z) >= o
 				? null
-				: new A(f, p, m);
+				: new k(f, p, m);
 		}
 	},
 	foe = class extends Sg {
@@ -41543,10 +41543,10 @@ var uoe = 200,
 					: !1;
 		}
 		updateTask() {
-			this.slime.FAtnmrkGki(this.slime.getAttackTarget(), 10, 10),
+			this.slime.dHprlvNPDG(this.slime.getAttackTarget(), 10, 10),
 				this.slime
-					.dcisIgkaSUBbM()
-					.dMqRTwcWvqZoj(this.slime.yaw, this.slime.qYLrXKSpOhHsfbp());
+					.RskftwXstsSMU()
+					.QglcsdgbUoREn(this.slime.yaw, this.slime.BznGursgtLzhnpq());
 		}
 	},
 	poe = class extends Sg {
@@ -41560,13 +41560,13 @@ var uoe = 200,
 		shouldExecute() {
 			return (
 				this.slime.getAttackTarget() == null &&
-				(this.slime.onGround || this.slime.isInWater() || this.slime.sYmfnanB())
+				(this.slime.onGround || this.slime.isInWater() || this.slime.RHdyMXoe())
 			);
 		}
 		updateTask() {
 			--this.field_179460_c <= 0 &&
 				((this.field_179460_c = 40 + Gm(60)), (this.field_179459_b = Gm(360))),
-				this.slime.dcisIgkaSUBbM().dMqRTwcWvqZoj(this.field_179459_b, !1);
+				this.slime.RskftwXstsSMU().QglcsdgbUoREn(this.field_179459_b, !1);
 		}
 	},
 	moe = class extends Sg {
@@ -41577,11 +41577,11 @@ var uoe = 200,
 				e.getNavigator().setCanSwim(!0);
 		}
 		shouldExecute() {
-			return this.slime.isInWater() || this.slime.sYmfnanB();
+			return this.slime.isInWater() || this.slime.RHdyMXoe();
 		}
 		updateTask() {
-			Math.random() < 0.8 && this.slime.UiMTIcsFFWIBp().VjQwGQIJcb(),
-				this.slime.dcisIgkaSUBbM().qbnAqVlF(1.2);
+			Math.random() < 0.8 && this.slime.WEaSdbGuuOdBw().tLRIHYxLcI(),
+				this.slime.RskftwXstsSMU().tsVMyTiA(1.2);
 		}
 	},
 	hoe = class extends Sg {
@@ -41592,7 +41592,7 @@ var uoe = 200,
 			return !0;
 		}
 		updateTask() {
-			this.slime.dcisIgkaSUBbM().qbnAqVlF(1);
+			this.slime.RskftwXstsSMU().tsVMyTiA(1);
 		}
 	},
 	goe = class extends ch {
@@ -41603,14 +41603,14 @@ var uoe = 200,
 				(this.field_179923_j = !1),
 				(this.slime = e);
 		}
-		dMqRTwcWvqZoj(e, t) {
+		QglcsdgbUoREn(e, t) {
 			(this.field_179922_g = e), (this.field_179923_j = t);
 		}
-		qbnAqVlF(e) {
+		tsVMyTiA(e) {
 			(this.speed = e), (this.update = !0);
 		}
-		plMMjiEaccbsqwxVko() {
-			(this.entity.yaw = this.LnVRSZyPbw(
+		jEkVYTjZiEQAaJMbzp() {
+			(this.entity.yaw = this.bQjSRxDJbw(
 				this.entity.yaw,
 				this.field_179922_g,
 				30,
@@ -41620,31 +41620,31 @@ var uoe = 200,
 				this.update
 					? ((this.update = !1),
 						this.entity.onGround
-							? (this.entity.JNyVSMSpqrPLPc(
+							? (this.entity.cFnmHQqMMjYIQV(
 									this.speed *
 										this.entity
-											.getEntityAttribute(Ep.EaoLIuupWbDul)
+											.getEntityAttribute(Ep.iyhlGlpOTgPEH)
 											.getAttributeValue(),
 								),
 								this.field_179924_h-- <= 0
-									? ((this.field_179924_h = this.slime.eyQHGRUyhqio()),
+									? ((this.field_179924_h = this.slime.EAiKvoEVzQiu()),
 										this.field_179923_j && (this.field_179924_h /= 3),
-										this.slime.UiMTIcsFFWIBp().VjQwGQIJcb(),
-										this.slime.cKRCUCJgDqLlIRMS() &&
+										this.slime.WEaSdbGuuOdBw().tLRIHYxLcI(),
+										this.slime.ugvCnRdUUZyOkSXD() &&
 											this.slime.playSound(
-												this.slime.jjfOVfsjGneJ(),
-												this.slime.sunCuiFZUVAFAe(),
+												this.slime.PFbUQDqCFbnk(),
+												this.slime.NzTWCFzBGcNIbk(),
 												((Math.random() - Math.random()) * 0.2 + 1) * 0.8,
 											))
-									: ((this.slime.SeOedoBgnd = this.slime.moveForward = 0),
-										this.entity.JNyVSMSpqrPLPc(0)))
-							: this.entity.JNyVSMSpqrPLPc(
+									: ((this.slime.qrBHjSOqfq = this.slime.moveForward = 0),
+										this.entity.cFnmHQqMMjYIQV(0)))
+							: this.entity.cFnmHQqMMjYIQV(
 									this.speed *
 										this.entity
-											.getEntityAttribute(Ep.EaoLIuupWbDul)
+											.getEntityAttribute(Ep.iyhlGlpOTgPEH)
 											.getAttributeValue(),
 								))
-					: this.entity.yiMlLpLKumEGNX(0);
+					: this.entity.VPoWrDYYLDiYsC(0);
 		}
 	},
 	_v = class e extends lh {
@@ -41665,87 +41665,87 @@ var uoe = 200,
 		entityInit() {
 			super.entityInit(), this.dataWatcher.addObject(16, 1);
 		}
-		MKmmvHDmsdrb(e) {
+		xhkvwmWzPOQu(e) {
 			this.dataWatcher.updateObject(16, e),
 				this.setSize(0.51 * e, 0.51 * e),
 				this.setPosition(this.pos.x, this.pos.y, this.pos.z),
 				this.getEntityAttribute(Ep.maxHealth).setBaseValue(e * e),
-				this.getEntityAttribute(Ep.EaoLIuupWbDul).setBaseValue(0.2 + 0.1 * e),
+				this.getEntityAttribute(Ep.iyhlGlpOTgPEH).setBaseValue(0.2 + 0.1 * e),
 				this.setHealth(this.getMaxHealth()),
 				(this.experienceValue = e);
 		}
-		nqveQGcfACaK() {
+		irkpYHmQhAQr() {
 			return this.dataWatcher.getWatchableObjectByte(16);
 		}
-		hmZkapdkhYbfEAL() {
+		cnRtaUFikKahvyi() {
 			return R.SLIME;
 		}
-		jjfOVfsjGneJ() {
-			return `mob.slime.` + (this.nqveQGcfACaK() > 1 ? `big` : `small`);
+		PFbUQDqCFbnk() {
+			return `mob.slime.` + (this.irkpYHmQhAQr() > 1 ? `big` : `small`);
 		}
 		update() {
 			if (
 				(this.world.isServer &&
 					this.world.getDifficulty() == Dh.PEACEFUL &&
-					this.nqveQGcfACaK() > 0 &&
+					this.irkpYHmQhAQr() > 0 &&
 					(this.dead = !0),
 				(this.squishFactor += (this.squishAmount - this.squishFactor) * 0.5),
 				(this.prevSquishFactor = this.squishFactor),
 				super.update(),
 				this.onGround && !this.wasOnGround)
 			) {
-				let e = this.nqveQGcfACaK();
+				let e = this.irkpYHmQhAQr();
 				for (let t = 0; t < e * 8; ++t) {
 					let t = Math.random() * Math.PI * 2,
 						n = Math.random() * 0.5 + 0.5,
 						r = Math.sin(t) * e * 0.5 * n,
 						i = Math.cos(t) * e * 0.5 * n,
 						a = this.world,
-						o = this.hmZkapdkhYbfEAL(),
+						o = this.cnRtaUFikKahvyi(),
 						s = this.pos.x + r,
 						c = this.pos.z + i;
 					a.spawnParticle(o, s, this.getEntityBoundingBox().min.y, c, 0, 0, 0);
 				}
-				this.ZaCLPaCCQVeUEtKz() &&
+				this.wExqVlNMwJLQTxmU() &&
 					this.world.playSoundAtEntity(
 						this,
-						this.jjfOVfsjGneJ(),
-						this.sunCuiFZUVAFAe(),
+						this.PFbUQDqCFbnk(),
+						this.NzTWCFzBGcNIbk(),
 						((Math.random() - Math.random()) * 0.2 + 1) / 0.8,
 					),
 					(this.squishAmount = -0.5);
 			} else !this.onGround && this.wasOnGround && (this.squishAmount = 1);
-			(this.wasOnGround = this.onGround), this.CAjJBdWBvCpJjJnrV();
+			(this.wasOnGround = this.onGround), this.lkASfxzCHHqiBDwGa();
 		}
-		CAjJBdWBvCpJjJnrV() {
+		lkASfxzCHHqiBDwGa() {
 			this.squishAmount *= 0.6;
 		}
-		eyQHGRUyhqio() {
+		EAiKvoEVzQiu() {
 			return Gm(20) + 10;
 		}
-		eDkgkVVssyNBRn() {
+		YFSTEwdnzVSqOv() {
 			return new e(this.world);
 		}
-		EXABpKtlUABRUnEtoLF(e) {
+		gLYqxagsDXqcRBPzVIU(e) {
 			if (e == 16) {
-				let e = this.nqveQGcfACaK();
+				let e = this.irkpYHmQhAQr();
 				this.setSize(0.51 * e, 0.51 * e),
 					(this.yaw = this.yawHead),
 					(this.renderYawOffset = this.yawHead),
-					this.isInWater() && Gm(20) == 0 && this.TYbYKeKfOul();
+					this.isInWater() && Gm(20) == 0 && this.NnnpOVdkRjx();
 			}
-			super.EXABpKtlUABRUnEtoLF(e);
+			super.gLYqxagsDXqcRBPzVIU(e);
 		}
 		setDead() {
-			let e = this.nqveQGcfACaK();
+			let e = this.irkpYHmQhAQr();
 			if (this.world.isServer && e > 1 && this.getHealth() <= 0) {
 				let t = 2 + Gm(3);
 				for (let n = 0; n < t; ++n) {
 					let t = (((n % 2) - 0.5) * e) / 4,
 						r = ((n / 2 - 0.5) * e) / 4,
-						i = this.eDkgkVVssyNBRn();
-					this.sWhZEUnhKLBgPbWSZSV() && i.PgAdHWvXCPDiuoFsE(),
-						i.MKmmvHDmsdrb(e / 2),
+						i = this.YFSTEwdnzVSqOv();
+					this.nDlMrthFLMubzNIJvUp() && i.VPCjqpmQLHbKialWq(),
+						i.xhkvwmWzPOQu(e / 2),
 						i.setLocationAndAngles(
 							this.pos.x + t,
 							this.pos.y + 0.5,
@@ -41758,15 +41758,15 @@ var uoe = 200,
 			}
 			super.setDead();
 		}
-		NpoTLSheiDwtFjXzzOPj(e) {}
+		vXeSrYnVaPNqXUPfwOkc(e) {}
 		onCollideWithPlayer(e) {
-			this.qYLrXKSpOhHsfbp() && this.XiHDTbWZPoYBl(e);
+			this.BznGursgtLzhnpq() && this.awWJymhkDPcit(e);
 		}
-		XiHDTbWZPoYBl(e) {
-			let t = this.nqveQGcfACaK();
-			this.JHSorjBFFfsITDv(e) &&
+		awWJymhkDPcit(e) {
+			let t = this.irkpYHmQhAQr();
+			this.qUUVYpusgDwsTvw(e) &&
 				this.getDistanceSqToEntity(e) < 0.6 * t * 0.6 * t &&
-				e.attackEntityFrom(Bg.causeMobDamage(this), this.LmDwFQljZpzApKCiD()) &&
+				e.attackEntityFrom(Bg.causeMobDamage(this), this.dfZtmBSCJBaGghwzX()) &&
 				this.playSound(
 					`mob.attack`,
 					1,
@@ -41776,35 +41776,35 @@ var uoe = 200,
 		getEyeHeight() {
 			return 0.625 * this.height;
 		}
-		qYLrXKSpOhHsfbp() {
-			return this.nqveQGcfACaK() > 1;
+		BznGursgtLzhnpq() {
+			return this.irkpYHmQhAQr() > 1;
 		}
-		LmDwFQljZpzApKCiD() {
-			return this.nqveQGcfACaK();
+		dfZtmBSCJBaGghwzX() {
+			return this.irkpYHmQhAQr();
 		}
-		KDaayrxxatDg() {
-			return `mob.slime.` + (this.nqveQGcfACaK() > 1 ? `big` : `small`);
+		osJHfaBSfSHq() {
+			return `mob.slime.` + (this.irkpYHmQhAQr() > 1 ? `big` : `small`);
 		}
-		ZXrDCYhINLNPP() {
-			return `mob.slime.` + (this.nqveQGcfACaK() > 1 ? `big` : `small`);
+		fqupxXcGuoVsm() {
+			return `mob.slime.` + (this.irkpYHmQhAQr() > 1 ? `big` : `small`);
 		}
-		pRGkSutrOlV() {
-			return this.nqveQGcfACaK() == 1 ? H.slime_ball : null;
+		VOlwufAXZPT() {
+			return this.irkpYHmQhAQr() == 1 ? H.slime_ball : null;
 		}
 		getCanSpawnHere() {
 			return !1;
 		}
-		sunCuiFZUVAFAe() {
-			return 0.4 * this.nqveQGcfACaK();
+		NzTWCFzBGcNIbk() {
+			return 0.4 * this.irkpYHmQhAQr();
 		}
 		getVerticalFaceSpeed() {
 			return 0;
 		}
-		cKRCUCJgDqLlIRMS() {
-			return this.nqveQGcfACaK() > 0;
+		ugvCnRdUUZyOkSXD() {
+			return this.irkpYHmQhAQr() > 0;
 		}
-		ZaCLPaCCQVeUEtKz() {
-			return this.nqveQGcfACaK() > 2;
+		wExqVlNMwJLQTxmU() {
+			return this.irkpYHmQhAQr() > 2;
 		}
 		jump() {
 			(this.motion.y = 0.41999998688697815), (this.isAirborne = !0);
@@ -41813,7 +41813,7 @@ var uoe = 200,
 			let n = Gm(3);
 			n < 2 && Math.random() < 0.5 && ++n;
 			let r = 1 << n;
-			return this.MKmmvHDmsdrb(r), super.onInitialSpawn(e, t);
+			return this.xhkvwmWzPOQu(r), super.onInitialSpawn(e, t);
 		}
 	},
 	_oe = class extends ih {
@@ -41852,8 +41852,8 @@ var uoe = 200,
 						).toVec3(),
 					) >= e)
 					? this.theEntity
-							.dcisIgkaSUBbM()
-							.MhFcjurfk(
+							.RskftwXstsSMU()
+							.SMvSHcpaz(
 								this.targetPosition.getX(),
 								this.targetPosition.getY(),
 								this.targetPosition.getZ(),
@@ -41903,7 +41903,7 @@ var uoe = 200,
 		continueExecuting() {
 			return super.continueExecuting();
 		}
-		bTLWMMsWZxGpZ(e) {
+		BlBNNZaQPfqbR(e) {
 			return 4 + e.width;
 		}
 	},
@@ -41930,10 +41930,10 @@ var uoe = 200,
 				this.targetTasks.addTask(1, new V_(this, !1)),
 				this.targetTasks.addTask(2, new yoe(this, `player`));
 		}
-		JcMhMDJTSvkMvSeYb() {
+		csXqagtbRnRwjIriU() {
 			return this.height * 0.5;
 		}
-		ZuDMoCOYwDJNcOZ(e) {
+		fYBEHEckEOaGvoO(e) {
 			return new _oe(this, e);
 		}
 		entityInit() {
@@ -41942,13 +41942,13 @@ var uoe = 200,
 		update() {
 			super.update(),
 				this.world.isServer &&
-					this.zacPpqLDGqlBeouiUpIIdRN(this.isCollidedHorizontally);
+					this.SEdvvVMTLMVBweUzCzkscks(this.isCollidedHorizontally);
 		}
 		applyEntityAttributes() {
 			super.applyEntityAttributes(),
 				this.applyBaseAttributes([
 					[Ep.maxHealth, 16],
-					[Ep.EaoLIuupWbDul, 0.30000001192092896],
+					[Ep.iyhlGlpOTgPEH, 0.30000001192092896],
 				]);
 		}
 		getSoundInfo() {
@@ -41958,21 +41958,21 @@ var uoe = 200,
 			super.dropFewItems(e, t), e && (Gm(3) === 0 || Gm(1 + t));
 		}
 		isOnLadder() {
-			return this.ARApFwsurEPKShCIRnGgRQ();
+			return this.vyEzraqampkTqnRhZSEdZg();
 		}
-		koPFnjyc() {}
-		JoeqNGwobqyYbRvHfTsX() {
+		mSlMtHct() {}
+		YPhYaefapNXVwuLEpouD() {
 			return nm.ARTHROPOD;
 		}
-		tReVoWSclsEeEdFOwf(e) {
+		sIyyNlZSlIMgfOxfCR(e) {
 			return e.getPotionID() === um.poison.id
 				? !1
-				: super.tReVoWSclsEeEdFOwf(e);
+				: super.sIyyNlZSlIMgfOxfCR(e);
 		}
-		ARApFwsurEPKShCIRnGgRQ() {
+		vyEzraqampkTqnRhZSEdZg() {
 			return (this.dataWatcher.getWatchableObjectByte(16) & 1) != 0;
 		}
-		zacPpqLDGqlBeouiUpIIdRN(e) {
+		SEdvvVMTLMVBweUzCzkscks(e) {
 			let t = this.dataWatcher.getWatchableObjectByte(16);
 			e ? (t |= 1) : (t &= -2), this.dataWatcher.updateObject(16, t);
 		}
@@ -42004,10 +42004,10 @@ var uoe = 200,
 				this.tasks.addTask(7, new Og(this, 1)),
 				this.tasks.addTask(8, new kg(this, `player`, 8)),
 				this.tasks.addTask(8, new Cg(this)),
-				this.CeryEBzeAKZSV(),
+				this.SLRCxIuYTNskd(),
 				this.setSize(0.6, 1.95);
 		}
-		CeryEBzeAKZSV() {
+		SLRCxIuYTNskd() {
 			this.tasks.addTask(4, new z_(this, `villager`, 1, !0)),
 				this.tasks.addTask(4, new z_(this, `golem`, 1, !0)),
 				this.targetTasks.addTask(1, new V_(this, !0, `zombie_cowman`)),
@@ -42019,7 +42019,7 @@ var uoe = 200,
 			super.applyEntityAttributes(),
 				this.applyBaseAttributes([
 					[Ep.followRange, 35],
-					[Ep.EaoLIuupWbDul, 0.23],
+					[Ep.iyhlGlpOTgPEH, 0.23],
 					[Ep.attackDamage, 3],
 				]);
 		}
@@ -42029,11 +42029,11 @@ var uoe = 200,
 				this.getDataWatcher().addObject(13, 0),
 				this.getDataWatcher().addObject(14, 0);
 		}
-		GvnMoSGcJceulPBOIP() {
-			let e = super.GvnMoSGcJceulPBOIP() + 2;
+		VlFafuGxgIASmwLeLN() {
+			let e = super.VlFafuGxgIASmwLeLN() + 2;
 			return e > 20 && (e = 20), e;
 		}
-		MkqYXNdFedUIkPdVVSf(e) {
+		ucWUjNhOqBzbgeloXJe(e) {
 			this.isBreakDoorsTaskSet != e && (this.isBreakDoorsTaskSet = e);
 		}
 		isChild() {
@@ -42048,14 +42048,14 @@ var uoe = 200,
 				super.getExperiencePoints(e)
 			);
 		}
-		DFCiUlrSDi() {
+		RTqzaqxdQZ() {
 			return this.getDataWatcher().getWatchableObjectByte(13) == 1;
 		}
-		soCSkRkBtSs(e) {
+		nzvuluwiJXZ(e) {
 			this.getDataWatcher().updateObject(13, +!!e);
 		}
 		onLivingUpdate() {
-			this.MgmeGoEroMUISj(), super.onLivingUpdate();
+			this.HHJsSarfDmQppA(), super.onLivingUpdate();
 		}
 		attackEntityFrom(e, t) {
 			if (super.attackEntityFrom(e, t)) {
@@ -42066,10 +42066,10 @@ var uoe = 200,
 			} else return !1;
 		}
 		update() {
-			if (this.world.isServer && this.ySTIrTiJutxc()) {
-				let e = this.cLxUdzgqrDgsXVNeudVsCV();
+			if (this.world.isServer && this.TpqVPXXcfKPw()) {
+				let e = this.fUzXRrurCkWVpSxpWlcYAk();
 				(this.conversionTime -= e),
-					this.conversionTime <= 0 && this.mUcyMdaJmohFddViW();
+					this.conversionTime <= 0 && this.vaKJjpYxKSstQpyuH();
 			}
 			super.update();
 		}
@@ -42093,7 +42093,7 @@ var uoe = 200,
 				drop: H.rotten_flesh,
 			};
 		}
-		HTUQgVJMeTEHm() {
+		OYcsvGmGdgUbh() {
 			switch (Gm(3)) {
 				case 0:
 					this.dropItem2(H.iron_ingot, 1);
@@ -42105,39 +42105,39 @@ var uoe = 200,
 					this.dropItem2(H.potato, 1);
 			}
 		}
-		xWHzPAHOWtaQ(e) {
-			super.xWHzPAHOWtaQ(e);
+		GHXGSIGYaisY(e) {
+			super.GHXGSIGYaisY(e);
 		}
 		getEyeHeight() {
 			let e = 1.74;
 			return this.isChild() && (e -= 0.81), e;
 		}
 		handleStatusUpdate(e) {
-			e == 16 ? this.egLATZzm() : super.handleStatusUpdate(e);
+			e == 16 ? this.mkvXQhOL() : super.handleStatusUpdate(e);
 		}
-		gJvUYPhfTS() {
-			return !this.ySTIrTiJutxc();
+		yvZJAqSxQg() {
+			return !this.TpqVPXXcfKPw();
 		}
-		ySTIrTiJutxc() {
+		TpqVPXXcfKPw() {
 			return this.getDataWatcher().getWatchableObjectByte(14) == 1;
 		}
-		mUcyMdaJmohFddViW() {}
-		cLxUdzgqrDgsXVNeudVsCV() {
+		vaKJjpYxKSstQpyuH() {}
+		fUzXRrurCkWVpSxpWlcYAk() {
 			return 1;
 		}
-		bRPLKrrfaswF(e) {
-			this.oMoTuZVbTYhE(e ? 0.5 : 1);
+		CPBWHMNfhAnZ(e) {
+			this.KnPZXaNADqgi(e ? 0.5 : 1);
 		}
 		setSize(e, t) {
 			let n = this.zombieWidth > 0 && this.zombieHeight > 0;
 			(this.zombieWidth = e),
 				(this.zombieHeight = t),
-				n || this.oMoTuZVbTYhE(1);
+				n || this.KnPZXaNADqgi(1);
 		}
-		oMoTuZVbTYhE(e) {
+		KnPZXaNADqgi(e) {
 			super.setSize(this.zombieWidth * e, this.zombieHeight * e);
 		}
-		SCTxYnYXqZ() {
+		warZnnhtAH() {
 			return this.isChild() ? 0 : -0.35;
 		}
 		onDeath(e) {
@@ -42195,15 +42195,15 @@ var xv = [
 				this.setCurrentItemOrArmor(0, new V(H.golden_sword)),
 				this.addPotionEffect(new cm(um.regeneration.id, 1e6, 2));
 		}
-		SzOOWEeVu() {
+		WmqfoFvIh() {
 			return this.getDataWatcher().getWatchableObjectByte(16) == 1;
 		}
-		TwFaaxnYyN(e) {
+		xmjXlxxWVj(e) {
 			this.getDataWatcher().updateObject(16, +!!e);
 		}
-		NZlMEqgsNrO() {
+		CYSeLuWWdoN() {
 			(this.barterTimer = Soe),
-				this.TwFaaxnYyN(!0),
+				this.xmjXlxxWVj(!0),
 				this.playSound(
 					`random.orb`,
 					0.6,
@@ -42214,7 +42214,7 @@ var xv = [
 			let t = e.inventory.getCurrentItem();
 			return t != null && t.getItem() == H.gold_ingot
 				? (this.world.isServer &&
-						!this.SzOOWEeVu() &&
+						!this.WmqfoFvIh() &&
 						(e.abilities.creative ||
 							(--t.stackSize <= 0 &&
 								e.inventory.setInventorySlotContents(
@@ -42222,15 +42222,15 @@ var xv = [
 									null,
 								),
 							e.world.updatePlayerInventory(e.id)),
-						this.NZlMEqgsNrO()),
+						this.CYSeLuWWdoN()),
 					!0)
 				: super.interact(e);
 		}
 		attackEntityAsMob(e) {
-			return this.SzOOWEeVu() ? !1 : super.attackEntityAsMob(e);
+			return this.WmqfoFvIh() ? !1 : super.attackEntityAsMob(e);
 		}
-		oHyqPBfRYzqQtGuND() {
-			return this.SzOOWEeVu() || super.oHyqPBfRYzqQtGuND();
+		uZxdTUIsNJgzqkLlN() {
+			return this.WmqfoFvIh() || super.uZxdTUIsNJgzqkLlN();
 		}
 		update() {
 			super.update(),
@@ -42238,23 +42238,23 @@ var xv = [
 					(this.barterTimer > 0
 						? --this.barterTimer <= 0 &&
 							((this.barterTimer = 0),
-							this.TwFaaxnYyN(!1),
-							this.vDrjLBSpoDbzCFQX())
-						: this.ticksExisted % Coe == 0 && this.DsviiJgwWpGDMWjd());
+							this.xmjXlxxWVj(!1),
+							this.gFQjhgCiAddiqhPH())
+						: this.ticksExisted % Coe == 0 && this.ryrfBeNDypAbBVzg());
 		}
-		DsviiJgwWpGDMWjd() {
+		ryrfBeNDypAbBVzg() {
 			let e = this.getEntityBoundingBox().clone().expandByScalar(woe);
 			for (let t of this.world.getEntitiesWithinAABB(null, e)) {
 				if (!(t instanceof Sm) || !t.isEntityAlive()) continue;
 				let e = t.getEntityItem();
 				if (!(e == null || e.getItem() != H.gold_ingot)) {
-					--e.stackSize <= 0 ? t.setDead() : t.dhjvOPpALpaRQnJQSA(e),
-						this.NZlMEqgsNrO();
+					--e.stackSize <= 0 ? t.setDead() : t.iDWcyKtztNBsjUdrKG(e),
+						this.CYSeLuWWdoN();
 					return;
 				}
 			}
 		}
-		vDrjLBSpoDbzCFQX() {
+		gFQjhgCiAddiqhPH() {
 			let e = 0;
 			for (let t of xv) e += t.weight;
 			let t = Gm(e),
@@ -42272,7 +42272,7 @@ var xv = [
 					((Math.random() - Math.random()) * 0.7 + 1) * 2,
 				);
 		}
-		HTUQgVJMeTEHm() {
+		OYcsvGmGdgUbh() {
 			switch (Gm(3)) {
 				case 0:
 					this.dropItem2(H.gold_ingot, 1);
@@ -42294,7 +42294,7 @@ var xv = [
 				this.setMutexBits(3);
 		}
 		shouldExecute() {
-			let e = this.theWolf.ZVbuEiPS();
+			let e = this.theWolf.BSAsmgnO();
 			return e == null ||
 				e.isSpectator?.() ||
 				this.theWolf.isSitting() ||
@@ -42339,9 +42339,9 @@ var xv = [
 						.getNavigator()
 						.tryMoveToEntityLiving(e, this.moveSpeed) ||
 						(this.theWolf.getDistanceSqToEntity(e) >= 144 &&
-							this.BCgBvjzUPNbMeQT(e))));
+							this.ezveKPVzXyPXFjd(e))));
 		}
-		BCgBvjzUPNbMeQT(e) {
+		ezveKPVzXyPXFjd(e) {
 			let t = Math.floor(e.pos.x) - 2 + Gm(5),
 				n = Math.floor(e.pos.y),
 				r = Math.floor(e.pos.z) - 2 + Gm(5);
@@ -42364,18 +42364,18 @@ var xv = [
 		}
 		shouldExecute() {
 			if (!this.theWolf.isTamed()) return !1;
-			let e = this.theWolf.ZVbuEiPS();
+			let e = this.theWolf.BSAsmgnO();
 			return e == null
 				? !1
-				: ((this.theTarget = e.vBVquRnGOBG()),
-					e.OQpvKvGIkrDiyOi() !== this.timestamp &&
-						this.ZLGPSCxVbHpBqZuY(this.theTarget, !1) &&
-						this.theWolf.TltPdVoGfiKsNHhkCL(this.theTarget, e));
+				: ((this.theTarget = e.TAxPuwtWUdm()),
+					e.czjuTOYvwyXxoWT() !== this.timestamp &&
+						this.TGuoCdKbiYqnyHzS(this.theTarget, !1) &&
+						this.theWolf.GcLlUiuvRpkruKFFYR(this.theTarget, e));
 		}
 		startExecuting() {
 			this.taskOwner.setAttackTarget(this.theTarget);
-			let e = this.theWolf.ZVbuEiPS();
-			e != null && (this.timestamp = e.OQpvKvGIkrDiyOi()),
+			let e = this.theWolf.BSAsmgnO();
+			e != null && (this.timestamp = e.czjuTOYvwyXxoWT()),
 				super.startExecuting();
 		}
 	},
@@ -42388,18 +42388,18 @@ var xv = [
 		}
 		shouldExecute() {
 			if (!this.theWolf.isTamed()) return !1;
-			let e = this.theWolf.ZVbuEiPS();
+			let e = this.theWolf.BSAsmgnO();
 			return e == null
 				? !1
-				: ((this.theTarget = e.rvWaSvFEtoySeSO()),
-					e.KLvhVrDmlwqfTQFeGbG() !== this.timestamp &&
-						this.ZLGPSCxVbHpBqZuY(this.theTarget, !1) &&
-						this.theWolf.TltPdVoGfiKsNHhkCL(this.theTarget, e));
+				: ((this.theTarget = e.faNjumrPPUksnMX()),
+					e.WWabbGDSEjcRecdjEab() !== this.timestamp &&
+						this.TGuoCdKbiYqnyHzS(this.theTarget, !1) &&
+						this.theWolf.GcLlUiuvRpkruKFFYR(this.theTarget, e));
 		}
 		startExecuting() {
 			this.taskOwner.setAttackTarget(this.theTarget);
-			let e = this.theWolf.ZVbuEiPS();
-			e != null && (this.timestamp = e.KLvhVrDmlwqfTQFeGbG()),
+			let e = this.theWolf.BSAsmgnO();
+			e != null && (this.timestamp = e.WWabbGDSEjcRecdjEab()),
 				super.startExecuting();
 		}
 	},
@@ -42421,12 +42421,12 @@ var xv = [
 		}
 		startExecuting() {
 			this.theEntity.getNavigator().clearPathEntity(),
-				this.theEntity.agYeGTxApa(!0);
+				this.theEntity.IihqqACnnE(!0);
 		}
 		resetTask() {
-			this.theEntity.agYeGTxApa(!1);
+			this.theEntity.IihqqACnnE(!1);
 		}
-		agYeGTxApa(e) {
+		IihqqACnnE(e) {
 			this.isSittingFlag = e;
 		}
 	},
@@ -42452,40 +42452,40 @@ var xv = [
 		isTamed() {
 			return (this.dataWatcher.getWatchableObjectByte(16) & Ov) !== 0;
 		}
-		hiYKIAgB(e) {
+		oIRFCvnk(e) {
 			let t = this.dataWatcher.getWatchableObjectByte(16);
 			this.dataWatcher.updateObject(16, e ? t | Ov : t & -5);
 		}
 		isSitting() {
 			return (this.dataWatcher.getWatchableObjectByte(16) & Dv) !== 0;
 		}
-		agYeGTxApa(e) {
+		IihqqACnnE(e) {
 			let t = this.dataWatcher.getWatchableObjectByte(16);
 			this.dataWatcher.updateObject(16, e ? t | Dv : t & -2);
 		}
-		xHfmzkUHvP() {
-			return this.dataWatcher.hKhEEbthlAuSAnkHDAnlQiAW(17);
+		hcuVOQeXzm() {
+			return this.dataWatcher.yeODEnruGxHTTnOPEnTPUHsx(17);
 		}
-		xgDhgQPiLh(e) {
+		YToKsoVaBE(e) {
 			this.dataWatcher.updateObject(17, e);
 		}
 		isOwner(e) {
-			let t = this.xHfmzkUHvP();
+			let t = this.hcuVOQeXzm();
 			return !!t && t === e.profile?.uuid;
 		}
-		ZVbuEiPS() {
-			let e = this.xHfmzkUHvP();
+		BSAsmgnO() {
+			let e = this.hcuVOQeXzm();
 			if (!e) return null;
 			for (let t of this.world.playersIterator())
 				if (t.profile?.uuid === e) return t;
 			return null;
 		}
-		TltPdVoGfiKsNHhkCL(t, n) {
+		GcLlUiuvRpkruKFFYR(t, n) {
 			return !(
 				t == null ||
 				t === n ||
 				t.type === `creeper` ||
-				(t instanceof e && t.isTamed() && t.ZVbuEiPS() === n)
+				(t instanceof e && t.isTamed() && t.BSAsmgnO() === n)
 			);
 		}
 		attackEntityAsMob(e) {
@@ -42493,13 +42493,13 @@ var xv = [
 					this.getEntityAttribute(Ep.attackDamage).getAttributeValue(),
 				),
 				n = e.attackEntityFrom(Bg.causeMobDamage(this), t);
-			return n && this.eHYIoBBCpZveYjzMU(this, e), n;
+			return n && this.DLrleFDxrWWTLuLHk(this, e), n;
 		}
 		attackEntityFrom(e, t) {
 			if (this.isEntityInvulnerable(e)) return !1;
 			let n = e.getEntity();
 			return (
-				this.aiSit.agYeGTxApa(!1),
+				this.aiSit.IihqqACnnE(!1),
 				n != null &&
 					!(n instanceof Rg) &&
 					!(n instanceof Hg) &&
@@ -42509,10 +42509,10 @@ var xv = [
 		}
 		handleStatusUpdate(e) {
 			e === 6 || e === 7
-				? this.TWaOSaqLOvRpOS(e === 7)
+				? this.pigtjcaThsXuOm(e === 7)
 				: super.handleStatusUpdate(e);
 		}
-		TWaOSaqLOvRpOS(e) {
+		pigtjcaThsXuOm(e) {
 			let t = e ? R.HEART : R.SMOKE_NORMAL;
 			for (let e = 0; e < 7; e++) {
 				let e = ln() * 0.02,
@@ -42531,15 +42531,15 @@ var xv = [
 		}
 		writeEntityToNBT(e) {
 			super.writeEntityToNBT(e),
-				(e.OwnerUUID = L.string(this.xHfmzkUHvP() ?? ``)),
+				(e.OwnerUUID = L.string(this.hcuVOQeXzm() ?? ``)),
 				(e.Sitting = L.int(+!!this.isSitting()));
 		}
 		readEntityFromNBT(e) {
 			super.readEntityFromNBT(e);
 			let t = e.OwnerUUID;
-			t && (this.xgDhgQPiLh(t), this.hiYKIAgB(!0));
+			t && (this.YToKsoVaBE(t), this.oIRFCvnk(!0));
 			let n = e.Sitting === 1;
-			this.aiSit.agYeGTxApa(n), this.agYeGTxApa(n);
+			this.aiSit.IihqqACnnE(n), this.IihqqACnnE(n);
 		}
 	},
 	Eoe = 14,
@@ -42582,13 +42582,13 @@ var xv = [
 				this.targetTasks.addTask(2, new wv(this)),
 				this.targetTasks.addTask(3, new V_(this, !0)),
 				this.targetTasks.addTask(4, new Ev(this, `rabbit`, !1)),
-				this.world.isServer && this.dYXQweWXdH(Gm(Mv.length));
+				this.world.isServer && this.ntDfdICcME(Gm(Mv.length));
 		}
 		applyEntityAttributes() {
 			super.applyEntityAttributes(),
 				this.getAttributeMap().registerAttribute(Ep.attackDamage),
 				this.applyBaseAttributes([
-					[Ep.EaoLIuupWbDul, 0.3],
+					[Ep.iyhlGlpOTgPEH, 0.3],
 					[Ep.maxHealth, 10],
 					[Ep.attackDamage, 3],
 				]);
@@ -42598,26 +42598,26 @@ var xv = [
 				this.dataWatcher.addObject(Av, 0),
 				this.dataWatcher.addObject(jv, Eoe);
 		}
-		dbWzoxTroa() {
-			let e = this.dataWatcher.orNquldfkGOcXTEvzbkNU(Av);
+		ALEOFMOpBr() {
+			let e = this.dataWatcher.RoyitaEBVbdkzRcXJnWvR(Av);
 			return e >= 0 && e < Mv.length ? e : 0;
 		}
-		dYXQweWXdH(e) {
+		ntDfdICcME(e) {
 			this.dataWatcher.updateObject(Av, e);
 		}
-		gUeOATiBaOyViZ() {
+		IKOmNyONttraeO() {
 			return this.dataWatcher.getWatchableObjectByte(jv) & 15;
 		}
-		AFdzlNYTVwKfMC(e) {
+		jHhsmNWMzgaNEO(e) {
 			this.dataWatcher.updateObject(jv, e & 15);
 		}
-		CAsOfwLRW(e) {
+		nwbFUelHu(e) {
 			return e == null
 				? !1
 				: (Nv.length === 0 && Nv.push(H.cod, H.salmon), Nv.includes(e));
 		}
 		isBreedingItem(e) {
-			return e != null && this.CAsOfwLRW(e.getItem());
+			return e != null && this.nwbFUelHu(e.getItem());
 		}
 		interact(e) {
 			let t = e.inventory.getCurrentItem();
@@ -42625,19 +42625,19 @@ var xv = [
 				this.isOwner(e) &&
 					!this.world.isClient &&
 					!this.isBreedingItem(t) &&
-					(this.aiSit.agYeGTxApa(!this.isSitting()),
+					(this.aiSit.IihqqACnnE(!this.isSitting()),
 					this.setAttackTarget(null),
 					this.getNavigator().clearPathEntity());
-			else if (t != null && this.CAsOfwLRW(t.getItem()))
+			else if (t != null && this.nwbFUelHu(t.getItem()))
 				return (
-					this.rocSQpMbbomeBJQwHzIb(e, t),
+					this.tZCTjcokBuWYlmDdvvDF(e, t),
 					this.world.isClient ||
 						(Gm(3) === 0
-							? (this.hiYKIAgB(!0),
+							? (this.oIRFCvnk(!0),
 								this.getNavigator().clearPathEntity(),
 								this.setAttackTarget(null),
-								this.aiSit.agYeGTxApa(!0),
-								this.xgDhgQPiLh(e.profile?.uuid ?? ``),
+								this.aiSit.IihqqACnnE(!0),
+								this.YToKsoVaBE(e.profile?.uuid ?? ``),
 								this.world.setEntityState(this, 7))
 							: this.world.setEntityState(this, 6)),
 					!0
@@ -42646,18 +42646,18 @@ var xv = [
 		}
 		createChild(t) {
 			let n = new e(this.world);
-			n.dYXQweWXdH(this.dbWzoxTroa());
-			let r = this.xHfmzkUHvP();
-			return r && (n.xgDhgQPiLh(r), n.hiYKIAgB(!0)), n;
+			n.ntDfdICcME(this.ALEOFMOpBr());
+			let r = this.hcuVOQeXzm();
+			return r && (n.YToKsoVaBE(r), n.oIRFCvnk(!0)), n;
 		}
-		fFLqToBVHed(t) {
+		bkUhlUEXzPa(t) {
 			if (t === this || !this.isTamed() || !(t instanceof e)) return !1;
 			let n = t;
 			return !n.isTamed() || n.isSitting()
 				? !1
-				: this.rVriSmUG() && n.rVriSmUG();
+				: this.HWCMaAoR() && n.HWCMaAoR();
 		}
-		hVigaEboPvohsk() {
+		XopKaqZhLDDlAf() {
 			return this.isTamed() && Gm(4) === 0 ? `mob.cat.purr` : `mob.cat.meow`;
 		}
 		getSoundInfo() {
@@ -42668,13 +42668,13 @@ var xv = [
 		}
 		writeEntityToNBT(e) {
 			super.writeEntityToNBT(e),
-				(e.CatType = L.int(this.dbWzoxTroa())),
-				(e.CollarColor = L.int(this.gUeOATiBaOyViZ()));
+				(e.CatType = L.int(this.ALEOFMOpBr())),
+				(e.CollarColor = L.int(this.IKOmNyONttraeO()));
 		}
 		readEntityFromNBT(e) {
 			super.readEntityFromNBT(e),
-				e.CatType != null && this.dYXQweWXdH(e.CatType),
-				e.CollarColor != null && this.AFdzlNYTVwKfMC(e.CollarColor);
+				e.CatType != null && this.ntDfdICcME(e.CatType),
+				e.CollarColor != null && this.jHhsmNWMzgaNEO(e.CollarColor);
 		}
 	},
 	Fv = class e extends j {
@@ -43089,13 +43089,13 @@ var Kv = [
 						this.theEntity
 							.getEntityBoundingBox()
 							.clone()
-							.expandByVector(new A(this.avoidDistance, 3, this.avoidDistance)),
+							.expandByVector(new k(this.avoidDistance, 3, this.avoidDistance)),
 						this.theEntity,
 					)),
 				this.closestLivingEntity == null)
 			)
 				return !1;
-			let e = Tg.qjsLUVaWkJqhtRSevjlayQAIqOgRZ(
+			let e = Tg.RngZTZcNSbStepSxQIBvvanuGQjlB(
 				this.theEntity,
 				16,
 				7,
@@ -43129,8 +43129,8 @@ var Kv = [
 		updateTask() {
 			this.closestLivingEntity != null &&
 				(this.theEntity.pos.distanceToSquared(this.closestLivingEntity.pos) < 49
-					? this.theEntity.getNavigator().qbnAqVlF(this.nearSpeed)
-					: this.theEntity.getNavigator().qbnAqVlF(this.farSpeed));
+					? this.theEntity.getNavigator().tsVMyTiA(this.nearSpeed)
+					: this.theEntity.getNavigator().tsVMyTiA(this.farSpeed));
 		}
 	},
 	Aoe = class extends kg {
@@ -43138,7 +43138,7 @@ var Kv = [
 			super(e, `player`, 8), (this.theMerchant = e);
 		}
 		shouldExecute() {
-			return this.theMerchant.SzOOWEeVu()
+			return this.theMerchant.WmqfoFvIh()
 				? ((this.closestEntity = this.theMerchant.getCustomer()), !0)
 				: !1;
 		}
@@ -43175,9 +43175,9 @@ var Kv = [
 				this.setMutexBits(3);
 		}
 		shouldExecute() {
-			if (this.villager.VYMmeQHqgnWCl() !== 0 || !this.villager.isWilling())
+			if (this.villager.uWaVKwYyhfbZh() !== 0 || !this.villager.isWilling())
 				return !1;
-			let e = this.ogTHEIbmtRQiq();
+			let e = this.ejBVWlFCXZroS();
 			return e == null ? !1 : ((this.mate = e), !0);
 		}
 		continueExecuting() {
@@ -43206,9 +43206,9 @@ var Kv = [
 				++this.spawnBabyDelay,
 				this.spawnBabyDelay >= 60 &&
 					this.villager.getDistanceSqToEntity(this.mate) < 9 &&
-					this.jbRjCQnAt());
+					this.WOuJWAxZz());
 		}
-		ogTHEIbmtRQiq() {
+		ejBVWlFCXZroS() {
 			let e = this.theWorld.getEntitiesWithinAABB(
 					this.villager.type,
 					this.villager.getEntityBoundingBox().clone().expandByScalar(8),
@@ -43216,12 +43216,12 @@ var Kv = [
 				t = Number.MAX_VALUE,
 				n = null;
 			for (let r of e)
-				this.villager.fFLqToBVHed(r) &&
+				this.villager.bkUhlUEXzPa(r) &&
 					this.villager.getDistanceSqToEntity(r) < t &&
 					((n = r), (t = this.villager.getDistanceSqToEntity(r)));
 			return n;
 		}
-		jbRjCQnAt() {
+		WOuJWAxZz() {
 			if (
 				!this.mate ||
 				(this.theWorld.isServer &&
@@ -43230,11 +43230,11 @@ var Kv = [
 				return;
 			let e = this.villager.createChild(this.mate);
 			if (e != null) {
-				this.villager.rDKAyqhFfCXKV(6e3),
-					this.mate.rDKAyqhFfCXKV(6e3),
+				this.villager.wxPCBxbIUGKUt(6e3),
+					this.mate.wxPCBxbIUGKUt(6e3),
 					this.villager.setIsWillingToMate(!1),
 					this.mate.setIsWillingToMate(!1),
-					e.rDKAyqhFfCXKV(-24e3),
+					e.wxPCBxbIUGKUt(-24e3),
 					e.setLocationAndAngles(
 						this.villager.pos.x,
 						this.villager.pos.y,
@@ -43318,7 +43318,7 @@ var Kv = [
 			super.applyEntityAttributes(),
 				this.applyBaseAttributes([
 					[Ep.maxHealth, 20],
-					[Ep.EaoLIuupWbDul, 0.5],
+					[Ep.iyhlGlpOTgPEH, 0.5],
 				]);
 		}
 		entityInit() {
@@ -43328,9 +43328,9 @@ var Kv = [
 			this.dataWatcher.updateObject(16, e);
 		}
 		getProfession() {
-			return Math.max(this.dataWatcher.orNquldfkGOcXTEvzbkNU(16) % 5, 0);
+			return Math.max(this.dataWatcher.RoyitaEBVbdkzRcXJnWvR(16) % 5, 0);
 		}
-		SzOOWEeVu() {
+		WmqfoFvIh() {
 			return this.buyingPlayer != null;
 		}
 		setCustomer(e) {
@@ -43344,11 +43344,11 @@ var Kv = [
 		}
 		useRecipe(e) {
 			e.incrementToolUses(),
-				(this.livingSoundTime = -this.ZUrydakrEjOwAdP()),
+				(this.livingSoundTime = -this.LqtJqzObnUOSbsZ()),
 				this.playSound(
 					`mob.villager.yes`,
-					this.sunCuiFZUVAFAe(),
-					this.qhXINNGReCNVk(),
+					this.NzTWCFzBGcNIbk(),
+					this.znfBAMXqGcpGb(),
 				);
 			let t = 3 + Gm(4);
 			(e.getToolUses() === 1 || Gm(5) === 0) &&
@@ -43368,12 +43368,12 @@ var Kv = [
 		}
 		verifySellingItem(e) {
 			this.world.isServer &&
-				this.livingSoundTime > -this.ZUrydakrEjOwAdP() + 20 &&
-				((this.livingSoundTime = -this.ZUrydakrEjOwAdP()),
+				this.livingSoundTime > -this.LqtJqzObnUOSbsZ() + 20 &&
+				((this.livingSoundTime = -this.LqtJqzObnUOSbsZ()),
 				this.playSound(
 					e == null ? `mob.villager.no` : `mob.villager.yes`,
-					this.sunCuiFZUVAFAe(),
-					this.qhXINNGReCNVk(),
+					this.NzTWCFzBGcNIbk(),
+					this.znfBAMXqGcpGb(),
 				));
 		}
 		populateBuyingList() {
@@ -43391,10 +43391,10 @@ var Kv = [
 				`Villager`
 			);
 		}
-		kAEmeotQQyBTR() {
+		JwGYcDEliflXC() {
 			if (
-				(this.VYMmeQHqgnWCl() !== 0 && (this.willing = !1),
-				!this.SzOOWEeVu() &&
+				(this.uWaVKwYyhfbZh() !== 0 && (this.willing = !1),
+				!this.WmqfoFvIh() &&
 					this.timeUntilReset > 0 &&
 					(--this.timeUntilReset,
 					this.timeUntilReset <= 0 && this.needsInitialization))
@@ -43419,7 +43419,7 @@ var Kv = [
 							Math.random() - 0.5,
 						);
 			}
-			super.kAEmeotQQyBTR();
+			super.JwGYcDEliflXC();
 		}
 		interact(e) {
 			if (super.interact(e)) return !0;
@@ -43427,16 +43427,16 @@ var Kv = [
 			return t != null &&
 				this.isBreedingItem(t) &&
 				this.isEntityAlive() &&
-				!this.SzOOWEeVu() &&
+				!this.WmqfoFvIh() &&
 				!this.isChild() &&
 				!this.isWilling()
 				? (this.world.isServer &&
-						(this.rocSQpMbbomeBJQwHzIb(e, t),
+						(this.tZCTjcokBuWYlmDdvvDF(e, t),
 						this.setIsWillingToMate(!0),
 						(this.playerInLove = e),
 						this.world.setEntityState(this, 18)),
 					!0)
-				: this.isEntityAlive() && !this.SzOOWEeVu() && !this.isChild()
+				: this.isEntityAlive() && !this.WmqfoFvIh() && !this.isChild()
 					? (this.world.isServer &&
 							(this.getRecipes(e),
 							this.setCustomer(e),
@@ -43480,12 +43480,12 @@ var Kv = [
 		}
 		getSoundInfo() {
 			return {
-				living: this.SzOOWEeVu() ? `mob.villager.haggle` : `mob.villager.idle`,
+				living: this.WmqfoFvIh() ? `mob.villager.haggle` : `mob.villager.idle`,
 				hurt: `mob.villager.hit`,
 				death: `mob.villager.death`,
 			};
 		}
-		gJvUYPhfTS() {
+		yvZJAqSxQg() {
 			return !1;
 		}
 		isBreedingItem(e) {
@@ -43501,10 +43501,10 @@ var Kv = [
 		setIsWillingToMate(e) {
 			(this.willing = e), e || (this.playerInLove = null);
 		}
-		FzImpQCWSSqxsBn() {
+		UQhXGUYbLBYupEe() {
 			return this.playerInLove;
 		}
-		rocSQpMbbomeBJQwHzIb(e, t) {
+		tZCTjcokBuWYlmDdvvDF(e, t) {
 			e.abilities.creative ||
 				(--t.stackSize <= 0 &&
 					e.inventory.setInventorySlotContents(e.inventory.currentItem, null));
@@ -43527,17 +43527,17 @@ var Kv = [
 				}
 			else super.handleStatusUpdate(e);
 		}
-		fFLqToBVHed(e) {
+		bkUhlUEXzPa(e) {
 			return e === this || e.type !== this.type
 				? !1
 				: this.isWilling() &&
 						e.isWilling() &&
-						this.VYMmeQHqgnWCl() === 0 &&
-						e.VYMmeQHqgnWCl() === 0;
+						this.uWaVKwYyhfbZh() === 0 &&
+						e.uWaVKwYyhfbZh() === 0;
 		}
 		createChild(t) {
 			let n = new e(this.world);
-			return n.rDKAyqhFfCXKV(-24e3), n;
+			return n.wxPCBxbIUGKUt(-24e3), n;
 		}
 	},
 	Poe = class e extends Ng {
@@ -43547,7 +43547,7 @@ var Kv = [
 				(this.type = `cow`),
 				this.setSize(0.9, 1.3),
 				this.getNavigator().setAvoidsWater(!0),
-				this.aSKrOPclVeelDUPpFHHGX({
+				this.zqOPLFvNirLpilZxCtdRt({
 					panic: { priority: 1, speed: 2 },
 					mate: { priority: 2, speed: 1 },
 					tempt: { priority: 3, speed: 1.25, item: H.wheat },
@@ -43561,7 +43561,7 @@ var Kv = [
 			super.applyEntityAttributes(),
 				this.applyBaseAttributes([
 					[Ep.maxHealth, 10],
-					[Ep.EaoLIuupWbDul, 0.2],
+					[Ep.iyhlGlpOTgPEH, 0.2],
 				]);
 		}
 		getSoundInfo() {
@@ -43637,7 +43637,7 @@ var Kv = [
 		continueExecuting() {
 			return this.eatingGrassTimer > 0;
 		}
-		iRgYwkEgHIlsDXQgtHP() {
+		ZmRxOgpXhFFFnyojTAC() {
 			return this.eatingGrassTimer;
 		}
 		updateTask() {
@@ -43653,7 +43653,7 @@ var Kv = [
 				(this.entityAIEatGrass = new Foe(this)),
 				this.setSize(0.9, 1.3),
 				this.getNavigator().setAvoidsWater(!0),
-				this.aSKrOPclVeelDUPpFHHGX({
+				this.zqOPLFvNirLpilZxCtdRt({
 					panic: { priority: 1, speed: 1.25 },
 					mate: { priority: 2, speed: 1 },
 					tempt: { priority: 3, speed: 1.1, item: H.wheat },
@@ -43664,9 +43664,9 @@ var Kv = [
 					lookIdle: { priority: 8 },
 				});
 		}
-		kAEmeotQQyBTR() {
-			(this.sheepTimer = this.entityAIEatGrass.iRgYwkEgHIlsDXQgtHP()),
-				super.kAEmeotQQyBTR();
+		JwGYcDEliflXC() {
+			(this.sheepTimer = this.entityAIEatGrass.ZmRxOgpXhFFFnyojTAC()),
+				super.JwGYcDEliflXC();
 		}
 		onLivingUpdate() {
 			this.world.isClient &&
@@ -43677,14 +43677,14 @@ var Kv = [
 			super.applyEntityAttributes(),
 				this.applyBaseAttributes([
 					[Ep.maxHealth, 8],
-					[Ep.EaoLIuupWbDul, 0.23],
+					[Ep.iyhlGlpOTgPEH, 0.23],
 				]);
 		}
 		entityInit() {
 			super.entityInit(), this.dataWatcher.addObject(16, 0);
 		}
 		dropFewItems(e, t) {
-			this.pRYBCLYZYn() ||
+			this.HXEhDThODI() ||
 				this.entityDropItem(new V(H.getItemByBlock(U.white_wool), 1), 0);
 			let n = Gm(2) + 1 + Gm(1 + t);
 			for (let e = 0; e < n; ++e)
@@ -43695,7 +43695,7 @@ var Kv = [
 		handleStatusUpdate(e) {
 			e == 10 ? (this.sheepTimer = 40) : super.handleStatusUpdate(e);
 		}
-		nARRjxtCDayZIZkpchYws(e) {
+		gMNpKaIFaYSxLcsbqzFsl(e) {
 			return this.sheepTimer <= 0
 				? 0
 				: this.sheepTimer >= 4 && this.sheepTimer <= 36
@@ -43704,7 +43704,7 @@ var Kv = [
 						? (this.sheepTimer - e) / 4
 						: -(this.sheepTimer - 40 - e) / 4;
 		}
-		BNFACqtlCrRWxTfFdaEnT(e) {
+		TSVPpiPxMavYjPlMQOdpx(e) {
 			if (this.sheepTimer > 4 && this.sheepTimer <= 36) {
 				let t = (this.sheepTimer - 4 - e) / 32;
 				return Math.PI / 5 + ((Math.PI * 7) / 100) * Math.sin(t * 28.7);
@@ -43716,11 +43716,11 @@ var Kv = [
 			if (
 				t != null &&
 				t.getItem() == H.shears &&
-				!this.pRYBCLYZYn() &&
+				!this.HXEhDThODI() &&
 				!this.isChild()
 			) {
 				if (!this.world.isClient) {
-					this.UpmyJxxLvj(!0);
+					this.kQbOYjHRPx(!0);
 					let e = 1 + Gm(3);
 					for (let t = 0; t < e; ++t) {
 						let e = this.entityDropItem(
@@ -43737,10 +43737,10 @@ var Kv = [
 			return super.interact(e);
 		}
 		writeEntityToNBT(e) {
-			super.writeEntityToNBT(e), (e.Sheared = L.int(+!!this.pRYBCLYZYn()));
+			super.writeEntityToNBT(e), (e.Sheared = L.int(+!!this.HXEhDThODI()));
 		}
 		readEntityFromNBT(e) {
-			super.readEntityFromNBT(e), this.UpmyJxxLvj(e.Sheared);
+			super.readEntityFromNBT(e), this.kQbOYjHRPx(e.Sheared);
 		}
 		getSoundInfo() {
 			return {
@@ -43751,10 +43751,10 @@ var Kv = [
 				drop: H.getItemByBlock(U.white_wool),
 			};
 		}
-		pRYBCLYZYn() {
+		HXEhDThODI() {
 			return (this.dataWatcher.getWatchableObjectByte(16) & 16) != 0;
 		}
-		UpmyJxxLvj(e) {
+		kQbOYjHRPx(e) {
 			let t = this.dataWatcher.getWatchableObjectByte(16);
 			e
 				? this.dataWatcher.updateObject(16, t | 16)
@@ -43763,8 +43763,8 @@ var Kv = [
 		createChild(t) {
 			return new e(this.world);
 		}
-		HQgBZxCTsYRLJ() {
-			this.UpmyJxxLvj(!1), this.isChild() && this.zcPFZQUkb(60);
+		xYcuhiHCYTFhM() {
+			this.kQbOYjHRPx(!1), this.isChild() && this.yHGrDrYDn(60);
 		}
 		getEyeHeight() {
 			return 0.95 * this.height;
@@ -43784,7 +43784,7 @@ var Kv = [
 					this.theWolf,
 					this.minPlayerDistance,
 				)),
-				this.player == null ? !1 : this.aSZfGOjTWvXbtiePDKDMhPw(this.player)
+				this.player == null ? !1 : this.fypNIMOVValfenyMfiSnhee(this.player)
 			);
 		}
 		continueExecuting() {
@@ -43795,20 +43795,20 @@ var Kv = [
 						this.minPlayerDistance * this.minPlayerDistance
 						? !1
 						: this.timeoutCounter > 0 &&
-							this.aSZfGOjTWvXbtiePDKDMhPw(this.player)
+							this.fypNIMOVValfenyMfiSnhee(this.player)
 					: !1;
 		}
 		startExecuting() {
-			this.theWolf.BhyrRpqhTx(!0), (this.timeoutCounter = 40 + Gm(40));
+			this.theWolf.isCHpZVKEO(!0), (this.timeoutCounter = 40 + Gm(40));
 		}
 		resetTask() {
-			this.theWolf.BhyrRpqhTx(!1), (this.player = null);
+			this.theWolf.isCHpZVKEO(!1), (this.player = null);
 		}
 		updateTask() {
 			this.player != null &&
 				(this.theWolf
 					.getLookHelper()
-					.BHahVaunxolqqID(
+					.vchZmNqkYBDlbsM(
 						this.player.pos.x,
 						this.player.pos.y + this.player.getEyeHeight(),
 						this.player.pos.z,
@@ -43817,7 +43817,7 @@ var Kv = [
 					),
 				--this.timeoutCounter);
 		}
-		aSZfGOjTWvXbtiePDKDMhPw(e) {
+		fypNIMOVValfenyMfiSnhee(e) {
 			let t = e.getActiveItemStack();
 			return t == null
 				? !1
@@ -43860,7 +43860,7 @@ var Kv = [
 			super.applyEntityAttributes(),
 				this.getAttributeMap().registerAttribute(Ep.attackDamage),
 				this.applyBaseAttributes([
-					[Ep.EaoLIuupWbDul, 0.3],
+					[Ep.iyhlGlpOTgPEH, 0.3],
 					[Ep.maxHealth, 8],
 					[Ep.attackDamage, 2],
 				]);
@@ -43871,31 +43871,31 @@ var Kv = [
 				this.dataWatcher.addObject(Xv, 0),
 				this.dataWatcher.addObject(Zv, Roe);
 		}
-		hiYKIAgB(e) {
-			super.hiYKIAgB(e),
+		oIRFCvnk(e) {
+			super.oIRFCvnk(e),
 				this.getEntityAttribute(Ep.maxHealth)?.setBaseValue(e ? 20 : 8),
 				this.getEntityAttribute(Ep.attackDamage)?.setBaseValue(e ? 4 : 2);
 		}
-		AZyJWsA() {
+		HUUrHIv() {
 			return (this.dataWatcher.getWatchableObjectByte(16) & Qv) !== 0;
 		}
-		Dmzbswdv(e) {
+		vUlYrSpl(e) {
 			let t = this.dataWatcher.getWatchableObjectByte(16);
 			this.dataWatcher.updateObject(16, e ? t | Qv : t & -3);
 		}
-		zQzwuctfV() {
+		pAaMcouSN() {
 			return this.dataWatcher.getWatchableObjectByte(Xv) === 1;
 		}
-		BhyrRpqhTx(e) {
+		isCHpZVKEO(e) {
 			this.dataWatcher.updateObject(Xv, +!!e);
 		}
-		gUeOATiBaOyViZ() {
+		IKOmNyONttraeO() {
 			return this.dataWatcher.getWatchableObjectByte(Zv) & 15;
 		}
-		AFdzlNYTVwKfMC(e) {
+		jHhsmNWMzgaNEO(e) {
 			this.dataWatcher.updateObject(Zv, e & 15);
 		}
-		TVgPQXFxxu(e) {
+		LrAzqTSFJi(e) {
 			return e == null
 				? !1
 				: ($v.length === 0 &&
@@ -43915,34 +43915,34 @@ var Kv = [
 					$v.includes(e));
 		}
 		isBreedingItem(e) {
-			return this.isTamed() && e != null && this.TVgPQXFxxu(e.getItem());
+			return this.isTamed() && e != null && this.LrAzqTSFJi(e.getItem());
 		}
 		interact(e) {
 			let t = e.inventory.getCurrentItem();
 			if (this.isTamed()) {
 				if (
 					t != null &&
-					this.TVgPQXFxxu(t.getItem()) &&
+					this.LrAzqTSFJi(t.getItem()) &&
 					this.getHealth() < this.getMaxHealth()
 				)
-					return this.rocSQpMbbomeBJQwHzIb(e, t), this.heal(4), !0;
+					return this.tZCTjcokBuWYlmDdvvDF(e, t), this.heal(4), !0;
 				this.isOwner(e) &&
 					!this.world.isClient &&
 					!this.isBreedingItem(t) &&
-					(this.aiSit.agYeGTxApa(!this.isSitting()),
+					(this.aiSit.IihqqACnnE(!this.isSitting()),
 					this.setAttackTarget(null),
 					this.getNavigator().clearPathEntity());
-			} else if (t != null && t.getItem() === H.bone && !this.AZyJWsA())
+			} else if (t != null && t.getItem() === H.bone && !this.HUUrHIv())
 				return (
-					this.rocSQpMbbomeBJQwHzIb(e, t),
+					this.tZCTjcokBuWYlmDdvvDF(e, t),
 					this.world.isClient ||
 						(Gm(3) === 0
-							? (this.hiYKIAgB(!0),
+							? (this.oIRFCvnk(!0),
 								this.getNavigator().clearPathEntity(),
 								this.setAttackTarget(null),
-								this.aiSit.agYeGTxApa(!0),
+								this.aiSit.IihqqACnnE(!0),
 								this.setHealth(20),
-								this.xgDhgQPiLh(e.profile?.uuid ?? ``),
+								this.YToKsoVaBE(e.profile?.uuid ?? ``),
 								this.world.setEntityState(this, 7))
 							: this.world.setEntityState(this, 6)),
 					!0
@@ -43950,7 +43950,7 @@ var Kv = [
 			return super.interact(e);
 		}
 		setAttackTarget(e) {
-			super.setAttackTarget(e), this.isTamed() || this.Dmzbswdv(e != null);
+			super.setAttackTarget(e), this.isTamed() || this.vUlYrSpl(e != null);
 		}
 		onLivingUpdate() {
 			super.onLivingUpdate(),
@@ -43959,18 +43959,18 @@ var Kv = [
 		}
 		createChild(t) {
 			let n = new e(this.world),
-				r = this.xHfmzkUHvP();
-			return r && (n.xgDhgQPiLh(r), n.hiYKIAgB(!0)), n;
+				r = this.hcuVOQeXzm();
+			return r && (n.YToKsoVaBE(r), n.oIRFCvnk(!0)), n;
 		}
-		fFLqToBVHed(t) {
+		bkUhlUEXzPa(t) {
 			if (t === this || !this.isTamed() || !(t instanceof e)) return !1;
 			let n = t;
 			return !n.isTamed() || n.isSitting()
 				? !1
-				: this.rVriSmUG() && n.rVriSmUG();
+				: this.HWCMaAoR() && n.HWCMaAoR();
 		}
-		hVigaEboPvohsk() {
-			return this.AZyJWsA()
+		XopKaqZhLDDlAf() {
+			return this.HUUrHIv()
 				? `mob.wolf.growl`
 				: Gm(3) === 0
 					? this.isTamed() && this.dataWatcher.getWatchableObjectFloat(Yv) < 10
@@ -43991,13 +43991,13 @@ var Kv = [
 		}
 		writeEntityToNBT(e) {
 			super.writeEntityToNBT(e),
-				(e.Angry = L.int(+!!this.AZyJWsA())),
-				(e.CollarColor = L.int(this.gUeOATiBaOyViZ()));
+				(e.Angry = L.int(+!!this.HUUrHIv())),
+				(e.CollarColor = L.int(this.IKOmNyONttraeO()));
 		}
 		readEntityFromNBT(e) {
 			super.readEntityFromNBT(e),
-				this.Dmzbswdv(e.Angry === 1),
-				e.CollarColor != null && this.AFdzlNYTVwKfMC(e.CollarColor);
+				this.vUlYrSpl(e.Angry === 1),
+				e.CollarColor != null && this.jHhsmNWMzgaNEO(e.CollarColor);
 		}
 	};
 function Boe(e, t) {
@@ -44251,20 +44251,20 @@ var ey = new Set(),
 				e.REGISTRY.map((e) => [e.className, e.ctor]),
 			);
 		}
-		static TOfOWNhgCvKzgnaDSbR() {
+		static vwTdAbjKJEnpelSprBG() {
 			let t = {};
 			for (let n of e.REGISTRY) n.clientSpawnable && (t[n.id] = n.ctor);
 			return t;
 		}
-		static aQEXoGHWVkZfkb() {
+		static DkNEtAqUqMsaFp() {
 			return e.REGISTRY.filter((e) => e.summonable).map((e) => e.summonName);
 		}
-		static gSJJHrNtIklKNGXbR() {
+		static qrofRcokNxHQBCQAt() {
 			let t = {};
 			for (let n of e.REGISTRY) n.scriptSpawnable && (t[n.summonName] = n.ctor);
 			return t;
 		}
-		static fflxeBGEmxwiKjozj() {
+		static aCnwrcSOUpQZPlYwG() {
 			return e.REGISTRY.filter((e) => e.scriptSpawnable).map(
 				(e) => e.summonName,
 			);
@@ -44283,7 +44283,7 @@ var ey = new Set(),
 				throw Error(`Failed to create entity ${t} because of ${e}`);
 			}
 		}
-		static ThPvBixnrgcYXqHAILAYwlZAg(t, n) {
+		static DrdiWQoAWdebIKPHWMDHHLohE(t, n) {
 			let r = t.replace(`Entity`, ``);
 			return e.createEntityByName(r, n);
 		}
@@ -44357,12 +44357,12 @@ var ey = new Set(),
 				let r = ty.createEntityByName(this.mobID, e);
 				if (r == null) return;
 				let i = new AxisAlignedBoundingBox(
-					new A(
+					new k(
 						t.x - this.spawnRange,
 						t.y - this.spawnRange,
 						t.z - this.spawnRange,
 					),
-					new A(
+					new k(
 						t.x + 1 + this.spawnRange,
 						t.y + 1 + this.spawnRange,
 						t.z + 1 + this.spawnRange,
@@ -44380,10 +44380,10 @@ var ey = new Set(),
 					s = t.z + (Math.random() - Math.random()) * this.spawnRange + 0.5;
 				r.setLocationAndAngles(a, o, s, Math.random() * 360, 0);
 				let c = r instanceof lh ? r : null;
-				(c == null || (c.getCanSpawnHere() && c.PvZDGSjrmPfdqx())) &&
+				(c == null || (c.getCanSpawnHere() && c.PWmOOffDcNRoDT())) &&
 					(c?.onInitialSpawn(null, null),
 					e.spawnEntityInWorld(r),
-					c?.GmqvpBTcuajdtYymelVKDo(),
+					c?.XXwmOPQBlGOkDCLOhENXtr(),
 					(n = !0));
 			}
 			n && this.resetTimer();
@@ -44559,7 +44559,7 @@ var ey = new Set(),
 				u = i === F.UP && c instanceof Qm ? 0.5 : 0;
 			if (n.isServer) {
 				let t = this.spawnMob(n, l.getX() + 0.5, l.getY() + u, l.getZ() + 0.5);
-				t && e.hasDisplayName() && t.pPZmrfnwVLauKOeg(e.getDisplayName());
+				t && e.hasDisplayName() && t.zOvSxDtpmMWBnXbI(e.getDisplayName());
 			}
 			return t.abilities.creative || --e.stackSize, !0;
 		}
@@ -44575,7 +44575,7 @@ var ey = new Set(),
 				(a.renderYawOffset = o),
 				a.onInitialSpawn(null, null),
 				e.spawnEntityInWorld(a),
-				a.PqhncSyJELViBqD(),
+				a.UXRckpRojPHvPQa(),
 				a
 			);
 		}
@@ -44586,10 +44586,10 @@ var ey = new Set(),
 			if (n.world.isServer) {
 				let t = n.createChild(n);
 				if (t == null) return !1;
-				t.rDKAyqhFfCXKV(-24e3),
+				t.wxPCBxbIUGKUt(-24e3),
 					t.setLocationAndAngles(n.pos.x, n.pos.y, n.pos.z, 0, 0),
 					n.world.spawnEntityInWorld(t),
-					e.hasDisplayName() && t.pPZmrfnwVLauKOeg(e.getDisplayName());
+					e.hasDisplayName() && t.zOvSxDtpmMWBnXbI(e.getDisplayName());
 			}
 			return t.abilities.creative || --e.stackSize, !0;
 		}
@@ -44603,8 +44603,8 @@ var ey = new Set(),
 			if (n instanceof lh) {
 				let r = n;
 				return (
-					r.pPZmrfnwVLauKOeg(e.getDisplayName()),
-					r.PgAdHWvXCPDiuoFsE(),
+					r.zOvSxDtpmMWBnXbI(e.getDisplayName()),
+					r.VPCjqpmQLHbKialWq(),
 					--e.stackSize,
 					t.inventory.sendInventoryToServer(),
 					!0
@@ -45422,12 +45422,12 @@ var sy = new (class e {
 					{ x: `z`, z: `x`, y: `y` }[i.name],
 				);
 				if (((r = !0), e.isServer))
-					for (let t of I.vuuHAcyHhlm(p, m)) e.setBlockState(t, v, 2);
+					for (let t of I.HHbMqrKkrxe(p, m)) e.setBlockState(t, v, 2);
 			}
 			return r;
 		}
 		onEntityCollidedWithBlock(e, t, n) {
-			n.ridingEntity == null && n.riddenByEntity == null && n.duBwLweuRMXU(t);
+			n.ridingEntity == null && n.riddenByEntity == null && n.DbNilcXuuYNt(t);
 		}
 	};
 function Goe(e) {
@@ -45436,7 +45436,7 @@ function Goe(e) {
 var ly = new Set([`anvil`, `chipped_anvil`, `damaged_anvil`]),
 	uy = 2147483647,
 	dy = new Map();
-for (let e of Wn)
+for (let e of Un)
 	e.repairWith && e.repairWith.length && dy.set(e.name, e.repairWith);
 function fy(e) {
 	let t = e && e.data ? e.data.RepairCost : void 0;
@@ -45506,7 +45506,7 @@ var Qoe = class extends rg {
 		onPickupFromSlot(e, t) {
 			if (
 				(e.abilities.creative ||
-					e.YvbOnyMIaNJGQqtiwV(-this.container.maximumCost),
+					e.thtzCHulQqvsuzLVda(-this.container.maximumCost),
 				this.container.inputSlots.setInventorySlotContents(0, null),
 				this.container.materialCost > 0)
 			) {
@@ -45704,7 +45704,7 @@ var Qoe = class extends rg {
 			let t = this.worldObj.getBlockState(this.pos).getBlock();
 			return ly.has(t.name)
 				? e.pos.distanceToSquared(
-						new A(this.pos.x + 0.5, this.pos.y + 0.5, this.pos.z + 0.5),
+						new k(this.pos.x + 0.5, this.pos.y + 0.5, this.pos.z + 0.5),
 					) <= 64
 				: !1;
 		}
@@ -46207,7 +46207,7 @@ var Sy = class extends og {
 				? !1
 				: t.pos.equals(this.pos)
 					? e.pos.distanceToSquared(
-							new A(this.pos.x + 0.5, this.pos.y + 0.5, this.pos.z + 0.5),
+							new k(this.pos.x + 0.5, this.pos.y + 0.5, this.pos.z + 0.5),
 						) <= 64
 					: !1;
 		}
@@ -46233,7 +46233,7 @@ var Sy = class extends og {
 					e ? `random.chestopen` : `random.chestclosed`,
 					0.5,
 					Math.random() * 0.1 + 0.9,
-					new A(this.pos.x + 0.5, this.pos.y + 0.5, this.pos.z + 0.5),
+					new k(this.pos.x + 0.5, this.pos.y + 0.5, this.pos.z + 0.5),
 				));
 		}
 		update() {
@@ -46248,8 +46248,8 @@ var Sy = class extends og {
 					for (let e of this.world.getEntitiesInAABBexcluding(
 						null,
 						new AxisAlignedBoundingBox(
-							new A(this.pos.x - 5, this.pos.y - 5, this.pos.z - 5),
-							new A(this.pos.x + 1 + 5, this.pos.y + 1 + 5, this.pos.z + 1 + 5),
+							new k(this.pos.x - 5, this.pos.y - 5, this.pos.z - 5),
+							new k(this.pos.x + 1 + 5, this.pos.y + 1 + 5, this.pos.z + 1 + 5),
 						),
 					))
 						e instanceof Rg &&
@@ -46753,7 +46753,7 @@ var Sy = class extends og {
 						`tile.piston.out`,
 						0.5,
 						Math.random() * 0.25 + 0.6,
-						new A(n.x + 0.5, n.y + 0.5, n.y + 0.5),
+						new k(n.x + 0.5, n.y + 0.5, n.y + 0.5),
 					);
 			} else if (i == 1) {
 				let r = t.getTileEntity(n.offset(o));
@@ -46797,7 +46797,7 @@ var Sy = class extends og {
 					`tile.piston.in`,
 					0.5,
 					Math.random() * 0.15 + 0.6,
-					new A(n.x + 0.5, n.y + 0.5, n.y + 0.5),
+					new k(n.x + 0.5, n.y + 0.5, n.y + 0.5),
 				);
 			}
 			return !0;
@@ -47461,12 +47461,12 @@ var Sy = class extends og {
 					e.getEntitiesWithinAABB(
 						`EntityArrow`,
 						new AxisAlignedBoundingBox(
-							new A(
+							new k(
 								t.x + this.bbox.min.x,
 								t.y + this.bbox.min.y,
 								t.z + this.bbox.min.z,
 							),
-							new A(
+							new k(
 								t.x + this.bbox.max.x,
 								t.y + this.bbox.max.y,
 								t.z + this.bbox.max.z,
@@ -47602,15 +47602,15 @@ var Sy = class extends og {
 			let r = 0.0625,
 				i = (1 + n.getProp(`bites`) * 2) / 16;
 			return new AxisAlignedBoundingBox(
-				new A(t.x + i, t.y, t.z + r),
-				new A(t.x + 1 - r, t.y + 0.5, t.z + 1 - r),
+				new k(t.x + i, t.y, t.z + r),
+				new k(t.x + 1 - r, t.y + 0.5, t.z + 1 - r),
 			);
 		}
 		getSelectedBoundingBox(e, t) {
 			return this.getCollisionBoundingBox(e, t, e.getBlockState(t));
 		}
 		eatCake(e, t, n, r) {
-			if (r.JkGYCM(!1)) {
+			if (r.BhlBaE(!1)) {
 				r.getFoodStats().addStats(2, 0.1);
 				let i = n.getProp(`bites`);
 				i < 6
@@ -48044,7 +48044,7 @@ var fse = class extends Hm {
 		isUseableByPlayer(e) {
 			return this.world.getTileEntity(this.pos) == this
 				? e.pos.distanceToSquared(
-						new A(this.pos.x + 0.5, this.pos.y + 0.5, this.pos.z + 0.5),
+						new k(this.pos.x + 0.5, this.pos.y + 0.5, this.pos.z + 0.5),
 					) <= 64
 				: !1;
 		}
@@ -48231,7 +48231,7 @@ var fse = class extends Hm {
 												e,
 											)
 										: r.inventory.addItemStackToInventory(e) ||
-											r.aFDmUTFVhyWFaIIAX(e);
+											r.TdEdSpivUsSjWdkZA(e);
 							}
 							this.setWaterLevel(e, t, n, a - 1);
 						}
@@ -48433,7 +48433,7 @@ var fse = class extends Hm {
 				? !1
 				: t.pos.equals(this.pos)
 					? e.pos.distanceToSquared(
-							new A(this.pos.x + 0.5, this.pos.y + 0.5, this.pos.z + 0.5),
+							new k(this.pos.x + 0.5, this.pos.y + 0.5, this.pos.z + 0.5),
 						) <= 64
 					: !1;
 		}
@@ -48508,8 +48508,8 @@ var fse = class extends Hm {
 				for (let r of this.world.getEntitiesInAABBexcluding(
 					null,
 					new AxisAlignedBoundingBox(
-						new A(e - 5, t - 5, n - 5),
-						new A(e + 1 + 5, t + 1 + 5, n + 1 + 5),
+						new k(e - 5, t - 5, n - 5),
+						new k(e + 1 + 5, t + 1 + 5, n + 1 + 5),
 					),
 				)) {
 					if (!(r instanceof Rg)) return;
@@ -48537,7 +48537,7 @@ var fse = class extends Hm {
 							`random.chestopen`,
 							0.5,
 							Math.random() * 0.1 + 0.9,
-							new A(r, t + 0.5, i),
+							new k(r, t + 0.5, i),
 						);
 			}
 			if (
@@ -48563,7 +48563,7 @@ var fse = class extends Hm {
 								`random.chestclosed`,
 								0.5,
 								Math.random() * 0.1 + 0.9,
-								new A(r, t + 0.5, i),
+								new k(r, t + 0.5, i),
 							);
 				}
 				this.lidAngle < 0 && (this.lidAngle = 0);
@@ -48972,7 +48972,7 @@ var fse = class extends Hm {
 		}
 		tryOpenEditCommandBlock(e) {
 			return e.abilities.creative
-				? (e.world.isClient && e.FQtzdCfmyDfgiEPuFPZa(this), !0)
+				? (e.world.isClient && e.yIFgzZrDSkVbpzJOJZwb(this), !0)
 				: !1;
 		}
 	},
@@ -48984,7 +48984,7 @@ var fse = class extends Hm {
 			return this.commandblock.pos;
 		}
 		getPositionVector() {
-			return new A(
+			return new k(
 				this.commandblock.pos.getX() + 0.5,
 				this.commandblock.pos.getY() + 0.5,
 				this.commandblock.pos.getZ() + 0.5,
@@ -49206,13 +49206,13 @@ var fse = class extends Hm {
 		fall(e, t) {
 			this.hurtEntities && Math.ceil(e - 1);
 		}
-		Obcwlxsc() {
+		imYjSgwq() {
 			return this.world;
 		}
-		FgkEjMpoIIJfWio(e) {
+		ZldEfuKTvGGEqrL(e) {
 			this.hurtEntities = e;
 		}
-		JgWzvQAfXQbvZkq() {
+		swpjecQoddsfAxD() {
 			return !1;
 		}
 		getBlock() {
@@ -49223,9 +49223,9 @@ var fse = class extends Hm {
 				let n = new Sm(
 					this.world,
 					e,
-					new A(this.pos.x, this.pos.y + t, this.pos.z),
+					new k(this.pos.x, this.pos.y + t, this.pos.z),
 				);
-				return n.AydpEMNAsJCvEMlLIGFId(), this.world.spawnEntityInWorld(n), n;
+				return n.WprPYViyqOSYdojmAauDp(), this.world.spawnEntityInWorld(n), n;
 			} else return null;
 		}
 	},
@@ -49428,7 +49428,7 @@ var fse = class extends Hm {
 				o = i.y,
 				s = i.z;
 			r.getAxis() == P.Y ? (o -= 0.125) : (o -= 0.15625);
-			let c = new Sm(e, t, new A(a, o, s)),
+			let c = new Sm(e, t, new k(a, o, s)),
 				l = Math.random() * 0.1 + 0.2;
 			(c.motion.x = r.getFrontOffsetX() * l),
 				(c.motion.y = 0.2),
@@ -49567,7 +49567,7 @@ var fse = class extends Hm {
 		isUseableByPlayer(e) {
 			return this.world.getTileEntity(this.pos) == this
 				? e.pos.distanceToSquared(
-						new A(this.pos.x + 0.5, this.pos.y + 0.5, this.pos.z + 0.5),
+						new k(this.pos.x + 0.5, this.pos.y + 0.5, this.pos.z + 0.5),
 					) <= 64
 				: !1;
 		}
@@ -49753,7 +49753,7 @@ var fse = class extends Hm {
 		}
 		static getDispensePosition(t) {
 			let n = e.getFacing(t.getBlockMetadata());
-			return new A(
+			return new k(
 				t.getX() + 0.7 * n.getFrontOffsetX(),
 				t.getY() + 0.7 * n.getFrontOffsetY(),
 				t.getZ() + 0.7 * n.getFrontOffsetZ(),
@@ -49962,7 +49962,7 @@ var hb = class e extends mp {
 		isUseableByPlayer(e) {
 			return this.world.getTileEntity(this.pos) == this
 				? e.pos.distanceToSquared(
-						new A(this.pos.x + 0.5, this.pos.y + 0.5, this.pos.z + 0.5),
+						new k(this.pos.x + 0.5, this.pos.y + 0.5, this.pos.z + 0.5),
 					) <= 64
 				: !1;
 		}
@@ -50112,7 +50112,7 @@ var hb = class e extends mp {
 					a = e.putStackInInventoryAllSlots(t, i, null);
 				return (
 					a != null && a.stackSize != 0
-						? n.dhjvOPpALpaRQnJQSA(a)
+						? n.iDWcyKtztNBsjUdrKG(a)
 						: ((r = !0), (n.getEntityItem().stackSize = 0), n.setDead()),
 					r
 				);
@@ -50174,8 +50174,8 @@ var hb = class e extends mp {
 		}
 		static getCaptureItems(e, t, n, r) {
 			let i = new AxisAlignedBoundingBox(
-				new A(t - 0.5, n - 0.5, r - 0.5),
-				new A(t + 0.5, n + 1.5, r + 0.5),
+				new k(t - 0.5, n - 0.5, r - 0.5),
+				new k(t + 0.5, n + 1.5, r + 0.5),
 			);
 			return e.getEntitiesWithinAABB(`item`, i).filter((e) => !e.dead);
 		}
@@ -50384,7 +50384,7 @@ var hb = class e extends mp {
 							this.func_178148_a(n, t, this.enchantLevels[t]),
 						s = n.getItem() == H.book;
 					if (o != null && o.length > 0) {
-						e.GnxAYdbuTRbQZhkhfDUTg(i);
+						e.CoBWjlDWoxXTLxRcqJXeo(i);
 						for (let e = 0; e < o.length; ++e) {
 							let t = o[e];
 							s || n.addEnchantment(t.enchantmentobj, t.enchantmentLevel);
@@ -50426,7 +50426,7 @@ var hb = class e extends mp {
 			return this.worldPointer.getBlockState(this.position).getBlock() ==
 				U.enchanting_table
 				? e.pos.distanceToSquared(
-						new A(
+						new k(
 							this.position.getX() + 0.5,
 							this.position.getY() + 0.5,
 							this.position.getZ() + 0.5,
@@ -50614,7 +50614,7 @@ var hb = class e extends mp {
 						`random.chestopen`,
 						0.5,
 						Math.random() * 0.1 + 0.9,
-						new A(r, t + 0.5, i),
+						new k(r, t + 0.5, i),
 					);
 			}
 			if (
@@ -50633,7 +50633,7 @@ var hb = class e extends mp {
 							`random.chestclosed`,
 							0.5,
 							Math.random() * 0.1 + 0.9,
-							new A(r, t + 0.5, i),
+							new k(r, t + 0.5, i),
 						);
 				}
 				this.lidAngle < 0 && (this.lidAngle = 0);
@@ -50668,7 +50668,7 @@ var hb = class e extends mp {
 		canBeUsed(e) {
 			return this.world.getTileEntity(this.pos) == this
 				? e.pos.distanceToSquared(
-						new A(this.pos.x + 0.5, this.pos.y + 0.5, this.pos.z + 0.5),
+						new k(this.pos.x + 0.5, this.pos.y + 0.5, this.pos.z + 0.5),
 					) <= 64
 				: !1;
 		}
@@ -50705,7 +50705,7 @@ var hb = class e extends mp {
 			);
 		}
 		onBlockActivated(e, t, n, r, i, a, o, s) {
-			let c = r.EwnfBUuWXsGMMvEWekftGM(),
+			let c = r.qViqdZCHMqGhyKaTFaKybV(),
 				l = e.getTileEntity(t);
 			if (c != null && l instanceof vb) {
 				let n = e.getBlockState(t.up());
@@ -50764,7 +50764,7 @@ var hb = class e extends mp {
 				: new Pm(`farmland`);
 		}
 		getCollisionBoundingBox(e, t, n) {
-			return new AxisAlignedBoundingBox(new A(t.x, t.y, t.z), new A(t.x + 1, t.y + 1, t.z + 1));
+			return new AxisAlignedBoundingBox(new k(t.x, t.y, t.z), new k(t.x + 1, t.y + 1, t.z + 1));
 		}
 		updateTick(e, t, n) {
 			let r = n.getProp(`moisture`);
@@ -51264,7 +51264,7 @@ var hb = class e extends mp {
 		isUseableByPlayer(e) {
 			return this.world.getTileEntity(this.pos) == this
 				? e.pos.distanceToSquared(
-						new A(this.pos.x + 0.5, this.pos.y + 0.5, this.pos.z + 0.5),
+						new k(this.pos.x + 0.5, this.pos.y + 0.5, this.pos.z + 0.5),
 					) <= 64
 				: !1;
 		}
@@ -51732,11 +51732,11 @@ var hb = class e extends mp {
 						`axis`,
 						{ x: `z`, z: `x`, y: `y` }[r.name],
 					);
-					for (let t of I.vuuHAcyHhlm(f, p)) e.setBlockState(t, _, 2);
+					for (let t of I.HHbMqrKkrxe(f, p)) e.setBlockState(t, _, 2);
 				}
 		}
 		onEntityCollidedWithBlock(e, t, n) {
-			n.ridingEntity == null && n.riddenByEntity == null && n.duBwLweuRMXU(t);
+			n.ridingEntity == null && n.riddenByEntity == null && n.DbNilcXuuYNt(t);
 		}
 	},
 	Lse = class extends Hm {
@@ -52283,12 +52283,12 @@ var hb = class e extends mp {
 		}
 		getCollisionBoundingBox(e, t, n) {
 			return new AxisAlignedBoundingBox(
-				new A(
+				new k(
 					t.x + this.bbox.min.x,
 					t.y + this.bbox.min.y,
 					t.z + this.bbox.min.z,
 				),
-				new A(
+				new k(
 					t.x + this.bbox.max.x,
 					t.y + this.bbox.max.y,
 					t.z + this.bbox.max.z,
@@ -52851,7 +52851,7 @@ var hb = class e extends mp {
 						i.getFrontOffsetZ() < 0
 							? (n -= i.getFrontOffsetZ() * r)
 							: (c -= i.getFrontOffsetZ() * r),
-						new AxisAlignedBoundingBox(new A(e, t, n), new A(o, s, c))
+						new AxisAlignedBoundingBox(new k(e, t, n), new k(o, s, c))
 					);
 				}
 			} else return null;
@@ -53005,8 +53005,8 @@ var hb = class e extends mp {
 		}
 		getSensitiveAABB(e) {
 			return new AxisAlignedBoundingBox(
-				new A(e.x + 0.125, e.y, e.z + 0.125),
-				new A(e.x + 1 - 0.125, e.y + 0.25, e.z + 1 - 0.125),
+				new k(e.x + 0.125, e.y, e.z + 0.125),
+				new k(e.x + 1 - 0.125, e.y + 0.25, e.z + 1 - 0.125),
 			);
 		}
 		breakBlock(e, t, n) {
@@ -53065,7 +53065,7 @@ var hb = class e extends mp {
 					return 0;
 			}
 			if (r.length > 0) {
-				for (let e of r) if (!e.OQSReiUkDhoCXTmfVCxZWQschmCRRuuUh()) return 15;
+				for (let e of r) if (!e.uOoxTBeiTquHryJhAXtxzPchuzUZOxKvg()) return 15;
 			}
 			return 0;
 		}
@@ -55685,12 +55685,12 @@ var hb = class e extends mp {
 		}
 		getCollisionBoundingBox(e, t, n) {
 			return new AxisAlignedBoundingBox(
-				new A(
+				new k(
 					t.x + this.bbox.min.x,
 					t.y + this.bbox.min.y,
 					t.z + this.bbox.min.z,
 				),
-				new A(
+				new k(
 					t.x + this.bbox.max.x,
 					t.y + n.getProp(`layers`) * rx,
 					t.z + this.bbox.max.z,
@@ -55716,12 +55716,12 @@ var hb = class e extends mp {
 		}
 		getCollisionBoundingBox(e, t, n) {
 			return new AxisAlignedBoundingBox(
-				new A(t.x, t.y, t.z),
-				new A(t.x + 1, t.y + 1 - 0.125, t.z + 1),
+				new k(t.x, t.y, t.z),
+				new k(t.x + 1, t.y + 1 - 0.125, t.z + 1),
 			);
 		}
 		getBoundingBox(e) {
-			return new AxisAlignedBoundingBox(new A(0, 0, 0), new A(1, 0.875, 1));
+			return new AxisAlignedBoundingBox(new k(0, 0, 0), new k(1, 0.875, 1));
 		}
 	},
 	ix = class extends Lh {
@@ -56294,7 +56294,7 @@ var hb = class e extends mp {
 			return this.worldObj.getBlockState(this.pos).getBlock().name ==
 				`workbench`
 				? e.pos.distanceToSquared(
-						new A(this.pos.x + 0.5, this.pos.y + 0.5, this.pos.z + 0.5),
+						new k(this.pos.x + 0.5, this.pos.y + 0.5, this.pos.z + 0.5),
 					) <= 64
 				: !1;
 		}
@@ -59115,7 +59115,7 @@ var xle = Xt({
 			},
 			setupNode: ({ refs: e, event: t }) => {
 				e.get(`node`) !== t.node &&
-					(e.set(`node`, t.node), e.set(`styles`, bn(t.node)));
+					(e.set(`node`, t.node), e.set(`styles`, yn(t.node)));
 			},
 			cleanupNode: ({ refs: e }) => {
 				e.set(`node`, null), e.set(`styles`, null);
@@ -59194,7 +59194,7 @@ var tS = (e = {}) => {
 			} = e,
 			o = (0, N.useRef)(!1),
 			s = ble(
-				Nn(xle, { ...a, present: r, onExitComplete: $x(e.onExitComplete) }),
+				Mn(xle, { ...a, present: r, onExitComplete: $x(e.onExitComplete) }),
 				m,
 			);
 		s.present && (o.current = !0);
@@ -59209,7 +59209,7 @@ var tS = (e = {}) => {
 			unmounted: c,
 		};
 	},
-	[nS, rS] = Dn({
+	[nS, rS] = En({
 		name: `PresenceContext`,
 		hookName: `usePresenceContext`,
 		providerName: `<PresenceProvider />`,
@@ -59515,7 +59515,7 @@ var Nle = Object.defineProperty,
 				pS(this, `handleFocus`, (e) => {
 					let t = oe(e),
 						n = this.findContainerIndex(t, e) >= 0;
-					if (n || gn(t)) n && (this.state.mostRecentlyFocusedNode = t);
+					if (n || eee(t)) n && (this.state.mostRecentlyFocusedNode = t);
 					else {
 						e.stopImmediatePropagation();
 						let t,
@@ -60051,7 +60051,7 @@ function Hle(e) {
 	return Math.round(t) + e.scrollLeft ? `paddingLeft` : `paddingRight`;
 }
 function xS(e) {
-	let t = bn(e)?.scrollbarGutter;
+	let t = yn(e)?.scrollbarGutter;
 	return t === `stable` || t?.startsWith(`stable `) === !0;
 }
 function Ule(e) {
@@ -60267,15 +60267,15 @@ function $le(e, t) {
 		m = a(`indeterminate`),
 		h = r.get(`checked`),
 		g = {
-			"data-active": Cn(r.get(`active`)),
-			"data-focus": Cn(d),
-			"data-focus-visible": Cn(f),
-			"data-readonly": Cn(c),
-			"data-hover": Cn(r.get(`hovered`)),
-			"data-disabled": Cn(s),
+			"data-active": Sn(r.get(`active`)),
+			"data-focus": Sn(d),
+			"data-focus-visible": Sn(f),
+			"data-readonly": Sn(c),
+			"data-hover": Sn(r.get(`hovered`)),
+			"data-disabled": Sn(s),
 			"data-state": m ? `indeterminate` : p ? `checked` : `unchecked`,
-			"data-invalid": Cn(u),
-			"data-required": Cn(l),
+			"data-invalid": Sn(u),
+			"data-required": Sn(l),
 		};
 	return {
 		checked: p,
@@ -60291,7 +60291,7 @@ function $le(e, t) {
 		},
 		getRootProps() {
 			return t.label({
-				...Bn.root.attrs,
+				...zn.root.attrs,
 				...g,
 				dir: i(`dir`),
 				id: FS(o),
@@ -60308,11 +60308,11 @@ function $le(e, t) {
 			});
 		},
 		getLabelProps() {
-			return t.element({ ...Bn.label.attrs, ...g, dir: i(`dir`), id: IS(o) });
+			return t.element({ ...zn.label.attrs, ...g, dir: i(`dir`), id: IS(o) });
 		},
 		getControlProps() {
 			return t.element({
-				...Bn.control.attrs,
+				...zn.control.attrs,
 				...g,
 				dir: i(`dir`),
 				id: Zle(o),
@@ -60321,7 +60321,7 @@ function $le(e, t) {
 		},
 		getIndicatorProps() {
 			return t.element({
-				...Bn.indicator.attrs,
+				...zn.indicator.attrs,
 				...g,
 				dir: i(`dir`),
 				hidden: !m && !p,
@@ -61996,7 +61996,7 @@ function vde(e, t, n = {}) {
 			!y)
 		) {
 			let t = e.firstElementChild;
-			t && (e.style.setProperty(`--z-index`, bn(t).zIndex), (y = !0));
+			t && (e.style.setProperty(`--z-index`, yn(t).zIndex), (y = !0));
 		}
 	}
 	async function te() {
@@ -62084,7 +62084,7 @@ var xde = (e) => e.ids?.positioner ?? `dialog:${e.id}:positioner`,
 			? t
 				? `dialog:${e.id}:trigger:${t}`
 				: `dialog:${e.id}:trigger`
-			: jn(n)
+			: An(n)
 				? n(t)
 				: n;
 	},
@@ -62132,7 +62132,7 @@ function jde(e, t) {
 				"aria-expanded": n == null ? c : c && i,
 				"data-state": c ? `open` : `closed`,
 				"aria-controls": XC(o),
-				"data-current": Cn(i),
+				"data-current": Sn(i),
 				onClick(e) {
 					e.defaultPrevented ||
 						r({
@@ -62656,15 +62656,15 @@ function ife(e, t) {
 	function d(e) {
 		let t = u(e);
 		return {
-			"data-focus": Cn(t.focused),
-			"data-focus-visible": Cn(t.focusVisible),
-			"data-disabled": Cn(t.disabled),
-			"data-readonly": Cn(l),
+			"data-focus": Sn(t.focused),
+			"data-focus-visible": Sn(t.focusVisible),
+			"data-disabled": Sn(t.disabled),
+			"data-readonly": Sn(l),
 			"data-state": t.checked ? `checked` : `unchecked`,
-			"data-hover": Cn(t.hovered),
-			"data-invalid": Cn(t.invalid),
+			"data-hover": Sn(t.hovered),
+			"data-invalid": Sn(t.invalid),
 			"data-orientation": a(`orientation`),
-			"data-ssr": Cn(n.get(`ssr`)),
+			"data-ssr": Sn(n.get(`ssr`)),
 		};
 	}
 	let f = () => {
@@ -62689,9 +62689,9 @@ function ife(e, t) {
 				"aria-disabled": s || void 0,
 				"aria-readonly": l || void 0,
 				"data-orientation": a(`orientation`),
-				"data-disabled": Cn(s),
-				"data-invalid": Cn(c),
-				"data-required": Cn(a(`required`)),
+				"data-disabled": Sn(s),
+				"data-invalid": Sn(c),
+				"data-required": Sn(a(`required`)),
 				"aria-orientation": a(`orientation`),
 				dir: a(`dir`),
 				style: { position: `relative` },
@@ -62702,9 +62702,9 @@ function ife(e, t) {
 				...Qt.label.attrs,
 				dir: a(`dir`),
 				"data-orientation": a(`orientation`),
-				"data-disabled": Cn(s),
-				"data-invalid": Cn(c),
-				"data-required": Cn(a(`required`)),
+				"data-disabled": Sn(s),
+				"data-invalid": Sn(c),
+				"data-required": Sn(a(`required`)),
 				id: Kde(o),
 				onClick: f,
 			});
@@ -62754,7 +62754,7 @@ function ife(e, t) {
 				...Qt.itemControl.attrs,
 				dir: a(`dir`),
 				id: Jde(o, e.value),
-				"data-active": Cn(n.active),
+				"data-active": Sn(n.active),
 				"aria-hidden": !0,
 				...d(e),
 			});
@@ -62818,7 +62818,7 @@ function ife(e, t) {
 				...Qt.indicator.attrs,
 				dir: a(`dir`),
 				hidden: n.get(`value`) == null || afe(e),
-				"data-disabled": Cn(s),
+				"data-disabled": Sn(s),
 				"data-orientation": a(`orientation`),
 				onTransitionEnd(e) {
 					oe(e) === e.currentTarget && r({ type: `INDICATOR_TRANSITION_END` });
@@ -63369,11 +63369,11 @@ function Zfe(e, t) {
 			return t.label({
 				...cn.label.attrs,
 				dir: a(`dir`),
-				"data-disabled": Cn(h),
+				"data-disabled": Sn(h),
 				"data-orientation": a(`orientation`),
-				"data-invalid": Cn(_),
-				"data-dragging": Cn(m),
-				"data-focus": Cn(p),
+				"data-invalid": Sn(_),
+				"data-dragging": Sn(m),
+				"data-focus": Sn(p),
 				id: pfe(s),
 				htmlFor: ow(s, 0),
 				onClick(e) {
@@ -63385,11 +63385,11 @@ function Zfe(e, t) {
 		getRootProps() {
 			return t.element({
 				...cn.root.attrs,
-				"data-disabled": Cn(h),
+				"data-disabled": Sn(h),
 				"data-orientation": a(`orientation`),
-				"data-dragging": Cn(m),
-				"data-invalid": Cn(_),
-				"data-focus": Cn(p),
+				"data-dragging": Sn(m),
+				"data-invalid": Sn(_),
+				"data-focus": Sn(p),
 				id: cfe(s),
 				dir: a(`dir`),
 				style: Lfe(e),
@@ -63399,10 +63399,10 @@ function Zfe(e, t) {
 			return t.element({
 				...cn.valueText.attrs,
 				dir: a(`dir`),
-				"data-disabled": Cn(h),
+				"data-disabled": Sn(h),
 				"data-orientation": a(`orientation`),
-				"data-invalid": Cn(_),
-				"data-focus": Cn(p),
+				"data-invalid": Sn(_),
+				"data-focus": Sn(p),
 				id: mfe(s),
 			});
 		},
@@ -63411,11 +63411,11 @@ function Zfe(e, t) {
 				...cn.track.attrs,
 				dir: a(`dir`),
 				id: dfe(s),
-				"data-disabled": Cn(h),
-				"data-invalid": Cn(_),
-				"data-dragging": Cn(m),
+				"data-disabled": Sn(h),
+				"data-invalid": Sn(_),
+				"data-dragging": Sn(m),
 				"data-orientation": a(`orientation`),
-				"data-focus": Cn(p),
+				"data-focus": Sn(p),
 				style: { position: `relative` },
 			});
 		},
@@ -63432,10 +63432,10 @@ function Zfe(e, t) {
 				"data-index": i,
 				"data-name": o,
 				id: lfe(s, i),
-				"data-disabled": Cn(h),
+				"data-disabled": Sn(h),
 				"data-orientation": a(`orientation`),
-				"data-focus": Cn(p && d === i),
-				"data-dragging": Cn(m && d === i),
+				"data-focus": Sn(p && d === i),
+				"data-dragging": Sn(m && d === i),
 				draggable: !1,
 				"aria-disabled": qt(h),
 				"aria-label": x,
@@ -63493,7 +63493,7 @@ function Zfe(e, t) {
 							End() {
 								r({ type: `END` });
 							},
-						}[Un(e, { dir: a(`dir`), orientation: a(`orientation`) })];
+						}[Hn(e, { dir: a(`dir`), orientation: a(`orientation`) })];
 					n && (n(e), e.preventDefault(), e.stopPropagation());
 				},
 			});
@@ -63515,10 +63515,10 @@ function Zfe(e, t) {
 				id: ffe(s),
 				...cn.range.attrs,
 				dir: a(`dir`),
-				"data-dragging": Cn(m),
-				"data-focus": Cn(p),
-				"data-invalid": Cn(_),
-				"data-disabled": Cn(h),
+				"data-dragging": Sn(m),
+				"data-focus": Sn(p),
+				"data-invalid": Sn(_),
+				"data-disabled": Sn(h),
 				"data-orientation": a(`orientation`),
 				style: kfe(e),
 			});
@@ -63528,11 +63528,11 @@ function Zfe(e, t) {
 				...cn.control.attrs,
 				dir: a(`dir`),
 				id: ufe(s),
-				"data-dragging": Cn(m),
-				"data-disabled": Cn(h),
+				"data-dragging": Sn(m),
+				"data-disabled": Sn(h),
 				"data-orientation": a(`orientation`),
-				"data-invalid": Cn(_),
-				"data-focus": Cn(p),
+				"data-invalid": Sn(_),
+				"data-focus": Sn(p),
 				style: Ife(),
 				onPointerDown(e) {
 					v &&
@@ -63571,7 +63571,7 @@ function Zfe(e, t) {
 					dir: a(`dir`),
 					"data-orientation": a(`orientation`),
 					"data-value": n.value,
-					"data-disabled": Cn(h),
+					"data-disabled": Sn(h),
 					"data-state": i,
 					style: r,
 				})
@@ -63795,7 +63795,7 @@ var Qfe = (e, t) => e?.width === t?.width && e?.height === t?.height,
 				trackThumbSize({ context: e, scope: t, prop: n }) {
 					if (n(`thumbAlignment`) !== `contain` || n(`thumbSize`)) return;
 					let r = (t) => {
-							let n = Fn(Efe(t), [`width`, `height`]);
+							let n = Pn(Efe(t), [`width`, `height`]);
 							Qfe(e.get(`thumbSize`), n) || e.set(`thumbSize`, n);
 						},
 						i = vfe(t);
@@ -63908,7 +63908,7 @@ var Qfe = (e, t) => e?.width === t?.width && e?.height === t?.height,
 	}),
 	tpe = (e) => {
 		if (!e) return;
-		let t = bn(e),
+		let t = yn(e),
 			n = lt(e),
 			r = It(e),
 			i = () => {
@@ -63970,7 +63970,7 @@ var Qfe = (e, t) => e?.width === t?.width && e?.height === t?.height,
 			? t
 				? `tooltip:${e.id}:trigger:${t}`
 				: `tooltip:${e.id}:trigger`
-			: jn(n)
+			: An(n)
 				? n(t)
 				: n;
 	},
@@ -64018,9 +64018,9 @@ function spe(e, t) {
 				id: s,
 				"data-ownedby": a.id,
 				"data-value": n,
-				"data-current": Cn(r),
+				"data-current": Sn(r),
 				dir: o(`dir`),
-				"data-expanded": Cn(u),
+				"data-expanded": Sn(u),
 				"data-state": u ? `open` : `closed`,
 				"aria-describedby": u ? m : void 0,
 				onClick(e) {
@@ -64129,7 +64129,7 @@ function spe(e, t) {
 				dir: o(`dir`),
 				hidden: !u,
 				"data-state": u ? `open` : `closed`,
-				"data-instant": Cn(r),
+				"data-instant": Sn(r),
 				role: l ? void 0 : `tooltip`,
 				id: l ? void 0 : m,
 				"data-placement": f,
@@ -64150,7 +64150,7 @@ var { and: cpe, not: lpe } = on(),
 		initialState: ({ prop: e }) =>
 			e(`open`) || e(`defaultOpen`) ? `open` : `closed`,
 		props({ props: e }) {
-			Rn(e, [`id`]);
+			Ln(e, [`id`]);
 			let t = e.closeOnClick ?? !0,
 				n = e.closeOnPointerDown ?? t;
 			return {
@@ -64516,13 +64516,13 @@ var { and: cpe, not: lpe } = on(),
 			},
 		},
 	}),
-	[dpe, fpe] = Dn({
+	[dpe, fpe] = En({
 		name: `RenderStrategyContext`,
 		hookName: `useRenderStrategyContext`,
 		providerName: `<RenderStrategyPropsProvider />`,
 	}),
 	ppe = (e) => Zx()(e, [`lazyMount`, `unmountOnExit`]),
-	[mpe, pw] = Dn({
+	[mpe, pw] = En({
 		name: `CheckboxContext`,
 		hookName: `useCheckboxContext`,
 		providerName: `<CheckboxProvider />`,
@@ -64533,7 +64533,7 @@ var { and: cpe, not: lpe } = on(),
 		return (0, W.jsx)(v.div, { ...n, ref: t });
 	});
 gpe.displayName = `CheckboxControl`;
-var [_pe, mw] = Dn({
+var [_pe, mw] = En({
 		name: `FieldsetContext`,
 		hookName: `useFieldsetContext`,
 		providerName: `<FieldsetProvider />`,
@@ -64597,7 +64597,7 @@ function bpe(e = {}) {
 		},
 	};
 }
-var [xpe, Spe] = Dn({
+var [xpe, Spe] = En({
 		name: `CheckboxGroupContext`,
 		hookName: `useCheckboxGroupContext`,
 		providerName: `<CheckboxGroupProvider />`,
@@ -64621,7 +64621,7 @@ var [xpe, Spe] = Dn({
 				ref: t,
 				role: `group`,
 				...r,
-				...kn.build().group.attrs,
+				...On.build().group.attrs,
 			}),
 		});
 	});
@@ -64635,12 +64635,12 @@ var Tpe = Zx(),
 				ref: t,
 				role: `group`,
 				...r,
-				...kn.build().group.attrs,
+				...On.build().group.attrs,
 			}),
 		});
 	});
 Epe.displayName = `CheckboxGroupProvider`;
-var [hw, gw] = Dn({
+var [hw, gw] = En({
 		name: `FieldContext`,
 		hookName: `useFieldContext`,
 		providerName: `<FieldProvider />`,
@@ -64738,9 +64738,9 @@ var Ppe = (e = {}) => {
 					id: g,
 					ref: h,
 					role: `group`,
-					"data-disabled": Cn(a),
-					"data-invalid": Cn(o),
-					"data-readonly": Cn(s),
+					"data-disabled": Sn(a),
+					"data-invalid": Sn(o),
+					"data-readonly": Sn(s),
 				}),
 				[a, o, s, g],
 			),
@@ -64749,10 +64749,10 @@ var Ppe = (e = {}) => {
 				() => () => ({
 					...At.label.attrs,
 					id: y,
-					"data-disabled": Cn(a),
-					"data-invalid": Cn(o),
-					"data-readonly": Cn(s),
-					"data-required": Cn(c),
+					"data-disabled": Sn(a),
+					"data-invalid": Sn(o),
+					"data-readonly": Sn(s),
+					"data-required": Sn(c),
 					htmlFor: S ?? m,
 				}),
 				[a, o, s, c, m, y, S],
@@ -64761,9 +64761,9 @@ var Ppe = (e = {}) => {
 				() => () => ({
 					"aria-describedby": b,
 					"aria-invalid": qt(o),
-					"data-invalid": Cn(o),
-					"data-required": Cn(c),
-					"data-readonly": Cn(s),
+					"data-invalid": Sn(o),
+					"data-required": Sn(c),
+					"data-readonly": Sn(s),
 					id: m,
 					required: c,
 					disabled: a,
@@ -64778,7 +64778,7 @@ var Ppe = (e = {}) => {
 			),
 			ne = (0, N.useMemo)(() => () => ({ ...ee(), ...At.select.attrs }), [ee]),
 			re = (0, N.useMemo)(
-				() => () => ({ id: v, ...At.helperText.attrs, "data-disabled": Cn(a) }),
+				() => () => ({ id: v, ...At.helperText.attrs, "data-disabled": Sn(a) }),
 				[a, v],
 			),
 			ie = (0, N.useMemo)(
@@ -64904,7 +64904,7 @@ var Wpe = (e = {}) => {
 			{ getRootNode: a } = at(),
 			{ dir: o } = S();
 		return $le(
-			Nn(eue, {
+			Mn(eue, {
 				id: i,
 				ids: { label: n?.ids.label, hiddenInput: n?.ids.control },
 				dir: o,
@@ -64963,7 +64963,7 @@ var vw = He({
 		Root: () => Kpe,
 		RootProvider: () => Jpe,
 	}),
-	[Ype, yw] = Dn({
+	[Ype, yw] = En({
 		name: `DialogContext`,
 		hookName: `useDialogContext`,
 		providerName: `<DialogProvider />`,
@@ -65002,7 +65002,7 @@ var nme = (e) => {
 		let t = (0, N.useId)(),
 			{ getRootNode: n } = at(),
 			{ dir: r } = S();
-		return jde(Nn(Mde, { id: t, getRootNode: n, dir: r, ...e }), m);
+		return jde(Mn(Mde, { id: t, getRootNode: n, dir: r, ...e }), m);
 	},
 	rme = (e) => {
 		let [t, { children: n, ...r }] = Qx(e),
@@ -65063,7 +65063,7 @@ var bw = He({
 		Title: () => ame,
 		Trigger: () => sme,
 	}),
-	[cme, xw] = Dn({
+	[cme, xw] = En({
 		name: `ProgressContext`,
 		hookName: `useProgressContext`,
 		providerName: `<ProgressProvider />`,
@@ -65098,7 +65098,7 @@ var hme = (e) => {
 		let t = (0, N.useId)(),
 			{ getRootNode: n } = at(),
 			{ dir: r, locale: i } = S();
-		return Lde(Nn(Hde, { id: t, dir: r, locale: i, getRootNode: n, ...e }), m);
+		return Lde(Mn(Hde, { id: t, dir: r, locale: i, getRootNode: n, ...e }), m);
 	},
 	gme = Zx(),
 	_me = (0, N.forwardRef)((e, t) => {
@@ -65165,7 +65165,7 @@ var Sw = He({
 		ValueText: () => xme,
 		View: () => Cme,
 	}),
-	[wme, Cw] = Dn({
+	[wme, Cw] = En({
 		name: `RadioGroupContext`,
 		hookName: `useRadioGroupContext`,
 		providerName: `<RadioGroupProvider />`,
@@ -65176,12 +65176,12 @@ var Sw = He({
 		return (0, W.jsx)(v.div, { ...n, ref: t });
 	});
 Eme.displayName = `RadioGroupIndicator`;
-var [Dme, Ome] = Dn({
+var [Dme, Ome] = En({
 		name: `RadioGroupItemContext`,
 		hookName: `useRadioGroupItemContext`,
 		providerName: `<RadioGroupItemProvider />`,
 	}),
-	[kme, ww] = Dn({
+	[kme, ww] = En({
 		name: `RadioGroupItemPropsContext`,
 		hookName: `useRadioGroupItemPropsContext`,
 		providerName: `<RadioGroupItemPropsProvider />`,
@@ -65233,7 +65233,7 @@ var Lme = (e) => {
 			{ getRootNode: r } = at(),
 			{ dir: i } = S();
 		return ife(
-			Nn(sfe, {
+			Mn(sfe, {
 				id: n,
 				ids: { label: t?.ids?.legend },
 				dir: i,
@@ -65291,7 +65291,7 @@ var Tw = He({
 		Root: () => zme,
 		RootProvider: () => Vme,
 	}),
-	[Hme, Ew] = Dn({
+	[Hme, Ew] = En({
 		name: `SliderContext`,
 		hookName: `useSliderContext`,
 		providerName: `<SliderProvider />`,
@@ -65302,7 +65302,7 @@ var Tw = He({
 		return (0, W.jsx)(v.div, { ...n, ref: t });
 	});
 Wme.displayName = `SliderControl`;
-var [Gme, Kme] = Dn({
+var [Gme, Kme] = En({
 		name: `SliderThumbPropsContext`,
 		hookName: `useSliderThumbPropsContext`,
 		providerName: `<SliderThumbPropsProvider />`,
@@ -65351,7 +65351,7 @@ var ehe = (e) => {
 		let t = (0, N.useId)(),
 			{ getRootNode: n } = at(),
 			{ dir: r } = S();
-		return Zfe(Nn(epe, { id: t, dir: r, getRootNode: n, ...e }), m);
+		return Zfe(Mn(epe, { id: t, dir: r, getRootNode: n, ...e }), m);
 	},
 	the = Zx(),
 	nhe = (0, N.forwardRef)((e, t) => {
@@ -65440,7 +65440,7 @@ var Dw = He({
 		Track: () => she,
 		ValueText: () => che,
 	}),
-	[lhe, Ow] = Dn({
+	[lhe, Ow] = En({
 		name: `TooltipContext`,
 		hookName: `useTooltipContext`,
 		providerName: `<TooltipProvider />`,
@@ -65472,7 +65472,7 @@ var hhe = (e) => {
 		let t = (0, N.useId)(),
 			{ getRootNode: n } = at(),
 			{ dir: r } = S();
-		return spe(Nn(upe, { id: t, dir: r, getRootNode: n, ...e }), m);
+		return spe(Mn(upe, { id: t, dir: r, getRootNode: n, ...e }), m);
 	},
 	ghe = (e) => {
 		let [t, { children: n, ...r }] = Qx(e),
@@ -65689,7 +65689,7 @@ var {
 	withContext: Ohe,
 	useStyles: khe,
 	PropsProvider: Ahe,
-} = vn({ key: `checkbox` });
+} = _n({ key: `checkbox` });
 Dhe(vw.RootProvider, `root`, { forwardAsChild: !0 });
 var jhe = Dhe(vw.Root, `root`, { forwardAsChild: !0 }),
 	Mhe = Ohe(vw.Label, `label`, { forwardAsChild: !0 }),
@@ -65817,7 +65817,7 @@ var { withContext: Rhe, PropsProvider: zhe } = Ut({ key: `container` }),
 		withContext: Pw,
 		useStyles: Vhe,
 		PropsProvider: Hhe,
-	} = vn({ key: `dialog` });
+	} = _n({ key: `dialog` });
 Bhe(bw.RootProvider, { defaultProps: { unmountOnExit: !0, lazyMount: !0 } });
 var Uhe = Bhe(bw.Root, { defaultProps: { unmountOnExit: !0, lazyMount: !0 } });
 Pw(bw.Trigger, `trigger`, { forwardAsChild: !0 });
@@ -65875,7 +65875,7 @@ var {
 		useStyles: tge,
 		useClassNames: nge,
 		PropsProvider: rge,
-	} = vn({ key: `field` }),
+	} = _n({ key: `field` }),
 	ige = ege(_w.Root, `root`, { forwardAsChild: !0 });
 Iw(_w.Label, `label`, { forwardAsChild: !0 }),
 	Iw(_w.HelperText, `helperText`, { forwardAsChild: !0 });
@@ -66013,7 +66013,7 @@ var { withContext: sge, PropsProvider: cge } = Ut({ key: `input` }),
 		withContext: dge,
 		useStyles: fge,
 		PropsProvider: pge,
-	} = vn({ key: `list` }),
+	} = _n({ key: `list` }),
 	Hw = uge(`ul`, `root`, { defaultProps: { role: `list` } }),
 	Uw = dge(`li`, `item`);
 dge(`span`, `indicator`);
@@ -66022,7 +66022,7 @@ var {
 	withContext: Ww,
 	useStyles: hge,
 	PropsProvider: gge,
-} = vn({ key: `progress` });
+} = _n({ key: `progress` });
 mge(Sw.RootProvider, `root`, { forwardAsChild: !0 });
 var Gw = mge(Sw.Root, `root`);
 Ww(Sw.Label, `label`, { forwardAsChild: !0 });
@@ -66034,7 +66034,7 @@ var {
 	withContext: Jw,
 	useStyles: vge,
 	PropsProvider: yge,
-} = vn({ key: `radioGroup` });
+} = _n({ key: `radioGroup` });
 _ge(Tw.RootProvider, `root`, { forwardAsChild: !0 });
 var bge = _ge(Tw.Root, `root`, { forwardAsChild: !0 });
 Jw(Tw.Label, `label`, { forwardAsChild: !0 });
@@ -66066,9 +66066,9 @@ var wge = Tw.ItemHiddenInput,
 			a = e.orientation || `horizontal`;
 		return (0, W.jsx)(Ee.span, {
 			ref: t,
-			role: Hn(a) ? `separator` : `presentation`,
-			"aria-orientation": Hn(a) ? a : void 0,
-			...Tn(i, [`orientation`]),
+			role: Vn(a) ? `separator` : `presentation`,
+			"aria-orientation": Vn(a) ? a : void 0,
+			...wn(i, [`orientation`]),
 			className: Ne(r, e.className),
 			css: [n, e.css],
 		});
@@ -66101,7 +66101,7 @@ var {
 	withContext: Zw,
 	useStyles: jge,
 	PropsProvider: Mge,
-} = vn({ key: `slider` });
+} = _n({ key: `slider` });
 Age(Dw.RootProvider, `root`, { forwardAsChild: !0 });
 var Nge = Age(Dw.Root, `root`, { forwardAsChild: !0 }),
 	Pge = Zw(Dw.Track, `track`, { forwardAsChild: !0 }),
@@ -66152,7 +66152,7 @@ var { withContext: Uge, PropsProvider: Wge } = Ut({ key: `textarea` }),
 		withContext: eT,
 		useStyles: Kge,
 		PropsProvider: qge,
-	} = vn({ key: `tooltip` });
+	} = _n({ key: `tooltip` });
 Gge(kw.RootProvider);
 var Jge = Gge(kw.Root, { defaultProps: { lazyMount: !0, unmountOnExit: !0 } }),
 	Yge = eT(kw.Trigger, `trigger`, { forwardAsChild: !0 }),
@@ -66529,7 +66529,7 @@ function y_e(e, t, n, r, i, a) {
 				i.children &&
 				i.children[0] &&
 				i.children[0].content &&
-				n.services.interpolator.GyYKBcWVfvP(
+				n.services.interpolator.CTbwYGngGYZ(
 					i.children[0].content,
 					d,
 					n.language,
@@ -66547,7 +66547,7 @@ function y_e(e, t, n, r, i, a) {
 						!!e &&
 						Object.hasOwnProperty.call(e, i.name);
 				if (typeof g == `string`) {
-					let e = n.services.interpolator.GyYKBcWVfvP(g, d, n.language);
+					let e = n.services.interpolator.CTbwYGngGYZ(g, d, n.language);
 					t.push(e);
 				} else if (iT(g) || v) p(g, f(g, i, c), t, u);
 				else if (y) p(g, m(l, i.children, c), t, u);
@@ -66575,9 +66575,9 @@ function y_e(e, t, n, r, i, a) {
 				let e = r.transWrapTextNodes,
 					o = a
 						? r.unescape(
-								n.services.interpolator.GyYKBcWVfvP(i.content, d, n.language),
+								n.services.interpolator.CTbwYGngGYZ(i.content, d, n.language),
 							)
-						: n.services.interpolator.GyYKBcWVfvP(i.content, d, n.language);
+						: n.services.interpolator.CTbwYGngGYZ(i.content, d, n.language);
 				e
 					? t.push((0, N.createElement)(e, { key: `${i.name}-${u}` }, o))
 					: t.push(o);
@@ -66614,7 +66614,7 @@ function b_e(e) {
 		);
 	let g = f || h.t.bind(h) || ((e) => e);
 	a && (o.context = a);
-	let _ = { ...Pn(), ...(h.options && h.options.react) },
+	let _ = { ...Nn(), ...(h.options && h.options.react) },
 		v = u || g.ns || (h.options && h.options.defaultNS);
 	v = typeof v == `string` ? [v] : v || [`translation`];
 	let y = v_e(t, _),
@@ -66737,7 +66737,7 @@ function cT(e) {
 		rT(
 			`It seems you are still using the old wait option, you may migrate to the new useSuspense behaviour.`,
 		);
-	let o = { ...Pn(), ...a.options.react, ...t },
+	let o = { ...Nn(), ...a.options.react, ...t },
 		{ useSuspense: s, keyPrefix: c } = o,
 		l = e || i || (a.options && a.options.defaultNS);
 	(l = typeof l == `string` ? [l] : l || [`translation`]),
@@ -66922,7 +66922,7 @@ var k_e = class {
 				: this.to - E_e(this.to - this.from, this.speed, this.time, t)
 		);
 	}
-	TJTjqJsL(e) {
+	vnvuKIKN(e) {
 		let t = e / 1e3 - this.start;
 		return t >= this.time
 			? 0
@@ -66932,7 +66932,7 @@ var k_e = class {
 		let n = Date.now(),
 			r = this.get(n);
 		return (
-			(this.speed = this.TJTjqJsL(n)),
+			(this.speed = this.vnvuKIKN(n)),
 			(this.start = n / 1e3),
 			(this.from = r),
 			(this.to = e),
@@ -77271,7 +77271,7 @@ var sj = CDe(xDe),
 function mj(e) {
 	return e === -1 ? EDe : pj;
 }
-var DDe = { Basic: vr, Lambert: er, Phong: ir, Standard: nee, Toon: rr },
+var DDe = { Basic: Qn, Lambert: nr, Phong: Yr, Standard: tr, Toon: vr },
 	ODe = [`arrow`, `enchanting_table_book`, `experience_orb`],
 	hj =
 		`barrier.explosion_0.explosion_1.explosion_2.explosion_3.explosion_4.explosion_5.explosion_6.explosion_7.explosion_8.explosion_9.explosion_10.explosion_11.explosion_12.explosion_13.explosion_14.explosion_15.effect_0.effect_1.effect_2.effect_3.effect_4.effect_5.effect_6.effect_7.spell_0.spell_1.spell_2.spell_3.spell_4.spell_5.spell_6.spell_7.bubble.critical_hit.drip_fall.drip_hang.drip_land.flame.generic_0.generic_1.generic_2.generic_3.generic_4.generic_5.generic_6.generic_7.lava.note.splash_0.splash_1.splash_2.splash_3.glint.heart.angry.sga_a.sga_b.sga_c.sga_d.sga_e.sga_f.sga_g.sga_h.sga_i.sga_j.sga_k.sga_l.sga_m.sga_n.sga_o.sga_p.sga_q.sga_r.sga_s.sga_t.sga_u.sga_v.sga_w.sga_x.sga_y.sga_z.soul_fire_flame`.split(
@@ -77403,18 +77403,18 @@ var vj = new (class {
 				(this.rotZ.value = t.z);
 		}
 	})(),
-	yj = new tr(),
-	bj = new tr(),
-	xj = new tr(),
-	kDe = new tr(),
-	ADe = new tr(),
-	Sj = new tr(),
-	Cj = new tr(),
-	wj = new pr(),
-	Tj = new pr(),
-	Ej = new A(),
-	jDe = new A(),
-	MDe = class extends Dr {
+	yj = new mr(),
+	bj = new mr(),
+	xj = new mr(),
+	kDe = new mr(),
+	ADe = new mr(),
+	Sj = new mr(),
+	Cj = new mr(),
+	wj = new oi(),
+	Tj = new oi(),
+	Ej = new k(),
+	jDe = new k(),
+	MDe = class extends ni {
 		root = null;
 		update() {
 			let e = this.bones,
@@ -77432,7 +77432,7 @@ var vj = new (class {
 			r !== null && (r.needsUpdate = !0);
 		}
 	},
-	Dj = class extends Hr {
+	Dj = class extends kr {
 		applyBoneTransform(e, t) {
 			let n = t,
 				r = this.skeleton,
@@ -77457,12 +77457,12 @@ var vj = new (class {
 function Oj(e, t, n) {
 	let r = new MDe(
 		e,
-		e.map((e) => new tr().multiplyMatrices(n, e.matrixWorld).invert()),
+		e.map((e) => new mr().multiplyMatrices(n, e.matrixWorld).invert()),
 	);
 	return (r.root = t), r;
 }
 function kj(e, t) {
-	e.bind(t, ADe), (e.bindMode = fr);
+	e.bind(t, ADe), (e.bindMode = Jn);
 }
 var Aj = null;
 function NDe(e) {
@@ -77559,7 +77559,7 @@ function zj(e) {
 		Pj.get(e) ?? (T.error(`texture ${e} not found`), Lj)
 	);
 }
-var q = class e extends zr {
+var q = class e extends ir {
 		skinName;
 		root;
 		pos;
@@ -77653,30 +77653,30 @@ var q = class e extends zr {
 						: new Uint16Array(new ArrayBuffer(e.indices.length * 2));
 			n.set(e.positions), r.set(e.normals), i.set(e.uvs), a.set(e.indices);
 			let o =
-				t && !t.geometry.userData.sharedItemGeometry ? t.geometry : new Nr();
+				t && !t.geometry.userData.sharedItemGeometry ? t.geometry : new br();
 			if (
 				(t && (t.geometry = o),
-				o.setAttribute(`position`, new Fr(n, 3)),
+				o.setAttribute(`position`, new Nr(n, 3)),
 				e.colors)
 			) {
 				new Float32Array(new ArrayBuffer(e.colors.length * 4)).set(e.colors);
-				let t = new eee(e.colors, 4);
+				let t = new li(e.colors, 4);
 				(t.normalized = !0),
 					o.setAttribute(`color`, t),
 					(o.attributes.color.needsUpdate = !0);
 			}
 			if (e.overlayUVs) {
 				let t = new Float32Array(new ArrayBuffer(e.overlayUVs.length * 4));
-				t.set(e.overlayUVs), o.setAttribute(`overlayUV`, new Fr(t, 2));
+				t.set(e.overlayUVs), o.setAttribute(`overlayUV`, new Nr(t, 2));
 			}
 			if (e.animations) {
 				let t = new Uint8Array(new ArrayBuffer(e.animations.length));
-				t.set(e.animations), o.setAttribute(`animation`, new Fr(t, 2));
+				t.set(e.animations), o.setAttribute(`animation`, new Nr(t, 2));
 			}
 			return (
-				o.setAttribute(`normal`, new Fr(r, 3)),
-				o.setAttribute(`uv`, new Fr(i, 2)),
-				o.setIndex(new Fr(a, 1)),
+				o.setAttribute(`normal`, new Nr(r, 3)),
+				o.setAttribute(`uv`, new Nr(i, 2)),
+				o.setIndex(new Nr(a, 1)),
 				o.computeBoundingSphere(),
 				(o.attributes.position.needsUpdate = !0),
 				(o.attributes.normal.needsUpdate = !0),
@@ -77848,7 +77848,7 @@ var q = class e extends zr {
 			}
 			if (i.length === 0) return;
 			e.updateMatrixWorld(!0);
-			let a = new tr().copy(e.matrixWorld).invert(),
+			let a = new mr().copy(e.matrixWorld).invert(),
 				o = [],
 				s = new Map(),
 				c = (e) => {
@@ -77860,13 +77860,13 @@ var q = class e extends zr {
 			for (let { mesh: e, bone: t } of i) {
 				let n = c(t),
 					r = e.geometry.clone();
-				r.applyMatrix4(new tr().multiplyMatrices(a, e.matrixWorld));
+				r.applyMatrix4(new mr().multiplyMatrices(a, e.matrixWorld));
 				let i = r.attributes.position.count,
 					o = new Uint16Array(i * 4),
 					s = new Float32Array(i * 4);
 				for (let e = 0; e < i; e++) (o[e * 4] = n), (s[e * 4] = 1);
-				r.setAttribute(`skinIndex`, new Pr(o, 4)),
-					r.setAttribute(`skinWeight`, new Fr(s, 4)),
+				r.setAttribute(`skinIndex`, new ii(o, 4)),
+					r.setAttribute(`skinWeight`, new Nr(s, 4)),
 					l.push(r),
 					(u ||= e.material);
 			}
@@ -77965,8 +77965,8 @@ var q = class e extends zr {
 		}
 		render(e, t, n) {}
 	},
-	LDe = Jn.prototype,
-	RDe = new ci(1, 1, 1);
+	LDe = hr.prototype,
+	RDe = new wr(1, 1, 1);
 function zDe(e) {
 	let t = e.onBeforeCompile !== LDe.onBeforeCompile,
 		n;
@@ -77990,8 +77990,8 @@ function BDe(e) {
 	let r = t,
 		i = zDe(r);
 	return (
-		(n._litBase = r.color instanceof ci ? r.color.clone() : RDe.clone()),
-		(n._litColor = new ci()),
+		(n._litBase = r.color instanceof wr ? r.color.clone() : RDe.clone()),
+		(n._litColor = new wr()),
 		(i.color = n._litColor),
 		(n._litOwned = i),
 		(e.material = i),
@@ -78115,7 +78115,7 @@ var Kj = nt(),
 		}
 		makeMaterial(e) {
 			let t = J.entityMaterials[qj],
-				n = t ? t.clone() : new er({ alphaTest: 0.1 });
+				n = t ? t.clone() : new nr({ alphaTest: 0.1 });
 			return (
 				(n.side = 0),
 				(n.transparent = !1),
@@ -78207,7 +78207,7 @@ var Kj = nt(),
 		async build() {
 			let e = J.skinManager;
 			if (
-				(e.hasSkin(Yj) || (await e.kaoBvaomHYUklHUeM(WDe, GDe, Xj)),
+				(e.hasSkin(Yj) || (await e.MttPyTQTbamLXIFjW(WDe, GDe, Xj)),
 				!e.hasSkin(Yj))
 			)
 				return;
@@ -78372,11 +78372,11 @@ function iM({
 	let u = 2 * Math.PI,
 		d = t.yaw;
 	for (let f = 0; f < u; f += u / n) {
-		let p = new mr(0, f, 0),
-			m = new A(r, 0, 0).applyEuler(p).applyEuler(new mr(o, d, s));
+		let p = new Xn(0, f, 0),
+			m = new k(r, 0, 0).applyEuler(p).applyEuler(new Xn(o, d, s));
 		m.y += a;
-		let h = new mr(0, f + (u / n) * (i === `cw` ? 1 : -1), 0),
-			g = new A(r, 0, 0).applyEuler(h).applyEuler(new mr(o, d, s));
+		let h = new Xn(0, f + (u / n) * (i === `cw` ? 1 : -1), 0),
+			g = new k(r, 0, 0).applyEuler(h).applyEuler(new Xn(o, d, s));
 		g.y += a;
 		let _ = g.sub(m).multiplyScalar(0.2);
 		e.spawnParticle(
@@ -79359,26 +79359,26 @@ var VOe = class {
 		maskMaterial;
 		compositeMaterial;
 		compositeQuad;
-		_prevClearColor = new ci();
-		_size = new Tr();
+		_prevClearColor = new wr();
+		_size = new dr();
 		constructor() {
-			(this.maskTarget = new oi(1, 1, {
-				minFilter: dr,
-				magFilter: dr,
+			(this.maskTarget = new pr(1, 1, {
+				minFilter: ui,
+				magFilter: ui,
 				depthBuffer: !1,
 				stencilBuffer: !1,
 			})),
-				(this.maskMaterial = new vr({
+				(this.maskMaterial = new Qn({
 					color: 16777215,
 					side: 2,
 					fog: !1,
 					depthTest: !1,
 					depthWrite: !1,
 				})),
-				(this.compositeMaterial = new $r({
+				(this.compositeMaterial = new Vr({
 					uniforms: {
 						tMask: { value: null },
-						texel: { value: new Tr() },
+						texel: { value: new dr() },
 						thickness: { value: AM },
 					},
 					vertexShader: `
@@ -79420,9 +79420,9 @@ var VOe = class {
 					depthTest: !1,
 					depthWrite: !1,
 				})),
-				(this.compositeQuad = new Kr(this.compositeMaterial));
+				(this.compositeQuad = new Gr(this.compositeMaterial));
 		}
-		DmuQBWGGTg() {
+		uGsiBkETlL() {
 			this.entries.length = 0;
 		}
 		add(e, t, n) {
@@ -79523,14 +79523,14 @@ function LM() {
 }
 var WOe = class {
 		constructor() {
-			(this.t = Date.now()), (this.from = new A()), (this.to = new A());
+			(this.t = Date.now()), (this.from = new k()), (this.to = new k());
 		}
 		set(e) {
 			(this.t = Date.now()),
 				(this.from = this.to),
-				e instanceof A
+				e instanceof k
 					? (this.to = e.clone())
-					: (this.to = new A(e.x, e.y, e.z));
+					: (this.to = new k(e.x, e.y, e.z));
 		}
 		get(e) {
 			let t = (Date.now() - this.t) / 50;
@@ -79538,7 +79538,7 @@ var WOe = class {
 				? this.to
 				: t < 0
 					? this.from
-					: ((e ||= new A()), e.lerpVectors(this.from, this.to, t));
+					: ((e ||= new k()), e.lerpVectors(this.from, this.to, t));
 		}
 	},
 	RM = (function (e) {
@@ -79627,7 +79627,7 @@ var KOe = 16,
 	UM = new (class {
 		rotation = uT({ x: 0, y: 0 }, 800);
 		positionLerp = new WOe();
-		position = new A();
+		position = new k();
 		pitchObject = new yr();
 		yawObject = new yr();
 		pitch = 0;
@@ -79812,7 +79812,7 @@ var KOe = 16,
 		get camera() {
 			return this.yawObject;
 		}
-		get VGcywW() {
+		get BYUjBM() {
 			return this.camera.position;
 		}
 	})(),
@@ -80012,7 +80012,7 @@ var XOe = class e {
 			let e = this.cameraState,
 				t = this.game;
 			if (!e || !t) return;
-			let n = UM.VGcywW,
+			let n = UM.BYUjBM,
 				r = t.gameScene.camera;
 			e.writeLook(UM.yaw, UM.pitch),
 				e.writeFrame({
@@ -80219,7 +80219,7 @@ var XOe = class e {
 	$Oe = 0.1,
 	eke = class {
 		gameScene;
-		fog = new cr(0, 0.1, 1e3);
+		fog = new zr(0, 0.1, 1e3);
 		constructor(e) {
 			(this.gameScene = e), (e.scene.fog = this.fog);
 		}
@@ -80238,7 +80238,7 @@ var XOe = class e {
 	tke = 200,
 	nke = 0.2,
 	rke = 0.25,
-	qM = new A(),
+	qM = new k(),
 	JM = new (class {
 		active = [];
 		start(e, t) {
@@ -80309,13 +80309,13 @@ var XOe = class e {
 	gke = 2,
 	_ke = 1.4,
 	vke = 0.4,
-	yke = new ci(1, 0.5, 0.5),
-	bke = new ci(1, 1, 1),
-	lN = new A(0, 1, 0),
+	yke = new wr(1, 0.5, 0.5),
+	bke = new wr(1, 1, 1),
+	lN = new k(0, 1, 0),
 	uN = new AxisAlignedBoundingBox(),
-	dN = new A(),
-	xke = new k(),
-	fN = new k(),
+	dN = new k(),
+	xke = new Zr(),
+	fN = new Zr(),
 	pN = new (class {
 		active = [];
 		lastNow = 0;
@@ -80335,7 +80335,7 @@ var XOe = class e {
 		start(e, t) {
 			if (this.active.some((e) => e.entity === t)) return;
 			let n = Date.now(),
-				r = new A(t.motion.x, t.motion.y, t.motion.z);
+				r = new k(t.motion.x, t.motion.y, t.motion.z);
 			if (!(t.lastVelocityPacketAt > 0 && n - t.lastVelocityPacketAt <= dke)) {
 				r.set(0, 0, 0);
 				let e = this.lastLocalAttack;
@@ -80346,11 +80346,11 @@ var XOe = class e {
 			}
 			let i = Math.hypot(r.x, r.z);
 			i > sN && ((r.x *= sN / i), (r.z *= sN / i)),
-				(r.y = _r.clamp(r.y, -1, sN));
-			let a = new A(r.x, 0, r.z);
+				(r.y = $n.clamp(r.y, -1, sN));
+			let a = new k(r.x, 0, r.z);
 			a.lengthSq() < uke && a.set(Math.sin(t.yaw), 0, Math.cos(t.yaw)),
 				a.normalize(),
-				e.lodFar && e.OUPAhIBt(!1),
+				e.lodFar && e.yCcwVfBK(!1),
 				(e.visible = !0),
 				e.traverse((e) => {
 					let t = e;
@@ -80358,9 +80358,9 @@ var XOe = class e {
 						t.__realMaterial &&
 						((t.material = t.__realMaterial), (t.__realMaterial = void 0));
 				});
-			let o = e.KLgRGYTxCChBzzjnWpHA;
+			let o = e.PORryaIEuukrRAjbRreI;
 			if (typeof o == `function`) {
-				o.call(e, !0), e.sIQDaMkzeXyZVef(null, 1);
+				o.call(e, !0), e.HOWONDnrbgkiGFj(null, 1);
 				let t = e.meshes.head?.material;
 				t?.transparent && ((t.transparent = !1), (t.needsUpdate = !0));
 				let n = e.applyCosmeticVisibility;
@@ -80369,8 +80369,8 @@ var XOe = class e {
 			let s = Math.max(t.height || 1.8, 0.4),
 				c = Math.max(t.width || 0.6, 0.3),
 				l = Math.max(0.2, c / 2),
-				u = _r.clamp(s * 0.14, 0.1, 0.25),
-				d = _r.clamp(c * 0.21, 0.06, 0.3),
+				u = $n.clamp(s * 0.14, 0.1, 0.25),
+				d = $n.clamp(c * 0.21, 0.06, 0.3),
 				f = [s * 0.45, s * 0.85],
 				p = 0.3 + s * 0.08,
 				m = s * 0.2,
@@ -80385,14 +80385,14 @@ var XOe = class e {
 						Math.min(1.5, Math.hypot(r.x, r.z) * 2 + Math.abs(r.y)) * _ke + 0.2,
 					a = (e, t, r, a, o, s = -p) => {
 						if (!n(e)) return;
-						let c = _r.clamp(e.rotation[t], a, o);
+						let c = $n.clamp(e.rotation[t], a, o);
 						h.push({
 							obj: e,
 							axis: t,
 							angle: c,
 							prevAngle: c,
 							vel: (Math.random() - 0.5) * i,
-							rest: _r.clamp(r + (Math.random() - 0.5) * vke, a, o),
+							rest: $n.clamp(r + (Math.random() - 0.5) * vke, a, o),
 							min: a,
 							max: o,
 							probeY: s,
@@ -80413,10 +80413,10 @@ var XOe = class e {
 			}
 			let g = e.body.quaternion.clone(),
 				_ = e.neck.quaternion.clone(),
-				v = new k().setFromAxisAngle(lN, Math.atan2(-a.x, -a.z)),
-				y = new k().setFromAxisAngle(lN, Math.atan2(a.x, a.z)),
+				v = new Zr().setFromAxisAngle(lN, Math.atan2(-a.x, -a.z)),
+				y = new Zr().setFromAxisAngle(lN, Math.atan2(a.x, a.z)),
 				b = Math.abs(v.dot(g)) >= Math.abs(y.dot(g)) ? v : y;
-			if ((e.sIQDaMkzeXyZVef(yke), D.entities.value === `Fast`)) {
+			if ((e.HOWONDnrbgkiGFj(yke), D.entities.value === `Fast`)) {
 				let e = ZM - oN,
 					t = 0,
 					n = null;
@@ -80435,7 +80435,7 @@ var XOe = class e {
 					pos: e.position.clone(),
 					prevPos: e.position.clone(),
 					motion: r,
-					tipAxis: new A(a.z, 0, -a.x),
+					tipAxis: new k(a.z, 0, -a.x),
 					tipAngle: 0,
 					prevTipAngle: 0,
 					bodyFrom: g,
@@ -80613,7 +80613,7 @@ var XOe = class e {
 				s > 0 && (r.mesh.position.y -= s * s * cke),
 					!r.hurtCleared &&
 						r.age >= lke &&
-						(r.mesh.sIQDaMkzeXyZVef(bke), (r.hurtCleared = !0)),
+						(r.mesh.HOWONDnrbgkiGFj(bke), (r.hurtCleared = !0)),
 					Gj(r.mesh, e, r.pos.x, r.pos.y + r.boxHeight * 0.5, r.pos.z);
 			}
 		}
@@ -80621,13 +80621,13 @@ var XOe = class e {
 	mN = new (class {
 		current = new Map();
 		next = new Map();
-		DmuQBWGGTg() {
+		uGsiBkETlL() {
 			this.next = new Map();
 		}
 		submit(e, t) {
 			this.next.set(e, t);
 		}
-		qfRUVapV() {
+		oDFUROVL() {
 			this.current = this.next;
 		}
 	})(),
@@ -80804,12 +80804,12 @@ var Eke = `
 	CN = null;
 function wN() {
 	if (!CN) {
-		let e = new wr(new Uint8Array(4), 1, 1, 1);
-		(e.format = Zr),
-			(e.type = ii),
-			(e.minFilter = dr),
-			(e.magFilter = dr),
-			(e.wrapS = e.wrapT = e.wrapR = ri),
+		let e = new si(new Uint8Array(4), 1, 1, 1);
+		(e.format = Lr),
+			(e.type = Tr),
+			(e.minFilter = ui),
+			(e.magFilter = ui),
+			(e.wrapS = e.wrapT = e.wrapR = ci),
 			(e.needsUpdate = !0),
 			(CN = e);
 	}
@@ -80820,8 +80820,8 @@ function Ake() {
 		uGITex: { value: wN() },
 		uGIEnabled: { value: 0 },
 		uGIStrength: { value: 1 },
-		uGIOrigin: { value: new A() },
-		uGIInvExtent: { value: new A(1, 1, 1) },
+		uGIOrigin: { value: new k() },
+		uGIInvExtent: { value: new k(1, 1, 1) },
 		uGIVoxelSize: { value: 1 },
 		uGIConeCount: { value: 1 },
 		uGIConeDistance: { value: 24 },
@@ -80905,14 +80905,14 @@ var jke = `
 				grass: D.grassWave.value,
 			};
 		}
-		static GlMEVvfHBKIhEAxisAlignedBoundingBoxhljlGExqk(t) {
+		static MsjlGYnuOawYuWTwtiCdwJEN(t) {
 			(t.userData = {
 				time: { value: 2 },
 				uSunLight: { value: 1 },
 				uAmbientLight: { value: pj },
 				uHasDamage: { value: 0 },
 				uHeldLightCount: { value: 0 },
-				uHeldLightPos: { value: Array.from({ length: 8 }, () => new A()) },
+				uHeldLightPos: { value: Array.from({ length: 8 }, () => new k()) },
 				uHeldLightLevel: { value: Array(8).fill(0) },
 				...Ake(),
 			}),
@@ -81051,27 +81051,27 @@ var jke = `
 				`water_shader_v53_${+!!D.waterShaders.value}`),
 				(e.userData = {
 					time: { value: 0 },
-					sunDirection: { value: new A(0, 1, 0) },
+					sunDirection: { value: new k(0, 1, 0) },
 					cameraSubmerged: { value: 0 },
 					uSunLight: { value: 1 },
 					uAmbientLight: { value: pj },
 					waterShadersEnabled: { value: 1 },
-					waterTileOrigin: { value: new Tr() },
-					tileSize: { value: new Tr(16 / uj, 16 / dj) },
+					waterTileOrigin: { value: new dr() },
+					tileSize: { value: new dr(16 / uj, 16 / dj) },
 					cameraDepthBelowSurface: { value: 0 },
 					tSceneColor: { value: null },
 					tSceneDepth: { value: null },
 					tLinearViewZ: { value: null },
 					reflectionNear: { value: 0.01 },
 					reflectionFar: { value: 256 },
-					reflectionResolution: { value: new Tr(1, 1) },
-					reflectionViewProjectionMatrix: { value: new tr() },
-					reflectionViewMatrix: { value: new tr() },
-					reflectionViewMatrixInverse: { value: new tr() },
-					reflectionProjectionMatrixInverse: { value: new tr() },
+					reflectionResolution: { value: new dr(1, 1) },
+					reflectionViewProjectionMatrix: { value: new mr() },
+					reflectionViewMatrix: { value: new mr() },
+					reflectionViewMatrixInverse: { value: new mr() },
+					reflectionProjectionMatrixInverse: { value: new mr() },
 					reflectionEnabled: { value: 0 },
 					uHeldLightCount: { value: 0 },
-					uHeldLightPos: { value: Array.from({ length: 8 }, () => new A()) },
+					uHeldLightPos: { value: Array.from({ length: 8 }, () => new k()) },
 					uHeldLightLevel: { value: Array(8).fill(0) },
 					...(t ?? {}),
 				}),
@@ -81708,9 +81708,9 @@ var NN = new Map(),
 function Rke() {
 	return (
 		IN ||
-			((IN = new Ir().load(`textures/misc/enchanted_item_glint.png`)),
-			(IN.wrapS = Cr),
-			(IN.wrapT = Cr)),
+			((IN = new xr().load(`textures/misc/enchanted_item_glint.png`)),
+			(IN.wrapS = $r),
+			(IN.wrapT = $r)),
 		IN
 	);
 }
@@ -81727,10 +81727,10 @@ function RN(e) {
 	if (!n) return null;
 	(n.imageSmoothingEnabled = !1), n.drawImage(e, 0, 0);
 	let r = n.getImageData(0, 0, e.width, e.height).data,
-		i = new Wr(e);
-	(i.minFilter = br),
-		(i.magFilter = br),
-		(i.colorSpace = ui),
+		i = new Pr(e);
+	(i.minFilter = _r),
+		(i.magFilter = _r),
+		(i.colorSpace = qn),
 		(i.generateMipmaps = !1),
 		(i.needsUpdate = !0);
 	let a = {
@@ -81740,8 +81740,8 @@ function RN(e) {
 			alphaTest: 0.1,
 			vertexColors: !0,
 		},
-		o = new er(a),
-		s = new er(a);
+		o = new nr(a),
+		s = new nr(a);
 	return (
 		TN.addEnchantedEffect(s, Rke(), Lke),
 		{
@@ -82162,7 +82162,7 @@ var qN = class extends q {
 			let t = J.skinManager,
 				n = `atlasMat`;
 			e.includes(`leggings`) && (n = `atlasMat2`);
-			let r = t.SNhQQnUC(new V(H.leather_helmet))[n],
+			let r = t.zbhavWDI(new V(H.leather_helmet))[n],
 				i = r?.map?.image ? r.map.image.width / 64 : 1,
 				a = [],
 				o = [],
@@ -82374,7 +82374,7 @@ var qN = class extends q {
 				let t = s?.map?.image ? s.map.image.width / 64 : 1,
 					n = 1 / 16;
 				for (let a of this.wornJointsFor(e, r, o.attach)) {
-					let e = new zr();
+					let e = new ir();
 					for (let r of o.boxes) {
 						let i = `__wornGeometry_${r.u}_${r.v}_${r.w}_${r.h}_${r.d}`;
 						this.parts[i] = this.parts[i] ?? q.addBox(r.u, r.v, r.w, r.h, r.d);
@@ -82421,7 +82421,7 @@ var qN = class extends q {
 			let r = this.getMaterialKey(e, t),
 				i = this.materialCache.get(r);
 			if (i) return i;
-			let a = J.skinManager.SNhQQnUC(e);
+			let a = J.skinManager.zbhavWDI(e);
 			if (a) {
 				if (
 					((i =
@@ -82457,14 +82457,14 @@ var qN = class extends q {
 		}
 		createColoredMaterial(e, t) {
 			let n = e.clone();
-			return (n.color = new ci(t)), n;
+			return (n.color = new wr(t)), n;
 		}
 		addHead(e) {
 			(e.meshes.head = this.initMesh(`head`)),
 				(e.armorMesh.helmet = this.initArmorMesh(`head`)),
 				e.meshes.head.geometry.translate(0, 0.25, 0),
 				e.armorMesh.helmet.geometry.translate(0, 0.25, 0),
-				(e.headPivot = new zr()),
+				(e.headPivot = new ir()),
 				e.headPivot.add(e.meshes.head, e.armorMesh.helmet),
 				(e.neck = new yr()),
 				e.neck.add(e.headPivot),
@@ -82475,7 +82475,7 @@ var qN = class extends q {
 				(e.armorMesh.chestplate = this.initArmorMesh(`torso`)),
 				(e.armorMesh.leggingsWaist = this.initArmorMesh(`leggingsWaist`)),
 				e.armorMesh.leggingsWaist.geometry.translate(0, -3.5 / 16, 0),
-				(e.torso = new zr()),
+				(e.torso = new ir()),
 				e.torso.add(
 					e.meshes.torso,
 					e.armorMesh.chestplate,
@@ -82496,7 +82496,7 @@ var qN = class extends q {
 				e.leftElbowJoint.position.set(0, 0, 2 / 16),
 				e.rightElbowJoint.position.set(0, 0, 2 / 16);
 			let t = this.initArmorMesh(`armPlates`);
-			t.geometry.translate(...new A().random().multiplyScalar(0.01).toArray()),
+			t.geometry.translate(...new k().random().multiplyScalar(0.01).toArray()),
 				t.geometry.translate(0, 4.5 / 16, 0),
 				(e.armorMesh.leftArmTop = t.clone()),
 				(e.armorMesh.rightArmTop = t.clone()),
@@ -82569,9 +82569,9 @@ var qN = class extends q {
 				e.rightHip.add(e.rightHipJoint);
 		}
 		assembleBody(e) {
-			(e.skeleton = new zr()),
+			(e.skeleton = new ir()),
 				(e.skeleton.position.y = Zt),
-				(e.body = new zr()),
+				(e.body = new ir()),
 				e.body.add(e.torso),
 				e.body.add(e.leftShoulder),
 				e.body.add(e.rightShoulder),
@@ -82615,7 +82615,7 @@ var qN = class extends q {
 				],
 			};
 			e.updateMatrixWorld(!0);
-			let r = new tr().copy(e.matrixWorld).invert(),
+			let r = new mr().copy(e.matrixWorld).invert(),
 				i = [],
 				a = new Map(),
 				o = (e) => {
@@ -82629,13 +82629,13 @@ var qN = class extends q {
 						if (!t) continue;
 						let s = o(i),
 							c = t.geometry.clone();
-						c.applyMatrix4(new tr().multiplyMatrices(r, t.matrixWorld));
+						c.applyMatrix4(new mr().multiplyMatrices(r, t.matrixWorld));
 						let l = c.attributes.position.count,
 							u = new Uint16Array(l * 4),
 							d = new Float32Array(l * 4);
 						for (let e = 0; e < l; e++) (u[e * 4] = s), (d[e * 4] = 1);
-						c.setAttribute(`skinIndex`, new Pr(u, 4)),
-							c.setAttribute(`skinWeight`, new Fr(d, 4)),
+						c.setAttribute(`skinIndex`, new ii(u, 4)),
+							c.setAttribute(`skinWeight`, new Nr(d, 4)),
 							a.push(c),
 							t.removeFromParent();
 					}
@@ -82774,7 +82774,7 @@ var qN = class extends q {
 				(e.armorMesh.helmet = this.initArmorMesh(`head`)),
 				e.meshes.head.geometry.translate(0, 0.25, 0),
 				e.armorMesh.helmet.geometry.translate(0, 0.25, 0),
-				(e.headPivot = new zr()),
+				(e.headPivot = new ir()),
 				e.headPivot.add(e.meshes.head, e.armorMesh.helmet),
 				(e.neck = new yr()),
 				e.neck.add(e.headPivot),
@@ -82787,7 +82787,7 @@ var qN = class extends q {
 				(e.armorMesh.chestplate = this.initArmorMesh(`torso`)),
 				(e.armorMesh.leggingsWaist = this.initArmorMesh(`leggingsWaist`)),
 				e.armorMesh.leggingsWaist.geometry.translate(0, -3.5 / 16, 0),
-				(e.torso = new zr()),
+				(e.torso = new ir()),
 				e.torso.add(
 					e.meshes.torso,
 					e.armorMesh.chestplate,
@@ -82795,14 +82795,14 @@ var qN = class extends q {
 				);
 		}
 	},
-	JN = class extends zr {
-		PUQdycGDdGIs(e, t = 0) {
+	JN = class extends ir {
+		ELVPgVeSGYSy(e, t = 0) {
 			this.debugSizeOverride = e === null ? null : { width: e, height: t };
 		}
-		get YIamqcQJue() {
+		get TKaFPuuiok() {
 			return this.debugSizeOverride?.width ?? this.entity.width;
 		}
-		get fDbdTbmFyPS() {
+		get TLyUTXFtxvJ() {
 			return this.debugSizeOverride?.height ?? this.entity.height;
 		}
 		set debug(e) {
@@ -82810,8 +82810,8 @@ var qN = class extends q {
 		}
 		constructor(e) {
 			super(),
-				(this.rotYaw = new k()),
-				(this.rotPitch = new k()),
+				(this.rotYaw = new Zr()),
+				(this.rotPitch = new Zr()),
 				(this.debugVisible = !1),
 				(this.debugSizeOverride = null),
 				(this.entity = e),
@@ -82820,7 +82820,7 @@ var qN = class extends q {
 		render() {
 			this.position.lerp(this.entity.pos, ot);
 		}
-		MMRmtcppUNQGgbM() {
+		yZbbzHdNNvGBBLQ() {
 			this.position.distanceTo(this.entity.pos) > 16
 				? this.position.copy(this.entity.pos)
 				: this.position.lerp(this.entity.pos, ot);
@@ -82955,6 +82955,7 @@ var lAe = class e {
 				(this.discordBoosting = !1),
 				(this.level = 0),
 				(this.fake = !1),
+				(this.replayPuppet = !1),
 				(this.language = `en`),
 				e &&
 					((this.isGuest = e.isGuest ?? !1),
@@ -83057,7 +83058,7 @@ var lAe = class e {
 	pAe = 14,
 	nP = class extends Rg {
 		otherPlayerMPPosRotationIncrements;
-		otherPlayerPos = new A();
+		otherPlayerPos = new k();
 		otherPlayerYaw;
 		otherPlayerPitch;
 		isItemInUse = !1;
@@ -83070,7 +83071,7 @@ var lAe = class e {
 		setCurrentItemOrArmor(e, t) {
 			e == 0
 				? (this.inventory.mainInventory[this.inventory.currentItem] = t)
-				: (this.inventory.rgREGshdpLVqpR[e - 1] = t);
+				: (this.inventory.BxPJLLkKaPicaJ[e - 1] = t);
 		}
 		setPositionAndRotation2(e, t, n, r, i, a) {
 			this.otherPlayerPos.set(e, t, n),
@@ -83099,7 +83100,7 @@ var lAe = class e {
 					this.otherPlayerMPPosRotationIncrements),
 					--this.otherPlayerMPPosRotationIncrements,
 					this.setPosition(e, t, n),
-					this.LjORXCOakWX(this.yaw, this.pitch);
+					this.tAiwQRignzX(this.yaw, this.pitch);
 			} else if (!this.extrapolationSettled) {
 				if (this.motion.x === 0 && this.motion.y === 0 && this.motion.z === 0)
 					return;
@@ -83111,20 +83112,20 @@ var lAe = class e {
 					t !== 0 &&
 						this.world.getCollidingBoundingBoxes(
 							this,
-							e.clone().translate(new A(t, 0, 0)),
+							e.clone().translate(new k(t, 0, 0)),
 						).length > 0 &&
 						(t = 0);
 				let i = !1;
 				n !== 0 &&
 					this.world.getCollidingBoundingBoxes(
 						this,
-						e.clone().translate(new A(0, n, 0)),
+						e.clone().translate(new k(0, n, 0)),
 					).length > 0 &&
 					((i = n < 0), (n = 0)),
 					r !== 0 &&
 						this.world.getCollidingBoundingBoxes(
 							this,
-							e.clone().translate(new A(0, 0, r)),
+							e.clone().translate(new k(0, 0, r)),
 						).length > 0 &&
 						(r = 0),
 					this.extrapolationTicks++,
@@ -83145,7 +83146,7 @@ var lAe = class e {
 				(this.limbSwing += this.limbSwingAmount),
 				this.emote !== 0 && this.limbSwingAmount > 0.12 && (this.emote = 0),
 				!this.isItemInUse &&
-					this.FPJeIkyl() &&
+					this.acKIzIOD() &&
 					this.getActiveItemStack() != null)
 			) {
 				let e = this.inventory.mainInventory[this.inventory.currentItem];
@@ -83156,56 +83157,56 @@ var lAe = class e {
 					(this.isItemInUse = !0);
 			} else
 				this.isItemInUse &&
-					!this.FPJeIkyl() &&
-					(this.jJDerSJyXOMAtQ(), (this.isItemInUse = !1));
+					!this.acKIzIOD() &&
+					(this.WEkNoGPDMarwJQ(), (this.isItemInUse = !1));
 		}
 	},
-	mAe = new A(-6.038, -2.18, -3.934).divideScalar(16),
-	hAe = new mr(-0.795, 2.952, -0.134),
-	rP = new A(-3 / 16, -6 / 16, -4 / 16),
-	iP = new mr(0, Math.PI / 4, 0),
-	gAe = new A(-0.011, -0.327, -0.222),
-	_Ae = new mr(-3.142, -3.88, -3.142),
-	aP = new A(0, -5.5, 0.095).divideScalar(16),
-	oP = new mr(-0.133, 1.57, 2.512),
-	sP = new A(0, -0.15, -0.4),
-	cP = new mr(-2.2, -Math.PI / 2, -0.133),
-	lP = new k()
+	mAe = new k(-6.038, -2.18, -3.934).divideScalar(16),
+	hAe = new Xn(-0.795, 2.952, -0.134),
+	rP = new k(-3 / 16, -6 / 16, -4 / 16),
+	iP = new Xn(0, Math.PI / 4, 0),
+	gAe = new k(-0.011, -0.327, -0.222),
+	_Ae = new Xn(-3.142, -3.88, -3.142),
+	aP = new k(0, -5.5, 0.095).divideScalar(16),
+	oP = new Xn(-0.133, 1.57, 2.512),
+	sP = new k(0, -0.15, -0.4),
+	cP = new Xn(-2.2, -Math.PI / 2, -0.133),
+	lP = new Zr()
 		.setFromEuler(cP)
-		.multiply(new k().setFromAxisAngle(new A(0, 0, 1), (3 * Math.PI) / 2)),
-	uP = new A(-0.148, -4.445, -5.059).divideScalar(16),
-	dP = new mr(-1.455, 0, 0),
+		.multiply(new Zr().setFromAxisAngle(new k(0, 0, 1), (3 * Math.PI) / 2)),
+	uP = new k(-0.148, -4.445, -5.059).divideScalar(16),
+	dP = new Xn(-1.455, 0, 0),
 	fP = 0.55,
 	pP = 0.55,
 	mP = 0.3,
-	hP = new k()
-		.setFromAxisAngle(new A(0, 0, 1), mP)
-		.multiply(new k().setFromAxisAngle(new A(1, 0, 0), fP))
-		.multiply(new k().setFromAxisAngle(new A(0, 1, 0), Math.PI))
-		.multiply(new k().setFromAxisAngle(new A(1, 0, 0), (3 * Math.PI) / 4))
-		.multiply(new k().setFromAxisAngle(new A(0, 1, 0), Math.PI / 2)),
+	hP = new Zr()
+		.setFromAxisAngle(new k(0, 0, 1), mP)
+		.multiply(new Zr().setFromAxisAngle(new k(1, 0, 0), fP))
+		.multiply(new Zr().setFromAxisAngle(new k(0, 1, 0), Math.PI))
+		.multiply(new Zr().setFromAxisAngle(new k(1, 0, 0), (3 * Math.PI) / 4))
+		.multiply(new Zr().setFromAxisAngle(new k(0, 1, 0), Math.PI / 2)),
 	gP = 6 / 16,
-	_P = new A(
+	_P = new k(
 		0.04,
 		-(gP + gP * Math.cos(pP) + 0.06 - 0.3),
 		-(gP * Math.sin(pP) + 0.12),
 	),
-	vP = new A(0, 1, 0),
-	yP = new A(1, 0, 0),
-	bP = new k(),
-	vAe = new k(),
-	xP = new ci(1, 1, 1),
-	yAe = new ci(1, 0.5, 0.5),
-	bAe = new k(),
-	xAe = new k(),
-	SAe = new k(),
-	CAe = new A(),
-	wAe = new A(),
+	vP = new k(0, 1, 0),
+	yP = new k(1, 0, 0),
+	bP = new Zr(),
+	vAe = new Zr(),
+	xP = new wr(1, 1, 1),
+	yAe = new wr(1, 0.5, 0.5),
+	bAe = new Zr(),
+	xAe = new Zr(),
+	SAe = new Zr(),
+	CAe = new k(),
+	wAe = new k(),
 	TAe = 1024,
 	EAe = 900,
 	SP = class extends JN {
-		nameTag = new zr();
-		skeleton = new zr();
+		nameTag = new ir();
+		skeleton = new ir();
 		torso = new yr();
 		leftElbowJoint = new yr();
 		rightElbowJoint = new yr();
@@ -83221,9 +83222,9 @@ var lAe = class e {
 		rightHip = new yr();
 		leftHipJoint = new yr();
 		rightHipJoint = new yr();
-		headPivot = new zr();
+		headPivot = new ir();
 		neck = new yr();
-		body = new zr();
+		body = new ir();
 		armorMesh = {};
 		meshes = {};
 		skinnedBody;
@@ -83327,14 +83328,14 @@ var lAe = class e {
 				this
 			);
 		}
-		wMvUafFJEAglfQ(e) {
+		aWuftvHBOBcTIy(e) {
 			let t = this.handMesh;
 			return !t || !t.visible
 				? null
 				: (t.updateWorldMatrix(!0, !1),
 					e.set(0, 0.45, 0).applyMatrix4(t.matrixWorld));
 		}
-		IPHVvRsJWPeEdAqZxl() {
+		IkwysjWbqxVNCPiXrj() {
 			this.positionOffHand();
 			let e = this.item;
 			if (
@@ -83428,7 +83429,7 @@ var lAe = class e {
 				!(t.isItemBlock() && t.block.hasTileEntity()) &&
 				this.handMesh.visible;
 			this.updateHandfulCopies(e, n, a ? Xke(e.stackSize) - 1 : 0),
-				this.IPHVvRsJWPeEdAqZxl();
+				this.IkwysjWbqxVNCPiXrj();
 		}
 		updateHandfulCopies(e, t, n) {
 			for (let r = 0; r < Math.max(n, this.handfulMeshes.length); r++) {
@@ -83492,7 +83493,7 @@ var lAe = class e {
 						? ((this.offHandMesh.visible = !0),
 							new GN(e, n, this.offHandMesh, e.hasEffect()))
 						: (this.offHandMesh.visible = !1),
-					this.IPHVvRsJWPeEdAqZxl());
+					this.IkwysjWbqxVNCPiXrj());
 		}
 		renderBackpack(e) {
 			let t = e?.item instanceof qg ? e : null,
@@ -83523,14 +83524,14 @@ var lAe = class e {
 				this.torso.add(o),
 				(this.backpackMesh = o);
 		}
-		sIQDaMkzeXyZVef(e, t = 1) {
+		HOWONDnrbgkiGFj(e, t = 1) {
 			if (!this.skeleton) return;
 			let n = this.entity.id !== Y.id && !this.fakePlayer,
 				r = (r) => {
 					let i = r.material;
 					e &&
 						(n
-							? (r.userData._litTint || (r.userData._litTint = new ci())).copy(
+							? (r.userData._litTint || (r.userData._litTint = new wr())).copy(
 									e,
 								)
 							: (i.color = e)),
@@ -83552,35 +83553,35 @@ var lAe = class e {
 				this.neck.quaternion.copy(this.rotYaw),
 				this.headPivot.quaternion.copy(this.rotPitch);
 		}
-		lWlAhRbJqrVLgNo() {
+		RwFfStmOzpLdhpl() {
 			let e = this.entity.getPartialTicks(),
 				t =
 					this.entity.prevLimbSwingAmount +
 					(this.entity.limbSwingAmount - this.entity.prevLimbSwingAmount) * e;
 			return t > 1 && (t = 1), this.entity.sneak && t > 0.5 && (t = 0.5), t;
 		}
-		BrAnVRjXMt(e = new A()) {
+		nPesgXmMBT(e = new k()) {
 			return this.body.getWorldDirection(e), e;
 		}
-		OewLPbTymKfUx() {
+		SmYAjawLlteli() {
 			(this.nameTagText = this.entity.getCustomNameTag() || ``),
 				(this.nameTagColor = `white`),
 				(this.nameTagOpacity = 1);
 		}
-		JwYAVNVayKEuch() {
+		zwspVxdzxwHTeu() {
 			return 0.4 + this.entity.height;
 		}
-		TiowLnxYeXpfpL() {
+		gBbBOmCuIefcZf() {
 			return !0;
 		}
-		tsaGlQfVoTdwI() {
+		ppijGwFAxisAlignedBoundingBoxIVnC() {
 			if (
 				this.renderArmorOnly ||
 				this.fakePlayer ||
 				(this.entity.id === Y.id &&
 					Y.perspective === fq.Perspective.FIRST_PERSON) ||
 				!this.nameTagText ||
-				!this.TiowLnxYeXpfpL()
+				!this.gBbBOmCuIefcZf()
 			)
 				return;
 			let e = this.position;
@@ -83588,12 +83589,12 @@ var lAe = class e {
 				text: this.nameTagText,
 				color: this.nameTagColor,
 				x: e.x,
-				y: e.y + this.JwYAVNVayKEuch(),
+				y: e.y + this.zwspVxdzxwHTeu(),
 				z: e.z,
 				opacity: this.nameTagOpacity,
 			});
 		}
-		nlIBAwRWFnu() {
+		RFLqOFdyHxa() {
 			let e = D.entities.value;
 			if (
 				e === `Normal` ||
@@ -83611,7 +83612,7 @@ var lAe = class e {
 				this.fastLOD
 			);
 		}
-		OUPAhIBt(e) {
+		yCcwVfBK(e) {
 			this.lodFar = e;
 			let t = this.entity instanceof Rg && this.entity.isSpectator(),
 				n = this.renderArmorOnly;
@@ -83632,24 +83633,24 @@ var lAe = class e {
 					this.lodArmor[n].visible =
 						e && !t && !!this.lodArmor[n].userData._equipped;
 		}
-		IKfgtiCfRtbtLmKhyy(e) {
+		lNWYZADEByyjutBeQu(e) {
 			let t = this.renderArmorOnly !== e;
 			(this.renderArmorOnly = e),
-				e ? this.aNaNFWiKlzzodk() : t && this.uyhJJeNanGoJEkhxHbjV();
+				e ? this.ywuynsIgDsvpoc() : t && this.MULQOwMAzMGGCqWNJoBm();
 		}
-		aNaNFWiKlzzodk() {
+		ywuynsIgDsvpoc() {
 			this.skinnedBody && (this.skinnedBody.visible = !1),
 				this.lodBody && (this.lodBody.visible = !1);
 			for (let e in this.skinnedRig) this.skinnedRig[e].visible = !1;
 			for (let e in this.meshes) this.meshes[e].visible = !1;
 		}
-		uyhJJeNanGoJEkhxHbjV() {
+		MULQOwMAzMGGCqWNJoBm() {
 			if (!this.skinnedBody) {
 				let e = this.entity instanceof Rg && this.entity.isSpectator();
 				for (let t in this.meshes) this.meshes[t].visible = !e || t === `head`;
 			}
 			for (let e in this.skinnedRig) this.skinnedRig[e].visible = !0;
-			this.OUPAhIBt(this.lodFar);
+			this.yCcwVfBK(this.lodFar);
 		}
 		render() {
 			let {
@@ -83663,30 +83664,30 @@ var lAe = class e {
 				rightElbowJoint: s,
 			} = this;
 			if (Y.id != this.entity.id && !this.visible) {
-				this.entity.xDxTjCHGxTWyEYJgWZmPRv() &&
+				this.entity.kFYMuLQqKPOEnmMCeZThnM() &&
 					(this.entity.getCustomNameTag() !== this.prevCustomName &&
-						(this.OewLPbTymKfUx(),
+						(this.SmYAjawLlteli(),
 						(this.prevCustomName = this.entity.getCustomNameTag())),
 					this.position.copy(this.entity.pos),
-					this.tsaGlQfVoTdwI());
+					this.ppijGwFAxisAlignedBoundingBoxIVnC());
 				return;
 			}
-			let c = this.nlIBAwRWFnu();
-			c !== this.lodFar && this.OUPAhIBt(c),
+			let c = this.RFLqOFdyHxa();
+			c !== this.lodFar && this.yCcwVfBK(c),
 				this.entity.getCustomNameTag() !== this.prevCustomName &&
-					(this.OewLPbTymKfUx(),
+					(this.SmYAjawLlteli(),
 					(this.prevCustomName = this.entity.getCustomNameTag()));
 			let l = this.entity.mesh,
 				u = this.entity.hurtTime > 0 || this.entity.deathTime > 0;
 			u !== this.prevHurtTint &&
-				(l.sIQDaMkzeXyZVef(u ? yAe : xP), (this.prevHurtTint = u)),
+				(l.HOWONDnrbgkiGFj(u ? yAe : xP), (this.prevHurtTint = u)),
 				this.renderPositionAndRotation(),
-				this.tsaGlQfVoTdwI();
+				this.ppijGwFAxisAlignedBoundingBoxIVnC();
 			let d =
 					(this.entity.id === Y.id && Y.ridingEntity) ||
 					this.entity.ridingEntity,
 				f = this.entity.getPartialTicks(),
-				p = d ? 0 : this.lWlAhRbJqrVLgNo();
+				p = d ? 0 : this.RwFfStmOzpLdhpl();
 			if (d) {
 				this.body.quaternion.slerp(
 					bP.setFromAxisAngle(vP, d.yaw + Math.PI / 2),
@@ -83716,7 +83717,7 @@ var lAe = class e {
 							.sub(this.entity.pos)
 							.setY(0)
 							.normalize(),
-						a = this.BrAnVRjXMt(wAe),
+						a = this.nPesgXmMBT(wAe),
 						o = xAe.setFromUnitVectors(a, i),
 						s = SAe.copy(this.body.quaternion).premultiply(o),
 						c = Math.abs(r - n) + 0.2;
@@ -83748,7 +83749,7 @@ var lAe = class e {
 			let ne = (e) => ((e + 1) / 2) * p * 0.5 + (m ? S : 0);
 			(o.rotation.x = ne(ee)), (s.rotation.x = ne(w));
 		}
-		xhzoNyZZPqlRQoIzGRq(e, t) {
+		vNkadiVGYXTzzRAnqha(e, t) {
 			return e.ticksExisted + t;
 		}
 	},
@@ -83836,7 +83837,7 @@ var lAe = class e {
 			let t = J.entityMaterials.arrow;
 			if (e < 0 || !t) return t;
 			let n = t.clone();
-			return (n.color = new ci(e)), n;
+			return (n.color = new wr(e)), n;
 		}
 		generateGeometry(e) {
 			let t = OAe,
@@ -83873,8 +83874,8 @@ var lAe = class e {
 				(this.pitchObject.rotation.x = -e.pitch),
 				(this.yawObject.rotation.y = e.yaw),
 				this.position.copy(e.pos),
-				this.rotYaw.setFromAxisAngle(new A(0, 1, 0), e.yaw),
-				this.rotPitch.setFromAxisAngle(new A(1, 0, 0), -e.pitch),
+				this.rotYaw.setFromAxisAngle(new k(0, 1, 0), e.yaw),
+				this.rotPitch.setFromAxisAngle(new k(1, 0, 0), -e.pitch),
 				(this.entity.shootingEntity = t),
 				(this.entity.motion = n);
 		}
@@ -83929,7 +83930,7 @@ var lAe = class e {
 				this.entity.setPosition(e.pos.x, e.pos.y, e.pos.z),
 				this.add(new jAe(this));
 		}
-		GyYKBcWVfvP() {
+		CTbwYGngGYZ() {
 			let e = this.entity,
 				t = e.getPartialTicks();
 			t < 0 ? (t = 0) : t > 1 && (t = 1),
@@ -83942,10 +83943,10 @@ var lAe = class e {
 			this.quaternion.setFromAxisAngle(vP, e.prevYaw + n * t);
 		}
 		render() {
-			this.GyYKBcWVfvP();
+			this.CTbwYGngGYZ();
 		}
-		MMRmtcppUNQGgbM() {
-			this.GyYKBcWVfvP();
+		yZbbzHdNNvGBBLQ() {
+			this.CTbwYGngGYZ();
 		}
 	},
 	NAe = class extends q {
@@ -84082,7 +84083,7 @@ var lAe = class e {
 		}
 	},
 	PAe = `cat.tabby`,
-	EP = new k(),
+	EP = new Zr(),
 	FAe = class extends CP {
 		collar;
 		bodyTilt;
@@ -84094,7 +84095,7 @@ var lAe = class e {
 				this.add(this.getModel()),
 				(this.collar = new TP(this)),
 				this.add(this.collar),
-				this.BKgIQxtqfpmUsyXCAKnDm();
+				this.FLEHUfvRlLdCXKNVNIHRA();
 		}
 		getModel() {
 			return new NAe(this);
@@ -84103,12 +84104,12 @@ var lAe = class e {
 			super.recreate(),
 				(this.collar = new TP(this)),
 				this.add(this.collar),
-				this.BKgIQxtqfpmUsyXCAKnDm();
+				this.FLEHUfvRlLdCXKNVNIHRA();
 		}
-		BKgIQxtqfpmUsyXCAKnDm() {
-			this.variantMaterials = Mv.map((e) => this.UoBnhwkSclZPZPP(`cat.${e}`));
+		FLEHUfvRlLdCXKNVNIHRA() {
+			this.variantMaterials = Mv.map((e) => this.MSgbshOixvbhnfo(`cat.${e}`));
 		}
-		UoBnhwkSclZPZPP(e) {
+		MSgbshOixvbhnfo(e) {
 			let t = J.skinManager.getSkin(e)?.atlasMat;
 			return (
 				t && t.transparent && ((t.transparent = !1), (t.needsUpdate = !0)), t
@@ -84121,15 +84122,15 @@ var lAe = class e {
 			let e = this.skinnedRig[PAe];
 			if (e) {
 				let t =
-					this.variantMaterials[this.entity.dbWzoxTroa()] ??
+					this.variantMaterials[this.entity.ALEOFMOpBr()] ??
 					this.variantMaterials[0];
 				t && e.material !== t && (e.material = t);
 			}
 			let t = this.skinnedRig[`cat.cat_collar`];
 			t && (t.visible = this.entity.isTamed() && e?.visible !== !1),
-				this.LbEBhjZxtAqo(this.entity.isSitting());
+				this.IAPuHNTLbKSO(this.entity.isSitting());
 		}
-		LbEBhjZxtAqo(e) {
+		IAPuHNTLbKSO(e) {
 			let {
 				leftShoulder: t,
 				rightShoulder: n,
@@ -84429,7 +84430,7 @@ var lAe = class e {
 		}
 	},
 	VAe = class extends CP {
-		flashColor = new ci();
+		flashColor = new wr();
 		constructor(e) {
 			super(e), this.add(this.getModel());
 		}
@@ -84443,23 +84444,23 @@ var lAe = class e {
 		render() {
 			super.render();
 			let e = this.entity.getPartialTicks(),
-				t = this.entity.pEPOqrKnjWbnHaLnTRgMfYmh(e),
+				t = this.entity.LduFGpYfOFkZvOlGciaKAyHT(e),
 				n = 1 + Math.sin(t * 100) * t * 0.01;
 			(t = (0, Kj.clamp)(t, 0, 1)), (t *= t), (t *= t);
 			let r = (1 + t * 0.4) * n,
 				i = (1 + t * 0.1) / n;
 			if (
 				(this.scale.set(r, i, r),
-				(t = this.entity.pEPOqrKnjWbnHaLnTRgMfYmh(e)),
+				(t = this.entity.LduFGpYfOFkZvOlGciaKAyHT(e)),
 				t > 0)
 			) {
-				if ((0, Kj.toInteger)(t * 10) % 2 == 0) this.sIQDaMkzeXyZVef(xP);
+				if ((0, Kj.toInteger)(t * 10) % 2 == 0) this.HOWONDnrbgkiGFj(xP);
 				else {
 					let e = (0, Kj.toInteger)(t * 0.2 * 255);
 					(e = (0, Kj.clamp)(e, 0, 255)),
 						(e /= 16),
 						(e += 1),
-						this.sIQDaMkzeXyZVef(this.flashColor.setRGB(e, e, e));
+						this.HOWONDnrbgkiGFj(this.flashColor.setRGB(e, e, e));
 				}
 				this.prevHurtTint = null;
 			}
@@ -84492,21 +84493,21 @@ var lAe = class e {
 	qAe = class extends JN {
 		line;
 		linePositions;
-		handWorld = new A();
-		camRight = new A();
-		camUp = new A();
-		camForward = new A();
+		handWorld = new k();
+		camRight = new k();
+		camUp = new k();
+		camForward = new k();
 		constructor(e) {
 			super(e);
-			let t = new zr(),
-				n = new gr(new hr(OP, OP / 2, OP), new vr({ color: 13639712 }));
+			let t = new ir(),
+				n = new gr(new Cr(OP, OP / 2, OP), new Qn({ color: 13639712 }));
 			n.position.y = OP / 4;
-			let r = new gr(new hr(OP, OP / 2, OP), new vr({ color: 15790320 }));
+			let r = new gr(new Cr(OP, OP / 2, OP), new Qn({ color: 15790320 }));
 			(r.position.y = -0.12 / 4), t.add(n, r), this.add(t);
-			let i = new Nr();
-			(this.linePositions = new Fr(new Float32Array(6), 3)),
+			let i = new br();
+			(this.linePositions = new Nr(new Float32Array(6), 3)),
 				i.setAttribute(`position`, this.linePositions),
-				(this.line = new $n(i, new nr({ color: 0 }))),
+				(this.line = new er(i, new rr({ color: 0 }))),
 				(this.line.frustumCulled = !1),
 				this.add(this.line);
 		}
@@ -84521,8 +84522,8 @@ var lAe = class e {
 			let e = this.entity.angler;
 			e &&
 				(e.id === Y.id && Y.perspective === fq.Perspective.FIRST_PERSON
-					? this.HRkEfoXdvMxlpC()
-					: (e.mesh instanceof SP && e.mesh.wMvUafFJEAglfQ(this.handWorld)) ||
+					? this.vOtVWolISqELhb()
+					: (e.mesh instanceof SP && e.mesh.aWuftvHBOBcTIy(this.handWorld)) ||
 						(this.handWorld.copy(e.mesh?.position ?? e.pos),
 						(this.handWorld.y += e.getEyeHeight() - 0.3)),
 				this.linePositions.setXYZ(0, 0, 0, 0),
@@ -84534,7 +84535,7 @@ var lAe = class e {
 				),
 				(this.linePositions.needsUpdate = !0));
 		}
-		HRkEfoXdvMxlpC() {
+		vOtVWolISqELhb() {
 			let e = $.gameScene.camera;
 			e.updateWorldMatrix(!0, !1);
 			let t = e.matrixWorld.elements;
@@ -84592,78 +84593,78 @@ var lAe = class e {
 		inner;
 		constructor(e) {
 			super(e),
-				(this.inner = new zr()),
+				(this.inner = new ir()),
 				this.add(this.inner),
-				this.VOItLZmlri(e),
+				this.qyNRgxmhkj(e),
 				this.add(this.inner),
 				this.position.copy(e.pos);
 		}
-		VOItLZmlri(e) {
+		qyNRgxmhkj(e) {
 			let t = e.getEntityItem().stackSize,
 				n = e.getEntityItem().item;
 			n.isItemBlock() && n.block.getRenderType() == Vm.TESR
-				? this.kYVqLtIJdUi()
+				? this.zryrtdqEIjV()
 				: n instanceof s_
-					? (this.RFjBlcTqjOD(),
+					? (this.FgRZcBDCCBg(),
 						t > 1 &&
 							this.inner.children.length < 3 &&
-							this.RFjBlcTqjOD(0.2, -0.6, 0.8),
+							this.FgRZcBDCCBg(0.2, -0.6, 0.8),
 						t > 16 &&
 							this.inner.children.length < 4 &&
-							this.RFjBlcTqjOD(-0.1, -1, -0.8),
+							this.FgRZcBDCCBg(-0.1, -1, -0.8),
 						t > 32 &&
 							this.inner.children.length < 5 &&
-							this.RFjBlcTqjOD(0.5, 0.5, 1.6),
+							this.FgRZcBDCCBg(0.5, 0.5, 1.6),
 						t > 48 &&
 							this.inner.children.length < 6 &&
-							this.RFjBlcTqjOD(-0.6, 0.2, -1.6))
+							this.FgRZcBDCCBg(-0.6, 0.2, -1.6))
 					: e.getEntityItem().item.drawAsBlock()
-						? (this.vUHpwwFLoDXC(),
+						? (this.AYTISQBwPGWS(),
 							t > 1 &&
 								this.inner.children.length < 3 &&
-								this.vUHpwwFLoDXC(1, 0.5, -1),
+								this.AYTISQBwPGWS(1, 0.5, -1),
 							t > 16 &&
 								this.inner.children.length < 4 &&
-								this.vUHpwwFLoDXC(0.5, -0.5, 1),
+								this.AYTISQBwPGWS(0.5, -0.5, 1),
 							t > 32 &&
 								this.inner.children.length < 5 &&
-								this.vUHpwwFLoDXC(-0.5, 1, 0.5),
+								this.AYTISQBwPGWS(-0.5, 1, 0.5),
 							t > 48 &&
 								this.inner.children.length < 6 &&
-								this.vUHpwwFLoDXC(-1, -1, -0.5))
-						: (this.hYvdJdTjKXv(),
+								this.AYTISQBwPGWS(-1, -1, -0.5))
+						: (this.RSZJKAaAszR(),
 							t > 1 &&
 								this.inner.children.length < 3 &&
-								this.hYvdJdTjKXv(0.2, -0.6, 0.8),
+								this.RSZJKAaAszR(0.2, -0.6, 0.8),
 							t > 16 &&
 								this.inner.children.length < 4 &&
-								this.hYvdJdTjKXv(-0.1, -1, -0.8),
+								this.RSZJKAaAszR(-0.1, -1, -0.8),
 							t > 32 &&
 								this.inner.children.length < 5 &&
-								this.hYvdJdTjKXv(0.5, 0.5, 1.6),
+								this.RSZJKAaAszR(0.5, 0.5, 1.6),
 							t > 48 &&
 								this.inner.children.length < 6 &&
-								this.hYvdJdTjKXv(-0.6, 0.2, -1.6));
+								this.RSZJKAaAszR(-0.6, 0.2, -1.6));
 		}
-		kYVqLtIJdUi() {
+		zryrtdqEIjV() {
 			let e = this.entity.getEntityItem().item,
 				t = AF.getTileEntityMesh(e.block);
 			t && (t.scale.setScalar(0.25), t.updateMatrix(), this.inner.add(t));
 		}
-		hYvdJdTjKXv(e = 0, t = 0, n = 0) {
+		RSZJKAaAszR(e = 0, t = 0, n = 0) {
 			let r = this.entity.getEntityItem(),
 				i = new GN(r, 0.5, void 0, r.hasEffect());
-			i.position.sub(new A(e / 16, t / 16 - 0.25, n / 16)), this.inner.add(i);
+			i.position.sub(new k(e / 16, t / 16 - 0.25, n / 16)), this.inner.add(i);
 		}
-		vUHpwwFLoDXC(e = 0, t = 0, n = 0) {
+		AYTISQBwPGWS(e = 0, t = 0, n = 0) {
 			let r = new GN(this.entity.getEntityItem(), 0.25);
-			r.position.sub(new A(e / 16 + 0.125, t / 16, n / 16 + 0.125)),
+			r.position.sub(new k(e / 16 + 0.125, t / 16, n / 16 + 0.125)),
 				this.inner.add(r);
 		}
-		RFjBlcTqjOD(e = 0, t = 0, n = 0) {
+		FgRZcBDCCBg(e = 0, t = 0, n = 0) {
 			let r = this.entity.getEntityItem(),
 				i = new GN(r, 0.25, void 0, r.hasEffect());
-			i.position.sub(new A(e / 16, t / 16 - 0.125, n / 16)), this.inner.add(i);
+			i.position.sub(new k(e / 16, t / 16 - 0.125, n / 16)), this.inner.add(i);
 		}
 		render() {
 			let e = this.entity,
@@ -84695,20 +84696,20 @@ var lAe = class e {
 		}
 	},
 	eje = class extends JN {
-		frameGroup = new zr();
-		itemHolder = new zr();
+		frameGroup = new ir();
+		itemHolder = new ir();
 		constructor(e) {
 			super(e),
 				this.frameGroup.add(new $Ae()),
 				this.itemHolder.position.set(0, 0, 0.0825),
 				this.frameGroup.add(this.itemHolder),
 				this.add(this.frameGroup),
-				this.OsHStPDRjOMFPe(),
-				this.OjVOjDKlz(),
-				this.PUQdycGDdGIs(0.75, 0.75),
+				this.uOcFUsNFTzjqxu(),
+				this.wMnxOGWDa(),
+				this.ELVPgVeSGYSy(0.75, 0.75),
 				this.position.copy(e.pos);
 		}
-		OsHStPDRjOMFPe() {
+		uOcFUsNFTzjqxu() {
 			let e = this.entity.facingDirection;
 			e &&
 				(this.frameGroup.rotation.set(0, 0, 0),
@@ -84720,11 +84721,11 @@ var lAe = class e {
 							e.getFrontOffsetZ(),
 						)));
 		}
-		OjVOjDKlz() {
+		wMnxOGWDa() {
 			this.itemHolder.clear(),
 				(this.itemHolder.rotation.z =
-					-this.entity.PuIzzAjxocz() * (Math.PI / 4));
-			let e = this.entity.sFMTXPSfGFmafyGu();
+					-this.entity.GmUHyFrQAFX() * (Math.PI / 4));
+			let e = this.entity.qZPZlXmhEoCZezml();
 			if (e == null) return;
 			let t = e.item.isItemBlock() && e.item.drawAsBlock(),
 				n = t ? 0.4 : 0.5,
@@ -84732,7 +84733,7 @@ var lAe = class e {
 			t && r.position.set(-n / 2, -n / 2, -n / 2), this.itemHolder.add(r);
 		}
 		recreate() {
-			this.OsHStPDRjOMFPe(), this.OjVOjDKlz();
+			this.uOcFUsNFTzjqxu(), this.wMnxOGWDa();
 		}
 	},
 	tje = class extends q {
@@ -84762,14 +84763,14 @@ var lAe = class e {
 		}
 	},
 	nje = Math.PI / 2,
-	rje = new A(0, 0, 1),
+	rje = new k(0, 0, 1),
 	ije = class extends JN {
 		constructor(e) {
 			super(e),
 				this.entity.setPosition(e.pos.x, e.pos.y, e.pos.z),
 				this.add(new tje(this));
 		}
-		GyYKBcWVfvP() {
+		CTbwYGngGYZ() {
 			let e = this.entity,
 				t = e.getPartialTicks();
 			t < 0 ? (t = 0) : t > 1 && (t = 1),
@@ -84808,7 +84809,7 @@ var lAe = class e {
 			super.assembleBody(e), e.body.add(e.neck);
 		}
 	},
-	kP = new k(),
+	kP = new Zr(),
 	oje = class extends CP {
 		constructor(e) {
 			super(e), this.add(this.getModel());
@@ -84912,9 +84913,9 @@ var lAe = class e {
 			super.recreate(), (this.layer = new jP(this)), this.add(this.layer);
 		}
 		render() {
-			super.render(), this.oeBrHCTVfFFJnlvJPFKw(!this.entity.pRYBCLYZYn());
+			super.render(), this.UFFoucSiUFYhMfyWSjZn(!this.entity.HXEhDThODI());
 		}
-		oeBrHCTVfFFJnlvJPFKw(e) {
+		UFFoucSiUFYhMfyWSjZn(e) {
 			let t = this.skinnedRig[`sheep.sheep_fur`];
 			if (t) {
 				t.visible = e;
@@ -84967,7 +84968,7 @@ var lAe = class e {
 		}
 		addBodyParts(e) {
 			(e.meshes.body = this.initMesh(`body`)),
-				(e.meshes.body.position.y = e.entity.nqveQGcfACaK() / 4);
+				(e.meshes.body.position.y = e.entity.irkpYHmQhAQr() / 4);
 		}
 		assembleBody(e) {
 			e.body.clear(), e.body.add(e.meshes.body), e.add(e.body);
@@ -84983,7 +84984,7 @@ var lAe = class e {
 		render() {
 			super.render();
 			let e = this.entity.getPartialTicks(),
-				t = this.entity.nqveQGcfACaK(),
+				t = this.entity.irkpYHmQhAQr(),
 				n =
 					1 /
 					((this.entity.prevSquishFactor +
@@ -85061,7 +85062,7 @@ var lAe = class e {
 		addHead(e) {
 			(e.meshes.head = this.initMesh(`head`)),
 				e.meshes.head.position.set(0, 0, -6 / 16),
-				(e.headPivot = new zr()),
+				(e.headPivot = new ir()),
 				e.headPivot.add(e.meshes.head),
 				(e.headPivot.position.z = -4 / 16),
 				(e.neck = new yr()),
@@ -85154,8 +85155,8 @@ var lAe = class e {
 			(r.position.x -= 0.5), (r.position.z -= 0.5), this.add(r);
 		}
 	},
-	_je = new ci(16777215),
-	vje = new ci(0),
+	_je = new wr(16777215),
+	vje = new wr(0),
 	yje = class extends JN {
 		constructor(e) {
 			super(e);
@@ -85323,7 +85324,7 @@ var Cje = {
 					(c === `head` && !a
 						? ((a = !0),
 							(e.neck = new yr()),
-							(e.headPivot = new zr()),
+							(e.headPivot = new ir()),
 							e.neck.add(e.headPivot),
 							e.neck.position.set(t[0] * n, t[1] * n, t[2] * n),
 							(l = e.headPivot))
@@ -85335,7 +85336,7 @@ var Cje = {
 					s.rotation)
 				) {
 					let e = Math.PI / 180,
-						t = new zr();
+						t = new ir();
 					t.rotation.set(
 						s.rotation[0] * e,
 						s.rotation[1] * e,
@@ -85378,7 +85379,7 @@ var Cje = {
 		}
 	},
 	wje = class extends q {},
-	PP = new k(),
+	PP = new Zr(),
 	Tje = class extends CP {
 		headRidesBody = !1;
 		constructor(e) {
@@ -85503,10 +85504,10 @@ var Cje = {
 		}
 		cacheProfessionMaterials() {
 			this.professionMaterials = qv.map((e) =>
-				this.UoBnhwkSclZPZPP(`villager.${e}`),
+				this.MSgbshOixvbhnfo(`villager.${e}`),
 			);
 		}
-		UoBnhwkSclZPZPP(e) {
+		MSgbshOixvbhnfo(e) {
 			let t = J.skinManager.getSkin(e)?.atlasMat;
 			return (
 				t && t.transparent && ((t.transparent = !1), (t.needsUpdate = !0)), t
@@ -85538,7 +85539,7 @@ var Cje = {
 				return;
 			}
 			super.render(),
-				this.inner.lookAt(this.entity.thrower.aufGUWRrMjusybpZlLQW());
+				this.inner.lookAt(this.entity.thrower.fwMEWmugjXbNvjLWTMMb());
 		}
 	},
 	kje = class extends q {
@@ -85691,7 +85692,7 @@ var Cje = {
 				this.add(this.getModel()),
 				(this.collar = new IP(this)),
 				this.add(this.collar),
-				this.QzSSBJWgKpiaLSRSkn();
+				this.GErqxcegyjWgNiOpUB();
 		}
 		getModel() {
 			return new kje(this);
@@ -85700,16 +85701,16 @@ var Cje = {
 			super.recreate(),
 				(this.collar = new IP(this)),
 				this.add(this.collar),
-				this.QzSSBJWgKpiaLSRSkn();
+				this.GErqxcegyjWgNiOpUB();
 		}
-		QzSSBJWgKpiaLSRSkn() {
+		GErqxcegyjWgNiOpUB() {
 			this.bodyMaterials = {
-				normal: this.UoBnhwkSclZPZPP(`wolf`),
-				angry: this.UoBnhwkSclZPZPP(`wolf.wolf_angry`),
-				tame: this.UoBnhwkSclZPZPP(`wolf.wolf_tame`),
+				normal: this.MSgbshOixvbhnfo(`wolf`),
+				angry: this.MSgbshOixvbhnfo(`wolf.wolf_angry`),
+				tame: this.MSgbshOixvbhnfo(`wolf.wolf_tame`),
 			};
 		}
-		UoBnhwkSclZPZPP(e) {
+		MSgbshOixvbhnfo(e) {
 			let t = J.skinManager.getSkin(e)?.atlasMat;
 			return (
 				t && t.transparent && ((t.transparent = !1), (t.needsUpdate = !0)), t
@@ -85721,16 +85722,16 @@ var Cje = {
 			if (e) {
 				let t = this.entity.isTamed()
 					? this.bodyMaterials.tame
-					: this.entity.AZyJWsA()
+					: this.entity.HUUrHIv()
 						? this.bodyMaterials.angry
 						: this.bodyMaterials.normal;
 				t && e.material !== t && (e.material = t);
 			}
 			let t = this.skinnedRig[`wolf.wolf_collar`];
 			t && (t.visible = this.entity.isTamed() && e?.visible !== !1),
-				this.LbEBhjZxtAqo(this.entity.isSitting());
+				this.IAPuHNTLbKSO(this.entity.isSitting());
 		}
-		LbEBhjZxtAqo(e) {
+		IAPuHNTLbKSO(e) {
 			let {
 				leftShoulder: t,
 				rightShoulder: n,
@@ -85792,7 +85793,7 @@ var Cje = {
 		}
 		render() {
 			super.render();
-			let e = this.entity.SzOOWEeVu();
+			let e = this.entity.WmqfoFvIh();
 			e !== this.lastTrading &&
 				((this.lastTrading = e),
 				e
@@ -85818,18 +85819,18 @@ var Cje = {
 		);
 	})({}),
 	Ije = class {
-		loader = new tee();
+		loader = new Sr();
 		models = {};
 		constructor() {}
-		async SrGdddcYOH() {
+		async VNLKyJpiDJ() {
 			let e = [];
-			for (let t of Object.values(LP)) e.push(this.qrbPlSf(t));
+			for (let t of Object.values(LP)) e.push(this.WfUXaqN(t));
 			await Promise.all(e);
 		}
-		async qrbPlSf(e) {
-			return this.buVZwEib(`hat`, e);
+		async WfUXaqN(e) {
+			return this.sfzoIDrE(`hat`, e);
 		}
-		async buVZwEib(e, t) {
+		async sfzoIDrE(e, t) {
 			return new Promise((n) => {
 				let r = `models/${e}/${t}.gltf`;
 				this.loader.load(r, (e) => {
@@ -85839,7 +85840,7 @@ var Cje = {
 		}
 		async getModel(e) {
 			return Object.values(LP).includes(e)
-				? (this.models[e] || (await this.qrbPlSf(e)), this.models[e])
+				? (this.models[e] || (await this.WfUXaqN(e)), this.models[e])
 				: null;
 		}
 	},
@@ -85874,7 +85875,7 @@ function Hje(e) {
 		n = t.indexOf(`:`);
 	return n === -1 ? null : t.slice(n + 1);
 }
-var Uje = `${_n}/skins/custom_cape`;
+var Uje = `${gn}/skins/custom_cape`;
 function Wje(e, t) {
 	let n = `${Uje}/${e}.png`;
 	return t ? `${n}?v=${encodeURIComponent(t)}` : n;
@@ -85906,7 +85907,7 @@ var Gje = 2 / 16,
 			this.generateGeometry(`wing`, e, n, r, i, a, 1);
 			let o = q.setGeometry({ positions: n, normals: r, uvs: i, indices: a });
 			o.translate(-0.625 / 2, -1.25 / 2, Gje / 2), t && o.scale(-1, 1, 1);
-			let s = new zr();
+			let s = new ir();
 			return s.add(new gr(o, e)), s;
 		}
 	},
@@ -85941,7 +85942,7 @@ function eMe(e) {
 		n = t.indexOf(`:`);
 	return n === -1 ? null : t.slice(n + 1);
 }
-var tMe = `${_n}/skins/custom`;
+var tMe = `${gn}/skins/custom`;
 function nMe(e, t) {
 	let n = `${tMe}/${e}.png`;
 	return t ? `${n}?v=${encodeURIComponent(t)}` : n;
@@ -86061,7 +86062,7 @@ function sMe(e, t) {
 	}
 	return `Texture Pack`;
 }
-var iF = `${_n}/texturepacks`,
+var iF = `${gn}/texturepacks`,
 	cMe = `${iF}/default/manifest.json`;
 function aF(e, t) {
 	return t ? `${e}?v=${encodeURIComponent(t)}` : e;
@@ -86109,47 +86110,47 @@ var lF = class e {
 	static glintTexture = null;
 	static getGlintTexture() {
 		if (!e.glintTexture) {
-			let t = new Ir().load(`textures/misc/enchanted_item_glint.png`);
-			(t.wrapS = Cr), (t.wrapT = Cr), (e.glintTexture = t);
+			let t = new xr().load(`textures/misc/enchanted_item_glint.png`);
+			(t.wrapS = $r), (t.wrapT = $r), (e.glintTexture = t);
 		}
 		return e.glintTexture;
 	}
-	loader = new Ir();
+	loader = new xr();
 	skins = {};
 	armor = {};
 	armorVersion = 0;
 	failedTextures = new Set();
 	capes = { none: { id: `none`, ratio: 1, pixels: new Uint8ClampedArray() } };
 	capeElytraMats = {};
-	async yvXSQxMwaYMTZsqp() {
+	async XhnSFbGgacDXAskP() {
 		return Promise.all([
 			this.downloadSkin(`alice`),
 			this.downloadSkin(`bob`),
-			this.oBAHQFTXA(`leather`),
-			this.oBAHQFTXA(`gold`),
-			this.oBAHQFTXA(`chainmail`),
-			this.oBAHQFTXA(`iron`),
-			this.oBAHQFTXA(`diamond`),
-			this.oBAHQFTXA(`emerald`),
-			this.oBAHQFTXA(`infernium`),
+			this.sWyCsoyTM(`leather`),
+			this.sWyCsoyTM(`gold`),
+			this.sWyCsoyTM(`chainmail`),
+			this.sWyCsoyTM(`iron`),
+			this.sWyCsoyTM(`diamond`),
+			this.sWyCsoyTM(`emerald`),
+			this.sWyCsoyTM(`infernium`),
 		]);
 	}
-	async xvGupLWjADAINnPfWs() {
+	async ICHIJdBmepiLfelYFH() {
 		return Promise.all(
 			$P.map((e) =>
 				e.mob
-					? this.dCbbzwF(e.folder)
-					: this.kaoBvaomHYUklHUeM(e.folder, e.name, e.ratioBase ?? 64),
+					? this.GhPETzi(e.folder)
+					: this.MttPyTQTbamLXIFjW(e.folder, e.name, e.ratioBase ?? 64),
 			),
 		);
 	}
-	async nNxcVBxSOxAg() {
-		await Promise.all([this.yvXSQxMwaYMTZsqp(), this.xvGupLWjADAINnPfWs()]);
+	async FhebCkcAmAHT() {
+		await Promise.all([this.XhnSFbGgacDXAskP(), this.ICHIJdBmepiLfelYFH()]);
 	}
 	hasSkin(e) {
 		return !!this.skins[e];
 	}
-	leghCIW(e) {
+	gOchSsi(e) {
 		return !!this.capes[e];
 	}
 	getSkin(e) {
@@ -86164,10 +86165,10 @@ var lF = class e {
 			n
 		);
 	}
-	mcyGCSK(e) {
+	aurPHAj(e) {
 		return this.capes[e];
 	}
-	SNhQQnUC(e) {
+	zbhavWDI(e) {
 		let t = e.item;
 		return this.armor[t.material.name];
 	}
@@ -86179,7 +86180,7 @@ var lF = class e {
 		}
 		return !1;
 	}
-	async dCbbzwF(t) {
+	async GhPETzi(t) {
 		if (!(this.isEntityOverridden(t) && this.skins[t]))
 			return new Promise((n, r) => {
 				this.loader.setPath(`textures/entity/` + t + `/`),
@@ -86187,7 +86188,7 @@ var lF = class e {
 						t + `.png`,
 						(r) => {
 							let i = { atlas: r, id: t, ratio: r.image.width / 64 };
-							e.jXTEIStvapdQRl(i), (this.skins[t] = i), n();
+							e.ldEsIqvPyfLhFL(i), (this.skins[t] = i), n();
 						},
 						void 0,
 						function (e) {
@@ -86196,7 +86197,7 @@ var lF = class e {
 					);
 			});
 	}
-	async kaoBvaomHYUklHUeM(t, n, r = 64) {
+	async MttPyTQTbamLXIFjW(t, n, r = 64) {
 		if (!(this.isEntityOverridden(t + `.` + n) && this.skins[t + `.` + n]))
 			return new Promise((i, a) => {
 				this.loader.setPath(`textures/entity/` + t + `/`),
@@ -86204,7 +86205,7 @@ var lF = class e {
 						n + `.png`,
 						(a) => {
 							let o = { atlas: a, id: n, ratio: a.image.width / r };
-							e.jXTEIStvapdQRl(o), (this.skins[t + `.` + n] = o), i();
+							e.ldEsIqvPyfLhFL(o), (this.skins[t + `.` + n] = o), i();
 						},
 						void 0,
 						function (e) {
@@ -86225,7 +86226,7 @@ var lF = class e {
 							(r) => {
 								let i = r.image,
 									a = { atlas: r, id: t, skinny: cF(i), ratio: i.width / 64 };
-								e.jXTEIStvapdQRl(a), (this.skins[t] = a), n();
+								e.ldEsIqvPyfLhFL(a), (this.skins[t] = a), n();
 							},
 							void 0,
 							() => {
@@ -86244,7 +86245,7 @@ var lF = class e {
 						(n) => {
 							let a = n.image,
 								o = { atlas: n, id: t, skinny: cF(a), ratio: a.width / r };
-							e.jXTEIStvapdQRl(o), (this.skins[t] = o), i();
+							e.ldEsIqvPyfLhFL(o), (this.skins[t] = o), i();
 						},
 						void 0,
 						() => {
@@ -86274,7 +86275,7 @@ var lF = class e {
 			delete this.skins[t],
 			this.failedTextures.delete(`skin:` + t);
 	}
-	async kQuECZfBTjyt(t) {
+	async DFIKMwOQjjVP(t) {
 		if (this.failedTextures.has(`cape:` + t)) return;
 		let n = HP(t);
 		return n
@@ -86284,9 +86285,9 @@ var lF = class e {
 						this.loader.load(
 							t + `.png`,
 							(r) => {
-								let i = e.IHvTQFBQNhDMkcbvcerAkqjX(r),
+								let i = e.TsyrASgQrfPVMbASefHVdjKc(r),
 									a = { atlas: i, id: t, ratio: i.image.width / 64 };
-								e.jXTEIStvapdQRl(a), (this.capes[t] = a), n();
+								e.ldEsIqvPyfLhFL(a), (this.capes[t] = a), n();
 							},
 							void 0,
 							() => {
@@ -86304,9 +86305,9 @@ var lF = class e {
 					this.loader.load(
 						n,
 						(n) => {
-							let i = e.IHvTQFBQNhDMkcbvcerAkqjX(n),
+							let i = e.TsyrASgQrfPVMbASefHVdjKc(n),
 								a = { atlas: i, id: t, ratio: i.image.width / 64 };
-							e.jXTEIStvapdQRl(a), (this.capes[t] = a), r();
+							e.ldEsIqvPyfLhFL(a), (this.capes[t] = a), r();
 						},
 						void 0,
 						() => {
@@ -86316,7 +86317,7 @@ var lF = class e {
 			})
 		);
 	}
-	static IHvTQFBQNhDMkcbvcerAkqjX(e) {
+	static TsyrASgQrfPVMbASefHVdjKc(e) {
 		let t = e.image;
 		if (!t || t.width >= 64 || t.width === t.height) return e;
 		let n = Math.max(1, Math.round(64 / t.width)),
@@ -86325,8 +86326,8 @@ var lF = class e {
 		let i = r.getContext(`2d`, { willReadFrequently: !0 });
 		if (!i) return e;
 		(i.imageSmoothingEnabled = !1), i.drawImage(t, 0, 0, r.width, r.height);
-		let a = new Sr(r);
-		return (a.minFilter = br), (a.magFilter = br), a;
+		let a = new ri(r);
+		return (a.minFilter = _r), (a.magFilter = _r), a;
 	}
 	invalidateCape(t) {
 		let n = this.capes[t];
@@ -86337,18 +86338,18 @@ var lF = class e {
 			delete this.capeElytraMats[t],
 			this.failedTextures.delete(`cape:` + t);
 	}
-	YnPioZjCHUGEdWnRPStrS(t) {
+	IWPMtdmsdVockzCOcHyOS(t) {
 		if (t in this.capeElytraMats) return this.capeElytraMats[t];
 		let n = this.capes[t],
 			r = null;
 		if (n)
-			if (n.compact) r = e.CgYPAMSAyBOCuQVFwdTW(n) ? n.atlasMat?.map : null;
+			if (n.compact) r = e.uYtdawBDgbBekbnqDxDM(n) ? n.atlasMat?.map : null;
 			else {
-				let t = e.QrYlpCfxoZFays(n).elytra;
-				r = t ? e.JAXvGNiTGSubRfCKfpccUMy(n, t) : null;
+				let t = e.kfoujQtuerPpSk(n).elytra;
+				r = t ? e.bExyGmsDzhZCqjvEkbRgQxh(n, t) : null;
 			}
 		let i = r
-			? new er({
+			? new nr({
 					map: r,
 					transparent: !0,
 					depthWrite: !0,
@@ -86358,7 +86359,7 @@ var lF = class e {
 			: null;
 		return (this.capeElytraMats[t] = i), i;
 	}
-	static JAXvGNiTGSubRfCKfpccUMy(e, t) {
+	static bExyGmsDzhZCqjvEkbRgQxh(e, t) {
 		let n = e.atlasMat?.map?.image;
 		if (!n) return null;
 		let r = document.createElement(`canvas`);
@@ -86368,18 +86369,18 @@ var lF = class e {
 		(i.imageSmoothingEnabled = !1),
 			i.drawImage(n, t.x, t.y, t.w, t.h, 24, 2, 10, 20),
 			i.drawImage(n, t.x, t.y, t.w, t.h, 36, 2, 10, 20);
-		let a = new Sr(r);
-		return (a.minFilter = br), (a.magFilter = br), a;
+		let a = new ri(r);
+		return (a.minFilter = _r), (a.magFilter = _r), a;
 	}
 	hasElytraTexture(t) {
 		let n = this.capes[t];
 		return n
 			? n.compact
-				? e.CgYPAMSAyBOCuQVFwdTW(n)
-				: e.QrYlpCfxoZFays(n).elytra != null
+				? e.uYtdawBDgbBekbnqDxDM(n)
+				: e.kfoujQtuerPpSk(n).elytra != null
 			: !1;
 	}
-	static QrYlpCfxoZFays(e) {
+	static kfoujQtuerPpSk(e) {
 		if (e.capeRegions) return e.capeRegions;
 		let t = Math.round(64 * (e.ratio || 1)),
 			n = e.pixels,
@@ -86412,7 +86413,7 @@ var lF = class e {
 		}
 		return (e.capeRegions = s), s;
 	}
-	static CgYPAMSAyBOCuQVFwdTW(e) {
+	static uYtdawBDgbBekbnqDxDM(e) {
 		let t = e.ratio || 1,
 			n = Math.round(64 * t),
 			r = Math.floor(22 * t),
@@ -86423,17 +86424,17 @@ var lF = class e {
 				if (e.pixels[(a + t * n) * 4 + 3] > 0) return !0;
 		return !1;
 	}
-	PdSUgdEgZCUYbon(e, t) {
+	CdKqGDYbdKYESKS(e, t) {
 		return `textures/models/armor/${e}_layer_${t}.png`;
 	}
-	async oBAHQFTXA(
+	async sWyCsoyTM(
 		t,
-		n = this.PdSUgdEgZCUYbon(t, 1),
-		r = this.PdSUgdEgZCUYbon(t, 2),
+		n = this.CdKqGDYbdKYESKS(t, 1),
+		r = this.CdKqGDYbdKYESKS(t, 2),
 	) {
 		let i = { id: t, isArmor: !0, ratio: 1 };
 		this.armor[t] = i;
-		let a = new Ir(),
+		let a = new xr(),
 			o = (e, t) =>
 				new Promise((n) => {
 					a.load(
@@ -86447,58 +86448,58 @@ var lF = class e {
 				});
 		await Promise.all([
 			o(n, (t) => {
-				(i.atlas = t), (i.ratio = t.image.width / 32), e.jXTEIStvapdQRl(i);
+				(i.atlas = t), (i.ratio = t.image.width / 32), e.ldEsIqvPyfLhFL(i);
 			}),
 			o(r, (t) => {
-				(i.atlas2 = t), e.sewYYHIeQWnpEFz(i);
+				(i.atlas2 = t), e.hjEVTHCwdmSnpLA(i);
 			}),
 		]);
 	}
 	armorOverrides = new Set();
-	async rRNlrovbwPfWATjSyIp(e) {
+	async KPlbjncppDTQQHLOprb(e) {
 		let t = new Set([...this.armorOverrides, ...e.keys()]);
 		(this.armorOverrides = new Set(e.keys())),
 			await Promise.all(
 				[...t].map((t) => {
 					let n = e.get(t);
-					return this.oBAHQFTXA(
+					return this.sWyCsoyTM(
 						t,
-						n?.layer1 ?? this.PdSUgdEgZCUYbon(t, 1),
-						n?.layer2 ?? this.PdSUgdEgZCUYbon(t, 2),
+						n?.layer1 ?? this.CdKqGDYbdKYESKS(t, 1),
+						n?.layer2 ?? this.CdKqGDYbdKYESKS(t, 2),
 					);
 				}),
 			),
 			this.armorVersion++;
 	}
-	yKGSAoHyaFAJooiv(e) {
+	bCFeOrainbGCYABb(e) {
 		return `textures/entity/${e.folder}/${e.name}.png`;
 	}
 	entityOverrides = new Set();
-	async GRXQXEktiKcSWAuoOqZy(e) {
+	async iavWEFOwiCRRJtoCJfPB(e) {
 		let t = new Set([...this.entityOverrides, ...e.keys()]);
 		(this.entityOverrides = new Set(e.keys())),
 			await Promise.all(
 				[...t].map((t) => {
 					let n = sF.get(t);
 					return n
-						? this.vldryhDTfuyJWnqiprS(n, e.get(t) ?? this.yKGSAoHyaFAJooiv(n))
+						? this.anzdKbCVBsjttdRJzmS(n, e.get(t) ?? this.bCFeOrainbGCYABb(n))
 						: Promise.resolve();
 				}),
 			);
 	}
-	vldryhDTfuyJWnqiprS(t, n) {
+	anzdKbCVBsjttdRJzmS(t, n) {
 		let r = tF(t),
 			i = t.ratioBase ?? 64;
 		return new Promise((t) => {
-			new Ir().load(
+			new xr().load(
 				n,
 				(n) => {
 					let a = n.image,
 						o = this.skins[r];
-					if (o && e.AASoyzHvvoZCEciWOm(o, a, i)) o.atlas = n;
+					if (o && e.tAhksarsRLCHWnTTzY(o, a, i)) o.atlas = n;
 					else {
 						let t = { atlas: n, id: r, ratio: a.width / i };
-						e.jXTEIStvapdQRl(t), (this.skins[r] = t);
+						e.ldEsIqvPyfLhFL(t), (this.skins[r] = t);
 					}
 					t();
 				},
@@ -86507,7 +86508,7 @@ var lF = class e {
 			);
 		});
 	}
-	static AASoyzHvvoZCEciWOm(e, t, n) {
+	static tAhksarsRLCHWnTTzY(e, t, n) {
 		let r = e.atlasMat?.map,
 			i = r?.image,
 			a = i?.getContext(`2d`, { willReadFrequently: !0 });
@@ -86525,7 +86526,7 @@ var lF = class e {
 			!0
 		);
 	}
-	static jXTEIStvapdQRl(t) {
+	static ldEsIqvPyfLhFL(t) {
 		let n = document.createElement(`canvas`),
 			r = n.getContext(`2d`, { willReadFrequently: !0 }),
 			i = t.atlas;
@@ -86535,16 +86536,16 @@ var lF = class e {
 			(n.height = i.image.width),
 			r.drawImage(i.image, 0, 0),
 			(t.pixels = r.getImageData(0, 0, i.image.width, i.image.width).data);
-		let a = new Sr(n);
-		(a.minFilter = br),
-			(a.magFilter = br),
-			(t.atlasMat = new ir({
+		let a = new ri(n);
+		(a.minFilter = _r),
+			(a.magFilter = _r),
+			(t.atlasMat = new Yr({
 				map: a,
 				side: 0,
 				transparent: !0,
 				alphaTest: 0.1,
 			})),
-			(t.atlasMatEnchant = new ir({
+			(t.atlasMatEnchant = new Yr({
 				map: a,
 				side: 0,
 				transparent: !0,
@@ -86552,7 +86553,7 @@ var lF = class e {
 			})),
 			TN.addEnchantedEffect(t.atlasMatEnchant, e.getGlintTexture(), 0.75);
 	}
-	static sewYYHIeQWnpEFz(t) {
+	static hjEVTHCwdmSnpLA(t) {
 		let n = document.createElement(`canvas`),
 			r = n.getContext(`2d`),
 			i = t.atlas2;
@@ -86560,14 +86561,14 @@ var lF = class e {
 		(n.width = i.image.width),
 			(n.height = i.image.width),
 			r.drawImage(i.image, 0, 0);
-		let a = new Sr(n);
-		(a.minFilter = br),
-			(a.magFilter = br),
-			(t.atlasMat2 = new ir({ map: a, side: 0, transparent: !1 })),
-			(t.atlasMat2Enchant = new ir({ map: a, side: 0, transparent: !1 })),
+		let a = new ri(n);
+		(a.minFilter = _r),
+			(a.magFilter = _r),
+			(t.atlasMat2 = new Yr({ map: a, side: 0, transparent: !1 })),
+			(t.atlasMat2Enchant = new Yr({ map: a, side: 0, transparent: !1 })),
 			TN.addEnchantedEffect(t.atlasMat2Enchant, e.getGlintTexture(), 0.75);
 	}
-	static lGUzThIpw(e, t, n, r, i, a = {}, o = {}) {
+	static VnsbCjmRz(e, t, n, r, i, a = {}, o = {}) {
 		let s = o.leggings ? e.atlas2 : e.atlas,
 			c = document.createElement(`canvas`),
 			l = c.getContext(`2d`);
@@ -86602,11 +86603,11 @@ var lF = class e {
 						c.width,
 						c.height,
 					));
-		let u = new Sr(c);
+		let u = new ri(c);
 		return (
-			(u.minFilter = br),
-			(u.magFilter = br),
-			new er({ map: u, side: 0, transparent: !e.isArmor, depthWrite: !0 })
+			(u.minFilter = _r),
+			(u.magFilter = _r),
+			new nr({ map: u, side: 0, transparent: !e.isArmor, depthWrite: !0 })
 		);
 	}
 	fixedUpdate() {
@@ -86669,7 +86670,7 @@ function hMe(e) {
 var gMe = class extends q {
 		constructor(e) {
 			super();
-			let t = J.skinManager.mcyGCSK(e);
+			let t = J.skinManager.aurPHAj(e);
 			if (!t || !t.atlasMat) return;
 			let n = t.atlasMat.map;
 			if (!n) return;
@@ -86679,7 +86680,7 @@ var gMe = class extends q {
 					textureWidth: r.width,
 					textureHeight: r.height,
 					compact: t.compact,
-					region: t.compact ? null : lF.QrYlpCfxoZFays(t).cape,
+					region: t.compact ? null : lF.kfoujQtuerPpSk(t).cape,
 				}),
 				a = q.setGeometry(i),
 				o = t.atlasMat;
@@ -86698,8 +86699,8 @@ var gMe = class extends q {
 			let t = e.entity.profile.cosmetics.cape;
 			!t ||
 				t === `none` ||
-				(J.skinManager.leghCIW(t) || (await J.skinManager.kQuECZfBTjyt(t)),
-				J.skinManager.leghCIW(t) &&
+				(J.skinManager.gOchSsi(t) || (await J.skinManager.DFIKMwOQjjVP(t)),
+				J.skinManager.gOchSsi(t) &&
 					((e.capeMesh = new gMe(t)),
 					(e.capeMesh.position.z = 0.15),
 					NM(e.capeMesh),
@@ -86710,8 +86711,8 @@ var gMe = class extends q {
 				n = e.entity.profile.cosmetics.cape;
 			if (
 				(VP(n) &&
-					(J.skinManager.leghCIW(n) || (await J.skinManager.kQuECZfBTjyt(n)),
-					(t = J.skinManager.YnPioZjCHUGEdWnRPStrS(n) ?? void 0)),
+					(J.skinManager.gOchSsi(n) || (await J.skinManager.DFIKMwOQjjVP(n)),
+					(t = J.skinManager.IWPMtdmsdVockzCOcHyOS(n) ?? void 0)),
 				(t ||= await J.getElytraMaterial()),
 				!t)
 			)
@@ -86722,7 +86723,7 @@ var gMe = class extends q {
 		async addHat(e) {
 			let t = e.entity.profile.cosmetics.hat;
 			if (!t || t === `none`) return;
-			let n = await J.EjTyTpmHNek.getModel(t);
+			let n = await J.FZzmKWpkvxT.getModel(t);
 			if (!n) return;
 			let r = n.clone();
 			(r.position.y = 8 / 16),
@@ -86745,7 +86746,7 @@ function vMe(e, t, n, r) {
 			: `${e}${t}`;
 }
 function uF(e) {
-	let t = Vn(e),
+	let t = Bn(e),
 		n = e.toUpperCase();
 	return e === `youtube`
 		? `\\${t}\\[\\white\\${n}\\${t}\\]`
@@ -86760,13 +86761,13 @@ function yMe(e, t, n) {
 	return /Player[0-9]{1,3}/.test(e)
 		? e
 		: (t != null && t !== `` && (e = `${dF(t)} ` + e),
-			n != null && (e = `\\bold\\\\${On[n]}\\(${n})\\reset\\ ` + e),
+			n != null && (e = `\\bold\\\\${Dn[n]}\\(${n})\\reset\\ ` + e),
 			e);
 }
-var fF = new k(),
-	pF = new A(),
-	mF = new k(),
-	hF = new A(),
+var fF = new Zr(),
+	pF = new k(),
+	mF = new Zr(),
+	hF = new k(),
 	gF = class extends SP {
 		model;
 		capeMesh;
@@ -86791,7 +86792,7 @@ var fF = new k(),
 			);
 		}
 		render() {
-			this.OewLPbTymKfUx(), this.skeleton.quaternion.identity(), super.render();
+			this.SmYAjawLlteli(), this.skeleton.quaternion.identity(), super.render();
 			let { leftHip: e, rightHip: t, leftShoulder: n, rightShoulder: r } = this,
 				i = this.entity.profile.cosmetics.skin ?? ``,
 				a = J.skinManager.skins[i] ? J.skinManager.skins[i].skinny : !1,
@@ -86834,12 +86835,12 @@ var fF = new k(),
 				? u instanceof S_ && (this.skeleton.position.y -= 4 / 16)
 				: ((e.rotation.y = 0), (t.rotation.y = 0));
 			let d = this.entity.getPartialTicks(),
-				f = this.xhzoNyZZPqlRQoIzGRq(this.entity, d);
+				f = this.vNkadiVGYXTzzRAnqha(this.entity, d);
 			(r.rotation.z += Math.cos(f * 0.09) * 0.05 + 0.05),
 				(n.rotation.z -= Math.cos(f * 0.09) * 0.05 + 0.05),
 				(r.rotation.x -= Math.sin(f * 0.067) * 0.05),
 				(n.rotation.x += Math.sin(f * 0.067) * 0.05);
-			let p = this.lWlAhRbJqrVLgNo();
+			let p = this.RwFfStmOzpLdhpl();
 			this.capeMesh &&
 				((this.capeMesh.rotation.x -= p),
 				(this.capeMesh.rotation.x -= Math.cos(f * 0.09) * 0.05 + 0.05));
@@ -86848,14 +86849,14 @@ var fF = new k(),
 			this.glideAmount += (+!!h - this.glideAmount) * Math.min(1, $.delta * 8);
 			let g = this.glideAmount;
 			if (
-				(h ? this.PUQdycGDdGIs(Fg, Oie) : this.PUQdycGDdGIs(m.width, m.height),
+				(h ? this.ELVPgVeSGYSy(Fg, Oie) : this.ELVPgVeSGYSy(m.width, m.height),
 				g > 0.001)
 			) {
 				this.body.getWorldQuaternion(fF),
 					pF.set(1, 0, 0).applyQuaternion(fF),
 					this.skeleton.rotateOnWorldAxis(pF, -g * (Math.PI / 2)),
 					(this.skeleton.position.y -= g * 0.6);
-				let i = _r.lerp;
+				let i = $n.lerp;
 				(n.rotation.x = i(n.rotation.x, 0, g)),
 					(r.rotation.x = i(r.rotation.x, 0, g)),
 					(n.rotation.z = i(n.rotation.z, -0.15, g)),
@@ -86887,7 +86888,7 @@ var fF = new k(),
 			}
 			let _ = m.mode == xg.SPECTATOR;
 			if (this.elytraMesh) {
-				let e = m.CICXDQZUPOscifp() && !_;
+				let e = m.STtXJGYEODFGOwP() && !_;
 				if (
 					((this.elytraMesh.visible = e),
 					this.capeMesh && (this.capeMesh.visible = !e && !_),
@@ -86900,15 +86901,15 @@ var fF = new k(),
 				}
 			}
 			if (this.backpackMesh) {
-				let e = m.CICXDQZUPOscifp() && !_;
+				let e = m.STtXJGYEODFGOwP() && !_;
 				this.backpackMesh.visible =
-					!!this.lastBackpackItemName && !_ && !e && !this.entity.ivIsiTZAooP();
+					!!this.lastBackpackItemName && !_ && !e && !this.entity.ssnfFrPtPOc();
 			}
 			if (
 				(this.capeMesh &&
-					this.entity.ivIsiTZAooP() &&
+					this.entity.ssnfFrPtPOc() &&
 					(this.capeMesh.visible = !1),
-				this.IPHVvRsJWPeEdAqZxl(),
+				this.IkwysjWbqxVNCPiXrj(),
 				this.lodFar)
 			)
 				return;
@@ -86929,7 +86930,7 @@ var fF = new k(),
 					v.grip !== `pistol` &&
 						(n.rotation.set(e, 0, 0.6), (this.leftElbowJoint.rotation.x = pP));
 			} else
-				this.entity.FPJeIkyl()
+				this.entity.acKIzIOD()
 					? (this.usingOffHand() ? n : r).rotation.set(Math.PI / 3, 0, 0)
 					: this.entity.isBlocking() &&
 						(this.usingOffHand() ? n : r).rotation.set(Math.PI / 4, 0, 0);
@@ -86965,7 +86966,7 @@ var fF = new k(),
 				return;
 			}
 			let { leftShoulder: i, rightShoulder: a, leftHip: o, rightHip: s } = this,
-				c = _r.lerp,
+				c = $n.lerp,
 				l = (t - e.emoteStartMs) / 1e3;
 			switch (this.blendingEmote) {
 				case RM.WAVE:
@@ -87260,17 +87261,17 @@ var fF = new k(),
 					this.neck.quaternion.copy(this.rotYaw),
 					this.headPivot.quaternion.copy(this.rotPitch));
 		}
-		BrAnVRjXMt(e = new A()) {
+		nPesgXmMBT(e = new k()) {
 			return this.body.getWorldDirection(e), e;
 		}
 		applyCosmeticVisibility() {
-			let e = (this.entity.id === Y.id ? Y : this.entity).CICXDQZUPOscifp();
+			let e = (this.entity.id === Y.id ? Y : this.entity).STtXJGYEODFGOwP();
 			this.elytraMesh && (this.elytraMesh.visible = e),
 				this.capeMesh && (this.capeMesh.visible = !e),
 				this.backpackMesh &&
 					(this.backpackMesh.visible = !!this.lastBackpackItemName && !e);
 		}
-		KLgRGYTxCChBzzjnWpHA(e) {
+		PORryaIEuukrRAjbRreI(e) {
 			let t = this;
 			for (let n in t.meshes)
 				t.meshes[n].visible = t.skinnedBody && n !== `head` ? !1 : e;
@@ -87286,16 +87287,16 @@ var fF = new k(),
 				this.backpackMesh &&
 					(this.backpackMesh.visible = e && !!this.lastBackpackItemName),
 				this.hatMesh && (this.hatMesh.visible = e),
-				this.lodFar && this.OUPAhIBt(!0);
+				this.lodFar && this.yCcwVfBK(!0);
 		}
-		hTRUdgVAczkoGG(e) {
+		whEsVYwohzZNeu(e) {
 			let t = this;
 			this.entity.setGamemode(e),
 				this.entity.mode.isSpectator()
-					? (this.KLgRGYTxCChBzzjnWpHA(!1),
+					? (this.PORryaIEuukrRAjbRreI(!1),
 						t.meshes.head && (t.meshes.head.visible = !0),
-						this.sIQDaMkzeXyZVef(null, 0.5))
-					: (this.KLgRGYTxCChBzzjnWpHA(!0), this.sIQDaMkzeXyZVef(null, 1));
+						this.HOWONDnrbgkiGFj(null, 0.5))
+					: (this.PORryaIEuukrRAjbRreI(!0), this.HOWONDnrbgkiGFj(null, 1));
 			let n = t.meshes.head;
 			if (n) {
 				let e = n.material,
@@ -87304,7 +87305,7 @@ var fF = new k(),
 			}
 			this.updateArmor();
 		}
-		OewLPbTymKfUx() {
+		SmYAjawLlteli() {
 			let e = `white`,
 				t = 1;
 			this.entity.mode == xg.SPECTATOR
@@ -87325,10 +87326,10 @@ var fF = new k(),
 			} else this.nameTagText = i;
 			(this.nameTagColor = e), (this.nameTagOpacity = t);
 		}
-		JwYAVNVayKEuch() {
+		zwspVxdzxwHTeu() {
 			return 0.7 + Zt;
 		}
-		TiowLnxYeXpfpL() {
+		gBbBOmCuIefcZf() {
 			return (
 				!this.entity.sneak &&
 				!D.streamerMode.value &&
@@ -87343,13 +87344,13 @@ var fF = new k(),
 	_F = 16777215,
 	xMe = 4,
 	vF = new I(0, 0, 0),
-	yF = new Br(),
-	bF = new tr(),
-	xF = new tr(),
-	SF = new ni(),
-	CF = new A(),
-	SMe = ty.TOfOWNhgCvKzgnaDSbR();
-new A();
+	yF = new Kn(),
+	bF = new mr(),
+	xF = new mr(),
+	SF = new Mr(),
+	CF = new k(),
+	SMe = ty.vwTdAbjKJEnpelSprBG();
+new k();
 var CMe = {
 		[xm.ITEM]: QAe,
 		[xm.TNT]: yje,
@@ -87387,35 +87388,35 @@ var CMe = {
 		_showHitboxes = !1;
 		hidePlayers = !1;
 		set debug(e) {
-			(this._debug = e), this.KFRGrDGnZcYTPstvEOHCK();
+			(this._debug = e), this.UhubZieoqJPiPusVCmCCp();
 		}
 		get debug() {
 			return this._debug;
 		}
 		set showHitboxes(e) {
-			(this._showHitboxes = e), this.KFRGrDGnZcYTPstvEOHCK();
+			(this._showHitboxes = e), this.UhubZieoqJPiPusVCmCCp();
 		}
 		get showHitboxes() {
 			return this._showHitboxes;
 		}
-		get ZglQLHkkcxDKMQF() {
+		get fDSJdOLiyjwpSqi() {
 			return this._debug || this._showHitboxes;
 		}
-		KFRGrDGnZcYTPstvEOHCK() {
-			let e = this.ZglQLHkkcxDKMQF;
+		UhubZieoqJPiPusVCmCCp() {
+			let e = this.fDSJdOLiyjwpSqi;
 			$.world.entities.forEach((t) => {
 				t.mesh && (t.mesh.debug = e);
 			});
 		}
-		swHugAdtvqyJXc() {
+		wvHuFpHpzYFtBn() {
 			if (
-				(this.OOPnwEEfEiiVCpaSNXCJ(),
-				IM.DmuQBWGGTg(),
+				(this.zzBFoGzkZgXdqLBPVzyh(),
+				IM.uGsiBkETlL(),
 				JM.render($.gameScene.camera),
 				pN.render($.world),
 				KM.active)
 			) {
-				$.world.entities.forEach((e) => e.mesh?.MMRmtcppUNQGgbM());
+				$.world.entities.forEach((e) => e.mesh?.yZbbzHdNNvGBBLQ());
 				return;
 			}
 			let e = $.gameScene.camera;
@@ -87423,14 +87424,14 @@ var CMe = {
 				xF.copy(e.matrixWorld).invert(),
 				bF.multiplyMatrices(e.projectionMatrix, xF),
 				yF.setFromProjectionMatrix(bF),
-				mN.DmuQBWGGTg(),
+				mN.uGsiBkETlL(),
 				$.world.entities.forEach((e) => {
 					let t = e.mesh;
 					if (!t) return;
 					if (e.id === Y.id) {
 						if ((t.render(), Y.perspective !== fq.Perspective.FIRST_PERSON)) {
 							Wj(t);
-							let e = this.xrkDQa(Y);
+							let e = this.JToOPn(Y);
 							t.visible && e && IM.add(t, e.getColor() ?? _F, e.getAmplifier());
 						}
 						return;
@@ -87442,18 +87443,18 @@ var CMe = {
 							(SF.radius = n + 1),
 							!yF.intersectsSphere(SF))
 						) {
-							t.MMRmtcppUNQGgbM();
+							t.yZbbzHdNNvGBBLQ();
 							return;
 						}
 					}
 					t.render(), Wj(t);
-					let n = this.xrkDQa(e);
+					let n = this.JToOPn(e);
 					t.visible && n && IM.add(t, n.getColor() ?? _F, n.getAmplifier());
 				}),
-				mN.qfRUVapV();
+				mN.oDFUROVL();
 			let t = $.gameScene.debugHitboxRenderer;
-			t.DmuQBWGGTg(),
-				this.ZglQLHkkcxDKMQF &&
+			t.uGsiBkETlL(),
+				this.fDSJdOLiyjwpSqi &&
 					$.world.entities.forEach((e) => {
 						let n = e.mesh;
 						e.dead ||
@@ -87462,28 +87463,28 @@ var CMe = {
 							!n.debugVisible ||
 							(e.id === Y.id &&
 								Y.perspective === fq.Perspective.FIRST_PERSON) ||
-							(e.id !== Y.id && e.pNvihGvwxPsPteaVzqn(Y)) ||
-							t.submit(n.position, n.YIamqcQJue, n.fDbdTbmFyPS);
+							(e.id !== Y.id && e.uwgeutXtlNUyeaWRvzK(Y)) ||
+							t.submit(n.position, n.TKaFPuuiok, n.TLyUTXFtxvJ);
 					}),
-				t.qfRUVapV();
+				t.oDFUROVL();
 		}
-		xrkDQa(e) {
+		JToOPn(e) {
 			return !(e instanceof fm) || !e.isPotionActive(um.glowing)
 				? null
 				: e.getActivePotionEffect(um.glowing);
 		}
-		OOPnwEEfEiiVCpaSNXCJ() {
+		zzBFoGzkZgXdqLBPVzyh() {
 			$.gameScene.camera.getWorldPosition(CF),
 				J.beginHeldLights(CF.x, CF.y, CF.z),
 				D.dynamicLighting.value &&
 					D.lighting.value !== `Classic` &&
-					(this.VqnQhmaNPIANFZ(Y),
+					(this.aFXCIyaOuGRtHW(Y),
 					$.world.entities.forEach((e) => {
-						e.id !== Y.id && this.VqnQhmaNPIANFZ(e);
+						e.id !== Y.id && this.aFXCIyaOuGRtHW(e);
 					})),
 				J.commitHeldLights();
 		}
-		VqnQhmaNPIANFZ(e) {
+		aFXCIyaOuGRtHW(e) {
 			if (!(e instanceof fm)) return;
 			let t = kM(e.getHeldItem()?.item);
 			e instanceof Rg && (t = Math.max(t, kM(e.getOffhandItem()?.item))),
@@ -87495,26 +87496,26 @@ var CMe = {
 				e.ticksExisted++,
 					!(e instanceof Rg) &&
 						e.mesh &&
-						(e.mesh.visible = this.bdiwYQCGkTOZtCbFHe(e));
+						(e.mesh.visible = this.kjaqWxkqgdvOaVKYUz(e));
 			});
 			let e = D.fastRender.value;
 			for (let t of $.world.playersIterator()) {
 				if (t.id == Y.id) continue;
-				let n = this.bdiwYQCGkTOZtCbFHe(t, !0),
-					r = n && t.pNvihGvwxPsPteaVzqn(Y);
-				(t.mesh.visible = n), t.mesh.IKfgtiCfRtbtLmKhyy(r);
-				let i = !r && !e && !t.mesh.nlIBAwRWFnu();
+				let n = this.kjaqWxkqgdvOaVKYUz(t, !0),
+					r = n && t.uwgeutXtlNUyeaWRvzK(Y);
+				(t.mesh.visible = n), t.mesh.lNWYZADEByyjutBeQu(r);
+				let i = !r && !e && !t.mesh.RFLqOFdyHxa();
 				t.mesh.hatMesh && (t.mesh.hatMesh.visible = i),
 					t.mesh.capeMesh && (t.mesh.capeMesh.visible = i && !t.isSpectator());
 			}
 		}
-		bdiwYQCGkTOZtCbFHe(e, t = !1) {
+		kjaqWxkqgdvOaVKYUz(e, t = !1) {
 			if (Y.id == e.id) return !0;
 			if (
 				Y.spectatingEntityId === e.id ||
 				this.hidePlayers ||
 				(vF.set(e.pos.x, e.pos.y, e.pos.z), !e.world.isBlockLoaded(vF)) ||
-				(!t && e.pNvihGvwxPsPteaVzqn(Y)) ||
+				(!t && e.uwgeutXtlNUyeaWRvzK(Y)) ||
 				(e instanceof Rg && e.isSpectator() && !Y.isSpectator())
 			)
 				return !1;
@@ -87532,7 +87533,7 @@ var CMe = {
 			if (!n || r == null) return;
 			let i = t === Y.id ? null : $.world.entities.get(t);
 			if (i === void 0) return;
-			let a = this.VVIjPtbFbQ(n);
+			let a = this.rdaTeMUrpc(n);
 			(n.mesh = a), a && $.world.attachEntityMesh(n), JM.start(r, i);
 		}
 		startDeathRagdoll(e) {
@@ -87543,23 +87544,23 @@ var CMe = {
 					e.isSpectator() &&
 					(e.hurtTime > 0 || e.getHealth() <= 0);
 			if (!(t instanceof SP) || t.parent === null || (!t.visible && !n)) return;
-			let r = this.VVIjPtbFbQ(e);
+			let r = this.rdaTeMUrpc(e);
 			(e.mesh = r), r && $.world.attachEntityMesh(e), pN.start(t, e);
 		}
 		addEntity(e, t) {
 			let n = $.world.entities.get(e.id);
 			n && $.world.removeEntity(n);
-			let r = this.WJlBMVzgrthR(e, t);
+			let r = this.yuXIgIzFRtqf(e, t);
 			if (!r) return;
 			r.fromJSON(e), this.maybePlaySpawnSound(r);
-			let i = this.VVIjPtbFbQ(r);
+			let i = this.rdaTeMUrpc(r);
 			i && (r.mesh = i), $.world.spawnEntityInWorld(r);
 		}
 		addLocalEntity(e) {
-			let t = this.VVIjPtbFbQ(e);
+			let t = this.rdaTeMUrpc(e);
 			t && (e.mesh = t), $.world.spawnEntityInWorld(e);
 		}
-		WJlBMVzgrthR(e, t) {
+		yuXIgIzFRtqf(e, t) {
 			let n = SMe[e.type];
 			if (n) return new n(t);
 			switch (e.type) {
@@ -87574,7 +87575,7 @@ var CMe = {
 					let n = new Hg(t, null, null);
 					return (
 						(n.shootingEntity = $.world.entities.get(e.shooterId)),
-						(n.motion = new A(e.motion.x, e.motion.y, e.motion.z)),
+						(n.motion = new k(e.motion.x, e.motion.y, e.motion.z)),
 						e.item && Kie(n, V.fromProto(e.item)),
 						n
 					);
@@ -87586,7 +87587,7 @@ var CMe = {
 					if (!(n instanceof Rg)) return;
 					let r = new e_(t, n);
 					return (
-						e.motion && (r.motion = new A(e.motion.x, e.motion.y, e.motion.z)),
+						e.motion && (r.motion = new k(e.motion.x, e.motion.y, e.motion.z)),
 						r
 					);
 				}
@@ -87626,7 +87627,7 @@ var CMe = {
 				case xm.MOD_PROJECTILE: {
 					let n = new gv(t, Y, e.texture || void 0);
 					return (
-						e.motion && (n.motion = new A(e.motion.x, e.motion.y, e.motion.z)),
+						e.motion && (n.motion = new k(e.motion.x, e.motion.y, e.motion.z)),
 						e.shooterId != null && (n.shooterId = e.shooterId),
 						n
 					);
@@ -87653,12 +87654,12 @@ var CMe = {
 					wt.play(t.name, t.volume ?? 1, t.pitch ?? 1, e.pos);
 			}
 		}
-		RUxAoffhgCggUW() {
+		dWxpKnSunNBOyO() {
 			$.world.entities.forEach((e) => {
 				e.id !== Y.id && e.mesh?.recreate();
 			});
 		}
-		VVIjPtbFbQ(e) {
+		rdaTeMUrpc(e) {
 			let t = e.identifier,
 				n = CMe[t];
 			if (n) return new n(e);
@@ -87688,7 +87689,7 @@ var CMe = {
 				case xm.POTION:
 					return new FP(e, e.potionDamage);
 				case xm.PLAYER:
-					return this.MrRlWvxtXixBRaL(e);
+					return this.VpAeoPtsoXYBtJz(e);
 				case xm.FIREWORK_ROCKET:
 					return;
 				default:
@@ -87696,16 +87697,16 @@ var CMe = {
 			}
 		}
 		createDetachedMesh(e) {
-			return this.VVIjPtbFbQ(e);
+			return this.rdaTeMUrpc(e);
 		}
-		MrRlWvxtXixBRaL(e) {
+		VpAeoPtsoXYBtJz(e) {
 			let t = new gF(e);
 			return (
 				(e.mesh = t),
-				t.hTRUdgVAczkoGG(e.mode),
+				t.whEsVYwohzZNeu(e.mode),
 				t.updateArmor(),
 				t.renderBackpack(e.inventory.getExtraSlot(`curios:backpack`)),
-				t.OewLPbTymKfUx(),
+				t.SmYAjawLlteli(),
 				t
 			);
 		}
@@ -87722,9 +87723,9 @@ var CMe = {
 				}),
 				(t.profile.rank = e.rank ?? ``),
 				(t.profile.discordBoosting = e.discordBoosting ?? !1),
-				(t.mesh = this.MrRlWvxtXixBRaL(t)),
+				(t.mesh = this.VpAeoPtsoXYBtJz(t)),
 				(t.effects = new CM($.world, t)),
-				(t.mesh.visible = this.bdiwYQCGkTOZtCbFHe(t)),
+				(t.mesh.visible = this.kjaqWxkqgdvOaVKYUz(t)),
 				$.world.addPlayer(t);
 		}
 	})(),
@@ -87732,8 +87733,8 @@ var CMe = {
 	TMe = (-30 * Math.PI) / 180,
 	EMe = 10,
 	DMe = class extends q {
-		spinPivot = new zr();
-		anchor = new zr();
+		spinPivot = new ir();
+		anchor = new ir();
 		displayName = null;
 		display = null;
 		constructor() {
@@ -88144,10 +88145,10 @@ var kF = class extends q {
 			}
 		}
 		initTextMesh(e) {
-			let t = new Sr(this.canvas);
-			(t.minFilter = br), (t.magFilter = br);
-			let n = new er({ map: t, side: 0, transparent: !0, alphaTest: 0.5 }),
-				r = new Kn(1, 0.5);
+			let t = new ri(this.canvas);
+			(t.minFilter = _r), (t.magFilter = _r);
+			let n = new nr({ map: t, side: 0, transparent: !0, alphaTest: 0.5 }),
+				r = new Ar(1, 0.5);
 			(this.textMesh = new gr(r, n)),
 				(this.textMesh.matrixAutoUpdate = !1),
 				(this.textMesh.matrixWorldAutoUpdate = !0),
@@ -88370,12 +88371,12 @@ function MF() {
 	if (jF) return jF;
 	let e = document.createElement(`canvas`),
 		t = new ti({ canvas: e, alpha: !0 });
-	t.setClearColor(16777215, 0), t.setSize(128, 128), (t.outputColorSpace = ui);
-	let n = new xr(-0.85, 0.85, 0.85, -0.85);
+	t.setClearColor(16777215, 0), t.setSize(128, 128), (t.outputColorSpace = qn);
+	let n = new cr(-0.85, 0.85, 0.85, -0.85);
 	n.lookAt(-1, -0.7, -1);
-	let r = new qr();
+	let r = new Dr();
 	r.add(n), r.add(new Or(`#FFFFFF`, 1.5));
-	let i = new Yn(`white`, 1.5);
+	let i = new ai(`white`, 1.5);
 	return (
 		i.position.set(3, 5, 0.5),
 		r.add(i),
@@ -88811,8 +88812,8 @@ var eI = [
 	].flatMap((e) => [`${e}_cloth`, `${e}_border`, `${e}_clips`]),
 	tI = ze,
 	J = new (class {
-		loader = new Ir();
-		fontLoader = new Lr();
+		loader = new xr();
+		fontLoader = new Ir();
 		miniblox_font;
 		old_miniblox_font;
 		atlas;
@@ -88842,7 +88843,7 @@ var eI = [
 		dynamicParticleTextures = {};
 		glintTexture;
 		skinManager = new lF();
-		EjTyTpmHNek = new Ije();
+		FZzmKWpkvxT = new Ije();
 		reflectionBuffer = null;
 		setReflectionBuffer(e) {
 			(this.reflectionBuffer = e),
@@ -88854,17 +88855,17 @@ var eI = [
 		menuTexturesLoaded = !1;
 		menuTexturesPromise = null;
 		worldAssetsLoaded = !1;
-		async yvXSQxMwaYMTZsqp(e = !0) {
+		async XhnSFbGgacDXAskP(e = !0) {
 			try {
 				await Promise.all([
 					this.loadSpritesheet(),
 					this.loadFonts(),
-					this.skinManager.yvXSQxMwaYMTZsqp(),
+					this.skinManager.XhnSFbGgacDXAskP(),
 				]);
 			} catch (t) {
 				T.error(t),
 					T.error(`Failed to load menu textures. Retrying...`),
-					e && (await this.yvXSQxMwaYMTZsqp(!1));
+					e && (await this.XhnSFbGgacDXAskP(!1));
 			}
 		}
 		ensureWorldAssets() {
@@ -88877,7 +88878,7 @@ var eI = [
 		}
 		ensureMenuTextures() {
 			return (
-				(this.menuTexturesPromise ||= this.yvXSQxMwaYMTZsqp().then(() => {
+				(this.menuTexturesPromise ||= this.XhnSFbGgacDXAskP().then(() => {
 					this.menuTexturesLoaded = !0;
 				})),
 				this.menuTexturesPromise
@@ -88892,8 +88893,8 @@ var eI = [
 		async loadWorldAssets() {
 			try {
 				let e = [
-					this.skinManager.xvGupLWjADAINnPfWs(),
-					this.EjTyTpmHNek.SrGdddcYOH(),
+					this.skinManager.ICHIJdBmepiLfelYFH(),
+					this.FZzmKWpkvxT.VNLKyJpiDJ(),
 					Bke(),
 				];
 				hj.forEach((t) => {
@@ -88902,8 +88903,8 @@ var eI = [
 							(this.particles[t] = await this.loader.loadAsync(
 								`textures/particle/${t}.png`,
 							)),
-								(this.particles[t].minFilter = br),
-								(this.particles[t].magFilter = br);
+								(this.particles[t].minFilter = _r),
+								(this.particles[t].magFilter = _r);
 						})(),
 					);
 				}),
@@ -88916,15 +88917,15 @@ var eI = [
 									e = n;
 								}
 								let n = await this.loader.loadAsync(`textures/entity/${t}.png`);
-								(n.minFilter = br),
-									(n.magFilter = br),
+								(n.minFilter = _r),
+									(n.magFilter = _r),
 									(n.wrapS = void 0),
 									(n.wrapT = void 0),
 									(this.entityUVSize[e] = {
 										width: n.image.width,
 										height: n.image.height,
 									}),
-									(this.entityMaterials[t] = new er({
+									(this.entityMaterials[t] = new nr({
 										map: n,
 										transparent: !0,
 										depthWrite: !0,
@@ -88943,8 +88944,8 @@ var eI = [
 					);
 			}
 		}
-		async nNxcVBxSOxAg(e = !0) {
-			await this.yvXSQxMwaYMTZsqp(e), await this.ensureWorldAssets();
+		async FhebCkcAmAHT(e = !0) {
+			await this.XhnSFbGgacDXAskP(e), await this.ensureWorldAssets();
 		}
 		buildParticleAtlas() {
 			let e = [];
@@ -88973,13 +88974,13 @@ var eI = [
 					o.drawImage(n, s, c, 32, 32),
 						this.particleAtlasRects.set(
 							e,
-							new pr(s / r, c / i, 32 / r, 32 / i),
+							new oi(s / r, c / i, 32 / r, 32 / i),
 						);
 				});
-			let s = new Sr(a);
+			let s = new ri(a);
 			(s.flipY = !1),
-				(s.minFilter = br),
-				(s.magFilter = br),
+				(s.minFilter = _r),
+				(s.magFilter = _r),
 				(s.generateMipmaps = !1),
 				(s.needsUpdate = !0),
 				(this.particleAtlas = s),
@@ -88992,9 +88993,9 @@ var eI = [
 					try {
 						let r = await fetch(n);
 						if (!r.ok) throw Error(`${r.status} ${r.statusText}`);
-						let i = new Wr(await createImageBitmap(await r.blob()));
-						(i.minFilter = br),
-							(i.magFilter = br),
+						let i = new Pr(await createImageBitmap(await r.blob()));
+						(i.minFilter = _r),
+							(i.magFilter = _r),
 							(i.needsUpdate = !0),
 							(t[e] = i);
 					} catch (t) {
@@ -89012,9 +89013,9 @@ var eI = [
 				: ((this.elytraMaterialPromise ||= (async () => {
 						try {
 							let e = await this.loader.loadAsync(`textures/elytra.png`);
-							(e.minFilter = br),
-								(e.magFilter = br),
-								(this.elytraMaterial = new er({
+							(e.minFilter = _r),
+								(e.magFilter = _r),
+								(this.elytraMaterial = new nr({
 									map: e,
 									transparent: !0,
 									depthWrite: !0,
@@ -89055,9 +89056,9 @@ var eI = [
 		async createAtlasTexture(e) {
 			let t = await this.loader.loadAsync(e);
 			return (
-				(t.minFilter = br),
-				(t.magFilter = br),
-				(t.colorSpace = ui),
+				(t.minFilter = _r),
+				(t.magFilter = _r),
+				(t.colorSpace = qn),
 				(t.generateMipmaps = !1),
 				await this.patchEngineSprites(t, e),
 				await this.injectDynamicSprites(t),
@@ -89154,10 +89155,10 @@ var eI = [
 				},
 				n = DDe.Lambert;
 			(this.material = new n(t)), (this.materialEnchanted = new n(t));
-			let r = new Ir();
+			let r = new xr();
 			(this.glintTexture = r.load(`textures/misc/enchanted_item_glint.png`)),
-				(this.glintTexture.wrapS = Cr),
-				(this.glintTexture.wrapT = Cr),
+				(this.glintTexture.wrapS = $r),
+				(this.glintTexture.wrapT = $r),
 				TN.addEnchantedEffect(this.materialEnchanted, this.glintTexture),
 				(this.materialTransparent = new n(t)),
 				(this.materialTransparent.transparent = !0),
@@ -89165,9 +89166,9 @@ var eI = [
 				(this.materialTransparent.alphaTest = 0.1),
 				(this.atlas = e.image),
 				(this.materialWorld = this.material.clone()),
-				TN.GlMEVvfHBKIhEAxisAlignedBoundingBoxhljlGExqk(this.materialWorld),
+				TN.MsjlGYnuOawYuWTwtiCdwJEN(this.materialWorld),
 				(this.materialTransparentWorld = this.materialTransparent.clone()),
-				TN.GlMEVvfHBKIhEAxisAlignedBoundingBoxhljlGExqk(this.materialTransparentWorld),
+				TN.MsjlGYnuOawYuWTwtiCdwJEN(this.materialTransparentWorld),
 				(this.materialTransparentWorld.depthWrite = !1);
 			let i = () => {
 				(this.materialWorld.needsUpdate = !0),
@@ -89176,7 +89177,7 @@ var eI = [
 			D.grassWave.onChange(i),
 				D.dynamicLighting.onChange(i),
 				D.globalIllumination.onChange(i),
-				(this.materialFluidWorld = new er({
+				(this.materialFluidWorld = new nr({
 					map: e,
 					side: 0,
 					transparent: !0,
@@ -89225,8 +89226,8 @@ var eI = [
 				t && t !== e && t.dispose();
 		}
 		loadSprite(e) {
-			let t = new Mr(
-				new Yr({
+			let t = new Ur(
+				new tee({
 					map: this.loader.load(`textures/${e}`),
 					color: 16777215,
 					fog: !1,
@@ -89249,7 +89250,7 @@ var eI = [
 				zke(),
 				this.skinManager.fixedUpdate();
 		}
-		sunDirection = new A(0, 1, 0);
+		sunDirection = new k(0, 1, 0);
 		updateSunDirection(e) {
 			this.sunDirection.copy(e),
 				this.materialFluidWorld?.userData &&
@@ -89259,7 +89260,7 @@ var eI = [
 		ambientLight = pj;
 		heldLightCount = 0;
 		heldLightLevels = new Float32Array(8);
-		heldLightPositions = Array.from({ length: 8 }, () => new A());
+		heldLightPositions = Array.from({ length: 8 }, () => new k());
 		_heldLightDistSq = new Float32Array(8);
 		_heldLightCamX = 0;
 		_heldLightCamY = 0;
@@ -89400,7 +89401,7 @@ var eI = [
 		duration;
 		constructor(e, t, n = 1) {
 			(this.position = e),
-				(this.rotation = t instanceof mr ? new k().setFromEuler(t) : t),
+				(this.rotation = t instanceof Xn ? new Zr().setFromEuler(t) : t),
 				(this.duration = n);
 		}
 	},
@@ -89433,8 +89434,8 @@ var eI = [
 	},
 	iI = new (class {
 		fireMesh;
-		camera = new ur(75, window.innerWidth / window.innerHeight, 0.01, 1e7);
-		scene = new qr();
+		camera = new Gn(75, window.innerWidth / window.innerHeight, 0.01, 1e7);
+		scene = new Dr();
 		constructor() {
 			this.scene.add(this.camera);
 			let e = new Or(16777215, 3);
@@ -89442,49 +89443,49 @@ var eI = [
 		}
 	})(),
 	tNe = r({ default: () => bI }),
-	aI = new A(),
-	oI = new k(),
-	nNe = new ci(1, 0.5, 0.5),
-	rNe = new ci(1, 1, 1),
-	sI = new A(1.357, -0.958, -1.642),
-	cI = new k().setFromEuler(new mr(-0.463, -1.565, 0)),
-	iNe = new A(0.696, 0.894, -0.405),
-	aNe = new k().setFromEuler(new mr(-1.67, 0.36, 1.467)),
-	oNe = new A(0.15, -0.55, -2.5),
-	sNe = new k().setFromEuler(new mr(0.1, -1.15, 0.35)),
-	cNe = new A(0.9, -2.35, -1.2),
-	lNe = new k().setFromEuler(new mr(-0.5, -1.4, 0.2)),
-	lI = new A(1.114, -2.674, -2.409),
-	uI = new k().setFromEuler(new mr(-0.055, 0.775, 0.037)),
+	aI = new k(),
+	oI = new Zr(),
+	nNe = new wr(1, 0.5, 0.5),
+	rNe = new wr(1, 1, 1),
+	sI = new k(1.357, -0.958, -1.642),
+	cI = new Zr().setFromEuler(new Xn(-0.463, -1.565, 0)),
+	iNe = new k(0.696, 0.894, -0.405),
+	aNe = new Zr().setFromEuler(new Xn(-1.67, 0.36, 1.467)),
+	oNe = new k(0.15, -0.55, -2.5),
+	sNe = new Zr().setFromEuler(new Xn(0.1, -1.15, 0.35)),
+	cNe = new k(0.9, -2.35, -1.2),
+	lNe = new Zr().setFromEuler(new Xn(-0.5, -1.4, 0.2)),
+	lI = new k(1.114, -2.674, -2.409),
+	uI = new Zr().setFromEuler(new Xn(-0.055, 0.775, 0.037)),
 	dI = new nI(aI, oI, 1),
-	fI = new nI(new A(-1.595, 1.555, -1.925), new mr(-0.77, -0.079, 0.267), 2),
-	pI = new nI(new A(-1.639, 0.806, -2.453), new mr(-0.955, 0, 0.406), 3),
+	fI = new nI(new k(-1.595, 1.555, -1.925), new Xn(-0.77, -0.079, 0.267), 2),
+	pI = new nI(new k(-1.639, 0.806, -2.453), new Xn(-0.955, 0, 0.406), 3),
 	uNe = new nI(aI, oI, 2),
-	dNe = new nI(new A(1.14, 0.31, 0), new mr(0, 0.03, -0.41)),
-	fNe = new nI(new A(-1.19, -0.01, 0), new mr(0.09, 0.83, -0.76)),
+	dNe = new nI(new k(1.14, 0.31, 0), new Xn(0, 0.03, -0.41)),
+	fNe = new nI(new k(-1.19, -0.01, 0), new Xn(0.09, 0.83, -0.76)),
 	pNe = new nI(aI, oI, 2),
-	mNe = new nI(new A(-2.92, -1.22, 0), new mr(-0.05, 0.01, 0.82)),
-	hNe = new nI(new A(-0.14, -0.82, -0.17), new mr(-0.6, -0.11, 0.98)),
+	mNe = new nI(new k(-2.92, -1.22, 0), new Xn(-0.05, 0.01, 0.82)),
+	hNe = new nI(new k(-0.14, -0.82, -0.17), new Xn(-0.6, -0.11, 0.98)),
 	gNe = new nI(aI, oI),
-	_Ne = new nI(new A(0, -0.17, 0), new mr(-0.13, -0.02, 0.11)),
-	vNe = new nI(new A(-0.47, -0.11, -1.27), new mr(-0.51, 0.01, 0.61)),
+	_Ne = new nI(new k(0, -0.17, 0), new Xn(-0.13, -0.02, 0.11)),
+	vNe = new nI(new k(-0.47, -0.11, -1.27), new Xn(-0.51, 0.01, 0.61)),
 	yNe = new nI(aI, oI),
-	bNe = new nI(new A(-0.09, 1, 0.6), new mr(0, 0, 0)),
-	xNe = new nI(new A(-1.595, 1.555, -1.925), new mr(-0.77, -0.079, 0.267)),
-	SNe = new nI(new A(-1.639, 0.806, -2.453), new mr(-0.955, 0, 0.406)),
-	mI = new A(1.199, -1.1, -1.379),
-	hI = new k().setFromEuler(new mr(-2.999, 0.968, -3.109)),
-	CNe = (e) => new A(-e.x, e.y, e.z),
-	wNe = (e) => new k(e.x, -e.y, -e.z, e.w),
+	bNe = new nI(new k(-0.09, 1, 0.6), new Xn(0, 0, 0)),
+	xNe = new nI(new k(-1.595, 1.555, -1.925), new Xn(-0.77, -0.079, 0.267)),
+	SNe = new nI(new k(-1.639, 0.806, -2.453), new Xn(-0.955, 0, 0.406)),
+	mI = new k(1.199, -1.1, -1.379),
+	hI = new Zr().setFromEuler(new Xn(-2.999, 0.968, -3.109)),
+	CNe = (e) => new k(-e.x, e.y, e.z),
+	wNe = (e) => new Zr(e.x, -e.y, -e.z, e.w),
 	gI = (e) => new nI(CNe(e.position), wNe(e.rotation), e.duration),
-	TNe = new A(0.8, -0.85, -1),
-	ENe = new k().setFromEuler(new mr(2.83, -0.54, 0.47)),
+	TNe = new k(0.8, -0.85, -1),
+	ENe = new Zr().setFromEuler(new Xn(2.83, -0.54, 0.47)),
 	DNe = new nI(aI, oI, 1),
-	ONe = new nI(new A(-0.24, -0.32, -0.44), new mr(0, 0.01, 0.5), 2),
-	kNe = new nI(new A(-0.34, -0.62, -0.62), new mr(-0.02, 0.2, 0.74)),
-	ANe = new nI(new A(-0.82, -1.04, -1.12), new mr(-0.41, -0.27, 1.05), 4),
-	_I = new nI(new A(0.567, -0.958, -1.642), new mr(-0.024, -0.024, 0.307), 1),
-	vI = new nI(new A(0.567, -1.658, -1.642), new mr(-0.024, -0.024, 0.307), 2),
+	ONe = new nI(new k(-0.24, -0.32, -0.44), new Xn(0, 0.01, 0.5), 2),
+	kNe = new nI(new k(-0.34, -0.62, -0.62), new Xn(-0.02, 0.2, 0.74)),
+	ANe = new nI(new k(-0.82, -1.04, -1.12), new Xn(-0.41, -0.27, 1.05), 4),
+	_I = new nI(new k(0.567, -0.958, -1.642), new Xn(-0.024, -0.024, 0.307), 1),
+	vI = new nI(new k(0.567, -1.658, -1.642), new Xn(-0.024, -0.024, 0.307), 2),
 	jNe = gI(dI),
 	MNe = gI(fI),
 	NNe = gI(pI),
@@ -89493,10 +89494,10 @@ var eI = [
 function yI() {
 	return Y.spectateTargetEntity() ?? Y;
 }
-var bI = new (class extends zr {
-		item = new zr();
-		offHandSwing = new zr();
-		offHandGroup = new zr();
+var bI = new (class extends ir {
+		item = new ir();
+		offHandSwing = new ir();
+		offHandGroup = new ir();
 		offHandMesh = new gr();
 		offHandTesr;
 		offHandCurrentItem = null;
@@ -89506,7 +89507,7 @@ var bI = new (class extends zr {
 		offHandEat = new rI([PNe, FNe], this.offHandSwing);
 		bobX = 0;
 		bobY = 0;
-		fireGroup = new zr();
+		fireGroup = new ir();
 		suffocationGroup = new gr();
 		lastSuffocationBlock;
 		mesh = new gr();
@@ -89554,7 +89555,7 @@ var bI = new (class extends zr {
 				a = e.itemInUse != null && e.itemInUseHand === ug.OFF_HAND;
 			if (
 				a &&
-				((e.FPJeIkyl() && r instanceof dg) ||
+				((e.acKIzIOD() && r instanceof dg) ||
 					(n.getItemUseAction() == Ld.DRINK && r instanceof y_))
 			) {
 				this.offHandGroup.position.copy(aI),
@@ -89579,7 +89580,7 @@ var bI = new (class extends zr {
 					: (this.offHandSwing.position.copy(aI),
 						this.offHandSwing.quaternion.copy(oI));
 			}
-			let o = a ? n.getMaxItemUseDuration() - e.oxaaoyYUMQnMAXmcK() : 0;
+			let o = a ? n.getMaxItemUseDuration() - e.VbPkuUXEGPmVfqFyO() : 0;
 			if (n.equals(this.offHandCurrentItem) && o === this.prevOffHandCharge)
 				return;
 			(this.offHandCurrentItem = n.clone()), (this.prevOffHandCharge = o);
@@ -89662,10 +89663,10 @@ var bI = new (class extends zr {
 			let e = 0.6,
 				t = this.getSpriteMesh(`fire_0`);
 			t.position.set(e, -1, -0.8);
-			let n = new zr();
+			let n = new ir();
 			n.rotation.set(0, 0.15 + Math.PI / 2, 0), n.add(t);
 			let r = this.getSpriteMesh(`fire_0`),
-				i = new zr();
+				i = new ir();
 			r.position.set(e, -1, -0.2),
 				i.rotation.set(0, -0.15 + Math.PI / 2, 0),
 				i.add(r),
@@ -89674,7 +89675,7 @@ var bI = new (class extends zr {
 		initSuffocationMesh() {
 			let e = this.getSpriteMesh(`stone`),
 				t = 0.4;
-			(e.material.color = new ci(t, t, t)),
+			(e.material.color = new wr(t, t, t)),
 				e.position.set(0.25, -0.5, -0.5),
 				this.suffocationGroup.add(e),
 				(this.suffocationGroup.rotation.y = Math.PI / 2);
@@ -89750,7 +89751,7 @@ var bI = new (class extends zr {
 			if (
 				e.itemInUse &&
 				t &&
-				((e.FPJeIkyl() && t.item instanceof dg) ||
+				((e.acKIzIOD() && t.item instanceof dg) ||
 					(t.getItemUseAction() == Ld.DRINK && t.item instanceof y_))
 			) {
 				let t =
@@ -89764,7 +89765,7 @@ var bI = new (class extends zr {
 			else if (e.isSpearCharging()) {
 				let n =
 					t?.item instanceof g_
-						? t.item.chargeStage(e.fhTsBkLUiPEISNyqJsJm())
+						? t.item.chargeStage(e.hoAfpnZfSlYdIbNIecVl())
 						: `engaged`;
 				n === `disengaged`
 					? (this.position.copy(cNe), this.quaternion.copy(lNe))
@@ -89794,7 +89795,7 @@ var bI = new (class extends zr {
 					? (this.swingLength.value = 0.04)
 					: (this.swingLength.value = 0);
 				let t = r.limbSwing - r.limbSwingAmount * (1 - r.getPartialTicks()),
-					n = r.mesh.lWlAhRbJqrVLgNo(),
+					n = r.mesh.RwFfStmOzpLdhpl(),
 					i = 0.8,
 					a = Math.sin(t * i) * n * this.swingLength.value,
 					o =
@@ -89814,7 +89815,7 @@ var bI = new (class extends zr {
 		}
 		update(e) {
 			let t = yI(),
-				n = t === Y ? Y.VGzXcRSikRQFJg() : t.mesh;
+				n = t === Y ? Y.mXUhHTWDvThTEW() : t.mesh;
 			if (!n || !n.model) return;
 			let r = n.model.skin,
 				i = J.skinManager.hasSkin(r);
@@ -89856,7 +89857,7 @@ var bI = new (class extends zr {
 			let c = t.getActiveItemStack(),
 				l = c.item;
 			(this.rightArm.visible = !1), (this.item.visible = !0);
-			let u = c.getMaxItemUseDuration() - t.oxaaoyYUMQnMAXmcK(),
+			let u = c.getMaxItemUseDuration() - t.VbPkuUXEGPmVfqFyO(),
 				d = $.world.entities.get(t.id),
 				f = l.equals(H.fishing_rod) && d instanceof Rg && d.fishEntity != null,
 				p = l instanceof T_ ? _j.frameFor(c) : -1,
@@ -89883,7 +89884,7 @@ var bI = new (class extends zr {
 						this.tesr && (this.tesr.visible = !0),
 						(this.mesh.visible = !1))
 					: l.equals(H.bow)
-						? t.wgBBWaLOvMfq()
+						? t.ErSvlYyKpHQF()
 							? u >= 18
 								? new GN(Ug.BOW_TEXTURES[3], h, this.mesh, c.hasEffect())
 								: u > 13
@@ -90414,7 +90415,7 @@ var VI = uT({ x: window.innerWidth / 2, y: window.innerHeight / 2 }, 10),
 					bG.leftClick(), (VI.event = 0);
 					break;
 				case 2:
-					e.preventDefault(), bG.OQgsiTRWqPL(), (VI.event = 2);
+					e.preventDefault(), bG.rLwHaTcawTb(), (VI.event = 2);
 					break;
 				case 3:
 					(VI.event = 1),
@@ -90434,7 +90435,7 @@ var VI = uT({ x: window.innerWidth / 2, y: window.innerHeight / 2 }, 10),
 					bG.leftClick(!0);
 					break;
 				case 2:
-					bG.OQgsiTRWqPL(!0);
+					bG.rLwHaTcawTb(!0);
 					break;
 				case 3:
 					(bG.rightClick = !1),
@@ -91766,10 +91767,10 @@ function NL(e, t, n, r, i) {
 		e.closePath();
 }
 var XPe = class {
-	start = new Tr();
-	curr = new Tr();
-	prev = new Tr();
-	direction = new Tr();
+	start = new dr();
+	curr = new dr();
+	prev = new dr();
+	direction = new dr();
 	moveId = null;
 	lookId = null;
 	jumping = !1;
@@ -91778,7 +91779,7 @@ var XPe = class {
 	startLook = 0;
 	lastLook = 0;
 	initialLoad = !0;
-	prevTouchPos = new Tr();
+	prevTouchPos = new dr();
 	constructor() {
 		this.initializeEventListeners();
 	}
@@ -91920,14 +91921,14 @@ var XPe = class {
 			this.prev.set(e.clientX, e.clientY),
 			(HI.x = e.clientX),
 			(HI.y = e.clientY),
-			bG.RZuTjUjIEZmKsxM(),
+			bG.QkOYvdBNLSbSdCG(),
 			bG.objectMouseOver.block)
 		)
 			this.prevTouchPos.set(e.clientX, e.clientY),
 				(this.startLook = Date.now());
 		else if (bG.objectMouseOver.entity) {
 			let t = bG.objectMouseOver.entity;
-			t.OdxKjYioRJwveZFMnsY() || this.heldItemUsesOnEntity(t)
+			t.EgvBwnSXHfcmEEAkJwG() || this.heldItemUsesOnEntity(t)
 				? (this.prevTouchPos.set(e.clientX, e.clientY),
 					(this.startLook = Date.now()))
 				: bG.leftClick();
@@ -92010,7 +92011,7 @@ var XPe = class {
 		this.moveId === null &&
 			(this.direction.x !== 0 || this.direction.y !== 0) &&
 			(this.direction.setScalar(0), this.setSprint(!1));
-		let e = this.prevTouchPos.distanceTo(new Tr(HI.x, HI.y));
+		let e = this.prevTouchPos.distanceTo(new dr(HI.x, HI.y));
 		this.startLook && e > 25 && (this.startLook = 0),
 			this.startLook &&
 				Date.now() - this.startLook > 300 &&
@@ -101323,7 +101324,7 @@ var oV = 32,
 				),
 				di(
 					() =>
-						import(`./GuiToast-B60iCIHk.js`)
+						import(`./GuiToast-DSaY1TQy.js`)
 							.then((e) => e.m)
 							.then((e) => e.default),
 					__vite__mapDeps([0, 1, 2, 3, 4]),
@@ -102088,7 +102089,7 @@ var kV = OV().then(() => NLe),
 			(t.exports = o);
 	}),
 	KLe = i((e, t) => {
-		t.exports = `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`;
+		t.exports = `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`;
 	}),
 	qLe = i((e) => {
 		var t = hi();
@@ -106502,7 +106503,7 @@ var Hze = {
 			Object.assign(this.config, e),
 				T.info(`[NetworkSimulator] config updated`, this.config);
 		}
-		GIazEHoZ(e, t = `recv`) {
+		ShjRTtkF(e, t = `recv`) {
 			return this.config.enabled
 				? this.config.packetLoss > 0 && Math.random() < this.config.packetLoss
 					? !1
@@ -106520,7 +106521,7 @@ var Hze = {
 		}
 		enqueue(e, t) {
 			let n = Math.max(
-				performance.now() + this.sTCLMYTfqMnN(),
+				performance.now() + this.UjgSMVeKHdWH(),
 				this.lastDeliveryAt[e],
 			);
 			(this.lastDeliveryAt[e] = n),
@@ -106534,7 +106535,7 @@ var Hze = {
 			this.draining[e] = !0;
 			let n = Math.max(0, t[0].deliverAt - performance.now()),
 				r = setTimeout(() => {
-					this.YzXAwkHaPnK(r), (this.draining[e] = !1);
+					this.ZelBwuoVvhs(r), (this.draining[e] = !1);
 					let n = t.shift();
 					try {
 						n?.action();
@@ -106546,11 +106547,11 @@ var Hze = {
 		}
 		scheduleUnordered(e, t) {
 			let n = setTimeout(() => {
-				this.YzXAwkHaPnK(n), t();
-			}, this.sTCLMYTfqMnN());
+				this.ZelBwuoVvhs(n), t();
+			}, this.UjgSMVeKHdWH());
 			this.pendingTimers.push(n);
 		}
-		sTCLMYTfqMnN() {
+		UjgSMVeKHdWH() {
 			let { latencyMs: e, jitterMs: t } = this.config,
 				n = t > 0 ? (Math.random() * 2 - 1) * t : 0;
 			return Math.max(0, e + n);
@@ -106564,7 +106565,7 @@ var Hze = {
 				(this.lastDeliveryAt.recv = this.lastDeliveryAt.send =
 					performance.now());
 		}
-		YzXAwkHaPnK(e) {
+		ZelBwuoVvhs(e) {
 			let t = this.pendingTimers.indexOf(e);
 			t !== -1 && this.pendingTimers.splice(t, 1);
 		}
@@ -106790,7 +106791,7 @@ var aBe = {
 								return;
 							}
 							for (let e of t)
-								hG.netSim.GIazEHoZ(() => this.emit(`decoded`, e));
+								hG.netSim.ShjRTtkF(() => this.emit(`decoded`, e));
 						}),
 						(this.worker.onerror = (e) => {
 							T.error(`NetworkDecodeWorker crashed; decoding inline`, e),
@@ -106873,7 +106874,7 @@ var aBe = {
 										this.inlinePrimeCtx,
 									);
 								for (let e of r)
-									hG.netSim.GIazEHoZ(() => this.emit(`decoded`, e));
+									hG.netSim.ShjRTtkF(() => this.emit(`decoded`, e));
 							} catch (e) {
 								this.onDecodeFailure(e);
 							}
@@ -107005,7 +107006,7 @@ var aBe = {
 		}
 		static sendPacket(e) {
 			let t = e.constructor.typeName;
-			this.netSim.GIazEHoZ(() => {
+			this.netSim.ShjRTtkF(() => {
 				this.socket?.emit(t, e);
 			}, `send`);
 		}
@@ -107013,13 +107014,13 @@ var aBe = {
 	gG = new (class {
 		lastSentSlot = -1;
 		isHittingBlock = !1;
-		NDCoZyqPijwxFgkhtRU() {
+		ZVSujghmwqWlaVsShCN() {
 			if (Y.isSpectatingOtherPlayer()) return;
 			let e = Y.inventory.currentItem;
 			e !== this.lastSentSlot &&
 				((this.lastSentSlot = e), hG.sendPacket(new zz({ slot: e })));
 		}
-		aZrExSCmsCihe() {
+		WHQrpgedWqtgK() {
 			return this.isHittingBlock;
 		}
 		sendEnchantPacket(e, t) {
@@ -107031,12 +107032,12 @@ var aBe = {
 	})(),
 	oBe = 80,
 	_G = new AxisAlignedBoundingBox(),
-	vG = new A(),
+	vG = new k(),
 	yG = new AxisAlignedBoundingBox(),
-	sBe = new AxisAlignedBoundingBox(new A(0, 0, 0), new A(0, 0, 0)),
-	cBe = new A(),
-	lBe = new A(0, 1, 0),
-	uBe = new A(),
+	sBe = new AxisAlignedBoundingBox(new k(0, 0, 0), new k(0, 0, 0)),
+	cBe = new k(),
+	lBe = new k(0, 1, 0),
+	uBe = new k(),
 	bG = new (class {
 		prevBlock = void 0;
 		lastBreakSoundPlay = 0;
@@ -107061,7 +107062,7 @@ var aBe = {
 		reset() {
 			this.key.leftClick = 0;
 		}
-		jmTxIdDYxbOMCsFrRoafD() {
+		iVIfHUrkoiaaEfAOBMCkY() {
 			return Y.abilities.creative ? 5 : 4.5;
 		}
 		leftClick(e) {
@@ -107077,7 +107078,7 @@ var aBe = {
 						this.tryFireWeapon();
 					return;
 				}
-				this.RZuTjUjIEZmKsxM();
+				this.QkOYvdBNLSbSdCG();
 				let t = this.punch();
 				Y.abilities.creative && !e && !t && this.mine(!0);
 			}
@@ -107155,13 +107156,13 @@ var aBe = {
 				se = new gv($.world, Y, t);
 			(se.predicted = !0),
 				(se.id = this.nextPredictedId--),
-				se.setPosition(new A(h, g, _)),
-				se.ClKcLjUSSNT((re / oe) * p, (ie / oe) * p, (ae / oe) * p),
+				se.setPosition(new k(h, g, _)),
+				se.lnoVLrDQLLV((re / oe) * p, (ie / oe) * p, (ae / oe) * p),
 				wF.addLocalEntity(se);
 		}
 		nextPredictedId = -1e6;
-		OQgsiTRWqPL(e) {
-			e || (Q9.isActive() && this.wRnPZtPfO());
+		rLwHaTcawTb(e) {
+			e || (Q9.isActive() && this.KkSGXoKlS());
 		}
 		rightClickMouse(e = !1) {
 			if (
@@ -107180,7 +107181,7 @@ var aBe = {
 				this.objectMouseOver.typeOfHit === Lp.ENTITY &&
 				this.objectMouseOver.entity
 			)
-				this.PCfIYNwkAPyjOPSJrTaxLzJOHosK(Y, this.objectMouseOver.entity) &&
+				this.qEOXJPISRgugPtajEgnqxUCAhnwu(Y, this.objectMouseOver.entity) &&
 					(r = !1);
 			else if (this.objectMouseOver.typeOfHit === Lp.BLOCK) {
 				let e = this.objectMouseOver,
@@ -107188,7 +107189,7 @@ var aBe = {
 				if ($.world.getBlockState(i).getBlock().material != z.air) {
 					let a = n == null ? 0 : n.stackSize;
 					if (
-						(this.frFXfBwdRmWzESbxRI(Y, $.world, n, i, e.side, e.hitVec, t) &&
+						(this.FDOyfOOBQYPdWIGyJB(Y, $.world, n, i, e.side, e.hitVec, t) &&
 							((r = !1), this.swingHand(t)),
 						n == null)
 					)
@@ -107204,13 +107205,13 @@ var aBe = {
 				}
 			}
 			r &&
-				this.MBABcesqxth(Y, $.world, n, e, t) &&
+				this.KXZbtoofeLO(Y, $.world, n, e, t) &&
 				n != null &&
 				this.swingHand(t),
 				(Y.pendingUseHand = ug.MAIN_HAND);
 		}
 		swingHand(e) {
-			bI.swingArm(e), Y.VGzXcRSikRQFJg()?.swingArm?.(e);
+			bI.swingArm(e), Y.mXUhHTWDvThTEW()?.swingArm?.(e);
 		}
 		hasRightClickUse(e) {
 			if (e == null || e.stackSize <= 0) return !1;
@@ -107234,8 +107235,8 @@ var aBe = {
 				? (e.inventory.offHand[0] = n)
 				: (e.inventory.main[e.inventory.currentItem] = n);
 		}
-		frFXfBwdRmWzESbxRI(e, t, n, r, i, a, o = ug.MAIN_HAND) {
-			gG.NDCoZyqPijwxFgkhtRU();
+		FDOyfOOBQYPdWIGyJB(e, t, n, r, i, a, o = ug.MAIN_HAND) {
+			gG.ZVSujghmwqWlaVsShCN();
 			let s = a.x - r.x,
 				c = a.y - r.y,
 				l = a.z - r.z;
@@ -107270,13 +107271,13 @@ var aBe = {
 				return a && n.item.isItemBlock() && (NI.markPlaced(), Kt.light()), a;
 			}
 		}
-		MBABcesqxth(e, t, n, r = !1, i = ug.MAIN_HAND) {
+		KXZbtoofeLO(e, t, n, r = !1, i = ug.MAIN_HAND) {
 			if (
 				e.mode.isSpectator() ||
 				(r && n != null && n.getItemUseAction() === Ld.BLOCK)
 			)
 				return !1;
-			gG.NDCoZyqPijwxFgkhtRU(),
+			gG.ZVSujghmwqWlaVsShCN(),
 				this.rightClickInitial &&
 					this.heldWeapon()?.adsFov != null &&
 					(this.scopeToggled = !this.scopeToggled);
@@ -107314,7 +107315,7 @@ var aBe = {
 			);
 		}
 		onStoppedUsingItem(e) {
-			gG.NDCoZyqPijwxFgkhtRU(),
+			gG.ZVSujghmwqWlaVsShCN(),
 				hG.sendPacket(
 					new OI({
 						position: I.ORIGIN.toProto(),
@@ -107322,7 +107323,7 @@ var aBe = {
 						action: xI.RELEASE_USE_ITEM,
 					}),
 				),
-				e.sdJBQUWusWtLy();
+				e.SinDdozEdJNVR();
 		}
 		select() {
 			if (Y.mode.isSpectator()) {
@@ -107351,13 +107352,13 @@ var aBe = {
 					(Y.selectBox.visible = !0),
 					Y.selectBox.updateMatrixWorld(),
 					this.prevBlock &&
-						!this.prevBlock.equals(new A(n, r, i)) &&
+						!this.prevBlock.equals(new k(n, r, i)) &&
 						this.key.leftClick)
 				) {
 					let e = I.fromVector(this.prevBlock);
 					$.chunkRenderManager.chunkRenderWorkerManager.setDamagedBlock(e, -1),
 						Y.mode.isSurvival() && (this.key.leftClick = Date.now()),
-						(this.prevBlock = new A(n, r, i));
+						(this.prevBlock = new k(n, r, i));
 				}
 			} else Y.selectBox && (Y.selectBox.visible = !1);
 		}
@@ -107387,7 +107388,7 @@ var aBe = {
 			}
 		}
 		attackEntity(e) {
-			gG.NDCoZyqPijwxFgkhtRU(),
+			gG.ZVSujghmwqWlaVsShCN(),
 				hG.sendPacket(
 					new kI({
 						id: e.id,
@@ -107403,12 +107404,12 @@ var aBe = {
 					}),
 				),
 				pN.noteLocalAttack(e.id, e.pos.x - Y.pos.x, e.pos.z - Y.pos.z),
-				Y.CoMPhULltCKohpdFrHRFghmBwHFoDvIdw(e),
+				Y.zhUtQHKZnIRXxWjsAwQyFcpgmbCczaARg(e),
 				Kt.hit();
 		}
-		PCfIYNwkAPyjOPSJrTaxLzJOHosK(e, t) {
+		qEOXJPISRgugPtajEgnqxUCAhnwu(e, t) {
 			return t
-				? (gG.NDCoZyqPijwxFgkhtRU(),
+				? (gG.ZVSujghmwqWlaVsShCN(),
 					hG.sendPacket(
 						new kI({
 							id: t.id,
@@ -107420,10 +107421,10 @@ var aBe = {
 							}),
 						}),
 					),
-					e.UElvPrIBTdGP(t))
+					e.FeFDrgeDRaxS(t))
 				: !1;
 		}
-		LCKSPlakxruAevLRiYbfWLrGvH(e) {
+		tCqVmZMEttSYuMNeqiauagiLdF(e) {
 			for (let t = 0; t < 9; t++)
 				if (Y.inventory.main[t] && Y.inventory.main[t].item.equals(e)) return t;
 			for (let e = 0; e < 9; e++) if (!Y.inventory.main[e]) return e;
@@ -107438,8 +107439,8 @@ var aBe = {
 			let e = this.getTargetedBlockCoords();
 			return e ? $.world.getBlockState(e) : null;
 		}
-		DajMKxyLLYuoeuGCVGa() {
-			let e = Y.vKGPGWYFD(),
+		OXGsdaXyMycUJYbLXOp() {
+			let e = Y.jRUJWvIuQ(),
 				t = Y.getLook().clone().normalize(),
 				n = ((HI.x - PI.rectLeft) / PI.rectWidth) * 2 - 1,
 				r = ((HI.y - PI.rectTop) / PI.rectHeight) * 2 - 1,
@@ -107454,11 +107455,11 @@ var aBe = {
 				f = t.add(u).add(d).normalize().multiplyScalar(100);
 			return e.clone().add(f);
 		}
-		RZuTjUjIEZmKsxM() {
+		QkOYvdBNLSbSdCG() {
 			if (!$.inGame() || Y.getHealth() < 0) return;
-			let e = this.jmTxIdDYxbOMCsFrRoafD(),
+			let e = this.iVIfHUrkoiaaEfAOBMCkY(),
 				t = null,
-				n = Y.vKGPGWYFD(),
+				n = Y.jRUJWvIuQ(),
 				r = Y.getLook(),
 				i = n.clone().add(r.multiplyScalar(e)),
 				a =
@@ -107467,7 +107468,7 @@ var aBe = {
 						(Date.now() - FL.lastLook > 500 && FL.lookId == null));
 			UM.enabled || a
 				? (this.objectMouseOver = Bp(Y, $.world, e))
-				: ((i = this.DajMKxyLLYuoeuGCVGa()),
+				: ((i = this.OXGsdaXyMycUJYbLXOp()),
 					(this.objectMouseOver = zp(n, i, !0, !1, !1, $.world)));
 			let o = e;
 			this.objectMouseOver != null &&
@@ -107523,7 +107524,7 @@ var aBe = {
 					((this.lastHoverKeyAt = e), (this.hoverKey = f));
 			}
 		}
-		wRnPZtPfO() {
+		KkSGXoKlS() {
 			if (!Y.abilities.creative) return;
 			if (this.objectMouseOver.typeOfHit === Lp.ENTITY) {
 				let e = this.getSpawnEggForEntity(this.objectMouseOver.entity);
@@ -107560,7 +107561,7 @@ var aBe = {
 			return null;
 		}
 		giveHotbarItem(e, t = null) {
-			let n = this.LCKSPlakxruAevLRiYbfWLrGvH(e),
+			let n = this.tCqVmZMEttSYuMNeqiauagiLdF(e),
 				r = new V(e);
 			t && (r.data = t),
 				(Y.inventory.main[n] = r),
@@ -107618,7 +107619,7 @@ var aBe = {
 						let e = Y.getActiveItemStack();
 						e != null &&
 							(e.onBlockDestroyed($.world, s, i, Y),
-							e.stackSize == 0 && Y.yzWJaWWROpHefUjZvXqxCcqsZf());
+							e.stackSize == 0 && Y.whbiEPFxgihmvuJlmVHoWjMBdJ());
 					}
 					this.key.leftClick = Date.now();
 				} else
@@ -107632,7 +107633,7 @@ var aBe = {
 						));
 				if (this.key.leftClick) {
 					this.prevBlock ??
-						((this.prevBlock = new A(t, n, r)),
+						((this.prevBlock = new k(t, n, r)),
 						(this.key.leftClick = Date.now()));
 					let e = (0, Kj.clamp)(Math.floor((a / c) * 10), 0, 9);
 					if (
@@ -107668,7 +107669,7 @@ var aBe = {
 			Y.getHealth() <= 0 ||
 				Y.mode.isSpectator() ||
 				Y.isSpectatingOtherPlayer() ||
-				(Y.isUsingItem() && Y.jJDerSJyXOMAtQ(),
+				(Y.isUsingItem() && Y.WEkNoGPDMarwJQ(),
 				Y.swapHandItems(),
 				$.info.touchInventory(),
 				hG.sendPacket(
@@ -107763,7 +107764,7 @@ var aBe = {
 			jI.reticleSpread = Math.abs(s - a) < 0.05 ? a : s;
 		}
 		render() {
-			this.RZuTjUjIEZmKsxM(), this.select(), this.mine();
+			this.QkOYvdBNLSbSdCG(), this.select(), this.mine();
 		}
 	})(),
 	xG = {
@@ -107989,7 +107990,7 @@ var PG = 0.5,
 		_time = 0;
 		_intensity = FG;
 		_occluderExclude = null;
-		_prevClearColor = new ci();
+		_prevClearColor = new wr();
 		constructor(e) {
 			super(),
 				(this._scene = e.scene),
@@ -108001,17 +108002,17 @@ var PG = 0.5,
 				(this._hudItemGroup = e.hudItemGroup),
 				(this._hudCamera = e.hudCamera),
 				(this.needsSwap = !0),
-				(this.occluderMaterial = new vr({
+				(this.occluderMaterial = new Qn({
 					colorWrite: !1,
 					depthWrite: !0,
 					depthTest: !0,
 					side: 0,
 				}));
-			let t = { minFilter: dr, magFilter: dr, type: or, wrapS: ri, wrapT: ri };
-			(this.emissiveTarget = new oi(1, 1, { ...t, depthBuffer: !0 })),
-				(this.blurTargetA = new oi(1, 1, { ...t, depthBuffer: !1 })),
-				(this.blurTargetB = new oi(1, 1, { ...t, depthBuffer: !1 })),
-				(this.emissiveMaterial = new $r({
+			let t = { minFilter: ui, magFilter: ui, type: ar, wrapS: ci, wrapT: ci };
+			(this.emissiveTarget = new pr(1, 1, { ...t, depthBuffer: !0 })),
+				(this.blurTargetA = new pr(1, 1, { ...t, depthBuffer: !1 })),
+				(this.blurTargetB = new pr(1, 1, { ...t, depthBuffer: !1 })),
+				(this.emissiveMaterial = new Vr({
 					uniforms: {
 						map: { value: null },
 						time: { value: 0 },
@@ -108072,8 +108073,8 @@ var PG = 0.5,
         gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0);
       }
     `;
-			(this.blurMaterial = new $r({
-				uniforms: { tDiffuse: { value: null }, direction: { value: new Tr() } },
+			(this.blurMaterial = new Vr({
+				uniforms: { tDiffuse: { value: null }, direction: { value: new dr() } },
 				vertexShader: n,
 				fragmentShader: `
         uniform sampler2D tDiffuse;
@@ -108091,7 +108092,7 @@ var PG = 0.5,
 				depthTest: !1,
 				depthWrite: !1,
 			})),
-				(this.compositeMaterial = new $r({
+				(this.compositeMaterial = new Vr({
 					uniforms: {
 						tDiffuse: { value: null },
 						tBloom: { value: null },
@@ -108112,8 +108113,8 @@ var PG = 0.5,
 					depthTest: !1,
 					depthWrite: !1,
 				})),
-				(this.blurQuad = new Kr(this.blurMaterial)),
-				(this.compositeQuad = new Kr(this.compositeMaterial));
+				(this.blurQuad = new Gr(this.blurMaterial)),
+				(this.compositeQuad = new Gr(this.compositeMaterial));
 		}
 		setIntensity(e) {
 			(this._intensity = e),
@@ -108317,20 +108318,20 @@ var PG = 0.5,
 		constructor() {
 			super(), (this.needsSwap = !0);
 			let e = {
-				minFilter: dr,
-				magFilter: dr,
-				type: or,
-				format: Zr,
+				minFilter: ui,
+				magFilter: ui,
+				type: ar,
+				format: Lr,
 				depthBuffer: !1,
 				stencilBuffer: !1,
-				wrapS: ri,
-				wrapT: ri,
+				wrapS: ci,
+				wrapT: ci,
 			};
 			for (let t = FBe; t >= 1; t = Math.floor(t / 2))
-				this._lumTargets.push(new oi(t, t, e));
-			let t = { ...e, minFilter: br, magFilter: br };
-			(this._adaptTargets = [new oi(1, 1, t), new oi(1, 1, t)]),
-				(this._luminanceMaterial = new $r({
+				this._lumTargets.push(new pr(t, t, e));
+			let t = { ...e, minFilter: _r, magFilter: _r };
+			(this._adaptTargets = [new pr(1, 1, t), new pr(1, 1, t)]),
+				(this._luminanceMaterial = new Vr({
 					uniforms: { tDiffuse: { value: null } },
 					vertexShader: LG,
 					fragmentShader: `
@@ -108347,7 +108348,7 @@ var PG = 0.5,
 					depthWrite: !1,
 					blending: 0,
 				})),
-				(this._downsampleMaterial = new $r({
+				(this._downsampleMaterial = new Vr({
 					uniforms: { tDiffuse: { value: null } },
 					vertexShader: LG,
 					fragmentShader: `
@@ -108361,7 +108362,7 @@ var PG = 0.5,
 					depthWrite: !1,
 					blending: 0,
 				})),
-				(this._adaptMaterial = new $r({
+				(this._adaptMaterial = new Vr({
 					uniforms: {
 						tCurrentLum: { value: null },
 						tPreviousAdapt: { value: null },
@@ -108392,7 +108393,7 @@ var PG = 0.5,
 					depthWrite: !1,
 					blending: 0,
 				})),
-				(this._applyMaterial = new $r({
+				(this._applyMaterial = new Vr({
 					uniforms: {
 						tDiffuse: { value: null },
 						tAdapt: { value: null },
@@ -108429,13 +108430,13 @@ var PG = 0.5,
 					depthWrite: !1,
 					blending: 0,
 				})),
-				(this._quad = new Kr(this._luminanceMaterial));
+				(this._quad = new Gr(this._luminanceMaterial));
 		}
 		setStrength(e) {
-			this._applyMaterial.uniforms.strength.value = _r.clamp(e, 0, 1);
+			this._applyMaterial.uniforms.strength.value = $n.clamp(e, 0, 1);
 		}
 		setDaylight(e) {
-			this._applyMaterial.uniforms.daylight.value = _r.clamp(e, 0, 1);
+			this._applyMaterial.uniforms.daylight.value = $n.clamp(e, 0, 1);
 		}
 		reset() {
 			this._needsReset = !0;
@@ -108468,7 +108469,7 @@ var PG = 0.5,
 				l = this._adaptMaterial.uniforms;
 			(l.tCurrentLum.value = o.texture),
 				(l.tPreviousAdapt.value = s.texture),
-				(l.deltaTime.value = _r.clamp(r, 0, 0.1)),
+				(l.deltaTime.value = $n.clamp(r, 0, 0.1)),
 				(l.reset.value = +!!this._needsReset),
 				(this._quad.material = this._adaptMaterial),
 				e.setRenderTarget(c),
@@ -108636,28 +108637,28 @@ var QBe = 16,
 		_target;
 		_fullWidth = 1;
 		_fullHeight = 1;
-		_prevViewProj = new tr();
-		_viewScratch = new tr();
-		_camPos = new A();
-		_prevCamPos = new A();
-		_quat = new k();
-		_prevQuat = new k();
+		_prevViewProj = new mr();
+		_viewScratch = new mr();
+		_camPos = new k();
+		_prevCamPos = new k();
+		_quat = new Zr();
+		_prevQuat = new Zr();
 		_prevValid = !1;
 		_hasMotion = !1;
 		constructor() {
 			super(),
 				(this.needsSwap = !0),
-				(this._target = new oi(1, 1, {
-					minFilter: dr,
-					magFilter: dr,
-					type: or,
-					format: Zr,
+				(this._target = new pr(1, 1, {
+					minFilter: ui,
+					magFilter: ui,
+					type: ar,
+					format: Lr,
 					depthBuffer: !1,
 					stencilBuffer: !1,
-					wrapS: ri,
-					wrapT: ri,
+					wrapS: ci,
+					wrapT: ci,
 				})),
-				(this._blur = new $r({
+				(this._blur = new Vr({
 					vertexShader: zG,
 					fragmentShader: iVe,
 					depthTest: !1,
@@ -108665,21 +108666,21 @@ var QBe = 16,
 					uniforms: {
 						tDiffuse: { value: null },
 						tDepth: { value: null },
-						uInvProjection: { value: new tr() },
-						uCameraMatrixWorld: { value: new tr() },
-						uPrevViewProj: { value: new tr() },
+						uInvProjection: { value: new mr() },
+						uCameraMatrixWorld: { value: new mr() },
+						uPrevViewProj: { value: new mr() },
 						uVelocityScale: { value: 0 },
 						uMaxVelocity: { value: RG },
 					},
 				})),
-				(this._copy = new $r({
+				(this._copy = new Vr({
 					vertexShader: zG,
 					fragmentShader: aVe,
 					depthTest: !1,
 					depthWrite: !1,
 					uniforms: { tDiffuse: { value: null } },
 				})),
-				(this._quad = new Kr(this._blur)),
+				(this._quad = new Gr(this._blur)),
 				D.motionBlur.onChange((e) => {
 					e || this.release();
 				});
@@ -108706,7 +108707,7 @@ var QBe = 16,
 				this._hasMotion
 					? (r.uPrevViewProj.value.copy(this._prevViewProj),
 						(r.uVelocityScale.value =
-							c * _r.clamp($Be / Math.max(n, 1e-4), eVe, tVe)))
+							c * $n.clamp($Be / Math.max(n, 1e-4), eVe, tVe)))
 					: (r.uVelocityScale.value = 0),
 				this._prevViewProj.multiplyMatrices(
 					e.projectionMatrix,
@@ -108757,7 +108758,7 @@ var QBe = 16,
 					tDiffuse: { value: null },
 					time: { value: 0 },
 					intensity: { value: 0 },
-					tint: { value: new ci(16391446) },
+					tint: { value: new wr(16391446) },
 				},
 				vertexShader: `
         varying vec2 vUv;
@@ -108855,14 +108856,14 @@ var QBe = 16,
 			tLinearViewZ: { value: null },
 			reflectionNear: { value: 0.01 },
 			reflectionFar: { value: 256 },
-			reflectionResolution: { value: new Tr(1, 1) },
-			reflectionViewProjectionMatrix: { value: new tr() },
-			reflectionViewMatrix: { value: new tr() },
-			reflectionViewMatrixInverse: { value: new tr() },
-			reflectionProjectionMatrixInverse: { value: new tr() },
+			reflectionResolution: { value: new dr(1, 1) },
+			reflectionViewProjectionMatrix: { value: new mr() },
+			reflectionViewMatrix: { value: new mr() },
+			reflectionViewMatrixInverse: { value: new mr() },
+			reflectionProjectionMatrixInverse: { value: new mr() },
 			reflectionEnabled: { value: 0 },
 		};
-		_projInverse = new tr();
+		_projInverse = new mr();
 		_fluidVisibility = new Map();
 		_ambientWasVisible = !0;
 		_entityWasVisible = !0;
@@ -108870,30 +108871,30 @@ var QBe = 16,
 		_linearDepthCamera;
 		_linearDepthMaterial;
 		constructor() {
-			let e = new si(1, 1);
-			(e.type = li),
+			let e = new ur(1, 1);
+			(e.type = ree),
 				(this.depthTexture = e),
-				(e.wrapS = ri),
-				(e.wrapT = ri),
-				(this.target = new oi(1, 1, {
-					minFilter: dr,
-					magFilter: dr,
+				(e.wrapS = ci),
+				(e.wrapT = ci),
+				(this.target = new pr(1, 1, {
+					minFilter: ui,
+					magFilter: ui,
 					depthTexture: e,
 					depthBuffer: !0,
 				})),
-				(this.target.texture.colorSpace = ui),
-				(this.target.texture.wrapS = ri),
-				(this.target.texture.wrapT = ri),
-				(this.linearViewZTarget = new oi(1, 1, {
-					minFilter: br,
-					magFilter: br,
-					type: Zn,
-					format: Rr,
+				(this.target.texture.colorSpace = qn),
+				(this.target.texture.wrapS = ci),
+				(this.target.texture.wrapT = ci),
+				(this.linearViewZTarget = new pr(1, 1, {
+					minFilter: _r,
+					magFilter: _r,
+					type: or,
+					format: Kr,
 					depthBuffer: !1,
 				})),
-				(this.linearViewZTarget.texture.wrapS = ri),
-				(this.linearViewZTarget.texture.wrapT = ri),
-				(this._linearDepthMaterial = new $r({
+				(this.linearViewZTarget.texture.wrapS = ci),
+				(this.linearViewZTarget.texture.wrapT = ci),
+				(this._linearDepthMaterial = new Vr({
 					uniforms: {
 						tDepth: { value: e },
 						near: { value: 0.01 },
@@ -108904,15 +108905,15 @@ var QBe = 16,
 					depthTest: !1,
 					depthWrite: !1,
 				})),
-				(this._linearDepthScene = new qr()),
+				(this._linearDepthScene = new Dr()),
 				this._linearDepthScene.add(
-					new gr(new Kn(2, 2), this._linearDepthMaterial),
+					new gr(new Ar(2, 2), this._linearDepthMaterial),
 				),
-				(this._linearDepthCamera = new xr(-1, 1, 1, -1, 0, 1));
+				(this._linearDepthCamera = new cr(-1, 1, 1, -1, 0, 1));
 		}
 		configureDepthPrecision(e) {
 			e.capabilities.isWebGL2 &&
-				((this.depthTexture.type = Zn), (this.depthTexture.needsUpdate = !0));
+				((this.depthTexture.type = or), (this.depthTexture.needsUpdate = !0));
 		}
 		resize(e, t) {
 			this.target.setSize(e, t),
@@ -109030,7 +109031,7 @@ var QBe = 16,
 function pVe() {
 	if (BG) return;
 	BG = !0;
-	let e = Vr.shadowmap_pars_fragment,
+	let e = Br.shadowmap_pars_fragment,
 		t = e.replace(fVe, dVe);
 	if (t === e) {
 		console.warn(
@@ -109038,7 +109039,7 @@ function pVe() {
 		);
 		return;
 	}
-	Vr.shadowmap_pars_fragment = t;
+	Br.shadowmap_pars_fragment = t;
 }
 var VG = { submerged: !1, depthBelowSurface: 0, lava: !1 };
 function mVe(e, t = 0, n = !1) {
@@ -109100,12 +109101,12 @@ var wVe = class {
 			if (this.texture) return;
 			let e = this.N * this.N * this.N * 4;
 			(this.frontData = new Uint8Array(e)), (this.backData = new Uint8Array(e));
-			let t = new wr(this.frontData, this.N, this.N, this.N);
-			(t.format = Zr),
-				(t.type = ii),
-				(t.minFilter = dr),
-				(t.magFilter = dr),
-				(t.wrapS = t.wrapT = t.wrapR = ri),
+			let t = new si(this.frontData, this.N, this.N, this.N);
+			(t.format = Lr),
+				(t.type = Tr),
+				(t.minFilter = ui),
+				(t.magFilter = ui),
+				(t.wrapS = t.wrapT = t.wrapR = ci),
 				(t.needsUpdate = !0),
 				(this.texture = t);
 		}
@@ -109806,7 +109807,7 @@ var ZG = 1.05,
 	PVe = 0,
 	FVe = 0.15,
 	IVe = 0.5,
-	LVe = new ci(1, 0.95, 0.85),
+	LVe = new wr(1, 0.95, 0.85),
 	RVe = 0.9,
 	zVe = 1.4,
 	BVe = 6,
@@ -109822,30 +109823,30 @@ var ZG = 1.05,
 		_resolutionScale = WG.resolutionScale;
 		_fullWidth = 1;
 		_fullHeight = 1;
-		_prevViewProj = new tr();
-		_viewScratch = new tr();
-		_prevCamPos = new A();
-		_prevCamDir = new A(0, 0, -1);
+		_prevViewProj = new mr();
+		_viewScratch = new mr();
+		_prevCamPos = new k();
+		_prevCamDir = new k(0, 0, -1);
 		_prevValid = !1;
-		_camDir = new A();
+		_camDir = new k();
 		_frame = 0;
-		_sunScreen = new A();
+		_sunScreen = new k();
 		_debugView = 0;
 		constructor() {
 			super(), (this.needsSwap = !0);
 			let e = {
-				minFilter: dr,
-				magFilter: dr,
-				type: or,
-				format: Zr,
+				minFilter: ui,
+				magFilter: ui,
+				type: ar,
+				format: Lr,
 				depthBuffer: !1,
 				stencilBuffer: !1,
-				wrapS: ri,
-				wrapT: ri,
+				wrapS: ci,
+				wrapT: ci,
 			};
-			(this._fogTargets = [new oi(1, 1, e), new oi(1, 1, e)]),
-				(this._raymarch = new $r({
-					glslVersion: qn,
+			(this._fogTargets = [new pr(1, 1, e), new pr(1, 1, e)]),
+				(this._raymarch = new Vr({
+					glslVersion: Rr,
 					vertexShader: DVe,
 					fragmentShader: OVe,
 					depthTest: !1,
@@ -109853,11 +109854,11 @@ var ZG = 1.05,
 					uniforms: {
 						tDepth: { value: null },
 						tHistory: { value: null },
-						uInvProjection: { value: new tr() },
-						uCameraMatrixWorld: { value: new tr() },
-						uViewProj: { value: new tr() },
-						uPrevViewProj: { value: new tr() },
-						uCameraPos: { value: new A() },
+						uInvProjection: { value: new mr() },
+						uCameraMatrixWorld: { value: new mr() },
+						uViewProj: { value: new mr() },
+						uPrevViewProj: { value: new mr() },
+						uCameraPos: { value: new k() },
 						uNear: { value: 0.01 },
 						uFar: { value: 1e3 },
 						uSteps: { value: 16 },
@@ -109876,13 +109877,13 @@ var ZG = 1.05,
 						uDimensionDensity: { value: 1 },
 						uFogVolEnabled: { value: 0 },
 						uFogVolTex: { value: wN() },
-						uFogVolOrigin: { value: new A() },
-						uFogVolInvExtent: { value: new A(1, 1, 1) },
-						uSkyColor: { value: new ci(0.6, 0.7, 0.9) },
-						uFogColor: { value: new ci(1, 1, 1) },
+						uFogVolOrigin: { value: new k() },
+						uFogVolInvExtent: { value: new k(1, 1, 1) },
+						uSkyColor: { value: new wr(0.6, 0.7, 0.9) },
+						uFogColor: { value: new wr(1, 1, 1) },
 						uSunLight: { value: 1 },
 						uGodRayEnabled: { value: 0 },
-						uSunDir: { value: new A(0, 1, 0) },
+						uSunDir: { value: new k(0, 1, 0) },
 						uSunColor: { value: LVe.clone() },
 						uGodRayStrength: { value: 1.5 },
 						uGodRaySigma: { value: qBe },
@@ -109892,15 +109893,15 @@ var ZG = 1.05,
 						uOcclusionStepLen: { value: JBe },
 						uFogGIEnabled: { value: 0 },
 						uGITex: { value: wN() },
-						uGIOrigin: { value: new A() },
-						uGIInvExtent: { value: new A(1, 1, 1) },
+						uGIOrigin: { value: new k() },
+						uGIInvExtent: { value: new k(1, 1, 1) },
 						uEmissiveStrength: { value: IVe },
 						uTemporal: { value: 0 },
 						uHistoryWeight: { value: 0 },
 						uDebugView: { value: 0 },
 					},
 				})),
-				(this._composite = new $r({
+				(this._composite = new Vr({
 					vertexShader: kVe,
 					fragmentShader: AVe,
 					depthTest: !1,
@@ -109909,19 +109910,19 @@ var ZG = 1.05,
 						tScene: { value: null },
 						tFog: { value: null },
 						tDepth: { value: null },
-						uFogTexel: { value: new Tr(1, 1) },
+						uFogTexel: { value: new dr(1, 1) },
 						uNear: { value: 0.01 },
 						uFar: { value: 1e3 },
 						uMinTransmittance: { value: FVe },
 						uDebugView: { value: 0 },
 						uGodRayEnabled: { value: 0 },
-						uSunScreenPos: { value: new Tr(-1, -1) },
+						uSunScreenPos: { value: new dr(-1, -1) },
 						uSunOnScreen: { value: 0 },
 						uSunIntensity: { value: 1 },
 						uAspect: { value: 1 },
 					},
 				})),
-				(this._quad = new Kr(this._raymarch)),
+				(this._quad = new Gr(this._raymarch)),
 				this.reconfigure(),
 				D.volumetricFog.onChange(() => this.reconfigure()),
 				D.fogDensity.onChange(() => this.reconfigure()),
@@ -110032,7 +110033,7 @@ var ZG = 1.05,
 					(t.uPhasePower.value = r.phasePower),
 					(t.uDayGate.value = r.dayGate),
 					(n.uGodRayEnabled.value = 1),
-					(n.uSunIntensity.value = _r.clamp(r.sunIntensity, 0, 1)),
+					(n.uSunIntensity.value = $n.clamp(r.sunIntensity, 0, 1)),
 					(n.uAspect.value = e.camera.aspect),
 					this._sunScreen.copy(r.sunWorldPos).project(e.camera),
 					(n.uSunOnScreen.value = +(this._sunScreen.z < 1)),
@@ -110323,12 +110324,12 @@ var YVe = 1,
 			(this.frontData = new Uint8Array(t)),
 				(this.backData = new Uint8Array(t)),
 				(this.blurScratch = null);
-			let n = new wr(this.frontData, this.N, this.N, this.N);
-			(n.format = Zr),
-				(n.type = ii),
-				(n.minFilter = dr),
-				(n.magFilter = dr),
-				(n.wrapS = n.wrapT = n.wrapR = ri),
+			let n = new si(this.frontData, this.N, this.N, this.N);
+			(n.format = Lr),
+				(n.type = Tr),
+				(n.minFilter = ui),
+				(n.magFilter = ui),
+				(n.wrapS = n.wrapT = n.wrapR = ci),
 				(n.needsUpdate = !0),
 				(this.texture = n);
 		}
@@ -110615,15 +110616,15 @@ var YVe = 1,
 		static REBUILD_INTERVAL = 10;
 		static EMISSIVE_THRESHOLD = 0.25;
 		constructor(e, t) {
-			(this.gi = t), (this.geometry = new Nr());
-			let n = new ei({
+			(this.gi = t), (this.geometry = new br());
+			let n = new A({
 				size: 0.6,
 				vertexColors: !0,
 				sizeAttenuation: !0,
 				depthWrite: !1,
 				transparent: !0,
 			});
-			(this.points = new Ar(this.geometry, n)),
+			(this.points = new ei(this.geometry, n)),
 				(this.points.visible = !1),
 				(this.points.frustumCulled = !1),
 				e.add(this.points);
@@ -110665,8 +110666,8 @@ var YVe = 1,
 			this.positions.length !== c * 3 &&
 				((this.positions = new Float32Array(c * 3)),
 				(this.colors = new Float32Array(c * 3)),
-				this.geometry.setAttribute(`position`, new Fr(this.positions, 3)),
-				this.geometry.setAttribute(`color`, new Fr(this.colors, 3)));
+				this.geometry.setAttribute(`position`, new Nr(this.positions, 3)),
+				this.geometry.setAttribute(`color`, new Nr(this.colors, 3)));
 			let l = this.positions,
 				u = this.colors,
 				d = i / 2,
@@ -110761,11 +110762,11 @@ var YVe = 1,
   }
 `;
 function cK(e) {
-	return new $r({
+	return new Vr({
 		uniforms: {
 			uAtlas: { value: e },
 			uHeldLightCount: { value: 0 },
-			uHeldLightPos: { value: Array.from({ length: 8 }, () => new A()) },
+			uHeldLightPos: { value: Array.from({ length: 8 }, () => new k()) },
 			uHeldLightLevel: { value: Array(8).fill(0) },
 		},
 		vertexShader: iHe,
@@ -110778,17 +110779,17 @@ function cK(e) {
 	});
 }
 function oHe(e) {
-	let t = new lr();
-	t.setAttribute(`position`, new Fr(aK, 3)),
-		t.setAttribute(`uv`, new Fr(oK, 2)),
-		t.setIndex(new Fr(sK, 1)),
+	let t = new Zn();
+	t.setAttribute(`position`, new Nr(aK, 3)),
+		t.setAttribute(`uv`, new Nr(oK, 2)),
+		t.setIndex(new Nr(sK, 1)),
 		t.setAttribute(`aOffset`, new sr(new Float32Array(3), 3)),
 		t.setAttribute(`aScale`, new sr(new Float32Array(1), 1)),
 		t.setAttribute(`aColor`, new sr(new Float32Array(3), 3)),
 		t.setAttribute(`aAlpha`, new sr(new Float32Array(1), 1)),
 		t.setAttribute(`aUV`, new sr(new Float32Array(4), 4)),
 		(t.instanceCount = 0),
-		(t.boundingSphere = new ni(new A(), 1 / 0));
+		(t.boundingSphere = new Mr(new k(), 1 / 0));
 	let n = new gr(t, e);
 	return (n.frustumCulled = !1), n;
 }
@@ -110808,7 +110809,7 @@ var sHe = class {
 		aColor;
 		aAlpha;
 		aUV;
-		origin = new A();
+		origin = new k();
 		builtAtlasEpoch = -1;
 		constructor(e) {
 			this.scene = e;
@@ -110818,17 +110819,17 @@ var sHe = class {
 			let e = J.particleAtlas;
 			if (!e) return !1;
 			this.allocate(rHe);
-			let t = new lr();
-			t.setAttribute(`position`, new Fr(aK, 3)),
-				t.setAttribute(`uv`, new Fr(oK, 2)),
-				t.setIndex(new Fr(sK, 1)),
+			let t = new Zn();
+			t.setAttribute(`position`, new Nr(aK, 3)),
+				t.setAttribute(`uv`, new Nr(oK, 2)),
+				t.setIndex(new Nr(sK, 1)),
 				t.setAttribute(`aOffset`, this.aOffset),
 				t.setAttribute(`aScale`, this.aScale),
 				t.setAttribute(`aColor`, this.aColor),
 				t.setAttribute(`aAlpha`, this.aAlpha),
 				t.setAttribute(`aUV`, this.aUV),
 				(t.instanceCount = 0),
-				(t.boundingSphere = new ni(new A(), 1 / 0));
+				(t.boundingSphere = new Mr(new k(), 1 / 0));
 			let n = cK(e);
 			this.builtAtlasEpoch = J.particleAtlasEpoch;
 			let r = new gr(t, n);
@@ -110852,11 +110853,11 @@ var sHe = class {
 				(this.colors = new Float32Array(e * 3)),
 				(this.alphas = new Float32Array(e)),
 				(this.uvs = new Float32Array(e * 4)),
-				(this.aOffset = new sr(this.offsets, 3).setUsage(ai)),
-				(this.aScale = new sr(this.scales, 1).setUsage(ai)),
-				(this.aColor = new sr(this.colors, 3).setUsage(ai)),
-				(this.aAlpha = new sr(this.alphas, 1).setUsage(ai)),
-				(this.aUV = new sr(this.uvs, 4).setUsage(ai));
+				(this.aOffset = new sr(this.offsets, 3).setUsage(fr)),
+				(this.aScale = new sr(this.scales, 1).setUsage(fr)),
+				(this.aColor = new sr(this.colors, 3).setUsage(fr)),
+				(this.aAlpha = new sr(this.alphas, 1).setUsage(fr)),
+				(this.aUV = new sr(this.uvs, 4).setUsage(fr));
 		}
 		grow() {
 			let e = Math.min(this.capacity * 2, iK);
@@ -110963,24 +110964,24 @@ var sHe = class {
 		static composer;
 		static game;
 		static reflectionBuffer;
-		static drawingBufferSize = new Tr();
+		static drawingBufferSize = new dr();
 		static voxelGI;
 		static voxelGIDebug;
-		static giFocus = new A();
+		static giFocus = new k();
 		static POST_IDLE_RELEASE_FRAMES = 120;
 		static postTargetsFull = !1;
 		static postIdleFrames = 0;
 		static reflectionTargetsFull = !1;
 		static reflectionIdleFrames = 0;
 		static fogExposureVolume = new wVe();
-		static _fogFocus = new A();
+		static _fogFocus = new k();
 		static _caveFactor = 1;
 		static _fogParams = {
 			depthTexture: null,
 			camera: null,
-			skyColor: new ci(),
+			skyColor: new wr(),
 			sunLight: 1,
-			fogColor: new ci(1, 1, 1),
+			fogColor: new wr(1, 1, 1),
 			fogBaseHeight: 64,
 			heightFalloff: qG,
 			heightDensity: 1,
@@ -110994,14 +110995,14 @@ var sHe = class {
 			time: 0,
 		};
 		static _godRayParams = {
-			sunDirWorld: new A(0, 1, 0),
-			sunWorldPos: new A(),
+			sunDirWorld: new k(0, 1, 0),
+			sunWorldPos: new k(),
 			sunIntensity: 1,
 			dayGate: 1,
 			strength: 1.5,
 			phasePower: 1.6,
 		};
-		static _fogSkyFallback = new ci(0.6, 0.72, 0.92);
+		static _fogSkyFallback = new wr(0.6, 0.72, 0.92);
 		static set renderUnderWater(e) {
 			(VG.submerged = e), e || (VG.depthBelowSurface = 0);
 		}
@@ -111033,14 +111034,14 @@ var sHe = class {
 				(this.renderer.shadowMap.autoUpdate = !0),
 				(this.renderer.autoClear = !1),
 				(this.renderer.info.autoReset = !1),
-				(this.renderer.outputColorSpace = ui),
+				(this.renderer.outputColorSpace = qn),
 				(this.reflectionBuffer = new uVe()),
 				this.reflectionBuffer.configureDepthPrecision(this.renderer),
 				J.setReflectionBuffer(this.reflectionBuffer),
 				D.resolution.onChange(() => this.updateResolution()),
 				this.updateResolution(),
-				(this.composer = new Gr(this.renderer)),
-				this.composer.addPass(new ree(e.gameScene.scene, e.gameScene.camera)),
+				(this.composer = new Wr(this.renderer)),
+				this.composer.addPass(new nee(e.gameScene.scene, e.gameScene.camera)),
 				(this.bloomPass = new PBe({
 					scene: e.gameScene.scene,
 					camera: e.gameScene.camera,
@@ -111057,14 +111058,14 @@ var sHe = class {
 					uniforms: {
 						tDiffuse: { value: null },
 						tSceneDepth: { value: null },
-						underwaterTint: { value: new ci(3034466) },
+						underwaterTint: { value: new wr(3034466) },
 						time: { value: 0 },
 						useWaterAbsorption: { value: 0 },
 						useLightRefraction: { value: 0 },
 						reflectionNear: { value: 0.01 },
 						reflectionFar: { value: 256 },
-						reflectionProjectionMatrixInverse: { value: new tr() },
-						reflectionViewMatrixInverse: { value: new tr() },
+						reflectionProjectionMatrixInverse: { value: new mr() },
+						reflectionViewMatrixInverse: { value: new mr() },
 						murkVisibility: { value: 30 },
 						murkHaze: { value: 0.05 },
 						murkOpacityDepth: { value: 30 },
@@ -111179,15 +111180,15 @@ var sHe = class {
 				(this.portalPass.enabled = !1),
 				this.composer.addPass(this.portalPass);
 			let n = this.composer.renderTarget2;
-			(this.sceneDepthTexture = new si(
+			(this.sceneDepthTexture = new ur(
 				Math.max(1, n.width),
 				Math.max(1, n.height),
 			)),
-				(this.sceneDepthTexture.type = Zn),
-				(this.sceneDepthTexture.minFilter = br),
-				(this.sceneDepthTexture.magFilter = br),
-				(this.sceneDepthTexture.wrapS = ri),
-				(this.sceneDepthTexture.wrapT = ri),
+				(this.sceneDepthTexture.type = or),
+				(this.sceneDepthTexture.minFilter = _r),
+				(this.sceneDepthTexture.magFilter = _r),
+				(this.sceneDepthTexture.wrapS = ci),
+				(this.sceneDepthTexture.wrapT = ci),
 				(n.depthTexture = this.sceneDepthTexture),
 				(this.fogPass = new VVe()),
 				(this.fogPass.enabled = !1),
@@ -111236,7 +111237,7 @@ var sHe = class {
 							`WebGL context restored — reloading chunk and entity meshes`,
 						);
 						try {
-							e.chunkRenderManager?.reload(), wF.RUxAoffhgCggUW();
+							e.chunkRenderManager?.reload(), wF.dWxpKnSunNBOyO();
 						} catch (e) {
 							T.warn(`WebGL context restore reload failed`, e);
 						}
@@ -111304,22 +111305,22 @@ var sHe = class {
 				}
 		}
 		static buildWorldWarmGroup(e) {
-			let t = new zr(),
+			let t = new ir(),
 				n = (e, n, r) => {
 					if (!e) return;
-					let i = new Nr();
-					i.setAttribute(`position`, new Fr(new Float32Array(9), 3)),
-						i.setAttribute(`normal`, new Fr(new Float32Array(9), 3)),
-						i.setAttribute(`uv`, new Fr(new Float32Array(6), 2)),
-						i.setAttribute(`overlayUV`, new Fr(new Float32Array(6), 2)),
-						i.setAttribute(`animation`, new Fr(new Float32Array(6), 2)),
-						i.setAttribute(`color`, new Fr(new Float32Array(12), 4)),
-						i.setAttribute(`light`, new Fr(new Float32Array(9), 3)),
-						i.setAttribute(`emissive`, new Fr(new Float32Array(3), 1)),
+					let i = new br();
+					i.setAttribute(`position`, new Nr(new Float32Array(9), 3)),
+						i.setAttribute(`normal`, new Nr(new Float32Array(9), 3)),
+						i.setAttribute(`uv`, new Nr(new Float32Array(6), 2)),
+						i.setAttribute(`overlayUV`, new Nr(new Float32Array(6), 2)),
+						i.setAttribute(`animation`, new Nr(new Float32Array(6), 2)),
+						i.setAttribute(`color`, new Nr(new Float32Array(12), 4)),
+						i.setAttribute(`light`, new Nr(new Float32Array(9), 3)),
+						i.setAttribute(`emissive`, new Nr(new Float32Array(3), 1)),
 						n
-							? (i.setAttribute(`fluidKind`, new Fr(new Float32Array(3), 1)),
-								i.setAttribute(`waveBlend`, new Fr(new Float32Array(3), 1)))
-							: i.setAttribute(`wave`, new Fr(new Float32Array(3), 1)),
+							? (i.setAttribute(`fluidKind`, new Nr(new Float32Array(3), 1)),
+								i.setAttribute(`waveBlend`, new Nr(new Float32Array(3), 1)))
+							: i.setAttribute(`wave`, new Nr(new Float32Array(3), 1)),
 						i.setIndex([0, 1, 2]);
 					let a = new gr(i, e);
 					(a.receiveShadow = r), t.add(a);
@@ -111357,8 +111358,8 @@ var sHe = class {
 				for (let e of this.fogPass?.warmupMaterials ?? []) s(e);
 			if (D.motionBlur.value)
 				for (let e of this.motionBlurPass?.warmupMaterials ?? []) s(e);
-			let c = new zr(),
-				l = new Kn(2, 2);
+			let c = new ir(),
+				l = new Ar(2, 2);
 			for (let e of o) c.add(new gr(l, e));
 			let u = performance.now(),
 				d = this.renderer.info.programs?.length ?? 0,
@@ -111473,11 +111474,11 @@ var sHe = class {
 			]);
 		}
 		static buildItemWarmMesh() {
-			let e = new Nr();
-			e.setAttribute(`position`, new Fr(new Float32Array(9), 3)),
-				e.setAttribute(`normal`, new Fr(new Float32Array(9), 3)),
-				e.setAttribute(`uv`, new Fr(new Float32Array(6), 2)),
-				e.setAttribute(`color`, new Fr(new Float32Array(12), 4)),
+			let e = new br();
+			e.setAttribute(`position`, new Nr(new Float32Array(9), 3)),
+				e.setAttribute(`normal`, new Nr(new Float32Array(9), 3)),
+				e.setAttribute(`uv`, new Nr(new Float32Array(6), 2)),
+				e.setAttribute(`color`, new Nr(new Float32Array(12), 4)),
 				e.setIndex([0, 1, 2]);
 			let t = new gr(e);
 			return (t.frustumCulled = !1), t;
@@ -111491,7 +111492,7 @@ var sHe = class {
 			);
 			if (n.length === 0) return;
 			let r = this.buildItemWarmMesh(),
-				i = new zr();
+				i = new ir();
 			i.add(r);
 			try {
 				for (let a of n)
@@ -111512,13 +111513,13 @@ var sHe = class {
 			let { camera: n, scene: r, sun: i } = t,
 				a = this.buildSkinnedWarmMesh();
 			(a.material = dq), (a.castShadow = !0);
-			let o = new Nr();
-			o.setAttribute(`position`, new Fr(new Float32Array(9), 3)),
-				o.setAttribute(`normal`, new Fr(new Float32Array(9), 3)),
+			let o = new br();
+			o.setAttribute(`position`, new Nr(new Float32Array(9), 3)),
+				o.setAttribute(`normal`, new Nr(new Float32Array(9), 3)),
 				o.setIndex([0, 1, 2]);
 			let s = new gr(o, dq);
 			(s.castShadow = !0), (s.frustumCulled = !1);
-			let c = new zr();
+			let c = new ir();
 			c.add(a, s);
 			let l = i.sunlight.castShadow;
 			try {
@@ -111560,10 +111561,10 @@ var sHe = class {
 			let t = this.renderer,
 				n = this.game?.gameScene?.camera;
 			if (!t || !n) return;
-			let r = new qr();
+			let r = new Dr();
 			r.add(e);
 			let i = new Or(16777215, 1),
-				a = new Yn(16777215, 1);
+				a = new ai(16777215, 1);
 			a.position.set(0, 10, 0), (a.castShadow = !0);
 			let o = a.shadow.camera;
 			(o.left = -4),
@@ -111577,7 +111578,7 @@ var sHe = class {
 			let s = t.getRenderTarget(),
 				c = t.shadowMap.autoUpdate,
 				l = t.shadowMap.needsUpdate,
-				u = new oi(1, 1, { depthBuffer: !0 });
+				u = new pr(1, 1, { depthBuffer: !0 });
 			try {
 				t.setRenderTarget(u),
 					(t.shadowMap.autoUpdate = !1),
@@ -111607,7 +111608,7 @@ var sHe = class {
 				o = e.shadowMap.autoUpdate,
 				s = e.shadowMap.needsUpdate,
 				c = i.sunlight.castShadow,
-				l = new oi(1, 1, { depthBuffer: !0 });
+				l = new pr(1, 1, { depthBuffer: !0 });
 			try {
 				(i.sunlight.castShadow = !0),
 					e.setRenderTarget(l),
@@ -111637,8 +111638,8 @@ var sHe = class {
 		static async warmPasses(e) {
 			let t = e.filter((e) => !!e);
 			if (t.length === 0 || !this.renderer || !this.game?.gameScene) return;
-			let n = new zr(),
-				r = new Kn(2, 2);
+			let n = new ir(),
+				r = new Ar(2, 2);
 			for (let e of t) n.add(new gr(r, e));
 			try {
 				await this.renderer.compileAsync(n, this.game.gameScene.camera),
@@ -111681,11 +111682,11 @@ var sHe = class {
 			if (i.length === 0) return;
 			let a = D.worldShadowsEnabled(),
 				o = D.bloom.value > 0 && !!this.bloomPass,
-				s = new qr();
+				s = new Dr();
 			s.add(e);
 			let c = new Or(16777215, 1),
-				l = new Yn(16777215, 1),
-				u = new Yn(16777215, 1);
+				l = new ai(16777215, 1),
+				u = new ai(16777215, 1);
 			if ((l.position.set(0, 10, 0), (l.castShadow = a), a)) {
 				let e = l.shadow.camera;
 				(e.left = -4),
@@ -111705,7 +111706,7 @@ var sHe = class {
 			let p = t.getRenderTarget(),
 				m = t.shadowMap.autoUpdate,
 				h = t.shadowMap.needsUpdate,
-				g = new oi(1, 1, { depthBuffer: !0 });
+				g = new pr(1, 1, { depthBuffer: !0 });
 			try {
 				if (
 					(t.setRenderTarget(g),
@@ -111741,18 +111742,18 @@ var sHe = class {
 			}
 		}
 		static buildSkinnedWarmMesh() {
-			let e = new Nr();
-			e.setAttribute(`position`, new Fr(new Float32Array(9), 3)),
-				e.setAttribute(`normal`, new Fr(new Float32Array(9), 3)),
-				e.setAttribute(`uv`, new Fr(new Float32Array(6), 2)),
-				e.setAttribute(`skinIndex`, new Pr(new Uint16Array(12), 4)),
-				e.setAttribute(`skinWeight`, new Fr(new Float32Array(12), 4)),
+			let e = new br();
+			e.setAttribute(`position`, new Nr(new Float32Array(9), 3)),
+				e.setAttribute(`normal`, new Nr(new Float32Array(9), 3)),
+				e.setAttribute(`uv`, new Nr(new Float32Array(6), 2)),
+				e.setAttribute(`skinIndex`, new ii(new Uint16Array(12), 4)),
+				e.setAttribute(`skinWeight`, new Nr(new Float32Array(12), 4)),
 				e.setIndex([0, 1, 2]);
-			let t = new Hr(e),
-				n = new Jr();
+			let t = new kr(e),
+				n = new Hr();
 			return (
 				t.add(n),
-				t.bind(new Dr([n])),
+				t.bind(new ni([n])),
 				(t.receiveShadow = !0),
 				(t.castShadow = !0),
 				(t.frustumCulled = !1),
@@ -111780,7 +111781,7 @@ var sHe = class {
 			)
 				return;
 			let l = this.buildSkinnedWarmMesh(),
-				u = new zr();
+				u = new ir();
 			u.add(l);
 			let d = D.shadowsEnabled(),
 				f = D.bloom.value > 0 && !!this.bloomPass,
@@ -111808,11 +111809,11 @@ var sHe = class {
 			let a = this.renderer,
 				o = this.game?.gameScene?.camera;
 			if (!a || !o) return;
-			let s = new qr();
+			let s = new Dr();
 			s.add(t);
 			let c = new Or(16777215, 1),
-				l = new Yn(16777215, 1),
-				u = new Yn(16777215, 1);
+				l = new ai(16777215, 1),
+				u = new ai(16777215, 1);
 			if ((l.position.set(0, 10, 0), (l.castShadow = r), r)) {
 				let e = l.shadow.camera;
 				(e.left = -4),
@@ -111827,7 +111828,7 @@ var sHe = class {
 			let d = a.getRenderTarget(),
 				f = a.shadowMap.autoUpdate,
 				p = a.shadowMap.needsUpdate,
-				m = new oi(1, 1, { depthBuffer: !0 });
+				m = new pr(1, 1, { depthBuffer: !0 });
 			try {
 				if ((a.setRenderTarget(m), (a.shadowMap.autoUpdate = !1), r))
 					for (let t of n)
@@ -111856,9 +111857,9 @@ var sHe = class {
 					m.dispose();
 			}
 		}
-		static _cullFrustum = new Br();
-		static _cullMatrix = new tr();
-		static _cullSphere = new ni();
+		static _cullFrustum = new Kn();
+		static _cullMatrix = new mr();
+		static _cullSphere = new Mr();
 		static anyFluidMeshOnScreen() {
 			let e = J.materialFluidWorld;
 			if (!e) return !1;
@@ -111924,7 +111925,7 @@ var sHe = class {
 				this.bloomPass.enabled)
 			) {
 				this.bloomPass.setStrength(D.bloom.value / 100);
-				let e = Y.VGzXcRSikRQFJg();
+				let e = Y.mXUhHTWDvThTEW();
 				this.bloomPass.update(u, l?.userData?.time?.value ?? 0, e ?? null);
 			}
 			if (J.materialFluidWorld)
@@ -111979,7 +111980,7 @@ var sHe = class {
 							e.reflectionProjectionMatrixInverse.value,
 						);
 				} else this.reflectionBuffer.uniforms.reflectionEnabled.value = 0;
-			let d = _r.clamp(c.offset.y / c.sunDist, 0, 1),
+			let d = $n.clamp(c.offset.y / c.sunDist, 0, 1),
 				f = o && c.offset.y > 0,
 				p = null;
 			if (f) {
@@ -111987,7 +111988,7 @@ var sHe = class {
 				e.sunDirWorld.copy(J.sunDirection),
 					e.sunWorldPos.copy(c.sun.position),
 					(e.sunIntensity = c.sunIntensity.value),
-					(e.dayGate = _r.smoothstep(d, 0, 0.12)),
+					(e.dayGate = $n.smoothstep(d, 0, 0.12)),
 					(e.strength = XBe(D.godRaysIntensity.value) * a),
 					(e.phasePower = ZBe(D.godRaysSpread.value)),
 					(p = e);
@@ -112006,7 +112007,7 @@ var sHe = class {
 			h &&
 				this.motionBlurPass.update(r, this.sceneDepthTexture, this.game.delta),
 				(this.motionBlurPass.enabled = h && this.motionBlurPass.hasMotion);
-			let g = _r.clamp(Y.timeInPortal / 100, 0, 1),
+			let g = $n.clamp(Y.timeInPortal / 100, 0, 1),
 				_ = g <= 0 ? 0 : 1 - (1 - g) * (1 - g);
 			(this.portalPass.enabled = _ > 0.001),
 				this.portalPass.enabled &&
@@ -112080,7 +112081,7 @@ var sHe = class {
 							(n.heightDensity = YG),
 							(n.timeDensity = 1)),
 				(n.caveFactor = this.sampleCaveFactor()),
-				(n.tauCap = _r.lerp(MVe, ZG, n.caveFactor)),
+				(n.tauCap = $n.lerp(MVe, ZG, n.caveFactor)),
 				this.fogPass.fogEnabled && r && this.game.world
 					? (e.getWorldPosition(this._fogFocus),
 						cV.measure(`render`, `fogVolume`, () =>
@@ -115336,7 +115337,7 @@ var UK = new (class {
 		}
 		async compositeFullScreen(e, t = {}) {
 			let { domToPng: n } = await di(async () => {
-					let { domToPng: e } = await import(`./dist-BzLuyrYG.js`);
+					let { domToPng: e } = await import(`./dist-CSqrfgCj.js`);
 					return { domToPng: e };
 				}, []),
 				r = lK.renderer.domElement,
@@ -115426,7 +115427,7 @@ var UK = new (class {
 		oldMouseX;
 		oldMouseY;
 		constructor(e) {
-			super(e.inventoryContainer), Y.ByljVgIESsxzUY();
+			super(e.inventoryContainer), Y.HObBnXHylGtowS();
 		}
 		updateScreen() {}
 		initGui() {
@@ -115851,8 +115852,8 @@ var XHe = 200,
 		predictedStates = new Map();
 		static loggedBuild = !1;
 		sentInputThisTick = !1;
-		renderOffset = new A();
-		renderPos = new A();
+		renderOffset = new k();
+		renderPos = new k();
 		constructor() {
 			let e = new eP();
 			(e.uuid = ``), e.setUsername(``), super(e);
@@ -115862,25 +115863,25 @@ var XHe = 200,
 				(this.pendingInputs = []),
 				this.predictedStates.clear();
 		}
-		dHcTTcTevqmJFjXkrEgTKo() {
+		PTmPiZSeWqfUDZPFzGPpzZ() {
 			(this.pendingInputs = []), this.predictedStates.clear();
 		}
 		serverUsesInputMovement() {
 			let e = $.serverInfo.serverCategory;
-			return e == null || wn.includes(e);
+			return e == null || Cn.includes(e);
 		}
 		serverUsesPosLookMovement() {
 			let e = $.serverInfo.serverCategory;
 			return (
 				e == null ||
-				!wn.includes(e) ||
+				!Cn.includes(e) ||
 				this.abilities.mayFly ||
 				this.mode.isSpectator()
 			);
 		}
-		FqGMFDfBmpQXWdqkXDBok() {
+		IDNiVAgwbEKIgXqZqmeeS() {
 			(this.sentInputThisTick = !1),
-				(this.SeOedoBgnd = 0),
+				(this.qrBHjSOqfq = 0),
 				(this.moveForward = 0);
 			let e = Y.isSpectatingOtherPlayer(),
 				t = !e && (qK(`d`) || qK(`right`) || FL.direction.x > 0),
@@ -115918,10 +115919,10 @@ var XHe = 200,
 			o &&
 				(this.pendingInputs.push(this.currentInput),
 				hG.sendPacket(this.currentInput)),
-				this.QRMkzYvaPf(this.currentInput),
+				this.zRmvZisrUI(this.currentInput),
 				(this.sentInputThisTick = o);
 		}
-		yuquxLdHMULGeNaYU() {
+		mhKrXEkwnpWbXjKgV() {
 			if (
 				this.sentInputThisTick &&
 				(this.predictedStates.set(this.inputSequenceNumber, JHe(this)),
@@ -115931,14 +115932,14 @@ var XHe = 200,
 				e !== void 0 && this.predictedStates.delete(e);
 			}
 		}
-		FglbQyFjioIRkDyk(e, t, n) {
+		HVzGRzxCqjSNkUTH(e, t, n) {
 			(this.renderOffset.x += e - this.pos.x),
 				(this.renderOffset.y += t - this.pos.y),
 				(this.renderOffset.z += n - this.pos.z);
 			let r = this.renderOffset.length();
 			r > eq && this.renderOffset.multiplyScalar(eq / r);
 		}
-		HvJwFVhCGoisNEnwjUqQGcL(e) {
+		MKzeNpQSptxKVTHKMfmGMOL(e) {
 			if (
 				(e.ackId != null &&
 					(e.ackId > this.lastServerAckId ||
@@ -115950,7 +115951,7 @@ var XHe = 200,
 					n = this.pos.y,
 					r = this.pos.z;
 				this.setPosition(e.x, e.y, e.z),
-					this.FglbQyFjioIRkDyk(t, n, r),
+					this.HVzGRzxCqjSNkUTH(t, n, r),
 					this.motion.set(0, 0, 0),
 					e.onGround != null && (this.onGround = e.onGround),
 					(this.jumpTicks = 0),
@@ -116025,30 +116026,30 @@ var XHe = 200,
 				!this.isRiding() &&
 				this.isSprinting() &&
 				this.setSprinting(!1),
-				this.FqGMFDfBmpQXWdqkXDBok(),
+				this.IDNiVAgwbEKIgXqZqmeeS(),
 				this.isUsingItem() && !this.isRiding() && (this.sprintToggleTimer = 0);
 			let o = this.width * 0.35;
-			this.VbSMshAXsKMWdSS(
+			this.bTGAgkdesJOGCJZ(
 				this.pos.x - o,
 				this.getEntityBoundingBox().min.y + 0.5,
 				this.pos.z + o,
 			),
-				this.VbSMshAXsKMWdSS(
+				this.bTGAgkdesJOGCJZ(
 					this.pos.x - o,
 					this.getEntityBoundingBox().min.y + 0.5,
 					this.pos.z - o,
 				),
-				this.VbSMshAXsKMWdSS(
+				this.bTGAgkdesJOGCJZ(
 					this.pos.x + o,
 					this.getEntityBoundingBox().min.y + 0.5,
 					this.pos.z - o,
 				),
-				this.VbSMshAXsKMWdSS(
+				this.bTGAgkdesJOGCJZ(
 					this.pos.x + o,
 					this.getEntityBoundingBox().min.y + 0.5,
 					this.pos.z + o,
 				),
-				this.yuquxLdHMULGeNaYU();
+				this.mhKrXEkwnpWbXjKgV();
 			let s = this.getFoodStats().getFoodLevel() > 6 || this.abilities.mayFly,
 				c = qK(`shift`),
 				l = c;
@@ -116103,14 +116104,14 @@ var XHe = 200,
 						this,
 						this.getEntityBoundingBox()
 							.clone()
-							.expandByVector(new A(0.15, -0.1, 0.15)),
+							.expandByVector(new k(0.15, -0.1, 0.15)),
 					),
 					t = this.world.getCollidingBoundingBoxes(
 						this,
 						this.getEntityBoundingBox()
 							.clone()
-							.translate(new A(0, 1, 0))
-							.expandByVector(new A(0.15, -0.1, 0.15)),
+							.translate(new k(0, 1, 0))
+							.expandByVector(new k(0.15, -0.1, 0.15)),
 					);
 				e.length > 0 && t.length <= 0 && this.moveForward < 0
 					? (this.jumping = !0)
@@ -116127,33 +116128,33 @@ var XHe = 200,
 					!this.mode.isSpectator() &&
 					(this.abilities.flying = !1);
 		}
-		VbSMshAXsKMWdSS(e, t, n) {
+		bTGAgkdesJOGCJZ(e, t, n) {
 			return this.noPhysics || $.serverInfo.serverCategory === `blockhunt`
 				? !1
-				: super.VbSMshAXsKMWdSS(e, t, n);
+				: super.bTGAgkdesJOGCJZ(e, t, n);
 		}
 		updateFallState(e, t, n, r) {
-			this.inWater || this.NcVVdJrPRBhCjwxPoOz(),
+			this.inWater || this.nYZUBczXkAhLmzURCVm(),
 				super.updateFallState(e, t, n, r);
 		}
-		aMYHczhSGPmMsBXVMhbniVdHb(e) {
+		POsxfPVQMotcCaCjHEBBwTXyh(e) {
 			let t = e.up();
 			for (; t.y < 256; ) {
 				if (!$.world.getBlockState(t).getBlock().equals(U.water))
-					return t.y - UM.VGcywW.y;
+					return t.y - UM.BYUjBM.y;
 				t = t.up();
 			}
-			return 256 - UM.VGcywW.y;
+			return 256 - UM.BYUjBM.y;
 		}
-		GSUwEkZzJFcjFmIf() {
+		RRnmjaYzwwsJwEfw() {
 			Y.headInBlock = null;
-			let e = I.fromVector(UM.VGcywW),
+			let e = I.fromVector(UM.BYUjBM),
 				t = $.world.getBlockState(e),
 				n = t.getBlock();
 			n.setBlockBoundsBasedOnState($.world, e);
 			let r = n.equals(U.water),
 				i = n.material === z.lava;
-			mVe(r || i, r ? this.aMYHczhSGPmMsBXVMhbniVdHb(e) : 0, i),
+			mVe(r || i, r ? this.POsxfPVQMotcCaCjHEBBwTXyh(e) : 0, i),
 				n.isFullCube(t) &&
 					(n.blocksMovement() &&
 						n
@@ -116162,16 +116163,16 @@ var XHe = 200,
 						(Y.headInBlock = n),
 					(Y.lastHeadInBlock = n));
 		}
-		xECNrLXeGCIUyd() {
+		jgxUSALbhkElxz() {
 			let e = 1;
 			this.abilities.flying && (e *= 1.1);
-			let t = this.getEntityAttribute(Ep.EaoLIuupWbDul);
+			let t = this.getEntityAttribute(Ep.iyhlGlpOTgPEH);
 			if (
-				((e *= (t.getAttributeValue() / this.abilities.edptjmtaOgvV() + 1) / 2),
+				((e *= (t.getAttributeValue() / this.abilities.bHgSfDktbjWN() + 1) / 2),
 				(isNaN(e) || !isFinite(e)) && (e = 1),
-				this.isUsingItem() && this.wgBBWaLOvMfq().getItem() == H.bow)
+				this.isUsingItem() && this.ErSvlYyKpHQF().getItem() == H.bow)
 			) {
-				let t = this.fhTsBkLUiPEISNyqJsJm() / 20;
+				let t = this.hoAfpnZfSlYdIbNIecVl() / 20;
 				t > 1 ? (t = 1) : (t *= t), (e *= 1 - t * 0.15);
 			}
 			return Math.min(e, 2);
@@ -116180,10 +116181,10 @@ var XHe = 200,
 			!$.inGame() ||
 				this.getHealth() <= 0 ||
 				$.info.awaitingRespawn ||
-				(gG.NDCoZyqPijwxFgkhtRU(),
-				this.VrfUyhkzzniFCZ(),
+				(gG.ZVSujghmwqWlaVsShCN(),
+				this.fzfRUqrYCpqhRy(),
 				this.onLivingUpdate(),
-				this.GSUwEkZzJFcjFmIf(),
+				this.RRnmjaYzwwsJwEfw(),
 				this.renderOffset.multiplyScalar(ZHe),
 				this.renderOffset.lengthSq() < 1e-6 && this.renderOffset.set(0, 0, 0),
 				this.renderPos.copy(this.pos).add(this.renderOffset),
@@ -116213,47 +116214,47 @@ var XHe = 200,
 			e
 		);
 	})(nq || {}),
-	$He = new A(),
-	eUe = new A(),
-	tUe = new A(),
+	$He = new k(),
+	eUe = new k(),
+	tUe = new k(),
 	nUe = 30,
 	rUe = 30,
-	rq = new A(),
+	rq = new k(),
 	iq = { x: 0, y: 0, z: 0, yaw: 0, pitch: 0 },
 	aq = 3.2,
 	iUe = 2.4,
 	oq = 0.5,
 	aUe = 6,
 	sq = 4,
-	cq = new A(),
-	lq = new A(),
-	uq = new A(),
-	oUe = new A(),
-	dq = new vr({ colorWrite: !1, depthWrite: !1 }),
+	cq = new k(),
+	lq = new k(),
+	uq = new k(),
+	oUe = new k(),
+	dq = new Qn({ colorWrite: !1, depthWrite: !1 }),
 	fq = class e extends QHe {
 		static Perspective = nq;
 		perspective = e.Perspective.FIRST_PERSON;
 		deltaFov = uT(0, 150);
 		spectatingEntityId = null;
-		spectateCamPos = new A();
+		spectateCamPos = new k();
 		spectateCamYaw = 0;
 		spectateCamPitch = 0;
 		spectateCamAttached = !1;
 		spectateStream = new Xze();
 		spectateSavedHeldSlot = null;
-		portalTint = new ci(16391446);
+		portalTint = new wr(16391446);
 		emoteCameraAutoSwitched = !1;
 		deathCameraActive = !1;
 		deathPrevPerspective = 0;
 		deathYaw = 0;
-		deathCamPos = new A();
-		deathCamFocus = new A();
-		deathSpot = new A();
+		deathCamPos = new k();
+		deathCamFocus = new k();
+		deathSpot = new k();
 		selectBox;
 		headInBlock;
 		lastHeadInBlock;
 		biome = `WIP`;
-		lastReportedPos = new A();
+		lastReportedPos = new k();
 		lastReportedYaw;
 		lastReportedPitch;
 		serverSneakState;
@@ -116291,7 +116292,7 @@ var XHe = 200,
 				(this.dimension = t.dimension ?? 0),
 				(this.game.world.dimensionId = this.dimension);
 		}
-		sKjjBBCRjwwFkPPIZGhk(e = !1) {
+		QnjiXbkHCJHopHxitjXO(e = !1) {
 			if (!(this.openContainer instanceof Lre) && !e) return;
 			let t = !1,
 				n = !1;
@@ -116315,7 +116316,7 @@ var XHe = 200,
 			}
 			let r = 0;
 			for (let e of Y.inventory.armor)
-				e && e.item instanceof yp && (r += e.item.ftlwRgVMxZJszaefcr || 0);
+				e && e.item instanceof yp && (r += e.item.hihDrbbXGHkTdJiSlc || 0);
 			let i = this.world.getPlayerById(this.id);
 			r !== this.prevDefencePoints &&
 				((this.prevDefencePoints = r), (this.game.info.armor = r), (t = !0)),
@@ -116373,18 +116374,18 @@ var XHe = 200,
 							Kt.death(),
 							this.beginDeathCamera())
 						: e > 0 && e < t && Kt.hurt(),
-				this.qbZpKwKwaGsIgTGVDLmC();
+				this.ciiMSgxWwWOmUINskDmZ();
 		}
 		lowHealthPulse = null;
 		static LOW_HEALTH = 6;
-		qbZpKwKwaGsIgTGVDLmC() {
+		ciiMSgxWwWOmUINskDmZ() {
 			let t = this.getHealth(),
 				n = t > 0 && t <= e.LOW_HEALTH;
 			n && this.lowHealthPulse == null
 				? (this.lowHealthPulse = setInterval(() => {
 						let t = this.getHealth();
 						if (!this.game.inGame() || t <= 0 || t > e.LOW_HEALTH) {
-							this.qbZpKwKwaGsIgTGVDLmC();
+							this.ciiMSgxWwWOmUINskDmZ();
 							return;
 						}
 						Kt.lowHealth();
@@ -116393,8 +116394,8 @@ var XHe = 200,
 					this.lowHealthPulse != null &&
 					(clearInterval(this.lowHealthPulse), (this.lowHealthPulse = null));
 		}
-		EXABpKtlUABRUnEtoLF(e) {
-			e == 17 && (this.game.info.absorption = this.YXMHibKSMJXmBhyutdh());
+		gLYqxagsDXqcRBPzVIU(e) {
+			e == 17 && (this.game.info.absorption = this.LulBzyCQpYwPnPUTevl());
 		}
 		setGamemode(e) {
 			return (
@@ -116405,7 +116406,7 @@ var XHe = 200,
 				!0
 			);
 		}
-		EwsuUoVZnTQeMhyyB(e = !1) {
+		awpVsXwVlNCtvmkIN(e = !1) {
 			(this.pos.x = (this.boundingBox.min.x + this.boundingBox.max.x) / 2),
 				(this.pos.y = this.boundingBox.min.y),
 				(this.pos.z = (this.boundingBox.min.z + this.boundingBox.max.z) / 2),
@@ -116416,41 +116417,41 @@ var XHe = 200,
 						this.pos.z,
 					);
 		}
-		OUiTaroOfGMf() {
+		lgcvtjjoziwd() {
 			if (this.selectBox) return;
-			let e = new AxisAlignedBoundingBox(new A(), new A(1, 1, 1));
-			(this.selectBox = new Ur(e, new ci(`white`))),
+			let e = new AxisAlignedBoundingBox(new k(), new k(1, 1, 1));
+			(this.selectBox = new Fr(e, new wr(`white`))),
 				(this.selectBox.name = `wireframe`),
 				this.game.gameScene.scene.add(this.selectBox);
 		}
-		hRaNUSNFkqPzj() {
+		scwhBhVsnUggx() {
 			return !0;
 		}
 		respawn(e) {
 			(!e || !e.notDeath) &&
-				(this.setHealth(this.getMaxHealth()), this.jJDerSJyXOMAtQ()),
-				this.game.world.getPlayerById(this.id)?.KDznbTLIIYMYprBpewas();
+				(this.setHealth(this.getMaxHealth()), this.WEkNoGPDMarwJQ()),
+				this.game.world.getPlayerById(this.id)?.aQCipmMWzVajPELVsMZV();
 		}
 		sendRespawnPacket() {
 			hG.sendPacket(new qHe());
 		}
 		setPosition(e, t, n) {
 			super.setPosition(e, t, n),
-				this.EwsuUoVZnTQeMhyyB(!0),
+				this.awpVsXwVlNCtvmkIN(!0),
 				(this.fallDistance = 0);
 		}
-		vuGdEfmssdSVPnL() {
+		hPLKSWTuNssiXiM() {
 			let e = this.game.gameScene.camera,
 				t;
 			D.dynamicFOV.value
-				? ((this.deltaFov.value = D.fov.value * this.xECNrLXeGCIUyd()),
+				? ((this.deltaFov.value = D.fov.value * this.jgxUSALbhkElxz()),
 					(t = this.deltaFov.value))
 				: (t = D.fov.value),
 				(t *= jI.adsFovMul),
 				(t = FI(t, e.aspect)),
 				e.fov !== t && ((e.fov = t), e.updateProjectionMatrix());
 		}
-		oIyqjXwVEPgUcmkMVIhKhTd(e) {}
+		vpJAxRXgbLHSOiBLCEciuOX(e) {}
 		isSpectatingOtherPlayer() {
 			return this.spectatingEntityId != null;
 		}
@@ -116528,7 +116529,7 @@ var XHe = 200,
 		beginDeathCamera() {
 			if (this.spectatingEntityId != null) return;
 			(this.deathCameraActive = !0), (this.deathYaw = UM.yaw);
-			let e = UM.VGcywW,
+			let e = UM.BYUjBM,
 				t = Math.cos(UM.pitch);
 			this.deathCamPos.copy(e),
 				this.deathCamFocus.set(
@@ -116584,8 +116585,8 @@ var XHe = 200,
 				(UM.yawObject.rotation.y = u),
 				(UM.pitchObject.rotation.x = d);
 		}
-		uJsgQguNMxnq(e) {
-			if ((this.vuGdEfmssdSVPnL(), !this.renderSpectateCamera(e))) {
+		DVKATuzMGdFr(e) {
+			if ((this.hPLKSWTuNssiXiM(), !this.renderSpectateCamera(e))) {
 				if (
 					(UM.update(),
 					Math.abs(this.game.gameScene.camera.rotation.z) > 0.1
@@ -116607,10 +116608,10 @@ var XHe = 200,
 						this.game.gameScene.camera.getWorldPosition($He);
 					let t = eUe;
 					this.game.gameScene.camera.getWorldDirection(t), t.negate();
-					let n = UM.VGcywW,
+					let n = UM.BYUjBM,
 						r = zp(
 							n,
-							tUe.copy(UM.VGcywW).add(t.multiplyScalar(8)),
+							tUe.copy(UM.BYUjBM).add(t.multiplyScalar(8)),
 							!1,
 							!0,
 							!0,
@@ -116672,14 +116673,14 @@ var XHe = 200,
 				(this.punching || !BM(this.emote, this.emoteStartMs, Date.now())) &&
 				this.endEmoteLocally();
 		}
-		RvGGJOPpdFCwUfOAwsgQWyJ() {
+		ssYjLeyarELuteZJHtZJGdY() {
 			let e = this.world.getVoxelBrightness(
 				this.pos.x,
 				this.pos.y + this.getEyeHeight(),
 				this.pos.z,
 			);
 			if (D.dynamicLighting.value && D.lighting.value !== `Classic`) {
-				let t = this.QEwIuGIXwdXvOU();
+				let t = this.SpJOoaAgzSXwny();
 				if (t > 0) {
 					let n = pj + (1 - pj) * (t / 15);
 					e = Math.max(e, n);
@@ -116687,13 +116688,13 @@ var XHe = 200,
 			}
 			Uj(bI, e);
 		}
-		QEwIuGIXwdXvOU() {
+		SpJOoaAgzSXwny() {
 			return Math.max(
 				kM(this.getActiveItemStack()?.item),
 				kM(this.getOffhandItem()?.item),
 			);
 		}
-		CjhwbsBKMEVxYaqo() {
+		munuQqtwzVvJDMQi() {
 			let e = this.game.world.getPlayerById(this.id);
 			if (!e?.mesh) return;
 			let t = this.perspective === 0,
@@ -116725,7 +116726,7 @@ var XHe = 200,
 						}
 				});
 		}
-		wnZvhXdtvgVkdHKl() {
+		SHozDLMcebefOXHk() {
 			(this.punching = (Date.now() - bI.lastPunch) / 120 < 1),
 				(this.yaw = UM.yaw),
 				(this.pitch = UM.pitch);
@@ -116736,7 +116737,7 @@ var XHe = 200,
 				(qK(`ctrl`) && yd.ControlLeft != `ctrl`) ||
 				FL.sneaking;
 		}
-		PkVDamaJFNAFZPVksEiCOXy() {
+		fIonpazSLsSElleqxxsoQQx() {
 			if (!this.serverUsesPosLookMovement()) return;
 			let e = this.pos.x - this.lastReportedPos.x,
 				t = this.getEntityBoundingBox().min.y - this.lastReportedPos.y,
@@ -116773,7 +116774,7 @@ var XHe = 200,
 					(this.lastReportedPitch = this.pitch)),
 				hG.sendPacket(new Wz(a));
 		}
-		WRNIfwrsJVL() {
+		pAUoqDMyLLn() {
 			let e = { id: Y.id, abilityChannels: [] },
 				t = !1;
 			Y.sneak !== Y.serverSneakState &&
@@ -116786,9 +116787,9 @@ var XHe = 200,
 					((Y.serverPunchState = Y.punching),
 					(e.punching = Y.punching),
 					(t = !0)),
-				Y.SeOedoBgnd !== Y.serverMoveStrafe &&
-					((Y.serverMoveStrafe = Y.SeOedoBgnd),
-					(e.SeOedoBgnd = Y.SeOedoBgnd),
+				Y.qrBHjSOqfq !== Y.serverMoveStrafe &&
+					((Y.serverMoveStrafe = Y.qrBHjSOqfq),
+					(e.qrBHjSOqfq = Y.qrBHjSOqfq),
 					(t = !0)),
 				Y.moveForward !== Y.serverMoveForward &&
 					((Y.serverMoveForward = Y.moveForward),
@@ -116796,20 +116797,20 @@ var XHe = 200,
 					(t = !0)),
 				t && hG.sendPacket(new lT(e));
 		}
-		vybuEORTgUjna() {
+		cMRqSeoobeHsI() {
 			let e = {};
 			Y.abilities.flying != Y.serverFlyState &&
 				((Y.serverFlyState = Y.abilities.flying),
 				(e.isFlying = Y.abilities.flying)),
 				Object.keys(e).length && hG.sendPacket(new Hz(e));
 		}
-		GsFDKIwSkHYoDeXzVIuiy() {
-			this.PkVDamaJFNAFZPVksEiCOXy(), this.vybuEORTgUjna();
+		KverwQcyVKSVvAGbVNFFj() {
+			this.fIonpazSLsSElleqxxsoQQx(), this.cMRqSeoobeHsI();
 		}
 		fixedUpdate() {
 			super.fixedUpdate(),
 				bG.update(),
-				this.dCMSqurwepbFHMZ(),
+				this.ggbTcBtxYXTSqKq(),
 				this.isRiding()
 					? this.serverUsesPosLookMovement() &&
 						hG.sendPacket(
@@ -116820,8 +116821,8 @@ var XHe = 200,
 								onGround: this.onGround,
 							}),
 						)
-					: this.GsFDKIwSkHYoDeXzVIuiy(),
-				this.WRNIfwrsJVL(),
+					: this.KverwQcyVKSVvAGbVNFFj(),
+				this.pAUoqDMyLLn(),
 				this.tickLocalEmote(),
 				this.effects.update(this.perspective !== e.Perspective.FIRST_PERSON);
 			let t = I.fromVector(this.pos),
@@ -116840,13 +116841,13 @@ var XHe = 200,
 							: this.timeInPortal === 80 && Kt.heavy())
 				: (this.timeInPortal = Math.max(0, this.timeInPortal - 8));
 		}
-		swNrqDxZYpra() {
+		hygaNHyRGPHo() {
 			this.ridingEntity != null &&
 				(this.motion.set(0, 0, 0),
 				(this.fallDistance = 0),
-				this.ridingEntity.YfJdWWSOyBcXTJPyeyx(),
+				this.ridingEntity.HaoJrvVsdUxIigRDxyT(),
 				UM.fixedUpdate(this.pos),
-				this.GSUwEkZzJFcjFmIf(),
+				this.RRnmjaYzwwsJwEfw(),
 				this.game.world
 					.getPlayerById(this.id)
 					?.setPositionAndRotation2(
@@ -116858,19 +116859,19 @@ var XHe = 200,
 						1,
 					));
 		}
-		uKydeaiYaFMFwezt(e) {
-			let t = this.SeOedoBgnd,
+		agOYfmmbPmuJNKxp(e) {
+			let t = this.qrBHjSOqfq,
 				n = this.moveForward,
 				r = t * t + n * n;
 			if (r >= 1e-4) {
 				(r = Math.sqrt(r)), r < 1 && (r = 1), (r = 1 / r), (t *= r), (n *= r);
 				let i = Math.cos(this.yaw) * e,
 					a = -Math.sin(this.yaw) * e;
-				return new A(t * i - n * a, 0, n * i + t * a);
+				return new k(t * i - n * a, 0, n * i + t * a);
 			}
-			return new A(0, 0, 0);
+			return new k(0, 0, 0);
 		}
-		TmWwZymRvYgZ(e) {
+		ZeImUTeNzKzn(e) {
 			if (this.getHealth() <= 0) {
 				this.deathCameraActive && this.renderDeathCamera(e);
 				return;
@@ -116879,28 +116880,28 @@ var XHe = 200,
 				_j.update(),
 				gj.update(),
 				bI.update(),
-				this.RvGGJOPpdFCwUfOAwsgQWyJ(),
-				this.uJsgQguNMxnq(e),
-				this.wnZvhXdtvgVkdHKl(),
-				this.eENYekGzbtuqAEphgfrWxW(),
-				this.sKjjBBCRjwwFkPPIZGhk(),
-				this.CjhwbsBKMEVxYaqo();
+				this.ssYjLeyarELuteZJHtZJGdY(),
+				this.DVKATuzMGdFr(e),
+				this.SHozDLMcebefOXHk(),
+				this.reueXkCKfzkKFctLwUEWbA(),
+				this.QnjiXbkHCJHopHxitjXO(),
+				this.munuQqtwzVvJDMQi();
 		}
-		eENYekGzbtuqAEphgfrWxW() {
-			let e = UM.VGcywW;
+		reueXkCKfzkKFctLwUEWbA() {
+			let e = UM.BYUjBM;
 			isFinite(e.x) &&
 				isFinite(e.y) &&
 				isFinite(e.z) &&
 				QK.Howler.pos(e.x, e.y, e.z),
 				QK.Howler.orientation(-Math.cos(UM.yaw), 0, -Math.sin(UM.yaw), 0, 1, 0);
 		}
-		vKGPGWYFD() {
-			return UM.VGcywW;
+		jRUJWvIuQ() {
+			return UM.BYUjBM;
 		}
 		attackEntityFrom(e, t) {
 			if (e === Bg.FALL && this.mode.isSurvival() && this.getHealth() > 0) {
-				let n = this.hwZwbUqyMxjhMzlVtcOTAAwcOjVto(e, t);
-				n = Math.max(0, n - this.YXMHibKSMJXmBhyutdh());
+				let n = this.kjdvWlAkyOBdHjlvtbGFFXdjRXxnv(e, t);
+				n = Math.max(0, n - this.LulBzyCQpYwPnPUTevl());
 				let r = this.getHealth() - n;
 				n > 0 && r > 0 && this.setHealth(r);
 			}
@@ -116933,7 +116934,7 @@ var XHe = 200,
 										? fK.displayGuiScreen(new EHe(this.inventory, e))
 										: fK.displayGuiScreen(new _K(this.inventory, e));
 		}
-		ggdLonWXCzOnM(e) {
+		NgLKOiEuVcCYQ(e) {
 			fK.displayGuiScreen(new bHe(e));
 		}
 		displayVillagerTradeGui(e, t = `Villager`) {
@@ -116950,13 +116951,13 @@ var XHe = 200,
 		}
 		closeScreen() {
 			hG.sendPacket(new Lz({ windowId: this.openContainer.windowId })),
-				this.cjOMvhdnZbKjpOVSnDWyFVS(),
-				this.ByljVgIESsxzUY();
+				this.TXEilzHxjIwqcMMpDuuLtDB(),
+				this.HObBnXHylGtowS();
 		}
-		ByljVgIESsxzUY() {
+		HObBnXHylGtowS() {
 			this.game && this.game.info.touchInventory();
 		}
-		cjOMvhdnZbKjpOVSnDWyFVS() {
+		TXEilzHxjIwqcMMpDuuLtDB() {
 			this.inventory.setItemStack(null),
 				this.game &&
 					((this.game.info.machineGui = null),
@@ -116968,14 +116969,14 @@ var XHe = 200,
 		setItemInUse(e, t) {
 			(this.lastItemUseTime = performance.now()), super.setItemInUse(e, t);
 		}
-		HxMDqZbkmGjpE(e) {
+		vAkGgudcqrRPN(e) {
 			this.game.gameScene.effectRenderer.emitParticleAtEntity(
 				this.game.world,
 				e,
 				R.CRIT,
 			);
 		}
-		utNmLjXOhmeuXbOhfBYwp(e) {
+		xUxiwJzYnowbveYFLpMzB(e) {
 			this.game.gameScene.effectRenderer.emitParticleAtEntity(
 				this.game.world,
 				e,
@@ -116984,7 +116985,7 @@ var XHe = 200,
 				Kt.strong();
 		}
 		xpInitialized = !1;
-		dpfeJjVXHe(e, t, n) {
+		UjyGszurmN(e, t, n) {
 			let r = this.experienceLevel;
 			(this.experience = e),
 				(this.experienceTotal = t),
@@ -116995,14 +116996,14 @@ var XHe = 200,
 		openShop() {
 			hG.sendPacket(new Xz({}));
 		}
-		FQtzdCfmyDfgiEPuFPZa(e) {
+		yIFgzZrDSkVbpzJOJZwb(e) {
 			if (this.game.serverInfo.serverCategory === `creative`) return;
 			let t = e.getPosition(),
 				n = this.world.getTileEntity(t);
 			n && (this.currentTile = n),
 				this.game.info.menus.open(`commandBlockEditor`, t);
 		}
-		VGzXcRSikRQFJg() {
+		mXUhHTWDvThTEW() {
 			for (let e of this.world.playersIterator())
 				if (e.id === this.id) return e.mesh;
 		}
@@ -117555,7 +117556,7 @@ async function YUe(e, t, n) {
 		for (let e of i) e.close();
 	}
 }
-var Tq = An[y].atlasImage,
+var Tq = kn[y].atlasImage,
 	XUe = class {
 		packs = new Map();
 		activeId = y;
@@ -117570,7 +117571,7 @@ var Tq = An[y].atlasImage,
 		applying = !1;
 		pending = null;
 		constructor() {
-			for (let e of Object.values(An)) this.packs.set(e.id, e);
+			for (let e of Object.values(kn)) this.packs.set(e.id, e);
 			sc(this, { epoch: fo, bumpEpoch: Ss });
 		}
 		listPacks() {
@@ -117749,7 +117750,7 @@ var Tq = An[y].atlasImage,
 			let r = t ?? this.armorOverridesForPack(e);
 			n?.length && (this.activeArmorBlobUrls = n);
 			try {
-				await J.skinManager.rRNlrovbwPfWATjSyIp(r), Oq();
+				await J.skinManager.KPlbjncppDTQQHLOprb(r), Oq();
 			} catch (e) {
 				T.warn(`Failed to apply texture pack armor.`, e);
 			}
@@ -117775,7 +117776,7 @@ var Tq = An[y].atlasImage,
 			let r = t ?? this.entityOverridesForPack(e);
 			n?.length && (this.activeEntityBlobUrls = n);
 			try {
-				await J.skinManager.GRXQXEktiKcSWAuoOqZy(r);
+				await J.skinManager.iavWEFOwiCRRJtoCJfPB(r);
 			} catch (e) {
 				T.warn(`Failed to apply texture pack entity textures.`, e);
 			}
@@ -118292,7 +118293,7 @@ function uWe() {
 			try {
 				t((await We.userRequest(`/worlds/list`, {}, r)).worlds);
 			} catch (e) {
-				yn.showError(e);
+				vn.showError(e);
 			}
 		},
 	};
@@ -118301,7 +118302,7 @@ var dWe = 1280,
 	fWe = 0.82,
 	pWe = 0.8,
 	mWe = 2797228,
-	hWe = `${_n}/world-splash`;
+	hWe = `${gn}/world-splash`;
 function gWe(e, t) {
 	let n = `${hWe}/${e}.jpg`;
 	return t ? `${n}?v=${encodeURIComponent(t)}` : n;
@@ -118405,7 +118406,7 @@ function Wq() {
 var Gq = class {
 		static signUp = async (e) => {
 			let { default: t } = await di(async () => {
-				let { default: e } = await import(`./fp.esm-DaLHHjdX.js`);
+				let { default: e } = await import(`./fp.esm-DyzfVAKg.js`);
 				return { default: e };
 			}, []);
 			window.__fpjs_d_m = !0;
@@ -118655,7 +118656,7 @@ function EWe(e) {
 				ie(e.servers), oe(e.modeTrending ?? null), ce(e.modePlays ?? null);
 			}
 		} catch (e) {
-			yn.showError(e);
+			vn.showError(e);
 		}
 		ne(!1);
 	};
@@ -118792,7 +118793,7 @@ var DWe = r({ DISCORD_CLIENT_ID: () => qq, default: () => Jq }),
 			let e, t;
 			try {
 				({ DiscordSDK: e, patchUrlMappings: t } = await di(
-					() => import(`./output-B3ISIFZt.js`),
+					() => import(`./output-Cxvx3J6F.js`),
 					__vite__mapDeps([5, 1]),
 				));
 			} catch (e) {
@@ -120497,7 +120498,7 @@ var QWe = n(() => {
 						}
 						return r;
 					}),
-					(g.prototype.dbWzoxTroa = function (t) {
+					(g.prototype.ALEOFMOpBr = function (t) {
 						var n = this.toggles.find(function (e) {
 								return e.name === t;
 							}),
@@ -121320,7 +121321,7 @@ function fGe(e) {
 		let t = e[0],
 			n = t.username ?? `Someone`,
 			r = dF(t.rank),
-			i = t.rank ? Vn(t.rank) : `white`;
+			i = t.rank ? Bn(t.rank) : `white`;
 		dn({
 			title: `${`${r ? r + ` ` : ``}\\${i}\\${n}\\reset\\`} sent you a friend request`,
 			status: `info`,
@@ -121799,7 +121800,7 @@ var uY = class e {
 		static tryExecuteClientside(t, n) {
 			let r = t.removeExtraSpaces().split(` `);
 			if (r[0] == `reload`)
-				return n.chunkRenderManager.reload(), wF.RUxAoffhgCggUW(), !0;
+				return n.chunkRenderManager.reload(), wF.dWxpKnSunNBOyO(), !0;
 			if (r[0] == `screenshot` || r[0] == `ss`) {
 				let e = r[1];
 				return (
@@ -122836,7 +122837,7 @@ var NGe = class e {
 		addChat(e) {
 			if (!(e.from && Fq.isBlocked(e.from))) {
 				if ((Q9.isPoki && (e = this.filterUsernames(e)), e.toast))
-					return yn.show(e);
+					return vn.show(e);
 				this.buzzOnMention(e.text),
 					this.log.push({ ...e, t: Date.now(), timer: 0 }),
 					this.log.length > AGe && this.log.shift();
@@ -123401,8 +123402,8 @@ var GGe = class extends Hm {
 		getBoundingBox(e) {
 			let t = DY(this.baseBounds, this.facingTurns(e));
 			return new AxisAlignedBoundingBox(
-				new A(t.min[0], t.min[1], t.min[2]),
-				new A(t.max[0], t.max[1], t.max[2]),
+				new k(t.min[0], t.min[1], t.min[2]),
+				new k(t.max[0], t.max[1], t.max[2]),
 			);
 		}
 		setBlockBoundsBasedOnState(e, t) {
@@ -123412,8 +123413,8 @@ var GGe = class extends Hm {
 		addCollisionBoxesToList(e, t, n, r, i, a) {
 			for (let e of this.rotatedCollision(n)) {
 				let n = new AxisAlignedBoundingBox(
-					new A(t.x + e.min[0], t.y + e.min[1], t.z + e.min[2]),
-					new A(t.x + e.max[0], t.y + e.max[1], t.z + e.max[2]),
+					new k(t.x + e.min[0], t.y + e.min[1], t.z + e.min[2]),
+					new k(t.x + e.max[0], t.y + e.max[1], t.z + e.max[2]),
 				);
 				r.intersectsBox(n) && i.push(n);
 			}
@@ -123421,7 +123422,7 @@ var GGe = class extends Hm {
 		getCollisionBoundingBox(e, t, n) {
 			let r = this.rotatedCollision(n);
 			if (r.length === 0) return null;
-			let i = new AxisAlignedBoundingBox(new A(1 / 0, 1 / 0, 1 / 0), new A(-1 / 0, -1 / 0, -1 / 0));
+			let i = new AxisAlignedBoundingBox(new k(1 / 0, 1 / 0, 1 / 0), new k(-1 / 0, -1 / 0, -1 / 0));
 			for (let e of r)
 				i.min.set(
 					Math.min(i.min.x, t.x + e.min[0]),
@@ -123734,7 +123735,7 @@ var cKe = new (class {
 						: t?.profile.username;
 			n && (e.name = n),
 				this.playerDataMap.set(e.id, e),
-				t && e.name && ((t.name = e.name), t.mesh.OewLPbTymKfUx()),
+				t && e.name && ((t.name = e.name), t.mesh.SmYAjawLlteli()),
 				e.uuid === this.game.player.profile.uuid
 					? (this.game.serverInfo.permissionLevel = e.permissionLevel)
 					: e.persistent &&
@@ -123912,7 +123913,7 @@ var SKe = 300 * 1e3,
 			this.inFlight = !0;
 			try {
 				let { default: e } = await di(async () => {
-					let { default: e } = await import(`./fp.esm-DaLHHjdX.js`);
+					let { default: e } = await import(`./fp.esm-DyzfVAKg.js`);
 					return { default: e };
 				}, []);
 				window.__fpjs_d_m = !0;
@@ -123954,7 +123955,7 @@ var SKe = 300 * 1e3,
 	];
 function AKe(e) {
 	let t = dF(e.rank),
-		n = e.rank ? Vn(e.rank) : `yellow`;
+		n = e.rank ? Bn(e.rank) : `yellow`;
 	return `\\lime\\Friends >\\reset\\ ${`${t ? t + ` ` : ``}\\${n}\\${e.username}\\reset\\`} is now online`;
 }
 var YY = new (class {
@@ -124542,7 +124543,7 @@ var YY = new (class {
 			this.known = t;
 		}
 		notify(e) {
-			yn.banner({
+			vn.banner({
 				title: `Quest Complete!`,
 				description: `${e.title} — claim +${e.reward.coins} coins & +${e.reward.xp} XP in the Quests menu`,
 				duration: FKe,
@@ -124716,15 +124717,15 @@ var QKe = class {
 		count = 0;
 		constructor(e = 1024, t = 16777215) {
 			(this.capacity = e),
-				(this.geometry = new lr()),
-				this.geometry.setAttribute(`position`, new Fr(ZKe(), 3)),
-				(this.offsets = this.xamZvKvKGqPzFKqFCMadhS(e)),
-				(this.scales = this.xamZvKvKGqPzFKqFCMadhS(e)),
+				(this.geometry = new Zn()),
+				this.geometry.setAttribute(`position`, new Nr(ZKe(), 3)),
+				(this.offsets = this.xjFJiPwvtWyDsvAInOIesK(e)),
+				(this.scales = this.xjFJiPwvtWyDsvAInOIesK(e)),
 				this.geometry.setAttribute(`instanceOffset`, this.offsets),
 				this.geometry.setAttribute(`instanceScale`, this.scales),
 				(this.geometry.instanceCount = 0);
-			let n = new $r({
-				uniforms: { color: { value: new ci(t) } },
+			let n = new Vr({
+				uniforms: { color: { value: new wr(t) } },
 				vertexShader: `
         attribute vec3 instanceOffset;
         attribute vec3 instanceScale;
@@ -124738,16 +124739,16 @@ var QKe = class {
         void main() { gl_FragColor = vec4(color, 1.0); }
       `,
 			});
-			(this.object = new ar(this.geometry, n)),
+			(this.object = new lr(this.geometry, n)),
 				(this.object.frustumCulled = !1),
 				(this.object.matrixAutoUpdate = !1),
 				(this.object.renderOrder = 999);
 		}
-		xamZvKvKGqPzFKqFCMadhS(e) {
+		xjFJiPwvtWyDsvAInOIesK(e) {
 			let t = new sr(new Float32Array(e * 3), 3);
-			return t.setUsage(ai), t;
+			return t.setUsage(fr), t;
 		}
-		DmuQBWGGTg() {
+		uGsiBkETlL() {
 			this.count = 0;
 		}
 		submit(e, t, n) {
@@ -124761,7 +124762,7 @@ var QKe = class {
 				(this.scales.array[r + 2] = t),
 				this.count++;
 		}
-		qfRUVapV() {
+		oDFUROVL() {
 			(this.geometry.instanceCount = this.count),
 				(this.object.visible = this.count > 0),
 				this.count !== 0 &&
@@ -124772,8 +124773,8 @@ var QKe = class {
 		}
 		grow() {
 			let e = this.capacity * 2,
-				t = this.xamZvKvKGqPzFKqFCMadhS(e),
-				n = this.xamZvKvKGqPzFKqFCMadhS(e);
+				t = this.xjFJiPwvtWyDsvAInOIesK(e),
+				n = this.xjFJiPwvtWyDsvAInOIesK(e);
 			t.array.set(this.offsets.array),
 				n.array.set(this.scales.array),
 				(this.offsets = t),
@@ -124786,8 +124787,8 @@ var QKe = class {
 	QY = class {
 		size = 1;
 		scale = { setScalar: (e) => void (this.size = e) };
-		position = new A();
-		material = { map: null, color: new ci(1, 1, 1), opacity: 1 };
+		position = new k();
+		material = { map: null, color: new wr(1, 1, 1), opacity: 1 };
 		constructor(e) {
 			this.material.map = e;
 		}
@@ -124958,7 +124959,7 @@ var QKe = class {
 		nextTextureIndexX() {
 			++this.particleTextureIndexX;
 		}
-		ePgGyurwfOlOuNJnP() {
+		fwLachYqIldxEJcVH() {
 			return !1;
 		}
 	},
@@ -126079,7 +126080,7 @@ var Eqe = class {
 		normAttr;
 		uvAttr;
 		colAttr;
-		origin = new A();
+		origin = new k();
 		constructor(e) {
 			this.scene = e;
 		}
@@ -126091,10 +126092,10 @@ var Eqe = class {
 				(this.colors = new Uint8Array(e * 4)),
 				(this.indices = new Uint32Array(Math.floor(e / 4) * 6)),
 				Tqe(this.indices, e),
-				(this.posAttr = new Fr(this.positions, 3).setUsage(ai)),
-				(this.normAttr = new Fr(this.normals, 3).setUsage(ai)),
-				(this.uvAttr = new Fr(this.uvs, 2).setUsage(ai)),
-				(this.colAttr = new Fr(this.colors, 4).setUsage(ai)),
+				(this.posAttr = new Nr(this.positions, 3).setUsage(fr)),
+				(this.normAttr = new Nr(this.normals, 3).setUsage(fr)),
+				(this.uvAttr = new Nr(this.uvs, 2).setUsage(fr)),
+				(this.colAttr = new Nr(this.colors, 4).setUsage(fr)),
 				(this.colAttr.normalized = !0);
 		}
 		ensureMesh() {
@@ -126102,14 +126103,14 @@ var Eqe = class {
 			let e = J.materialTransparent;
 			if (!e || !e.map) return !1;
 			this.allocate(Cqe);
-			let t = new Nr();
+			let t = new br();
 			t.setAttribute(`position`, this.posAttr),
 				t.setAttribute(`normal`, this.normAttr),
 				t.setAttribute(`uv`, this.uvAttr),
 				t.setAttribute(`color`, this.colAttr),
-				t.setIndex(new Fr(this.indices, 1)),
+				t.setIndex(new Nr(this.indices, 1)),
 				t.setDrawRange(0, 0),
-				(t.boundingSphere = new ni(new A(), 1 / 0));
+				(t.boundingSphere = new Mr(new k(), 1 / 0));
 			let n = new gr(t, e);
 			return (
 				(n.frustumCulled = !1),
@@ -126144,7 +126145,7 @@ var Eqe = class {
 					this.geometry.setAttribute(`normal`, this.normAttr),
 					this.geometry.setAttribute(`uv`, this.uvAttr),
 					this.geometry.setAttribute(`color`, this.colAttr),
-					this.geometry.setIndex(new Fr(this.indices, 1))),
+					this.geometry.setIndex(new Nr(this.indices, 1))),
 				!0
 			);
 		}
@@ -126566,13 +126567,13 @@ function Mqe() {
 			}
 		}
 	}
-	let c = new wr(o, t, t, t);
+	let c = new si(o, t, t, t);
 	return (
-		(c.format = Rr),
-		(c.type = ii),
-		(c.minFilter = dr),
-		(c.magFilter = dr),
-		(c.wrapS = c.wrapT = c.wrapR = Cr),
+		(c.format = Kr),
+		(c.type = Tr),
+		(c.minFilter = ui),
+		(c.magFilter = ui),
+		(c.wrapS = c.wrapT = c.wrapR = $r),
 		(c.unpackAlignment = 1),
 		(c.needsUpdate = !0),
 		(cX = c),
@@ -126752,27 +126753,27 @@ var Nqe = `
 		mesh;
 		material;
 		mode = `None`;
-		_camPos = new A();
-		_sunDir = new A();
-		_dayColor = new ci(0.95, 0.97, 1);
-		_nightColor = new ci(0.19, 0.23, 0.33);
-		_dayShadow = new ci(0.58, 0.64, 0.76);
-		_nightShadow = new ci(0.07, 0.09, 0.16);
-		_sunsetColor = new ci(0.98, 0.72, 0.52);
-		_sunsetShadow = new ci(0.46, 0.33, 0.47);
-		_sunGlowColor = new ci(1, 0.56, 0.3);
-		_duskColor = new ci(0.4, 0.11, 0.12);
-		_duskShadow = new ci(0.18, 0.07, 0.12);
-		_moonGlowColor = new ci(0.42, 0.48, 0.62);
+		_camPos = new k();
+		_sunDir = new k();
+		_dayColor = new wr(0.95, 0.97, 1);
+		_nightColor = new wr(0.19, 0.23, 0.33);
+		_dayShadow = new wr(0.58, 0.64, 0.76);
+		_nightShadow = new wr(0.07, 0.09, 0.16);
+		_sunsetColor = new wr(0.98, 0.72, 0.52);
+		_sunsetShadow = new wr(0.46, 0.33, 0.47);
+		_sunGlowColor = new wr(1, 0.56, 0.3);
+		_duskColor = new wr(0.4, 0.11, 0.12);
+		_duskShadow = new wr(0.18, 0.07, 0.12);
+		_moonGlowColor = new wr(0.42, 0.48, 0.62);
 		constructor(e) {
 			(this.gameScene = e),
-				(this.material = new $r({
+				(this.material = new Vr({
 					uniforms: {
 						uNoiseTex: { value: Mqe() },
-						uCameraPos: { value: new A() },
-						uSunDir: { value: new A(0, 1, 0) },
-						uCloudColor: { value: new ci(1, 1, 1) },
-						uShadowColor: { value: new ci(0.6, 0.65, 0.75) },
+						uCameraPos: { value: new k() },
+						uSunDir: { value: new k(0, 1, 0) },
+						uCloudColor: { value: new wr(1, 1, 1) },
+						uShadowColor: { value: new wr(0.6, 0.65, 0.75) },
 						uTime: { value: 0 },
 						uCloudY: { value: 0 },
 						uThickness: { value: kqe },
@@ -126783,20 +126784,20 @@ var Nqe = `
 						uFadeStart: { value: 700 },
 						uFadeEnd: { value: 1600 },
 						uVolumetric: { value: 0 },
-						uSunsetColor: { value: new ci(1, 0.56, 0.3) },
+						uSunsetColor: { value: new wr(1, 0.56, 0.3) },
 						uSunsetFactor: { value: 0 },
-						uMoonColor: { value: new ci(0.42, 0.48, 0.62) },
+						uMoonColor: { value: new wr(0.42, 0.48, 0.62) },
 						uMoonFactor: { value: 0 },
 					},
 					vertexShader: Pqe,
 					fragmentShader: Fqe,
-					glslVersion: qn,
+					glslVersion: Rr,
 					transparent: !0,
 					depthWrite: !1,
 					side: 2,
 					fog: !1,
 				}));
-			let t = new Kn(Aqe, Aqe);
+			let t = new Ar(Aqe, Aqe);
 			t.rotateX(-Math.PI / 2),
 				(this.mesh = new gr(t, this.material)),
 				(this.mesh.name = `clouds`),
@@ -126824,13 +126825,13 @@ var Nqe = `
 				this._sunDir.lengthSq() < 1e-6 && this._sunDir.set(0, 1, 0),
 				this._sunDir.normalize(),
 				n.uSunDir.value.copy(this._sunDir);
-			let o = _r.clamp(a.sunIntensity.value, 0, 1);
+			let o = $n.clamp(a.sunIntensity.value, 0, 1);
 			n.uCloudColor.value.lerpColors(this._nightColor, this._dayColor, o),
 				n.uShadowColor.value.lerpColors(this._nightShadow, this._dayShadow, o);
-			let s = _r.clamp(a.offset.y / a.sunDist, -1, 1),
-				c = _r.smoothstep(s, -0.25, 0) * (1 - _r.smoothstep(s, 0.04, 0.32)),
-				l = _r.smoothstep(s, -0.5, -0.18) * (1 - _r.smoothstep(s, -0.18, 0.05)),
-				u = 1 - _r.smoothstep(s, -0.3, 0);
+			let s = $n.clamp(a.offset.y / a.sunDist, -1, 1),
+				c = $n.smoothstep(s, -0.25, 0) * (1 - $n.smoothstep(s, 0.04, 0.32)),
+				l = $n.smoothstep(s, -0.5, -0.18) * (1 - $n.smoothstep(s, -0.18, 0.05)),
+				u = 1 - $n.smoothstep(s, -0.3, 0);
 			n.uCloudColor.value.lerp(this._sunsetColor, c * 0.7),
 				n.uShadowColor.value.lerp(this._sunsetShadow, c * 0.6),
 				n.uCloudColor.value.lerp(this._duskColor, l * 0.75),
@@ -126897,16 +126898,16 @@ var Nqe = `
 		color;
 		atmosphere;
 		uniforms = {
-			horizonColor: { value: new ci() },
-			zenithColor: { value: new ci() },
-			sunGlowColor: { value: new ci() },
-			sunDirection: { value: new A(0, 1, 0) },
+			horizonColor: { value: new wr() },
+			zenithColor: { value: new wr() },
+			sunGlowColor: { value: new wr() },
+			sunDirection: { value: new k(0, 1, 0) },
 			dayFactor: { value: 1 },
 			horizonDip: { value: 0 },
 		};
 		constructor(e, t) {
 			(this.gameScene = e), (this.sun = t);
-			let n = new $r({
+			let n = new Vr({
 				uniforms: this.uniforms,
 				vertexShader: Lqe,
 				fragmentShader: Rqe,
@@ -126915,7 +126916,7 @@ var Nqe = `
 				depthTest: !1,
 				fog: !1,
 			});
-			(this.atmosphere = new gr(new kr(5e3, 32, 16), n)),
+			(this.atmosphere = new gr(new Jr(5e3, 32, 16), n)),
 				(this.atmosphere.renderOrder = -1),
 				(this.atmosphere.frustumCulled = !1),
 				(this.atmosphere.visible = D.atmosphericSky.value),
@@ -126925,8 +126926,8 @@ var Nqe = `
 			let e =
 				(Math.abs(this.sun.offset.y) ** 0.3 / this.sun.sunDist ** 0.3) * 100;
 			this.sun.offset.y > 0
-				? (this.color = new ci(dX.findColorBetween(Zqe, Qqe, e).asRgbCss()))
-				: (this.color = new ci(dX.findColorBetween(Zqe, Xqe, e).asRgbCss()));
+				? (this.color = new wr(dX.findColorBetween(Zqe, Qqe, e).asRgbCss()))
+				: (this.color = new wr(dX.findColorBetween(Zqe, Xqe, e).asRgbCss()));
 			let t = this.gameScene.game.world;
 			if (t) {
 				let e = t.getRainStrength(1);
@@ -126942,7 +126943,7 @@ var Nqe = `
 					: (this.gameScene.scene.background = this.color);
 		}
 		updateAtmosphere(e) {
-			let t = _r.clamp(e, 0, 1),
+			let t = $n.clamp(e, 0, 1),
 				n = this.sun.offset.y > 0;
 			this.atmosphere.position.set(Y.pos.x, Y.pos.y, Y.pos.z),
 				this.uniforms.horizonColor.value.copy(this.color),
@@ -126953,7 +126954,7 @@ var Nqe = `
 				(this.uniforms.zenithColor.value.lerp(lX, r * 0.7),
 				this.uniforms.sunGlowColor.value.lerp(lX, r * 0.85)),
 				this.uniforms.sunDirection.value.copy(this.sun.offset).normalize(),
-				(this.uniforms.dayFactor.value = _r.clamp(
+				(this.uniforms.dayFactor.value = $n.clamp(
 					(this.sun.offset.y / this.sun.sunDist) * 2 + 0.5,
 					0,
 					1,
@@ -126963,19 +126964,19 @@ var Nqe = `
 				this.uniforms.zenithColor.value.lerp(Kqe, i);
 		}
 	},
-	lX = new ci(`#6B7280`),
-	Bqe = new ci(`#06081E`),
-	Vqe = new ci(`#2E3D6B`),
-	Hqe = new ci(`#6FA8DC`),
-	Uqe = new ci(`#10142E`),
-	Wqe = new ci(`#FF9A5C`),
-	Gqe = new ci(`#FFF3D6`),
-	Kqe = new ci(`#03040E`),
+	lX = new wr(`#6B7280`),
+	Bqe = new wr(`#06081E`),
+	Vqe = new wr(`#2E3D6B`),
+	Hqe = new wr(`#6FA8DC`),
+	Uqe = new wr(`#10142E`),
+	Wqe = new wr(`#FF9A5C`),
+	Gqe = new wr(`#FFF3D6`),
+	Kqe = new wr(`#03040E`),
 	qqe = 64,
 	Jqe = 256,
 	Yqe = 0.3;
 function uX(e) {
-	return _r.clamp((e - qqe) / (Jqe - qqe), 0, 1);
+	return $n.clamp((e - qqe) / (Jqe - qqe), 0, 1);
 }
 var dX = {
 		convertHexToRgb: function (e) {
@@ -127014,7 +127015,7 @@ var dX = {
 	Xqe = new fX(`#151B54`),
 	Zqe = new fX(`#F0915A`),
 	Qqe = new fX(`#ADD8E6`),
-	$qe = new A(1, 1, 1).normalize(),
+	$qe = new k(1, 1, 1).normalize(),
 	eJe = uX(200),
 	tJe = class {
 		gameScene;
@@ -127035,16 +127036,16 @@ var dX = {
 					u = r * Math.cos(s);
 				n.push(c, l, u);
 			}
-			let r = new Nr();
-			r.setAttribute(`position`, new Qn(n, 3));
-			let i = new ei({
+			let r = new br();
+			r.setAttribute(`position`, new Yn(n, 3));
+			let i = new A({
 				transparent: !0,
 				color: 16777215,
 				size: 300,
 				fog: !1,
 				depthWrite: !1,
 			});
-			(this.stars = new Ar(r, i)),
+			(this.stars = new ei(r, i)),
 				this.gameScene.ambientMeshes.add(this.stars),
 				(this.stars.visible = D.stars.value),
 				D.stars.onChange((e) => {
@@ -127055,21 +127056,21 @@ var dX = {
 			if (((this.stars.visible = Y.hasDaylightSky()), !this.stars.visible))
 				return;
 			let e = Math.sin(bX.tick.value * this.sun.daySpeed),
-				t = 1 - _r.smoothstep(e, -0.12, 0),
-				n = _r.smoothstep(uX(Y.pos.y), eJe, 1);
+				t = 1 - $n.smoothstep(e, -0.12, 0),
+				n = $n.smoothstep(uX(Y.pos.y), eJe, 1);
 			(this.stars.material.opacity = Math.max(t, n)),
 				this.stars.setRotationFromAxisAngle($qe, bX.tick.value * 0.001),
 				this.stars.position.set(Y.pos.x, Y.pos.y, Y.pos.z);
 		}
 	},
-	nJe = new A(),
-	rJe = new A(),
-	pX = new A(),
-	mX = new A(),
-	hX = new A(),
-	gX = new A(),
-	_X = new A(),
-	iJe = new A(0, 1, 0),
+	nJe = new k(),
+	rJe = new k(),
+	pX = new k(),
+	mX = new k(),
+	hX = new k(),
+	gX = new k(),
+	_X = new k(),
+	iJe = new k(0, 1, 0),
 	vX = 110,
 	yX = 60,
 	aJe = 2048,
@@ -127086,7 +127087,7 @@ var dX = {
 		sunlight;
 		moonlight;
 		shadowTarget = new yr();
-		shadowCenter = new A();
+		shadowCenter = new k();
 		shadowCenterReady = !1;
 		shadowTexel = (yX * 2) / aJe;
 		ambiIntensity = uT(1.5, 1e3);
@@ -127096,7 +127097,7 @@ var dX = {
 			(this.gameScene = e),
 				(this.ambi = new Or(16777215, 2)),
 				this.gameScene.ambientMeshes.add(this.ambi),
-				(this.sunlight = new Yn(16777140, 1)),
+				(this.sunlight = new ai(16777140, 1)),
 				this.gameScene.ambientMeshes.add(this.sunlight),
 				this.shadowTarget.position.set(0, 0, 0),
 				this.gameScene.ambientMeshes.add(this.shadowTarget),
@@ -127115,13 +127116,13 @@ var dX = {
 				(this.sunlight.shadow.radius = sJe),
 				this.applyShadowQuality(),
 				D.shadows.onChange(() => this.applyShadowQuality()),
-				(this.moonlight = new Yn(`white`, 0.5)),
+				(this.moonlight = new ai(`white`, 0.5)),
 				this.gameScene.ambientMeshes.add(this.moonlight),
 				(this.sun = J.loadSprite(`sun.png`)),
 				(this.moon = J.loadSprite(`moon.png`)),
 				(this.daySpeed = 1 / (12e3 / Math.PI)),
 				(this.sunDist = 5e4),
-				(this.offset = new A(this.sunDist, 0, 0)),
+				(this.offset = new k(this.sunDist, 0, 0)),
 				this.gameScene.ambientMeshes.add(this.sun),
 				this.gameScene.ambientMeshes.add(this.moon),
 				(this.sun.renderOrder = -2),
@@ -127198,7 +127199,7 @@ var dX = {
 		constructor(e, t) {
 			(this.scene = e),
 				(this.game = t),
-				(this.material = new vr({
+				(this.material = new Qn({
 					map: J.material?.map ?? null,
 					transparent: !0,
 					alphaTest: 0.05,
@@ -127209,7 +127210,7 @@ var dX = {
 					side: 2,
 				}));
 		}
-		oxJoVjDXy(e, t) {
+		SKYoWosTj(e, t) {
 			if ((this.clearAt(e), t < 0)) return;
 			let n = this.game.world.getBlockState(e).getBlock();
 			if (n.getRenderType() !== Vm.TESR) return;
@@ -127291,10 +127292,10 @@ var dX = {
 					[s, c, o],
 					[i, c, o],
 				]);
-			let g = new Nr();
+			let g = new br();
 			return (
-				g.setAttribute(`position`, new Qn(u, 3)),
-				g.setAttribute(`uv`, new Qn(d, 2)),
+				g.setAttribute(`position`, new Yn(u, 3)),
+				g.setAttribute(`uv`, new Yn(d, 2)),
 				g.setIndex(f),
 				g
 			);
@@ -127347,22 +127348,22 @@ var dX = {
 		scratch = new I(0, 0, 0);
 		constructor(e) {
 			this.gameScene = e;
-			let t = new Ir(),
+			let t = new xr(),
 				n = (e, n, r) => {
 					let i = t.load(`textures/environment/${e}.png`);
-					(i.wrapS = Cr),
-						(i.wrapT = Cr),
-						(i.magFilter = br),
-						(i.minFilter = br);
+					(i.wrapS = $r),
+						(i.wrapT = $r),
+						(i.magFilter = _r),
+						(i.minFilter = _r);
 					let a = {
 							map: { value: i },
 							uTime: { value: 0 },
 							uOpacity: { value: 0 },
-							uTint: { value: new ci(1, 1, 1) },
+							uTint: { value: new wr(1, 1, 1) },
 							uFallSpeed: { value: n },
 							uSway: { value: r },
 						},
-						o = new $r({
+						o = new Vr({
 							uniforms: a,
 							vertexShader: pJe,
 							fragmentShader: mJe,
@@ -127370,7 +127371,7 @@ var dX = {
 							depthWrite: !1,
 							side: 2,
 						}),
-						s = new gr(new Nr(), o);
+						s = new gr(new br(), o);
 					return (
 						(s.frustumCulled = !1),
 						(s.matrixAutoUpdate = !1),
@@ -127473,10 +127474,10 @@ var dX = {
 		}
 		applyGeometry(e, t, n, r) {
 			e.geometry.dispose();
-			let i = new Nr();
-			i.setAttribute(`position`, new Qn(t, 3)),
-				i.setAttribute(`uv`, new Qn(n, 2)),
-				i.setAttribute(`phase`, new Qn(r, 1)),
+			let i = new br();
+			i.setAttribute(`position`, new Yn(t, 3)),
+				i.setAttribute(`uv`, new Yn(n, 2)),
+				i.setAttribute(`phase`, new Yn(r, 1)),
 				(e.geometry = i),
 				(e.visible = t.length > 0);
 		}
@@ -127484,8 +127485,8 @@ var dX = {
 			let r = Math.max(256 - t, 40),
 				i = (i, a) => {
 					let o = new gr(
-						new hr(i, r, i),
-						new vr({
+						new Cr(i, r, i),
+						new Qn({
 							color: 14543103,
 							transparent: !0,
 							opacity: a,
@@ -127533,13 +127534,13 @@ var dX = {
 	},
 	bX = class e {
 		game;
-		camera = new ur(85, window.innerWidth / window.innerHeight, 0.1, 1e7);
-		scene = new qr();
-		axesHelper = new jr(0.01);
-		entityMeshes = new zr();
-		chunkMeshes = new zr();
-		ambientMeshes = new zr();
-		leaderboardMeshes = new zr();
+		camera = new Gn(85, window.innerWidth / window.innerHeight, 0.1, 1e7);
+		scene = new Dr();
+		axesHelper = new qr(0.01);
+		entityMeshes = new ir();
+		chunkMeshes = new ir();
+		ambientMeshes = new ir();
+		leaderboardMeshes = new ir();
 		sun;
 		stars;
 		sky;
@@ -127684,7 +127685,7 @@ var CX = 64,
 		constructor(e) {
 			super(e);
 			let t = J.entityMaterials[TJe];
-			(this.orbMaterial = new vr({
+			(this.orbMaterial = new Qn({
 				map: t?.map ?? null,
 				transparent: !0,
 				alphaTest: 0.1,
@@ -127692,36 +127693,36 @@ var CX = 64,
 				side: 2,
 			})),
 				(this.inner = new gr(
-					this.rKxjpeFGD(e.ZtVquPzqzUmMXI()),
+					this.NbJRSISiO(e.RsRuVZbKLVrUeP()),
 					this.orbMaterial,
 				)),
 				(this.inner.position.y = TX),
 				this.add(this.inner);
 		}
-		rKxjpeFGD(e) {
+		NbJRSISiO(e) {
 			let t = e % wJe,
 				n = Math.floor(e / wJe),
 				r = (t * wX) / CX,
 				i = (t * wX + wX) / CX,
 				a = 1 - (n * wX) / CX,
 				o = 1 - (n * wX + wX) / CX,
-				s = new Nr();
+				s = new br();
 			return (
 				s.setAttribute(
 					`position`,
-					new Qn([-0.25, -0.25, 0, TX, -0.25, 0, TX, TX, 0, -0.25, TX, 0], 3),
+					new Yn([-0.25, -0.25, 0, TX, -0.25, 0, TX, TX, 0, -0.25, TX, 0], 3),
 				),
-				s.setAttribute(`uv`, new Qn([r, o, i, o, i, a, r, a], 2)),
+				s.setAttribute(`uv`, new Yn([r, o, i, o, i, a, r, a], 2)),
 				s.setAttribute(
 					`normal`,
-					new Qn([0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1], 3),
+					new Yn([0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1], 3),
 				),
 				s.setIndex([0, 1, 2, 0, 2, 3]),
 				s
 			);
 		}
 		render() {
-			super.render(), this.inner.lookAt(Y.aufGUWRrMjusybpZlLQW());
+			super.render(), this.inner.lookAt(Y.fwMEWmugjXbNvjLWTMMb());
 			let e = (this.entity.xpColor + this.entity.getPartialTicks()) / 2;
 			(this.orbMaterial.color.r = (Math.sin(e) + 1) * 0.5),
 				(this.orbMaterial.color.g = 1),
@@ -127736,10 +127737,10 @@ var CX = 64,
 		textMesh;
 		lines = [];
 		initTextMesh(e) {
-			let t = new Sr(this.canvas);
-			(t.minFilter = br), (t.magFilter = br);
-			let n = new er({ map: t, side: 0, transparent: !0, alphaTest: 0.5 }),
-				r = new Kn(5, 6 * 0.25);
+			let t = new ri(this.canvas);
+			(t.minFilter = _r), (t.magFilter = _r);
+			let n = new nr({ map: t, side: 0, transparent: !0, alphaTest: 0.5 }),
+				r = new Ar(5, 6 * 0.25);
 			(this.textMesh = new gr(r, n)),
 				this.add(this.textMesh),
 				this.textMesh.rotateY(Math.PI);
@@ -128666,13 +128667,13 @@ var DX = [1, -1, 0, 0, 0, 0],
 			let n = this.chunkTileEntityMap.get(e) ?? null;
 			return n == null && t && (n = this.createNewTileEntity(e)), n;
 		}
-		udxSAWclyQO() {
+		qXDltNFuCUL() {
 			(this.isChunkLoaded = !0),
 				this.world.addTileEntities(
 					Array.from(this.chunkTileEntityMap.values()),
 				);
 			for (let e = 0; e < this.entityLists.length; ++e) {
-				for (let t of this.entityLists[e]) t.udxSAWclyQO();
+				for (let t of this.entityLists[e]) t.qXDltNFuCUL();
 				this.world.loadEntities(this.entityLists[e]);
 			}
 		}
@@ -128950,7 +128951,7 @@ var DX = [1, -1, 0, 0, 0, 0],
 		}
 		addTileEntity(e, t) {}
 		removeTileEntity(e) {}
-		udxSAWclyQO() {}
+		qXDltNFuCUL() {}
 		onChunkUnload() {}
 		getEntitiesWithinAABBForEntity(e, t, n, r) {}
 		isEmpty() {
@@ -129430,7 +129431,7 @@ Reason: the server has crashed`)
 		}),
 		hG.on(`CPacketTabComplete`, (t) => e.chat.autoCompleteReceived(t)),
 		hG.on(`CPacketPlayerReconciliation`, (t) => {
-			e.player.HvJwFVhCGoisNEnwjUqQGcL(t);
+			e.player.MKzeNpQSptxKVTHKMfmGMOL(t);
 		}),
 		hG.on(`CPacketRespawn`, async (t) => {
 			if (t.client) await e.cubicBezier.playVideoAd(!0), Y.sendRespawnPacket();
@@ -129466,16 +129467,16 @@ Reason: the server has crashed`)
 			let n = t.data.map((e) => Qp.fromProto(e));
 			if (Y.id === t.id)
 				for (let e of n)
-					e.ZgjClHnbiFKDSw() === 0 &&
+					e.HKcYuuReJToXiv() === 0 &&
 						typeof e.getObject() == `number` &&
-						e.lqmOqOSsV((e.getObject() & -9) | (Y.isSprinting() ? 8 : 0));
+						e.fOgTqHAJE((e.getObject() & -9) | (Y.isSprinting() ? 8 : 0));
 			let r = e.world.entities.get(t.id);
 			if (r != null && t.data != null)
-				r.getDataWatcher().QFAqjthdpqWotIahAUcsGEMdUsRg(n);
+				r.getDataWatcher().UeMZpEjtEvOAAiVEVejUsUexTEWQ(n);
 			else
 				for (let r of e.world.entitySpawnQueue)
-					r.id == t.id && r.getDataWatcher().QFAqjthdpqWotIahAUcsGEMdUsRg(n);
-			Y.id === t.id && Y.getDataWatcher().QFAqjthdpqWotIahAUcsGEMdUsRg(n);
+					r.id == t.id && r.getDataWatcher().UeMZpEjtEvOAAiVEVejUsUexTEWQ(n);
+			Y.id === t.id && Y.getDataWatcher().UeMZpEjtEvOAAiVEVejUsUexTEWQ(n);
 		}),
 		hG.on(`CPacketSoundEffect`, (e) => {
 			wt.play(
@@ -129483,7 +129484,7 @@ Reason: the server has crashed`)
 				e.volume || 1,
 				e.pitch || 1,
 				e.location
-					? new A(e.location.x / 8, e.location.y / 8, e.location.z / 8)
+					? new k(e.location.x / 8, e.location.y / 8, e.location.z / 8)
 					: void 0,
 			);
 		}),
@@ -129601,7 +129602,7 @@ Reason: the server has crashed`)
 				Y.displayGUIChest(e), (Y.openContainer.windowId = t.windowId);
 			} else if (t.guiID === `invsee`) {
 				let e = new og(t.title ?? `Inventory`, t.size ?? 36);
-				Y.ggdLonWXCzOnM(e), (Y.openContainer.windowId = t.windowId);
+				Y.NgLKOiEuVcCYQ(e), (Y.openContainer.windowId = t.windowId);
 			} else if (t.guiID === `villager`)
 				Y.displayVillagerTradeGui(new WKe(Y), t.title ?? `Villager`),
 					(Y.openContainer.windowId = t.windowId);
@@ -129695,7 +129696,7 @@ Reason: the server has crashed`)
 			(e.info.machineGui = null),
 				(e.info.machineProgress = 0),
 				(e.info.machineFuel = 0),
-				Y.cjOMvhdnZbKjpOVSnDWyFVS();
+				Y.TXEilzHxjIwqcMMpDuuLtDB();
 		}),
 		hG.on(`CPacketWindowProperty`, (t) => {
 			t.varIndex == null ||
@@ -129725,7 +129726,7 @@ Reason: the server has crashed`)
 		hG.on(`CPacketConfirmTransaction`, (t) => {
 			let n = null;
 			t.windowId == 0
-				? ((n = Y.inventoryContainer), Y.ByljVgIESsxzUY())
+				? ((n = Y.inventoryContainer), Y.HObBnXHylGtowS())
 				: t.windowId == Y.openContainer.windowId &&
 					((n = Y.openContainer), e.info.touchInventory(), NI.markBought()),
 				n != null &&
@@ -129795,12 +129796,12 @@ Reason: the server has crashed`)
 			if (n != null) {
 				if (t.mode != null) {
 					let e = xg.fromId(t.mode);
-					n.mesh.hTRUdgVAczkoGG(e), t.id == Y.id && Y.setGamemode(e);
+					n.mesh.whEsVYwohzZNeu(e), t.id == Y.id && Y.setGamemode(e);
 				}
 				t.rank != null && (n.profile.rank = t.rank),
 					t.color !== void 0 && (n.profile.cosmetics.color = t.color),
 					t.hidePlayers != null && (wF.hidePlayers = t.hidePlayers),
-					n.mesh.OewLPbTymKfUx();
+					n.mesh.SmYAjawLlteli();
 			}
 		}),
 		hG.on(`CPacketEntityPositionAndRotation`, (t) => {
@@ -129808,7 +129809,7 @@ Reason: the server has crashed`)
 			if (!n) return;
 			let r, i, a;
 			if (
-				(t.pos && (r = new A(t.pos.x, t.pos.y, t.pos.z)),
+				(t.pos && (r = new k(t.pos.x, t.pos.y, t.pos.z)),
 				t.yaw !== void 0 && (i = (t.yaw / 256) * Math.PI * 2),
 				t.pitch !== void 0 && (a = (t.pitch / 256) * Math.PI * 2),
 				r)
@@ -129841,7 +129842,7 @@ Reason: the server has crashed`)
 			if (!n) return;
 			let r, i, a;
 			if (
-				(t.pos && (r = new A(t.pos.x, t.pos.y, t.pos.z)),
+				(t.pos && (r = new k(t.pos.x, t.pos.y, t.pos.z)),
 				t.yaw !== void 0 && (i = (t.yaw / 256) * Math.PI * 2),
 				t.pitch !== void 0 && (a = (t.pitch / 256) * Math.PI * 2),
 				r)
@@ -129872,11 +129873,11 @@ Reason: the server has crashed`)
 		hG.on(`CPacketEntityVelocity`, (t) => {
 			let n = e.world.getEntityIncludingQueued(t.id);
 			n != null &&
-				(n.ClKcLjUSSNT(t.motion.x, t.motion.y, t.motion.z),
+				(n.lnoVLrDQLLV(t.motion.x, t.motion.y, t.motion.z),
 				(n.lastVelocityPacketAt = Date.now()),
 				n.id == Y.id &&
-					(Y.ClKcLjUSSNT(t.motion.x, t.motion.y, t.motion.z),
-					e.player.dHcTTcTevqmJFjXkrEgTKo()));
+					(Y.lnoVLrDQLLV(t.motion.x, t.motion.y, t.motion.z),
+					e.player.PTmPiZSeWqfUDZPFzGPpzZ()));
 		}),
 		hG.on(`CPacketEntityAction`, (t) => {
 			let n = e.world.getPlayerById(t.id);
@@ -130089,7 +130090,7 @@ Reason: the server has crashed`)
 					? n.mesh?.swingArm?.(+(t.type == 3))
 					: t.type == 1 ||
 						(t.type == 2
-							? (Y.zNasSrnoGPLv(!1, !1, !1), fK.displayGuiScreen(null))
+							? (Y.lvObstILfQFq(!1, !1, !1), fK.displayGuiScreen(null))
 							: t.type == 4
 								? e.gameScene.effectRenderer.emitParticleAtEntity(
 										e.world,
@@ -130116,7 +130117,7 @@ Reason: the server has crashed`)
 				((Y.motion.x += t.playerPos.x ?? 0),
 				(Y.motion.y += t.playerPos.y ?? 0),
 				(Y.motion.z += t.playerPos.z ?? 0),
-				e.player.dHcTTcTevqmJFjXkrEgTKo());
+				e.player.PTmPiZSeWqfUDZPFzGPpzZ());
 		}),
 		hG.on(`CPacketChangeServers`, (t) => {
 			if (t.url != null) {
@@ -130175,7 +130176,7 @@ Reason: the server has crashed`)
 		hG.on(`CPacketUseBed`, (e) => {
 			if (!(e.id == null || e.bedPos == null) && e.id === Y.id) {
 				let t = I.fromProto(e.bedPos);
-				Y.LnoTWxEU(t), fK.displayGuiScreen(new kJe());
+				Y.LvHTUuJl(t), fK.displayGuiScreen(new kJe());
 			}
 		}),
 		hG.on(`CPacketQueueNext`, (t) => {
@@ -130204,7 +130205,7 @@ Reason: the server has crashed`)
 			t.experience == null ||
 				t.experienceTotal == null ||
 				t.level == null ||
-				(Y.dpfeJjVXHe(t.experience, t.experienceTotal, t.level),
+				(Y.UjyGszurmN(t.experience, t.experienceTotal, t.level),
 				(e.info.xp = {
 					experience: t.experience,
 					experienceTotal: t.experienceTotal,
@@ -130239,10 +130240,10 @@ Reason: the server has crashed`)
 				i = Y.id == t.id,
 				a = fm.sprintingSpeedBoostModifier.getName();
 			for (let e of t.data) {
-				let t = r.PugYTLKLgPueOMqEQkZsUItuDI(e.id);
+				let t = r.GeRyuuwLcUynDJOJhEbntTdHFd(e.id);
 				(t ??= r.registerAttribute(new Tp(null, e.id, 0, 0, Number.MAX_VALUE))),
 					t.setBaseValue(e.value),
-					t.uUvNLRmOscjZKpWnKe();
+					t.RWDYOBCCniTIRWBMbg();
 				let n = i && e.id == `generic.movementSpeed`;
 				for (let r of e.modifiers) {
 					if (n && r.id == a) continue;
@@ -130282,7 +130283,7 @@ Reason: the server has crashed`)
 				Y.id == n.id && (r = Y),
 				r &&
 					r instanceof fm &&
-					(r.LRXKbQnfZodMHIHUiLCjqJaZ(n.effectId),
+					(r.lXFbaWdoBYmhiNyohGXyDpEK(n.effectId),
 					r.activePotionsMap.size === 0 && clearInterval(t),
 					(e.info.effectsUpdate += 1));
 		}),
@@ -130357,13 +130358,13 @@ Reason: the server has crashed`)
 						? ((n = Y),
 							i instanceof S_
 								? (Y.ridingEntity !== i && e.info.boatExitHintNonce++,
-									i.iKqeyUPgwCfPPV(!1))
+									i.ngApoWVCMwLeAI(!1))
 								: Y.ridingEntity instanceof S_ &&
-									Y.ridingEntity.iKqeyUPgwCfPPV(!0),
+									Y.ridingEntity.ngApoWVCMwLeAI(!0),
 							Y.ridingEntity instanceof F_ &&
-								Y.ridingEntity.jgBlvXaJVAHiaALXl(!1),
-							i instanceof F_ && i.jgBlvXaJVAHiaALXl(!0))
-						: i instanceof S_ && i.iKqeyUPgwCfPPV(!0),
+								Y.ridingEntity.NljjLopADbcsuphxO(!1),
+							i instanceof F_ && i.NljjLopADbcsuphxO(!0))
+						: i instanceof S_ && i.ngApoWVCMwLeAI(!0),
 					n == null)
 				)
 					return;
@@ -130536,7 +130537,7 @@ Reason: the server has crashed`)
 				t.armor.length > 0 &&
 					Promise.all(
 						t.armor.map((e) =>
-							J.skinManager.oBAHQFTXA(
+							J.skinManager.sWyCsoyTM(
 								e.key,
 								r(e.layer1Url),
 								e.layer2Url ? r(e.layer2Url) : void 0,
@@ -131580,7 +131581,7 @@ var UX = i((e, t) => {
 						return d.current.isEnabled(e);
 					},
 					x = function (e) {
-						return d.current.dbWzoxTroa(e);
+						return d.current.ALEOFMOpBr(e);
 					},
 					S = function (e, t, n) {
 						return d.current.on(e, t, n);
@@ -131591,7 +131592,7 @@ var UX = i((e, t) => {
 								on: S,
 								updateContext: y,
 								isEnabled: b,
-								dbWzoxTroa: x,
+								ALEOFMOpBr: x,
 								client: d.current,
 								flagsReady: p,
 								flagsError: g,
@@ -131664,7 +131665,7 @@ var UX = i((e, t) => {
 			},
 			d = function (e) {
 				var t = (0, i.useContext)(a),
-					n = t.dbWzoxTroa,
+					n = t.ALEOFMOpBr,
 					r = t.client,
 					o = (0, i.useState)(n(e)),
 					s = o[0],
@@ -132154,7 +132155,7 @@ var YX = [`/assets/default-B1Dv6Hww.webp`][Math.floor(Math.random() * 1)],
 		typeof document < `u` ? document.querySelectorAll(tXe).length : 0,
 	rXe = {
 		color: `white`,
-		textShadow: Sn,
+		textShadow: xn,
 		borderRadius: 0,
 		border: `2px solid black`,
 		px: 2,
@@ -132673,7 +132674,7 @@ var xXe = GX(function () {
 	wXe = () => {
 		let e = vL(),
 			t = _L(),
-			n = Vn(e.rank),
+			n = Bn(e.rank),
 			r = de(e.rank);
 		return (
 			N.useEffect(() => {
@@ -132841,7 +132842,7 @@ var pZ = (e) =>
 			position: `absolute`,
 			top: 2,
 			insetEnd: 3,
-			children: (0, W.jsx)(xn, {
+			children: (0, W.jsx)(bn, {
 				size: `sm`,
 				color: `white`,
 				borderRadius: 0,
@@ -139082,7 +139083,7 @@ var u$e = ({ accent: e, onClose: t, children: n }) =>
 			pointerEvents: `auto`,
 			role: `alert`,
 			children: [
-				(0, W.jsx)(xn, {
+				(0, W.jsx)(bn, {
 					position: `absolute`,
 					top: 1,
 					right: 1,
@@ -139226,7 +139227,7 @@ var g$e = ({
 		}),
 	_$e = r({ RankText: () => l$, default: () => v$e }),
 	l$ = ({ rank: e = `pro` }) => {
-		let t = Vn(e);
+		let t = Bn(e);
 		return (
 			(e = e.toUpperCase()),
 			(0, W.jsx)(O, {
@@ -140441,7 +140442,7 @@ var C$e = GX(function () {
 		1,
 	),
 	g$ = `/assets/coin-D__IidTw.png`,
-	k$e = `data:image/png;base64,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`,
+	k$e = `data:image/png;base64,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`,
 	_$ = ({ sx: e, ...t }) =>
 		(0, W.jsx)(Rw, { ...t, css: { imageRendering: `pixelated`, ...e } }),
 	A$e = `data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2016%2016'%20shape-rendering='crispEdges'%3e%3c!--%20top%20point%20--%3e%3crect%20x='7'%20y='1'%20width='2'%20height='1'%20fill='%230a3a5a'/%3e%3crect%20x='6'%20y='2'%20width='1'%20height='1'%20fill='%230a3a5a'/%3e%3crect%20x='9'%20y='2'%20width='1'%20height='1'%20fill='%230a3a5a'/%3e%3crect%20x='7'%20y='2'%20width='2'%20height='1'%20fill='%23bfeeff'/%3e%3crect%20x='5'%20y='3'%20width='1'%20height='1'%20fill='%230a3a5a'/%3e%3crect%20x='10'%20y='3'%20width='1'%20height='1'%20fill='%230a3a5a'/%3e%3crect%20x='6'%20y='3'%20width='4'%20height='1'%20fill='%23bfeeff'/%3e%3c!--%20upper%20body%20--%3e%3crect%20x='4'%20y='4'%20width='1'%20height='2'%20fill='%230a3a5a'/%3e%3crect%20x='11'%20y='4'%20width='1'%20height='2'%20fill='%230a3a5a'/%3e%3crect%20x='5'%20y='4'%20width='6'%20height='2'%20fill='%237fe0ff'/%3e%3crect%20x='5'%20y='4'%20width='1'%20height='2'%20fill='%23bfeeff'/%3e%3crect%20x='9'%20y='4'%20width='2'%20height='2'%20fill='%234fc3ee'/%3e%3c!--%20widest%20--%3e%3crect%20x='3'%20y='6'%20width='1'%20height='2'%20fill='%230a3a5a'/%3e%3crect%20x='12'%20y='6'%20width='1'%20height='2'%20fill='%230a3a5a'/%3e%3crect%20x='4'%20y='6'%20width='8'%20height='2'%20fill='%237fe0ff'/%3e%3crect%20x='4'%20y='6'%20width='1'%20height='2'%20fill='%23bfeeff'/%3e%3crect%20x='10'%20y='6'%20width='2'%20height='2'%20fill='%234fc3ee'/%3e%3c!--%20narrowing%20--%3e%3crect%20x='4'%20y='8'%20width='1'%20height='1'%20fill='%230a3a5a'/%3e%3crect%20x='11'%20y='8'%20width='1'%20height='1'%20fill='%230a3a5a'/%3e%3crect%20x='5'%20y='8'%20width='6'%20height='1'%20fill='%237fe0ff'/%3e%3crect%20x='9'%20y='8'%20width='2'%20height='1'%20fill='%234fc3ee'/%3e%3crect%20x='5'%20y='9'%20width='1'%20height='1'%20fill='%230a3a5a'/%3e%3crect%20x='10'%20y='9'%20width='1'%20height='1'%20fill='%230a3a5a'/%3e%3crect%20x='6'%20y='9'%20width='4'%20height='1'%20fill='%237fe0ff'/%3e%3crect%20x='9'%20y='9'%20width='1'%20height='1'%20fill='%234fc3ee'/%3e%3crect%20x='6'%20y='10'%20width='1'%20height='1'%20fill='%230a3a5a'/%3e%3crect%20x='9'%20y='10'%20width='1'%20height='1'%20fill='%230a3a5a'/%3e%3crect%20x='7'%20y='10'%20width='2'%20height='1'%20fill='%237fe0ff'/%3e%3crect%20x='8'%20y='10'%20width='1'%20height='1'%20fill='%234fc3ee'/%3e%3c!--%20bottom%20point%20--%3e%3crect%20x='7'%20y='11'%20width='2'%20height='1'%20fill='%230a3a5a'/%3e%3c!--%20sparkle%20--%3e%3crect%20x='12'%20y='2'%20width='1'%20height='1'%20fill='%23ffffff'/%3e%3crect%20x='11'%20y='3'%20width='3'%20height='1'%20fill='%23ffffff'/%3e%3crect%20x='12'%20y='4'%20width='1'%20height='1'%20fill='%23ffffff'/%3e%3c/svg%3e`,
@@ -141036,8 +141037,8 @@ var U$e = ({ dayLabel: e, reward: t, state: n, onClaim: r }) => {
 	J$e = 2e3,
 	Y$e = new (class {
 		renderer = null;
-		scene = new qr();
-		camera = new ur(40, 1, 0.01, 100);
+		scene = new Dr();
+		camera = new Gn(40, 1, 0.01, 100);
 		cache = {};
 		size = 128;
 		init() {
@@ -141052,31 +141053,31 @@ var U$e = ({ dayLabel: e, reward: t, state: n, onClaim: r }) => {
 					preserveDrawingBuffer: !0,
 				})),
 				this.renderer.setClearColor(0, 0),
-				(this.renderer.outputColorSpace = ui),
+				(this.renderer.outputColorSpace = qn),
 				this.scene.add(new Or(16777215, 2.2));
-			let t = new Yn(16777215, 1.1);
+			let t = new ai(16777215, 1.1);
 			t.position.set(1, 1.5, 2), this.scene.add(t);
 		}
 		async render(e) {
 			if (!e || e === `none`) return null;
 			if (this.cache[e]) return this.cache[e];
 			try {
-				let t = await J.EjTyTpmHNek.getModel(e);
+				let t = await J.FZzmKWpkvxT.getModel(e);
 				if (!t) return null;
 				this.init();
 				let n = this.renderer;
 				if (!n) return null;
 				let r = t.clone(!0),
 					i = new AxisAlignedBoundingBox().setFromObject(r),
-					a = new A();
+					a = new k();
 				i.getCenter(a), r.position.sub(a);
-				let o = new ni();
+				let o = new Mr();
 				i.getBoundingSphere(o);
 				let s = o.radius || 0.5;
 				this.scene.add(r);
 				let c = (this.camera.fov * Math.PI) / 180,
 					l = (s / Math.sin(c / 2)) * 1.3,
-					u = new A(0.55, 0.45, 1).normalize();
+					u = new k(0.55, 0.45, 1).normalize();
 				this.camera.position.copy(u.multiplyScalar(l)),
 					(this.camera.near = Math.max(0.01, l - s * 2)),
 					(this.camera.far = l + s * 2),
@@ -141091,12 +141092,12 @@ var U$e = ({ dayLabel: e, reward: t, state: n, onClaim: r }) => {
 		}
 	})(),
 	C$ = class e extends gF {
-		pos = new A(0, -1, -1.3);
-		static TRAIL_RUN_POS = new A(0, -1, -2.4);
+		pos = new k(0, -1, -1.3);
+		static TRAIL_RUN_POS = new k(0, -1, -2.4);
 		display = S$.SKIN;
 		running = !1;
 		previewElytra = !1;
-		positionOnScreen = new Tr();
+		positionOnScreen = new dr();
 		fakePlayer;
 		constructor(e, t) {
 			let n = new nP(`account3d`, ``, new MX($, e, 0));
@@ -141152,7 +141153,7 @@ var U$e = ({ dayLabel: e, reward: t, state: n, onClaim: r }) => {
 					(this.headPivot.rotation.x = 0);
 				return;
 			}
-			let t = new Tr(0, 0);
+			let t = new dr(0, 0);
 			Q9.isMobile ||
 				(t.set(VI.x, VI.y).sub(this.positionOnScreen),
 				(t.x /= PI.width),
@@ -141167,11 +141168,11 @@ var U$e = ({ dayLabel: e, reward: t, state: n, onClaim: r }) => {
 	X$e = 500,
 	Z$e = 0.22,
 	w$ = class {
-		scene = new qr();
-		entityMeshes = new zr();
+		scene = new Dr();
+		entityMeshes = new ir();
 		effectRenderer = new Oqe(this.entityMeshes, !0);
 		accountRenderer;
-		camera = new ur(90, 1);
+		camera = new Gn(90, 1);
 		defaultProfile;
 		guiPlayer;
 		offscreen = null;
@@ -141245,7 +141246,7 @@ var U$e = ({ dayLabel: e, reward: t, state: n, onClaim: r }) => {
 			a != null &&
 				((this.accountRenderer = a),
 				this.accountRenderer.setPixelRatio(window.devicePixelRatio),
-				(this.accountRenderer.outputColorSpace = ui),
+				(this.accountRenderer.outputColorSpace = qn),
 				(this.camera.aspect = r / i),
 				this.applyFramingZoom(e, i),
 				this.camera.updateProjectionMatrix(),
@@ -141278,7 +141279,7 @@ var U$e = ({ dayLabel: e, reward: t, state: n, onClaim: r }) => {
 			(e.limbSwing = 0),
 				(e.limbSwingAmount = 0),
 				(e.prevLimbSwingAmount = 0),
-				e.hjTZwzK(3, !1),
+				e.bCFuaNN(3, !1),
 				(this.guiPlayer.running = this.isPreviewingTrail()),
 				this.guiPlayer.running && e.pos.copy(C$.TRAIL_RUN_POS);
 		}
@@ -141342,7 +141343,7 @@ var U$e = ({ dayLabel: e, reward: t, state: n, onClaim: r }) => {
 			}
 			(this.accountRenderer = e),
 				this.accountRenderer.setPixelRatio(1),
-				(this.accountRenderer.outputColorSpace = ui);
+				(this.accountRenderer.outputColorSpace = qn);
 		}
 		syncToVisible(e) {
 			if (this.accountRenderer == null || this.offscreen == null) return !1;
@@ -141426,7 +141427,7 @@ var U$e = ({ dayLabel: e, reward: t, state: n, onClaim: r }) => {
 				C$.TRAIL_RUN_POS.y,
 				C$.TRAIL_RUN_POS.z - this.trailScroll,
 			),
-				e.hjTZwzK(3, !0),
+				e.bCFuaNN(3, !0),
 				(e.prevLimbSwingAmount = e.limbSwingAmount),
 				(e.limbSwingAmount += (1 - e.limbSwingAmount) * 0.4),
 				(e.limbSwing += e.limbSwingAmount),
@@ -141502,7 +141503,7 @@ var s1e = new (class {
 					antialias: !0,
 					preserveDrawingBuffer: !0,
 				});
-				t.setClearColor(0, 0), (t.outputColorSpace = ui);
+				t.setClearColor(0, 0), (t.outputColorSpace = qn);
 				let n = new w$(null);
 				return (
 					(n.simulateEffects = !0),
@@ -141555,12 +141556,12 @@ var s1e = new (class {
 async function c1e(e) {
 	if (!e || e === `none`) return null;
 	if (E$[e]) return E$[e];
-	J.skinManager.leghCIW(e) || (await J.skinManager.kQuECZfBTjyt(e));
-	let t = J.skinManager.mcyGCSK(e),
+	J.skinManager.gOchSsi(e) || (await J.skinManager.DFIKMwOQjjVP(e));
+	let t = J.skinManager.aurPHAj(e),
 		n = t?.atlas?.image;
 	if (!n) return null;
 	let r = t.ratio || 1,
-		i = t.compact ? null : lF.QrYlpCfxoZFays(t).cape,
+		i = t.compact ? null : lF.kfoujQtuerPpSk(t).cape,
 		a = i ? i.x : 1 * r,
 		o = i ? i.y : 1 * r,
 		s = i ? i.w : 10 * r,
@@ -142725,7 +142726,7 @@ var I$ = (function (e) {
 		color: r,
 		fontSize: i = X.body,
 	}) => {
-		let a = Vn(t),
+		let a = Bn(t),
 			o = de(t);
 		return (0, W.jsxs)(O, {
 			fontSize: i,
@@ -148159,7 +148160,7 @@ var K1 = {
 											a.connect(t.serverId), te(!1);
 										}, 2e3);
 								} catch (e) {
-									yn.showError(e), i(`/`);
+									vn.showError(e), i(`/`);
 								}
 							},
 							children: [
@@ -148694,7 +148695,7 @@ var $1 = ({ maxH: e = `11em`, children: t }) =>
 							.members,
 					);
 				} catch (e) {
-					yn.showError(e), a([]);
+					vn.showError(e), a([]);
 				}
 			};
 		(0, N.useEffect)(() => {
@@ -148713,10 +148714,10 @@ var $1 = ({ maxH: e = `11em`, children: t }) =>
 							planetId: e,
 							username: t,
 						}),
-							yn.success(`${t} can now manage this planet.`),
+							vn.success(`${t} can now manage this planet.`),
 							await f();
 					} catch (e) {
-						yn.showError(e);
+						vn.showError(e);
 					} finally {
 						l(!1);
 					}
@@ -148731,7 +148732,7 @@ var $1 = ({ maxH: e = `11em`, children: t }) =>
 					}),
 						await f();
 				} catch (e) {
-					yn.showError(e);
+					vn.showError(e);
 				} finally {
 					d(null);
 				}
@@ -148861,7 +148862,7 @@ var Z2e = ({ planetId: e, isLive: t, onRestoreLive: n }) => {
 					});
 					i(t.backups), o(t.max), c(t.canBackup);
 				} catch (e) {
-					yn.showError(e), i([]);
+					vn.showError(e), i([]);
 				}
 			};
 		(0, N.useEffect)(() => {
@@ -148883,11 +148884,11 @@ var Z2e = ({ planetId: e, isLive: t, onRestoreLive: n }) => {
 						...(t ? { name: t } : {}),
 						...(n ? { description: n } : {}),
 					}),
-						yn.success(`Backup created.`),
+						vn.success(`Backup created.`),
 						g(!1),
 						await x();
 				} catch (e) {
-					yn.showError(e);
+					vn.showError(e);
 				} finally {
 					u(!1);
 				}
@@ -148899,12 +148900,12 @@ var Z2e = ({ planetId: e, isLive: t, onRestoreLive: n }) => {
 						planetId: e,
 						backupId: t.id,
 					}),
-						yn.success(
+						vn.success(
 							`Backup restored. It will load the next time you start this planet.`,
 						),
 						await x();
 				} catch (e) {
-					yn.showError(e);
+					vn.showError(e);
 				} finally {
 					f(null);
 				}
@@ -148918,7 +148919,7 @@ var Z2e = ({ planetId: e, isLive: t, onRestoreLive: n }) => {
 					}),
 						await x();
 				} catch (e) {
-					yn.showError(e);
+					vn.showError(e);
 				} finally {
 					f(null);
 				}
@@ -149440,14 +149441,14 @@ var Z2e = ({ planetId: e, isLive: t, onRestoreLive: n }) => {
 				try {
 					let e = await Hq();
 					if (!e) {
-						yn.error(
+						vn.error(
 							`Enter your planet first, then snap a screenshot of the view you want.`,
 						);
 						return;
 					}
 					c(!1), o(e);
 				} catch (e) {
-					yn.showError(e);
+					vn.showError(e);
 				}
 			},
 			b = async (e) => {
@@ -149457,7 +149458,7 @@ var Z2e = ({ planetId: e, isLive: t, onRestoreLive: n }) => {
 						let e = await yWe(t);
 						c(!1), o(e);
 					} catch (e) {
-						yn.showError(e);
+						vn.showError(e);
 					}
 			},
 			x = async () => {
@@ -149473,11 +149474,11 @@ var Z2e = ({ planetId: e, isLive: t, onRestoreLive: n }) => {
 							m(!1),
 							n?.(t.splashArtUrl),
 							v(),
-							yn.success(
+							vn.success(
 								`Cover art set! It shows on your planet's card the next time it's listed.`,
 							);
 					} catch (e) {
-						yn.showError(e);
+						vn.showError(e);
 					} finally {
 						u(!1);
 					}
@@ -149495,9 +149496,9 @@ var Z2e = ({ planetId: e, isLive: t, onRestoreLive: n }) => {
 						m(!1),
 						n?.(null),
 						v(),
-						yn.success(`Cover art removed.`);
+						vn.success(`Cover art removed.`);
 				} catch (e) {
-					yn.showError(e);
+					vn.showError(e);
 				} finally {
 					u(!1);
 				}
@@ -153091,7 +153092,7 @@ var A3e = new C0((e, t) => {
 		states:
 			"$F|Q%TQlOOO%[QlOOO'_QpOOP(lO`OOO*zQ!0MxO'#CiO+RO#tO'#CjO+aO&jO'#CjO+oO#@ItO'#DaO.QQlO'#DgO.bQlO'#DrO%[QlO'#DzO0fQlO'#ESOOQ!0Lf'#E['#E[O1PQ`O'#EXOOQO'#Ep'#EpOOQO'#Il'#IlO1XQ`O'#GsO1dQ`O'#EoO1iQ`O'#EoO3hQ!0MxO'#JrO6[Q!0MxO'#JsO6uQ`O'#F]O6zQ,UO'#FtOOQ!0Lf'#Ff'#FfO7VO7dO'#FfO9XQMhO'#F|O9`Q`O'#F{OOQ!0Lf'#Js'#JsOOQ!0Lb'#Jr'#JrO9eQ`O'#GwOOQ['#K_'#K_O9pQ`O'#IYO9uQ!0LrO'#IZOOQ['#J`'#J`OOQ['#I_'#I_Q`QlOOQ`QlOOO9}Q!L^O'#DvO:UQlO'#EOO:]QlO'#EQO9kQ`O'#GsO:dQMhO'#CoO:rQ`O'#EnO:}Q`O'#EyO;hQMhO'#FeO;xQ`O'#GsOOQO'#K`'#K`O;}Q`O'#K`O<]Q`O'#G{O<]Q`O'#G|O<]Q`O'#HOO9kQ`O'#HRO=SQ`O'#HUO>kQ`O'#CeO>{Q`O'#HcO?TQ`O'#HiO?TQ`O'#HkO`QlO'#HmO?TQ`O'#HoO?TQ`O'#HrO?YQ`O'#HxO?_Q!0LsO'#IOO%[QlO'#IQO?jQ!0LsO'#ISO?uQ!0LsO'#IUO9uQ!0LrO'#IWO@QQ!0MxO'#CiOASQpO'#DlQOQ`OOO%[QlO'#EQOAjQ`O'#ETO:dQMhO'#EnOAuQ`O'#EnOBQQ!bO'#FeOOQ['#Cg'#CgOOQ!0Lb'#Dq'#DqOOQ!0Lb'#Jv'#JvO%[QlO'#JvOOQO'#Jy'#JyOOQO'#Ih'#IhOCQQpO'#EgOOQ!0Lb'#Ef'#EfOOQ!0Lb'#J}'#J}OC|Q!0MSO'#EgODWQpO'#EWOOQO'#Jx'#JxODlQpO'#JyOEyQpO'#EWODWQpO'#EgPFWO&2DjO'#CbPOOO)CD})CD}OOOO'#I`'#I`OFcO#tO,59UOOQ!0Lh,59U,59UOOOO'#Ia'#IaOFqO&jO,59UOGPQ!L^O'#DcOOOO'#Ic'#IcOGWO#@ItO,59{OOQ!0Lf,59{,59{OGfQlO'#IdOGyQ`O'#JtOIxQ!fO'#JtO+}QlO'#JtOJPQ`O,5:ROJgQ`O'#EpOJtQ`O'#KTOKPQ`O'#KSOKPQ`O'#KSOKXQ`O,5;^OK^Q`O'#KROOQ!0Ln,5:^,5:^OKeQlO,5:^OMcQ!0MxO,5:fONSQ`O,5:nONmQ!0LrO'#KQONtQ`O'#KPO9eQ`O'#KPO! YQ`O'#KPO! bQ`O,5;]O! gQ`O'#KPO!#lQ!fO'#JsOOQ!0Lh'#Ci'#CiO%[QlO'#ESO!$[Q!fO,5:sOOQS'#Jz'#JzOOQO-E<j-E<jO9kQ`O,5=_O!$rQ`O,5=_O!$wQlO,5;ZO!&zQMhO'#EkO!(eQ`O,5;ZO!(jQlO'#DyO!(tQpO,5;dO!(|QpO,5;dO%[QlO,5;dOOQ['#FT'#FTOOQ['#FV'#FVO%[QlO,5;eO%[QlO,5;eO%[QlO,5;eO%[QlO,5;eO%[QlO,5;eO%[QlO,5;eO%[QlO,5;eO%[QlO,5;eO%[QlO,5;eO%[QlO,5;eOOQ['#FZ'#FZO!)[QlO,5;tOOQ!0Lf,5;y,5;yOOQ!0Lf,5;z,5;zOOQ!0Lf,5;|,5;|O%[QlO'#IpO!+_Q!0LrO,5<iO%[QlO,5;eO!&zQMhO,5;eO!+|QMhO,5;eO!-nQMhO'#E^O%[QlO,5;wOOQ!0Lf,5;{,5;{O!-uQ,UO'#FjO!.rQ,UO'#KXO!.^Q,UO'#KXO!.yQ,UO'#KXOOQO'#KX'#KXO!/_Q,UO,5<SOOOW,5<`,5<`O!/pQlO'#FvOOOW'#Io'#IoO7VO7dO,5<QO!/wQ,UO'#FxOOQ!0Lf,5<Q,5<QO!0hQ$IUO'#CyOOQ!0Lh'#C}'#C}O!0{O#@ItO'#DRO!1iQMjO,5<eO!1pQ`O,5<hO!3YQ(CWO'#GXO!3jQ`O'#GYO!3oQ`O'#GYO!5_Q(CWO'#G^O!6dQpO'#GbOOQO'#Gn'#GnO!,TQMhO'#GmOOQO'#Gp'#GpO!,TQMhO'#GoO!7VQ$IUO'#JlOOQ!0Lh'#Jl'#JlO!7aQ`O'#JkO!7oQ`O'#JjO!7wQ`O'#CuOOQ!0Lh'#C{'#C{O!8YQ`O'#C}OOQ!0Lh'#DV'#DVOOQ!0Lh'#DX'#DXO!8_Q`O,5<eO1SQ`O'#DZO!,TQMhO'#GPO!,TQMhO'#GRO!8gQ`O'#GTO!8lQ`O'#GUO!3oQ`O'#G[O!,TQMhO'#GaO<]Q`O'#JkO!8qQ`O'#EqO!9`Q`O,5<gOOQ!0Lb'#Cr'#CrO!9hQ`O'#ErO!:bQpO'#EsOOQ!0Lb'#KR'#KRO!:iQ!0LrO'#KaO9uQ!0LrO,5=cO`QlO,5>tOOQ['#Jh'#JhOOQ[,5>u,5>uOOQ[-E<]-E<]O!<hQ!0MxO,5:bO!:]QpO,5:`O!?RQ!0MxO,5:jO%[QlO,5:jO!AiQ!0MxO,5:lOOQO,5@z,5@zO!BYQMhO,5=_O!BhQ!0LrO'#JiO9`Q`O'#JiO!ByQ!0LrO,59ZO!CUQpO,59ZO!C^QMhO,59ZO:dQMhO,59ZO!CiQ`O,5;ZO!CqQ`O'#HbO!DVQ`O'#KdO%[QlO,5;}O!:]QpO,5<PO!D_Q`O,5=zO!DdQ`O,5=zO!DiQ`O,5=zO!DwQ`O,5=zO9uQ!0LrO,5=zO<]Q`O,5=jOOQO'#Cy'#CyO!EOQpO,5=gO!EWQMhO,5=hO!EcQ`O,5=jO!EhQ!bO,5=mO!EpQ`O'#K`O?YQ`O'#HWO9kQ`O'#HYO!EuQ`O'#HYO:dQMhO'#H[O!EzQ`O'#H[OOQ[,5=p,5=pO!FPQ`O'#H]O!FbQ`O'#CoO!FgQ`O,59PO!FqQ`O,59PO!HvQlO,59POOQ[,59P,59PO!IWQ!0LrO,59PO%[QlO,59PO!KcQlO'#HeOOQ['#Hf'#HfOOQ['#Hg'#HgO`QlO,5=}O!KyQ`O,5=}O`QlO,5>TO`QlO,5>VO!LOQ`O,5>XO`QlO,5>ZO!LTQ`O,5>^O!LYQlO,5>dOOQ[,5>j,5>jO%[QlO,5>jO9uQ!0LrO,5>lOOQ[,5>n,5>nO#!dQ`O,5>nOOQ[,5>p,5>pO#!dQ`O,5>pOOQ[,5>r,5>rO##QQpO'#D_O%[QlO'#JvO##sQpO'#JvO##}QpO'#DmO#$`QpO'#DmO#&qQlO'#DmO#&xQ`O'#JuO#'QQ`O,5:WO#'VQ`O'#EtO#'eQ`O'#KUO#'mQ`O,5;_O#'rQpO'#DmO#(PQpO'#EVOOQ!0Lf,5:o,5:oO%[QlO,5:oO#(WQ`O,5:oO?YQ`O,5;YO!CUQpO,5;YO!C^QMhO,5;YO:dQMhO,5;YO#(`Q`O,5@bO#(eQ07dO,5:sOOQO-E<f-E<fO#)kQ!0MSO,5;RODWQpO,5:rO#)uQpO,5:rODWQpO,5;RO!ByQ!0LrO,5:rOOQ!0Lb'#Ej'#EjOOQO,5;R,5;RO%[QlO,5;RO#*SQ!0LrO,5;RO#*_Q!0LrO,5;RO!CUQpO,5:rOOQO,5;X,5;XO#*mQ!0LrO,5;RPOOO'#I^'#I^P#+RO&2DjO,58|POOO,58|,58|OOOO-E<^-E<^OOQ!0Lh1G.p1G.pOOOO-E<_-E<_OOOO,59},59}O#+^Q!bO,59}OOOO-E<a-E<aOOQ!0Lf1G/g1G/gO#+cQ!fO,5?OO+}QlO,5?OOOQO,5?U,5?UO#+mQlO'#IdOOQO-E<b-E<bO#+zQ`O,5@`O#,SQ!fO,5@`O#,ZQ`O,5@nOOQ!0Lf1G/m1G/mO%[QlO,5@oO#,cQ`O'#IjOOQO-E<h-E<hO#,ZQ`O,5@nOOQ!0Lb1G0x1G0xOOQ!0Ln1G/x1G/xOOQ!0Ln1G0Y1G0YO%[QlO,5@lO#,wQ!0LrO,5@lO#-YQ!0LrO,5@lO#-aQ`O,5@kO9eQ`O,5@kO#-iQ`O,5@kO#-wQ`O'#ImO#-aQ`O,5@kOOQ!0Lb1G0w1G0wO!(tQpO,5:uO!)PQpO,5:uOOQS,5:w,5:wO#.iQdO,5:wO#.qQMhO1G2yO9kQ`O1G2yOOQ!0Lf1G0u1G0uO#/PQ!0MxO1G0uO#0UQ!0MvO,5;VOOQ!0Lh'#GW'#GWO#0rQ!0MzO'#JlO!$wQlO1G0uO#2}Q!fO'#JwO%[QlO'#JwO#3XQ`O,5:eOOQ!0Lh'#D_'#D_OOQ!0Lf1G1O1G1OO%[QlO1G1OOOQ!0Lf1G1f1G1fO#3^Q`O1G1OO#5rQ!0MxO1G1PO#5yQ!0MxO1G1PO#8aQ!0MxO1G1PO#8hQ!0MxO1G1PO#;OQ!0MxO1G1PO#=fQ!0MxO1G1PO#=mQ!0MxO1G1PO#=tQ!0MxO1G1PO#@[Q!0MxO1G1PO#@cQ!0MxO1G1PO#BpQ?MtO'#CiO#DkQ?MtO1G1`O#DrQ?MtO'#JsO#EVQ!0MxO,5?[OOQ!0Lb-E<n-E<nO#GdQ!0MxO1G1PO#HaQ!0MzO1G1POOQ!0Lf1G1P1G1PO#IdQMjO'#J|O#InQ`O,5:xO#IsQ!0MxO1G1cO#JgQ,UO,5<WO#JoQ,UO,5<XO#JwQ,UO'#FoO#K`Q`O'#FnOOQO'#KY'#KYOOQO'#In'#InO#KeQ,UO1G1nOOQ!0Lf1G1n1G1nOOOW1G1y1G1yO#KvQ?MtO'#JrO#LQQ`O,5<bO!)[QlO,5<bOOOW-E<m-E<mOOQ!0Lf1G1l1G1lO#LVQpO'#KXOOQ!0Lf,5<d,5<dO#L_QpO,5<dO#LdQMhO'#DTOOOO'#Ib'#IbO#LkO#@ItO,59mOOQ!0Lh,59m,59mO%[QlO1G2PO!8lQ`O'#IrO#LvQ`O,5<zOOQ!0Lh,5<w,5<wO!,TQMhO'#IuO#MdQMjO,5=XO!,TQMhO'#IwO#NVQMjO,5=ZO!&zQMhO,5=]OOQO1G2S1G2SO#NaQ!dO'#CrO#NtQ(CWO'#ErO$ |QpO'#GbO$!dQ!dO,5<sO$!kQ`O'#K[O9eQ`O'#K[O$!yQ`O,5<uO$#aQ!dO'#C{O!,TQMhO,5<tO$#kQ`O'#GZO$$PQ`O,5<tO$$UQ!dO'#GWO$$cQ!dO'#K]O$$mQ`O'#K]O!&zQMhO'#K]O$$rQ`O,5<xO$$wQlO'#JvO$%RQpO'#GcO#$`QpO'#GcO$%dQ`O'#GgO!3oQ`O'#GkO$%iQ!0LrO'#ItO$%tQpO,5<|OOQ!0Lp,5<|,5<|O$%{QpO'#GcO$&YQpO'#GdO$&kQpO'#GdO$&pQMjO,5=XO$'QQMjO,5=ZOOQ!0Lh,5=^,5=^O!,TQMhO,5@VO!,TQMhO,5@VO$'bQ`O'#IyO$'vQ`O,5@UO$(OQ`O,59aOOQ!0Lh,59i,59iO$(TQ`O,5@VO$)TQ$IYO,59uOOQ!0Lh'#Jp'#JpO$)vQMjO,5<kO$*iQMjO,5<mO@zQ`O,5<oOOQ!0Lh,5<p,5<pO$*sQ`O,5<vO$*xQMjO,5<{O$+YQ`O'#KPO!$wQlO1G2RO$+_Q`O1G2RO9eQ`O'#KSO9eQ`O'#EtO%[QlO'#EtO9eQ`O'#I{O$+dQ!0LrO,5@{OOQ[1G2}1G2}OOQ[1G4`1G4`OOQ!0Lf1G/|1G/|OOQ!0Lf1G/z1G/zO$-fQ!0MxO1G0UOOQ[1G2y1G2yO!&zQMhO1G2yO%[QlO1G2yO#.tQ`O1G2yO$/jQMhO'#EkOOQ!0Lb,5@T,5@TO$/wQ!0LrO,5@TOOQ[1G.u1G.uO!ByQ!0LrO1G.uO!CUQpO1G.uO!C^QMhO1G.uO$0YQ`O1G0uO$0_Q`O'#CiO$0jQ`O'#KeO$0rQ`O,5=|O$0wQ`O'#KeO$0|Q`O'#KeO$1[Q`O'#JRO$1jQ`O,5AOO$1rQ!fO1G1iOOQ!0Lf1G1k1G1kO9kQ`O1G3fO@zQ`O1G3fO$1yQ`O1G3fO$2OQ`O1G3fO!DiQ`O1G3fO9uQ!0LrO1G3fOOQ[1G3f1G3fO!EcQ`O1G3UO!&zQMhO1G3RO$2TQ`O1G3ROOQ[1G3S1G3SO!&zQMhO1G3SO$2YQ`O1G3SO$2bQpO'#HQOOQ[1G3U1G3UO!6_QpO'#I}O!EhQ!bO1G3XOOQ[1G3X1G3XOOQ[,5=r,5=rO$2jQMhO,5=tO9kQ`O,5=tO$%dQ`O,5=vO9`Q`O,5=vO!CUQpO,5=vO!C^QMhO,5=vO:dQMhO,5=vO$2xQ`O'#KcO$3TQ`O,5=wOOQ[1G.k1G.kO$3YQ!0LrO1G.kO@zQ`O1G.kO$3eQ`O1G.kO9uQ!0LrO1G.kO$5mQ!fO,5AQO$5zQ`O,5AQO9eQ`O,5AQO$6VQlO,5>PO$6^Q`O,5>POOQ[1G3i1G3iO`QlO1G3iOOQ[1G3o1G3oOOQ[1G3q1G3qO?TQ`O1G3sO$6cQlO1G3uO$:gQlO'#HtOOQ[1G3x1G3xO$:tQ`O'#HzO?YQ`O'#H|OOQ[1G4O1G4OO$:|QlO1G4OO9uQ!0LrO1G4UOOQ[1G4W1G4WOOQ!0Lb'#G_'#G_O9uQ!0LrO1G4YO9uQ!0LrO1G4[O$?TQ`O,5@bO!)[QlO,5;`O9eQ`O,5;`O?YQ`O,5:XO!)[QlO,5:XO!CUQpO,5:XO$?YQ?MtO,5:XOOQO,5;`,5;`O$?dQpO'#IeO$?zQ`O,5@aOOQ!0Lf1G/r1G/rO$@SQpO'#IkO$@^Q`O,5@pOOQ!0Lb1G0y1G0yO#$`QpO,5:XOOQO'#Ig'#IgO$@fQpO,5:qOOQ!0Ln,5:q,5:qO#(ZQ`O1G0ZOOQ!0Lf1G0Z1G0ZO%[QlO1G0ZOOQ!0Lf1G0t1G0tO?YQ`O1G0tO!CUQpO1G0tO!C^QMhO1G0tOOQ!0Lb1G5|1G5|O!ByQ!0LrO1G0^OOQO1G0m1G0mO%[QlO1G0mO$@mQ!0LrO1G0mO$@xQ!0LrO1G0mO!CUQpO1G0^ODWQpO1G0^O$AWQ!0LrO1G0mOOQO1G0^1G0^O$AlQ!0MxO1G0mPOOO-E<[-E<[POOO1G.h1G.hOOOO1G/i1G/iO$AvQ!bO,5<iO$BOQ!fO1G4jOOQO1G4p1G4pO%[QlO,5?OO$BYQ`O1G5zO$BbQ`O1G6YO$BjQ!fO1G6ZO9eQ`O,5?UO$BtQ!0MxO1G6WO%[QlO1G6WO$CUQ!0LrO1G6WO$CgQ`O1G6VO$CgQ`O1G6VO9eQ`O1G6VO$CoQ`O,5?XO9eQ`O,5?XOOQO,5?X,5?XO$DTQ`O,5?XO$+YQ`O,5?XOOQO-E<k-E<kOOQS1G0a1G0aOOQS1G0c1G0cO#.lQ`O1G0cOOQ[7+(e7+(eO!&zQMhO7+(eO%[QlO7+(eO$DcQ`O7+(eO$DnQMhO7+(eO$D|Q!0MzO,5=XO$GXQ!0MzO,5=ZO$IdQ!0MzO,5=XO$KuQ!0MzO,5=ZO$NWQ!0MzO,59uO%!]Q!0MzO,5<kO%$hQ!0MzO,5<mO%&sQ!0MzO,5<{OOQ!0Lf7+&a7+&aO%)UQ!0MxO7+&aO%)xQlO'#IfO%*VQ`O,5@cO%*_Q!fO,5@cOOQ!0Lf1G0P1G0PO%*iQ`O7+&jOOQ!0Lf7+&j7+&jO%*nQ?MtO,5:fO%[QlO7+&zO%*xQ?MtO,5:bO%+VQ?MtO,5:jO%+aQ?MtO,5:lO%+kQMhO'#IiO%+uQ`O,5@hOOQ!0Lh1G0d1G0dOOQO1G1r1G1rOOQO1G1s1G1sO%+}Q!jO,5<ZO!)[QlO,5<YOOQO-E<l-E<lOOQ!0Lf7+'Y7+'YOOOW7+'e7+'eOOOW1G1|1G1|O%,YQ`O1G1|OOQ!0Lf1G2O1G2OOOOO,59o,59oO%,_Q!dO,59oOOOO-E<`-E<`OOQ!0Lh1G/X1G/XO%,fQ!0MxO7+'kOOQ!0Lh,5?^,5?^O%-YQMhO1G2fP%-aQ`O'#IrPOQ!0Lh-E<p-E<pO%-}QMjO,5?aOOQ!0Lh-E<s-E<sO%.pQMjO,5?cOOQ!0Lh-E<u-E<uO%.zQ!dO1G2wO%/RQ!dO'#CrO%/iQMhO'#KSO$$wQlO'#JvOOQ!0Lh1G2_1G2_O%/sQ`O'#IqO%0[Q`O,5@vO%0[Q`O,5@vO%0dQ`O,5@vO%0oQ`O,5@vOOQO1G2a1G2aO%0}QMjO1G2`O$+YQ`O'#K[O!,TQMhO1G2`O%1_Q(CWO'#IsO%1lQ`O,5@wO!&zQMhO,5@wO%1tQ!dO,5@wOOQ!0Lh1G2d1G2dO%4UQ!fO'#CiO%4`Q`O,5=POOQ!0Lb,5<},5<}O%4hQpO,5<}OOQ!0Lb,5=O,5=OOCwQ`O,5<}O%4sQpO,5<}OOQ!0Lb,5=R,5=RO$+YQ`O,5=VOOQO,5?`,5?`OOQO-E<r-E<rOOQ!0Lp1G2h1G2hO#$`QpO,5<}O$$wQlO,5=PO%5RQ`O,5=OO%5^QpO,5=OO!,TQMhO'#IuO%6WQMjO1G2sO!,TQMhO'#IwO%6yQMjO1G2uO%7TQMjO1G5qO%7_QMjO1G5qOOQO,5?e,5?eOOQO-E<w-E<wOOQO1G.{1G.{O!,TQMhO1G5qO!,TQMhO1G5qO!:]QpO,59wO%[QlO,59wOOQ!0Lh,5<j,5<jO%7lQ`O1G2ZO!,TQMhO1G2bO%7qQ!0MxO7+'mOOQ!0Lf7+'m7+'mO!$wQlO7+'mO%8eQ`O,5;`OOQ!0Lb,5?g,5?gOOQ!0Lb-E<y-E<yO%8jQ!dO'#K^O#(ZQ`O7+(eO4UQ!fO7+(eO$DfQ`O7+(eO%8tQ!0MvO'#CiO%9XQ!0MvO,5=SO%9lQ`O,5=SO%9tQ`O,5=SOOQ!0Lb1G5o1G5oOOQ[7+$a7+$aO!ByQ!0LrO7+$aO!CUQpO7+$aO!$wQlO7+&aO%9yQ`O'#JQO%:bQ`O,5APOOQO1G3h1G3hO9kQ`O,5APO%:bQ`O,5APO%:jQ`O,5APOOQO,5?m,5?mOOQO-E=P-E=POOQ!0Lf7+'T7+'TO%:oQ`O7+)QO9uQ!0LrO7+)QO9kQ`O7+)QO@zQ`O7+)QO%:tQ`O7+)QOOQ[7+)Q7+)QOOQ[7+(p7+(pO%:yQ!0MvO7+(mO!&zQMhO7+(mO!E^Q`O7+(nOOQ[7+(n7+(nO!&zQMhO7+(nO%;TQ`O'#KbO%;`Q`O,5=lOOQO,5?i,5?iOOQO-E<{-E<{OOQ[7+(s7+(sO%<rQpO'#HZOOQ[1G3`1G3`O!&zQMhO1G3`O%[QlO1G3`O%<yQ`O1G3`O%=UQMhO1G3`O9uQ!0LrO1G3bO$%dQ`O1G3bO9`Q`O1G3bO!CUQpO1G3bO!C^QMhO1G3bO%=dQ`O'#JPO%=xQ`O,5@}O%>QQpO,5@}OOQ!0Lb1G3c1G3cOOQ[7+$V7+$VO@zQ`O7+$VO9uQ!0LrO7+$VO%>]Q`O7+$VO%[QlO1G6lO%[QlO1G6mO%>bQ!0LrO1G6lO%>lQlO1G3kO%>sQ`O1G3kO%>xQlO1G3kOOQ[7+)T7+)TO9uQ!0LrO7+)_O`QlO7+)aOOQ['#Kh'#KhOOQ['#JS'#JSO%?PQlO,5>`OOQ[,5>`,5>`O%[QlO'#HuO%?^Q`O'#HwOOQ[,5>f,5>fO9eQ`O,5>fOOQ[,5>h,5>hOOQ[7+)j7+)jOOQ[7+)p7+)pOOQ[7+)t7+)tOOQ[7+)v7+)vO%?cQpO1G5|O%?}Q?MtO1G0zO%@XQ`O1G0zOOQO1G/s1G/sO%@dQ?MtO1G/sO?YQ`O1G/sO!)[QlO'#DmOOQO,5?P,5?POOQO-E<c-E<cOOQO,5?V,5?VOOQO-E<i-E<iO!CUQpO1G/sOOQO-E<e-E<eOOQ!0Ln1G0]1G0]OOQ!0Lf7+%u7+%uO#(ZQ`O7+%uOOQ!0Lf7+&`7+&`O?YQ`O7+&`O!CUQpO7+&`OOQO7+%x7+%xO$AlQ!0MxO7+&XOOQO7+&X7+&XO%[QlO7+&XO%@nQ!0LrO7+&XO!ByQ!0LrO7+%xO!CUQpO7+%xO%@yQ!0LrO7+&XO%AXQ!0MxO7++rO%[QlO7++rO%AiQ`O7++qO%AiQ`O7++qOOQO1G4s1G4sO9eQ`O1G4sO%AqQ`O1G4sOOQS7+%}7+%}O#(ZQ`O<<LPO4UQ!fO<<LPO%BPQ`O<<LPOOQ[<<LP<<LPO!&zQMhO<<LPO%[QlO<<LPO%BXQ`O<<LPO%BdQ!0MzO,5?aO%DoQ!0MzO,5?cO%FzQ!0MzO1G2`O%I]Q!0MzO1G2sO%KhQ!0MzO1G2uO%MsQ!fO,5?QO%[QlO,5?QOOQO-E<d-E<dO%M}Q`O1G5}OOQ!0Lf<<JU<<JUO%NVQ?MtO1G0uO&!^Q?MtO1G1PO&!eQ?MtO1G1PO&$fQ?MtO1G1PO&$mQ?MtO1G1PO&&nQ?MtO1G1PO&(oQ?MtO1G1PO&(vQ?MtO1G1PO&(}Q?MtO1G1PO&+OQ?MtO1G1PO&+VQ?MtO1G1PO&+^Q!0MxO<<JfO&-UQ?MtO1G1PO&.RQ?MvO1G1PO&/UQ?MvO'#JlO&1[Q?MtO1G1cO&1iQ?MtO1G0UO&1sQMjO,5?TOOQO-E<g-E<gO!)[QlO'#FqOOQO'#KZ'#KZOOQO1G1u1G1uO&1}Q`O1G1tO&2SQ?MtO,5?[OOOW7+'h7+'hOOOO1G/Z1G/ZO&2^Q!dO1G4xOOQ!0Lh7+(Q7+(QP!&zQMhO,5?^O!,TQMhO7+(cO&2eQ`O,5?]O9eQ`O,5?]O$+YQ`O,5?]OOQO-E<o-E<oO&2sQ`O1G6bO&2sQ`O1G6bO&2{Q`O1G6bO&3WQMjO7+'zO&3hQ!dO,5?_O&3rQ`O,5?_O!&zQMhO,5?_OOQO-E<q-E<qO&3wQ!dO1G6cO&4RQ`O1G6cO&4ZQ`O1G2kO!&zQMhO1G2kOOQ!0Lb1G2i1G2iOOQ!0Lb1G2j1G2jO%4hQpO1G2iO!CUQpO1G2iOCwQ`O1G2iOOQ!0Lb1G2q1G2qO&4`QpO1G2iO&4nQ`O1G2kO$+YQ`O1G2jOCwQ`O1G2jO$$wQlO1G2kO&4vQ`O1G2jO&5jQMjO,5?aOOQ!0Lh-E<t-E<tO&6]QMjO,5?cOOQ!0Lh-E<v-E<vO!,TQMhO7++]O&6gQMjO7++]O&6qQMjO7++]OOQ!0Lh1G/c1G/cO&7OQ`O1G/cOOQ!0Lh7+'u7+'uO&7TQMjO7+'|O&7eQ!0MxO<<KXOOQ!0Lf<<KX<<KXO&8XQ`O1G0zO!&zQMhO'#IzO&8^Q`O,5@xO&:`Q!fO<<LPO!&zQMhO1G2nO&:gQ!0LrO1G2nOOQ[<<G{<<G{O!ByQ!0LrO<<G{O&:xQ!0MxO<<I{OOQ!0Lf<<I{<<I{OOQO,5?l,5?lO&;lQ`O,5?lO&;qQ`O,5?lOOQO-E=O-E=OO&<PQ`O1G6kO&<PQ`O1G6kO9kQ`O1G6kO@zQ`O<<LlOOQ[<<Ll<<LlO&<XQ`O<<LlO9uQ!0LrO<<LlO9kQ`O<<LlOOQ[<<LX<<LXO%:yQ!0MvO<<LXOOQ[<<LY<<LYO!E^Q`O<<LYO&<^QpO'#I|O&<iQ`O,5@|O!)[QlO,5@|OOQ[1G3W1G3WOOQO'#JO'#JOO9uQ!0LrO'#JOO&<qQpO,5=uOOQ[,5=u,5=uO&<xQpO'#EgO&=PQpO'#GeO&=UQ`O7+(zO&=ZQ`O7+(zOOQ[7+(z7+(zO!&zQMhO7+(zO%[QlO7+(zO&=cQ`O7+(zOOQ[7+(|7+(|O9uQ!0LrO7+(|O$%dQ`O7+(|O9`Q`O7+(|O!CUQpO7+(|O&=nQ`O,5?kOOQO-E<}-E<}OOQO'#H^'#H^O&=yQ`O1G6iO9uQ!0LrO<<GqOOQ[<<Gq<<GqO@zQ`O<<GqO&>RQ`O7+,WO&>WQ`O7+,XO%[QlO7+,WO%[QlO7+,XOOQ[7+)V7+)VO&>]Q`O7+)VO&>bQlO7+)VO&>iQ`O7+)VOOQ[<<Ly<<LyOOQ[<<L{<<L{OOQ[-E=Q-E=QOOQ[1G3z1G3zO&>nQ`O,5>aOOQ[,5>c,5>cO&>sQ`O1G4QO9eQ`O7+&fO!)[QlO7+&fOOQO7+%_7+%_O&>xQ?MtO1G6ZO?YQ`O7+%_OOQ!0Lf<<Ia<<IaOOQ!0Lf<<Iz<<IzO?YQ`O<<IzOOQO<<Is<<IsO$AlQ!0MxO<<IsO%[QlO<<IsOOQO<<Id<<IdO!ByQ!0LrO<<IdO&?SQ!0LrO<<IsO&?_Q!0MxO<= ^O&?oQ`O<= ]OOQO7+*_7+*_O9eQ`O7+*_OOQ[ANAkANAkO&?wQ!fOANAkO!&zQMhOANAkO#(ZQ`OANAkO4UQ!fOANAkO&@OQ`OANAkO%[QlOANAkO&@WQ!0MzO7+'zO&BiQ!0MzO,5?aO&DtQ!0MzO,5?cO&GPQ!0MzO7+'|O&IbQ!fO1G4lO&IlQ?MtO7+&aO&KpQ?MvO,5=XO&MwQ?MvO,5=ZO&NXQ?MvO,5=XO&NiQ?MvO,5=ZO&NyQ?MvO,59uO'#PQ?MvO,5<kO'%SQ?MvO,5<mO''hQ?MvO,5<{O')^Q?MtO7+'kO')kQ?MtO7+'mO')xQ`O,5<]OOQO7+'`7+'`OOQ!0Lh7+*d7+*dO')}QMjO<<K}OOQO1G4w1G4wO'*UQ`O1G4wO'*aQ`O1G4wO'*oQ`O7++|O'*oQ`O7++|O!&zQMhO1G4yO'*wQ!dO1G4yO'+RQ`O7++}O'+ZQ`O7+(VO'+fQ!dO7+(VOOQ!0Lb7+(T7+(TOOQ!0Lb7+(U7+(UO!CUQpO7+(TOCwQ`O7+(TO'+pQ`O7+(VO!&zQMhO7+(VO$+YQ`O7+(UO'+uQ`O7+(VOCwQ`O7+(UO'+}QMjO<<NwO!,TQMhO<<NwOOQ!0Lh7+$}7+$}O',XQ!dO,5?fOOQO-E<x-E<xO',cQ!0MvO7+(YO!&zQMhO7+(YOOQ[AN=gAN=gO9kQ`O1G5WOOQO1G5W1G5WO',sQ`O1G5WO',xQ`O7+,VO',xQ`O7+,VO9uQ!0LrOANBWO@zQ`OANBWOOQ[ANBWANBWO'-QQ`OANBWOOQ[ANAsANAsOOQ[ANAtANAtO'-VQ`O,5?hOOQO-E<z-E<zO'-bQ?MtO1G6hOOQO,5?j,5?jOOQO-E<|-E<|OOQ[1G3a1G3aO'-lQ`O,5=POOQ[<<Lf<<LfO!&zQMhO<<LfO&=UQ`O<<LfO'-qQ`O<<LfO%[QlO<<LfOOQ[<<Lh<<LhO9uQ!0LrO<<LhO$%dQ`O<<LhO9`Q`O<<LhO'-yQpO1G5VO'.UQ`O7+,TOOQ[AN=]AN=]O9uQ!0LrOAN=]OOQ[<= r<= rOOQ[<= s<= sO'.^Q`O<= rO'.cQ`O<= sOOQ[<<Lq<<LqO'.hQ`O<<LqO'.mQlO<<LqOOQ[1G3{1G3{O?YQ`O7+)lO'.tQ`O<<JQO'/PQ?MtO<<JQOOQO<<Hy<<HyOOQ!0LfAN?fAN?fOOQOAN?_AN?_O$AlQ!0MxOAN?_OOQOAN?OAN?OO%[QlOAN?_OOQO<<My<<MyOOQ[G27VG27VO!&zQMhOG27VO#(ZQ`OG27VO'/ZQ!fOG27VO4UQ!fOG27VO'/bQ`OG27VO'/jQ?MtO<<JfO'/wQ?MvO1G2`O'1mQ?MvO,5?aO'3pQ?MvO,5?cO'5sQ?MvO1G2sO'7vQ?MvO1G2uO'9yQ?MtO<<KXO':WQ?MtO<<I{OOQO1G1w1G1wO!,TQMhOANAiOOQO7+*c7+*cO':eQ`O7+*cO':pQ`O<= hO':xQ!dO7+*eOOQ!0Lb<<Kq<<KqO$+YQ`O<<KqOCwQ`O<<KqO';SQ`O<<KqO!&zQMhO<<KqOOQ!0Lb<<Ko<<KoO!CUQpO<<KoO';_Q!dO<<KqOOQ!0Lb<<Kp<<KpO';iQ`O<<KqO!&zQMhO<<KqO$+YQ`O<<KpO';nQMjOANDcO';xQ!0MvO<<KtOOQO7+*r7+*rO9kQ`O7+*rO'<YQ`O<= qOOQ[G27rG27rO9uQ!0LrOG27rO@zQ`OG27rO!)[QlO1G5SO'<bQ`O7+,SO'<jQ`O1G2kO&=UQ`OANBQOOQ[ANBQANBQO!&zQMhOANBQO'<oQ`OANBQOOQ[ANBSANBSO9uQ!0LrOANBSO$%dQ`OANBSOOQO'#H_'#H_OOQO7+*q7+*qOOQ[G22wG22wOOQ[ANE^ANE^OOQ[ANE_ANE_OOQ[ANB]ANB]O'<wQ`OANB]OOQ[<<MW<<MWO!)[QlOAN?lOOQOG24yG24yO$AlQ!0MxOG24yO#(ZQ`OLD,qOOQ[LD,qLD,qO!&zQMhOLD,qO'<|Q!fOLD,qO'=TQ?MvO7+'zO'>yQ?MvO,5?aO'@|Q?MvO,5?cO'CPQ?MvO7+'|O'DuQMjOG27TOOQO<<M}<<M}OOQ!0LbANA]ANA]O$+YQ`OANA]OCwQ`OANA]O'EVQ!dOANA]OOQ!0LbANAZANAZO'E^Q`OANA]O!&zQMhOANA]O'EiQ!dOANA]OOQ!0LbANA[ANA[OOQO<<N^<<N^OOQ[LD-^LD-^O9uQ!0LrOLD-^O'EsQ?MtO7+*nOOQO'#Gf'#GfOOQ[G27lG27lO&=UQ`OG27lO!&zQMhOG27lOOQ[G27nG27nO9uQ!0LrOG27nOOQ[G27wG27wO'E}Q?MtOG25WOOQOLD*eLD*eOOQ[!$(!]!$(!]O#(ZQ`O!$(!]O!&zQMhO!$(!]O'FXQ!0MzOG27TOOQ!0LbG26wG26wO$+YQ`OG26wO'HjQ`OG26wOCwQ`OG26wO'HuQ!dOG26wO!&zQMhOG26wOOQ[!$(!x!$(!xOOQ[LD-WLD-WO&=UQ`OLD-WOOQ[LD-YLD-YOOQ[!)9Ew!)9EwO#(ZQ`O!)9EwOOQ!0LbLD,cLD,cO$+YQ`OLD,cOCwQ`OLD,cO'H|Q`OLD,cO'IXQ!dOLD,cOOQ[!$(!r!$(!rOOQ[!.K;c!.K;cO'I`Q?MvOG27TOOQ!0Lb!$( }!$( }O$+YQ`O!$( }OCwQ`O!$( }O'KUQ`O!$( }OOQ!0Lb!)9Ei!)9EiO$+YQ`O!)9EiOCwQ`O!)9EiOOQ!0Lb!.K;T!.K;TO$+YQ`O!.K;TOOQ!0Lb!4/0o!4/0oO!)[QlO'#DzO1PQ`O'#EXO'KaQ!fO'#JrO'KhQ!L^O'#DvO'KoQlO'#EOO'KvQ!fO'#CiO'N^Q!fO'#CiO!)[QlO'#EQO'NnQlO,5;ZO!)[QlO,5;eO!)[QlO,5;eO!)[QlO,5;eO!)[QlO,5;eO!)[QlO,5;eO!)[QlO,5;eO!)[QlO,5;eO!)[QlO,5;eO!)[QlO,5;eO!)[QlO,5;eO!)[QlO'#IpO(!qQ`O,5<iO!)[QlO,5;eO(!yQMhO,5;eO($dQMhO,5;eO!)[QlO,5;wO!&zQMhO'#GmO(!yQMhO'#GmO!&zQMhO'#GoO(!yQMhO'#GoO1SQ`O'#DZO1SQ`O'#DZO!&zQMhO'#GPO(!yQMhO'#GPO!&zQMhO'#GRO(!yQMhO'#GRO!&zQMhO'#GaO(!yQMhO'#GaO!)[QlO,5:jO($kQpO'#D_O($uQpO'#JvO!)[QlO,5@oO'NnQlO1G0uO(%PQ?MtO'#CiO!)[QlO1G2PO!&zQMhO'#IuO(!yQMhO'#IuO!&zQMhO'#IwO(!yQMhO'#IwO(%ZQ!dO'#CrO!&zQMhO,5<tO(!yQMhO,5<tO'NnQlO1G2RO!)[QlO7+&zO!&zQMhO1G2`O(!yQMhO1G2`O!&zQMhO'#IuO(!yQMhO'#IuO!&zQMhO'#IwO(!yQMhO'#IwO!&zQMhO1G2bO(!yQMhO1G2bO'NnQlO7+'mO'NnQlO7+&aO!&zQMhOANAiO(!yQMhOANAiO(%nQ`O'#EoO(%sQ`O'#EoO(%{Q`O'#F]O(&QQ`O'#EyO(&VQ`O'#KTO(&bQ`O'#KRO(&mQ`O,5;ZO(&rQMjO,5<eO(&yQ`O'#GYO('OQ`O'#GYO('TQ`O,5<eO(']Q`O,5<gO('eQ`O,5;ZO('mQ?MtO1G1`O('tQ`O,5<tO('yQ`O,5<tO((OQ`O,5<vO((TQ`O,5<vO((YQ`O1G2RO((_Q`O1G0uO((dQMjO<<K}O((kQMjO<<K}O((rQMhO'#F|O9`Q`O'#F{OAuQ`O'#EnO!)[QlO,5;tO!3oQ`O'#GYO!3oQ`O'#GYO!3oQ`O'#G[O!3oQ`O'#G[O!,TQMhO7+(cO!,TQMhO7+(cO%.zQ!dO1G2wO%.zQ!dO1G2wO!&zQMhO,5=]O!&zQMhO,5=]",
 		stateData:
-			"()x~O'|OS'}OSTOS(ORQ~OPYOQYOSfOY!VOaqOdzOeyOl!POpkOrYOskOtkOzkO|YO!OYO!SWO!WkO!XkO!_XO!iuO!lZO!oYO!pYO!qYO!svO!uwO!xxO!|]O$W|O$niO%h}O%j!QO%l!OO%m!OO%n!OO%q!RO%s!SO%v!TO%w!TO%y!UO&W!WO&^!XO&`!YO&b!ZO&d![O&g!]O&m!^O&s!_O&u!`O&w!aO&y!bO&{!cO(TSO(VTO(YUO(aVO(o[O~OWtO~P`OPYOQYOSfOd!jOe!iOpkOrYOskOtkOzkO|YO!OYO!SWO!WkO!XkO!_!eO!iuO!lZO!oYO!pYO!qYO!svO!u!gO!x!hO$W!kO$niO(T!dO(VTO(YUO(aVO(o[O~Oa!wOs!nO!S!oO!b!yO!c!vO!d!vO!|<VO#T!pO#U!pO#V!xO#W!pO#X!pO#[!zO#]!zO(U!lO(VTO(YUO(e!mO(o!sO~O(O!{O~OP]XR]X[]Xa]Xj]Xr]X!Q]X!S]X!]]X!l]X!p]X#R]X#S]X#`]X#kfX#n]X#o]X#p]X#q]X#r]X#s]X#t]X#u]X#v]X#x]X#z]X#{]X$Q]X'z]X(a]X(r]X(y]X(z]X~O!g%RX~P(qO_!}O(V#PO(W!}O(X#PO~O_#QO(X#PO(Y#PO(Z#QO~Ox#SO!U#TO(b#TO(c#VO~OPYOQYOSfOd!jOe!iOpkOrYOskOtkOzkO|YO!OYO!SWO!WkO!XkO!_!eO!iuO!lZO!oYO!pYO!qYO!svO!u!gO!x!hO$W!kO$niO(T<ZO(VTO(YUO(aVO(o[O~O![#ZO!]#WO!Y(hP!Y(vP~P+}O!^#cO~P`OPYOQYOSfOd!jOe!iOrYOskOtkOzkO|YO!OYO!SWO!WkO!XkO!_!eO!iuO!lZO!oYO!pYO!qYO!svO!u!gO!x!hO$W!kO$niO(VTO(YUO(aVO(o[O~Op#mO![#iO!|]O#i#lO#j#iO(T<[O!k(sP~P.iO!l#oO(T#nO~O!x#sO!|]O%h#tO~O#k#uO~O!g#vO#k#uO~OP$[OR#zO[$cOj$ROr$aO!Q#yO!S#{O!]$_O!l#xO!p$[O#R$RO#n$OO#o$PO#p$PO#q$PO#r$QO#s$RO#t$RO#u$bO#v$SO#x$UO#z$WO#{$XO(aVO(r$YO(y#|O(z#}O~Oa(fX'z(fX'w(fX!k(fX!Y(fX!_(fX%i(fX!g(fX~P1qO#S$dO#`$eO$Q$eOP(gXR(gX[(gXj(gXr(gX!Q(gX!S(gX!](gX!l(gX!p(gX#R(gX#n(gX#o(gX#p(gX#q(gX#r(gX#s(gX#t(gX#u(gX#v(gX#x(gX#z(gX#{(gX(a(gX(r(gX(y(gX(z(gX!_(gX%i(gX~Oa(gX'z(gX'w(gX!Y(gX!k(gXv(gX!g(gX~P4UO#`$eO~O$]$hO$_$gO$f$mO~OSfO!_$nO$i$oO$k$qO~Oh%VOj%dOk%dOp%WOr%XOs$tOt$tOz%YO|%ZO!O%]O!S${O!_$|O!i%bO!l$xO#j%cO$W%`O$t%^O$v%_O$y%aO(T$sO(VTO(YUO(a$uO(y$}O(z%POg(^P~Ol%[O~P7eO!l%eO~O!S%hO!_%iO(T%gO~O!g%mO~Oa%nO'z%nO~O!Q%rO~P%[O(U!lO~P%[O%n%vO~P%[Oh%VO!l%eO(T%gO(U!lO~Oe%}O!l%eO(T%gO~Oj$RO~O!_&PO(T%gO(U!lO(VTO(YUO`)WP~O!Q&SO!l&RO%j&VO&T&WO~P;SO!x#sO~O%s&YO!S)SX!_)SX(T)SX~O(T&ZO~Ol!PO!u&`O%j!QO%l!OO%m!OO%n!OO%q!RO%s!SO%v!TO%w!TO~Od&eOe&dO!x&bO%h&cO%{&aO~P<bOd&hOeyOl!PO!_&gO!u&`O!xxO!|]O%h}O%l!OO%m!OO%n!OO%q!RO%s!SO%v!TO%w!TO%y!UO~Ob&kO#`&nO%j&iO(U!lO~P=gO!l&oO!u&sO~O!l#oO~O!_XO~Oa%nO'x&{O'z%nO~Oa%nO'x'OO'z%nO~Oa%nO'x'QO'z%nO~O'w]X!Y]Xv]X!k]X&[]X!_]X%i]X!g]X~P(qO!b'_O!c'WO!d'WO(U!lO(VTO(YUO~Os'UO!S'TO!['XO(e'SO!^(iP!^(xP~P@nOn'bO!_'`O(T%gO~Oe'gO!l%eO(T%gO~O!Q&SO!l&RO~Os!nO!S!oO!|<VO#T!pO#U!pO#W!pO#X!pO(U!lO(VTO(YUO(e!mO(o!sO~O!b'mO!c'lO!d'lO#V!pO#['nO#]'nO~PBYOa%nOh%VO!g#vO!l%eO'z%nO(r'pO~O!p'tO#`'rO~PChOs!nO!S!oO(VTO(YUO(e!mO(o!sO~O!_XOs(mX!S(mX!b(mX!c(mX!d(mX!|(mX#T(mX#U(mX#V(mX#W(mX#X(mX#[(mX#](mX(U(mX(V(mX(Y(mX(e(mX(o(mX~O!c'lO!d'lO(U!lO~PDWO(P'xO(Q'xO(R'zO~O_!}O(V'|O(W!}O(X'|O~O_#QO(X'|O(Y'|O(Z#QO~Ov(OO~P%[Ox#SO!U#TO(b#TO(c(RO~O![(TO!Y'WX!Y'^X!]'WX!]'^X~P+}O!](VO!Y(hX~OP$[OR#zO[$cOj$ROr$aO!Q#yO!S#{O!](VO!l#xO!p$[O#R$RO#n$OO#o$PO#p$PO#q$PO#r$QO#s$RO#t$RO#u$bO#v$SO#x$UO#z$WO#{$XO(aVO(r$YO(y#|O(z#}O~O!Y(hX~PHRO!Y([O~O!Y(uX!](uX!g(uX!k(uX(r(uX~O#`(uX#k#dX!^(uX~PJUO#`(]O!Y(wX!](wX~O!](^O!Y(vX~O!Y(aO~O#`$eO~PJUO!^(bO~P`OR#zO!Q#yO!S#{O!l#xO(aVOP!na[!naj!nar!na!]!na!p!na#R!na#n!na#o!na#p!na#q!na#r!na#s!na#t!na#u!na#v!na#x!na#z!na#{!na(r!na(y!na(z!na~Oa!na'z!na'w!na!Y!na!k!nav!na!_!na%i!na!g!na~PKlO!k(cO~O!g#vO#`(dO(r'pO!](tXa(tX'z(tX~O!k(tX~PNXO!S%hO!_%iO!|]O#i(iO#j(hO(T%gO~O!](jO!k(sX~O!k(lO~O!S%hO!_%iO#j(hO(T%gO~OP(gXR(gX[(gXj(gXr(gX!Q(gX!S(gX!](gX!l(gX!p(gX#R(gX#n(gX#o(gX#p(gX#q(gX#r(gX#s(gX#t(gX#u(gX#v(gX#x(gX#z(gX#{(gX(a(gX(r(gX(y(gX(z(gX~O!g#vO!k(gX~P! uOR(nO!Q(mO!l#xO#S$dO!|!{a!S!{a~O!x!{a%h!{a!_!{a#i!{a#j!{a(T!{a~P!#vO!x(rO~OPYOQYOSfOd!jOe!iOpkOrYOskOtkOzkO|YO!OYO!SWO!WkO!XkO!_XO!iuO!lZO!oYO!pYO!qYO!svO!u!gO!x!hO$W!kO$niO(T!dO(VTO(YUO(aVO(o[O~Oh%VOp%WOr%XOs$tOt$tOz%YO|%ZO!O<sO!S${O!_$|O!i>VO!l$xO#j<yO$W%`O$t<uO$v<wO$y%aO(T(vO(VTO(YUO(a$uO(y$}O(z%PO~O#k(xO~O![(zO!k(kP~P%[O(e(|O(o[O~O!S)OO!l#xO(e(|O(o[O~OP<UOQ<UOSfOd>ROe!iOpkOr<UOskOtkOzkO|<UO!O<UO!SWO!WkO!XkO!_!eO!i<XO!lZO!o<UO!p<UO!q<UO!s<YO!u<]O!x!hO$W!kO$n>PO(T)]O(VTO(YUO(aVO(o[O~O!]$_Oa$qa'z$qa'w$qa!k$qa!Y$qa!_$qa%i$qa!g$qa~Ol)dO~P!&zOh%VOp%WOr%XOs$tOt$tOz%YO|%ZO!O%]O!S${O!_$|O!i%bO!l$xO#j%cO$W%`O$t%^O$v%_O$y%aO(T(vO(VTO(YUO(a$uO(y$}O(z%PO~Og(pP~P!,TO!Q)iO!g)hO!_$^X$Z$^X$]$^X$_$^X$f$^X~O!g)hO!_({X$Z({X$]({X$_({X$f({X~O!Q)iO~P!.^O!Q)iO!_({X$Z({X$]({X$_({X$f({X~O!_)kO$Z)oO$])jO$_)jO$f)pO~O![)sO~P!)[O$]$hO$_$gO$f)wO~On$zX!Q$zX#S$zX'y$zX(y$zX(z$zX~OgmXg$zAxisAlignedBoundingBoxmX!]mX#`mX~P!0SOx)yO(b)zO(c)|O~On*VO!Q*OO'y*PO(y$}O(z%PO~Og)}O~P!1WOg*WO~Oh%VOr%XOs$tOt$tOz%YO|%ZO!O<sO!S*YO!_*ZO!i>VO!l$xO#j<yO$W%`O$t<uO$v<wO$y%aO(VTO(YUO(a$uO(y$}O(z%PO~Op*`O![*^O(T*XO!k)OP~P!1uO#k*aO~O!l*bO~Oh%VOp%WOr%XOs$tOt$tOz%YO|%ZO!O<sO!S${O!_$|O!i>VO!l$xO#j<yO$W%`O$t<uO$v<wO$y%aO(T*dO(VTO(YUO(a$uO(y$}O(z%PO~O![*gO!Y)PP~P!3tOr*sOs!nO!S*iO!b*qO!c*kO!d*kO!l*bO#[*rO%`*mO(U!lO(VTO(YUO(e!mO~O!^*pO~P!5iO#S$dOn(`X!Q(`X'y(`X(y(`X(z(`X!](`X#`(`X~Og(`X$O(`X~P!6kOn*xO#`*wOg(_X!](_X~O!]*yOg(^X~Oj%dOk%dOl%dO(T&ZOg(^P~Os*|O~Og)}O(T&ZO~O!l+SO~O(T(vO~Op+WO!S%hO![#iO!_%iO!|]O#i#lO#j#iO(T%gO!k(sP~O!g#vO#k+XO~O!S%hO![+ZO!](^O!_%iO(T%gO!Y(vP~Os'[O!S+]O![+[O(VTO(YUO(e(|O~O!^(xP~P!9|O!]+^Oa)TX'z)TX~OP$[OR#zO[$cOj$ROr$aO!Q#yO!S#{O!l#xO!p$[O#R$RO#n$OO#o$PO#p$PO#q$PO#r$QO#s$RO#t$RO#u$bO#v$SO#x$UO#z$WO#{$XO(aVO(r$YO(y#|O(z#}O~Oa!ja!]!ja'z!ja'w!ja!Y!ja!k!jav!ja!_!ja%i!ja!g!ja~P!:tOR#zO!Q#yO!S#{O!l#xO(aVOP!ra[!raj!rar!ra!]!ra!p!ra#R!ra#n!ra#o!ra#p!ra#q!ra#r!ra#s!ra#t!ra#u!ra#v!ra#x!ra#z!ra#{!ra(r!ra(y!ra(z!ra~Oa!ra'z!ra'w!ra!Y!ra!k!rav!ra!_!ra%i!ra!g!ra~P!=[OR#zO!Q#yO!S#{O!l#xO(aVOP!ta[!taj!tar!ta!]!ta!p!ta#R!ta#n!ta#o!ta#p!ta#q!ta#r!ta#s!ta#t!ta#u!ta#v!ta#x!ta#z!ta#{!ta(r!ta(y!ta(z!ta~Oa!ta'z!ta'w!ta!Y!ta!k!tav!ta!_!ta%i!ta!g!ta~P!?rOh%VOn+gO!_'`O%i+fO~O!g+iOa(]X!_(]X'z(]X!](]X~Oa%nO!_XO'z%nO~Oh%VO!l%eO~Oh%VO!l%eO(T%gO~O!g#vO#k(xO~Ob+tO%j+uO(T+qO(VTO(YUO!^)XP~O!]+vO`)WX~O[+zO~O`+{O~O!_&PO(T%gO(U!lO`)WP~O%j,OO~P;SOh%VO#`,SO~Oh%VOn,VO!_$|O~O!_,XO~O!Q,ZO!_XO~O%n%vO~O!x,`O~Oe,eO~Ob,fO(T#nO(VTO(YUO!^)VP~Oe%}O~O%j!QO(T&ZO~P=gO[,kO`,jO~OPYOQYOSfOdzOeyOpkOrYOskOtkOzkO|YO!OYO!SWO!WkO!XkO!iuO!lZO!oYO!pYO!qYO!svO!xxO!|]O$niO%h}O(VTO(YUO(aVO(o[O~O!_!eO!u!gO$W!kO(T!dO~P!FyO`,jOa%nO'z%nO~OPYOQYOSfOd!jOe!iOpkOrYOskOtkOzkO|YO!OYO!SWO!WkO!XkO!_!eO!iuO!lZO!oYO!pYO!qYO!svO!x!hO$W!kO$niO(T!dO(VTO(YUO(aVO(o[O~Oa,pOl!OO!uwO%l!OO%m!OO%n!OO~P!IcO!l&oO~O&^,vO~O!_,xO~O&o,zO&q,{OP&laQ&laS&laY&laa&lad&lae&lal&lap&lar&las&lat&laz&la|&la!O&la!S&la!W&la!X&la!_&la!i&la!l&la!o&la!p&la!q&la!s&la!u&la!x&la!|&la$W&la$n&la%h&la%j&la%l&la%m&la%n&la%q&la%s&la%v&la%w&la%y&la&W&la&^&la&`&la&b&la&d&la&g&la&m&la&s&la&u&la&w&la&y&la&{&la'w&la(T&la(V&la(Y&la(a&la(o&la!^&la&e&lab&la&j&la~O(T-QO~Oh!eX!]!RX!^!RX!g!RX!g!eX!l!eX#`!RX~O!]!eX!^!eX~P#!iO!g-VO#`-UOh(jX!]#hX!^#hX!g(jX!l(jX~O!](jX!^(jX~P##[Oh%VO!g-XO!l%eO!]!aX!^!aX~Os!nO!S!oO(VTO(YUO(e!mO~OP<UOQ<UOSfOd>ROe!iOpkOr<UOskOtkOzkO|<UO!O<UO!SWO!WkO!XkO!_!eO!i<XO!lZO!o<UO!p<UO!q<UO!s<YO!u<]O!x!hO$W!kO$n>PO(VTO(YUO(aVO(o[O~O(T=QO~P#$qO!]-]O!^(iX~O!^-_O~O!g-VO#`-UO!]#hX!^#hX~O!]-`O!^(xX~O!^-bO~O!c-cO!d-cO(U!lO~P#$`O!^-fO~P'_On-iO!_'`O~O!Y-nO~Os!{a!b!{a!c!{a!d!{a#T!{a#U!{a#V!{a#W!{a#X!{a#[!{a#]!{a(U!{a(V!{a(Y!{a(e!{a(o!{a~P!#vO!p-sO#`-qO~PChO!c-uO!d-uO(U!lO~PDWOa%nO#`-qO'z%nO~Oa%nO!g#vO#`-qO'z%nO~Oa%nO!g#vO!p-sO#`-qO'z%nO(r'pO~O(P'xO(Q'xO(R-zO~Ov-{O~O!Y'Wa!]'Wa~P!:tO![.PO!Y'WX!]'WX~P%[O!](VO!Y(ha~O!Y(ha~PHRO!](^O!Y(va~O!S%hO![.TO!_%iO(T%gO!Y'^X!]'^X~O#`.VO!](ta!k(taa(ta'z(ta~O!g#vO~P#,wO!](jO!k(sa~O!S%hO!_%iO#j.ZO(T%gO~Op.`O!S%hO![.]O!_%iO!|]O#i._O#j.]O(T%gO!]'aX!k'aX~OR.dO!l#xO~Oh%VOn.gO!_'`O%i.fO~Oa#ci!]#ci'z#ci'w#ci!Y#ci!k#civ#ci!_#ci%i#ci!g#ci~P!:tOn>]O!Q*OO'y*PO(y$}O(z%PO~O#k#_aa#_a#`#_a'z#_a!]#_a!k#_a!_#_a!Y#_a~P#/sO#k(`XP(`XR(`X[(`Xa(`Xj(`Xr(`X!S(`X!l(`X!p(`X#R(`X#n(`X#o(`X#p(`X#q(`X#r(`X#s(`X#t(`X#u(`X#v(`X#x(`X#z(`X#{(`X'z(`X(a(`X(r(`X!k(`X!Y(`X'w(`Xv(`X!_(`X%i(`X!g(`X~P!6kO!].tO!k(kX~P!:tO!k.wO~O!Y.yO~OP$[OR#zO!Q#yO!S#{O!l#xO!p$[O(aVO[#mia#mij#mir#mi!]#mi#R#mi#o#mi#p#mi#q#mi#r#mi#s#mi#t#mi#u#mi#v#mi#x#mi#z#mi#{#mi'z#mi(r#mi(y#mi(z#mi'w#mi!Y#mi!k#miv#mi!_#mi%i#mi!g#mi~O#n#mi~P#3cO#n$OO~P#3cOP$[OR#zOr$aO!Q#yO!S#{O!l#xO!p$[O#n$OO#o$PO#p$PO#q$PO(aVO[#mia#mij#mi!]#mi#R#mi#s#mi#t#mi#u#mi#v#mi#x#mi#z#mi#{#mi'z#mi(r#mi(y#mi(z#mi'w#mi!Y#mi!k#miv#mi!_#mi%i#mi!g#mi~O#r#mi~P#6QO#r$QO~P#6QOP$[OR#zO[$cOj$ROr$aO!Q#yO!S#{O!l#xO!p$[O#R$RO#n$OO#o$PO#p$PO#q$PO#r$QO#s$RO#t$RO#u$bO(aVOa#mi!]#mi#x#mi#z#mi#{#mi'z#mi(r#mi(y#mi(z#mi'w#mi!Y#mi!k#miv#mi!_#mi%i#mi!g#mi~O#v#mi~P#8oOP$[OR#zO[$cOj$ROr$aO!Q#yO!S#{O!l#xO!p$[O#R$RO#n$OO#o$PO#p$PO#q$PO#r$QO#s$RO#t$RO#u$bO#v$SO(aVO(z#}Oa#mi!]#mi#z#mi#{#mi'z#mi(r#mi(y#mi'w#mi!Y#mi!k#miv#mi!_#mi%i#mi!g#mi~O#x$UO~P#;VO#x#mi~P#;VO#v$SO~P#8oOP$[OR#zO[$cOj$ROr$aO!Q#yO!S#{O!l#xO!p$[O#R$RO#n$OO#o$PO#p$PO#q$PO#r$QO#s$RO#t$RO#u$bO#v$SO#x$UO(aVO(y#|O(z#}Oa#mi!]#mi#{#mi'z#mi(r#mi'w#mi!Y#mi!k#miv#mi!_#mi%i#mi!g#mi~O#z#mi~P#={O#z$WO~P#={OP]XR]X[]Xj]Xr]X!Q]X!S]X!l]X!p]X#R]X#S]X#`]X#kfX#n]X#o]X#p]X#q]X#r]X#s]X#t]X#u]X#v]X#x]X#z]X#{]X$Q]X(a]X(r]X(y]X(z]X!]]X!^]X~O$O]X~P#@jOP$[OR#zO[<mOj<bOr<kO!Q#yO!S#{O!l#xO!p$[O#R<bO#n<_O#o<`O#p<`O#q<`O#r<aO#s<bO#t<bO#u<lO#v<cO#x<eO#z<gO#{<hO(aVO(r$YO(y#|O(z#}O~O$O.{O~P#BwO#S$dO#`<nO$Q<nO$O(gX!^(gX~P! uOa'da!]'da'z'da'w'da!k'da!Y'dav'da!_'da%i'da!g'da~P!:tO[#mia#mij#mir#mi!]#mi#R#mi#r#mi#s#mi#t#mi#u#mi#v#mi#x#mi#z#mi#{#mi'z#mi(r#mi'w#mi!Y#mi!k#miv#mi!_#mi%i#mi!g#mi~OP$[OR#zO!Q#yO!S#{O!l#xO!p$[O#n$OO#o$PO#p$PO#q$PO(aVO(y#mi(z#mi~P#EyOn>]O!Q*OO'y*PO(y$}O(z%POP#miR#mi!S#mi!l#mi!p#mi#n#mi#o#mi#p#mi#q#mi(a#mi~P#EyO!]/POg(pX~P!1WOg/RO~Oa$Pi!]$Pi'z$Pi'w$Pi!Y$Pi!k$Piv$Pi!_$Pi%i$Pi!g$Pi~P!:tO$]/SO$_/SO~O$]/TO$_/TO~O!g)hO#`/UO!_$cX$Z$cX$]$cX$_$cX$f$cX~O![/VO~O!_)kO$Z/XO$])jO$_)jO$f/YO~O!]<iO!^(fX~P#BwO!^/ZO~O!g)hO$f({X~O$f/]O~Ov/^O~P!&zOx)yO(b)zO(c/aO~O!S/dO~O(y$}On%aa!Q%aa'y%aa(z%aa!]%aa#`%aa~Og%aa$O%aa~P#L{O(z%POn%ca!Q%ca'y%ca(y%ca!]%ca#`%ca~Og%ca$O%ca~P#MnO!]fX!gfX!kfX!k$zX(rfX~P!0SOp%WO![/mO!](^O(T/lO!Y(vP!Y)PP~P!1uOr*sO!b*qO!c*kO!d*kO!l*bO#[*rO%`*mO(U!lO(VTO(YUO~Os<}O!S/nO![+[O!^*pO(e<|O!^(xP~P$ [O!k/oO~P#/sO!]/pO!g#vO(r'pO!k)OX~O!k/uO~OnoX!QoX'yoX(yoX(zoX~O!g#vO!koX~P$#OOp/wO!S%hO![*^O!_%iO(T%gO!k)OP~O#k/xO~O!Y$zX!]$zX!g%RX~P!0SO!]/yO!Y)PX~P#/sO!g/{O~O!Y/}O~OpkO(T0OO~P.iOh%VOr0TO!g#vO!l%eO(r'pO~O!g+iO~Oa%nO!]0XO'z%nO~O!^0ZO~P!5iO!c0[O!d0[O(U!lO~P#$`Os!nO!S0]O(VTO(YUO(e!mO~O#[0_O~Og%aa!]%aa#`%aa$O%aa~P!1WOg%ca!]%ca#`%ca$O%ca~P!1WOj%dOk%dOl%dO(T&ZOg'mX!]'mX~O!]*yOg(^a~Og0hO~On0jO#`0iOg(_a!](_a~OR0kO!Q0kO!S0lO#S$dOn}a'y}a(y}a(z}a!]}a#`}a~Og}a$O}a~P$(cO!Q*OO'y*POn$sa(y$sa(z$sa!]$sa#`$sa~Og$sa$O$sa~P$)_O!Q*OO'y*POn$ua(y$ua(z$ua!]$ua#`$ua~Og$ua$O$ua~P$*QO#k0oO~Og%Ta!]%Ta#`%Ta$O%Ta~P!1WO!g#vO~O#k0rO~O!]+^Oa)Ta'z)Ta~OR#zO!Q#yO!S#{O!l#xO(aVOP!ri[!rij!rir!ri!]!ri!p!ri#R!ri#n!ri#o!ri#p!ri#q!ri#r!ri#s!ri#t!ri#u!ri#v!ri#x!ri#z!ri#{!ri(r!ri(y!ri(z!ri~Oa!ri'z!ri'w!ri!Y!ri!k!riv!ri!_!ri%i!ri!g!ri~P$+oOh%VOr%XOs$tOt$tOz%YO|%ZO!O<sO!S${O!_$|O!i>VO!l$xO#j<yO$W%`O$t<uO$v<wO$y%aO(VTO(YUO(a$uO(y$}O(z%PO~Op0{O%]0|O(T0zO~P$.VO!g+iOa(]a!_(]a'z(]a!](]a~O#k1SO~O[]X!]fX!^fX~O!]1TO!^)XX~O!^1VO~O[1WO~Ob1YO(T+qO(VTO(YUO~O!_&PO(T%gO`'uX!]'uX~O!]+vO`)Wa~O!k1]O~P!:tO[1`O~O`1aO~O#`1fO~On1iO!_$|O~O(e(|O!^)UP~Oh%VOn1rO!_1oO%i1qO~O[1|O!]1zO!^)VX~O!^1}O~O`2POa%nO'z%nO~O(T#nO(VTO(YUO~O#S$dO#`$eO$Q$eOP(gXR(gX[(gXr(gX!Q(gX!S(gX!](gX!l(gX!p(gX#R(gX#n(gX#o(gX#p(gX#q(gX#r(gX#s(gX#t(gX#u(gX#v(gX#x(gX#z(gX#{(gX(a(gX(r(gX(y(gX(z(gX~Oj2SO&[2TOa(gX~P$3pOj2SO#`$eO&[2TO~Oa2VO~P%[Oa2XO~O&e2[OP&ciQ&ciS&ciY&cia&cid&cie&cil&cip&cir&cis&cit&ciz&ci|&ci!O&ci!S&ci!W&ci!X&ci!_&ci!i&ci!l&ci!o&ci!p&ci!q&ci!s&ci!u&ci!x&ci!|&ci$W&ci$n&ci%h&ci%j&ci%l&ci%m&ci%n&ci%q&ci%s&ci%v&ci%w&ci%y&ci&W&ci&^&ci&`&ci&b&ci&d&ci&g&ci&m&ci&s&ci&u&ci&w&ci&y&ci&{&ci'w&ci(T&ci(V&ci(Y&ci(a&ci(o&ci!^&cib&ci&j&ci~Ob2bO!^2`O&j2aO~P`O!_XO!l2dO~O&q,{OP&liQ&liS&liY&lia&lid&lie&lil&lip&lir&lis&lit&liz&li|&li!O&li!S&li!W&li!X&li!_&li!i&li!l&li!o&li!p&li!q&li!s&li!u&li!x&li!|&li$W&li$n&li%h&li%j&li%l&li%m&li%n&li%q&li%s&li%v&li%w&li%y&li&W&li&^&li&`&li&b&li&d&li&g&li&m&li&s&li&u&li&w&li&y&li&{&li'w&li(T&li(V&li(Y&li(a&li(o&li!^&li&e&lib&li&j&li~O!Y2jO~O!]!aa!^!aa~P#BwOs!nO!S!oO![2pO(e!mO!]'XX!^'XX~P@nO!]-]O!^(ia~O!]'_X!^'_X~P!9|O!]-`O!^(xa~O!^2wO~P'_Oa%nO#`3QO'z%nO~Oa%nO!g#vO#`3QO'z%nO~Oa%nO!g#vO!p3UO#`3QO'z%nO(r'pO~Oa%nO'z%nO~P!:tO!]$_Ov$qa~O!Y'Wi!]'Wi~P!:tO!](VO!Y(hi~O!](^O!Y(vi~O!Y(wi!](wi~P!:tO!](ti!k(tia(ti'z(ti~P!:tO#`3WO!](ti!k(tia(ti'z(ti~O!](jO!k(si~O!S%hO!_%iO!|]O#i3]O#j3[O(T%gO~O!S%hO!_%iO#j3[O(T%gO~On3dO!_'`O%i3cO~Oh%VOn3dO!_'`O%i3cO~O#k%aaP%aaR%aa[%aaa%aaj%aar%aa!S%aa!l%aa!p%aa#R%aa#n%aa#o%aa#p%aa#q%aa#r%aa#s%aa#t%aa#u%aa#v%aa#x%aa#z%aa#{%aa'z%aa(a%aa(r%aa!k%aa!Y%aa'w%aav%aa!_%aa%i%aa!g%aa~P#L{O#k%caP%caR%ca[%caa%caj%car%ca!S%ca!l%ca!p%ca#R%ca#n%ca#o%ca#p%ca#q%ca#r%ca#s%ca#t%ca#u%ca#v%ca#x%ca#z%ca#{%ca'z%ca(a%ca(r%ca!k%ca!Y%ca'w%cav%ca!_%ca%i%ca!g%ca~P#MnO#k%aaP%aaR%aa[%aaa%aaj%aar%aa!S%aa!]%aa!l%aa!p%aa#R%aa#n%aa#o%aa#p%aa#q%aa#r%aa#s%aa#t%aa#u%aa#v%aa#x%aa#z%aa#{%aa'z%aa(a%aa(r%aa!k%aa!Y%aa'w%aa#`%aav%aa!_%aa%i%aa!g%aa~P#/sO#k%caP%caR%ca[%caa%caj%car%ca!S%ca!]%ca!l%ca!p%ca#R%ca#n%ca#o%ca#p%ca#q%ca#r%ca#s%ca#t%ca#u%ca#v%ca#x%ca#z%ca#{%ca'z%ca(a%ca(r%ca!k%ca!Y%ca'w%ca#`%cav%ca!_%ca%i%ca!g%ca~P#/sO#k}aP}a[}aa}aj}ar}a!l}a!p}a#R}a#n}a#o}a#p}a#q}a#r}a#s}a#t}a#u}a#v}a#x}a#z}a#{}a'z}a(a}a(r}a!k}a!Y}a'w}av}a!_}a%i}a!g}a~P$(cO#k$saP$saR$sa[$saa$saj$sar$sa!S$sa!l$sa!p$sa#R$sa#n$sa#o$sa#p$sa#q$sa#r$sa#s$sa#t$sa#u$sa#v$sa#x$sa#z$sa#{$sa'z$sa(a$sa(r$sa!k$sa!Y$sa'w$sav$sa!_$sa%i$sa!g$sa~P$)_O#k$uaP$uaR$ua[$uaa$uaj$uar$ua!S$ua!l$ua!p$ua#R$ua#n$ua#o$ua#p$ua#q$ua#r$ua#s$ua#t$ua#u$ua#v$ua#x$ua#z$ua#{$ua'z$ua(a$ua(r$ua!k$ua!Y$ua'w$uav$ua!_$ua%i$ua!g$ua~P$*QO#k%TaP%TaR%Ta[%Taa%Taj%Tar%Ta!S%Ta!]%Ta!l%Ta!p%Ta#R%Ta#n%Ta#o%Ta#p%Ta#q%Ta#r%Ta#s%Ta#t%Ta#u%Ta#v%Ta#x%Ta#z%Ta#{%Ta'z%Ta(a%Ta(r%Ta!k%Ta!Y%Ta'w%Ta#`%Tav%Ta!_%Ta%i%Ta!g%Ta~P#/sOa#cq!]#cq'z#cq'w#cq!Y#cq!k#cqv#cq!_#cq%i#cq!g#cq~P!:tO![3lO!]'YX!k'YX~P%[O!].tO!k(ka~O!].tO!k(ka~P!:tO!Y3oO~O$O!na!^!na~PKlO$O!ja!]!ja!^!ja~P#BwO$O!ra!^!ra~P!=[O$O!ta!^!ta~P!?rOg']X!]']X~P!,TO!]/POg(pa~OSfO!_4TO$d4UO~O!^4YO~Ov4ZO~P#/sOa$mq!]$mq'z$mq'w$mq!Y$mq!k$mqv$mq!_$mq%i$mq!g$mq~P!:tO!Y4]O~P!&zO!S4^O~O!Q*OO'y*PO(z%POn'ia(y'ia!]'ia#`'ia~Og'ia$O'ia~P%-fO!Q*OO'y*POn'ka(y'ka(z'ka!]'ka#`'ka~Og'ka$O'ka~P%.XO(r$YO~P#/sO!YfX!Y$zX!]fX!]$zX!g%RX#`fX~P!0SOp%WO(T=WO~P!1uOp4bO!S%hO![4aO!_%iO(T%gO!]'eX!k'eX~O!]/pO!k)Oa~O!]/pO!g#vO!k)Oa~O!]/pO!g#vO(r'pO!k)Oa~Og$|i!]$|i#`$|i$O$|i~P!1WO![4jO!Y'gX!]'gX~P!3tO!]/yO!Y)Pa~O!]/yO!Y)Pa~P#/sOP]XR]X[]Xj]Xr]X!Q]X!S]X!Y]X!]]X!l]X!p]X#R]X#S]X#`]X#kfX#n]X#o]X#p]X#q]X#r]X#s]X#t]X#u]X#v]X#x]X#z]X#{]X$Q]X(a]X(r]X(y]X(z]X~Oj%YX!g%YX~P%2OOj4oO!g#vO~Oh%VO!g#vO!l%eO~Oh%VOr4tO!l%eO(r'pO~Or4yO!g#vO(r'pO~Os!nO!S4zO(VTO(YUO(e!mO~O(y$}On%ai!Q%ai'y%ai(z%ai!]%ai#`%ai~Og%ai$O%ai~P%5oO(z%POn%ci!Q%ci'y%ci(y%ci!]%ci#`%ci~Og%ci$O%ci~P%6bOg(_i!](_i~P!1WO#`5QOg(_i!](_i~P!1WO!k5VO~Oa$oq!]$oq'z$oq'w$oq!Y$oq!k$oqv$oq!_$oq%i$oq!g$oq~P!:tO!Y5ZO~O!]5[O!_)QX~P#/sOa$zX!_$zX%^]X'z$zX!]$zX~P!0SO%^5_OaoX!_oX'zoX!]oX~P$#OOp5`O(T#nO~O%^5_O~Ob5fO%j5gO(T+qO(VTO(YUO!]'tX!^'tX~O!]1TO!^)Xa~O[5kO~O`5lO~O[5pO~Oa%nO'z%nO~P#/sO!]5uO#`5wO!^)UX~O!^5xO~Or6OOs!nO!S*iO!b!yO!c!vO!d!vO!|<VO#T!pO#U!pO#V!pO#W!pO#X!pO#[5}O#]!zO(U!lO(VTO(YUO(e!mO(o!sO~O!^5|O~P%;eOn6TO!_1oO%i6SO~Oh%VOn6TO!_1oO%i6SO~Ob6[O(T#nO(VTO(YUO!]'sX!^'sX~O!]1zO!^)Va~O(VTO(YUO(e6^O~O`6bO~Oj6eO&[6fO~PNXO!k6gO~P%[Oa6iO~Oa6iO~P%[Ob2bO!^6nO&j2aO~P`O!g6pO~O!g6rOh(ji!](ji!^(ji!g(ji!l(jir(ji(r(ji~O!]#hi!^#hi~P#BwO#`6sO!]#hi!^#hi~O!]!ai!^!ai~P#BwOa%nO#`6|O'z%nO~Oa%nO!g#vO#`6|O'z%nO~O!](tq!k(tqa(tq'z(tq~P!:tO!](jO!k(sq~O!S%hO!_%iO#j7TO(T%gO~O!_'`O%i7WO~On7[O!_'`O%i7WO~O#k'iaP'iaR'ia['iaa'iaj'iar'ia!S'ia!l'ia!p'ia#R'ia#n'ia#o'ia#p'ia#q'ia#r'ia#s'ia#t'ia#u'ia#v'ia#x'ia#z'ia#{'ia'z'ia(a'ia(r'ia!k'ia!Y'ia'w'iav'ia!_'ia%i'ia!g'ia~P%-fO#k'kaP'kaR'ka['kaa'kaj'kar'ka!S'ka!l'ka!p'ka#R'ka#n'ka#o'ka#p'ka#q'ka#r'ka#s'ka#t'ka#u'ka#v'ka#x'ka#z'ka#{'ka'z'ka(a'ka(r'ka!k'ka!Y'ka'w'kav'ka!_'ka%i'ka!g'ka~P%.XO#k$|iP$|iR$|i[$|ia$|ij$|ir$|i!S$|i!]$|i!l$|i!p$|i#R$|i#n$|i#o$|i#p$|i#q$|i#r$|i#s$|i#t$|i#u$|i#v$|i#x$|i#z$|i#{$|i'z$|i(a$|i(r$|i!k$|i!Y$|i'w$|i#`$|iv$|i!_$|i%i$|i!g$|i~P#/sO#k%aiP%aiR%ai[%aia%aij%air%ai!S%ai!l%ai!p%ai#R%ai#n%ai#o%ai#p%ai#q%ai#r%ai#s%ai#t%ai#u%ai#v%ai#x%ai#z%ai#{%ai'z%ai(a%ai(r%ai!k%ai!Y%ai'w%aiv%ai!_%ai%i%ai!g%ai~P%5oO#k%ciP%ciR%ci[%cia%cij%cir%ci!S%ci!l%ci!p%ci#R%ci#n%ci#o%ci#p%ci#q%ci#r%ci#s%ci#t%ci#u%ci#v%ci#x%ci#z%ci#{%ci'z%ci(a%ci(r%ci!k%ci!Y%ci'w%civ%ci!_%ci%i%ci!g%ci~P%6bO!]'Ya!k'Ya~P!:tO!].tO!k(ki~O$O#ci!]#ci!^#ci~P#BwOP$[OR#zO!Q#yO!S#{O!l#xO!p$[O(aVO[#mij#mir#mi#R#mi#o#mi#p#mi#q#mi#r#mi#s#mi#t#mi#u#mi#v#mi#x#mi#z#mi#{#mi$O#mi(r#mi(y#mi(z#mi!]#mi!^#mi~O#n#mi~P%NdO#n<_O~P%NdOP$[OR#zOr<kO!Q#yO!S#{O!l#xO!p$[O#n<_O#o<`O#p<`O#q<`O(aVO[#mij#mi#R#mi#s#mi#t#mi#u#mi#v#mi#x#mi#z#mi#{#mi$O#mi(r#mi(y#mi(z#mi!]#mi!^#mi~O#r#mi~P&!lO#r<aO~P&!lOP$[OR#zO[<mOj<bOr<kO!Q#yO!S#{O!l#xO!p$[O#R<bO#n<_O#o<`O#p<`O#q<`O#r<aO#s<bO#t<bO#u<lO(aVO#x#mi#z#mi#{#mi$O#mi(r#mi(y#mi(z#mi!]#mi!^#mi~O#v#mi~P&$tOP$[OR#zO[<mOj<bOr<kO!Q#yO!S#{O!l#xO!p$[O#R<bO#n<_O#o<`O#p<`O#q<`O#r<aO#s<bO#t<bO#u<lO#v<cO(aVO(z#}O#z#mi#{#mi$O#mi(r#mi(y#mi!]#mi!^#mi~O#x<eO~P&&uO#x#mi~P&&uO#v<cO~P&$tOP$[OR#zO[<mOj<bOr<kO!Q#yO!S#{O!l#xO!p$[O#R<bO#n<_O#o<`O#p<`O#q<`O#r<aO#s<bO#t<bO#u<lO#v<cO#x<eO(aVO(y#|O(z#}O#{#mi$O#mi(r#mi!]#mi!^#mi~O#z#mi~P&)UO#z<gO~P&)UOa#|y!]#|y'z#|y'w#|y!Y#|y!k#|yv#|y!_#|y%i#|y!g#|y~P!:tO[#mij#mir#mi#R#mi#r#mi#s#mi#t#mi#u#mi#v#mi#x#mi#z#mi#{#mi$O#mi(r#mi!]#mi!^#mi~OP$[OR#zO!Q#yO!S#{O!l#xO!p$[O#n<_O#o<`O#p<`O#q<`O(aVO(y#mi(z#mi~P&,QOn>^O!Q*OO'y*PO(y$}O(z%POP#miR#mi!S#mi!l#mi!p#mi#n#mi#o#mi#p#mi#q#mi(a#mi~P&,QO#S$dOP(`XR(`X[(`Xj(`AxisAlignedBoundingBox(`Xr(`X!Q(`X!S(`X!l(`X!p(`X#R(`X#n(`X#o(`X#p(`X#q(`X#r(`X#s(`X#t(`X#u(`X#v(`X#x(`X#z(`X#{(`X$O(`X'y(`X(a(`X(r(`X(y(`X(z(`X!](`X!^(`X~O$O$Pi!]$Pi!^$Pi~P#BwO$O!ri!^!ri~P$+oOg']a!]']a~P!1WO!^7nO~O!]'da!^'da~P#BwO!Y7oO~P#/sO!g#vO(r'pO!]'ea!k'ea~O!]/pO!k)Oi~O!]/pO!g#vO!k)Oi~Og$|q!]$|q#`$|q$O$|q~P!1WO!Y'ga!]'ga~P#/sO!g7vO~O!]/yO!Y)Pi~P#/sO!]/yO!Y)Pi~O!Y7yO~Oh%VOr8OO!l%eO(r'pO~Oj8QO!g#vO~Or8TO!g#vO(r'pO~O!Q*OO'y*PO(z%POn'ja(y'ja!]'ja#`'ja~Og'ja$O'ja~P&5RO!Q*OO'y*POn'la(y'la(z'la!]'la#`'la~Og'la$O'la~P&5tOg(_q!](_q~P!1WO#`8VOg(_q!](_q~P!1WO!Y8WO~Og%Oq!]%Oq#`%Oq$O%Oq~P!1WOa$oy!]$oy'z$oy'w$oy!Y$oy!k$oyv$oy!_$oy%i$oy!g$oy~P!:tO!g6rO~O!]5[O!_)Qa~O!_'`OP$TaR$Ta[$Taj$Tar$Ta!Q$Ta!S$Ta!]$Ta!l$Ta!p$Ta#R$Ta#n$Ta#o$Ta#p$Ta#q$Ta#r$Ta#s$Ta#t$Ta#u$Ta#v$Ta#x$Ta#z$Ta#{$Ta(a$Ta(r$Ta(y$Ta(z$Ta~O%i7WO~P&8fO%^8[Oa%[i!_%[i'z%[i!]%[i~Oa#cy!]#cy'z#cy'w#cy!Y#cy!k#cyv#cy!_#cy%i#cy!g#cy~P!:tO[8^O~Ob8`O(T+qO(VTO(YUO~O!]1TO!^)Xi~O`8dO~O(e(|O!]'pX!^'pX~O!]5uO!^)Ua~O!^8nO~P%;eO(o!sO~P$&YO#[8oO~O!_1oO~O!_1oO%i8qO~On8tO!_1oO%i8qO~O[8yO!]'sa!^'sa~O!]1zO!^)Vi~O!k8}O~O!k9OO~O!k9RO~O!k9RO~P%[Oa9TO~O!g9UO~O!k9VO~O!](wi!^(wi~P#BwOa%nO#`9_O'z%nO~O!](ty!k(tya(ty'z(ty~P!:tO!](jO!k(sy~O%i9bO~P&8fO!_'`O%i9bO~O#k$|qP$|qR$|q[$|qa$|qj$|qr$|q!S$|q!]$|q!l$|q!p$|q#R$|q#n$|q#o$|q#p$|q#q$|q#r$|q#s$|q#t$|q#u$|q#v$|q#x$|q#z$|q#{$|q'z$|q(a$|q(r$|q!k$|q!Y$|q'w$|q#`$|qv$|q!_$|q%i$|q!g$|q~P#/sO#k'jaP'jaR'ja['jaa'jaj'jar'ja!S'ja!l'ja!p'ja#R'ja#n'ja#o'ja#p'ja#q'ja#r'ja#s'ja#t'ja#u'ja#v'ja#x'ja#z'ja#{'ja'z'ja(a'ja(r'ja!k'ja!Y'ja'w'jav'ja!_'ja%i'ja!g'ja~P&5RO#k'laP'laR'la['laa'laj'lar'la!S'la!l'la!p'la#R'la#n'la#o'la#p'la#q'la#r'la#s'la#t'la#u'la#v'la#x'la#z'la#{'la'z'la(a'la(r'la!k'la!Y'la'w'lav'la!_'la%i'la!g'la~P&5tO#k%OqP%OqR%Oq[%Oqa%Oqj%Oqr%Oq!S%Oq!]%Oq!l%Oq!p%Oq#R%Oq#n%Oq#o%Oq#p%Oq#q%Oq#r%Oq#s%Oq#t%Oq#u%Oq#v%Oq#x%Oq#z%Oq#{%Oq'z%Oq(a%Oq(r%Oq!k%Oq!Y%Oq'w%Oq#`%Oqv%Oq!_%Oq%i%Oq!g%Oq~P#/sO!]'Yi!k'Yi~P!:tO$O#cq!]#cq!^#cq~P#BwO(y$}OP%aaR%aa[%aaj%aar%aa!S%aa!l%aa!p%aa#R%aa#n%aa#o%aa#p%aa#q%aa#r%aa#s%aa#t%aa#u%aa#v%aa#x%aa#z%aa#{%aa$O%aa(a%aa(r%aa!]%aa!^%aa~On%aa!Q%aa'y%aa(z%aa~P&IyO(z%POP%caR%ca[%caj%car%ca!S%ca!l%ca!p%ca#R%ca#n%ca#o%ca#p%ca#q%ca#r%ca#s%ca#t%ca#u%ca#v%ca#x%ca#z%ca#{%ca$O%ca(a%ca(r%ca!]%ca!^%ca~On%ca!Q%ca'y%ca(y%ca~P&LQOn>^O!Q*OO'y*PO(z%PO~P&IyOn>^O!Q*OO'y*PO(y$}O~P&LQOR0kO!Q0kO!S0lO#S$dOP}a[}aj}an}ar}a!l}a!p}a#R}a#n}a#o}a#p}a#q}a#r}a#s}a#t}a#u}a#v}a#x}a#z}a#{}a$O}a'y}a(a}a(r}a(y}a(z}a!]}a!^}a~O!Q*OO'y*POP$saR$sa[$saj$san$sar$sa!S$sa!l$sa!p$sa#R$sa#n$sa#o$sa#p$sa#q$sa#r$sa#s$sa#t$sa#u$sa#v$sa#x$sa#z$sa#{$sa$O$sa(a$sa(r$sa(y$sa(z$sa!]$sa!^$sa~O!Q*OO'y*POP$uaR$ua[$uaj$uan$uar$ua!S$ua!l$ua!p$ua#R$ua#n$ua#o$ua#p$ua#q$ua#r$ua#s$ua#t$ua#u$ua#v$ua#x$ua#z$ua#{$ua$O$ua(a$ua(r$ua(y$ua(z$ua!]$ua!^$ua~On>^O!Q*OO'y*PO(y$}O(z%PO~OP%TaR%Ta[%Taj%Tar%Ta!S%Ta!l%Ta!p%Ta#R%Ta#n%Ta#o%Ta#p%Ta#q%Ta#r%Ta#s%Ta#t%Ta#u%Ta#v%Ta#x%Ta#z%Ta#{%Ta$O%Ta(a%Ta(r%Ta!]%Ta!^%Ta~P''VO$O$mq!]$mq!^$mq~P#BwO$O$oq!]$oq!^$oq~P#BwO!^9oO~O$O9pO~P!1WO!g#vO!]'ei!k'ei~O!g#vO(r'pO!]'ei!k'ei~O!]/pO!k)Oq~O!Y'gi!]'gi~P#/sO!]/yO!Y)Pq~Or9wO!g#vO(r'pO~O[9yO!Y9xO~P#/sO!Y9xO~Oj:PO!g#vO~Og(_y!](_y~P!1WO!]'na!_'na~P#/sOa%[q!_%[q'z%[q!]%[q~P#/sO[:UO~O!]1TO!^)Xq~O`:YO~O#`:ZO!]'pa!^'pa~O!]5uO!^)Ui~P#BwO!S:]O~O!_1oO%i:`O~O(VTO(YUO(e:eO~O!]1zO!^)Vq~O!k:hO~O!k:iO~O!k:jO~O!k:jO~P%[O#`:mO!]#hy!^#hy~O!]#hy!^#hy~P#BwO%i:rO~P&8fO!_'`O%i:rO~O$O#|y!]#|y!^#|y~P#BwOP$|iR$|i[$|ij$|ir$|i!S$|i!l$|i!p$|i#R$|i#n$|i#o$|i#p$|i#q$|i#r$|i#s$|i#t$|i#u$|i#v$|i#x$|i#z$|i#{$|i$O$|i(a$|i(r$|i!]$|i!^$|i~P''VO!Q*OO'y*PO(z%POP'iaR'ia['iaj'ian'iar'ia!S'ia!l'ia!p'ia#R'ia#n'ia#o'ia#p'ia#q'ia#r'ia#s'ia#t'ia#u'ia#v'ia#x'ia#z'ia#{'ia$O'ia(a'ia(r'ia(y'ia!]'ia!^'ia~O!Q*OO'y*POP'kaR'ka['kaj'kan'kar'ka!S'ka!l'ka!p'ka#R'ka#n'ka#o'ka#p'ka#q'ka#r'ka#s'ka#t'ka#u'ka#v'ka#x'ka#z'ka#{'ka$O'ka(a'ka(r'ka(y'ka(z'ka!]'ka!^'ka~O(y$}OP%aiR%ai[%aij%ain%air%ai!Q%ai!S%ai!l%ai!p%ai#R%ai#n%ai#o%ai#p%ai#q%ai#r%ai#s%ai#t%ai#u%ai#v%ai#x%ai#z%ai#{%ai$O%ai'y%ai(a%ai(r%ai(z%ai!]%ai!^%ai~O(z%POP%ciR%ci[%cij%cin%cir%ci!Q%ci!S%ci!l%ci!p%ci#R%ci#n%ci#o%ci#p%ci#q%ci#r%ci#s%ci#t%ci#u%ci#v%ci#x%ci#z%ci#{%ci$O%ci'y%ci(a%ci(r%ci(y%ci!]%ci!^%ci~O$O$oy!]$oy!^$oy~P#BwO$O#cy!]#cy!^#cy~P#BwO!g#vO!]'eq!k'eq~O!]/pO!k)Oy~O!Y'gq!]'gq~P#/sOr:|O!g#vO(r'pO~O[;QO!Y;PO~P#/sO!Y;PO~Og(_!R!](_!R~P!1WOa%[y!_%[y'z%[y!]%[y~P#/sO!]1TO!^)Xy~O!]5uO!^)Uq~O(T;XO~O!_1oO%i;[O~O!k;_O~O%i;dO~P&8fOP$|qR$|q[$|qj$|qr$|q!S$|q!l$|q!p$|q#R$|q#n$|q#o$|q#p$|q#q$|q#r$|q#s$|q#t$|q#u$|q#v$|q#x$|q#z$|q#{$|q$O$|q(a$|q(r$|q!]$|q!^$|q~P''VO!Q*OO'y*PO(z%POP'jaR'ja['jaj'jan'jar'ja!S'ja!l'ja!p'ja#R'ja#n'ja#o'ja#p'ja#q'ja#r'ja#s'ja#t'ja#u'ja#v'ja#x'ja#z'ja#{'ja$O'ja(a'ja(r'ja(y'ja!]'ja!^'ja~O!Q*OO'y*POP'laR'la['laj'lan'lar'la!S'la!l'la!p'la#R'la#n'la#o'la#p'la#q'la#r'la#s'la#t'la#u'la#v'la#x'la#z'la#{'la$O'la(a'la(r'la(y'la(z'la!]'la!^'la~OP%OqR%Oq[%Oqj%Oqr%Oq!S%Oq!l%Oq!p%Oq#R%Oq#n%Oq#o%Oq#p%Oq#q%Oq#r%Oq#s%Oq#t%Oq#u%Oq#v%Oq#x%Oq#z%Oq#{%Oq$O%Oq(a%Oq(r%Oq!]%Oq!^%Oq~P''VOg%e!Z!]%e!Z#`%e!Z$O%e!Z~P!1WO!Y;hO~P#/sOr;iO!g#vO(r'pO~O[;kO!Y;hO~P#/sO!]'pq!^'pq~P#BwO!]#h!Z!^#h!Z~P#BwO#k%e!ZP%e!ZR%e!Z[%e!Za%e!Zj%e!Zr%e!Z!S%e!Z!]%e!Z!l%e!Z!p%e!Z#R%e!Z#n%e!Z#o%e!Z#p%e!Z#q%e!Z#r%e!Z#s%e!Z#t%e!Z#u%e!Z#v%e!Z#x%e!Z#z%e!Z#{%e!Z'z%e!Z(a%e!Z(r%e!Z!k%e!Z!Y%e!Z'w%e!Z#`%e!Zv%e!Z!_%e!Z%i%e!Z!g%e!Z~P#/sOr;tO!g#vO(r'pO~O!Y;uO~P#/sOr;|O!g#vO(r'pO~O!Y;}O~P#/sOP%e!ZR%e!Z[%e!Zj%e!Zr%e!Z!S%e!Z!l%e!Z!p%e!Z#R%e!Z#n%e!Z#o%e!Z#p%e!Z#q%e!Z#r%e!Z#s%e!Z#t%e!Z#u%e!Z#v%e!Z#x%e!Z#z%e!Z#{%e!Z$O%e!Z(a%e!Z(r%e!Z!]%e!Z!^%e!Z~P''VOr<QO!g#vO(r'pO~Ov(fX~P1qO!Q%rO~P!)[O(U!lO~P!)[O!YfX!]fX#`fX~P%2OOP]XR]X[]Xj]Xr]X!Q]X!S]X!]]X!]fX!l]X!p]X#R]X#S]X#`]X#`fX#kfX#n]X#o]X#p]X#q]X#r]X#s]X#t]X#u]X#v]X#x]X#z]X#{]X$Q]X(a]X(r]X(y]X(z]X~O!gfX!k]X!kfX(rfX~P'LTOP<UOQ<UOSfOd>ROe!iOpkOr<UOskOtkOzkO|<UO!O<UO!SWO!WkO!XkO!_XO!i<XO!lZO!o<UO!p<UO!q<UO!s<YO!u<]O!x!hO$W!kO$n>PO(T)]O(VTO(YUO(aVO(o[O~O!]<iO!^$qa~Oh%VOp%WOr%XOs$tOt$tOz%YO|%ZO!O<tO!S${O!_$|O!i>WO!l$xO#j<zO$W%`O$t<vO$v<xO$y%aO(T(vO(VTO(YUO(a$uO(y$}O(z%PO~Ol)dO~P(!yOr!eX(r!eX~P#!iOr(jX(r(jX~P##[O!^]X!^fX~P'LTO!YfX!Y$zX!]fX!]$zX#`fX~P!0SO#k<^O~O!g#vO#k<^O~O#`<nO~Oj<bO~O#`=OO!](wX!^(wX~O#`<nO!](uX!^(uX~O#k=PO~Og=RO~P!1WO#k=XO~O#k=YO~Og=RO(T&ZO~O!g#vO#k=ZO~O!g#vO#k=PO~O$O=[O~P#BwO#k=]O~O#k=^O~O#k=cO~O#k=dO~O#k=eO~O#k=fO~O$O=gO~P!1WO$O=hO~P!1WOl=sO~P7eOk#S#T#U#W#X#[#i#j#u$n$t$v$y%]%^%h%i%j%q%s%v%w%y%{~(OT#o!X'|(U#ps#n#qr!Q'}$]'}(T$_(e~",
+			"()x~O'|OS'}OSTOS(ORQ~OPYOQYOSfOY!VOaqOdzOeyOl!POpkOrYOskOtkOzkO|YO!OYO!SWO!WkO!XkO!_XO!iuO!lZO!oYO!pYO!qYO!svO!uwO!xxO!|]O$W|O$niO%h}O%j!QO%l!OO%m!OO%n!OO%q!RO%s!SO%v!TO%w!TO%y!UO&W!WO&^!XO&`!YO&b!ZO&d![O&g!]O&m!^O&s!_O&u!`O&w!aO&y!bO&{!cO(TSO(VTO(YUO(aVO(o[O~OWtO~P`OPYOQYOSfOd!jOe!iOpkOrYOskOtkOzkO|YO!OYO!SWO!WkO!XkO!_!eO!iuO!lZO!oYO!pYO!qYO!svO!u!gO!x!hO$W!kO$niO(T!dO(VTO(YUO(aVO(o[O~Oa!wOs!nO!S!oO!b!yO!c!vO!d!vO!|<VO#T!pO#U!pO#V!xO#W!pO#X!pO#[!zO#]!zO(U!lO(VTO(YUO(e!mO(o!sO~O(O!{O~OP]XR]X[]Xa]Xj]Xr]X!Q]X!S]X!]]X!l]X!p]X#R]X#S]X#`]X#kfX#n]X#o]X#p]X#q]X#r]X#s]X#t]X#u]X#v]X#x]X#z]X#{]X$Q]X'z]X(a]X(r]X(y]X(z]X~O!g%RX~P(qO_!}O(V#PO(W!}O(X#PO~O_#QO(X#PO(Y#PO(Z#QO~Ox#SO!U#TO(b#TO(c#VO~OPYOQYOSfOd!jOe!iOpkOrYOskOtkOzkO|YO!OYO!SWO!WkO!XkO!_!eO!iuO!lZO!oYO!pYO!qYO!svO!u!gO!x!hO$W!kO$niO(T<ZO(VTO(YUO(aVO(o[O~O![#ZO!]#WO!Y(hP!Y(vP~P+}O!^#cO~P`OPYOQYOSfOd!jOe!iOrYOskOtkOzkO|YO!OYO!SWO!WkO!XkO!_!eO!iuO!lZO!oYO!pYO!qYO!svO!u!gO!x!hO$W!kO$niO(VTO(YUO(aVO(o[O~Op#mO![#iO!|]O#i#lO#j#iO(T<[O!k(sP~P.iO!l#oO(T#nO~O!x#sO!|]O%h#tO~O#k#uO~O!g#vO#k#uO~OP$[OR#zO[$cOj$ROr$aO!Q#yO!S#{O!]$_O!l#xO!p$[O#R$RO#n$OO#o$PO#p$PO#q$PO#r$QO#s$RO#t$RO#u$bO#v$SO#x$UO#z$WO#{$XO(aVO(r$YO(y#|O(z#}O~Oa(fX'z(fX'w(fX!k(fX!Y(fX!_(fX%i(fX!g(fX~P1qO#S$dO#`$eO$Q$eOP(gXR(gX[(gXj(gXr(gX!Q(gX!S(gX!](gX!l(gX!p(gX#R(gX#n(gX#o(gX#p(gX#q(gX#r(gX#s(gX#t(gX#u(gX#v(gX#x(gX#z(gX#{(gX(a(gX(r(gX(y(gX(z(gX!_(gX%i(gX~Oa(gX'z(gX'w(gX!Y(gX!k(gXv(gX!g(gX~P4UO#`$eO~O$]$hO$_$gO$f$mO~OSfO!_$nO$i$oO$k$qO~Oh%VOj%dOk%dOp%WOr%XOs$tOt$tOz%YO|%ZO!O%]O!S${O!_$|O!i%bO!l$xO#j%cO$W%`O$t%^O$v%_O$y%aO(T$sO(VTO(YUO(a$uO(y$}O(z%POg(^P~Ol%[O~P7eO!l%eO~O!S%hO!_%iO(T%gO~O!g%mO~Oa%nO'z%nO~O!Q%rO~P%[O(U!lO~P%[O%n%vO~P%[Oh%VO!l%eO(T%gO(U!lO~Oe%}O!l%eO(T%gO~Oj$RO~O!_&PO(T%gO(U!lO(VTO(YUO`)WP~O!Q&SO!l&RO%j&VO&T&WO~P;SO!x#sO~O%s&YO!S)SX!_)SX(T)SX~O(T&ZO~Ol!PO!u&`O%j!QO%l!OO%m!OO%n!OO%q!RO%s!SO%v!TO%w!TO~Od&eOe&dO!x&bO%h&cO%{&aO~P<bOd&hOeyOl!PO!_&gO!u&`O!xxO!|]O%h}O%l!OO%m!OO%n!OO%q!RO%s!SO%v!TO%w!TO%y!UO~Ob&kO#`&nO%j&iO(U!lO~P=gO!l&oO!u&sO~O!l#oO~O!_XO~Oa%nO'x&{O'z%nO~Oa%nO'x'OO'z%nO~Oa%nO'x'QO'z%nO~O'w]X!Y]Xv]X!k]X&[]X!_]X%i]X!g]X~P(qO!b'_O!c'WO!d'WO(U!lO(VTO(YUO~Os'UO!S'TO!['XO(e'SO!^(iP!^(xP~P@nOn'bO!_'`O(T%gO~Oe'gO!l%eO(T%gO~O!Q&SO!l&RO~Os!nO!S!oO!|<VO#T!pO#U!pO#W!pO#X!pO(U!lO(VTO(YUO(e!mO(o!sO~O!b'mO!c'lO!d'lO#V!pO#['nO#]'nO~PBYOa%nOh%VO!g#vO!l%eO'z%nO(r'pO~O!p'tO#`'rO~PChOs!nO!S!oO(VTO(YUO(e!mO(o!sO~O!_XOs(mX!S(mX!b(mX!c(mX!d(mX!|(mX#T(mX#U(mX#V(mX#W(mX#X(mX#[(mX#](mX(U(mX(V(mX(Y(mX(e(mX(o(mX~O!c'lO!d'lO(U!lO~PDWO(P'xO(Q'xO(R'zO~O_!}O(V'|O(W!}O(X'|O~O_#QO(X'|O(Y'|O(Z#QO~Ov(OO~P%[Ox#SO!U#TO(b#TO(c(RO~O![(TO!Y'WX!Y'^X!]'WX!]'^X~P+}O!](VO!Y(hX~OP$[OR#zO[$cOj$ROr$aO!Q#yO!S#{O!](VO!l#xO!p$[O#R$RO#n$OO#o$PO#p$PO#q$PO#r$QO#s$RO#t$RO#u$bO#v$SO#x$UO#z$WO#{$XO(aVO(r$YO(y#|O(z#}O~O!Y(hX~PHRO!Y([O~O!Y(uX!](uX!g(uX!k(uX(r(uX~O#`(uX#k#dX!^(uX~PJUO#`(]O!Y(wX!](wX~O!](^O!Y(vX~O!Y(aO~O#`$eO~PJUO!^(bO~P`OR#zO!Q#yO!S#{O!l#xO(aVOP!na[!naj!nar!na!]!na!p!na#R!na#n!na#o!na#p!na#q!na#r!na#s!na#t!na#u!na#v!na#x!na#z!na#{!na(r!na(y!na(z!na~Oa!na'z!na'w!na!Y!na!k!nav!na!_!na%i!na!g!na~PKlO!k(cO~O!g#vO#`(dO(r'pO!](tXa(tX'z(tX~O!k(tX~PNXO!S%hO!_%iO!|]O#i(iO#j(hO(T%gO~O!](jO!k(sX~O!k(lO~O!S%hO!_%iO#j(hO(T%gO~OP(gXR(gX[(gXj(gXr(gX!Q(gX!S(gX!](gX!l(gX!p(gX#R(gX#n(gX#o(gX#p(gX#q(gX#r(gX#s(gX#t(gX#u(gX#v(gX#x(gX#z(gX#{(gX(a(gX(r(gX(y(gX(z(gX~O!g#vO!k(gX~P! uOR(nO!Q(mO!l#xO#S$dO!|!{a!S!{a~O!x!{a%h!{a!_!{a#i!{a#j!{a(T!{a~P!#vO!x(rO~OPYOQYOSfOd!jOe!iOpkOrYOskOtkOzkO|YO!OYO!SWO!WkO!XkO!_XO!iuO!lZO!oYO!pYO!qYO!svO!u!gO!x!hO$W!kO$niO(T!dO(VTO(YUO(aVO(o[O~Oh%VOp%WOr%XOs$tOt$tOz%YO|%ZO!O<sO!S${O!_$|O!i>VO!l$xO#j<yO$W%`O$t<uO$v<wO$y%aO(T(vO(VTO(YUO(a$uO(y$}O(z%PO~O#k(xO~O![(zO!k(kP~P%[O(e(|O(o[O~O!S)OO!l#xO(e(|O(o[O~OP<UOQ<UOSfOd>ROe!iOpkOr<UOskOtkOzkO|<UO!O<UO!SWO!WkO!XkO!_!eO!i<XO!lZO!o<UO!p<UO!q<UO!s<YO!u<]O!x!hO$W!kO$n>PO(T)]O(VTO(YUO(aVO(o[O~O!]$_Oa$qa'z$qa'w$qa!k$qa!Y$qa!_$qa%i$qa!g$qa~Ol)dO~P!&zOh%VOp%WOr%XOs$tOt$tOz%YO|%ZO!O%]O!S${O!_$|O!i%bO!l$xO#j%cO$W%`O$t%^O$v%_O$y%aO(T(vO(VTO(YUO(a$uO(y$}O(z%PO~Og(pP~P!,TO!Q)iO!g)hO!_$^X$Z$^X$]$^X$_$^X$f$^X~O!g)hO!_({X$Z({X$]({X$_({X$f({X~O!Q)iO~P!.^O!Q)iO!_({X$Z({X$]({X$_({X$f({X~O!_)kO$Z)oO$])jO$_)jO$f)pO~O![)sO~P!)[O$]$hO$_$gO$f)wO~On$zX!Q$zX#S$zX'y$zX(y$zX(z$zX~OgmXg$zXnmX!]mX#`mX~P!0SOx)yO(b)zO(c)|O~On*VO!Q*OO'y*PO(y$}O(z%PO~Og)}O~P!1WOg*WO~Oh%VOr%XOs$tOt$tOz%YO|%ZO!O<sO!S*YO!_*ZO!i>VO!l$xO#j<yO$W%`O$t<uO$v<wO$y%aO(VTO(YUO(a$uO(y$}O(z%PO~Op*`O![*^O(T*XO!k)OP~P!1uO#k*aO~O!l*bO~Oh%VOp%WOr%XOs$tOt$tOz%YO|%ZO!O<sO!S${O!_$|O!i>VO!l$xO#j<yO$W%`O$t<uO$v<wO$y%aO(T*dO(VTO(YUO(a$uO(y$}O(z%PO~O![*gO!Y)PP~P!3tOr*sOs!nO!S*iO!b*qO!c*kO!d*kO!l*bO#[*rO%`*mO(U!lO(VTO(YUO(e!mO~O!^*pO~P!5iO#S$dOn(`X!Q(`X'y(`X(y(`X(z(`X!](`X#`(`X~Og(`X$O(`X~P!6kOn*xO#`*wOg(_X!](_X~O!]*yOg(^X~Oj%dOk%dOl%dO(T&ZOg(^P~Os*|O~Og)}O(T&ZO~O!l+SO~O(T(vO~Op+WO!S%hO![#iO!_%iO!|]O#i#lO#j#iO(T%gO!k(sP~O!g#vO#k+XO~O!S%hO![+ZO!](^O!_%iO(T%gO!Y(vP~Os'[O!S+]O![+[O(VTO(YUO(e(|O~O!^(xP~P!9|O!]+^Oa)TX'z)TX~OP$[OR#zO[$cOj$ROr$aO!Q#yO!S#{O!l#xO!p$[O#R$RO#n$OO#o$PO#p$PO#q$PO#r$QO#s$RO#t$RO#u$bO#v$SO#x$UO#z$WO#{$XO(aVO(r$YO(y#|O(z#}O~Oa!ja!]!ja'z!ja'w!ja!Y!ja!k!jav!ja!_!ja%i!ja!g!ja~P!:tOR#zO!Q#yO!S#{O!l#xO(aVOP!ra[!raj!rar!ra!]!ra!p!ra#R!ra#n!ra#o!ra#p!ra#q!ra#r!ra#s!ra#t!ra#u!ra#v!ra#x!ra#z!ra#{!ra(r!ra(y!ra(z!ra~Oa!ra'z!ra'w!ra!Y!ra!k!rav!ra!_!ra%i!ra!g!ra~P!=[OR#zO!Q#yO!S#{O!l#xO(aVOP!ta[!taj!tar!ta!]!ta!p!ta#R!ta#n!ta#o!ta#p!ta#q!ta#r!ta#s!ta#t!ta#u!ta#v!ta#x!ta#z!ta#{!ta(r!ta(y!ta(z!ta~Oa!ta'z!ta'w!ta!Y!ta!k!tav!ta!_!ta%i!ta!g!ta~P!?rOh%VOn+gO!_'`O%i+fO~O!g+iOa(]X!_(]X'z(]X!](]X~Oa%nO!_XO'z%nO~Oh%VO!l%eO~Oh%VO!l%eO(T%gO~O!g#vO#k(xO~Ob+tO%j+uO(T+qO(VTO(YUO!^)XP~O!]+vO`)WX~O[+zO~O`+{O~O!_&PO(T%gO(U!lO`)WP~O%j,OO~P;SOh%VO#`,SO~Oh%VOn,VO!_$|O~O!_,XO~O!Q,ZO!_XO~O%n%vO~O!x,`O~Oe,eO~Ob,fO(T#nO(VTO(YUO!^)VP~Oe%}O~O%j!QO(T&ZO~P=gO[,kO`,jO~OPYOQYOSfOdzOeyOpkOrYOskOtkOzkO|YO!OYO!SWO!WkO!XkO!iuO!lZO!oYO!pYO!qYO!svO!xxO!|]O$niO%h}O(VTO(YUO(aVO(o[O~O!_!eO!u!gO$W!kO(T!dO~P!FyO`,jOa%nO'z%nO~OPYOQYOSfOd!jOe!iOpkOrYOskOtkOzkO|YO!OYO!SWO!WkO!XkO!_!eO!iuO!lZO!oYO!pYO!qYO!svO!x!hO$W!kO$niO(T!dO(VTO(YUO(aVO(o[O~Oa,pOl!OO!uwO%l!OO%m!OO%n!OO~P!IcO!l&oO~O&^,vO~O!_,xO~O&o,zO&q,{OP&laQ&laS&laY&laa&lad&lae&lal&lap&lar&las&lat&laz&la|&la!O&la!S&la!W&la!X&la!_&la!i&la!l&la!o&la!p&la!q&la!s&la!u&la!x&la!|&la$W&la$n&la%h&la%j&la%l&la%m&la%n&la%q&la%s&la%v&la%w&la%y&la&W&la&^&la&`&la&b&la&d&la&g&la&m&la&s&la&u&la&w&la&y&la&{&la'w&la(T&la(V&la(Y&la(a&la(o&la!^&la&e&lab&la&j&la~O(T-QO~Oh!eX!]!RX!^!RX!g!RX!g!eX!l!eX#`!RX~O!]!eX!^!eX~P#!iO!g-VO#`-UOh(jX!]#hX!^#hX!g(jX!l(jX~O!](jX!^(jX~P##[Oh%VO!g-XO!l%eO!]!aX!^!aX~Os!nO!S!oO(VTO(YUO(e!mO~OP<UOQ<UOSfOd>ROe!iOpkOr<UOskOtkOzkO|<UO!O<UO!SWO!WkO!XkO!_!eO!i<XO!lZO!o<UO!p<UO!q<UO!s<YO!u<]O!x!hO$W!kO$n>PO(VTO(YUO(aVO(o[O~O(T=QO~P#$qO!]-]O!^(iX~O!^-_O~O!g-VO#`-UO!]#hX!^#hX~O!]-`O!^(xX~O!^-bO~O!c-cO!d-cO(U!lO~P#$`O!^-fO~P'_On-iO!_'`O~O!Y-nO~Os!{a!b!{a!c!{a!d!{a#T!{a#U!{a#V!{a#W!{a#X!{a#[!{a#]!{a(U!{a(V!{a(Y!{a(e!{a(o!{a~P!#vO!p-sO#`-qO~PChO!c-uO!d-uO(U!lO~PDWOa%nO#`-qO'z%nO~Oa%nO!g#vO#`-qO'z%nO~Oa%nO!g#vO!p-sO#`-qO'z%nO(r'pO~O(P'xO(Q'xO(R-zO~Ov-{O~O!Y'Wa!]'Wa~P!:tO![.PO!Y'WX!]'WX~P%[O!](VO!Y(ha~O!Y(ha~PHRO!](^O!Y(va~O!S%hO![.TO!_%iO(T%gO!Y'^X!]'^X~O#`.VO!](ta!k(taa(ta'z(ta~O!g#vO~P#,wO!](jO!k(sa~O!S%hO!_%iO#j.ZO(T%gO~Op.`O!S%hO![.]O!_%iO!|]O#i._O#j.]O(T%gO!]'aX!k'aX~OR.dO!l#xO~Oh%VOn.gO!_'`O%i.fO~Oa#ci!]#ci'z#ci'w#ci!Y#ci!k#civ#ci!_#ci%i#ci!g#ci~P!:tOn>]O!Q*OO'y*PO(y$}O(z%PO~O#k#_aa#_a#`#_a'z#_a!]#_a!k#_a!_#_a!Y#_a~P#/sO#k(`XP(`XR(`X[(`Xa(`Xj(`Xr(`X!S(`X!l(`X!p(`X#R(`X#n(`X#o(`X#p(`X#q(`X#r(`X#s(`X#t(`X#u(`X#v(`X#x(`X#z(`X#{(`X'z(`X(a(`X(r(`X!k(`X!Y(`X'w(`Xv(`X!_(`X%i(`X!g(`X~P!6kO!].tO!k(kX~P!:tO!k.wO~O!Y.yO~OP$[OR#zO!Q#yO!S#{O!l#xO!p$[O(aVO[#mia#mij#mir#mi!]#mi#R#mi#o#mi#p#mi#q#mi#r#mi#s#mi#t#mi#u#mi#v#mi#x#mi#z#mi#{#mi'z#mi(r#mi(y#mi(z#mi'w#mi!Y#mi!k#miv#mi!_#mi%i#mi!g#mi~O#n#mi~P#3cO#n$OO~P#3cOP$[OR#zOr$aO!Q#yO!S#{O!l#xO!p$[O#n$OO#o$PO#p$PO#q$PO(aVO[#mia#mij#mi!]#mi#R#mi#s#mi#t#mi#u#mi#v#mi#x#mi#z#mi#{#mi'z#mi(r#mi(y#mi(z#mi'w#mi!Y#mi!k#miv#mi!_#mi%i#mi!g#mi~O#r#mi~P#6QO#r$QO~P#6QOP$[OR#zO[$cOj$ROr$aO!Q#yO!S#{O!l#xO!p$[O#R$RO#n$OO#o$PO#p$PO#q$PO#r$QO#s$RO#t$RO#u$bO(aVOa#mi!]#mi#x#mi#z#mi#{#mi'z#mi(r#mi(y#mi(z#mi'w#mi!Y#mi!k#miv#mi!_#mi%i#mi!g#mi~O#v#mi~P#8oOP$[OR#zO[$cOj$ROr$aO!Q#yO!S#{O!l#xO!p$[O#R$RO#n$OO#o$PO#p$PO#q$PO#r$QO#s$RO#t$RO#u$bO#v$SO(aVO(z#}Oa#mi!]#mi#z#mi#{#mi'z#mi(r#mi(y#mi'w#mi!Y#mi!k#miv#mi!_#mi%i#mi!g#mi~O#x$UO~P#;VO#x#mi~P#;VO#v$SO~P#8oOP$[OR#zO[$cOj$ROr$aO!Q#yO!S#{O!l#xO!p$[O#R$RO#n$OO#o$PO#p$PO#q$PO#r$QO#s$RO#t$RO#u$bO#v$SO#x$UO(aVO(y#|O(z#}Oa#mi!]#mi#{#mi'z#mi(r#mi'w#mi!Y#mi!k#miv#mi!_#mi%i#mi!g#mi~O#z#mi~P#={O#z$WO~P#={OP]XR]X[]Xj]Xr]X!Q]X!S]X!l]X!p]X#R]X#S]X#`]X#kfX#n]X#o]X#p]X#q]X#r]X#s]X#t]X#u]X#v]X#x]X#z]X#{]X$Q]X(a]X(r]X(y]X(z]X!]]X!^]X~O$O]X~P#@jOP$[OR#zO[<mOj<bOr<kO!Q#yO!S#{O!l#xO!p$[O#R<bO#n<_O#o<`O#p<`O#q<`O#r<aO#s<bO#t<bO#u<lO#v<cO#x<eO#z<gO#{<hO(aVO(r$YO(y#|O(z#}O~O$O.{O~P#BwO#S$dO#`<nO$Q<nO$O(gX!^(gX~P! uOa'da!]'da'z'da'w'da!k'da!Y'dav'da!_'da%i'da!g'da~P!:tO[#mia#mij#mir#mi!]#mi#R#mi#r#mi#s#mi#t#mi#u#mi#v#mi#x#mi#z#mi#{#mi'z#mi(r#mi'w#mi!Y#mi!k#miv#mi!_#mi%i#mi!g#mi~OP$[OR#zO!Q#yO!S#{O!l#xO!p$[O#n$OO#o$PO#p$PO#q$PO(aVO(y#mi(z#mi~P#EyOn>]O!Q*OO'y*PO(y$}O(z%POP#miR#mi!S#mi!l#mi!p#mi#n#mi#o#mi#p#mi#q#mi(a#mi~P#EyO!]/POg(pX~P!1WOg/RO~Oa$Pi!]$Pi'z$Pi'w$Pi!Y$Pi!k$Piv$Pi!_$Pi%i$Pi!g$Pi~P!:tO$]/SO$_/SO~O$]/TO$_/TO~O!g)hO#`/UO!_$cX$Z$cX$]$cX$_$cX$f$cX~O![/VO~O!_)kO$Z/XO$])jO$_)jO$f/YO~O!]<iO!^(fX~P#BwO!^/ZO~O!g)hO$f({X~O$f/]O~Ov/^O~P!&zOx)yO(b)zO(c/aO~O!S/dO~O(y$}On%aa!Q%aa'y%aa(z%aa!]%aa#`%aa~Og%aa$O%aa~P#L{O(z%POn%ca!Q%ca'y%ca(y%ca!]%ca#`%ca~Og%ca$O%ca~P#MnO!]fX!gfX!kfX!k$zX(rfX~P!0SOp%WO![/mO!](^O(T/lO!Y(vP!Y)PP~P!1uOr*sO!b*qO!c*kO!d*kO!l*bO#[*rO%`*mO(U!lO(VTO(YUO~Os<}O!S/nO![+[O!^*pO(e<|O!^(xP~P$ [O!k/oO~P#/sO!]/pO!g#vO(r'pO!k)OX~O!k/uO~OnoX!QoX'yoX(yoX(zoX~O!g#vO!koX~P$#OOp/wO!S%hO![*^O!_%iO(T%gO!k)OP~O#k/xO~O!Y$zX!]$zX!g%RX~P!0SO!]/yO!Y)PX~P#/sO!g/{O~O!Y/}O~OpkO(T0OO~P.iOh%VOr0TO!g#vO!l%eO(r'pO~O!g+iO~Oa%nO!]0XO'z%nO~O!^0ZO~P!5iO!c0[O!d0[O(U!lO~P#$`Os!nO!S0]O(VTO(YUO(e!mO~O#[0_O~Og%aa!]%aa#`%aa$O%aa~P!1WOg%ca!]%ca#`%ca$O%ca~P!1WOj%dOk%dOl%dO(T&ZOg'mX!]'mX~O!]*yOg(^a~Og0hO~On0jO#`0iOg(_a!](_a~OR0kO!Q0kO!S0lO#S$dOn}a'y}a(y}a(z}a!]}a#`}a~Og}a$O}a~P$(cO!Q*OO'y*POn$sa(y$sa(z$sa!]$sa#`$sa~Og$sa$O$sa~P$)_O!Q*OO'y*POn$ua(y$ua(z$ua!]$ua#`$ua~Og$ua$O$ua~P$*QO#k0oO~Og%Ta!]%Ta#`%Ta$O%Ta~P!1WO!g#vO~O#k0rO~O!]+^Oa)Ta'z)Ta~OR#zO!Q#yO!S#{O!l#xO(aVOP!ri[!rij!rir!ri!]!ri!p!ri#R!ri#n!ri#o!ri#p!ri#q!ri#r!ri#s!ri#t!ri#u!ri#v!ri#x!ri#z!ri#{!ri(r!ri(y!ri(z!ri~Oa!ri'z!ri'w!ri!Y!ri!k!riv!ri!_!ri%i!ri!g!ri~P$+oOh%VOr%XOs$tOt$tOz%YO|%ZO!O<sO!S${O!_$|O!i>VO!l$xO#j<yO$W%`O$t<uO$v<wO$y%aO(VTO(YUO(a$uO(y$}O(z%PO~Op0{O%]0|O(T0zO~P$.VO!g+iOa(]a!_(]a'z(]a!](]a~O#k1SO~O[]X!]fX!^fX~O!]1TO!^)XX~O!^1VO~O[1WO~Ob1YO(T+qO(VTO(YUO~O!_&PO(T%gO`'uX!]'uX~O!]+vO`)Wa~O!k1]O~P!:tO[1`O~O`1aO~O#`1fO~On1iO!_$|O~O(e(|O!^)UP~Oh%VOn1rO!_1oO%i1qO~O[1|O!]1zO!^)VX~O!^1}O~O`2POa%nO'z%nO~O(T#nO(VTO(YUO~O#S$dO#`$eO$Q$eOP(gXR(gX[(gXr(gX!Q(gX!S(gX!](gX!l(gX!p(gX#R(gX#n(gX#o(gX#p(gX#q(gX#r(gX#s(gX#t(gX#u(gX#v(gX#x(gX#z(gX#{(gX(a(gX(r(gX(y(gX(z(gX~Oj2SO&[2TOa(gX~P$3pOj2SO#`$eO&[2TO~Oa2VO~P%[Oa2XO~O&e2[OP&ciQ&ciS&ciY&cia&cid&cie&cil&cip&cir&cis&cit&ciz&ci|&ci!O&ci!S&ci!W&ci!X&ci!_&ci!i&ci!l&ci!o&ci!p&ci!q&ci!s&ci!u&ci!x&ci!|&ci$W&ci$n&ci%h&ci%j&ci%l&ci%m&ci%n&ci%q&ci%s&ci%v&ci%w&ci%y&ci&W&ci&^&ci&`&ci&b&ci&d&ci&g&ci&m&ci&s&ci&u&ci&w&ci&y&ci&{&ci'w&ci(T&ci(V&ci(Y&ci(a&ci(o&ci!^&cib&ci&j&ci~Ob2bO!^2`O&j2aO~P`O!_XO!l2dO~O&q,{OP&liQ&liS&liY&lia&lid&lie&lil&lip&lir&lis&lit&liz&li|&li!O&li!S&li!W&li!X&li!_&li!i&li!l&li!o&li!p&li!q&li!s&li!u&li!x&li!|&li$W&li$n&li%h&li%j&li%l&li%m&li%n&li%q&li%s&li%v&li%w&li%y&li&W&li&^&li&`&li&b&li&d&li&g&li&m&li&s&li&u&li&w&li&y&li&{&li'w&li(T&li(V&li(Y&li(a&li(o&li!^&li&e&lib&li&j&li~O!Y2jO~O!]!aa!^!aa~P#BwOs!nO!S!oO![2pO(e!mO!]'XX!^'XX~P@nO!]-]O!^(ia~O!]'_X!^'_X~P!9|O!]-`O!^(xa~O!^2wO~P'_Oa%nO#`3QO'z%nO~Oa%nO!g#vO#`3QO'z%nO~Oa%nO!g#vO!p3UO#`3QO'z%nO(r'pO~Oa%nO'z%nO~P!:tO!]$_Ov$qa~O!Y'Wi!]'Wi~P!:tO!](VO!Y(hi~O!](^O!Y(vi~O!Y(wi!](wi~P!:tO!](ti!k(tia(ti'z(ti~P!:tO#`3WO!](ti!k(tia(ti'z(ti~O!](jO!k(si~O!S%hO!_%iO!|]O#i3]O#j3[O(T%gO~O!S%hO!_%iO#j3[O(T%gO~On3dO!_'`O%i3cO~Oh%VOn3dO!_'`O%i3cO~O#k%aaP%aaR%aa[%aaa%aaj%aar%aa!S%aa!l%aa!p%aa#R%aa#n%aa#o%aa#p%aa#q%aa#r%aa#s%aa#t%aa#u%aa#v%aa#x%aa#z%aa#{%aa'z%aa(a%aa(r%aa!k%aa!Y%aa'w%aav%aa!_%aa%i%aa!g%aa~P#L{O#k%caP%caR%ca[%caa%caj%car%ca!S%ca!l%ca!p%ca#R%ca#n%ca#o%ca#p%ca#q%ca#r%ca#s%ca#t%ca#u%ca#v%ca#x%ca#z%ca#{%ca'z%ca(a%ca(r%ca!k%ca!Y%ca'w%cav%ca!_%ca%i%ca!g%ca~P#MnO#k%aaP%aaR%aa[%aaa%aaj%aar%aa!S%aa!]%aa!l%aa!p%aa#R%aa#n%aa#o%aa#p%aa#q%aa#r%aa#s%aa#t%aa#u%aa#v%aa#x%aa#z%aa#{%aa'z%aa(a%aa(r%aa!k%aa!Y%aa'w%aa#`%aav%aa!_%aa%i%aa!g%aa~P#/sO#k%caP%caR%ca[%caa%caj%car%ca!S%ca!]%ca!l%ca!p%ca#R%ca#n%ca#o%ca#p%ca#q%ca#r%ca#s%ca#t%ca#u%ca#v%ca#x%ca#z%ca#{%ca'z%ca(a%ca(r%ca!k%ca!Y%ca'w%ca#`%cav%ca!_%ca%i%ca!g%ca~P#/sO#k}aP}a[}aa}aj}ar}a!l}a!p}a#R}a#n}a#o}a#p}a#q}a#r}a#s}a#t}a#u}a#v}a#x}a#z}a#{}a'z}a(a}a(r}a!k}a!Y}a'w}av}a!_}a%i}a!g}a~P$(cO#k$saP$saR$sa[$saa$saj$sar$sa!S$sa!l$sa!p$sa#R$sa#n$sa#o$sa#p$sa#q$sa#r$sa#s$sa#t$sa#u$sa#v$sa#x$sa#z$sa#{$sa'z$sa(a$sa(r$sa!k$sa!Y$sa'w$sav$sa!_$sa%i$sa!g$sa~P$)_O#k$uaP$uaR$ua[$uaa$uaj$uar$ua!S$ua!l$ua!p$ua#R$ua#n$ua#o$ua#p$ua#q$ua#r$ua#s$ua#t$ua#u$ua#v$ua#x$ua#z$ua#{$ua'z$ua(a$ua(r$ua!k$ua!Y$ua'w$uav$ua!_$ua%i$ua!g$ua~P$*QO#k%TaP%TaR%Ta[%Taa%Taj%Tar%Ta!S%Ta!]%Ta!l%Ta!p%Ta#R%Ta#n%Ta#o%Ta#p%Ta#q%Ta#r%Ta#s%Ta#t%Ta#u%Ta#v%Ta#x%Ta#z%Ta#{%Ta'z%Ta(a%Ta(r%Ta!k%Ta!Y%Ta'w%Ta#`%Tav%Ta!_%Ta%i%Ta!g%Ta~P#/sOa#cq!]#cq'z#cq'w#cq!Y#cq!k#cqv#cq!_#cq%i#cq!g#cq~P!:tO![3lO!]'YX!k'YX~P%[O!].tO!k(ka~O!].tO!k(ka~P!:tO!Y3oO~O$O!na!^!na~PKlO$O!ja!]!ja!^!ja~P#BwO$O!ra!^!ra~P!=[O$O!ta!^!ta~P!?rOg']X!]']X~P!,TO!]/POg(pa~OSfO!_4TO$d4UO~O!^4YO~Ov4ZO~P#/sOa$mq!]$mq'z$mq'w$mq!Y$mq!k$mqv$mq!_$mq%i$mq!g$mq~P!:tO!Y4]O~P!&zO!S4^O~O!Q*OO'y*PO(z%POn'ia(y'ia!]'ia#`'ia~Og'ia$O'ia~P%-fO!Q*OO'y*POn'ka(y'ka(z'ka!]'ka#`'ka~Og'ka$O'ka~P%.XO(r$YO~P#/sO!YfX!Y$zX!]fX!]$zX!g%RX#`fX~P!0SOp%WO(T=WO~P!1uOp4bO!S%hO![4aO!_%iO(T%gO!]'eX!k'eX~O!]/pO!k)Oa~O!]/pO!g#vO!k)Oa~O!]/pO!g#vO(r'pO!k)Oa~Og$|i!]$|i#`$|i$O$|i~P!1WO![4jO!Y'gX!]'gX~P!3tO!]/yO!Y)Pa~O!]/yO!Y)Pa~P#/sOP]XR]X[]Xj]Xr]X!Q]X!S]X!Y]X!]]X!l]X!p]X#R]X#S]X#`]X#kfX#n]X#o]X#p]X#q]X#r]X#s]X#t]X#u]X#v]X#x]X#z]X#{]X$Q]X(a]X(r]X(y]X(z]X~Oj%YX!g%YX~P%2OOj4oO!g#vO~Oh%VO!g#vO!l%eO~Oh%VOr4tO!l%eO(r'pO~Or4yO!g#vO(r'pO~Os!nO!S4zO(VTO(YUO(e!mO~O(y$}On%ai!Q%ai'y%ai(z%ai!]%ai#`%ai~Og%ai$O%ai~P%5oO(z%POn%ci!Q%ci'y%ci(y%ci!]%ci#`%ci~Og%ci$O%ci~P%6bOg(_i!](_i~P!1WO#`5QOg(_i!](_i~P!1WO!k5VO~Oa$oq!]$oq'z$oq'w$oq!Y$oq!k$oqv$oq!_$oq%i$oq!g$oq~P!:tO!Y5ZO~O!]5[O!_)QX~P#/sOa$zX!_$zX%^]X'z$zX!]$zX~P!0SO%^5_OaoX!_oX'zoX!]oX~P$#OOp5`O(T#nO~O%^5_O~Ob5fO%j5gO(T+qO(VTO(YUO!]'tX!^'tX~O!]1TO!^)Xa~O[5kO~O`5lO~O[5pO~Oa%nO'z%nO~P#/sO!]5uO#`5wO!^)UX~O!^5xO~Or6OOs!nO!S*iO!b!yO!c!vO!d!vO!|<VO#T!pO#U!pO#V!pO#W!pO#X!pO#[5}O#]!zO(U!lO(VTO(YUO(e!mO(o!sO~O!^5|O~P%;eOn6TO!_1oO%i6SO~Oh%VOn6TO!_1oO%i6SO~Ob6[O(T#nO(VTO(YUO!]'sX!^'sX~O!]1zO!^)Va~O(VTO(YUO(e6^O~O`6bO~Oj6eO&[6fO~PNXO!k6gO~P%[Oa6iO~Oa6iO~P%[Ob2bO!^6nO&j2aO~P`O!g6pO~O!g6rOh(ji!](ji!^(ji!g(ji!l(jir(ji(r(ji~O!]#hi!^#hi~P#BwO#`6sO!]#hi!^#hi~O!]!ai!^!ai~P#BwOa%nO#`6|O'z%nO~Oa%nO!g#vO#`6|O'z%nO~O!](tq!k(tqa(tq'z(tq~P!:tO!](jO!k(sq~O!S%hO!_%iO#j7TO(T%gO~O!_'`O%i7WO~On7[O!_'`O%i7WO~O#k'iaP'iaR'ia['iaa'iaj'iar'ia!S'ia!l'ia!p'ia#R'ia#n'ia#o'ia#p'ia#q'ia#r'ia#s'ia#t'ia#u'ia#v'ia#x'ia#z'ia#{'ia'z'ia(a'ia(r'ia!k'ia!Y'ia'w'iav'ia!_'ia%i'ia!g'ia~P%-fO#k'kaP'kaR'ka['kaa'kaj'kar'ka!S'ka!l'ka!p'ka#R'ka#n'ka#o'ka#p'ka#q'ka#r'ka#s'ka#t'ka#u'ka#v'ka#x'ka#z'ka#{'ka'z'ka(a'ka(r'ka!k'ka!Y'ka'w'kav'ka!_'ka%i'ka!g'ka~P%.XO#k$|iP$|iR$|i[$|ia$|ij$|ir$|i!S$|i!]$|i!l$|i!p$|i#R$|i#n$|i#o$|i#p$|i#q$|i#r$|i#s$|i#t$|i#u$|i#v$|i#x$|i#z$|i#{$|i'z$|i(a$|i(r$|i!k$|i!Y$|i'w$|i#`$|iv$|i!_$|i%i$|i!g$|i~P#/sO#k%aiP%aiR%ai[%aia%aij%air%ai!S%ai!l%ai!p%ai#R%ai#n%ai#o%ai#p%ai#q%ai#r%ai#s%ai#t%ai#u%ai#v%ai#x%ai#z%ai#{%ai'z%ai(a%ai(r%ai!k%ai!Y%ai'w%aiv%ai!_%ai%i%ai!g%ai~P%5oO#k%ciP%ciR%ci[%cia%cij%cir%ci!S%ci!l%ci!p%ci#R%ci#n%ci#o%ci#p%ci#q%ci#r%ci#s%ci#t%ci#u%ci#v%ci#x%ci#z%ci#{%ci'z%ci(a%ci(r%ci!k%ci!Y%ci'w%civ%ci!_%ci%i%ci!g%ci~P%6bO!]'Ya!k'Ya~P!:tO!].tO!k(ki~O$O#ci!]#ci!^#ci~P#BwOP$[OR#zO!Q#yO!S#{O!l#xO!p$[O(aVO[#mij#mir#mi#R#mi#o#mi#p#mi#q#mi#r#mi#s#mi#t#mi#u#mi#v#mi#x#mi#z#mi#{#mi$O#mi(r#mi(y#mi(z#mi!]#mi!^#mi~O#n#mi~P%NdO#n<_O~P%NdOP$[OR#zOr<kO!Q#yO!S#{O!l#xO!p$[O#n<_O#o<`O#p<`O#q<`O(aVO[#mij#mi#R#mi#s#mi#t#mi#u#mi#v#mi#x#mi#z#mi#{#mi$O#mi(r#mi(y#mi(z#mi!]#mi!^#mi~O#r#mi~P&!lO#r<aO~P&!lOP$[OR#zO[<mOj<bOr<kO!Q#yO!S#{O!l#xO!p$[O#R<bO#n<_O#o<`O#p<`O#q<`O#r<aO#s<bO#t<bO#u<lO(aVO#x#mi#z#mi#{#mi$O#mi(r#mi(y#mi(z#mi!]#mi!^#mi~O#v#mi~P&$tOP$[OR#zO[<mOj<bOr<kO!Q#yO!S#{O!l#xO!p$[O#R<bO#n<_O#o<`O#p<`O#q<`O#r<aO#s<bO#t<bO#u<lO#v<cO(aVO(z#}O#z#mi#{#mi$O#mi(r#mi(y#mi!]#mi!^#mi~O#x<eO~P&&uO#x#mi~P&&uO#v<cO~P&$tOP$[OR#zO[<mOj<bOr<kO!Q#yO!S#{O!l#xO!p$[O#R<bO#n<_O#o<`O#p<`O#q<`O#r<aO#s<bO#t<bO#u<lO#v<cO#x<eO(aVO(y#|O(z#}O#{#mi$O#mi(r#mi!]#mi!^#mi~O#z#mi~P&)UO#z<gO~P&)UOa#|y!]#|y'z#|y'w#|y!Y#|y!k#|yv#|y!_#|y%i#|y!g#|y~P!:tO[#mij#mir#mi#R#mi#r#mi#s#mi#t#mi#u#mi#v#mi#x#mi#z#mi#{#mi$O#mi(r#mi!]#mi!^#mi~OP$[OR#zO!Q#yO!S#{O!l#xO!p$[O#n<_O#o<`O#p<`O#q<`O(aVO(y#mi(z#mi~P&,QOn>^O!Q*OO'y*PO(y$}O(z%POP#miR#mi!S#mi!l#mi!p#mi#n#mi#o#mi#p#mi#q#mi(a#mi~P&,QO#S$dOP(`XR(`X[(`Xj(`Xn(`Xr(`X!Q(`X!S(`X!l(`X!p(`X#R(`X#n(`X#o(`X#p(`X#q(`X#r(`X#s(`X#t(`X#u(`X#v(`X#x(`X#z(`X#{(`X$O(`X'y(`X(a(`X(r(`X(y(`X(z(`X!](`X!^(`X~O$O$Pi!]$Pi!^$Pi~P#BwO$O!ri!^!ri~P$+oOg']a!]']a~P!1WO!^7nO~O!]'da!^'da~P#BwO!Y7oO~P#/sO!g#vO(r'pO!]'ea!k'ea~O!]/pO!k)Oi~O!]/pO!g#vO!k)Oi~Og$|q!]$|q#`$|q$O$|q~P!1WO!Y'ga!]'ga~P#/sO!g7vO~O!]/yO!Y)Pi~P#/sO!]/yO!Y)Pi~O!Y7yO~Oh%VOr8OO!l%eO(r'pO~Oj8QO!g#vO~Or8TO!g#vO(r'pO~O!Q*OO'y*PO(z%POn'ja(y'ja!]'ja#`'ja~Og'ja$O'ja~P&5RO!Q*OO'y*POn'la(y'la(z'la!]'la#`'la~Og'la$O'la~P&5tOg(_q!](_q~P!1WO#`8VOg(_q!](_q~P!1WO!Y8WO~Og%Oq!]%Oq#`%Oq$O%Oq~P!1WOa$oy!]$oy'z$oy'w$oy!Y$oy!k$oyv$oy!_$oy%i$oy!g$oy~P!:tO!g6rO~O!]5[O!_)Qa~O!_'`OP$TaR$Ta[$Taj$Tar$Ta!Q$Ta!S$Ta!]$Ta!l$Ta!p$Ta#R$Ta#n$Ta#o$Ta#p$Ta#q$Ta#r$Ta#s$Ta#t$Ta#u$Ta#v$Ta#x$Ta#z$Ta#{$Ta(a$Ta(r$Ta(y$Ta(z$Ta~O%i7WO~P&8fO%^8[Oa%[i!_%[i'z%[i!]%[i~Oa#cy!]#cy'z#cy'w#cy!Y#cy!k#cyv#cy!_#cy%i#cy!g#cy~P!:tO[8^O~Ob8`O(T+qO(VTO(YUO~O!]1TO!^)Xi~O`8dO~O(e(|O!]'pX!^'pX~O!]5uO!^)Ua~O!^8nO~P%;eO(o!sO~P$&YO#[8oO~O!_1oO~O!_1oO%i8qO~On8tO!_1oO%i8qO~O[8yO!]'sa!^'sa~O!]1zO!^)Vi~O!k8}O~O!k9OO~O!k9RO~O!k9RO~P%[Oa9TO~O!g9UO~O!k9VO~O!](wi!^(wi~P#BwOa%nO#`9_O'z%nO~O!](ty!k(tya(ty'z(ty~P!:tO!](jO!k(sy~O%i9bO~P&8fO!_'`O%i9bO~O#k$|qP$|qR$|q[$|qa$|qj$|qr$|q!S$|q!]$|q!l$|q!p$|q#R$|q#n$|q#o$|q#p$|q#q$|q#r$|q#s$|q#t$|q#u$|q#v$|q#x$|q#z$|q#{$|q'z$|q(a$|q(r$|q!k$|q!Y$|q'w$|q#`$|qv$|q!_$|q%i$|q!g$|q~P#/sO#k'jaP'jaR'ja['jaa'jaj'jar'ja!S'ja!l'ja!p'ja#R'ja#n'ja#o'ja#p'ja#q'ja#r'ja#s'ja#t'ja#u'ja#v'ja#x'ja#z'ja#{'ja'z'ja(a'ja(r'ja!k'ja!Y'ja'w'jav'ja!_'ja%i'ja!g'ja~P&5RO#k'laP'laR'la['laa'laj'lar'la!S'la!l'la!p'la#R'la#n'la#o'la#p'la#q'la#r'la#s'la#t'la#u'la#v'la#x'la#z'la#{'la'z'la(a'la(r'la!k'la!Y'la'w'lav'la!_'la%i'la!g'la~P&5tO#k%OqP%OqR%Oq[%Oqa%Oqj%Oqr%Oq!S%Oq!]%Oq!l%Oq!p%Oq#R%Oq#n%Oq#o%Oq#p%Oq#q%Oq#r%Oq#s%Oq#t%Oq#u%Oq#v%Oq#x%Oq#z%Oq#{%Oq'z%Oq(a%Oq(r%Oq!k%Oq!Y%Oq'w%Oq#`%Oqv%Oq!_%Oq%i%Oq!g%Oq~P#/sO!]'Yi!k'Yi~P!:tO$O#cq!]#cq!^#cq~P#BwO(y$}OP%aaR%aa[%aaj%aar%aa!S%aa!l%aa!p%aa#R%aa#n%aa#o%aa#p%aa#q%aa#r%aa#s%aa#t%aa#u%aa#v%aa#x%aa#z%aa#{%aa$O%aa(a%aa(r%aa!]%aa!^%aa~On%aa!Q%aa'y%aa(z%aa~P&IyO(z%POP%caR%ca[%caj%car%ca!S%ca!l%ca!p%ca#R%ca#n%ca#o%ca#p%ca#q%ca#r%ca#s%ca#t%ca#u%ca#v%ca#x%ca#z%ca#{%ca$O%ca(a%ca(r%ca!]%ca!^%ca~On%ca!Q%ca'y%ca(y%ca~P&LQOn>^O!Q*OO'y*PO(z%PO~P&IyOn>^O!Q*OO'y*PO(y$}O~P&LQOR0kO!Q0kO!S0lO#S$dOP}a[}aj}an}ar}a!l}a!p}a#R}a#n}a#o}a#p}a#q}a#r}a#s}a#t}a#u}a#v}a#x}a#z}a#{}a$O}a'y}a(a}a(r}a(y}a(z}a!]}a!^}a~O!Q*OO'y*POP$saR$sa[$saj$san$sar$sa!S$sa!l$sa!p$sa#R$sa#n$sa#o$sa#p$sa#q$sa#r$sa#s$sa#t$sa#u$sa#v$sa#x$sa#z$sa#{$sa$O$sa(a$sa(r$sa(y$sa(z$sa!]$sa!^$sa~O!Q*OO'y*POP$uaR$ua[$uaj$uan$uar$ua!S$ua!l$ua!p$ua#R$ua#n$ua#o$ua#p$ua#q$ua#r$ua#s$ua#t$ua#u$ua#v$ua#x$ua#z$ua#{$ua$O$ua(a$ua(r$ua(y$ua(z$ua!]$ua!^$ua~On>^O!Q*OO'y*PO(y$}O(z%PO~OP%TaR%Ta[%Taj%Tar%Ta!S%Ta!l%Ta!p%Ta#R%Ta#n%Ta#o%Ta#p%Ta#q%Ta#r%Ta#s%Ta#t%Ta#u%Ta#v%Ta#x%Ta#z%Ta#{%Ta$O%Ta(a%Ta(r%Ta!]%Ta!^%Ta~P''VO$O$mq!]$mq!^$mq~P#BwO$O$oq!]$oq!^$oq~P#BwO!^9oO~O$O9pO~P!1WO!g#vO!]'ei!k'ei~O!g#vO(r'pO!]'ei!k'ei~O!]/pO!k)Oq~O!Y'gi!]'gi~P#/sO!]/yO!Y)Pq~Or9wO!g#vO(r'pO~O[9yO!Y9xO~P#/sO!Y9xO~Oj:PO!g#vO~Og(_y!](_y~P!1WO!]'na!_'na~P#/sOa%[q!_%[q'z%[q!]%[q~P#/sO[:UO~O!]1TO!^)Xq~O`:YO~O#`:ZO!]'pa!^'pa~O!]5uO!^)Ui~P#BwO!S:]O~O!_1oO%i:`O~O(VTO(YUO(e:eO~O!]1zO!^)Vq~O!k:hO~O!k:iO~O!k:jO~O!k:jO~P%[O#`:mO!]#hy!^#hy~O!]#hy!^#hy~P#BwO%i:rO~P&8fO!_'`O%i:rO~O$O#|y!]#|y!^#|y~P#BwOP$|iR$|i[$|ij$|ir$|i!S$|i!l$|i!p$|i#R$|i#n$|i#o$|i#p$|i#q$|i#r$|i#s$|i#t$|i#u$|i#v$|i#x$|i#z$|i#{$|i$O$|i(a$|i(r$|i!]$|i!^$|i~P''VO!Q*OO'y*PO(z%POP'iaR'ia['iaj'ian'iar'ia!S'ia!l'ia!p'ia#R'ia#n'ia#o'ia#p'ia#q'ia#r'ia#s'ia#t'ia#u'ia#v'ia#x'ia#z'ia#{'ia$O'ia(a'ia(r'ia(y'ia!]'ia!^'ia~O!Q*OO'y*POP'kaR'ka['kaj'kan'kar'ka!S'ka!l'ka!p'ka#R'ka#n'ka#o'ka#p'ka#q'ka#r'ka#s'ka#t'ka#u'ka#v'ka#x'ka#z'ka#{'ka$O'ka(a'ka(r'ka(y'ka(z'ka!]'ka!^'ka~O(y$}OP%aiR%ai[%aij%ain%air%ai!Q%ai!S%ai!l%ai!p%ai#R%ai#n%ai#o%ai#p%ai#q%ai#r%ai#s%ai#t%ai#u%ai#v%ai#x%ai#z%ai#{%ai$O%ai'y%ai(a%ai(r%ai(z%ai!]%ai!^%ai~O(z%POP%ciR%ci[%cij%cin%cir%ci!Q%ci!S%ci!l%ci!p%ci#R%ci#n%ci#o%ci#p%ci#q%ci#r%ci#s%ci#t%ci#u%ci#v%ci#x%ci#z%ci#{%ci$O%ci'y%ci(a%ci(r%ci(y%ci!]%ci!^%ci~O$O$oy!]$oy!^$oy~P#BwO$O#cy!]#cy!^#cy~P#BwO!g#vO!]'eq!k'eq~O!]/pO!k)Oy~O!Y'gq!]'gq~P#/sOr:|O!g#vO(r'pO~O[;QO!Y;PO~P#/sO!Y;PO~Og(_!R!](_!R~P!1WOa%[y!_%[y'z%[y!]%[y~P#/sO!]1TO!^)Xy~O!]5uO!^)Uq~O(T;XO~O!_1oO%i;[O~O!k;_O~O%i;dO~P&8fOP$|qR$|q[$|qj$|qr$|q!S$|q!l$|q!p$|q#R$|q#n$|q#o$|q#p$|q#q$|q#r$|q#s$|q#t$|q#u$|q#v$|q#x$|q#z$|q#{$|q$O$|q(a$|q(r$|q!]$|q!^$|q~P''VO!Q*OO'y*PO(z%POP'jaR'ja['jaj'jan'jar'ja!S'ja!l'ja!p'ja#R'ja#n'ja#o'ja#p'ja#q'ja#r'ja#s'ja#t'ja#u'ja#v'ja#x'ja#z'ja#{'ja$O'ja(a'ja(r'ja(y'ja!]'ja!^'ja~O!Q*OO'y*POP'laR'la['laj'lan'lar'la!S'la!l'la!p'la#R'la#n'la#o'la#p'la#q'la#r'la#s'la#t'la#u'la#v'la#x'la#z'la#{'la$O'la(a'la(r'la(y'la(z'la!]'la!^'la~OP%OqR%Oq[%Oqj%Oqr%Oq!S%Oq!l%Oq!p%Oq#R%Oq#n%Oq#o%Oq#p%Oq#q%Oq#r%Oq#s%Oq#t%Oq#u%Oq#v%Oq#x%Oq#z%Oq#{%Oq$O%Oq(a%Oq(r%Oq!]%Oq!^%Oq~P''VOg%e!Z!]%e!Z#`%e!Z$O%e!Z~P!1WO!Y;hO~P#/sOr;iO!g#vO(r'pO~O[;kO!Y;hO~P#/sO!]'pq!^'pq~P#BwO!]#h!Z!^#h!Z~P#BwO#k%e!ZP%e!ZR%e!Z[%e!Za%e!Zj%e!Zr%e!Z!S%e!Z!]%e!Z!l%e!Z!p%e!Z#R%e!Z#n%e!Z#o%e!Z#p%e!Z#q%e!Z#r%e!Z#s%e!Z#t%e!Z#u%e!Z#v%e!Z#x%e!Z#z%e!Z#{%e!Z'z%e!Z(a%e!Z(r%e!Z!k%e!Z!Y%e!Z'w%e!Z#`%e!Zv%e!Z!_%e!Z%i%e!Z!g%e!Z~P#/sOr;tO!g#vO(r'pO~O!Y;uO~P#/sOr;|O!g#vO(r'pO~O!Y;}O~P#/sOP%e!ZR%e!Z[%e!Zj%e!Zr%e!Z!S%e!Z!l%e!Z!p%e!Z#R%e!Z#n%e!Z#o%e!Z#p%e!Z#q%e!Z#r%e!Z#s%e!Z#t%e!Z#u%e!Z#v%e!Z#x%e!Z#z%e!Z#{%e!Z$O%e!Z(a%e!Z(r%e!Z!]%e!Z!^%e!Z~P''VOr<QO!g#vO(r'pO~Ov(fX~P1qO!Q%rO~P!)[O(U!lO~P!)[O!YfX!]fX#`fX~P%2OOP]XR]X[]Xj]Xr]X!Q]X!S]X!]]X!]fX!l]X!p]X#R]X#S]X#`]X#`fX#kfX#n]X#o]X#p]X#q]X#r]X#s]X#t]X#u]X#v]X#x]X#z]X#{]X$Q]X(a]X(r]X(y]X(z]X~O!gfX!k]X!kfX(rfX~P'LTOP<UOQ<UOSfOd>ROe!iOpkOr<UOskOtkOzkO|<UO!O<UO!SWO!WkO!XkO!_XO!i<XO!lZO!o<UO!p<UO!q<UO!s<YO!u<]O!x!hO$W!kO$n>PO(T)]O(VTO(YUO(aVO(o[O~O!]<iO!^$qa~Oh%VOp%WOr%XOs$tOt$tOz%YO|%ZO!O<tO!S${O!_$|O!i>WO!l$xO#j<zO$W%`O$t<vO$v<xO$y%aO(T(vO(VTO(YUO(a$uO(y$}O(z%PO~Ol)dO~P(!yOr!eX(r!eX~P#!iOr(jX(r(jX~P##[O!^]X!^fX~P'LTO!YfX!Y$zX!]fX!]$zX#`fX~P!0SO#k<^O~O!g#vO#k<^O~O#`<nO~Oj<bO~O#`=OO!](wX!^(wX~O#`<nO!](uX!^(uX~O#k=PO~Og=RO~P!1WO#k=XO~O#k=YO~Og=RO(T&ZO~O!g#vO#k=ZO~O!g#vO#k=PO~O$O=[O~P#BwO#k=]O~O#k=^O~O#k=cO~O#k=dO~O#k=eO~O#k=fO~O$O=gO~P!1WO$O=hO~P!1WOl=sO~P7eOk#S#T#U#W#X#[#i#j#u$n$t$v$y%]%^%h%i%j%q%s%v%w%y%{~(OT#o!X'|(U#ps#n#qr!Q'}$]'}(T$_(e~",
 		goto: "$9Y)]PPPPPP)^PP)aP)rP+W/]PPPP6mPP7TPP=QPPP@tPA^PA^PPPA^PCfPA^PA^PA^PCjPCoPD^PIWPPPI[PPPPI[L_PPPLeMVPI[PI[PP! eI[PPPI[PI[P!#lI[P!'S!(X!(bP!)U!)Y!)U!,gPPPPPPP!-W!(XPP!-h!/YP!2iI[I[!2n!5z!:h!:h!>gPPP!>oI[PPPPPPPPP!BOP!C]PPI[!DnPI[PI[I[I[I[I[PI[!FQP!I[P!LbP!Lf!Lp!Lt!LtP!IXP!Lx!LxP#!OP#!SI[PI[#!Y#%_CjA^PA^PA^A^P#&lA^A^#)OA^#+vA^#.SA^A^#.r#1W#1W#1]#1f#1W#1qPP#1WPA^#2ZA^#6YA^A^6mPPP#:_PPP#:x#:xP#:xP#;`#:xPP#;fP#;]P#;]#;y#;]#<e#<k#<n)aP#<q)aP#<z#<z#<zP)aP)aP)aP)aPP)aP#=Q#=TP#=T)aP#=XP#=[P)aP)aP)aP)aP)aP)a)aPP#=b#=h#=s#=y#>P#>V#>]#>k#>q#>{#?R#?]#?c#?s#?y#@k#@}#AT#AZ#Ai#BO#Cs#DR#DY#Et#FS#Gt#HS#HY#H`#Hf#Hp#Hv#H|#IW#Ij#IpPPPPPPPPPPP#IvPPPPPPP#Jk#Mx$ b$ i$ qPPP$']P$'f$*_$0x$0{$1O$1}$2Q$2X$2aP$2g$2jP$3W$3[$4S$5b$5g$5}PP$6S$6Y$6^$6a$6e$6i$7e$7|$8e$8i$8l$8o$8y$8|$9Q$9UR!|RoqOXst!Z#d%m&r&t&u&w,s,x2[2_Y!vQ'`-e1o5{Q%tvQ%|yQ&T|Q&j!VS'W!e-]Q'f!iS'l!r!yU*k$|*Z*oQ+o%}S+|&V&WQ,d&dQ-c'_Q-m'gQ-u'mQ0[*qQ1b,OQ1y,eR<{<Y%SdOPWXYZstuvw!Z!`!g!o#S#W#Z#d#o#u#x#{$O$P$Q$R$S$T$U$V$W$X$_$a$e%m%t&R&k&n&r&t&u&w&{'T'b'r(T(V(](d(x(z)O)}*i+X+],p,s,x-i-q.P.V.t.{/n0]0l0r1S1r2S2T2V2X2[2_2a3Q3W3l4z6T6e6f6i6|8t9T9_S#q]<V!r)_$Z$n'X)s-U-X/V2p4T5w6s:Z:m<U<X<Y<]<^<_<`<a<b<c<d<e<f<g<h<i<k<n<{=O=P=R=Z=[=e=f>SU+P%]<s<tQ+t&PQ,f&gQ,m&oQ0x+gQ0}+iQ1Y+uQ2R,kQ3`.gQ5`0|Q5f1TQ6[1zQ7Y3dQ8`5gR9e7['QkOPWXYZstuvw!Z!`!g!o#S#W#Z#d#o#u#x#{$O$P$Q$R$S$T$U$V$W$X$Z$_$a$e$n%m%t&R&k&n&o&r&t&u&w&{'T'X'b'r(T(V(](d(x(z)O)s)}*i+X+]+g,p,s,x-U-X-i-q.P.V.g.t.{/V/n0]0l0r1S1r2S2T2V2X2[2_2a2p3Q3W3d3l4T4z5w6T6e6f6i6s6|7[8t9T9_:Z:m<U<X<Y<]<^<_<`<a<b<c<d<e<f<g<h<i<k<n<{=O=P=R=Z=[=e=f>S!S!nQ!r!v!y!z$|'W'_'`'l'm'n*k*o*q*r-]-c-e-u0[0_1o5{5}%[$ti#v$b$c$d$x${%O%Q%^%_%c)y*R*T*V*Y*a*g*w*x+f+i,S,V.f/P/d/m/x/y/{0`0b0i0j0o1f1i1q3c4^4_4j4o5Q5[5_6S7W7v8Q8V8[8q9b9p9y:P:`:r;Q;[;d;k<l<m<o<p<q<r<u<v<w<x<y<z=S=T=U=V=X=Y=]=^=_=`=a=b=c=d=g=h>P>X>Y>]>^Q&X|Q'U!eS'[%i-`Q+t&PQ,P&WQ,f&gQ0n+SQ1Y+uQ1_+{Q2Q,jQ2R,kQ5f1TQ5o1aQ6[1zQ6_1|Q6`2PQ8`5gQ8c5lQ8|6bQ:X8dQ:f8yQ;V:YR<}*ZrnOXst!V!Z#d%m&i&r&t&u&w,s,x2[2_R,h&k&z^OPXYstuvwz!Z!`!g!j!o#S#d#o#u#x#{$O$P$Q$R$S$T$U$V$W$X$Z$_$a$e$n%m%t&R&k&n&o&r&t&u&w&{'T'b'r(V(](d(x(z)O)s)}*i+X+]+g,p,s,x-U-X-i-q.P.V.g.t.{/V/n0]0l0r1S1r2S2T2V2X2[2_2a2p3Q3W3d3l4T4z5w6T6e6f6i6s6|7[8t9T9_:Z:m<U<X<Y<]<^<_<`<a<b<c<d<e<f<g<h<i<k<n<{=O=P=R=Z=[=e=f>R>S[#]WZ#W#Z'X(T!b%jm#h#i#l$x%e%h(^(h(i(j*Y*^*b+Z+[+^,o-V.T.Z.[.]._/m/p2d3[3]4a6r7TQ%wxQ%{yW&Q|&V&W,OQ&_!TQ'c!hQ'e!iQ(q#sS+n%|%}Q+r&PQ,_&bQ,c&dS-l'f'gQ.i(rQ1R+oQ1X+uQ1Z+vQ1^+zQ1t,`S1x,d,eQ2|-mQ5e1TQ5i1WQ5n1`Q6Z1yQ8_5gQ8b5kQ8f5pQ:T8^R;T:U!U$zi$d%O%Q%^%_%c*R*T*a*w*x/P/x0`0b0i0j0o4_5Q8V9p>P>X>Y!^%yy!i!u%{%|%}'V'e'f'g'k'u*j+n+o-Y-l-m-t0R0U1R2u2|3T4r4s4v7}9{Q+h%wQ,T&[Q,W&]Q,b&dQ.h(qQ1s,_U1w,c,d,eQ3e.iQ6U1tS6Y1x1yQ8x6Z#f>T#v$b$c$x${)y*V*Y*g+f+i,S,V.f/d/m/y/{1f1i1q3c4^4j4o5[5_6S7W7v8Q8[8q9b9y:P:`:r;Q;[;d;k<o<q<u<w<y=S=U=X=]=_=a=c=g>]>^o>U<l<m<p<r<v<x<z=T=V=Y=^=`=b=d=hW%Ti%V*y>PS&[!Q&iQ&]!RQ&^!SU*}%[%d=sR,R&Y%]%Si#v$b$c$d$x${%O%Q%^%_%c)y*R*T*V*Y*a*g*w*x+f+i,S,V.f/P/d/m/x/y/{0`0b0i0j0o1f1i1q3c4^4_4j4o5Q5[5_6S7W7v8Q8V8[8q9b9p9y:P:`:r;Q;[;d;k<l<m<o<p<q<r<u<v<w<x<y<z=S=T=U=V=X=Y=]=^=_=`=a=b=c=d=g=h>P>X>Y>]>^T)z$u){V+P%]<s<tW'[!e%i*Z-`S(}#y#zQ+c%rQ+y&SS.b(m(nQ1j,XQ5T0kR8i5u'QkOPWXYZstuvw!Z!`!g!o#S#W#Z#d#o#u#x#{$O$P$Q$R$S$T$U$V$W$X$Z$_$a$e$n%m%t&R&k&n&o&r&t&u&w&{'T'X'b'r(T(V(](d(x(z)O)s)}*i+X+]+g,p,s,x-U-X-i-q.P.V.g.t.{/V/n0]0l0r1S1r2S2T2V2X2[2_2a2p3Q3W3d3l4T4z5w6T6e6f6i6s6|7[8t9T9_:Z:m<U<X<Y<]<^<_<`<a<b<c<d<e<f<g<h<i<k<n<{=O=P=R=Z=[=e=f>S$i$^c#Y#e%q%s%u(S(Y(t(y)R)S)T)U)V)W)X)Y)Z)[)^)`)b)g)q+d+x-Z-x-}.S.U.s.v.z.|.}/O/b0p2k2n3O3V3k3p3q3r3s3t3u3v3w3x3y3z3{3|4P4Q4X5X5c6u6{7Q7a7b7k7l8k9X9]9g9m9n:o;W;`<W=vT#TV#U'RkOPWXYZstuvw!Z!`!g!o#S#W#Z#d#o#u#x#{$O$P$Q$R$S$T$U$V$W$X$Z$_$a$e$n%m%t&R&k&n&o&r&t&u&w&{'T'X'b'r(T(V(](d(x(z)O)s)}*i+X+]+g,p,s,x-U-X-i-q.P.V.g.t.{/V/n0]0l0r1S1r2S2T2V2X2[2_2a2p3Q3W3d3l4T4z5w6T6e6f6i6s6|7[8t9T9_:Z:m<U<X<Y<]<^<_<`<a<b<c<d<e<f<g<h<i<k<n<{=O=P=R=Z=[=e=f>SQ'Y!eR2q-]!W!nQ!e!r!v!y!z$|'W'_'`'l'm'n*Z*k*o*q*r-]-c-e-u0[0_1o5{5}R1l,ZnqOXst!Z#d%m&r&t&u&w,s,x2[2_Q&y!^Q'v!xS(s#u<^Q+l%zQ,]&_Q,^&aQ-j'dQ-w'oS.r(x=PS0q+X=ZQ1P+mQ1n,[Q2c,zQ2e,{Q2m-WQ2z-kQ2}-oS5Y0r=eQ5a1QS5d1S=fQ6t2oQ6x2{Q6}3SQ8]5bQ9Y6vQ9Z6yQ9^7OR:l9V$d$]c#Y#e%s%u(S(Y(t(y)R)S)T)U)V)W)X)Y)Z)[)^)`)b)g)q+d+x-Z-x-}.S.U.s.v.z.}/O/b0p2k2n3O3V3k3p3q3r3s3t3u3v3w3x3y3z3{3|4P4Q4X5X5c6u6{7Q7a7b7k7l8k9X9]9g9m9n:o;W;`<W=vS(o#p'iQ)P#zS+b%q.|S.c(n(pR3^.d'QkOPWXYZstuvw!Z!`!g!o#S#W#Z#d#o#u#x#{$O$P$Q$R$S$T$U$V$W$X$Z$_$a$e$n%m%t&R&k&n&o&r&t&u&w&{'T'X'b'r(T(V(](d(x(z)O)s)}*i+X+]+g,p,s,x-U-X-i-q.P.V.g.t.{/V/n0]0l0r1S1r2S2T2V2X2[2_2a2p3Q3W3d3l4T4z5w6T6e6f6i6s6|7[8t9T9_:Z:m<U<X<Y<]<^<_<`<a<b<c<d<e<f<g<h<i<k<n<{=O=P=R=Z=[=e=f>SS#q]<VQ&t!XQ&u!YQ&w![Q&x!]R2Z,vQ'a!hQ+e%wQ-h'cS.e(q+hQ2x-gW3b.h.i0w0yQ6w2yW7U3_3a3e5^U9a7V7X7ZU:q9c9d9fS;b:p:sQ;p;cR;x;qU!wQ'`-eT5y1o5{!Q_OXZ`st!V!Z#d#h%e%m&i&k&r&t&u&w(j,s,x.[2[2_]!pQ!r'`-e1o5{T#q]<V%^{OPWXYZstuvw!Z!`!g!o#S#W#Z#d#o#u#x#{$O$P$Q$R$S$T$U$V$W$X$_$a$e%m%t&R&k&n&o&r&t&u&w&{'T'b'r(T(V(](d(x(z)O)}*i+X+]+g,p,s,x-i-q.P.V.g.t.{/n0]0l0r1S1r2S2T2V2X2[2_2a3Q3W3d3l4z6T6e6f6i6|7[8t9T9_S(}#y#zS.b(m(n!s=l$Z$n'X)s-U-X/V2p4T5w6s:Z:m<U<X<Y<]<^<_<`<a<b<c<d<e<f<g<h<i<k<n<{=O=P=R=Z=[=e=f>SU$fd)_,mS(p#p'iU*v%R(w4OU0m+O.n7gQ5^0xQ7V3`Q9d7YR:s9em!tQ!r!v!y!z'`'l'm'n-e-u1o5{5}Q't!uS(f#g2US-s'k'wQ/s*]Q0R*jQ3U-vQ4f/tQ4r0TQ4s0UQ4x0^Q7r4`S7}4t4vS8R4y4{Q9r7sQ9v7yQ9{8OQ:Q8TS:{9w9xS;g:|;PS;s;h;iS;{;t;uS<P;|;}R<S<QQ#wbQ's!uS(e#g2US(g#m+WQ+Y%fQ+j%xQ+p&OU-r'k't'wQ.W(fU/r*]*`/wQ0S*jQ0V*lQ1O+kQ1u,aS3R-s-vQ3Z.`S4e/s/tQ4n0PS4q0R0^Q4u0WQ6W1vQ7P3US7q4`4bQ7u4fU7|4r4x4{Q8P4wQ8v6XS9q7r7sQ9u7yQ9}8RQ:O8SQ:c8wQ:y9rS:z9v9xQ;S:QQ;^:dS;f:{;PS;r;g;hS;z;s;uS<O;{;}Q<R<PQ<T<SQ=o=jQ={=tR=|=uV!wQ'`-e%^aOPWXYZstuvw!Z!`!g!o#S#W#Z#d#o#u#x#{$O$P$Q$R$S$T$U$V$W$X$_$a$e%m%t&R&k&n&o&r&t&u&w&{'T'b'r(T(V(](d(x(z)O)}*i+X+]+g,p,s,x-i-q.P.V.g.t.{/n0]0l0r1S1r2S2T2V2X2[2_2a3Q3W3d3l4z6T6e6f6i6|7[8t9T9_S#wz!j!r=i$Z$n'X)s-U-X/V2p4T5w6s:Z:m<U<X<Y<]<^<_<`<a<b<c<d<e<f<g<h<i<k<n<{=O=P=R=Z=[=e=f>SR=o>R%^bOPWXYZstuvw!Z!`!g!o#S#W#Z#d#o#u#x#{$O$P$Q$R$S$T$U$V$W$X$_$a$e%m%t&R&k&n&o&r&t&u&w&{'T'b'r(T(V(](d(x(z)O)}*i+X+]+g,p,s,x-i-q.P.V.g.t.{/n0]0l0r1S1r2S2T2V2X2[2_2a3Q3W3d3l4z6T6e6f6i6|7[8t9T9_Q%fj!^%xy!i!u%{%|%}'V'e'f'g'k'u*j+n+o-Y-l-m-t0R0U1R2u2|3T4r4s4v7}9{S&Oz!jQ+k%yQ,a&dW1v,b,c,d,eU6X1w1x1yS8w6Y6ZQ:d8x!r=j$Z$n'X)s-U-X/V2p4T5w6s:Z:m<U<X<Y<]<^<_<`<a<b<c<d<e<f<g<h<i<k<n<{=O=P=R=Z=[=e=f>SQ=t>QR=u>R%QeOPXYstuvw!Z!`!g!o#S#d#o#u#x#{$O$P$Q$R$S$T$U$V$W$X$_$a$e%m%t&R&k&n&r&t&u&w&{'T'b'r(V(](d(x(z)O)}*i+X+]+g,p,s,x-i-q.P.V.g.t.{/n0]0l0r1S1r2S2T2V2X2[2_2a3Q3W3d3l4z6T6e6f6i6|7[8t9T9_Y#bWZ#W#Z(T!b%jm#h#i#l$x%e%h(^(h(i(j*Y*^*b+Z+[+^,o-V.T.Z.[.]._/m/p2d3[3]4a6r7TQ,n&o!p=k$Z$n)s-U-X/V2p4T5w6s:Z:m<U<X<Y<]<^<_<`<a<b<c<d<e<f<g<h<i<k<n<{=O=P=R=Z=[=e=f>SR=n'XU']!e%i*ZR2s-`%SdOPWXYZstuvw!Z!`!g!o#S#W#Z#d#o#u#x#{$O$P$Q$R$S$T$U$V$W$X$_$a$e%m%t&R&k&n&r&t&u&w&{'T'b'r(T(V(](d(x(z)O)}*i+X+],p,s,x-i-q.P.V.t.{/n0]0l0r1S1r2S2T2V2X2[2_2a3Q3W3l4z6T6e6f6i6|8t9T9_!r)_$Z$n'X)s-U-X/V2p4T5w6s:Z:m<U<X<Y<]<^<_<`<a<b<c<d<e<f<g<h<i<k<n<{=O=P=R=Z=[=e=f>SQ,m&oQ0x+gQ3`.gQ7Y3dR9e7[!b$Tc#Y%q(S(Y(t(y)Z)[)`)g+x-x-}.S.U.s.v/b0p3O3V3k3{5X5c6{7Q7a9]:o<W!P<d)^)q-Z.|2k2n3p3y3z4P4X6u7b7k7l8k9X9g9m9n;W;`=v!f$Vc#Y%q(S(Y(t(y)W)X)Z)[)`)g+x-x-}.S.U.s.v/b0p3O3V3k3{5X5c6{7Q7a9]:o<W!T<f)^)q-Z.|2k2n3p3v3w3y3z4P4X6u7b7k7l8k9X9g9m9n;W;`=v!^$Zc#Y%q(S(Y(t(y)`)g+x-x-}.S.U.s.v/b0p3O3V3k3{5X5c6{7Q7a9]:o<WQ4_/kz>S)^)q-Z.|2k2n3p4P4X6u7b7k7l8k9X9g9m9n;W;`=vQ>X>ZR>Y>['QkOPWXYZstuvw!Z!`!g!o#S#W#Z#d#o#u#x#{$O$P$Q$R$S$T$U$V$W$X$Z$_$a$e$n%m%t&R&k&n&o&r&t&u&w&{'T'X'b'r(T(V(](d(x(z)O)s)}*i+X+]+g,p,s,x-U-X-i-q.P.V.g.t.{/V/n0]0l0r1S1r2S2T2V2X2[2_2a2p3Q3W3d3l4T4z5w6T6e6f6i6s6|7[8t9T9_:Z:m<U<X<Y<]<^<_<`<a<b<c<d<e<f<g<h<i<k<n<{=O=P=R=Z=[=e=f>SS$oh$pR4U/U'XgOPWXYZhstuvw!Z!`!g!o#S#W#Z#d#o#u#x#{$O$P$Q$R$S$T$U$V$W$X$Z$_$a$e$n$p%m%t&R&k&n&o&r&t&u&w&{'T'X'b'r(T(V(](d(x(z)O)s)}*i+X+]+g,p,s,x-U-X-i-q.P.V.g.t.{/U/V/n0]0l0r1S1r2S2T2V2X2[2_2a2p3Q3W3d3l4T4z5w6T6e6f6i6s6|7[8t9T9_:Z:m<U<X<Y<]<^<_<`<a<b<c<d<e<f<g<h<i<k<n<{=O=P=R=Z=[=e=f>ST$kf$qQ$ifS)j$l)nR)v$qT$jf$qT)l$l)n'XhOPWXYZhstuvw!Z!`!g!o#S#W#Z#d#o#u#x#{$O$P$Q$R$S$T$U$V$W$X$Z$_$a$e$n$p%m%t&R&k&n&o&r&t&u&w&{'T'X'b'r(T(V(](d(x(z)O)s)}*i+X+]+g,p,s,x-U-X-i-q.P.V.g.t.{/U/V/n0]0l0r1S1r2S2T2V2X2[2_2a2p3Q3W3d3l4T4z5w6T6e6f6i6s6|7[8t9T9_:Z:m<U<X<Y<]<^<_<`<a<b<c<d<e<f<g<h<i<k<n<{=O=P=R=Z=[=e=f>ST$oh$pQ$rhR)u$p%^jOPWXYZstuvw!Z!`!g!o#S#W#Z#d#o#u#x#{$O$P$Q$R$S$T$U$V$W$X$_$a$e%m%t&R&k&n&o&r&t&u&w&{'T'b'r(T(V(](d(x(z)O)}*i+X+]+g,p,s,x-i-q.P.V.g.t.{/n0]0l0r1S1r2S2T2V2X2[2_2a3Q3W3d3l4z6T6e6f6i6|7[8t9T9_!s>Q$Z$n'X)s-U-X/V2p4T5w6s:Z:m<U<X<Y<]<^<_<`<a<b<c<d<e<f<g<h<i<k<n<{=O=P=R=Z=[=e=f>S#glOPXZst!Z!`!o#S#d#o#{$n%m&k&n&o&r&t&u&w&{'T'b)O)s*i+]+g,p,s,x-i.g/V/n0]0l1r2S2T2V2X2[2_2a3d4T4z6T6e6f6i7[8t9T!U%Ri$d%O%Q%^%_%c*R*T*a*w*x/P/x0`0b0i0j0o4_5Q8V9p>P>X>Y#f(w#v$b$c$x${)y*V*Y*g+f+i,S,V.f/d/m/y/{1f1i1q3c4^4j4o5[5_6S7W7v8Q8[8q9b9y:P:`:r;Q;[;d;k<o<q<u<w<y=S=U=X=]=_=a=c=g>]>^Q+T%aQ/c*Oo4O<l<m<p<r<v<x<z=T=V=Y=^=`=b=d=h!U$yi$d%O%Q%^%_%c*R*T*a*w*x/P/x0`0b0i0j0o4_5Q8V9p>P>X>YQ*c$zU*l$|*Z*oQ+U%bQ0W*m#f=q#v$b$c$x${)y*V*Y*g+f+i,S,V.f/d/m/y/{1f1i1q3c4^4j4o5[5_6S7W7v8Q8[8q9b9y:P:`:r;Q;[;d;k<o<q<u<w<y=S=U=X=]=_=a=c=g>]>^n=r<l<m<p<r<v<x<z=T=V=Y=^=`=b=d=hQ=w>TQ=x>UQ=y>VR=z>W!U%Ri$d%O%Q%^%_%c*R*T*a*w*x/P/x0`0b0i0j0o4_5Q8V9p>P>X>Y#f(w#v$b$c$x${)y*V*Y*g+f+i,S,V.f/d/m/y/{1f1i1q3c4^4j4o5[5_6S7W7v8Q8[8q9b9y:P:`:r;Q;[;d;k<o<q<u<w<y=S=U=X=]=_=a=c=g>]>^o4O<l<m<p<r<v<x<z=T=V=Y=^=`=b=d=hnoOXst!Z#d%m&r&t&u&w,s,x2[2_S*f${*YQ-R'OQ-S'QR4i/y%[%Si#v$b$c$d$x${%O%Q%^%_%c)y*R*T*V*Y*a*g*w*x+f+i,S,V.f/P/d/m/x/y/{0`0b0i0j0o1f1i1q3c4^4_4j4o5Q5[5_6S7W7v8Q8V8[8q9b9p9y:P:`:r;Q;[;d;k<l<m<o<p<q<r<u<v<w<x<y<z=S=T=U=V=X=Y=]=^=_=`=a=b=c=d=g=h>P>X>Y>]>^Q,U&]Q1h,WQ5s1gR8h5tV*n$|*Z*oU*n$|*Z*oT5z1o5{S0P*i/nQ4w0]T8S4z:]Q+j%xQ0V*lQ1O+kQ1u,aQ6W1vQ8v6XQ:c8wR;^:d!U%Oi$d%O%Q%^%_%c*R*T*a*w*x/P/x0`0b0i0j0o4_5Q8V9p>P>X>Yx*R$v)e*S*u+V/v0d0e4R4g5R5S5W7p8U:R:x=p=}>OS0`*t0a#f<o#v$b$c$x${)y*V*Y*g+f+i,S,V.f/d/m/y/{1f1i1q3c4^4j4o5[5_6S7W7v8Q8[8q9b9y:P:`:r;Q;[;d;k<o<q<u<w<y=S=U=X=]=_=a=c=g>]>^n<p<l<m<p<r<v<x<z=T=V=Y=^=`=b=d=h!d=S(u)c*[*e.j.m.q/_/k/|0v1e3h4[4h4l5r7]7`7w7z8X8Z9t9|:S:};R;e;j;v>Z>[`=T3}7c7f7j9h:t:w;yS=_.l3iT=`7e9k!U%Qi$d%O%Q%^%_%c*R*T*a*w*x/P/x0`0b0i0j0o4_5Q8V9p>P>X>Y|*T$v)e*U*t+V/g/v0d0e4R4g4|5R5S5W7p8U:R:x=p=}>OS0b*u0c#f<q#v$b$c$x${)y*V*Y*g+f+i,S,V.f/d/m/y/{1f1i1q3c4^4j4o5[5_6S7W7v8Q8[8q9b9y:P:`:r;Q;[;d;k<o<q<u<w<y=S=U=X=]=_=a=c=g>]>^n<r<l<m<p<r<v<x<z=T=V=Y=^=`=b=d=h!h=U(u)c*[*e.k.l.q/_/k/|0v1e3f3h4[4h4l5r7]7^7`7w7z8X8Z9t9|:S:};R;e;j;v>Z>[d=V3}7d7e7j9h9i:t:u:w;yS=a.m3jT=b7f9lrnOXst!V!Z#d%m&i&r&t&u&w,s,x2[2_Q&f!UR,p&ornOXst!V!Z#d%m&i&r&t&u&w,s,x2[2_R&f!UQ,Y&^R1d,RsnOXst!V!Z#d%m&i&r&t&u&w,s,x2[2_Q1p,_S6R1s1tU8p6P6Q6US:_8r8sS;Y:^:aQ;m;ZR;w;nQ&m!VR,i&iR6_1|R:f8yW&Q|&V&W,OR1Z+vQ&r!WR,s&sR,y&xT2],x2_R,}&yQ,|&yR2f,}Q'y!{R-y'ySsOtQ#dXT%ps#dQ#OTR'{#OQ#RUR'}#RQ){$uR/`){Q#UVR(Q#UQ#XWU(W#X(X.QQ(X#YR.Q(YQ-^'YR2r-^Q.u(yS3m.u3nR3n.vQ-e'`R2v-eY!rQ'`-e1o5{R'j!rQ/Q)eR4S/QU#_W%h*YU(_#_(`.RQ(`#`R.R(ZQ-a']R2t-at`OXst!V!Z#d%m&i&k&r&t&u&w,s,x2[2_S#hZ%eU#r`#h.[R.[(jQ(k#jQ.X(gW.a(k.X3X7RQ3X.YR7R3YQ)n$lR/W)nQ$phR)t$pQ$`cU)a$`-|<jQ-|<WR<j)qQ/q*]W4c/q4d7t9sU4d/r/s/tS7t4e4fR9s7u$e*Q$v(u)c)e*[*e*t*u+Q+R+V.l.m.o.p.q/_/g/i/k/v/|0d0e0v1e3f3g3h3}4R4[4g4h4l4|5O5R5S5W5r7]7^7_7`7e7f7h7i7j7p7w7z8U8X8Z9h9i9j9t9|:R:S:t:u:v:w:x:};R;e;j;v;y=p=}>O>Z>[Q/z*eU4k/z4m7xQ4m/|R7x4lS*o$|*ZR0Y*ox*S$v)e*t*u+V/v0d0e4R4g5R5S5W7p8U:R:x=p=}>O!d.j(u)c*[*e.l.m.q/_/k/|0v1e3h4[4h4l5r7]7`7w7z8X8Z9t9|:S:};R;e;j;v>Z>[U/h*S.j7ca7c3}7e7f7j9h:t:w;yQ0a*tQ3i.lU4}0a3i9kR9k7e|*U$v)e*t*u+V/g/v0d0e4R4g4|5R5S5W7p8U:R:x=p=}>O!h.k(u)c*[*e.l.m.q/_/k/|0v1e3f3h4[4h4l5r7]7^7`7w7z8X8Z9t9|:S:};R;e;j;v>Z>[U/j*U.k7de7d3}7e7f7j9h9i:t:u:w;yQ0c*uQ3j.mU5P0c3j9lR9l7fQ*z%UR0g*zQ5]0vR8Y5]Q+_%kR0u+_Q5v1jS8j5v:[R:[8kQ,[&_R1m,[Q5{1oR8m5{Q1{,fS6]1{8zR8z6_Q1U+rW5h1U5j8a:VQ5j1XQ8a5iR:V8bQ+w&QR1[+wQ2_,xR6m2_YrOXst#dQ&v!ZQ+a%mQ,r&rQ,t&tQ,u&uQ,w&wQ2Y,sS2],x2_R6l2[Q%opQ&z!_Q&}!aQ'P!bQ'R!cQ'q!uQ+`%lQ+l%zQ,Q&XQ,h&mQ-P&|W-p'k's't'wQ-w'oQ0X*nQ1P+mQ1c,PS2O,i,lQ2g-OQ2h-RQ2i-SQ2}-oW3P-r-s-v-xQ5a1QQ5m1_Q5q1eQ6V1uQ6a2QQ6k2ZU6z3O3R3UQ6}3SQ8]5bQ8e5oQ8g5rQ8l5zQ8u6WQ8{6`S9[6{7PQ9^7OQ:W8cQ:b8vQ:g8|Q:n9]Q;U:XQ;]:cQ;a:oQ;l;VR;o;^Q%zyQ'd!iQ'o!uU+m%{%|%}Q-W'VU-k'e'f'gS-o'k'uQ0Q*jS1Q+n+oQ2o-YS2{-l-mQ3S-tS4p0R0UQ5b1RQ6v2uQ6y2|Q7O3TU7{4r4s4vQ9z7}R;O9{S$wi>PR*{%VU%Ui%V>PR0f*yQ$viS(u#v+iS)c$b$cQ)e$dQ*[$xS*e${*YQ*t%OQ*u%QQ+Q%^Q+R%_Q+V%cQ.l<oQ.m<qQ.o<uQ.p<wQ.q<yQ/_)yQ/g*RQ/i*TQ/k*VQ/v*aS/|*g/mQ0d*wQ0e*xl0v+f,V.f1i1q3c6S7W8q9b:`:r;[;dQ1e,SQ3f=SQ3g=UQ3h=XS3}<l<mQ4R/PS4[/d4^Q4g/xQ4h/yQ4l/{Q4|0`Q5O0bQ5R0iQ5S0jQ5W0oQ5r1fQ7]=]Q7^=_Q7_=aQ7`=cQ7e<pQ7f<rQ7h<vQ7i<xQ7j<zQ7p4_Q7w4jQ7z4oQ8U5QQ8X5[Q8Z5_Q9h=YQ9i=TQ9j=VQ9t7vQ9|8QQ:R8VQ:S8[Q:t=^Q:u=`Q:v=bQ:w=dQ:x9pQ:}9yQ;R:PQ;e=gQ;j;QQ;v;kQ;y=hQ=p>PQ=}>XQ>O>YQ>Z>]R>[>^Q+O%]Q.n<sR7g<tnpOXst!Z#d%m&r&t&u&w,s,x2[2_Q!fPS#fZ#oQ&|!`W'h!o*i0]4zQ(P#SQ)Q#{Q)r$nS,l&k&nQ,q&oQ-O&{S-T'T/nQ-g'bQ.x)OQ/[)sQ0s+]Q0y+gQ2W,pQ2y-iQ3a.gQ4W/VQ5U0lQ6Q1rQ6c2SQ6d2TQ6h2VQ6j2XQ6o2aQ7Z3dQ7m4TQ8s6TQ9P6eQ9Q6fQ9S6iQ9f7[Q:a8tR:k9T#[cOPXZst!Z!`!o#d#o#{%m&k&n&o&r&t&u&w&{'T'b)O*i+]+g,p,s,x-i.g/n0]0l1r2S2T2V2X2[2_2a3d4z6T6e6f6i7[8t9TQ#YWQ#eYQ%quQ%svS%uw!gS(S#W(VQ(Y#ZQ(t#uQ(y#xQ)R$OQ)S$PQ)T$QQ)U$RQ)V$SQ)W$TQ)X$UQ)Y$VQ)Z$WQ)[$XQ)^$ZQ)`$_Q)b$aQ)g$eW)q$n)s/V4TQ+d%tQ+x&RS-Z'X2pQ-x'rS-}(T.PQ.S(]Q.U(dQ.s(xQ.v(zQ.z<UQ.|<XQ.}<YQ/O<]Q/b)}Q0p+XQ2k-UQ2n-XQ3O-qQ3V.VQ3k.tQ3p<^Q3q<_Q3r<`Q3s<aQ3t<bQ3u<cQ3v<dQ3w<eQ3x<fQ3y<gQ3z<hQ3{.{Q3|<kQ4P<nQ4Q<{Q4X<iQ5X0rQ5c1SQ6u=OQ6{3QQ7Q3WQ7a3lQ7b=PQ7k=RQ7l=ZQ8k5wQ9X6sQ9]6|Q9g=[Q9m=eQ9n=fQ:o9_Q;W:ZQ;`:mQ<W#SR=v>SR#[WR'Z!el!tQ!r!v!y!z'`'l'm'n-e-u1o5{5}S'V!e-]U*j$|*Z*oS-Y'W'_S0U*k*qQ0^*rQ2u-cQ4v0[R4{0_R({#xQ!fQT-d'`-e]!qQ!r'`-e1o5{Q#p]R'i<VR)f$dY!uQ'`-e1o5{Q'k!rS'u!v!yS'w!z5}S-t'l'mQ-v'nR3T-uT#kZ%eS#jZ%eS%km,oU(g#h#i#lS.Y(h(iQ.^(jQ0t+^Q3Y.ZU3Z.[.]._S7S3[3]R9`7Td#^W#W#Z%h(T(^*Y+Z.T/mr#gZm#h#i#l%e(h(i(j+^.Z.[.]._3[3]7TS*]$x*bQ/t*^Q2U,oQ2l-VQ4`/pQ6q2dQ7s4aQ9W6rT=m'X+[V#aW%h*YU#`W%h*YS(U#W(^U(Z#Z+Z/mS-['X+[T.O(T.TV'^!e%i*ZQ$lfR)x$qT)m$l)nR4V/UT*_$x*bT*h${*YQ0w+fQ1g,VQ3_.fQ5t1iQ6P1qQ7X3cQ8r6SQ9c7WQ:^8qQ:p9bQ;Z:`Q;c:rQ;n;[R;q;dnqOXst!Z#d%m&r&t&u&w,s,x2[2_Q&l!VR,h&itmOXst!U!V!Z#d%m&i&r&t&u&w,s,x2[2_R,o&oT%lm,oR1k,XR,g&gQ&U|S+}&V&WR1^,OR+s&PT&p!W&sT&q!W&sT2^,x2_",
 		nodeNames: `⚠ ArithOp ArithOp ?. JSXStartTag LineComment BlockComment Script Hashbang ExportDeclaration export Star as VariableName String Escape from ; default FunctionDeclaration async function VariableDefinition > < TypeParamList in out const TypeDefinition extends ThisType this LiteralType ArithOp Number BooleanLiteral TemplateType InterpolationEnd Interpolation InterpolationStart NullType null VoidType void TypeofType typeof MemberExpression . PropertyName [ TemplateString Escape Interpolation super RegExp ] ArrayExpression Spread , } { ObjectExpression Property async get set PropertyDefinition Block : NewTarget new NewExpression ) ( ArgList UnaryExpression delete LogicOp BitOp YieldExpression yield AwaitExpression await ParenthesizedExpression ClassExpression class ClassBody MethodDeclaration Decorator @ MemberExpression PrivatePropertyName CallExpression TypeArgList CompareOp < declare Privacy static abstract override PrivatePropertyDefinition PropertyDeclaration readonly accessor Optional TypeAnnotation Equals StaticBlock FunctionExpression ArrowFunction ParamList ParamList ArrayPattern ObjectPattern PatternProperty Privacy readonly Arrow MemberExpression BinaryExpression ArithOp ArithOp ArithOp ArithOp BitOp CompareOp instanceof satisfies CompareOp BitOp BitOp BitOp LogicOp LogicOp ConditionalExpression LogicOp LogicOp AssignmentExpression UpdateOp PostfixExpression CallExpression InstantiationExpression TaggedTemplateExpression DynamicImport import ImportMeta JSXElement JSXSelfCloseEndTag JSXSelfClosingTag JSXIdentifier JSXBuiltin JSXIdentifier JSXNamespacedName JSXMemberExpression JSXSpreadAttribute JSXAttribute JSXAttributeValue JSXEscape JSXEndTag JSXOpenTag JSXFragmentTag JSXText JSXEscape JSXStartCloseTag JSXCloseTag PrefixCast < ArrowFunction TypeParamList SequenceExpression InstantiationExpression KeyofType keyof UniqueType unique ImportType InferredType infer TypeName ParenthesizedType FunctionSignature ParamList NewSignature IndexedType TupleType Label ArrayType ReadonlyType ObjectType MethodType PropertyType IndexSignature PropertyDefinition CallSignature TypePredicate asserts is NewSignature new UnionType LogicOp IntersectionType LogicOp ConditionalType ParameterizedType ClassDeclaration abstract implements type VariableDeclaration let var using TypeAliasDeclaration InterfaceDeclaration interface EnumDeclaration enum EnumBody NamespaceDeclaration namespace module AmbientDeclaration declare GlobalDeclaration global ClassDeclaration ClassBody AmbientFunctionDeclaration ExportGroup VariableName VariableName ImportDeclaration defer ImportGroup ForStatement for ForSpec ForInSpec ForOfSpec of WhileStatement while WithStatement with DoStatement do IfStatement if else SwitchStatement switch SwitchBody CaseLabel case DefaultLabel TryStatement try CatchClause catch FinallyClause finally ReturnStatement return ThrowStatement throw BreakStatement break ContinueStatement continue DebuggerStatement debugger LabeledStatement ExpressionStatement SingleExpression SingleClassItem`,
 		maxTerm: 380,
@@ -169236,11 +169237,11 @@ function Ynt(e, t) {
 			return a == i
 				? ert(e, i, r.indexOf(i + i + i) > -1, n)
 				: Qnt(e, i, a, n.before || C8.before);
-		if (t == a && AxisAlignedBoundingBoxt(e, e.selection.main.from)) return $nt(e, i, a);
+		if (t == a && Xnt(e, e.selection.main.from)) return $nt(e, i, a);
 	}
 	return null;
 }
-function AxisAlignedBoundingBoxt(e, t) {
+function Xnt(e, t) {
 	let n = !1;
 	return (
 		e.field(Vnt).between(0, e.doc.length, (e) => {
@@ -169319,7 +169320,7 @@ function ert(e, t, n, r) {
 						effects: w8.of(o + t.length),
 						range: p2.cursor(o + t.length),
 					};
-				if (AxisAlignedBoundingBoxt(e, o)) {
+				if (Xnt(e, o)) {
 					let r =
 						n && e.sliceDoc(o, o + t.length * 3) == t + t + t ? t + t + t : t;
 					return {
@@ -169751,7 +169752,7 @@ function k8(e, t) {
 	};
 }
 var Art = k8(Irt, 0),
-	jrt = k8(Frt, 0),
+	AxisAlignedBoundingBoxt = k8(Frt, 0),
 	Mrt = k8((e, t) => Frt(e, t, Prt(t)), 0);
 function A8(e, t) {
 	let n = e.languageDataAt(`commentTokens`, t, 1);
@@ -170947,7 +170948,7 @@ var xat = ({ state: e, dispatch: t }) => {
 		{ key: `Shift-Mod-k`, run: gat },
 		{ key: `Shift-Mod-\\`, run: Sit },
 		{ key: `Mod-/`, run: krt },
-		{ key: `Alt-A`, run: jrt },
+		{ key: `Alt-A`, run: AxisAlignedBoundingBoxt },
 		{ key: `Ctrl-m`, mac: `Shift-Alt-m`, run: wat },
 	].concat(Eat),
 	Oat = { key: `Tab`, run: Sat, shift: Cat },
@@ -172883,7 +172884,7 @@ var Zot = X9e(Lot, { hideOn: Mot }),
 			info: `Runs when the planet world is saved to disk. Good for snapshotting live state into game.storage.`,
 		},
 	],
-	tst = ty.fflxeBGEmxwiKjozj(),
+	tst = ty.aCnwrcSOUpQZPlYwG(),
 	nst = [`arrow`, `boat`, `snowball`, `egg`],
 	N5 =
 		`explode.largeexplode.hugeexplosion.fireworksSpark.bubble.splash.crit.magicCrit.smoke.largesmoke.spell.instantSpell.mobSpell.witchMagic.dripWater.dripLava.angryVillager.happyVillager.note.portal.enchantmenttable.flame.lava.cloud.reddust.snowballpoof.slime.heart.barrier.droplet.take.mobappearance`.split(
@@ -174155,6 +174156,24 @@ var Cst = [
 			info: `The item the player is holding as {item,count,name,displayName,lore,enchants}, or null if empty.`,
 		},
 		{
+			label: `getOffhandItem`,
+			type: `method`,
+			detail: `()`,
+			info: `The item in the off-hand slot (same snapshot shape as getHeldItem), or null if empty.`,
+		},
+		{
+			label: `setOffhandItem`,
+			type: `method`,
+			detail: `(item?, count?, opts?)`,
+			info: `Put an item in the off-hand (opts like give). No args / null clears the slot.`,
+		},
+		{
+			label: `swapOffhand`,
+			type: `method`,
+			detail: `()`,
+			info: `Swap the held hotbar item with the off-hand (vanilla F). Returns the item now in the off-hand, or null.`,
+		},
+		{
 			label: `getInventory`,
 			type: `method`,
 			detail: `()`,
@@ -174212,13 +174231,13 @@ var Cst = [
 			label: `getItemData`,
 			type: `method`,
 			detail: `(slot, key)`,
-			info: `Read a small data field stored ON an item stack. slot: 0-35, "held", "head"/"chest"/"legs"/"feet".`,
+			info: `Read a small data field stored ON an item stack. slot: 0-35, "held", "offhand", "head"/"chest"/"legs"/"feet".`,
 		},
 		{
 			label: `setItemData`,
 			type: `method`,
 			detail: `(slot, key, value)`,
-			info: `Write a small JSON field (≤512B) on an item stack — persists with the item, syncs, drives HUD gauges (e.g. data.fuel = refueling).`,
+			info: `Write a small JSON field (≤512B) on an item stack — persists with the item, syncs, drives HUD gauges (e.g. data.fuel = refueling). slot: 0-35, "held", "offhand", armor names.`,
 		},
 		{ label: `id`, type: `property`, detail: `number`, info: `Entity id.` },
 		{ label: `name`, type: `property`, detail: `string`, info: `Username.` },
@@ -174816,7 +174835,7 @@ function nct(e) {
 async function rct(e) {
 	let { SCRIPT_API_REFERENCE: t } = await di(async () => {
 			let { SCRIPT_API_REFERENCE: e } = await import(
-				`./scriptApiReference.gen-DIYDXQuI.js`
+				`./scriptApiReference.gen-CYY1XNPB.js`
 			);
 			return { SCRIPT_API_REFERENCE: e };
 		}, []),
@@ -178058,7 +178077,7 @@ p.launch(look.x * 2, 0.4, look.z * 2);  // dash where they're facing — no trig
 				{
 					id: `inventory`,
 					title: `Inventory & items`,
-					keywords: `give clearInventory countItem removeItem getHeldItem getInventory getArmor custom item name lore enchants potion splash effects meta`,
+					keywords: `give clearInventory countItem removeItem getHeldItem getOffhandItem setOffhandItem swapOffhand getInventory getArmor custom item name lore enchants potion splash effects meta offhand`,
 					body: (0, W.jsxs)(W.Fragment, {
 						children: [
 							(0, W.jsxs)(U5, {
@@ -178119,6 +178138,33 @@ p.launch(look.x * 2, 0.4, look.z * 2);  // dash where they're facing — no trig
 										returns: `item | null`,
 										children: `The item in hand as a snapshot (see below).`,
 									}),
+									(0, W.jsxs)(H5, {
+										sig: `p.getOffhandItem()`,
+										returns: `item | null`,
+										children: [
+											`The item in the off-hand slot (same snapshot shape as `,
+											(0, W.jsx)(Q, { children: `getHeldItem` }),
+											`), or null if empty.`,
+										],
+									}),
+									(0, W.jsxs)(H5, {
+										sig: `p.setOffhandItem(item?, count?, opts?)`,
+										children: [
+											`Put an item in the off-hand. `,
+											(0, W.jsx)(Q, { children: `opts` }),
+											` is the same shape as `,
+											(0, W.jsx)(Q, { children: `give` }),
+											`. Call with no args (or`,
+											` `,
+											(0, W.jsx)(Q, { children: `null` }),
+											`) to clear the slot.`,
+										],
+									}),
+									(0, W.jsx)(H5, {
+										sig: `p.swapOffhand()`,
+										returns: `item | null`,
+										children: `Swap the held hotbar item with the off-hand (vanilla F). Returns the item now in the off-hand, or null.`,
+									}),
 									(0, W.jsx)(H5, {
 										sig: `p.getInventory()`,
 										returns: `(item | null)[36]`,
@@ -178159,6 +178205,9 @@ p.launch(look.x * 2, 0.4, look.z * 2);  // dash where they're facing — no trig
 											(0, W.jsx)(Q, { children: `0–35` }),
 											`, `,
 											(0, W.jsx)(Q, { children: `"held"` }),
+											`,`,
+											` `,
+											(0, W.jsx)(Q, { children: `"offhand"` }),
 											`, or an armor slot (`,
 											(0, W.jsx)(Q, {
 												children: `"head"/"chest"/"legs"/"feet"`,
@@ -178186,7 +178235,7 @@ p.launch(look.x * 2, 0.4, look.z * 2);  // dash where they're facing — no trig
 								children: [
 									`Every item a script sees — `,
 									(0, W.jsx)(Q, { children: `e.item` }),
-									` in events, held/inventory/armor reads — is the same plain object:`,
+									` in events, held/off-hand/inventory/armor reads — is the same plain object:`,
 								],
 							}),
 							(0, W.jsx)(R5, {
@@ -178250,8 +178299,11 @@ p.launch(look.x * 2, 0.4, look.z * 2);  // dash where they're facing — no trig
 									` in events, `,
 									(0, W.jsx)(Q, { children: `getHeldItem` }),
 									`, `,
-									(0, W.jsx)(Q, { children: `getInventory` }),
+									(0, W.jsx)(Q, { children: `getOffhandItem` }),
 									`, `,
+									(0, W.jsx)(Q, { children: `getInventory` }),
+									`,`,
+									` `,
 									(0, W.jsx)(Q, { children: `getArmor` }),
 									` — is the same plain snapshot. These are the only fields exposed; a stack's remaining durability, armor value, etc. are not in the snapshot (they live in the definition).`,
 								],
@@ -178376,7 +178428,7 @@ p.enchantItem(3, "unbreaking", 3);   // same, by inventory slot 0–35`,
 const left = p.getItemData("held", "charges") ?? 3;
 if (left <= 0) return p.sendMessage("Out of charges!");
 p.setItemData("held", "charges", left - 1);
-// slots: 0-35 main inventory · "held" · "head" / "chest" / "legs" / "feet" armor
+// slots: 0-35 main inventory · "held" · "offhand" · "head" / "chest" / "legs" / "feet" armor
 // value: any JSON ≤ 512 bytes · key ≤ 32 chars · setItemData(slot, key, null) clears it`,
 							}),
 							(0, W.jsxs)(B5, {
@@ -182662,11 +182714,11 @@ var Q5 = 320,
 		});
 	},
 	$5 = `modbuilder:preview`,
-	Gct = class extends zr {
+	Gct = class extends ir {
 		body = new yr();
 		skeleton = new yr();
 		neck = new yr();
-		headPivot = new zr();
+		headPivot = new ir();
 		leftShoulder = new yr();
 		rightShoulder = new yr();
 		leftHip = new yr();
@@ -182689,7 +182741,7 @@ var Q5 = 320,
 				(this.body = new yr()),
 				(this.skeleton = new yr()),
 				(this.neck = new yr()),
-				(this.headPivot = new zr()),
+				(this.headPivot = new ir()),
 				(this.leftShoulder = new yr()),
 				(this.rightShoulder = new yr()),
 				(this.leftHip = new yr()),
@@ -182699,10 +182751,10 @@ var Q5 = 320,
 	},
 	Kct = class {
 		renderer = null;
-		scene = new qr();
-		camera = new ur(40, 1, 0.01, 100);
+		scene = new Dr();
+		camera = new Gn(40, 1, 0.01, 100);
 		host = new Gct();
-		pivot = new zr();
+		pivot = new ir();
 		raf = 0;
 		disposed = !1;
 		buildGen = 0;
@@ -182719,7 +182771,7 @@ var Q5 = 320,
 						preserveDrawingBuffer: !0,
 					})),
 					this.renderer.setClearColor(0, 0),
-					(this.renderer.outputColorSpace = ui));
+					(this.renderer.outputColorSpace = qn));
 			else {
 				(this.renderer = new ti({
 					canvas: e,
@@ -182728,9 +182780,9 @@ var Q5 = 320,
 					preserveDrawingBuffer: !0,
 				})),
 					this.renderer.setClearColor(0, 0),
-					(this.renderer.outputColorSpace = ui),
+					(this.renderer.outputColorSpace = qn),
 					this.scene.add(new Or(16777215, 2));
-				let t = new Yn(16777215, 1);
+				let t = new ai(16777215, 1);
 				t.position.set(1.2, 1.6, 2),
 					this.scene.add(t),
 					this.scene.add(this.pivot),
@@ -182790,14 +182842,14 @@ var Q5 = 320,
 				this.camera.position.set(0.8, 1.2, 2.4), this.camera.lookAt(0, 1, 0);
 				return;
 			}
-			let t = new A();
+			let t = new k();
 			e.getCenter(t), this.host.position.sub(t);
-			let n = new ni();
+			let n = new Mr();
 			e.getBoundingSphere(n);
 			let r = Math.max(0.35, n.radius || 0.5),
 				i = (this.camera.fov * Math.PI) / 180,
 				a = (r / Math.sin(i / 2)) * 1.35,
-				o = new A(0.55, 0.4, 1).normalize();
+				o = new k(0.55, 0.4, 1).normalize();
 			this.camera.position.copy(o.multiplyScalar(a)),
 				(this.camera.near = Math.max(0.01, a - r * 3)),
 				(this.camera.far = a + r * 3),
@@ -188839,7 +188891,7 @@ var k7 = ({ world: e, isOpen: t, onClose: n, onSaved: r, initialTab: i }) => {
 				if (le) {
 					let e = tn(ce);
 					if (e) {
-						yn.error(
+						vn.error(
 							e === `empty`
 								? `Planet name cannot be empty`
 								: e === `tooLong`
@@ -188876,13 +188928,13 @@ var k7 = ({ world: e, isOpen: t, onClose: n, onSaved: r, initialTab: i }) => {
 					le &&
 						(await We.userRequest(`/worlds/rename`, { id: e.id, name: ce })),
 						await We.userRequest(`/worlds/update_settings`, t, g),
-						yn.success(
+						vn.success(
 							`Settings saved. They will apply the next time you load this planet.`,
 						),
 						r?.(),
 						n();
 				} catch (e) {
-					yn.showError(e);
+					vn.showError(e);
 				} finally {
 					g(!1);
 				}
@@ -188892,7 +188944,7 @@ var k7 = ({ world: e, isOpen: t, onClose: n, onSaved: r, initialTab: i }) => {
 					.then(() => {
 						r?.(), n();
 					})
-					.catch((e) => yn.showError(e));
+					.catch((e) => vn.showError(e));
 			},
 			he = [
 				{
@@ -189768,7 +189820,7 @@ function mut(e) {
 		: `other`;
 }
 var hut = `#aba9a5`,
-	gut = (e) => On[e] ?? hut,
+	gut = (e) => Dn[e] ?? hut,
 	_ut = {
 		good: {
 			chip: `rgba(47, 133, 90, 0.22)`,
@@ -191347,7 +191399,7 @@ var zut = ({ title: e, data: t, expanded: n, onToggle: r, playtime: i }) =>
 						c(!1), l();
 					}, 4e3),
 					await We.userRequest(`/worlds/stop`, { id: e.id }).catch(
-						yn.showError,
+						vn.showError,
 					);
 			};
 		return (0, W.jsxs)(E, {
@@ -193445,7 +193497,7 @@ var J7 = [
 	vdt = GX(function ({ compact: e = !1 }) {
 		let { profile: t } = (0, N.useContext)(Kq),
 			n = t?.username,
-			r = Vn(t?.rank),
+			r = Bn(t?.rank),
 			[i] = (0, N.useState)(() => _dt[Math.floor(Math.random() * _dt.length)]),
 			[a, o] = $Q(`miniblox:logoSkin`, 0),
 			s = J7[a] ?? J7[0];
@@ -197302,7 +197354,7 @@ function Aft() {
 var jft = `/textures/lootchest/0001.webp`,
 	Mft = s$(() =>
 		di(
-			() => import(`./AccountAvatarHead-DWa-nnDJ.js`),
+			() => import(`./AccountAvatarHead-QKVMuuak.js`),
 			__vite__mapDeps([6, 1, 0, 2, 3, 4]),
 		),
 	);
@@ -197947,9 +197999,9 @@ var Uft = ({
 				],
 			});
 		}
-		let y = Vn(o.rank),
+		let y = Bn(o.rank),
 			b = de(o.rank),
-			x = On[o.level],
+			x = Dn[o.level],
 			S = o.loginBonusClaimStreak,
 			C = o.username.length,
 			ee = C > 14 ? X.small : C > 10 ? X.body : X.subheading;
@@ -198450,31 +198502,31 @@ var Jft = `rgba(18, 18, 22, 0.97)`,
 	},
 	$ft = s$(() =>
 		di(
-			() => import(`./QuestsModal-CSKSXXsZ.js`),
+			() => import(`./QuestsModal-Dd-_MclK.js`),
 			__vite__mapDeps([7, 1, 0, 2, 3, 4, 8]),
 		),
 	),
 	ept = s$(() =>
 		di(
-			() => import(`./Leaderboards-DChW_oez.js`),
+			() => import(`./Leaderboards-DYWMSgCb.js`),
 			__vite__mapDeps([9, 1, 0, 2, 3, 4]),
 		),
 	),
 	tpt = s$(() =>
 		di(
-			() => import(`./ReportsModal-m50Ts4rj.js`),
+			() => import(`./ReportsModal-BnT32c8a.js`),
 			__vite__mapDeps([10, 1, 0, 2, 3, 4, 11]),
 		),
 	),
 	npt = s$(() =>
 		di(
-			() => import(`./NewsModal-D-ykeYZc.js`),
+			() => import(`./NewsModal-BzWNBnyS.js`),
 			__vite__mapDeps([12, 1, 0, 2, 3, 4, 11]),
 		),
 	),
 	rpt = s$(() =>
 		di(
-			() => import(`./MirrorsModal-DWCx0tZZ.js`),
+			() => import(`./MirrorsModal-Cr86L4MV.js`),
 			__vite__mapDeps([13, 1, 0, 2, 3, 4]),
 		),
 	);
@@ -199326,7 +199378,7 @@ var jpt = GX(function ({ leftOffset: e, hideMobileButton: t }) {
 										border: `none`,
 										_focus: { boxShadow: `none` },
 										textDecoration: `none`,
-										textShadow: Sn,
+										textShadow: xn,
 										outline: `none`,
 										color: `white`,
 										_placeholder: { color: `whiteAlpha.500` },
@@ -201432,7 +201484,7 @@ var umt = ({ isOpen: e, onClose: t, initialUsername: n, lockUsername: r }) => {
 													disabled: !C,
 													children: (0, W.jsx)(K, {
 														alignItems: `flex-start`,
-														children: Object.keys(Mn).map((e) =>
+														children: Object.keys(jn).map((e) =>
 															(0, W.jsxs)(
 																xge,
 																{
@@ -201440,7 +201492,7 @@ var umt = ({ isOpen: e, onClose: t, initialUsername: n, lockUsername: r }) => {
 																	children: [
 																		(0, W.jsx)(wge, {}),
 																		(0, W.jsx)(Cge, {}),
-																		(0, W.jsx)(Sge, { children: Mn[e] }),
+																		(0, W.jsx)(Sge, { children: jn[e] }),
 																	],
 																},
 																e,
@@ -204133,25 +204185,25 @@ var qmt = GX(function ({
 	}),
 	Jmt = s$(() =>
 		di(
-			() => import(`./Account-DpIYf2fS.js`),
+			() => import(`./Account-CIDj8yNc.js`),
 			__vite__mapDeps([14, 1, 0, 2, 3, 4, 15, 8, 16]),
 		),
 	),
 	Ymt = s$(() =>
 		di(
-			() => import(`./Shop-DwjhmKvb.js`),
+			() => import(`./Shop-BG8zEF7D.js`),
 			__vite__mapDeps([17, 1, 0, 2, 3, 4, 16]),
 		),
 	),
 	Xmt = s$(() =>
 		di(
-			() => import(`./Friends-BOJb0_lb.js`).then((e) => e.n),
+			() => import(`./Friends-DfcVWI1b.js`).then((e) => e.n),
 			__vite__mapDeps([18, 1, 0, 2, 3, 4]),
 		),
 	),
 	Zmt = s$(() =>
 		di(
-			() => import(`./SettingsModal-rmD4SyRt.js`).then((e) => e.n),
+			() => import(`./SettingsModal-CIygMbIM.js`).then((e) => e.n),
 			__vite__mapDeps([19, 1, 0, 2, 3, 4, 20]),
 		),
 	),
@@ -204490,40 +204542,40 @@ var qmt = GX(function ({
 	},
 	tht = s$(() =>
 		di(
-			() => import(`./GuiHud-7Uj3dDFk.js`),
+			() => import(`./GuiHud-DjW3Lr7S.js`),
 			__vite__mapDeps([21, 1, 2, 0, 3, 4, 18, 19, 20, 22, 15]),
 		),
 	),
 	nht = s$(() =>
 		di(
-			() => import(`./ReferralInvite-CPTjfxmQ.js`),
+			() => import(`./ReferralInvite-BCHVQJIo.js`),
 			__vite__mapDeps([23, 1, 0, 2, 3, 4]),
 		),
 	),
 	rht = s$(() => di(() => Promise.resolve().then(() => CXe), void 0)),
 	iht = s$(() =>
 		di(
-			() => import(`./EULA-Dlqe8bsa.js`),
+			() => import(`./EULA-MmsSjudj.js`),
 			__vite__mapDeps([24, 1, 0, 2, 3, 4]),
 		),
 	),
 	aht = s$(() =>
 		di(
-			() => import(`./Privacy-BXTuSOjM.js`),
+			() => import(`./Privacy-DOJiviv8.js`),
 			__vite__mapDeps([25, 1, 0, 2, 3, 4]),
 		),
 	),
 	oht = s$(() => di(() => Promise.resolve().then(() => _$e), void 0)),
 	sht = s$(() =>
 		di(
-			() => import(`./Rules-Cect7D_A.js`),
+			() => import(`./Rules-CHQY1pBe.js`),
 			__vite__mapDeps([26, 1, 0, 2, 3, 4]),
 		),
 	),
 	cht = s$(() => di(() => Promise.resolve().then(() => hct), void 0)),
 	lht = s$(() =>
 		di(
-			() => import(`./Tutorial-DIutmOyR.js`),
+			() => import(`./Tutorial-349hiZBu.js`),
 			__vite__mapDeps([27, 1, 0, 2, 3, 4]),
 		),
 	),
@@ -204895,7 +204947,7 @@ var _ht = class e {
 						});
 			}
 			let a = dF(r.rank),
-				o = r.rank ? Vn(r.rank) : `white`,
+				o = r.rank ? Bn(r.rank) : `white`,
 				s = `${a ? a + ` ` : ``}\\${o}\\${r.name}\\reset\\`;
 			$.chat.addChat({
 				text: `\\hotpink\\Whisper >\\reset\\ ${n ? `You → ${s}` : s}: ${e.text}`,
@@ -204994,7 +205046,7 @@ var _ht = class e {
 				}
 				if (!this.applyNextStep()) {
 					this.stop(),
-						yn.success(`Graphics set to the lowest preset for performance`);
+						vn.success(`Graphics set to the lowest preset for performance`);
 					return;
 				}
 				this.scheduleNextRound();
@@ -205005,7 +205057,7 @@ var _ht = class e {
 			if (!e) return !1;
 			e.changedRenderDistance && this.game.chunkRenderManager.reload();
 			let t = e.changedKeys.length ? ` (${e.changedKeys.join(`, `)})` : ``;
-			return T.info(`FPS optimiser: ${e.label}${t}`), yn.success(e.label), !0;
+			return T.info(`FPS optimiser: ${e.label}${t}`), vn.success(e.label), !0;
 		}
 	},
 	xht = class {
@@ -205075,7 +205127,7 @@ var Tht = class {
 				T.warn(
 					`Memory governor: emergency drop to low graphics (WebGL context lost or critical pressure)`,
 				),
-				yn.success(`Lowered graphics to free memory`),
+				vn.success(`Lowered graphics to free memory`),
 				NG(`emergency_low`, this.game.serverInfo?.serverCategory),
 				this.reloadChunksIfReady();
 		}
@@ -205113,7 +205165,7 @@ var Tht = class {
 			let n = t.changedKeys.length ? ` (${t.changedKeys.join(`, `)})` : ``;
 			return (
 				T.info(`Memory governor: ${t.label}${n}`),
-				yn.success(t.label),
+				vn.success(t.label),
 				NG(`governor_step`, this.game.serverInfo?.serverCategory),
 				!0
 			);
@@ -205219,7 +205271,7 @@ var Tht = class {
 		updateGraphs() {
 			e.fpsGraphUpdate && e.fpsGraphUpdate(this.instantFPS),
 				e.memoryGraphUpdate &&
-					e.memoryGraphUpdate(performance.memory.usedJSHeapSize / In);
+					e.memoryGraphUpdate(performance.memory.usedJSHeapSize / Fn);
 		}
 		recordPacketDecode(e, t, n) {
 			let r = t + n;
@@ -205642,7 +205694,7 @@ var Q9 = class e {
 				(Y.game = this),
 				(this.bootPromise ||= di(
 					async () => {
-						let { bootEngine: e } = await import(`./bootEngine-DGisgSoP.js`);
+						let { bootEngine: e } = await import(`./bootEngine-DMkuOKq7.js`);
 						return { bootEngine: e };
 					},
 					__vite__mapDeps([28, 0, 1, 2, 3, 4, 29, 22, 20, 30, 31]),
@@ -205768,14 +205820,14 @@ var Q9 = class e {
 			let t = Date.now(),
 				n = bKe(window.location.pathname);
 			n && (D.language.value = n),
-				Ln(D.language.value),
-				D.language.onChange((e) => Ln(e)),
+				In(D.language.value),
+				D.language.onChange((e) => In(e)),
 				e.isCrazyGames ||
 					window.addEventListener(`popstate`, () => {
 						let e = mht(window.location.pathname),
 							t = this.state === ij.IN_GAME;
 						t && this.serverInfo?.inviteCode && !e
-							? window.confirm(En.t(`gui.leaveGameConfirm`))
+							? window.confirm(Tn.t(`gui.leaveGameConfirm`))
 								? (this.disconnect(), jL.navigate(`/`))
 								: window.history.pushState(
 										{ joinPushed: !0 },
@@ -205878,9 +205930,9 @@ var Q9 = class e {
 					i = performance.now();
 				if (
 					(cV.measure(`frame`, `player.update`, () =>
-						Y.TmWwZymRvYgZ(this.delta),
+						Y.ZeImUTeNzKzn(this.delta),
 					),
-					cV.measure(`frame`, `entities.render`, () => wF.swHugAdtvqyJXc()),
+					cV.measure(`frame`, `entities.render`, () => wF.wvHuFpHpzYFtBn()),
 					KM.active ||
 						(cV.measure(`frame`, `tileEntities.render`, () =>
 							this.gameScene.tileEntityRenderer.renderTileEntities(),
@@ -205976,7 +206028,7 @@ var Q9 = class e {
 			) {
 				let n = e.MINIGAME_PARTY_CAPS[t];
 				if (n != null && this.party.members.length > n) {
-					yn.showError(
+					vn.showError(
 						`This game fits ${n} players — only a party of ${n} can queue it together. Slim the party down or pick another game.`,
 					);
 					return;
@@ -206008,7 +206060,7 @@ var Q9 = class e {
 							}));
 					})
 					.catch((e) => {
-						yn.showError(e),
+						vn.showError(e),
 							X$(),
 							this.inGame() ? jL.navigate(`/play`) : jL.navigate(`/`);
 					});
@@ -206088,7 +206140,7 @@ var Q9 = class e {
 					? `https://966152754886225980.discordsays.com`
 					: `https://${t}.servers.${gt}`,
 				l = n ? t : c;
-			if ((l.includes(`local`) && (l = zn), this.state >= ij.CONNECTING)) {
+			if ((l.includes(`local`) && (l = Rn), this.state >= ij.CONNECTING)) {
 				this.disconnect();
 				let e = Date.now() + 4e3;
 				for (; this.state !== ij.TITLE_SCREEN && Date.now() < e; )
@@ -206340,7 +206392,7 @@ var Q9 = class e {
 				fKe(),
 				D.preserveChatLog.value || this.chat.clear(),
 				this.chat.resetAutoComplete(),
-				yn.dismissAll(),
+				vn.dismissAll(),
 				(this.info.scoreboard = null),
 				(this.info.awaitingRespawn = !1),
 				(this.respawnWaitStartedAt = 0),
@@ -206434,7 +206486,7 @@ var Q9 = class e {
 				n.alreadyLive ? r() : setTimeout(r, 2e3);
 			} catch (e) {
 				T.error(e),
-					yn.showError(
+					vn.showError(
 						typeof e == `string`
 							? e
 							: `Couldn't open this planet. Please try again later.`,
@@ -206467,7 +206519,7 @@ var Q9 = class e {
 				i.alreadyLive ? a() : setTimeout(a, 2e3);
 			} catch (e) {
 				T.error(e),
-					yn.showError(
+					vn.showError(
 						`There are currently no servers available for your planet. Please try again later.`,
 					),
 					X$(),
@@ -206972,7 +207024,7 @@ export {
 	i4e as X,
 	Zz as Xa,
 	nY as Xi,
-	NZ as AxisAlignedBoundingBox,
+	NZ as Xn,
 	lj as Xo,
 	_Q as Xr,
 	V as Xs,
@@ -207088,7 +207140,7 @@ export {
 	QYe as ji,
 	bZ as jn,
 	Zje as jo,
-	aQ as jr,
+	aQ as AxisAlignedBoundingBox,
 	vx as js,
 	B1e as jt,
 	qft as k,
@@ -207234,4 +207286,4 @@ export {
 	qv as zs,
 	D$ as zt,
 };
-//# sourceMappingURL=index-8yBIq57V.js.map
+//# sourceMappingURL=index-BAckp37Q.js.map
